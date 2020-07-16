@@ -1,0 +1,15 @@
+{
+  "Primary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/629195178.json",
+  "Secondary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/580389105.json",
+  "conceptId": "074903117",
+  "Question Text": "What year were you diagnosed?",
+  "Variable Label": "Cancer Year",
+  "Variable Name": "RcrtUP_CancerYr_v1r0",
+  "Variable Type": "Year",
+  "Variable Length": "4",
+  "Format/Value": "yyyy",
+  "Required": "No",
+  "PII": "No",
+  "Questions/Notes": "Only shown if answer to RcrtUP_Cancer_v1r0 = 1",
+  "Source Question ": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/834885433.json"
+}
