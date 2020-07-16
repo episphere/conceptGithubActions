@@ -548,5 +548,3 @@ async function readFile(fileName){
 module.exports = {
     readFile:readFile
 }
-
-readFile('./csv/prelim.csv')
