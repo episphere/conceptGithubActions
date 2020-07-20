@@ -462,7 +462,7 @@ async function readFile(fileName){
     let sourceJSONS = []
     fs.readdirSync('./jsons/').forEach(file => {
         if(file.match(/[0-9]{9}.json/)){
-            let currFileContents = fs.readFileSync('./jsons/' + currFile );
+            let currFileContents = fs.readFileSync('./jsons/' + file);
             let currJSON = JSON.parse(currFileContents)
             sourceJSONS.push(currJSON);
         }
