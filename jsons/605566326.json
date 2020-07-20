@@ -1,0 +1,14 @@
+{
+  "Primary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/624939851.json",
+  "Secondary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/882470221.json",
+  "conceptId": "605566326",
+  "Question Text": "Derived variable for the time from sign-in to submission of consent as RcrtCS_ConsentSumit_v1r0 - RcrtSI_SignTime_v1r0",
+  "Variable Label": "Time from account to consent",
+  "Variable Name": "RcrtCT_Acct_Cnst_v1r0",
+  "Variable Type": "Minutes",
+  "Variable Length": "18",
+  "Format/Value": "N/A",
+  "Required": "Yes",
+  "PII": "No",
+  "Questions/Notes": "Can be further derived to other time units (e.g. hours + fractions of hours) or as multiple time variables (e.g. hours, minutes, and seconds)"
+}
