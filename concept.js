@@ -15,7 +15,7 @@ function getConceptIdIndex (header){
 
 function generateNine(){
     let a = ''
-    a += Math.floor(Math.random()*10 + 1)
+    a += Math.floor(Math.random()*9 + 1)
     for(let i = 1; i < 9; i++){
         let b = Math.floor(Math.random()*10)
         a += b
