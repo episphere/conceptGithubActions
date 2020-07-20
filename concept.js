@@ -460,6 +460,13 @@ async function getConceptIds(fileName){
 async function readFile(fileName){
     let jsonList = []
     let sourceJSONS = []
+    fs.readdirSync('./jsons/').forEach(file => {
+        if(file.match(/[0-9]{9}.json/)){
+            let currFileContents = fs.readFileSync('./jsons/' + currFile );
+            let currJSON = JSON.parse(currFileContents)
+            sourceJSONS.push(currJSON);
+        }
+    });
     let ConceptIndex = '{}'
     if(fs.existsSync('./jsons/varToConcept.json')){
         ConceptIndex = fs.readFileSync('./jsons/varToConcept.json', {encoding:'utf8'})
