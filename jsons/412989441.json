@@ -1,0 +1,18 @@
+{
+  "Primary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/406183407.json",
+  "Secondary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/290503228.json",
+  "conceptId": "412989441",
+  "Question Text": "I do not have a pin",
+  "Variable Label": "No PIN",
+  "Variable Name": "RcrtES_noPIN_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Questions/Notes": "Default is 0, RcrtES_noPIN_v1r0 equals 1 if ",
+  "undefined": "\"I do not have a PIN\"\" button selected\"",
+  "Format/Value": {
+    "366627912.json": "0",
+    "240839036.json": "1"
+  }
+}

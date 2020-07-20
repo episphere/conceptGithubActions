@@ -1,0 +1,18 @@
+{
+  "Primary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/406183407.json",
+  "Secondary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/1032094941.json",
+  "conceptId": "920060846",
+  "Question Text": "Indicator of match verification after creation of user profile - updated by sites",
+  "Variable Label": "Verification status",
+  "Variable Name": "RcrtV_Verification_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Questions/Notes": "Default, Not yet verified - 0, assigned at submission of  StudyIDs from sites for active recruits and when token is assigned from passive recruites.  Updates will be received from the sites as part of the verification table.",
+  "Format/Value": {
+    "175984661.json": "0",
+    "480232069.json": "1",
+    "518099889.json": "2"
+  }
+}
