@@ -1,0 +1,18 @@
+{
+  "Primary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/911043823.json",
+  "Secondary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/204034910.json",
+  "conceptId": "998808929",
+  "Question Text": "Site reported sex assigned at birth",
+  "Variable Label": "Site reported sex",
+  "Variable Name": "RcrtSI_Sex_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Questions/Notes": "Currently assume sites will send this info with the push of active recruits - Submit participant data API",
+  "Format/Value": {
+    "321754034.json": "0",
+    "555603985.json": "1",
+    "249514980.json": "2"
+  }
+}
