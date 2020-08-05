@@ -59,7 +59,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
     let firstRow = cluster[0]
     let clump = [];
     for(let i = 0; i < firstRow.length; i++){
-        if(firstRow[i] != "" && !nonEmpty.includes(i) || (conceptIdIndices.includes(i) && conceptIdObject[i] =="thisRowId")){
+        if((firstRow[i] != "" && !nonEmpty.includes(i) && !conceptIdIndices.includes(i)) || (conceptIdIndices.includes(i) && conceptIdObject[i] =="thisRowId")){
             firstRowJSON[header[i]] = firstRow[i]
         }
     }
@@ -462,11 +462,11 @@ async function readFile(fileName){
     let jsonList = []
     let sourceJSONS = []
     fs.readdirSync('./jsons/').forEach(file => {
-        if(file.match(/[0-9]{9}.json/)){
+        /*if(file.match(/[0-9]{9}.json/)){
             let currFileContents = fs.readFileSync('./jsons/' + file);
             let currJSON = JSON.parse(currFileContents)
             sourceJSONS.push(currJSON);
-        }
+        }*/
     });
     let ConceptIndex = '{}'
     if(fs.existsSync('./jsons/varToConcept.json')){
