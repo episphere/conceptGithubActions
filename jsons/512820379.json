@@ -9,8 +9,8 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Questions/Notes": "All Study IDs for which the sites have indicated they are actively recruiting will be flagged as 1.  Individuals with a token, but who are not being actively recruited are flagged as zero (default). All individuals who sign-in without a valid token or pin are flagged as 2. This should be triggered by a combination of sending the Study IDs to the",
-  "undefined": "\"Get Participant Token\"\" API and then sending the deidentified demographic information to the \"\"Submit participant data\"\" API.\"",
+  "Notes": "All Study IDs for which the sites have indicated they are actively recruiting will be flagged as 1.  This should be triggered by a combination of sending the Study IDs to the ",
+  "undefined": " but who are not being actively recruited are flagged as zero (default). All individuals who sign-in without a valid token or pin are flagged as 2. \"",
   "Format/Value": {
     "180583933.json": "0",
     "486306141.json": "1",
