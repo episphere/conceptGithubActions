@@ -1,4 +1,6 @@
 const fs = require('fs');
+
+//lets try reading the csv file first to see the order of the headers
 function getFiles(){
     let fileList = [];
     files = fs.readdirSync('./jsons');
@@ -111,10 +113,27 @@ function reverseRead(){
        
     }
 
+    let firstRow = ''
+    let firstRowSplit = [];
+    fs.readdirSync('./csv/').forEach(file => {
+        if(file.includes(".csv")){
+            let currCSVContents = fs.readFileSync('./csv/' + file);
+            firstRow = currCSVContents.substring(0,currCSVContents.indexOf('\n'))
+            firstRowSplit = CSVToArray(firstRow)
+        }
+    });
+
+
     let finalMatrix = []
     let finalHeader = []
     let finalConcepts = []
     let maxes = []
+    for(let i = 0; i < firstRowSplit.length; i++){
+        let head = firstRowSplit[i]
+        if(!head.includes('conceptId')){
+            finalHeader.push(head)
+        }
+    }
     //change to make it recursive
     for(let i = 0; i < clean.length; i ++){
         let conceptSeen = [jsonList[clean[i]]['conceptId']]
@@ -183,6 +202,8 @@ function reverseRead(){
     //reorder the finalHeader
     //console.log(finalConcepts)
     //try while organizing data: if key == subcollection, use single key from thing
+   
+    
     let first = false;
     for(let i = 0; i < finalHeader.length; i++){
         let found = false;
@@ -265,6 +286,31 @@ function reverseRead(){
     
     fs.writeFileSync('./csv/testOutput1.csv', toExcel)
 
+}
+
+function CSVToArray(strData){
+    strData = strData.trim();
+    let arr = [];
+    while(strData.indexOf(",") != -1 ){
+        let toPush = "";
+        if(strData.substring(0,1) == "\""){
+            strData = strData.substring(1);
+            toPush = strData.substring(0,  strData.indexOf("\""));    
+            strData = strData.substring(strData.indexOf("\"") + 1);    
+            strData = strData.substring(strData.indexOf(',')+1)
+        }
+        else{
+            toPush = strData.substring(0, strData.indexOf(','));
+            strData = strData.substring(strData.indexOf(',') + 1)
+        }
+        arr.push(toPush)
+
+        //let nextQuote = strData.indexOf("\"")
+    }
+    arr.push(strData);
+
+    // Return the parsed data.
+    return( arr );
 }
 
 
