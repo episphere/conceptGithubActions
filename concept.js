@@ -1,3 +1,4 @@
+//See if actions works on forks
 const fs = require('fs');
 const readline = require('readline')
 let conceptIdVariants = ["@id","conceptId"];
