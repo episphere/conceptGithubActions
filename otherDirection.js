@@ -117,8 +117,10 @@ function reverseRead(){
 
     let firstRow = ''
     let firstRowSplit = [];
+    let finalFileName = ''
     fs.readdirSync('./csv/').forEach(file => {
         if(file.includes(".csv")){
+            finalFileName = file;
             let currCSVContents = fs.readFileSync('./csv/' + file).toString('utf8');
             firstRow = currCSVContents.substring(0,currCSVContents.indexOf('\n'))
             firstRowSplit = CSVToArray(firstRow)
@@ -285,8 +287,13 @@ function reverseRead(){
 
     }    
         
+    if(finalFileame == ''){
+        fs.writeFileSync('./csv/output.csv', toExcel)
+    }
+    else{
+        fs.writeFileSync('./csv/' + finalFileNName, toExcel)
+    }
     
-    fs.writeFileSync('./csv/testOutput1.csv', toExcel)
 
 }
 
