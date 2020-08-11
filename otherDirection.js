@@ -119,7 +119,7 @@ function reverseRead(){
     let firstRowSplit = [];
     fs.readdirSync('./csv/').forEach(file => {
         if(file.includes(".csv")){
-            let currCSVContents = fs.readFileSync('./csv/' + file);
+            let currCSVContents = fs.readFileSync('./csv/' + file).toString('utf8');
             firstRow = currCSVContents.substring(0,currCSVContents.indexOf('\n'))
             firstRowSplit = CSVToArray(firstRow)
         }
