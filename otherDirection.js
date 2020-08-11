@@ -296,17 +296,30 @@ function reverseRead(){
     
 
 }
-
 function CSVToArray(strData){
     strData = strData.trim();
     let arr = [];
+    let finalPush = true;
     while(strData.indexOf(",") != -1 ){
         let toPush = "";
+        
         if(strData.substring(0,1) == "\""){
-            strData = strData.substring(1);
-            toPush = strData.substring(0,  strData.indexOf("\""));    
+            strData = strData.substring(1);            
+            let nextLook = strData.indexOf('\"\"')
+            
+            while(nextLook != -1){
+                console.log(nextLook)
+                toPush += strData.substring(0,nextLook) + '\"\"'
+                strData = strData.substring(strData.indexOf("\"\"") + 2);    
+                nextLook = strData.indexOf('\"\"')
+            }
+
+            toPush += strData.substring(0,  strData.indexOf("\""));    
             strData = strData.substring(strData.indexOf("\"") + 1);    
             strData = strData.substring(strData.indexOf(',')+1)
+            if(strData.trim() == ''){
+                finalPush = false
+            }
         }
         else{
             toPush = strData.substring(0, strData.indexOf(','));
@@ -316,12 +329,13 @@ function CSVToArray(strData){
 
         //let nextQuote = strData.indexOf("\"")
     }
-    arr.push(strData);
+    if(finalPush == true){
+        arr.push(strData);
+    }
 
     // Return the parsed data.
     return( arr );
 }
-
 
 function recurseRead(curr,final, key, conceptSeen, /*isSource,*/ depth){
     let keys = Object.keys(curr)
