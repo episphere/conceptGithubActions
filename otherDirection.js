@@ -101,8 +101,6 @@ function reverseRead(){
 
     let cIds = [];
     for(let i = 0; i < referenced.length; i++){
-        console.log(JSON.stringify(Object.keys(jsonList)))
-        console.log(referenced)
         if(!cIds.includes(jsonList[referenced[i]]['conceptId'])){
             cIds.push(jsonList[referenced[i]]['conceptId'])
         }
