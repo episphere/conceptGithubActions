@@ -287,7 +287,7 @@ function reverseRead(){
 
     }    
         
-    if(finalFileame == ''){
+    if(finalFileName == ''){
         fs.writeFileSync('./csv/output.csv', toExcel)
     }
     else{
@@ -324,7 +324,6 @@ function CSVToArray(strData){
 
 
 function recurseRead(curr,final, key, conceptSeen, /*isSource,*/ depth){
-    console.log(depth)
     let keys = Object.keys(curr)
     let toPrint = []
 
