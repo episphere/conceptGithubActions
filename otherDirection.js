@@ -291,7 +291,7 @@ function reverseRead(){
         fs.writeFileSync('./csv/output.csv', toExcel)
     }
     else{
-        fs.writeFileSync('./csv/' + finalFileNName, toExcel)
+        fs.writeFileSync('./csv/' + finalFileName, toExcel)
     }
     
 
