@@ -70,6 +70,7 @@ function reverseRead(){
             else if(typeof nextObj == 'string'){
                 if(nextObj.match(/[0-9]{9}.json/) != null){
                     let cId = nextObj.substring(0,9);
+                    console.log(cId)
                     currFile[keys[j]] = jsonList[jsonIndex[cId]];
                     if(!referenced.includes(jsonIndex[cId])){
                         referenced.push(jsonIndex[cId])
@@ -83,6 +84,7 @@ function reverseRead(){
                 for(let k = 0; k < currKeys.length; k++){
                     if(currKeys[k].match(/[0-9]{9}.json/)){
                         let cId = currKeys[k].substring(0,9);
+                        console.log(cId)
                         toReplace[nextObj[currKeys[k]]] = jsonList[jsonIndex[cId]];
                         if(!referenced.includes(jsonIndex[cId])){
                             referenced.push(jsonIndex[cId])
