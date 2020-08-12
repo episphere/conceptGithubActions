@@ -1,7 +1,7 @@
 {
   "Primary Source": "192505768.json",
   "Secondary Source": "332759827.json",
-  "conceptId_Question Text": "795827569",
+  "conceptId": "795827569",
   "Question Text": "Birth Day",
   "Variable Label": "Birth Day",
   "Variable Name": "RcrtUP_BD_v1r0",
@@ -10,8 +10,5 @@
   "Format/Value": "dd",
   "Required": "Yes",
   "PII": "Yes",
-  "Notes": "Variable will be populated by a drop down with values from 1 to 31.  DOB is being saved for the derived single date variable that will be created from MOB, BD and YOB.",
-  "conceptId": "795827569",
-  "conceptId_Primary Source": "814804921.json",
-  "conceptId_Secondary Source": "148263327.json"
+  "Notes": "Variable will be populated by a drop down with values from 1 to 31.  DOB is being saved for the derived single date variable that will be created from MOB, BD and YOB."
 }

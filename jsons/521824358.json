@@ -1,7 +1,7 @@
 {
   "Primary Source": "192505768.json",
   "Secondary Source": "332759827.json",
-  "conceptId_Question Text": "521824358",
+  "conceptId": "521824358",
   "Question Text": "Address line 1",
   "Variable Label": "Address line 1",
   "Variable Name": "RcrtUP_AddressLn1_v1r0",
@@ -10,8 +10,5 @@
   "Format/Value": "N/A",
   "Required": "Yes",
   "PII": "Yes",
-  "Notes": "Populated from Google Addresses",
-  "conceptId": "521824358",
-  "conceptId_Primary Source": "814804921.json",
-  "conceptId_Secondary Source": "148263327.json"
+  "Notes": "Populated from Google Addresses"
 }

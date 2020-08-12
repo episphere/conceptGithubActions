@@ -1,7 +1,7 @@
 {
   "Primary Source": "192505768.json",
   "Secondary Source": "332759827.json",
-  "conceptId_Question Text": "433333599",
+  "conceptId": "433333599",
   "Question Text": "Age derived from DOB at time of user profile completion for use by questionnaire Module 1.",
   "Variable Label": "User Profile derived age",
   "Variable Name": "age",
@@ -10,8 +10,5 @@
   "Format/Value": "N/A",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Modified to accommodate questionnaire Module 1 as info from this question is piped in for question text.",
-  "conceptId": "433333599",
-  "conceptId_Primary Source": "814804921.json",
-  "conceptId_Secondary Source": "148263327.json"
+  "Notes": "Modified to accommodate questionnaire Module 1 as info from this question is piped in for question text."
 }

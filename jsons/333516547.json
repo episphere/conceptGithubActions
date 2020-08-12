@@ -1,7 +1,7 @@
 {
   "Primary Source": "192505768.json",
   "Secondary Source": "332759827.json",
-  "conceptId_Question Text": "333516547",
+  "conceptId": "333516547",
   "Question Text": "First Name populated from RcrtUP_Fname_v1r0 for use in Module 1 of the questionnaire.",
   "Variable Label": "First Name",
   "Variable Name": "firstName",
@@ -10,8 +10,5 @@
   "Format/Value": "N/A",
   "Required": "Yes",
   "PII": "Yes",
-  "Notes": "Modified to accommodate questionnaire Module 1 as info from this question is piped in for question text.",
-  "conceptId": "333516547",
-  "conceptId_Primary Source": "814804921.json",
-  "conceptId_Secondary Source": "148263327.json"
+  "Notes": "Modified to accommodate questionnaire Module 1 as info from this question is piped in for question text."
 }

@@ -1,7 +1,7 @@
 {
   "Primary Source": "192505768.json",
   "Secondary Source": "332759827.json",
-  "conceptId_Question Text": "388711124",
+  "conceptId": "388711124",
   "Question Text": "Mobile phone",
   "Variable Label": "Mobile phone",
   "Variable Name": "RcrtUP_Mobile_v1r0",
@@ -10,8 +10,5 @@
   "Format/Value": "N/A",
   "Required": "Yes if no email",
   "PII": "Yes",
-  "Notes": "Type and length are based on a numbers only format, no dashes",
-  "conceptId": "388711124",
-  "conceptId_Primary Source": "814804921.json",
-  "conceptId_Secondary Source": "148263327.json"
+  "Notes": "Type and length are based on a numbers only format, no dashes"
 }

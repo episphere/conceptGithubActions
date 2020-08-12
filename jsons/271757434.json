@@ -1,7 +1,7 @@
 {
   "Primary Source": "192505768.json",
   "Secondary Source": "332759827.json",
-  "conceptId_Question Text": "271757434",
+  "conceptId": "271757434",
   "Question Text": "Can we leave voicemail at this number?",
   "Variable Label": "Mobile voicemail",
   "Variable Name": "RcrtUP_MobileVM_V1R0",
@@ -9,9 +9,6 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "conceptId": "271757434",
-  "conceptId_Primary Source": "814804921.json",
-  "conceptId_Secondary Source": "148263327.json",
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

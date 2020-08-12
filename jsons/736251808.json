@@ -1,7 +1,7 @@
 {
   "Primary Source": "192505768.json",
   "Secondary Source": "273437590.json",
-  "conceptId_Question Text": "736251808",
+  "conceptId": "736251808",
   "Question Text": "Last Name extracted from consent form",
   "Variable Label": "Last Name",
   "Variable Name": "RcrtCS_Lname_v1r0",
@@ -9,8 +9,5 @@
   "Variable Length": "50",
   "Format/Value": "N/A",
   "Required": "Yes",
-  "PII": "Yes",
-  "conceptId": "736251808",
-  "conceptId_Primary Source": "814804921.json",
-  "conceptId_Secondary Source": "969110107.json"
+  "PII": "Yes"
 }

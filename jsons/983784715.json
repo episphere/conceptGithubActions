@@ -1,7 +1,7 @@
 {
   "Primary Source": "192505768.json",
   "Secondary Source": "273437590.json",
-  "conceptId_Question Text": "983784715",
+  "conceptId": "983784715",
   "Question Text": "Witness First Name extracted from consent form",
   "Variable Label": "Witness First Name",
   "Variable Name": "RcrtCS_WFname_v1r0",
@@ -9,8 +9,5 @@
   "Variable Length": "50",
   "Format/Value": "N/A",
   "Required": " Yes - if RcrtCS_Version_v1r0 = 8",
-  "PII": "Yes",
-  "conceptId": "983784715",
-  "conceptId_Primary Source": "814804921.json",
-  "conceptId_Secondary Source": "969110107.json"
+  "PII": "Yes"
 }

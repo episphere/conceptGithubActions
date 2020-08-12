@@ -1,7 +1,7 @@
 {
   "Primary Source": "192505768.json",
   "Secondary Source": "332759827.json",
-  "conceptId_Question Text": "371067537",
+  "conceptId": "371067537",
   "Variable Label": "Date of Birth",
   "Variable Name": "RcrtUP_DOB_v1r0",
   "Variable Type": "Date",
@@ -9,9 +9,6 @@
   "Format/Value": "yyyymmdd",
   "Required": "Yes",
   "PII": "Yes",
-  "conceptId": "371067537",
-  "conceptId_Primary Source": "814804921.json",
-  "conceptId_Secondary Source": "148263327.json",
   "subcollection": [
     "774528369.json",
     "666756701.json",

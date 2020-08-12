@@ -1,7 +1,7 @@
 {
   "Primary Source": "192505768.json",
   "Secondary Source": "332759827.json",
-  "conceptId_Question Text": "996038075",
+  "conceptId": "996038075",
   "Question Text": "Last Name",
   "Variable Label": "Last Name",
   "Variable Name": "RcrtUP_Lname_v1r0",
@@ -10,8 +10,5 @@
   "Format/Value": "N/A",
   "Required": "Yes",
   "PII": "Yes",
-  "Notes": "Populated from RcrtCS_Lname_v1r0, but over written if changed by participant.",
-  "conceptId": "996038075",
-  "conceptId_Primary Source": "814804921.json",
-  "conceptId_Secondary Source": "148263327.json"
+  "Notes": "Populated from RcrtCS_Lname_v1r0, but over written if changed by participant."
 }

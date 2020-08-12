@@ -1,7 +1,7 @@
 {
   "Primary Source": "192505768.json",
   "Secondary Source": "332759827.json",
-  "conceptId_Question Text": "117249500",
+  "conceptId": "117249500",
   "Question Text": "Age derived from DOB at time of user profile completion.",
   "Variable Label": "User Profile derived age",
   "Variable Name": "RcrtUP_Age_v1r0",
@@ -9,8 +9,5 @@
   "Variable Length": "3",
   "Format/Value": "N/A",
   "Required": "Yes",
-  "PII": "No",
-  "conceptId": "117249500",
-  "conceptId_Primary Source": "814804921.json",
-  "conceptId_Secondary Source": "148263327.json"
+  "PII": "No"
 }
