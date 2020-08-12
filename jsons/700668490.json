@@ -1,7 +1,7 @@
 {
-  "Primary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/192505768.json",
-  "Secondary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/273437590.json",
-  "conceptId": "700668490",
+  "Primary Source": "192505768.json",
+  "Secondary Source": "273437590.json",
+  "conceptId_Question Text": "700668490",
   "Question Text": "Witness Last Name extracted from consent form",
   "Variable Label": "Witness Last Name",
   "Variable Name": "RcrtCS_WLname_v1r0",
@@ -9,5 +9,8 @@
   "Variable Length": "50",
   "Format/Value": "N/A",
   "Required": " Yes - if RcrtCS_Version_v1r0 = 8",
-  "PII": "Yes"
+  "PII": "Yes",
+  "conceptId": "700668490",
+  "conceptId_Primary Source": "814804921.json",
+  "conceptId_Secondary Source": "969110107.json"
 }

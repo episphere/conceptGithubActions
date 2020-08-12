@@ -1,7 +1,7 @@
 {
-  "Primary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/192505768.json",
-  "Secondary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/332759827.json",
-  "conceptId": "725797483",
+  "Primary Source": "192505768.json",
+  "Secondary Source": "332759827.json",
+  "conceptId_Question Text": "725797483",
   "Question Text": "Retype preferred Email",
   "Variable Label": "Confirmed email",
   "Variable Name": "RcrtUP_ConEmail_v1r0",
@@ -9,5 +9,8 @@
   "Variable Length": "120",
   "Format/Value": "N/A",
   "Required": "Yes if no phone",
-  "PII": "Yes"
+  "PII": "Yes",
+  "conceptId": "725797483",
+  "conceptId_Primary Source": "814804921.json",
+  "conceptId_Secondary Source": "148263327.json"
 }

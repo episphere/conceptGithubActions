@@ -1,7 +1,7 @@
 {
-  "Primary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/192505768.json",
-  "Secondary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/332759827.json",
-  "conceptId": "383945929",
+  "Primary Source": "192505768.json",
+  "Secondary Source": "332759827.json",
+  "conceptId_Question Text": "383945929",
   "Question Text": "What was your biological sex assigned at birth? Variable modified for reading into questionnaire Module 1.",
   "Variable Label": "Sex at birth",
   "Variable Name": "SEX",
@@ -10,6 +10,9 @@
   "Required": "Yes",
   "PII": "Yes",
   "Notes": "Modified to accommodate questionnaire Module 1 as info from this question is used for skip logic.",
+  "conceptId": "383945929",
+  "conceptId_Primary Source": "814804921.json",
+  "conceptId_Secondary Source": "148263327.json",
   "Format/Value": {
     "536341288.json": "2",
     "654207589.json": "1",

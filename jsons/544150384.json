@@ -1,7 +1,7 @@
 {
-  "Primary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/192505768.json",
-  "Secondary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/332759827.json",
-  "conceptId": "544150384",
+  "Primary Source": "192505768.json",
+  "Secondary Source": "332759827.json",
+  "conceptId_Question Text": "544150384",
   "Question Text": "Birth Year",
   "Variable Label": "Birth Year",
   "Variable Name": "RcrtUP_YOB_v1r0",
@@ -10,5 +10,8 @@
   "Format/Value": "yyyy ",
   "Required": "Yes ",
   "PII": "Yes",
-  "Notes": "Field will require a 4 digit response."
+  "Notes": "Field will require a 4 digit response.",
+  "conceptId": "544150384",
+  "conceptId_Primary Source": "814804921.json",
+  "conceptId_Secondary Source": "148263327.json"
 }

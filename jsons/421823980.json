@@ -1,7 +1,7 @@
 {
-  "Primary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/192505768.json",
-  "Secondary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/705748897.json",
-  "conceptId": "421823980",
+  "Primary Source": "192505768.json",
+  "Secondary Source": "705748897.json",
+  "conceptId_Question Text": "421823980",
   "Question Text": "Firebase authentication email",
   "Variable Label": "Account Email",
   "Variable Name": "email",
@@ -9,5 +9,8 @@
   "Variable Length": "120",
   "Format/Value": "N/A",
   "Required": "Yes if no phone",
-  "PII": "Yes"
+  "PII": "Yes",
+  "conceptId": "421823980",
+  "conceptId_Primary Source": "814804921.json",
+  "conceptId_Secondary Source": "177293217.json"
 }

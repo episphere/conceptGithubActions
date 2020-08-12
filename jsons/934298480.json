@@ -1,7 +1,7 @@
 {
-  "Primary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/192505768.json",
-  "Secondary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/883203566.json",
-  "conceptId": "934298480",
+  "Primary Source": "192505768.json",
+  "Secondary Source": "883203566.json",
+  "conceptId_Question Text": "934298480",
   "Question Text": "Site reported age at recruitment",
   "Variable Label": "Site reported age at recruitment",
   "Variable Name": "RcrtSI_Age_v1r0",
@@ -10,6 +10,9 @@
   "Required": "Yes ",
   "PII": "No",
   "Notes": " These are the most rolled up versions of the de-identified demographic variables the sites agreed to send, however,  other formats for this data (e.g. Age as a continuous variable) can be accepted.",
+  "conceptId": "934298480",
+  "conceptId_Primary Source": "814804921.json",
+  "conceptId_Secondary Source": "787995870.json",
   "Format/Value": {
     "124276120.json": "0",
     "450985724.json": "1",

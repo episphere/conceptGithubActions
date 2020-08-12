@@ -1,7 +1,7 @@
 {
-  "Primary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/192505768.json",
-  "Secondary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/332759827.json",
-  "conceptId": "869588347",
+  "Primary Source": "192505768.json",
+  "Secondary Source": "332759827.json",
+  "conceptId_Question Text": "869588347",
   "Question Text": "Preferred Email",
   "Variable Label": "Preferred email",
   "Variable Name": "RcrtUP_PreEmail_v1r0",
@@ -9,5 +9,8 @@
   "Variable Length": "120",
   "Format/Value": "N/A",
   "Required": "Yes if no phone",
-  "PII": "Yes"
+  "PII": "Yes",
+  "conceptId": "869588347",
+  "conceptId_Primary Source": "814804921.json",
+  "conceptId_Secondary Source": "148263327.json"
 }

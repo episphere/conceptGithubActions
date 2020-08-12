@@ -1,7 +1,7 @@
 {
-  "Primary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/192505768.json",
-  "Secondary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/332759827.json",
-  "conceptId": "564964481",
+  "Primary Source": "192505768.json",
+  "Secondary Source": "332759827.json",
+  "conceptId_Question Text": "564964481",
   "Question Text": "Birth Month",
   "Variable Label": "Birth Month",
   "Variable Name": "RcrtUP_MOB_v1r0",
@@ -10,5 +10,8 @@
   "Format/Value": "mm",
   "Required": "Yes",
   "PII": "Yes",
-  "Notes": "Variable will be populated by a drop down menu with values from 1 to 12"
+  "Notes": "Variable will be populated by a drop down menu with values from 1 to 12",
+  "conceptId": "564964481",
+  "conceptId_Primary Source": "814804921.json",
+  "conceptId_Secondary Source": "148263327.json"
 }

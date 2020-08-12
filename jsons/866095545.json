@@ -1,13 +1,16 @@
 {
-  "Primary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/192505768.json",
-  "Secondary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/273437590.json",
-  "conceptId": "866095545",
+  "Primary Source": "192505768.json",
+  "Secondary Source": "273437590.json",
+  "conceptId_Question Text": "866095545",
   "Question Text": "Consent acknowledgement",
   "Variable Label": "Consent acknowledgement",
   "Variable Name": "RcrtCS_acknowledge_v1r0",
   "Variable Type": "Num",
   "Variable Length": "1",
   "Notes": "Default equals 0, RcrtCS_acknowledge_v1r0 equals 1 after box checked",
+  "conceptId": "866095545",
+  "conceptId_Primary Source": "814804921.json",
+  "conceptId_Secondary Source": "969110107.json",
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
