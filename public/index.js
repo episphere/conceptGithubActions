@@ -80,12 +80,20 @@ const addEventSearchConcepts = (data) => {
             let obj = {};
             const localData = data;
             const values = Object.values(localData).filter(dt => new RegExp(value, 'i').test(dt) === true);
+            const keys = Object.keys(localData).filter(dt => new RegExp(value, 'i').test(dt) === true);
             
             values.forEach(v => {
                 const index = Object.values(localData).indexOf(v);
                 const key = Object.keys(localData)[index];
-                obj[key] = v.replace(new RegExp(value, 'ig'), '<b>$&</b>');
-            })
+                if(obj[key] === undefined) obj[key] = v.replace(new RegExp(value, 'ig'), '<b>$&</b>');
+            });
+
+            keys.forEach(k => {
+                const index = Object.keys(localData).indexOf(k);
+                const value = Object.values(localData)[index];
+                if(obj[k] === undefined) obj[k] = value;
+            });
+
             renderConcepts(obj);
         }
     })
