@@ -4,7 +4,6 @@ window.onload = async () => {
     const response = await fetch(`${api}varToConcept.json`)
     const concepts = await response.json();
     renderConcepts(concepts);
-    addEventTriggerCollapse();
     manageScroll();
     addEventSearchConcepts(concepts);
 }
@@ -32,6 +31,7 @@ const renderConcepts = (concepts) => {
     }
     template += '</div>'
     document.getElementById('conceptsDiv').innerHTML = template;
+    addEventTriggerCollapse();
 }
 
 const addEventTriggerCollapse = () => {
