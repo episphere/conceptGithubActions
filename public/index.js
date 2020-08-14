@@ -1,13 +1,18 @@
 const api = 'https://raw.githubusercontent.com/episphere/conceptGithubActions/master/jsons/';
 
-window.onload = () => {
-    renderConcepts();
-}
-
-const renderConcepts = async () => {
+window.onload = async () => {
     const response = await fetch(`${api}varToConcept.json`)
     const concepts = await response.json();
-    let template = '<div class="accordion" id="accordionExample">';
+    renderConcepts(concepts);
+    addEventTriggerCollapse();
+    manageScroll();
+    addEventSearchConcepts(concepts);
+}
+
+const renderConcepts = (concepts) => {
+    let template = ``
+
+    template += '<div class="accordion" id="accordionExample">';
     for(let key in concepts) {
         template += `
         <div class="card">
@@ -26,9 +31,7 @@ const renderConcepts = async () => {
         `
     }
     template += '</div>'
-    document.getElementById('root').innerHTML = template;
-    addEventTriggerCollapse();
-    manageScroll();
+    document.getElementById('conceptsDiv').innerHTML = template;
 }
 
 const addEventTriggerCollapse = () => {
@@ -61,6 +64,29 @@ const addEventTriggerCollapse = () => {
 
 const manageScroll = () => {
     const hash = location.hash;
+    if(!hash) return;
     const element = document.getElementById(hash.replace('#', 'heading'));
     element.scrollIntoView();
+}
+
+const addEventSearchConcepts = (data) => {
+    const input = document.getElementById('searchConcepts');
+    input.addEventListener('keyup', () => {
+        const value = input.value.trim();
+        if(!value || value.length < 2) {
+            renderConcepts(data);
+        }
+        else {
+            let obj = {};
+            const localData = data;
+            const values = Object.values(localData).filter(dt => new RegExp(value, 'i').test(dt) === true);
+            
+            values.forEach(v => {
+                const index = Object.values(localData).indexOf(v);
+                const key = Object.keys(localData)[index];
+                obj[key] = v.replace(new RegExp(value, 'ig'), '<b>$&</b>');
+            })
+            renderConcepts(obj);
+        }
+    })
 }
