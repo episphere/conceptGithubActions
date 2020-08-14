@@ -13,17 +13,18 @@ const renderConcepts = (concepts) => {
 
     template += '<div class="accordion" id="accordionExample">';
     for(let key in concepts) {
+        const conceptId = concepts[key].replace('<b>', '').replace('</b>', '');
         template += `
         <div class="card">
-            <div class="card-header" id="heading${concepts[key]}">
-                <a class="btn btn-link collapsable-btn" href="#${concepts[key]}" role="button" data-toggle="collapse" data-target="#id${concepts[key]}" aria-expanded="true" aria-controls="id${concepts[key]}">
+            <div class="card-header" id="heading${conceptId}">
+                <a class="btn btn-link collapsable-btn" href="#${conceptId}" role="button" data-toggle="collapse" data-target="#${conceptId}" aria-expanded="true" aria-controls="${conceptId}">
                     <div class="row">
                         <div class="col">${concepts[key]}</div>
                         <div class="ml-auto">${key}</div>
                     </div>
                 </a>
             </div>
-            <div id="id${concepts[key]}" class="collapse" aria-labelledby="heading${concepts[key]}" data-parent="#accordionExample">
+            <div id="${conceptId}" class="collapse" aria-labelledby="heading${conceptId}" data-parent="#accordionExample">
                 <div class="card-body"></div>
             </div>
         </div>
@@ -43,7 +44,7 @@ const addEventTriggerCollapse = () => {
             else {
                 let template = '';
                 const cardBody = element.querySelectorAll('[class="card-body"]')[0];
-                const response = await fetch(`${api}${element.id.replace('id', '')}.json`)
+                const response = await fetch(`${api}${element.id}.json`)
                 const data = await response.json();
                 for(let key in data) {
                     template += `<div><strong>${key}: </strong>&nbsp;`
