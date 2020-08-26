@@ -9,9 +9,9 @@ for(let i = 0; i < files.length; i++){
     let file = files[i]
     if(file.indexOf('.csv') != -1){
         const fs = require('fs');
-        fs.readdirSync('./json/').forEach(file => {
+        fs.readdirSync('./jsons/').forEach(file => {
             if(file.includes('.json')){
-                fs.unlink('./json/' + file, (err) => {
+                fs.unlink('./jsons/' + file, (err) => {
                     if(err){
                         console.error(err)
                         return
