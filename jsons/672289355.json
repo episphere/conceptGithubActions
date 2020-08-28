@@ -1,0 +1,15 @@
+{
+  "Primary Source": "192505768.json",
+  "Secondary Source": "883203566.json",
+  "conceptId": "672289355",
+  "Question Text": "IHCS Membership Status",
+  "Variable Label": "IHCS Membership Status",
+  "Variable Name": "RcrtSI_MemberStat_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Notes": "Sent with de-identified individual demographic variables when participants moved from Eligibility pool to active recruits with submitParticipantsData API call.",
+  "Format/Value": {
+    "215840486.json": "0",
+    "834989275.json": "1"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "Primary Source": "192505768.json",
+  "Secondary Source": "332759827.json",
+  "conceptId": "383945929",
+  "Question Text": "What was your biological sex assigned at birth? Variable modified for reading into questionnaire Module 1.",
+  "Variable Label": "Sex at birth",
+  "Variable Name": "SEX",
+  "Variable Type": "Char",
+  "Variable Length": "2",
+  "Required": "Yes",
+  "PII": "Yes",
+  "Notes": "Additional alternative variable created to accommodate questionnaire Module 1 as info from this question is piped in for question text. Additional variable will be populated from RcrtUP_BirthSex_v1r0.",
+  "Format/Value": {
+    "536341288.json": "2",
+    "654207589.json": "1",
+    "576796184.json": "3"
+  }
+}

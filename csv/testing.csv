@@ -10,38 +10,38 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question ,c
 ,,,,,,,,,,,,771230670,4 = 61-65,,,
 192505768,Recruitment,883203566,Sign in,,,849518448,Site reported race/ethnicity,Site reported race/ethnicity,RcrtSI_Race_v1r0,Num,1,768826601,"0 = White, Non-Hispanic",Yes,No,
 ,,,,,,,,,,,,438483626,55 = Other,,,
-,Recruitment,,Sign in,,,,Sanford Health Reported Race,Sanford Health Reported Race,RcrtSI_SHRace_v1r0,Num,2,,0=African American/Black,For Sanford Health,No,
-,,,,,,,,,,,,,1=American Indian or Alaskan Native,,,
-,,,,,,,,,,,,,2=Asian,,,
-,,,,,,,,,,,,,3=Caucasian/White,,,
-,,,,,,,,,,,,,4=Hispanic/Latino/Black,,,
-,,,,,,,,,,,,,5=Hispanic/Latino/Declined,,,
-,,,,,,,,,,,,,6=Hispanic/Latino/White,,,
-,,,,,,,,,,,,,7=Native Hawaiian,,,
-,,,,,,,,,,,,,8=Native Hawaiian/Pacific Islander,,,
-,,,,,,,,,,,,,9=Pacific Islander,,,
-,,,,,,,,,,,,,66=Blank,,,
-,,,,,,,,,,,,,99=Declined,,,
-,,,,,,,,,,,,,77=Unavailable/Unknown,,,
-,Recruitment,,Sign in,,,,Sanford Health Reported Ethnicity,Sanford Health Reported Ethnicity,RcrtSI_SHEthnicity_v1r0,Num,1,,0=Hispanic or Latino,For Sanford Health,No,
-,,,,,,,,,,,,,1=Not Hispanic or Latino,,,
-,,,,,,,,,,,,,66=Blank,,,
-,,,,,,,,,,,,,99=Declined,,,
-,,,,,,,,,,,,,77=Unavailable/Unknown,,,
+192505768,Recruitment,883203566,Sign in,,,674980654,Sanford Health Reported Race,Sanford Health Reported Race,RcrtSI_SHRace_v1r0,Num,2,806115697,0=African American/Black,For Sanford Health,No,
+,,,,,,,,,,,,497641199,1=American Indian or Alaskan Native,,,
+,,,,,,,,,,,,654930312,2=Asian,,,
+,,,,,,,,,,,,579403332,3=Caucasian/White,,,
+,,,,,,,,,,,,560522120,4=Hispanic/Latino/Black,,,
+,,,,,,,,,,,,936813770,5=Hispanic/Latino/Declined,,,
+,,,,,,,,,,,,396617263,6=Hispanic/Latino/White,,,
+,,,,,,,,,,,,879562012,7=Native Hawaiian,,,
+,,,,,,,,,,,,530124761,8=Native Hawaiian/Pacific Islander,,,
+,,,,,,,,,,,,647894753,9=Pacific Islander,,,
+,,,,,,,,,,,,233617467,66=Blank,,,
+,,,,,,,,,,,,844616867,99=Declined,,,
+,,,,,,,,,,,,452091361,77=Unavailable/Unknown,,,
+192505768,Recruitment,883203566,Sign in,,,297793675,Sanford Health Reported Ethnicity,Sanford Health Reported Ethnicity,RcrtSI_SHEthnicity_v1r0,Num,1,194031091,0=Hispanic or Latino,For Sanford Health,No,
+,,,,,,,,,,,,580662365,1=Not Hispanic or Latino,,,
+,,,,,,,,,,,,233617467,66=Blank,,,
+,,,,,,,,,,,,844616867,99=Declined,,,
+,,,,,,,,,,,,452091361,77=Unavailable/Unknown,,,
 192505768,Recruitment,883203566,Sign in,,,706256705,Site reported sex assigned at birth,Site reported sex,RcrtSI_Sex_v1r0,Num,1,536341288,0 = Female,Yes,No,
 ,,,,,,,,,,,,654207589,1 = Male,,,
 ,,,,,,,,,,,,830573274,2 = intersex or other,,,
-,Recruitment,,Sign in,,,,Eligibility algorithm version,Eligibility algorithm version,RcrtSI_EligibilityVer_v1r0,Char,25,,N/A,Yes,No,Version of the algorithm use to select the pool of eligible participants that the active recruit is selected from. Sent with de-identified individual demographic variables when participants moved from Eligibility pool to active recruits with submitParticipantsData API call.
-,Recruitment,,Sign in,,,,IHCS Membership Status,IHCS Membership Status,RcrtSI_MemberStat_v1r0,Num,1,,0=Member of IHCS Health Plan,,,Sent with de-identified individual demographic variables when participants moved from Eligibility pool to active recruits with submitParticipantsData API call.
-,,,,,,,,,,,,,1=Non-Member IHCS Patient,,,
-,Recruitment,,Sign in,,,,Target Type,Target Type,RcrtSI_TargetType_v1r0,Num,1,,0=Random,,,Sent with de-identified individual demographic variables when participants moved from Eligibility pool to active recruits with submitParticipantsData API call.
-,,,,,,,,,,,,,1=Screening appointment,,,
-,,,,,,,,,,,,,2=Well visit appointment,,,
-,,,,,,,,,,,,,3=Demographic Group,,,
-,,,,,,,,,,,,,4=Aging out of study,,,
-,,,,,,,,,,,,,55=Other,,,
-,Recruitment,,Sign in,,,,Recruitment SOP annual maximum number of pre-consent contact attempts reached,Maximum contacts reached,RcrtSI_MaxContcts_v1r0,,,,0=No,,,"Default will be set to ""No""  when an eligible participant becomes an active recruit. When the Recruitment SOP annual maximum number of pre-consent contact attempts reached send a ""Yes"" for that variable through to  submitParticipantsData API call.  Such updates can be made in real-time or in weekly batches."
-,,,,,,,,,,,,,1=Yes,,,
+192505768,Recruitment,883203566,Sign in,,,666166554,Eligibility algorithm version,Eligibility algorithm version,RcrtSI_EligibilityVer_v1r0,Char,25,,N/A,Yes,No,Version of the algorithm use to select the pool of eligible participants that the active recruit is selected from. Sent with de-identified individual demographic variables when participants moved from Eligibility pool to active recruits with submitParticipantsData API call.
+192505768,Recruitment,883203566,Sign in,,,672289355,IHCS Membership Status,IHCS Membership Status,RcrtSI_MemberStat_v1r0,Num,1,215840486,0=Member of IHCS Health Plan,,,Sent with de-identified individual demographic variables when participants moved from Eligibility pool to active recruits with submitParticipantsData API call.
+,,,,,,,,,,,,834989275,1=Non-Member IHCS Patient,,,
+192505768,Recruitment,883203566,Sign in,,,610212863,Target Type,Target Type,RcrtSI_TargetType_v1r0,Num,1,727501069,0=Random,,,Sent with de-identified individual demographic variables when participants moved from Eligibility pool to active recruits with submitParticipantsData API call.
+,,,,,,,,,,,,986460014,1=Screening appointment,,,
+,,,,,,,,,,,,929825921,2=Well visit appointment,,,
+,,,,,,,,,,,,900717810,3=Demographic Group,,,
+,,,,,,,,,,,,148316696,4=Aging out of study,,,
+,,,,,,,,,,,,438483626,55=Other,,,
+192505768,Recruitment,883203566,Sign in,,,161888403,Recruitment SOP annual maximum number of pre-consent contact attempts reached,Maximum contacts reached,RcrtSI_MaxContcts_v1r0,,,552182130,0=No,,,"Default will be set to ""No""  when an eligible participant becomes an active recruit. When the Recruitment SOP annual maximum number of pre-consent contact attempts reached send a ""Yes"" for that variable through to  submitParticipantsData API call.  Such updates can be made in real-time or in weekly batches."
+,,,,,,,,,,,,456842039,1=Yes,,,
 192505768,Recruitment,883203566,Sign in,,,230663853,Autogenerated flag - Signed-in,Signed-in,RcrtSI_SignedIn_v1r0,Num,1,104430631,0=No,Yes,No,"Default is zero at time token/pin assigned to recruit. For passive recruits both RcrtSI_SignedIn_v1r0 equals 1 and token assigned occur in the same step, which is after selection of site.  Once a passive recruit has a token, all subsequent flags can be populated with the default and updated as the participant proceeds."
 ,,,,,,,,,,,,353358909,1=Yes,,,
 192505768,Recruitment,883203566,Sign in,,,335767902,Autogenerated date/time - Signed-in,Time sign-in occurred,RcrtSI_SignTime_v1r0,ISO,24,,example: 2020-07-17T15:21:26.763Z,Yes,No,ISO format to be converted to SAS
@@ -144,8 +144,8 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question ,c
 192505768,Recruitment,332759827,User Profile,,,849786503,Additional Email 1,Additional email 1,RcrtUP_Email1_v1r0,Char,120,,N/A,No,Yes,
 192505768,Recruitment,332759827,User Profile,,,635101039,Additional Email 2,Additional email 2,RcrtUP_Email2_v1r0,Char,120,,N/A,No,Yes,
 192505768,Recruitment,332759827,User Profile,,,714419972,Additional Email 3,Additional email 3,RcrtUP_Email3_v1r0,Char,120,,N/A,No,Yes,
-,Recruitment,,User Profile,,,,How do you prefer that we reach you?,Preferred contact method,RcrtUP_PrefMethod_v1r0,Num,1,,0 = Mobile phone,Yes if both phone and email given,No,"Question does not appear if only mobile phone OR email given, but not both"
-,,,,,,,,,,,,,1 = Email,,,
+192505768,Recruitment,332759827,User Profile,,,438416017,How do you prefer that we reach you?,Preferred contact method,RcrtUP_PrefMethod_v1r0,Num,1,669953013,0 = Mobile phone,Yes if both phone and email given,No,"Question does not appear if only mobile phone OR email given, but not both"
+,,,,,,,,,,,,214554894,1 = Email,,,
 192505768,Recruitment,332759827,User Profile,,,521824358,Address line 1,Address line 1,RcrtUP_AddressLn1_v1r0,Char,70,,N/A,Yes,Yes,Populated from Google Addresses
 192505768,Recruitment,332759827,User Profile,,,442166669,Address line 2,Address line 2,RcrtUP_AddressLn2_v1r0,Char,70,,N/A,No,Yes,Populated from Google Addresses
 192505768,Recruitment,332759827,User Profile,,,703385619,City,City,RcrtUP_City_v1r0,Char,45,,N/A,Yes,Yes,Populated from Google Addresses
@@ -170,15 +170,15 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question ,c
 ,,,,,,,,,,,,734437214,1=Method not used,,,
 192505768,Recruitment,218595434,Verification,,,953614051,Manual method used for verification,Manual verification,RcrtV_Mannual_v1r0,Num,1,426360242,0=Method used,Yes,No,Sent as part of the verification table from the IHCS.
 ,,,,,,,,,,,,734437214,1=Method not used,,,
-,Recruitment,,Verification,,,,Verification Variable - First Name,First Name Match,RcrtV_FNameMatch_v1r0,Num,1,,0=Not matched,Yes,No,Sent as part of the verification table from the IHCS.
-,,,,,,,,,,,,,1=Matched,,,
-,Recruitment,,Verification,,,,Verification Variable - Last Name,Last Name Match,RcrtV_LNameMatch_v1r0,Num,1,,0=Not matched,Yes,No,Sent as part of the verification table from the IHCS.
-,,,,,,,,,,,,,1=Matched,,,
-,Recruitment,,Verification,,,,Verification Variable - DOB,DOB Match,RcrtV_DOBMatch_v1r0,Num,1,,0=Not matched,Yes,No,Sent as part of the verification table from the IHCS.
-,,,,,,,,,,,,,1=Matched,,,
-,Recruitment,,Verification,,,,Eligibility Variable - Site,Site Match,RcrtV_SiteMatch_v1r0,Num,1,,0=Criterium not met,Yes,No,Sent as part of the verification table from the IHCS.
-,,,,,,,,,,,,,1=Criterium met,,,
-,Recruitment,,Verification,,,,Eligibility Variable - Age,Age Match,RcrtV_AgeMatch_v1r0,Num,1,,0=Criterium not met,Yes,No,Sent as part of the verification table from the IHCS.
-,,,,,,,,,,,,,1=Criterium met,,,
-,Recruitment,,Verification,,,,Eligibility Variable - Cancer Status,Cancer Status Match,RcrtV_CStatusMatch_v1r0,Num,1,,0=Criterium not met,Yes,No,Sent as part of the verification table from the IHCS.
-,,,,,,,,,,,,,1=Criterium met,,,
+192505768,Recruitment,218595434,Verification,,,636811032,Verification Variable - First Name,First Name Match,RcrtV_FNameMatch_v1r0,Num,1,436609904,0=Not matched,Yes,No,Sent as part of the verification table from the IHCS.
+,,,,,,,,,,,,245050780,1=Matched,,,
+192505768,Recruitment,218595434,Verification,,,363237819,Verification Variable - Last Name,Last Name Match,RcrtV_LNameMatch_v1r0,Num,1,436609904,0=Not matched,Yes,No,Sent as part of the verification table from the IHCS.
+,,,,,,,,,,,,245050780,1=Matched,,,
+192505768,Recruitment,218595434,Verification,,,453795381,Verification Variable - DOB,DOB Match,RcrtV_DOBMatch_v1r0,Num,1,436609904,0=Not matched,Yes,No,Sent as part of the verification table from the IHCS.
+,,,,,,,,,,,,245050780,1=Matched,,,
+192505768,Recruitment,218595434,Verification,,,926366346,Eligibility Variable - Site,Site Match,RcrtV_SiteMatch_v1r0,Num,1,929306175,0=Criterium not met,Yes,No,Sent as part of the verification table from the IHCS.
+,,,,,,,,,,,,635788850,1=Criterium met,,,
+192505768,Recruitment,218595434,Verification,,,657113514,Eligibility Variable - Age,Age Match,RcrtV_AgeMatch_v1r0,Num,1,929306175,0=Criterium not met,Yes,No,Sent as part of the verification table from the IHCS.
+,,,,,,,,,,,,635788850,1=Criterium met,,,
+192505768,Recruitment,218595434,Verification,,,357596860,Eligibility Variable - Cancer Status,Cancer Status Match,RcrtV_CStatusMatch_v1r0,Num,1,929306175,0=Criterium not met,Yes,No,Sent as part of the verification table from the IHCS.
+,,,,,,,,,,,,635788850,1=Criterium met,,,
