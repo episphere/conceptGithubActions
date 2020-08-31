@@ -1,6 +1,6 @@
 {
-  "Primary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/192505768.json",
-  "Secondary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/218595434.json",
+  "Primary Source": "192505768.json",
+  "Secondary Source": "218595434.json",
   "conceptId": "444699761",
   "Question Text": "Automated method used for verification.",
   "Variable Label": "Automated verification",
@@ -9,7 +9,7 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Sent as part of the verification table from the sites.",
+  "Notes": "Sent as part of the verification table from the IHCS.",
   "Format/Value": {
     "426360242.json": "0",
     "734437214.json": "1"

@@ -1,4 +1,6 @@
 const fs = require('fs');
+
+//lets try reading the csv file first to see the order of the headers
 function getFiles(){
     let fileList = [];
     files = fs.readdirSync('./jsons');
@@ -53,7 +55,8 @@ function reverseRead(){
                     let toCheck = nextObj[k]
                     
                     if(toCheck.match(/[0-9]{9}.json/) != null){
-                        let cId = toCheck.substring(0,9);
+                        let cId = toCheck.substring(toCheck.length - 14, toCheck.length - 5)
+
                         toReplace.push(jsonList[jsonIndex[cId]])
                         if(!referenced.includes(jsonIndex[cId])){
                             referenced.push(jsonIndex[cId])
@@ -67,7 +70,7 @@ function reverseRead(){
             }
             else if(typeof nextObj == 'string'){
                 if(nextObj.match(/[0-9]{9}.json/) != null){
-                    let cId = nextObj.substring(0,9);
+                    let cId = nextObj.substring(nextObj.length - 14, nextObj.length - 5)
                     currFile[keys[j]] = jsonList[jsonIndex[cId]];
                     if(!referenced.includes(jsonIndex[cId])){
                         referenced.push(jsonIndex[cId])
@@ -80,7 +83,8 @@ function reverseRead(){
                 let toReplace = {};
                 for(let k = 0; k < currKeys.length; k++){
                     if(currKeys[k].match(/[0-9]{9}.json/)){
-                        let cId = currKeys[k].substring(0,9);
+                        //let cId = currKeys[k].substring(0,9);
+                        let cId = currKeys[k].substring(currKeys[k].length - 14, currKeys[k].length - 5)
                         toReplace[nextObj[currKeys[k]]] = jsonList[jsonIndex[cId]];
                         if(!referenced.includes(jsonIndex[cId])){
                             referenced.push(jsonIndex[cId])
@@ -111,10 +115,29 @@ function reverseRead(){
        
     }
 
+    let firstRow = ''
+    let firstRowSplit = [];
+    let finalFileName = ''
+    fs.readdirSync('./csv/').forEach(file => {
+        if(file.includes(".csv")){
+            finalFileName = file;
+            let currCSVContents = fs.readFileSync('./csv/' + file).toString('utf8');
+            firstRow = currCSVContents.substring(0,currCSVContents.indexOf('\n'))
+            firstRowSplit = CSVToArray(firstRow)
+        }
+    });
+
+
     let finalMatrix = []
     let finalHeader = []
     let finalConcepts = []
     let maxes = []
+    for(let i = 0; i < firstRowSplit.length; i++){
+        let head = firstRowSplit[i]
+        if(!head.includes('conceptId')){
+            finalHeader.push(head)
+        }
+    }
     //change to make it recursive
     for(let i = 0; i < clean.length; i ++){
         let conceptSeen = [jsonList[clean[i]]['conceptId']]
@@ -183,6 +206,8 @@ function reverseRead(){
     //reorder the finalHeader
     //console.log(finalConcepts)
     //try while organizing data: if key == subcollection, use single key from thing
+   
+    
     let first = false;
     for(let i = 0; i < finalHeader.length; i++){
         let found = false;
@@ -262,14 +287,57 @@ function reverseRead(){
 
     }    
         
+    if(finalFileName == ''){
+        fs.writeFileSync('./csv/output.csv', toExcel)
+    }
+    else{
+        fs.writeFileSync('./csv/' + finalFileName, toExcel)
+    }
     
-    fs.writeFileSync('./csv/testOutput1.csv', toExcel)
 
 }
+function CSVToArray(strData){
+    strData = strData.trim();
+    let arr = [];
+    let finalPush = true;
+    while(strData.indexOf(",") != -1 ){
+        let toPush = "";
+        
+        if(strData.substring(0,1) == "\""){
+            strData = strData.substring(1);            
+            let nextLook = strData.indexOf('\"\"')
+            
+            while(nextLook != -1){
+                console.log(nextLook)
+                toPush += strData.substring(0,nextLook) + '\"\"'
+                strData = strData.substring(strData.indexOf("\"\"") + 2);    
+                nextLook = strData.indexOf('\"\"')
+            }
 
+            toPush += strData.substring(0,  strData.indexOf("\""));    
+            strData = strData.substring(strData.indexOf("\"") + 1);    
+            strData = strData.substring(strData.indexOf(',')+1)
+            if(strData.trim() == ''){
+                finalPush = false
+            }
+        }
+        else{
+            toPush = strData.substring(0, strData.indexOf(','));
+            strData = strData.substring(strData.indexOf(',') + 1)
+        }
+        arr.push(toPush)
+
+        //let nextQuote = strData.indexOf("\"")
+    }
+    if(finalPush == true){
+        arr.push(strData);
+    }
+
+    // Return the parsed data.
+    return( arr );
+}
 
 function recurseRead(curr,final, key, conceptSeen, /*isSource,*/ depth){
-    console.log(depth)
     let keys = Object.keys(curr)
     let toPrint = []
 

@@ -1,6 +1,6 @@
 {
-  "Primary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/192505768.json",
-  "Secondary Source": "https://github.com/episphere/conceptGithubActions/blob/master/jsons/214456996.json",
+  "Primary Source": "192505768.json",
+  "Secondary Source": "214456996.json",
   "conceptId": "827220437",
   "Question Text": "Healthcare provider",
   "Variable Label": "Site",
@@ -9,6 +9,7 @@
   "Variable Length": "2",
   "Required": "Yes -  if there is not a valid token or PIN",
   "PII": "No",
+  "Notes": "The National Cancer Institute is included as a site for testing purposes only.",
   "Format/Value": {
     "531629870.json": "0",
     "548392715.json": "1",
@@ -19,6 +20,7 @@
     "303349821.json": "6",
     "657167265.json": "7",
     "809703864.json": "8",
-    "623249891.json": "88"
+    "517700004.json": "9",
+    "438483626.json": "55"
   }
 }

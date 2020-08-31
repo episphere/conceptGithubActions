@@ -1,3 +1,4 @@
+//See if actions works on forks
 const fs = require('fs');
 const readline = require('readline')
 let conceptIdVariants = ["@id","conceptId"];
@@ -98,15 +99,15 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                 if(currId != '' && currJSON['conceptId'] == currId){
                     found = i;
                     if(!currJSON['subcollections'].includes(firstRowJSON['conceptId'] + '.json')){
-                        currJSON['subcollections'].push("https://github.com/episphere/conceptGithubActions/blob/master/jsons/" + firstRowJSON['conceptId'] + '.json')
+                        currJSON['subcollections'].push(firstRowJSON['conceptId'] + '.json')
                     }
                     j = sourceJSONS.length;
                 }
                 else if(currId == '' && currVarName == currJSON['Variable Name']){
                     found = i;
                     currId = currJSON['conceptId'];
-                    if(!currJSON['subcollections'].includes("https://github.com/episphere/conceptGithubActions/blob/master/jsons/" + firstRowJSON['conceptId'] + '.json')){
-                        currJSON['subcollections'].push("https://github.com/episphere/conceptGithubActions/blob/master/jsons/" + firstRowJSON['conceptId'] + '.json')
+                    if(!currJSON['subcollections'].includes(firstRowJSON['conceptId'] + '.json')){
+                        currJSON['subcollections'].push(firstRowJSON['conceptId'] + '.json')
                     }
                     j = sourceJSONS.length
                 }
@@ -119,7 +120,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                 
                 newJSON['conceptId'] = currId;
                 newJSON['Variable Name'] = currVarName;
-                newJSON['subcollections'] = ["https://github.com/episphere/conceptGithubActions/blob/master/jsons/" + firstRowJSON['conceptId'] + '.json']
+                newJSON['subcollections'] = [firstRowJSON['conceptId'] + '.json']
                 sourceJSONS.push(newJSON)
             }
             nameToConcept[currVarName] = currId
@@ -127,7 +128,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                 conceptIdList.push(currId)
             }
             
-            firstRowJSON[header[conceptIdReverseLookup[conceptColNames[i]] + 1]] = "https://github.com/episphere/conceptGithubActions/blob/master/jsons/" + currId + '.json'
+            firstRowJSON[header[conceptIdReverseLookup[conceptColNames[i]] + 1]] = currId + '.json'
             firstRow[conceptIdReverseLookup[conceptColNames[i]]] = currId;
         }
     }
@@ -166,10 +167,17 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                 }
                 
                 //fs.writeFileSync(cid + '.json', JSON.stringify({'conceptId':cid, 'variableName':val}));
-                jsonList.push({'conceptId':cid, 'Variable Name':val})
-                fs.writeFileSync('./jsons/' + cid + '.json', JSON.stringify({'conceptId':cid, 'variableName':val},null, 2))
-                nameToConcept[val] = cid
-                
+                let found = false;
+                for(let i = 0; i < jsonList.length; i++){
+                    if(jsonList[i].hasOwnProperty('conceptId') && jsonList[i]['conceptId'] == cid){
+                        found = true;
+                    }
+                }
+                if(found == false){
+                    jsonList.push({'conceptId':cid, 'Variable Name':val})
+                    fs.writeFileSync('./jsons/' + cid + '.json', JSON.stringify({'conceptId':cid, 'variableName':val},null, 2))
+                    nameToConcept[val] = cid
+                }
                 if(!conceptIdList.includes(cid)){
                     conceptIdList.push(cid)
                 }
@@ -205,7 +213,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                 conceptIdList.push(cid);
             }
             currCollection['conceptId'] = cid;
-            collectionIds.push("https://github.com/episphere/conceptGithubActions/blob/master/jsons/" + cid + '.json')
+            collectionIds.push(cid + '.json')
             for(let i = 0; i < objKeys.length; i++){
                 let key = objKeys[i]
                 nameToConcept[currCollection[key]] = cid;
@@ -252,17 +260,30 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
     return cluster;
 
 }
-
 function CSVToArray(strData){
     strData = strData.trim();
     let arr = [];
+    let finalPush = true;
     while(strData.indexOf(",") != -1 ){
         let toPush = "";
+        
         if(strData.substring(0,1) == "\""){
-            strData = strData.substring(1);
-            toPush = strData.substring(0,  strData.indexOf("\""));    
+            strData = strData.substring(1);            
+            let nextLook = strData.indexOf('\"\"')
+            
+            while(nextLook != -1){
+                console.log(nextLook)
+                toPush += strData.substring(0,nextLook) + '\"\"'
+                strData = strData.substring(strData.indexOf("\"\"") + 2);    
+                nextLook = strData.indexOf('\"\"')
+            }
+
+            toPush += strData.substring(0,  strData.indexOf("\""));    
             strData = strData.substring(strData.indexOf("\"") + 1);    
             strData = strData.substring(strData.indexOf(',')+1)
+            if(strData.trim() == ''){
+                finalPush = false
+            }
         }
         else{
             toPush = strData.substring(0, strData.indexOf(','));
@@ -272,7 +293,9 @@ function CSVToArray(strData){
 
         //let nextQuote = strData.indexOf("\"")
     }
-    arr.push(strData);
+    if(finalPush == true){
+        arr.push(strData);
+    }
 
     // Return the parsed data.
     return( arr );
