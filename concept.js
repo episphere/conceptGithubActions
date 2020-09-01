@@ -175,7 +175,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                 }
                 if(found == false){
                     jsonList.push({'conceptId':cid, 'Variable Name':val})
-                    fs.writeFileSync('./jsons/' + cid + '.json', JSON.stringify({'conceptId':cid, 'variableName':val},null, 2))
+                    fs.writeFileSync('./jsons/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Variable Name':val},null, 2))
                     nameToConcept[val] = cid
                 }
                 if(!conceptIdList.includes(cid)){
