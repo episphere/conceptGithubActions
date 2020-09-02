@@ -163,7 +163,7 @@ async function getConceptIds(fileName){
                 first = false;
             }   
             else{
-                arr.splice(0,0,'conceptId')
+                arr.splice(0,0,'')
                 toWrite += '\n'
                 toWrite += arr.map(function(value){
                     if(value.indexOf(',') != -1){
