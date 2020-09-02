@@ -59,7 +59,7 @@ function processCluster(arr, header, conceptIdList, sourceJSONS, jsonList, fileN
     arr[0] = thisRowJSON['conceptId']
     jsonList.push(thisRowJSON);
     fs.writeFileSync('./jsons/' + thisRowJSON['conceptId'] + '.json', JSON.stringify(thisRowJSON,null, 2))
-    return cluster;
+    return arr;
 
 }
 function CSVToArray(strData){
@@ -221,11 +221,6 @@ async function readFile(fileName){
             excelOutput.push(returned)
         }
     }
-    for(let i = 0; i < sourceJSONS.length; i++){
-        jsonList.push(sourceJSONS[i])
-        fs.writeFileSync('./jsons/' + sourceJSONS[i]['conceptId'] + '.json', JSON.stringify(sourceJSONS[i],null, 2));
-    }
-    fs.writeFileSync('./jsons/varToConcept.json', JSON.stringify(nameToConcept))
     fs.writeFileSync('./jsons/conceptIds.txt', JSON.stringify(conceptIdList))
     rl.close();
     fileStream.close();
