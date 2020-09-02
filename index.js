@@ -19,7 +19,12 @@ for(let i = 0; i < files.length; i++){
                 })        
             }
         })
-        concept.readFile(file)
+        fs.readdirSync('./csv/').forEach(f => {
+            if(f.includes(".csv")){
+                concept.readFile('./csv/' + f)
+            }
+        });
+        
         i = files.length;
     }
     else if(file.indexOf('.json') != -1){

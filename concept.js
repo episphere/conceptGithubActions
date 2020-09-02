@@ -40,11 +40,12 @@ function processCluster(arr, header, conceptIdList, sourceJSONS, jsonList, fileN
     for(let i = 0; i < arr.length; i++){
         if(arr[i] != ""){
             if(arr[i].substring(0,1) != '['){
-                thisRowJSON[header[i]] = firstRow[i]
+                thisRowJSON[header[i]] = arr[i]
             }
             else{
+                console.log(arr[i].split('""').join('"'))
                 try{
-                    thisRowJSON[header[i]] = JSON.parse(firstRow[i])
+                    thisRowJSON[header[i]] = JSON.parse(arr[i].split('""').join('"'))
                 }catch(exception){
                     console.log('there was an error parsing your array')
                 }
@@ -61,9 +62,7 @@ function processCluster(arr, header, conceptIdList, sourceJSONS, jsonList, fileN
     arr[0] = thisRowJSON['conceptId']
     jsonList.push(thisRowJSON);
     fs.writeFileSync('./jsons/' + thisRowJSON['conceptId'] + '.json', JSON.stringify(thisRowJSON,null, 2))
-    console.log(JSON.stringify(arr))
-    return arr;
-
+    return [arr];
 }
 function CSVToArray(strData){
     strData = strData.trim();
