@@ -114,7 +114,7 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question,co
 192505768,Recruitment,332759827,User Profile,,,544150384,Birth Year,Birth Year,RcrtUP_YOB_v1r0,Year,4,,yyyy ,Yes ,Yes,Field will require a 4 digit response.
 192505768,Recruitment,332759827,User Profile,,,371067537,"Date of Birth derived from concatenating: RcrtUP_MOB_v1r0, RcrtUP_BD_v1r0, RcrtUP_YOB_v1r0",Date of Birth,RcrtUP_DOB_v1r0,Date,8,,yyyymmdd,Yes,Yes,
 192505768,Recruitment,332759827,User Profile,,,117249500,Age derived from DOB at time of user profile completion.,User Profile derived age,RcrtUP_Age_v1r0,Num,3,,N/A,Yes,No,
-192505768,Recruitment,332759827,User Profile,,,848089812,What was your biological sex assigned at birth?,Sex at birth,RcrtUP_BirthSex_v1r0,Num,1,536341288,0=Female,Yes,No,
+192505768,Recruitment,332759827,User Profile,,,383945929,What was your biological sex assigned at birth?,Sex at birth,RcrtUP_BirthSex_v1r0,Num,1,536341288,0=Female,Yes,No,
 ,,,,,,,,,,,,654207589,1=Male,,,
 ,,,,,,,,,,,,576796184,2=Intersex or other,,,
 192505768,Recruitment,332759827,User Profile,,,388711124,Mobile phone,Mobile phone,RcrtUP_Mobile_v1r0,Num,10,,N/A,Yes if no email,Yes,"Type and length are based on a numbers only format, no dashes"
