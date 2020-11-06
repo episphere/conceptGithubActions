@@ -1,10 +1,12 @@
 const concept = require('./concept');
+const aggregate = require('./aggregateJSONS.js');
 const fs = require('fs');
 const otherDirection = require('./otherDirection');
 let files = fs.readFileSync('files.csv', {encoding:'utf8'})
 files = files.split(',')
 console.log(files)
 
+let changed = false;
 for(let i = 0; i < files.length; i++){
     let file = files[i]
     if(file.indexOf('.csv') != -1){
@@ -20,12 +22,15 @@ for(let i = 0; i < files.length; i++){
             }
         })
         concept.readFile(file)
+        changed = true;
         i = files.length;
     }
     else if(file.match(/[0-9]+.json/)){
         otherDirection.reverseRead()
         i = files.length;
+        changed = true;
     }
     
 }
+
 
