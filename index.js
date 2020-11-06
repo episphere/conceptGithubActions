@@ -7,7 +7,7 @@ console.log(files)
 
 for(let i = 0; i < files.length; i++){
     let file = files[i]
-    if(file.indexOf('.csv') != -1){
+    /*if(file.indexOf('.csv') != -1){
         const fs = require('fs');
         fs.readdirSync('./jsons/').forEach(file => {
             if(file.includes('.json')){
@@ -22,10 +22,10 @@ for(let i = 0; i < files.length; i++){
         concept.readFile(file)
         i = files.length;
     }
-    else if(file.indexOf('.json') != -1){
+    else if(file.match(/[0-9]+.json/)){
         otherDirection.reverseRead()
         i = files.length;
-    }
+    }*/
     
 }
 
