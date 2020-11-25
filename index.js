@@ -5,7 +5,7 @@ const otherDirection = require('./otherDirection');
 let files = fs.readFileSync('files.csv', {encoding:'utf8'})
 files = files.split(',')
 console.log(files)
-
+/*
 let changed = false;
 for(let i = 0; i < files.length; i++){
     let file = files[i]
@@ -35,3 +35,4 @@ for(let i = 0; i < files.length; i++){
 }
 
 
+*/
