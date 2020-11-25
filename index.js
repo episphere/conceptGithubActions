@@ -21,6 +21,7 @@ for(let i = 0; i < files.length; i++){
                 })        
             }
         })
+        console.log('filename' + file)
         concept.readFile(file)
         changed = true;
         i = files.length;
