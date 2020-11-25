@@ -1,7 +1,7 @@
 {
   "Primary Source": "192505768.json",
   "Secondary Source": "User Profile",
-  "conceptId_Variable": "703385619",
+  "conceptId": "703385619",
   "Question Text": "City",
   "Variable Label": "City",
   "Variable Name": "RcrtUP_City_v1r0",
@@ -11,7 +11,7 @@
   "Required": "Yes",
   "PII": "Yes",
   "Notes": "Populated from Google Addresses",
-  "conceptId": "703385619",
-  "conceptId_Primary Source": "394560229.json",
-  "conceptId_Secondary Source": "593775242.json"
+  "subcollection": [
+    "332759827.json"
+  ]
 }

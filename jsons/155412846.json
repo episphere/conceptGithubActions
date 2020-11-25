@@ -1,7 +1,7 @@
 {
   "Primary Source": "840137296.json",
   "Secondary Source": "Collection",
-  "conceptId_Variable": "",
+  "conceptId": "155412846",
   "Question Text": "Date/Time samples collected, automatically populated when next is hit at the end of the Collection Data Entry page prior to reason selection and additional comments.",
   "Variable Label": "Collection Date/Time",
   "Variable Name": "BioCol_ColTime_v1r0",
@@ -10,6 +10,5 @@
   "Format/Value": "example: 2020-07-17T15:21:26.763Z",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Note: This is pushed from Epic for the Clinical samples",
-  "conceptId": "155412846"
+  "Notes": "Note: This is pushed from Epic for the Clinical samples"
 }

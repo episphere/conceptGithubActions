@@ -1,7 +1,7 @@
 {
   "Primary Source": "192505768.json",
   "Secondary Source": "User Profile",
-  "conceptId_Variable": "231676651",
+  "conceptId": "231676651",
   "Question Text": "Middle Name ",
   "Variable Label": "Middle Name",
   "Variable Name": "RcrtUP_Mname_v1r0",
@@ -11,7 +11,7 @@
   "Required": "No",
   "PII": "Yes",
   "Notes": "Populated from RcrtCS_Mname_v1r0, cannot be edited until after verification.",
-  "conceptId": "529448166",
-  "conceptId_Primary Source": "394560229.json",
-  "conceptId_Secondary Source": "593775242.json"
+  "subcollection": [
+    "332759827.json"
+  ]
 }

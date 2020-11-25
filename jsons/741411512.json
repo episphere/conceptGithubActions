@@ -1,7 +1,7 @@
 {
   "Primary Source": "840137296.json",
   "Secondary Source": "Collection",
-  "conceptId_Variable": "",
+  "conceptId": "741411512",
   "Question Text": "Tube Collected",
   "Variable Label": "Tube Collected",
   "Variable Name": "BioCol_TubeCollected_v1r0",
@@ -10,9 +10,8 @@
   "Required": "Yes",
   "PII": "No",
   "Notes": "Default no for each tube until checked to indicate sample was collected",
-  "conceptId": "741411512",
   "Format/Value": {
-    "104430631.json": "0",
+    "No.json": "0",
     "353358909.json": "1"
   }
 }

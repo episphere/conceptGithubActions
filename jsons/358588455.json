@@ -1,7 +1,7 @@
 {
   "Primary Source": "840137296.json",
   "Secondary Source": "Collection",
-  "conceptId_Variable": "",
+  "conceptId": "358588455",
   "Question Text": "Discard Flag",
   "Variable Label": "Discard flag",
   "Variable Name": "BioCol_Discard_v1r0",
@@ -10,9 +10,8 @@
   "Required": "Autoflag as yes if Deviation-broken = YES",
   "PII": "No",
   "Notes": "Default is no, Autoflag as yes if BioCol_Dev_v1r0_Broken = YES or if BioCol_Dev_v1r0_Volume = YES",
-  "conceptId": "358588455",
   "Format/Value": {
-    "104430631.json": "0",
+    "No.json": "0",
     "353358909.json": "1"
   }
 }

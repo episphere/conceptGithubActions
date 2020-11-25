@@ -1,7 +1,7 @@
 {
   "Primary Source": "840137296.json",
   "Secondary Source": "Collection",
-  "conceptId_Variable": "",
+  "conceptId": "652265028",
   "Question Text": "Additional Label Used",
   "Variable Label": "Additional Label Used",
   "Variable Name": "BioCol_AddLabel_v1r0",
@@ -10,9 +10,8 @@
   "Required": "Yes - if used",
   "PII": "No",
   "Notes": "Default is No, should be check if additional labels are used.  This probably needs to be added to the dashboard.",
-  "conceptId": "652265028",
   "Format/Value": {
-    "104430631.json": "0",
+    "No.json": "0",
     "353358909.json": "1"
   }
 }
