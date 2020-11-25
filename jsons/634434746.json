@@ -1,7 +1,7 @@
 {
   "Primary Source": "192505768.json",
-  "Secondary Source": "332759827.json",
-  "conceptId": "634434746",
+  "Secondary Source": "User Profile",
+  "conceptId_Variable": "634434746",
   "Question Text": "State",
   "Variable Label": "State",
   "Variable Name": "RcrtUP_State_v1r0",
@@ -10,5 +10,8 @@
   "Format/Value": "N/A",
   "Required": "Yes",
   "PII": "Yes",
-  "Notes": "Populated from Google Addresses"
+  "Notes": "Populated from Google Addresses",
+  "conceptId": "634434746",
+  "conceptId_Primary Source": "394560229.json",
+  "conceptId_Secondary Source": "593775242.json"
 }

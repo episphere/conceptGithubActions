@@ -1,7 +1,7 @@
 {
   "Primary Source": "192505768.json",
-  "Secondary Source": "332759827.json",
-  "conceptId": "996038075",
+  "Secondary Source": "User Profile",
+  "conceptId_Variable": "996038075",
   "Question Text": "Last Name",
   "Variable Label": "Last Name",
   "Variable Name": "RcrtUP_Lname_v1r0",
@@ -10,5 +10,8 @@
   "Format/Value": "N/A",
   "Required": "Yes",
   "PII": "Yes",
-  "Notes": "Populated from RcrtCS_Lname_v1r0, but over written if changed by participant."
+  "Notes": "Populated from RcrtCS_Lname_v1r0, cannot be edited until after verification.",
+  "conceptId": "996038075",
+  "conceptId_Primary Source": "394560229.json",
+  "conceptId_Secondary Source": "593775242.json"
 }
