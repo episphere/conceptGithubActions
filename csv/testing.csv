@@ -169,8 +169,8 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question,co
 192505768,Recruitment,332759827,User Profile,,,634434746,State,State,RcrtUP_State_v1r0,Char,48,,N/A,Yes,Yes,Populated from Google Addresses
 192505768,Recruitment,332759827,User Profile,,,892050548,Zip,Zip,RcrtUP_Zip_v1r0,Num,5,,N/A,Yes,Yes,Populated from Google Addresses
 ,Biospecimen,,Specimen Link,,,,Select visit from drop down menu,Select visit,BioSpm_Visit_v1r0,Num,,,0 = Baseline,Yes,No,"Set baseline as the default, full list is not finalized yet. "
-,Biospecimen,,Specimen Link,,,,Select Hawaiian Island from drop down menu,Select Hawaiian Island,BioSpm_HIIsland_v1r0,Num,1,,"0 = Oahu
-1 = Non-Oahu",Yes for KPHI,No,Display for KPHI only
+,Biospecimen,,Specimen Link,,,,Select Hawaiian Island from drop down menu,Select Hawaiian Island,BioSpm_HIIsland_v1r0,Num,1,,0 = Oahu,Yes for KPHI,No,Display for KPHI only
+,,,,,,,,,,,,,1 = Non-Oahu,,,
 ,Biospecimen,,Specimen Link,,,,Accession ID , Accession ID ,BioSpm_AccessionID_v1r0,Num,30,,N/A,Yes for some sites - TBD,No,Additional format info to be added later.
 ,Biospecimen,,Specimen Link,,,,Accession ID Manually Entered,Accession ID Manually Entered,BioSpm_AccIDEntered_v1r0,Num,1,,0=No,Yes if manually entered,No,
 ,,,,,,,,,,,,,1=Yes,,,
