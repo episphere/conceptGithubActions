@@ -13,7 +13,7 @@
     "Variable Name": "No"
   },
   "104913069": {
-    "Variable Name": "Research � Finalization and shipping"
+    "Variable Name": "Research- Finalization and shipping"
   },
   "117249500": {
     "Variable Label": "User Profile derived age",
@@ -38,11 +38,15 @@
   "129084651": {
     "Variable Name": "Questionnaire"
   },
+  "135591601": {
+    "Variable Label": "Check-In Complete",
+    "Variable Name": "BioChk_Complete_v1r0"
+  },
   "142654897": {
     "Variable Name": "How did you hear about this study? (Select all that apply)"
   },
   "143615646": {
-    "Variable Label": "Mouthwash ID",
+    "Variable Label": "Mouthwash ",
     "Variable Name": "BioCol_0007v1r0"
   },
   "147176963": {
@@ -76,13 +80,12 @@
   "180583933": {
     "Variable Name": "Not active"
   },
+  "181769837": {
+    "Variable Name": "Other"
+  },
   "187894482": {
     "Variable Label": "Home voicemail",
     "Variable Name": "RcrtUP_HomeVM_v1r0"
-  },
-  "191715317": {
-    "Variable Label": "Not collected - short draw",
-    "Variable Name": "BioCol_NotCol_v1r0_short"
   },
   "192461115": {
     "Variable Name": "Module  3"
@@ -142,11 +145,14 @@
     "Variable Name": "African American/Black"
   },
   "232343615": {
-    "Variable Label": "Serum Separator Tube 4 ID",
+    "Variable Label": "Serum Separator Tube 4 ",
     "Variable Name": "BioCol_0012_v1r0"
   },
   "232663805": {
     "Variable Name": "Hispanic/Latino/Declined"
+  },
+  "234139565": {
+    "Variable Name": "Short draw"
   },
   "242307474": {
     "Variable Label": "Deviation- Hemolyzed",
@@ -189,7 +195,7 @@
     "Variable Name": "Consent"
   },
   "299553921": {
-    "Variable Label": "Serum Separator Tube 1 ID",
+    "Variable Label": "Serum Separator Tube 1 ",
     "Variable Name": "BioCol_0001_v1r0"
   },
   "300267574": {
@@ -232,6 +238,10 @@
     "Variable Label": "Time sign-in occurred",
     "Variable Name": "RcrtSI_SignTime_v1r0"
   },
+  "338286049": {
+    "Variable Label": "Not Collected Details (Optional)",
+    "Variable Name": "BioCol_NotCollNotes_v1r0"
+  },
   "338570265": {
     "Variable Label": "Collection notes",
     "Variable Name": "BioCol_ColNote1_v1r0"
@@ -270,7 +280,7 @@
     "Variable Name": "RcrtUP_DOB_v1r0"
   },
   "376960806": {
-    "Variable Label": "Serum Separator Tube 3 ID",
+    "Variable Label": "Serum Separator Tube 3 ",
     "Variable Name": "BioCol_0011_v1r0"
   },
   "379080287": {
@@ -374,7 +384,7 @@
     "Variable Name": "RcrtCS_ConsentSumit_v1r0"
   },
   "454453939": {
-    "Variable Label": "EDTA Tube 1 ID",
+    "Variable Label": "EDTA Tube 1 ",
     "Variable Name": "BioCol_0004_v1r0"
   },
   "461488577": {
@@ -534,10 +544,10 @@
     "Variable Name": "Intersex or other"
   },
   "589224449": {
-    "Variable Name": "SF Cancer Center LL�"
+    "Variable Name": "SF Cancer Center LL��_"
   },
   "589588440": {
-    "Variable Label": "Serum Separator Tube 5 ID",
+    "Variable Label": "Serum Separator Tube 5 ",
     "Variable Name": "BioCol_0021_v1r0"
   },
   "593843561": {
@@ -610,7 +620,7 @@
     "Variable Name": "RcrtUP_CancerYr_v1r0"
   },
   "652357376": {
-    "Variable Label": "ACD Tube 1 ID",
+    "Variable Label": "ACD Tube 1 ",
     "Variable Name": "BioCol_0005_v1r0"
   },
   "654002184": {
@@ -621,7 +631,7 @@
     "Variable Name": "Male"
   },
   "654812257": {
-    "Variable Label": "Serum Separator Tube 8 ID",
+    "Variable Label": "Serum Separator Tube 8 ",
     "Variable Name": "BioCol_0032_v1r0"
   },
   "657167265": {
@@ -639,7 +649,7 @@
     "Variable Name": "RcrtSI_TargetType_v1r0"
   },
   "677469051": {
-    "Variable Label": "EDTA Tube 2 ID",
+    "Variable Label": "EDTA Tube 2 ",
     "Variable Name": "BioCol_0014_v1r0"
   },
   "678166505": {
@@ -650,8 +660,11 @@
     "Variable Label": "Deviation",
     "Variable Name": "BioCol_Deviation_v1r0"
   },
+  "681745422": {
+    "Variable Name": "Participant refusal"
+  },
   "683613884": {
-    "Variable Label": "EDTA Tube 3 ID",
+    "Variable Label": "EDTA Tube 3 ",
     "Variable Name": "BioCol_0024_v1r0"
   },
   "684635302": {
@@ -666,7 +679,7 @@
     "Variable Name": "Marshfield"
   },
   "698283667": {
-    "Variable Name": "Lake Hallie�"
+    "Variable Name": "Lake Hallie��_"
   },
   "699625233": {
     "Variable Label": "User Profile submitted",
@@ -677,7 +690,7 @@
     "Variable Name": "RcrtUP_City_v1r0"
   },
   "703954371": {
-    "Variable Label": "Serum Separator Tube 2 ID",
+    "Variable Label": "Serum Separator Tube 2 ",
     "Variable Name": "BioCol_0002_v1r0"
   },
   "704199032": {
@@ -689,6 +702,9 @@
   "706256705": {
     "Variable Label": "Site reported sex",
     "Variable Name": "RcrtSI_Sex_v1r0"
+  },
+  "709264633": {
+    "Variable Name": "Check-In"
   },
   "714419972": {
     "Variable Label": "Additional email 3",
@@ -712,11 +728,14 @@
     "Variable Name": "Method not used"
   },
   "736183094": {
-    "Variable Name": "HFHS Research Clinic (Main Campus)�"
+    "Variable Name": "HFHS Research Clinic (Main Campus)��_"
   },
   "736251808": {
     "Variable Label": "Last Name",
     "Variable Name": "RcrtCS_Lname_v1r0"
+  },
+  "745205161": {
+    "Variable Name": "Participant unable"
   },
   "745268907": {
     "Variable Name": "Module 2"
@@ -725,7 +744,7 @@
     "Variable Name": "Declined"
   },
   "746999767": {
-    "Variable Label": "Serum Separator Tube 6 ID",
+    "Variable Label": "Serum Separator Tube 6 ",
     "Variable Name": "BioCol_0022_v1r0"
   },
   "749475364": {
@@ -763,7 +782,7 @@
     "Variable Name": "61-65"
   },
   "777644826": {
-    "Variable Name": "UC-DCAM�"
+    "Variable Name": "UC-DCAM��_"
   },
   "785578696": {
     "Variable Name": "Hispanic/Latino/White"
@@ -794,10 +813,6 @@
   "809703864": {
     "Variable Name": "University of Chicago Medicine"
   },
-  "811653773": {
-    "Variable Label": "Not collected - participant refusal",
-    "Variable Name": "BioCol_NotCol_v1r0_refuse"
-  },
   "819377306": {
     "Variable Label": "Poster, brochure, or flyer",
     "Variable Name": "RcrtES_Aware_v1r0_Poster"
@@ -815,6 +830,10 @@
   },
   "824461325": {
     "Variable Name": "Module  2"
+  },
+  "825582494": {
+    "Variable Label": "Tube ID",
+    "Variable Name": "BioCol_TubeID_v1r0"
   },
   "826163434": {
     "Variable Name": "Blood/Urine"
@@ -842,12 +861,8 @@
     "Variable Name": "HP Research Clinic"
   },
   "838567176": {
-    "Variable Label": "Heparin Tube 1 ID",
+    "Variable Label": "Heparin Tube 1 ",
     "Variable Name": "BioCol_0003_v1r0"
-  },
-  "842948766": {
-    "Variable Label": "Not collected - participant unable",
-    "Variable Name": "BioCol_NotCol_v1r0_Unable"
   },
   "847159717": {
     "Variable Label": "Placeholder - Date/time Urine Completed",
@@ -865,7 +880,7 @@
     "Variable Name": "Passive"
   },
   "857757831": {
-    "Variable Label": "Serum Separator Tube 7 ID",
+    "Variable Label": "Serum Separator Tube 7 ",
     "Variable Name": "BioCol_0031_v1r0"
   },
   "861162895": {
@@ -897,6 +912,10 @@
   },
   "883203566": {
     "Variable Name": "Sign in"
+  },
+  "883732523": {
+    "Variable Label": "Reason Tube Not Collected",
+    "Variable Name": "BioCol_NotCol_v1r0"
   },
   "888305995": {
     "Variable Label": "Participant Left Without Providing Sample",
@@ -978,11 +997,15 @@
     "Variable Name": "BioCol_Dev_v1r0_UrVol"
   },
   "958646668": {
-    "Variable Label": "Heparin Tube 2 ID",
+    "Variable Label": "Heparin Tube 2 ",
     "Variable Name": "BioCol_0013_v1r0"
   },
   "959021713": {
     "Variable Name": "III"
+  },
+  "962267121": {
+    "Variable Label": "Date/Time Check-In Complete",
+    "Variable Name": "BioChk_Time_v1r0"
   },
   "965707586": {
     "Variable Name": "Module 3"
@@ -991,16 +1014,12 @@
     "Variable Name": "Pacific Islander"
   },
   "973670172": {
-    "Variable Label": "Urine ID",
+    "Variable Label": "Urine ",
     "Variable Name": "BioCol_0006_v1r0"
   },
   "976570371": {
     "Variable Label": "Placeholder- flag for baseline module 3",
     "Variable Name": "QstMd3_BaseComplete_v1r0"
-  },
-  "979683166": {
-    "Variable Label": "Not collected - other",
-    "Variable Name": "BioCol_NotCol_v1r0_Other"
   },
   "982402227": {
     "Variable Label": "Participant Consent Date",

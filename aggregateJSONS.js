@@ -23,6 +23,8 @@ function aggregate(){
     fs.writeFileSync('aggregate.json', JSON.stringify(aggregate,null, 2))
 }
 
+aggregate();
+
 module.exports = {
     aggregate:aggregate
 }
