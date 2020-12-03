@@ -1,0 +1,17 @@
+{
+  "Primary Source": " Recruitment",
+  "Secondary Source": "166676176.json",
+  "conceptId": "920333151",
+  "Question Text": "Last 4 digits of Social Security Number",
+  "Variable Label": "Placeholder - SSN last 4 digits",
+  "Variable Name": "RcrtPV_SSN4d_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "4",
+  "Format/Value": "N/A",
+  "Required": "No",
+  "PII": "Yes",
+  "Notes": "Question shown only if full SSN is NOT given.",
+  "subcollection": [
+    "163332754.json"
+  ]
+}

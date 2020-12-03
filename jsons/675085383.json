@@ -1,0 +1,16 @@
+{
+  "Primary Source": "Biospecimen",
+  "Secondary Source": "993702378.json",
+  "conceptId": "675085383",
+  "Question Text": "Shipment courier",
+  "Variable Label": "Shipment courier",
+  "Variable Name": "BioPack_Courier_v1r0",
+  "Variable Type": "Num",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Autofill FedEx for all sites but KPHI",
+  "Format/Value": {
+    "963786497.json": "0",
+    "424491781.json": "1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "Primary Source": "Recruitment",
+  "Secondary Source": "218595434.json",
+  "conceptId": "821247024",
+  "Question Text": "Indicator of match verification after creation of user profile - updated by sites",
+  "Variable Label": "Verification status",
+  "Variable Name": "RcrtV_Verification_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Default, Not yet verified - 0, assigned at submission of  StudyIDs from sites for active recruits and when token is assigned from passive recruites.  Updates will be received from the sites as part of the verification table.",
+  "subcollection": [
+    "192505768.json"
+  ]
+}

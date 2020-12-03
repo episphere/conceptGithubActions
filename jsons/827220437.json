@@ -1,0 +1,16 @@
+{
+  "Primary Source": "Recruitment",
+  "Secondary Source": "214456996.json",
+  "conceptId": "827220437",
+  "Question Text": "Healthcare provider",
+  "Variable Label": "Site",
+  "Variable Name": "RcrtES_Site_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "Yes -  if there is not a valid token or PIN",
+  "PII": "No",
+  "Notes": "The National Cancer Institute is included as a site for testing purposes only.",
+  "subcollection": [
+    "192505768.json"
+  ]
+}

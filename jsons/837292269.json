@@ -1,0 +1,26 @@
+{
+  "Primary Source": "Biospecimen",
+  "Secondary Source": "301069038.json",
+  "conceptId": "837292269",
+  "Question Text": "Location ID, site specific",
+  "Variable Label": "Location ID, site specific",
+  "Variable Name": "BioShip_LocalID_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Options will differ by site, drop down options will be populated using site login information",
+  "Format/Value": {
+    "780199507.json": "0",
+    "692275326.json": "1",
+    "834825425.json": "2",
+    "581458134.json": "3",
+    "324703118.json": "4",
+    "450333612.json": "5",
+    "213784228.json": "6",
+    "533379566.json": "7",
+    "914385342.json": "8",
+    "720012264.json": "9",
+    "682441097.json": "10"
+  }
+}
