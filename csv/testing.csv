@@ -501,7 +501,7 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question,co
 ,,,,,,,,,,,,771230670,4 = 61-65,,,
 192505768,Recruitment,883203566,Sign in,,,849518448,Site reported race/ethnicity,Site reported race/ethnicity,RcrtSI_Race_v1r0,Num,1,768826601,"0 = White, Non-Hispanic",Yes,No,
 ,,,,,,,,,,,,438483626,55 = Other,,,
-,,,,,,,,,,,,178420302,77 = Unavailable/Unknown,,,
+,,,,,,,,,,,,,77 = Unavailable/Unknown,,,
 192505768,Recruitment,883203566,Sign in,,,119643471,Sanford Health Reported Race,Sanford Health Reported Race,RcrtSI_SHRace_v1r0,Num,2,232334767,0=African American/Black,For Sanford Health,No,
 ,,,,,,,,,,,,211228524,1=American Indian or Alaskan Native,,,
 ,,,,,,,,,,,,308427446,2=Asian,,,
@@ -515,13 +515,14 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question,co
 ,,,,,,,,,,,,986445321,66=Blank,,,
 ,,,,,,,,,,,,746038746,99=Declined,,,
 ,,,,,,,,,,,,178420302,77=Unavailable/Unknown,,,
-,Recruitment,883203566,Sign in,,,182438752,Henry Ford Health System Reported Race,Henry Ford Health System Reported Race,RcrtSI_HFHSRace_v1r0,Num,2,232334767,0=African American/Black,For Henry Ford HS,No,
-,,,,,,,,,,,,635279662,1=Caucasian/White,,,
-,,,,,,,,,,,,943666074,"2=Other (Hispanic, Asian, American Indian/Alaskan Native, Native Hawaiian or Pacific Islander) ",,,
-,,,,,,,,,,,,178420302,77=Unavailable/Unknown,,,
-,Recruitment,883203566,Sign in,,,791756529,Henry Ford Health System Reported Ethnicity,Henry Ford Health System Reported Ethnicity,RcrtSI_HFHSEthnicity_v1r0,Num,2,628733063,0=Hispanic or Latino,For Henry Ford HS,No,
-,,,,,,,,,,,,319570637,1=Not Hispanic or Latino,,,
-,,,,,,,,,,,,178420302,77=Unavailable/Unknown,,,
+,Recruitment,,Sign in,,,,Henry Ford Health System Reported Race,Henry Ford Health System Reported Race,RcrtSI_HFHSRace_v1r0,Num,2,,0=African American/Black,For Henry Ford HS,No,
+,,,,,,,,,,,,,1=Caucasian/White,,,
+,,,,,,,,,,,,,"2=Other (Hispanic, Asian, American Indian/Alaskan Native, Native Hawaiian or Pacific Islander) ",,,
+,,,,,,,,,,,,,77=Unavailable/Unknown,,,
+,Recruitment,,Sign in,,,,Henry Ford Health System Reported Ethnicity,Henry Ford Health System Reported Ethnicity,RcrtSI_HFHSEthnicity_v1r0,Num,2,,0=Hispanic or Latino,For Henry Ford HS,No,
+,,,,,,,,,,,,,1=Not Hispanic or Latino,,,
+,,,,,,,,,,,,,77=Unavailable/Unknown,,,
+,,,,,,,,,,,,,,,,
 192505768,Recruitment,883203566,Sign in,,,538553381,Sanford Health Reported Ethnicity,Sanford Health Reported Ethnicity,RcrtSI_SHEthnicity_v1r0,Num,1,628733063,0=Hispanic or Latino,For Sanford Health,No,
 ,,,,,,,,,,,,319570637,1=Not Hispanic or Latino,,,
 ,,,,,,,,,,,,986445321,66=Blank,,,
@@ -530,88 +531,87 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question,co
 192505768,Recruitment,883203566,Sign in,,,706256705,Site reported sex ,Site reported sex,RcrtSI_Sex_v1r0,Num,1,536341288,0 = Female,Yes,No,
 ,,,,,,,,,,,,654207589,1 = Male,,,
 ,,,,,,,,,,,,830573274,2 = Intersex or other,,,
-,,,,,,,,,,,,178420302,77=Unavailable/Unknown,,,
-,Recruitment,883203566,Sign in,,,979989131,KP reported sex ,KP reported sex,RcrtSI_KP_Sex_v1r0,Num,1,536341288,0 = Female,For KP,No,
+,,,,,,,,,,,,,77=Unavailable/Unknown,,,
+,Recruitment,,Sign in,,,,KP reported sex ,KP reported sex,RcrtSI_KP_Sex_v1r0,Num,1,536341288,0 = Female,For KP,No,
 ,,,,,,,,,,,,654207589,1 = Male,,,
-,,,,,,,,,,,,419506454,2 = Neither male or female,,,
-,,,,,,,,,,,,181769837,55 = Other,,,
-,,,,,,,,,,,,178420302,77=Unavailable/Unknown,,,
-,Recruitment,883203566,Sign in,,,832168885,Sanford and Henry Ford reported sex ,Sanford and Henry Ford reported sex ,RcrtSI_SH_HFHS_Sex_v1r0,Num,1,536341288,0 = Female,For SH and HFHS,No,
-,,,,,,,,,,,,654207589,1 = Male,,,
-,,,,,,,,,,,,178420302,77=Unavailable/Unknown,,,
+,,,,,,,,,,,,,2 = Neither male or female,,,
+,,,,,,,,,,,,,55 = Other,,,
+,,,,,,,,,,,,,77=Unavailable/Unknown,,,
+,Recruitment,,Sign in,,,,Sanford and Henry Ford reported sex ,Sanford and Henry Ford reported sex ,RcrtSI_SH_HFHS_Sex_v1r0,Num,1,,0 = Female,For SH and HFHS,No,
+,,,,,,,,,,,,,1 = Male,,,
+,,,,,,,,,,,,,77=Unavailable/Unknown,,,
 192505768,Recruitment,883203566,Sign in,,,749475364,Eligibility algorithm version,Eligibility algorithm version,RcrtSI_EligibilityVer_v1r0,Char,25,,N/A,Yes,No,Version of the algorithm use to select the pool of eligible participants that the active recruit is selected from. Sent with de-identified individual demographic variables when participants moved from Eligibility pool to active recruits with submitParticipantsData API call.
 192505768,Recruitment,883203566,Sign in,,,477091792,IHCS Membership Status,IHCS Membership Status,RcrtSI_MemberStat_v1r0,Num,1,939572698,0=Member of IHCS Health Plan,Yes,No,Sent with de-identified individual demographic variables when participants moved from Eligibility pool to active recruits with submitParticipantsData API call.
 ,,,,,,,,,,,,512786135,1=Non-Member IHCS Patient,,,
-,,,,,,,,,,,,656880649,2=Member and Patient of IHCS Health Plan,,,
+,,,,,,,,,,,,,2=Member and Patient of IHCS Health Plan,,,
 192505768,Recruitment,883203566,Sign in,,,667474224,Campaign Type,Campaign Type,RcrtSI_CampaignType_v1r0,Num,1,926338735,0=Random,Yes,No,Sent with de-identified individual demographic variables when participants moved from Eligibility pool to active recruits with submitParticipantsData API call.
 ,,,,,,,,,,,,348281054,1=Screening appointment,,,
 ,,,,,,,,,,,,324692899,2=Non-screening appointment,,,
 ,,,,,,,,,,,,351257378,3=Demographic Group,,,
 ,,,,,,,,,,,,647148178,4=Aging out of study,,,
-,,,,,,,,,,,,301613859,5=Geographic group,,,
+,,,,,,,,,,,,,5=Geographic group,,,
 ,,,,,,,,,,,,438483626,55=Other,,,
-,Recruitment,883203566,Sign in,,,525861966,PIN/Token Workflow for HP,Workflow Type,RcrtSI_WorkflowType_v1r0,Num,1,724201876,0 = Letter without PIN,Yes for HP,No,
-,,,,,,,,,,,,667452984,1 = Letter with PIN,,,
-,Recruitment,883203566,Sign in,,,320274491,Pre-consent Opt-out,Pre-consent Opt-out,RcrtSI_OptOut_v1r0,Num,1,104430631,0=No,No,No,Default is No.  Sites should set to yes when I participat opts-out prior to consent and sent through the submitParticipantsData API call.  See Opt-out SOP.  A categorical reason for opt-out variable will be added to the dictionary once the list is finalized.
-,,,,,,,,,,,,353358909,1=Yes,,,
-,Recruitment,883203566,Sign in,888406923,Reasons for opt-out request. (Select all that apply),852438295,Too busy/stressed to join,Too busy/stressed to join,RcrtSI_OptOut_v1r0_busy,Num,1,104430631,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
-,,,,,,,,,,,,353358909,1=Yes,,,
-,Recruitment,883203566,Sign in,888406923,Reasons for opt-out request. (Select all that apply),953820802,Not interested in the study/does not think research topic is important,Not interested in the study/does not think research topic is important,RcrtSI_OptOut_v1r0_impt,Num,1,104430631,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
-,,,,,,,,,,,,353358909,1=Yes,,,
-,Recruitment,883203566,Sign in,888406923,Reasons for opt-out request. (Select all that apply),191399221,Does not want to participate in research,Does not want to participate in research,RcrtSI_OptOut_v1r0_partic,Num,1,104430631,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
-,,,,,,,,,,,,353358909,1=Yes,,,
-,Recruitment,883203566,Sign in,888406923,Reasons for opt-out request. (Select all that apply),787700885,Does not want to be in a long-term study,Does not want to be in a long-term study,RcrtSI_OptOut_v1r0_term,Num,1,104430631,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
-,,,,,,,,,,,,353358909,1=Yes,,,
-,Recruitment,883203566,Sign in,888406923,Reasons for opt-out request. (Select all that apply),225228584,Too many contacts from the study,Too many contacts from the study,RcrtSI_OptOut_v1r0_contacts,Num,1,104430631,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
-,,,,,,,,,,,,353358909,1=Yes,,,
-,Recruitment,883203566,Sign in,888406923,Reasons for opt-out request. (Select all that apply),257912020,"Participation takes too much time, asks for too much","Participation takes too much time, asks for too much",RcrtSI_OptOut_v1r0_time,Num,1,104430631,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
-,,,,,,,,,,,,353358909,1=Yes,,,
-,Recruitment,883203566,Sign in,888406923,Reasons for opt-out request. (Select all that apply),430963945,Does not want to give biospecimen samples,Does not want to give biospecimen samples,RcrtSI_OptOut_v1r0_samples,Num,1,104430631,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
-,,,,,,,,,,,,353358909,1=Yes,,,
-,Recruitment,883203566,Sign in,888406923,Reasons for opt-out request. (Select all that apply),858454594,Compensation to participate is not high enough,Compensation to participate is not high enough,RcrtSI_OptOut_v1r0_comp,Num,1,104430631,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
-,,,,,,,,,,,,353358909,1=Yes,,,
-,Recruitment,883203566,Sign in,888406923,Reasons for opt-out request. (Select all that apply),286383407,Does not think they�re eligible,Does not think they�re eligible,RcrtSI_OptOut_v1r0_eligible,Num,1,104430631,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
-,,,,,,,,,,,,353358909,1=Yes,,,
-,Recruitment,883203566,Sign in,888406923,Reasons for opt-out request. (Select all that apply),931677355,Opposed to genetic testing,Opposed to genetic testing,RcrtSI_OptOut_v1r0_GenTest,Num,1,104430631,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
-,,,,,,,,,,,,353358909,1=Yes,,,
-,Recruitment,883203566,Sign in,888406923,Reasons for opt-out request. (Select all that apply),367926941,Too sick/poor health to join,Too sick/poor health to join,RcrtSI_OptOut_v1r0_health,Num,1,104430631,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
-,,,,,,,,,,,,353358909,1=Yes,,,
-,Recruitment,883203566,Sign in,888406923,Reasons for opt-out request. (Select all that apply),992302770,Does not have reliable access to internet,Does not have reliable access to internet,RcrtSI_OptOut_v1r0_access,Num,1,104430631,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
-,,,,,,,,,,,,353358909,1=Yes,,,
-,Recruitment,883203566,Sign in,888406923,Reasons for opt-out request. (Select all that apply),355389277,Worried the study might find something concerning about them,Worried the study might find something concerning about them,RcrtSI_OptOut_v1r0_concern,Num,1,104430631,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
-,,,,,,,,,,,,353358909,1=Yes,,,
-,Recruitment,883203566,Sign in,888406923,Reasons for opt-out request. (Select all that apply),220666966,Privacy: Does not want to provide information online,Privacy: Does not want to provide information online,RcrtSI_OptOut_v1r0_PrivacyA,Num,1,104430631,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
-,,,,,,,,,,,,353358909,1=Yes,,,
-,Recruitment,883203566,Sign in,888406923,Reasons for opt-out request. (Select all that apply),794896479,Privacy: Does not want to complete surveys,Privacy: Does not want to complete surveys,RcrtSI_OptOut_v1r0_PrivacyB,Num,1,104430631,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
-,,,,,,,,,,,,353358909,1=Yes,,,
-,Recruitment,883203566,Sign in,888406923,Reasons for opt-out request. (Select all that apply),974856039,Privacy: Does not want to provide access to EMR/medical history information or diagnoses,Privacy: Does not want to provide access to EMR/medical history information or diagnoses,RcrtSI_OptOut_v1r0_PrivacyC,Num,1,104430631,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
-,,,,,,,,,,,,353358909,1=Yes,,,
-,Recruitment,883203566,Sign in,888406923,Reasons for opt-out request. (Select all that apply),381596928,Privacy: Does not trust the government,Privacy: Does not trust the government,RcrtSI_OptOut_v1r0_PrivacyD,Num,1,104430631,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
-,,,,,,,,,,,,353358909,1=Yes,,,
-,,,,888406923,Reasons for opt-out request. (Select all that apply),656942418,Privacy: Does not trust research/researchers,Privacy: Does not trust research/researchers,RcrtSI_OptOut_v1r0_PrivacyE,Num,1,104430631,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
-883203566,Recruitment,,Sign in,,,,,,,,,353358909,1=Yes,,,
-,,,,888406923,Reasons for opt-out request. (Select all that apply),655002352,Privacy: Does not want their information shared with other researchers,Privacy: Does not want their information shared with other researchers,RcrtSI_OptOut_v1r0_PrivacyF,Num,1,104430631,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
-883203566,Recruitment,,Sign in,,,,,,,,,353358909,1=Yes,,,
-,,,,888406923,Reasons for opt-out request. (Select all that apply),564155898,Privacy: Worried information won�t be secure or there will be a data breach,Privacy: Worried information won�t be secure or there will be a data breach,RcrtSI_OptOut_v1r0_PrivacyG,Num,1,104430631,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
-883203566,Recruitment,,Sign in,,,,,,,,,353358909,1=Yes,,,
-,,,,888406923,Reasons for opt-out request. (Select all that apply),707450756,"Privacy: Worried about data being given to insurance company, effects on insurance (health, life, other)","Privacy: Worried about data being given to insurance company, effects on insurance (health, life, other)",RcrtSI_OptOut_v1r0_PrivacyH,Num,1,104430631,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
-883203566,Recruitment,,Sign in,,,,,,,,,353358909,1=Yes,,,
-,,,,888406923,Reasons for opt-out request. (Select all that apply),395333633,Privacy: Worried about data being given to employer/potential employer,Privacy: Worried about data being given to employer/potential employer,RcrtSI_OptOut_v1r0_PrivacyI,Num,1,104430631,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
-883203566,Recruitment,,Sign in,,,,,,,,,353358909,1=Yes,,,
-,,,,888406923,Reasons for opt-out request. (Select all that apply),646925786,Privacy: Worried that their information could be used to discriminate against them/their family,Privacy: Worried that their information could be used to discriminate against them/their family,RcrtSI_OptOut_v1r0_PrivacyJ,Num,1,104430631,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
-883203566,Recruitment,,Sign in,,,,,,,,,353358909,1=Yes,,,
-,,,,888406923,Reasons for opt-out request. (Select all that apply),189285543,Privacy: Worried that their information will be used by others to make a profit,Privacy: Worried that their information will be used by others to make a profit,RcrtSI_OptOut_v1r0_PrivacyK,Num,1,104430631,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
-883203566,Recruitment,,Sign in,,,,,,,,,353358909,1=Yes,,,
-,,,,888406923,Reasons for opt-out request. (Select all that apply),517317155,Privacy: Other privacy concerns,Privacy: Other privacy concerns,RcrtSI_OptOut_v1r0_PrivacyL,Num,1,104430631,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
-883203566,Recruitment,,Sign in,,,,,,,,,353358909,1=Yes,,,
-,,,,888406923,Reasons for opt-out request. (Select all that apply),600916467,Person is unable to participate or deceased (family member reaches out to study),Person is unable to participate or deceased (family member reaches out to study),RcrtSI_OptOut_v1r0_unable,Num,1,104430631,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
-,,,,,,,,,,,,353358909,1=Yes,,,
-,Recruitment,883203566,Sign in,888406923,Reasons for opt-out request. (Select all that apply),137652888,Other reason(s),Other reason(s),RcrtSI_OptOut_v1r0_other,Num,1,104430631,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
-,,,,,,,,,,,,353358909,1=Yes,,,
-,Recruitment,883203566,Sign in,888406923,Reasons for opt-out request. (Select all that apply),189414538,Please specify __________,Please specify __________,RcrtSI_OptOut_v1r0_specify,Char,800,,N/A,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
-,,,,,,,,,,,,,,,,
-,Recruitment,883203566,Sign in,888406923,Reasons for opt-out request. (Select all that apply),198374512,Reason not given,Reason not given,RcrtSI_OptOut_v1r0_none,Num,1,104430631,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
-,,,,,,,,,,,,353358909,1=Yes,,,
+,Recruitment,,Sign in,,,,PIN/Token Workflow for HP,Workflow Type,RcrtSI_WorkflowType_v1r0,Num,1,,0 = Letter without PIN,Yes for HP,No,
+,,,,,,,,,,,,,1 = Letter with PIN,,,
+,Recruitment,,Sign in,,,,Pre-consent Opt-out,Pre-consent Opt-out,RcrtSI_OptOut_v1r0,Num,1,,0=No,No,No,Default is No.  Sites should set to yes when I participat opts-out prior to consent and sent through the submitParticipantsData API call.  See Opt-out SOP.  A categorical reason for opt-out variable will be added to the dictionary once the list is finalized.
+,,,,,,,,,,,,,1=Yes,,,
+,Recruitment,,Sign in,,Reasons for opt-out request. (Select all that apply),,Too busy/stressed to join,Too busy/stressed to join,RcrtSI_OptOut_v1r0_busy,Num,1,,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
+,,,,,,,,,,,,,1=Yes,,,
+,Recruitment,,Sign in,,Reasons for opt-out request. (Select all that apply),,Not interested in the study/does not think research topic is important,Not interested in the study/does not think research topic is important,RcrtSI_OptOut_v1r0_impt,Num,1,,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
+,,,,,,,,,,,,,1=Yes,,,
+,Recruitment,,Sign in,,Reasons for opt-out request. (Select all that apply),,Does not want to participate in research,Does not want to participate in research,RcrtSI_OptOut_v1r0_partic,Num,1,,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
+,,,,,,,,,,,,,1=Yes,,,
+,Recruitment,,Sign in,,Reasons for opt-out request. (Select all that apply),,Does not want to be in a long-term study,Does not want to be in a long-term study,RcrtSI_OptOut_v1r0_term,Num,1,,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
+,,,,,,,,,,,,,1=Yes,,,
+,Recruitment,,Sign in,,Reasons for opt-out request. (Select all that apply),,Too many contacts from the study,Too many contacts from the study,RcrtSI_OptOut_v1r0_contacts,Num,1,,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
+,,,,,,,,,,,,,1=Yes,,,
+,Recruitment,,Sign in,,Reasons for opt-out request. (Select all that apply),,"Participation takes too much time, asks for too much","Participation takes too much time, asks for too much",RcrtSI_OptOut_v1r0_time,Num,1,,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
+,,,,,,,,,,,,,1=Yes,,,
+,Recruitment,,Sign in,,Reasons for opt-out request. (Select all that apply),,Does not want to give biospecimen samples,Does not want to give biospecimen samples,RcrtSI_OptOut_v1r0_samples,Num,1,,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
+,,,,,,,,,,,,,1=Yes,,,
+,Recruitment,,Sign in,,Reasons for opt-out request. (Select all that apply),,Compensation to participate is not high enough,Compensation to participate is not high enough,RcrtSI_OptOut_v1r0_comp,Num,1,,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
+,,,,,,,,,,,,,1=Yes,,,
+,Recruitment,,Sign in,,Reasons for opt-out request. (Select all that apply),,Does not think they�re eligible,Does not think they�re eligible,RcrtSI_OptOut_v1r0_eligible,Num,1,,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
+,,,,,,,,,,,,,1=Yes,,,
+,Recruitment,,Sign in,,Reasons for opt-out request. (Select all that apply),,Opposed to genetic testing,Opposed to genetic testing,RcrtSI_OptOut_v1r0_GenTest,Num,1,,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
+,,,,,,,,,,,,,1=Yes,,,
+,Recruitment,,Sign in,,Reasons for opt-out request. (Select all that apply),,Too sick/poor health to join,Too sick/poor health to join,RcrtSI_OptOut_v1r0_health,Num,1,,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
+,,,,,,,,,,,,,1=Yes,,,
+,Recruitment,,Sign in,,Reasons for opt-out request. (Select all that apply),,Does not have reliable access to internet,Does not have reliable access to internet,RcrtSI_OptOut_v1r0_access,Num,1,,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
+,,,,,,,,,,,,,1=Yes,,,
+,Recruitment,,Sign in,,Reasons for opt-out request. (Select all that apply),,Worried the study might find something concerning about them,Worried the study might find something concerning about them,RcrtSI_OptOut_v1r0_concern,Num,1,,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
+,,,,,,,,,,,,,1=Yes,,,
+,Recruitment,,Sign in,,Reasons for opt-out request. (Select all that apply),,Privacy: Does not want to provide information online,Privacy: Does not want to provide information online,RcrtSI_OptOut_v1r0_PrivacyA,Num,1,,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
+,,,,,,,,,,,,,1=Yes,,,
+,Recruitment,,Sign in,,Reasons for opt-out request. (Select all that apply),,Privacy: Does not want to complete surveys,Privacy: Does not want to complete surveys,RcrtSI_OptOut_v1r0_PrivacyB,Num,1,,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
+,,,,,,,,,,,,,1=Yes,,,
+,Recruitment,,Sign in,,Reasons for opt-out request. (Select all that apply),,Privacy: Does not want to provide access to EMR/medical history information or diagnoses,Privacy: Does not want to provide access to EMR/medical history information or diagnoses,RcrtSI_OptOut_v1r0_PrivacyC,Num,1,,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
+,,,,,,,,,,,,,1=Yes,,,
+,Recruitment,,Sign in,,Reasons for opt-out request. (Select all that apply),,Privacy: Does not trust the government,Privacy: Does not trust the government,RcrtSI_OptOut_v1r0_PrivacyD,Num,1,,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
+,,,,,,,,,,,,,1=Yes,,,
+,,,,,Reasons for opt-out request. (Select all that apply),,Privacy: Does not trust research/researchers,Privacy: Does not trust research/researchers,RcrtSI_OptOut_v1r0_PrivacyE,Num,1,,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
+,Recruitment,,Sign in,,,,,,,,,,1=Yes,,,
+,,,,,Reasons for opt-out request. (Select all that apply),,Privacy: Does not want their information shared with other researchers,Privacy: Does not want their information shared with other researchers,RcrtSI_OptOut_v1r0_PrivacyF,Num,1,,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
+,Recruitment,,Sign in,,,,,,,,,,1=Yes,,,
+,,,,,Reasons for opt-out request. (Select all that apply),,Privacy: Worried information won�t be secure or there will be a data breach,Privacy: Worried information won�t be secure or there will be a data breach,RcrtSI_OptOut_v1r0_PrivacyG,Num,1,,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
+,Recruitment,,Sign in,,,,,,,,,,1=Yes,,,
+,,,,,Reasons for opt-out request. (Select all that apply),,"Privacy: Worried about data being given to insurance company, effects on insurance (health, life, other)","Privacy: Worried about data being given to insurance company, effects on insurance (health, life, other)",RcrtSI_OptOut_v1r0_PrivacyH,Num,1,,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
+,Recruitment,,Sign in,,,,,,,,,,1=Yes,,,
+,,,,,Reasons for opt-out request. (Select all that apply),,Privacy: Worried about data being given to employer/potential employer,Privacy: Worried about data being given to employer/potential employer,RcrtSI_OptOut_v1r0_PrivacyI,Num,1,,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
+,Recruitment,,Sign in,,,,,,,,,,1=Yes,,,
+,,,,,Reasons for opt-out request. (Select all that apply),,Privacy: Worried that their information could be used to discriminate against them/their family,Privacy: Worried that their information could be used to discriminate against them/their family,RcrtSI_OptOut_v1r0_PrivacyJ,Num,1,,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
+,Recruitment,,Sign in,,,,,,,,,,1=Yes,,,
+,,,,,Reasons for opt-out request. (Select all that apply),,Privacy: Worried that their information will be used by others to make a profit,Privacy: Worried that their information will be used by others to make a profit,RcrtSI_OptOut_v1r0_PrivacyK,Num,1,,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
+,Recruitment,,Sign in,,,,,,,,,,1=Yes,,,
+,,,,,Reasons for opt-out request. (Select all that apply),,Privacy: Other privacy concerns,Privacy: Other privacy concerns,RcrtSI_OptOut_v1r0_PrivacyL,Num,1,,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
+,Recruitment,,Sign in,,,,,,,,,,1=Yes,,,
+,,,,,Reasons for opt-out request. (Select all that apply),,Person is unable to participate or deceased (family member reaches out to study),Person is unable to participate or deceased (family member reaches out to study),RcrtSI_OptOut_v1r0_unable,Num,1,,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
+,,,,,,,,,,,,,1=Yes,,,
+,Recruitment,,Sign in,,Reasons for opt-out request. (Select all that apply),,Other reason(s),Other reason(s),RcrtSI_OptOut_v1r0_other,Num,1,,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
+,,,,,,,,,,,,,1=Yes,,,
+,Recruitment,,Sign in,,Reasons for opt-out request. (Select all that apply),,Please specify __________,Please specify __________,RcrtSI_OptOut_v1r0_specify,Char,800,,N/A,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced. 
+,Recruitment,,Sign in,,Reasons for opt-out request. (Select all that apply),,Reason not given,Reason not given,RcrtSI_OptOut_v1r0_none,Num,1,,0=No,No,No,For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.
+,,,,,,,,,,,,,1=Yes,,,
 192505768,Recruitment,883203566,Sign in,,,875549268,Recruitment SOP maximum number of pre-consent contact attempts reached for cycle,Max number of contacts reached for cycle,RcrtSI_MaxContcts_v1r0,,,104430631,0=No,Yes,No,"Default will be set to ""No""  when an eligible participant becomes an active recruit. When the Recruitment SOP annual maximum number of pre-consent contact attempts reached send a ""Yes"" for that variable through to  submitParticipantsData API call.  Such updates can be made in real-time or in weekly batches."
 ,,,,,,,,,,,,353358909,1=Yes,,,
 192505768,Recruitment,883203566,Sign in,,,230663853,Autogenerated flag - Signed-in,Signed-in,RcrtSI_SignedIn_v1r0,Num,1,104430631,0=No,Yes,No,"Default is zero at time token/pin assigned to recruit. For passive recruits both RcrtSI_SignedIn_v1r0 equals 1 and token assigned occur in the same step, which is after selection of site.  Once a passive recruit has a token, all subsequent flags can be populated with the default and updated as the participant proceeds."
@@ -658,10 +658,10 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question,co
 192505768,Recruitment,273437590,Consent,,,454205108,Consent Version,Consent Version,RcrtCS_Version_v1r0,Char,11,,N/A,Yes,No,Other version codes to be added as needed.
 192505768,Recruitment,273437590,Consent,,,866095545,Consent acknowledgement,Consent acknowledgement,RcrtCS_acknowledge_v1r0,Num,1,104430631,0=No,Yes,No,"Default equals 0, RcrtCS_acknowledge_v1r0 equals 1 after box checked"
 ,,,,,,,,,,,,353358909,1=Yes,,,
-192505768,Recruitment,273437590,Consent,,,471168198,First Name extracted from consent form,First Name,RcrtCS_Fname_v1r0,Char,50,,N/A,Yes,Yes,Legal first name for all non-KP sites. For KP sites it is their ID card name.
-192505768,Recruitment,273437590,Consent,,,736251808,Last Name extracted from consent form,Last Name,RcrtCS_Lname_v1r0,Char,50,,N/A,Yes,Yes,Legal last name for all non-KP sites. For KP sites it is their ID card name.
-,,,,,,679272973,Middle Name extracted from consent form,Middle Name,RcrtCS_Mname_v1r0,Char,50,,N/A,No,Yes,Legal middle name for all non-KP sites. For KP sites it is their ID card name.
-,Recruitment,273437590,Consent,,,499732152,Suffix,Suffix,RcrtCS_Suffix_v1r0,Num,1,612166858,0=Jr.,No,No,Additional options may be added later.
+192505768,Recruitment,273437590,Consent,,,471168198,First Name extracted from consent form,First Name,RcrtCS_Fname_v1r0,Char,50,,N/A,Yes,Yes,Legal first name for all non-KP sites. For KP sites it is their ID card name. 
+192505768,Recruitment,273437590,Consent,,,736251808,Last Name extracted from consent form,Last Name,RcrtCS_Lname_v1r0,Char,50,,N/A,Yes,Yes,Legal last name for all non-KP sites. For KP sites it is their ID card name. 
+,,,,,,,Middle Name extracted from consent form,Middle Name,RcrtCS_Mname_v1r0,Char,50,,N/A,No,Yes,Legal middle name for all non-KP sites. For KP sites it is their ID card name. 
+,Recruitment,,Consent,,,,Suffix,Suffix,RcrtCS_Suffix_v1r0,Num,1,612166858,0=Jr.,No,No,Additional options may be added later.
 ,,,,,,,,,,,,255907182,1=Sr.,,,
 ,,,,,,,,,,,,226924545,2=I,,,
 ,,,,,,,,,,,,270793412,3=II,,,
@@ -689,7 +689,7 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question,co
 ,,,,,,,,,,,,959021713,4=III,,,
 ,,,,,,,,,,,,643664527,5=2nd,,,
 ,,,,,,,,,,,,537892528,6=3rd,,,
-,Recruitment,332759827,User Profile,,,153211406,What is your preferred first name?,Preferred Name,RcrtUP_PrefName_v1r0,Char,50,,N/A,No,Yes,
+,Recruitment,,User Profile,,,,What is your preferred first name?,Preferred Name,RcrtUP_PrefName_v1r0,Char,50,,N/A,No,Yes,
 192505768,Recruitment,332759827,User Profile,,,564964481,Birth Month,Birth Month,RcrtUP_MOB_v1r0,Month,2,,mm,Yes,Yes,Variable will be populated by a drop down menu with values from 1 to 12
 192505768,Recruitment,332759827,User Profile,,,795827569,Birth Day,Birth Day,RcrtUP_BD_v1r0,Day,2,,dd,Yes,Yes,"Variable will be populated by a drop down with values from 1 to 31.  DOB is being saved for the derived single date variable that will be created from MOB, BD and YOB."
 192505768,Recruitment,332759827,User Profile,,,544150384,Birth Year,Birth Year,RcrtUP_YOB_v1r0,Year,4,,yyyy ,Yes ,Yes,Field will require a 4 digit response.
@@ -703,8 +703,8 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question,co
 192505768,Recruitment,332759827,User Profile,,,438643922,Home phone,Home phone,RcrtUP_Home_v1r0,Num,10,,N/A,"Yes, if no other phone number given",Yes,"Type and length are based on a numbers only format, no dashes"
 192505768,Recruitment,332759827,User Profile,,,187894482,Can we leave voicemail at this number?,Home voicemail,RcrtUP_HomeVM_v1r0,Num,1,104430631,0 = No,No,No,
 ,,,,,,,,,,,,353358909,1 = Yes,,,
-,Recruitment,332759827,User Profile,,,793072415,Other phone,Other phone,RcrtUP_OtherPhone_v1r0,Num,10,,N/A,"Yes, if no other phone number given",Yes,
-,Recruitment,332759827,User Profile,,,983278853,Can we leave voicemail at this number?,Other voicemail,RcrtUP_OtherVM_v1r0,Num,1,104430631,0 = No,No,No,
+,Recruitment,,User Profile,,,,Other phone,Other phone,RcrtUP_OtherPhone_v1r0,Num,10,,N/A,"Yes, if no other phone number given",Yes,
+,Recruitment,,User Profile,,,,Can we leave voicemail at this number?,Other voicemail,RcrtUP_OtherVM_v1r0,Num,1,104430631,0 = No,No,No,
 ,,,,,,,,,,,,353358909,1 = Yes,,,
 192505768,Recruitment,332759827,User Profile,,,869588347,Preferred Email,Preferred email,RcrtUP_PreEmail_v1r0,Char,120,,N/A,Yes,Yes,
 192505768,Recruitment,332759827,User Profile,,,849786503,Additional Email 1,Additional email 1,RcrtUP_Email1_v1r0,Char,120,,N/A,No,Yes,
@@ -731,8 +731,8 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question,co
 192505768,Recruitment,218595434,Verification,,,821247024,Indicator of match verification after creation of user profile - updated by sites,Verification status,RcrtV_Verification_v1r0,Num,1,875007964,0 = Not yet verified,Yes,No,"Default, Not yet verified - 0, assigned at submission of  StudyIDs from sites for active recruits and when token is assigned from passive recruites.  Updates will be received from the sites as part of the verification table."
 ,,,,,,,,,,,,197316935,1 = Verified,,,
 ,,,,,,,,,,,,219863910,2 = Cannot be verified,,,
-,,,,,,,,,,,,922622075,3 = Duplicate,,,
-,,,,,,,,,,,,160161595,4 = Outreach timed out,,,
+,,,,,,,,,,,,,3 = Duplicate,,,
+,,,,,,,,,,,,,4 = Outreach timed out,,,
 192505768,Recruitment,218595434,Verification,,,914594314,Autogenerated date/time verification status is updated,Verification status time,RcrtV_VerificationTm_V1R0,ISO,24,,example: 2020-07-17T15:21:26.763Z,Yes,No,ISO to be converted to SAS format
 192505768,Recruitment,218595434,Verification,,,444699761,Automated method used for verification.,Automated verification,RcrtV_Automated_v1r0,Num,1,734437214,0=Method not used,Yes,No,Sent as part of the verification table from the IHCS.
 ,,,,,,,,,,,,426360242,1=Method used,,,
@@ -744,12 +744,12 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question,co
 ,,,,,,,,,,,,219803804,1=Matched,,,
 192505768,Recruitment,218595434,Verification,,,725929722,Verification Variable - DOB,DOB Match,RcrtV_DOBMatch_v1r0,Num,1,356674370,0=Not matched,Yes,No,Sent as part of the verification table from the IHCS.
 ,,,,,,,,,,,,219803804,1=Matched,,,
-,Recruitment,218595434,Verification,,,448302820,Verification Variable - PIN,PIN Match,RcrtV_PINMatch_v1r0,Num,1,356674370,0=Not matched,Yes for some sites,No,"Sent as part of the verification table for HFHS , KP and Sanford."
-,,,,,,,,,,,,219803804,1=Matched,,,
-,Recruitment,218595434,Verification,,,732606533,Verification Variable - Token,Token Match,RcrtV_TokenMatch_v1r0,Num,1,356674370,0=Not matched,Yes for some sites,No,Sent as part of the verification table for HFHS and KP.
-,,,,,,,,,,,,219803804,1=Matched,,,
-,Recruitment,218595434,Verification,,,442974766,Verification Variable - Zipcode,Zipcode Match,RcrtV_ZipMatch_v1r0,Num,1,356674370,0=Not matched,Yes for some sites,,Sent as part of the verification table for HFHS for passive recruits.
-,,,,,,,,,,,,219803804,1=Matched,,,
+,Recruitment,,Verification,,,,Verification Variable - PIN,PIN Match,RcrtV_PINMatch_v1r0,Num,1,,0=Not matched,Yes for some sites,No,"Sent as part of the verification table for HFHS , KP and Sanford."
+,,,,,,,,,,,,,1=Matched,,,
+,Recruitment,,Verification,,,,Verification Variable - Token,Token Match,RcrtV_TokenMatch_v1r0,Num,1,,0=Not matched,Yes for some sites,No,Sent as part of the verification table for HFHS and KP.
+,,,,,,,,,,,,,1=Matched,,,
+,Recruitment,,Verification,,,,Verification Variable - Zipcode,Zipcode Match,RcrtV_ZipMatch_v1r0,Num,1,,0=Not matched,Yes for some sites,,Sent as part of the verification table for HFHS for passive recruits.
+,,,,,,,,,,,,,1=Matched,,,
 192505768,Recruitment,218595434,Verification,,,570452130,Eligibility Variable - Site,Site Match,RcrtV_SiteMatch_v1r0,Num,1,539025306,0=Criterium not met,Yes,No,Sent as part of the verification table from the IHCS.
 ,,,,,,,,,,,,427405444,1=Criterium met,,,
 192505768,Recruitment,218595434,Verification,,,629484663,Eligibility Variable - Age,Age Match,RcrtV_AgeMatch_v1r0,Num,1,539025306,0=Criterium not met,Yes,No,Sent as part of the verification table from the IHCS.
