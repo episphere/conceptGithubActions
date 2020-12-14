@@ -1,5 +1,5 @@
 {
-  "Primary Source": "192505768.json",
+  "Primary Source": "Recruitment",
   "Secondary Source": "332759827.json",
   "conceptId": "849786503",
   "Question Text": "Additional Email 1",
@@ -9,5 +9,8 @@
   "Variable Length": "120",
   "Format/Value": "N/A",
   "Required": "No",
-  "PII": "Yes"
+  "PII": "Yes",
+  "subcollection": [
+    "192505768.json"
+  ]
 }

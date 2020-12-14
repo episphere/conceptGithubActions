@@ -1,5 +1,5 @@
 {
-  "Primary Source": "819848608.json",
+  "Primary Source": "Biospecimen",
   "Secondary Source": "360770860.json",
   "conceptId": "677469051",
   "Question Text": "EDTA Tube 2 ",
@@ -9,5 +9,8 @@
   "Variable Length": "N/A",
   "Format/Value": "N/A",
   "Required": "Yes",
-  "PII": "No"
+  "PII": "No",
+  "subcollection": [
+    "819848608.json"
+  ]
 }

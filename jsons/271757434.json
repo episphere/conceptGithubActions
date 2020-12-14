@@ -1,5 +1,5 @@
 {
-  "Primary Source": "192505768.json",
+  "Primary Source": "Recruitment",
   "Secondary Source": "332759827.json",
   "conceptId": "271757434",
   "Question Text": "Can we leave voicemail at this number?",
@@ -9,8 +9,7 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Format/Value": {
-    "104430631.json": "0",
-    "353358909.json": "1"
-  }
+  "subcollection": [
+    "192505768.json"
+  ]
 }
