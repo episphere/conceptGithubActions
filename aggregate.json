@@ -47,13 +47,16 @@
     "Variable Label": "Check-In Complete",
     "Variable Name": "BioChk_Complete_v1r0"
   },
-  "137652888": {
-    "Variable Label": "Other reason(s)",
-    "Variable Name": "RcrtSI_OptOut_v1r0_other"
-  },
   "138097322": {
     "Variable Label": "Login last name ",
     "Variable Name": "BioShip_LogLname_v1r0"
+  },
+  "138990838": {
+    "Variable Label": "Privacy: Worried that their information could be used to discriminate against them/their family",
+    "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyJ"
+  },
+  "141413023": {
+    "Variable Name": "Letter with PIN"
   },
   "142654897": {
     "Variable Name": "How did you hear about this study? (Select all that apply)"
@@ -77,6 +80,10 @@
   "149772928": {
     "Variable Name": "World Courier"
   },
+  "152064193": {
+    "Variable Label": "Compensation to participate is not high enough",
+    "Variable Name": "RcrtSI_OptOut_v1r0_comp"
+  },
   "153211406": {
     "Variable Label": "Preferred Name",
     "Variable Name": "RcrtUP_PrefName_v1r0"
@@ -91,6 +98,13 @@
     "Variable Label": "Placeholder- Baseline Urine",
     "Variable Name": "BioFin_BaseUrineCom_v1r0"
   },
+  "170160007": {
+    "Variable Name": "Geographic group"
+  },
+  "175672701": {
+    "Variable Label": "Opposed to genetic testing",
+    "Variable Name": "RcrtSI_OptOut_v1r0_GenTest"
+  },
   "178420302": {
     "Variable Name": "Unavailable/Unknown"
   },
@@ -104,25 +118,9 @@
   "181769837": {
     "Variable Name": "Other"
   },
-  "182438752": {
-    "Variable Label": "Henry Ford Health System Reported Race",
-    "Variable Name": "RcrtSI_HFHSRace_v1r0"
-  },
   "187894482": {
     "Variable Label": "Home voicemail",
     "Variable Name": "RcrtUP_HomeVM_v1r0"
-  },
-  "189285543": {
-    "Variable Label": "Privacy: Worried that their information will be used by others to make a profit",
-    "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyK"
-  },
-  "189414538": {
-    "Variable Label": "Please specify __________",
-    "Variable Name": "RcrtSI_OptOut_v1r0_specify"
-  },
-  "191399221": {
-    "Variable Label": "Does not want to participate in research",
-    "Variable Name": "RcrtSI_OptOut_v1r0_partic"
   },
   "192461115": {
     "Variable Name": "Module  3"
@@ -133,10 +131,6 @@
   },
   "197316935": {
     "Variable Name": "Verified"
-  },
-  "198374512": {
-    "Variable Label": "Reason not given",
-    "Variable Name": "RcrtSI_OptOut_v1r0_none"
   },
   "200929978": {
     "Variable Name": "Native Hawaiian"
@@ -160,17 +154,9 @@
   "219863910": {
     "Variable Name": "Cannot be verified"
   },
-  "220666966": {
-    "Variable Label": "Privacy: Does not want to provide information online",
-    "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyA"
-  },
   "223999569": {
     "Variable Label": "Biohazard Bag (mouthwash) ID",
     "Variable Name": "BioCol_0009_v1r0"
-  },
-  "225228584": {
-    "Variable Label": "Too many contacts from the study",
-    "Variable Name": "RcrtSI_OptOut_v1r0_contacts"
   },
   "226562200": {
     "Variable Label": "Additional Label Used",
@@ -214,10 +200,6 @@
   "255907182": {
     "Variable Name": "Sr."
   },
-  "257912020": {
-    "Variable Label": "Participation takes too much time, asks for too much",
-    "Variable Name": "RcrtSI_OptOut_v1r0_time"
-  },
   "258745303": {
     "Variable Label": "Orphan tube- report missing",
     "Variable Name": "BioPack_OMissing_v1r0"
@@ -238,6 +220,9 @@
     "Variable Label": "Cancer Type",
     "Variable Name": "RcrtUP_CancerType_v1r0"
   },
+  "270769954": {
+    "Variable Name": "Neither male or female"
+  },
   "270793412": {
     "Variable Name": "II"
   },
@@ -248,9 +233,13 @@
   "273437590": {
     "Variable Name": "Consent"
   },
-  "286383407": {
-    "Variable Label": "Does not think they�re eligible",
-    "Variable Name": "RcrtSI_OptOut_v1r0_eligible"
+  "277690214": {
+    "Variable Label": "Does not want to be in a long-term study",
+    "Variable Name": "RcrtSI_OptOut_v1r0_term"
+  },
+  "298222200": {
+    "Variable Label": "Privacy: Does not trust the government",
+    "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyD"
   },
   "299553921": {
     "Variable Label": "Serum Separator Tube 1 ",
@@ -259,8 +248,9 @@
   "300267574": {
     "Variable Name": "Kaiser Permanente Hawaii"
   },
-  "301613859": {
-    "Variable Name": "Geographic group"
+  "300519976": {
+    "Variable Label": "Participation takes too much time, asks for too much",
+    "Variable Name": "RcrtSI_OptOut_v1r0_time"
   },
   "303349821": {
     "Variable Name": "Marshfield Clinic Health System"
@@ -279,6 +269,10 @@
   "314937218": {
     "Variable Name": "Receipt Summary"
   },
+  "315724078": {
+    "Variable Label": "Privacy: Does not want to complete surveys",
+    "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyB"
+  },
   "317427121": {
     "Variable Label": "Shipment status comments",
     "Variable Name": "BioFB_ShipStatNote_v1r0"
@@ -286,15 +280,15 @@
   "319570637": {
     "Variable Name": "Not Hispanic or Latino"
   },
-  "320274491": {
-    "Variable Label": "Pre-consent Opt-out",
-    "Variable Name": "RcrtSI_OptOut_v1r0"
-  },
   "324692899": {
     "Variable Name": "Well visit appointment"
   },
   "325115468": {
     "Variable Name": "UC-DCAM"
+  },
+  "326324217": {
+    "Variable Label": "Privacy: Worried information won�t be secure or there will be a data breach",
+    "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyG"
   },
   "326825649": {
     "Variable Label": "Another Connect participant",
@@ -302,6 +296,10 @@
   },
   "327912200": {
     "Variable Name": "Kaiser Permanente Georgia"
+  },
+  "330351398": {
+    "Variable Label": "Pre-consent Opt-out",
+    "Variable Name": "RcrtSI_OptOut_v1r0"
   },
   "331584571": {
     "Variable Label": "Select visit",
@@ -333,15 +331,15 @@
     "Variable Label": "Account phone",
     "Variable Name": "phoneNumber"
   },
+  "348669330": {
+    "Variable Label": "Privacy: Does not want to provide access to EMR/medical history information or diagnoses",
+    "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyC"
+  },
   "351257378": {
     "Variable Name": "Demographic Group"
   },
   "353358909": {
     "Variable Name": "Yes"
-  },
-  "355389277": {
-    "Variable Label": "Worried the study might find something concerning about them",
-    "Variable Name": "RcrtSI_OptOut_v1r0_concern"
   },
   "356674370": {
     "Variable Name": "Not matched"
@@ -355,10 +353,6 @@
   "363147933": {
     "Variable Name": "51-55"
   },
-  "367926941": {
-    "Variable Label": "Too sick/poor health to join",
-    "Variable Name": "RcrtSI_OptOut_v1r0_health"
-  },
   "371067537": {
     "Variable Label": "Date of Birth",
     "Variable Name": "RcrtUP_DOB_v1r0"
@@ -370,10 +364,6 @@
   "379080287": {
     "Variable Label": "PIN entered",
     "Variable Name": "RcrtES_PIN_v1r0"
-  },
-  "381596928": {
-    "Variable Label": "Privacy: Does not trust the government",
-    "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyD"
   },
   "383945929": {
     "Variable Label": "Sex at birth",
@@ -387,12 +377,16 @@
     "Variable Label": "Mobile phone",
     "Variable Name": "RcrtUP_Mobile_v1r0"
   },
+  "390115623": {
+    "Variable Label": "Worried the study might find something concerning about them",
+    "Variable Name": "RcrtSI_OptOut_v1r0_concern"
+  },
   "390351864": {
     "Variable Name": "Mouthwash"
   },
-  "395333633": {
-    "Variable Label": "Privacy: Worried about data being given to employer/potential employer",
-    "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyI"
+  "393415550": {
+    "Variable Label": "Token Match",
+    "Variable Name": "RcrtV_TokenMatch_v1r0"
   },
   "399159511": {
     "Variable Label": "First Name",
@@ -406,9 +400,6 @@
     "Variable Label": "Go to shipping",
     "Variable Name": "BioRec_ShipFlag_v1r0"
   },
-  "419506454": {
-    "Variable Name": "Neither male or female"
-  },
   "420757389": {
     "Variable Label": "Check out complete",
     "Variable Name": "BioFin_Complete_v1r0"
@@ -416,6 +407,14 @@
   "421823980": {
     "Variable Label": "Account Email",
     "Variable Name": "email"
+  },
+  "425270848": {
+    "Variable Label": "Privacy: Does not want their information shared with other researchers",
+    "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyF"
+  },
+  "425921195": {
+    "Variable Label": "PIN Match",
+    "Variable Name": "RcrtV_PINMatch_v1r0"
   },
   "426360242": {
     "Variable Name": "Method used"
@@ -429,10 +428,6 @@
   "430551721": {
     "Variable Label": "Time User Profile submitted",
     "Variable Name": "RcrtUP_SubmitTime_v1r0"
-  },
-  "430963945": {
-    "Variable Label": "Does not want to give biospecimen samples",
-    "Variable Name": "RcrtSI_OptOut_v1r0_samples"
   },
   "432722256": {
     "Variable Name": "Hispanic/Latino/Black"
@@ -448,10 +443,6 @@
     "Variable Label": "Address line 2",
     "Variable Name": "RcrtUP_AddressLn2_v1r0"
   },
-  "442974766": {
-    "Variable Label": "Zipcode Match",
-    "Variable Name": "RcrtV_ZipMatch_v1r0"
-  },
   "444699761": {
     "Variable Label": "Automated verification",
     "Variable Name": "RcrtV_Automated_v1r0"
@@ -460,13 +451,13 @@
     "Variable Label": "Placeholder - Social Security Number",
     "Variable Name": "RcrtPV_SSN_v1r0"
   },
-  "448302820": {
-    "Variable Label": "PIN Match",
-    "Variable Name": "RcrtV_PINMatch_v1r0"
-  },
   "448660695": {
     "Variable Label": "Placeholder - Date/time Mouthwash Completed",
     "Variable Name": "BioFin_BMTime_v1r0"
+  },
+  "449873230": {
+    "Variable Label": "Middle Name",
+    "Variable Name": "RcrtCS_Mname_v1r0"
   },
   "450985724": {
     "Variable Name": "46-50"
@@ -505,6 +496,10 @@
     "Variable Label": "Email or text from my healthcare provider",
     "Variable Name": "RcrtES_Aware_v1r0_Email"
   },
+  "461894622": {
+    "Variable Label": "Privacy: Does not trust research/researchers",
+    "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyE"
+  },
   "462314689": {
     "Variable Label": "Other",
     "Variable Name": "RcrtES_Aware_v1r0_Other"
@@ -512,6 +507,10 @@
   "463625040": {
     "Variable Label": "Time from account to social security",
     "Variable Name": "RcrtCT_Acct_SSN_v1r0"
+  },
+  "466678062": {
+    "Variable Label": "Privacy: Does not want to provide information online",
+    "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyA"
   },
   "468668640": {
     "Variable Label": "Deviation- Urine hat used",
@@ -533,12 +532,23 @@
     "Variable Label": "Deviation- Broken",
     "Variable Name": "BioCol_Dev_v1r0_Broken"
   },
+  "473372020": {
+    "Variable Name": "Member and Patient of IHCS Health Plan"
+  },
   "477091792": {
     "Variable Label": "IHCS Membership Status",
     "Variable Name": "RcrtSI_MemberStat_v1r0"
   },
+  "486034866": {
+    "Variable Label": "Privacy: Worried about data being given to insurance company, effects on insurance (health, life, other)",
+    "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyH"
+  },
   "486306141": {
     "Variable Name": "Active"
+  },
+  "488919950": {
+    "Variable Label": "Too sick/poor health to join",
+    "Variable Name": "RcrtSI_OptOut_v1r0_health"
   },
   "490725843": {
     "Variable Name": "Native Hawaiian/Pacific Islander"
@@ -551,12 +561,12 @@
     "Variable Label": "Cancer Comments",
     "Variable Name": "RcrtUP_CancerComts_v1r0"
   },
+  "495286094": {
+    "Variable Label": "Privacy: Other privacy concerns",
+    "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyL"
+  },
   "497328760": {
     "Variable Name": "Receipt Summary/Finalize Collection Data Entry"
-  },
-  "499732152": {
-    "Variable Label": "Suffix",
-    "Variable Name": "RcrtCS_Suffix_v1r0"
   },
   "506826178": {
     "Variable Label": "Suffix",
@@ -572,10 +582,6 @@
   "517311251": {
     "Variable Label": "Placeholder - Date/time Module 1 Completed",
     "Variable Name": "QstMd1_TmComplete_v1r0"
-  },
-  "517317155": {
-    "Variable Label": "Privacy: Other privacy concerns",
-    "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyL"
   },
   "517700004": {
     "Variable Name": "National Cancer Instute"
@@ -595,15 +601,14 @@
     "Variable Label": "Select Hawaiian Island",
     "Variable Name": "BioSpm_HIIsland_v1r0"
   },
-  "525861966": {
-    "Variable Label": "Workflow Type",
-    "Variable Name": "RcrtSI_WorkflowType_v1r0"
-  },
   "531313956": {
     "Variable Name": "KPHI RRL"
   },
   "531629870": {
     "Variable Name": "HealthPartners"
+  },
+  "532209849": {
+    "Variable Name": "Other (Hispanic, Asian, American Indian/Alaskan Native, Native Hawaiian or Pacific Islander)"
   },
   "534621077": {
     "Variable Name": "Research"
@@ -652,6 +657,14 @@
     "Variable Label": "Deviation-Improper temperature - too low/frozen ",
     "Variable Name": "BioCol_Dev_v1r0_TempL"
   },
+  "552766413": {
+    "Variable Label": "Too many contacts from the study",
+    "Variable Name": "RcrtSI_OptOut_v1r0_contacts"
+  },
+  "555397482": {
+    "Variable Label": "Other reason(s)",
+    "Variable Name": "RcrtSI_OptOut_v1r0_other"
+  },
   "555611076": {
     "Variable Label": "Autogenerated date/time when box last modified (bag added or removed)",
     "Variable Name": "BioPack_ModifiedTime_v1r0"
@@ -676,13 +689,12 @@
     "Variable Label": "Placeholder - Date/time Blood Completed",
     "Variable Name": "BioFin_BBTime_v1r0"
   },
-  "564155898": {
-    "Variable Label": "Privacy: Worried information won�t be secure or there will be a data breach",
-    "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyG"
-  },
   "564964481": {
     "Variable Label": "Birth Month",
     "Variable Name": "RcrtUP_MOB_v1r0"
+  },
+  "567282635": {
+    "Variable Name": "Reasons for opt-out request. (Select all that apply)"
   },
   "570271641": {
     "Variable Name": "Henry Ford West Bloomfield Hospital"
@@ -697,6 +709,10 @@
   "589224449": {
     "Variable Name": "SF Cancer Center LL��_"
   },
+  "589430705": {
+    "Variable Label": "Suffix",
+    "Variable Name": "RcrtCS_Suffix_v1r0"
+  },
   "589588440": {
     "Variable Label": "Serum Separator Tube 5 ",
     "Variable Name": "BioCol_0021_v1r0"
@@ -708,10 +724,6 @@
   "598680838": {
     "Variable Label": "Placeholder - Date/Time Partial Social Security number submitted",
     "Variable Name": "RcrtPV_SSN4dTime_v1r0"
-  },
-  "600916467": {
-    "Variable Label": "Person is unable to participate or deceased (family member reaches out to study)",
-    "Variable Name": "RcrtSI_OptOut_v1r0_unable"
   },
   "603665257": {
     "Variable Name": "Shipping � Prepare ship"
@@ -730,9 +742,21 @@
     "Variable Label": "Scanned by Last Name",
     "Variable Name": "BioPack_ScanLname_v1r0"
   },
+  "620790611": {
+    "Variable Label": "Henry Ford Health System Reported Ethnicity",
+    "Variable Name": "RcrtSI_HFHSEthnicity_v1r0"
+  },
   "622900774": {
     "Variable Label": "Tube not in bag",
     "Variable Name": "BioPack_TubeNotBag_v1r0"
+  },
+  "623926624": {
+    "Variable Label": "Not interested in the study/does not think research topic is important",
+    "Variable Name": "RcrtSI_OptOut_v1r0_impt"
+  },
+  "626432384": {
+    "Variable Label": "Privacy: Worried about data being given to employer/potential employer",
+    "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyI"
   },
   "628733063": {
     "Variable Name": "Hispanic or Latino"
@@ -740,6 +764,10 @@
   "629484663": {
     "Variable Label": "Age Match",
     "Variable Name": "RcrtV_AgeMatch_v1r0"
+  },
+  "632507304": {
+    "Variable Label": "Sanford and Henry Ford reported sex ",
+    "Variable Name": "RcrtSI_SH_HFHS_Sex_v1r0"
   },
   "634434746": {
     "Variable Label": "State",
@@ -770,16 +798,20 @@
     "Variable Label": "Text",
     "Variable Name": "RcrtUP_MobileTxt_V1R0"
   },
+  "646888827": {
+    "Variable Label": "Does not think they�re eligible",
+    "Variable Name": "RcrtSI_OptOut_v1r0_eligible"
+  },
   "646899796": {
     "Variable Label": " Accession ID ",
     "Variable Name": "BioSpm_AccessionID_v1r0"
   },
-  "646925786": {
-    "Variable Label": "Privacy: Worried that their information could be used to discriminate against them/their family",
-    "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyJ"
-  },
   "647148178": {
     "Variable Name": "Aging out of study"
+  },
+  "650115018": {
+    "Variable Label": "Person is unable to participate or deceased (family member reaches out to study)",
+    "Variable Name": "RcrtSI_OptOut_v1r0_unable"
   },
   "650516960": {
     "Variable Label": "Collection Setting",
@@ -804,20 +836,9 @@
     "Variable Label": "Serum Separator Tube 8 ",
     "Variable Name": "BioCol_0032_v1r0"
   },
-  "655002352": {
-    "Variable Label": "Privacy: Does not want their information shared with other researchers",
-    "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyF"
-  },
   "656548982": {
     "Variable Label": "Autogenerated date/time stamp for submit shipment time",
     "Variable Name": "BioShip_ShipTime_v1r0"
-  },
-  "656880649": {
-    "Variable Name": "Member and Patient of IHCS Health Plan"
-  },
-  "656942418": {
-    "Variable Label": "Privacy: Does not trust research/researchers",
-    "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyE"
   },
   "657167265": {
     "Variable Name": "Sanford Health"
@@ -833,9 +854,6 @@
     "Variable Label": "Shipment courier",
     "Variable Name": "BioPack_Courier_v1r0"
   },
-  "667452984": {
-    "Variable Name": "Letter with PIN"
-  },
   "667474224": {
     "Variable Label": "Campaign Type",
     "Variable Name": "RcrtSI_CampaignType_v1r0"
@@ -843,6 +861,10 @@
   "672863981": {
     "Variable Label": "Autogenerated date/time when first bag added to box",
     "Variable Name": "BioPack_BoxStrtTime_v1r0"
+  },
+  "675053607": {
+    "Variable Label": "Privacy: Worried that their information will be used by others to make a profit",
+    "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyK"
   },
   "677469051": {
     "Variable Label": "EDTA Tube 2 ",
@@ -855,10 +877,6 @@
   "678857215": {
     "Variable Label": "Deviation",
     "Variable Name": "BioCol_Deviation_v1r0"
-  },
-  "679272973": {
-    "Variable Label": "Middle Name",
-    "Variable Name": "RcrtCS_Mname_v1r0"
   },
   "681745422": {
     "Variable Name": "Participant refusal"
@@ -880,6 +898,10 @@
   },
   "698283667": {
     "Variable Name": "Lake Hallie��_"
+  },
+  "699581539": {
+    "Variable Label": "Reason not given",
+    "Variable Name": "RcrtSI_OptOut_v1r0_none"
   },
   "699625233": {
     "Variable Label": "User Profile submitted",
@@ -903,10 +925,6 @@
     "Variable Label": "Site reported sex",
     "Variable Name": "RcrtSI_Sex_v1r0"
   },
-  "707450756": {
-    "Variable Label": "Privacy: Worried about data being given to insurance company, effects on insurance (health, life, other)",
-    "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyH"
-  },
   "709264633": {
     "Variable Name": "Check-In"
   },
@@ -923,8 +941,12 @@
   "716117817": {
     "Variable Name": "Module 4"
   },
-  "724201876": {
+  "719831148": {
     "Variable Name": "Letter without PIN"
+  },
+  "724524069": {
+    "Variable Label": "Too busy/stressed to join",
+    "Variable Name": "RcrtSI_OptOut_v1r0_busy"
   },
   "725929722": {
     "Variable Label": "DOB Match",
@@ -940,10 +962,6 @@
     "Variable Label": "Deviation- Low volume - (tube/container partially filled but still usable)",
     "Variable Name": "BioCol_Dev_v1r0_LowVol"
   },
-  "732606533": {
-    "Variable Label": "Token Match",
-    "Variable Name": "RcrtV_TokenMatch_v1r0"
-  },
   "734437214": {
     "Variable Name": "Method not used"
   },
@@ -953,6 +971,10 @@
   "736251808": {
     "Variable Label": "Last Name",
     "Variable Name": "RcrtCS_Lname_v1r0"
+  },
+  "739910886": {
+    "Variable Label": "Does not have reliable access to internet",
+    "Variable Name": "RcrtSI_OptOut_v1r0_access"
   },
   "745205161": {
     "Variable Name": "Participant unable"
@@ -1010,11 +1032,19 @@
     "Variable Label": "Placeholder - Date/time Module 3 Completed",
     "Variable Name": "QstMd3_TmComplete_v1r0"
   },
+  "770782332": {
+    "Variable Label": "KP reported sex",
+    "Variable Name": "RcrtSI_KP_Sex_v1r0"
+  },
   "771230670": {
     "Variable Name": "61-65"
   },
   "777644826": {
     "Variable Name": "UC-DCAM��_"
+  },
+  "780286610": {
+    "Variable Label": "Does not want to give biospecimen samples",
+    "Variable Name": "RcrtSI_OptOut_v1r0_samples"
   },
   "785578696": {
     "Variable Name": "Hispanic/Latino/White"
@@ -1022,10 +1052,6 @@
   "787237543": {
     "Variable Label": "Biohazard Bag (Blood or Blood/Urine) ID",
     "Variable Name": "BioCol_0008_v1r0"
-  },
-  "787700885": {
-    "Variable Label": "Does not want to be in a long-term study",
-    "Variable Name": "RcrtSI_OptOut_v1r0_term"
   },
   "789843387": {
     "Variable Label": "Login Site",
@@ -1035,17 +1061,9 @@
     "Variable Label": "News article or website",
     "Variable Name": "RcrtES_Aware_v1r0_News"
   },
-  "791756529": {
-    "Variable Label": "Henry Ford Health System Reported Ethnicity",
-    "Variable Name": "RcrtSI_HFHSEthnicity_v1r0"
-  },
   "793072415": {
     "Variable Label": "Other phone",
     "Variable Name": "RcrtUP_OtherPhone_v1r0"
-  },
-  "794896479": {
-    "Variable Label": "Privacy: Does not want to complete surveys",
-    "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyB"
   },
   "795827569": {
     "Variable Label": "Birth Day",
@@ -1060,6 +1078,10 @@
   },
   "809703864": {
     "Variable Name": "University of Chicago Medicine"
+  },
+  "816648939": {
+    "Variable Label": "Henry Ford Health System Reported Race",
+    "Variable Name": "RcrtSI_HFHSRace_v1r0"
   },
   "819377306": {
     "Variable Label": "Poster, brochure, or flyer",
@@ -1102,10 +1124,6 @@
     "Variable Label": "Placeholder - Date/time Module 2 Completed",
     "Variable Name": "QstMd2_TmComplete_v1r0"
   },
-  "832168885": {
-    "Variable Label": "Sanford and Henry Ford reported sex ",
-    "Variable Name": "RcrtSI_SH_HFHS_Sex_v1r0"
-  },
   "833653379": {
     "Variable Label": "Login first name ",
     "Variable Name": "BioShip_LogFname_v1r0"
@@ -1113,12 +1131,20 @@
   "834825425": {
     "Variable Name": "HP Research Clinic"
   },
+  "836726181": {
+    "Variable Label": "Zipcode Match",
+    "Variable Name": "RcrtV_ZipMatch_v1r0"
+  },
   "838480167": {
     "Variable Name": "Henry Ford Medical Center- Fairlane"
   },
   "838567176": {
     "Variable Label": "Heparin Tube 1 ",
     "Variable Name": "BioCol_0003_v1r0"
+  },
+  "841149010": {
+    "Variable Label": "Workflow Type",
+    "Variable Name": "RcrtSI_WorkflowType_v1r0"
   },
   "841390583": {
     "Variable Label": "Orphan tube - shipped flag",
@@ -1136,20 +1162,16 @@
     "Variable Label": "Additional email 1",
     "Variable Name": "RcrtUP_Email1_v1r0"
   },
-  "852438295": {
-    "Variable Label": "Too busy/stressed to join",
-    "Variable Name": "RcrtSI_OptOut_v1r0_busy"
-  },
   "854703046": {
     "Variable Name": "Passive"
+  },
+  "856825024": {
+    "Variable Label": "Does not want to participate in research",
+    "Variable Name": "RcrtSI_OptOut_v1r0_partic"
   },
   "857757831": {
     "Variable Label": "Serum Separator Tube 7 ",
     "Variable Name": "BioCol_0031_v1r0"
-  },
-  "858454594": {
-    "Variable Label": "Compensation to participate is not high enough",
-    "Variable Name": "RcrtSI_OptOut_v1r0_comp"
   },
   "861162895": {
     "Variable Label": "Deviation- Centrifuge - Improper speed/force setting used (too high)",
@@ -1193,12 +1215,13 @@
     "Variable Label": "Participant Left Without Providing Sample",
     "Variable Name": "BioFin_PartLeft_v1r0"
   },
-  "888406923": {
-    "Variable Name": "Reasons for opt-out request. (Select all that apply)"
-  },
   "892050548": {
     "Variable Label": "Zip",
     "Variable Name": "RcrtUP_Zip_v1r0"
+  },
+  "907545139": {
+    "Variable Label": "Please specify __________",
+    "Variable Name": "RcrtSI_OptOut_v1r0_specify"
   },
   "912088602": {
     "Variable Label": "Deviation- Centrifuge -  clotted for longer than 2 hours",
@@ -1233,10 +1256,6 @@
   "926338735": {
     "Variable Name": "Random"
   },
-  "931677355": {
-    "Variable Label": "Opposed to genetic testing",
-    "Variable Name": "RcrtSI_OptOut_v1r0_GenTest"
-  },
   "934298480": {
     "Variable Label": "Site reported age at recruitment",
     "Variable Name": "RcrtSI_Age_v1r0"
@@ -1254,9 +1273,6 @@
   },
   "943488874": {
     "Variable Name": "Gmail"
-  },
-  "943666074": {
-    "Variable Name": "Other (Hispanic, Asian, American Indian/Alaskan Native, Native Hawaiian or Pacific Islander)"
   },
   "945449846": {
     "Variable Name": "Oahu"
@@ -1283,10 +1299,6 @@
   "953614051": {
     "Variable Label": "Manual verification",
     "Variable Name": "RcrtV_Mannual_v1r0"
-  },
-  "953820802": {
-    "Variable Label": "Not interested in the study/does not think research topic is important",
-    "Variable Name": "RcrtSI_OptOut_v1r0_impt"
   },
   "956345366": {
     "Variable Label": "Deviation- Insufficient volume",
@@ -1317,17 +1329,9 @@
     "Variable Label": "Urine ",
     "Variable Name": "BioCol_0006_v1r0"
   },
-  "974856039": {
-    "Variable Label": "Privacy: Does not want to provide access to EMR/medical history information or diagnoses",
-    "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyC"
-  },
   "976570371": {
     "Variable Label": "Placeholder- flag for baseline module 3",
     "Variable Name": "QstMd3_BaseComplete_v1r0"
-  },
-  "979989131": {
-    "Variable Label": "KP reported sex",
-    "Variable Name": "RcrtSI_KP_Sex_v1r0"
   },
   "982402227": {
     "Variable Label": "Participant Consent Date",
@@ -1339,10 +1343,6 @@
   },
   "986445321": {
     "Variable Name": "Blank"
-  },
-  "992302770": {
-    "Variable Label": "Does not have reliable access to internet",
-    "Variable Name": "RcrtSI_OptOut_v1r0_access"
   },
   "995036844": {
     "Variable Label": "Account Sign-in Mechanism",

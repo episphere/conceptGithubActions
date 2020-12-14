@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Recruitment",
+  "Primary Source": "192505768.json",
   "Secondary Source": "883203566.json",
   "conceptId": "749475364",
   "Question Text": "Eligibility algorithm version",
@@ -10,8 +10,5 @@
   "Format/Value": "N/A",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Version of the algorithm use to select the pool of eligible participants that the active recruit is selected from. Sent with de-identified individual demographic variables when participants moved from Eligibility pool to active recruits with submitParticipantsData API call.",
-  "subcollection": [
-    "192505768.json"
-  ]
+  "Notes": "Version of the algorithm use to select the pool of eligible participants that the active recruit is selected from. Sent with de-identified individual demographic variables when participants moved from Eligibility pool to active recruits with submitParticipantsData API call."
 }

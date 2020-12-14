@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Biospecimen",
+  "Primary Source": "819848608.json",
   "Secondary Source": "104913069.json",
   "conceptId": "862774033",
   "Question Text": "Has incentive been given to participant?",
@@ -10,7 +10,8 @@
   "Required": "Yes -for UoC only",
   "PII": "No",
   "Notes": "Only to be displayed for UoC",
-  "subcollection": [
-    "819848608.json"
-  ]
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
 }

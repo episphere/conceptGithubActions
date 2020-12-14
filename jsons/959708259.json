@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Biospecimen",
+  "Primary Source": "819848608.json",
   "Secondary Source": "948781977.json",
   "conceptId": "959708259",
   "Question Text": "Box tracking number scan (one for each box)",
@@ -8,8 +8,5 @@
   "Variable Type": "Char",
   "Required": "Yes if not manually entered",
   "PII": "No",
-  "Notes": "Need to get formats for FedEx and World Courier tracking numbers.",
-  "subcollection": [
-    "819848608.json"
-  ]
+  "Notes": "Need to get formats for FedEx and World Courier tracking numbers."
 }
