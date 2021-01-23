@@ -1,0 +1,20 @@
+{
+  "Primary Source": "332961895.json",
+  "Secondary Source": "117044491.json",
+  "conceptId": "222373868",
+  "Question Text": "Include in NORC Incentive Eligibility List",
+  "Variable Label": "Include in NORC Incentive Eligibility List",
+  "Variable Name": "SMInct_NORCInctElig_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "If SMInct_IncentiveCat_v1r0 is 1 and RcrtES_Site_v1r0 is 8 then 0; if SMInct_IncentiveCat_v1r0 is 1 and RcrtES_Site_v1r0 ne 8 then 1",
+  "Derivation Notes": "This variable is needed to exclude UChicago participants from NORC's incentive list",
+  "Format/Value": {
+    "391329331.json": "0",
+    "469801570.json": "1",
+    "581159388.json": "2",
+    "875157711.json": "3"
+  }
+}

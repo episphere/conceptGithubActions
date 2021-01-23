@@ -1,0 +1,19 @@
+{
+  "Primary Source": "237817859.json",
+  "Secondary Source": "117044491.json",
+  "conceptId": "648228701",
+  "Question Text": "Baseline incentive refused",
+  "Variable Label": "Baseline incentive refused",
+  "Variable Name": "HDInct_BLInctRefused_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "The incentive refusal will come from NORC returning info to us (variable name pending). Need to determine if we want UofC to record this on their check-out screen.",
+  "Format/Value": {
+    "930170921.json": "0",
+    "558437175.json": "1",
+    "835037500.json": "2",
+    "498817420.json": "3"
+  }
+}
