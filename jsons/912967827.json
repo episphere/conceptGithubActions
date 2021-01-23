@@ -1,0 +1,14 @@
+{
+  "Primary Source": "764881851.json",
+  "Secondary Source": "111786178.json",
+  "conceptId": "912967827",
+  "Question Text": "Incentive Chosen",
+  "Variable Label": "Incentive Chosen",
+  "Variable Name": "HDInct_InctChosen_v1r0",
+  "Variable Type": "Char",
+  "Variable Length": "40",
+  "Format/Value": "example: \"\"Starbucks eGift\"\"",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Type of incentive chosen/what kind. Leave as empty string field for now, incentive chosen will be sent by NORC. Should indicate if incentive was declined. Value will pull from Tango Card Catalong. Incentive options change dynamically based on Tango catalog"
+}

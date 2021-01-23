@@ -2,12 +2,17 @@
   "Primary Source": "129084651.json",
   "Secondary Source": "726699695.json",
   "conceptId": "949302066",
-  "Question Text": "Baseline module 1 completion",
-  "Variable Label": "Placeholder- flag for baseline module 1",
-  "Variable Name": "QstMd1_BaseComplete_v1r0",
+  "Question Text": "Baseline Survey Status - Module Background and Overall Health",
+  "Variable Label": "Placeholder- flag for Baseline Module Background and Overall Health",
+  "Variable Name": "SrvBOH_BaseStatus_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
   "Notes": "For display at check-in and check out.  Currently, place holders, but will maintain the Concept IDs when variables are created.",
   "Format/Value": {
-    "104430631.json": "0",
-    "353358909.json": "1"
+    "591003314.json": "0",
+    "329457632.json": "1",
+    "494717729.json": "2"
   }
 }
