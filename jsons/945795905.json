@@ -7,7 +7,7 @@
   "Variable Name": "HDInct_InctChosen_v1r0",
   "Variable Type": "Char",
   "Variable Length": "40",
-  "Format/Value": "example: \"\"\"\"\"\"\"\"Starbucks eGift\"\"\"\"\"\"\"\"",
+  "Format/Value": "example: \"\"\"\"Starbucks eGift\"\"\"\"",
   "Required": "Yes",
   "PII": "No",
   "Notes": "Type of incentive chosen/what kind. Repeated measures variable associated with Round. Left as empty string field for now, incentive chosen will be sent by NORC. Value will pull from Tango Card Catalog. Incentive options change dynamically based on Tango catalog",
