@@ -4,8 +4,12 @@ window.onload = async () => {
     const response = await fetch(`${api}varToConcept.json`)
     const concepts = await response.json();
     renderConcepts(concepts);
-    manageScroll();
     addEventSearchConcepts(concepts);
+    const hash = location.hash;
+    if(hash) {
+        document.getElementById('searchConcepts').value = hash.replace('#', '');
+        handlEvent(concepts);
+    }
 }
 
 const renderConcepts = (concepts) => {
@@ -63,39 +67,37 @@ const addEventTriggerCollapse = () => {
     })
 }
 
-const manageScroll = () => {
-    const hash = location.hash;
-    if(!hash) return;
-    const element = document.getElementById(hash.replace('#', 'heading'));
-    element.scrollIntoView();
-}
-
 const addEventSearchConcepts = (data) => {
     const input = document.getElementById('searchConcepts');
     input.addEventListener('keyup', () => {
-        const value = input.value.trim();
-        if(!value || value.length < 2) {
-            renderConcepts(data);
-        }
-        else {
-            let obj = {};
-            const localData = data;
-            const values = Object.values(localData).filter(dt => new RegExp(value, 'i').test(dt) === true);
-            const keys = Object.keys(localData).filter(dt => new RegExp(value, 'i').test(dt) === true);
-            
-            values.forEach(v => {
-                const index = Object.values(localData).indexOf(v);
-                const key = Object.keys(localData)[index];
-                if(obj[key] === undefined) obj[key] = v.replace(new RegExp(value, 'ig'), '<b>$&</b>');
-            });
+        handlEvent(data);
+    });
+};
 
-            keys.forEach(k => {
-                const index = Object.keys(localData).indexOf(k);
-                const value = Object.values(localData)[index];
-                if(obj[k] === undefined) obj[k] = value;
-            });
+const handlEvent = data => {
+    const input = document.getElementById('searchConcepts');
+    const value = input.value.trim();
+    if(!value || value.length < 2) {
+        renderConcepts(data);
+    }
+    else {
+        let obj = {};
+        const localData = data;
+        const values = Object.values(localData).filter(dt => new RegExp(value, 'i').test(dt) === true);
+        const keys = Object.keys(localData).filter(dt => new RegExp(value, 'i').test(dt) === true);
+        
+        values.forEach(v => {
+            const index = Object.values(localData).indexOf(v);
+            const key = Object.keys(localData)[index];
+            if(obj[key] === undefined) obj[key] = v.replace(new RegExp(value, 'ig'), '<b>$&</b>');
+        });
 
-            renderConcepts(obj);
-        }
-    })
+        keys.forEach(k => {
+            const index = Object.keys(localData).indexOf(k);
+            const value = Object.values(localData)[index];
+            if(obj[k] === undefined) obj[k] = value;
+        });
+
+        renderConcepts(obj);
+    }
 }
