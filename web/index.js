@@ -8,7 +8,7 @@ window.onload = async () => {
     const hash = location.hash;
     if(hash) {
         document.getElementById('searchConcepts').value = hash.replace('#', '');
-        handlEvent(concepts);
+        handleEvent(concepts);
     }
 }
 
@@ -70,11 +70,11 @@ const addEventTriggerCollapse = () => {
 const addEventSearchConcepts = (data) => {
     const input = document.getElementById('searchConcepts');
     input.addEventListener('keyup', () => {
-        handlEvent(data);
+        handleEvent(data);
     });
 };
 
-const handlEvent = data => {
+const handleEvent = data => {
     const input = document.getElementById('searchConcepts');
     const value = input.value.trim();
     if(!value || value.length < 2) {
