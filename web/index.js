@@ -5,11 +5,17 @@ window.onload = async () => {
     const concepts = await response.json();
     renderConcepts(concepts);
     addEventSearchConcepts(concepts);
-    const hash = location.hash;
-    if(hash) {
-        document.getElementById('searchConcepts').value = hash.replace('#', '');
-        handleEvent(concepts);
-    }
+    manageScroll();
+}
+window.onhashchange = () => {
+    manageScroll();
+}
+
+const manageScroll = () => {	
+    const hash = location.hash;	
+    if(!hash) return;	
+    const element = document.getElementById(hash.replace('#', 'heading'));	
+    element.scrollIntoView();	
 }
 
 const renderConcepts = (concepts) => {
@@ -53,11 +59,15 @@ const addEventTriggerCollapse = () => {
                 for(let key in data) {
                     template += `<div><strong>${key}: </strong>&nbsp;`
                     if(typeof data[key] === 'object') {
-                        template += `<pre>${JSON.stringify(data[key])}</pre>`;
+                        template += `<p>`
+                        for(let obj in data[key]){
+                            template += /.json/.test(obj) ? `<a href="#${obj.replace('.json', '')}">${obj}<a>: ${data[key][obj]}</br>`:`${obj}: ${data[key][obj]}`
+                        }
+                        template += `</p>`
                     }
                     else {
                         const url = /https:/i.test(data[key]);
-                        template += `${url ? `<a href="${data[key]}" target="_blank">${data[key]}<a>` : data[key]}</div>`;
+                        template += `${url ? `<a href="${data[key]}" target="_blank">${data[key]}<a>` : key === 'Primary Source' || key === 'Secondary Source'?`<a href="#${data[key].replace('.json', '')}">${data[key]}<a>`:`${data[key]}`}</div>`;
                     }
                 }
                 cardBody.innerHTML = template;
