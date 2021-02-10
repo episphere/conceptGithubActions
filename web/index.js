@@ -3,13 +3,23 @@ const api = 'https://raw.githubusercontent.com/episphere/conceptGithubActions/ma
 window.onload = async () => {
     const response = await fetch(`${api}varToConcept.json`)
     const concepts = await response.json();
-    renderConcepts(concepts);
-    addEventSearchConcepts(concepts);
+    const sortedConcepts = sortKeys(concepts);
+    renderConcepts(sortedConcepts);
+    addEventSearchConcepts(sortedConcepts);
     manageScroll();
 }
+
 window.onhashchange = () => {
     manageScroll();
 }
+
+const sortKeys = (obj) => {
+    return Object.assign(...Object.entries(obj).sort().map(([key, value]) => {
+        return {
+            [key]: value
+        }
+    }));
+};
 
 const manageScroll = () => {	
     const hash = location.hash;	
@@ -60,8 +70,15 @@ const addEventTriggerCollapse = () => {
                     template += `<div><strong>${key}: </strong>&nbsp;`
                     if(typeof data[key] === 'object') {
                         template += `<p>`
-                        for(let obj in data[key]){
-                            template += /.json/.test(obj) ? `<a href="#${obj.replace('.json', '')}">${obj}<a>: ${data[key][obj]}</br>`:`${obj}: ${data[key][obj]}`
+                        if(Array.isArray(data[key])){
+                            for(let obj of data[key]){
+                                template += /.json/.test(obj) ? `<a href="#${obj.replace('.json', '')}">${obj}<a></br>`:`${obj}`
+                            }
+                        }
+                        else {
+                            for(let obj in data[key]){
+                                template += /.json/.test(obj) ? `<a href="#${obj.replace('.json', '')}">${obj}<a>: ${data[key][obj]}</br>`:`${obj}: ${data[key][obj]}`
+                            }
                         }
                         template += `</p>`
                     }
