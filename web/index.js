@@ -1,16 +1,23 @@
 const api = 'https://raw.githubusercontent.com/episphere/conceptGithubActions/master/jsons/';
-
+let concepts = {};
 window.onload = async () => {
     const response = await fetch(`${api}varToConcept.json`)
-    const concepts = await response.json();
-    const sortedConcepts = sortKeys(concepts);
-    renderConcepts(sortedConcepts);
-    addEventSearchConcepts(sortedConcepts);
-    manageScroll();
+    concepts = await response.json();
+    renderConcepts(concepts);
+    addEventSearchConcepts(concepts);
+    const element = manageScroll();
+    element.scrollIntoView();
 }
 
 window.onhashchange = () => {
-    manageScroll();
+    const element = manageScroll();
+    if(!element) {
+        const hash = location.hash;	
+        if(!hash) return;
+        document.getElementById('searchConcepts').value = hash.replace('#', '')
+        handleEvent(concepts)
+    }
+    else element.scrollIntoView();
 }
 
 const sortKeys = (obj) => {
@@ -25,7 +32,7 @@ const manageScroll = () => {
     const hash = location.hash;	
     if(!hash) return;	
     const element = document.getElementById(hash.replace('#', 'heading'));	
-    element.scrollIntoView();	
+    return element;	
 }
 
 const renderConcepts = (concepts) => {
