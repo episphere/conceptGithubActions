@@ -1,5 +1,5 @@
 {
-  "Primary Source": "192505768.json",
+  "Primary Source": "Recruitment",
   "Secondary Source": "332759827.json",
   "conceptId": "544150384",
   "Question Text": "Birth Year",
@@ -11,5 +11,8 @@
   "Required": "Yes ",
   "PII": "Yes",
   "Notes": "Field will require a 4 digit response.",
-  "Dictionary": "Recruitment Data Dictionary"
+  "Dictionary": "Recruitment Data Dictionary",
+  "subcollection": [
+    "192505768.json"
+  ]
 }

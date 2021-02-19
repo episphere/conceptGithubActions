@@ -1,5 +1,5 @@
 {
-  "Primary Source": "819848608.json",
+  "Primary Source": "Biospecimen",
   "Secondary Source": "497328760.json",
   "conceptId": "260133861",
   "Question Text": "Additional Notes (Optional)",
@@ -10,5 +10,8 @@
   "Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Dictionary": "Biospecimen Clinical, Biospecimen Research"
+  "Dictionary": "Biospecimen Clinical, Biospecimen Research",
+  "subcollection": [
+    "819848608.json"
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "Primary Source": "192505768.json",
+  "Primary Source": "Recruitment",
   "Secondary Source": "332759827.json",
   "conceptId": "564964481",
   "Question Text": "Birth Month",
@@ -11,5 +11,8 @@
   "Required": "Yes",
   "PII": "Yes",
   "Notes": "Variable will be populated by a drop down menu with values from 1 to 12",
-  "Dictionary": "Recruitment Data Dictionary"
+  "Dictionary": "Recruitment Data Dictionary",
+  "subcollection": [
+    "192505768.json"
+  ]
 }

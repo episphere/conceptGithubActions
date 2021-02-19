@@ -1,5 +1,5 @@
 {
-  "Primary Source": "825323676.json",
+  "Primary Source": "EMR",
   "Secondary Source": "209454331.json",
   "conceptId": "101170406",
   "Question Text": "Baseline EMR Push",
@@ -10,8 +10,7 @@
   "Required": "Yes",
   "PII": "No",
   "Dictionary": "Study Manager Data Dictionary",
-  "Format/Value": {
-    "104430631.json": "0",
-    "101889323.json": "1"
-  }
+  "subcollection": [
+    "825323676.json"
+  ]
 }

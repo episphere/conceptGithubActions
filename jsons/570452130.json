@@ -1,5 +1,5 @@
 {
-  "Primary Source": "192505768.json",
+  "Primary Source": "Recruitment",
   "Secondary Source": "218595434.json",
   "conceptId": "570452130",
   "Question Text": "Eligibility Variable - Site",
@@ -11,8 +11,7 @@
   "PII": "No",
   "Notes": "Sent as part of the verification table from the IHCS.",
   "Dictionary": "Recruitment Data Dictionary",
-  "Format/Value": {
-    "539025306.json": "0",
-    "427405444.json": "1"
-  }
+  "subcollection": [
+    "192505768.json"
+  ]
 }

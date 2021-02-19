@@ -1,5 +1,5 @@
 {
-  "Primary Source": "819848608.json",
+  "Primary Source": "Biospecimen",
   "Secondary Source": "727286893.json",
   "conceptId": "560975149",
   "Question Text": "Location ID, site specific",
@@ -11,17 +11,7 @@
   "PII": "No",
   "Notes": "Options will differ by site, drop down options will be populated using site login information",
   "Dictionary": "Biospecimen Shipping",
-  "Format/Value": {
-    "325115468.json": "0",
-    "692275326.json": "1",
-    "834825425.json": "2",
-    "756784147.json": "3",
-    "763273112.json": "4",
-    "531313956.json": "5",
-    "715632875.json": "6",
-    "767775934.json": "7",
-    "752948709.json": "8",
-    "570271641.json": "9",
-    "838480167.json": "10"
-  }
+  "subcollection": [
+    "819848608.json"
+  ]
 }

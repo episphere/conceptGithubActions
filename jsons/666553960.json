@@ -1,5 +1,5 @@
 {
-  "Primary Source": "819848608.json",
+  "Primary Source": "Biospecimen",
   "Secondary Source": "948781977.json",
   "conceptId": "666553960",
   "Question Text": "Shipment courier",
@@ -10,8 +10,7 @@
   "PII": "No",
   "Notes": "Autofill FedEx for all sites but KPHI",
   "Dictionary": "Biospecimen Shipping",
-  "Format/Value": {
-    "712278213.json": "0",
-    "149772928.json": "1"
-  }
+  "subcollection": [
+    "819848608.json"
+  ]
 }

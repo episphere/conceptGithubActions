@@ -1,5 +1,5 @@
 {
-  "Primary Source": "129084651.json",
+  "Primary Source": "Survey",
   "Secondary Source": "166676176.json",
   "conceptId": "920333151",
   "Question Text": "Last 4 digits of Social Security Number",
@@ -11,5 +11,8 @@
   "Required": "No",
   "PII": "Yes",
   "Notes": "Question shown only if full SSN is NOT given.",
-  "Dictionary": "Study Manager Data Dictionary, BIospecimen Research"
+  "Dictionary": "Study Manager Data Dictionary, BIospecimen Research",
+  "subcollection": [
+    "129084651.json"
+  ]
 }

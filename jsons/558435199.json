@@ -1,5 +1,5 @@
 {
-  "Primary Source": "192505768.json",
+  "Primary Source": "Recruitment",
   "Secondary Source": "273437590.json",
   "conceptId": "558435199",
   "Question Text": "HIPAA Authorization",
@@ -10,8 +10,7 @@
   "Required": "Yes",
   "PII": "No",
   "Dictionary": "Recruitment, Study Manager ",
-  "Format/Value": {
-    "104430631.json": "0",
-    "353358909.json": "1"
-  }
+  "subcollection": [
+    "192505768.json"
+  ]
 }

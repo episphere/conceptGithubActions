@@ -1,5 +1,5 @@
 {
-  "Primary Source": "192505768.json",
+  "Primary Source": "Recruitment",
   "Secondary Source": "332759827.json",
   "conceptId": "388711124",
   "Question Text": "Mobile phone",
@@ -11,5 +11,8 @@
   "Required": "Yes if no other phone number given",
   "PII": "Yes",
   "Notes": "Type and length are based on a numbers only format, no dashes",
-  "Dictionary": "Recruitment Data Dictionary, Biospecimen Research"
+  "Dictionary": "Recruitment Data Dictionary, Biospecimen Research",
+  "subcollection": [
+    "192505768.json"
+  ]
 }

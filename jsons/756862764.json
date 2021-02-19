@@ -1,5 +1,5 @@
 {
-  "Primary Source": "192505768.json",
+  "Primary Source": "Recruitment",
   "Secondary Source": "705748897.json",
   "conceptId": "756862764",
   "Question Text": "Firebase authentication first and last name",
@@ -10,5 +10,8 @@
   "Format/Value": "N/A",
   "Required": "Yes",
   "PII": "Yes",
-  "Dictionary": "Recruitment Data Dictionary"
+  "Dictionary": "Recruitment Data Dictionary",
+  "subcollection": [
+    "192505768.json"
+  ]
 }

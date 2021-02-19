@@ -1,5 +1,5 @@
 {
-  "Primary Source": "192505768.json",
+  "Primary Source": "Recruitment",
   "Secondary Source": "273437590.json",
   "conceptId": "480305327",
   "Question Text": "Suffix",
@@ -11,13 +11,7 @@
   "PII": "No",
   "Notes": "Additional options may be added later.",
   "Dictionary": "Recruitment Data Dictionary",
-  "Format/Value": {
-    "612166858.json": "0",
-    "255907182.json": "1",
-    "226924545.json": "2",
-    "270793412.json": "3",
-    "959021713.json": "4",
-    "643664527.json": "5",
-    "537892528.json": "6"
-  }
+  "subcollection": [
+    "192505768.json"
+  ]
 }

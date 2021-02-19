@@ -1,5 +1,5 @@
 {
-  "Primary Source": "192505768.json",
+  "Primary Source": "Recruitment",
   "Secondary Source": "332759827.json",
   "conceptId": "452166062",
   "Question Text": "Have you ever been diagnosed with cancer (other than non-melanoma skin cancer)?",
@@ -10,8 +10,7 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "Recruitment Data Dictionary",
-  "Format/Value": {
-    "104430631.json": "0",
-    "353358909.json": "1"
-  }
+  "subcollection": [
+    "192505768.json"
+  ]
 }

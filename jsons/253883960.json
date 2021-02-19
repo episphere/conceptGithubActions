@@ -1,5 +1,5 @@
 {
-  "Primary Source": "129084651.json",
+  "Primary Source": "Survey",
   "Secondary Source": "826163434.json",
   "conceptId": "253883960",
   "Question Text": "Blood/urine survey completion",
@@ -8,9 +8,7 @@
   "Variable Type": "Num",
   "Variable Length": "1",
   "Dictionary": "Biospecimen Research",
-  "Format/Value": {
-    "972455046.json": "0",
-    "615768760.json": "1",
-    "231311385.json": "2"
-  }
+  "subcollection": [
+    "129084651.json"
+  ]
 }

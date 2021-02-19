@@ -1,5 +1,5 @@
 {
-  "Primary Source": "192505768.json",
+  "Primary Source": "Recruitment",
   "Secondary Source": "273437590.json",
   "conceptId": "454205108",
   "Question Text": "Consent Version",
@@ -11,5 +11,8 @@
   "Required": "Yes",
   "PII": "No",
   "Notes": "Other version codes to be added as needed.",
-  "Dictionary": "Recruitment Data Dictionary"
+  "Dictionary": "Recruitment Data Dictionary",
+  "subcollection": [
+    "192505768.json"
+  ]
 }

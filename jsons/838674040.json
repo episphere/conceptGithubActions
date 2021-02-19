@@ -1,0 +1,17 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "181577789.json",
+  "conceptId": "838674040",
+  "Question Text": "Did you lose weight on purpose between ages 18 and 25?",
+  "Variable Label": "Did you lose weight on purpose between ages 18 and 25?",
+  "Variable Name": "SrvBOH_LoseWeight1_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if flag for percent weight change 18-25 = yes",
+  "Format/Value": {
+    "181577789.json": "0",
+    "353358909.json": "1"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "Primary Source": "819848608.json",
+  "Primary Source": "Biospecimen",
   "Secondary Source": "925196539.json",
   "conceptId": "789843387",
   "Question Text": "Login Site",
@@ -11,17 +11,7 @@
   "PII": "No",
   "Notes": "The National Cancer Institute is included as a site for testing purposes only.",
   "Dictionary": "Biospecimen Shipping",
-  "Format/Value": {
-    "531629870.json": "0",
-    "548392715.json": "1",
-    "125001209.json": "2",
-    "327912200.json": "3",
-    "300267574.json": "4",
-    "452412599.json": "5",
-    "303349821.json": "6",
-    "657167265.json": "7",
-    "809703864.json": "8",
-    "517700004.json": "9",
-    "438483626.json": "55"
-  }
+  "subcollection": [
+    "819848608.json"
+  ]
 }

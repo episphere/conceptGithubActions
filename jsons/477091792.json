@@ -1,5 +1,5 @@
 {
-  "Primary Source": "192505768.json",
+  "Primary Source": "Recruitment",
   "Secondary Source": "883203566.json",
   "conceptId": "477091792",
   "Question Text": "IHCS Membership Status",
@@ -11,9 +11,7 @@
   "PII": "No",
   "Notes": "Sent with de-identified individual demographic variables when participants moved from Eligibility pool to active recruits with submitParticipantsData API call.",
   "Dictionary": "Recruitment Data Dictionary",
-  "Format/Value": {
-    "939572698.json": "0",
-    "512786135.json": "1",
-    "582670006.json": "2"
-  }
+  "subcollection": [
+    "192505768.json"
+  ]
 }

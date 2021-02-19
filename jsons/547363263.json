@@ -1,5 +1,5 @@
 {
-  "Primary Source": "129084651.json",
+  "Primary Source": "Survey",
   "Secondary Source": "390351864.json",
   "conceptId": "547363263",
   "Question Text": "Mouthwash survey completion",
@@ -8,9 +8,7 @@
   "Variable Type": "Num",
   "Variable Length": "1",
   "Dictionary": "Biospecimen Research",
-  "Format/Value": {
-    "972455046.json": "0",
-    "615768760.json": "1",
-    "231311385.json": "2"
-  }
+  "subcollection": [
+    "129084651.json"
+  ]
 }

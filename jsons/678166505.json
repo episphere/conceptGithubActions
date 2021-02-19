@@ -1,5 +1,5 @@
 {
-  "Primary Source": "819848608.json",
+  "Primary Source": "Biospecimen",
   "Secondary Source": "360770860.json",
   "conceptId": "678166505",
   "Question Text": "Date/Time samples collected, automatically populated when next is hit at the end of the Collection Data Entry page prior to reason selection and additional comments.",
@@ -11,5 +11,8 @@
   "Required": "Yes",
   "PII": "No",
   "Notes": "Note: This is pushed from Epic for the Clinical samples",
-  "Dictionary": "Biospecimen Clinical, Biospecimen Research"
+  "Dictionary": "Biospecimen Clinical, Biospecimen Research",
+  "subcollection": [
+    "819848608.json"
+  ]
 }

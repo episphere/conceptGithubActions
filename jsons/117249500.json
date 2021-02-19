@@ -1,5 +1,5 @@
 {
-  "Primary Source": "192505768.json",
+  "Primary Source": "Recruitment",
   "Secondary Source": "332759827.json",
   "conceptId": "117249500",
   "Question Text": "Age derived from DOB at time of user profile completion.",
@@ -10,5 +10,8 @@
   "Format/Value": "N/A",
   "Required": "Yes",
   "PII": "No",
-  "Dictionary": "Recruitment Data Dictionary"
+  "Dictionary": "Recruitment Data Dictionary",
+  "subcollection": [
+    "192505768.json"
+  ]
 }
