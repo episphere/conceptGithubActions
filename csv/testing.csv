@@ -1,7 +1,4 @@
 conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question,conceptId,Question Text,Variable Label,Variable Name,Variable Type,Variable Length,conceptId,Format/Value,Required,PII,Notes,Derivation Notes,Dictionary
-,Survey,938437222,Background and Overall Health,212883358,How old were you when you had your uterus removed (hysterectomy)?,825022408,uterus removed (hysterectomy) year,uterus removed (hysterectomy) year,SrvBOH_HystYear_v1r0,Year,9,,yyyy,No,No,,,
-,Survey,938437222,Background and Overall Health,275843704,How old were you when you had your tubes tied (tubal ligation)?,439695628,tubes tied (tubal ligation) age,tubes tied (tubal ligation) age,SrvBOH_TubLigAge_v1r0,Num,2,,N/A,No,No,,,
-938437222,Survey,938437222,Background and Overall Health,275843704,How old were you when you had your tubes tied (tubal ligation)?,991760679,tubes tied (tubal ligation) year,tubes tied (tubal ligation) year,SrvBOH_TubLigYear_v1r0,Year,9,,yyyy,No,No,,,
-938437222,Survey,,Background and Overall Health,,,,Which of these best describes the type of ovary removal surgery that you had?,ovary surgery,,Num,,962718595,0 = I had surgery to remove one ovary,No,No,,,
-,,,,,,,,,,,,572634963,1 = I had surgery to remove both ovaries,,,,,
-,,,,,,,,,,,,566049274,2 = None of the above,,,,,
+,Survey,,Background and Overall Health,,How old were you when you had your uterus removed (hysterectomy)?,,uterus removed (hysterectomy) year,uterus removed (hysterectomy) year,SrvBOH_HystYear_v1r0,Year,9,,yyyy,No,No,,,
+,Survey,,Background and Overall Health,,How old were you when you had your tubes tied (tubal ligation)?,,tubes tied (tubal ligation) age,tubes tied (tubal ligation) age,SrvBOH_TubLigAge_v1r0,Num,2,,N/A,No,No,,,
+,Survey,,Background and Overall Health,,How old were you when you had your tubes tied (tubal ligation)?,,tubes tied (tubal ligation) year,tubes tied (tubal ligation) year,SrvBOH_TubLigYear_v1r0,Year,9,,yyyy,No,No,,,
