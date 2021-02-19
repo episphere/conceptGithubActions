@@ -1,0 +1,21 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "118661783.json",
+  "conceptId": "878723216",
+  "Question Text": "Are you now married, widowed, divorced, separated, never married, or living with a partner?",
+  "Variable Label": "Marital status",
+  "Variable Name": "SrvBOH_Marital_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Format/Value": {
+    "425735788.json": "0",
+    "951226346.json": "1",
+    "763774488.json": "2",
+    "982107387.json": "3",
+    "706927483.json": "4",
+    "741820911.json": "5",
+    "223030881.json": "99"
+  }
+}

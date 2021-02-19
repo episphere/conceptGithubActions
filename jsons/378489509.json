@@ -1,0 +1,18 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "118661783.json",
+  "Source Question": "390564003.json",
+  "conceptId": "378489509",
+  "Question Text": "\tI have not had any of these surgeries ",
+  "Variable Label": "\tI have not had any of these surgeries ",
+  "Variable Name": "SrvBOH_NoSurgery_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only can be selected if no other variables selected in MHGROUP9",
+  "Format/Value": {
+    "902460467.json": "0",
+    "938326854.json": "1"
+  }
+}

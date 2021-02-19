@@ -1,0 +1,18 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "876341996.json",
+  "Source Question": "579684550.json",
+  "conceptId": "931152693",
+  "Question Text": "Changed diet",
+  "Variable Label": "Changed diet",
+  "Variable Name": "SrvBOH_ChangeDiet1_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if flag for percent weight change 18-25 = yes ",
+  "Format/Value": {
+    "876341996.json": "0",
+    "938326854.json": "1"
+  }
+}
