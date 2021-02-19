@@ -1,16 +1,10 @@
 {
-  "Primary Source": "Survey",
-  "Secondary Source": "Background and Overall Health",
-  "Source Question": "How can we reach this person?",
-  "Question Text": "Alternate contact email",
-  "Variable Label": "Alternate contact email",
-  "Variable Type": "Char",
-  "Format/Value": {
-    "118464073.json": "0",
-    "364842865.json": "1"
-  },
-  "Required": "No",
-  "PII": "Yes",
-  "Variable Length": "120",
-  "conceptId": "865165573"
+  "conceptId": "865165573",
+  "Variable Name": "What is the address?",
+  "subcollections": [
+    "265596191.json",
+    "538077437.json",
+    "525464494.json",
+    "580720191.json"
+  ]
 }
