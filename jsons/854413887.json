@@ -1,0 +1,18 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "726699695.json",
+  "Source Question": "460197897.json",
+  "conceptId": "854413887",
+  "Question Text": "\tEnlarged Prostate ",
+  "Variable Label": "\tEnlarged Prostate ",
+  "Variable Name": "SrvBOH_EnlProstate_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "[DISPLAY ONLY IF SEX = (01) OR (SEX = (03) AND SEX2 = (03))]",
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

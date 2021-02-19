@@ -1,0 +1,15 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "726699695.json",
+  "Source Question": "303186019.json",
+  "conceptId": "474521297",
+  "Question Text": "chest pain (angina) diagnosis year",
+  "Variable Label": "chest pain (angina) diagnosis year",
+  "Variable Name": "SrvBOH_ChestPainYr_v1r0",
+  "Variable Type": "Year",
+  "Variable Length": "4",
+  "Format/Value": "yyyy",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if MHGROUP1 = chest pain"
+}

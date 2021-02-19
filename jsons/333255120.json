@@ -1,0 +1,17 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "726699695.json",
+  "conceptId": "333255120",
+  "Question Text": "Has a doctor or other health professional ever told you that you have or had clinical depression? ",
+  "Variable Label": "Depression",
+  "Variable Name": "SrvBOH_Depression_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if MHGROUP8= Fibrocystic Breast, or other Benign Breast Disease ",
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

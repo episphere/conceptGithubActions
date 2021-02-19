@@ -1,0 +1,15 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "726699695.json",
+  "Source Question": "226052713.json",
+  "conceptId": "754141015",
+  "Question Text": "Abnormal heart rhythm (arrhythmia) diagnosis year",
+  "Variable Label": "Abnormal heart rhythm (arrhythmia) diagnosis year",
+  "Variable Name": "SrvBOH_AHRYear_v1r0",
+  "Variable Type": "Year",
+  "Variable Length": "4",
+  "Format/Value": "yyyy",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if MHGROUP1 = abnormal heart rhythm"
+}
