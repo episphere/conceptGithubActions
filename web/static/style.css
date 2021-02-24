@@ -34,5 +34,14 @@ div.tooltip {
     background: lightsteelblue;	
     border: 0px;		
     border-radius: 8px;			
-    pointer-events: none;			
+    pointer-events: none;
+    z-index: 99;	
+}
+
+.break-line {
+    word-break: break-all !important;
+}
+
+.align-left {
+    text-align: left;
 }

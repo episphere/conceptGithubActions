@@ -122,9 +122,18 @@ const renderTree = async () => {
                 delete filteredData[0].conceptId;
                 delete filteredData[0].subcollections;
                 delete filteredData[0]['Format/Value'];
+                let html = '<div class="align-left">';
+                for(let key in filteredData[0]){
+                    html += `<div class="break-line"><b>${key}</b>: ${filteredData[0][key]}</div>`
+                }
+                html += '</div>'
                 d3.select('.tooltip')
+                .html(html)
                 .style('left', event.pageX + 10 + 'px')
-                .style('top', event.pageY + 10 + 'px').transition().duration(200).style('opacity', 1).text(JSON.stringify(filteredData[0],null,3))
+                .style('top', event.pageY + 10 + 'px')
+                .transition()
+                .duration(500)
+                .style('opacity', 1)
             })
             .on('mouseout', function() {
                 d3.select('.tooltip').style('opacity', 0)
