@@ -289,12 +289,12 @@ function CSVToArray(strData){
             toPush = strData.substring(0, strData.indexOf(','));
             strData = strData.substring(strData.indexOf(',') + 1)
         }
-        arr.push(toPush)
+        arr.push(toPush.trim())
 
         //let nextQuote = strData.indexOf("\"")
     }
     if(finalPush == true){
-        arr.push(strData);
+        arr.push(strData.trim());
     }
 
     // Return the parsed data.
