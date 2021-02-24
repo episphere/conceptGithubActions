@@ -1,11 +1,38 @@
 const api = 'https://raw.githubusercontent.com/episphere/conceptGithubActions/master/jsons/';
-
+let concepts = {};
 window.onload = async () => {
     const response = await fetch(`${api}varToConcept.json`)
-    const concepts = await response.json();
+    concepts = await response.json();
     renderConcepts(concepts);
-    manageScroll();
     addEventSearchConcepts(concepts);
+    const element = manageScroll();
+    element.scrollIntoView();
+}
+
+window.onhashchange = () => {
+    const element = manageScroll();
+    if(!element) {
+        const hash = location.hash;	
+        if(!hash) return;
+        document.getElementById('searchConcepts').value = hash.replace('#', '')
+        handleEvent(concepts)
+    }
+    else element.scrollIntoView();
+}
+
+const sortKeys = (obj) => {
+    return Object.assign(...Object.entries(obj).sort().map(([key, value]) => {
+        return {
+            [key]: value
+        }
+    }));
+};
+
+const manageScroll = () => {	
+    const hash = location.hash;	
+    if(!hash) return;	
+    const element = document.getElementById(hash.replace('#', 'heading'));	
+    return element;	
 }
 
 const renderConcepts = (concepts) => {
@@ -49,11 +76,22 @@ const addEventTriggerCollapse = () => {
                 for(let key in data) {
                     template += `<div><strong>${key}: </strong>&nbsp;`
                     if(typeof data[key] === 'object') {
-                        template += `<pre>${JSON.stringify(data[key])}</pre>`;
+                        template += `<p>`
+                        if(Array.isArray(data[key])){
+                            for(let obj of data[key]){
+                                template += /.json/.test(obj) ? `<a href="#${obj.replace('.json', '')}">${obj}<a></br>`:`${obj}`
+                            }
+                        }
+                        else {
+                            for(let obj in data[key]){
+                                template += /.json/.test(obj) ? `<a href="#${obj.replace('.json', '')}">${obj}<a>: ${data[key][obj]}</br>`:`${obj}: ${data[key][obj]}`
+                            }
+                        }
+                        template += `</p>`
                     }
                     else {
                         const url = /https:/i.test(data[key]);
-                        template += `${url ? `<a href="${data[key]}" target="_blank">${data[key]}<a>` : data[key]}</div>`;
+                        template += `${url ? `<a href="${data[key]}" target="_blank">${data[key]}<a>` : key === 'Primary Source' || key === 'Secondary Source'?`<a href="#${data[key].replace('.json', '')}">${data[key]}<a>`:`${data[key]}`}</div>`;
                     }
                 }
                 cardBody.innerHTML = template;
@@ -63,39 +101,37 @@ const addEventTriggerCollapse = () => {
     })
 }
 
-const manageScroll = () => {
-    const hash = location.hash;
-    if(!hash) return;
-    const element = document.getElementById(hash.replace('#', 'heading'));
-    element.scrollIntoView();
-}
-
 const addEventSearchConcepts = (data) => {
     const input = document.getElementById('searchConcepts');
     input.addEventListener('keyup', () => {
-        const value = input.value.trim();
-        if(!value || value.length < 2) {
-            renderConcepts(data);
-        }
-        else {
-            let obj = {};
-            const localData = data;
-            const values = Object.values(localData).filter(dt => new RegExp(value, 'i').test(dt) === true);
-            const keys = Object.keys(localData).filter(dt => new RegExp(value, 'i').test(dt) === true);
-            
-            values.forEach(v => {
-                const index = Object.values(localData).indexOf(v);
-                const key = Object.keys(localData)[index];
-                if(obj[key] === undefined) obj[key] = v.replace(new RegExp(value, 'ig'), '<b>$&</b>');
-            });
+        handleEvent(data);
+    });
+};
 
-            keys.forEach(k => {
-                const index = Object.keys(localData).indexOf(k);
-                const value = Object.values(localData)[index];
-                if(obj[k] === undefined) obj[k] = value;
-            });
+const handleEvent = data => {
+    const input = document.getElementById('searchConcepts');
+    const value = input.value.trim();
+    if(!value || value.length < 2) {
+        renderConcepts(data);
+    }
+    else {
+        let obj = {};
+        const localData = data;
+        const values = Object.values(localData).filter(dt => new RegExp(value, 'i').test(dt) === true);
+        const keys = Object.keys(localData).filter(dt => new RegExp(value, 'i').test(dt) === true);
+        
+        values.forEach(v => {
+            const index = Object.values(localData).indexOf(v);
+            const key = Object.keys(localData)[index];
+            if(obj[key] === undefined) obj[key] = v.replace(new RegExp(value, 'ig'), '<b>$&</b>');
+        });
 
-            renderConcepts(obj);
-        }
-    })
+        keys.forEach(k => {
+            const index = Object.keys(localData).indexOf(k);
+            const value = Object.values(localData)[index];
+            if(obj[k] === undefined) obj[k] = value;
+        });
+
+        renderConcepts(obj);
+    }
 }
