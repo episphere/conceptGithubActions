@@ -112,14 +112,17 @@ const renderTree = async () => {
                 });
     
         nodeEnter.append("circle")
-            .attr("r", 3)
+            .attr("r", 5)
             .attr("fill", d => d._children ? "#555" : "#999")
-            .attr("stroke-width", 10)
+            .attr("stroke-width", 15)
             .on('mouseover', function(event, d) {
                 const filteredData = data.filter(obj => obj.conceptId === d.data.name)
+                delete filteredData[0].conceptId;
+                delete filteredData[0].subcollections;
+                delete filteredData[0]['Format/Value'];
                 d3.select('.tooltip')
                 .style('left', event.pageX + 10 + 'px')
-                .style('top', event.pageY + 10 + 'px').transition().duration(200).style('opacity', 1).text(filteredData[0]['Variable Name'])
+                .style('top', event.pageY + 10 + 'px').transition().duration(200).style('opacity', 1).text(JSON.stringify(filteredData[0],null,3))
             })
             .on('mouseout', function() {
                 d3.select('.tooltip').style('opacity', 0)
