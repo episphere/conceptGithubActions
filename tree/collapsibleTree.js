@@ -116,7 +116,9 @@ const renderTree = async () => {
             .attr("fill", d => d._children ? "#555" : "#999")
             .attr("stroke-width", 15)
             .on('mouseover', function(event, d) {
-                const filteredData = data.filter(obj => obj.conceptId === d.data.name)
+                const tmp = JSON.parse(JSON.stringify(data))
+                const filteredData = tmp.filter(obj => obj.conceptId === d.data.name)
+                if(filteredData.length < 1) return;
                 delete filteredData[0].conceptId;
                 delete filteredData[0].subcollections;
                 delete filteredData[0]['Format/Value'];
