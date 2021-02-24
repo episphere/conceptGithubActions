@@ -29,7 +29,8 @@ html {
 div.tooltip {	
     position: fixed;			
     text-align: center;				
-    padding: 2px;				
+    padding: 2px;
+    max-width: 350px;
     font: 12px sans-serif;		
     background: lightsteelblue;	
     border: 0px;		

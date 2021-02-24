@@ -129,8 +129,8 @@ const renderTree = async () => {
                 html += '</div>'
                 d3.select('.tooltip')
                 .html(html)
-                .style('left', event.pageX + 10 + 'px')
-                .style('top', event.pageY + 10 + 'px')
+                .style('left', event.pageX + 15 + 'px')
+                .style('top', event.pageY + 15 + 'px')
                 .transition()
                 .duration(500)
                 .style('opacity', 1)
