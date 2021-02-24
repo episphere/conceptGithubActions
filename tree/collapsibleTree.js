@@ -30,6 +30,7 @@ const renderTree = async () => {
     };
     allPrimarySource.forEach(dt => {
         const filteredData = data.filter(obj => obj['Variable Name'] === dt);
+        if(filteredData.length < 1) return
         const subcollections = filteredData[0].subcollections.map(sc => { return {name: sc.replace('.json', ''), children: []}});
         subcollections.forEach(obj => {
             const nestedSubCollection = data.filter(d => d['conceptId'] === obj.name)
