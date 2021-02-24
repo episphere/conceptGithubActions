@@ -19,9 +19,16 @@
     "Variable Label": "Temperature probe in box?",
     "Variable Name": "BioPack_TempProbe_v1r0"
   },
+  "117044491": {
+    "Variable Name": "Incentives"
+  },
   "117249500": {
     "Variable Label": "User Profile derived age",
     "Variable Name": "RcrtUP_Age_v1r0"
+  },
+  "119449326": {
+    "Variable Label": "Date data destruction request signed",
+    "Variable Name": "HdWd_DateDatadestsign_v1r0"
   },
   "119643471": {
     "Variable Label": "Sanford Health Reported Race",
@@ -51,14 +58,14 @@
     "Variable Name": "BioChk_Complete_v1r0"
   },
   "138097322": {
-    "Variable Label": "Login last name ",
+    "Variable Label": "Login last name",
     "Variable Name": "BioShip_LogLname_v1r0"
   },
   "142654897": {
     "Variable Name": "How did you hear about this study? (Select all that apply)"
   },
   "143615646": {
-    "Variable Label": "Mouthwash ",
+    "Variable Label": "Mouthwash",
     "Variable Name": "BioCol_0007v1r0"
   },
   "145971562": {
@@ -80,6 +87,10 @@
     "Variable Label": "Preferred Name",
     "Variable Name": "RcrtUP_PrefName_v1r0"
   },
+  "153713899": {
+    "Variable Label": "Signed HIPAA revocation form",
+    "Variable Name": "HdWd_HIPAArevokesign_v1r0"
+  },
   "158291096": {
     "Variable Label": "Pre-consent Opt-out",
     "Variable Name": "RcrtSI_OptOut_v1r0"
@@ -92,7 +103,7 @@
     "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyJ"
   },
   "163332754": {
-    "Variable Name": " Recruitment"
+    "Variable Name": "Recruitment"
   },
   "163534562": {
     "Variable Label": "Worried the study might find something concerning about them",
@@ -122,11 +133,18 @@
     "Variable Label": "Home voicemail",
     "Variable Name": "RcrtUP_HomeVM_v1r0"
   },
+  "191746247": {
+    "Variable Name": "Baseline incentive issued"
+  },
   "192461115": {
     "Variable Name": "Module  3"
   },
   "192505768": {
     "Variable Name": "Recruitment"
+  },
+  "194410742": {
+    "Variable Label": "Refused baseline blood sample",
+    "Variable Name": "HdRef_Baseblood_v1r0"
   },
   "196856782": {
     "Variable Label": "Physician or other medical staff",
@@ -141,6 +159,10 @@
   "204002618": {
     "Variable Label": "Time from consent to user profile",
     "Variable Name": "RcrtCT_Cnst_UP_v1r0"
+  },
+  "205553981": {
+    "Variable Label": "Placeholder - Date/time Status of Start of Background and Overall Health",
+    "Variable Name": "SrvBOH_TmStart_v1r0"
   },
   "208102461": {
     "Variable Label": "Privacy: Does not want their information shared with other researchers",
@@ -169,6 +191,10 @@
   "219863910": {
     "Variable Name": "Cannot be verified"
   },
+  "222373868": {
+    "Variable Label": "NORC Incentive Eligibility",
+    "Variable Name": "SMInct_NORCInctElig_v1r0"
+  },
   "223999569": {
     "Variable Label": "Biohazard Bag (mouthwash) ID",
     "Variable Name": "BioCol_0009_v1r0"
@@ -184,6 +210,9 @@
     "Variable Label": "Signed-in",
     "Variable Name": "RcrtSI_SignedIn_v1r0"
   },
+  "231311385": {
+    "Variable Name": "Submitted"
+  },
   "231676651": {
     "Variable Label": "Middle Name",
     "Variable Name": "RcrtUP_Mname_v1r0"
@@ -192,7 +221,7 @@
     "Variable Name": "African American/Black"
   },
   "232343615": {
-    "Variable Label": "Serum Separator Tube 4 ",
+    "Variable Label": "Serum Separator Tube 4",
     "Variable Name": "BioCol_0012_v1r0"
   },
   "232663805": {
@@ -200,6 +229,9 @@
   },
   "234139565": {
     "Variable Name": "Short draw"
+  },
+  "237817859": {
+    "Variable Name": "Help Desk"
   },
   "242307474": {
     "Variable Label": "Deviation- Hemolyzed",
@@ -223,17 +255,28 @@
     "Variable Label": "Additional Notes (Optional)",
     "Variable Name": "BioRec_NoteOpt_v1r0"
   },
+  "262357957": {
+    "Variable Label": "Date/time refused baseline saliva sample",
+    "Variable Name": "HdRef_DateBasesaliva_v1r0"
+  },
   "262420266": {
     "Variable Label": "Deviation- Lipemia",
     "Variable Name": "BioCol_Dev_v1r0_Lipem"
   },
   "264644252": {
-    "Variable Label": "Placeholder - Date/time Module 4 Completed",
-    "Variable Name": "QstMd4_TmComplete_v1r0"
+    "Variable Label": "Placeholder - Date/time of Completion of Where You Live and Work",
+    "Variable Name": "SrvLAW_TmComplete_v1r0"
+  },
+  "266600170": {
+    "Variable Name": "Not Eligible for any Incentive"
   },
   "266952173": {
     "Variable Label": "Cancer Type",
     "Variable Name": "RcrtUP_CancerType_v1r0"
+  },
+  "269050420": {
+    "Variable Label": "Date requested data destroyed",
+    "Variable Name": "HdRef_DateDatadestroy_v1r0"
   },
   "270793412": {
     "Variable Name": "II"
@@ -245,8 +288,16 @@
   "273437590": {
     "Variable Name": "Consent"
   },
+  "277479354": {
+    "Variable Label": "Refused baseline saliva sample",
+    "Variable Name": "HdRef_Basesaliva_v1r0"
+  },
+  "297462035": {
+    "Variable Label": "Date/Time incentive given to participant",
+    "Variable Name": "HDInct_TmIncentive_v1r0"
+  },
   "299553921": {
-    "Variable Label": "Serum Separator Tube 1 ",
+    "Variable Label": "Serum Separator Tube 1",
     "Variable Name": "BioCol_0001_v1r0"
   },
   "300267574": {
@@ -254,6 +305,9 @@
   },
   "303349821": {
     "Variable Name": "Marshfield Clinic Health System"
+  },
+  "303552867": {
+    "Variable Name": "Eligible for Follow-up Incentive 2"
   },
   "308012361": {
     "Variable Label": "Box tracking number manually typed (one for each box)",
@@ -275,6 +329,10 @@
   },
   "319570637": {
     "Variable Name": "Not Hispanic or Latino"
+  },
+  "320023644": {
+    "Variable Label": "Case Number",
+    "Variable Name": "HDInct_CaseNumber_v1r0"
   },
   "324692899": {
     "Variable Name": "Well visit appointment"
@@ -299,6 +357,9 @@
   },
   "332759827": {
     "Variable Name": "User Profile"
+  },
+  "332961895": {
+    "Variable Name": "Study Manager"
   },
   "335767902": {
     "Variable Label": "Time sign-in occurred",
@@ -330,6 +391,10 @@
   "351257378": {
     "Variable Name": "Demographic Group"
   },
+  "352996056": {
+    "Variable Label": "Refused all future samples",
+    "Variable Name": "HdRef_Allsample_v1r0"
+  },
   "353358909": {
     "Variable Name": "Yes"
   },
@@ -338,6 +403,10 @@
   },
   "357184057": {
     "Variable Name": "Email"
+  },
+  "359404406": {
+    "Variable Label": "Signed data destruction request",
+    "Variable Name": "HdWd_Datadestroysign_v1r0"
   },
   "360770860": {
     "Variable Name": "Collection"
@@ -354,7 +423,7 @@
     "Variable Name": "RcrtUP_DOB_v1r0"
   },
   "376960806": {
-    "Variable Label": "Serum Separator Tube 3 ",
+    "Variable Label": "Serum Separator Tube 3",
     "Variable Name": "BioCol_0011_v1r0"
   },
   "377633816": {
@@ -373,6 +442,10 @@
     "Variable Label": "Sex at birth",
     "Variable Name": "RcrtUP_BirthSex_v1r0"
   },
+  "386488297": {
+    "Variable Label": "Placeholder - Date/time Status of Start of Smoking, Alcohol, and Sun Exposure",
+    "Variable Name": "SrvSAS_TmStart_v1r0"
+  },
   "387108065": {
     "Variable Label": "Collection ID Manually Entered",
     "Variable Name": "BioSpm_ColIDEntered_v1r0"
@@ -385,8 +458,15 @@
     "Variable Label": "Mobile phone",
     "Variable Name": "RcrtUP_Mobile_v1r0"
   },
+  "390198398": {
+    "Variable Label": "Date/time refused baseline blood sample",
+    "Variable Name": "HdRef_DateBaseblood_v1r0"
+  },
   "390351864": {
     "Variable Name": "Mouthwash"
+  },
+  "391329331": {
+    "Variable Name": "Does not qualify for Eligibility List"
   },
   "395528052": {
     "Variable Name": "Neither male or female"
@@ -409,6 +489,9 @@
   "410912345": {
     "Variable Label": "Go to shipping",
     "Variable Name": "BioRec_ShipFlag_v1r0"
+  },
+  "412325540": {
+    "Variable Name": "Follow-up 2 incentive issued"
   },
   "415693436": {
     "Variable Label": "Please specify __________",
@@ -439,7 +522,7 @@
     "Variable Name": "Hispanic/Latino/Black"
   },
   "435027713": {
-    "Variable Label": "Sanford and Henry Ford reported sex ",
+    "Variable Label": "Sanford and Henry Ford reported sex",
     "Variable Name": "RcrtSI_SH_HFHS_Sex_v1r0"
   },
   "436680969": {
@@ -448,6 +531,10 @@
   },
   "438483626": {
     "Variable Name": "Other"
+  },
+  "438636757": {
+    "Variable Label": "Date/Time incentive refused",
+    "Variable Name": "HDInct_TmRefused_v1r0"
   },
   "438643922": {
     "Variable Label": "Home phone",
@@ -479,6 +566,10 @@
   "452412599": {
     "Variable Name": "Kaiser Permanente Northwest"
   },
+  "452942800": {
+    "Variable Label": "Placeholder - Date/time Status of Start of Where You Live and Work",
+    "Variable Name": "SrvLAW_TmStart_v1r0"
+  },
   "453017582": {
     "Variable Name": "Completion Time"
   },
@@ -499,7 +590,7 @@
     "Variable Name": "RcrtCS_ConsentSumit_v1r0"
   },
   "454453939": {
-    "Variable Label": "EDTA Tube 1 ",
+    "Variable Label": "EDTA Tube 1",
     "Variable Name": "BioCol_0004_v1r0"
   },
   "456806539": {
@@ -520,6 +611,9 @@
   "468668640": {
     "Variable Label": "Deviation- Urine hat used",
     "Variable Name": "BioCol_Dev_v1r0_Hat"
+  },
+  "469801570": {
+    "Variable Name": "Qualifies for Baseline Eligibility List"
   },
   "469819603": {
     "Variable Label": "Scanned by First Name",
@@ -549,6 +643,9 @@
     "Variable Label": "Workflow Type",
     "Variable Name": "RcrtSI_WorkflowType_v1r0"
   },
+  "485747678": {
+    "Variable Name": "Type of withdrawal? (Select all that apply)"
+  },
   "486306141": {
     "Variable Name": "Active"
   },
@@ -567,6 +664,9 @@
     "Variable Label": "Cancer Comments",
     "Variable Name": "RcrtUP_CancerComts_v1r0"
   },
+  "496823485": {
+    "Variable Name": "Eligible for Baseline Incentive"
+  },
   "496935183": {
     "Variable Label": "Too sick/poor health to join",
     "Variable Name": "RcrtSI_OptOut_v1r0_health"
@@ -578,6 +678,9 @@
     "Variable Label": "Privacy: Does not trust the government",
     "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyD"
   },
+  "498817420": {
+    "Variable Name": "Follow-up 2 incentive refused"
+  },
   "506826178": {
     "Variable Label": "Suffix",
     "Variable Name": "RcrtUP_Suffix_v1r0"
@@ -586,12 +689,15 @@
     "Variable Name": "Non-Member IHCS Patient"
   },
   "512820379": {
-    "Variable Label": "Recruitment type",
-    "Variable Name": "RcrtSI_RecruitType_v1r0"
+    "Variable Label": "Collection Setting",
+    "Variable Name": "BioSpm_Setting_v1r0"
+  },
+  "513832773": {
+    "Variable Name": "Follow-up 1 incentive issued"
   },
   "517311251": {
-    "Variable Label": "Placeholder - Date/time Module 1 Completed",
-    "Variable Name": "QstMd1_TmComplete_v1r0"
+    "Variable Label": "Placeholder - Date/time Status of Completion of Background and Overall Health",
+    "Variable Name": "SrvBOH_TmComplete_v1r0"
   },
   "517700004": {
     "Variable Name": "National Cancer Instute"
@@ -632,8 +738,8 @@
     "Variable Name": "BioCol_DeviationNotes_v1r0"
   },
   "536735468": {
-    "Variable Label": "Placeholder- flag for baseline module 2",
-    "Variable Name": "QstMd2_BaseComplete_v1r0"
+    "Variable Label": "Placeholder- flag for Baseline Module Medications, Reproductive Health, Exercise and Sleep",
+    "Variable Name": "SrvMRE_BaseStatus_v1r0"
   },
   "537892528": {
     "Variable Name": "3rd"
@@ -646,8 +752,12 @@
     "Variable Name": "Criterium not met"
   },
   "539197670": {
-    "Variable Label": "Regional Lab Receipt ",
+    "Variable Label": "Regional Lab Receipt",
     "Variable Name": "BioReg_AtReg_v1r0"
+  },
+  "541836531": {
+    "Variable Label": "Placeholder - Date/time Status of Start of Medications, Reproductive Health, Exercise, and Sleep",
+    "Variable Name": "SrvMRE_TmStart_v1r0"
   },
   "544150384": {
     "Variable Label": "Birth Year",
@@ -665,7 +775,7 @@
     "Variable Name": "RcrtES_Aware_v1r0_Family"
   },
   "550088682": {
-    "Variable Label": "Deviation-Improper temperature - too low/frozen ",
+    "Variable Label": "Deviation-Improper temperature - too low/frozen",
     "Variable Name": "BioCol_Dev_v1r0_TempL"
   },
   "555611076": {
@@ -680,6 +790,9 @@
     "Variable Label": "Last Name Match",
     "Variable Name": "RcrtV_LNameMatch_v1r0"
   },
+  "558437175": {
+    "Variable Name": "Baseline incentive refused"
+  },
   "559534463": {
     "Variable Label": "Zipcode Match",
     "Variable Name": "RcrtV_ZipMatch_v1r0"
@@ -693,7 +806,7 @@
     "Variable Name": "BioCol_SpeedL_v1r0_SpeedL"
   },
   "561681068": {
-    "Variable Label": "Placeholder - Date/time Blood Completed",
+    "Variable Label": "Placeholder - Date/time Blood Collected",
     "Variable Name": "BioFin_BBTime_v1r0"
   },
   "564964481": {
@@ -718,6 +831,9 @@
     "Variable Label": "Privacy: Worried information won�t be secure or there will be a data breach",
     "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyG"
   },
+  "581159388": {
+    "Variable Name": "Qualifies for Follow-up 1 Eligibility List"
+  },
   "582670006": {
     "Variable Name": "Member and Patient of IHCS Health Plan"
   },
@@ -725,7 +841,7 @@
     "Variable Name": "SF Cancer Center LL��_"
   },
   "589588440": {
-    "Variable Label": "Serum Separator Tube 5 ",
+    "Variable Label": "Serum Separator Tube 5",
     "Variable Name": "BioCol_0021_v1r0"
   },
   "593843561": {
@@ -748,6 +864,17 @@
   },
   "612317028": {
     "Variable Name": "Module  4"
+  },
+  "613641698": {
+    "Variable Label": "Date HIPAA revocation signed",
+    "Variable Name": "HdWd_DateHIPAArevsign_v1r0"
+  },
+  "614264509": {
+    "Variable Label": "Date withdrew from all study activities",
+    "Variable Name": "HdWd_DateActivepart_v1r0"
+  },
+  "615768760": {
+    "Variable Name": "Started"
   },
   "618036638": {
     "Variable Label": "Scanned by Last Name",
@@ -783,6 +910,9 @@
     "Variable Label": "Deviation- Failed/broken gel layer",
     "Variable Name": "BioCol_Dev_v1r0_Gel"
   },
+  "635994596": {
+    "Variable Name": "Withdrawal"
+  },
   "636706443": {
     "Variable Name": "56-60"
   },
@@ -798,11 +928,22 @@
     "Variable Name": "RcrtUP_MobileTxt_V1R0"
   },
   "646899796": {
-    "Variable Label": " Accession ID ",
+    "Variable Label": "Accession ID",
     "Variable Name": "BioSpm_AccessionID_v1r0"
   },
   "647148178": {
     "Variable Name": "Aging out of study"
+  },
+  "648228701": {
+    "Variable Label": "Incentive refused",
+    "Variable Name": "HDInct_InctRefused_v1r0"
+  },
+  "648936790": {
+    "Variable Label": "Incentive issued",
+    "Variable Name": "HDInct_InctIssued_v1r0"
+  },
+  "650465111": {
+    "Variable Name": "Eligible for Follow-up Incentive 1"
   },
   "650516960": {
     "Variable Label": "Collection Setting",
@@ -813,7 +954,7 @@
     "Variable Name": "RcrtUP_CancerYr_v1r0"
   },
   "652357376": {
-    "Variable Label": "ACD Tube 1 ",
+    "Variable Label": "ACD Tube 1",
     "Variable Name": "BioCol_0005_v1r0"
   },
   "654002184": {
@@ -824,7 +965,7 @@
     "Variable Name": "Male"
   },
   "654812257": {
-    "Variable Label": "Serum Separator Tube 8 ",
+    "Variable Label": "Serum Separator Tube 8",
     "Variable Name": "BioCol_0032_v1r0"
   },
   "656548982": {
@@ -835,8 +976,12 @@
     "Variable Name": "Sanford Health"
   },
   "663265240": {
-    "Variable Label": "Placeholder- flag for baseline module 4",
-    "Variable Name": "QstMd4_BaseComplete_v1r0"
+    "Variable Label": "Placeholder- flag for Baseline Module Where You Live and Work",
+    "Variable Name": "SrvLAW_BaseStatus_v1r0"
+  },
+  "664453818": {
+    "Variable Label": "Date requested to revoke HIPAA authorization",
+    "Variable Name": "HdRef_DateHIPAArevoked_v1r0"
   },
   "664882224": {
     "Variable Name": "Clinical"
@@ -854,7 +999,7 @@
     "Variable Name": "BioPack_BoxStrtTime_v1r0"
   },
   "677469051": {
-    "Variable Label": "EDTA Tube 2 ",
+    "Variable Label": "EDTA Tube 2",
     "Variable Name": "BioCol_0014_v1r0"
   },
   "678166505": {
@@ -877,7 +1022,7 @@
     "Variable Name": "Participant refusal"
   },
   "683613884": {
-    "Variable Label": "EDTA Tube 3 ",
+    "Variable Label": "EDTA Tube 3",
     "Variable Name": "BioCol_0024_v1r0"
   },
   "684635302": {
@@ -888,8 +1033,11 @@
     "Variable Label": "Henry Ford Health System Reported Race",
     "Variable Name": "RcrtSI_HFHSRace_v1r0"
   },
+  "685002411": {
+    "Variable Name": "Which activities is the participant refusing? (Select all that apply)"
+  },
   "690540566": {
-    "Variable Label": "Deviation- Improper temperature - too high ",
+    "Variable Label": "Deviation- Improper temperature - too high",
     "Variable Name": "BioCol_Dev_v1r0_TempH"
   },
   "692275326": {
@@ -911,7 +1059,7 @@
     "Variable Name": "RcrtUP_City_v1r0"
   },
   "703954371": {
-    "Variable Label": "Serum Separator Tube 2 ",
+    "Variable Label": "Serum Separator Tube 2",
     "Variable Name": "BioCol_0002_v1r0"
   },
   "704199032": {
@@ -933,6 +1081,10 @@
   },
   "709264633": {
     "Variable Name": "Check-In"
+  },
+  "711256590": {
+    "Variable Label": "Date/time refused all future samples",
+    "Variable Name": "HdRef_DateAllsample_v1r0"
   },
   "711794630": {
     "Variable Label": "PIN Match",
@@ -969,6 +1121,10 @@
     "Variable Label": "Deviation- Low volume - (tube/container partially filled but still usable)",
     "Variable Name": "BioCol_Dev_v1r0_LowVol"
   },
+  "731498909": {
+    "Variable Label": "Eligible for Incentive",
+    "Variable Name": "SMInct_IncentiveElig_v1r0"
+  },
   "734437214": {
     "Variable Name": "Method not used"
   },
@@ -993,8 +1149,12 @@
     "Variable Name": "Declined"
   },
   "746999767": {
-    "Variable Label": "Serum Separator Tube 6 ",
+    "Variable Label": "Serum Separator Tube 6",
     "Variable Name": "BioCol_0022_v1r0"
+  },
+  "747011278": {
+    "Variable Label": "Date/Time incentive refused by UC participant",
+    "Variable Name": "BioFin_TmInctRef_v1r0"
   },
   "749475364": {
     "Variable Label": "Eligibility algorithm version",
@@ -1002,6 +1162,9 @@
   },
   "752948709": {
     "Variable Name": "Henry Ford Main Campus"
+  },
+  "754923497": {
+    "Variable Name": "No incentive issued"
   },
   "755545718": {
     "Variable Label": "Does not think they�re eligible",
@@ -1015,7 +1178,7 @@
     "Variable Name": "displayName"
   },
   "757246707": {
-    "Variable Label": "Deviation- Leaked/spilled ",
+    "Variable Label": "Deviation- Leaked/spilled",
     "Variable Name": "BioCol_Dev_v1r0_Leak"
   },
   "762124027": {
@@ -1040,8 +1203,8 @@
     "Variable Name": "White, Non-Hispanic"
   },
   "770257102": {
-    "Variable Label": "Placeholder - Date/time Module 3 Completed",
-    "Variable Name": "QstMd3_TmComplete_v1r0"
+    "Variable Label": "Placeholder - Date/time of Completion of Smoking, Alcohol, and Sun Exposure",
+    "Variable Name": "SrvSAS_TmComplete_v1r0"
   },
   "771146804": {
     "Variable Label": "Privacy: Worried about data being given to employer/potential employer",
@@ -1049,6 +1212,10 @@
   },
   "771230670": {
     "Variable Name": "61-65"
+  },
+  "773707518": {
+    "Variable Label": "Requested to revoke HIPAA authorization",
+    "Variable Name": "HdWd_HIPAArevoked_v1r0"
   },
   "777644826": {
     "Variable Name": "UC-DCAM��_"
@@ -1059,6 +1226,10 @@
   "787237543": {
     "Variable Label": "Biohazard Bag (Blood or Blood/Urine) ID",
     "Variable Name": "BioCol_0008_v1r0"
+  },
+  "787567527": {
+    "Variable Label": "Time Incentive Eligible for Round",
+    "Variable Name": "SMInct_TmIncentElig_v1r0"
   },
   "789843387": {
     "Variable Label": "Login Site",
@@ -1083,6 +1254,10 @@
     "Variable Label": "Deviation- Mislabeled",
     "Variable Name": "BioCol_Dev_v1r0_Label"
   },
+  "808663245": {
+    "Variable Label": "Date/time refused baseline urine sample",
+    "Variable Name": "HdRef_DateBaseurine_v1r0"
+  },
   "809703864": {
     "Variable Name": "University of Chicago Medicine"
   },
@@ -1094,7 +1269,7 @@
     "Variable Name": "Biospecimen"
   },
   "820476880": {
-    "Variable Label": "Collection ID ",
+    "Variable Label": "Collection ID",
     "Variable Name": "BioSpm_ColIDScan_v1r0"
   },
   "821247024": {
@@ -1126,16 +1301,20 @@
   "830573274": {
     "Variable Name": "intersex or other"
   },
+  "831041022": {
+    "Variable Label": "Wants data destroyed",
+    "Variable Name": "HdWd_Destroydata_v1r0"
+  },
   "831137710": {
     "Variable Label": "Opposed to genetic testing",
     "Variable Name": "RcrtSI_OptOut_v1r0_GenTest"
   },
   "832139544": {
-    "Variable Label": "Placeholder - Date/time Module 2 Completed",
-    "Variable Name": "QstMd2_TmComplete_v1r0"
+    "Variable Label": "Placeholder - Date/time Status of Completion of Medications, Reproductive Health, Exercise, and Sleep",
+    "Variable Name": "SrvMRE_TmComplete_v1r0"
   },
   "833653379": {
-    "Variable Label": "Login first name ",
+    "Variable Label": "Login first name",
     "Variable Name": "BioShip_LogFname_v1r0"
   },
   "834544960": {
@@ -1144,12 +1323,19 @@
   "834825425": {
     "Variable Name": "HP Research Clinic"
   },
+  "835037500": {
+    "Variable Name": "Follow-up 1 incentive refused"
+  },
   "838480167": {
     "Variable Name": "Henry Ford Medical Center- Fairlane"
   },
   "838567176": {
-    "Variable Label": "Heparin Tube 1 ",
+    "Variable Label": "Heparin Tube 1",
     "Variable Name": "BioCol_0003_v1r0"
+  },
+  "840048338": {
+    "Variable Label": "Date/Time Check-In Complete",
+    "Variable Name": "BioChk_Time_v1r0"
   },
   "841390583": {
     "Variable Label": "Orphan tube - shipped flag",
@@ -1171,20 +1357,31 @@
     "Variable Name": "Passive"
   },
   "857757831": {
-    "Variable Label": "Serum Separator Tube 7 ",
+    "Variable Label": "Serum Separator Tube 7",
     "Variable Name": "BioCol_0031_v1r0"
   },
   "861162895": {
     "Variable Label": "Deviation- Centrifuge - Improper speed/force setting used (too high)",
     "Variable Name": "BioCol_Dev_v1r0_SpeedH"
   },
+  "861315814": {
+    "Variable Name": "Refusal"
+  },
   "862774033": {
-    "Variable Label": "Incentive to participant",
-    "Variable Name": "BioFin_Incentive_v1r0"
+    "Variable Label": "Incentive issued to UoC participant",
+    "Variable Name": "BioFin_UoCIncentive_v1r0"
+  },
+  "864199029": {
+    "Variable Label": "Date/Time incentive given to UoC participant",
+    "Variable Name": "BioFin_TmIncentive_v1r0"
   },
   "866095545": {
     "Variable Label": "Consent acknowledgement",
     "Variable Name": "RcrtCS_acknowledge_v1r0"
+  },
+  "867203506": {
+    "Variable Label": "Refused all future surveys",
+    "Variable Name": "HdRef_Allsrv_v1r0"
   },
   "869588347": {
     "Variable Label": "Preferred email",
@@ -1197,13 +1394,24 @@
   "875007964": {
     "Variable Name": "Not yet verified"
   },
+  "875126633": {
+    "Variable Label": "Incentive Round",
+    "Variable Name": "SMInct_Round_v1r0"
+  },
+  "875157711": {
+    "Variable Name": "Qualifies for Follow-up 2 Eligibility List"
+  },
   "875549268": {
     "Variable Label": "Max number of contacts reached for cycle",
     "Variable Name": "RcrtSI_MaxContcts_v1r0"
   },
+  "876396711": {
+    "Variable Label": "Incentive refused by UoC participant",
+    "Variable Name": "BioFin_UoCInctRef_v1r0"
+  },
   "878865966": {
-    "Variable Label": "Placeholder - Baseline Blood",
-    "Variable Name": "BioFin_BaseBloodCom_v1r0"
+    "Variable Label": "Baseline blood sample collected",
+    "Variable Name": "BioFin_BaseBloodCol_v1r0"
   },
   "883203566": {
     "Variable Name": "Sign in"
@@ -1227,6 +1435,10 @@
   "897366187": {
     "Variable Label": "Other reason(s)",
     "Variable Name": "RcrtSI_OptOut_v1r0_other"
+  },
+  "906417725": {
+    "Variable Label": "Withdrew from all study activities",
+    "Variable Name": "HdWd_Activepart_v1r0"
   },
   "910533468": {
     "Variable Name": "Letter without PIN"
@@ -1264,6 +1476,9 @@
   "926338735": {
     "Variable Name": "Random"
   },
+  "930170921": {
+    "Variable Name": "Incentive not refused"
+  },
   "934298480": {
     "Variable Label": "Site reported age at recruitment",
     "Variable Name": "RcrtSI_Age_v1r0"
@@ -1285,6 +1500,10 @@
   "945449846": {
     "Variable Name": "Oahu"
   },
+  "945795905": {
+    "Variable Label": "Incentive Chosen",
+    "Variable Name": "HDInct_InctChosen_v1r0"
+  },
   "948195369": {
     "Variable Label": "PIN match",
     "Variable Name": "RcrtES_PINmatch_v1r0"
@@ -1297,8 +1516,12 @@
     "Variable Name": "BioShip_SignFname_v1r0"
   },
   "949302066": {
-    "Variable Label": "Placeholder- flag for baseline module 1",
-    "Variable Name": "QstMd1_BaseComplete_v1r0"
+    "Variable Label": "Placeholder- flag for Baseline Module Background and Overall Health",
+    "Variable Name": "SrvBOH_BaseStatus_v1r0"
+  },
+  "949501163": {
+    "Variable Label": "Refused baseline urine sample",
+    "Variable Name": "HdRef_Baseurine_v1r0"
   },
   "950040334": {
     "Variable Label": "Reason not given",
@@ -1317,7 +1540,7 @@
     "Variable Name": "BioCol_Dev_v1r0_UrVol"
   },
   "958646668": {
-    "Variable Label": "Heparin Tube 2 ",
+    "Variable Label": "Heparin Tube 2",
     "Variable Name": "BioCol_0013_v1r0"
   },
   "959021713": {
@@ -1337,13 +1560,24 @@
   "965998904": {
     "Variable Name": "Pacific Islander"
   },
+  "972455046": {
+    "Variable Name": "Not Started"
+  },
   "973670172": {
-    "Variable Label": "Urine ",
+    "Variable Label": "Urine",
     "Variable Name": "BioCol_0006_v1r0"
   },
+  "974100830": {
+    "Variable Label": "Date/time refused all future surveys",
+    "Variable Name": "HdRef_DateAllsrv_v1r0"
+  },
   "976570371": {
-    "Variable Label": "Placeholder- flag for baseline module 3",
-    "Variable Name": "QstMd3_BaseComplete_v1r0"
+    "Variable Label": "Placeholder- flag for Baseline Module Smoking, Alcohol, and Sun Exposure",
+    "Variable Name": "SrvSAS_BaseStatus_v1r0"
+  },
+  "982105411": {
+    "Variable Label": "Date/time refused baseline surveys",
+    "Variable Name": "HdRef_DateBasesrv_v1r0"
   },
   "982402227": {
     "Variable Label": "Participant Consent Date",
@@ -1355,6 +1589,10 @@
   },
   "986445321": {
     "Variable Name": "Blank"
+  },
+  "994064239": {
+    "Variable Label": "Refused baseline surveys",
+    "Variable Name": "HdRef_Basesrv_v1r0"
   },
   "995036844": {
     "Variable Label": "Account Sign-in Mechanism",
