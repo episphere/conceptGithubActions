@@ -13,7 +13,6 @@ const getData = async (file) => {
 
 const renderTree = async () => {
     const data = await getData('collapsibleTree.json');
-
     const csv = (await (await fetch('https://raw.githubusercontent.com/episphere/conceptGithubActions/master/csv/testing.csv')).text());
     const json = csv2Json(csv).data;
     
@@ -55,7 +54,7 @@ const renderTree = async () => {
         .style("font", "10px sans-serif")
         .style("user-select", "none");
 
-    const Tooltip = d3.select("#collapsibleTree")
+    d3.select("#collapsibleTree")
         .append("div")
         .style("opacity", 0)
         .attr("class", "tooltip")
@@ -130,13 +129,13 @@ const renderTree = async () => {
                 html += '</div>'
                 d3.select('.tooltip')
                 .html(html)
-                .style('left', event.pageX + 15 + 'px')
-                .style('top', event.pageY + 15 + 'px')
+                .style('left', event.clientX + 'px')
+                .style('top', event.clientY + 'px')
                 .transition()
                 .duration(500)
                 .style('opacity', 1)
             })
-            .on('mouseout', function() {
+            .on('mouseleave', function() {
                 d3.select('.tooltip').style('opacity', 0)
             });
     
@@ -164,7 +163,7 @@ const renderTree = async () => {
     
         // Update the links…
         const link = gLink.selectAll("path")
-        .data(links, d => d.target.id);
+            .data(links, d => d.target.id);
     
         // Enter any new links at the parent's previous position.
         const linkEnter = link.enter().append("path")
