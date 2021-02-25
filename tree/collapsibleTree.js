@@ -33,7 +33,7 @@ const renderTree = async () => {
         const subcollections = filteredData[0].subcollections.map(sc => { return {name: sc.replace('.json', ''), children: []}});
         subcollections.forEach(obj => {
             const nestedSubCollection = data.filter(d => d['conceptId'] === obj.name)
-            if(nestedSubCollection.length > 0 && nestedSubCollection[0]['Format/Value'] && typeof(nestedSubCollection[0]['Format/Value']) == 'object') obj.children.push({name: nestedSubCollection[0].conceptId, children: [...Object.keys(nestedSubCollection[0]['Format/Value']).map(c => { return {name: c.replace('.json', '')}})]})
+            if(nestedSubCollection.length > 0 && nestedSubCollection[0]['Format/Value'] && typeof(nestedSubCollection[0]['Format/Value']) == 'object') obj.children = [...Object.keys(nestedSubCollection[0]['Format/Value']).map(c => { return {name: c.replace('.json', '')}})]
             else obj.children.push({name: nestedSubCollection[0].conceptId, children: []})
         })
         treeData.children.push({name: filteredData[0].conceptId, children: [...subcollections]})
@@ -130,7 +130,7 @@ const renderTree = async () => {
                 d3.select('.tooltip')
                 .html(html)
                 .style('left', event.clientX + 5 + 'px')
-                .style('top', event.clientY + 5 + 'px')
+                .style('top', event.clientY + 15 + 'px')
                 .transition()
                 .duration(500)
                 .style('opacity', 1)
@@ -178,7 +178,6 @@ const renderTree = async () => {
         // Transition exiting nodes to the parent's new position.
         link.exit().transition(transition).remove()
             .attr("d", d => {
-                console.log(d)
                 const o = {x: source.x, y: source.y};
                 return diagonal({source: o, target: o});
             });
