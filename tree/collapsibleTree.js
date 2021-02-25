@@ -100,7 +100,8 @@ const renderTree = async () => {
         // Update the nodes…
         const node = gNode.selectAll("g")
         .data(nodes, d => d.id);
-    
+        
+        let tooltipCounter;
         // Enter any new nodes at the parent's previous position.
         const nodeEnter = node.enter().append("g")
                 .attr("transform", d => `translate(${source.y0},${source.x0})`)
@@ -115,27 +116,33 @@ const renderTree = async () => {
             .attr("r", 5)
             .attr("fill", d => d._children ? "#555" : "#999")
             .attr("stroke-width", 15)
+            .on('click',(e, d) => {
+                d3.select('.tooltip').style('opacity', 0)
+            })
             .on('mouseover', function(event, d) {
-                const tmp = JSON.parse(JSON.stringify(data))
-                const filteredData = tmp.filter(obj => obj.conceptId === d.data.name)
-                if(filteredData.length < 1) return;
-                delete filteredData[0].conceptId;
-                delete filteredData[0].subcollections;
-                delete filteredData[0]['Format/Value'];
-                let html = '<div class="align-left">';
-                for(let key in filteredData[0]){
-                    html += `<div class="break-line"><b>${key}</b>: ${filteredData[0][key]}</div>`
-                }
-                html += '</div>'
-                d3.select('.tooltip')
-                .html(html)
-                .style('left', event.clientX + 5 + 'px')
-                .style('top', event.clientY + 15 + 'px')
-                .transition()
-                .duration(500)
-                .style('opacity', 1)
+                tooltipCounter = setTimeout(() => {
+                    const tmp = JSON.parse(JSON.stringify(data))
+                    const filteredData = tmp.filter(obj => obj.conceptId === d.data.name)
+                    if(filteredData.length < 1) return;
+                    delete filteredData[0].conceptId;
+                    delete filteredData[0].subcollections;
+                    delete filteredData[0]['Format/Value'];
+                    let html = '<div class="align-left">';
+                    for(let key in filteredData[0]){
+                        html += `<div class="break-line"><b>${key}</b>: ${filteredData[0][key]}</div>`
+                    }
+                    html += '</div>'
+                    d3.select('.tooltip')
+                    .html(html)
+                    .style('left', event.clientX + 5 + 'px')
+                    .style('top', event.clientY + 15 + 'px')
+                    .transition()
+                    .duration(1000)
+                    .style('opacity', 1)
+                }, 500)
             })
             .on('mouseleave', function() {
+                clearTimeout(tooltipCounter);
                 d3.select('.tooltip').style('opacity', 0)
             });
     
