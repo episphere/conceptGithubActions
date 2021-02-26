@@ -57,7 +57,7 @@ const renderTree = async () => {
         }
     })
 
-    const treeData = treeDataBuilder(hierarchy)
+    const treeData = treeDataBuilder(hierarchy);
 
     const root = d3.hierarchy(treeData);
     
@@ -96,12 +96,11 @@ const renderTree = async () => {
         .attr("pointer-events", "all");
 
     
-    async function update(source) {
+    const update = async (source) => {
         const duration = d3.event && d3.event.altKey ? 2500 : 250;
         const nodes = root.descendants().reverse();
         const links = root.links();
     
-        // Compute the new tree layout.
         tree(root);
     
         let left = root;
@@ -118,12 +117,11 @@ const renderTree = async () => {
             .attr("viewBox", [-margin.left, left.x - margin.top, width, height])
             .tween("resize", window.ResizeObserver ? null : () => () => svg.dispatch("toggle"));
     
-        // Update the nodes…
         const node = gNode.selectAll("g")
         .data(nodes, d => d.id);
         
         let tooltipCounter;
-        // Enter any new nodes at the parent's previous position.
+        
         const nodeEnter = node.enter().append("g")
                 .attr("transform", d => `translate(${source.y0},${source.x0})`)
                 .attr("fill-opacity", 0)
@@ -177,23 +175,19 @@ const renderTree = async () => {
             .attr("stroke-width", 3)
             .attr("stroke", "white");
     
-        // Transition nodes to their new position.
         node.merge(nodeEnter).transition(transition)
             .attr("transform", d => `translate(${d.y},${d.x})`)
             .attr("fill-opacity", 1)
             .attr("stroke-opacity", 1);
     
-        // Transition exiting nodes to the parent's new position.
         node.exit().transition(transition).remove()
             .attr("transform", d => `translate(${source.y},${source.x})`)
             .attr("fill-opacity", 0)
             .attr("stroke-opacity", 0);
     
-        // Update the links…
         const link = gLink.selectAll("path")
             .data(links, d => d.target.id);
     
-        // Enter any new links at the parent's previous position.
         const linkEnter = link.enter().append("path")
             .attr("d", d => {
                 const o = {x: source.x0, y: source.y0};
@@ -215,8 +209,20 @@ const renderTree = async () => {
             d.y0 = d.y;
         });
     }
-    
+    document.getElementById('collapseAll').addEventListener('click', () => {
+        root.children.forEach(collapse);
+        collapse(root);
+        update(root);
+    })
     update(root);
+}
+
+const collapse = (d) => {
+    if (d.children) {
+      d._children = d.children;
+      d._children.forEach(collapse);
+      d.children = null;
+    }
 }
 
 const diagonal = d3.linkHorizontal().x(d => d.y).y(d => d.x)
