@@ -161,7 +161,7 @@ const renderTree = async () => {
                 }, 500)
             })
             .on('mouseleave', function() {
-                d3.select(this).attr('fill', '#555')
+                d3.select(this).attr("fill", d => d._children ? "#555" : "#999")
                 clearTimeout(tooltipCounter);
                 d3.select('.tooltip').style('opacity', 0)
             });
