@@ -10,14 +10,6 @@ const margin = ({top: 10, right: 120, bottom: 10, left: 80})
 
 const tree = d3.tree().nodeSize([dx, dy])
 
-const collapse = (d) => {
-    if (d.children) {
-      d._children = d.children;
-      d._children.forEach(collapse);
-      d.children = null;
-    }
-}
-
 const nodesClicked = [];
 
 const getData = async (file) => {
@@ -152,6 +144,7 @@ const renderTree = async () => {
             .attr("fill", d => d._children ? "#555" : "#999")
             .on('click', function (e, d) {
                 const node = d.data.name;
+                location.hash = node;
                 const currentNode = d3.select(this)._groups[0][0];
                 
                 if(d.children) d3.select(currentNode).attr("fill", d => d._children ? '#555' : '#999')
@@ -159,14 +152,8 @@ const renderTree = async () => {
                 
                 d3.selectAll('path').select(function (d) {
                     if(d.target.data.name === node){
-                        if(d.target.children) {
-                            d3.select(this).attr('stroke', '#555')
-                                            .attr('stroke-width', 1.5);
-                        }
-                        else {
-                            d3.select(this).attr('stroke', 'red')
-                                            .attr('stroke-width', 3);
-                        }
+                        if(d.target.children) d3.select(this).attr('stroke', '#555').attr('stroke-width', 1.5);
+                        else d3.select(this).attr('stroke', '#577eba').attr('stroke-width', 3);
                     }
                 })
                 
@@ -241,18 +228,19 @@ const renderTree = async () => {
             d.y0 = d.y;
         });
     }
-    document.getElementById('collapseAll').addEventListener('click', () => {
-        root.children.forEach(collapse);
-        collapse(root);
-        update(root);
-    })
     update(root);
-    // document.getElementById('search').addEventListener('click', () => {
-    //     const input = document.getElementById('conceptId').value.trim();
-    //     if(input){
-    //         handleSearch(input)
-    //     }
-    // });
+
+    document.getElementById('collapseAll').addEventListener('click', () => {
+        collapseHandler(root)
+    });
+    
+    document.getElementById('search').addEventListener('submit', e => {
+        e.preventDefault();
+        const input = document.getElementById('conceptId').value.trim();
+        if(input){
+            handleSearch(input)
+        }
+    });
 
     const triggerNodeSearch = (term) => {
         d3.selectAll('circle').select(function (d) {
@@ -268,11 +256,38 @@ const renderTree = async () => {
     const handleSearch = (input) => {
         const filteredData = data.filter(dt => dt.conceptId === input);
         if(filteredData.length === 0) return;
-        const ps = filteredData[0]['Primary Source'].replace('.json', '');
-        const ss = filteredData[0]['Secondary Source'].replace('.json', '');
-        const cid = filteredData[0]['conceptId'].replace('.json', '');
-        triggerNodeSearch(ps);
-        triggerNodeSearch(ss);
+        d3.selectAll('path').select(function(d) {
+            d3.select(this).attr('stroke', '#555').attr('stroke-width', 1.5);
+        })
+        d3.selectAll('circle').select(function(d) {
+            d3.select(this).attr("fill", d => d._children ? "#555" : "#999");
+        })
+        collapseHandler(root);
+        const cid = filteredData[0]['conceptId'];
+        triggerNodeSearch('Connect Study');
+        if(filteredData[0]['Primary Source']) triggerNodeSearch(filteredData[0]['Primary Source'].replace('.json', ''));
+        if(filteredData[0]['Secondary Source']) triggerNodeSearch(filteredData[0]['Secondary Source'].replace('.json', ''));
         triggerNodeSearch(cid);
+    }
+
+    const collapseHandler = (root) => {
+        if(!root.children) return;
+        root.children.forEach(collapse);
+        collapse(root);
+        update(root);
+    }
+
+    const hash = location.hash.replace('#', '').trim();
+    if(hash) {
+        document.getElementById('conceptId').value = hash;
+        handleSearch(hash)
+    }
+}
+
+const collapse = (d) => {
+    if (d.children) {
+      d._children = d.children;
+      d._children.forEach(collapse);
+      d.children = null;
     }
 }

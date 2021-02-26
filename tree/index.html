@@ -11,9 +11,11 @@
             <div class="container">
                 <div id="root">
                     <a href="../web/">Search data dictionary</a><br><br>
-                    <!-- <input type="text" id="conceptId" placeholder="Search by concept Id">
-                    <button id="search" type="button">Search</button>
-                    <br><br> -->
+                    <form method="post" id="search">
+                        <input type="text" id="conceptId" placeholder="Search by concept Id">
+                        <button id="searchBtn" type="submit">Search</button>
+                    </form>
+                    <br><br>
                     <button type="button" id="collapseAll">Collapse tree</button>
                     <div id="collapsibleTree"></div>
                 </div>
