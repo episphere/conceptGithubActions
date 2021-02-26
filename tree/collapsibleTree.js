@@ -139,6 +139,7 @@ const renderTree = async () => {
                 d3.select('.tooltip').style('opacity', 0)
             })
             .on('mouseover', function(event, d) {
+                d3.select(this).attr('fill', '#577eba')
                 tooltipCounter = setTimeout(() => {
                     const tmp = JSON.parse(JSON.stringify(data))
                     const filteredData = tmp.filter(obj => obj.conceptId === d.data.name)
@@ -156,11 +157,11 @@ const renderTree = async () => {
                     .style('left', event.clientX + 5 + 'px')
                     .style('top', event.clientY + 15 + 'px')
                     .transition()
-                    .duration(1000)
                     .style('opacity', 1)
                 }, 500)
             })
             .on('mouseleave', function() {
+                d3.select(this).attr('fill', '#555')
                 clearTimeout(tooltipCounter);
                 d3.select('.tooltip').style('opacity', 0)
             });
