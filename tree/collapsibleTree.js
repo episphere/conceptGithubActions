@@ -2,6 +2,22 @@ window.onload = () => {
     renderTree();
 }
 
+const diagonal = d3.linkHorizontal().x(d => d.y).y(d => d.x)
+
+const dx = 20;
+const dy = 159;
+const margin = ({top: 10, right: 120, bottom: 10, left: 80})
+
+const tree = d3.tree().nodeSize([dx, dy])
+
+const collapse = (d) => {
+    if (d.children) {
+      d._children = d.children;
+      d._children.forEach(collapse);
+      d.children = null;
+    }
+}
+
 const nodesClicked = [];
 
 const getData = async (file) => {
@@ -141,16 +157,15 @@ const renderTree = async () => {
                 if(d.children) d3.select(currentNode).attr("fill", d => d._children ? '#555' : '#999')
                 else d3.select(currentNode).attr('fill', '#577eba')
                 
-                d3.selectAll('path')._groups[0].forEach(path => {
-                    const currentPath = d3.select(path)
-                    if(currentPath.data()[0].target.data.name === node){
-                        if(d.children) {
-                            currentPath.attr('stroke', '#555')
-                                        .attr('stroke-width', 1.5);
+                d3.selectAll('path').select(function (d) {
+                    if(d.target.data.name === node){
+                        if(d.target.children) {
+                            d3.select(this).attr('stroke', '#555')
+                                            .attr('stroke-width', 1.5);
                         }
                         else {
-                            currentPath.attr('stroke', '#577eba')
-                                        .attr('stroke-width', 3);
+                            d3.select(this).attr('stroke', 'red')
+                                            .attr('stroke-width', 3);
                         }
                     }
                 })
@@ -215,7 +230,6 @@ const renderTree = async () => {
         link.merge(linkEnter).transition(transition)
             .attr("d", diagonal);
     
-        // Transition exiting nodes to the parent's new position.
         link.exit().transition(transition).remove()
             .attr("d", d => {
                 const o = {x: source.x, y: source.y};
@@ -233,38 +247,32 @@ const renderTree = async () => {
         update(root);
     })
     update(root);
-}
+    // document.getElementById('search').addEventListener('click', () => {
+    //     const input = document.getElementById('conceptId').value.trim();
+    //     if(input){
+    //         handleSearch(input)
+    //     }
+    // });
 
-const collapse = (d) => {
-    if (d.children) {
-      d._children = d.children;
-      d._children.forEach(collapse);
-      d.children = null;
-    }
-}
-
-const diagonal = d3.linkHorizontal().x(d => d.y).y(d => d.x)
-
-const dx = 20;
-const dy = 159;
-const margin = ({top: 10, right: 120, bottom: 10, left: 80})
-
-const tree = d3.tree().nodeSize([dx, dy])
-
-const csv2Json = (csv) => {
-    const lines = csv.replace(/"/g,'').split(/[\r\n]+/g);
-    const result = [];
-    const headers = lines[0].replace(/"/g,'').split(/[,\t]/g);
-    for(let i=1; i < lines.length; i++){
-        const obj = {};
-        const currentline = lines[i].split(/[,\t]/g);
-        for(let j = 0; j<headers.length; j++){
-            if(currentline[j]){
-                let value = headers[j];
-                obj[value] = currentline[j];
+    const triggerNodeSearch = (term) => {
+        d3.selectAll('circle').select(function (d) {
+            if(d.data.name === term) {
+                const event = document.createEvent('MouseEvents');
+                event.initMouseEvent('click');
+                this.dispatchEvent(event)
+                d.children = d.children ? null : d._children;
+                update(d);
             }
-        }
-        if(Object.keys(obj).length > 0) result.push(obj);
+        })
     }
-    return {data:result, headers};
+    const handleSearch = (input) => {
+        const filteredData = data.filter(dt => dt.conceptId === input);
+        if(filteredData.length === 0) return;
+        const ps = filteredData[0]['Primary Source'].replace('.json', '');
+        const ss = filteredData[0]['Secondary Source'].replace('.json', '');
+        const cid = filteredData[0]['conceptId'].replace('.json', '');
+        triggerNodeSearch(ps);
+        triggerNodeSearch(ss);
+        triggerNodeSearch(cid);
+    }
 }
