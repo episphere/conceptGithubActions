@@ -11,31 +11,54 @@ const getData = async (file) => {
     return concepts;
 }
 
-const renderTree = async () => {
-    const data = await getData('collapsibleTree.json');
-    
-    const allPrimaryConcepts = [];
-    data.forEach(obj => {
-        if(obj['Primary Source'] && allPrimaryConcepts.indexOf(obj['Primary Source']) === -1) {
-            allPrimaryConcepts.push(obj['Primary Source']);
-        }
-    });
-
-    const treeData = {
+const treeDataBuilder = (hierarchy) => {
+    let obj = {
         "name": "Connect Study",
         "children": []
-    };
-    allPrimaryConcepts.forEach(dt => {
-        const filteredData = data.filter(obj => obj['conceptId'] === dt.replace('.json', ''));
-        if(filteredData.length < 1) return
-        const subcollections = filteredData[0].subcollections.map(sc => { return {name: sc.replace('.json', ''), children: []}});
-        subcollections.forEach(obj => {
-            const nestedSubCollection = data.filter(d => d['conceptId'] === obj.name)
-            if(nestedSubCollection.length > 0 && nestedSubCollection[0]['Format/Value'] && typeof(nestedSubCollection[0]['Format/Value']) == 'object') obj.children = [...Object.keys(nestedSubCollection[0]['Format/Value']).map(c => { return {name: c.replace('.json', '')}})]
-            else obj.children.push({name: nestedSubCollection[0].conceptId, children: []})
-        })
-        treeData.children.push({name: filteredData[0].conceptId, children: [...subcollections]})
-    });
+    }
+    obj.children = extractNextedObjects(hierarchy)
+    return obj;
+}
+
+const extractNextedObjects = (obj) => {
+    let array = [];
+    for(let concept in obj) {
+        let nestedObject = {}
+        if(Object.keys(obj[concept]).length > 0) nestedObject = {"name": concept, "children": []};
+        else nestedObject = {"name": concept}
+        nestedObject.children = extractNextedObjects(obj[concept])
+        array.push(nestedObject)
+    }
+    return array;
+}
+
+const renderTree = async () => {
+    const data = await getData('collapsibleTree.json');
+    let hierarchy = {};
+    data.forEach(obj => {
+        if(!obj['Primary Source']) return;
+        const primaryConcept = obj['Primary Source'].replace('.json', '');
+        if(hierarchy[primaryConcept] === undefined) hierarchy[primaryConcept] = {};
+        if(obj['Secondary Source'] && hierarchy[primaryConcept][obj['Secondary Source'].replace('.json', '')] === undefined) hierarchy[primaryConcept][obj['Secondary Source'].replace('.json', '')] = {};
+        if(obj['Secondary Source'] && obj['conceptId']) {
+            hierarchy[primaryConcept][obj['Secondary Source'].replace('.json', '')][obj['conceptId']] = {};
+            if(obj['subcollections']) {
+                obj['subcollections'].forEach(collection => {
+                    hierarchy[primaryConcept][obj['Secondary Source'].replace('.json', '')][obj['conceptId']][collection.replace('.json', '')] = {};
+                })
+            }
+            if(obj['Format/Value']) {
+                if(typeof(obj['Format/Value']) === 'object') {
+                    for(let value in obj['Format/Value']){
+                        hierarchy[primaryConcept][obj['Secondary Source'].replace('.json', '')][obj['conceptId']][value.replace('.json', '')] = {};
+                    }
+                }
+            }
+        }
+    })
+
+    const treeData = treeDataBuilder(hierarchy)
+
     const root = d3.hierarchy(treeData);
     
     root.x0 = dy / 2;
