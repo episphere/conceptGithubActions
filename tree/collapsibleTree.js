@@ -134,12 +134,30 @@ const renderTree = async () => {
         nodeEnter.append("circle")
             .attr("r", 5)
             .attr("fill", d => d._children ? "#555" : "#999")
-            .attr("stroke-width", 15)
-            .on('click',(e, d) => {
+            .on('click', function (e, d) {
+                const node = d.data.name;
+                const currentNode = d3.select(this)._groups[0][0];
+                
+                if(d.children) d3.select(currentNode).attr("fill", d => d._children ? '#555' : '#999')
+                else d3.select(currentNode).attr('fill', '#577eba')
+                
+                d3.selectAll('path')._groups[0].forEach(path => {
+                    const currentPath = d3.select(path)
+                    if(currentPath.data()[0].target.data.name === node){
+                        if(d.children) {
+                            currentPath.attr('stroke', '#555')
+                                        .attr('stroke-width', 1.5);
+                        }
+                        else {
+                            currentPath.attr('stroke', '#577eba')
+                                        .attr('stroke-width', 3);
+                        }
+                    }
+                })
+                
                 d3.select('.tooltip').style('opacity', 0)
             })
             .on('mouseover', function(event, d) {
-                d3.select(this).attr('fill', '#577eba')
                 tooltipCounter = setTimeout(() => {
                     const tmp = JSON.parse(JSON.stringify(data))
                     const filteredData = tmp.filter(obj => obj.conceptId === d.data.name)
@@ -161,7 +179,6 @@ const renderTree = async () => {
                 }, 500)
             })
             .on('mouseleave', function() {
-                d3.select(this).attr("fill", d => d._children ? "#555" : "#999")
                 clearTimeout(tooltipCounter);
                 d3.select('.tooltip').style('opacity', 0)
             });
