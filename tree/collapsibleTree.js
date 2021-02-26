@@ -13,22 +13,20 @@ const getData = async (file) => {
 
 const renderTree = async () => {
     const data = await getData('collapsibleTree.json');
-    const csv = (await (await fetch('https://raw.githubusercontent.com/episphere/conceptGithubActions/master/csv/testing.csv')).text());
-    const json = csv2Json(csv).data;
     
-    const allPrimarySource = [];
-    json.forEach(obj => {
-        if(obj['Primary Source'] && obj['Primary Source'] !== ' Recruitment' && allPrimarySource.indexOf(obj['Primary Source']) === -1) {
-            allPrimarySource.push(obj['Primary Source']);
+    const allPrimaryConcepts = [];
+    data.forEach(obj => {
+        if(obj['Primary Source'] && allPrimaryConcepts.indexOf(obj['Primary Source']) === -1) {
+            allPrimaryConcepts.push(obj['Primary Source']);
         }
-    })
-    
+    });
+
     const treeData = {
         "name": "Connect Study",
         "children": []
     };
-    allPrimarySource.forEach(dt => {
-        const filteredData = data.filter(obj => obj['Variable Name'] === dt);
+    allPrimaryConcepts.forEach(dt => {
+        const filteredData = data.filter(obj => obj['conceptId'] === dt.replace('.json', ''));
         if(filteredData.length < 1) return
         const subcollections = filteredData[0].subcollections.map(sc => { return {name: sc.replace('.json', ''), children: []}});
         subcollections.forEach(obj => {
