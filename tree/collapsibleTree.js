@@ -144,7 +144,7 @@ const renderTree = async () => {
             .attr("fill", d => d._children ? "#555" : "#999")
             .on('click', function (e, d) {
                 const node = d.data.name;
-                location.hash = node;
+                // location.hash = node;
                 const currentNode = d3.select(this)._groups[0][0];
                 
                 if(d.children) d3.select(currentNode).attr("fill", d => d._children ? '#555' : '#999')
@@ -277,11 +277,11 @@ const renderTree = async () => {
         update(root);
     }
 
-    const hash = location.hash.replace('#', '').trim();
-    if(hash) {
-        document.getElementById('conceptId').value = hash;
-        handleSearch(hash)
-    }
+    // const hash = location.hash.replace('#', '').trim();
+    // if(hash) {
+    //     document.getElementById('conceptId').value = hash;
+    //     handleSearch(hash)
+    // }
 }
 
 const collapse = (d) => {
