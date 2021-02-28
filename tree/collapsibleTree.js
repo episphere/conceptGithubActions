@@ -144,6 +144,7 @@ const renderTree = async () => {
             .attr("fill", d => d._children ? "#555" : "#999")
             .on('click', function (e, d) {
                 const node = d.data.name;
+                let parentNode = d.parent ? d.parent.data.name : undefined;
                 // location.hash = node;
                 const currentNode = d3.select(this)._groups[0][0];
                 
@@ -151,7 +152,7 @@ const renderTree = async () => {
                 else d3.select(currentNode).attr('fill', '#577eba')
                 
                 d3.selectAll('path').select(function (d) {
-                    if(d.target.data.name === node){
+                    if(d.target.data.name === node && parentNode && d.source.data.name === parentNode){
                         if(d.target.children) d3.select(this).attr('stroke', '#555').attr('stroke-width', 1.5);
                         else d3.select(this).attr('stroke', '#577eba').attr('stroke-width', 3);
                     }
@@ -230,6 +231,13 @@ const renderTree = async () => {
     }
     update(root);
 
+    const collapseHandler = (root) => {
+        if(!root.children) return;
+        root.children.forEach(collapse);
+        collapse(root);
+        update(root);
+    }
+
     document.getElementById('collapseAll').addEventListener('click', () => {
         collapseHandler(root)
     });
@@ -268,13 +276,6 @@ const renderTree = async () => {
         if(filteredData[0]['Primary Source']) triggerNodeSearch(filteredData[0]['Primary Source'].replace('.json', ''));
         if(filteredData[0]['Secondary Source']) triggerNodeSearch(filteredData[0]['Secondary Source'].replace('.json', ''));
         triggerNodeSearch(cid);
-    }
-
-    const collapseHandler = (root) => {
-        if(!root.children) return;
-        root.children.forEach(collapse);
-        collapse(root);
-        update(root);
     }
 
     // const hash = location.hash.replace('#', '').trim();
