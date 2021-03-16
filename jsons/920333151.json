@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Recruitment",
+  "Primary Source": "192505768.json",
   "Secondary Source": "166676176.json",
   "conceptId": "920333151",
   "Question Text": "Last 4 digits of Social Security Number",
@@ -10,8 +10,5 @@
   "Format/Value": "N/A",
   "Required": "No",
   "PII": "Yes",
-  "Notes": "Question shown only if full SSN is NOT given.",
-  "subcollection": [
-    "192505768.json"
-  ]
+  "Notes": "Question shown only if full SSN is NOT given."
 }

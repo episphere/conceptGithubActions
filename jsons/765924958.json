@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Recruitment",
+  "Primary Source": "192505768.json",
   "Secondary Source": "453017582.json",
   "conceptId": "765924958",
   "Question Text": "Derived variable for the time from sign-in to submission of consent as RcrtCS_ConsentSumit_v1r0 - RcrtSI_SignTime_v1r0",
@@ -10,8 +10,5 @@
   "Format/Value": "N/A",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Can be further derived to other time units (e.g. hours + fractions of hours) or as multiple time variables (e.g. hours, minutes, and seconds)",
-  "subcollection": [
-    "192505768.json"
-  ]
+  "Notes": "Can be further derived to other time units (e.g. hours + fractions of hours) or as multiple time variables (e.g. hours, minutes, and seconds)"
 }

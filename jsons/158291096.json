@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Recruitment",
+  "Primary Source": "192505768.json",
   "Secondary Source": "883203566.json",
   "conceptId": "158291096",
   "Question Text": "Pre-consent Opt-out",
@@ -10,7 +10,8 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Default is No.  Sites should set to yes when I participat opts-out prior to consent and sent through the submitParticipantsData API call.  See Opt-out SOP.  A categorical reason for opt-out variable will be added to the dictionary once the list is finalized.",
-  "subcollection": [
-    "192505768.json"
-  ]
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
 }

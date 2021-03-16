@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Recruitment",
+  "Primary Source": "192505768.json",
   "Secondary Source": "883203566.json",
   "conceptId": "527823810",
   "Question Text": "Henry Ford Health System Reported Ethnicity",
@@ -9,7 +9,9 @@
   "Variable Length": "2",
   "Required": "For Henry Ford HS",
   "PII": "No",
-  "subcollection": [
-    "192505768.json"
-  ]
+  "Format/Value": {
+    "628733063.json": "0",
+    "319570637.json": "1",
+    "178420302.json": "77"
+  }
 }

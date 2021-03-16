@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Recruitment",
+  "Primary Source": "192505768.json",
   "Secondary Source": "332759827.json",
   "conceptId": "795827569",
   "Question Text": "Birth Day",
@@ -10,8 +10,5 @@
   "Format/Value": "dd",
   "Required": "Yes",
   "PII": "Yes",
-  "Notes": "Variable will be populated by a drop down with values from 1 to 31.  DOB is being saved for the derived single date variable that will be created from MOB, BD and YOB.",
-  "subcollection": [
-    "192505768.json"
-  ]
+  "Notes": "Variable will be populated by a drop down with values from 1 to 31.  DOB is being saved for the derived single date variable that will be created from MOB, BD and YOB."
 }

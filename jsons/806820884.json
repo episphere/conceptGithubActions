@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Biospecimen",
+  "Primary Source": "819848608.json",
   "Secondary Source": "360770860.json",
   "Source Question": "248868659.json",
   "conceptId": "806820884",
@@ -11,7 +11,8 @@
   "Required": "Yes if yes to deviation for a specimen and no other deviation selected",
   "PII": "No",
   "Notes": "Default no",
-  "subcollection": [
-    "819848608.json"
-  ]
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
 }

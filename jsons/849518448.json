@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Recruitment",
+  "Primary Source": "192505768.json",
   "Secondary Source": "883203566.json",
   "conceptId": "849518448",
   "Question Text": "Site reported race/ethnicity",
@@ -9,7 +9,9 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "subcollection": [
-    "192505768.json"
-  ]
+  "Format/Value": {
+    "768826601.json": "0",
+    "438483626.json": "55",
+    "178420302.json": "77"
+  }
 }
