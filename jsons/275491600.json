@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "129084651.json",
   "Secondary Source": "726699695.json",
   "conceptId": "275491600",
   "Question Text": "Sibling 1-You said you were born a twin, triplet, or other multiple. Is this sibling your twin, triplet, or multiple?",
@@ -9,7 +9,8 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "subcollection": [
-    "129084651.json"
-  ]
+  "Format/Value": {
+    "129084651.json": "0",
+    "967054843.json": "1"
+  }
 }
