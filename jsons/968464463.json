@@ -1,0 +1,18 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "726699695.json",
+  "Source Question": "279990601.json",
+  "conceptId": "968464463",
+  "Question Text": "Mom Lung or bronchial cancer age",
+  "Variable Label": "Mom Lung or bronchial cancer age",
+  "Variable Name": "SrvBOH_MomLungCancAge_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Connect Format/Values - Only display if MOMCANC2= 11",
+  "subcollection": [
+    "129084651.json"
+  ]
+}
