@@ -1,5 +1,5 @@
 {
-  "Primary Source": "819848608.json",
+  "Primary Source": "Biospecimen",
   "Secondary Source": "948781977.json",
   "conceptId": "618036638",
   "Question Text": "Scanned by Last Name",
@@ -9,5 +9,8 @@
   "Variable Length": "50",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Populated by login at time of scan"
+  "Notes": "Populated by login at time of scan",
+  "subcollection": [
+    "819848608.json"
+  ]
 }

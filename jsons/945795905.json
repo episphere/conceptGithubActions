@@ -1,5 +1,5 @@
 {
-  "Primary Source": "237817859.json",
+  "Primary Source": "Help Desk",
   "Secondary Source": "117044491.json",
   "conceptId": "945795905",
   "Question Text": "Incentive Chosen",
@@ -11,5 +11,8 @@
   "Required": "Yes",
   "PII": "No",
   "Notes": "Type of incentive chosen/what kind. Repeated measures variable associated with Round. Left as empty string field for now, incentive chosen will be sent by NORC. Value will pull from Tango Card Catalog. Incentive options change dynamically based on Tango catalog",
-  "Dictionary": "Study Manager Data Dictionary"
+  "Dictionary": "Study Manager Data Dictionary",
+  "subcollection": [
+    "237817859.json"
+  ]
 }

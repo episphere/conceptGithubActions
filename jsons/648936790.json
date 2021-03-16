@@ -1,5 +1,5 @@
 {
-  "Primary Source": "237817859.json",
+  "Primary Source": "Help Desk",
   "Secondary Source": "117044491.json",
   "conceptId": "648936790",
   "Question Text": "NORC issued incentive to participant",
@@ -11,8 +11,7 @@
   "PII": "No",
   "Notes": "Incentive issued for all sites other than UoC, repeated measures variable associated with Round",
   "Dictionary": "Study Manager Data Dictionary",
-  "Format/Value": {
-    "104430631.json": "0",
-    "353358909.json": "1"
-  }
+  "subcollection": [
+    "237817859.json"
+  ]
 }

@@ -1,0 +1,18 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "726699695.json",
+  "Source Question": "655722734.json",
+  "conceptId": "262900385",
+  "Question Text": "Mom Uterine (endometrial) cancer year",
+  "Variable Label": "Mom Uterine (endometrial) cancer year",
+  "Variable Name": "SrvBOH_MomUtCancYr_v1r0",
+  "Variable Type": "Year",
+  "Variable Length": "4",
+  "Format/Value": "yyyy",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Connect Format/Values - Only display if MOMCANC2= 20",
+  "subcollection": [
+    "129084651.json"
+  ]
+}

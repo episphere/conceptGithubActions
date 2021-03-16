@@ -1,5 +1,5 @@
 {
-  "Primary Source": "192505768.json",
+  "Primary Source": "Recruitment",
   "Secondary Source": "883203566.json",
   "conceptId": "538553381",
   "Question Text": "Sanford Health Reported Ethnicity",
@@ -9,11 +9,7 @@
   "Variable Length": "1",
   "Required": "For Sanford Health",
   "PII": "No",
-  "Format/Value": {
-    "628733063.json": "0",
-    "319570637.json": "1",
-    "986445321.json": "66",
-    "746038746.json": "99",
-    "178420302.json": "77"
-  }
+  "subcollection": [
+    "192505768.json"
+  ]
 }

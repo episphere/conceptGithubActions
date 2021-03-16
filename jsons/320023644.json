@@ -1,5 +1,5 @@
 {
-  "Primary Source": "237817859.json",
+  "Primary Source": "Help Desk",
   "Secondary Source": "117044491.json",
   "conceptId": "320023644",
   "Question Text": "Case Number",
@@ -10,5 +10,8 @@
   "Required": "Yes",
   "PII": "No",
   "Notes": "Case number associated with each participant for each Round will be send by NORC (e.g. repeated measure associated with Round)",
-  "Dictionary": "Study Manager Data Dictionary"
+  "Dictionary": "Study Manager Data Dictionary",
+  "subcollection": [
+    "237817859.json"
+  ]
 }

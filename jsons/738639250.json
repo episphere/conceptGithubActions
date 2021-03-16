@@ -1,0 +1,18 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "726699695.json",
+  "Source Question": "252071628.json",
+  "conceptId": "738639250",
+  "Question Text": "Mom Lymphoma cancer age",
+  "Variable Label": "Mom Lymphoma cancer age",
+  "Variable Name": "SrvBOH_MomLympAge_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Connect Format/Values - Only display if MOMCANC2= 13",
+  "subcollection": [
+    "129084651.json"
+  ]
+}

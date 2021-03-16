@@ -1,5 +1,5 @@
 {
-  "Primary Source": "237817859.json",
+  "Primary Source": "Help Desk",
   "Secondary Source": "861315814.json",
   "conceptId": "974100830",
   "Question Text": "Autoset when  HdRef_Allsrv_v1r0 selected",
@@ -10,5 +10,8 @@
   "Format/Value": "example: 2020-07-17T15:21:26.763Z",
   "Required": "No",
   "PII": "No",
-  "Notes": "ISO to be converted to SAS format"
+  "Notes": "ISO to be converted to SAS format",
+  "subcollection": [
+    "237817859.json"
+  ]
 }

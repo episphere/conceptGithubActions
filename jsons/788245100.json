@@ -1,0 +1,24 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "898006288.json",
+  "conceptId": "788245100",
+  "Question Text": "Which one of these figures most closely resembles your hair pattern at age 40?",
+  "Variable Label": "Hair female",
+  "Variable Name": "SrvBOH_HairFemale_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "[DISPLAY HAIRFEM IF SEX= 02 and GEN= 02]",
+  "Format/Value": {
+    "323728526.json": "0",
+    "957388671.json": "1",
+    "461196718.json": "2",
+    "487759560.json": "3",
+    "107994471.json": "4",
+    "405075880.json": "5",
+    "283732924.json": "6",
+    "909195431.json": "7",
+    "509936032.json": "8"
+  }
+}

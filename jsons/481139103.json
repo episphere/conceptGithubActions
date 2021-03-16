@@ -1,5 +1,5 @@
 {
-  "Primary Source": "192505768.json",
+  "Primary Source": "Recruitment",
   "Secondary Source": "883203566.json",
   "conceptId": "481139103",
   "Question Text": "PIN/Token Workflow for HP",
@@ -9,8 +9,7 @@
   "Variable Length": "1",
   "Required": "Yes for HP",
   "PII": "No",
-  "Format/Value": {
-    "910533468.json": "0",
-    "456806539.json": "1"
-  }
+  "subcollection": [
+    "192505768.json"
+  ]
 }

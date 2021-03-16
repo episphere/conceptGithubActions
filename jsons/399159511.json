@@ -1,5 +1,5 @@
 {
-  "Primary Source": "192505768.json",
+  "Primary Source": "Recruitment",
   "Secondary Source": "332759827.json",
   "conceptId": "399159511",
   "Question Text": "First Name",
@@ -10,5 +10,8 @@
   "Format/Value": "N/A",
   "Required": "Yes",
   "PII": "Yes",
-  "Notes": "Populated from RcrtCS_Fname_v1r0, cannot be edited until after verification."
+  "Notes": "Populated from RcrtCS_Fname_v1r0, cannot be edited until after verification.",
+  "subcollection": [
+    "192505768.json"
+  ]
 }

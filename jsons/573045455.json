@@ -1,0 +1,17 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "898006288.json",
+  "conceptId": "573045455",
+  "Question Text": "Which of these best describes the type of testicle removal surgery that you had?",
+  "Variable Label": "Testicle removal surgery",
+  "Variable Name": "SrvBOH_TestRemSurg_v1r0",
+  "Variable Type": "Num",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if MHGROUP9 = Testical remvoal surgery",
+  "Format/Value": {
+    "613004202.json": "0",
+    "752930625.json": "1",
+    "649143325.json": "88"
+  }
+}

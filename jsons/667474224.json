@@ -1,5 +1,5 @@
 {
-  "Primary Source": "192505768.json",
+  "Primary Source": "Recruitment",
   "Secondary Source": "883203566.json",
   "conceptId": "667474224",
   "Question Text": "Campaign Type",
@@ -10,13 +10,7 @@
   "Required": "Yes",
   "PII": "No",
   "Notes": "Sent with de-identified individual demographic variables when participants moved from Eligibility pool to active recruits with submitParticipantsData API call.",
-  "Format/Value": {
-    "926338735.json": "0",
-    "348281054.json": "1",
-    "324692899.json": "2",
-    "351257378.json": "3",
-    "647148178.json": "4",
-    "834544960.json": "5",
-    "438483626.json": "55"
-  }
+  "subcollection": [
+    "192505768.json"
+  ]
 }

@@ -1,0 +1,18 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "726699695.json",
+  "Source Question": "797957334.json",
+  "conceptId": "995409737",
+  "Question Text": "Mom Non-melanoma skin (basal or squamous) cancer age",
+  "Variable Label": "Mom Non-melanoma skin (basal or squamous) cancer age",
+  "Variable Name": "SrvBOH_MomNMSkCancAge_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Connect Format/Values - Only display if MOMCANC2= 15",
+  "subcollection": [
+    "129084651.json"
+  ]
+}

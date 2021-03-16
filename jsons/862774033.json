@@ -1,5 +1,5 @@
 {
-  "Primary Source": "819848608.json",
+  "Primary Source": "Biospecimen",
   "Secondary Source": "104913069.json",
   "conceptId": "862774033",
   "Question Text": "Has incentive been given to UoC participant?",
@@ -11,8 +11,7 @@
   "PII": "No",
   "Notes": "Repeated measures associated with Round. Input field only to be displayed for UoC for Biospecimen dashboard.",
   "Dictionary": "Study Manager Data Dictionary",
-  "Format/Value": {
-    "104430631.json": "0",
-    "353358909.json": "1"
-  }
+  "subcollection": [
+    "819848608.json"
+  ]
 }
