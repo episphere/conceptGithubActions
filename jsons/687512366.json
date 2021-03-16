@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "129084651.json",
   "Secondary Source": "726699695.json",
   "conceptId": "687512366",
   "Question Text": "Is your biological mother still living?",
@@ -9,7 +9,9 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "subcollection": [
-    "129084651.json"
-  ]
+  "Format/Value": {
+    "129084651.json": "0",
+    "967054843.json": "1",
+    "851180946.json": "77"
+  }
 }
