@@ -1,11 +1,7 @@
 {
-  "Primary Source": "Survey",
-  "Secondary Source": "Background and Overall Health",
-  "Question Text": "Child 1- How old is [CHILD INITIALS OR NICKNAME/your CHILD] today?",
-  "Required": "No",
-  "PII": "No",
   "conceptId": "129084651",
-  "Format/Value": {
-    "851180946.json": "77"
-  }
+  "Variable Name": "Survey",
+  "subcollections": [
+    "980360088.json"
+  ]
 }
