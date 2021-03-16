@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question,conceptId,Question Text,Variable Label,Variable Name,Variable Type,Variable Length,conceptId,Format/Value,Required,PII,Notes,Derivation Notes,Dictionary
 ,Survey,,Background and Overall Health,,,,"Based on the information you provided when you enrolled in this study, you are [Age from Enrollment Questionnaire] years old today. Is that correct?",Age confirmation,SrvBOH_AgeCon_v1r0,Num,1,,0 = No,Yes,No,
 ,,,,,,,,,,,,,1 = Yes,,,
@@ -1334,3 +1335,9 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question,co
 ,Survey,,Background and Overall Health,,How can we reach this person?,,Alternate contact email,Alternate contact email,SrvBOH_AltContEmail_v1r0,Char,120,,N/A,No,Yes,
 ,Survey,,Background and Overall Health,,,,Who completed this questionnaire?,Who completed this questionnaire?,SrvBOH_WhoComplQx_v1r0,Num,1,,0=Completed by study participant,No,No,
 ,,,,,,,,,,,,,1=Completed by someone else on behalf of study participant,,,
+=======
+conceptId,test Source,conceptId,abc,list1,conceptId,list2,conceptId,efg,list3
+796244517,Source 1,969133599,a,b,682888600,1=a,682888600,e,g
+,,,,,682888600,2=b,682888600,b,
+,Source 2,,b,c,682888600,1=g,682888600,i,j
+>>>>>>> c3f7b0e311987234a4cf9d86d53be6622765a686
