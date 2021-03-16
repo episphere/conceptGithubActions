@@ -33,4 +33,6 @@ for(let i = 0; i < files.length; i++){
     
 }
 
-
+if(changed){
+    aggregate.aggregate();
+}
