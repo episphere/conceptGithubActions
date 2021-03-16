@@ -1,0 +1,18 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "726699695.json",
+  "Source Question": "436926834.json",
+  "conceptId": "745964687",
+  "Question Text": "Mom Non-Hodgkin’s lymphoma cancer year",
+  "Variable Label": "Mom Non-Hodgkin’s lymphoma cancer year",
+  "Variable Name": "SrvBOH_MomNHLympYr_v1r0",
+  "Variable Type": "Year",
+  "Variable Length": "4",
+  "Format/Value": "yyyy",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Connect Format/Values - Only display if MOMCANC2= 12",
+  "subcollection": [
+    "129084651.json"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "Primary Source": "Help Desk",
+  "Secondary Source": "861315814.json",
+  "conceptId": "262357957",
+  "Question Text": "Autoset when  HdRef_Basesaliva_v1r0 selected",
+  "Variable Label": "Date/time refused baseline saliva sample",
+  "Variable Name": "HdRef_DateBasesaliva_v1r0",
+  "Variable Type": "ISO",
+  "Variable Length": "24",
+  "Format/Value": "example: 2020-07-17T15:21:26.763Z",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "ISO to be converted to SAS format",
+  "subcollection": [
+    "237817859.json"
+  ]
+}

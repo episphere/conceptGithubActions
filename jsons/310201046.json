@@ -1,0 +1,18 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "898006288.json",
+  "Source Question": "121399588.json",
+  "conceptId": "310201046",
+  "Question Text": "Native Hawaiian",
+  "Variable Label": "Native Hawaiian",
+  "Variable Name": "SrvBOH_NatHawaiian_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if RACEETH = Native Hawaiian or other Pacific Islander",
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

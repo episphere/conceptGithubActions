@@ -1,0 +1,17 @@
+{
+  "Primary Source": "Biospecimen",
+  "Secondary Source": "360770860.json",
+  "Source Question": "248868659.json",
+  "conceptId": "654002184",
+  "Question Text": "Deviation- Centrifuge - improper time of spinning (too long)",
+  "Variable Label": "Deviation- Centrifuge - improper time of spinning (too long)",
+  "Variable Name": "BioCol_Dev_v1r0_TimeL",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes if yes to deviation for a specimen and no other deviation selected",
+  "PII": "No",
+  "Notes": "Default no",
+  "subcollection": [
+    "819848608.json"
+  ]
+}
