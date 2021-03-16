@@ -1,0 +1,20 @@
+{
+  "Primary Source": "192505768.json",
+  "Secondary Source": "883203566.json",
+  "conceptId": "934298480",
+  "Question Text": "Site reported age at recruitment",
+  "Variable Label": "Site reported age at recruitment",
+  "Variable Name": "RcrtSI_Age_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "These are the most rolled up versions of the de-identified demographic variables the sites agreed to send, however,  other formats for this data (e.g. Age as a continuous variable) can be accepted.",
+  "Format/Value": {
+    "124276120.json": "0",
+    "450985724.json": "1",
+    "363147933.json": "2",
+    "636706443.json": "3",
+    "771230670.json": "4"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "725626004.json",
+  "conceptId": "386524148",
+  "Question Text": "Polycystic Ovary Syndrome (PCOS)",
+  "Variable Label": "Polycystic Ovary Syndrome (PCOS)",
+  "Variable Name": "SrvBOH_PCOS_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "[DISPLAY ONLY IF SEX = (02) OR (SEX= (03) AND SEX2 = (07))]",
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}
