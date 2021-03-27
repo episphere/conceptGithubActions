@@ -7,7 +7,10 @@
   "Variable Name": "SrvBOH_WhoComplQx_v1r0",
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Format/Value": "0=Completed by study participant",
   "Required": "No",
-  "PII": "No"
+  "PII": "No",
+  "Format/Value": {
+    "589702540.json": "0",
+    "275706407.json": "1"
+  }
 }
