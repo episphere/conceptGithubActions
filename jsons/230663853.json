@@ -10,6 +10,7 @@
   "Required": "Yes",
   "PII": "No",
   "Notes": "Default is zero at time token/pin assigned to recruit. For passive recruits both RcrtSI_SignedIn_v1r0 equals 1 and token assigned occur in the same step, which is after selection of site.  Once a passive recruit has a token, all subsequent flags can be populated with the default and updated as the participant proceeds.",
+  "Dictionary": "Recruitment Data Dictionary",
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

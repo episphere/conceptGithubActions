@@ -2,7 +2,7 @@
   "Primary Source": "237817859.json",
   "Secondary Source": "635994596.json",
   "conceptId": "119449326",
-  "Question Text": "Autoset when HdWd_Datadestructionsigned_v1 selected",
+  "Question Text": "Autoset when HdWd_Datadestructionsigned_v1r0 selected",
   "Variable Label": "Date data destruction request signed",
   "Variable Name": "HdWd_DateDatadestsign_v1r0",
   "Variable Type": "ISO",
@@ -10,5 +10,6 @@
   "Format/Value": "example: 2020-07-17T15:21:26.763Z",
   "Required": "No",
   "PII": "No",
-  "Notes": "ISO to be converted to SAS format"
+  "Notes": "ISO to be converted to SAS format",
+  "Dictionary": "Withdrawal, Study Manager Data Dictionary"
 }
