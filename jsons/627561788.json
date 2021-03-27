@@ -1,5 +1,5 @@
 {
-  "Primary Source": "129084651.json",
+  "Primary Source": "Survey",
   "Secondary Source": "898006288.json",
   "Source Question": "530548878.json",
   "conceptId": "627561788",
@@ -11,5 +11,8 @@
   "Format/Value": "yyyy",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if MHGROUP8= Endometriosis"
+  "Notes": "Only display if MHGROUP8= Endometriosis",
+  "subcollection": [
+    "129084651.json"
+  ]
 }

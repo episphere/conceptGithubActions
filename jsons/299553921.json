@@ -1,5 +1,5 @@
 {
-  "Primary Source": "819848608.json",
+  "Primary Source": "Biospecimen",
   "Secondary Source": "360770860.json",
   "conceptId": "299553921",
   "Question Text": "Serum Separator Tube 1",
@@ -9,5 +9,9 @@
   "Variable Length": "N/A",
   "Format/Value": "N/A",
   "Required": "Yes",
-  "PII": "No"
+  "PII": "No",
+  "Dictionary": "Biospecimen Clinical, Biospecimen Research, Biospecimen Shipping",
+  "subcollection": [
+    "819848608.json"
+  ]
 }

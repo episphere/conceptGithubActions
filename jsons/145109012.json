@@ -1,5 +1,5 @@
 {
-  "Primary Source": "129084651.json",
+  "Primary Source": "Survey",
   "Secondary Source": "898006288.json",
   "Source Question": "752636038.json",
   "conceptId": "145109012",
@@ -11,5 +11,8 @@
   "Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if MHGROUP9 = salpingectomy"
+  "Notes": "Only display if MHGROUP9 = salpingectomy",
+  "subcollection": [
+    "129084651.json"
+  ]
 }

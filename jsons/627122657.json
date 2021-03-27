@@ -1,5 +1,5 @@
 {
-  "Primary Source": "129084651.json",
+  "Primary Source": "Survey",
   "Secondary Source": "726699695.json",
   "conceptId": "627122657",
   "Question Text": "What is your current job title? Please be descriptive. For example, high school math teacher, emergency room nurse, automobile painter.",
@@ -8,5 +8,8 @@
   "Variable Type": "Char",
   "Format/Value": "N/A",
   "Required": "No",
-  "PII": "No"
+  "PII": "No",
+  "subcollection": [
+    "129084651.json"
+  ]
 }

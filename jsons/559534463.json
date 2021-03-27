@@ -1,16 +1,16 @@
 {
-  "Primary Source": "192505768.json",
+  "Primary Source": "Recruitment",
   "Secondary Source": "218595434.json",
   "conceptId": "559534463",
-  "Question Text": "Verification Variable - Zipcode",
-  "Variable Label": "Zipcode Match",
+  "Question Text": "Verification Variable - Zip code",
+  "Variable Label": "Zip code Match",
   "Variable Name": "RcrtV_ZipMatch_v1r0",
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "Yes for some sites",
   "Notes": "Sent as part of the verification table for HFHS for passive recruits.",
-  "Format/Value": {
-    "356674370.json": "0",
-    "219803804.json": "1"
-  }
+  "Dictionary": "Recruitment Data Dictionary",
+  "subcollection": [
+    "192505768.json"
+  ]
 }

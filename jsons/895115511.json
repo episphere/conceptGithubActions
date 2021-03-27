@@ -1,5 +1,5 @@
 {
-  "Primary Source": "129084651.json",
+  "Primary Source": "Survey",
   "Secondary Source": "898006288.json",
   "Source Question": "846786840.json",
   "conceptId": "895115511",
@@ -11,5 +11,8 @@
   "Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if MHGROUP8= Uterine Fibroids"
+  "Notes": "Only display if MHGROUP8= Uterine Fibroids",
+  "subcollection": [
+    "129084651.json"
+  ]
 }

@@ -1,0 +1,20 @@
+{
+  "Primary Source": "Recruitment",
+  "Secondary Source": "218595434.json",
+  "conceptId": "793822265",
+  "Question Text": "Update recruit type",
+  "Variable Label": "Update recruit type",
+  "Variable Name": "RcrtV_UpdateRecType_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Sent as part of the verification table from the IHCS.",
+  "Dictionary": "Master Data Dictionary",
+  "Date added or modified": "3/25/21",
+  "Format/Value": {
+    "132080040.json": "0",
+    "854903954.json": "1",
+    "965707001.json": "2"
+  }
+}

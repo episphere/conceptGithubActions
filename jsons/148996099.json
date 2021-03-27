@@ -1,5 +1,5 @@
 {
-  "Primary Source": "819848608.json",
+  "Primary Source": "Biospecimen",
   "Secondary Source": "123496044.json",
   "conceptId": "148996099",
   "Question Text": "Accession ID Manually Entered",
@@ -9,8 +9,8 @@
   "Variable Length": "1",
   "Required": "Yes if manually entered",
   "PII": "No",
-  "Format/Value": {
-    "104430631.json": "0",
-    "353358909.json": "1"
-  }
+  "Dictionary": "Biospecimen Clinical",
+  "subcollection": [
+    "819848608.json"
+  ]
 }

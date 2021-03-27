@@ -1,5 +1,5 @@
 {
-  "Primary Source": "192505768.json",
+  "Primary Source": "Recruitment",
   "Secondary Source": "883203566.json",
   "conceptId": "684926335",
   "Question Text": "Henry Ford Health System Reported Race",
@@ -9,10 +9,8 @@
   "Variable Length": "2",
   "Required": "For Henry Ford HS",
   "PII": "No",
-  "Format/Value": {
-    "232334767.json": "0",
-    "635279662.json": "1",
-    "401335456.json": "2",
-    "178420302.json": "77"
-  }
+  "Dictionary": "Recruitment Data Dictionary",
+  "subcollection": [
+    "192505768.json"
+  ]
 }

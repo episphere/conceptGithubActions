@@ -1,5 +1,5 @@
 {
-  "Primary Source": "129084651.json",
+  "Primary Source": "Survey",
   "Secondary Source": "898006288.json",
   "Source Question": "409622468.json",
   "conceptId": "826646799",
@@ -11,5 +11,8 @@
   "Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if MHGROUP3= Barrett’s Esophagus"
+  "Notes": "Only display if MHGROUP3= Barrett’s Esophagus",
+  "subcollection": [
+    "129084651.json"
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "Primary Source": "129084651.json",
+  "Primary Source": "Survey",
   "Secondary Source": "898006288.json",
   "Source Question": "301414575.json",
   "conceptId": "591959654",
@@ -11,5 +11,8 @@
   "Format/Value": "yyyy",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if DEPRESS = Yes"
+  "Notes": "Only display if DEPRESS = Yes",
+  "subcollection": [
+    "129084651.json"
+  ]
 }

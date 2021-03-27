@@ -1,5 +1,5 @@
 {
-  "Primary Source": "129084651.json",
+  "Primary Source": "Survey",
   "Secondary Source": "898006288.json",
   "Source Question": "882152987.json",
   "conceptId": "331285390",
@@ -11,5 +11,8 @@
   "Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if MHGROUP9 = prostate removal surgery"
+  "Notes": "Only display if MHGROUP9 = prostate removal surgery",
+  "subcollection": [
+    "129084651.json"
+  ]
 }

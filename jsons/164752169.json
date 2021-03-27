@@ -1,5 +1,5 @@
 {
-  "Primary Source": "129084651.json",
+  "Primary Source": "Survey",
   "Secondary Source": "898006288.json",
   "conceptId": "164752169",
   "Question Text": "How old were you when you first saw a doctor or other health professional for severe or ongoing acne?",
@@ -9,5 +9,8 @@
   "Variable Length": "2",
   "Format/Value": "N/A",
   "Required": "No",
-  "PII": "No"
+  "PII": "No",
+  "subcollection": [
+    "129084651.json"
+  ]
 }

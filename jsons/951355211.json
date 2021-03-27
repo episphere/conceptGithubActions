@@ -1,5 +1,5 @@
 {
-  "Primary Source": "819848608.json",
+  "Primary Source": "Biospecimen",
   "Secondary Source": "123496044.json",
   "conceptId": "951355211",
   "Question Text": "Collection Location",
@@ -8,12 +8,8 @@
   "Variable Type": "Num",
   "Variable Length": "1",
   "Notes": "0 = Default for UoC, 1 = Default for Marshfield, 2 = Alt for Marshfield, 3 = Default for HealthPartners, 4= Default for Henry Ford, 5= Default for Sanford.",
-  "Format/Value": {
-    "777644826.json": "0",
-    "692275326.json": "1",
-    "698283667.json": "2",
-    "834825425.json": "3",
-    "736183094.json": "4",
-    "589224449.json": "5"
-  }
+  "Dictionary": "Biospecimen Research",
+  "subcollection": [
+    "819848608.json"
+  ]
 }

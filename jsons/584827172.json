@@ -1,5 +1,5 @@
 {
-  "Primary Source": "129084651.json",
+  "Primary Source": "Survey",
   "Secondary Source": "898006288.json",
   "Source Question": "448722126.json",
   "conceptId": "584827172",
@@ -11,5 +11,8 @@
   "Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if MHGROUP2 = COPD"
+  "Notes": "Only display if MHGROUP2 = COPD",
+  "subcollection": [
+    "129084651.json"
+  ]
 }

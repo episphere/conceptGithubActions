@@ -1,5 +1,5 @@
 {
-  "Primary Source": "129084651.json",
+  "Primary Source": "Survey",
   "Secondary Source": "726699695.json",
   "conceptId": "589588769",
   "Question Text": "Sibling 1- Is [SIBLING INITIALS OR NICKNAME/your sibling] a…",
@@ -9,9 +9,7 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Format/Value": {
-    "555374628.json": "0",
-    "871673221.json": "1",
-    "198654048.json": "2"
-  }
+  "subcollection": [
+    "129084651.json"
+  ]
 }

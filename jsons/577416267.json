@@ -1,5 +1,5 @@
 {
-  "Primary Source": "129084651.json",
+  "Primary Source": "Survey",
   "Secondary Source": "898006288.json",
   "Source Question": "685735916.json",
   "conceptId": "577416267",
@@ -11,5 +11,8 @@
   "Format/Value": "yyyy",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if MHGROUP7= GONORRHEA"
+  "Notes": "Only display if MHGROUP7= GONORRHEA",
+  "subcollection": [
+    "129084651.json"
+  ]
 }

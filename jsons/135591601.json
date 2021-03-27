@@ -1,5 +1,5 @@
 {
-  "Primary Source": "819848608.json",
+  "Primary Source": "Biospecimen",
   "Secondary Source": "709264633.json",
   "conceptId": "135591601",
   "Question Text": "Check-In Complete",
@@ -10,8 +10,8 @@
   "Required": "Yes",
   "PII": "No",
   "Notes": "Data not currently being stored but needed",
-  "Format/Value": {
-    "104430631.json": "0",
-    "353358909.json": "1"
-  }
+  "Dictionary": "Biospecimen Research, Study Manager Data Dictionary",
+  "subcollection": [
+    "819848608.json"
+  ]
 }

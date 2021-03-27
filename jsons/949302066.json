@@ -1,6 +1,6 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "898006288.json",
+  "Primary Source": "Survey",
+  "Secondary Source": "726699695.json",
   "conceptId": "949302066",
   "Question Text": "Baseline Survey Status - Module Background and Overall Health",
   "Variable Label": "Placeholder- flag for Baseline Module Background and Overall Health",
@@ -10,9 +10,8 @@
   "Required": "Yes",
   "PII": "No",
   "Notes": "For display at check-in and check out.  Currently, place holders, but will maintain the Concept IDs when variables are created.",
-  "Format/Value": {
-    "972455046.json": "0",
-    "615768760.json": "1",
-    "231311385.json": "2"
-  }
+  "Dictionary": "Biospecimen Research, Study Manager Data Dictionary",
+  "subcollection": [
+    "129084651.json"
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "Primary Source": "129084651.json",
+  "Primary Source": "Survey",
   "Secondary Source": "898006288.json",
   "Source Question": "308014437.json",
   "conceptId": "440307926",
@@ -10,5 +10,8 @@
   "Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if RACEETH = Hispanic, Latino, or Spanish"
+  "Notes": "Only display if RACEETH = Hispanic, Latino, or Spanish",
+  "subcollection": [
+    "129084651.json"
+  ]
 }

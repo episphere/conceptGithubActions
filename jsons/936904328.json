@@ -1,5 +1,5 @@
 {
-  "Primary Source": "129084651.json",
+  "Primary Source": "Survey",
   "Secondary Source": "898006288.json",
   "conceptId": "936904328",
   "Variable Label": "Carry weight",
@@ -7,9 +7,7 @@
   "Variable Type": "Num",
   "Required": "No",
   "PII": "No",
-  "Format/Value": {
-    "245893583.json": "0",
-    "506790433.json": "1",
-    "601057066.json": "2"
-  }
+  "subcollection": [
+    "129084651.json"
+  ]
 }

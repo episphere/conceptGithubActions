@@ -1,5 +1,5 @@
 {
-  "Primary Source": "129084651.json",
+  "Primary Source": "Survey",
   "Secondary Source": "898006288.json",
   "conceptId": "918409306",
   "Question Text": "Do you think of yourself as: [text box]",
@@ -9,5 +9,8 @@
   "Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Option only available if #6 is selected in GEN"
+  "Notes": "Option only available if #6 is selected in GEN",
+  "subcollection": [
+    "129084651.json"
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "Primary Source": "129084651.json",
+  "Primary Source": "Survey",
   "Secondary Source": "898006288.json",
   "conceptId": "795940097",
   "Question Text": "How many blood transfusions have you had in total?",
@@ -8,5 +8,8 @@
   "Variable Type": "Num",
   "Format/Value": "N/A",
   "Required": "No",
-  "PII": "No"
+  "PII": "No",
+  "subcollection": [
+    "129084651.json"
+  ]
 }

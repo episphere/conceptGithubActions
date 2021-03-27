@@ -1,10 +1,17 @@
 {
-  "Primary Source": "819848608.json",
+  "Primary Source": "Biospecimen",
   "Secondary Source": "360770860.json",
   "conceptId": "825582494",
   "Question Text": "Tube ID",
   "Variable Label": "Tube ID",
   "Variable Name": "BioCol_TubeID_v1r0",
   "Variable Type": "Char",
-  "Variable Length": "14"
+  "Variable Length": "14",
+  "Required": "Yes - for any tube where BioCol_TubeCollected_v1r0 = 1",
+  "PII": "No",
+  "Dictionary": "Biospecimen Clinical, Biospecimen Research, Biospecimen Shipping",
+  "Date added or modified": "3/25/21",
+  "subcollection": [
+    "819848608.json"
+  ]
 }

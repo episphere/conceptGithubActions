@@ -1,5 +1,5 @@
 {
-  "Primary Source": "129084651.json",
+  "Primary Source": "Survey",
   "Secondary Source": "898006288.json",
   "Source Question": "436333358.json",
   "conceptId": "240041263",
@@ -11,5 +11,8 @@
   "Format/Value": "yyyy",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if MHGROUP2 = Hay fever"
+  "Notes": "Only display if MHGROUP2 = Hay fever",
+  "subcollection": [
+    "129084651.json"
+  ]
 }

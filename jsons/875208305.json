@@ -1,5 +1,5 @@
 {
-  "Primary Source": "129084651.json",
+  "Primary Source": "Survey",
   "Secondary Source": "898006288.json",
   "conceptId": "875208305",
   "Question Text": "In general, how would you rate your overall health?",
@@ -9,11 +9,7 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Format/Value": {
-    "670680466.json": "0",
-    "565881164.json": "1",
-    "719933364.json": "2",
-    "131550264.json": "3",
-    "138752522.json": "4"
-  }
+  "subcollection": [
+    "129084651.json"
+  ]
 }

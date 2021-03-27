@@ -1,5 +1,5 @@
 {
-  "Primary Source": "129084651.json",
+  "Primary Source": "Survey",
   "Secondary Source": "898006288.json",
   "conceptId": "820324171",
   "Question Text": "When you were about 10 years old, compared to average, would you describe yourself as…",
@@ -8,9 +8,7 @@
   "Variable Type": "Num",
   "Required": "No",
   "PII": "No",
-  "Format/Value": {
-    "176904165.json": "0",
-    "902131456.json": "1",
-    "839266527.json": "2"
-  }
+  "subcollection": [
+    "129084651.json"
+  ]
 }

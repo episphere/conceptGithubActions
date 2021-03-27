@@ -1,5 +1,5 @@
 {
-  "Primary Source": "129084651.json",
+  "Primary Source": "Survey",
   "Secondary Source": "898006288.json",
   "Source Question": "912857732.json",
   "conceptId": "821387277",
@@ -10,5 +10,8 @@
   "Variable Length": "3",
   "Format/Value": "N/A",
   "Required": "No",
-  "PII": "No"
+  "PII": "No",
+  "subcollection": [
+    "129084651.json"
+  ]
 }

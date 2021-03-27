@@ -1,5 +1,5 @@
 {
-  "Primary Source": "819848608.json",
+  "Primary Source": "Biospecimen",
   "Secondary Source": "123496044.json",
   "conceptId": "646899796",
   "Question Text": "Accession ID",
@@ -8,7 +8,11 @@
   "Variable Type": "Num",
   "Variable Length": "30",
   "Format/Value": "N/A",
-  "Required": "Yes for some sites - TBD",
+  "Required": "Yes for KP sites Only",
   "PII": "No",
-  "Notes": "Additional format info to be added later."
+  "Notes": "Additional format info to be added later.",
+  "Dictionary": "Biospecimen Clinical",
+  "subcollection": [
+    "819848608.json"
+  ]
 }

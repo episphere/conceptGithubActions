@@ -1,5 +1,5 @@
 {
-  "Primary Source": "129084651.json",
+  "Primary Source": "Survey",
   "Secondary Source": "726699695.json",
   "conceptId": "628078826",
   "Question Text": "How old is your father today?",
@@ -9,5 +9,8 @@
   "Variable Length": "2",
   "Format/Value": "77 = Unavailable/Unknown",
   "Required": "No",
-  "PII": "No"
+  "PII": "No",
+  "subcollection": [
+    "129084651.json"
+  ]
 }

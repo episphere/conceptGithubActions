@@ -1,5 +1,5 @@
 {
-  "Primary Source": "819848608.json",
+  "Primary Source": "Biospecimen",
   "Secondary Source": "948781977.json",
   "conceptId": "841390583",
   "Question Text": "Orphan tube - shipped flag",
@@ -10,8 +10,8 @@
   "Required": "Yes",
   "PII": "No",
   "Notes": "Default no",
-  "Format/Value": {
-    "104430631.json": "0",
-    "353358909.json": "1"
-  }
+  "Dictionary": "Biospecimen Shipping",
+  "subcollection": [
+    "819848608.json"
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "Primary Source": "192505768.json",
+  "Primary Source": "Recruitment",
   "Secondary Source": "273437590.json",
   "conceptId": "736251808",
   "Question Text": "Last Name extracted from consent form",
@@ -10,5 +10,9 @@
   "Format/Value": "N/A",
   "Required": "Yes",
   "PII": "Yes",
-  "Notes": "Legal last name for all non-KP sites. For KP sites it is their ID card name."
+  "Notes": "Legal last name for all non-KP sites. For KP sites it is their ID card name.",
+  "Dictionary": "Recruitment Data Dictionary",
+  "subcollection": [
+    "192505768.json"
+  ]
 }

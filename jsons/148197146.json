@@ -1,0 +1,19 @@
+{
+  "Primary Source": "Recruitment",
+  "Secondary Source": "218595434.json",
+  "conceptId": "148197146",
+  "Question Text": "Duplicate type",
+  "Variable Label": "Duplicate type",
+  "Variable Name": "RcrtV_DuplicateType_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "If RcrtV_Verification_v1r0 = 3",
+  "PII": "No",
+  "Notes": "Sent as part of the verification table from the IHCS.",
+  "Dictionary": "Master Data Dictionary",
+  "Date added or modified": "3/25/21",
+  "Format/Value": {
+    "638335430.json": "0",
+    "654558118.json": "1"
+  }
+}

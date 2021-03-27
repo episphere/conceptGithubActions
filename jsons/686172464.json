@@ -1,5 +1,5 @@
 {
-  "Primary Source": "129084651.json",
+  "Primary Source": "Survey",
   "Secondary Source": "726699695.json",
   "conceptId": "686172464",
   "Question Text": "How many years have you worked in that job {$WORK3_JOBTITLE}?",
@@ -9,5 +9,8 @@
   "Variable Length": "2",
   "Format/Value": "N/A",
   "Required": "No",
-  "PII": "Yes"
+  "PII": "Yes",
+  "subcollection": [
+    "129084651.json"
+  ]
 }

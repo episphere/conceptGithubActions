@@ -1,5 +1,5 @@
 {
-  "Primary Source": "129084651.json",
+  "Primary Source": "Survey",
   "Secondary Source": "898006288.json",
   "conceptId": "347860896",
   "Question Text": "Has a doctor or other health professional ever told you that you have or had clinical depression?",
@@ -10,8 +10,7 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if MHGROUP8= Fibrocystic Breast, or other Benign Breast Disease",
-  "Format/Value": {
-    "104430631.json": "0",
-    "353358909.json": "1"
-  }
+  "subcollection": [
+    "129084651.json"
+  ]
 }

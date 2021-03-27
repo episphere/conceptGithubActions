@@ -1,5 +1,5 @@
 {
-  "Primary Source": "129084651.json",
+  "Primary Source": "Survey",
   "Secondary Source": "726699695.json",
   "conceptId": "446999144",
   "Question Text": "How many children do you have?",
@@ -9,5 +9,8 @@
   "Variable Length": "2",
   "Format/Value": "N/A",
   "Required": "Yes",
-  "PII": "Yes"
+  "PII": "Yes",
+  "subcollection": [
+    "129084651.json"
+  ]
 }
