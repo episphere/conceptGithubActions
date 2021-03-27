@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Recruitment",
+  "Primary Source": "192505768.json",
   "Secondary Source": "218595434.json",
   "conceptId": "547895941",
   "Question Text": "Eligibility Variable - Cancer Status",
@@ -7,11 +7,8 @@
   "Variable Name": "RcrtV_CStatusMatch_v1r0",
   "Variable Type": "Num",
   "Variable Length": "1",
+  "Format/Value": "0=Criterium not met",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Sent as part of the verification table from the IHCS.",
-  "Dictionary": "Recruitment Data Dictionary",
-  "subcollection": [
-    "192505768.json"
-  ]
+  "Notes": "Sent as part of the verification table from the IHCS."
 }

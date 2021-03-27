@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "129084651.json",
   "Secondary Source": "726699695.json",
   "conceptId": "842657297",
   "Question Text": "During the past 12 months, about how many days per week did you typically work for pay?",
@@ -9,7 +9,14 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "subcollection": [
-    "129084651.json"
-  ]
+  "Format/Value": {
+    "503218834.json": "0",
+    "632371391.json": "1",
+    "709969190.json": "2",
+    "928753604.json": "3",
+    "686379250.json": "4",
+    "107714591.json": "5",
+    "689829953.json": "6",
+    "164282814.json": "7"
+  }
 }

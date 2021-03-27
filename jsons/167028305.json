@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
   "Source Question": "115616118.json",
   "conceptId": "167028305",
@@ -11,7 +11,8 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if RACEETH = Native Hawaiian or other Pacific Islander",
-  "subcollection": [
-    "129084651.json"
-  ]
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
 }

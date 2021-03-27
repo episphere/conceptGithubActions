@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Recruitment",
+  "Primary Source": "192505768.json",
   "Secondary Source": "883203566.json",
   "conceptId": "678756255",
   "Question Text": "KP reported sex",
@@ -9,8 +9,11 @@
   "Variable Length": "1",
   "Required": "For KP",
   "PII": "No",
-  "Dictionary": "Recruitment Data Dictionary",
-  "subcollection": [
-    "192505768.json"
-  ]
+  "Format/Value": {
+    "536341288.json": "0",
+    "654207589.json": "1",
+    "395528052.json": "2",
+    "181769837.json": "55",
+    "178420302.json": "77"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
   "conceptId": "224791140",
   "Question Text": "Which of these best describes the type of fallopian tube removal surgery that you had?",
@@ -9,7 +9,9 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if MHGROUP9 = Fallopian tube surgery",
-  "subcollection": [
-    "129084651.json"
-  ]
+  "Format/Value": {
+    "448068764.json": "0",
+    "537173119.json": "1",
+    "398561594.json": "88"
+  }
 }

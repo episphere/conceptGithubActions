@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
   "conceptId": "407056417",
   "Question Text": "What was your biological sex assigned at birth?",
@@ -9,7 +9,9 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "subcollection": [
-    "129084651.json"
-  ]
+  "Format/Value": {
+    "536341288.json": "0",
+    "654207589.json": "1",
+    "576796184.json": "2"
+  }
 }

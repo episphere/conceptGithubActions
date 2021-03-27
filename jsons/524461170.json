@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Recruitment",
+  "Primary Source": "192505768.json",
   "Secondary Source": "332759827.json",
   "conceptId": "524461170",
   "Question Text": "How do you prefer that we reach you?",
@@ -10,8 +10,8 @@
   "Required": "Yes if both mobile phone and email given",
   "PII": "No",
   "Notes": "Question does not appear if only mobile phone OR email given, but not both",
-  "Dictionary": "Recruitment Data Dictionary, Biospecimen Research",
-  "subcollection": [
-    "192505768.json"
-  ]
+  "Format/Value": {
+    "127547625.json": "0",
+    "357184057.json": "1"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Recruitment",
+  "Primary Source": "192505768.json",
   "Secondary Source": "332759827.json",
   "conceptId": "371067537",
   "Question Text": "Date of Birth derived from concatenating: RcrtUP_MOB_v1r0, RcrtUP_BD_v1r0, RcrtUP_YOB_v1r0",
@@ -9,9 +9,5 @@
   "Variable Length": "8",
   "Format/Value": "yyyymmdd",
   "Required": "Yes",
-  "PII": "Yes",
-  "Dictionary": "Recruitment Data Dictionary, Biospecimen Clinical, Biospecimen Research",
-  "subcollection": [
-    "192505768.json"
-  ]
+  "PII": "Yes"
 }

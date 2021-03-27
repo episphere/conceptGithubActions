@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
   "conceptId": "107060069",
   "Question Text": "Which of these best describes the type of prostate removal surgery that you had?",
@@ -9,7 +9,9 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if MHGROUP9 = prostate remvoal surgery",
-  "subcollection": [
-    "129084651.json"
-  ]
+  "Format/Value": {
+    "524029283.json": "0",
+    "500023550.json": "1",
+    "398561594.json": "88"
+  }
 }

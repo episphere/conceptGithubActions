@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "129084651.json",
   "Secondary Source": "726699695.json",
   "conceptId": "114529380",
   "Question Text": "Which of these best describes your current employment status?",
@@ -9,7 +9,12 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "subcollection": [
-    "129084651.json"
-  ]
+  "Format/Value": {
+    "584368278.json": "0",
+    "475665841.json": "1",
+    "656816477.json": "2",
+    "756948639.json": "3",
+    "181769837.json": "55",
+    "746038746.json": "99"
+  }
 }

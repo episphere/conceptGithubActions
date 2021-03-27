@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "129084651.json",
   "Secondary Source": "726699695.json",
   "conceptId": "418392907",
   "Question Text": "Child 1- Is [CHILD INITIALS OR NICKNAME/your CHILD] still living?",
@@ -9,7 +9,9 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "subcollection": [
-    "129084651.json"
-  ]
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1",
+    "178420302.json": "77"
+  }
 }

@@ -1,14 +1,16 @@
 {
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
   "conceptId": "431721131",
+  "Question Text": "Who completed this questionnaire?",
+  "Variable Label": "Who completed this questionnaire?",
   "Variable Name": "SrvBOH_WhoComplQx_v1r0",
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Format/Value": "0=Completed by study participant",
   "Required": "No",
   "PII": "No",
-  "Secondary Source": "726699695.json",
-  "subcollection": [
-    "129084651.json",
-    "192505768.json"
-  ]
+  "Format/Value": {
+    "589702540.json": "0",
+    "275706407.json": "1"
+  }
 }

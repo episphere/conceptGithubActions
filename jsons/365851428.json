@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
   "conceptId": "365851428",
   "Question Text": "Which one of these figures most closely resembles your hair pattern at age 40?",
@@ -10,7 +10,15 @@
   "Required": "No",
   "PII": "No",
   "Notes": "[DISPLAY HAIRFEM IF SEX= 02 and GEN= 02]",
-  "subcollection": [
-    "129084651.json"
-  ]
+  "Format/Value": {
+    "927925620.json": "0",
+    "552278254.json": "1",
+    "267104669.json": "2",
+    "619337179.json": "3",
+    "601381820.json": "4",
+    "151394571.json": "5",
+    "917379905.json": "6",
+    "746328729.json": "7",
+    "452963767.json": "8"
+  }
 }

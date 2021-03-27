@@ -1,18 +1,14 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "192505768.json",
   "Secondary Source": "166676176.json",
   "conceptId": "447051482",
   "Question Text": "Social Security Number",
   "Variable Label": "Placeholder - Social Security Number",
-  "Variable Name": "SrvSS_SSN_v1r0",
+  "Variable Name": "RcrtPV_SSN_v1r0",
   "Variable Type": "Num",
   "Variable Length": "9",
   "Format/Value": "N/A",
   "Required": "No",
   "PII": "Yes",
-  "Notes": "Type and length are based on a numbers only format, no dashes. Will add additional SSN variables for study managers to add in",
-  "Dictionary": "Study Manager Data Dictionary, BIospecimen Research",
-  "subcollection": [
-    "129084651.json"
-  ]
+  "Notes": "Type and length are based on a numbers only format, no dashes"
 }
