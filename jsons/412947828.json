@@ -1,7 +1,7 @@
 {
   "Primary Source": "192505768.json",
   "Secondary Source": "883203566.json",
-  "conceptId": "452542276",
+  "conceptId": "412947828",
   "Question Text": "Henry Ford Health System Race Ethnicity Combination",
   "Variable Label": "Henry Ford Health System Race Ethnicity Combination",
   "Variable Name": "RcrtSI_HFHSRE_v1r0",
@@ -10,18 +10,18 @@
   "Required": "For Henry Ford HS",
   "PII": "No",
   "Dictionary": "Master Data Dictionary",
-  "Format/Value": {
-    "473807808.json": "0",
-    "269950058.json": "1",
-    "998778678.json": "2",
-    "871169055.json": "3",
-    "211847969.json": "4",
-    "613506991.json": "5",
-    "646444521.json": "6",
-    "480568177.json": "7",
-    "601070694.json": "8",
-    "724873055.json": "9",
-    "819077778.json": "10",
-    "228278549.json": "77"
-  }
+  "subcollection": [
+    "908121079.json",
+    "829147618.json",
+    "757217316.json",
+    "510389761.json",
+    "342291794.json",
+    "363459496.json",
+    "352683237.json",
+    "111246472.json",
+    "508560886.json",
+    "902984572.json",
+    "845557504.json",
+    "118118656.json"
+  ]
 }
