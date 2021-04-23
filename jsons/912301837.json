@@ -1,0 +1,28 @@
+{
+  "Primary Source": "332961895.json",
+  "Secondary Source": "581036703.json",
+  "conceptId": "912301837",
+  "Question Text": "Disposition codes for participation status",
+  "Variable Label": "Participation status",
+  "Variable Name": "SMMet_PartStatus_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Notes": "Developed for participant status on Study Manager dashboard.  Row of derivation is on same row as corresponding response variable.",
+  "Dictionary": "Master Data Dictionary",
+  "Date added or modified": "4/22/21",
+  "Derivation Notes": {
+    "208325815.json": "0",
+    "497037640.json": "HdRef_Basesrv_v1r0",
+    "622008261.json": "1",
+    "113542561.json": "HdWd_WdConsent_v1r0",
+    "134659217.json": "2",
+    "818635642.json": "HdWd_Activepart_v1r0",
+    "872012139.json": "3",
+    "231273663.json": "HdWd_HIPAArevoked_v1r0",
+    "854021266.json": "4",
+    "964256101.json": "HdWd_HIPAArevoked_v1r0",
+    "241236037.json": "5",
+    "892629293.json": "HdWd_Deceased_v1r0",
+    "360990276.json": "6"
+  }
+}
