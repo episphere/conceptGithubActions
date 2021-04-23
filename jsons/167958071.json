@@ -2,14 +2,10 @@
   "Primary Source": "819848608.json",
   "Secondary Source": "104913069.json",
   "conceptId": "167958071",
-  "Question Text": "Baseline Urine Collected",
-  "Variable Label": "Placeholder- Baseline Urine Collected",
-  "Variable Name": "BioFin_BaseUrineCol_v1r0",
-  "Variable Type": "Num",
-  "Variable Length": "1",
-  "Notes": "For display at check-in and check out.  Currently, place holders, but will maintain the Concept IDs when variables are created. These will be derived from other variables in the biospecimen dictionary. Derivation should come from both biospecimen clinical and biospecimen research",
-  "Derivation Notes": "BioCol_TubeCollected_v1r0 =1 for urine tube (BioCol_0006_v1r0) AND visit = baseline which is defined as BioSpm_Visit_v1r0 = 0 then BioFin_BaseUrineCol_v1r0 = 1",
-  "Dictionary": "Biospecimen Research",
+  "Question Text": "Baseline Urine Completed",
+  "Variable Label": "Placeholder- Baseline Urine",
+  "Variable Name": "BioFin_BaseUrineCom_v1r0",
+  "Notes": "For display at check-in and check out.  Currently, place holders, but will maintain the Concept IDs when variables are created. These will be derived from other variables in the biospecimen dictionary",
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

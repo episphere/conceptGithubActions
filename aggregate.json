@@ -755,6 +755,10 @@
   "198654048": {
     "Variable Name": "Half sibling, same father"
   },
+  "200180620": {
+    "Variable Label": "Payment refused by any participant",
+    "Variable Name": "SMPaym_JointRefused_v1r0"
+  },
   "200748093": {
     "Variable Label": "Fishing",
     "Variable Name": "SrvBOH_FishingP_v1r0"
@@ -2139,6 +2143,10 @@
     "Variable Label": "White",
     "Variable Name": "SrvBOH_White_v1r0"
   },
+  "412947828": {
+    "Variable Label": "Henry Ford Health System Race Ethnicity Combination",
+    "Variable Name": "RcrtSI_HFHSRE_v1r0"
+  },
   "413033387": {
     "Variable Label": "Sibling 1 Pancreatic cancer age",
     "Variable Name": "SrvBOH_S1PancCancAge_v1r0"
@@ -2364,10 +2372,6 @@
   },
   "452412599": {
     "Variable Name": "Kaiser Permanente Northwest"
-  },
-  "452542276": {
-    "Variable Label": "Henry Ford Health System Race Ethnicity Combination",
-    "Variable Name": "RcrtSI_HFHSRE_v1r0"
   },
   "452942800": {
     "Variable Label": "Placeholder - Date/time Status of Start of Where You Live and Work",
@@ -4955,6 +4959,10 @@
     "Variable Label": "Did you lose weight on purpose between ages 25 and 35?",
     "Variable Name": "SrvBOH_LoseWeight2_v1r0"
   },
+  "803129756": {
+    "Variable Label": "Date/time payment refused by any participant",
+    "Variable Name": "SMPaym_JointTmRefused_v1r0"
+  },
   "804601443": {
     "Variable Label": "Child 1 colon/rectal cancer year",
     "Variable Name": "SrvBOH_C1ColCancYr_v1r0"
@@ -5034,6 +5042,10 @@
   "813143322": {
     "Variable Label": "Child 1 Non-Hodgkin’s lymphoma cancer age",
     "Variable Name": "SrvBOH_C1NHLympAge_v1r0"
+  },
+  "813305389": {
+    "Variable Label": "Date/time payment issued by NORC or UoC",
+    "Variable Name": "SMPaym_JointTmIssued_v1r0"
   },
   "813560243": {
     "Variable Name": "SrvBOH_SpanishLang_v1r0"
@@ -6287,6 +6299,10 @@
   "990579614": {
     "Variable Label": "Privacy: Worried about data being given to employer/potential employer",
     "Variable Name": "HdRef_PrivacyG_v1r0"
+  },
+  "990693169": {
+    "Variable Label": "NORC or UoC Payment Issued",
+    "Variable Name": "SMPaym_JointPaymIssued_v1r0"
   },
   "991371613": {
     "Variable Label": "Dad Liver cancer year",
