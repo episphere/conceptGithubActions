@@ -8,10 +8,12 @@
   "Variable Type": "ISO",
   "Variable Length": "24",
   "Format/Value": "example: 2020-07-17T15:21:26.763Z",
-  "Required": "Yes if SMPaym_PaymElig_v1r0 = 1",
+  "Required": "Yes if SMPaym_PaymElig_v1r0 equals 1",
   "PII": "No",
   "Notes": "Date/time would be the date/time stamp of the last of the activities that make them eligible for payment.",
   "Derivation Notes": "Repeated measures variable associated with Round.",
   "Dictionary": "Study Manager Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
   "Date added or modified": "3/26/21"
 }

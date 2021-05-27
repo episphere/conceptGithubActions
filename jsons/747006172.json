@@ -2,15 +2,20 @@
   "Primary Source": "237817859.json",
   "Secondary Source": "635994596.json",
   "conceptId": "747006172",
-  "Question Text": "Autoset when HdWd_WdConsent_v1r0 selected",
-  "Variable Label": "Date withdrew consent",
-  "Variable Name": "HdWd_WdConsentDt_v1r0",
-  "Variable Type": "ISO",
-  "Variable Length": "24",
-  "Format/Value": "example: 2020-07-17T15:21:26.763Z",
-  "Required": "No",
+  "Question Text": "Withdraw consent",
+  "Variable Label": "Withdraw consent",
+  "Variable Name": "HdWd_WdConsent_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
   "PII": "No",
-  "Notes": "ISO to be converted to SAS format",
-  "Dictionary": "Master Data Dictionary",
-  "Date added or modified": "4/22/21"
+  "Notes": "Set by help desk agent via dashboard. Withdraw Consent also triggers Revoke HIPAA",
+  "Dictionary": "Withdrawal, Study Manager Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "4/22/21",
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
 }

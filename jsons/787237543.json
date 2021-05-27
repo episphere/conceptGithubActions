@@ -8,6 +8,8 @@
   "Variable Type": "Char",
   "Variable Length": "14",
   "Format/Value": "Example: CXA000001 0001",
-  "Required": "Yes, for any blood or urine tube where tube collected = 1",
-  "Dictionary": "Biospecimen Clinical, Biospecimen Research, Biospecimen Shipping"
+  "Required": "Yes, for any blood or urine tube where tube collected equals 1",
+  "Dictionary": "Biospecimen Clinical, Biospecimen Research, Biospecimen Shipping",
+  "State Attribute": "No",
+  "Default Variable": "No"
 }

@@ -4,7 +4,7 @@
   "Source Question": "706283025.json",
   "conceptId": "491099823",
   "Question Text": "I do not have reliable access to the internet/a device",
-  "Variable Label": "Does not have reliable access to internet",
+  "Variable Label": "I do not have reliable access to the internet/a device",
   "Variable Name": "RcrtSI_OptOut_v1r0_access",
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -12,6 +12,8 @@
   "PII": "No",
   "Notes": "For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.",
   "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "Yes",
+  "Default Variable": "No",
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

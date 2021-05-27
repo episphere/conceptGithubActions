@@ -11,5 +11,7 @@
   "Required": "Yes",
   "PII": "No",
   "Notes": "Type of payment chosen/what kind. Repeated measures variable associated with Round. Left as empty string field for now, payment chosen will be sent by NORC. Value will pull from Tango Card Catalog. Payment options change dynamically based on Tango catalog",
-  "Dictionary": "Study Manager Data Dictionary"
+  "Dictionary": "Study Manager Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No"
 }

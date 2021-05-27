@@ -8,9 +8,11 @@
   "Variable Type": "ISO",
   "Variable Length": "24",
   "Format/Value": "example: 2020-07-17T15:21:26.763Z",
-  "Required": "Yes if SrvMRE_BaseStatus_v1r0 = 2",
+  "Required": "Yes if SrvMRE_BaseStatus_v1r0 equals 2",
   "PII": "No",
   "Notes": "ISO to be converted to SAS format, populated when SrvMRE_BaseStatus_v1r0 is 2",
   "Dictionary": "Study Manager Data Dictionary, Biospecimen Research",
+  "State Attribute": "No",
+  "Default Variable": "No",
   "Date added or modified": "3/26/21"
 }

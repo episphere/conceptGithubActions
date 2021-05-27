@@ -8,8 +8,10 @@
   "Variable Type": "ISO",
   "Variable Length": "24",
   "Format/Value": "example: 2020-07-17T15:21:26.763Z",
-  "Required": "Yes, for any tube where BioCol_TubeCollected_v1r0 = 1",
+  "Required": "Yes, for any tube where BioCol_TubeCollected_v1r0 equals 1",
   "PII": "No",
   "Notes": "Note: This is pushed from Epic for the Clinical samples",
-  "Dictionary": "Biospecimen Clinical, Biospecimen Research"
+  "Dictionary": "Biospecimen Clinical, Biospecimen Research",
+  "State Attribute": "No",
+  "Default Variable": "No"
 }

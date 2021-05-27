@@ -9,20 +9,16 @@
   "Variable Length": "1",
   "Notes": "Developed for enrollment status on Study Manager dashboard.  Row of derivation is on same row as corresponding response variable.",
   "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
   "Date added or modified": "3/25/21",
-  "Derivation Notes": {
-    "238916532.json": "0",
-    "509741522.json": "RcrtSI_SignedIn_v1r0",
-    "165539416.json": "1",
-    "694237541.json": "RcrtCS_Consented_v1r0",
-    "232581561.json": "2",
-    "503023986.json": "RcrtUP_Submitted_v1r0",
-    "593616423.json": "3",
-    "765537948.json": "RcrtV_Verification_v1r0",
-    "289729076.json": "4",
-    "156095877.json": "RcrtV_Verification_v1r0",
-    "800366201.json": "5",
-    "892629293.json": "SMMet_FullyEnrolled_v1r0",
-    "116215611.json": "6"
-  }
+  "subcollection": [
+    "744915388.json",
+    "487661272.json",
+    "803958991.json",
+    "206465509.json",
+    "340001364.json",
+    "484222101.json",
+    "344308406.json"
+  ]
 }

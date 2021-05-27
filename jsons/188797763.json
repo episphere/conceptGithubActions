@@ -9,8 +9,10 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Sent as part of the verification table from IHCS. Should not = Yes when only Automated verification is used",
+  "Notes": "Sent as part of the verification table from IHCS. Should not equals Yes when only Automated verification is used",
   "Dictionary": "Master Data Dictionary",
+  "State Attribute": "Yes",
+  "Default Variable": "No",
   "Date added or modified": "3/25/21",
   "Format/Value": {
     "104430631.json": "0",
