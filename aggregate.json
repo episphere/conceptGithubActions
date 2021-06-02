@@ -23,6 +23,10 @@
   "103565678": {
     "Variable Name": "Mild hair loss on the sides of the forehead, but not as far back as the ears, and mild loss from the center of the forehead. Also, hair thinning on the top (crown) of the head."
   },
+  "104278817": {
+    "Variable Label": "First Name",
+    "Variable Name": "HdWd_FnameDD_v1r0"
+  },
   "104430631": {
     "Variable Name": "No"
   },
@@ -93,9 +97,6 @@
     "Variable Label": "Child 1 Thyroid cancer year",
     "Variable Name": "SrvBOH_C1ThyrCancYr_v1r0"
   },
-  "113542561": {
-    "Variable Name": "0 AND HdWd_Activepart_v1r0"
-  },
   "113579866": {
     "Variable Label": "Suspend all contact on case until DATE: MM/DD/YYYY",
     "Variable Name": "HdWd_Suspend_v1r0"
@@ -164,7 +165,7 @@
     "Variable Name": "SrvBOH_DadAnalCancAge_v1r0"
   },
   "121430614": {
-    "Variable Label": "Does not have reliable access to internet",
+    "Variable Label": "I do not have reliable access to the internet/a�device",
     "Variable Name": "HdRef_NoInternet_v1r0"
   },
   "121502359": {
@@ -226,16 +227,12 @@
   "129084651": {
     "Variable Name": "Questionnaire"
   },
-  "130053370": {
-    "Variable Label": "Suffix",
-    "Variable Name": "HdWd_SuffixDD_v1r0"
-  },
   "130371375": {
     "Variable Label": "Payment Round",
     "Variable Name": "SMPaym_Round_v1r0"
   },
   "131458944": {
-    "Variable Label": "Privacy: Worried that their information could be used to discriminate against them/their family",
+    "Variable Label": "I am worried that my�information could be used to discriminate against me/my�family",
     "Variable Name": "HdRef_PrivacyH_v1r0"
   },
   "131550264": {
@@ -335,7 +332,7 @@
     "Variable Name": "SrvBOH_MomMelanomaAge_v1r0"
   },
   "141450621": {
-    "Variable Label": "Participation takes too much time, asks for too much",
+    "Variable Label": "I am too busy/the study takes too much time",
     "Variable Name": "HdRef_TooMuchTime_v1r0"
   },
   "142654897": {
@@ -402,7 +399,7 @@
     "Variable Name": "How old were you when you had your uterus removed (hysterectomy)?"
   },
   "150818546": {
-    "Variable Label": "Privacy: Does not trust the government",
+    "Variable Label": "I do not trust the government",
     "Variable Name": "HdRef_PrivacyB_v1r0"
   },
   "151394571": {
@@ -473,6 +470,10 @@
     "Variable Label": "Child 1 Liver cancer age",
     "Variable Name": "SrvBOH_C1LiverCancAge_v1r0"
   },
+  "161366008": {
+    "Variable Label": "Date of the start of suspend all contact",
+    "Variable Name": "HdWd_SuspendDt_v1r0"
+  },
   "162512268": {
     "Variable Label": "Fibrocystic Breast, or other Benign Breast Disease age",
     "Variable Name": "SrvBOH_BreastDisAge_v1r0"
@@ -493,7 +494,7 @@
     "Variable Name": "SrvBOH_English_v1r0"
   },
   "163284008": {
-    "Variable Label": "Privacy: Worried that their information could be used to discriminate against them/their family",
+    "Variable Label": "I am worried that my information could be used to discriminate against me/my family",
     "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyJ"
   },
   "163534562": {
@@ -823,7 +824,7 @@
     "Variable Name": "SrvBOH_ShorterIn_v1r0"
   },
   "208102461": {
-    "Variable Label": "Privacy: Does not want their information shared with other researchers",
+    "Variable Label": "I do not want my informtion shared with other researchers",
     "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyF"
   },
   "208325815": {
@@ -837,7 +838,7 @@
     "Variable Name": "Baseline"
   },
   "209509101": {
-    "Variable Label": "Participation takes too much time, asks for too much",
+    "Variable Label": "I think the study takes too much time/asks for too much",
     "Variable Name": "RcrtSI_OptOut_v1r0_time"
   },
   "209571450": {
@@ -991,9 +992,6 @@
   "230663853": {
     "Variable Label": "Signed-in",
     "Variable Name": "RcrtSI_SignedIn_v1r0"
-  },
-  "231273663": {
-    "Variable Name": "1 And HdWd_WdConsent_v1r0"
   },
   "231311385": {
     "Variable Name": "Submitted"
@@ -1245,6 +1243,10 @@
     "Variable Label": "Cervical",
     "Variable Name": "SrvBOH_S1CervicalCanc_v1r0"
   },
+  "268665918": {
+    "Variable Label": "Middle Name",
+    "Variable Name": "HdWd_MnameDD_v1r0"
+  },
   "269050420": {
     "Variable Label": "Date requested data destroyed",
     "Variable Name": "HdRef_DateDatadestroy_v1r0"
@@ -1353,7 +1355,7 @@
     "Variable Name": "RcrtES_Aware_v1r0_Video"
   },
   "285488731": {
-    "Variable Label": "Privacy: Does not want their information shared with other researchers",
+    "Variable Label": "I�do not�want my�information shared with other researchers",
     "Variable Name": "HdRef_PrivacyD_v1r0"
   },
   "285718391": {
@@ -1398,10 +1400,6 @@
   },
   "291855684": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Non-Hodgkin’s lymphoma cancer?"
-  },
-  "294815728": {
-    "Variable Label": "Data Destruction Form Version",
-    "Variable Name": "HdWd_DestroyDataVer_v1r0"
   },
   "295976386": {
     "Variable Label": "Prostate",
@@ -1461,6 +1459,10 @@
   "303552867": {
     "Variable Name": "Follow-up 3"
   },
+  "304438543": {
+    "Variable Label": "Data Destruction Form Version",
+    "Variable Name": "HdWd_DestroyDataVer_v1r0"
+  },
   "304643362": {
     "Variable Label": "Somali",
     "Variable Name": "SrvBOH_Somali_v1r0"
@@ -1486,10 +1488,6 @@
   "308645635": {
     "Variable Label": "Inflammatory Bowel Disease",
     "Variable Name": "SrvBOH_IBD_v1r0"
-  },
-  "310214783": {
-    "Variable Label": "Middle Name",
-    "Variable Name": "HdWd_MnameDD_v1r0"
   },
   "311580100": {
     "Variable Label": "Social Security Number Given",
@@ -1617,7 +1615,7 @@
     "Variable Name": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] they were first told by a doctor or other health professional that they have or had Liver cancer?"
   },
   "331787113": {
-    "Variable Label": "Privacy: Does not want to provide information online",
+    "Variable Label": "I do not want to provide information online",
     "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyA"
   },
   "332759827": {
@@ -1720,7 +1718,7 @@
     "Variable Name": "SrvBOH_UFibroidsYr_v1r0"
   },
   "352891568": {
-    "Variable Label": "Does not like to do things online",
+    "Variable Label": "I do not like to do things online",
     "Variable Name": "HdRef_DislikeOnline_v1r0"
   },
   "352996056": {
@@ -1776,9 +1774,6 @@
   },
   "360770860": {
     "Variable Name": "Collection"
-  },
-  "360990276": {
-    "Variable Name": "Deceased"
   },
   "362104337": {
     "Variable Label": "Do not know",
@@ -1839,7 +1834,7 @@
     "Variable Name": "RcrtUP_DOB_v1r0"
   },
   "372303208": {
-    "Variable Label": "Privacy: Worried that their information will be used by others to make a profit",
+    "Variable Label": "I am worried that my�information will be used by others to make a profit",
     "Variable Name": "HdRef_PrivacyI_v1r0"
   },
   "372993567": {
@@ -1908,16 +1903,12 @@
     "Variable Label": "Tunisian",
     "Variable Name": "SrvBOH_Tunisian_v1r0"
   },
-  "380908765": {
-    "Variable Label": "First Name",
-    "Variable Name": "HdWd_FnameDD_v1r0"
-  },
   "381106518": {
     "Variable Label": "Child 1 Lung or bronchial cancer age",
     "Variable Name": "SrvBOH_C1LungCancAge_v1r0"
   },
   "381509125": {
-    "Variable Label": "Privacy: Does not want to provide access to EMR/medical history information or diagnoses",
+    "Variable Label": "I do not want to provide access to medical history information or diagnoses",
     "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyC"
   },
   "381702052": {
@@ -1969,7 +1960,7 @@
     "Variable Name": "BioSpm_ColIDEntered_v1r0"
   },
   "387198193": {
-    "Variable Label": "Privacy: Worried that their information will be used by others to make a profit",
+    "Variable Label": "I am worried that my information will be used by others to make a profit",
     "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyK"
   },
   "388130858": {
@@ -2035,7 +2026,7 @@
     "Variable Name": "BioFB_ShipFBNote_v1r0"
   },
   "400259098": {
-    "Variable Label": "Concerned about COVID-19",
+    "Variable Label": "I am concerned about COVID-19",
     "Variable Name": "RcrtSI_OptOut_v1r0_Covid"
   },
   "400751267": {
@@ -2114,6 +2105,10 @@
   "407586710": {
     "Variable Label": "Sibling 1 Non-melanoma skin (basal or squamous) cancer year",
     "Variable Name": "SrvBOH_S1NMSkinCancYr_v1r0"
+  },
+  "407743866": {
+    "Variable Label": "HIPAA Revocation Version",
+    "Variable Name": "HdWd_HIPAArevokedver_v1r0"
   },
   "409075721": {
     "Variable Label": "Skipped meals",
@@ -2245,7 +2240,7 @@
     "Variable Name": "SrvBOH_AHRAge_v1r0"
   },
   "431428747": {
-    "Variable Label": "Too sick/poor health to participate",
+    "Variable Label": "I am too sick/my health is too poor�to participate",
     "Variable Name": "HdRef_Sick_v1r0"
   },
   "431628922": {
@@ -2267,10 +2262,6 @@
   },
   "433604862": {
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Non-melanoma skin (basal or squamous) cancer?"
-  },
-  "433761588": {
-    "Variable Label": "Date of the start of suspend all contact",
-    "Variable Name": "HdWd_SuspendDt_v1r0"
   },
   "434316600": {
     "Variable Label": "Past employer's for job",
@@ -2500,10 +2491,6 @@
     "Variable Label": "Deviation- Urine hat used",
     "Variable Name": "BioCol_Dev_v1r0_Hat"
   },
-  "468998522": {
-    "Variable Label": "HIPAA Revocation Version",
-    "Variable Name": "HdWd_HIPAArevokedver_v1r0"
-  },
   "469801570": {
     "Variable Name": "Qualifies for Baseline Eligibility List"
   },
@@ -2644,7 +2631,7 @@
     "Variable Name": "Native Hawaiian/Pacific Islander"
   },
   "491099823": {
-    "Variable Label": "Does not have reliable access to internet",
+    "Variable Label": "I do not have reliable access to the internet/a device",
     "Variable Name": "RcrtSI_OptOut_v1r0_access"
   },
   "491936871": {
@@ -2700,9 +2687,6 @@
     "Variable Label": "blood clots (deep vein thrombosis, pulmonary embolism)diagnosis age",
     "Variable Name": "SrvBOH_BloodClotAge_v1r0"
   },
-  "497037640": {
-    "Variable Name": "0 AND HdRef_Baseblood_v1r0"
-  },
   "497311092": {
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Pancreatic cancer?"
   },
@@ -2710,16 +2694,12 @@
     "Variable Name": "Receipt Summary/Finalize Collection Data Entry"
   },
   "497530905": {
-    "Variable Label": "Privacy: Does not trust the government",
+    "Variable Label": "I do not trust the government",
     "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyD"
   },
   "497657524": {
     "Variable Label": "Dad esophageal cancer year",
     "Variable Name": "SrvBOH_DadEsCancYr_v1r0"
-  },
-  "497916108": {
-    "Variable Label": "Contact has been suspended",
-    "Variable Name": "HdWd_SuspendContact_v1r0"
   },
   "498817420": {
     "Variable Name": "Follow-up 2 incentive refused"
@@ -2737,9 +2717,6 @@
   "501239434": {
     "Variable Label": "Child 1 anal cancer year",
     "Variable Name": "SrvBOH_C1AnalCancYr_v1r0"
-  },
-  "503023986": {
-    "Variable Name": "1 AND RcrtV_Verification_v1r0"
   },
   "503154158": {
     "Variable Label": "Weight at 55 years old entry",
@@ -2776,9 +2753,6 @@
   "509721537": {
     "Variable Label": "Uterine Fibroids",
     "Variable Name": "SrvBOH_UFibroids_v1r0"
-  },
-  "509741522": {
-    "Variable Name": "1 AND RcrtCS_Consented_v1r0"
   },
   "509933065": {
     "Variable Label": "First used acne med age",
@@ -3074,10 +3048,6 @@
     "Variable Label": "Regional Lab Receipt",
     "Variable Name": "BioReg_AtReg_v1r0"
   },
-  "540609055": {
-    "Variable Label": "Last Name",
-    "Variable Name": "HdWd_LnameDD_v1r0"
-  },
   "540892360": {
     "Variable Label": "Dad kidney cancer age",
     "Variable Name": "SrvBOH_DadKidnCancAge_v1r0"
@@ -3239,7 +3209,7 @@
     "Variable Name": "Very good"
   },
   "566047367": {
-    "Variable Label": "Privacy: Other privacy concerns",
+    "Variable Label": "I have other privacy concerns",
     "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyL"
   },
   "567284980": {
@@ -3307,7 +3277,7 @@
     "Variable Name": "SrvBOH_WaistWt_v1r0"
   },
   "576083042": {
-    "Variable Label": "Payment or benefit to participant is not great enough",
+    "Variable Label": "I think the payment or benefit to participant is not great enough",
     "Variable Name": "HdRef_Payment_v1r0"
   },
   "576179368": {
@@ -3345,7 +3315,7 @@
     "Variable Name": "SrvBOH_Sibling1Sex_v1r0"
   },
   "579618065": {
-    "Variable Label": "Privacy: Worried information will not be secure or there will be a data breach",
+    "Variable Label": "I am worried my information will not be secure or there will be a data breach",
     "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyG"
   },
   "579956297": {
@@ -3419,6 +3389,10 @@
     "Variable Label": "Mom Pancreatic cancer year",
     "Variable Name": "SrvBOH_MomPanCancYr_v1r0"
   },
+  "592227431": {
+    "Variable Label": "Suffix",
+    "Variable Name": "HdWd_SuffixDD_v1r0"
+  },
   "592296024": {
     "Variable Label": "Asthma diagnosis age",
     "Variable Name": "SrvBOH_AsthmaAge_v1r0"
@@ -3450,7 +3424,7 @@
     "Variable Name": "SrvBOH_MomLungCancAge_v1r0"
   },
   "596510649": {
-    "Variable Label": "Privacy: Worried information is not secure or there will be a data breach",
+    "Variable Label": "I am worried�my�information isn�t secure or there will be a data breach",
     "Variable Name": "HdRef_PrivacyE_v1r0"
   },
   "596792238": {
@@ -3633,7 +3607,7 @@
     "Variable Name": "SrvBOH_FarmingC_v1r0"
   },
   "620696506": {
-    "Variable Label": "Unable to complete study activities online",
+    "Variable Label": "I am not able to complete the study activities online",
     "Variable Name": "HdRef_Online_v1r0"
   },
   "621478209": {
@@ -3655,7 +3629,7 @@
     "Variable Name": "A lot shorter"
   },
   "624030581": {
-    "Variable Label": "Privacy: Does not research/researchers",
+    "Variable Label": "I do not trust research/researchers",
     "Variable Name": "HdRef_PrivacyC_v1r0"
   },
   "624179836": {
@@ -3682,7 +3656,7 @@
     "Variable Name": "SrvBOH_EndoYear_v1r0"
   },
   "627995442": {
-    "Variable Label": "Privacy: Does not trust research/researchers",
+    "Variable Label": "I do not trust research/researchers",
     "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyE"
   },
   "628078826": {
@@ -3754,7 +3728,7 @@
     "Variable Name": "56-60"
   },
   "637147033": {
-    "Variable Label": "Privacy: Concerns about providing information online",
+    "Variable Label": "I am concerned about providing information online",
     "Variable Name": "HdRef_PrivacyA_v1r0"
   },
   "637556277": {
@@ -3773,7 +3747,7 @@
     "Variable Name": "SrvBOH_S1UterineCanc_v1r0"
   },
   "639172801": {
-    "Variable Label": "Worried the study might find something concerning about them",
+    "Variable Label": "I am worried the study might find something concerning about me",
     "Variable Name": "HdRef_Worried_v1r0"
   },
   "639721694": {
@@ -3952,9 +3926,16 @@
   "659627058": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Liver cancer?"
   },
+  "659782255": {
+    "Variable Name": "Deceased"
+  },
   "659784914": {
     "Variable Label": "Dad living",
     "Variable Name": "SrvBOH_DadCanc_v1r0"
+  },
+  "659990606": {
+    "Variable Label": "Date withdrew consent",
+    "Variable Name": "HdWd_WdConsentDt_v1r0"
   },
   "660358706": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had heart valve problems?"
@@ -4202,9 +4183,6 @@
     "Variable Label": "High Blood Pressure (Hypertension) [Please do not include hypertension during pregnancy.]",
     "Variable Name": "SrvBOH_HBP_v1r0"
   },
-  "694237541": {
-    "Variable Name": "1 AND RcrtUP_Submitted_v1r0"
-  },
   "694265648": {
     "Variable Label": "Number siblings",
     "Variable Name": "SrvBOH_SiblingNum_v1r0"
@@ -4220,6 +4198,10 @@
   "695129126": {
     "Variable Label": "Dad Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.) cancer year",
     "Variable Name": "SrvBOH_DadHNCancYr_v1r0"
+  },
+  "697256759": {
+    "Variable Label": "Date/time for pre-consent opt-out",
+    "Variable Name": "RcrtSI_OptOutTm_v1r0"
   },
   "698283667": {
     "Variable Name": "Lake Hallie��_"
@@ -4275,7 +4257,7 @@
     "Variable Name": "SrvBOH_DPancreaticCanc_v1r0"
   },
   "702433259": {
-    "Variable Label": "Privacy: Worried about data being given to insurance company, effects on insurance (health, life, other)",
+    "Variable Label": "I am worried about data being given to my insurance company/effects on insurance (health, life, other)",
     "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyH"
   },
   "703385619": {
@@ -4293,10 +4275,6 @@
   "704199032": {
     "Variable Name": "Non-Oahu"
   },
-  "704388248": {
-    "Variable Label": "Date/time for pre-consent opt-out",
-    "Variable Name": "RcrtSI_OptOutTm_v1r0"
-  },
   "704544306": {
     "Variable Label": "Barrett’s Esophagus",
     "Variable Name": "SrvBOH_Barretts_v1r0"
@@ -4310,7 +4288,7 @@
     "Variable Name": "SrvBOH_AfricanAm_v1r0"
   },
   "705732561": {
-    "Variable Label": "Privacy: Does not want to complete surveys",
+    "Variable Label": "I do not want to complete surveys",
     "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyB"
   },
   "705748897": {
@@ -4429,7 +4407,7 @@
     "Variable Name": "SrvBOH_Child1Cancer_v1r0"
   },
   "719451909": {
-    "Variable Label": "Not interested in the study/does not think research topic is important",
+    "Variable Label": "I do not think the research topic is important/I am not interested in the topic",
     "Variable Name": "RcrtSI_OptOut_v1r0_impt"
   },
   "719933364": {
@@ -4452,6 +4430,10 @@
   "725929722": {
     "Variable Label": "DOB Match",
     "Variable Name": "RcrtV_DOBMatch_v1r0"
+  },
+  "726389747": {
+    "Variable Label": "Contact has been suspended",
+    "Variable Name": "HdWd_SuspendContact_v1r0"
   },
   "726451917": {
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Lung or bronchial cancer?"
@@ -4529,6 +4511,10 @@
     "Variable Label": "Mom breast cancer year",
     "Variable Name": "SrvBOH_MomBreCancYr_v1r0"
   },
+  "734828170": {
+    "Variable Label": "Other reasons",
+    "Variable Name": "HdRef_OthRsn_v1r0"
+  },
   "734998477": {
     "Variable Name": "Severe hair loss across the entire forehead, beyond the back of the ears."
   },
@@ -4581,8 +4567,12 @@
     "Variable Name": "SrvBOH_S1NHLympAge_v1r0"
   },
   "744197145": {
-    "Variable Label": "Person is unable to participate or deceased (family member reaches out to study)",
+    "Variable Label": "Person is unable to participate or deceased",
     "Variable Name": "RcrtSI_OptOut_v1r0_unable"
+  },
+  "744604255": {
+    "Variable Label": "Last Name",
+    "Variable Name": "HdWd_LnameDD_v1r0"
   },
   "745065357": {
     "Variable Label": "Other",
@@ -4624,8 +4614,8 @@
     "Variable Name": "BioCol_0022_v1r0"
   },
   "747006172": {
-    "Variable Label": "Date withdrew consent",
-    "Variable Name": "HdWd_WdConsentDt_v1r0"
+    "Variable Label": "Withdraw consent",
+    "Variable Name": "HdWd_WdConsent_v1r0"
   },
   "747011278": {
     "Variable Label": "Date/Time incentive refused by UC participant",
@@ -4766,9 +4756,6 @@
     "Variable Label": "First Name",
     "Variable Name": "HdWd_Fname_v1r0"
   },
-  "765537948": {
-    "Variable Name": "1 or RcrtV_Verification_v1r0"
-  },
   "765903702": {
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Lymphoma cancer?"
   },
@@ -4805,7 +4792,7 @@
     "Variable Name": "I had surgery to remove one Testicle"
   },
   "771146804": {
-    "Variable Label": "Privacy: Worried about data being given to employer/potential employer",
+    "Variable Label": "I am worried about data being given to my employer/potential employer",
     "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyI"
   },
   "771230670": {
@@ -4841,7 +4828,7 @@
     "Variable Name": "UC-DCAM��_"
   },
   "777719027": {
-    "Variable Label": "Privacy: Other privacy concerns",
+    "Variable Label": "I have other privacy concerns",
     "Variable Name": "HdRef_PrivacyJ_v1r0"
   },
   "777814771": {
@@ -5120,9 +5107,6 @@
     "Variable Label": "Congestive heart failure diagnosis year",
     "Variable Name": "SrvBOH_CHFYear_v1r0"
   },
-  "818635642": {
-    "Variable Name": "1 AND HdWd_HIPAArevoked_v1r0"
-  },
   "819018322": {
     "Variable Label": "Native Hawaiian",
     "Variable Name": "SrvBOH_NatHawaiian_v1r0"
@@ -5229,7 +5213,7 @@
     "Variable Name": "HdWd_Destroydata_v1r0"
   },
   "831137710": {
-    "Variable Label": "Opposed to genetic testing",
+    "Variable Label": "I am opposed to genetic testing",
     "Variable Name": "RcrtSI_OptOut_v1r0_GenTest"
   },
   "832139544": {
@@ -5363,7 +5347,7 @@
     "Variable Name": "SrvBOH_Surgery2_v1r0"
   },
   "851245875": {
-    "Variable Label": "Too busy/stressed to participate",
+    "Variable Label": "I am too busy/stressed to participate",
     "Variable Name": "HdRef_Busy_v1r0"
   },
   "852278004": {
@@ -5472,7 +5456,7 @@
     "Variable Name": "SrvBOH_Appendectomy_v1r0"
   },
   "866089092": {
-    "Variable Label": "Privacy: Worried about data being given to insurance company, effects on insurance (health, life, other)",
+    "Variable Label": "I am worried about data being given to�my insurance company/effects on insurance (health, life, other)",
     "Variable Name": "HdRef_PrivacyF_v1r0"
   },
   "866095545": {
@@ -5548,7 +5532,7 @@
     "Variable Name": "Not yet verified"
   },
   "875010152": {
-    "Variable Label": "Participant is now unable to participate or is deceased (family member reaches out to study)",
+    "Variable Label": "Participant is now unable to participate",
     "Variable Name": "HdRef_Unable_v1r0"
   },
   "875057149": {
@@ -5674,9 +5658,6 @@
   "892050548": {
     "Variable Label": "Zip",
     "Variable Name": "RcrtUP_Zip_v1r0"
-  },
-  "892629293": {
-    "Variable Name": "1"
   },
   "894259747": {
     "Variable Name": "Respiratory Problems- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply."
@@ -5838,7 +5819,7 @@
     "Variable Name": "RcrtCS_Consented_v1r0"
   },
   "919699172": {
-    "Variable Label": "No longer interested in the study",
+    "Variable Label": "I am no longer interested in the study",
     "Variable Name": "HdRef_NotInterested_v1r0"
   },
   "920333151": {
@@ -6098,7 +6079,7 @@
     "Variable Name": "SrvBOH_DadOtherCancAge_v1r0"
   },
   "958588520": {
-    "Variable Label": "Concerned about COVID-19",
+    "Variable Label": "I am concerned about COVID-19",
     "Variable Name": "HdRef_COVID_v1r0"
   },
   "958646668": {
@@ -6139,9 +6120,6 @@
   "963867920": {
     "Variable Label": "Other text box",
     "Variable Name": "SrvBOH_OtherWtLossDes4_v1r0"
-  },
-  "964256101": {
-    "Variable Name": "1 AND HdWd_WdConsent_v1r0"
   },
   "964924704": {
     "Variable Label": "Viete",
@@ -6348,7 +6326,7 @@
     "Variable Name": "SrvBOH_Exercised1_v1r0"
   },
   "990579614": {
-    "Variable Label": "Privacy: Worried about data being given to employer/potential employer",
+    "Variable Label": "I am worried about data being given to�my�employer/potential employer",
     "Variable Name": "HdRef_PrivacyG_v1r0"
   },
   "990693169": {
