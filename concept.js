@@ -134,10 +134,11 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
     }
 
     let collections = [];
-    let collectionIds = [];
+    let collectionIds = {};
     let leaves = []
     let leafIndex = -1;
     let leafObj = {}
+    let debug = true;
     for(let i = 0; i < cluster.length; i++){
         let ids = [];
         let currCollection = {}
@@ -150,9 +151,19 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
 
             
             let currValue = currRow[nonEmptyIndex]
+            if(!currValue){
+                //console.log(JSON.stringify(currRow))
+                //console.log('---------')
+                //console.log(nonEmptyIndex)
+            }
             
            
             if(currValue.indexOf('=') != -1){
+                if(currValue == "1=Live birth: single infant"){
+                    debug = true;
+                    //console.log(currValue);
+                    //console.log('sldbvsdlvkbs')
+                }
                 leaf = currValue;
                 leafIndex = nonEmptyIndex;
                 leaves.push(currValue)
@@ -181,22 +192,30 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                 if(!conceptIdList.includes(cid)){
                     conceptIdList.push(cid)
                 }
-                leafObj[cid + '.json'] = key
+                if(!leafObj[nonEmptyIndex]){
+                    leafObj[nonEmptyIndex] = {}
+                }
+                leafObj[nonEmptyIndex][cid + '.json'] = key;
+                //leafObj[cid + '.json'] = key
                 currRow[leafIndex-1] = cid
             }
             
             else{
                 if(currRow[nonEmptyIndex] != ''){
                     currCollection[header[nonEmptyIndex]] = currRow[nonEmptyIndex]
+                    //console.log(currCollection)
                 }
             }
             
         }
+        /*
         if(conceptIdReverseLookup.hasOwnProperty('leftMostId') && currRow[conceptIdReverseLookup['leftMostId']] != ''){
             currCollection['conceptId'] = currRow[conceptIdReverseLookup['leftMostId']]
-        }
+            //console.log(currCollection)
+        }*/
+        
         if(Object.keys(currCollection).length != 0){
-            
+            /*
             let cid = generateRandomUUID(conceptIdList)
             let objKeys = Object.keys(currCollection);
             for(let i = 0; i < objKeys.length; i++){
@@ -211,35 +230,98 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
             }
             if(!conceptIdList.includes(cid)){
                 conceptIdList.push(cid);
-            }
-            currCollection['conceptId'] = cid;
-            collectionIds.push(cid + '.json')
-            for(let i = 0; i < objKeys.length; i++){
-                let key = objKeys[i]
+            }*/
+            //currCollection['conceptId'] = cid;
+            let objKeys = Object.keys(currCollection);
+            for(let a = 0; a < objKeys.length; a++){
+                let cid = generateRandomUUID(conceptIdList)
+                let key = objKeys[a];
+                if(nameToConcept.hasOwnProperty(currCollection[key])){
+                    cid = nameToConcept[currCollection[key]]
+                }
+
+                if(!collectionIds[objKeys[a]]){
+                    collectionIds[objKeys[a]] = [];
+                }
+                collectionIds[objKeys[a]].push(cid + '.json')
                 nameToConcept[currCollection[key]] = cid;
+                currCollection[key]={'conceptId': cid, 'Variable Name': currCollection[key] };
+                collections.push(currCollection);
+                cluster[i][nonEmpty[a]-1] = cid;
             }
-            collections.push(currCollection);
-            cluster[i][conceptIdReverseLookup['leftMostId']] = cid;
+            //collectionIds.push(cid + '.json')
             
+            
+            
+            if(debug){
+                //console.log(JSON.stringify(currCollection))
+                //console.log(objKeys)
+                //console.log('---------asdvibsdvsadvsdvsd----------------')
+            }
             //fs.writeFileSync(cid + '.json', currCollection);
         }   
+        
     }
-
+    if(debug){
+        debug = false;
+        //console.log(firstRowJSON)
+        //console.log(leafObj)
+        //console.log(leaves);
+        //console.log(collections)
+        //console.log(nonEmpty)
+        //console.log('saldbnvnas;ldvjbasd;vjbdksvs')
+    }
     if(collections.length == 0  && leaves.length > 0){
-        firstRowJSON[header[leafIndex]] = leafObj;
+        let leafKeys = Object.keys(leafObj);
+        for(let i = 0; i < leafKeys.length; i++){
+            firstRowJSON[header[leafKeys[i]]] = leafObj[leafKeys[i]];
+        }
+        //firstRowJSON[header[leafIndex]] = leafObj;
     }
     else{
         if(collectionIds.length != 0){
-            firstRowJSON['subcollection'] = collectionIds;
+            let objKeys = Object.keys(collectionIds);
+
+            for(let i = 0; i < objKeys.length; i++){
+                firstRowJSON[objKeys[i]] = collectionIds[objKeys[i]];
+            }
         }
+        let leafKeys = Object.keys(leafObj);
+        for(let j = 0; j < leafKeys.length; j++){
+            firstRowJSON[header[leafKeys[j]]] = leafObj[leafKeys[j]];
+        }
+        //console.log(collections)
         for(let i = 0; i < collections.length; i++){
             let currCollection = collections[i]
-            currCollection[header[leafIndex]] = leafObj;
+            //currCollection[header[leafIndex]] = leafObj;
+            //console.log('sa;dvujbasdvlkajsdbv l;asvk bnwelviuadjsbvasliduvjkbdasvlasudivjk.basvl uasdjcsadukj cbvskldj')
+            let collectionsKeys = Object.keys(collections[i])
+            for(let j = 0; j < collectionsKeys.length; j++){
+                currCollection = {
+                    "conceptId": collections[i][collectionsKeys[j]]['conceptId'],
+                }
+                currCollection[collectionsKeys[j]] = collections[i][collectionsKeys[j]]['Variable Name'];
+                jsonList.push(currCollection)
+                //console.log(currCollection['conceptId'])
+                fs.writeFileSync('./jsons/' + currCollection['conceptId'] + '.json', JSON.stringify(currCollection,null, 2))
+            }
+            //console.log(collections[i]);
+            /*leafKeys = Object.keys(leafObj);
+            for(let j = 0; j < leafKeys.length; j++){
+                currCollection[header[leafKeys[j]]] = leafObj[leafKeys[j]];
+            }*/
             //fs.writeFileSync(currCollection['conceptId']+ '.json', JSON.stringify(currCollection));
-            jsonList.push(currCollection)
-            fs.writeFileSync('./jsons/' + currCollection['conceptId'] + '.json', JSON.stringify(currCollection,null, 2))
+            
 
         }
+        let currCollection = {};
+        leafKeys = Object.keys(leafObj);
+        for(let j = 0; j < leafKeys.length; j++){
+            currCollection[header[leafKeys[j]]] = leafObj[leafKeys[j]];
+        }
+        //fs.writeFileSync(currCollection['conceptId']+ '.json', JSON.stringify(currCollection));
+        jsonList.push(currCollection)
+        fs.writeFileSync('./jsons/' + currCollection['conceptId'] + '.json', JSON.stringify(currCollection,null, 2))
     }
     
     if(cluster[0][conceptIdReverseLookup['thisRowId']] == ''){
@@ -261,6 +343,11 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
 
 }
 function CSVToArray(strData){
+    let orig = strData;
+    if(strData.includes('Ever took hormones to reflect your gender')){
+        //console.log('HWEIFHWEPIFHWEPFIHOSF');
+        //console.log(strData);
+    }
     strData = strData.trim();
     let arr = [];
     let finalPush = true;
@@ -270,16 +357,26 @@ function CSVToArray(strData){
         if(strData.substring(0,1) == "\""){
             strData = strData.substring(1);            
             let nextLook = strData.indexOf('\"\"')
-            
-            while(nextLook != -1){
-                console.log(nextLook)
+            let nextQuote = strData.indexOf('\"');
+
+            while(nextLook != -1 && nextLook == nextQuote){
+                ////console.log(nextLook)
                 toPush += strData.substring(0,nextLook) + '\"\"'
                 strData = strData.substring(strData.indexOf("\"\"") + 2);    
+                if(orig.includes('Ever took hormones to reflect your gender')){
+                    ////console.log(strData.substring(strData.indexOf("\"\"") + 2));
+                    ////console.log('------------------------')
+                }
                 nextLook = strData.indexOf('\"\"')
+                nextQuote = strData.indexOf('\"');
             }
 
             toPush += strData.substring(0,  strData.indexOf("\""));    
             strData = strData.substring(strData.indexOf("\"") + 1);    
+            if(orig.includes('Ever took hormones to reflect your gender')){
+                ////console.log(strData.substring(strData.indexOf("\"") + 1));
+                ////console.log('------------------------')
+            }
             strData = strData.substring(strData.indexOf(',')+1)
             if(strData.trim() == ''){
                 finalPush = false
@@ -401,8 +498,8 @@ async function getConceptIds(fileName){
     lookForConcepts(cluster, header, idsToInsert, leftMost);
     rl.close()
     fileStream.close()
+    console.log(idsToInsert)
     if(!idsToInsert.includes(leftMost[0]) && leftMost[0] != leftMostStart){
-        
         idsToInsert.push(leftMost[0])
     }
     let nonIntersects = []
@@ -495,6 +592,10 @@ async function readFile(fileName){
     if(fs.existsSync('./jsons/varToConcept.json')){
         ConceptIndex = fs.readFileSync('./jsons/varToConcept.json', {encoding:'utf8'})
     }
+    let toReplace = fs.readFileSync(fileName,{encoding:'utf8', flag:'r'})
+    ////console.log(toReplace)
+    toReplace = toReplace.replace(/�/g, "\"\"")
+    fs.writeFileSync(fileName, toReplace)
     let idIndex = '[]'
     if(fs.existsSync('./jsons/conceptIds.txt')){
         idIndex = fs.readFileSync('./jsons/conceptIds.txt', {encoding:'utf8'})
