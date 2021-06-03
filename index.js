@@ -1,4 +1,4 @@
-/*
+
 const concept = require('./concept1');
 const aggregate = require('./aggregateJSONS.js');
 const masterParsing = require('./masterParsing.js');
@@ -36,4 +36,4 @@ for(let i = 0; i < files.length; i++){
     
 }
 
-masterParsing.parseMasterModule();*/
+masterParsing.parseMasterModule();
