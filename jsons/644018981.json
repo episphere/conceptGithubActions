@@ -1,0 +1,31 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "conceptId": "644018981",
+  "Question Text": "On the days that you did these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling) outside of work, about how much time per day did you spend doing these chores?",
+  "Variable Label": "Time per day spent doing vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)",
+  "Variable Name": "SrvMRE_VigChoreTime_v1r0",
+  "Connect Value for Select all that apply questions": "LAWN4B",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "428999623.json": "1",
+    "248303092.json": "2",
+    "206020811.json": "3",
+    "264163865.json": "4",
+    "485370350.json": "5",
+    "679781213.json": "6",
+    "805918496.json": "7"
+  },
+  "Connect Value": {
+    "428999623.json": "0",
+    "248303092.json": "1",
+    "206020811.json": "2",
+    "264163865.json": "3",
+    "485370350.json": "4",
+    "679781213.json": "5",
+    "805918496.json": "6"
+  }
+}
