@@ -3,10 +3,10 @@ const fs = require('fs');
 function parseMasterModule(){
     let masterJSON = {};
     let fileList = [];
-    files = fs.readdirSync('./conceptGithubActions/jsons');
+    files = fs.readdirSync('./jsons');
     files.forEach(function(file) {
         if(file.match(/[0-9]{9}.json/) != null){
-            let currJSON = fs.readFileSync('./conceptGithubActions/jsons/' + file, {encoding:'utf8'});
+            let currJSON = fs.readFileSync('./jsons/' + file, {encoding:'utf8'});
             masterJSON[file.substring()] = JSON.parse(currJSON);
         }
     });
