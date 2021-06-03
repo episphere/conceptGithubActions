@@ -1,0 +1,29 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "Source Question": "725351718.json",
+  "conceptId": "719375821",
+  "Question Text": "Did you take prescription or over-the-counter sleeping pills to help you sleep?",
+  "Variable Label": "Did you take prescription or over-the-counter sleeping pills to help you sleep?",
+  "Variable Name": "SrvMRE_SleepPrescrip_v1r0",
+  "Connect Value for Select all that apply questions": "SLHABIT1E",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Quest_Src Question": "SLHABIT1",
+  "Old Quest Value": {
+    "104430631.json": "1",
+    "725689321.json": "2",
+    "164702497.json": "3",
+    "110818015.json": "4",
+    "887822811.json": "5"
+  },
+  "Connect Value": {
+    "104430631.json": "0",
+    "725689321.json": "1",
+    "164702497.json": "2",
+    "110818015.json": "3",
+    "887822811.json": "4"
+  }
+}

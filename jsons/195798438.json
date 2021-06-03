@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "conceptId": "195798438",
+  "Question Text": "How old were you when you first used the other hormonal medications or devices?",
+  "Variable Label": "Age the other hormonal medications or devices first use",
+  "Variable Name": "SrvMRE_AgeOthHMedUseF_v1r0",
+  "Connect Value for Select all that apply questions": "HORMED2_9",
+  "Variable Type": "Num",
+  "Variable Length": "3",
+  "Old Quest Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if HORMED= 45"
+}

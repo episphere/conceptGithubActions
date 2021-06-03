@@ -1,0 +1,33 @@
+{
+  "Primary Source": "332961895.json",
+  "Secondary Source": "581036703.json",
+  "conceptId": "912301837",
+  "Question Text": "Disposition codes for participation status",
+  "Variable Label": "Participation status",
+  "Variable Name": "SMMet_PartStatus_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Notes": "Developed for participant status on Study Manager dashboard.  Row of derivation is on same row as corresponding response variable.",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "4/22/21",
+  "Derivation Notes": [
+    "706456170.json",
+    "114949539.json",
+    "135330445.json",
+    "104768868.json",
+    "665294237.json",
+    "387238144.json",
+    "418718721.json"
+  ],
+  "Format/Value": {
+    "208325815.json": "0",
+    "622008261.json": "1",
+    "134659217.json": "2",
+    "872012139.json": "3",
+    "854021266.json": "4",
+    "241236037.json": "5",
+    "659782255.json": "6"
+  }
+}

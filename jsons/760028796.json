@@ -1,0 +1,17 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "Source Question": "175176130.json",
+  "conceptId": "760028796",
+  "Question Text": "over-the-counter H2 receptor blockers days per week",
+  "Variable Label": "over-the-counter H2 receptor blockers days per week",
+  "Variable Name": "SrvMRE_H2RecBlockOCWk_v1r0",
+  "Connect Value for Select all that apply questions": "ACIDSUP2_3WK",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Old Quest Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if ACIDSUP = 1",
+  "Quest_Src Question": "ACIDSUP2_3"
+}
