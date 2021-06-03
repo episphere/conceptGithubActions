@@ -1,1 +1,5243 @@
-{}
+{
+  "EXEREC4D": {
+    "questIds": {
+      "0": {
+        "conceptId": "471675167",
+        "concept": "05 minutes or less_\"\""
+      },
+      "1": {
+        "conceptId": "405634821",
+        "concept": "06-30 minutes_\"\""
+      },
+      "2": {
+        "conceptId": "845236449",
+        "concept": "21-44 minutes_"
+      },
+      "3": {
+        "conceptId": "528099182",
+        "concept": "35-59 minutes_"
+      },
+      "4": {
+        "conceptId": "517978296",
+        "concept": "0-1.9 hours_"
+      },
+      "5": {
+        "conceptId": "109306831",
+        "concept": "1-2.9 hours_"
+      },
+      "6": {
+        "conceptId": "599036415",
+        "concept": "2 hours or more_"
+      }
+    },
+    "questionText": "On the days that you played golf, about how much time per day did you spend doing this activity?",
+    "conceptId": "100592681"
+  },
+  "TESTTHER2": {
+    "questIds": {
+      "0": {
+        "conceptId": "547963664",
+        "concept": "Gel/cream"
+      },
+      "1": {
+        "conceptId": "101119467",
+        "concept": "Injection"
+      },
+      "2": {
+        "conceptId": "566801894",
+        "concept": "Skin patch"
+      },
+      "3": {
+        "conceptId": "596603399",
+        "concept": "Pills"
+      },
+      "4": {
+        "conceptId": "784046573",
+        "concept": "Gum or inner cheek patch"
+      },
+      "5": {
+        "conceptId": "437341819",
+        "concept": "Slow release implant (testosterone pellets)"
+      }
+    },
+    "conceptId": "875621618",
+    "concept": "Which forms of testosterone medication(s) have you taken? Select all that apply."
+  },
+  "FERT6": {
+    "questIds": {
+      "0": {
+        "conceptId": "360847651",
+        "concept": "Clomid (clomiphene)"
+      },
+      "1": {
+        "conceptId": "162337943",
+        "concept": "Gonadotropins, which are commonly referred to as \"\"injectables\"\" or \"\"injectable hormones\"\" (such as Follistim, Menopur, Bravelle, or Gonal-F)"
+      },
+      "2": {
+        "conceptId": "284263616",
+        "concept": "Danazol"
+      },
+      "3": {
+        "conceptId": "906797401",
+        "concept": "Danocrine"
+      },
+      "4": {
+        "conceptId": "284925295",
+        "concept": "hCG"
+      },
+      "5": {
+        "conceptId": "331807676",
+        "concept": "Milophene"
+      },
+      "6": {
+        "conceptId": "101654992",
+        "concept": "Lupron depot"
+      },
+      "7": {
+        "conceptId": "929205066",
+        "concept": "Nolvadex (tamoxifen)"
+      },
+      "8": {
+        "conceptId": "741020223",
+        "concept": "Pergonal"
+      },
+      "9": {
+        "conceptId": "620713211",
+        "concept": "Serophene"
+      },
+      "10": {
+        "conceptId": "373395551",
+        "concept": "Synarel nasal solution"
+      },
+      "55": {
+        "conceptId": "494547712",
+        "concept": "Other: Please describe"
+      },
+      "88": {
+        "conceptId": "730713251",
+        "concept": "None of the above",
+        "isTextBox": true
+      },
+      "FERT_12_OTHER": {
+        "conceptId": "452455653",
+        "concept": "Other medication: please describe text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "160113046",
+    "concept": "Have you ever used any of these fertility medications? Select all that apply."
+  },
+  "FERT17_6": {
+    "isTextBox": true,
+    "questionText": "In total, how many months or cycles did you take Milophene?",
+    "conceptId": "101986342"
+  },
+  "HORMED5_6": {
+    "questIds": {
+      "hormedPatchMonth": {
+        "conceptId": "106172481",
+        "concept": "Months use birth control patch",
+        "isTextBox": true
+      },
+      "hormedPatchYear": {
+        "conceptId": "579057834",
+        "concept": "Years use birth control patch",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "771924706",
+    "concept": "In total, how many months or years have you used birth control patch?"
+  },
+  "SLEEP2K": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Do you use an alarm clock to wake up on non-workdays?",
+    "conceptId": "107283961"
+  },
+  "ACIDSUP2_2": {
+    "questIds": {
+      "ACIDSUP2_2WK": {
+        "conceptId": "111766088",
+        "concept": "over-the-counter proton pump inhibitors days per week",
+        "isTextBox": true
+      },
+      "ACIDSUP2_2MO": {
+        "conceptId": "145383028",
+        "concept": "over-the-counter proton pump inhibitors days per month",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "175176130",
+    "concept": "During the time(s) that you were taking over-the-counter proton pump inhibitors, about how many days per week OR per month did you take it? Please choose whichever makes the most sense for you."
+  },
+  "PROGHOR": {
+    "questIds": {
+      "0": {
+        "conceptId": "217949691",
+        "concept": "Oral progestin-only medication (such as Provera or Prometrium)"
+      },
+      "55": {
+        "conceptId": "599229539",
+        "concept": "Other progestin/progesterone-only medication: please describe"
+      },
+      "88": {
+        "conceptId": "112240014",
+        "concept": "None of the above",
+        "isTextBox": true
+      },
+      "oralEst_OTHER": {
+        "conceptId": "314336360",
+        "concept": "Other progestin/progesterone-only medication: please describe text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "279762682",
+    "concept": "Have you ever taken any of these types of combined estrogen plus progestin prescription hormones? Select all that apply."
+  },
+  "SLPROB2": {
+    "questIds": {
+      "0": {
+        "conceptId": "663820421",
+        "concept": "CPAP or BIPAP machine"
+      },
+      "1": {
+        "conceptId": "553832915",
+        "concept": "Dental (oral) device"
+      },
+      "2": {
+        "conceptId": "113545219",
+        "concept": "Throat/Uvula surgery"
+      },
+      "55": {
+        "conceptId": "319773960",
+        "concept": "Other: Please describe"
+      },
+      "88": {
+        "conceptId": "378718037",
+        "concept": "None of the above",
+        "isTextBox": true
+      },
+      "SLPROB_TB": {
+        "conceptId": "828892874",
+        "concept": "Other: Please describe text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "679701098",
+    "concept": "Which of these treatments do you use or once used for your sleep apnea? Select all that apply."
+  },
+  "SLHABIT3": {
+    "questIds": {
+      "SLHABIT3C": {
+        "conceptId": "115878839",
+        "concept": "Sitting inactive in a public place (such as a theater or a meeting)"
+      },
+      "SLHABIT3B": {
+        "conceptId": "181705770",
+        "concept": "Watching television"
+      },
+      "SLHABIT3D": {
+        "conceptId": "201173070",
+        "concept": "Riding as a passenger in a car for an hour without stopping"
+      },
+      "SLHABIT3H": {
+        "conceptId": "300938037",
+        "concept": "In a car, while you are stopped for a few minutes in traffic"
+      },
+      "SLHABIT3A": {
+        "conceptId": "554609010",
+        "concept": "Sitting and reading"
+      },
+      "SLHABIT3G": {
+        "conceptId": "697562293",
+        "concept": "Sitting quietly after a lunch that did not include alcohol"
+      },
+      "SLHABIT3F": {
+        "conceptId": "748061289",
+        "concept": "Sitting and talking to someone"
+      },
+      "SLHABIT3E": {
+        "conceptId": "797647861",
+        "concept": "Lying down to rest in the afternoon"
+      },
+      "SLHABIT3I": {
+        "conceptId": "903278523",
+        "concept": "At the dinner table"
+      }
+    },
+    "conceptId": "427892167",
+    "concept": "What is the chance that you would doze off or fall asleep (not just \"\"feel tired\"\") in each of these situations? If you are never or rarely in the situation, please make your best guess for what would happen."
+  },
+  "ESTROHOR3_5": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Are you currently using the other type of estrogen-only medication?",
+    "conceptId": "116256236"
+  },
+  "SNORING2": {
+    "questIds": {
+      "0": {
+        "conceptId": "799276789",
+        "concept": "Slightly louder than breathing"
+      },
+      "1": {
+        "conceptId": "759576112",
+        "concept": "As loud as talking"
+      },
+      "2": {
+        "conceptId": "705427850",
+        "concept": "Louder than talking"
+      },
+      "77": {
+        "conceptId": "992053303",
+        "concept": "Don't know"
+      }
+    },
+    "questionText": "How would you describe your snoring?",
+    "conceptId": "116818985"
+  },
+  "FERT17_5": {
+    "isTextBox": true,
+    "questionText": "In total, how many months or cycles did you take hCG?",
+    "conceptId": "117311340"
+  },
+  "SLRPOB1": {
+    "questIds": {
+      "0": {
+        "conceptId": "437837408",
+        "concept": "Sleep apnea (or Obstructive Sleep Apnea, OSA)"
+      },
+      "1": {
+        "conceptId": "844507050",
+        "concept": "Insomnia"
+      },
+      "2": {
+        "conceptId": "942805928",
+        "concept": "Restless legs"
+      },
+      "3": {
+        "conceptId": "120310379",
+        "concept": "Narcolepsy"
+      },
+      "88": {
+        "conceptId": "735580340",
+        "concept": "None of the above",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "738867501",
+    "concept": "Has a doctor or other health professional ever told you that you have any of these conditions? Select all that apply."
+  },
+  "PAINREL2_3": {
+    "questIds": {
+      "IbuprofenMONTH": {
+        "conceptId": "121225699",
+        "concept": "ibuprofen days per month",
+        "isTextBox": true
+      },
+      "IbuprofenWEEK": {
+        "conceptId": "574122174",
+        "concept": "ibuprofen days per week",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "281624604",
+    "concept": "During the time(s) that you were taking ibuprofen, about how many days per week OR per month did you take it? Please choose whichever makes the most sense for you."
+  },
+  "ESTROHOR": {
+    "questIds": {
+      "0": {
+        "conceptId": "209282907",
+        "concept": "Oral estrogen-only medication (such as Cenestin, Estrace, Femtrace, Menest, Ogen, or Premarin)"
+      },
+      "1": {
+        "conceptId": "775878596",
+        "concept": "Patch estrogen-only medication (such as Estraderm, Alora, or Climara)"
+      },
+      "2": {
+        "conceptId": "123633026",
+        "concept": "Vaginal ring (Femring), vaginal cream (Estrace), or vaginal tablet (Vagifem) estrogen-only medication"
+      },
+      "3": {
+        "conceptId": "180258544",
+        "concept": "Estrogen-only skin gel, cream, or spray-on medication (such as Divigel, Elestrin, or Estrogel)"
+      },
+      "55": {
+        "conceptId": "837959810",
+        "concept": "Any other type of estrogen-only medication: Please describe"
+      },
+      "88": {
+        "conceptId": "344497143",
+        "concept": "None of the above",
+        "isTextBox": true
+      },
+      "ESTROHOR1_5_OTHER": {
+        "conceptId": "706029769",
+        "concept": "Other medication: please describe text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "735462384",
+    "concept": "Have you ever taken any of these types of estrogen-only (unopposed estrogen) prescription hormones? Select all that apply."
+  },
+  "HORMED": {
+    "questIds": {
+      "0": {
+        "conceptId": "974112279",
+        "concept": "Combined oral contraceptive pills, commonly called \"\"the pill\"\" (combined means the pill includes both estrogen and progesterone/progestin)"
+      },
+      "1": {
+        "conceptId": "123901323",
+        "concept": "Progesterone-only or progestin-only contraceptive pills, commonly called \"\"the mini-pill\"\""
+      },
+      "2": {
+        "conceptId": "968471994",
+        "concept": "Norplant (inserted under the skin of your upper arm, lasts several years)"
+      },
+      "3": {
+        "conceptId": "556342062",
+        "concept": "Depo-provera (birth control shot given once every three months)"
+      },
+      "4": {
+        "conceptId": "271047830",
+        "concept": "Vaginal ring (such as Nuva Ring, inserted vaginally each month)"
+      },
+      "5": {
+        "conceptId": "991732791",
+        "concept": "Birth control patch (such as Ortho Evra, applied to the skin)"
+      },
+      "6": {
+        "conceptId": "475673384",
+        "concept": "Copper IUD (such as Paraguard intrauterine device)"
+      },
+      "7": {
+        "conceptId": "988086821",
+        "concept": "Hormonal IUD (such as Mirena intrauterine device)"
+      },
+      "55": {
+        "conceptId": "522695837",
+        "concept": "Other: Please describe"
+      },
+      "88": {
+        "conceptId": "837325241",
+        "concept": "None of the above",
+        "isTextBox": true
+      },
+      "HORMED_9_OTHER": {
+        "conceptId": "387408732",
+        "concept": "Other medication: please describe text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "588576887",
+    "concept": "Have you ever used any of these hormonal medications or devices? Select all that apply."
+  },
+  "ACIDSUP6_3": {
+    "isTextBox": true,
+    "questionText": "How many years ago did you last take over-the-counter H2 receptor blockers?",
+    "conceptId": "125402414"
+  },
+  "FERT5": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      },
+      "99": {
+        "conceptId": "883742295",
+        "concept": "Prefer not to answer"
+      }
+    },
+    "questionText": "Have you ever used fertility medications?",
+    "conceptId": "127181527"
+  },
+  "COMBHOR4_3": {
+    "isTextBox": true,
+    "questionText": "How old were you when you last used the other combined estrogen plus progestin prescription hormone?",
+    "conceptId": "138591118"
+  },
+  "PAINREL5_3": {
+    "questIds": {
+      "0": {
+        "conceptId": "588386843",
+        "concept": "In the past month"
+      },
+      "1": {
+        "conceptId": "661379363",
+        "concept": "More than a month ago, but in the past year"
+      },
+      "2": {
+        "conceptId": "443109235",
+        "concept": "More than 1 year ago"
+      }
+    },
+    "questionText": "When was the last time you took ibuprofen?",
+    "conceptId": "150967156"
+  },
+  "MENSHIS8": {
+    "isTextBox": true,
+    "questionText": "How old were you when you had your last menstrual period?",
+    "conceptId": "141035545"
+  },
+  "PAINREL5_2": {
+    "questIds": {
+      "0": {
+        "conceptId": "588386843",
+        "concept": "In the past month"
+      },
+      "1": {
+        "conceptId": "661379363",
+        "concept": "More than a month ago, but in the past year"
+      },
+      "2": {
+        "conceptId": "443109235",
+        "concept": "More than 1 year ago"
+      }
+    },
+    "questionText": "When was the last time you took regular or extra strength aspirin?",
+    "conceptId": "201552321"
+  },
+  "FERT4": {
+    "questIds": {
+      "0": {
+        "conceptId": "809473963",
+        "concept": "Tubal blockage"
+      },
+      "1": {
+        "conceptId": "873523208",
+        "concept": "Ovary or hormone problem"
+      },
+      "2": {
+        "conceptId": "953927378",
+        "concept": "Endometriosis"
+      },
+      "3": {
+        "conceptId": "905872191",
+        "concept": "Cervical mucous factor"
+      },
+      "4": {
+        "conceptId": "269565490",
+        "concept": "Spouse/partner\"\"s infertility"
+      },
+      "5": {
+        "conceptId": "144365657",
+        "concept": "Cause of infertility was not looked into"
+      },
+      "6": {
+        "conceptId": "606077766",
+        "concept": "No cause was found"
+      },
+      "55": {
+        "conceptId": "376537833",
+        "concept": "Other: Please describe"
+      },
+      "FERT4OTHER": {
+        "conceptId": "404474102",
+        "concept": "Other reason: please describe text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "444920856",
+    "concept": "When you tried to get pregnant for over a year, do you know what the issue was that caused you not to get pregnant? Select all that apply."
+  },
+  "ACIDSUP4_2": {
+    "isTextBox": true,
+    "questionText": "About how many years did you take over-the-counter proton pump inhibitors?",
+    "conceptId": "147428343"
+  },
+  "SLHABIT1": {
+    "questIds": {
+      "SLHABIT1B": {
+        "conceptId": "148905395",
+        "concept": "Did you wake up several times a night?"
+      },
+      "SLHABIT1A": {
+        "conceptId": "383444669",
+        "concept": "Did you have trouble falling asleep?"
+      },
+      "SLHABIT1D": {
+        "conceptId": "511991660",
+        "concept": "Did you have trouble getting back to sleep after you woke up earlier than you planned to?"
+      },
+      "SLHABIT1C": {
+        "conceptId": "516563804",
+        "concept": "Did you wake up earlier than you planned to?"
+      },
+      "SLHABIT1G": {
+        "conceptId": "687377354",
+        "concept": "Did you feel very tired during the day?"
+      },
+      "SLHABIT1E": {
+        "conceptId": "719375821",
+        "concept": "Did you take prescription or over-the-counter sleeping pills to help you sleep?"
+      },
+      "SLHABIT1F": {
+        "conceptId": "965283776",
+        "concept": "Did you have sleep problems that made you irritable (easily annoyed)?"
+      }
+    },
+    "conceptId": "725351718",
+    "concept": "Thinking of the past 4 weeks, choose the answers that best describe your sleep."
+  },
+  "PREG2": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Have you ever been pregnant?",
+    "conceptId": "154921830"
+  },
+  "SLEEP2N": {
+    "questIds": {
+      "WorkdayOutsideMin": {
+        "conceptId": "156101645",
+        "concept": "Minutes spent in direct sunlight",
+        "isTextBox": true
+      },
+      "WorkdayOutsideHours": {
+        "conceptId": "392437572",
+        "concept": "Hours spent in direct sunlight",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "632921422",
+    "concept": "On non-workdays, are you able to choose the times when you go to sleep and when you wake up? Some reasons you may not be able to choose sleeping and waking times include children, pets, or other non-work activities."
+  },
+  "PAINREL4_2": {
+    "isTextBox": true,
+    "questionText": "About how many years did you take regular or extra strength aspirin?",
+    "conceptId": "159117733"
+  },
+  "PAINREL4_7": {
+    "isTextBox": true,
+    "questionText": "About how many years did you take prescription pain relievers containing opioids?",
+    "conceptId": "161038631"
+  },
+  "PAINREL3_1": {
+    "questIds": {
+      "PAINREL3_1": {
+        "conceptId": "162961602",
+        "concept": "Pills per day baby or low-dose aspirin (81 mg or less), don't know",
+        "isTextBox": true
+      },
+      "PAINREL3_1A": {
+        "conceptId": "481780220",
+        "concept": "Pills per day baby or low-dose aspirin (81 mg or less)",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "248058892",
+    "concept": "On the days that you took baby or low-dose aspirin (81 mg or less), about how many pills did you take per day, on most days?"
+  },
+  "PAINREL3_7": {
+    "questIds": {
+      "PAINREL3_7A": {
+        "conceptId": "164489655",
+        "concept": "Pills per day prescription pain relievers containing opioids",
+        "isTextBox": true
+      },
+      "PAINREL3_7": {
+        "conceptId": "331752759",
+        "concept": "Pills per day prescription pain relievers containing opioids, don't know",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "494499185",
+    "concept": "On the days that you took prescription pain relievers containing opioids, about how many pills did you take per day, on most days?"
+  },
+  "METFOR4_1": {
+    "isTextBox": true,
+    "questionText": "About how many years did you take metformin?",
+    "conceptId": "169492708"
+  },
+  "ESTROHOR3_2": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Are you currently using patch estrogen-only medication?",
+    "conceptId": "170131983"
+  },
+  "SLEEP2F": {
+    "isTextBox": true,
+    "questionText": "What time do you usually wake up on non-workdays? Select your answer using the drop-down options below.",
+    "conceptId": "170371262"
+  },
+  "TESTTHER4": {
+    "questIds": {
+      "0": {
+        "conceptId": "138892485",
+        "concept": "Multiple times a day"
+      },
+      "1": {
+        "conceptId": "461456740",
+        "concept": "Daily"
+      },
+      "2": {
+        "conceptId": "250545327",
+        "concept": "Every few days"
+      },
+      "3": {
+        "conceptId": "590110721",
+        "concept": "Once a week"
+      },
+      "4": {
+        "conceptId": "757576007",
+        "concept": "Few times a month"
+      },
+      "5": {
+        "conceptId": "689375103",
+        "concept": "Rarely"
+      }
+    },
+    "questionText": "How often did you use testosterone therapy? If you currently use testosterone therapy, how often do you use it?",
+    "conceptId": "177222977"
+  },
+  "FERT17_1": {
+    "isTextBox": true,
+    "questionText": "In total, how many months or cycles did you take Clomid?",
+    "conceptId": "178492247"
+  },
+  "HORMED4_8": {
+    "isTextBox": true,
+    "questionText": "How old were you when you last used hormonal IUD?",
+    "conceptId": "178863061"
+  },
+  "ACIDSUP": {
+    "questIds": {
+      "0": {
+        "conceptId": "678348313",
+        "concept": "prescription proton pump inhibitors"
+      },
+      "1": {
+        "conceptId": "183517023",
+        "concept": "over-the-counter proton pump inhibitors"
+      },
+      "2": {
+        "conceptId": "534123753",
+        "concept": "over-the-counter H2 receptor blockers"
+      },
+      "88": {
+        "conceptId": "211481846",
+        "concept": "None of the above"
+      }
+    },
+    "conceptId": "290298205",
+    "concept": "Acid Suppressive Drugs- Have you ever taken any of these medications at least 4 times a month for 6 months or longer? Select all that apply."
+  },
+  "ACIDSUP3_3": {
+    "questIds": {
+      "ACIDSUP3_3": {
+        "conceptId": "183998476",
+        "concept": "Pills per day over-the-counter H2 receptor blockers, don't know",
+        "isTextBox": true
+      },
+      "ACIDSUP3_3A": {
+        "conceptId": "502535100",
+        "concept": "Pills per day over-the-counter H2 receptor blockers",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "672084371",
+    "concept": "On the days that you took over-the-counter H2 receptor blockers, about how many pills did you take per day, on most days?"
+  },
+  "CHOLHTN2_1": {
+    "questIds": {
+      "CHOLHTN2_1WK": {
+        "conceptId": "193736910",
+        "concept": "statins/cholesterol or lipid lowering drugs days per week",
+        "isTextBox": true
+      },
+      "CHOLHTN2_1MO": {
+        "conceptId": "283723138",
+        "concept": "statins/cholesterol or lipid lowering drugs days per month",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "645144720",
+    "concept": "During the time(s) that you were taking statins/cholesterol or lipid lowering drugs, about how many days per week OR per month did you take it? Please choose whichever makes the most sense for you."
+  },
+  "HORMED2_9": {
+    "isTextBox": true,
+    "questionText": "How old were you when you first used the other hormonal medications or devices?",
+    "conceptId": "195798438"
+  },
+  "HORMED2_2": {
+    "isTextBox": true,
+    "questionText": "How old were you when you first used progesterone-only or progestin-only contraceptive pills?",
+    "conceptId": "200164474"
+  },
+  "HORMED3_6": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Are you currently using birth control patch?",
+    "conceptId": "200494075"
+  },
+  "PAINREL1": {
+    "questIds": {
+      "0": {
+        "conceptId": "880348290",
+        "concept": "Baby or low-dose aspirin (81 mg or less)"
+      },
+      "1": {
+        "conceptId": "210970924",
+        "concept": "Regular or extra strength aspirin (such as Bufferin or Anacin)"
+      },
+      "2": {
+        "conceptId": "200636882",
+        "concept": "Ibuprofen (such as Motrin or Advil)"
+      },
+      "3": {
+        "conceptId": "430292883",
+        "concept": "Acetaminophen (such as Tylenol)"
+      },
+      "4": {
+        "conceptId": "661988285",
+        "concept": "Naproxen (such as Naprosyn, Anaprox, or Aleve)"
+      },
+      "5": {
+        "conceptId": "956402340",
+        "concept": "Celebrex (Celecoxib)"
+      },
+      "6": {
+        "conceptId": "978035924",
+        "concept": "Prescription pain relievers containing opioids"
+      },
+      "88": {
+        "conceptId": "319901491",
+        "concept": "None of the above"
+      }
+    },
+    "conceptId": "541804044",
+    "concept": "Pain relievers- Have you ever taken any of these medications at least 4 times a month for 6 months or longer? Select all that apply."
+  },
+  "PAINREL5_7": {
+    "isTextBox": true,
+    "questionText": "About how many years ago did you take prescription pain relievers containing opioids?",
+    "conceptId": "701048411"
+  },
+  "SLHABIT2": {
+    "questIds": {
+      "0": {
+        "conceptId": "796705932",
+        "concept": "Very sound or restful"
+      },
+      "1": {
+        "conceptId": "570369706",
+        "concept": "Sound and restful"
+      },
+      "2": {
+        "conceptId": "989828306",
+        "concept": "Average quality"
+      },
+      "3": {
+        "conceptId": "356773122",
+        "concept": "Restless"
+      },
+      "4": {
+        "conceptId": "593905713",
+        "concept": "Very restless"
+      }
+    },
+    "questionText": "Overall, how was your sleep on a usual night sleep during the past 4 weeks?",
+    "conceptId": "207376658"
+  },
+  "ESTROHOR4_3": {
+    "isTextBox": true,
+    "questionText": "How old were you when you last used vaginal ring, vaginal cream, or vaginal tablet estrogen-only medication?",
+    "conceptId": "208887019"
+  },
+  "HORMED3_1": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Are you currently using combined oral contraceptive pills?",
+    "conceptId": "212556544"
+  },
+  "PAINREL2_4": {
+    "questIds": {
+      "AcetMONTH": {
+        "conceptId": "215681107",
+        "concept": "Acetaminophen days per month",
+        "isTextBox": true
+      },
+      "AcetWEEK": {
+        "conceptId": "560846781",
+        "concept": "Acetaminophen days per week",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "804737602",
+    "concept": "During the time(s) that you were taking Acetaminophen, about how many days per week OR per month did you take it? Please choose whichever makes the most sense for you."
+  },
+  "PAINREL5_5": {
+    "questIds": {
+      "0": {
+        "conceptId": "588386843",
+        "concept": "In the past month"
+      },
+      "1": {
+        "conceptId": "661379363",
+        "concept": "More than a month ago, but in the past year"
+      },
+      "2": {
+        "conceptId": "443109235",
+        "concept": "More than 1 year ago"
+      }
+    },
+    "questionText": "When was the last time you took naproxen?",
+    "conceptId": "396837908"
+  },
+  "SNORING4": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      },
+      "77": {
+        "conceptId": "992053303",
+        "concept": "Don't know"
+      }
+    },
+    "questionText": "Has your snoring ever bothered other people?",
+    "conceptId": "220306811"
+  },
+  "CHOLHTN": {
+    "questIds": {
+      "0": {
+        "conceptId": "220514605",
+        "concept": "Statins/cholesterol or lipid lowering drugs"
+      },
+      "1": {
+        "conceptId": "220635554",
+        "concept": "Anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)"
+      },
+      "88": {
+        "conceptId": "651061764",
+        "concept": "None of the above"
+      }
+    },
+    "conceptId": "781397297",
+    "concept": "Cholesterol and Blood Pressure (Hypertension) Medications- Have you ever taken any of these medications at least 4 times a month for 6 months or longer? Select all that apply."
+  },
+  "EXEREC3B": {
+    "questIds": {
+      "0": {
+        "conceptId": "443374172",
+        "concept": "Once a month or less_"
+      },
+      "1": {
+        "conceptId": "317967870",
+        "concept": "1-3 days a month_"
+      },
+      "2": {
+        "conceptId": "160289508",
+        "concept": "0-2 days a week"
+      },
+      "3": {
+        "conceptId": "415815518",
+        "concept": "2-4 days a week__"
+      },
+      "4": {
+        "conceptId": "399220128",
+        "concept": "4-6 days a week_"
+      },
+      "5": {
+        "conceptId": "438928627",
+        "concept": "Every day_"
+      }
+    },
+    "questionText": "During the season[s] in the past 12 months that you went jogging or running, about how often did you do this activity?",
+    "conceptId": "221723193"
+  },
+  "EXEREC4O": {
+    "questIds": {
+      "0": {
+        "conceptId": "471675167",
+        "concept": "05 minutes or less_\"\""
+      },
+      "1": {
+        "conceptId": "405634821",
+        "concept": "06-30 minutes_\"\""
+      },
+      "2": {
+        "conceptId": "845236449",
+        "concept": "21-44 minutes_"
+      },
+      "3": {
+        "conceptId": "528099182",
+        "concept": "35-59 minutes_"
+      },
+      "4": {
+        "conceptId": "517978296",
+        "concept": "0-1.9 hours_"
+      },
+      "5": {
+        "conceptId": "109306831",
+        "concept": "1-2.9 hours_"
+      },
+      "6": {
+        "conceptId": "599036415",
+        "concept": "2 hours or more_"
+      }
+    },
+    "questionText": "On the days that you did other exercise, about how much time per day did you spend doing this activity?",
+    "conceptId": "222379901"
+  },
+  "HORMED5_5": {
+    "questIds": {
+      "hormedRingYear": {
+        "conceptId": "230909217",
+        "concept": "Years use vaginal ring",
+        "isTextBox": true
+      },
+      "hormedRingMonth": {
+        "conceptId": "585869719",
+        "concept": "Months use vaginal ring",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "949390121",
+    "concept": "In total, how many months or years have you used vaginal ring?"
+  },
+  "PAINREL5_4": {
+    "isTextBox": true,
+    "questionText": "About how many years ago did you take acetaminophen?",
+    "conceptId": "746589527"
+  },
+  "EXEREC4K": {
+    "questIds": {
+      "0": {
+        "conceptId": "471675167",
+        "concept": "05 minutes or less_\"\""
+      },
+      "1": {
+        "conceptId": "405634821",
+        "concept": "06-30 minutes_\"\""
+      },
+      "2": {
+        "conceptId": "845236449",
+        "concept": "21-44 minutes_"
+      },
+      "3": {
+        "conceptId": "528099182",
+        "concept": "35-59 minutes_"
+      },
+      "4": {
+        "conceptId": "517978296",
+        "concept": "0-1.9 hours_"
+      },
+      "5": {
+        "conceptId": "109306831",
+        "concept": "1-2.9 hours_"
+      },
+      "6": {
+        "conceptId": "599036415",
+        "concept": "2 hours or more_"
+      }
+    },
+    "questionText": "On the days that you did downhill skiing or snowboarding, about how much time per day did you spend doing this activity?",
+    "conceptId": "238846543"
+  },
+  "SHIFTWORK8": {
+    "questIds": {
+      "0": {
+        "conceptId": "616716889",
+        "concept": "Extremely flexible"
+      },
+      "1": {
+        "conceptId": "606587262",
+        "concept": "Very flexible"
+      },
+      "2": {
+        "conceptId": "577049357",
+        "concept": "Somewhat flexible"
+      },
+      "3": {
+        "conceptId": "164940872",
+        "concept": "A little flexible"
+      },
+      "4": {
+        "conceptId": "184345094",
+        "concept": "Not at all flexible"
+      }
+    },
+    "questionText": "[When you were a shift worker,] how flexible [is/was] your work shift schedule?",
+    "conceptId": "241473974"
+  },
+  "PAINREL3_3": {
+    "questIds": {
+      "PAINREL3_3A": {
+        "conceptId": "242268957",
+        "concept": "Pills per day ibuprofen",
+        "isTextBox": true
+      },
+      "PAINREL3_3": {
+        "conceptId": "959620691",
+        "concept": "Pills per day ibuprofen, don't know",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "751463302",
+    "concept": "On the days that you took ibuprofen, about how many pills did you take per day, on most days?"
+  },
+  "FERT3": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Did you ever seek medical advice when you tried to get pregnant for over a year?",
+    "conceptId": "244176519"
+  },
+  "HORMED5_1": {
+    "questIds": {
+      "horcomPillYear": {
+        "conceptId": "246253682",
+        "concept": "Years use combined oral contraceptive pills",
+        "isTextBox": true
+      },
+      "horcomPillMonth": {
+        "conceptId": "687484957",
+        "concept": "Months use combined oral contraceptive pills",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "479924976",
+    "concept": "In total, how many months or years have you used combined oral contraceptive pills?"
+  },
+  "WORKACTC": {
+    "questIds": {
+      "0": {
+        "conceptId": "503218834",
+        "concept": "None"
+      },
+      "1": {
+        "conceptId": "469725900",
+        "concept": "Less than 30 min"
+      },
+      "2": {
+        "conceptId": "454476671",
+        "concept": "20 min"
+      },
+      "3": {
+        "conceptId": "447747491",
+        "concept": "35 min"
+      },
+      "4": {
+        "conceptId": "444857841",
+        "concept": "0 hr"
+      },
+      "5": {
+        "conceptId": "848958584",
+        "concept": "0 to 2.9 hrs"
+      },
+      "6": {
+        "conceptId": "455438870",
+        "concept": "2 to 4.9 hrs"
+      },
+      "7": {
+        "conceptId": "147881884",
+        "concept": "5 to 6.9 hrs."
+      },
+      "8": {
+        "conceptId": "728692369",
+        "concept": "7 to 8.9 hrs."
+      },
+      "9": {
+        "conceptId": "141557476",
+        "concept": "9 hrs. or more"
+      }
+    },
+    "questionText": "Walking and carrying materials weighing less than 50 pounds (for example, delivering mail, waiting tables, light construction, janitorial work, etc.)",
+    "conceptId": "247826045"
+  },
+  "CHOLHTN4_1": {
+    "isTextBox": true,
+    "questionText": "About how many years did you take statins/cholesterol or lipid lowering drugs?",
+    "conceptId": "250807842"
+  },
+  "EXEREC2O": {
+    "questIds": {
+      "0": {
+        "conceptId": "765747741",
+        "concept": "Winter"
+      },
+      "1": {
+        "conceptId": "256014575",
+        "concept": "Spring"
+      },
+      "2": {
+        "conceptId": "344064534",
+        "concept": "Summer"
+      },
+      "3": {
+        "conceptId": "982998942",
+        "concept": "Fall"
+      }
+    },
+    "conceptId": "436818127",
+    "concept": "In which season(s) you do other exercise? Select all that apply."
+  },
+  "LAWN3B": {
+    "questIds": {
+      "0": {
+        "conceptId": "443374172",
+        "concept": "Once a month or less_"
+      },
+      "1": {
+        "conceptId": "317967870",
+        "concept": "1-3 days a month_"
+      },
+      "2": {
+        "conceptId": "160289508",
+        "concept": "0-2 days a week"
+      },
+      "3": {
+        "conceptId": "415815518",
+        "concept": "2-4 days a week__"
+      },
+      "4": {
+        "conceptId": "399220128",
+        "concept": "4-6 days a week_"
+      },
+      "5": {
+        "conceptId": "438928627",
+        "concept": "Every day_"
+      }
+    },
+    "questionText": "During the season[s] in the past 12 months that you did vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling), about how often did you do these chores outside of work?",
+    "conceptId": "257672072"
+  },
+  "PREG12": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Has a doctor or other health professional ever told you that you have or had eclampsia or pre-eclampsia?",
+    "conceptId": "257950619"
+  },
+  "ACIDSUP3_1": {
+    "questIds": {
+      "ACIDSUP3_1": {
+        "conceptId": "258113596",
+        "concept": "Pills per day prescription proton pump inhibitors, don't know",
+        "isTextBox": true
+      },
+      "ACIDSUP3_1A": {
+        "conceptId": "640196569",
+        "concept": "Pills per day prescription proton pump inhibitors",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "211083443",
+    "concept": "On the days that you took prescription proton pump inhibitors, about how many pills did you take per day, on most days?"
+  },
+  "COMBHOR": {
+    "questIds": {
+      "0": {
+        "conceptId": "462005487",
+        "concept": "Combined oral estrogen plus progestin pill (such as Prempro, Activella, Femhrt, or Prefest)"
+      },
+      "1": {
+        "conceptId": "262161082",
+        "concept": "Two separate pills, one estrogen and one progestin pill"
+      },
+      "55": {
+        "conceptId": "459271305",
+        "concept": "Any other type of combined estrogen plus progestin prescription hormones (such as the patch (Climara-Pro), other pills, or creams): Please describe"
+      },
+      "88": {
+        "conceptId": "397851455",
+        "concept": "None of the above",
+        "isTextBox": true
+      },
+      "anyComEst_OTHER": {
+        "conceptId": "801222146",
+        "concept": "Any other type of combined estrogen plus progestin prescription hormones (such as the patch (Climara-Pro), other pills, or creams): Please describe text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "279762682",
+    "concept": "Have you ever taken any of these types of combined estrogen plus progestin prescription hormones? Select all that apply."
+  },
+  "EXEREC3G": {
+    "questIds": {
+      "0": {
+        "conceptId": "443374172",
+        "concept": "Once a month or less_"
+      },
+      "1": {
+        "conceptId": "317967870",
+        "concept": "1-3 days a month_"
+      },
+      "2": {
+        "conceptId": "160289508",
+        "concept": "0-2 days a week"
+      },
+      "3": {
+        "conceptId": "415815518",
+        "concept": "2-4 days a week__"
+      },
+      "4": {
+        "conceptId": "399220128",
+        "concept": "4-6 days a week_"
+      },
+      "5": {
+        "conceptId": "438928627",
+        "concept": "Every day_"
+      }
+    },
+    "questionText": "During the season[s] in the past 12 months that you did strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups), about how often did you do this activity?",
+    "conceptId": "263494578"
+  },
+  "EXEREC4G": {
+    "questIds": {
+      "0": {
+        "conceptId": "471675167",
+        "concept": "05 minutes or less_\"\""
+      },
+      "1": {
+        "conceptId": "405634821",
+        "concept": "06-30 minutes_\"\""
+      },
+      "2": {
+        "conceptId": "845236449",
+        "concept": "21-44 minutes_"
+      },
+      "3": {
+        "conceptId": "528099182",
+        "concept": "35-59 minutes_"
+      },
+      "4": {
+        "conceptId": "517978296",
+        "concept": "0-1.9 hours_"
+      },
+      "5": {
+        "conceptId": "109306831",
+        "concept": "1-2.9 hours_"
+      },
+      "6": {
+        "conceptId": "599036415",
+        "concept": "2 hours or more_"
+      }
+    },
+    "questionText": "On the days that you did strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups), about how much time per day did you spend doing this activity?",
+    "conceptId": "264330020"
+  },
+  "PREG9": {
+    "isTextBox": true,
+    "questionText": "How many months did you breastfeed?",
+    "conceptId": "264621336"
+  },
+  "PREG11": {
+    "isTextBox": true,
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had gestational diabetes?",
+    "conceptId": "268514155"
+  },
+  "HORMED4_9": {
+    "isTextBox": true,
+    "questionText": "How old were you when you last used the other hormonal medications or devices?",
+    "conceptId": "270881505"
+  },
+  "METFOR2_1": {
+    "questIds": {
+      "METFOR2_1MO": {
+        "conceptId": "271341725",
+        "concept": "Metformin days per month",
+        "isTextBox": true
+      },
+      "METFOR2_1WK": {
+        "conceptId": "316478763",
+        "concept": "Metformin days per week",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "532797375",
+    "concept": "During the time(s) that you were taking metformin, about how many days per week OR per month did you take it? Please choose whichever makes the most sense for you."
+  },
+  "PAINREL2_7": {
+    "questIds": {
+      "PainRelWEEK": {
+        "conceptId": "273113342",
+        "concept": "prescription pain relievers containing opioids days per week",
+        "isTextBox": true
+      },
+      "PainRelMONTH": {
+        "conceptId": "508845192",
+        "concept": "prescription pain relievers containing opioids days per month",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "487417484",
+    "concept": "During the time(s) that you were taking prescription pain relievers containing opioids, about how many days per week OR per month did you take it? Please choose whichever makes the most sense for you."
+  },
+  "CHOLHTN5_2": {
+    "questIds": {
+      "0": {
+        "conceptId": "588386843",
+        "concept": "In the past month"
+      },
+      "1": {
+        "conceptId": "661379363",
+        "concept": "More than a month ago, but in the past year"
+      },
+      "2": {
+        "conceptId": "443109235",
+        "concept": "More than 1 year ago"
+      }
+    },
+    "questionText": "When was the last time you took anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)?",
+    "conceptId": "273465284"
+  },
+  "ESTROHOR5_3": {
+    "questIds": {
+      "ESTROHOROtherMonth": {
+        "conceptId": "274121939",
+        "concept": "Months use vaginal ring, vaginal cream, or vaginal tablet estrogen-only medication",
+        "isTextBox": true
+      },
+      "ESTROHOROtherYear": {
+        "conceptId": "994746728",
+        "concept": "Years use vaginal ring, vaginal cream, or vaginal tablet estrogen-only medication",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "439635373",
+    "concept": "In total, how many months or years have you used vaginal ring, vaginal cream, or vaginal tablet estrogen-only medication?"
+  },
+  "COMBHOR5_1": {
+    "questIds": {
+      "combinedMonth": {
+        "conceptId": "281276562",
+        "concept": "Months use combined oral estrogen plus progestin pill",
+        "isTextBox": true
+      },
+      "combinedYear": {
+        "conceptId": "360460537",
+        "concept": "Years use combined oral estrogen plus progestin pill",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "402526180",
+    "concept": "In total, how many months or years have you used oral progestin-only medication?"
+  },
+  "HORMED5_2": {
+    "questIds": {
+      "miniPillMonth": {
+        "conceptId": "281916935",
+        "concept": "Months use progesterone-only or progestin-only contraceptive pills",
+        "isTextBox": true
+      },
+      "miniPillYear": {
+        "conceptId": "686384026",
+        "concept": "Years use progesterone-only or progestin-only contraceptive pills",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "710484780",
+    "concept": "In total, how many months or years have you used progesterone-only or progestin-only contraceptive pills?"
+  },
+  "WORKACTA": {
+    "questIds": {
+      "0": {
+        "conceptId": "503218834",
+        "concept": "None"
+      },
+      "1": {
+        "conceptId": "469725900",
+        "concept": "Less than 30 min"
+      },
+      "2": {
+        "conceptId": "454476671",
+        "concept": "20 min"
+      },
+      "3": {
+        "conceptId": "447747491",
+        "concept": "35 min"
+      },
+      "4": {
+        "conceptId": "444857841",
+        "concept": "0 hr"
+      },
+      "5": {
+        "conceptId": "848958584",
+        "concept": "0 to 2.9 hrs"
+      },
+      "6": {
+        "conceptId": "455438870",
+        "concept": "2 to 4.9 hrs"
+      },
+      "7": {
+        "conceptId": "147881884",
+        "concept": "5 to 6.9 hrs."
+      },
+      "8": {
+        "conceptId": "728692369",
+        "concept": "7 to 8.9 hrs."
+      },
+      "9": {
+        "conceptId": "141557476",
+        "concept": "9 hrs. or more"
+      }
+    },
+    "questionText": "Sitting with small arm movements (for example, desk or computer work, light assembly, driving, etc.)",
+    "conceptId": "285788259"
+  },
+  "HORMED5_8": {
+    "questIds": {
+      "horIudYear": {
+        "conceptId": "288238689",
+        "concept": "Years use hormonal IUD",
+        "isTextBox": true
+      },
+      "horIudMonth": {
+        "conceptId": "358820842",
+        "concept": "Months use hormonal IUD",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "123598637",
+    "concept": "In total, how many months or years have you used hormonal IUD?"
+  },
+  "ESTROHOR2_1": {
+    "isTextBox": true,
+    "questionText": "How old were you when you first used oral estrogen-only medication?",
+    "conceptId": "288716610"
+  },
+  "PAINREL4_4": {
+    "isTextBox": true,
+    "questionText": "About how many years did you take acetaminophen?",
+    "conceptId": "290769552"
+  },
+  "EXEREC4N": {
+    "questIds": {
+      "0": {
+        "conceptId": "471675167",
+        "concept": "05 minutes or less_\"\""
+      },
+      "1": {
+        "conceptId": "405634821",
+        "concept": "06-30 minutes_\"\""
+      },
+      "2": {
+        "conceptId": "845236449",
+        "concept": "21-44 minutes_"
+      },
+      "3": {
+        "conceptId": "528099182",
+        "concept": "35-59 minutes_"
+      },
+      "4": {
+        "conceptId": "517978296",
+        "concept": "0-1.9 hours_"
+      },
+      "5": {
+        "conceptId": "109306831",
+        "concept": "1-2.9 hours_"
+      },
+      "6": {
+        "conceptId": "599036415",
+        "concept": "2 hours or more_"
+      }
+    },
+    "questionText": "On the days that you did high-intensity circuit training (such as P90x or Crossfit), about how much time per day did you spend doing this activity?",
+    "conceptId": "291299334"
+  },
+  "LAWN1": {
+    "questIds": {
+      "0": {
+        "conceptId": "400146899",
+        "concept": "Moderate outdoor chores (such as weeding, raking, or mowing the lawn)"
+      },
+      "1": {
+        "conceptId": "442809745",
+        "concept": "Vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)"
+      },
+      "2": {
+        "conceptId": "812498926",
+        "concept": "Home repair (such as painting, plumbing, or replacing carpeting)"
+      },
+      "88": {
+        "conceptId": "291660346",
+        "concept": "I did not do any of these activities",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "765913503",
+    "concept": "During the past 12 months, did you do any of these activities outside of work? Select all that apply."
+  },
+  "PROGHOR5_1": {
+    "questIds": {
+      "oralMedMonth": {
+        "conceptId": "292046399",
+        "concept": "Months use oral progestin-only medication",
+        "isTextBox": true
+      },
+      "oralMedYear": {
+        "conceptId": "536136847",
+        "concept": "Years use oral progestin-only medication",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "402526180",
+    "concept": "In total, how many months or years have you used oral progestin-only medication?"
+  },
+  "PREG3": {
+    "isTextBox": true,
+    "questionText": "How many times have you been pregnant? Please include all live births, as well as pregnancies that ended as stillbirths, miscarriages, ectopic or tubal pregnancies, or termination. Twins, triplets, or higher multiples count as one pregnancy.",
+    "conceptId": "297782000"
+  },
+  "SLEEPSCHB": {
+    "questIds": {
+      "0": {
+        "conceptId": "266264528",
+        "concept": "0"
+      },
+      "1": {
+        "conceptId": "427941646",
+        "concept": "1"
+      },
+      "2": {
+        "conceptId": "156095877",
+        "concept": "2"
+      },
+      "3": {
+        "conceptId": "162668459",
+        "concept": "3"
+      },
+      "4": {
+        "conceptId": "278139969",
+        "concept": "4"
+      },
+      "5": {
+        "conceptId": "676824724",
+        "concept": "5"
+      },
+      "6": {
+        "conceptId": "512144428",
+        "concept": "6"
+      }
+    },
+    "questionText": "How many days per week is your sleep schedule determined by your job, school, or other activities?",
+    "conceptId": "298357606"
+  },
+  "HORMED5_9": {
+    "questIds": {
+      "hormedOtherYear": {
+        "conceptId": "300004293",
+        "concept": "Years use the other hormonal medications or devices",
+        "isTextBox": true
+      },
+      "hormedOtherMonth": {
+        "conceptId": "836372048",
+        "concept": "Months use the other hormonal medications or devices",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "121202939",
+    "concept": "In total, how many months or years have you used the other hormonal medications or devices?"
+  },
+  "ACIDSUP4_1": {
+    "isTextBox": true,
+    "questionText": "About how many years did you take prescription proton pump inhibitors?",
+    "conceptId": "304347931"
+  },
+  "PRESHOR6": {
+    "questIds": {
+      "preshor2Month": {
+        "conceptId": "305558353",
+        "concept": "Months use the other type of prescription hormone",
+        "isTextBox": true
+      },
+      "preshor2Year": {
+        "conceptId": "533043349",
+        "concept": "Years use the other type of prescription hormone",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "127601066",
+    "concept": "In total, how many months or years have you used the other type of prescription hormone?"
+  },
+  "SLEEP1A": {
+    "isTextBox": true,
+    "questionText": "What time do you usually go to bed on [the nights before workdays/most days]? Please tell us the time you usually get into your bed, not the time you usually fall asleep.",
+    "conceptId": "305592897"
+  },
+  "PAINREL2_5": {
+    "questIds": {
+      "NaproxenWEEK": {
+        "conceptId": "308768017",
+        "concept": "Naproxen days per week",
+        "isTextBox": true
+      },
+      "NaproxenMONTH": {
+        "conceptId": "531214308",
+        "concept": "Naproxen days per month",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "855170097",
+    "concept": "During the time(s) that you were taking Naproxen, about how many days per week OR per month did you take it? Please choose whichever makes the most sense for you."
+  },
+  "HORMED4_3": {
+    "isTextBox": true,
+    "questionText": "How old were you when you last used Norplant?",
+    "conceptId": "309551917"
+  },
+  "ESTROHOR4_1": {
+    "isTextBox": true,
+    "questionText": "How old were you when you last used oral estrogen-only medication?",
+    "conceptId": "316550058"
+  },
+  "INSULIN7_1": {
+    "isTextBox": true,
+    "questionText": "How many years ago did you last take Insulin?",
+    "conceptId": "321249774"
+  },
+  "EXEREC1": {
+    "questIds": {
+      "0": {
+        "conceptId": "786332372",
+        "concept": "Walk or hike for exercise"
+      },
+      "1": {
+        "conceptId": "483088549",
+        "concept": "Jog or run"
+      },
+      "2": {
+        "conceptId": "590068086",
+        "concept": "Play tennis, squash, or racquetball"
+      },
+      "3": {
+        "conceptId": "402897476",
+        "concept": "Play golf"
+      },
+      "4": {
+        "conceptId": "323656513",
+        "concept": "Swim laps"
+      },
+      "5": {
+        "conceptId": "430874471",
+        "concept": "Ride a bicycle (including a stationary bike"
+      },
+      "6": {
+        "conceptId": "509161808",
+        "concept": "Strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups)"
+      },
+      "7": {
+        "conceptId": "764138949",
+        "concept": "Yoga, Pilates, or Tai Chi"
+      },
+      "8": {
+        "conceptId": "514343462",
+        "concept": "Martial Arts (such as Karate or Judo)"
+      },
+      "9": {
+        "conceptId": "411813705",
+        "concept": "Dance"
+      },
+      "10": {
+        "conceptId": "806150798",
+        "concept": "Downhill ski or snowboard"
+      },
+      "11": {
+        "conceptId": "374970864",
+        "concept": "Cross-country ski"
+      },
+      "12": {
+        "conceptId": "495744847",
+        "concept": "Surf or bodyboard"
+      },
+      "13": {
+        "conceptId": "953275640",
+        "concept": "High-intensity circuit training (such P90x or Crossfit)"
+      },
+      "55": {
+        "conceptId": "985382348",
+        "concept": "Other exercise"
+      },
+      "88": {
+        "conceptId": "697997493",
+        "concept": "I did not do any of these activities",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "694523091",
+    "concept": "During the past 12 months, did you do any of these exercise or recreational activities? Select all that apply."
+  },
+  "CHOLHTN2_2": {
+    "questIds": {
+      "CHOLHTN2_2WK": {
+        "conceptId": "330186321",
+        "concept": "anti-hypertensive medication/drugs used to treat hypertension (high blood pressure) days per week",
+        "isTextBox": true
+      },
+      "CHOLHTN2_2MO": {
+        "conceptId": "367238735",
+        "concept": "anti-hypertensive medication/drugs used to treat hypertension (high blood pressure) days per month",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "297323543",
+    "concept": "During the time(s) that you were taking anti-hypertensive medication/drugs used to treat hypertension (high blood pressure), about how many days per week OR per month did you take it? Please choose whichever makes the most sense for you."
+  },
+  "COMBHOR4_2": {
+    "isTextBox": true,
+    "questionText": "How old were you when you last used two separate pills?",
+    "conceptId": "330782142"
+  },
+  "HOUSE1C": {
+    "questIds": {
+      "0": {
+        "conceptId": "667039937",
+        "concept": "Never_"
+      },
+      "1": {
+        "conceptId": "443374172",
+        "concept": "Once a month or less_"
+      },
+      "2": {
+        "conceptId": "317967870",
+        "concept": "1-3 days a month_"
+      },
+      "3": {
+        "conceptId": "160289508",
+        "concept": "0-2 days a week"
+      },
+      "4": {
+        "conceptId": "415815518",
+        "concept": "2-4 days a week__"
+      },
+      "5": {
+        "conceptId": "399220128",
+        "concept": "4-6 days a week_"
+      },
+      "6": {
+        "conceptId": "438928627",
+        "concept": "Every day_"
+      }
+    },
+    "questionText": "Caring for pets (walking dogs, feeding, playing, grooming) during past 12 months",
+    "conceptId": "331588375"
+  },
+  "PAINREL3_4": {
+    "questIds": {
+      "PAINREL3_4": {
+        "conceptId": "332411946",
+        "concept": "Pills per day acetaminophen, don't know",
+        "isTextBox": true
+      },
+      "PAINREL3_4A": {
+        "conceptId": "843590501",
+        "concept": "Pills per day acetaminophen",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "477130080",
+    "concept": "On the days that you took acetaminophen, about how many pills did you take per day, on most days?"
+  },
+  "PAINREL7_7": {
+    "questIds": {
+      "0": {
+        "conceptId": "819467426",
+        "concept": "Arthritis"
+      },
+      "1": {
+        "conceptId": "643708454",
+        "concept": "Back pain/backache"
+      },
+      "2": {
+        "conceptId": "708743431",
+        "concept": "Menstrual Pain"
+      },
+      "3": {
+        "conceptId": "440641335",
+        "concept": "Disease prevention"
+      },
+      "4": {
+        "conceptId": "389683303",
+        "concept": "Headaches/migraine"
+      },
+      "5": {
+        "conceptId": "790650219",
+        "concept": "Illness, cold/flu, fever"
+      },
+      "6": {
+        "conceptId": "738468277",
+        "concept": "Muscle or joint pain, joint or bone injuries, sprains, or strains"
+      },
+      "7": {
+        "conceptId": "332926877",
+        "concept": "Toothache"
+      }
+    },
+    "conceptId": "981362892",
+    "concept": "Why did you take prescription pain relievers containing opioids? Select all that apply."
+  },
+  "HOUSE2D": {
+    "questIds": {
+      "0": {
+        "conceptId": "471675167",
+        "concept": "05 minutes or less_\"\""
+      },
+      "1": {
+        "conceptId": "405634821",
+        "concept": "06-30 minutes_\"\""
+      },
+      "2": {
+        "conceptId": "845236449",
+        "concept": "21-44 minutes_"
+      },
+      "3": {
+        "conceptId": "528099182",
+        "concept": "35-59 minutes_"
+      },
+      "4": {
+        "conceptId": "517978296",
+        "concept": "0-1.9 hours_"
+      },
+      "5": {
+        "conceptId": "109306831",
+        "concept": "1-2.9 hours_"
+      },
+      "6": {
+        "conceptId": "599036415",
+        "concept": "2 hours or more_"
+      }
+    },
+    "questionText": "Caring for children or adults (pushing stroller or wheelchair, lifting, bathing) time per day",
+    "conceptId": "339286696"
+  },
+  "HOUSE1D": {
+    "questIds": {
+      "0": {
+        "conceptId": "667039937",
+        "concept": "Never_"
+      },
+      "1": {
+        "conceptId": "443374172",
+        "concept": "Once a month or less_"
+      },
+      "2": {
+        "conceptId": "317967870",
+        "concept": "1-3 days a month_"
+      },
+      "3": {
+        "conceptId": "160289508",
+        "concept": "0-2 days a week"
+      },
+      "4": {
+        "conceptId": "415815518",
+        "concept": "2-4 days a week__"
+      },
+      "5": {
+        "conceptId": "399220128",
+        "concept": "4-6 days a week_"
+      },
+      "6": {
+        "conceptId": "438928627",
+        "concept": "Every day_"
+      }
+    },
+    "questionText": "Caring for children or adults (pushing stroller or wheelchair, lifting, bathing) during past 12 months",
+    "conceptId": "341159671"
+  },
+  "PAINREL4_6": {
+    "isTextBox": true,
+    "questionText": "About how many years did you take Celebrex (celecoxib)?",
+    "conceptId": "351735139"
+  },
+  "HORNONCISWOM": {
+    "questIds": {
+      "0": {
+        "conceptId": "577678210",
+        "concept": "No, never"
+      },
+      "1": {
+        "conceptId": "387464303",
+        "concept": "Yes, I used hormones or other medications to make my body look more feminine in the past"
+      },
+      "2": {
+        "conceptId": "847055565",
+        "concept": "Yes, I am currently using hormones or other medications to make my body look more feminine"
+      }
+    },
+    "questionText": "Have you ever used hormones or other medications to make your body better reflect your gender (for example, estrogen or testosterone-blockers)?",
+    "conceptId": "354910565"
+  },
+  "METFOR6_1": {
+    "isTextBox": true,
+    "questionText": "How many years ago did you last take metformin?",
+    "conceptId": "356825769"
+  },
+  "HORMED4_2": {
+    "isTextBox": true,
+    "questionText": "How old were you when you last used progesterone-only or progestin-only contraceptive pills?",
+    "conceptId": "364610567"
+  },
+  "LAWN4B": {
+    "questIds": {
+      "0": {
+        "conceptId": "471675167",
+        "concept": "05 minutes or less_\"\""
+      },
+      "1": {
+        "conceptId": "405634821",
+        "concept": "06-30 minutes_\"\""
+      },
+      "2": {
+        "conceptId": "845236449",
+        "concept": "21-44 minutes_"
+      },
+      "3": {
+        "conceptId": "528099182",
+        "concept": "35-59 minutes_"
+      },
+      "4": {
+        "conceptId": "517978296",
+        "concept": "0-1.9 hours_"
+      },
+      "5": {
+        "conceptId": "109306831",
+        "concept": "1-2.9 hours_"
+      },
+      "6": {
+        "conceptId": "599036415",
+        "concept": "2 hours or more_"
+      }
+    },
+    "questionText": "On the days that you did these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling) outside of work, about how much time per day did you spend doing these chores?",
+    "conceptId": "365584660"
+  },
+  "EXEREC3H": {
+    "questIds": {
+      "0": {
+        "conceptId": "443374172",
+        "concept": "Once a month or less_"
+      },
+      "1": {
+        "conceptId": "317967870",
+        "concept": "1-3 days a month_"
+      },
+      "2": {
+        "conceptId": "160289508",
+        "concept": "0-2 days a week"
+      },
+      "3": {
+        "conceptId": "415815518",
+        "concept": "2-4 days a week__"
+      },
+      "4": {
+        "conceptId": "399220128",
+        "concept": "4-6 days a week_"
+      },
+      "5": {
+        "conceptId": "438928627",
+        "concept": "Every day_"
+      }
+    },
+    "questionText": "During the season[s] in the past 12 months that you did Yoga, Pilates, or Tai Chi, about how often did you do this activity?",
+    "conceptId": "367716068"
+  },
+  "PAINREL3_5": {
+    "questIds": {
+      "PAINREL3_5": {
+        "conceptId": "368898673",
+        "concept": "Pills per day naproxen, don't know",
+        "isTextBox": true
+      },
+      "PAINREL3_5A": {
+        "conceptId": "659539309",
+        "concept": "Pills per day naproxen",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "623036933",
+    "concept": "On the days that you took naproxen, about how many pills did you take per day, on most days?"
+  },
+  "HORMED5_7": {
+    "questIds": {
+      "copIudMonth": {
+        "conceptId": "375972930",
+        "concept": "Months use copper IUD",
+        "isTextBox": true
+      },
+      "copIudYear": {
+        "conceptId": "610933538",
+        "concept": "Years use copper IUD",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "499522743",
+    "concept": "In total, how many months or years have you used copper IUD?"
+  },
+  "COMBHOR5_3": {
+    "questIds": {
+      "anyComEstYear": {
+        "conceptId": "378255635",
+        "concept": "Years use the other combined estrogen plus progestin prescription hormone",
+        "isTextBox": true
+      },
+      "anyComEstMonth": {
+        "conceptId": "593027006",
+        "concept": "Months use the other combined estrogen plus progestin prescription hormone",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "402526180",
+    "concept": "In total, how many months or years have you used oral progestin-only medication?"
+  },
+  "PRESHOR5": {
+    "isTextBox": true,
+    "questionText": "How old were you when you last used the other type of prescription hormone?",
+    "conceptId": "379339410"
+  },
+  "EXEREC4B": {
+    "questIds": {
+      "0": {
+        "conceptId": "471675167",
+        "concept": "05 minutes or less_\"\""
+      },
+      "1": {
+        "conceptId": "405634821",
+        "concept": "06-30 minutes_\"\""
+      },
+      "2": {
+        "conceptId": "845236449",
+        "concept": "21-44 minutes_"
+      },
+      "3": {
+        "conceptId": "528099182",
+        "concept": "35-59 minutes_"
+      },
+      "4": {
+        "conceptId": "517978296",
+        "concept": "0-1.9 hours_"
+      },
+      "5": {
+        "conceptId": "109306831",
+        "concept": "1-2.9 hours_"
+      },
+      "6": {
+        "conceptId": "599036415",
+        "concept": "2 hours or more_"
+      }
+    },
+    "questionText": "On the days that you went jogging or running, about how much time per day did you spend doing this activity?",
+    "conceptId": "381059240"
+  },
+  "TESTTHER3": {
+    "isTextBox": true,
+    "questionText": "How old were you when you first used testosterone therapy?",
+    "conceptId": "381274626"
+  },
+  "PAINREL2_1": {
+    "questIds": {
+      "BabyAsprinWEEK": {
+        "conceptId": "381845876",
+        "concept": "Baby or low-dose aspirin (81 mg or less) days per week",
+        "isTextBox": true
+      },
+      "BabyAsprinMONTH": {
+        "conceptId": "837870357",
+        "concept": "Baby or low-dose aspirin (81 mg or less) days per month",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "837160938",
+    "concept": "During the time(s) that you were taking baby or low-dose aspirin (81 mg or less), about how many days per week OR per month did you take it? Please choose whichever makes the most sense for you."
+  },
+  "ESTROHOR5_1": {
+    "questIds": {
+      "ESTROHOROtherYear": {
+        "conceptId": "383518834",
+        "concept": "Years use oral estrogen-only medication",
+        "isTextBox": true
+      },
+      "ESTROHOROtherMonth": {
+        "conceptId": "396592632",
+        "concept": "Months use oral estrogen-only medication",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "286741487",
+    "concept": "In total, how many months or years have you used oral estrogen-only medication?"
+  },
+  "EXEREC4I": {
+    "questIds": {
+      "0": {
+        "conceptId": "471675167",
+        "concept": "05 minutes or less_\"\""
+      },
+      "1": {
+        "conceptId": "405634821",
+        "concept": "06-30 minutes_\"\""
+      },
+      "2": {
+        "conceptId": "845236449",
+        "concept": "21-44 minutes_"
+      },
+      "3": {
+        "conceptId": "528099182",
+        "concept": "35-59 minutes_"
+      },
+      "4": {
+        "conceptId": "517978296",
+        "concept": "0-1.9 hours_"
+      },
+      "5": {
+        "conceptId": "109306831",
+        "concept": "1-2.9 hours_"
+      },
+      "6": {
+        "conceptId": "599036415",
+        "concept": "2 hours or more_"
+      }
+    },
+    "questionText": "On the days that you did Martial Arts (such as Karate or Judo), about how much time per day did you spend doing this activity?",
+    "conceptId": "388998632"
+  },
+  "HORMED3_3": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Are you currently using Norplant?",
+    "conceptId": "400305610"
+  },
+  "HORMED2_6": {
+    "isTextBox": true,
+    "questionText": "How old were you when you first used birth control patch?",
+    "conceptId": "405382210"
+  },
+  "CHOLHTN3_1": {
+    "questIds": {
+      "CHOLHTN3_1A": {
+        "conceptId": "412563694",
+        "concept": "Pills per day statins/cholesterol or lipid lowering drugs",
+        "isTextBox": true
+      },
+      "CHOLHTN3_1": {
+        "conceptId": "504851787",
+        "concept": "Pills per day statins/cholesterol or lipid lowering drugs, don't know",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "741610637",
+    "concept": "On the days that you took statins/cholesterol or lipid lowering drugs, about how many pills did you take per day, on most days?"
+  },
+  "EXEREC3A": {
+    "questIds": {
+      "0": {
+        "conceptId": "443374172",
+        "concept": "Once a month or less_"
+      },
+      "1": {
+        "conceptId": "317967870",
+        "concept": "1-3 days a month_"
+      },
+      "2": {
+        "conceptId": "160289508",
+        "concept": "0-2 days a week"
+      },
+      "3": {
+        "conceptId": "415815518",
+        "concept": "2-4 days a week__"
+      },
+      "4": {
+        "conceptId": "399220128",
+        "concept": "4-6 days a week_"
+      },
+      "5": {
+        "conceptId": "438928627",
+        "concept": "Every day_"
+      }
+    },
+    "questionText": "During the season[s] in the past 12 months that you walked or hiked for exercise, about how often did you do this activity?",
+    "conceptId": "412660014"
+  },
+  "EXEREC4A": {
+    "questIds": {
+      "0": {
+        "conceptId": "471675167",
+        "concept": "05 minutes or less_\"\""
+      },
+      "1": {
+        "conceptId": "405634821",
+        "concept": "06-30 minutes_\"\""
+      },
+      "2": {
+        "conceptId": "845236449",
+        "concept": "21-44 minutes_"
+      },
+      "3": {
+        "conceptId": "528099182",
+        "concept": "35-59 minutes_"
+      },
+      "4": {
+        "conceptId": "517978296",
+        "concept": "0-1.9 hours_"
+      },
+      "5": {
+        "conceptId": "109306831",
+        "concept": "1-2.9 hours_"
+      },
+      "6": {
+        "conceptId": "599036415",
+        "concept": "2 hours or more_"
+      }
+    },
+    "questionText": "On the days that you walked or hiked for exercise, about how much time per day did you spend doing this activity?",
+    "conceptId": "415914524"
+  },
+  "METFOR3_1A": {
+    "isTextBox": true,
+    "questionText": "On the days that you took metformin, about how many milligrams did you take per day, on most days?",
+    "conceptId": "418978793"
+  },
+  "ACIDSUP5_2": {
+    "questIds": {
+      "0": {
+        "conceptId": "588386843",
+        "concept": "In the past month"
+      },
+      "1": {
+        "conceptId": "661379363",
+        "concept": "More than a month ago, but in the past year"
+      },
+      "2": {
+        "conceptId": "443109235",
+        "concept": "More than 1 year ago"
+      }
+    },
+    "questionText": "When was the last time you took over-the-counter proton pump inhibitors?",
+    "conceptId": "419006774"
+  },
+  "EXEREC3I": {
+    "questIds": {
+      "0": {
+        "conceptId": "443374172",
+        "concept": "Once a month or less_"
+      },
+      "1": {
+        "conceptId": "317967870",
+        "concept": "1-3 days a month_"
+      },
+      "2": {
+        "conceptId": "160289508",
+        "concept": "0-2 days a week"
+      },
+      "3": {
+        "conceptId": "415815518",
+        "concept": "2-4 days a week__"
+      },
+      "4": {
+        "conceptId": "399220128",
+        "concept": "4-6 days a week_"
+      },
+      "5": {
+        "conceptId": "438928627",
+        "concept": "Every day_"
+      }
+    },
+    "questionText": "During the season[s] in the past 12 months that you did Martial Arts (such as Karate or Judo), about how often did you do this activity?",
+    "conceptId": "433502477"
+  },
+  "MENSHIS5": {
+    "questIds": {
+      "0": {
+        "conceptId": "931851262",
+        "concept": "I have not had a menstrual  period in the past 12 months"
+      },
+      "1": {
+        "conceptId": "462360562",
+        "concept": "I have had at least one menstrual period in the past 12 months but the frequency of my period changed (such as it stopped, became irregular, or difficult to predict)"
+      },
+      "2": {
+        "conceptId": "484060738",
+        "concept": "Too irregular to guess or using hormonal medication or device (such as an intrauterine device (IUD)) to control menstrual cycle"
+      },
+      "3": {
+        "conceptId": "316404033",
+        "concept": "Less than 21 days -> PREG"
+      },
+      "4": {
+        "conceptId": "525376069",
+        "concept": "11 days or more"
+      }
+    },
+    "questionText": "In just the past 12 months, what was the usual length of your menstrual cycle?",
+    "conceptId": "440784721"
+  },
+  "ESTROHOR4_2": {
+    "isTextBox": true,
+    "questionText": "How old were you when you last used patch estrogen-only medication?",
+    "conceptId": "441094937"
+  },
+  "MENSHIS7": {
+    "questIds": {
+      "0": {
+        "conceptId": "451245072",
+        "concept": "My periods stopped naturally due to menopause"
+      },
+      "1": {
+        "conceptId": "472407564",
+        "concept": "My periods stopped because I began taking female hormones during the menopausal transition or menopause (\"\"the change of life\"\")"
+      },
+      "2": {
+        "conceptId": "207023633",
+        "concept": "My periods stopped after surgery that removed my uterus and/or both ovaries"
+      },
+      "3": {
+        "conceptId": "699624169",
+        "concept": "My periods stopped after endometrial ablation (removal of the endometrium \"\" lining of the uterus)"
+      },
+      "4": {
+        "conceptId": "715013402",
+        "concept": "I am currently using a hormonal medication or device (such as an intrauterine device (IUD)) to prevent pregnancy, manage my menstrual cycle symptoms, and/or manage conditions like endometriosis or polycystic ovarian syndrome (PCOS)"
+      },
+      "5": {
+        "conceptId": "559224493",
+        "concept": "I was pregnant or breastfeeding during the last year"
+      },
+      "6": {
+        "conceptId": "493253326",
+        "concept": "My periods stopped after radiation or chemotherapy"
+      },
+      "55": {
+        "conceptId": "227236180",
+        "concept": "My periods stopped for other reasons: Please describe"
+      }
+    },
+    "questionText": "Please pick the option that best describes why you have not had a menstrual period in the past 12 months:",
+    "conceptId": "989951910"
+  },
+  "PAINREL5_6": {
+    "questIds": {
+      "0": {
+        "conceptId": "588386843",
+        "concept": "In the past month"
+      },
+      "1": {
+        "conceptId": "661379363",
+        "concept": "More than a month ago, but in the past year"
+      },
+      "2": {
+        "conceptId": "443109235",
+        "concept": "More than 1 year ago"
+      }
+    },
+    "questionText": "When was the last time you took Celebrex (celecoxib)?",
+    "conceptId": "939694869"
+  },
+  "HOUSE1A": {
+    "questIds": {
+      "0": {
+        "conceptId": "667039937",
+        "concept": "Never_"
+      },
+      "1": {
+        "conceptId": "443374172",
+        "concept": "Once a month or less_"
+      },
+      "2": {
+        "conceptId": "317967870",
+        "concept": "1-3 days a month_"
+      },
+      "3": {
+        "conceptId": "160289508",
+        "concept": "0-2 days a week"
+      },
+      "4": {
+        "conceptId": "415815518",
+        "concept": "2-4 days a week__"
+      },
+      "5": {
+        "conceptId": "399220128",
+        "concept": "4-6 days a week_"
+      },
+      "6": {
+        "conceptId": "438928627",
+        "concept": "Every day_"
+      }
+    },
+    "questionText": "Light household chores (such as cooking, tidying up, laundry, or dusting)",
+    "conceptId": "444227128"
+  },
+  "ACIDSUP2_1": {
+    "questIds": {
+      "ACIDSUP2_1MO": {
+        "conceptId": "445376192",
+        "concept": "prescription proton pump inhibitors days per month",
+        "isTextBox": true
+      },
+      "ACIDSUP2_1WK": {
+        "conceptId": "882915434",
+        "concept": "prescription proton pump inhibitors days per week",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "128224490",
+    "concept": "During the time(s) that you were taking prescription proton pump inhibitors, about how many days per week OR per month did you take it? Please choose whichever makes the most sense for you."
+  },
+  "PREG6": {
+    "questIds": {
+      "0": {
+        "conceptId": "564321161",
+        "concept": "Two (twins)"
+      },
+      "1": {
+        "conceptId": "914052060",
+        "concept": "Three (triplets)"
+      },
+      "2": {
+        "conceptId": "641430741",
+        "concept": "Four or more"
+      }
+    },
+    "questionText": "How many infants were delivered?",
+    "conceptId": "446669016"
+  },
+  "INSULIN2_1": {
+    "questIds": {
+      "INSULIN2_1MO": {
+        "conceptId": "451684231",
+        "concept": "Insulin days per month",
+        "isTextBox": true
+      },
+      "INSULIN2_1WK": {
+        "conceptId": "844084232",
+        "concept": "Insulin days per week",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "323568101",
+    "concept": "During the time(s) that you were taking Insulin, about how many days per week OR per month did you take it? Please choose whichever makes the most sense for you."
+  },
+  "INSULIN3_1A": {
+    "isTextBox": true,
+    "questionText": "On the days that you took insulin, about how many units did you take per day, on most days?",
+    "conceptId": "456048621"
+  },
+  "METFOR3_1": {
+    "isTextBox": true,
+    "questionText": "Metformin milligrams don't know",
+    "conceptId": "456076781"
+  },
+  "EXEREC4J": {
+    "questIds": {
+      "0": {
+        "conceptId": "471675167",
+        "concept": "05 minutes or less_\"\""
+      },
+      "1": {
+        "conceptId": "405634821",
+        "concept": "06-30 minutes_\"\""
+      },
+      "2": {
+        "conceptId": "845236449",
+        "concept": "21-44 minutes_"
+      },
+      "3": {
+        "conceptId": "528099182",
+        "concept": "35-59 minutes_"
+      },
+      "4": {
+        "conceptId": "517978296",
+        "concept": "0-1.9 hours_"
+      },
+      "5": {
+        "conceptId": "109306831",
+        "concept": "1-2.9 hours_"
+      },
+      "6": {
+        "conceptId": "599036415",
+        "concept": "2 hours or more_"
+      }
+    },
+    "questionText": "On the days that you danced, about how much time per day did you spend doing this activity?",
+    "conceptId": "456845024"
+  },
+  "ESTROHOR5_4": {
+    "questIds": {
+      "ESTROHOROtherYear": {
+        "conceptId": "466992039",
+        "concept": "Years use estrogen-only skin gel, cream, or spray-on medication",
+        "isTextBox": true
+      },
+      "ESTROHOROtherMonth": {
+        "conceptId": "899836417",
+        "concept": "Months use estrogen-only skin gel, cream, or spray-on medication",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "567208964",
+    "concept": "In total, how many months or years have you used estrogen-only skin gel, cream, or spray-on medication?"
+  },
+  "ESTROHOR4_5": {
+    "isTextBox": true,
+    "questionText": "How old were you when you last used the other type of estrogen-only medication?",
+    "conceptId": "467287947"
+  },
+  "FERT17_8": {
+    "isTextBox": true,
+    "questionText": "In total, how many months or cycles did you take Nolvadex?",
+    "conceptId": "467868241"
+  },
+  "EXEREC4F": {
+    "questIds": {
+      "0": {
+        "conceptId": "471675167",
+        "concept": "05 minutes or less_\"\""
+      },
+      "1": {
+        "conceptId": "405634821",
+        "concept": "06-30 minutes_\"\""
+      },
+      "2": {
+        "conceptId": "845236449",
+        "concept": "21-44 minutes_"
+      },
+      "3": {
+        "conceptId": "528099182",
+        "concept": "35-59 minutes_"
+      },
+      "4": {
+        "conceptId": "517978296",
+        "concept": "0-1.9 hours_"
+      },
+      "5": {
+        "conceptId": "109306831",
+        "concept": "1-2.9 hours_"
+      },
+      "6": {
+        "conceptId": "599036415",
+        "concept": "2 hours or more_"
+      }
+    },
+    "questionText": "On the days that you rode a bicycle (including a stationary bike), about how much time per day did you spend doing this activity?",
+    "conceptId": "471860303"
+  },
+  "EXEREC3C": {
+    "questIds": {
+      "0": {
+        "conceptId": "443374172",
+        "concept": "Once a month or less_"
+      },
+      "1": {
+        "conceptId": "317967870",
+        "concept": "1-3 days a month_"
+      },
+      "2": {
+        "conceptId": "160289508",
+        "concept": "0-2 days a week"
+      },
+      "3": {
+        "conceptId": "415815518",
+        "concept": "2-4 days a week__"
+      },
+      "4": {
+        "conceptId": "399220128",
+        "concept": "4-6 days a week_"
+      },
+      "5": {
+        "conceptId": "438928627",
+        "concept": "Every day_"
+      }
+    },
+    "questionText": "During the season[s] in the past 12 months that you played tennis, squash, or racquetball, about how often did you do this activity?",
+    "conceptId": "472334999"
+  },
+  "PAINREL5_1": {
+    "isTextBox": true,
+    "questionText": "About how many years ago did you take baby or low-dose aspirin (81 mg or less)?",
+    "conceptId": "944648907"
+  },
+  "EXEREC4L": {
+    "questIds": {
+      "0": {
+        "conceptId": "471675167",
+        "concept": "05 minutes or less_\"\""
+      },
+      "1": {
+        "conceptId": "405634821",
+        "concept": "06-30 minutes_\"\""
+      },
+      "2": {
+        "conceptId": "845236449",
+        "concept": "21-44 minutes_"
+      },
+      "3": {
+        "conceptId": "528099182",
+        "concept": "35-59 minutes_"
+      },
+      "4": {
+        "conceptId": "517978296",
+        "concept": "0-1.9 hours_"
+      },
+      "5": {
+        "conceptId": "109306831",
+        "concept": "1-2.9 hours_"
+      },
+      "6": {
+        "conceptId": "599036415",
+        "concept": "2 hours or more_"
+      }
+    },
+    "questionText": "On the days that you did cross-country skiing, about how much time per day did you spend doing this activity?",
+    "conceptId": "477196371"
+  },
+  "COMBHOR2_3": {
+    "isTextBox": true,
+    "questionText": "How old were you when you first used the other combined estrogen plus progestin prescription hormone?",
+    "conceptId": "477836699"
+  },
+  "PAINREL4_3": {
+    "isTextBox": true,
+    "questionText": "About how many years did you take ibuprofen?",
+    "conceptId": "483294797"
+  },
+  "METFOR5_1": {
+    "questIds": {
+      "0": {
+        "conceptId": "588386843",
+        "concept": "In the past month"
+      },
+      "1": {
+        "conceptId": "661379363",
+        "concept": "More than a month ago, but in the past year"
+      },
+      "2": {
+        "conceptId": "443109235",
+        "concept": "More than 1 year ago"
+      }
+    },
+    "questionText": "When was the last time you took metformin?",
+    "conceptId": "483385854"
+  },
+  "PROGHOR3_1": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Are you currently using oral progestin-only medication?",
+    "conceptId": "483699287"
+  },
+  "HORMED5_4": {
+    "questIds": {
+      "deproProvMonth": {
+        "conceptId": "484095727",
+        "concept": "Months use Depo-Provera",
+        "isTextBox": true
+      },
+      "deproProvYear": {
+        "conceptId": "938416895",
+        "concept": "Years use Depo-Provera",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "963728599",
+    "concept": "In total, how many months or years have you used Depo-Provera?"
+  },
+  "CHOLHTN5_1": {
+    "questIds": {
+      "0": {
+        "conceptId": "588386843",
+        "concept": "In the past month"
+      },
+      "1": {
+        "conceptId": "661379363",
+        "concept": "More than a month ago, but in the past year"
+      },
+      "2": {
+        "conceptId": "443109235",
+        "concept": "More than 1 year ago"
+      }
+    },
+    "questionText": "When was the last time you took statins/cholesterol or lipid lowering drugs?",
+    "conceptId": "484489875"
+  },
+  "LAWN3A": {
+    "questIds": {
+      "0": {
+        "conceptId": "443374172",
+        "concept": "Once a month or less_"
+      },
+      "1": {
+        "conceptId": "317967870",
+        "concept": "1-3 days a month_"
+      },
+      "2": {
+        "conceptId": "160289508",
+        "concept": "0-2 days a week"
+      },
+      "3": {
+        "conceptId": "415815518",
+        "concept": "2-4 days a week__"
+      },
+      "4": {
+        "conceptId": "399220128",
+        "concept": "4-6 days a week_"
+      },
+      "5": {
+        "conceptId": "438928627",
+        "concept": "Every day_"
+      }
+    },
+    "questionText": "During the season[s] in the past 12 months that you did moderate outdoor chores (such as weeding, raking, or mowing the lawn), about how often did you do these chores outside of work?",
+    "conceptId": "485358502"
+  },
+  "SNORING3": {
+    "questIds": {
+      "0": {
+        "conceptId": "534131693",
+        "concept": "Almost every day"
+      },
+      "1": {
+        "conceptId": "462398688",
+        "concept": "2-4 times per week"
+      },
+      "2": {
+        "conceptId": "668182470",
+        "concept": "0-2 times per week"
+      },
+      "3": {
+        "conceptId": "322208519",
+        "concept": "0-2 times per month"
+      },
+      "4": {
+        "conceptId": "692871496",
+        "concept": "Less than 1-2 times per month"
+      },
+      "77": {
+        "conceptId": "261707111",
+        "concept": "Don\"\"t know"
+      }
+    },
+    "questionText": "How often do you snore?",
+    "conceptId": "485831093"
+  },
+  "ACIDSUP6_1": {
+    "isTextBox": true,
+    "questionText": "How many years ago did you last take prescription proton pump inhibitors?",
+    "conceptId": "490318814"
+  },
+  "ESTROHOR5_5": {
+    "questIds": {
+      "ESTROHOROtherYear": {
+        "conceptId": "499847368",
+        "concept": "Years use the other type of estrogen-only medication",
+        "isTextBox": true
+      },
+      "ESTROHOROtherMonth": {
+        "conceptId": "751637565",
+        "concept": "Months use the other type of estrogen-only medication",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "440951135",
+    "concept": "In total, how many months or years have you used the other type of estrogen-only medication?"
+  },
+  "PAINREL4_5": {
+    "isTextBox": true,
+    "questionText": "About how many years did you take naproxen?",
+    "conceptId": "502372392"
+  },
+  "SLEEP2I": {
+    "questIds": {
+      "NonWorkAwakeBeforeUpMin": {
+        "conceptId": "503933658",
+        "concept": "Minutes take to fall asleep, before non-workday",
+        "isTextBox": true
+      },
+      "NonWorkAwakeBeforeUpHours": {
+        "conceptId": "851692200",
+        "concept": "Hours take to fall asleep, before non-workday",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "852014792",
+    "concept": "On non-workdays, how long do you usually lie in bed after you wake up before getting out of bed? Select the number of minutes and/or hours using the drop-down options below."
+  },
+  "ESTROHOR3_4": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Are you currently using estrogen-only skin gel, cream, or spray-on medication?",
+    "conceptId": "505832902"
+  },
+  "PAINREL2_6": {
+    "questIds": {
+      "CelecoxibMONTH": {
+        "conceptId": "507279775",
+        "concept": "Celebrex (celecoxib) days per month",
+        "isTextBox": true
+      },
+      "CelecoxibWEEK": {
+        "conceptId": "587766993",
+        "concept": "Celebrex (celecoxib) days per week",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "653188376",
+    "concept": "During the time(s) that you were taking Celebrex (celecoxib), about how many days per week OR per month did you take it? Please choose whichever makes the most sense for you."
+  },
+  "HOUSE2C": {
+    "questIds": {
+      "0": {
+        "conceptId": "471675167",
+        "concept": "05 minutes or less_\"\""
+      },
+      "1": {
+        "conceptId": "405634821",
+        "concept": "06-30 minutes_\"\""
+      },
+      "2": {
+        "conceptId": "845236449",
+        "concept": "21-44 minutes_"
+      },
+      "3": {
+        "conceptId": "528099182",
+        "concept": "35-59 minutes_"
+      },
+      "4": {
+        "conceptId": "517978296",
+        "concept": "0-1.9 hours_"
+      },
+      "5": {
+        "conceptId": "109306831",
+        "concept": "1-2.9 hours_"
+      },
+      "6": {
+        "conceptId": "599036415",
+        "concept": "2 hours or more_"
+      }
+    },
+    "questionText": "Caring for pets (walking dogs, feeding, playing, grooming) time per day",
+    "conceptId": "508988802"
+  },
+  "FERT17_2": {
+    "isTextBox": true,
+    "questionText": "In total, how many months or cycles did you take gonadotropins?",
+    "conceptId": "511655806"
+  },
+  "FERT17_7": {
+    "isTextBox": true,
+    "questionText": "In total, how many months or cycles did you take Lupron depot?",
+    "conceptId": "515652247"
+  },
+  "SHIFTWORK5": {
+    "isTextBox": true,
+    "questionText": "[When you were a shift worker,] what time [does/did] your usual work shift end?\"\"",
+    "conceptId": "518491198"
+  },
+  "HORMED4_5": {
+    "isTextBox": true,
+    "questionText": "How old were you when you last used vaginal ring?",
+    "conceptId": "518713969"
+  },
+  "INSULIN3_1": {
+    "isTextBox": true,
+    "questionText": "On the days that you took insulin, about how many units did you take per day, on most days?, don't know",
+    "conceptId": "523004661"
+  },
+  "SHIFTWORK10": {
+    "questIds": {
+      "ShiftLastAge": {
+        "conceptId": "526837352",
+        "concept": "Age last shift work",
+        "isTextBox": true
+      },
+      "ShiftLastYear": {
+        "conceptId": "868799192",
+        "concept": "Year last shift work",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "692853533",
+    "concept": "How old were you when you last worked as a shift worker?"
+  },
+  "SLEEP1F": {
+    "isTextBox": true,
+    "questionText": "What time do you usually wake up on [workdays/most days]? Select your answer using the drop-down options below.",
+    "conceptId": "527640213"
+  },
+  "EXEREC3F": {
+    "questIds": {
+      "0": {
+        "conceptId": "443374172",
+        "concept": "Once a month or less_"
+      },
+      "1": {
+        "conceptId": "317967870",
+        "concept": "1-3 days a month_"
+      },
+      "2": {
+        "conceptId": "160289508",
+        "concept": "0-2 days a week"
+      },
+      "3": {
+        "conceptId": "415815518",
+        "concept": "2-4 days a week__"
+      },
+      "4": {
+        "conceptId": "399220128",
+        "concept": "4-6 days a week_"
+      },
+      "5": {
+        "conceptId": "438928627",
+        "concept": "Every day_"
+      }
+    },
+    "questionText": "During the season[s] in the past 12 months that you rode a bicycle (including a stationary bike), about how often did you do this activity?",
+    "conceptId": "530664915"
+  },
+  "HOUSE2B": {
+    "questIds": {
+      "0": {
+        "conceptId": "471675167",
+        "concept": "05 minutes or less_\"\""
+      },
+      "1": {
+        "conceptId": "405634821",
+        "concept": "06-30 minutes_\"\""
+      },
+      "2": {
+        "conceptId": "845236449",
+        "concept": "21-44 minutes_"
+      },
+      "3": {
+        "conceptId": "528099182",
+        "concept": "35-59 minutes_"
+      },
+      "4": {
+        "conceptId": "517978296",
+        "concept": "0-1.9 hours_"
+      },
+      "5": {
+        "conceptId": "109306831",
+        "concept": "1-2.9 hours_"
+      },
+      "6": {
+        "conceptId": "599036415",
+        "concept": "2 hours or more_"
+      }
+    },
+    "questionText": "_Moderate to vigorous household chores_(vacuuming, sweeping, etc.) time per day",
+    "conceptId": "533253898"
+  },
+  "COMBHOR4_1": {
+    "isTextBox": true,
+    "questionText": "How old were you when you last used combined oral estrogen plus progestin pill?",
+    "conceptId": "535453123"
+  },
+  "ACIDSUP6_2": {
+    "isTextBox": true,
+    "questionText": "How many years ago did you last take over-the-counter proton pump inhibitors?",
+    "conceptId": "535706943"
+  },
+  "FERT8": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Have you ever had in vitro fertilization (IVF)?",
+    "conceptId": "537466370"
+  },
+  "SITTINGA": {
+    "questIds": {
+      "0": {
+        "conceptId": "503218834",
+        "concept": "None"
+      },
+      "1": {
+        "conceptId": "469725900",
+        "concept": "Less than 30 min"
+      },
+      "2": {
+        "conceptId": "454476671",
+        "concept": "20 min"
+      },
+      "3": {
+        "conceptId": "447747491",
+        "concept": "35 min"
+      },
+      "4": {
+        "conceptId": "444857841",
+        "concept": "0 hr"
+      },
+      "5": {
+        "conceptId": "848958584",
+        "concept": "0 to 2.9 hrs"
+      },
+      "6": {
+        "conceptId": "455438870",
+        "concept": "2 to 4.9 hrs"
+      },
+      "7": {
+        "conceptId": "147881884",
+        "concept": "5 to 6.9 hrs."
+      },
+      "8": {
+        "conceptId": "728692369",
+        "concept": "7 to 8.9 hrs."
+      },
+      "9": {
+        "conceptId": "141557476",
+        "concept": "9 hrs. or more"
+      }
+    },
+    "questionText": "Driving or sitting in a car, bus or train. [This includes commuting to and from work.]",
+    "conceptId": "537739785"
+  },
+  "SNORING1": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      },
+      "77": {
+        "conceptId": "992053303",
+        "concept": "Don't know"
+      }
+    },
+    "questionText": "Do you snore?",
+    "conceptId": "539967042"
+  },
+  "PROGHOR6_1": {
+    "questIds": {
+      "0": {
+        "conceptId": "789656862",
+        "concept": "Less than 10 days per month"
+      },
+      "1": {
+        "conceptId": "323600648",
+        "concept": "00 to 14 days per month"
+      },
+      "2": {
+        "conceptId": "855089703",
+        "concept": "05 to 19 days per month"
+      },
+      "3": {
+        "conceptId": "558966991",
+        "concept": "10 to 25 days per month"
+      },
+      "4": {
+        "conceptId": "172536713",
+        "concept": "Every day"
+      }
+    },
+    "questionText": "How many days per cycle did you use this oral progestin-only hormone?",
+    "conceptId": "549503132"
+  },
+  "EXEREC3K": {
+    "questIds": {
+      "0": {
+        "conceptId": "443374172",
+        "concept": "Once a month or less_"
+      },
+      "1": {
+        "conceptId": "317967870",
+        "concept": "1-3 days a month_"
+      },
+      "2": {
+        "conceptId": "160289508",
+        "concept": "0-2 days a week"
+      },
+      "3": {
+        "conceptId": "415815518",
+        "concept": "2-4 days a week__"
+      },
+      "4": {
+        "conceptId": "399220128",
+        "concept": "4-6 days a week_"
+      },
+      "5": {
+        "conceptId": "438928627",
+        "concept": "Every day_"
+      }
+    },
+    "questionText": "During the season[s] in the past 12 months that you did downhill skiing or snowboarding, about how often did you do this activity?",
+    "conceptId": "552142922"
+  },
+  "SLEEP1L": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "On [workdays/most days], do you wake up before the alarm rings?",
+    "conceptId": "557017440"
+  },
+  "ESTROHOR3_3": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Are you currently using vaginal ring, vaginal cream, or vaginal tablet estrogen-only medication?",
+    "conceptId": "561411625"
+  },
+  "SLEEP1K": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Do you use an alarm clock to wake up on [workdays/most days]?",
+    "conceptId": "564287255"
+  },
+  "WORKACTB": {
+    "questIds": {
+      "0": {
+        "conceptId": "503218834",
+        "concept": "None"
+      },
+      "1": {
+        "conceptId": "469725900",
+        "concept": "Less than 30 min"
+      },
+      "2": {
+        "conceptId": "454476671",
+        "concept": "20 min"
+      },
+      "3": {
+        "conceptId": "447747491",
+        "concept": "35 min"
+      },
+      "4": {
+        "conceptId": "444857841",
+        "concept": "0 hr"
+      },
+      "5": {
+        "conceptId": "848958584",
+        "concept": "0 to 2.9 hrs"
+      },
+      "6": {
+        "conceptId": "455438870",
+        "concept": "2 to 4.9 hrs"
+      },
+      "7": {
+        "conceptId": "147881884",
+        "concept": "5 to 6.9 hrs."
+      },
+      "8": {
+        "conceptId": "728692369",
+        "concept": "7 to 8.9 hrs."
+      },
+      "9": {
+        "conceptId": "141557476",
+        "concept": "9 hrs. or more"
+      }
+    },
+    "questionText": "Standing with some walking (for example, as a store clerk, filing, making copies, walking to/from meetings, working on an assembly line, etc.)",
+    "conceptId": "566499123"
+  },
+  "HORMED3_4": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Are you currently using Depo-Provera?",
+    "conceptId": "572594946"
+  },
+  "HORMED3_7": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Are you currently using copper IUD?",
+    "conceptId": "574292171"
+  },
+  "INSULIN": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Have you ever taken insulin at least 4 times a month for 6 months or longer?",
+    "conceptId": "576521459"
+  },
+  "INSULIN4_1A": {
+    "questIds": {
+      "0": {
+        "conceptId": "387708808",
+        "concept": "000 unit per ml"
+      },
+      "1": {
+        "conceptId": "263538379",
+        "concept": "400 unit per ml"
+      },
+      "55": {
+        "conceptId": "943715501",
+        "concept": "Other: Please describe"
+      },
+      "77": {
+        "conceptId": "992053303",
+        "concept": "Don't know"
+      }
+    },
+    "questionText": "On the days that you took insulin, what concentration did you take?",
+    "conceptId": "578562226"
+  },
+  "CHOLHTN3_2": {
+    "questIds": {
+      "CHOLHTN3_2A": {
+        "conceptId": "594530166",
+        "concept": "Pills per day anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)",
+        "isTextBox": true
+      },
+      "CHOLHTN3_2": {
+        "conceptId": "864033402",
+        "concept": "Pills per day anti-hypertensive medication/drugs used to treat hypertension (high blood pressure), don't know",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "746508503",
+    "concept": "On the days that you took anti-hypertensive medication/drugs used to treat hypertension (high blood pressure), about how many pills did you take per day, on most days?"
+  },
+  "EXEREC3O": {
+    "questIds": {
+      "0": {
+        "conceptId": "443374172",
+        "concept": "Once a month or less_"
+      },
+      "1": {
+        "conceptId": "317967870",
+        "concept": "1-3 days a month_"
+      },
+      "2": {
+        "conceptId": "160289508",
+        "concept": "0-2 days a week"
+      },
+      "3": {
+        "conceptId": "415815518",
+        "concept": "2-4 days a week__"
+      },
+      "4": {
+        "conceptId": "399220128",
+        "concept": "4-6 days a week_"
+      },
+      "5": {
+        "conceptId": "438928627",
+        "concept": "Every day_"
+      }
+    },
+    "questionText": "During the season[s] in the past 12 months that you did other exercise, about how often did you do this activity?",
+    "conceptId": "596109258"
+  },
+  "MENSHIS2_1": {
+    "questIds": {
+      "0": {
+        "conceptId": "188037930",
+        "concept": "Never became regular"
+      },
+      "1": {
+        "conceptId": "685930007",
+        "concept": "Within 1 year"
+      },
+      "2": {
+        "conceptId": "331705886",
+        "concept": "0 to 2 years"
+      },
+      "3": {
+        "conceptId": "253369739",
+        "concept": "More than 2 years to 3 years"
+      },
+      "4": {
+        "conceptId": "608874590",
+        "concept": "More than 3 years to 4 years"
+      },
+      "5": {
+        "conceptId": "955681997",
+        "concept": "More than 4 years"
+      },
+      "77": {
+        "conceptId": "992053303",
+        "concept": "Don't know"
+      }
+    },
+    "questionText": "How long after your first menstrual period did your periods become regular? By regular, we mean that you could predict the start of your next period within a few days.",
+    "conceptId": "599032978"
+  },
+  "TESTTHER5": {
+    "isTextBox": true,
+    "questionText": "How old were you when you last used testosterone therapy? If you are currently using testosterone therapy, please enter your current age.",
+    "conceptId": "599868767"
+  },
+  "ACIDSUP3_2": {
+    "questIds": {
+      "ACIDSUP3_2A": {
+        "conceptId": "601258158",
+        "concept": "Pills per day over-the-counter proton pump inhibitors",
+        "isTextBox": true
+      },
+      "ACIDSUP3_2": {
+        "conceptId": "914983080",
+        "concept": "Pills per day over-the-counter proton pump inhibitors, don't know",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "293671967",
+    "concept": "On the days that you took over-the-counter proton pump inhibitors, about how many pills did you take per day, on most days?"
+  },
+  "LAWN4C": {
+    "questIds": {
+      "0": {
+        "conceptId": "471675167",
+        "concept": "05 minutes or less_\"\""
+      },
+      "1": {
+        "conceptId": "405634821",
+        "concept": "06-30 minutes_\"\""
+      },
+      "2": {
+        "conceptId": "845236449",
+        "concept": "21-44 minutes_"
+      },
+      "3": {
+        "conceptId": "528099182",
+        "concept": "35-59 minutes_"
+      },
+      "4": {
+        "conceptId": "517978296",
+        "concept": "0-1.9 hours_"
+      },
+      "5": {
+        "conceptId": "109306831",
+        "concept": "1-2.9 hours_"
+      },
+      "6": {
+        "conceptId": "599036415",
+        "concept": "2 hours or more_"
+      }
+    },
+    "questionText": "On the days that you did these home repairs (such as painting, plumbing, or replacing carpeting) outside of work, about how much time per day did you spend doing these chores?",
+    "conceptId": "611199239"
+  },
+  "CHOLHTN6_2": {
+    "isTextBox": true,
+    "questionText": "About how many years ago did you last take anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)?",
+    "conceptId": "611681472"
+  },
+  "PREG8": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Did you breastfeed? If you are currently breastfeeding, select yes.",
+    "conceptId": "613149648"
+  },
+  "COMBHOR5_2": {
+    "questIds": {
+      "twoPillMonth": {
+        "conceptId": "613911429",
+        "concept": "Months use two separate pills",
+        "isTextBox": true
+      },
+      "twoPillYear": {
+        "conceptId": "885680380",
+        "concept": "Years use two separate pills",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "402526180",
+    "concept": "In total, how many months or years have you used oral progestin-only medication?"
+  },
+  "EXEREC3N": {
+    "questIds": {
+      "0": {
+        "conceptId": "443374172",
+        "concept": "Once a month or less_"
+      },
+      "1": {
+        "conceptId": "317967870",
+        "concept": "1-3 days a month_"
+      },
+      "2": {
+        "conceptId": "160289508",
+        "concept": "0-2 days a week"
+      },
+      "3": {
+        "conceptId": "415815518",
+        "concept": "2-4 days a week__"
+      },
+      "4": {
+        "conceptId": "399220128",
+        "concept": "4-6 days a week_"
+      },
+      "5": {
+        "conceptId": "438928627",
+        "concept": "Every day_"
+      }
+    },
+    "questionText": "During the season[s] in the past 12 months that you did high-intensity circuit training (such as P90x or Crossfit), about how often did you do this activity?",
+    "conceptId": "617025100"
+  },
+  "PREG": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Are you currently pregnant?",
+    "conceptId": "620087863"
+  },
+  "INSULIN4_1": {
+    "isTextBox": true,
+    "questionText": "Other concentration: please describe text box",
+    "conceptId": "622004428"
+  },
+  "PROGHOR3_2": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Are you currently using progestin-only medication?",
+    "conceptId": "624526164"
+  },
+  "PROGHOR2_1": {
+    "isTextBox": true,
+    "questionText": "How old were you when you first used oral progestin-only medication?",
+    "conceptId": "625620977"
+  },
+  "SLEEP1D": {
+    "questIds": {
+      "NonWorkFallAsleepMin": {
+        "conceptId": "630080428",
+        "concept": "Minutes take to fall asleep, before non-workday",
+        "isTextBox": true
+      },
+      "NonWorkFallAsleepHours": {
+        "conceptId": "828104530",
+        "concept": "Hours take to fall asleep, before non-workday",
+        "isTextBox": true
+      },
+      "FallAsleepHours": {
+        "conceptId": "911145036",
+        "concept": "Hours take to fall asleep, before workdays",
+        "isTextBox": true
+      },
+      "FallAsleepMin": {
+        "conceptId": "978184952",
+        "concept": "Minutes take to fall asleep, before workdays",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "128787626",
+    "concept": "On [the nights before workdays/most nights], how long does it usually take you to fall asleep? Select the number of minutes and/or hours using the drop-down options below."
+  },
+  "HORMED3_5": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Are you currently using vaginal ring?",
+    "conceptId": "642592238"
+  },
+  "HOUSE2A": {
+    "questIds": {
+      "0": {
+        "conceptId": "471675167",
+        "concept": "05 minutes or less_\"\""
+      },
+      "1": {
+        "conceptId": "405634821",
+        "concept": "06-30 minutes_\"\""
+      },
+      "2": {
+        "conceptId": "845236449",
+        "concept": "21-44 minutes_"
+      },
+      "3": {
+        "conceptId": "528099182",
+        "concept": "35-59 minutes_"
+      },
+      "4": {
+        "conceptId": "517978296",
+        "concept": "0-1.9 hours_"
+      },
+      "5": {
+        "conceptId": "109306831",
+        "concept": "1-2.9 hours_"
+      },
+      "6": {
+        "conceptId": "599036415",
+        "concept": "2 hours or more_"
+      }
+    },
+    "questionText": "Light household chores_(cooking, tidying up, laundry, dusting, etc.) time per day",
+    "conceptId": "642940404"
+  },
+  "HORMED4_4": {
+    "isTextBox": true,
+    "questionText": "How old were you when you last used Depo-Provera?",
+    "conceptId": "647729703"
+  },
+  "HORMED5_3": {
+    "questIds": {
+      "norplantYear": {
+        "conceptId": "648108993",
+        "concept": "Years use Norplant",
+        "isTextBox": true
+      },
+      "norplantMonth": {
+        "conceptId": "881168270",
+        "concept": "Months use Norplant",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "344592469",
+    "concept": "In total, how many months or years have you used Norplant?"
+  },
+  "FERT17_10": {
+    "isTextBox": true,
+    "questionText": "In total, how many months or cycles did you take Serophene?",
+    "conceptId": "648994178"
+  },
+  "PAINREL3_6": {
+    "questIds": {
+      "PAINREL3_6A": {
+        "conceptId": "652200991",
+        "concept": "Pills per day Celebrex (celecoxib)",
+        "isTextBox": true
+      },
+      "PAINREL3_6": {
+        "conceptId": "904234903",
+        "concept": "Pills per day Celebrex (celecoxib), don't know",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "887985135",
+    "concept": "On the days that you took Celebrex (celecoxib), about how many pills did you take per day, on most days?"
+  },
+  "PREG10": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Has a doctor or other health professional ever told you that you have or had gestational diabetes?",
+    "conceptId": "654130688"
+  },
+  "PRESHOR3": {
+    "isTextBox": true,
+    "questionText": "How old were you when you first used the other type of prescription hormone?",
+    "conceptId": "655419206"
+  },
+  "COMBHOR2_1": {
+    "isTextBox": true,
+    "questionText": "How old were you when you first used combined oral estrogen plus progestin pill?",
+    "conceptId": "656556455"
+  },
+  "PROGHOR6_2": {
+    "questIds": {
+      "0": {
+        "conceptId": "789656862",
+        "concept": "Less than 10 days per month"
+      },
+      "1": {
+        "conceptId": "323600648",
+        "concept": "00 to 14 days per month"
+      },
+      "2": {
+        "conceptId": "855089703",
+        "concept": "05 to 19 days per month"
+      },
+      "3": {
+        "conceptId": "558966991",
+        "concept": "10 to 25 days per month"
+      },
+      "4": {
+        "conceptId": "172536713",
+        "concept": "Every day"
+      }
+    },
+    "questionText": "How many days per cycle did you use this progestin-only hormone?",
+    "conceptId": "658113387"
+  },
+  "PRESHOR4": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Are you currently using the other type of prescription hormone?",
+    "conceptId": "659135510"
+  },
+  "PROGHOR5_2": {
+    "questIds": {
+      "proEstYear": {
+        "conceptId": "659665774",
+        "concept": "Years use progestin-only medication",
+        "isTextBox": true
+      },
+      "proEstMonth": {
+        "conceptId": "961724578",
+        "concept": "Months use progestin-only medication",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "973737289",
+    "concept": "In total, how many months or years have you used other progestin-only medication?"
+  },
+  "ACIDSUP2_3": {
+    "questIds": {
+      "ACIDSUP2_3MO": {
+        "conceptId": "660167908",
+        "concept": "over-the-counter H2 receptor blockers days per month",
+        "isTextBox": true
+      },
+      "ACIDSUP2_3WK": {
+        "conceptId": "760028796",
+        "concept": "over-the-counter H2 receptor blockers days per week",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "175176130",
+    "concept": "During the time(s) that you were taking over-the-counter proton pump inhibitors, about how many days per week OR per month did you take it? Please choose whichever makes the most sense for you."
+  },
+  "SLEEP2M": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "On non-workdays, are you able to choose the times when you go to sleep and when you wake up? Some reasons you may not be able to choose sleeping and waking times include children, pets, or other non-work activities.",
+    "conceptId": "664151984"
+  },
+  "EXEREC4M": {
+    "questIds": {
+      "0": {
+        "conceptId": "471675167",
+        "concept": "05 minutes or less_\"\""
+      },
+      "1": {
+        "conceptId": "405634821",
+        "concept": "06-30 minutes_\"\""
+      },
+      "2": {
+        "conceptId": "845236449",
+        "concept": "21-44 minutes_"
+      },
+      "3": {
+        "conceptId": "528099182",
+        "concept": "35-59 minutes_"
+      },
+      "4": {
+        "conceptId": "517978296",
+        "concept": "0-1.9 hours_"
+      },
+      "5": {
+        "conceptId": "109306831",
+        "concept": "1-2.9 hours_"
+      },
+      "6": {
+        "conceptId": "599036415",
+        "concept": "2 hours or more_"
+      }
+    },
+    "questionText": "On the days that you did surfing or bodyboarding, about how much time per day did you spend doing this activity?",
+    "conceptId": "665834743"
+  },
+  "HORMED4_1": {
+    "isTextBox": true,
+    "questionText": "How old were you when you last used combined oral contraceptive pills?",
+    "conceptId": "670179391"
+  },
+  "EXEREC3E": {
+    "questIds": {
+      "0": {
+        "conceptId": "443374172",
+        "concept": "Once a month or less_"
+      },
+      "1": {
+        "conceptId": "317967870",
+        "concept": "1-3 days a month_"
+      },
+      "2": {
+        "conceptId": "160289508",
+        "concept": "0-2 days a week"
+      },
+      "3": {
+        "conceptId": "415815518",
+        "concept": "2-4 days a week__"
+      },
+      "4": {
+        "conceptId": "399220128",
+        "concept": "4-6 days a week_"
+      },
+      "5": {
+        "conceptId": "438928627",
+        "concept": "Every day_"
+      }
+    },
+    "questionText": "During the season[s] in the past 12 months that you swam laps, about how often did you do this activity?",
+    "conceptId": "673216523"
+  },
+  "SITTINGB": {
+    "questIds": {
+      "0": {
+        "conceptId": "503218834",
+        "concept": "None"
+      },
+      "1": {
+        "conceptId": "469725900",
+        "concept": "Less than 30 min"
+      },
+      "2": {
+        "conceptId": "454476671",
+        "concept": "20 min"
+      },
+      "3": {
+        "conceptId": "447747491",
+        "concept": "35 min"
+      },
+      "4": {
+        "conceptId": "444857841",
+        "concept": "0 hr"
+      },
+      "5": {
+        "conceptId": "848958584",
+        "concept": "0 to 2.9 hrs"
+      },
+      "6": {
+        "conceptId": "455438870",
+        "concept": "2 to 4.9 hrs"
+      },
+      "7": {
+        "conceptId": "147881884",
+        "concept": "5 to 6.9 hrs."
+      },
+      "8": {
+        "conceptId": "728692369",
+        "concept": "7 to 8.9 hrs."
+      },
+      "9": {
+        "conceptId": "141557476",
+        "concept": "9 hrs. or more"
+      }
+    },
+    "questionText": "Sitting and watching television shows, movies, or other video content on a television, tablet, phone, or computer",
+    "conceptId": "676731212"
+  },
+  "FERT17_4": {
+    "isTextBox": true,
+    "questionText": "In total, how many months or cycles did you take Danocrine?",
+    "conceptId": "683293582"
+  },
+  "ESTROHOR2_5": {
+    "isTextBox": true,
+    "questionText": "How old were you when you first used the other type of estrogen-only medication?",
+    "conceptId": "693990942"
+  },
+  "EXEREC3J": {
+    "questIds": {
+      "0": {
+        "conceptId": "443374172",
+        "concept": "Once a month or less_"
+      },
+      "1": {
+        "conceptId": "317967870",
+        "concept": "1-3 days a month_"
+      },
+      "2": {
+        "conceptId": "160289508",
+        "concept": "0-2 days a week"
+      },
+      "3": {
+        "conceptId": "415815518",
+        "concept": "2-4 days a week__"
+      },
+      "4": {
+        "conceptId": "399220128",
+        "concept": "4-6 days a week_"
+      },
+      "5": {
+        "conceptId": "438928627",
+        "concept": "Every day_"
+      }
+    },
+    "questionText": "During the season[s] in the past 12 months that you danced, about how often did you do this activity?",
+    "conceptId": "695550215"
+  },
+  "SHIFTWORK9": {
+    "isTextBox": true,
+    "questionText": "How many total years [did/have] you work as a shift worker?",
+    "conceptId": "696330739"
+  },
+  "PREG5": {
+    "questIds": {
+      "0": {
+        "conceptId": "622467764",
+        "concept": "Live birth: single infant"
+      },
+      "1": {
+        "conceptId": "971908973",
+        "concept": "Live birth: twins, triplets, or higher multiples"
+      },
+      "2": {
+        "conceptId": "735564785",
+        "concept": "Stillbirth (pregnancy loss after 20 weeks)"
+      },
+      "3": {
+        "conceptId": "699723877",
+        "concept": "Live birth and stillbirth (loss of one or more of multiples)"
+      },
+      "4": {
+        "conceptId": "934558918",
+        "concept": "Miscarriage (pregnancy loss before 20 weeks)"
+      },
+      "5": {
+        "conceptId": "541285143",
+        "concept": "Termination"
+      },
+      "6": {
+        "conceptId": "440102499",
+        "concept": "Ectopic or tubal pregnancy (fertilized egg implants outside of the uterus)"
+      },
+      "99": {
+        "conceptId": "883742295",
+        "concept": "Prefer not to answer"
+      }
+    },
+    "questionText": "What was the outcome of this pregnancy?",
+    "conceptId": "700690233"
+  },
+  "ESTROHOR5_2": {
+    "questIds": {
+      "ESTROHOROtherMonth": {
+        "conceptId": "701260624",
+        "concept": "Months use patch estrogen-only medication",
+        "isTextBox": true
+      },
+      "ESTROHOROtherYear": {
+        "conceptId": "846982389",
+        "concept": "Years use patch estrogen-only medication",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "843768258",
+    "concept": "In total, how many months or years have you used patch estrogen-only medication?"
+  },
+  "SLEEP1M": {
+    "questIds": {
+      "OutsideHours": {
+        "conceptId": "701429592",
+        "concept": "Hours spent in direct sunlight",
+        "isTextBox": true
+      },
+      "OutsideMin": {
+        "conceptId": "758235919",
+        "concept": "Minutes spent in direct sunlight",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "697673257",
+    "concept": "Exposure to natural sunlight can affect your sleep patterns. During a usual [workday/day], about how much time do you spend outside in direct sunlight? Select the number of minutes and/or hours using the drop-down options below."
+  },
+  "PAINREL8": {
+    "questIds": {
+      "0": {
+        "conceptId": "650297475",
+        "concept": "Never"
+      },
+      "1": {
+        "conceptId": "585855703",
+        "concept": "Sometimes"
+      },
+      "2": {
+        "conceptId": "859121185",
+        "concept": "Often"
+      },
+      "99": {
+        "conceptId": "883742295",
+        "concept": "Prefer not to answer"
+      }
+    },
+    "questionText": "Did you ever use prescription pain relievers that contain opioids in any way not directed by a doctor? This might include using them without a prescription, using more than directed, or using them more often or for a longer time than directed. Please remember that we protect your privacy. We remove information that can identify you from your survey answers before we share them with researchers",
+    "conceptId": "712835228"
+  },
+  "ACIDSUP5_1": {
+    "questIds": {
+      "0": {
+        "conceptId": "588386843",
+        "concept": "In the past month"
+      },
+      "1": {
+        "conceptId": "661379363",
+        "concept": "More than a month ago, but in the past year"
+      },
+      "2": {
+        "conceptId": "443109235",
+        "concept": "More than 1 year ago"
+      }
+    },
+    "questionText": "When was the last time you took prescription proton pump inhibitors?",
+    "conceptId": "713614901"
+  },
+  "HORMED3_2": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Are you currently using progesterone-only or progestin-only contraceptive pills?",
+    "conceptId": "717317498"
+  },
+  "FERT9": {
+    "isTextBox": true,
+    "questionText": "In total, how many times or cycles have you had in vitro fertilization (IVF)?",
+    "conceptId": "717866896"
+  },
+  "PREG7": {
+    "questIds": {
+      "0": {
+        "conceptId": "283295788",
+        "concept": "Cesarean"
+      },
+      "1": {
+        "conceptId": "938695821",
+        "concept": "Vaginal"
+      }
+    },
+    "questionText": "What was the method of delivery?",
+    "conceptId": "725675925"
+  },
+  "SNORING5": {
+    "questIds": {
+      "0": {
+        "conceptId": "534131693",
+        "concept": "Almost every day"
+      },
+      "1": {
+        "conceptId": "462398688",
+        "concept": "2-4 times per week"
+      },
+      "2": {
+        "conceptId": "668182470",
+        "concept": "0-2 times per week"
+      },
+      "3": {
+        "conceptId": "322208519",
+        "concept": "0-2 times per month"
+      },
+      "4": {
+        "conceptId": "692871496",
+        "concept": "Less than 1-2 times per month"
+      },
+      "5": {
+        "conceptId": "650297475",
+        "concept": "Never"
+      },
+      "77": {
+        "conceptId": "261707111",
+        "concept": "Don\"\"t know"
+      }
+    },
+    "questionText": "How often do you stop breathing during your sleep?",
+    "conceptId": "726832876"
+  },
+  "LAWN3C": {
+    "questIds": {
+      "0": {
+        "conceptId": "443374172",
+        "concept": "Once a month or less_"
+      },
+      "1": {
+        "conceptId": "317967870",
+        "concept": "1-3 days a month_"
+      },
+      "2": {
+        "conceptId": "160289508",
+        "concept": "0-2 days a week"
+      },
+      "3": {
+        "conceptId": "415815518",
+        "concept": "2-4 days a week__"
+      },
+      "4": {
+        "conceptId": "399220128",
+        "concept": "4-6 days a week_"
+      },
+      "5": {
+        "conceptId": "438928627",
+        "concept": "Every day_"
+      }
+    },
+    "questionText": "During the season[s] in the past 12 months that you did home repairs (such as painting, plumbing, or replacing carpeting), about how often did you do these chores outside of work?",
+    "conceptId": "727148049"
+  },
+  "HORMED2_8": {
+    "isTextBox": true,
+    "questionText": "How old were you when you first used hormonal IUD?",
+    "conceptId": "732446036"
+  },
+  "PROGHOR4_1": {
+    "isTextBox": true,
+    "questionText": "How old were you when you last used oral progestin-only medication?",
+    "conceptId": "733289416"
+  },
+  "SITTINGC": {
+    "questIds": {
+      "0": {
+        "conceptId": "503218834",
+        "concept": "None"
+      },
+      "1": {
+        "conceptId": "469725900",
+        "concept": "Less than 30 min"
+      },
+      "2": {
+        "conceptId": "454476671",
+        "concept": "20 min"
+      },
+      "3": {
+        "conceptId": "447747491",
+        "concept": "35 min"
+      },
+      "4": {
+        "conceptId": "444857841",
+        "concept": "0 hr"
+      },
+      "5": {
+        "conceptId": "848958584",
+        "concept": "0 to 2.9 hrs"
+      },
+      "6": {
+        "conceptId": "455438870",
+        "concept": "2 to 4.9 hrs"
+      },
+      "7": {
+        "conceptId": "147881884",
+        "concept": "5 to 6.9 hrs."
+      },
+      "8": {
+        "conceptId": "728692369",
+        "concept": "7 to 8.9 hrs."
+      },
+      "9": {
+        "conceptId": "141557476",
+        "concept": "9 hrs. or more"
+      }
+    },
+    "questionText": "Sitting and browsing the internet, playing video games, using social media, or using any other apps or programs on a tablet, phone, computer, or television",
+    "conceptId": "734507843"
+  },
+  "PAINREL3_2": {
+    "questIds": {
+      "PAINREL3_2": {
+        "conceptId": "737009161",
+        "concept": "Pills per day regular or extra strength aspirin, don't know",
+        "isTextBox": true
+      },
+      "PAINREL3_2A": {
+        "conceptId": "910578283",
+        "concept": "Pills per day regular or extra strength aspirin",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "916772661",
+    "concept": "On the days that you took regular or extra strength aspirin, about how many pills did you take per day, on most days?"
+  },
+  "MENOHOR": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Have you ever used a hormone prescribed by a doctor or other health professional?",
+    "conceptId": "738415739"
+  },
+  "MENSHIS4": {
+    "isTextBox": true,
+    "questionText": "About how many days long is your usual menstrual cycle?",
+    "conceptId": "738812788"
+  },
+  "MENSHIS3_1": {
+    "questIds": {
+      "0": {
+        "conceptId": "283812078",
+        "concept": "Too irregular to guess or used hormonal medication or device such as an intrauterine device IUD"
+      },
+      "1": {
+        "conceptId": "216073991",
+        "concept": "Less than 21 days"
+      },
+      "2": {
+        "conceptId": "525376069",
+        "concept": "11 days or more"
+      }
+    },
+    "questionText": "Once your menstrual periods became regular, what was the usual length of your menstrual cycle? The length of a menstrual cycle is the number of days from the first day of one menstrual period to the first day of the next menstrual period.",
+    "conceptId": "746226069"
+  },
+  "HORMED2_7": {
+    "isTextBox": true,
+    "questionText": "How old were you when you first used copper IUD?",
+    "conceptId": "746627149"
+  },
+  "FERT17_11": {
+    "isTextBox": true,
+    "questionText": "In total, how many months or cycles did you take Synarel nasal solution?",
+    "conceptId": "748848733"
+  },
+  "HORMED4_6": {
+    "isTextBox": true,
+    "questionText": "How old were you when you last used birth control patch?",
+    "conceptId": "749326317"
+  },
+  "SLEEPSCHA": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "During a usual week, is your sleep schedule determined by your job, school, or other activities?",
+    "conceptId": "759756949"
+  },
+  "COMBHOR6": {
+    "questIds": {
+      "0": {
+        "conceptId": "789656862",
+        "concept": "Less than 10 days per month"
+      },
+      "1": {
+        "conceptId": "323600648",
+        "concept": "00 to 14 days per month"
+      },
+      "2": {
+        "conceptId": "855089703",
+        "concept": "05 to 19 days per month"
+      },
+      "3": {
+        "conceptId": "558966991",
+        "concept": "10 to 25 days per month"
+      },
+      "4": {
+        "conceptId": "172536713",
+        "concept": "Every day"
+      }
+    },
+    "questionText": "How many days per cycle did you use a combined oral estrogen plus progestin pill?",
+    "conceptId": "765854116"
+  },
+  "HOUSE1E": {
+    "questIds": {
+      "0": {
+        "conceptId": "667039937",
+        "concept": "Never_"
+      },
+      "1": {
+        "conceptId": "443374172",
+        "concept": "Once a month or less_"
+      },
+      "2": {
+        "conceptId": "317967870",
+        "concept": "1-3 days a month_"
+      },
+      "3": {
+        "conceptId": "160289508",
+        "concept": "0-2 days a week"
+      },
+      "4": {
+        "conceptId": "415815518",
+        "concept": "2-4 days a week__"
+      },
+      "5": {
+        "conceptId": "399220128",
+        "concept": "4-6 days a week_"
+      },
+      "6": {
+        "conceptId": "438928627",
+        "concept": "Every day_"
+      }
+    },
+    "questionText": "Walking while shopping or doing errands (Do not count walking for exercise.) during past 12 months",
+    "conceptId": "767758574"
+  },
+  "HORMED3_9": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Are you currently using the other hormonal medications or devices?",
+    "conceptId": "769645414"
+  },
+  "SLEEP2A": {
+    "isTextBox": true,
+    "questionText": "What time do you usually go to bed on the nights before non-workdays? Please tell us the time you usually get into your bed, not the time you usually fall asleep. Select your answer using the drop-down options below.",
+    "conceptId": "772476986"
+  },
+  "PAINREL4_1": {
+    "isTextBox": true,
+    "questionText": "About how many years did you take baby or low-dose aspirin (81 mg or less)?",
+    "conceptId": "777579626"
+  },
+  "CHOLHTN4_2": {
+    "isTextBox": true,
+    "questionText": "About how many years did you take anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)?",
+    "conceptId": "780383107"
+  },
+  "CHOLHTN6_1": {
+    "isTextBox": true,
+    "questionText": "About how many years ago did you last take statins/cholesterol or lipid lowering drugs?",
+    "conceptId": "784072939"
+  },
+  "ESTROHOR2_2": {
+    "isTextBox": true,
+    "questionText": "How old were you when you first used patch estrogen-only medication?",
+    "conceptId": "788741574"
+  },
+  "HORMED3_8": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Are you currently using hormonal IUD?",
+    "conceptId": "800249078"
+  },
+  "MENSHIS": {
+    "questIds": {
+      "MENSHIS": {
+        "conceptId": "808632575",
+        "concept": "Age first menstrual period, never had",
+        "isTextBox": true
+      },
+      "MENSHISA": {
+        "conceptId": "913984425",
+        "concept": "Age first menstrual period",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "603949229",
+    "concept": "How old were you when you had your first menstrual period? Please make your best guess if you are not sure."
+  },
+  "COMBHOR2_2": {
+    "isTextBox": true,
+    "questionText": "How old were you when you first used two separate pills?",
+    "conceptId": "809857621"
+  },
+  "COMBHOR3_1": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Are you currently using combined oral estrogen plus progestin pill?",
+    "conceptId": "811071032"
+  },
+  "ACIDSUP4_3": {
+    "isTextBox": true,
+    "questionText": "About how many years did you take over-the-counter H2 receptor blockers?",
+    "conceptId": "813381014"
+  },
+  "INSULIN6_1": {
+    "questIds": {
+      "0": {
+        "conceptId": "588386843",
+        "concept": "In the past month"
+      },
+      "1": {
+        "conceptId": "661379363",
+        "concept": "More than a month ago, but in the past year"
+      },
+      "2": {
+        "conceptId": "443109235",
+        "concept": "More than 1 year ago"
+      }
+    },
+    "questionText": "When was the last time you took Insulin?",
+    "conceptId": "813391418"
+  },
+  "EXEREC4H": {
+    "questIds": {
+      "0": {
+        "conceptId": "471675167",
+        "concept": "05 minutes or less_\"\""
+      },
+      "1": {
+        "conceptId": "405634821",
+        "concept": "06-30 minutes_\"\""
+      },
+      "2": {
+        "conceptId": "845236449",
+        "concept": "21-44 minutes_"
+      },
+      "3": {
+        "conceptId": "528099182",
+        "concept": "35-59 minutes_"
+      },
+      "4": {
+        "conceptId": "517978296",
+        "concept": "0-1.9 hours_"
+      },
+      "5": {
+        "conceptId": "109306831",
+        "concept": "1-2.9 hours_"
+      },
+      "6": {
+        "conceptId": "599036415",
+        "concept": "2 hours or more_"
+      }
+    },
+    "questionText": "On the days that you did Yoga, Pilates, or Tai Chi, about how much time per day did you spend doing this activity?",
+    "conceptId": "816655466"
+  },
+  "ESTROHOR3_1": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Are you currently using oral estrogen-only medication?",
+    "conceptId": "818790548"
+  },
+  "METFOR": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Have you ever taken metformin (such as Glucophage, Glumetza, Riomet, Fortamet, or Glucophage XR) at least 4 times a month for 6 months or longer?",
+    "conceptId": "828612319"
+  },
+  "WORKACTD": {
+    "questIds": {
+      "0": {
+        "conceptId": "503218834",
+        "concept": "None"
+      },
+      "1": {
+        "conceptId": "469725900",
+        "concept": "Less than 30 min"
+      },
+      "2": {
+        "conceptId": "454476671",
+        "concept": "20 min"
+      },
+      "3": {
+        "conceptId": "447747491",
+        "concept": "35 min"
+      },
+      "4": {
+        "conceptId": "444857841",
+        "concept": "0 hr"
+      },
+      "5": {
+        "conceptId": "848958584",
+        "concept": "0 to 2.9 hrs"
+      },
+      "6": {
+        "conceptId": "455438870",
+        "concept": "2 to 4.9 hrs"
+      },
+      "7": {
+        "conceptId": "147881884",
+        "concept": "5 to 6.9 hrs."
+      },
+      "8": {
+        "conceptId": "728692369",
+        "concept": "7 to 8.9 hrs."
+      },
+      "9": {
+        "conceptId": "141557476",
+        "concept": "9 hrs. or more"
+      }
+    },
+    "questionText": "Walking and heavy manual work often working with materials weighing over 50 pounds (for example, digging and shoveling, chopping wood, laying bricks, stacking hay, or other heavy manual labor, etc.)",
+    "conceptId": "829124829"
+  },
+  "SHIFTWORK": {
+    "questIds": {
+      "0": {
+        "conceptId": "354278148",
+        "concept": "Yes, in the past 3 months"
+      },
+      "1": {
+        "conceptId": "365955509",
+        "concept": "Yes, more than 3 months ago"
+      },
+      "2": {
+        "conceptId": "104430631",
+        "concept": "No"
+      }
+    },
+    "questionText": "Have you worked as a shift worker? [Informational text: Shift work is work that takes place on a schedule different from the traditional 9:00AM \"\" 5:00PM schedule. Employers that need 24-hour coverage often rely on shift work.]",
+    "conceptId": "835415013"
+  },
+  "SEPHOR": {
+    "questIds": {
+      "0": {
+        "conceptId": "789656862",
+        "concept": "Less than 10 days per month"
+      },
+      "1": {
+        "conceptId": "323600648",
+        "concept": "00 to 14 days per month"
+      },
+      "2": {
+        "conceptId": "855089703",
+        "concept": "05 to 19 days per month"
+      },
+      "3": {
+        "conceptId": "558966991",
+        "concept": "10 to 25 days per month"
+      },
+      "4": {
+        "conceptId": "172536713",
+        "concept": "Every day"
+      }
+    },
+    "questionText": "How many days per cycle did you use two separate pills, one estrogen and one progestin?",
+    "conceptId": "844421455"
+  },
+  "PROGHOR2_2": {
+    "isTextBox": true,
+    "questionText": "How old were you when you first used other progestin-only medication?",
+    "conceptId": "845664974"
+  },
+  "HORMED2_4": {
+    "isTextBox": true,
+    "questionText": "How old were you when you first used Depo-Provera?",
+    "conceptId": "846804887"
+  },
+  "ESTROHOR4_4": {
+    "isTextBox": true,
+    "questionText": "How old were you when you last used estrogen-only skin gel, cream, or spray-on medication?",
+    "conceptId": "847126482"
+  },
+  "COMBHOR3_2": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Are you currently using two separate pills?",
+    "conceptId": "849075095"
+  },
+  "SLEEP2L": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "On non-workdays, do you wake up before the alarm rings?",
+    "conceptId": "859127397"
+  },
+  "FERT1": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Have you ever tried to get pregnant for more than one year, but did not get pregnant during that time?",
+    "conceptId": "860191086"
+  },
+  "LAWN4A": {
+    "questIds": {
+      "0": {
+        "conceptId": "471675167",
+        "concept": "05 minutes or less_\"\""
+      },
+      "1": {
+        "conceptId": "405634821",
+        "concept": "06-30 minutes_\"\""
+      },
+      "2": {
+        "conceptId": "845236449",
+        "concept": "21-44 minutes_"
+      },
+      "3": {
+        "conceptId": "528099182",
+        "concept": "35-59 minutes_"
+      },
+      "4": {
+        "conceptId": "517978296",
+        "concept": "0-1.9 hours_"
+      },
+      "5": {
+        "conceptId": "109306831",
+        "concept": "1-2.9 hours_"
+      },
+      "6": {
+        "conceptId": "599036415",
+        "concept": "2 hours or more_"
+      }
+    },
+    "questionText": "On the days that you did these moderate outdoor chores (such as weeding, raking, or mowing the lawn) outside of work, about how much time per day did you spend doing these chores?",
+    "conceptId": "860483415"
+  },
+  "INSULIN5_1": {
+    "questIds": {
+      "INSULIN5_1": {
+        "conceptId": "860694050",
+        "concept": "About how many years did you take Insulin?",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "289654263",
+    "concept": "About how many years did you take Insulin?"
+  },
+  "HOUSE2E": {
+    "questIds": {
+      "0": {
+        "conceptId": "471675167",
+        "concept": "05 minutes or less_\"\""
+      },
+      "1": {
+        "conceptId": "405634821",
+        "concept": "06-30 minutes_\"\""
+      },
+      "2": {
+        "conceptId": "845236449",
+        "concept": "21-44 minutes_"
+      },
+      "3": {
+        "conceptId": "528099182",
+        "concept": "35-59 minutes_"
+      },
+      "4": {
+        "conceptId": "517978296",
+        "concept": "0-1.9 hours_"
+      },
+      "5": {
+        "conceptId": "109306831",
+        "concept": "1-2.9 hours_"
+      },
+      "6": {
+        "conceptId": "599036415",
+        "concept": "2 hours or more_"
+      }
+    },
+    "questionText": "Walking while shopping or doing errands (Do not count walking for exercise.) time per day",
+    "conceptId": "861177665"
+  },
+  "ESTROHOR2_3": {
+    "isTextBox": true,
+    "questionText": "How old were you when you first used vaginal ring, vaginal cream, or vaginal tablet estrogen-only medication?",
+    "conceptId": "868038682"
+  },
+  "PAINREL2_2": {
+    "questIds": {
+      "RegAsprinWEEK": {
+        "conceptId": "875448540",
+        "concept": "Regular or extra strength aspirin days per week",
+        "isTextBox": true
+      },
+      "RegAsprinMONTH": {
+        "conceptId": "925855826",
+        "concept": "Regular or extra strength aspirin days per month",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "285480486",
+    "concept": "During the time(s) that you were taking regular or extra strength aspirin, about how many days per week OR per month did you take it? Please choose whichever makes the most sense for you."
+  },
+  "FERT17_12": {
+    "isTextBox": true,
+    "questionText": "In total, how many months or cycles did you take other ferility medication?",
+    "conceptId": "886430554"
+  },
+  "PRESHOR2": {
+    "isTextBox": true,
+    "questionText": "What other type of prescription hormones did you take?",
+    "conceptId": "896132195"
+  },
+  "MENSHIS6": {
+    "isTextBox": true,
+    "questionText": "In the past 12 months, about how many days long was your usual menstrual cycle?",
+    "conceptId": "900457532"
+  },
+  "EXEREC3M": {
+    "questIds": {
+      "0": {
+        "conceptId": "443374172",
+        "concept": "Once a month or less_"
+      },
+      "1": {
+        "conceptId": "317967870",
+        "concept": "1-3 days a month_"
+      },
+      "2": {
+        "conceptId": "160289508",
+        "concept": "0-2 days a week"
+      },
+      "3": {
+        "conceptId": "415815518",
+        "concept": "2-4 days a week__"
+      },
+      "4": {
+        "conceptId": "399220128",
+        "concept": "4-6 days a week_"
+      },
+      "5": {
+        "conceptId": "438928627",
+        "concept": "Every day_"
+      }
+    },
+    "questionText": "During the season[s] in the past 12 months that you did surfing or bodyboarding, about how often did you do this activity?",
+    "conceptId": "900533411"
+  },
+  "SITTINGD": {
+    "questIds": {
+      "0": {
+        "conceptId": "503218834",
+        "concept": "None"
+      },
+      "1": {
+        "conceptId": "469725900",
+        "concept": "Less than 30 min"
+      },
+      "2": {
+        "conceptId": "454476671",
+        "concept": "20 min"
+      },
+      "3": {
+        "conceptId": "447747491",
+        "concept": "35 min"
+      },
+      "4": {
+        "conceptId": "444857841",
+        "concept": "0 hr"
+      },
+      "5": {
+        "conceptId": "848958584",
+        "concept": "0 to 2.9 hrs"
+      },
+      "6": {
+        "conceptId": "455438870",
+        "concept": "2 to 4.9 hrs"
+      },
+      "7": {
+        "conceptId": "147881884",
+        "concept": "5 to 6.9 hrs."
+      },
+      "8": {
+        "conceptId": "728692369",
+        "concept": "7 to 8.9 hrs."
+      },
+      "9": {
+        "conceptId": "141557476",
+        "concept": "9 hrs. or more"
+      }
+    },
+    "questionText": "Other sitting outside of work (such as for reading, crafts, and hobbies)",
+    "conceptId": "905666425"
+  },
+  "HORMED2_1": {
+    "isTextBox": true,
+    "questionText": "How old were you when you first used combined oral contraceptive pills?",
+    "conceptId": "905818419"
+  },
+  "SHIFTWORK2": {
+    "isTextBox": true,
+    "questionText": "[When you were a shift worker,] what time [does/did] your usual work shift start?",
+    "conceptId": "909523121"
+  },
+  "PREG4": {
+    "isTextBox": true,
+    "questionText": "How old were you when your [first/2nd/3rd/4th/etc.] pregnancy began?",
+    "conceptId": "910034707"
+  },
+  "PROGHOR4_2": {
+    "isTextBox": true,
+    "questionText": "How old were you when you last used other progestin-only medication?",
+    "conceptId": "913361596"
+  },
+  "COMBHOR3_3": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Are you currently using the other combined estrogen plus progestin prescription hormone?",
+    "conceptId": "915118633"
+  },
+  "EXEREC4C": {
+    "questIds": {
+      "0": {
+        "conceptId": "471675167",
+        "concept": "05 minutes or less_\"\""
+      },
+      "1": {
+        "conceptId": "405634821",
+        "concept": "06-30 minutes_\"\""
+      },
+      "2": {
+        "conceptId": "845236449",
+        "concept": "21-44 minutes_"
+      },
+      "3": {
+        "conceptId": "528099182",
+        "concept": "35-59 minutes_"
+      },
+      "4": {
+        "conceptId": "517978296",
+        "concept": "0-1.9 hours_"
+      },
+      "5": {
+        "conceptId": "109306831",
+        "concept": "1-2.9 hours_"
+      },
+      "6": {
+        "conceptId": "599036415",
+        "concept": "2 hours or more_"
+      }
+    },
+    "questionText": "On the days that you played tennis, squash, or racquetball, about how much time per day did you spend doing this activity?",
+    "conceptId": "920426562"
+  },
+  "EXEREC3L": {
+    "questIds": {
+      "0": {
+        "conceptId": "443374172",
+        "concept": "Once a month or less_"
+      },
+      "1": {
+        "conceptId": "317967870",
+        "concept": "1-3 days a month_"
+      },
+      "2": {
+        "conceptId": "160289508",
+        "concept": "0-2 days a week"
+      },
+      "3": {
+        "conceptId": "415815518",
+        "concept": "2-4 days a week__"
+      },
+      "4": {
+        "conceptId": "399220128",
+        "concept": "4-6 days a week_"
+      },
+      "5": {
+        "conceptId": "438928627",
+        "concept": "Every day_"
+      }
+    },
+    "questionText": "During the season[s] in the past 12 months that you did cross-country skiing, about how often did you do this activity?",
+    "conceptId": "920728256"
+  },
+  "PREG13": {
+    "isTextBox": true,
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had eclampsia or pre-eclampsia?",
+    "conceptId": "920952536"
+  },
+  "TESTTHER": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Have you ever used testosterone therapy (e.g., Depo-Testosterone, Androgel, Testim, Fortesta, Axiron, Androderm, Striant)?",
+    "conceptId": "937481118"
+  },
+  "FERT17_9": {
+    "isTextBox": true,
+    "questionText": "In total, how many months or cycles did you take Pergonal?",
+    "conceptId": "945461972"
+  },
+  "ACIDSUP5_3": {
+    "questIds": {
+      "0": {
+        "conceptId": "588386843",
+        "concept": "In the past month"
+      },
+      "1": {
+        "conceptId": "661379363",
+        "concept": "More than a month ago, but in the past year"
+      },
+      "2": {
+        "conceptId": "443109235",
+        "concept": "More than 1 year ago"
+      }
+    },
+    "questionText": "When was the last time you took over-the-counter H2 receptor blockers?",
+    "conceptId": "946018881"
+  },
+  "FERT17_3": {
+    "isTextBox": true,
+    "questionText": "In total, how many months or cycles did you take Danazol?",
+    "conceptId": "948822525"
+  },
+  "EXEREC3D": {
+    "questIds": {
+      "0": {
+        "conceptId": "443374172",
+        "concept": "Once a month or less_"
+      },
+      "1": {
+        "conceptId": "317967870",
+        "concept": "1-3 days a month_"
+      },
+      "2": {
+        "conceptId": "160289508",
+        "concept": "0-2 days a week"
+      },
+      "3": {
+        "conceptId": "415815518",
+        "concept": "2-4 days a week__"
+      },
+      "4": {
+        "conceptId": "399220128",
+        "concept": "4-6 days a week_"
+      },
+      "5": {
+        "conceptId": "438928627",
+        "concept": "Every day_"
+      }
+    },
+    "questionText": "During the season[s] in the past 12 months that you played golf, about how often did you do this activity?",
+    "conceptId": "949285849"
+  },
+  "HORMED2_5": {
+    "isTextBox": true,
+    "questionText": "How old were you when you first used vaginal ring?",
+    "conceptId": "950289935"
+  },
+  "HOUSE1B": {
+    "questIds": {
+      "0": {
+        "conceptId": "667039937",
+        "concept": "Never_"
+      },
+      "1": {
+        "conceptId": "443374172",
+        "concept": "Once a month or less_"
+      },
+      "2": {
+        "conceptId": "317967870",
+        "concept": "1-3 days a month_"
+      },
+      "3": {
+        "conceptId": "160289508",
+        "concept": "0-2 days a week"
+      },
+      "4": {
+        "conceptId": "415815518",
+        "concept": "2-4 days a week__"
+      },
+      "5": {
+        "conceptId": "399220128",
+        "concept": "4-6 days a week_"
+      },
+      "6": {
+        "conceptId": "438928627",
+        "concept": "Every day_"
+      }
+    },
+    "questionText": "Moderate to vigorous household chores_(vacuuming, sweeping, etc.) during past 12 months",
+    "conceptId": "950947843"
+  },
+  "SLHABIT4": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Have you ever dozed off or fallen asleep while driving a vehicle?",
+    "conceptId": "953648846"
+  },
+  "PRESHOR": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Have you ever taken any other type of prescription hormones?",
+    "conceptId": "957922740"
+  },
+  "HORMED2_3": {
+    "isTextBox": true,
+    "questionText": "How old were you when you first used Norplant?",
+    "conceptId": "975018540"
+  },
+  "EXEREC4E": {
+    "questIds": {
+      "0": {
+        "conceptId": "471675167",
+        "concept": "05 minutes or less_\"\""
+      },
+      "1": {
+        "conceptId": "405634821",
+        "concept": "06-30 minutes_\"\""
+      },
+      "2": {
+        "conceptId": "845236449",
+        "concept": "21-44 minutes_"
+      },
+      "3": {
+        "conceptId": "528099182",
+        "concept": "35-59 minutes_"
+      },
+      "4": {
+        "conceptId": "517978296",
+        "concept": "0-1.9 hours_"
+      },
+      "5": {
+        "conceptId": "109306831",
+        "concept": "1-2.9 hours_"
+      },
+      "6": {
+        "conceptId": "599036415",
+        "concept": "2 hours or more_"
+      }
+    },
+    "questionText": "On the days that you swam laps, about how much time per day did you spend doing this activity?",
+    "conceptId": "983203219"
+  },
+  "FERT2": {
+    "isTextBox": true,
+    "questionText": "How old were you when you first tried to get pregnant for over a year?",
+    "conceptId": "989168287"
+  },
+  "HORMED4_7": {
+    "isTextBox": true,
+    "questionText": "How old were you when you last used copper IUD?",
+    "conceptId": "991098783"
+  },
+  "ESTROHOR2_4": {
+    "isTextBox": true,
+    "questionText": "How old were you when you first used estrogen-only skin gel, cream, or spray-on medication?",
+    "conceptId": "997812631"
+  }
+}
