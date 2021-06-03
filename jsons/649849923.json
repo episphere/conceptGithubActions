@@ -1,0 +1,31 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "conceptId": "649849923",
+  "Question Text": "How often do you stop breathing during your sleep?",
+  "Variable Label": "Often stop breathing",
+  "Variable Name": "SrvMRE_StopBreathing_v1r0",
+  "Connect Value for Select all that apply questions": "SNORING5",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "394095915.json": "1",
+    "978144008.json": "2",
+    "660274755.json": "3",
+    "651328358.json": "4",
+    "846405813.json": "5",
+    "930883484.json": "6",
+    "541051717.json": ""
+  },
+  "Connect Value": {
+    "394095915.json": "0",
+    "978144008.json": "1",
+    "660274755.json": "2",
+    "651328358.json": "3",
+    "846405813.json": "4",
+    "930883484.json": "5",
+    "541051717.json": "77"
+  }
+}

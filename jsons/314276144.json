@@ -1,0 +1,17 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "Source Question": "654336400.json",
+  "conceptId": "314276144",
+  "Question Text": "Pills per day naproxen, don't know",
+  "Variable Label": "Pills per day naproxen, don't know",
+  "Variable Name": "SrvMRE_NaproxenPillDK_v1r0",
+  "Connect Value for Select all that apply questions": "PAINREL3_5",
+  "Variable Type": "Num",
+  "Variable Length": "3",
+  "Old Quest Value": "Don't know",
+  "Required": "N/A",
+  "PII": "No",
+  "Notes": "Only display if PAINREL1 = 4",
+  "Quest_Src Question": "PAINREL3_5"
+}

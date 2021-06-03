@@ -1,0 +1,17 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "Source Question": "121744220.json",
+  "conceptId": "622595815",
+  "Question Text": "Years use oral estrogen-only medication",
+  "Variable Label": "Years use oral estrogen-only medication",
+  "Variable Name": "SrvMRE_OralEstrYrUsed_v1r0",
+  "Connect Value for Select all that apply questions": "ESTROHOROtherYear",
+  "Variable Type": "Num",
+  "Variable Length": "3",
+  "Old Quest Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if ESTROHOR=0",
+  "Quest_Src Question": "ESTROHOR5_1"
+}

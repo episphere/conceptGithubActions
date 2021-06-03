@@ -1,0 +1,24 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "conceptId": "172120167",
+  "Question Text": "How many infants were delivered?",
+  "Variable Label": "Multiples",
+  "Variable Name": "SrvMRE_PregMultiples_v1r0",
+  "Connect Value for Select all that apply questions": "PREG6",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "DISPLAY IF PREG5=1 or 3",
+  "Old Quest Value": {
+    "510557781.json": "1",
+    "112682934.json": "2",
+    "702922435.json": "3"
+  },
+  "Connect Value": {
+    "510557781.json": "0",
+    "112682934.json": "1",
+    "702922435.json": "2"
+  }
+}

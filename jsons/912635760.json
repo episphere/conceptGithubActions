@@ -1,0 +1,27 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "conceptId": "912635760",
+  "Question Text": "[When you were a shift worker,] how flexible [is/was] your work shift schedule?",
+  "Variable Label": "Flexible work shift",
+  "Variable Name": "SrvMRE_FlexibleShift_v1r0",
+  "Connect Value for Select all that apply questions": "SHIFTWORK8",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "666685502.json": "1",
+    "312408603.json": "2",
+    "356169583.json": "3",
+    "755604109.json": "4",
+    "410545021.json": "5"
+  },
+  "Connect Value": {
+    "666685502.json": "0",
+    "426837713.json": "1",
+    "356169583.json": "2",
+    "755604109.json": "3",
+    "410545021.json": "4"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "Source Question": "342766414.json",
+  "conceptId": "149333437",
+  "Question Text": "Celebrex (celecoxib) days per month",
+  "Variable Label": "Celebrex (celecoxib) days per month",
+  "Variable Name": "SrvMRE_CelebrexMo_v1r0",
+  "Connect Value for Select all that apply questions": "CelecoxibMONTH",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Old Quest Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if PAINREL1 = 5",
+  "Quest_Src Question": "PAINREL2_6"
+}

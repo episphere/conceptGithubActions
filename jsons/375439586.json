@@ -1,0 +1,27 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "Source Question": "620941408.json",
+  "conceptId": "375439586",
+  "Question Text": "Watching television",
+  "Variable Label": "Watching television",
+  "Variable Name": "SrvMRE_DozeWatchingTV_v1r0",
+  "Connect Value for Select all that apply questions": "SLHABIT3B",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Quest_Src Question": "SLHABIT3",
+  "Old Quest Value": {
+    "864489038.json": "1",
+    "200249696.json": "2",
+    "655439247.json": "3",
+    "450482612.json": "4"
+  },
+  "Connect Value": {
+    "864489038.json": "0",
+    "200249696.json": "1",
+    "655439247.json": "2",
+    "450482612.json": "3"
+  }
+}

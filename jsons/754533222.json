@@ -1,0 +1,24 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "conceptId": "754533222",
+  "Question Text": "When was the last time you took over-the-counter H2 receptor blockers?",
+  "Variable Label": "Last time took over-the-counter H2 receptor blockers",
+  "Variable Name": "SrvMRE_H2RecBlOCTime_v1r0",
+  "Connect Value for Select all that apply questions": "ACIDSUP5_3",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if ACIDSUP = 2",
+  "Old Quest Value": {
+    "363097916.json": "1",
+    "676832689.json": "3",
+    "162280800.json": "3"
+  },
+  "Connect Value": {
+    "363097916.json": "0",
+    "676832689.json": "1",
+    "162280800.json": "2"
+  }
+}

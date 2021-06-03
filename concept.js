@@ -150,6 +150,11 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
 
             
             let currValue = currRow[nonEmptyIndex]
+            if(!currValue){
+                console.log(JSON.stringify(currRow))
+                console.log('---------')
+                console.log(nonEmptyIndex)
+            }
             
            
             if(currValue.indexOf('=') != -1){
@@ -261,6 +266,11 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
 
 }
 function CSVToArray(strData){
+    let orig = strData;
+    if(strData.includes('Ever took hormones to reflect your gender')){
+        console.log('HWEIFHWEPIFHWEPFIHOSF');
+        console.log(strData);
+    }
     strData = strData.trim();
     let arr = [];
     let finalPush = true;
@@ -270,16 +280,26 @@ function CSVToArray(strData){
         if(strData.substring(0,1) == "\""){
             strData = strData.substring(1);            
             let nextLook = strData.indexOf('\"\"')
-            
-            while(nextLook != -1){
+            let nextQuote = strData.indexOf('\"');
+
+            while(nextLook != -1 && nextLook == nextQuote){
                 console.log(nextLook)
                 toPush += strData.substring(0,nextLook) + '\"\"'
                 strData = strData.substring(strData.indexOf("\"\"") + 2);    
+                if(orig.includes('Ever took hormones to reflect your gender')){
+                    console.log(strData.substring(strData.indexOf("\"\"") + 2));
+                    console.log('------------------------')
+                }
                 nextLook = strData.indexOf('\"\"')
+                nextQuote = strData.indexOf('\"');
             }
 
             toPush += strData.substring(0,  strData.indexOf("\""));    
             strData = strData.substring(strData.indexOf("\"") + 1);    
+            if(orig.includes('Ever took hormones to reflect your gender')){
+                //console.log(strData.substring(strData.indexOf("\"") + 1));
+                //console.log('------------------------')
+            }
             strData = strData.substring(strData.indexOf(',')+1)
             if(strData.trim() == ''){
                 finalPush = false
@@ -289,12 +309,12 @@ function CSVToArray(strData){
             toPush = strData.substring(0, strData.indexOf(','));
             strData = strData.substring(strData.indexOf(',') + 1)
         }
-        arr.push(toPush)
+        arr.push(toPush.trim())
 
         //let nextQuote = strData.indexOf("\"")
     }
     if(finalPush == true){
-        arr.push(strData);
+        arr.push(strData.trim());
     }
 
     // Return the parsed data.
@@ -495,6 +515,10 @@ async function readFile(fileName){
     if(fs.existsSync('./jsons/varToConcept.json')){
         ConceptIndex = fs.readFileSync('./jsons/varToConcept.json', {encoding:'utf8'})
     }
+    let toReplace = fs.readFileSync(fileName,{encoding:'utf8', flag:'r'})
+    //console.log(toReplace)
+    toReplace = toReplace.replace(/�/g, "\"\"")
+    fs.writeFileSync(fileName, toReplace)
     let idIndex = '[]'
     if(fs.existsSync('./jsons/conceptIds.txt')){
         idIndex = fs.readFileSync('./jsons/conceptIds.txt', {encoding:'utf8'})

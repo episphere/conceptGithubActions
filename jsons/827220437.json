@@ -1,0 +1,30 @@
+{
+  "Primary Source": "192505768.json",
+  "Secondary Source": "214456996.json",
+  "conceptId": "827220437",
+  "Question Text": "Healthcare provider",
+  "Variable Label": "Site",
+  "Variable Name": "RcrtES_Site_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "Yes -  if there is not a valid token or PIN",
+  "PII": "No",
+  "Notes": "The National Cancer Institute is included as a site for testing purposes only.",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "3/25/21",
+  "Format/Value": {
+    "531629870.json": "0",
+    "548392715.json": "1",
+    "125001209.json": "2",
+    "327912200.json": "3",
+    "300267574.json": "4",
+    "452412599.json": "5",
+    "303349821.json": "6",
+    "657167265.json": "7",
+    "809703864.json": "8",
+    "517700004.json": "9",
+    "181769837.json": "55"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "conceptId": "387386194",
+  "Question Text": "How old were you when you last used other progestin-only medication?",
+  "Variable Label": "How old were you when you last used other progestin-only medication?",
+  "Variable Name": "SrvMRE_AgeOthProgL_v1r0",
+  "Connect Value for Select all that apply questions": "PROGHOR4_2",
+  "Variable Type": "Num",
+  "Variable Length": "3",
+  "Old Quest Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if PROGHOR=55"
+}

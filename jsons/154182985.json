@@ -1,0 +1,29 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "conceptId": "154182985",
+  "Question Text": "How often do you snore?",
+  "Variable Label": "Often snoring",
+  "Variable Name": "SrvMRE_OftenSnoring_v1r0",
+  "Connect Value for Select all that apply questions": "SNORING3",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "394095915.json": "1",
+    "978144008.json": "2",
+    "660274755.json": "3",
+    "651328358.json": "4",
+    "846405813.json": "5",
+    "541051717.json": "6"
+  },
+  "Connect Value": {
+    "394095915.json": "0",
+    "978144008.json": "1",
+    "660274755.json": "2",
+    "651328358.json": "3",
+    "846405813.json": "4",
+    "541051717.json": "77"
+  }
+}

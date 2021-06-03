@@ -1,5 +1,7 @@
-const concept = require('./concept');
+/*
+const concept = require('./concept1');
 const aggregate = require('./aggregateJSONS.js');
+const masterParsing = require('./masterParsing.js');
 const fs = require('fs');
 const otherDirection = require('./otherDirection');
 let files = fs.readFileSync('files.csv', {encoding:'utf8'})
@@ -34,4 +36,4 @@ for(let i = 0; i < files.length; i++){
     
 }
 
-
+masterParsing.parseMasterModule();*/

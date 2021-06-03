@@ -1,0 +1,29 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "Source Question": "863134232.json",
+  "conceptId": "651629242",
+  "Question Text": "Did you have sleep problems that made you irritable (easily annoyed)?",
+  "Variable Label": "Did you have sleep problems that made you irritable (easily annoyed)?",
+  "Variable Name": "SrvMRE_SleepProbIrrit_v1r0",
+  "Connect Value for Select all that apply questions": "SLHABIT1F",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Quest_Src Question": "SLHABIT1",
+  "Old Quest Value": {
+    "104430631.json": "1",
+    "529833935.json": "2",
+    "107838051.json": "3",
+    "393780459.json": "4",
+    "612971794.json": "5"
+  },
+  "Connect Value": {
+    "104430631.json": "0",
+    "529833935.json": "1",
+    "107838051.json": "2",
+    "393780459.json": "3",
+    "612971794.json": "4"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "Primary Source": "332961895.json",
+  "Secondary Source": "117044491.json",
+  "conceptId": "200180620",
+  "Question Text": "Payment refused by paricipant from any site",
+  "Variable Label": "Payment refused by any participant",
+  "Variable Name": "SMPaym_JointRefused_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Repeated measure associated with Round, for display on the study manager dashboard, indicates if payment was refused by any participant",
+  "Derivation Notes": "If BioFin_UoCPaymRef_v1r0 equals 1 or HDPaym_PaymRefused_v1r0 equals 1 then SMPaym_JointRefused_v1r0 equals 1",
+  "Dictionary": "Study Manager",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

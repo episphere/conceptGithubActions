@@ -1,0 +1,27 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "conceptId": "986353352",
+  "Question Text": "How many days per cycle did you use a combined oral estrogen plus progestin pill?",
+  "Variable Label": "How many days per cycle did you use a combined oral estrogen plus progestin pill?",
+  "Variable Name": "SrvMRE_CombPillCyc_v1r0",
+  "Connect Value for Select all that apply questions": "COMBHOR6",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "823042758.json": "1",
+    "906339418.json": "2",
+    "178910766.json": "3",
+    "723592732.json": "4",
+    "548954209.json": "5"
+  },
+  "Connect Value": {
+    "823042758.json": "0",
+    "906339418.json": "1",
+    "178910766.json": "2",
+    "723592732.json": "3",
+    "548954209.json": "4"
+  }
+}

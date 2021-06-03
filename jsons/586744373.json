@@ -1,0 +1,30 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "conceptId": "586744373",
+  "Question Text": "During the season[s] in the past 12 months that you did Yoga, Pilates, or Tai Chi, about how often did you do this activity?",
+  "Variable Label": "During the season[s] in the past 12 months that you did Yoga, Pilates, or Tai Chi, about how often did you do this activity?",
+  "Variable Name": "SrvMRE_YogaOften_v1r0",
+  "Connect Value for Select all that apply questions": "EXEREC3H",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if EXEREC1=7",
+  "Old Quest Value": {
+    "946255632.json": "1",
+    "464844548.json": "2",
+    "125274043.json": "3",
+    "201543346.json": "4",
+    "161843446.json": "5",
+    "769654427.json": "6"
+  },
+  "Connect Value": {
+    "946255632.json": "0",
+    "464844548.json": "1",
+    "125274043.json": "2",
+    "201543346.json": "3",
+    "161843446.json": "4",
+    "769654427.json": "5"
+  }
+}

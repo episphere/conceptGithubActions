@@ -1,0 +1,17 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "Source Question": "609071522.json",
+  "conceptId": "839155241",
+  "Question Text": "Months use progesterone-only or progestin-only contraceptive pills",
+  "Variable Label": "Months use progesterone-only or progestin-only contraceptive pills",
+  "Variable Name": "SrvMRE_ProgPillMoUsed_v1r0",
+  "Connect Value for Select all that apply questions": "miniPillMonth",
+  "Variable Type": "Num",
+  "Variable Length": "3",
+  "Old Quest Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if HORMED= 0",
+  "Quest_Src Question": "HORMED5_2"
+}
