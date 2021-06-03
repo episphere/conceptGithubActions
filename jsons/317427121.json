@@ -1,5 +1,5 @@
 {
-  "Primary Source": "819848608.json",
+  "Primary Source": "Biospecimen",
   "Secondary Source": "520808137.json",
   "conceptId": "317427121",
   "Question Text": "Shipment status comments",
@@ -8,10 +8,9 @@
   "Variable Type": "Char",
   "Variable Length": "800",
   "Format/Value": "N/A",
-  "Required": "No",
   "PII": "No",
-  "Notes": "Placeholders for possible comment fields to be added to the packing/shipping workflow.",
-  "Dictionary": "Biospecimen Shipping",
-  "State Attribute": "No",
-  "Default Variable": "No"
+  "Derivation Notes": "Placeholders for possible comment fields to be added to the packing/shipping workflow.",
+  "State Attribute": "Biospecimen Shipping",
+  "Default Variable": "No",
+  "Date added or modified": "No"
 }

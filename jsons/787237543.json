@@ -1,5 +1,5 @@
 {
-  "Primary Source": "819848608.json",
+  "Primary Source": "Biospecimen",
   "Secondary Source": "360770860.json",
   "conceptId": "787237543",
   "Question Text": "Biohazard Bag scan",
@@ -8,8 +8,8 @@
   "Variable Type": "Char",
   "Variable Length": "14",
   "Format/Value": "Example: CXA000001 0001",
-  "Required": "Yes, for any blood or urine tube where tube collected equals 1",
-  "Dictionary": "Biospecimen Clinical, Biospecimen Research, Biospecimen Shipping",
-  "State Attribute": "No",
-  "Default Variable": "No"
+  "PII": "Yes, for any blood or urine tube where tube collected equals 1",
+  "State Attribute": "Biospecimen Clinical, Biospecimen Research, Biospecimen Shipping",
+  "Default Variable": "No",
+  "Date added or modified": "No"
 }

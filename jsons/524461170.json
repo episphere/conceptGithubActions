@@ -1,5 +1,5 @@
 {
-  "Primary Source": "192505768.json",
+  "Primary Source": "Recruitment",
   "Secondary Source": "332759827.json",
   "conceptId": "524461170",
   "Question Text": "How do you prefer that we reach you?",
@@ -7,13 +7,12 @@
   "Variable Name": "RcrtUP_PrefMethod_v1r0",
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Required": "Yes if both mobile phone and email given",
-  "PII": "No",
-  "Notes": "Question does not appear if only mobile phone OR email given, but not both",
-  "Dictionary": "Recruitment Data Dictionary, Biospecimen Research",
-  "State Attribute": "No",
+  "PII": "Yes if both mobile phone and email given",
+  "Derivation Notes": "Question does not appear if only mobile phone OR email given, but not both",
+  "State Attribute": "Recruitment Data Dictionary, Biospecimen Research",
   "Default Variable": "No",
-  "Date added or modified": "4/14/21",
+  "Date added or modified": "No",
+  "Quest_Src Question": "4/14/21",
   "Format/Value": {
     "127547625.json": "0",
     "357184057.json": "1"

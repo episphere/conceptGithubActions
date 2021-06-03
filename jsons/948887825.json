@@ -1,5 +1,5 @@
 {
-  "Primary Source": "819848608.json",
+  "Primary Source": "Biospecimen",
   "Secondary Source": "603665257.json",
   "conceptId": "948887825",
   "Question Text": "Shipper first name signature",
@@ -8,9 +8,8 @@
   "Variable Type": "Char",
   "Variable Length": "50",
   "Format/Value": "N/A",
-  "Required": "Yes",
-  "PII": "No",
-  "Dictionary": "Biospecimen Shipping",
-  "State Attribute": "No",
-  "Default Variable": "No"
+  "PII": "Yes",
+  "State Attribute": "Biospecimen Shipping",
+  "Default Variable": "No",
+  "Date added or modified": "No"
 }

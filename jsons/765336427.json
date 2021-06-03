@@ -1,5 +1,5 @@
 {
-  "Primary Source": "237817859.json",
+  "Primary Source": "Help Desk",
   "Secondary Source": "635994596.json",
   "conceptId": "765336427",
   "Question Text": "First Name extracted from HIPAA revocation form",
@@ -8,10 +8,9 @@
   "Variable Type": "Char",
   "Variable Length": "50",
   "Format/Value": "N/A",
-  "Required": "Yes",
   "PII": "Yes",
-  "Notes": "Legal first name for all non-KP sites. For KP sites it is their ID card name.",
-  "Dictionary": "Master Data Dictionary",
-  "State Attribute": "No",
-  "Default Variable": "No"
+  "Derivation Notes": "Legal first name for all non-KP sites. For KP sites it is their ID card name.",
+  "State Attribute": "Master Data Dictionary",
+  "Default Variable": "No",
+  "Date added or modified": "No"
 }
