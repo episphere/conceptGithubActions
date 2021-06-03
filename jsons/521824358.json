@@ -1,5 +1,5 @@
 {
-  "Primary Source": "192505768.json",
+  "Primary Source": "Recruitment",
   "Secondary Source": "332759827.json",
   "conceptId": "521824358",
   "Question Text": "Address line 1",
@@ -8,10 +8,9 @@
   "Variable Type": "Char",
   "Variable Length": "70",
   "Format/Value": "N/A",
-  "Required": "Yes",
   "PII": "Yes",
-  "Notes": "Populated from Google Addresses",
-  "Dictionary": "Recruitment Data Dictionary, Biospecimen Clinical, Biospecimen Research",
-  "State Attribute": "No",
-  "Default Variable": "No"
+  "Derivation Notes": "Populated from Google Addresses",
+  "State Attribute": "Recruitment Data Dictionary, Biospecimen Clinical, Biospecimen Research",
+  "Default Variable": "No",
+  "Date added or modified": "No"
 }

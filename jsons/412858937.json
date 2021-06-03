@@ -1,0 +1,25 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "745268907.json",
+  "conceptId": "412858937",
+  "Question Text": "On the days that you took insulin, what concentration did you take?",
+  "Variable Label": "Insulin concentration",
+  "Variable Name": "SrvMRE_InsulinConc_v1r0",
+  "Connect Value for Select all that apply questions": "INSULIN4_1A",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "659314036.json": "1",
+    "630181653.json": "2",
+    "521194117.json": "3",
+    "678848514.json": "4"
+  },
+  "Connect Value": {
+    "659314036.json": "0",
+    "630181653.json": "1",
+    "521194117.json": "77",
+    "678848514.json": "55"
+  }
+}

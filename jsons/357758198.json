@@ -1,0 +1,23 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "745268907.json",
+  "conceptId": "357758198",
+  "Question Text": "When was the last time you took ibuprofen?",
+  "Variable Label": "Last time took ibuprofen?",
+  "Variable Name": "SrvMRE_IbuprofenTime_v1r0",
+  "Connect Value for Select all that apply questions": "PAINREL5_3",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "983959392.json": "1",
+    "309299246.json": "2",
+    "816622703.json": "3"
+  },
+  "Connect Value": {
+    "983959392.json": "0",
+    "309299246.json": "1",
+    "816622703.json": "2"
+  }
+}

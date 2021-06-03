@@ -1,0 +1,22 @@
+{
+  "Primary Source": "Help Desk",
+  "Secondary Source": "635994596.json",
+  "conceptId": "297147359",
+  "Question Text": "Who Requested the Refusal/Withdrawal",
+  "Variable Label": "Who Requested the Refusal/Withdrawal",
+  "Variable Name": "HdWd_WhoRequestedRefWd_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "PII": "Yes",
+  "Derivation Notes": "This is a select one variable (not select all that apply). (Other may be a family member or other individual who makes the request on behalf of the participant and these are required to be vetted by the CCC before NORC enters them into the dashboard).",
+  "State Attribute": "Master Data Dictionary",
+  "Quest_Src Question": "6/2/21",
+  "Format/Value": {
+    "648459216.json": "0",
+    "658808644.json": "1",
+    "745366882.json": "2",
+    "786757575.json": "3",
+    "847056701.json": "4",
+    "181769837.json": "55"
+  }
+}

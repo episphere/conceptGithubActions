@@ -1,5 +1,5 @@
 {
-  "Primary Source": "192505768.json",
+  "Primary Source": "Recruitment",
   "Secondary Source": "883203566.json",
   "conceptId": "527823810",
   "Question Text": "Henry Ford Health System Reported Ethnicity",
@@ -7,11 +7,10 @@
   "Variable Name": "RcrtSI_HFHSEthnicity_v1r0",
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Required": "For Henry Ford HS",
-  "PII": "No",
-  "Dictionary": "Recruitment Data Dictionary",
-  "State Attribute": "Yes",
-  "Default Variable": "No",
+  "PII": "For Henry Ford HS",
+  "State Attribute": "Recruitment Data Dictionary",
+  "Default Variable": "Yes",
+  "Date added or modified": "No",
   "Format/Value": {
     "628733063.json": "0",
     "319570637.json": "1",

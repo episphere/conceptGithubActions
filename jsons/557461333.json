@@ -1,5 +1,5 @@
 {
-  "Primary Source": "192505768.json",
+  "Primary Source": "Recruitment",
   "Secondary Source": "218595434.json",
   "conceptId": "557461333",
   "Question Text": "Verification Variable - Last Name",
@@ -7,12 +7,11 @@
   "Variable Name": "RcrtV_LNameMatch_v1r0",
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Required": "Yes",
-  "PII": "No",
-  "Notes": "Sent as part of the verification table from the IHCS.",
-  "Dictionary": "Recruitment Data Dictionary",
-  "State Attribute": "Yes",
-  "Default Variable": "No",
+  "PII": "Yes",
+  "Derivation Notes": "Sent as part of the verification table from the IHCS.",
+  "State Attribute": "Recruitment Data Dictionary",
+  "Default Variable": "Yes",
+  "Date added or modified": "No",
   "Format/Value": {
     "356674370.json": "0",
     "219803804.json": "1"

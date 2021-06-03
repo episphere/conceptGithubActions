@@ -1,5 +1,5 @@
 {
-  "Primary Source": "237817859.json",
+  "Primary Source": "Help Desk",
   "Secondary Source": "635994596.json",
   "conceptId": "407743866",
   "Question Text": "HIPAA Revocation Version",
@@ -7,11 +7,10 @@
   "Variable Name": "HdWd_HIPAArevokedver_v1r0",
   "Variable Type": "Char",
   "Format/Value": "N/A",
-  "Required": "Yes",
-  "PII": "No",
-  "Notes": "Other version codes to be added as needed.",
-  "Dictionary": "Master Data Dictionary",
-  "State Attribute": "No",
+  "PII": "Yes",
+  "Derivation Notes": "Other version codes to be added as needed.",
+  "State Attribute": "Master Data Dictionary",
   "Default Variable": "No",
-  "Date added or modified": "4/9/21"
+  "Date added or modified": "No",
+  "Quest_Src Question": "4/9/21"
 }

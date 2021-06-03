@@ -1,0 +1,31 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "745268907.json",
+  "conceptId": "898998836",
+  "Question Text": "How long after your first menstrual period did your periods become regular? By regular, we mean that you could predict the start of your next period within a few days.",
+  "Variable Label": "Long until periods regular",
+  "Variable Name": "SrvMRE_PeriodRegTime_v1r0",
+  "Connect Value for Select all that apply questions": "MENSHIS2_1",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "899171986.json": "1",
+    "861676807.json": "2",
+    "854151381.json": "3",
+    "876467960.json": "4",
+    "686384942.json": "5",
+    "118397039.json": "6",
+    "521194117.json": "7"
+  },
+  "Connect Value": {
+    "899171986.json": "0",
+    "861676807.json": "1",
+    "854151381.json": "2",
+    "876467960.json": "3",
+    "686384942.json": "4",
+    "118397039.json": "5",
+    "521194117.json": "77"
+  }
+}

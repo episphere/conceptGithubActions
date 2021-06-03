@@ -1,5 +1,5 @@
 {
-  "Primary Source": "332961895.json",
+  "Primary Source": "Study Manager",
   "Secondary Source": "117044491.json",
   "conceptId": "130371375",
   "Question Text": "Payment Round",
@@ -7,11 +7,10 @@
   "Variable Name": "SMPaym_Round_v1r0",
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Required": "Yes",
-  "PII": "No",
-  "Dictionary": "Study Manager Data Dictionary",
-  "State Attribute": "No",
+  "PII": "Yes",
+  "State Attribute": "Study Manager Data Dictionary",
   "Default Variable": "No",
+  "Date added or modified": "No",
   "Format/Value": {
     "266600170.json": "0",
     "496823485.json": "1",

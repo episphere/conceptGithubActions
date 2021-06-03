@@ -1,0 +1,23 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "745268907.json",
+  "Source Question": "652541671.json",
+  "conceptId": "947608536",
+  "Question Text": "Anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)",
+  "Variable Label": "Anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)",
+  "Variable Name": "SrvMRE_AntiHypertens_v1r0",
+  "Connect Value for Select all that apply questions": "1",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Quest_Src Question": "CHOLHTN",
+  "Old Quest Value": {
+    "104430631.json": "2",
+    "353358909.json": "1"
+  },
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

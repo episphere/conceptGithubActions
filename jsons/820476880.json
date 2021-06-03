@@ -1,5 +1,5 @@
 {
-  "Primary Source": "819848608.json",
+  "Primary Source": "Biospecimen",
   "Secondary Source": "123496044.json",
   "conceptId": "820476880",
   "Question Text": "Collection ID",
@@ -8,9 +8,8 @@
   "Variable Type": "Char",
   "Variable Length": "9",
   "Format/Value": "Example: CXA000001",
-  "Required": "Yes",
-  "PII": "No",
-  "Dictionary": "Biospecimen Clinical, Biospecimen Research, Biospecimen Shipping",
-  "State Attribute": "No",
-  "Default Variable": "No"
+  "PII": "Yes",
+  "State Attribute": "Biospecimen Clinical, Biospecimen Research, Biospecimen Shipping",
+  "Default Variable": "No",
+  "Date added or modified": "No"
 }

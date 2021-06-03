@@ -1,5 +1,5 @@
 {
-  "Primary Source": "129084651.json",
+  "Primary Source": "Survey",
   "Secondary Source": "166676176.json",
   "conceptId": "463625040",
   "Question Text": "Derived variable for the time from sign-in to completion of SSN as SrvSS_SSNTime_v1r0 -RcrtSI_SignTime_v1r0 or SrvSS_SSN4dTime_v1r0 - RcrtSI_SignTime_v1r0 if partial SSN given.",
@@ -8,10 +8,9 @@
   "Variable Type": "Minutes",
   "Variable Length": "18",
   "Format/Value": "N/A",
-  "Required": "Yes",
-  "PII": "No",
-  "Notes": "Can be further derived to other time units (e.g. hours + fractions of hours) or as multiple time variables (e.g. hours, minutes, and seconds)",
-  "Dictionary": "Recruitment Data Dictionary",
-  "State Attribute": "No",
-  "Default Variable": "No"
+  "PII": "Yes",
+  "Derivation Notes": "Can be further derived to other time units (e.g. hours + fractions of hours) or as multiple time variables (e.g. hours, minutes, and seconds)",
+  "State Attribute": "Recruitment Data Dictionary",
+  "Default Variable": "No",
+  "Date added or modified": "No"
 }

@@ -1,0 +1,23 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "745268907.json",
+  "conceptId": "418745812",
+  "Question Text": "When was the last time you took acetaminophen?",
+  "Variable Label": "Last time took acetaminophen?",
+  "Variable Name": "SrvMRE_AcetaminophenTm_v1r0",
+  "Connect Value for Select all that apply questions": "PAINREL5_4",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "983959392.json": "1",
+    "309299246.json": "2",
+    "816622703.json": "3"
+  },
+  "Connect Value": {
+    "983959392.json": "0",
+    "309299246.json": "1",
+    "816622703.json": "2"
+  }
+}

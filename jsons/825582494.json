@@ -1,5 +1,5 @@
 {
-  "Primary Source": "819848608.json",
+  "Primary Source": "Biospecimen",
   "Secondary Source": "360770860.json",
   "conceptId": "825582494",
   "Question Text": "Tube ID",
@@ -7,10 +7,9 @@
   "Variable Name": "BioCol_TubeID_v1r0",
   "Variable Type": "Char",
   "Variable Length": "14",
-  "Required": "Yes - for any tube where BioCol_TubeCollected_v1r0 equals 1",
-  "PII": "No",
-  "Dictionary": "Biospecimen Clinical, Biospecimen Research, Biospecimen Shipping",
-  "State Attribute": "No",
+  "PII": "Yes - for any tube where BioCol_TubeCollected_v1r0 equals 1",
+  "State Attribute": "Biospecimen Clinical, Biospecimen Research, Biospecimen Shipping",
   "Default Variable": "No",
-  "Date added or modified": "3/25/21"
+  "Date added or modified": "No",
+  "Quest_Src Question": "3/25/21"
 }

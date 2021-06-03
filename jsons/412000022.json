@@ -1,5 +1,5 @@
 {
-  "Primary Source": "192505768.json",
+  "Primary Source": "Recruitment",
   "Secondary Source": "273437590.json",
   "conceptId": "412000022",
   "Question Text": "HIPAA Version",
@@ -8,10 +8,9 @@
   "Variable Type": "Char",
   "Variable Length": "11",
   "Format/Value": "N/A",
-  "Required": "Yes",
-  "PII": "No",
-  "Notes": "Other version codes to be added as needed.",
-  "Dictionary": "Recruitment, Study Manager",
-  "State Attribute": "No",
-  "Default Variable": "No"
+  "PII": "Yes",
+  "Derivation Notes": "Other version codes to be added as needed.",
+  "State Attribute": "Recruitment, Study Manager",
+  "Default Variable": "No",
+  "Date added or modified": "No"
 }
