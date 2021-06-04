@@ -8,9 +8,10 @@
   "Variable Type": "Minutes",
   "Variable Length": "18",
   "Format/Value": "N/A",
-  "PII": "Yes",
-  "Derivation Notes": "Can be further derived to other time units (e.g. hours + fractions of hours) or as multiple time variables (e.g. hours, minutes, and seconds)",
-  "State Attribute": "Recruitment Data Dictionary",
-  "Default Variable": "No",
-  "Date added or modified": "No"
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Can be further derived to other time units (e.g. hours + fractions of hours) or as multiple time variables (e.g. hours, minutes, and seconds)",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No"
 }

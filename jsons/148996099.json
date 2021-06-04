@@ -7,10 +7,11 @@
   "Variable Name": "BioSpm_AccIDEntered_v1r0",
   "Variable Type": "Num",
   "Variable Length": "1",
-  "PII": "Yes if manually entered",
-  "State Attribute": "Biospecimen Clinical",
+  "Required": "Yes if manually entered",
+  "PII": "No",
+  "Dictionary": "Biospecimen Clinical",
+  "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "No",
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

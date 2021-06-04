@@ -7,11 +7,12 @@
   "Variable Name": "BioFin_UoCPaymRef_v1r0",
   "Variable Type": "Num",
   "Variable Length": "1",
-  "PII": "yes -for UoC only",
-  "Derivation Notes": "Repeated measures associated with Round, Input field only to be displayed for UoC for Biospecimen dashboard.",
-  "State Attribute": "Study Manager Data Dictionary, Biospecimen Research",
+  "Required": "yes -for UoC only",
+  "PII": "No",
+  "Notes": "Repeated measures associated with Round, Input field only to be displayed for UoC for Biospecimen dashboard.",
+  "Dictionary": "Study Manager Data Dictionary, Biospecimen Research",
+  "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "No",
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

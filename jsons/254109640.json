@@ -7,11 +7,12 @@
   "Variable Name": "SMMet_BLSamplesColl_v1r0",
   "Variable Type": "Num",
   "Variable Length": "1",
-  "PII": "Yes",
-  "Dictionary": "SMMet_BLSamplesColl_v1r0 equals 1 if BioFin_BaseBloodCol_v1r0 equals 1 AND BioFin_BaseUrineCol_v1r0 equals 1 AND BioFin_BaseMouthCol_v1r0 equals 1",
-  "State Attribute": "Master Data Dictionary",
+  "Required": "Yes",
+  "PII": "No",
+  "Derivation Notes": "SMMet_BLSamplesColl_v1r0 equals 1 if BioFin_BaseBloodCol_v1r0 equals 1 AND BioFin_BaseUrineCol_v1r0 equals 1 AND BioFin_BaseMouthCol_v1r0 equals 1",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "No",
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

@@ -8,8 +8,9 @@
   "Variable Type": "Char",
   "Variable Length": "14",
   "Format/Value": "Example: CXA000001 0001",
-  "PII": "Yes if marked as Collected",
-  "State Attribute": "Biospecimen Research, Biospecimen Shipping",
-  "Default Variable": "No",
-  "Date added or modified": "No"
+  "Required": "Yes if marked as Collected",
+  "PII": "No",
+  "Dictionary": "Biospecimen Research, Biospecimen Shipping",
+  "State Attribute": "No",
+  "Default Variable": "No"
 }

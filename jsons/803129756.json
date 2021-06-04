@@ -8,10 +8,11 @@
   "Variable Type": "ISO",
   "Variable Length": "24",
   "Format/Value": "example: 2020-07-17T15:21:26.763Z",
-  "PII": "Yes",
-  "Derivation Notes": "Repeated measures associated with Round for display on study manager dashboard",
-  "Dictionary": "If BioFin_UoCPaymRef_v1r0 equals 1 then SMPaym_JointTmRefused_v1r0 equals BioFin_TmPaymRef_v1r0, If HDPaym_PaymRefused_v1r0 equals 1 then SMPaym_JointTmRefused_v1r0 equals HDPaym_TmRefused_v1r0",
-  "State Attribute": "Study Manager",
-  "Default Variable": "No",
-  "Date added or modified": "No"
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Repeated measures associated with Round for display on study manager dashboard",
+  "Derivation Notes": "If BioFin_UoCPaymRef_v1r0 equals 1 then SMPaym_JointTmRefused_v1r0 equals BioFin_TmPaymRef_v1r0, If HDPaym_PaymRefused_v1r0 equals 1 then SMPaym_JointTmRefused_v1r0 equals HDPaym_TmRefused_v1r0",
+  "Dictionary": "Study Manager",
+  "State Attribute": "No",
+  "Default Variable": "No"
 }

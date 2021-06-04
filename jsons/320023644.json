@@ -7,9 +7,10 @@
   "Variable Name": "HDPaym_CaseNumber_v1r0",
   "Variable Type": "Num",
   "Variable Length": "9",
-  "PII": "Yes",
-  "Derivation Notes": "Case number associated with each participant for each Round will be send by NORC (e.g. repeated measure associated with Round)",
-  "State Attribute": "Study Manager Data Dictionary",
-  "Default Variable": "No",
-  "Date added or modified": "No"
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Case number associated with each participant for each Round will be send by NORC (e.g. repeated measure associated with Round)",
+  "Dictionary": "Study Manager Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No"
 }

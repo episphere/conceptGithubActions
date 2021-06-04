@@ -8,9 +8,10 @@
   "Variable Type": "Char",
   "Variable Length": "800",
   "Format/Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "As long as PII isn't included in the notes, do we need to screen for this?",
-  "State Attribute": "Biospecimen Clinical, Biospecimen Research",
-  "Default Variable": "No",
-  "Date added or modified": "No"
+  "Notes": "As long as PII isn't included in the notes, do we need to screen for this?",
+  "Dictionary": "Biospecimen Clinical, Biospecimen Research",
+  "State Attribute": "No",
+  "Default Variable": "No"
 }

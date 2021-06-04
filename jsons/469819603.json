@@ -7,9 +7,10 @@
   "Variable Name": "BioPack_ScanFname_v1r0",
   "Variable Type": "Char",
   "Variable Length": "50",
-  "PII": "Yes",
-  "Derivation Notes": "Populated by login at time of scan",
-  "State Attribute": "Biospecimen Shipping",
-  "Default Variable": "No",
-  "Date added or modified": "No"
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Populated by login at time of scan",
+  "Dictionary": "Biospecimen Shipping",
+  "State Attribute": "No",
+  "Default Variable": "No"
 }

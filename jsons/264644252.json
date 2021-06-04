@@ -8,10 +8,11 @@
   "Variable Type": "ISO",
   "Variable Length": "24",
   "Format/Value": "example: 2020-07-17T15:21:26.763Z",
-  "PII": "Yes if SrvLAW_BaseStatus_v1r0 equals 2",
-  "Derivation Notes": "ISO to be converted to SAS format, populated when SrvLAW_BaseStatus_v1r0 is 2",
-  "State Attribute": "Study Manager Data Dictionary, Biospecimen Research",
+  "Required": "Yes if SrvLAW_BaseStatus_v1r0 equals 2",
+  "PII": "No",
+  "Notes": "ISO to be converted to SAS format, populated when SrvLAW_BaseStatus_v1r0 is 2",
+  "Dictionary": "Study Manager Data Dictionary, Biospecimen Research",
+  "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "No",
-  "Quest_Src Question": "3/26/21"
+  "Date added or modified": "3/26/21"
 }

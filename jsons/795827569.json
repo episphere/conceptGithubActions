@@ -8,9 +8,10 @@
   "Variable Type": "Day",
   "Variable Length": "2",
   "Format/Value": "dd",
+  "Required": "Yes",
   "PII": "Yes",
-  "Derivation Notes": "Variable will be populated by a drop down with values from 1 to 31.  DOB is being saved for the derived single date variable that will be created from MOB, BD and YOB.",
-  "State Attribute": "Recruitment Data Dictionary",
-  "Default Variable": "No",
-  "Date added or modified": "No"
+  "Notes": "Variable will be populated by a drop down with values from 1 to 31.  DOB is being saved for the derived single date variable that will be created from MOB, BD and YOB.",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No"
 }

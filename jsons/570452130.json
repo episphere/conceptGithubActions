@@ -7,11 +7,12 @@
   "Variable Name": "RcrtV_SiteMatch_v1r0",
   "Variable Type": "Num",
   "Variable Length": "1",
-  "PII": "Yes",
-  "Derivation Notes": "Sent as part of the verification table from the IHCS.",
-  "State Attribute": "Recruitment Data Dictionary",
-  "Default Variable": "Yes",
-  "Date added or modified": "No",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Sent as part of the verification table from the IHCS.",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "Yes",
+  "Default Variable": "No",
   "Format/Value": {
     "539025306.json": "0",
     "427405444.json": "1"

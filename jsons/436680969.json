@@ -8,9 +8,10 @@
   "Variable Type": "Char",
   "Variable Length": "50",
   "Format/Value": "N/A",
-  "PII": "No",
-  "Derivation Notes": "Legal middle name for all non-KP sites. For KP sites it is their ID card name.",
-  "State Attribute": "Recruitment Data Dictionary",
-  "Default Variable": "No",
-  "Date added or modified": "No"
+  "Required": "No",
+  "PII": "Yes",
+  "Notes": "Legal middle name for all non-KP sites. For KP sites it is their ID card name.",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No"
 }

@@ -7,12 +7,13 @@
   "Variable Name": "HdWd_SuspendContact_v1r0",
   "Variable Type": "Num",
   "Variable Length": "1",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Autopopulated if suspend date is given",
-  "State Attribute": "Master Data Dictionary",
+  "Notes": "Autopopulated if suspend date is given",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "No",
-  "Quest_Src Question": "4/12/21",
+  "Date added or modified": "4/12/21",
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

@@ -8,10 +8,11 @@
   "Variable Type": "ISO",
   "Variable Length": "24",
   "Format/Value": "example: 2020-07-17T15:21:26.763Z",
-  "PII": "Yes -for UoC only, if BioFin_UoCPayment_v1r0 equals 1",
-  "Derivation Notes": "Only to be displayed for UoC Biospecimen dashboard. This will be a repeated measures variable associated with Round sent any time BioFin_UoCPayment_v1r0 is updated.",
-  "State Attribute": "Study Manager Data Dictionary, Biospecimen Research",
+  "Required": "Yes -for UoC only, if BioFin_UoCPayment_v1r0 equals 1",
+  "PII": "No",
+  "Notes": "Only to be displayed for UoC Biospecimen dashboard. This will be a repeated measures variable associated with Round sent any time BioFin_UoCPayment_v1r0 is updated.",
+  "Dictionary": "Study Manager Data Dictionary, Biospecimen Research",
+  "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "No",
-  "Quest_Src Question": "3/26/21"
+  "Date added or modified": "3/26/21"
 }

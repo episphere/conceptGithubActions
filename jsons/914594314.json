@@ -8,10 +8,11 @@
   "Variable Type": "ISO",
   "Variable Length": "24",
   "Format/Value": "example: 2020-07-17T15:21:26.763Z",
-  "PII": "Yes if RcrtV_Verification_v1r0 equals0 or 1 or 2 or 3 or 4",
-  "Derivation Notes": "ISO to be converted to SAS format",
-  "State Attribute": "Recruitment Data Dictionary",
+  "Required": "Yes if RcrtV_Verification_v1r0 equals0 or 1 or 2 or 3 or 4",
+  "PII": "No",
+  "Notes": "ISO to be converted to SAS format",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "No",
-  "Quest_Src Question": "3/26/21"
+  "Date added or modified": "3/26/21"
 }

@@ -7,10 +7,11 @@
   "Variable Name": "HdRef_NotGiven_v1r0",
   "Variable Type": "Num",
   "Variable Length": "1",
-  "PII": "Yes",
-  "State Attribute": "Master Data Dictionary",
-  "Default Variable": "No",
-  "Date added or modified": "Yes",
+  "Required": "Yes",
+  "PII": "No",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

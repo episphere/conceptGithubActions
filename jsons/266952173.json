@@ -8,9 +8,10 @@
   "Variable Type": "Char",
   "Variable Length": "800",
   "Format/Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only shown if answer to RcrtUP_Cancer_v1r0 equals 1.",
-  "State Attribute": "Recruitment Data Dictionary",
-  "Default Variable": "No",
-  "Date added or modified": "No"
+  "Notes": "Only shown if answer to RcrtUP_Cancer_v1r0 equals 1.",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No"
 }
