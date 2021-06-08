@@ -1,0 +1,17 @@
+{
+  "Primary Source": "237817859.json",
+  "Secondary Source": "635994596.json",
+  "conceptId": "826240317",
+  "Question Text": "Middle Name extracted from HIPAA revocation form",
+  "Variable Label": "Middle Name",
+  "Variable Name": "HdWd_Mname_v1r0",
+  "Variable Type": "Char",
+  "Variable Length": "50",
+  "Format/Value": "N/A",
+  "Required": "No",
+  "PII": "Yes",
+  "Notes": "Legal middle name for all non-KP sites. For KP sites it is their ID card name.",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No"
+}
