@@ -1034,7 +1034,7 @@
     "Variable Name": "9 hrs. or more"
   },
   "201434907": {
-    "Variable Label": "Spouse/partner\"\"s infertility",
+    "Variable Label": "Spouse/partner\"\"\"\"s infertility",
     "Variable Name": "SrvMRE_Infertility_v1r0"
   },
   "201449164": {
@@ -1043,6 +1043,9 @@
   "202355614": {
     "Variable Label": "Cervical mucous factor",
     "Variable Name": "SrvMRE_CervicalMucous_v1r0"
+  },
+  "202722189": {
+    "Variable Name": "Revoked and signed"
   },
   "203192394": {
     "Variable Label": "Play tennis, squash, or racquetball",
@@ -1503,7 +1506,7 @@
     "Variable Name": "SrvMRE_IbuprofenMo_v1r0"
   },
   "248303092": {
-    "Variable Name": "06-30 minutes_\"\""
+    "Variable Name": "06-30 minutes_\"\"\"\""
   },
   "248374037": {
     "Variable Label": "Testicular",
@@ -1948,6 +1951,9 @@
     "Variable Label": "Last time took ibuprofen?",
     "Variable Name": "SrvMRE_IbuprofenTime_v1r0"
   },
+  "293801357": {
+    "Variable Name": "Revoked but not signed"
+  },
   "295472931": {
     "Variable Label": "Currently using oral progestin-only medication",
     "Variable Name": "SrvMRE_CurrProgMed_v1r0"
@@ -2237,7 +2243,7 @@
     "Variable Name": "SrvBOH_WholesaleP_v1r0"
   },
   "330745988": {
-    "Variable Name": "My periods stopped because I began taking female hormones during the menopausal transition or menopause (\"\"the change of life\"\")"
+    "Variable Name": "My periods stopped because I began taking female hormones during the menopausal transition or menopause (\"\"\"\"the change of life\"\"\"\")"
   },
   "331285390": {
     "Variable Label": "prostate removal surgery age",
@@ -3115,7 +3121,7 @@
     "Variable Name": "SrvBOH_BsnUnknownP_v1r0"
   },
   "428999623": {
-    "Variable Name": "05 minutes or less_\"\""
+    "Variable Name": "05 minutes or less_\"\"\"\""
   },
   "429252206": {
     "Variable Label": "Dad Prostate cancer age",
@@ -3126,7 +3132,7 @@
     "Variable Name": "SrvMRE_ModChoreTime_v1r0"
   },
   "429634576": {
-    "Variable Name": "Shipping \"\" Temp Probe"
+    "Variable Name": "Shipping \"\"\"\" Temp Probe"
   },
   "430472084": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Pancreatitis?"
@@ -3987,7 +3993,7 @@
     "Variable Name": "SrvBOH_BreastAbsc_v1r0"
   },
   "520808137": {
-    "Variable Name": "Shipping \"\" Feedback"
+    "Variable Name": "Shipping \"\"\"\" Feedback"
   },
   "520988707": {
     "Variable Label": "Changed diet",
@@ -4601,6 +4607,10 @@
     "Variable Label": "Gonorrhea diagnosis year",
     "Variable Name": "SrvBOH_GonorrheaYear_v1r0"
   },
+  "577794331": {
+    "Variable Label": "HIPAA Revocation Categorical",
+    "Variable Name": "HdWd_HIPAARevokedCat_v1r0"
+  },
   "578416151": {
     "Variable Label": "Uterus",
     "Variable Name": "SrvBOH_Uterus_v1r0"
@@ -4691,6 +4701,9 @@
     "Variable Label": "Native Hawaiian or other Pacific Islander",
     "Variable Name": "SrvBOH_Hawaiian_v1r0"
   },
+  "587192902": {
+    "Variable Name": "Requested and signed"
+  },
   "588212264": {
     "Variable Name": "When you were a child, what language(s) did you first learn at home? Select all that apply"
   },
@@ -4699,7 +4712,7 @@
     "Variable Name": "SrvMRE_CaringForPetsTm_v1r0"
   },
   "589224449": {
-    "Variable Name": "SF Cancer Center LL\"\"\"\"_"
+    "Variable Name": "SF Cancer Center LL\"\"\"\"\"\"\"\"_"
   },
   "589522790": {
     "Variable Label": "Walking and carrying materials weighing less than 50 pounds (for example, delivering mail, waiting tables, light construction, janitorial work, etc.)",
@@ -4853,7 +4866,7 @@
     "Variable Name": "SrvMRE_OthCombAgeL_v1r0"
   },
   "603665257": {
-    "Variable Name": "Shipping \"\" Prepare ship"
+    "Variable Name": "Shipping \"\"\"\" Prepare ship"
   },
   "603938149": {
     "Variable Label": "Child 1 anal cancer age",
@@ -5837,7 +5850,7 @@
     "Variable Name": "During the time(s) that you were taking prescription pain relievers containing opioids, about how many days per week OR per month did you take it? Please choose whichever makes the most sense for you."
   },
   "698283667": {
-    "Variable Name": "Lake Hallie\"\"\"\"_"
+    "Variable Name": "Lake Hallie\"\"\"\"\"\"\"\"_"
   },
   "698581196": {
     "Variable Label": "Another type of cancer: Please describe",
@@ -6154,7 +6167,7 @@
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Stomach cancer?"
   },
   "727286893": {
-    "Variable Name": "Shipping \"\" Specimen Link"
+    "Variable Name": "Shipping \"\"\"\" Specimen Link"
   },
   "727704681": {
     "Variable Label": "appendectomy year",
@@ -6269,7 +6282,7 @@
     "Variable Name": "SrvBOH_C1LymphomaAge_v1r0"
   },
   "736183094": {
-    "Variable Name": "HFHS Research Clinic (Main Campus)\"\"\"\"_"
+    "Variable Name": "HFHS Research Clinic (Main Campus)\"\"\"\"\"\"\"\"_"
   },
   "736251808": {
     "Variable Label": "Last Name",
@@ -6645,6 +6658,9 @@
     "Variable Label": "Placeholder - Date/time of Completion of Smoking, Alcohol, and Sun Exposure",
     "Variable Name": "SrvSAS_TmComplete_v1r0"
   },
+  "770257982": {
+    "Variable Name": "Not Revoked"
+  },
   "770550588": {
     "Variable Name": "I had surgery to remove one Testicle"
   },
@@ -6705,7 +6721,7 @@
     "Variable Name": "SrvBOH_RetailStoreP_v1r0"
   },
   "777644826": {
-    "Variable Name": "UC-DCAM\"\"\"\"_"
+    "Variable Name": "UC-DCAM\"\"\"\"\"\"\"\"_"
   },
   "777719027": {
     "Variable Label": "I have other privacy concerns",
@@ -7563,6 +7579,9 @@
     "Variable Label": "Started to smoke or began to smoke again",
     "Variable Name": "SrvBOH_Smoking3_v1r0"
   },
+  "861475327": {
+    "Variable Name": "Requested but not signed"
+  },
   "861519803": {
     "Variable Label": "Surgery",
     "Variable Name": "SrvBOH_Surgery4_v1r0"
@@ -7669,7 +7688,7 @@
     "Variable Name": "SrvBOH_ServiceProdC_v1r0"
   },
   "868504994": {
-    "Variable Name": "My periods stopped after endometrial ablation (removal of the endometrium \"\" lining of the uterus)"
+    "Variable Name": "My periods stopped after endometrial ablation (removal of the endometrium \"\"\"\" lining of the uterus)"
   },
   "868685663": {
     "Variable Label": "Strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups)",
@@ -7822,6 +7841,10 @@
   "883468127": {
     "Variable Label": "Some other typ+J726:J750e of business",
     "Variable Name": "SrvBOH_OtherBusinessP_v1r0"
+  },
+  "883668444": {
+    "Variable Label": "Destroy Data Categorical",
+    "Variable Name": "HdWd_DestroyDataCat_v1r0"
   },
   "883732523": {
     "Variable Label": "Reason Tube Not Collected",
@@ -8128,7 +8151,7 @@
     "Variable Name": "SrvMRE_ProtonPumpOC_v1r0"
   },
   "920765381": {
-    "Variable Name": "Don\"\"t know"
+    "Variable Name": "Don\"\"\"\"t know"
   },
   "921095024": {
     "Variable Name": "On the days that you took naproxen, about how many pills did you take per day, on most days?"
@@ -8399,7 +8422,7 @@
     "Variable Name": "RcrtES_PINmatch_v1r0"
   },
   "948781977": {
-    "Variable Name": "Shipping \"\" Pack box"
+    "Variable Name": "Shipping \"\"\"\" Pack box"
   },
   "948887825": {
     "Variable Label": "Shipper first name signature",
@@ -8588,6 +8611,9 @@
   "967938316": {
     "Variable Label": "I know they had cancer, but don’t know what type",
     "Variable Name": "SrvBOH_DCancerUnknown_v1r0"
+  },
+  "968535094": {
+    "Variable Name": "Not Requested"
   },
   "968816827": {
     "Variable Label": "Age pregnant",
