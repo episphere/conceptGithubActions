@@ -29,7 +29,7 @@ function parseMasterModule(){
         
         if(currJSON['Primary Source'] && currJSON['Primary Source'] === "129084651.json"){
             //Checks for module name
-            if(currJSON['Secondary Source'] && currJSON['Secondary Source'] === "745268907.json"){
+            if(currJSON['Secondary Source'] && ["745268907.json","898006288.json","965707586.json"].includes(currJSON['Secondary Source'])){
 
                 if(currJSON['Connect Value for Select all that apply questions']){
                     let isTB = false;
@@ -52,6 +52,9 @@ function parseMasterModule(){
                             let questIds = toInsert['questIds']
 
                             for(let j = 0; j < keys.length; j++){
+                                if(!masterJSON[keys[j]]){
+                                    console.log(keys[j])
+                                }
                                 questIds[currJSON['Connect Value'][keys[j]]] = {
                                     "conceptId": keys[j].substring(0,9),
                                     "concept": masterJSON[keys[j]]['Variable Name']
