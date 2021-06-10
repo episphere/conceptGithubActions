@@ -1,52 +1,17 @@
 {
+  "Primary Source": "129084651.json",
+  "Secondary Source": "965707586.json",
+  "Source Question": "291505168.json",
   "conceptId": "278139969",
+  "Question Text": "THC concentrates via dabbing (such as wax, shatter, butter, hash, or kief)",
+  "Variable Label": "Hookah or water pipe",
   "Variable Name": "SrvSAS_WaterPipe_v1r0",
-  "Secondary Source": [
-    "965707586.json",
-    "965707586.json"
-  ],
-  "Source Question": [
-    "291505168.json",
-    "291505168.json"
-  ],
-  "Quest_Src Question": [
-    "983111850.json",
-    "383757867.json",
-    "983111850.json",
-    "383757867.json"
-  ],
-  "Primary Source": [
-    "868610547.json",
-    "868610547.json"
-  ],
-  "Question Text": [
-    "239075649.json",
-    "936814117.json"
-  ],
-  "Variable Label": [
-    "852114467.json",
-    "862697718.json"
-  ],
-  "Connect Value for Select all that apply questions": [
-    "278139969.json",
-    "733786034.json"
-  ],
-  "Variable Type": [
-    "811506373.json",
-    "811506373.json"
-  ],
-  "Variable Length": [
-    "156095877.json",
-    "156095877.json"
-  ],
-  "Required": [
-    "104430631.json",
-    "104430631.json"
-  ],
-  "PII": [
-    "104430631.json",
-    "104430631.json"
-  ],
+  "Connect Value for Select all that apply questions": "4",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Quest_Src Question": "MARIJUANA",
   "Old Quest Value": {
     "104430631.json": "2",
     "353358909.json": "1"

@@ -1,59 +1,25 @@
 {
+  "Primary Source": "129084651.json",
+  "Secondary Source": "965707586.json",
   "conceptId": "877930285",
+  "Question Text": "How many days have you consumed marijuana in food or drinks in your  life?",
+  "Variable Label": "Days consumed marijuana in food or drinks in life",
   "Variable Name": "SrvSAS_EdiblesDays_v1r0",
-  "Secondary Source": [
-    "965707586.json",
-    "965707586.json"
-  ],
-  "Quest_Src Question": [
-    "383757867.json",
-    "383757867.json",
-    "383757867.json",
-    "383757867.json",
-    "383757867.json"
-  ],
-  "Primary Source": [
-    "868610547.json",
-    "868610547.json"
-  ],
-  "Question Text": [
-    "783246204.json",
-    "297691460.json"
-  ],
-  "Variable Label": [
-    "328837184.json",
-    "796665478.json"
-  ],
-  "Connect Value for Select all that apply questions": [
-    "877930285.json",
-    "337662729.json"
-  ],
-  "Variable Type": [
-    "811506373.json",
-    "811506373.json"
-  ],
-  "Variable Length": [
-    "156095877.json",
-    "156095877.json"
-  ],
-  "Required": [
-    "104430631.json",
-    "104430631.json"
-  ],
-  "PII": [
-    "104430631.json",
-    "104430631.json"
-  ],
+  "Connect Value for Select all that apply questions": "EAMAR1",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
   "Old Quest Value": {
     "326364537.json": "1",
-    "259911687.json": "2",
-    "502554555.json": "3",
+    "456461275.json": "2",
+    "514840443.json": "3",
     "384608569.json": "4"
   },
   "Connect Value": {
     "326364537.json": "0",
-    "259911687.json": "1",
-    "502554555.json": "2",
+    "456461275.json": "1",
+    "514840443.json": "2",
     "384608569.json": "3"
   }
 }
