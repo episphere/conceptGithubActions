@@ -1,0 +1,25 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "965707586.json",
+  "conceptId": "618906448",
+  "Question Text": "How many days have you used e-cigarettes or other vaping devices for nicotine or tobacco in your life?",
+  "Variable Label": "How many days used e-cigarettes or other vaping devices used in life",
+  "Variable Name": "SrvSAS_DaysUseECig_v1r0",
+  "Connect Value for Select all that apply questions": "ECIG1",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "326364537.json": "1",
+    "259911687.json": "2",
+    "502554555.json": "3",
+    "384608569.json": "4"
+  },
+  "Connect Value": {
+    "326364537.json": "0",
+    "259911687.json": "1",
+    "502554555.json": "2",
+    "384608569.json": "3"
+  }
+}

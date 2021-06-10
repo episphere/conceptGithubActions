@@ -1,0 +1,34 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "965707586.json",
+  "conceptId": "633391535",
+  "Question Text": "When you are in the sun for an extended period of time, or in and out of the water (such as when you swim), how often do you usually re-apply sunscreen?",
+  "Variable Label": "Re-apply sunscreen in sun for extended period of time",
+  "Variable Name": "SrvSAS_ReapplySPF_v1r0",
+  "Connect Value for Select all that apply questions": "SUNSCREEN3",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Quest_Src Question": [
+    "383757867.json",
+    "383757867.json",
+    "383757867.json",
+    "383757867.json",
+    "383757867.json"
+  ],
+  "Old Quest Value": {
+    "648960871.json": "1",
+    "235613392.json": "2",
+    "132099255.json": "3",
+    "211590917.json": "4",
+    "507201097.json": "5"
+  },
+  "Connect Value": {
+    "648960871.json": "1",
+    "235613392.json": "2",
+    "132099255.json": "3",
+    "211590917.json": "4",
+    "507201097.json": "5"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "965707586.json",
+  "Source Question": "502226391.json",
+  "conceptId": "128954134",
+  "Question Text": "Why [do/did] you use electronic marijuana delivery devices that can be vaped?",
+  "Variable Label": "Why use electronic marijuana delivery devices that can be vaped",
+  "Variable Name": "SrvSAS_WhyUseEMJDev_v1r0",
+  "Connect Value for Select all that apply questions": "ELMAR10",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Quest_Src Question": [
+    "893838433.json",
+    "383757867.json",
+    "383757867.json",
+    "383757867.json",
+    "383757867.json"
+  ],
+  "Old Quest Value": {
+    "452795031.json": "1",
+    "860769909.json": "2",
+    "757950364.json": "3",
+    "431441193.json": "4",
+    "528526505.json": "5"
+  },
+  "Connect Value": {
+    "452795031.json": "0",
+    "860769909.json": "1",
+    "757950364.json": "2",
+    "431441193.json": "55",
+    "528526505.json": "99"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "965707586.json",
+  "conceptId": "370396718",
+  "Question Text": "Over the past 12 months, how often did you have [4/5] or more alcoholic beverages at the same sitting or occasion? (One drink is equal to a 12-ounce beer, a 5-ounce glass of wine, one mixed drink, or a shot of liquor.)",
+  "Variable Label": "Often have 4/5 or more alcoholic beverages at same sitting",
+  "Variable Name": "SrvSAS_4To5AlcBev_v1r0",
+  "Connect Value for Select all that apply questions": "ALCOHOL9",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Quest_Src Question": [
+    "383757867.json",
+    "383757867.json",
+    "383757867.json",
+    "383757867.json",
+    "383757867.json",
+    "383757867.json",
+    "383757867.json",
+    "383757867.json",
+    "383757867.json",
+    "383757867.json"
+  ],
+  "Old Quest Value": {
+    "648960871.json": "1",
+    "367764566.json": "2",
+    "786629738.json": "3",
+    "223159790.json": "4",
+    "533758292.json": "5",
+    "522395860.json": "6",
+    "913841284.json": "7",
+    "316391316.json": "8",
+    "292278887.json": "9",
+    "647504893.json": "10"
+  },
+  "Connect Value": {
+    "648960871.json": "0",
+    "367764566.json": "1",
+    "786629738.json": "2",
+    "223159790.json": "3",
+    "533758292.json": "4",
+    "522395860.json": "5",
+    "913841284.json": "6",
+    "316391316.json": "7",
+    "292278887.json": "8",
+    "647504893.json": "9"
+  }
+}

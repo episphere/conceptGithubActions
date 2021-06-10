@@ -1,0 +1,27 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "965707586.json",
+  "conceptId": "698241030",
+  "Question Text": "On days that you used e-cigarettes or other vaping devices for nicotine or tobacco when you were age [X / 18] to age [Y / 24], what is the total amount of time you used them per day?",
+  "Variable Label": "How much time e-cigarettes or other vaping devices used, Age [X / 18] to age [Y / 24]",
+  "Variable Name": "SrvSAS_ECigTm1824_v1r0",
+  "Connect Value for Select all that apply questions": "ECIGLIFEB",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "701992628.json": "1",
+    "561431358.json": "2",
+    "612900370.json": "3",
+    "357605198.json": "4",
+    "846578341.json": "5"
+  },
+  "Connect Value": {
+    "701992628.json": "0",
+    "561431358.json": "1",
+    "612900370.json": "2",
+    "357605198.json": "3",
+    "846578341.json": "4"
+  }
+}

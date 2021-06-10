@@ -1,0 +1,37 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "965707586.json",
+  "conceptId": "215465231",
+  "Question Text": "Over the past 12 months, on the days that you drank liquor or mixed drinks, how many shots of liquor (1 shot = 1.5 ounces) did you drink per day?",
+  "Variable Label": "How many servings drink liquor or mixed drinks, past 12 months",
+  "Variable Name": "SrvSAS_LiquorServ12Mo_v1r0",
+  "Connect Value for Select all that apply questions": "LIQUOR2",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Quest_Src Question": [
+    "383757867.json",
+    "383757867.json",
+    "383757867.json",
+    "383757867.json",
+    "383757867.json",
+    "383757867.json"
+  ],
+  "Old Quest Value": {
+    "326042006.json": "1",
+    "474544161.json": "2",
+    "761244605.json": "3",
+    "352052452.json": "4",
+    "343078518.json": "5",
+    "611502520.json": "6"
+  },
+  "Connect Value": {
+    "326042006.json": "0",
+    "474544161.json": "1",
+    "761244605.json": "2",
+    "352052452.json": "3",
+    "343078518.json": "4",
+    "611502520.json": "5"
+  }
+}

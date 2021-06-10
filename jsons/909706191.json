@@ -1,0 +1,37 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "965707586.json",
+  "conceptId": "909706191",
+  "Question Text": "Over the past 12 months, on the days that you drank beer or hard cider, how many 12-ounce beers or hard ciders did you drink per day?",
+  "Variable Label": "How many servings drink beer or cider, past 12 months",
+  "Variable Name": "SrvSAS_BeerServing12Mo_v1r0",
+  "Connect Value for Select all that apply questions": "BEER2",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Quest_Src Question": [
+    "383757867.json",
+    "383757867.json",
+    "383757867.json",
+    "383757867.json",
+    "383757867.json",
+    "383757867.json"
+  ],
+  "Old Quest Value": {
+    "410839330.json": "1",
+    "880064588.json": "2",
+    "377999834.json": "3",
+    "968088507.json": "4",
+    "498136167.json": "5",
+    "405718782.json": "6"
+  },
+  "Connect Value": {
+    "410839330.json": "0",
+    "880064588.json": "1",
+    "377999834.json": "2",
+    "968088507.json": "3",
+    "498136167.json": "4",
+    "405718782.json": "5"
+  }
+}

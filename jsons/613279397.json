@@ -1,0 +1,37 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "965707586.json",
+  "conceptId": "613279397",
+  "Question Text": "Over the past 12 months, on the days that you drank other alcoholic beverages, how many servings of these  beverages (such as wine coolers, \"\"hard soda,\"\" spiked seltzer (sparkling water), Smirnoff Ice, malt liquor, or pre-mixed cocktails) did you drink per day?",
+  "Variable Label": "How many servings other alcoholic beverages, past 12 months",
+  "Variable Name": "SrvSAS_OthAlcServ12Mo_v1r0",
+  "Connect Value for Select all that apply questions": "OTHALC2",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Quest_Src Question": [
+    "383757867.json",
+    "383757867.json",
+    "383757867.json",
+    "383757867.json",
+    "383757867.json",
+    "383757867.json"
+  ],
+  "Old Quest Value": {
+    "785389304.json": "1",
+    "155815324.json": "2",
+    "490259300.json": "3",
+    "961176352.json": "4",
+    "960917416.json": "5",
+    "577846919.json": "6"
+  },
+  "Connect Value": {
+    "785389304.json": "0",
+    "155815324.json": "1",
+    "490259300.json": "2",
+    "961176352.json": "3",
+    "960917416.json": "4",
+    "577846919.json": "5"
+  }
+}

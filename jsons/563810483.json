@@ -1,0 +1,25 @@
+{
+  "Primary Source": "Survey",
+  "Secondary Source": "965707586.json",
+  "conceptId": "563810483",
+  "Question Text": "Did you ever smoke marijuana every day?",
+  "Variable Label": "Ever use marijuana  every day",
+  "Variable Name": "SrvSAS_EverUseMJED_v1r0",
+  "Connect Value for Select all that apply questions": "SMMAR9B",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Quest_Src Question": [
+    "383757867.json",
+    "383757867.json"
+  ],
+  "Old Quest Value": {
+    "104430631.json": "1",
+    "353358909.json": "2"
+  },
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}
