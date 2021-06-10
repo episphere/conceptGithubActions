@@ -50,6 +50,9 @@
     "Variable Label": "First Name",
     "Variable Name": "HdWd_FnameDD_v1r0"
   },
+  "104430631": {
+    "Variable Name": "No"
+  },
   "104913069": {
     "Variable Name": "Research- Finalization and shipping"
   },
@@ -269,7 +272,7 @@
     "Variable Name": "SrvBOH_DadAnalCancAge_v1r0"
   },
   "121430614": {
-    "Variable Label": "I do not have reliable access to the internet/a\"\"\"\"\"\"\"\"device",
+    "Variable Label": "I do not have reliable access to the internet/a\"\"\"\"device",
     "Variable Name": "HdRef_NoInternet_v1r0"
   },
   "121502359": {
@@ -344,6 +347,9 @@
     "Variable Label": "Why use electronic marijuana delivery devices that can be vaped",
     "Variable Name": "SrvSAS_WhyUseEMJDev_v1r0"
   },
+  "129084651": {
+    "Variable Name": "Survey"
+  },
   "129924389": {
     "Variable Name": "In total, how many months or years have you used copper IUD?"
   },
@@ -358,8 +364,11 @@
     "Variable Label": "Payment Round",
     "Variable Name": "SMPaym_Round_v1r0"
   },
+  "131216802": {
+    "Variable Name": "6 – 30 minutes"
+  },
   "131458944": {
-    "Variable Label": "I am worried that my\"\"\"\"\"\"\"\"information could be used to discriminate against me/my\"\"\"\"\"\"\"\"family",
+    "Variable Label": "I am worried that my\"\"\"\"information could be used to discriminate against me/my\"\"\"\"family",
     "Variable Name": "HdRef_PrivacyH_v1r0"
   },
   "131550264": {
@@ -669,18 +678,12 @@
     "Variable Name": "SrvBOH_Warts_v1r0"
   },
   "156095877": {
-    "Variable Label": [
-      "988362695.json",
-      "383867024.json"
-    ],
+    "Variable Label": "Wine",
     "Variable Name": "SrvSAS_Wine3039_v1r0"
   },
   "156097551": {
     "Variable Label": "Use cigarette after waking up",
     "Variable Name": "SrvSAS_CigsWakeUp_v1r0"
-  },
-  "156459280": {
-    "Variable Name": "1 \"\" 2 hours"
   },
   "156985576": {
     "Variable Label": "Ulcerative Colitis age",
@@ -858,6 +861,9 @@
   "171238071": {
     "Variable Label": "Child 1 response from Child 1CANC2/another type of cancer year",
     "Variable Name": "SrvBOH_C1OtherCancYr_v1r0"
+  },
+  "171389913": {
+    "Variable Name": "Once per day"
   },
   "172234651": {
     "Variable Name": "During the time(s) that you were taking prescription proton pump inhibitors, about how many days per week OR per month did you take it? Please choose whichever makes the most sense for you."
@@ -1068,6 +1074,9 @@
     "Variable Label": "How many servings consumed marijuana in food or drinks used, Age [X / 18] to age [Y / 24]",
     "Variable Name": "SrvSAS_EdiblesServ1824_v1r0"
   },
+  "192505768": {
+    "Variable Name": "Recruitment"
+  },
   "192602764": {
     "Variable Name": "000 unit per ml"
   },
@@ -1203,7 +1212,7 @@
     "Variable Name": "SrvSAS_TmUseTobMJ70_v1r0"
   },
   "201434907": {
-    "Variable Label": "Spouse/partner\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"s infertility",
+    "Variable Label": "Spouse/partner\"\"\"\"\"\"\"\"s infertility",
     "Variable Name": "SrvMRE_Infertility_v1r0"
   },
   "201449164": {
@@ -1634,6 +1643,9 @@
     "Variable Label": "How many pipe fills of tobacco per day, [X / 30] to age [Y / 39 / current age]",
     "Variable Name": "SrvSAS_PipeFills3039_v1r0"
   },
+  "237817859": {
+    "Variable Name": "Help Desk"
+  },
   "238799612": {
     "Variable Label": "Dad Non-Hodgkin’s lymphoma cancer year",
     "Variable Name": "SrvBOH_DadNHLympYr_v1r0"
@@ -1740,8 +1752,12 @@
     "Variable Label": "ibuprofen days per month",
     "Variable Name": "SrvMRE_IbuprofenMo_v1r0"
   },
+  "248226456": {
+    "Variable Label": "Age first consumed marijuana in food or drinks",
+    "Variable Name": "SrvSAS_EdiblesAgeF_v1r0"
+  },
   "248303092": {
-    "Variable Name": "06-30 minutes_\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\""
+    "Variable Name": "06-30 minutes_\"\"\"\"\"\"\"\""
   },
   "248374037": {
     "Variable Label": "Testicular",
@@ -1815,9 +1831,6 @@
     "Variable Label": "All baseline samples collected",
     "Variable Name": "SMMet_BLSamplesColl_v1r0"
   },
-  "254417655": {
-    "Variable Name": "6 or more times per day\"\""
-  },
   "254709325": {
     "Variable Label": "Breast",
     "Variable Name": "SrvBOH_S1BreastCanc_v1r0"
@@ -1880,9 +1893,6 @@
   "259904995": {
     "Variable Label": "None of the above",
     "Variable Name": "SrvMRE_NoProgMed_v1r0"
-  },
-  "259911687": {
-    "Variable Name": "11\"\"49"
   },
   "259977665": {
     "Variable Label": "Months use birth control patch",
@@ -2168,10 +2178,7 @@
     "Variable Name": "SrvMRE_OtherPregIssue_v1r0"
   },
   "278139969": {
-    "Variable Label": [
-      "852114467.json",
-      "862697718.json"
-    ],
+    "Variable Label": "Hookah or water pipe",
     "Variable Name": "SrvSAS_WaterPipe_v1r0"
   },
   "278159347": {
@@ -2245,7 +2252,7 @@
     "Variable Name": "SrvSAS_AgeSmokeMJFReg_v1r0"
   },
   "285488731": {
-    "Variable Label": "I\"\"\"\"\"\"\"\"do not\"\"\"\"\"\"\"\"want my\"\"\"\"\"\"\"\"information shared with other researchers",
+    "Variable Label": "I\"\"\"\"do not\"\"\"\"want my\"\"\"\"information shared with other researchers",
     "Variable Name": "HdRef_PrivacyD_v1r0"
   },
   "285718391": {
@@ -2318,9 +2325,6 @@
   },
   "291855684": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Non-Hodgkin’s lymphoma cancer?"
-  },
-  "292278887": {
-    "Variable Name": "5 \"\" 6 times a week"
   },
   "292658699": {
     "Variable Label": "Last time took ibuprofen?",
@@ -2429,9 +2433,6 @@
   "303552867": {
     "Variable Name": "Follow-up 3"
   },
-  "303716370": {
-    "Variable Name": "Once per day\"\""
-  },
   "304377677": {
     "Variable Label": "Never used them on a regular basis",
     "Variable Name": "SrvSAS_ECigNeverReg_v1r0"
@@ -2529,9 +2530,6 @@
   "312545873": {
     "Variable Name": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] they were first told by a doctor or other health professional that they have or had cancer?"
   },
-  "314408945": {
-    "Variable Name": "21 \"\" 35"
-  },
   "315421706": {
     "Variable Label": "Dad Thyroid cancer year",
     "Variable Name": "SrvBOH_DadThyCancYr_v1r0"
@@ -2542,9 +2540,6 @@
   },
   "315987564": {
     "Variable Name": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] they were first told by a doctor or other health professional that they have or had Lung or bronchial cancer?"
-  },
-  "316391316": {
-    "Variable Name": "3 \"\" 4 times a week"
   },
   "317093647": {
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had esophageal cancer?"
@@ -2696,18 +2691,12 @@
     "Variable Label": "Wholesale or distributor",
     "Variable Name": "SrvBOH_WholesaleP_v1r0"
   },
-  "328837184": {
-    "Variable Label": "Days consumed marijuana in food or drinks in life"
-  },
   "330543880": {
     "Variable Label": "Last use cigarettes",
     "Variable Name": "SrvSAS_UseCigsLast_v1r0"
   },
   "330745988": {
-    "Variable Name": "My periods stopped because I began taking female hormones during the menopausal transition or menopause (\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"the change of life\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\")"
-  },
-  "330798429": {
-    "Variable Name": "3 to 5 hours per day\"\""
+    "Variable Name": "My periods stopped because I began taking female hormones during the menopausal transition or menopause (\"\"\"\"\"\"\"\"the change of life\"\"\"\"\"\"\"\")"
   },
   "331285390": {
     "Variable Label": "prostate removal surgery age",
@@ -2731,8 +2720,14 @@
   "332759827": {
     "Variable Name": "User Profile"
   },
+  "332961895": {
+    "Variable Name": "Study Manager"
+  },
   "333647143": {
     "Variable Name": "I had surgery to remove one ovary"
+  },
+  "334119374": {
+    "Variable Name": "1 – 2 times a week"
   },
   "334295145": {
     "Variable Name": "Two"
@@ -2988,6 +2983,9 @@
   "360770860": {
     "Variable Name": "Collection"
   },
+  "361775969": {
+    "Variable Name": "31 – 59 minutes"
+  },
   "362104337": {
     "Variable Label": "Do not know",
     "Variable Name": "SrvBOH_BsnUnknownC_v1r0"
@@ -3051,9 +3049,6 @@
     "Variable Label": "high blood pressure (hypertension) diagnosis age",
     "Variable Name": "SrvBOH_HTNAGE_v1r0"
   },
-  "367764566": {
-    "Variable Name": "1 \"\" 5 times a year"
-  },
   "367803647": {
     "Variable Name": "What is the highest level of school that you have completed?"
   },
@@ -3114,8 +3109,11 @@
     "Variable Name": "SrvMRE_Serophene_v1r0"
   },
   "372303208": {
-    "Variable Label": "I am worried that my\"\"\"\"\"\"\"\"information will be used by others to make a profit",
+    "Variable Label": "I am worried that my\"\"\"\"information will be used by others to make a profit",
     "Variable Name": "HdRef_PrivacyI_v1r0"
+  },
+  "372685257": {
+    "Variable Name": "2-3 times per day"
   },
   "372993567": {
     "Variable Label": "Mining",
@@ -3251,9 +3249,6 @@
   "383015037": {
     "Variable Label": "Home repair (such as painting, plumbing, or replacing carpeting)",
     "Variable Name": "SrvMRE_HomeRepair_v1r0"
-  },
-  "383867024": {
-    "Variable Label": "Other alcoholic beverages (such as wine coolers, \"\"hard soda,\"\" spiked seltzer (sparkling water), Smirnoff Ice, malt liquor, or pre-mixed cocktails)"
   },
   "384191091": {
     "Variable Name": "Which categories describe you? Select all that apply. Note, you may select more than one group."
@@ -3432,6 +3427,9 @@
   },
   "402548942": {
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had breast cancer?"
+  },
+  "402730314": {
+    "Variable Name": "6 to 9 hours per day"
   },
   "403155173": {
     "Variable Label": "Sitting and reading",
@@ -3671,6 +3669,9 @@
   "419220239": {
     "Variable Name": "Stillbirth (pregnancy loss after 20 weeks)"
   },
+  "419267588": {
+    "Variable Name": "A few times per year"
+  },
   "419828714": {
     "Variable Label": "Wine",
     "Variable Name": "SrvSAS_Wine5059_v1r0"
@@ -3697,6 +3698,9 @@
   },
   "421859821": {
     "Variable Name": "Thinking of the past 4 weeks, choose the answers that best describe your sleep."
+  },
+  "422052258": {
+    "Variable Name": "5 – 6 times a week"
   },
   "422188606": {
     "Variable Label": "Ibuprofen (such as Motrin or Advil)",
@@ -3775,7 +3779,7 @@
     "Variable Name": "All sun exposed areas"
   },
   "428999623": {
-    "Variable Name": "05 minutes or less_\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\""
+    "Variable Name": "05 minutes or less_\"\"\"\"\"\"\"\""
   },
   "429252206": {
     "Variable Label": "Dad Prostate cancer age",
@@ -3800,7 +3804,7 @@
     "Variable Name": "SrvBOH_AHRAge_v1r0"
   },
   "431428747": {
-    "Variable Label": "I am too sick/my health is too poor\"\"\"\"\"\"\"\"to participate",
+    "Variable Label": "I am too sick/my health is too poor\"\"\"\"to participate",
     "Variable Name": "HdRef_Sick_v1r0"
   },
   "431441193": {
@@ -3849,9 +3853,6 @@
     "Variable Label": "Sanford and Henry Ford reported sex",
     "Variable Name": "RcrtSI_SH_HFHS_Sex_v1r0"
   },
-  "435200000": {
-    "Variable Name": "A few times per\"\"\"\"month\"\""
-  },
   "435572012": {
     "Variable Name": "Revoked HIPAA only"
   },
@@ -3872,8 +3873,8 @@
   "436739587": {
     "Variable Name": "No freckles"
   },
-  "437531627": {
-    "Variable Name": "2-3 times per day\"\""
+  "438068235": {
+    "Variable Name": "More than 15 hours per day"
   },
   "438472025": {
     "Variable Label": "Age last drank alcohol",
@@ -3935,9 +3936,6 @@
   },
   "442487754": {
     "Variable Name": "Light"
-  },
-  "443060084": {
-    "Variable Name": "Didn't drink during this time\"\""
   },
   "444590120": {
     "Variable Label": "How much time marijuana  smoked, [X / 60] to age [Y / 69 / current age]",
@@ -4132,11 +4130,18 @@
     "Variable Label": "Beer or hard cider",
     "Variable Name": "SrvSAS_Beer4049_v1r0"
   },
+  "456461275": {
+    "Variable Name": "11—49"
+  },
   "456806539": {
     "Variable Name": "Letter with PIN"
   },
   "457149229": {
     "Variable Name": "Requested but not signed"
+  },
+  "457478400": {
+    "Variable Label": "I have not used any of these tobacco products",
+    "Variable Name": "SrvSAS_NoTobaccoPdt_v1r0"
   },
   "457968681": {
     "Variable Label": "Around tobacco smoke of others, Age [X / 40] to age [Y / 49 / current age]",
@@ -4153,9 +4158,6 @@
   "459188493": {
     "Variable Label": "Lupron depot",
     "Variable Name": "SrvMRE_LupronDepot_v1r0"
-  },
-  "459210583": {
-    "Variable Name": "6 \"\" 30 minutes"
   },
   "459513552": {
     "Variable Label": "Sibling 1 Testicular cancer age",
@@ -4326,6 +4328,9 @@
     "Variable Label": "IHCS Membership Status",
     "Variable Name": "RcrtSI_MemberStat_v1r0"
   },
+  "477180327": {
+    "Variable Name": "3 to 5 hours per day"
+  },
   "478706011": {
     "Variable Label": "Sibling 1 age",
     "Variable Name": "SrvBOH_Sib1AgeNum_v1r0"
@@ -4352,9 +4357,6 @@
   "480305327": {
     "Variable Label": "Suffix",
     "Variable Name": "RcrtCS_Suffix_v1r0"
-  },
-  "480663674": {
-    "Variable Name": "Once per week\"\""
   },
   "480724806": {
     "Variable Label": "Statins/cholesterol or lipid lowering drugs",
@@ -4662,9 +4664,6 @@
   "502226391": {
     "Variable Name": "Why [do/did] you use electronic marijuana delivery devices that can be vaped?"
   },
-  "502554555": {
-    "Variable Name": "50\"\"99"
-  },
   "503154158": {
     "Variable Label": "Weight at 55 years old entry",
     "Variable Name": "SrvBOH_Weight55_v1r0"
@@ -4679,6 +4678,9 @@
   "505282171": {
     "Variable Label": "Cervix",
     "Variable Name": "SrvBOH_Cervix_v1r0"
+  },
+  "505442107": {
+    "Variable Name": "Didn't drink during this time"
   },
   "505528192": {
     "Variable Label": "Consumed marijuana in food or drinks every day, age last used",
@@ -4784,6 +4786,9 @@
   },
   "514080822": {
     "Variable Name": "Never married"
+  },
+  "514840443": {
+    "Variable Name": "50—99"
   },
   "514996698": {
     "Variable Label": "WEIGHTHIS percent difference flag between 15 years old and 25 years old ≥5% decrease in weight",
@@ -4922,6 +4927,9 @@
     "Variable Label": "Mom Pancreatic cancer age",
     "Variable Name": "SrvBOH_MomPanCancAge_v1r0"
   },
+  "524964466": {
+    "Variable Name": "Once per week"
+  },
   "525480516": {
     "Variable Label": "Select Hawaiian Island",
     "Variable Name": "BioSpm_HIIsland_v1r0"
@@ -5034,9 +5042,6 @@
     "Variable Label": "Breast surgery",
     "Variable Name": "SrvBOH_BreastSurgery_v1r0"
   },
-  "533758292": {
-    "Variable Name": "2 \"\" 3 times a month"
-  },
   "533776046": {
     "Variable Label": "Ethiopian",
     "Variable Name": "SrvBOH_Ethiopian_v1r0"
@@ -5121,9 +5126,6 @@
   },
   "538716648": {
     "Variable Name": "Where do you carry most of your weight on your body? Select all that apply."
-  },
-  "538954704": {
-    "Variable Name": "1 to 2 hours per day\"\""
   },
   "539025306": {
     "Variable Name": "Criterium not met"
@@ -5439,9 +5441,6 @@
   "564242877": {
     "Variable Name": "In which season(s) did you play tennis, squash, or racquetball? Select all that apply."
   },
-  "564297901": {
-    "Variable Name": "10 to 15 hours per day\"\""
-  },
   "564374538": {
     "Variable Label": "Years ago took baby or low-dose aspirin (81 mg or less)",
     "Variable Name": "SrvMRE_LAspirinYA_v1r0"
@@ -5621,6 +5620,9 @@
   "578616917": {
     "Variable Label": "Egyptian",
     "Variable Name": "SrvBOH_Egyptian_v1r0"
+  },
+  "578623261": {
+    "Variable Name": "6 or more times per day"
   },
   "578895128": {
     "Variable Name": "Sibling 1- Which type(s) of cancer? Select all that apply."
@@ -5824,7 +5826,7 @@
     "Variable Name": "SrvBOH_MomLungCancAge_v1r0"
   },
   "596510649": {
-    "Variable Label": "I am worried\"\"\"\"\"\"\"\"my\"\"\"\"\"\"\"\"information isn\"\"\"\"\"\"\"\"t secure or there will be a data breach",
+    "Variable Label": "I am worried\"\"\"\"my\"\"\"\"information isn\"\"\"\"t secure or there will be a data breach",
     "Variable Name": "HdRef_PrivacyE_v1r0"
   },
   "596733110": {
@@ -5941,9 +5943,6 @@
     "Variable Label": "Mom Non-melanoma skin (basal or squamous) cancer year",
     "Variable Name": "SrvBOH_MomNMSkCancYr_v1r0"
   },
-  "606829991": {
-    "Variable Name": "A few times per week\"\""
-  },
   "606882186": {
     "Variable Label": "How much time e-cigarettes or other vaping devices used, [X / 70] and older",
     "Variable Name": "SrvSAS_ECigTm70_v1r0"
@@ -5951,6 +5950,9 @@
   "607081902": {
     "Variable Label": "Invitation through my patient portal (such as MyChart)",
     "Variable Name": "RcrtES_Aware_v1r0_Invite"
+  },
+  "607134010": {
+    "Variable Name": "A few times per week"
   },
   "607323377": {
     "Variable Label": "Light household chores_(cooking, tidying up, laundry, dusting, etc.) time per day",
@@ -6230,9 +6232,6 @@
     "Variable Label": "Endometriosis year",
     "Variable Name": "SrvBOH_EndoYear_v1r0"
   },
-  "627828171": {
-    "Variable Name": "Less than 1 hour per day\"\""
-  },
   "627892733": {
     "Variable Label": "How many days used marijuana, usual month",
     "Variable Name": "SrvSAS_NumDaysUseMJ_v1r0"
@@ -6300,9 +6299,6 @@
   },
   "632512449": {
     "Variable Name": "0-2 times per month"
-  },
-  "633215181": {
-    "Variable Name": "More than 15 hours per day\"\""
   },
   "633391535": {
     "Variable Label": "Re-apply sunscreen in sun for extended period of time",
@@ -6411,6 +6407,9 @@
     "Variable Label": "Phone call invitation",
     "Variable Name": "RcrtES_Aware_v1r0_Phone"
   },
+  "639834500": {
+    "Variable Name": "Don’t know"
+  },
   "640010727": {
     "Variable Label": "Child 1 age, other",
     "Variable Name": "SrvBOH_Child1AgeOther_v1r0"
@@ -6426,9 +6425,6 @@
   "640602121": {
     "Variable Label": "Never smoked on a regular basis",
     "Variable Name": "SrvSAS_NeverSmokedReg_v1r0"
-  },
-  "640767638": {
-    "Variable Name": "15 \"\" 20"
   },
   "641125052": {
     "Variable Label": "Never used them on a regular basis",
@@ -6588,9 +6584,6 @@
   "651014336": {
     "Variable Label": "Baseline survey not complete",
     "Variable Name": "SrvMsg_AnyLeft_v1r0"
-  },
-  "651220607": {
-    "Variable Name": "36 \"\" 50"
   },
   "652228674": {
     "Variable Label": "Heart attack (myocardial infarction)diagnosis age",
@@ -6813,9 +6806,6 @@
   "669977999": {
     "Variable Name": "SrvBOH_ArabicLang_v1r0"
   },
-  "670423118": {
-    "Variable Name": "A few times per year\"\""
-  },
   "670680466": {
     "Variable Name": "Excellent"
   },
@@ -6923,6 +6913,9 @@
     "Variable Label": "Breast",
     "Variable Name": "SrvBOH_C1BreastCanc_v1r0"
   },
+  "679751078": {
+    "Variable Name": "Less than 1 hour per day"
+  },
   "679781213": {
     "Variable Name": "1-2.9 hours_"
   },
@@ -7013,6 +7006,9 @@
   "685483563": {
     "Variable Label": "Metformin milligrams",
     "Variable Name": "SrvMRE_MetforminMg_v1r0"
+  },
+  "685512570": {
+    "Variable Name": "4-5 timer per day"
   },
   "685735916": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had \tGonorrhea?"
@@ -7382,6 +7378,9 @@
     "Variable Label": "Stomach",
     "Variable Name": "SrvBOH_S1StomachCanc_v1r0"
   },
+  "711635763": {
+    "Variable Name": "A few times permonth"
+  },
   "711794630": {
     "Variable Label": "PIN Match",
     "Variable Name": "RcrtV_PINMatch_v1r0"
@@ -7403,6 +7402,9 @@
   "714712574": {
     "Variable Label": "tonsillectomy year",
     "Variable Name": "SrvBOH_TonsilsYear_v1r0"
+  },
+  "715243332": {
+    "Variable Name": "15 – 20"
   },
   "715310779": {
     "Variable Label": "Ever consumed marijuana in food or drinks every day",
@@ -7896,6 +7898,9 @@
     "Variable Label": "Military",
     "Variable Name": "SrvBOH_MilitaryC_v1r0"
   },
+  "751611094": {
+    "Variable Name": "1 – 2 hours"
+  },
   "751755704": {
     "Variable Label": "None of these fully describe me. Please describe",
     "Variable Name": "SrvBOH_NoneRE5_v1r0"
@@ -8028,9 +8033,6 @@
   },
   "763273112": {
     "Variable Name": "KPCO RRL"
-  },
-  "763683150": {
-    "Variable Name": "31 \"\" 59 minutes"
   },
   "764189047": {
     "Variable Label": "Colon/rectal",
@@ -8330,8 +8332,8 @@
     "Variable Label": "Samoan",
     "Variable Name": "SrvBOH_Samoan_v1r0"
   },
-  "786629738": {
-    "Variable Name": "6 \"\" 11 times a year"
+  "786707614": {
+    "Variable Name": "1 – 5 times a year"
   },
   "786757575": {
     "Variable Name": "Site PI listed on the site-specific consent form"
@@ -8464,9 +8466,6 @@
   "796616844": {
     "Variable Label": "Shingles (Herpes Zoster)",
     "Variable Name": "SrvBOH_Shingles_v1r0"
-  },
-  "796665478": {
-    "Variable Label": "Age first consumed marijuana in food or drinks"
   },
   "796923959": {
     "Variable Label": "Dad bladder cancer age",
@@ -8755,6 +8754,9 @@
     "Variable Label": "Poster, flyer, or sign at my health care system",
     "Variable Name": "RcrtES_Aware_v1r0_Poster"
   },
+  "819848608": {
+    "Variable Name": "Biospecimen"
+  },
   "819907500": {
     "Variable Label": "Child 1 Testicular cancer year",
     "Variable Name": "SrvBOH_C1TestCancYr_v1r0"
@@ -8798,6 +8800,9 @@
     "Variable Label": "How many servings drink wine, past 12 months",
     "Variable Name": "SrvSAS_WineServ12Mo_v1r0"
   },
+  "821909594": {
+    "Variable Name": "1 to 2 hours per day"
+  },
   "822663722": {
     "Variable Label": "Prefer not to answer",
     "Variable Name": "SrvBOH_PrefNoAnsRE4_v1r0"
@@ -8840,6 +8845,9 @@
   },
   "825227968": {
     "Variable Name": "On non-workdays, are you able to choose the times when you go to sleep and when you wake up? Some reasons you may not be able to choose sleeping and waking times include children, pets, or other non-work activities."
+  },
+  "825323676": {
+    "Variable Name": "EMR"
   },
   "825488116": {
     "Variable Label": "Pills per day over-the-counter H2 receptor blockers",
@@ -9006,6 +9014,9 @@
     "Variable Label": "Heparin Tube 1",
     "Variable Name": "BioCol_0003_v1r0"
   },
+  "838619209": {
+    "Variable Name": "36 – 50"
+  },
   "838744325": {
     "Variable Label": "Coronary Artery/Coronary Heart Disease",
     "Variable Name": "SrvBOH_CHD_v1r0"
@@ -9164,9 +9175,6 @@
     "Variable Label": "I am too busy/stressed to participate",
     "Variable Name": "HdRef_Busy_v1r0"
   },
-  "852114467": {
-    "Variable Label": "Hookah or water pipe"
-  },
   "852278004": {
     "Variable Name": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] they were first told by a doctor or other health professional that they have or had Non-Hodgkin’s lymphoma cancer?"
   },
@@ -9248,9 +9256,6 @@
   "858525957": {
     "Variable Name": "In which season(s) did you ride a bicycle (including a stationary bike)? Select all that apply."
   },
-  "858719946": {
-    "Variable Name": "4-5 timer per day\"\""
-  },
   "859025516": {
     "Variable Name": "Less than 21 days -> PREG"
   },
@@ -9307,12 +9312,12 @@
     "Variable Label": "Number of servings consumed  marijuana in food or drinks, servings per day don't know",
     "Variable Name": "SrvSAS_EdiblesServingsDK_v1r0"
   },
+  "862129429": {
+    "Variable Name": "10 to 15 hours per day"
+  },
   "862170896": {
     "Variable Label": "Used diet pills/medications",
     "Variable Name": "SrvBOH_Meds1_v1r0"
-  },
-  "862697718": {
-    "Variable Label": "I have not used any of these tobacco products"
   },
   "862718552": {
     "Variable Label": "Puerto Rican",
@@ -9402,7 +9407,7 @@
     "Variable Name": "SrvBOH_ServiceProdC_v1r0"
   },
   "868504994": {
-    "Variable Name": "My periods stopped after endometrial ablation (removal of the endometrium \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\" lining of the uterus)"
+    "Variable Name": "My periods stopped after endometrial ablation (removal of the endometrium \"\"\"\"\"\"\"\" lining of the uterus)"
   },
   "868685663": {
     "Variable Label": "Strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups)",
@@ -9514,10 +9519,7 @@
     "Variable Name": "SrvBOH_DadNHLympAge_v1r0"
   },
   "877930285": {
-    "Variable Label": [
-      "328837184.json",
-      "796665478.json"
-    ],
+    "Variable Label": "Days consumed marijuana in food or drinks in life",
     "Variable Name": "SrvSAS_EdiblesDays_v1r0"
   },
   "878094302": {
@@ -9609,6 +9611,9 @@
   },
   "886205285": {
     "Variable Name": "A few days per week (5-19 days per month)"
+  },
+  "886547090": {
+    "Variable Name": "2 – 3 times a month"
   },
   "887435355": {
     "Variable Name": "Why did you take prescription pain relievers containing opioids? Select all that apply."
@@ -9851,9 +9856,6 @@
   "910533468": {
     "Variable Name": "Letter without PIN"
   },
-  "910674937": {
-    "Variable Name": "Don\"\"t know"
-  },
   "910856756": {
     "Variable Label": "How was sleep last 4 weeks",
     "Variable Name": "SrvMRE_SleepLast4Wk_v1r0"
@@ -9967,7 +9969,7 @@
     "Variable Name": "SrvMRE_ProtonPumpOC_v1r0"
   },
   "920765381": {
-    "Variable Name": "Don\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"t know"
+    "Variable Name": "Don\"\"\"\"\"\"\"\"t know"
   },
   "921095024": {
     "Variable Name": "On the days that you took naproxen, about how many pills did you take per day, on most days?"
@@ -10071,6 +10073,10 @@
   "930016526": {
     "Variable Name": "Have you ever used any of these marijuana products, even once? Select all that apply."
   },
+  "930173530": {
+    "Variable Label": "Other alcoholic beverages (such as wine coolers, \"\"hard soda,\"\" spiked seltzer (sparkling water), Smirnoff Ice, malt liquor, or pre-mixed cocktails)",
+    "Variable Name": "SrvSAS_OtherAlc3039_v1r0"
+  },
   "930232115": {
     "Variable Name": "How old were you when you had your first menstrual period? Please make your best guess if you are not sure."
   },
@@ -10125,9 +10131,6 @@
   },
   "935502060": {
     "Variable Name": "Some high school grades 9-11"
-  },
-  "935781886": {
-    "Variable Name": "6 to 9 hours per day\"\""
   },
   "936039586": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Liver Cirrhosis?"
@@ -10201,6 +10204,9 @@
   "940733450": {
     "Variable Label": "Do you snore?",
     "Variable Name": "SrvMRE_Snore_v1r0"
+  },
+  "941316718": {
+    "Variable Name": "3 – 4 times a week"
   },
   "942255248": {
     "Variable Label": "Letter or brochure in mail",
@@ -10369,6 +10375,9 @@
     "Variable Label": "How many cigarettes used, [X / 50] to age [Y / 59 / current age]",
     "Variable Name": "SrvSAS_CigsUsed5059_v1r0"
   },
+  "955319331": {
+    "Variable Name": "21 – 35"
+  },
   "955609858": {
     "Variable Label": "At the dinner table",
     "Variable Name": "SrvMRE_Dinner_v1r0"
@@ -10470,6 +10479,9 @@
   "961630107": {
     "Variable Label": "Never drank alcohol on regular basis",
     "Variable Name": "SrvSAS_NeverAlcReg_v1r0"
+  },
+  "961858466": {
+    "Variable Name": "6 – 11 times a year"
   },
   "961987554": {
     "Variable Label": "Penis removed",
@@ -10810,9 +10822,6 @@
     "Variable Label": "Salvadoran",
     "Variable Name": "SrvBOH_Salvadoran_v1r0"
   },
-  "988362695": {
-    "Variable Label": "Wine"
-  },
   "988508028": {
     "Variable Label": "Sitting inactive in a public place (such as a theater or a meeting)",
     "Variable Name": "SrvMRE_DozeSitting_v1r0"
@@ -10842,7 +10851,7 @@
     "Variable Name": "SrvBOH_Exercised1_v1r0"
   },
   "990579614": {
-    "Variable Label": "I am worried about data being given to\"\"\"\"\"\"\"\"my\"\"\"\"\"\"\"\"employer/potential employer",
+    "Variable Label": "I am worried about data being given to\"\"\"\"my\"\"\"\"employer/potential employer",
     "Variable Name": "HdRef_PrivacyG_v1r0"
   },
   "990599372": {
@@ -10933,9 +10942,6 @@
   },
   "996315715": {
     "Variable Name": "2-4 days a week__"
-  },
-  "996484670": {
-    "Variable Name": "1 \"\" 2 times a week"
   },
   "996533518": {
     "Variable Label": "testicle removal surgery age",
