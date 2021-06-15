@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_GERDAge_v1r0",
   "Variable Type": "GERD_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP3= Esophageal Acid Reflux (GERD)",
-  "undefined": "GERD"
+  "Notes": "Only display if MHGROUP3= Esophageal Acid Reflux (GERD)",
+  "Quest_Src Question": "GERD"
 }

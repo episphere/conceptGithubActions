@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_NoneDescribeRE6_v1r0",
   "Variable Type": "RACEETH6_TB",
   "Variable Length": "Char",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if RACEETH = Middle Eastern or North African",
-  "undefined": "RACEETH6"
+  "Notes": "Only display if RACEETH = Middle Eastern or North African",
+  "Quest_Src Question": "RACEETH6"
 }

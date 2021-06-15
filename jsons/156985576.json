@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_UVAge_v1r0",
   "Variable Type": "UC_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP3= Ulcerative Colitis",
-  "undefined": "UC"
+  "Notes": "Only display if MHGROUP3= Ulcerative Colitis",
+  "Quest_Src Question": "UC"
 }

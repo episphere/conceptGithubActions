@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_EnlProstateAge_v1r0",
   "Variable Type": "ENLGPRO_YEAR",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP8= Enlarged Prostate",
-  "undefined": "ENLGPRO"
+  "Notes": "Only display if MHGROUP8= Enlarged Prostate",
+  "Quest_Src Question": "ENLGPRO"
 }

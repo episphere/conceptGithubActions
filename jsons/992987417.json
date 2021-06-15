@@ -7,17 +7,18 @@
   "Variable Name": "SrvBOH_Multbirth_v1r0",
   "Variable Type": "MULTBIRTH",
   "Variable Length": "Num",
+  "Required": "No",
   "PII": "No",
-  "Old Quest Value": [
-    "187686296.json",
-    "393311833.json",
-    "730048948.json",
-    "175315311.json"
-  ],
-  "Required": {
-    "515815329.json": "0",
-    "465205500.json": "1",
-    "411993666.json": "2",
-    "112013816.json": "3"
+  "Old Quest Value": {
+    "104430631.json": "0",
+    "353358909.json": "1",
+    "288105839.json": "2",
+    "626558982.json": "3"
+  },
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1",
+    "288105839.json": "2",
+    "626558982.json": "3"
   }
 }

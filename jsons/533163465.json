@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_LupusYear_v1r0",
   "Variable Type": "LUPUS_YEAR",
   "Variable Length": "Year",
-  "Required": "yyyy",
+  "Connect Value": "yyyy",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP6 = Lupus",
-  "undefined": "LUPUS"
+  "Notes": "Only display if MHGROUP6 = Lupus",
+  "Quest_Src Question": "LUPUS"
 }

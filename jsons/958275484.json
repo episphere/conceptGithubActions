@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_DadOtherCancAge_v1r0",
   "Variable Type": "DADCANC3U_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Connect Format/Values - Only display if DADCANC2= 20",
-  "undefined": "DADCANC3U"
+  "Notes": "Connect Format/Values - Only display if DADCANC2= 20",
+  "Quest_Src Question": "DADCANC3U"
 }

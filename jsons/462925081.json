@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_DadProstCancYr_v1r0",
   "Variable Type": "DADCANC3Q_YEAR",
   "Variable Length": "Year",
-  "Required": "yyyy",
+  "Connect Value": "yyyy",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Connect Format/Values - Only display if DADCANC2= 16",
-  "undefined": "DADCANC3Q"
+  "Notes": "Connect Format/Values - Only display if DADCANC2= 16",
+  "Quest_Src Question": "DADCANC3Q"
 }

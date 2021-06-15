@@ -7,15 +7,16 @@
   "Variable Name": "SrvBOH_Child1FullHalf_v1r0",
   "Variable Type": "CHILD3",
   "Variable Length": "Num",
+  "Required": "No",
   "PII": "No",
-  "Old Quest Value": [
-    "977960156.json",
-    "579456621.json",
-    "414267450.json"
-  ],
-  "Required": {
-    "236528013.json": "0",
-    "204025987.json": "1",
-    "332278677.json": "2"
+  "Old Quest Value": {
+    "709650750.json": "1",
+    "810290359.json": "2",
+    "509607548.json": "3"
+  },
+  "Connect Value": {
+    "709650750.json": "0",
+    "810290359.json": "1",
+    "509607548.json": "2"
   }
 }

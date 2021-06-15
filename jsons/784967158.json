@@ -7,15 +7,16 @@
   "Variable Name": "SrvBOH_Student_v1r0",
   "Variable Type": "STUDENT",
   "Variable Length": "Num",
+  "Required": "No",
   "PII": "No",
-  "Old Quest Value": [
-    "187686296.json",
-    "785285876.json",
-    "357966528.json"
-  ],
-  "Required": {
-    "515815329.json": "0",
-    "308446302.json": "1",
-    "468836623.json": "2"
+  "Old Quest Value": {
+    "104430631.json": "1",
+    "551525967.json": "2",
+    "738284740.json": "3"
+  },
+  "Connect Value": {
+    "104430631.json": "0",
+    "551525967.json": "1",
+    "738284740.json": "2"
   }
 }

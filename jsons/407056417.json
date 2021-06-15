@@ -7,15 +7,16 @@
   "Variable Name": "SrvBOH_SexAtBirth_v1r0",
   "Variable Type": "SEX",
   "Variable Length": "Num",
+  "Required": "No",
   "PII": "No",
-  "Old Quest Value": [
-    "436826420.json",
-    "563142244.json",
-    "948932676.json"
-  ],
-  "Required": {
-    "848252917.json": "0",
-    "910763883.json": "1",
-    "831129860.json": "2"
+  "Old Quest Value": {
+    "536341288.json": "1",
+    "654207589.json": "2",
+    "576796184.json": "3"
+  },
+  "Connect Value": {
+    "536341288.json": "0",
+    "654207589.json": "1",
+    "576796184.json": "2"
   }
 }

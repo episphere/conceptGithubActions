@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_C1UterinCancAge_v1r0",
   "Variable Type": "CHILDCANC3W_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Connect Format/Values - Only display if SIBCANC2= 22",
-  "undefined": "CHILDCANC3W"
+  "Notes": "Connect Format/Values - Only display if SIBCANC2= 22",
+  "Quest_Src Question": "CHILDCANC3W"
 }

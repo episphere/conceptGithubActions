@@ -8,15 +8,12 @@
   "Variable Name": "SrvBOH_Exercised4_v1r0",
   "Variable Type": "1",
   "Variable Length": "Num",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if flag for percent weight change 45-55 = yes",
-  "undefined": "WTLOSS2_4555",
-  "Old Quest Value": [
-    "187686296.json",
-    "393311833.json"
-  ],
-  "Required": {
-    "515815329.json": "0",
-    "465205500.json": "1"
+  "Notes": "Only display if flag for percent weight change 45-55 = yes",
+  "Quest_Src Question": "WTLOSS2_4555",
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
   }
 }

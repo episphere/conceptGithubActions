@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_BreastRed_v1r0",
   "Variable Type": "3",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP9 = breast surgery",
-  "undefined": "BREASTSUR"
+  "Notes": "Only display if MHGROUP9 = breast surgery",
+  "Quest_Src Question": "BREASTSUR"
 }

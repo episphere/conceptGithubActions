@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_LBloodTransYr_v1r0",
   "Variable Type": "BLDTRANS4_YEAR",
   "Variable Length": "Year",
-  "Required": "yyyy",
+  "Connect Value": "yyyy",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if BLDTRANS=YES",
-  "undefined": "BLDTRANS4"
+  "Notes": "Only display if BLDTRANS=YES",
+  "Quest_Src Question": "BLDTRANS4"
 }

@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_BarrettsAge_v1r0",
   "Variable Type": "BARESO_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP3= Barrett's Esophagus",
-  "undefined": "BARESO"
+  "Notes": "Only display if MHGROUP3= Barrett's Esophagus",
+  "Quest_Src Question": "BARESO"
 }

@@ -6,15 +6,16 @@
   "Variable Name": "SrvBOH_CarryWeight_v1r0",
   "Variable Type": "CARWEIGHT",
   "Variable Length": "Num",
+  "Required": "No",
   "PII": "No",
-  "Old Quest Value": [
-    "837294387.json",
-    "708599355.json",
-    "192882411.json"
-  ],
-  "Required": {
-    "762007747.json": "0",
-    "201158588.json": "1",
-    "375856934.json": "2"
+  "Old Quest Value": {
+    "245893583.json": "1",
+    "506790433.json": "2",
+    "601057066.json": "3"
+  },
+  "Connect Value": {
+    "245893583.json": "0",
+    "506790433.json": "1",
+    "601057066.json": "2"
   }
 }

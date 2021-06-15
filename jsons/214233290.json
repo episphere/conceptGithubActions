@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_MomThyCancYr_v1r0",
   "Variable Type": "MOMCANC3T_YEAR",
   "Variable Length": "Year",
-  "Required": "yyyy",
+  "Connect Value": "yyyy",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Connect Format/Values - Only display if MOMCANC2= 19",
-  "undefined": "MOMCANC3T"
+  "Notes": "Connect Format/Values - Only display if MOMCANC2= 19",
+  "Quest_Src Question": "MOMCANC3T"
 }

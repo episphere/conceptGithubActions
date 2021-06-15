@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_BloodTransAge_v1r0",
   "Variable Type": "BLDTRANS_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if BLDTRANS=YES",
-  "undefined": "BLDTRANS3"
+  "Notes": "Only display if BLDTRANS=YES",
+  "Quest_Src Question": "BLDTRANS3"
 }

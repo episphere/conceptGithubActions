@@ -8,17 +8,14 @@
   "Variable Name": "SrvBOH_BreastOther_v1r0",
   "Variable Type": "55",
   "Variable Length": "Num",
+  "Required": "No",
   "PII": "No",
-  "undefined": "BREASTSUR",
-  "Old Quest Value": [
-    "187686296.json",
-    "393311833.json"
-  ],
-  "Required": {
-    "515815329.json": "0",
-    "465205500.json": "1"
+  "Quest_Src Question": "BREASTSUR",
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
   },
-  "Derivation Notes": {
+  "Notes": {
     "653895180.json": "Only display if MHGROUP9"
   }
 }

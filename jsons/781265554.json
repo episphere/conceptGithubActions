@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_GonorrheaAge_v1r0",
   "Variable Type": "GONORR_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP7= GONORRHEA",
-  "undefined": "GONORR"
+  "Notes": "Only display if MHGROUP7= GONORRHEA",
+  "Quest_Src Question": "GONORR"
 }

@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_IBSAge_v1r0",
   "Variable Type": "IBS_YEAR",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP3= Irritable Bowel Syndrome diagnosis age",
-  "undefined": "IBS"
+  "Notes": "Only display if MHGROUP3= Irritable Bowel Syndrome diagnosis age",
+  "Quest_Src Question": "IBS"
 }

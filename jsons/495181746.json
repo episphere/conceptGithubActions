@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_ShinglesYear_v1r0",
   "Variable Type": "SHINGLES_YEAR",
   "Variable Length": "Year",
-  "Required": "yyyy",
+  "Connect Value": "yyyy",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP7= SHINGLES",
-  "undefined": "SHINGLES"
+  "Notes": "Only display if MHGROUP7= SHINGLES",
+  "Quest_Src Question": "SHINGLES"
 }

@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_NoneDescribeRE5_v1r0",
   "Variable Type": "RACEETH5_TB",
   "Variable Length": "Char",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if RACEETH = Hispanic, Latino, or Spanish",
-  "undefined": "RACEETH5"
+  "Notes": "Only display if RACEETH = Hispanic, Latino, or Spanish",
+  "Quest_Src Question": "RACEETH5"
 }

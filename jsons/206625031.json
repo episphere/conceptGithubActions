@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_SkinCancAge_v1r0",
   "Variable Type": "SKINCANC3_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display is SKINCANC = 1",
-  "undefined": "SKINCANC3"
+  "Notes": "Only display is SKINCANC = 1",
+  "Quest_Src Question": "SKINCANC3"
 }

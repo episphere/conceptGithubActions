@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_GoutAge_v1r0",
   "Variable Type": "GOUT_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP6 = Gout",
-  "undefined": "GOUT"
+  "Notes": "Only display if MHGROUP6 = Gout",
+  "Quest_Src Question": "GOUT"
 }

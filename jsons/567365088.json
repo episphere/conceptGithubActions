@@ -7,15 +7,12 @@
   "Variable Name": "SrvBOH_Finasteride_v1r0",
   "Variable Type": "1",
   "Variable Length": "Num",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "[DISPLAY IF SEX=01 or 02]",
-  "undefined": "HRMED2",
-  "Old Quest Value": [
-    "187686296.json",
-    "393311833.json"
-  ],
-  "Required": {
-    "515815329.json": "0",
-    "465205500.json": "1"
+  "Notes": "[DISPLAY IF SEX=01 or 02]",
+  "Quest_Src Question": "HRMED2",
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
   }
 }

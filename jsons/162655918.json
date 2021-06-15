@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_RAAge_V1r0",
   "Variable Type": "RA_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP6 = Rheumatoid Arthritis",
-  "undefined": "RA"
+  "Notes": "Only display if MHGROUP6 = Rheumatoid Arthritis",
+  "Quest_Src Question": "RA"
 }

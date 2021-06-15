@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_CHFYear_v1r0",
   "Variable Type": "CHF_YEAR",
   "Variable Length": "Year",
-  "Required": "yyyy",
+  "Connect Value": "yyyy",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP1 = Congestive heart failure",
-  "undefined": "CHF"
+  "Notes": "Only display if MHGROUP1 = Congestive heart failure",
+  "Quest_Src Question": "CHF"
 }

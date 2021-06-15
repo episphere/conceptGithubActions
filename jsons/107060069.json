@@ -7,16 +7,17 @@
   "Variable Name": "SrvBOH_ProsRemSurg_v1r0",
   "Variable Type": "PROSREM",
   "Variable Length": "Num",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP9 = prostate remvoal surgery",
-  "Old Quest Value": [
-    "478517168.json",
-    "535552888.json",
-    "733001548.json"
-  ],
-  "Required": {
-    "717953704.json": "0",
-    "677803618.json": "1",
-    "425168708.json": "88"
+  "Notes": "Only display if MHGROUP9 = prostate remvoal surgery",
+  "Old Quest Value": {
+    "524029283.json": "1",
+    "500023550.json": "2",
+    "398561594.json": "3"
+  },
+  "Connect Value": {
+    "524029283.json": "0",
+    "500023550.json": "1",
+    "398561594.json": "88"
   }
 }

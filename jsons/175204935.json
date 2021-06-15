@@ -8,15 +8,12 @@
   "Variable Name": "SrvBOH_NoneRE8_v1r0",
   "Variable Type": "55",
   "Variable Length": "Num",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if RACEETH = White",
-  "undefined": "RACEETH8",
-  "Old Quest Value": [
-    "187686296.json",
-    "393311833.json"
-  ],
-  "Required": {
-    "515815329.json": "0",
-    "465205500.json": "1"
+  "Notes": "Only display if RACEETH = White",
+  "Quest_Src Question": "RACEETH8",
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
   }
 }

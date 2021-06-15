@@ -8,15 +8,12 @@
   "Variable Name": "SrvBOH_Samoan_v1r0",
   "Variable Type": "6",
   "Variable Length": "Num",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if RACEETH = Native Hawaiian or other Pacific Islander",
-  "undefined": "RACEETH7",
-  "Old Quest Value": [
-    "187686296.json",
-    "393311833.json"
-  ],
-  "Required": {
-    "515815329.json": "0",
-    "465205500.json": "1"
+  "Notes": "Only display if RACEETH = Native Hawaiian or other Pacific Islander",
+  "Quest_Src Question": "RACEETH7",
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
   }
 }

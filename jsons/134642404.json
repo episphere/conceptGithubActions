@@ -7,14 +7,15 @@
   "Variable Name": "SrvBOH_BreastBiopsy_v1r0",
   "Variable Type": "BREASTDIS2",
   "Variable Length": "Num",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP8= Ductal Carcinoma in situ (DCIS)",
-  "Old Quest Value": [
-    "187686296.json",
-    "393311833.json"
-  ],
-  "Required": {
-    "515815329.json": "0",
-    "465205500.json": "1"
+  "Notes": "Only display if MHGROUP8= Ductal Carcinoma in situ (DCIS)",
+  "Old Quest Value": {
+    "104430631.json": "1",
+    "353358909.json": "2"
+  },
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
   }
 }

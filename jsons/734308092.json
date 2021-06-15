@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_CirrhosisYear_v1r0",
   "Variable Type": "LIVERCIRR_YEAR",
   "Variable Length": "Year",
-  "Required": "yyyy",
+  "Connect Value": "yyyy",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP3= Liver Cirrhosis",
-  "undefined": "LIVERCIRR"
+  "Notes": "Only display if MHGROUP3= Liver Cirrhosis",
+  "Quest_Src Question": "LIVERCIRR"
 }

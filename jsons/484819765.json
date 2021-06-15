@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_KSAge_v1r0",
   "Variable Type": "KIDNEY_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP5 = Kidney Stones",
-  "undefined": "KIDNEY"
+  "Notes": "Only display if MHGROUP5 = Kidney Stones",
+  "Quest_Src Question": "KIDNEY"
 }

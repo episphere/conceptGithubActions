@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_GallstonesAge_v1r0",
   "Variable Type": "GALL_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP3= Gallstones (Biliary Stones)",
-  "undefined": "GALL"
+  "Notes": "Only display if MHGROUP3= Gallstones (Biliary Stones)",
+  "Quest_Src Question": "GALL"
 }

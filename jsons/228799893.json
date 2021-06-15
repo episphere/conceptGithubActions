@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_CHDAge_v1r0",
   "Variable Type": "CVD_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP1 = CVD",
-  "undefined": "CVD"
+  "Notes": "Only display if MHGROUP1 = CVD",
+  "Quest_Src Question": "CVD"
 }

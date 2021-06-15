@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_TestRemSurgAge_v1r0",
   "Variable Type": "TESTREM2_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP9 = testicle removal surgery",
-  "undefined": "TESTREM2"
+  "Notes": "Only display if MHGROUP9 = testicle removal surgery",
+  "Quest_Src Question": "TESTREM2"
 }

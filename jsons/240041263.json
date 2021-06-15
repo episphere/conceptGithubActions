@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_HayFeverYear_v1r0",
   "Variable Type": "HAYFEVER_YEAR",
   "Variable Length": "Year",
-  "Required": "yyyy",
+  "Connect Value": "yyyy",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP2 = Hay fever",
-  "undefined": "HAYFEVER"
+  "Notes": "Only display if MHGROUP2 = Hay fever",
+  "Quest_Src Question": "HAYFEVER"
 }

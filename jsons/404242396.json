@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_DadLympAge_v1r0",
   "Variable Type": "DADCANC3M_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Connect Format/Values - Only display if DADCANC2= 12",
-  "undefined": "DADCANC3M"
+  "Notes": "Connect Format/Values - Only display if DADCANC2= 12",
+  "Quest_Src Question": "DADCANC3M"
 }

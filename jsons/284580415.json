@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_AddressL1_v1r0",
   "Variable Type": "ALTADDRESS2_LINE1",
   "Variable Length": "Char",
-  "Required": "N/A",
-  "PII": "No",
-  "Derivation Notes": "Populated from Google Addresses",
-  "undefined": "ALTADDRESS2"
+  "Connect Value": "N/A",
+  "Required": "No",
+  "PII": "Yes",
+  "Notes": "Populated from Google Addresses",
+  "Quest_Src Question": "ALTADDRESS2"
 }

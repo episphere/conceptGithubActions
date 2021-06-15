@@ -8,15 +8,12 @@
   "Variable Name": "SrvBOH_Prostate_v1r0",
   "Variable Type": "2",
   "Variable Length": "Num",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if SEX=Intersex or other",
-  "undefined": "SEX2",
-  "Old Quest Value": [
-    "187686296.json",
-    "393311833.json"
-  ],
-  "Required": {
-    "515815329.json": "0",
-    "465205500.json": "1"
+  "Notes": "Only display if SEX=Intersex or other",
+  "Quest_Src Question": "SEX2",
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
   }
 }

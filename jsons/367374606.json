@@ -7,15 +7,16 @@
   "Variable Name": "SrvBOH_DadLiving_v1r0",
   "Variable Type": "DAD",
   "Variable Length": "Num",
+  "Required": "No",
   "PII": "No",
-  "Old Quest Value": [
-    "187686296.json",
-    "393311833.json",
-    "980658188.json"
-  ],
-  "Required": {
-    "515815329.json": "0",
-    "465205500.json": "1",
-    "428078072.json": "77"
+  "Old Quest Value": {
+    "104430631.json": "1",
+    "353358909.json": "2",
+    "178420302.json": "77"
+  },
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1",
+    "178420302.json": "77"
   }
 }

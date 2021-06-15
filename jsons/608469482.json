@@ -8,8 +8,9 @@
   "Variable Name": "SRVBOH_HTNYear_v1r0",
   "Variable Type": "HTN_YEAR",
   "Variable Length": "Year",
-  "Required": "yyyy",
+  "Connect Value": "yyyy",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP1 = high blood pressure",
-  "undefined": "HTN"
+  "Notes": "Only display if MHGROUP1 = high blood pressure",
+  "Quest_Src Question": "HTN"
 }

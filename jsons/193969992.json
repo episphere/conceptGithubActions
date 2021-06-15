@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_HepatitisAge_v1r0",
   "Variable Type": "HPVHCV_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP7= Chronic Hepatitis B or C",
-  "undefined": "HBVHCV"
+  "Notes": "Only display if MHGROUP7= Chronic Hepatitis B or C",
+  "Quest_Src Question": "HBVHCV"
 }

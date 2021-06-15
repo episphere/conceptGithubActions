@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_CLDYear_v1r0",
   "Variable Type": "COPD_YEAR",
   "Variable Length": "Year",
-  "Required": "yyyy",
+  "Connect Value": "yyyy",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP2 = COPD",
-  "undefined": "COPD"
+  "Notes": "Only display if MHGROUP2 = COPD",
+  "Quest_Src Question": "COPD"
 }

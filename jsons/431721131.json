@@ -7,13 +7,14 @@
   "Variable Name": "SrvBOH_WhoComplQx_v1r0",
   "Variable Type": "QXAUTHOR1",
   "Variable Length": "Num",
+  "Required": "No",
   "PII": "No",
-  "Old Quest Value": [
-    "862896362.json",
-    "292540122.json"
-  ],
-  "Required": {
-    "712686714.json": "0",
-    "828159707.json": "1"
+  "Old Quest Value": {
+    "589702540.json": "1",
+    "275706407.json": "2"
+  },
+  "Connect Value": {
+    "589702540.json": "0",
+    "275706407.json": "1"
   }
 }

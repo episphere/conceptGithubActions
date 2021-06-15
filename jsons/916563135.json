@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_EndoAge_v1r0",
   "Variable Type": "ENDO_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP8= Endometriosis",
-  "undefined": "ENDO"
+  "Notes": "Only display if MHGROUP8= Endometriosis",
+  "Quest_Src Question": "ENDO"
 }

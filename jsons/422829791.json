@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_ChronsAge_v1r0",
   "Variable Type": "CD_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP3= Crohn's Disease",
-  "undefined": "CD"
+  "Notes": "Only display if MHGROUP3= Crohn's Disease",
+  "Quest_Src Question": "CD"
 }

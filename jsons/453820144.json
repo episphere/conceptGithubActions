@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_PenRemAge_v1r0",
   "Variable Type": "PENREM_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP9 = penis removed (penectomy)",
-  "undefined": "PENREM"
+  "Notes": "Only display if MHGROUP9 = penis removed (penectomy)",
+  "Quest_Src Question": "PENREM"
 }

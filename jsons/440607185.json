@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_MomMelanomaYr_v1r0",
   "Variable Type": "MOMCANC3O_YEAR",
   "Variable Length": "Year",
-  "Required": "yyyy",
+  "Connect Value": "yyyy",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Connect Format/Values - Only display if MOMCANC2= 14",
-  "undefined": "MOMCANC3O"
+  "Notes": "Connect Format/Values - Only display if MOMCANC2= 14",
+  "Quest_Src Question": "MOMCANC3O"
 }

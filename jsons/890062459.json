@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_MonoAge_v1r0",
   "Variable Type": "MONO_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP7= Mono",
-  "undefined": "MONO"
+  "Notes": "Only display if MHGROUP7= Mono",
+  "Quest_Src Question": "MONO"
 }

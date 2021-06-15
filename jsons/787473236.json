@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_HeartValveYr_v1r0",
   "Variable Type": "HEARTVALV_YEAR",
   "Variable Length": "Year",
-  "Required": "yyyy",
+  "Connect Value": "yyyy",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP1 = heart valve problems",
-  "undefined": "HEARTVALV"
+  "Notes": "Only display if MHGROUP1 = heart valve problems",
+  "Quest_Src Question": "HEARTVALV"
 }

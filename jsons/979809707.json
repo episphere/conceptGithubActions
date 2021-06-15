@@ -7,7 +7,8 @@
   "Variable Name": "SrvBOH_SexOrientDesc_v1r0",
   "Variable Type": "SEXORIENT_TB",
   "Variable Length": "Char",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Option only available if #3 is selected in SEXORIENT"
+  "Notes": "Option only available if #3 is selected in SEXORIENT"
 }

@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_BreastDisAge_v1r0",
   "Variable Type": "BREASTDIS_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP8= Fibrocystic Breast, or other Benign Breast Disease",
-  "undefined": "BREASTDIS"
+  "Notes": "Only display if MHGROUP8= Fibrocystic Breast, or other Benign Breast Disease",
+  "Quest_Src Question": "BREASTDIS"
 }

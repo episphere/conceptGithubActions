@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_MonoYear_v1r0",
   "Variable Type": "MONO_YEAR",
   "Variable Length": "Year",
-  "Required": "yyyy",
+  "Connect Value": "yyyy",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP7= Mono",
-  "undefined": "MONO"
+  "Notes": "Only display if MHGROUP7= Mono",
+  "Quest_Src Question": "MONO"
 }

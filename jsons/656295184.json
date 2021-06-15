@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_MomUtCancAge_v1r0",
   "Variable Type": "MOMCANC3U_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Connect Format/Values - Only display if MOMCANC2= 20",
-  "undefined": "MOMCANC3U"
+  "Notes": "Connect Format/Values - Only display if MOMCANC2= 20",
+  "Quest_Src Question": "MOMCANC3U"
 }

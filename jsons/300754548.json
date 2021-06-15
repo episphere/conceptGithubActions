@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_TonsilsAge_v1r0",
   "Variable Type": "TONSILS_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP9 = tonsillectomy",
-  "undefined": "TONSILS"
+  "Notes": "Only display if MHGROUP9 = tonsillectomy",
+  "Quest_Src Question": "TONSILS"
 }

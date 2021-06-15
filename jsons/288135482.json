@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_CKDYear_v1r0",
   "Variable Type": "CKD_YEAR",
   "Variable Length": "Year",
-  "Required": "yyyy",
+  "Connect Value": "yyyy",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP5 = Chronic Kidney Disease (Also Known as Chronic Kidney Failure)",
-  "undefined": "CKD"
+  "Notes": "Only display if MHGROUP5 = Chronic Kidney Disease (Also Known as Chronic Kidney Failure)",
+  "Quest_Src Question": "CKD"
 }

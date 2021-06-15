@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_S1BraCancAge_v1r0",
   "Variable Type": "SIBCANC3C_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Connect Format/Values - Only display if SIBCANC2= 2",
-  "undefined": "SIBCANC3C"
+  "Notes": "Connect Format/Values - Only display if SIBCANC2= 2",
+  "Quest_Src Question": "SIBCANC3C"
 }

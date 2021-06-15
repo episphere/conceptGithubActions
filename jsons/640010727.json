@@ -7,12 +7,20 @@
   "Variable Name": "SrvBOH_Child1AgeOther_v1r0",
   "Variable Type": "CHILDAGE",
   "Variable Length": "Num",
-  "PII": [
-    "515815329.json",
-    "515815329.json"
+  "Required": [
+    "104430631.json",
+    "104430631.json"
   ],
-  "Required": {
+  "PII": [
+    "104430631.json",
+    "104430631.json"
+  ],
+  "Old Quest Value": {
+    "749536749.json": "1",
+    "178420302.json": "99"
+  },
+  "Connect Value": {
     "749536749.json": "0",
-    "428078072.json": "77"
+    "178420302.json": "77"
   }
 }

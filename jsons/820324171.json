@@ -7,15 +7,16 @@
   "Variable Name": "SrvBOH_10YrWeight_v1r0",
   "Variable Type": "AVEWEIGHT",
   "Variable Length": "Num",
+  "Required": "No",
   "PII": "No",
-  "Old Quest Value": [
-    "549652033.json",
-    "650188281.json",
-    "444957913.json"
-  ],
-  "Required": {
-    "305743567.json": "0",
-    "198069473.json": "1",
-    "654018491.json": "2"
+  "Old Quest Value": {
+    "176904165.json": "1",
+    "902131456.json": "2",
+    "839266527.json": "3"
+  },
+  "Connect Value": {
+    "176904165.json": "0",
+    "902131456.json": "1",
+    "839266527.json": "2"
   }
 }

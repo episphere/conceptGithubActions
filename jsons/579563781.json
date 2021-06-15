@@ -7,17 +7,18 @@
   "Variable Name": "SrvBOH_Sibling1Sex_v1r0",
   "Variable Type": "SIB2",
   "Variable Length": "Num",
+  "Required": "No",
   "PII": "No",
-  "Old Quest Value": [
-    "436826420.json",
-    "563142244.json",
-    "948932676.json",
-    "980658188.json"
-  ],
-  "Required": {
-    "848252917.json": "0",
-    "910763883.json": "1",
-    "831129860.json": "2",
-    "428078072.json": "77"
+  "Old Quest Value": {
+    "536341288.json": "1",
+    "654207589.json": "2",
+    "576796184.json": "3",
+    "178420302.json": "77"
+  },
+  "Connect Value": {
+    "536341288.json": "0",
+    "654207589.json": "1",
+    "576796184.json": "2",
+    "178420302.json": "77"
   }
 }

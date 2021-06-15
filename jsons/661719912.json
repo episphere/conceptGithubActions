@@ -8,7 +8,8 @@
   "Variable Name": "SrvBOH_AltContFv1r0",
   "Variable Type": "ALTCONTACT1_FNAME",
   "Variable Length": "Char",
-  "Required": "N/A",
-  "PII": "No",
-  "undefined": "ALTCONTACT1"
+  "Connect Value": "N/A",
+  "Required": "No",
+  "PII": "Yes",
+  "Quest_Src Question": "ALTCONTACT1"
 }

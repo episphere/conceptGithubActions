@@ -7,14 +7,15 @@
   "Variable Name": "SrvBOH_Sibling1Mult_v1r0",
   "Variable Type": "MULT2",
   "Variable Length": "Num",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Connect Format/Values - Only display if MULTBIRTH = 1, 2, 3",
-  "Old Quest Value": [
-    "187686296.json",
-    "393311833.json"
-  ],
-  "Required": {
-    "515815329.json": "0",
-    "465205500.json": "1"
+  "Notes": "Connect Format/Values - Only display if MULTBIRTH = 1, 2, 3",
+  "Old Quest Value": {
+    "104430631.json": "1",
+    "353358909.json": "2"
+  },
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
   }
 }

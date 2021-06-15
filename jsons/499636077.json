@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_GravesAge_v1r0",
   "Variable Type": "GRAVES_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP4 = Grave's disease",
-  "undefined": "GRAVES"
+  "Notes": "Only display if MHGROUP4 = Grave's disease",
+  "Quest_Src Question": "GRAVES"
 }

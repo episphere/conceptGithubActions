@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_MomBreCancAge_v1r0",
   "Variable Type": "MOMCANC3D_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Connect Format/Values - Only display if MOMCANC2= 3",
-  "undefined": "MOMCANC3D"
+  "Notes": "Connect Format/Values - Only display if MOMCANC2= 3",
+  "Quest_Src Question": "MOMCANC3D"
 }

@@ -7,16 +7,17 @@
   "Variable Name": "SrvBOH_DiabetesType_v1r0",
   "Variable Type": "DM",
   "Variable Length": "Num",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP4 = diabetes",
-  "Old Quest Value": [
-    "262658410.json",
-    "167724168.json",
-    "980658188.json"
-  ],
-  "Required": {
-    "919189228.json": "0",
-    "299192425.json": "1",
-    "428078072.json": "77"
+  "Notes": "Only display if MHGROUP4 = diabetes",
+  "Old Quest Value": {
+    "146477090.json": "1",
+    "573635975.json": "2",
+    "178420302.json": "77"
+  },
+  "Connect Value": {
+    "146477090.json": "0",
+    "573635975.json": "1",
+    "178420302.json": "77"
   }
 }

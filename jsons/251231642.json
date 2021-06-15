@@ -8,15 +8,12 @@
   "Variable Name": "SrvBOH_NoGroup6_v1r0",
   "Variable Type": "88",
   "Variable Length": "Num",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only can be selected if no other variables selected in MHGROUP6",
-  "undefined": "MHGROUP6",
-  "Old Quest Value": [
-    "187686296.json",
-    "393311833.json"
-  ],
-  "Required": {
-    "515815329.json": "0",
-    "465205500.json": "1"
+  "Notes": "Only can be selected if no other variables selected in MHGROUP6",
+  "Quest_Src Question": "MHGROUP6",
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
   }
 }

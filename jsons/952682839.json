@@ -7,15 +7,16 @@
   "Variable Name": "SrvBOH_PainAffectWork_v1r0",
   "Variable Type": "PAIN3",
   "Variable Length": "Num",
+  "Required": "No",
   "PII": "No",
-  "Old Quest Value": [
-    "816942573.json",
-    "221697688.json",
-    "389600844.json"
-  ],
-  "Required": {
-    "303221119.json": "0",
-    "874654378.json": "1",
-    "642672084.json": "2"
+  "Old Quest Value": {
+    "111520945.json": "1",
+    "548628123.json": "2",
+    "597477164.json": "3"
+  },
+  "Connect Value": {
+    "111520945.json": "0",
+    "548628123.json": "1",
+    "597477164.json": "2"
   }
 }

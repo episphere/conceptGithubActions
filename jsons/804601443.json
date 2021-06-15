@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_C1ColCancYr_v1r0",
   "Variable Type": "CHILDCANC3F_YEAR",
   "Variable Length": "Year",
-  "Required": "yyyy",
+  "Connect Value": "yyyy",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Connect Format/Values - Only display if SIBCANC2= 5",
-  "undefined": "CHILDCANC3F"
+  "Notes": "Connect Format/Values - Only display if SIBCANC2= 5",
+  "Quest_Src Question": "CHILDCANC3F"
 }

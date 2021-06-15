@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_ShinglesAge_v1r0",
   "Variable Type": "SHINGLES_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP7= SHINGLES",
-  "undefined": "SHINGLES"
+  "Notes": "Only display if MHGROUP7= SHINGLES",
+  "Quest_Src Question": "SHINGLES"
 }

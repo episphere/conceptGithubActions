@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_NoneDescribeRE2_v1r0",
   "Variable Type": "RACEETH2_TB",
   "Variable Length": "Char",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if RACEETH = American Indian or Alaska Native",
-  "undefined": "RACEETH2"
+  "Notes": "Only display if RACEETH = American Indian or Alaska Native",
+  "Quest_Src Question": "RACEETH2"
 }

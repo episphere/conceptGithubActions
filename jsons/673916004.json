@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_CholecYear_v1r0",
   "Variable Type": "GALLREM_YEAR",
   "Variable Length": "Year",
-  "Required": "yyyy",
+  "Connect Value": "yyyy",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP9 = tonsillectomy",
-  "undefined": "GALLREM"
+  "Notes": "Only display if MHGROUP9 = tonsillectomy",
+  "Quest_Src Question": "GALLREM"
 }

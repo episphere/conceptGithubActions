@@ -8,6 +8,7 @@
   "Variable Name": "SrvBOH_PplHouseNoAns_v1r0",
   "Variable Type": "99",
   "Variable Length": "Num",
-  "Required": "99=Declined",
-  "PII": "No"
+  "Connect Value": "99=Declined",
+  "Required": "No",
+  "PII": "Yes"
 }

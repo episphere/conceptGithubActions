@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_C1MelanomaAge_v1r0",
   "Variable Type": "CHILDCANC3O_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Connect Format/Values - Only display if SIBCANC2= 14",
-  "undefined": "CHILDCANC3O"
+  "Notes": "Connect Format/Values - Only display if SIBCANC2= 14",
+  "Quest_Src Question": "CHILDCANC3O"
 }

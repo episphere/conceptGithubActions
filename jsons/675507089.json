@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_AHRYear_v1r0",
   "Variable Type": "ARRHYT_YEAR",
   "Variable Length": "Year",
-  "Required": "yyyy",
+  "Connect Value": "yyyy",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP1 = abnormal heart rhythm",
-  "undefined": "ARRHYT"
+  "Notes": "Only display if MHGROUP1 = abnormal heart rhythm",
+  "Quest_Src Question": "ARRHYT"
 }

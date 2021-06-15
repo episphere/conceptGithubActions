@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_SalpingecAge_v1r0",
   "Variable Type": "FTREM2_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP9 = salpingectomy",
-  "undefined": "FTREM2"
+  "Notes": "Only display if MHGROUP9 = salpingectomy",
+  "Quest_Src Question": "FTREM2"
 }

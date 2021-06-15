@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_OtherBsnDescC_v1r0",
   "Variable Type": "BSNSSTYP1_TB",
   "Variable Length": "Char",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only fill if other selection for BSNSSTYP1",
-  "undefined": "BSNSSTYP1"
+  "Notes": "Only fill if other selection for BSNSSTYP1",
+  "Quest_Src Question": "BSNSSTYP1"
 }

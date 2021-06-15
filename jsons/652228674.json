@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_MIAge_v1r0",
   "Variable Type": "HEARTATT_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP1 = Heart attack",
-  "undefined": "HEARTATT"
+  "Notes": "Only display if MHGROUP1 = Heart attack",
+  "Quest_Src Question": "HEARTATT"
 }

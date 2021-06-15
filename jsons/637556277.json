@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_CholesterolAge_v1r0",
   "Variable Type": "CHOL_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP1 = High cholesterol",
-  "undefined": "CHOL"
+  "Notes": "Only display if MHGROUP1 = High cholesterol",
+  "Quest_Src Question": "CHOL"
 }

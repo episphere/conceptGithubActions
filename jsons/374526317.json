@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_CeliacAge_v1r0",
   "Variable Type": "CDD_AGE",
   "Variable Length": "Num",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP3= Celiac Disease",
-  "undefined": "CDD"
+  "Notes": "Only display if MHGROUP3= Celiac Disease",
+  "Quest_Src Question": "CDD"
 }

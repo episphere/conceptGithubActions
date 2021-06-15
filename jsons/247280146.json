@@ -8,14 +8,11 @@
   "Variable Name": "SrvBOH_S1AnalCanc_v1r0",
   "Variable Type": "0",
   "Variable Length": "Num",
+  "Required": "No",
   "PII": "No",
-  "undefined": "SIBCANC2",
-  "Old Quest Value": [
-    "187686296.json",
-    "393311833.json"
-  ],
-  "Required": {
-    "515815329.json": "0",
-    "465205500.json": "1"
+  "Quest_Src Question": "SIBCANC2",
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
   }
 }

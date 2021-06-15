@@ -7,15 +7,16 @@
   "Variable Name": "SrvBOH_LoseWeight4_v1r0",
   "Variable Type": "WTLOSS1_4555",
   "Variable Length": "Num",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if flag for percent weight change 45-55 = yes",
-  "undefined": "WTLOSS1_4555",
-  "Old Quest Value": [
-    "187686296.json",
-    "393311833.json"
-  ],
-  "Required": {
-    "515815329.json": "0",
-    "465205500.json": "1"
+  "Notes": "Only display if flag for percent weight change 45-55 = yes",
+  "Quest_Src Question": "WTLOSS1_4555",
+  "Old Quest Value": {
+    "104430631.json": "1",
+    "353358909.json": "2"
+  },
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
   }
 }

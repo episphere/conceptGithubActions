@@ -7,16 +7,17 @@
   "Variable Name": "SrvBOH_TestRemSurg_v1r0",
   "Variable Type": "TESTREM",
   "Variable Length": "Num",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP9 = Testical remvoal surgery",
-  "Old Quest Value": [
-    "923870867.json",
-    "814335892.json",
-    "733001548.json"
-  ],
-  "Required": {
-    "130758195.json": "0",
-    "872721029.json": "1",
-    "425168708.json": "88"
+  "Notes": "Only display if MHGROUP9 = Testical remvoal surgery",
+  "Old Quest Value": {
+    "770550588.json": "1",
+    "970716952.json": "2",
+    "398561594.json": "3"
+  },
+  "Connect Value": {
+    "770550588.json": "0",
+    "970716952.json": "1",
+    "398561594.json": "88"
   }
 }

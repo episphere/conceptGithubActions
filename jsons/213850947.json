@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_ThyroidYear_v1r0",
   "Variable Type": "THYROID_YEAR",
   "Variable Length": "Year",
-  "Required": "yyyy",
+  "Connect Value": "yyyy",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if MHGROUP4 = Thyroid Disorder (Overactive or Underactive Thyroid)",
-  "undefined": "THYROID"
+  "Notes": "Only display if MHGROUP4 = Thyroid Disorder (Overactive or Underactive Thyroid)",
+  "Quest_Src Question": "THYROID"
 }

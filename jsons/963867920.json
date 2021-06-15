@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_OtherWtLossDes4_v1r0",
   "Variable Type": "WTLOSS2_4555_TB",
   "Variable Length": "Char",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if flag for percent weight change 45-55 = yes",
-  "undefined": "WTLOSS2_4555"
+  "Notes": "Only display if flag for percent weight change 45-55 = yes",
+  "Quest_Src Question": "WTLOSS2_4555"
 }

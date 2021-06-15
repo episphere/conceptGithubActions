@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_S1NMSkinCancYr_v1r0",
   "Variable Type": "SIBCANC3P_YEAR",
   "Variable Length": "Year",
-  "Required": "yyyy",
+  "Connect Value": "yyyy",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Connect Format/Values - Only display if SIBCANC2= 15",
-  "undefined": "SIBCANC3P"
+  "Notes": "Connect Format/Values - Only display if SIBCANC2= 15",
+  "Quest_Src Question": "SIBCANC3P"
 }

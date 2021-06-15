@@ -8,8 +8,9 @@
   "Variable Name": "SrvBOH_NoneDescribeRE8_v1r0",
   "Variable Type": "RACE_ETH8",
   "Variable Length": "Char",
-  "Required": "N/A",
+  "Connect Value": "N/A",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Only display if RACEETH = White",
-  "undefined": "RACEETH8"
+  "Notes": "Only display if RACEETH = White",
+  "Quest_Src Question": "RACEETH8"
 }
