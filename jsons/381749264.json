@@ -1,17 +1,19 @@
 {
   "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
-  "Source Question": "797626610.json",
+  "Source Question": "White- Which categories describe you? Select all that apply. Note, you may select more than one group.",
   "conceptId": "381749264",
   "Question Text": "Polish",
   "Variable Label": "Polish",
   "Variable Name": "SrvBOH_Polish_v1r0",
+  "Connect Value for Select all that apply questions": "8",
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if RACEETH = White",
-  "Format/Value": {
+  "Quest_Src Question": "RACEETH8",
+  "Connect Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

@@ -1,16 +1,18 @@
 {
   "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
-  "Source Question": "894259747.json",
+  "Source Question": "Respiratory Problems- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply.",
   "conceptId": "359025642",
   "Question Text": "Chronic lung disease (Emphysema, Chronic Bronchitis, or Chronic Obstructive Pulmonary Disease (COPD))",
   "Variable Label": "Chronic lung disease (Emphysema, Chronic Bronchitis, or Chronic Obstructive Pulmonary Disease (COPD))",
   "Variable Name": "SrvBOH_CLD_v1r0",
+  "Connect Value for Select all that apply questions": "0",
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Format/Value": {
+  "Quest_Src Question": "MHGROUP2",
+  "Connect Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

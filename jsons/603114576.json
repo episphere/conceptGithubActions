@@ -1,15 +1,17 @@
 {
   "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
-  "Source Question": "922524563.json",
+  "Source Question": "How old were you when a doctor or other health professional first told you that you have or had\t Genital Warts?",
   "conceptId": "603114576",
   "Question Text": "Genital Warts diagnosis age",
   "Variable Label": "Genital Warts diagnosis age",
   "Variable Name": "SrvBOH_WartsAge_v1r0",
+  "Connect Value for Select all that apply questions": "GENWARTS_AGE",
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Format/Value": "N/A",
+  "Connect Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if MHGROUP7= GENITAL WARTS"
+  "Notes": "Only display if MHGROUP7= GENITAL WARTS",
+  "Quest_Src Question": "GENWARTS"
 }

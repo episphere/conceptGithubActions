@@ -1,15 +1,17 @@
 {
   "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
-  "Source Question": "374697037.json",
+  "Source Question": "How old were you when a doctor or other health professional first told you that you have or had Diverticulitis or Diverticulosis?",
   "conceptId": "128533155",
   "Question Text": "Diverticulitis or Diverticulosis age",
   "Variable Label": "Diverticulitis or Diverticulosis age",
   "Variable Name": "SrvBOH_DivertAge_v1r0",
+  "Connect Value for Select all that apply questions": "DIVERT_AGE",
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Format/Value": "N/A",
+  "Connect Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if MHGROUP3= Diverticulitis or Diverticulosis"
+  "Notes": "Only display if MHGROUP3= Diverticulitis or Diverticulosis",
+  "Quest_Src Question": "DIVERT"
 }

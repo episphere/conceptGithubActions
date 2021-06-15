@@ -1,15 +1,17 @@
 {
   "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
-  "Source Question": "588212264.json",
+  "Source Question": "When you were a child, what language(s) did you first learn at home? Select all that apply",
   "conceptId": "669977999",
   "Question Text": "Arabic",
   "Variable Name": "SrvBOH_ArabicLang_v1r0",
+  "Connect Value for Select all that apply questions": "17",
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Format/Value": {
+  "Quest_Src Question": "LANG",
+  "Connect Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

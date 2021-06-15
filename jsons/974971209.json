@@ -1,15 +1,17 @@
 {
   "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
-  "Source Question": "448722126.json",
+  "Source Question": "How old were you when a doctor or other health professional first told you that you have or had COPD?",
   "conceptId": "974971209",
   "Question Text": "Chronic lung disease (Emphysema, Chronic Bronchitis, or Chronic Obstructive Pulmonary Disease (COPD)) diagnosis year",
   "Variable Label": "Chronic lung disease (Emphysema, Chronic Bronchitis, or Chronic Obstructive Pulmonary Disease (COPD)) diagnosis year",
   "Variable Name": "SrvBOH_CLDYear_v1r0",
+  "Connect Value for Select all that apply questions": "COPD_YEAR",
   "Variable Type": "Year",
   "Variable Length": "4",
-  "Format/Value": "yyyy",
+  "Connect Value": "yyyy",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if MHGROUP2 = COPD"
+  "Notes": "Only display if MHGROUP2 = COPD",
+  "Quest_Src Question": "COPD"
 }

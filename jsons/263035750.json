@@ -1,15 +1,17 @@
 {
   "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
-  "Source Question": "103397024.json",
+  "Source Question": "How old were you when a doctor or other health professional first told you that you have or had \tTrichomoniasis?",
   "conceptId": "263035750",
   "Question Text": "Trichomoniasis diagnosis age",
   "Variable Label": "Trichomoniasis diagnosis age",
   "Variable Name": "SrvBOH_TrichAge_v1r0",
+  "Connect Value for Select all that apply questions": "TRICH_AGE",
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Format/Value": "N/A",
+  "Connect Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if MHGROUP7= TRICHOMONIASIS"
+  "Notes": "Only display if MHGROUP7= TRICHOMONIASIS",
+  "Quest_Src Question": "TRICH"
 }

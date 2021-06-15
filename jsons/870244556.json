@@ -1,17 +1,19 @@
 {
   "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
-  "Source Question": "874046190.json",
+  "Source Question": "Kidney Disease- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply.",
   "conceptId": "870244556",
   "Question Text": "I have not had any of these conditions",
   "Variable Label": "NO MHGROUP5 conditions",
   "Variable Name": "SrvBOH_NoKidneyDis_v1r0",
+  "Connect Value for Select all that apply questions": "88",
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
   "Notes": "Only can be selected if no other variables selected in MHGROUP5",
-  "Format/Value": {
+  "Quest_Src Question": "MHGROUP5",
+  "Connect Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

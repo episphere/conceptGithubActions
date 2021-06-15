@@ -1,16 +1,18 @@
 {
   "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
-  "Source Question": "180961306.json",
+  "Source Question": "Digestive System Problems- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply.",
   "conceptId": "406890409",
   "Question Text": "Esophageal Acid Reflux (GERD)",
   "Variable Label": "Esophageal Acid Reflux (GERD)",
   "Variable Name": "SrvBOH_GERD_v1r0",
+  "Connect Value for Select all that apply questions": "0",
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Format/Value": {
+  "Quest_Src Question": "MHGROUP3",
+  "Connect Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

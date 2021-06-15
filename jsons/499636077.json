@@ -1,15 +1,17 @@
 {
   "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
-  "Source Question": "810918716.json",
+  "Source Question": "How old were you when a doctor or other health professional first told you that you have or hay Graves' Disease?",
   "conceptId": "499636077",
-  "Question Text": "Graves’ Disease age",
-  "Variable Label": "Graves’ Disease age",
+  "Question Text": "Graves' Disease age",
+  "Variable Label": "Graves' Disease age",
   "Variable Name": "SrvBOH_GravesAge_v1r0",
+  "Connect Value for Select all that apply questions": "GRAVES_AGE",
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Format/Value": "N/A",
+  "Connect Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if MHGROUP4 = Grave's disease"
+  "Notes": "Only display if MHGROUP4 = Grave's disease",
+  "Quest_Src Question": "GRAVES"
 }

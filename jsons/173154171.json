@@ -1,15 +1,17 @@
 {
   "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
-  "Source Question": "436333358.json",
+  "Source Question": "How old were you when a doctor or other health professional first told you that you have or hay fever?",
   "conceptId": "173154171",
   "Question Text": "Hay Fever (Allergic to pollen or Allergic Rhinitis)diagnosis age",
   "Variable Label": "Hay Fever (Allergic to pollen or Allergic Rhinitis)diagnosis age",
   "Variable Name": "SrvBOH_HayFeverAge_v1r0",
+  "Connect Value for Select all that apply questions": "HAYFEVER_YEAR",
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Format/Value": "N/A",
+  "Connect Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if MHGROUP2 = Hay fever"
+  "Notes": "Only display if MHGROUP2 = Hay fever",
+  "Quest_Src Question": "HAYFEVER"
 }

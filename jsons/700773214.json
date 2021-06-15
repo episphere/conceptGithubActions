@@ -1,15 +1,17 @@
 {
   "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
-  "Source Question": "980403315.json",
+  "Source Question": "How old were you when a doctor or other health professional first told you that you have or had Gallstones (Biliary Stones) ?",
   "conceptId": "700773214",
   "Question Text": "Gallstones (Biliary Stones) year",
   "Variable Label": "Gallstones (Biliary Stones) year",
   "Variable Name": "SrvBOH_GallstonesYear_v1r0",
+  "Connect Value for Select all that apply questions": "GALL_YEAR",
   "Variable Type": "Year",
   "Variable Length": "4",
-  "Format/Value": "yyyy",
+  "Connect Value": "yyyy",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if MHGROUP3= Gallstones (Biliary Stones)"
+  "Notes": "Only display if MHGROUP3= Gallstones (Biliary Stones)",
+  "Quest_Src Question": "GALL"
 }

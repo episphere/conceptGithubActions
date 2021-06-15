@@ -1,15 +1,17 @@
 {
   "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
-  "Source Question": "580911251.json",
+  "Source Question": "How old were you when a doctor or other health professional first told you that you have or had Ulcerative Colitis?",
   "conceptId": "267217303",
   "Question Text": "Ulcerative Colitis year",
   "Variable Label": "Ulcerative Colitis year",
   "Variable Name": "SrvBOH_UCYear_v1r0",
+  "Connect Value for Select all that apply questions": "UC_YEAR",
   "Variable Type": "Year",
   "Variable Length": "4",
-  "Format/Value": "yyyy",
+  "Connect Value": "yyyy",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if MHGROUP3= Ulcerative Colitis"
+  "Notes": "Only display if MHGROUP3= Ulcerative Colitis",
+  "Quest_Src Question": "UC"
 }

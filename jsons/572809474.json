@@ -1,15 +1,17 @@
 {
   "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
-  "Source Question": "448476881.json",
+  "Source Question": "How old were you when a doctor or other health professional first told you that you have or had Irritable Bowel Syndrome diagnosis age?",
   "conceptId": "572809474",
   "Question Text": "Irritable Bowel Syndrome diagnosis age",
   "Variable Label": "Irritable Bowel Syndrome diagnosis age",
   "Variable Name": "SrvBOH_IBSAge_v1r0",
+  "Connect Value for Select all that apply questions": "IBS_YEAR",
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Format/Value": "N/A",
+  "Connect Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if MHGROUP3= Irritable Bowel Syndrome diagnosis age"
+  "Notes": "Only display if MHGROUP3= Irritable Bowel Syndrome diagnosis age",
+  "Quest_Src Question": "IBS"
 }

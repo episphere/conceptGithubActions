@@ -1,15 +1,17 @@
 {
   "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
-  "Source Question": "460062034.json",
+  "Source Question": "How old were you when a doctor or other health professional first told you that you have or had blood clots (deep vein thrombosis, pulmonary embolism)?",
   "conceptId": "497018554",
   "Question Text": "blood clots (deep vein thrombosis, pulmonary embolism)diagnosis age",
   "Variable Label": "blood clots (deep vein thrombosis, pulmonary embolism)diagnosis age",
   "Variable Name": "SrvBOH_BloodClotAge_v1r0",
+  "Connect Value for Select all that apply questions": "BLOODCLOT_AGE",
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Format/Value": "N/A",
+  "Connect Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if MHGROUP1 = blood clots"
+  "Notes": "Only display if MHGROUP1 = blood clots",
+  "Quest_Src Question": "BLOODCLOT"
 }
