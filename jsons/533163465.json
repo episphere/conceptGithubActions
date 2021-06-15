@@ -6,12 +6,10 @@
   "Question Text": "Lupus year",
   "Variable Label": "Lupus year",
   "Variable Name": "SrvBOH_LupusYear_v1r0",
-  "Connect Value for Select all that apply questions": "LUPUS_YEAR",
-  "Variable Type": "Year",
-  "Variable Length": "6",
-  "Connect Value": "yyyy",
-  "Required": "No",
+  "Variable Type": "LUPUS_YEAR",
+  "Variable Length": "Year",
+  "Required": "yyyy",
   "PII": "No",
-  "Notes": "Only display if MHGROUP6 = Lupus",
-  "Quest_Src Question": "LUPUS"
+  "Derivation Notes": "Only display if MHGROUP6 = Lupus",
+  "undefined": "LUPUS"
 }

@@ -1,0 +1,22 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "How did you lose weight between ages 35 and 45?",
+  "conceptId": "621478209",
+  "Question Text": "Surgery",
+  "Variable Label": "Surgery",
+  "Variable Name": "SrvBOH_Surgery3_v1r0",
+  "Variable Type": "3",
+  "Variable Length": "Num",
+  "PII": "No",
+  "Derivation Notes": "Only display if flag for percent weight change 35-45 = yes",
+  "undefined": "WTLOSS2_3545",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1"
+  }
+}

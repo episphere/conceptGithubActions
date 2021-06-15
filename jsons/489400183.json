@@ -1,0 +1,21 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "Mother- Which type(s) of cancer? Select all that apply.",
+  "conceptId": "489400183",
+  "Question Text": "Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.)",
+  "Variable Label": "Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.)",
+  "Variable Name": "SrvBOH_MHeadNeckCancer_v1r0",
+  "Variable Type": "7",
+  "Variable Length": "Num",
+  "PII": "No",
+  "undefined": "MOMCANC2",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1"
+  }
+}

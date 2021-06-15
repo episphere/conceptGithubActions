@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Liver cancer?",
+  "conceptId": "358704664",
+  "Question Text": "Mom Liver cancer year",
+  "Variable Label": "Mom Liver cancer year",
+  "Variable Name": "SrvBOH_MomLivCancYr_v1r0",
+  "Variable Type": "MOMCANC3K_YEAR",
+  "Variable Length": "Year",
+  "Required": "yyyy",
+  "PII": "No",
+  "Derivation Notes": "Connect Format/Values - Only display if MOMCANC2= 10",
+  "undefined": "MOMCANC3K"
+}

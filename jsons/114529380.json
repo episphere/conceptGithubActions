@@ -1,0 +1,27 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "conceptId": "114529380",
+  "Question Text": "Which of these best describes your current employment status?",
+  "Variable Label": "Current employement status",
+  "Variable Name": "SrvBOH_EmplStatus_v1r0",
+  "Variable Type": "WORK2",
+  "Variable Length": "Num",
+  "PII": "No",
+  "Old Quest Value": [
+    "849225318.json",
+    "200673700.json",
+    "748154032.json",
+    "407250605.json",
+    "526851879.json",
+    "623491330.json"
+  ],
+  "Required": {
+    "118977874.json": "0",
+    "915241666.json": "1",
+    "254410215.json": "2",
+    "637095844.json": "3",
+    "840032667.json": "55",
+    "177624330.json": "99"
+  }
+}

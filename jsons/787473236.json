@@ -6,12 +6,10 @@
   "Question Text": "heart valve problemsdiagnosis year",
   "Variable Label": "heart valve problemsdiagnosis year",
   "Variable Name": "SrvBOH_HeartValveYr_v1r0",
-  "Connect Value for Select all that apply questions": "HEARTVALV_YEAR",
-  "Variable Type": "Year",
-  "Variable Length": "4",
-  "Connect Value": "yyyy",
-  "Required": "No",
+  "Variable Type": "HEARTVALV_YEAR",
+  "Variable Length": "Year",
+  "Required": "yyyy",
   "PII": "No",
-  "Notes": "Only display if MHGROUP1 = heart valve problems",
-  "Quest_Src Question": "HEARTVALV"
+  "Derivation Notes": "Only display if MHGROUP1 = heart valve problems",
+  "undefined": "HEARTVALV"
 }

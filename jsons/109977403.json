@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had bladder cancer?",
+  "conceptId": "109977403",
+  "Question Text": "Mom bladder cancer year",
+  "Variable Label": "Mom bladder cancer year",
+  "Variable Name": "SrvBOH_MomBlCancYr_v1r0",
+  "Variable Type": "MOMCANC3B_YEAR",
+  "Variable Length": "Year",
+  "Required": "yyyy",
+  "PII": "No",
+  "Derivation Notes": "Connect Format/Values - Only display if MOMCANC2= 1",
+  "undefined": "MOMCANC3B"
+}

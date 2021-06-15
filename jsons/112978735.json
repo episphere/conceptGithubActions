@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Thyroid cancer?",
+  "conceptId": "112978735",
+  "Question Text": "Child 1 Thyroid cancer year",
+  "Variable Label": "Child 1 Thyroid cancer year",
+  "Variable Name": "SrvBOH_C1ThyrCancYr_v1r0",
+  "Variable Type": "CHILDCANC3V_YEAR",
+  "Variable Length": "Year",
+  "Required": "yyyy",
+  "PII": "No",
+  "Derivation Notes": "Connect Format/Values - Only display if SIBCANC2= 21",
+  "undefined": "CHILDCANC3V"
+}

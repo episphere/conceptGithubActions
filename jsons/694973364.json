@@ -1,0 +1,21 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "Where do you carry most of your weight on your body? Select all that apply.",
+  "conceptId": "694973364",
+  "Question Text": "Around the hips or thighs",
+  "Variable Label": "Around the hips or thighs",
+  "Variable Name": "SrvBOH_HipThighWt_v1r0",
+  "Variable Type": "2",
+  "Variable Length": "Num",
+  "PII": "No",
+  "undefined": "CARWEIGHT",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "Source Question": "Exposure to natural sunlight can affect your sleep patterns. During a usual [workday/day], about how much time do you spend outside in direct sunlight? Select the number of minutes and/or hours using the drop-down options below.",
+  "conceptId": "611065150",
+  "Question Text": "Hours spent in direct sunlight",
+  "Variable Label": "Hours spent in direct sunlight workdays/most days",
+  "Variable Name": "SrvMRE_SunlightHours_v1r0",
+  "Connect Value for Select all that apply questions": "OutsideHours",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Old Quest Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Quest_Src Question": "SLEEP1M"
+}

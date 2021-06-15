@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "How old were you when you had one or both ovaries removed (oophorectomy)? If you have had more than one procedure, at what age did you last have this procedure?",
+  "conceptId": "382585565",
+  "Question Text": "oophorectomy age",
+  "Variable Label": "oophorectomy age",
+  "Variable Name": "SrvBOH_OophorecAge_v1r0",
+  "Variable Type": "OVARYREM2_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
+  "PII": "No",
+  "Derivation Notes": "Only display if MHGROUP9 = oophorectomy",
+  "undefined": "OVARYREM2"
+}

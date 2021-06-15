@@ -1,0 +1,21 @@
+{
+  "Primary Source": "192505768.json",
+  "Secondary Source": "883203566.json",
+  "Source Question": "Reasons for opt-out request. (Select all that apply)",
+  "conceptId": "400259098",
+  "Question Text": "I am concerned about COVID-19",
+  "Variable Label": "I am concerned about COVID-19",
+  "Variable Name": "RcrtSI_OptOut_v1r0_Covid",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "Yes",
+  "Default Variable": "No",
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

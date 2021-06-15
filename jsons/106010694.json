@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "How old were you when you had your last blood transfusion?",
+  "conceptId": "106010694",
+  "Question Text": "last blood transfusion year",
+  "Variable Label": "last blood transfusion year",
+  "Variable Name": "SrvBOH_LBloodTransYr_v1r0",
+  "Variable Type": "BLDTRANS4_YEAR",
+  "Variable Length": "Year",
+  "Required": "yyyy",
+  "PII": "No",
+  "Derivation Notes": "Only display if BLDTRANS=YES",
+  "undefined": "BLDTRANS4"
+}

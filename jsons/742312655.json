@@ -1,0 +1,21 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "Child 1- Which type(s) of cancer? Select all that apply.",
+  "conceptId": "742312655",
+  "Question Text": "Leukemia (blood and bone marrow)",
+  "Variable Label": "Leukemia (blood and bone marrow)",
+  "Variable Name": "SrvBOH_C1Leukemia_v1r0",
+  "Variable Type": "9",
+  "Variable Length": "Num",
+  "PII": "No",
+  "undefined": "CHILDCANC2",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "Primary Source": "819848608.json",
+  "Secondary Source": "360770860.json",
+  "Source Question": "Deviation? (Select all that apply)",
+  "conceptId": "757246707",
+  "Question Text": "Deviation- Leaked/spilled",
+  "Variable Label": "Deviation- Leaked/spilled",
+  "Variable Name": "BioCol_Dev_v1r0_Leak",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes if yes to deviation for a specimen and no other deviation selected",
+  "PII": "No",
+  "Notes": "Default no",
+  "Dictionary": "Biospecimen Clinical, Biospecimen Research",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

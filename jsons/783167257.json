@@ -5,27 +5,25 @@
   "Question Text": "Are you now married, widowed, divorced, separated, never married, or living with a partner?",
   "Variable Label": "Marital status",
   "Variable Name": "SrvBOH_Marital_v1r0",
-  "Connect Value for Select all that apply questions": "MARITAL",
-  "Variable Type": "Num",
-  "Variable Length": "2",
-  "Required": "No",
+  "Variable Type": "MARITAL",
+  "Variable Length": "Num",
   "PII": "No",
-  "Old Quest Value": {
-    "514080822.json": "1",
-    "522680498.json": "2",
-    "288321056.json": "3",
-    "649436542.json": "4",
-    "733527132.json": "5",
-    "741094625.json": "6",
-    "746038746.json": "99"
-  },
-  "Connect Value": {
-    "514080822.json": "0",
-    "522680498.json": "1",
-    "288321056.json": "2",
-    "649436542.json": "3",
-    "733527132.json": "4",
-    "741094625.json": "5",
-    "746038746.json": "99"
+  "Old Quest Value": [
+    "877520474.json",
+    "651510125.json",
+    "436941622.json",
+    "577025227.json",
+    "321000091.json",
+    "667798524.json",
+    "623491330.json"
+  ],
+  "Required": {
+    "323889479.json": "0",
+    "891960056.json": "1",
+    "287241334.json": "2",
+    "359767298.json": "3",
+    "538640183.json": "4",
+    "689495466.json": "5",
+    "177624330.json": "99"
   }
 }

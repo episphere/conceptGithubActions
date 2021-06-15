@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had Thyroid cancer?",
+  "conceptId": "753912404",
+  "Question Text": "Sibling 1 Thyroid cancer year",
+  "Variable Label": "Sibling 1 Thyroid cancer year",
+  "Variable Name": "SrvBOH_S1ThyrCancYr_v1r0",
+  "Variable Type": "SIBCANC3V_YEAR",
+  "Variable Length": "Year",
+  "Required": "yyyy",
+  "PII": "No",
+  "Derivation Notes": "Connect Format/Values - Only display if SIBCANC2= 21",
+  "undefined": "SIBCANC3V"
+}

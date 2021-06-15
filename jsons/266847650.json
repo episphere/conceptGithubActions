@@ -1,0 +1,20 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "conceptId": "266847650",
+  "Question Text": "Was your endometriosis confirmed by surgery?",
+  "Variable Label": "Endometriosis surgery confirm",
+  "Variable Name": "SrvBOH_EndoSurgery_v1r0",
+  "Variable Type": "ENDO2",
+  "Variable Length": "Num",
+  "PII": "No",
+  "Derivation Notes": "Only display if MHGROUP8= Endometriosis",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1"
+  }
+}

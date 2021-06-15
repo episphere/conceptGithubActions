@@ -1,0 +1,35 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "conceptId": "338924834",
+  "Question Text": "On a scale of 1 to 10, where 1 means a little pain and 10 means a lot of pain, how would you rate your physical pain?",
+  "Variable Label": "Pain rank",
+  "Variable Name": "SrvBOH_PainRank_v1r0",
+  "Variable Type": "PAIN2",
+  "Variable Length": "Num",
+  "PII": "No",
+  "Old Quest Value": [
+    "599925400.json",
+    "821407754.json",
+    "438205677.json",
+    "257586481.json",
+    "842188850.json",
+    "378839439.json",
+    "227832192.json",
+    "926539354.json",
+    "933392168.json",
+    "709600029.json"
+  ],
+  "Required": {
+    "939406239.json": "0",
+    "589652372.json": "1",
+    "691280346.json": "2",
+    "926233092.json": "3",
+    "496657562.json": "4",
+    "951957104.json": "5",
+    "624669277.json": "6",
+    "469020621.json": "7",
+    "442438321.json": "8",
+    "392324318.json": "9"
+  }
+}

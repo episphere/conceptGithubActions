@@ -6,15 +6,17 @@
   "Question Text": "I have not had any of these conditions",
   "Variable Label": "NO RESPIRATORY PROBELMS",
   "Variable Name": "SrvBOH_NoResp_v1r0",
-  "Connect Value for Select all that apply questions": "88",
-  "Variable Type": "Num",
-  "Variable Length": "1",
-  "Required": "No",
+  "Variable Type": "88",
+  "Variable Length": "Num",
   "PII": "No",
-  "Notes": "Only can be selected if no other variables selected in MHGROUP2",
-  "Quest_Src Question": "MHGROUP2",
-  "Connect Value": {
-    "104430631.json": "0",
-    "353358909.json": "1"
+  "Derivation Notes": "Only can be selected if no other variables selected in MHGROUP2",
+  "undefined": "MHGROUP2",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1"
   }
 }

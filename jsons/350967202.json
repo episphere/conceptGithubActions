@@ -6,12 +6,10 @@
   "Question Text": "Graves' Disease year",
   "Variable Label": "Graves' Disease year",
   "Variable Name": "SrvBOH_GravesYear_v1r0",
-  "Connect Value for Select all that apply questions": "GRAVES_YEAR",
-  "Variable Type": "Year",
-  "Variable Length": "4",
-  "Connect Value": "yyyy",
-  "Required": "No",
+  "Variable Type": "GRAVES_YEAR",
+  "Variable Length": "Year",
+  "Required": "yyyy",
   "PII": "No",
-  "Notes": "Only display if MHGROUP4 = Grave's disease",
-  "Quest_Src Question": "GRAVES"
+  "Derivation Notes": "Only display if MHGROUP4 = Grave's disease",
+  "undefined": "GRAVES"
 }

@@ -1,0 +1,63 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "conceptId": "690018400",
+  "Question Text": "Fall",
+  "Variable Label": "Fall",
+  "Variable Name": "SrvMRE_Fall_v1r0",
+  "Connect Value for Select all that apply questions": "3",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if LAWN1=0",
+  "Date added or modified": "6/14/21",
+  "Source Question": [
+    "336641991.json",
+    "146968341.json",
+    "785310940.json",
+    "709660310.json",
+    "883712878.json",
+    "570664473.json",
+    "950429076.json",
+    "873161415.json",
+    "405194058.json",
+    "974113060.json",
+    "244830100.json",
+    "834982901.json",
+    "578458692.json",
+    "353566540.json",
+    "803464574.json",
+    "643199660.json",
+    "797397165.json",
+    "825041977.json"
+  ],
+  "Quest_Src Question": [
+    "517270508.json",
+    "128036618.json",
+    "566398546.json",
+    "271030257.json",
+    "684441241.json",
+    "169802623.json",
+    "963042146.json",
+    "117305778.json",
+    "989046267.json",
+    "700415557.json",
+    "565367466.json",
+    "239209838.json",
+    "842429169.json",
+    "660842574.json",
+    "766551069.json",
+    "349074143.json",
+    "618668133.json",
+    "258817833.json"
+  ],
+  "Old Quest Value": {
+    "104430631.json": "2",
+    "353358909.json": "1"
+  },
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

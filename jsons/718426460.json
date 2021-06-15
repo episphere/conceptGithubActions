@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "How old were you when a doctor or other health professional first told you that you have or had \tEnlarged Prostate?",
+  "conceptId": "718426460",
+  "Question Text": "Enlarged Prostate year",
+  "Variable Label": "Enlarged Prostate year",
+  "Variable Name": "SrvBOH_EnlProstateYr_v1r0",
+  "Variable Type": "ENLGPRO_YEAR",
+  "Variable Length": "Year",
+  "Required": "yyyy",
+  "PII": "No",
+  "Derivation Notes": "Only display if MHGROUP8= Enlarged Prostate",
+  "undefined": "ENLGPRO"
+}

@@ -1,0 +1,19 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "conceptId": "453252072",
+  "Question Text": "Have you ever had a blood transfusion?",
+  "Variable Label": "Blood transfusion",
+  "Variable Name": "SrvBOH_BloodTrans_v1r0",
+  "Variable Type": "BLDTRANS",
+  "Variable Length": "Num",
+  "PII": "No",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1"
+  }
+}

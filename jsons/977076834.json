@@ -1,0 +1,17 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "Source Question": "During the time(s) that you were taking Naproxen, about how many days per week OR per month did you take it? Please choose whichever makes the most sense for you.",
+  "conceptId": "977076834",
+  "Question Text": "Naproxen days per month",
+  "Variable Label": "Naproxen days per month",
+  "Variable Name": "SrvMRE_NaproxenMo_v1r0",
+  "Connect Value for Select all that apply questions": "NaproxenMONTH",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Old Quest Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if PAINREL1 = 4",
+  "Quest_Src Question": "PAINREL2_5"
+}

@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "How old were you when you had your tonsils removed (tonsillectomy)?",
+  "conceptId": "300754548",
+  "Question Text": "tonsillectomy age",
+  "Variable Label": "tonsillectomy age",
+  "Variable Name": "SrvBOH_TonsilsAge_v1r0",
+  "Variable Type": "TONSILS_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
+  "PII": "No",
+  "Derivation Notes": "Only display if MHGROUP9 = tonsillectomy",
+  "undefined": "TONSILS"
+}

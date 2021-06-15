@@ -1,0 +1,25 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "965707586.json",
+  "conceptId": "986813832",
+  "Question Text": "How many cigars, cigarillos, or little filtered cigars have you smoked in your entire life?",
+  "Variable Label": "How many cigars, cigarillos, or little filtered cigars used in life",
+  "Variable Name": "SrvSAS_CigarsNum_v1r0",
+  "Connect Value for Select all that apply questions": "CIGAR1",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "782087158.json": "1",
+    "909226992.json": "2",
+    "972136211.json": "3",
+    "372041363.json": "4"
+  },
+  "Connect Value": {
+    "782087158.json": "0",
+    "909226992.json": "1",
+    "972136211.json": "2",
+    "372041363.json": "3"
+  }
+}

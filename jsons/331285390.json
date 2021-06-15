@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "How old were you when you had part or all of your prostate removed (prostatectomy)? If you have had more than one procedure, at what age did you last have this procedure?",
+  "conceptId": "331285390",
+  "Question Text": "prostate removal surgery age",
+  "Variable Label": "prostate removal surgery age",
+  "Variable Name": "SrvBOH_ProsRemSurgAge_v1r0",
+  "Variable Type": "PROSREM2_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
+  "PII": "No",
+  "Derivation Notes": "Only display if MHGROUP9 = prostate removal surgery",
+  "undefined": "PROSREM2"
+}

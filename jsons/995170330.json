@@ -6,12 +6,10 @@
   "Question Text": "Kidney Stones year",
   "Variable Label": "Kidney Stones year",
   "Variable Name": "SrvBOH_KSYear_v1r0",
-  "Connect Value for Select all that apply questions": "KIDNEY_YEAR",
-  "Variable Type": "Year",
-  "Variable Length": "5",
-  "Connect Value": "yyyy",
-  "Required": "No",
+  "Variable Type": "KIDNEY_YEAR",
+  "Variable Length": "Year",
+  "Required": "yyyy",
   "PII": "No",
-  "Notes": "Only display if MHGROUP5 = Kidney Stones",
-  "Quest_Src Question": "KIDNEY"
+  "Derivation Notes": "Only display if MHGROUP5 = Kidney Stones",
+  "undefined": "KIDNEY"
 }

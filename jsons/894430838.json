@@ -1,0 +1,24 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "Which of these breast surgeries have you had? Please do not include a biopsy. Select all that apply.",
+  "conceptId": "894430838",
+  "Question Text": "Other: Please describe",
+  "Variable Label": "Other: Please describe",
+  "Variable Name": "SrvBOH_BreastOther_v1r0",
+  "Variable Type": "55",
+  "Variable Length": "Num",
+  "PII": "No",
+  "undefined": "BREASTSUR",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1"
+  },
+  "Derivation Notes": {
+    "653895180.json": "Only display if MHGROUP9"
+  }
+}

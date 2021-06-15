@@ -6,12 +6,10 @@
   "Question Text": "Esophageal Acid Reflux (GERD) diagnosis age",
   "Variable Label": "Esophageal Acid Reflux (GERD) diagnosis age",
   "Variable Name": "SrvBOH_GERDAge_v1r0",
-  "Connect Value for Select all that apply questions": "GERD_AGE",
-  "Variable Type": "Num",
-  "Variable Length": "2",
-  "Connect Value": "N/A",
-  "Required": "No",
+  "Variable Type": "GERD_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
   "PII": "No",
-  "Notes": "Only display if MHGROUP3= Esophageal Acid Reflux (GERD)",
-  "Quest_Src Question": "GERD"
+  "Derivation Notes": "Only display if MHGROUP3= Esophageal Acid Reflux (GERD)",
+  "undefined": "GERD"
 }

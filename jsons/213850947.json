@@ -6,12 +6,10 @@
   "Question Text": "Thyroid Disorder (Overactive or Underactive Thyroid) year",
   "Variable Label": "Thyroid Disorder (Overactive or Underactive Thyroid) year",
   "Variable Name": "SrvBOH_ThyroidYear_v1r0",
-  "Connect Value for Select all that apply questions": "THYROID_YEAR",
-  "Variable Type": "Year",
-  "Variable Length": "4",
-  "Connect Value": "yyyy",
-  "Required": "No",
+  "Variable Type": "THYROID_YEAR",
+  "Variable Length": "Year",
+  "Required": "yyyy",
   "PII": "No",
-  "Notes": "Only display if MHGROUP4 = Thyroid Disorder (Overactive or Underactive Thyroid)",
-  "Quest_Src Question": "THYROID"
+  "Derivation Notes": "Only display if MHGROUP4 = Thyroid Disorder (Overactive or Underactive Thyroid)",
+  "undefined": "THYROID"
 }

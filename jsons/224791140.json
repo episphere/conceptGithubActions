@@ -1,0 +1,22 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "conceptId": "224791140",
+  "Question Text": "Which of these best describes the type of fallopian tube removal surgery that you had?",
+  "Variable Label": "Fallopian tube surgery",
+  "Variable Name": "SrvBOH_FallTubeSurg_v1r0",
+  "Variable Type": "FTREM",
+  "Variable Length": "Num",
+  "PII": "No",
+  "Derivation Notes": "Only display if MHGROUP9 = Fallopian tube surgery",
+  "Old Quest Value": [
+    "576801282.json",
+    "397187345.json",
+    "733001548.json"
+  ],
+  "Required": {
+    "761934295.json": "0",
+    "239597658.json": "1",
+    "425168708.json": "88"
+  }
+}

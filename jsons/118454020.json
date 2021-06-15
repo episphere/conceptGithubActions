@@ -6,12 +6,10 @@
   "Question Text": "Lupus age",
   "Variable Label": "Lupus age",
   "Variable Name": "SrvBOH_LupusAge_v1r0",
-  "Connect Value for Select all that apply questions": "LUPUS_AGE",
-  "Variable Type": "Num",
-  "Variable Length": "2",
-  "Connect Value": "N/A",
-  "Required": "No",
+  "Variable Type": "LUPUS_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
   "PII": "No",
-  "Notes": "Only display if MHGROUP6 = Lupus",
-  "Quest_Src Question": "LUPUS"
+  "Derivation Notes": "Only display if MHGROUP6 = Lupus",
+  "undefined": "LUPUS"
 }

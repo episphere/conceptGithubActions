@@ -6,12 +6,10 @@
   "Question Text": "Genital Warts diagnosis age",
   "Variable Label": "Genital Warts diagnosis age",
   "Variable Name": "SrvBOH_WartsAge_v1r0",
-  "Connect Value for Select all that apply questions": "GENWARTS_AGE",
-  "Variable Type": "Num",
-  "Variable Length": "2",
-  "Connect Value": "N/A",
-  "Required": "No",
+  "Variable Type": "GENWARTS_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
   "PII": "No",
-  "Notes": "Only display if MHGROUP7= GENITAL WARTS",
-  "Quest_Src Question": "GENWARTS"
+  "Derivation Notes": "Only display if MHGROUP7= GENITAL WARTS",
+  "undefined": "GENWARTS"
 }

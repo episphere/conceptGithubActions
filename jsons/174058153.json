@@ -6,12 +6,10 @@
   "Question Text": "Gallstones (Biliary Stones) age",
   "Variable Label": "Gallstones (Biliary Stones) age",
   "Variable Name": "SrvBOH_GallstonesAge_v1r0",
-  "Connect Value for Select all that apply questions": "GALL_AGE",
-  "Variable Type": "Num",
-  "Variable Length": "2",
-  "Connect Value": "N/A",
-  "Required": "No",
+  "Variable Type": "GALL_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
   "PII": "No",
-  "Notes": "Only display if MHGROUP3= Gallstones (Biliary Stones)",
-  "Quest_Src Question": "GALL"
+  "Derivation Notes": "Only display if MHGROUP3= Gallstones (Biliary Stones)",
+  "undefined": "GALL"
 }

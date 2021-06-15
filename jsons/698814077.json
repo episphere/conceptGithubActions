@@ -1,0 +1,21 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "What type of business was this? [Select all that apply.]",
+  "conceptId": "698814077",
+  "Question Text": "Government",
+  "Variable Label": "Government",
+  "Variable Name": "SrvBOH_GovernmentC_v1r0",
+  "Variable Type": "9",
+  "Variable Length": "Num",
+  "PII": "No",
+  "undefined": "BSNSSTYP1",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1"
+  }
+}

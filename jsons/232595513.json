@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "How old were you when you had your tubes tied (tubal ligation)?",
+  "conceptId": "232595513",
+  "Question Text": "tubes tied (tubal ligation) age",
+  "Variable Label": "tubes tied (tubal ligation) age",
+  "Variable Name": "SrvBOH_TubLigAge_v1r0",
+  "Variable Type": "TUBLIG_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
+  "PII": "No",
+  "Derivation Notes": "Only display if MHGROUP9 = tubes tied (tubal ligation)",
+  "undefined": "TUBLIG"
+}

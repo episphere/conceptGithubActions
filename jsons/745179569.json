@@ -6,12 +6,10 @@
   "Question Text": "Pancreatitis age",
   "Variable Label": "Pancreatitis age",
   "Variable Name": "SrvBOH_PancreatitisAge_v1r0",
-  "Connect Value for Select all that apply questions": "PANCREA_AGE",
-  "Variable Type": "Num",
-  "Variable Length": "2",
-  "Connect Value": "N/A",
-  "Required": "No",
+  "Variable Type": "PANCREA_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
   "PII": "No",
-  "Notes": "Only display if MHGROUP3= Pancreatitis",
-  "Quest_Src Question": "PANCREA"
+  "Derivation Notes": "Only display if MHGROUP3= Pancreatitis",
+  "undefined": "PANCREA"
 }

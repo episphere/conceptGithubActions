@@ -1,0 +1,20 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "conceptId": "134642404",
+  "Question Text": "When you were told that you have or had fibrocystic breasts, or other benign breast disease, was it confirmed by biopsy?",
+  "Variable Label": "Breast disease biopsy",
+  "Variable Name": "SrvBOH_BreastBiopsy_v1r0",
+  "Variable Type": "BREASTDIS2",
+  "Variable Length": "Num",
+  "PII": "No",
+  "Derivation Notes": "Only display if MHGROUP8= Ductal Carcinoma in situ (DCIS)",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1"
+  }
+}

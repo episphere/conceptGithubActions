@@ -1,0 +1,34 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "conceptId": "365851428",
+  "Question Text": "Which one of these figures most closely resembles your hair pattern at age 40?",
+  "Variable Label": "Hair female",
+  "Variable Name": "SrvBOH_HairFemale_v1r0",
+  "Variable Type": "HAIRFEM",
+  "Variable Length": "Num",
+  "PII": "No",
+  "Derivation Notes": "[DISPLAY HAIRFEM IF SEX= 00 and GEN= 02]",
+  "Old Quest Value": [
+    "947021371.json",
+    "331697467.json",
+    "744583068.json",
+    "943922618.json",
+    "301436863.json",
+    "880686850.json",
+    "750011055.json",
+    "386871674.json",
+    "710192158.json"
+  ],
+  "Required": {
+    "932957034.json": "0",
+    "373616931.json": "1",
+    "341161856.json": "2",
+    "650305667.json": "3",
+    "517181319.json": "4",
+    "635247652.json": "5",
+    "214003670.json": "6",
+    "144494933.json": "7",
+    "547335756.json": "8"
+  }
+}

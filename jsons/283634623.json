@@ -1,0 +1,19 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "conceptId": "283634623",
+  "Question Text": "Have you ever seen a doctor or other health professional for severe or ongoing acne?",
+  "Variable Label": "Acne saw doctor",
+  "Variable Name": "SrvBOH_AcneSawDoc_v1r0",
+  "Variable Type": "ACNE",
+  "Variable Length": "Num",
+  "PII": "No",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1"
+  }
+}

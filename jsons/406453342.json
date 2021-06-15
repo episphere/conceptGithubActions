@@ -1,0 +1,17 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "Source Question": "On the days that you took anti-hypertensive medication/drugs used to treat hypertension (high blood pressure), about how many pills did you take per day, on most days?",
+  "conceptId": "406453342",
+  "Question Text": "Pills per day anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)",
+  "Variable Label": "Pills per day anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)",
+  "Variable Name": "SrvMRE_AntiHypPills_v1r0",
+  "Connect Value for Select all that apply questions": "CHOLHTN3_2A",
+  "Variable Type": "Num",
+  "Variable Length": "3",
+  "Old Quest Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if CHOLHTN = 1",
+  "Date added or modified": "6/14/21"
+}

@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "How old were you when a doctor or other health professional first told you that you have or had ductal carcinoma in situ of the breast?",
+  "conceptId": "654263525",
+  "Question Text": "DCIS age",
+  "Variable Label": "DCIS age",
+  "Variable Name": "SrvBOH_DCISAge_v1r0",
+  "Variable Type": "DCIS_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
+  "PII": "No",
+  "Derivation Notes": "Only display if MHGROUP8= Ductal Carcinoma in situ (DCIS)",
+  "undefined": "BREASTDIS"
+}

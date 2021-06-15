@@ -6,12 +6,10 @@
   "Question Text": "Skin cancer diagnosis age",
   "Variable Label": "Skin cancer diagnosis age",
   "Variable Name": "SrvBOH_SkinCancAge_v1r0",
-  "Connect Value for Select all that apply questions": "SKINCANC3_AGE",
-  "Variable Type": "Num",
-  "Variable Length": "2",
-  "Connect Value": "N/A",
-  "Required": "No",
+  "Variable Type": "SKINCANC3_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
   "PII": "No",
-  "Notes": "Only display is SKINCANC = 1",
-  "Quest_Src Question": "SKINCANC3"
+  "Derivation Notes": "Only display is SKINCANC = 1",
+  "undefined": "SKINCANC3"
 }

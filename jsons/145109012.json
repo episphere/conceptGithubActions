@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "How old were you when you had one or both fallopian tubes removed (salpingectomy)? If you have had more than one procedure, at what age did you last have this procedure?",
+  "conceptId": "145109012",
+  "Question Text": "salpingectomy age",
+  "Variable Label": "salpingectomy age",
+  "Variable Name": "SrvBOH_SalpingecAge_v1r0",
+  "Variable Type": "FTREM2_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
+  "PII": "No",
+  "Derivation Notes": "Only display if MHGROUP9 = salpingectomy",
+  "undefined": "FTREM2"
+}

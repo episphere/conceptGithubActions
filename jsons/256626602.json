@@ -1,0 +1,24 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "Source Question": "During the past 12 months, did you do any of these activities outside of work? Select all that apply.",
+  "conceptId": "256626602",
+  "Question Text": "I did not do any of these activities",
+  "Variable Label": "I did not do any of these activities",
+  "Variable Name": "SrvMRE_NoActivity_v1r0",
+  "Connect Value for Select all that apply questions": "88",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "6/14/21",
+  "Quest_Src Question": "LAWN1",
+  "Old Quest Value": {
+    "104430631.json": "2",
+    "353358909.json": "1"
+  },
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

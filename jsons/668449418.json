@@ -1,0 +1,23 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "965707586.json",
+  "Source Question": "What type(s) of alcoholic beverages did you usually drink when you were age [X / 60] to age [Y / 69 / current age]? Select all that apply.",
+  "conceptId": "668449418",
+  "Question Text": "Beer or hard cider",
+  "Variable Label": "Beer or hard cider",
+  "Variable Name": "SrvSAS_Beer6069_v1r0",
+  "Connect Value for Select all that apply questions": "0",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Quest_Src Question": "ALCLIFE4G",
+  "Old Quest Value": {
+    "104430631.json": "2",
+    "353358909.json": "1"
+  },
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

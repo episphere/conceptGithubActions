@@ -1,0 +1,21 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "Surgical Procedures- Have you ever had any of these surgeries? Select all that apply.",
+  "conceptId": "633546100",
+  "Question Text": "Gallbladder removed (cholecystectomy)",
+  "Variable Label": "Gallbladder removed (cholecystectomy)",
+  "Variable Name": "SrvBOH_Cholecystectomy_v1r0",
+  "Variable Type": "1",
+  "Variable Length": "Num",
+  "PII": "No",
+  "undefined": "MHGROUP9",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1"
+  }
+}

@@ -5,10 +5,8 @@
   "Question Text": "How old are you today?",
   "Variable Label": "Age",
   "Variable Name": "SrvBOH_Age_v1r0",
-  "Connect Value for Select all that apply questions": "AGE",
-  "Variable Type": "Num",
-  "Variable Length": "2",
-  "Connect Value": "N/A",
-  "Required": "Yes",
+  "Variable Type": "AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
   "PII": "Yes"
 }

@@ -1,0 +1,17 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "Source Question": "In total, how many months or years have you used the other type of estrogen-only medication?",
+  "conceptId": "244161291",
+  "Question Text": "Years use the other type of estrogen-only medication",
+  "Variable Label": "Years use the other type of estrogen-only medication",
+  "Variable Name": "SrvMRE_OthEstYrUse_v1r0",
+  "Connect Value for Select all that apply questions": "ESTROHOROtherYear",
+  "Variable Type": "Num",
+  "Variable Length": "3",
+  "Old Quest Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if ESTROHOR=55",
+  "Quest_Src Question": "ESTROHOR5_5"
+}

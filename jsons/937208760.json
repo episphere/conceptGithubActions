@@ -1,0 +1,22 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "Urinary and Reproductive System Problems- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply.",
+  "conceptId": "937208760",
+  "Question Text": "Enlarged Prostate",
+  "Variable Label": "Enlarged Prostate",
+  "Variable Name": "SrvBOH_EnlProstate_v1r0",
+  "Variable Type": "3",
+  "Variable Length": "Num",
+  "PII": "No",
+  "Derivation Notes": "[DISPLAY ONLY IF SEX = (01) OR (SEX = (02) AND SEX2 = (02))]",
+  "undefined": "MHGROUP8",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1"
+  }
+}

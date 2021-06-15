@@ -6,12 +6,10 @@
   "Question Text": "None of these fully describe me. Please describe [text box]",
   "Variable Label": "None of these fully describe me. Please describe [text box]",
   "Variable Name": "SrvBOH_NoneDescribeRE6_v1r0",
-  "Connect Value for Select all that apply questions": "RACEETH6_TB",
-  "Variable Type": "Char",
-  "Variable Length": "300",
-  "Connect Value": "N/A",
-  "Required": "No",
+  "Variable Type": "RACEETH6_TB",
+  "Variable Length": "Char",
+  "Required": "N/A",
   "PII": "No",
-  "Notes": "Only display if RACEETH = Middle Eastern or North African",
-  "Quest_Src Question": "RACEETH6"
+  "Derivation Notes": "Only display if RACEETH = Middle Eastern or North African",
+  "undefined": "RACEETH6"
 }

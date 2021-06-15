@@ -1,0 +1,21 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "conceptId": "890637099",
+  "Question Text": "Sibling 1- Is [SIBLING INITIALS OR NICKNAME/your sibling] still living?",
+  "Variable Label": "Sibling 1 living",
+  "Variable Name": "SrvBOH_Sib1Living_v1r0",
+  "Variable Type": "SIB4",
+  "Variable Length": "Num",
+  "PII": "No",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json",
+    "980658188.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1",
+    "428078072.json": "77"
+  }
+}

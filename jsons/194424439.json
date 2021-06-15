@@ -1,0 +1,23 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "Source Question": "Pain relievers- Have you ever taken any of these medications at least 4 times a month for 6 months or longer? Select all that apply.",
+  "conceptId": "194424439",
+  "Question Text": "Regular or extra strength aspirin (such as Bufferin or Anacin)",
+  "Variable Label": "Regular or extra strength aspirin (such as Bufferin or Anacin)",
+  "Variable Name": "SrvMRE_REAspirin_v1r0",
+  "Connect Value for Select all that apply questions": "1",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Quest_Src Question": "PAINREL1",
+  "Old Quest Value": {
+    "104430631.json": "2",
+    "353358909.json": "1"
+  },
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

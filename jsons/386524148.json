@@ -1,0 +1,22 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "Urinary and Reproductive System Problems- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply.",
+  "conceptId": "386524148",
+  "Question Text": "Polycystic Ovary Syndrome (PCOS)",
+  "Variable Label": "Polycystic Ovary Syndrome (PCOS)",
+  "Variable Name": "SrvBOH_PCOS_v1r0",
+  "Variable Type": "2",
+  "Variable Length": "Num",
+  "PII": "No",
+  "Derivation Notes": "[DISPLAY ONLY IF SEX = (00) OR (SEX= (02) AND SEX2 = (06))]",
+  "undefined": "MHGROUP8",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1"
+  }
+}

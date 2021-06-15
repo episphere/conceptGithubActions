@@ -6,14 +6,16 @@
   "Question Text": "Trichomoniasis",
   "Variable Label": "Trichomoniasis",
   "Variable Name": "SrvBOH_Trich_v1r0",
-  "Connect Value for Select all that apply questions": "5",
-  "Variable Type": "Num",
-  "Variable Length": "1",
-  "Required": "No",
+  "Variable Type": "5",
+  "Variable Length": "Num",
   "PII": "No",
-  "Quest_Src Question": "MHGROUP7",
-  "Connect Value": {
-    "104430631.json": "0",
-    "353358909.json": "1"
+  "undefined": "MHGROUP7",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1"
   }
 }

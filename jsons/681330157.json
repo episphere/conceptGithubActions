@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "How old were you when you first had bariatric surgery ?",
+  "conceptId": "681330157",
+  "Question Text": "bariatric surgery year",
+  "Variable Label": "bariatric surgery year",
+  "Variable Name": "SrvBOH_BarSurgYear_v1r0",
+  "Variable Type": "BARSUR_YEAR",
+  "Variable Length": "Year",
+  "Required": "yyyy",
+  "PII": "No",
+  "Derivation Notes": "Only display if MHGROUP9 = bariatric surgery",
+  "undefined": "BARSUR"
+}

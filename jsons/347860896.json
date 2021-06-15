@@ -1,0 +1,19 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "conceptId": "347860896",
+  "Question Text": "Has a doctor or other health professional ever told you that you have or had clinical depression?",
+  "Variable Label": "Depression",
+  "Variable Name": "SrvBOH_Depression_v1r0",
+  "Variable Type": "DEPRESS",
+  "Variable Length": "Num",
+  "PII": "No",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "How old were you when you first had liposuction?",
+  "conceptId": "937331599",
+  "Question Text": "liposuction age",
+  "Variable Label": "liposuction age",
+  "Variable Name": "SrvBOH_LiposuctAge_v1r0",
+  "Variable Type": "LIPOSUCT_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
+  "PII": "No",
+  "Derivation Notes": "Only display if MHGROUP9 = liposuction",
+  "undefined": "LIPSUCT"
+}

@@ -6,12 +6,10 @@
   "Question Text": "Thyroid Disorder (Overactive or Underactive Thyroid) age",
   "Variable Label": "Thyroid Disorder (Overactive or Underactive Thyroid) age",
   "Variable Name": "SrvBOH_ThyroidAge_v1r0",
-  "Connect Value for Select all that apply questions": "THYROID_AGE",
-  "Variable Type": "Num",
-  "Variable Length": "2",
-  "Connect Value": "N/A",
-  "Required": "No",
+  "Variable Type": "THYROID_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
   "PII": "No",
-  "Notes": "Only display if MHGROUP4 = Thyroid Disorder (Overactive or Underactive Thyroid)",
-  "Quest_Src Question": "THYROID"
+  "Derivation Notes": "Only display if MHGROUP4 = Thyroid Disorder (Overactive or Underactive Thyroid)",
+  "undefined": "THYROID"
 }

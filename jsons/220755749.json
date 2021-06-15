@@ -1,0 +1,21 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "Surgical Procedures- Have you ever had any of these surgeries? Select all that apply.",
+  "conceptId": "220755749",
+  "Question Text": "Uterus removed (a hysterectomy)",
+  "Variable Label": "Uterus removed (a hysterectomy)",
+  "Variable Name": "SrvBOH_Hysterectomy_v1r0",
+  "Variable Type": "6",
+  "Variable Length": "Num",
+  "PII": "No",
+  "undefined": "MHGROUP9",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1"
+  }
+}

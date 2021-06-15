@@ -6,12 +6,10 @@
   "Question Text": "high blood pressure (hypertension)diagnosis age",
   "Variable Label": "high blood pressure (hypertension) diagnosis age",
   "Variable Name": "SrvBOH_HTNAGE_v1r0",
-  "Connect Value for Select all that apply questions": "HTN_AGE",
-  "Variable Type": "Num",
-  "Variable Length": "2",
-  "Connect Value": "N/A",
-  "Required": "No",
+  "Variable Type": "HTN_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
   "PII": "No",
-  "Notes": "Only display if MHGROUP1 = high blood pressure",
-  "Quest_Src Question": "HTN"
+  "Derivation Notes": "Only display if MHGROUP1 = high blood pressure",
+  "undefined": "HTN"
 }

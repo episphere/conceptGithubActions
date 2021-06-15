@@ -6,14 +6,16 @@
   "Question Text": "Chest Pain (Angina)",
   "Variable Label": "Chest Pain (Angina)",
   "Variable Name": "SrvBOH_ChestPain_v1r0",
-  "Connect Value for Select all that apply questions": "6",
-  "Variable Type": "Num",
-  "Variable Length": "1",
-  "Required": "No",
+  "Variable Type": "6",
+  "Variable Length": "Num",
   "PII": "No",
-  "Quest_Src Question": "MHGROUP1",
-  "Connect Value": {
-    "104430631.json": "0",
-    "353358909.json": "1"
+  "undefined": "MHGROUP1",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1"
   }
 }

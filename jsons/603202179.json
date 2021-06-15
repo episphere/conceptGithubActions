@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "How old were you when a doctor or other health professional first told you that you have or had polycystic ovary syndrome (PCOS)?",
+  "conceptId": "603202179",
+  "Question Text": "Polycystic Ovary Syndrome (PCOS) age",
+  "Variable Label": "Polycystic Ovary Syndrome (PCOS) age",
+  "Variable Name": "SrvBOH_PCOSAge_v1r0",
+  "Variable Type": "PCOS_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
+  "PII": "No",
+  "Derivation Notes": "Only display if MHGROUP8= Polycystic Ovary Syndrome (PCOS)",
+  "undefined": "PCOS"
+}

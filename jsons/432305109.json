@@ -6,15 +6,17 @@
   "Question Text": "Mexican or Mexican American",
   "Variable Label": "Mexican or Mexican American",
   "Variable Name": "SrvBOH_Mexican_v1r0",
-  "Connect Value for Select all that apply questions": "5",
-  "Variable Type": "Num",
-  "Variable Length": "1",
-  "Required": "No",
+  "Variable Type": "5",
+  "Variable Length": "Num",
   "PII": "No",
-  "Notes": "Only display if RACEETH = Hispanic, Latino, or Spanish",
-  "Quest_Src Question": "RACEETH5",
-  "Connect Value": {
-    "104430631.json": "0",
-    "353358909.json": "1"
+  "Derivation Notes": "Only display if RACEETH = Hispanic, Latino, or Spanish",
+  "undefined": "RACEETH5",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1"
   }
 }

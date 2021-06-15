@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had esophageal cancer?",
+  "conceptId": "301293668",
+  "Question Text": "Sibling 1 esophageal cancer age",
+  "Variable Label": "Sibling 1 esophageal cancer age",
+  "Variable Name": "SrvBOH_S1EsoCancAge_v1r0",
+  "Variable Type": "SIBCANC3G_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
+  "PII": "No",
+  "Derivation Notes": "Connect Format/Values - Only display if SIBCANC2= 6",
+  "undefined": "SIBCANC3G"
+}

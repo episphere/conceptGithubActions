@@ -1,0 +1,24 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "Which of these breast surgeries have you had? Please do not include a biopsy. Select all that apply.",
+  "conceptId": "667901971",
+  "Question Text": "Removal of a lactiferous or milk duct (microdochectomy)",
+  "Variable Label": "Removal of a lactiferous or milk duct (microdochectomy)",
+  "Variable Name": "SrvBOH_Microdochectomy_v1r0",
+  "Variable Type": "8",
+  "Variable Length": "Num",
+  "PII": "No",
+  "undefined": "BREASTSUR",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1"
+  },
+  "Derivation Notes": {
+    "653895180.json": "Only display if MHGROUP9"
+  }
+}

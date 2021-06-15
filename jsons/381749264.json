@@ -6,15 +6,17 @@
   "Question Text": "Polish",
   "Variable Label": "Polish",
   "Variable Name": "SrvBOH_Polish_v1r0",
-  "Connect Value for Select all that apply questions": "8",
-  "Variable Type": "Num",
-  "Variable Length": "1",
-  "Required": "No",
+  "Variable Type": "8",
+  "Variable Length": "Num",
   "PII": "No",
-  "Notes": "Only display if RACEETH = White",
-  "Quest_Src Question": "RACEETH8",
-  "Connect Value": {
-    "104430631.json": "0",
-    "353358909.json": "1"
+  "Derivation Notes": "Only display if RACEETH = White",
+  "undefined": "RACEETH8",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1"
   }
 }

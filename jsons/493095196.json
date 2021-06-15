@@ -6,12 +6,10 @@
   "Question Text": "Syphilis diagnosis age",
   "Variable Label": "Syphilis diagnosis age",
   "Variable Name": "SrvBOH_SyphilisAge_v1r0",
-  "Connect Value for Select all that apply questions": "SYPH_AGE",
-  "Variable Type": "Num",
-  "Variable Length": "2",
-  "Connect Value": "N/A",
-  "Required": "No",
+  "Variable Type": "SYPH_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
   "PII": "No",
-  "Notes": "Only display if MHGROUP7= SYPHILIS",
-  "Quest_Src Question": "SYPH"
+  "Derivation Notes": "Only display if MHGROUP7= SYPHILIS",
+  "undefined": "SYPH"
 }

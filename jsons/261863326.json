@@ -6,12 +6,10 @@
   "Question Text": "Skin cancer diagnosis year",
   "Variable Label": "Skin cancer diagnosis year",
   "Variable Name": "SrvBOH_SkinCancYear_v1r0",
-  "Connect Value for Select all that apply questions": "SKINCANC3_YEAR",
-  "Variable Type": "Year",
-  "Variable Length": "4",
-  "Connect Value": "yyyy",
-  "Required": "No",
+  "Variable Type": "SKINCANC3_YEAR",
+  "Variable Length": "Year",
+  "Required": "yyyy",
   "PII": "No",
-  "Notes": "Only display is SKINCANC = 1",
-  "Quest_Src Question": "SKINCANC3"
+  "Derivation Notes": "Only display is SKINCANC = 1",
+  "undefined": "SKINCANC3"
 }

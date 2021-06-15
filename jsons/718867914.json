@@ -1,0 +1,21 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "conceptId": "718867914",
+  "Question Text": "Child 1- [If CHILD4=01] Has a doctor or other health professional ever told [child initials or nickname/your child] that they have or had any type of cancer? [If CHILD4=00, 77, NON-RESPONSE] Did a doctor or other health professional ever tell [child initials or nickname/your child] that they had any type of cancer?",
+  "Variable Label": "Child 1 cancer",
+  "Variable Name": "SrvBOH_Child1Cancer_v1r0",
+  "Variable Type": "CHILDCANC",
+  "Variable Length": "Num",
+  "PII": "No",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json",
+    "980658188.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1",
+    "428078072.json": "77"
+  }
+}

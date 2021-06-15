@@ -1,0 +1,21 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "Surgical Procedures- Have you ever had any of these surgeries? Select all that apply.",
+  "conceptId": "654450030",
+  "Question Text": "Vasectomy",
+  "Variable Label": "Vasectomy",
+  "Variable Name": "SrvBOH_Vasectomy_v1r0",
+  "Variable Type": "10",
+  "Variable Length": "Num",
+  "PII": "No",
+  "undefined": "MHGROUP9",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1"
+  }
+}

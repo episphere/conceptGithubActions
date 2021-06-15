@@ -6,12 +6,10 @@
   "Question Text": "stroke diagnosis year",
   "Variable Label": "stroke diagnosis year",
   "Variable Name": "SrvBOH_StrokeYear_v1r0",
-  "Connect Value for Select all that apply questions": "STROKE_YEAR",
-  "Variable Type": "Year",
-  "Variable Length": "4",
-  "Connect Value": "yyyy",
-  "Required": "No",
+  "Variable Type": "STROKE_YEAR",
+  "Variable Length": "Year",
+  "Required": "yyyy",
   "PII": "No",
-  "Notes": "Only display if MHGROUP1 = stroke",
-  "Quest_Src Question": "STROKE"
+  "Derivation Notes": "Only display if MHGROUP1 = stroke",
+  "undefined": "STROKE"
 }

@@ -6,12 +6,10 @@
   "Question Text": "Infectious Mononucleosis (â€œMonoâ€ or â€œKissing Diseaseâ€) diagnosis age",
   "Variable Label": "Infectious Mononucleosis (â€œMonoâ€ or â€œKissing Diseaseâ€) diagnosis age",
   "Variable Name": "SrvBOH_MonoAge_v1r0",
-  "Connect Value for Select all that apply questions": "MONO_AGE",
-  "Variable Type": "Num",
-  "Variable Length": "2",
-  "Connect Value": "N/A",
-  "Required": "No",
+  "Variable Type": "MONO_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
   "PII": "No",
-  "Notes": "Only display if MHGROUP7= Mono",
-  "Quest_Src Question": "MONO"
+  "Derivation Notes": "Only display if MHGROUP7= Mono",
+  "undefined": "MONO"
 }

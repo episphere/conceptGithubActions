@@ -6,12 +6,10 @@
   "Question Text": "Gout year",
   "Variable Label": "Gout year",
   "Variable Name": "SrvBOH_GoutYear_v1r0",
-  "Connect Value for Select all that apply questions": "GOUT_YEAR",
-  "Variable Type": "Year",
-  "Variable Length": "6",
-  "Connect Value": "yyyy",
-  "Required": "No",
+  "Variable Type": "GOUT_YEAR",
+  "Variable Length": "Year",
+  "Required": "yyyy",
   "PII": "No",
-  "Notes": "Only display if MHGROUP6 = Gout",
-  "Quest_Src Question": "GOUT"
+  "Derivation Notes": "Only display if MHGROUP6 = Gout",
+  "undefined": "GOUT"
 }

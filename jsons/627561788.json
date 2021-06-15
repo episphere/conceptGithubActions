@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "How old were you when a doctor or other health professional first told you that you have or had endometriosis?",
+  "conceptId": "627561788",
+  "Question Text": "Endometriosis year",
+  "Variable Label": "Endometriosis year",
+  "Variable Name": "SrvBOH_EndoYear_v1r0",
+  "Variable Type": "ENDO_YEAR",
+  "Variable Length": "Year",
+  "Required": "yyyy",
+  "PII": "No",
+  "Derivation Notes": "Only display if MHGROUP8= Endometriosis",
+  "undefined": "ENDO"
+}

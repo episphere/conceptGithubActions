@@ -6,12 +6,10 @@
   "Question Text": "Graves' Disease age",
   "Variable Label": "Graves' Disease age",
   "Variable Name": "SrvBOH_GravesAge_v1r0",
-  "Connect Value for Select all that apply questions": "GRAVES_AGE",
-  "Variable Type": "Num",
-  "Variable Length": "2",
-  "Connect Value": "N/A",
-  "Required": "No",
+  "Variable Type": "GRAVES_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
   "PII": "No",
-  "Notes": "Only display if MHGROUP4 = Grave's disease",
-  "Quest_Src Question": "GRAVES"
+  "Derivation Notes": "Only display if MHGROUP4 = Grave's disease",
+  "undefined": "GRAVES"
 }

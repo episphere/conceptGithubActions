@@ -6,12 +6,10 @@
   "Question Text": "Diverticulitis or Diverticulosis year",
   "Variable Label": "Diverticulitis or Diverticulosis year",
   "Variable Name": "SrvBOH_DivertYear_v1r0",
-  "Connect Value for Select all that apply questions": "DIVERT_YEAR",
-  "Variable Type": "Year",
-  "Variable Length": "4",
-  "Connect Value": "yyyy",
-  "Required": "No",
+  "Variable Type": "DIVERT_YEAR",
+  "Variable Length": "Year",
+  "Required": "yyyy",
   "PII": "No",
-  "Notes": "Only display if MHGROUP3= Diverticulitis or Diverticulosis",
-  "Quest_Src Question": "DIVERT"
+  "Derivation Notes": "Only display if MHGROUP3= Diverticulitis or Diverticulosis",
+  "undefined": "DIVERT"
 }

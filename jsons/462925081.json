@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Prostate cancer?",
+  "conceptId": "462925081",
+  "Question Text": "Dad Prostate cancer year",
+  "Variable Label": "Dad Prostate cancer year",
+  "Variable Name": "SrvBOH_DadProstCancYr_v1r0",
+  "Variable Type": "DADCANC3Q_YEAR",
+  "Variable Length": "Year",
+  "Required": "yyyy",
+  "PII": "No",
+  "Derivation Notes": "Connect Format/Values - Only display if DADCANC2= 16",
+  "undefined": "DADCANC3Q"
+}

@@ -1,0 +1,21 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "Mother- Which type(s) of cancer? Select all that apply.",
+  "conceptId": "487917585",
+  "Question Text": "Non-melanoma skin (basal or squamous)",
+  "Variable Label": "Non-melanoma skin (basal or squamous)",
+  "Variable Name": "SrvBOH_MNMSkinCancer_v1r0",
+  "Variable Type": "15",
+  "Variable Length": "Num",
+  "PII": "No",
+  "undefined": "MOMCANC2",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1"
+  }
+}

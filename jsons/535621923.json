@@ -1,0 +1,19 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "conceptId": "535621923",
+  "Question Text": "Were you adopted or a foster child?",
+  "Variable Label": "Adopted, foster child",
+  "Variable Name": "SrvBOH_AdoptFost_v1r0",
+  "Variable Type": "ADOPTFOST",
+  "Variable Length": "Num",
+  "PII": "No",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1"
+  }
+}

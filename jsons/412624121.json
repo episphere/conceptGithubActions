@@ -1,0 +1,36 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "conceptId": "412624121",
+  "Question Text": "What is the highest level of school that you have completed?",
+  "Variable Label": "Education level",
+  "Variable Name": "SrvBOH_EducLevel_v1r0",
+  "Variable Length": "Num",
+  "PII": "No",
+  "Old Quest Value": [
+    "405900549.json",
+    "744761288.json",
+    "994341446.json",
+    "795311635.json",
+    "518184466.json",
+    "238873759.json",
+    "543015820.json",
+    "285220173.json",
+    "526851879.json"
+  ],
+  "Variable Type": [
+    "357020278.json",
+    "489437178.json"
+  ],
+  "Required": {
+    "281203995.json": "0",
+    "840924758.json": "1",
+    "584753377.json": "2",
+    "630939124.json": "3",
+    "378829265.json": "4",
+    "403757704.json": "5",
+    "198703100.json": "6",
+    "906799772.json": "7",
+    "840032667.json": "55"
+  }
+}

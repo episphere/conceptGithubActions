@@ -6,12 +6,10 @@
   "Question Text": "Diabetes year",
   "Variable Label": "Diabetes year",
   "Variable Name": "SrvBOH_DiabetesYear_v1r0",
-  "Connect Value for Select all that apply questions": "DM2_YEAR",
-  "Variable Type": "Year",
-  "Variable Length": "4",
-  "Connect Value": "yyyy",
-  "Required": "No",
+  "Variable Type": "DM2_YEAR",
+  "Variable Length": "Year",
+  "Required": "yyyy",
   "PII": "No",
-  "Notes": "Only display if MHGROUP4 = diabetes",
-  "Quest_Src Question": "DM2"
+  "Derivation Notes": "Only display if MHGROUP4 = diabetes",
+  "undefined": "DM2"
 }

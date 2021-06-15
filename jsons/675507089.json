@@ -6,12 +6,10 @@
   "Question Text": "Abnormal heart rhythm (arrhythmia) diagnosis year",
   "Variable Label": "Abnormal heart rhythm (arrhythmia) diagnosis year",
   "Variable Name": "SrvBOH_AHRYear_v1r0",
-  "Connect Value for Select all that apply questions": "ARRHYT_YEAR",
-  "Variable Type": "Year",
-  "Variable Length": "4",
-  "Connect Value": "yyyy",
-  "Required": "No",
+  "Variable Type": "ARRHYT_YEAR",
+  "Variable Length": "Year",
+  "Required": "yyyy",
   "PII": "No",
-  "Notes": "Only display if MHGROUP1 = abnormal heart rhythm",
-  "Quest_Src Question": "ARRHYT"
+  "Derivation Notes": "Only display if MHGROUP1 = abnormal heart rhythm",
+  "undefined": "ARRHYT"
 }

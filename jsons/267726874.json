@@ -6,12 +6,10 @@
   "Question Text": "Chronic Kidney Disease (Also Known as Chronic Kidney Failure) age",
   "Variable Label": "Chronic Kidney Disease (Also Known as Chronic Kidney Failure) age",
   "Variable Name": "SrvBOH_CKDAge_v1r0",
-  "Connect Value for Select all that apply questions": "CLD_AGE",
-  "Variable Type": "Num",
-  "Variable Length": "2",
-  "Connect Value": "N/A",
-  "Required": "No",
+  "Variable Type": "CLD_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
   "PII": "No",
-  "Notes": "Only display if MHGROUP5 = Chronic Kidney Disease (Also Known as Chronic Kidney Failure)",
-  "Quest_Src Question": "CKD"
+  "Derivation Notes": "Only display if MHGROUP5 = Chronic Kidney Disease (Also Known as Chronic Kidney Failure)",
+  "undefined": "CKD"
 }

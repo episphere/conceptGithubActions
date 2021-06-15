@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "How old were you when a doctor or other health professional first told you that you have or had Uterine Fibroids?",
+  "conceptId": "351965599",
+  "Question Text": "Uterine Fibroids year",
+  "Variable Label": "Uterine Fibroids year",
+  "Variable Name": "SrvBOH_UFibroidsYr_v1r0",
+  "Variable Type": "UF_YEAR",
+  "Variable Length": "Year",
+  "Required": "yyyy",
+  "PII": "No",
+  "Derivation Notes": "Only display if MHGROUP8= Uterine Fibroids",
+  "undefined": "UF"
+}

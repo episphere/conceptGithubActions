@@ -6,12 +6,10 @@
   "Question Text": "Liver Cirrhosis age",
   "Variable Label": "Liver Cirrhosis age",
   "Variable Name": "SrvBOH_CirrhosisAge_v1r0",
-  "Connect Value for Select all that apply questions": "LIVERCIRR_AGE",
-  "Variable Type": "Num",
-  "Variable Length": "2",
-  "Connect Value": "N/A",
-  "Required": "No",
+  "Variable Type": "LIVERCIRR_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
   "PII": "No",
-  "Notes": "Only display if MHGROUP3= Liver Cirrhosis",
-  "Quest_Src Question": "LIVERCIRR"
+  "Derivation Notes": "Only display if MHGROUP3= Liver Cirrhosis",
+  "undefined": "LIVERCIRR"
 }

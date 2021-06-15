@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "How old were you when you had your uterus removed (hysterectomy)?",
+  "conceptId": "861162777",
+  "Question Text": "uterus removed (hysterectomy) age",
+  "Variable Label": "uterus removed (hysterectomy) age",
+  "Variable Name": "SrvBOH_HysterAge_v1r0",
+  "Variable Type": "HYSTER_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
+  "PII": "No",
+  "Derivation Notes": "Only display if MHGROUP9 = uterus removed (hysterectomy)",
+  "undefined": "HYSTER"
+}

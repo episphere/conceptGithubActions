@@ -1,0 +1,25 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "conceptId": "414005872",
+  "Question Text": "Did you ever use prescription pain relievers that contain opioids in any way not directed by a doctor? This might include using them without a prescription, using more than directed, or using them more often or for a longer time than directed. Please remember that we protect your privacy. We remove information that can identify you from your survey answers before we share them with researchers",
+  "Variable Label": "Ever use prescriptoin pain not directed by doctor",
+  "Variable Name": "SrvMRE_OpioidMisuse_v1r0",
+  "Connect Value for Select all that apply questions": "PAINREL8",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "766019149.json": "1",
+    "532382476.json": "2",
+    "104532244.json": "3",
+    "882292608.json": "4"
+  },
+  "Connect Value": {
+    "648960871.json": "0",
+    "132099255.json": "1",
+    "211590917.json": "2",
+    "528526505.json": "99"
+  }
+}

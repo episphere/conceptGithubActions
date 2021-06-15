@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had brain cancer?",
+  "conceptId": "358401051",
+  "Question Text": "Sibling 1 brain cancer year",
+  "Variable Label": "Sibling 1 brain cancer year",
+  "Variable Name": "SrvBOH_S1BraCancYr_v1r0",
+  "Variable Type": "SIBCANC3C_YEAR",
+  "Variable Length": "Year",
+  "Required": "yyyy",
+  "PII": "No",
+  "Derivation Notes": "Connect Format/Values - Only display if SIBCANC2= 2",
+  "undefined": "SIBCANC3C"
+}

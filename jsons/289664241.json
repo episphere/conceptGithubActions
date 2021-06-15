@@ -5,27 +5,25 @@
   "Question Text": "Do you think of yourself as:",
   "Variable Label": "Gender",
   "Variable Name": "SrvBOH_Gender_v1r0",
-  "Connect Value for Select all that apply questions": "GEN",
-  "Variable Type": "Num",
-  "Variable Length": "2",
-  "Required": "No",
+  "Variable Type": "GEN",
+  "Variable Length": "Num",
   "PII": "No",
-  "Old Quest Value": {
-    "536341288.json": "1",
-    "654207589.json": "2",
-    "405267600.json": "3",
-    "873138103.json": "4",
-    "805712793.json": "5",
-    "181769837.json": "6",
-    "746038746.json": "99"
-  },
-  "Connect Value": {
-    "536341288.json": "0",
-    "654207589.json": "1",
-    "405267600.json": "2",
-    "873138103.json": "3",
-    "805712793.json": "4",
-    "181769837.json": "55",
-    "746038746.json": "99"
+  "Old Quest Value": [
+    "436826420.json",
+    "563142244.json",
+    "740702701.json",
+    "986949005.json",
+    "195010424.json",
+    "526851879.json",
+    "623491330.json"
+  ],
+  "Required": {
+    "848252917.json": "0",
+    "910763883.json": "1",
+    "120899770.json": "2",
+    "250929177.json": "3",
+    "808664145.json": "4",
+    "840032667.json": "55",
+    "177624330.json": "99"
   }
 }

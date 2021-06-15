@@ -6,12 +6,10 @@
   "Question Text": "Chronic lung disease (Emphysema, Chronic Bronchitis, or Chronic Obstructive Pulmonary Disease (COPD)) diagnosis age",
   "Variable Label": "Chronic lung disease (Emphysema, Chronic Bronchitis, or Chronic Obstructive Pulmonary Disease (COPD)) diagnosis age",
   "Variable Name": "SrvBOH_CLDAge_v1r0",
-  "Connect Value for Select all that apply questions": "COPD_AGE",
-  "Variable Type": "Num",
-  "Variable Length": "2",
-  "Connect Value": "N/A",
-  "Required": "No",
+  "Variable Type": "COPD_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
   "PII": "No",
-  "Notes": "Only display if MHGROUP2 = COPD",
-  "Quest_Src Question": "COPD"
+  "Derivation Notes": "Only display if MHGROUP2 = COPD",
+  "undefined": "COPD"
 }

@@ -6,12 +6,10 @@
   "Question Text": "Gout age",
   "Variable Label": "Gout age",
   "Variable Name": "SrvBOH_GoutAge_v1r0",
-  "Connect Value for Select all that apply questions": "GOUT_AGE",
-  "Variable Type": "Num",
-  "Variable Length": "2",
-  "Connect Value": "N/A",
-  "Required": "No",
+  "Variable Type": "GOUT_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
   "PII": "No",
-  "Notes": "Only display if MHGROUP6 = Gout",
-  "Quest_Src Question": "GOUT"
+  "Derivation Notes": "Only display if MHGROUP6 = Gout",
+  "undefined": "GOUT"
 }

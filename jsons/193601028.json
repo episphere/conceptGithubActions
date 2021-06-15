@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Stomach cancer?",
+  "conceptId": "193601028",
+  "Question Text": "Dad Stomach cancer age",
+  "Variable Label": "Dad Stomach cancer age",
+  "Variable Name": "SrvBOH_DadStomCancAge_v1r0",
+  "Variable Type": "DADCANC3R_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
+  "PII": "No",
+  "Derivation Notes": "Connect Format/Values - Only display if DADCANC2= 17",
+  "undefined": "DADCANC3R"
+}

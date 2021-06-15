@@ -1,0 +1,21 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "Where do you carry most of your weight on your body? Select all that apply.",
+  "conceptId": "543906711",
+  "Question Text": "Around the chest or shoulders",
+  "Variable Label": "Around the chest or shoulders",
+  "Variable Name": "SrvBOH_ChestWt_v1r0",
+  "Variable Type": "0",
+  "Variable Length": "Num",
+  "PII": "No",
+  "undefined": "CARWEIGHT",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1"
+  }
+}

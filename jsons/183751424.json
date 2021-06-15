@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Lung or bronchial cancer?",
+  "conceptId": "183751424",
+  "Question Text": "Child 1 Lung or bronchial cancer year",
+  "Variable Label": "Child 1 Lung or bronchial cancer year",
+  "Variable Name": "SrvBOH_C1LungCancYr_v1r0",
+  "Variable Type": "CHILDCANC3L_YEAR",
+  "Variable Length": "Year",
+  "Required": "yyyy",
+  "PII": "No",
+  "Derivation Notes": "Connect Format/Values - Only display if SIBCANC2= 11",
+  "undefined": "CHILDCANC3L"
+}

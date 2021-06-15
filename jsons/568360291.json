@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had kidney cancer?",
+  "conceptId": "568360291",
+  "Question Text": "Child 1 kidney cancer age",
+  "Variable Label": "Child 1 kidney cancer age",
+  "Variable Name": "SrvBOH_C1KidnCancAge_v1r0",
+  "Variable Type": "CHILDCANC3I_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
+  "PII": "No",
+  "Derivation Notes": "Connect Format/Values - Only display if SIBCANC2= 8",
+  "undefined": "CHILDCANC3I"
+}

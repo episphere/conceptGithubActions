@@ -6,12 +6,10 @@
   "Question Text": "Shingles (Herpes Zoster) diagnosis age",
   "Variable Label": "Shingles (Herpes Zoster) diagnosis age",
   "Variable Name": "SrvBOH_ShinglesAge_v1r0",
-  "Connect Value for Select all that apply questions": "SHINGLES_AGE",
-  "Variable Type": "Num",
-  "Variable Length": "2",
-  "Connect Value": "N/A",
-  "Required": "No",
+  "Variable Type": "SHINGLES_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
   "PII": "No",
-  "Notes": "Only display if MHGROUP7= SHINGLES",
-  "Quest_Src Question": "SHINGLES"
+  "Derivation Notes": "Only display if MHGROUP7= SHINGLES",
+  "undefined": "SHINGLES"
 }

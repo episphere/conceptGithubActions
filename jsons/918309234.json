@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had response from MOMCANC2/another type of cancer?",
+  "conceptId": "918309234",
+  "Question Text": "Mom response from MOMCANC2/another type of cancer age",
+  "Variable Label": "Mom response from MOMCANC2/another type of cancer age",
+  "Variable Name": "SrvBOH_MomOtherCancAge_v1r0",
+  "Variable Type": "MOMCANC3V_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
+  "PII": "No",
+  "Derivation Notes": "Connect Format/Values - Only display if MOMCANC2= 21",
+  "undefined": "MOMCANC3V"
+}

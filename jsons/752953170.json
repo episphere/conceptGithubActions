@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "Which of these breast surgeries have you had? Please do not include a biopsy. Select all that apply.",
+  "conceptId": "752953170",
+  "Question Text": "Breast implants",
+  "Variable Label": "Breast implants",
+  "Variable Name": "SrvBOH_BreastImplant_v1r0",
+  "Variable Type": "0",
+  "Variable Length": "Num",
+  "Required": "N/A",
+  "PII": "No",
+  "Derivation Notes": "Only display if MHGROUP9 = breast surgery",
+  "undefined": "BREASTSUR"
+}

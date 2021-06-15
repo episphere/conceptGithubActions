@@ -6,12 +6,10 @@
   "Question Text": "Abnormal heart rhythm (arrhythmia) diagnosis age",
   "Variable Label": "Abnormal heart rhythm (arrhythmia) diagnosis age",
   "Variable Name": "SrvBOH_AHRAge_v1r0",
-  "Connect Value for Select all that apply questions": "ARRHYT_AGE",
-  "Variable Type": "Num",
-  "Variable Length": "2",
-  "Connect Value": "N/A",
-  "Required": "No",
+  "Variable Type": "ARRHYT_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
   "PII": "No",
-  "Notes": "Only display if MHGROUP1 = abnormal heart rhythm",
-  "Quest_Src Question": "ARRHYT"
+  "Derivation Notes": "Only display if MHGROUP1 = abnormal heart rhythm",
+  "undefined": "ARRHYT"
 }

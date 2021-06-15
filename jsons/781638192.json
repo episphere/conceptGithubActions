@@ -6,12 +6,10 @@
   "Question Text": "Inflammatory Bowel Disease diagnosis age",
   "Variable Label": "Inflammatory Bowel Disease diagnosis age",
   "Variable Name": "SrvBOH_IBDAge_v1r0",
-  "Connect Value for Select all that apply questions": "IBD_AGE",
-  "Variable Type": "Num",
-  "Variable Length": "2",
-  "Connect Value": "N/A",
-  "Required": "No",
+  "Variable Type": "IBD_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
   "PII": "No",
-  "Notes": "Only display if MHGROUP3= Inflammatory Bowel Disease",
-  "Quest_Src Question": "IBD"
+  "Derivation Notes": "Only display if MHGROUP3= Inflammatory Bowel Disease",
+  "undefined": "IBD"
 }

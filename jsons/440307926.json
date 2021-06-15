@@ -6,12 +6,10 @@
   "Question Text": "None of these fully describe me. Please describe [text box]",
   "Variable Label": "None of these fully describe me. Please describe [text box]",
   "Variable Name": "SrvBOH_NoneDescribeRE5_v1r0",
-  "Connect Value for Select all that apply questions": "RACEETH5_TB",
-  "Variable Type": "Char",
-  "Variable Length": "300",
-  "Connect Value": "N/A",
-  "Required": "No",
+  "Variable Type": "RACEETH5_TB",
+  "Variable Length": "Char",
+  "Required": "N/A",
   "PII": "No",
-  "Notes": "Only display if RACEETH = Hispanic, Latino, or Spanish",
-  "Quest_Src Question": "RACEETH5"
+  "Derivation Notes": "Only display if RACEETH = Hispanic, Latino, or Spanish",
+  "undefined": "RACEETH5"
 }

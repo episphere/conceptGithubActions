@@ -1,0 +1,17 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "Source Question": "During the time(s) that you were taking statins/cholesterol or lipid lowering drugs, about how many days per week OR per month did you take it? Please choose whichever makes the most sense for you.",
+  "conceptId": "259022344",
+  "Question Text": "statins/cholesterol or lipid lowering drugs days per week",
+  "Variable Label": "statins/cholesterol or lipid lowering drugs days per week",
+  "Variable Name": "SrvMRE_StatinsWk_v1r0",
+  "Connect Value for Select all that apply questions": "CHOLHTN2_1WK",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Old Quest Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if CHOLHTN = 0",
+  "Quest_Src Question": "CHOLHTN2_1"
+}

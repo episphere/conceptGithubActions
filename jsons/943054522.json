@@ -6,14 +6,16 @@
   "Question Text": "Graves' Disease",
   "Variable Label": "Graves' Disease",
   "Variable Name": "SrvBOH_Graves_v1r0",
-  "Connect Value for Select all that apply questions": "2",
-  "Variable Type": "Num",
-  "Variable Length": "1",
-  "Required": "No",
+  "Variable Type": "2",
+  "Variable Length": "Num",
   "PII": "No",
-  "Quest_Src Question": "MHGROUP4",
-  "Connect Value": {
-    "104430631.json": "0",
-    "353358909.json": "1"
+  "undefined": "MHGROUP4",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1"
   }
 }

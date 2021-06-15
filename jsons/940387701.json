@@ -1,0 +1,14 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "What is the highest level of school that you have completed?",
+  "conceptId": "940387701",
+  "Question Text": "Education Please describe [text box]",
+  "Variable Label": "Education Please describe [text box]",
+  "Variable Name": "SrvBOH_EducDesc_v1r0",
+  "Variable Length": "Char",
+  "Required": "N/A",
+  "PII": "No",
+  "Derivation Notes": "Only fill if EDU = Other",
+  "undefined": "EDU"
+}

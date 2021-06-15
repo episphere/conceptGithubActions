@@ -1,0 +1,21 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "What medication did you use to treat thinning hair or hair loss? Select all that apply.",
+  "conceptId": "645148312",
+  "Question Text": "Other: Please describe",
+  "Variable Label": "Other hair loss med",
+  "Variable Name": "SrvBOH_OtherHairMed_v1r0",
+  "Variable Type": "55",
+  "Variable Length": "Num",
+  "PII": "No",
+  "undefined": "HRMED2",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1"
+  }
+}

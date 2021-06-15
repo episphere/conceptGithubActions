@@ -1,0 +1,21 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "Father- Which type(s) of cancer? Select all that apply.",
+  "conceptId": "222996161",
+  "Question Text": "Kidney",
+  "Variable Label": "Kidney",
+  "Variable Name": "SrvBOH_DKidneyCancer_v1r0",
+  "Variable Type": "7",
+  "Variable Length": "Num",
+  "PII": "No",
+  "undefined": "DADCANC2",
+  "Old Quest Value": [
+    "187686296.json",
+    "393311833.json"
+  ],
+  "Required": {
+    "515815329.json": "0",
+    "465205500.json": "1"
+  }
+}

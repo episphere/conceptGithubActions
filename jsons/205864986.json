@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Non-Hodgkin's lymphoma cancer?",
+  "conceptId": "205864986",
+  "Question Text": "Mom Non-Hodgkin's lymphoma cancer year",
+  "Variable Label": "Mom Non-Hodgkin's lymphoma cancer year",
+  "Variable Name": "SrvBOH_MomNHLympYr_v1r0",
+  "Variable Type": "MOMCANC3M_YEAR",
+  "Variable Length": "Year",
+  "Required": "yyyy",
+  "PII": "No",
+  "Derivation Notes": "Connect Format/Values - Only display if MOMCANC2= 12",
+  "undefined": "MOMCANC3M"
+}

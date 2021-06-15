@@ -6,12 +6,10 @@
   "Question Text": "Rheumatoid Arthritis age",
   "Variable Label": "Rheumatoid Arthritis age",
   "Variable Name": "SrvBOH_RAAge_V1r0",
-  "Connect Value for Select all that apply questions": "RA_AGE",
-  "Variable Type": "Num",
-  "Variable Length": "2",
-  "Connect Value": "N/A",
-  "Required": "No",
+  "Variable Type": "RA_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
   "PII": "No",
-  "Notes": "Only display if MHGROUP6 = Rheumatoid Arthritis",
-  "Quest_Src Question": "RA"
+  "Derivation Notes": "Only display if MHGROUP6 = Rheumatoid Arthritis",
+  "undefined": "RA"
 }

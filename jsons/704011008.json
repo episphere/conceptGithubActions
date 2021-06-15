@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Non-melanoma skin (basal or squamous) cancer?",
+  "conceptId": "704011008",
+  "Question Text": "Child 1 Non-melanoma skin (basal or squamous) cancer age",
+  "Variable Label": "Child 1 Non-melanoma skin (basal or squamous) cancer age",
+  "Variable Name": "SrvBOH_C1NMSkinCancAge_v1r0",
+  "Variable Type": "CHILDCANC3P_AGE",
+  "Variable Length": "Num",
+  "Required": "N/A",
+  "PII": "No",
+  "Derivation Notes": "Connect Format/Values - Only display if SIBCANC2= 15",
+  "undefined": "CHILDCANC3P"
+}

@@ -1,0 +1,23 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "965707586.json",
+  "Source Question": "Have you ever used any of these marijuana products, even once? Select all that apply.",
+  "conceptId": "228997049",
+  "Question Text": "Smoking marijuana (such as joints, pipes, bowls, or bongs)",
+  "Variable Label": "Cigarettes (manufactured or hand-rolled)",
+  "Variable Name": "SrvSAS_Marijuana_v1r0",
+  "Connect Value for Select all that apply questions": "0",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Quest_Src Question": "MARIJUANA",
+  "Old Quest Value": {
+    "104430631.json": "2",
+    "353358909.json": "1"
+  },
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

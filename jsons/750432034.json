@@ -1,0 +1,17 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "Source Question": "In total, how many months or years have you used oral progestin-only medication?",
+  "conceptId": "750432034",
+  "Question Text": "Months use two separate pills",
+  "Variable Label": "Months use two separate pills",
+  "Variable Name": "SrvMRE_SepPillMoUse_v1r0",
+  "Connect Value for Select all that apply questions": "twoPillMonth",
+  "Variable Type": "Num",
+  "Variable Length": "3",
+  "Old Quest Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if COMBHOR=1",
+  "Quest_Src Question": "COMBHOR5_2"
+}
