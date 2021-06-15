@@ -29,7 +29,7 @@ function parseMasterModule(){
         
         if(currJSON['Primary Source'] && currJSON['Primary Source'] === "129084651.json"){
             //Checks for module name
-            if(currJSON['Secondary Source'] && ["745268907.json","898006288.json","965707586.json"].includes(currJSON['Secondary Source'])){
+            if(currJSON['Secondary Source'] && ["745268907.json","965707586.json"].includes(currJSON['Secondary Source'])){
 
                 if(currJSON['Connect Value for Select all that apply questions']){
                     let isTB = false;
@@ -39,7 +39,7 @@ function parseMasterModule(){
 
                     if(!currJSON['Quest_Src Question']){                    
 
-                        if(currJSON['Connect Value']){
+                        if(currJSON['Connect Value'] && Array.isArray(currJSON['Connect Value'])){
                             isTB = false;
                             let keys = Object.keys(currJSON['Connect Value'])
 
@@ -54,6 +54,8 @@ function parseMasterModule(){
                             for(let j = 0; j < keys.length; j++){
                                 if(!masterJSON[keys[j]]){
                                     console.log(keys[j])
+                                    console.log(keys)
+                                    console.log(currJSON)
                                 }
                                 questIds[currJSON['Connect Value'][keys[j]]] = {
                                     "conceptId": keys[j].substring(0,9),
@@ -114,6 +116,14 @@ function parseMasterModule(){
                     }
                 }
             }
+        }
+    }
+    let module1 = fs.readFileSync('./module1Dict.json')
+    let module1JSON = JSON.parse(module1);
+    let module1Keys = Object.keys(module1JSON);
+    for(let i = 0; i < module1Keys.length; i++){
+        if(!toReturn[module1Keys[i]]){
+            toReturn[module1Keys[i]] = module1JSON[module1Keys[i]]
         }
     }
     //console.log(JSON.stringify(toReturn))
