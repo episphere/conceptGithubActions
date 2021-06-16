@@ -5,8 +5,9 @@
   "Question Text": "At what age did your mother die?",
   "Variable Label": "Mother age at death, number",
   "Variable Name": "SrvBOH_MomAgeDeathNum_v1r0",
-  "Variable Type": "MOMDEATH_num",
-  "Variable Length": "Num",
+  "Connect Value for Select all that apply questions": "MOMDEATH_num",
+  "Variable Type": "Num",
+  "Variable Length": "2",
   "Connect Value": "N/A",
   "Required": "No",
   "PII": "No"

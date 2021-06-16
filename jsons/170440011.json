@@ -5,8 +5,9 @@
   "Question Text": "Is your biological mother still living?",
   "Variable Label": "Mom living",
   "Variable Name": "SrvBOH_MomLiving_v1r0",
-  "Variable Type": "MOM",
-  "Variable Length": "Num",
+  "Connect Value for Select all that apply questions": "MOM",
+  "Variable Type": "Num",
+  "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Old Quest Value": {
@@ -17,6 +18,6 @@
   "Connect Value": {
     "104430631.json": "0",
     "353358909.json": "1",
-    "178420302.json": "77"
+    "882082266.json": "77"
   }
 }

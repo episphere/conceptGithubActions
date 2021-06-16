@@ -5,8 +5,9 @@
   "Question Text": "Please identify the occupation category that best describes this job.",
   "Variable Label": "Past occupation category",
   "Variable Name": "SrvBOH_PastOccupCat_v1r0",
-  "Variable Type": "OCCUPTN2",
-  "Variable Length": "Num",
+  "Connect Value for Select all that apply questions": "OCCUPTN2",
+  "Variable Type": "Num",
+  "Variable Length": "2",
   "Required": "No",
   "PII": "No"
 }

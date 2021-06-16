@@ -5,8 +5,9 @@
   "Question Text": "Have you ever used medication to treat thinning hair or hair loss?",
   "Variable Label": "Hair loss med",
   "Variable Name": "SrvBOH_HairLossMed_v1r0",
-  "Variable Type": "HRMED",
-  "Variable Length": "Num",
+  "Connect Value for Select all that apply questions": "HRMED",
+  "Variable Type": "Num",
+  "Variable Length": "1",
   "Required": "No",
   "PII": "No",
   "Old Quest Value": {

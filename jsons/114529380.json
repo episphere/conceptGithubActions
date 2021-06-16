@@ -5,8 +5,9 @@
   "Question Text": "Which of these best describes your current employment status?",
   "Variable Label": "Current employement status",
   "Variable Name": "SrvBOH_EmplStatus_v1r0",
-  "Variable Type": "WORK2",
-  "Variable Length": "Num",
+  "Connect Value for Select all that apply questions": "WORK2",
+  "Variable Type": "Num",
+  "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Old Quest Value": {
@@ -22,7 +23,7 @@
     "475665841.json": "1",
     "656816477.json": "2",
     "756948639.json": "3",
-    "181769837.json": "55",
-    "746038746.json": "99"
+    "299362499.json": "55",
+    "805028061.json": "99"
   }
 }

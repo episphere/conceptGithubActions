@@ -5,8 +5,9 @@
   "Question Text": "How old is your father today?",
   "Variable Label": "father age, number",
   "Variable Name": "SrvBOH_DadAgeNum_v1r0",
-  "Variable Type": "DAD_AGE",
-  "Variable Length": "Num",
+  "Connect Value for Select all that apply questions": "DAD_AGE",
+  "Variable Type": "Num",
+  "Variable Length": "2",
   "Connect Value": "N/A",
   "Required": "No",
   "PII": "No"

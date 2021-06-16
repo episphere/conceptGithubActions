@@ -5,8 +5,9 @@
   "Question Text": "How many children do you have?",
   "Variable Label": "Number children",
   "Variable Name": "SrvBOH_ChildNum_v1r0",
-  "Variable Type": "CHILD",
-  "Variable Length": "Num",
+  "Connect Value for Select all that apply questions": "CHILD",
+  "Variable Type": "Num",
+  "Variable Length": "2",
   "Connect Value": "N/A",
   "Required": "Yes",
   "PII": "Yes"

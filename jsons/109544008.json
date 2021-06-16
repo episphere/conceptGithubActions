@@ -5,8 +5,9 @@
   "Question Text": "How old were you when you first used medication to treat thinning hair or hair loss?",
   "Variable Label": "First used hair med age",
   "Variable Name": "SrvBOH_HairMedAgeF_v1r0",
-  "Variable Type": "HRMED3",
-  "Variable Length": "Num",
+  "Connect Value for Select all that apply questions": "HRMED3",
+  "Variable Type": "Num",
+  "Variable Length": "2",
   "Connect Value": "N/A",
   "Required": "No",
   "PII": "No"

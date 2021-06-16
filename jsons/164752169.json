@@ -5,8 +5,9 @@
   "Question Text": "How old were you when you first saw a doctor or other health professional for severe or ongoing acne?",
   "Variable Label": "Acne saw doctor age",
   "Variable Name": "SrvBOH_AcneSawDocAge_v1r0",
-  "Variable Type": "ACNE2",
-  "Variable Length": "Num",
+  "Connect Value for Select all that apply questions": "ACNE2",
+  "Variable Type": "Num",
+  "Variable Length": "2",
   "Connect Value": "N/A",
   "Required": "No",
   "PII": "No"

@@ -5,8 +5,9 @@
   "Question Text": "Has a doctor or other health professional ever told you that you have or had non-melanoma skin cancer?",
   "Variable Label": "Skin cancer diagnosis",
   "Variable Name": "SrvBOH_SkinCancer_v1r0",
-  "Variable Type": "SKINCANC",
-  "Variable Length": "Num",
+  "Connect Value for Select all that apply questions": "SKINCANC",
+  "Variable Type": "Num",
+  "Variable Length": "1",
   "Required": "No",
   "PII": "No",
   "Connect Value": {

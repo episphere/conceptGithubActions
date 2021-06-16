@@ -5,8 +5,9 @@
   "Question Text": "Sibling 1- How old is [SIBLING INITIALS OR NICKNAME/your sibling] today?",
   "Variable Label": "Sibling 1 age",
   "Variable Name": "SrvBOH_Sib1AgeNum_v1r0",
-  "Variable Type": "SIB_AGE",
-  "Variable Length": "Num",
+  "Connect Value for Select all that apply questions": "SIB_AGE",
+  "Variable Type": "Num",
+  "Variable Length": "2",
   "Connect Value": "N/A",
   "Required": "No",
   "PII": "No"

@@ -5,8 +5,9 @@
   "Question Text": "During the past 12 months, about how many days per week did you typically work for pay?",
   "Variable Label": "Days work",
   "Variable Name": "SrvBOH_DaysWork_v1r0",
-  "Variable Type": "DAYSWORK",
-  "Variable Length": "Num",
+  "Connect Value for Select all that apply questions": "DAYSWORK",
+  "Variable Type": "Num",
+  "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Old Quest Value": {

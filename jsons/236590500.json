@@ -5,8 +5,9 @@
   "Question Text": "Child 1- How old was [CHILD INITIALS OR NICKNAME/your CHILD] when they died?",
   "Variable Label": "Child 1 death age, other",
   "Variable Name": "SrvBOH_Chi1DeathAgeOther_v1r0",
-  "Variable Type": "CHILDDEATH",
-  "Variable Length": "Num",
+  "Connect Value for Select all that apply questions": "CHILDDEATH",
+  "Variable Type": "Num",
+  "Variable Length": "2",
   "Required": [
     "104430631.json",
     "104430631.json"
@@ -16,11 +17,11 @@
     "104430631.json"
   ],
   "Old Quest Value": {
-    "749536749.json": "1",
+    "133418206.json": "1",
     "178420302.json": "99"
   },
   "Connect Value": {
-    "749536749.json": "0",
-    "178420302.json": "77"
+    "133418206.json": "0",
+    "882082266.json": "77"
   }
 }

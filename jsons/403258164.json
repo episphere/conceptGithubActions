@@ -5,8 +5,9 @@
   "Question Text": "Have you ever worked for pay (full-time or part-time)?",
   "Variable Label": "Ever work",
   "Variable Name": "SrvBOH_EverWork_v1r0",
-  "Variable Type": "WORK6",
-  "Variable Length": "Num",
+  "Connect Value for Select all that apply questions": "WORK6",
+  "Variable Type": "Num",
+  "Variable Length": "1",
   "Required": "No",
   "PII": "No",
   "Old Quest Value": {

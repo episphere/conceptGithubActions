@@ -5,8 +5,9 @@
   "Question Text": "How old were you when you last used prescription medication to treat the severe or ongoing acne? If you are currently using this prescription medication, enter your current age.",
   "Variable Label": "Last used acne med age",
   "Variable Name": "SrvBOH_AcneMedL_v1r0",
-  "Variable Type": "ACNEMED3",
-  "Variable Length": "Num",
+  "Connect Value for Select all that apply questions": "ACNEMED3",
+  "Variable Type": "Num",
+  "Variable Length": "2",
   "Connect Value": "N/A",
   "Required": "No",
   "PII": "No"

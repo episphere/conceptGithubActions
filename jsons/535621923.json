@@ -5,8 +5,9 @@
   "Question Text": "Were you adopted or a foster child?",
   "Variable Label": "Adopted, foster child",
   "Variable Name": "SrvBOH_AdoptFost_v1r0",
-  "Variable Type": "ADOPTFOST",
-  "Variable Length": "Num",
+  "Connect Value for Select all that apply questions": "ADOPTFOST",
+  "Variable Type": "Num",
+  "Variable Length": "1",
   "Required": "No",
   "PII": "No",
   "Old Quest Value": {

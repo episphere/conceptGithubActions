@@ -5,8 +5,9 @@
   "Question Text": "Child 1- How old was [CHILD INITIALS OR NICKNAME/your CHILD] when they died?",
   "Variable Label": "Child 1 death age, number",
   "Variable Name": "SrvBOH_Child1DeathAge_v1r0",
-  "Variable Type": "CHILDDEATH_num",
-  "Variable Length": "Num",
+  "Connect Value for Select all that apply questions": "CHILDDEATH_num",
+  "Variable Type": "Num",
+  "Variable Length": "2",
   "Required": "No",
   "PII": "No"
 }

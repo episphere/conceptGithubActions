@@ -5,8 +5,9 @@
   "Question Text": "What is your current job title?â€¯Please be descriptive. For example, high school math teacher, emergency room nurse, automobile painter.",
   "Variable Label": "Current job",
   "Variable Name": "SrvBOH_CurrentJob_v1r0",
-  "Variable Type": "WORK3",
-  "Variable Length": "Char",
+  "Connect Value for Select all that apply questions": "WORK3",
+  "Variable Type": "Char",
+  "Variable Length": "300",
   "Connect Value": "N/A",
   "Required": "No",
   "PII": "No"

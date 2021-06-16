@@ -5,8 +5,9 @@
   "Question Text": "At what age did your father die?",
   "Variable Label": "father age at death, number",
   "Variable Name": "SrvBOH_DadAgeDeathNum_v1r0",
-  "Variable Type": "DADDEATH_num",
-  "Variable Length": "Num",
+  "Connect Value for Select all that apply questions": "DADDEATH_num",
+  "Variable Type": "Num",
+  "Variable Length": "2",
   "Connect Value": "N/A",
   "Required": "No",
   "PII": "No"

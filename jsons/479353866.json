@@ -5,8 +5,9 @@
   "Question Text": "Based on the information you provided when you enrolled in this study, you are [Age from Enrollment Questionnaire] years old today. Is that correct?",
   "Variable Label": "Age confirmation",
   "Variable Name": "SrvBOH_AgeCon_v1r0",
-  "Variable Type": "AGECOR",
-  "Variable Length": "Num",
+  "Connect Value for Select all that apply questions": "AGECOR",
+  "Variable Type": "Num",
+  "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
   "Old Quest Value": {

@@ -5,8 +5,9 @@
   "Question Text": "How old were you when you first used prescription medication to treat the severe or ongoing acne?",
   "Variable Label": "First used acne med age",
   "Variable Name": "SrvBOH_AcneMedF_v1r0",
-  "Variable Type": "ACNEMED2",
-  "Variable Length": "Num",
+  "Connect Value for Select all that apply questions": "ACNEMED2",
+  "Variable Type": "Num",
+  "Variable Length": "2",
   "Connect Value": "N/A",
   "Required": "No",
   "PII": "No"

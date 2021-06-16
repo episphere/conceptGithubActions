@@ -5,8 +5,9 @@
   "Question Text": "On a scale of 1 to 10, where 1 means a little pain and 10 means a lot of pain, how would you rate your physical pain?",
   "Variable Label": "Pain rank",
   "Variable Name": "SrvBOH_PainRank_v1r0",
-  "Variable Type": "PAIN2",
-  "Variable Length": "Num",
+  "Connect Value for Select all that apply questions": "PAIN2",
+  "Variable Type": "Num",
+  "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Old Quest Value": {

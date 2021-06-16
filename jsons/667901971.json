@@ -6,8 +6,9 @@
   "Question Text": "Removal of a lactiferous or milk duct (microdochectomy)",
   "Variable Label": "Removal of a lactiferous or milk duct (microdochectomy)",
   "Variable Name": "SrvBOH_Microdochectomy_v1r0",
-  "Variable Type": "8",
-  "Variable Length": "Num",
+  "Connect Value for Select all that apply questions": "8",
+  "Variable Type": "Num",
+  "Variable Length": "1",
   "Required": "No",
   "PII": "No",
   "Quest_Src Question": "BREASTSUR",
@@ -16,6 +17,6 @@
     "353358909.json": "1"
   },
   "Notes": {
-    "653895180.json": "Only display if MHGROUP9"
+    "531331526.json": "Only display if MHGROUP9"
   }
 }

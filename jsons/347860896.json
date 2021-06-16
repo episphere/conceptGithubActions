@@ -5,8 +5,9 @@
   "Question Text": "Has a doctor or other health professional ever told you that you have or had clinical depression?",
   "Variable Label": "Depression",
   "Variable Name": "SrvBOH_Depression_v1r0",
-  "Variable Type": "DEPRESS",
-  "Variable Length": "Num",
+  "Connect Value for Select all that apply questions": "DEPRESS",
+  "Variable Type": "Num",
+  "Variable Length": "1",
   "Required": "No",
   "PII": "No",
   "Old Quest Value": {

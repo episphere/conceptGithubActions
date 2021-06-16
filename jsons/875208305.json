@@ -5,8 +5,9 @@
   "Question Text": "In general, how would you rate your overall health?",
   "Variable Label": "General health",
   "Variable Name": "SrvBOH_OverHealth_v1r0",
-  "Variable Type": "OVERHEALTH",
-  "Variable Length": "Num",
+  "Connect Value for Select all that apply questions": "OVERHEALTH",
+  "Variable Type": "Num",
+  "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Old Quest Value": {

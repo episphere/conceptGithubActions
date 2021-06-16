@@ -5,8 +5,9 @@
   "Question Text": "What was your employer's for this job?",
   "Variable Label": "Past employer's for job",
   "Variable Name": "SrvBOH_Employer_v1r0",
-  "Variable Type": "EMPLYR2",
-  "Variable Length": "Char",
+  "Connect Value for Select all that apply questions": "EMPLYR2",
+  "Variable Type": "Char",
+  "Variable Length": "70",
   "Connect Value": "N/A",
   "Required": "No",
   "PII": "Yes"

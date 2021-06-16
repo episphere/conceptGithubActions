@@ -5,8 +5,9 @@
   "Question Text": "Are you now married, widowed, divorced, separated, never married, or living with a partner?",
   "Variable Label": "Marital status",
   "Variable Name": "SrvBOH_Marital_v1r0",
-  "Variable Type": "MARITAL",
-  "Variable Length": "Num",
+  "Connect Value for Select all that apply questions": "MARITAL",
+  "Variable Type": "Num",
+  "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Old Quest Value": {
@@ -25,6 +26,6 @@
     "649436542.json": "3",
     "733527132.json": "4",
     "741094625.json": "5",
-    "746038746.json": "99"
+    "805028061.json": "99"
   }
 }

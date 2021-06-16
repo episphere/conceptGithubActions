@@ -5,8 +5,9 @@
   "Question Text": "Do you think of yourself as:",
   "Variable Label": "Sexual orientation",
   "Variable Name": "SrvBOH_SexOrient_v1r0",
-  "Variable Type": "SEXORIENT",
-  "Variable Length": "Num",
+  "Connect Value for Select all that apply questions": "SEXORIENT",
+  "Variable Type": "Num",
+  "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Old Quest Value": {
@@ -21,6 +22,6 @@
     "903084185.json": "1",
     "999994434.json": "2",
     "481662922.json": "3",
-    "746038746.json": "99"
+    "805028061.json": "99"
   }
 }

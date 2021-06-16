@@ -5,8 +5,9 @@
   "Question Text": "Child 1-For your [oldest/next oldest] sibling, please create a nickname or share initials that we can use to refer to this sibling again in future surveys.",
   "Variable Label": "Child 1 name",
   "Variable Name": "SrvBOH_Child1Name_v1r0",
-  "Variable Type": "CHILDNAME",
-  "Variable Length": "Char",
+  "Connect Value for Select all that apply questions": "CHILDNAME",
+  "Variable Type": "Char",
+  "Variable Length": "300",
   "Connect Value": "N/A",
   "Required": "No",
   "PII": "No"

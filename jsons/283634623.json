@@ -5,8 +5,9 @@
   "Question Text": "Have you ever seen a doctor or other health professional for severe or ongoing acne?",
   "Variable Label": "Acne saw doctor",
   "Variable Name": "SrvBOH_AcneSawDoc_v1r0",
-  "Variable Type": "ACNE",
-  "Variable Length": "Num",
+  "Connect Value for Select all that apply questions": "ACNE",
+  "Variable Type": "Num",
+  "Variable Length": "1",
   "Required": "No",
   "PII": "No",
   "Old Quest Value": {

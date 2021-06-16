@@ -5,8 +5,9 @@
   "Question Text": "Have you ever used prescription medication to treat the severe or ongoing acne?",
   "Variable Label": "Acne med",
   "Variable Name": "SrvBOH_AcneMed_v1r0",
-  "Variable Type": "ACNEMED",
-  "Variable Length": "Num",
+  "Connect Value for Select all that apply questions": "ACNEMED",
+  "Variable Type": "Num",
+  "Variable Length": "1",
   "Required": "No",
   "PII": "No",
   "Old Quest Value": {
