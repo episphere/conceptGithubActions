@@ -36,7 +36,7 @@ function parseMasterModule(){
                     let header = currJSON['Connect Value for Select all that apply questions'];
                     let toInsert = {};
                     let headerName = currJSON['Connect Value for Select all that apply questions']
-
+                    
                     if(!currJSON['Quest_Src Question']){                    
 
                         if(currJSON['Connect Value'] && Array.isArray(currJSON['Connect Value'])){
@@ -171,8 +171,9 @@ function parseMasterModule(){
                             if(currJSON['Source Question']){
                                 toInsert['conceptId'] = currJSON['Source Question'].substring(0,9);
                                 if(!masterJSON[currJSON['Source Question']]){
-                                    //console.log(currJSON)
+                                    console.log(currJSON)
                                 }
+                                
                                 toInsert['concept'] = masterJSON[currJSON['Source Question']]['Variable Name'];
                             }
                             
