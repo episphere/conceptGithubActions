@@ -90,7 +90,7 @@ function parseMasterModule(){
                             isTB = true;
                         }
                         headerName = currJSON['Quest_Src Question'];
-
+                        
                         if(toReturn[headerName]){
                             toInsert = toReturn[headerName];
                         }
@@ -110,9 +110,25 @@ function parseMasterModule(){
                         }
                         if(currJSON['Source Question']){
                             toInsert['conceptId'] = currJSON['Source Question'].substring(0,9);
+                            if(!masterJSON[currJSON['Source Question']]){
+                                console.log(currJSON)
+                            }
                             toInsert['concept'] = masterJSON[currJSON['Source Question']]['Variable Name'];
                         }
-                        toReturn[headerName] = toInsert;
+                        if(!Array.isArray(headerName)){
+                            toReturn[headerName] = toInsert;
+                        }
+                        else{
+                            for(let i = 0; i < header.length; i++){
+                                let converted = masterJSON[headerName[i]];
+                                if(converted){
+                                    toReturn[converted['Variable Name']] = toInsert;
+                                }
+                                else{
+                                    console.log('f;sadlkvbsd;vlksabv')
+                                }
+                            }
+                        }
                     }
                 }
             }
