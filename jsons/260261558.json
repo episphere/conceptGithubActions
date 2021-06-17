@@ -1,0 +1,17 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "Source Question": "984901301.json",
+  "conceptId": "260261558",
+  "Question Text": "Months use estrogen-only skin gel, cream, or spray-on medication",
+  "Variable Label": "Months use estrogen-only skin gel, cream, or spray-on medication",
+  "Variable Name": "SrvMRE_EstGelMoUse_v1r0",
+  "Connect Value for Select all that apply questions": "ESTROHOROtherMonth",
+  "Variable Type": "Num",
+  "Variable Length": "3",
+  "Old Quest Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if ESTROHOR=3",
+  "Quest_Src Question": "ESTROHOR5_4"
+}

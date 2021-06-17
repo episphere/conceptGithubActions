@@ -1,0 +1,25 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "965707586.json",
+  "conceptId": "586710783",
+  "Question Text": "Do you smoke a combination of marijuana with tobacco now?",
+  "Variable Label": "Use marijana with tobacco now",
+  "Variable Name": "SrvSAS_UseTobMJNow_v1r0",
+  "Connect Value for Select all that apply questions": "TOMAR4",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "486552920.json": "1",
+    "822554139.json": "2",
+    "716906674.json": "3",
+    "198735984.json": "4"
+  },
+  "Connect Value": {
+    "486552920.json": "0",
+    "822554139.json": "1",
+    "716906674.json": "2",
+    "198735984.json": "3"
+  }
+}

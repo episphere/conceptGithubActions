@@ -1,0 +1,30 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "conceptId": "775324618",
+  "Question Text": "During the season[s] in the past 12 months that you did high-intensity circuit training (such as P90x or Crossfit), about how often did you do this activity?",
+  "Variable Label": "During the season[s] in the past 12 months that you did high-intensity circuit training (such as P90x or Crossfit), about how often did you do this activity?",
+  "Variable Name": "SrvMRE_HICTOften_v1r0",
+  "Connect Value for Select all that apply questions": "EXEREC3N",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if EXEREC1=13",
+  "Old Quest Value": {
+    "239152340.json": "1",
+    "582006876.json": "2",
+    "645894551.json": "3",
+    "996315715.json": "4",
+    "671267928.json": "5",
+    "408121350.json": "6"
+  },
+  "Connect Value": {
+    "239152340.json": "0",
+    "582006876.json": "1",
+    "645894551.json": "2",
+    "996315715.json": "3",
+    "671267928.json": "4",
+    "408121350.json": "5"
+  }
+}
