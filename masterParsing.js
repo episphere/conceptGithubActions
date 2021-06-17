@@ -112,10 +112,18 @@ function parseMasterModule(){
                                    //console.log(val)
                                    let keyNum = val.split('=')[0].trim();
                                    let valNum = val.split('=')[1].trim();
+                                   let thisConcept = '';
+                                   if(varNameToConcept[valNum]){
+                                       
+                                       thisConcept = varNameToConcept[valNum]
+                                   }
+                                   else{
+                                       console.log(valNum)
+                                   }
                                    isTB = false;
                                    toInsert['questIds'] = {}
                                    toInsert['questIds'][keyNum] = {
-                                       "conceptId":masterJSON[valNum]?masterJSON[valNum]['conceptId']: '',
+                                       "conceptId":masterJSON[valNum]?masterJSON[valNum]['conceptId']: thisConcept,
                                        "concept":valNum
                                    }
                                    toInsert['questionText'] = currJSON['Question Text']
