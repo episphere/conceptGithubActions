@@ -59,7 +59,7 @@ function parseMasterModule(){
                                 }
                                 questIds[currJSON['Connect Value'][keys[j]]] = {
                                     "conceptId": keys[j].substring(0,9),
-                                    "concept": masterJSON[keys[j]]['Variable Name']
+                                    "concept": masterJSON[keys[j]]['Variable Name']?masterJSON[objKeys[k]]['Variable Name']:masterJSON[objKeys[k]]['PII']
                                 }
                             }
                             if(currJSON['Connect Value for Select all that apply questions'] === undefined){
@@ -99,7 +99,8 @@ function parseMasterModule(){
                                for(let k = 0; k < objKeys.length; k++){
                                     qIds[val[objKeys[k]]] = {
                                         "conceptId":objKeys[k].substring(0,9),
-                                        "concept":masterJSON[objKeys[k]]['Variable Name']
+                                        "concept":masterJSON[objKeys[k]]['Variable Name']? masterJSON[objKeys[k]]['Variable Name']: masterJSON[objKeys[k]]['PII']
+                                        
                                     }
                                 }
                                 toInsert['questIds'] = qIds;
