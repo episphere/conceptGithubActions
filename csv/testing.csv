@@ -1219,7 +1219,7 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question,co
 129084651,Survey,726699695,Background and Overall Health,278159347,Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had response from SIBCANC2/another type of cancer?,171238071,Child 1 response from SIB1CANC2/another type of cancer year,Child 1 response from Child 1CANC2/another type of cancer year,SrvBOH_C1OtherCancYr_v1r0,CHILDCANC3X_YEAR,Year,4,,,,,,yyyy,No,No,,Connect Format/Values - Only display if SIBCANC2= 23,,,,,,CHILDCANC3X
 129084651,Survey,726699695,Background and Overall Health,845219872,Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had cancer?,843649258,Child 1 cancer age,Child 1 cancer age,SrvBOH_C1CancerAge_v1r0,CHILDCANC3Y_AGE,Num,2,,,,,,N/A,No,No,,Connect Format/Values - Only display if SIBCANC2= 24,,,,,,CHILDCANC3Y
 129084651,Survey,726699695,Background and Overall Health,845219872,Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had cancer?,449224715,Child 1 cancer year,Child 1 cancer year,SrvBOH_C1CancerYear_v1r0,CHILDCANC3Y_YEAR,Year,4,,,,,,yyyy,No,No,,Connect Format/Values - Only display if SIBCANC2= 24,,,,,,CHILDCANC3Y
-129084651,Survey,726699695,Background and Overall Health,,,412624121,What is the highest level of school that you have completed?,Education level,SrvBOH_EducLevel_v1r0,EDU,Num,2,,,148186542,1 = Grade school grades 1-8,978204320,0= Grade school grades 1-8,No,No,,,,,,,,
+129084651,Survey,726699695,Background and Overall Health,,,412624121,What is the highest level of school that you have completed?,Education level,SrvBOH_EducLevel_v1r0,EDU,Num,2,,,812347951,1 = Grade school grades 1-8,978204320,0= Grade school grades 1-8,No,No,,,,,,,,
 ,,,,,,,,,,,,,,,935502060,"2 = Some high school grades 9-11=, no diploma",935502060,"1= Some high school grades 9-11=, no diploma",,,,,,,,,,
 ,,,,,,,,,,,,,,,404564707,3 = High school graduate or GED,404564707,2= High school graduate or GED,,,,,,,,,,
 ,,,,,,,,,,,,,,,432193665,"4 = Some college, no degree",432193665,"3= Some college, no degree",,,,,,,,,,
@@ -1228,7 +1228,7 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question,co
 ,,,,,,,,,,,,,,,875342283,7 = College graduate Bachelor’s degree=,875342283,6= College graduate Bachelor's degree=,,,,,,,,,,
 ,,,,,,,,,,,,,,,598242454,"8 = Advanced degree Master’s, Doctorate, etc.=",598242454,"7= Advanced degree Master's, Doctorate, etc.=",,,,,,,,,,
 ,,,,,,,,,,,,,,,431441193,9 = Other: Please describe,181769837,55 = Other,,,,,,,,,,
-,,,,,,,,,,EDU_TB,,,,,554122129,9 = Other: Please describe [text box],,,,,,,,,,,,
+,,,,,,,,,,EDU_TB,,,,,415017324,9 = Other: Please describe [text box],,,,,,,,,,,,
 129084651,Survey,726699695,Background and Overall Health,367803647,What is the highest level of school that you have completed?,940387701,Education Please describe [text box],Education Please describe [text box],SrvBOH_EducDesc_v1r0,,Char,300,,,,,,N/A,No,No,,Only fill if EDU = Other,,,,,,EDU
 129084651,Survey,726699695,Background and Overall Health,,,784967158,Are you currently enrolled in school?,Student,SrvBOH_Student_v1r0,STUDENT,Num,1,,,104430631,1 = No,104430631,0=No,No,No,,,,,,,,
 ,,,,,,,,,,,,,,,551525967,"2 = Yes, full-time student",551525967,"1=Yes, full-time student",,,,,,,,,,
@@ -1386,18 +1386,18 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question,co
 192505768,Recruitment,883203566,Sign in,,,527823810,Henry Ford Health System Reported Ethnicity,Henry Ford Health System Reported Ethnicity,RcrtSI_HFHSEthnicity_v1r0,,Num,2,628733063,0=Hispanic or Latino,,,,,For Henry Ford HS,No,,,,Recruitment Data Dictionary,Yes,No,,
 ,,,,,,,,,,,,,319570637,1=Not Hispanic or Latino,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,178420302,77=Unavailable/Unknown,,,,,,,,,,,,,,
-192505768,Recruitment,883203566,Sign in,,,412947828,Henry Ford Health System Race Ethnicity Combination,Henry Ford Health System Race Ethnicity Combination,RcrtSI_HFHSRE_v1r0,,Num,2,107428159,0 = African American/Black and Hispanic or Latino,,,,,For Henry Ford HS,No,,,RcrtSI_HFHSRE_v1r0 equals 0 if RcrtSI_HFHSRace_v1r0 equals 0 and RcrtSI_HFHSEthnicity equals 0,Master Data Dictionary,No,No,,
-,,,,,,,,,,,,,635542936,1 = African American/Black and not Hispanic or Latino,,,,,,,,,RcrtSI_HFHSRE_v1r0 equals 1 if RcrtSI_HFHSRace_v1r0 equals 0 and RcrtSI_HFHSEthnicity equals 1,,,,,
-,,,,,,,,,,,,,771446603,2 = African American/Black and Ethnicity Unavailable/Unknown,,,,,,,,,RcrtSI_HFHSRE_v1r0 equals 2 if RcrtSI_HFHSRace_v1r0 equals 0 and RcrtSI_HFHSEthnicity equals 77,,,,,
-,,,,,,,,,,,,,828374645,3 = Caucasian/White and Hispanic or Latino,,,,,,,,,RcrtSI_HFHSRE_v1r0 equals 3 if RcrtSI_HFHSRace_v1r0 equals 1 and RcrtSI_HFHSEthnicity equals 0,,,,,
-,,,,,,,,,,,,,558116766,4 = Caucasian/White and not Hispanic or Latino,,,,,,,,,RcrtSI_HFHSRE_v1r0 equals 4 if RcrtSI_HFHSRace_v1r0 equals 1 and RcrtSI_HFHSEthnicity equals 1,,,,,
-,,,,,,,,,,,,,143338851,5 = Caucasian/White and Ethnicity Unavailable/Unknown,,,,,,,,,RcrtSI_HFHSRE_v1r0 equals 5 if RcrtSI_HFHSRace_v1r0 equals 1 and RcrtSI_HFHSEthnicity equals 77,,,,,
-,,,,,,,,,,,,,856977635,"6 = Other (Hispanic, Asian, American Indian/Alaskan Native, Native Hawaiian or Pacific Islander) and Hispanic or Latino",,,,,,,,,RcrtSI_HFHSRE_v1r0 equals 6 if RcrtSI_HFHSRace_v1r0 equals 2 and RcrtSI_HFHSEthnicity equals 0,,,,,
-,,,,,,,,,,,,,933705065,"7 = Other (Hispanic, Asian, American Indian/Alaskan Native, Native Hawaiian or Pacific Islander) and not Hispanic or Latino",,,,,,,,,RcrtSI_HFHSRE_v1r0 equals 7 if RcrtSI_HFHSRace_v1r0 equals 2 and RcrtSI_HFHSEthnicity equals 1,,,,,
-,,,,,,,,,,,,,191082509,"8 = Other (Hispanic, Asian, American Indian/Alaskan Native, Native Hawaiian or Pacific Islander) and Ethnicity Unavailable/Unknown",,,,,,,,,RcrtSI_HFHSRE_v1r0 equals 8 if RcrtSI_HFHSRace_v1r0 equals 2 and RcrtSI_HFHSEthnicity equals 77,,,,,
-,,,,,,,,,,,,,414714027,9 = Race Unavailable/Unknown and Ethnicity Hispanic or Latino,,,,,,,,,RcrtSI_HFHSRE_v1r0 equals 9 if RcrtSI_HFHSRace_v1r0 equals 77 and RcrtSI_HFHSEthnicity equals 0,,,,,
-,,,,,,,,,,,,,445298891,10 = Race Unavailable/Unknown and Ethnicity not Hispanic or Latino,,,,,,,,,RcrtSI_HFHSRE_v1r0 equals 10 if RcrtSI_HFHSRace_v1r0 equals 77 and RcrtSI_HFHSEthnicity equals 1,,,,,
-,,,,,,,,,,,,,936191095,77 = Race Unavailable/Unknown and Ethnicity Unavailable/Unknown,,,,,,,,,RcrtSI_HFHSRE_v1r0 equals 77 if RcrtSI_HFHSRace_v1r0 equals 77 and RcrtSI_HFHSEthnicity equals 77,,,,,
+192505768,Recruitment,883203566,Sign in,,,412947828,Henry Ford Health System Race Ethnicity Combination,Henry Ford Health System Race Ethnicity Combination,RcrtSI_HFHSRE_v1r0,,Num,2,206354699,0 = African American/Black and Hispanic or Latino,,,,,For Henry Ford HS,No,,,RcrtSI_HFHSRE_v1r0 equals 0 if RcrtSI_HFHSRace_v1r0 equals 0 and RcrtSI_HFHSEthnicity equals 0,Master Data Dictionary,No,No,,
+,,,,,,,,,,,,,668988627,1 = African American/Black and not Hispanic or Latino,,,,,,,,,RcrtSI_HFHSRE_v1r0 equals 1 if RcrtSI_HFHSRace_v1r0 equals 0 and RcrtSI_HFHSEthnicity equals 1,,,,,
+,,,,,,,,,,,,,836258431,2 = African American/Black and Ethnicity Unavailable/Unknown,,,,,,,,,RcrtSI_HFHSRE_v1r0 equals 2 if RcrtSI_HFHSRace_v1r0 equals 0 and RcrtSI_HFHSEthnicity equals 77,,,,,
+,,,,,,,,,,,,,648736439,3 = Caucasian/White and Hispanic or Latino,,,,,,,,,RcrtSI_HFHSRE_v1r0 equals 3 if RcrtSI_HFHSRace_v1r0 equals 1 and RcrtSI_HFHSEthnicity equals 0,,,,,
+,,,,,,,,,,,,,359255808,4 = Caucasian/White and not Hispanic or Latino,,,,,,,,,RcrtSI_HFHSRE_v1r0 equals 4 if RcrtSI_HFHSRace_v1r0 equals 1 and RcrtSI_HFHSEthnicity equals 1,,,,,
+,,,,,,,,,,,,,332492572,5 = Caucasian/White and Ethnicity Unavailable/Unknown,,,,,,,,,RcrtSI_HFHSRE_v1r0 equals 5 if RcrtSI_HFHSRace_v1r0 equals 1 and RcrtSI_HFHSEthnicity equals 77,,,,,
+,,,,,,,,,,,,,361151212,"6 = Other (Hispanic, Asian, American Indian/Alaskan Native, Native Hawaiian or Pacific Islander) and Hispanic or Latino",,,,,,,,,RcrtSI_HFHSRE_v1r0 equals 6 if RcrtSI_HFHSRace_v1r0 equals 2 and RcrtSI_HFHSEthnicity equals 0,,,,,
+,,,,,,,,,,,,,324219139,"7 = Other (Hispanic, Asian, American Indian/Alaskan Native, Native Hawaiian or Pacific Islander) and not Hispanic or Latino",,,,,,,,,RcrtSI_HFHSRE_v1r0 equals 7 if RcrtSI_HFHSRace_v1r0 equals 2 and RcrtSI_HFHSEthnicity equals 1,,,,,
+,,,,,,,,,,,,,111257747,"8 = Other (Hispanic, Asian, American Indian/Alaskan Native, Native Hawaiian or Pacific Islander) and Ethnicity Unavailable/Unknown",,,,,,,,,RcrtSI_HFHSRE_v1r0 equals 8 if RcrtSI_HFHSRace_v1r0 equals 2 and RcrtSI_HFHSEthnicity equals 77,,,,,
+,,,,,,,,,,,,,411487220,9 = Race Unavailable/Unknown and Ethnicity Hispanic or Latino,,,,,,,,,RcrtSI_HFHSRE_v1r0 equals 9 if RcrtSI_HFHSRace_v1r0 equals 77 and RcrtSI_HFHSEthnicity equals 0,,,,,
+,,,,,,,,,,,,,745228802,10 = Race Unavailable/Unknown and Ethnicity not Hispanic or Latino,,,,,,,,,RcrtSI_HFHSRE_v1r0 equals 10 if RcrtSI_HFHSRace_v1r0 equals 77 and RcrtSI_HFHSEthnicity equals 1,,,,,
+,,,,,,,,,,,,,481072761,77 = Race Unavailable/Unknown and Ethnicity Unavailable/Unknown,,,,,,,,,RcrtSI_HFHSRE_v1r0 equals 77 if RcrtSI_HFHSRace_v1r0 equals 77 and RcrtSI_HFHSEthnicity equals 77,,,,,
 192505768,Recruitment,883203566,Sign in,,,706256705,Site reported sex,Site reported sex,RcrtSI_Sex_v1r0,,Num,1,536341288,0 = Female,,,,,Yes,No,,,,Recruitment Data Dictionary,Yes,No,,
 ,,,,,,,,,,,,,654207589,1 = Male,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,830573274,2 = Intersex or other,,,,,,,,,,,,,,
@@ -1939,9 +1939,9 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question,co
 ,,,,,,,,,,,,,353358909,1=Yes,,,,,,,,,,,,,,
 237817859,Help Desk,635994596,Withdrawal,,,773707518,Revoke HIPAA,Revoke HIPAA,HdWd_HIPAArevoked_v1r0,,Num,1,104430631,0=No,,,,,Yes,No,,Set by help desk agent via dashboard,,"Withdrawal, Study Manager Data Dictionary",No,Yes,4/23/21,
 ,,,,,,,,,,,,,353358909,1=Yes,,,,,,,,,,,,,,
-237817859,Help Desk,635994596,Withdrawal,,,577794331,HIPAA Revocation Categorical,HIPAA Revocation Categorical,HdWd_HIPAARevokedCat_v1r0,,Num,1,626989437,0=Not Revoked,,,,,Yes,No,,,Not Revoked: (HdWD_HIPAArevoked_v1r0 equals 0,Master Data Dictionary,No,No,6/3/21,
-,,,,,,,,,,,,,842158870,1=Revoked but not signed,,,,,,,,,Revoked but not signed: (HdWd_HIPAArevoked_v1r0 equals 1 and HdWd_HIPAArevokesign_v1r0 equals 0),,,,,
-,,,,,,,,,,,,,205496999,2=Revoked and signed,,,,,,,,,Revoked and signed: (HdWd_HIPAArevoked_v1r0 equals 1 and HdWd_HIPAArevokesign_v1r0 equals 1),,,,,
+237817859,Help Desk,635994596,Withdrawal,,,577794331,HIPAA Revocation Categorical,HIPAA Revocation Categorical,HdWd_HIPAARevokedCat_v1r0,,Num,1,375870255,0=Not Revoked,,,,,Yes,No,,,Not Revoked: (HdWD_HIPAArevoked_v1r0 equals 0,Master Data Dictionary,No,No,6/3/21,
+,,,,,,,,,,,,,218617541,1=Revoked but not signed,,,,,,,,,Revoked but not signed: (HdWd_HIPAArevoked_v1r0 equals 1 and HdWd_HIPAArevokesign_v1r0 equals 0),,,,,
+,,,,,,,,,,,,,691819034,2=Revoked and signed,,,,,,,,,Revoked and signed: (HdWd_HIPAArevoked_v1r0 equals 1 and HdWd_HIPAArevokesign_v1r0 equals 1),,,,,
 237817859,Help Desk,635994596,Withdrawal,,,407743866,HIPAA Revocation Version,HIPAA Revocation Version,HdWd_HIPAArevokedver_v1r0,,Char,,,N/A,,,,,Yes,No,,Other version codes to be added as needed.,,Master Data Dictionary,No,No,4/9/21,
 237817859,Help Desk,635994596,Withdrawal,,,765336427,First Name extracted from HIPAA revocation form,First Name,HdWd_Fname_v1r0,,Char,50,,N/A,,,,,Yes,Yes,,Legal first name for all non-KP sites. For KP sites it is their ID card name.,,Master Data Dictionary,No,No,,
 237817859,Help Desk,635994596,Withdrawal,,,479278368,Last Name extracted from HIPAA revocation form,Last Name,HdWd_Lname_v1r0,,Char,50,,N/A,,,,,Yes,Yes,,Legal last name for all non-KP sites. For KP sites it is their ID card name.,,Master Data Dictionary,No,No,,
@@ -1964,9 +1964,9 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question,co
 237817859,Help Desk,635994596,Withdrawal,,,366295286,Who Requested the Refusal/Withdrawal- Other (specify):,Who Requested the Refusal/Withdrawal- Other (specify):,HdWd_RequestedRefWdOth_v1r0,,Char,800,,,,,,,Yes,No,,Other may be a family member or other individual who makes the request on behalf of the participant and these are required to be vetted by the CCC before NORC enters them into the dashboard,,Master Data Dictionary,,,6/2/21,
 237817859,Help Desk,635994596,Withdrawal,,,831041022,Destroy data,Wants data destroyed,HdWd_Destroydata_v1r0,,Num,1,104430631,0=No,,,,,Yes,No,,Set by help desk agent via dashboard. Destroy data also triggers Withdraw Consent and Revoke HIPAA,,"Withdrawal, Study Manager Data Dictionary",No,Yes,4/22/21,
 ,,,,,,,,,,,,,353358909,1=Yes,,,,,,,,,,,,,,
-237817859,Help Desk,635994596,Withdrawal,,,883668444,Destroy Data Categorical,Destroy Data Categorical,HdWd_DestroyDataCat_v1r0,,Num,1,813473747,0=Not Requested,,,,,Yes,No,,,Not requested: HdWd_DestroyData_v1r0 equals 0,Master Data Dictionary,No,No,6/3/21,
-,,,,,,,,,,,,,582206014,1=Requested but not signed,,,,,,,,,Requested but not signed: HdWd_DestroyData_v1r0 equals 1 and HdWd_Datadestroysign_v1r0 equals 0,,,,,
-,,,,,,,,,,,,,872767037,2=Requested and signed,,,,,,,,,Requested and signed: HdWd_DestroyData_v1r0 equals 1 and HdWd_Datadestroysign_v1r0 equals 1,,,,,
+237817859,Help Desk,635994596,Withdrawal,,,883668444,Destroy Data Categorical,Destroy Data Categorical,HdWd_DestroyDataCat_v1r0,,Num,1,680129286,0=Not Requested,,,,,Yes,No,,,Not requested: HdWd_DestroyData_v1r0 equals 0,Master Data Dictionary,No,No,6/3/21,
+,,,,,,,,,,,,,315052933,1=Requested but not signed,,,,,,,,,Requested but not signed: HdWd_DestroyData_v1r0 equals 1 and HdWd_Datadestroysign_v1r0 equals 0,,,,,
+,,,,,,,,,,,,,552954266,2=Requested and signed,,,,,,,,,Requested and signed: HdWd_DestroyData_v1r0 equals 1 and HdWd_Datadestroysign_v1r0 equals 1,,,,,
 237817859,Help Desk,635994596,Withdrawal,,,304438543,Data Destruction Form Version,Data Destruction Form Version,HdWd_DestroyDataVer_v1r0,,Char,,,N/A,,,,,Yes,No,,Other version codes to be added as needed.,,Master Data Dictionary,No,No,4/9/21,
 237817859,Help Desk,635994596,Withdrawal,,,104278817,First Name extracted from Data Destruction form,First Name,HdWd_FnameDD_v1r0,,Char,50,,N/A,,,,,Yes,Yes,,Legal first name for all non-KP sites. For KP sites it is their ID card name.,,Master Data Dictionary,No,No,4/9/21,
 237817859,Help Desk,635994596,Withdrawal,,,744604255,Last Name extracted from Data Destruction form,Last Name,HdWd_LnameDD_v1r0,,Char,50,,N/A,,,,,Yes,Yes,,Legal last name for all non-KP sites. For KP sites it is their ID card name.,,Master Data Dictionary,No,No,4/9/21,
@@ -2053,20 +2053,20 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question,co
 237817859,Help Desk,861315814,Refusal,,,715390138,Other reasons (specify),Other reasons (specify),HdRef_Other_v1r0,,Char,800,,N/A,,,,,Yes,No,,,,Master Data Dictionary,No,Yes,,
 237817859,Help Desk,861315814,Refusal,,,538619788,Reason not given,Reason not given,HdRef_NotGiven_v1r0,,Num,1,104430631,0=No,,,,,Yes,No,,,,Master Data Dictionary,No,Yes,,
 ,,,,,,,,,,,,,353358909,1=Yes,,,,,,,,,,,,,,
-332961895,Study Manager,581036703,Metrics,,,507120821,Disposition codes for enrollment status,Enrollment status,SMMet_EnrollStatus_v1r0,,Num,1,495863430,0 = Signed-in,,,,,,,,Developed for enrollment status on Study Manager dashboard.  Row of derivation is on same row as corresponding response variable.,RcrtSI_SignedIn_v1r0 equals 1 AND RcrtCS_Consented_v1r0 equals 0,Master Data Dictionary,No,Yes,5/27/21,
-,,,,,,,,,,,,,212700767,1 = Consented,,,,,,,,,RcrtCS_Consented_v1r0 equals 1 AND RcrtUP_Submitted_v1r0 equals 0 AND RcrtV_Verification_v1r0 equals 0,,,,,
-,,,,,,,,,,,,,112478753,2 = User Profile Complete,,,,,,,,,RcrtUP_Submitted_v1r0 equals 1 AND RcrtV_Verification_v1r0 equals 0,,,,,
-,,,,,,,,,,,,,312786620,3 = Verification Complete,,,,,,,,,RcrtV_Verification_v1r0 equals 1 or RcrtV_Verification_v1r0 equals 2 or RcrtV_Verification_v1r0 equals 3,,,,,
-,,,,,,,,,,,,,405366513,4 = Cannot Be Verified,,,,,,,,,RcrtV_Verification_v1r0 equals 2,,,,,
-,,,,,,,,,,,,,121253489,5 = Verified - mimimally enrolled,,,,,,,,,RcrtV_Verification_v1r0 equals 1,,,,,
-,,,,,,,,,,,,,717278976,6 = Fully Enrolled,,,,,,,,,SMMet_FullyEnrolled_v1r0 equals 1,,,,,
-332961895,Study Manager,581036703,Metrics,,,912301837,Disposition codes for participation status,Participation status,SMMet_PartStatus_v1r0,,Num,1,569088785,0 = No Refusal,,,,,,,,Developed for participant status on Study Manager dashboard.  Row of derivation is on same row as corresponding response variable.,HdRef_Basesrv_v1r0 equals0 AND HdRef_Baseblood_v1r0 equals 0 AND HdRef_Baseurine_v1r0 and HdRef_Basesaliva_v1r0 equals 0 AND HdRef_Allsrv_v1r0 equals 0 AND HdRef_Allsample_v1r0 equals 0 AND HdRef_BlSpecSrv_v1r0 equals 0 AND HdWd_WdConsent_v1r0 equals 0 AND HdWd_Activepart_v1r0 equals 0 AND HdWd_HIPAArevoked_v1r0 equals 0 AND HdWd_Destroydata_v1r0 equals 0 AND HdWd_Deceased_v1r0 equals 0,Master Data Dictionary,No,Yes,5/27/21,
-,,,,,,,,,,,,,451164657,1 = Refused some activities,,,,,,,,,HdWd_WdConsent_v1r0 equals 0 AND HdWd_Activepart_v1r0 equals 0 AND HdWd_HIPAArevoked_v1r0 equals 0 AND HdWd_Destroydata_v1r0 equals 0 AND HdWd_Deceased_v1r0 equals 0,,,,,
-,,,,,,,,,,,,,249267083,2 = Refused all future activities,,,,,,,,,HdWd_Activepart_v1r0 equals 1 AND HdWd_HIPAArevoked_v1r0 equals 0 And HdWd_WdConsent_v1r0 equals 0 AND HdWd_Deceased_v1r0 equals 0 AND HdWd_Destroydata_v1r0 equals 0,,,,,
-,,,,,,,,,,,,,152951792,3 = Revoked HIPAA only,,,,,,,,,HdWd_HIPAArevoked_v1r0 equals 1 And HdWd_WdConsent_v1r0 equals 0 And HdWd_Deceased_v1r0 equals 0 AND HdWd_Destroydata_v1r0 equals 0,,,,,
-,,,,,,,,,,,,,206718197,4 = Withdrew consent,,,,,,,,,HdWd_HIPAArevoked_v1r0 equals 1 AND HdWd_WdConsent_v1r0 equals1 AND HdWd_Deceased_v1r0 equals 0 AND HdWd_Destroydata_v1r0 equals 0,,,,,
-,,,,,,,,,,,,,752793807,5 = Destroy data,,,,,,,,,HdWd_Destroydata_v1r0 equals 1,,,,,
-,,,,,,,,,,,,,152929395,6 = Deceased,,,,,,,,,HdWd_Deceased_v1r0 equals 1,,,,,
+332961895,Study Manager,581036703,Metrics,,,507120821,Disposition codes for enrollment status,Enrollment status,SMMet_EnrollStatus_v1r0,,Num,1,876203498,0 = Signed-in,,,,,,,,Developed for enrollment status on Study Manager dashboard.  Row of derivation is on same row as corresponding response variable.,RcrtSI_SignedIn_v1r0 equals 1 AND RcrtCS_Consented_v1r0 equals 0,Master Data Dictionary,No,Yes,5/27/21,
+,,,,,,,,,,,,,407819552,1 = Consented,,,,,,,,,RcrtCS_Consented_v1r0 equals 1 AND RcrtUP_Submitted_v1r0 equals 0 AND RcrtV_Verification_v1r0 equals 0,,,,,
+,,,,,,,,,,,,,267629134,2 = User Profile Complete,,,,,,,,,RcrtUP_Submitted_v1r0 equals 1 AND RcrtV_Verification_v1r0 equals 0,,,,,
+,,,,,,,,,,,,,230498045,3 = Verification Complete,,,,,,,,,RcrtV_Verification_v1r0 equals 1 or RcrtV_Verification_v1r0 equals 2 or RcrtV_Verification_v1r0 equals 3,,,,,
+,,,,,,,,,,,,,676088626,4 = Cannot Be Verified,,,,,,,,,RcrtV_Verification_v1r0 equals 2,,,,,
+,,,,,,,,,,,,,720939307,5 = Verified - mimimally enrolled,,,,,,,,,RcrtV_Verification_v1r0 equals 1,,,,,
+,,,,,,,,,,,,,294961790,6 = Fully Enrolled,,,,,,,,,SMMet_FullyEnrolled_v1r0 equals 1,,,,,
+332961895,Study Manager,581036703,Metrics,,,912301837,Disposition codes for participation status,Participation status,SMMet_PartStatus_v1r0,,Num,1,108833091,0 = No Refusal,,,,,,,,Developed for participant status on Study Manager dashboard.  Row of derivation is on same row as corresponding response variable.,HdRef_Basesrv_v1r0 equals0 AND HdRef_Baseblood_v1r0 equals 0 AND HdRef_Baseurine_v1r0 and HdRef_Basesaliva_v1r0 equals 0 AND HdRef_Allsrv_v1r0 equals 0 AND HdRef_Allsample_v1r0 equals 0 AND HdRef_BlSpecSrv_v1r0 equals 0 AND HdWd_WdConsent_v1r0 equals 0 AND HdWd_Activepart_v1r0 equals 0 AND HdWd_HIPAArevoked_v1r0 equals 0 AND HdWd_Destroydata_v1r0 equals 0 AND HdWd_Deceased_v1r0 equals 0,Master Data Dictionary,No,Yes,5/27/21,
+,,,,,,,,,,,,,291433782,1 = Refused some activities,,,,,,,,,HdWd_WdConsent_v1r0 equals 0 AND HdWd_Activepart_v1r0 equals 0 AND HdWd_HIPAArevoked_v1r0 equals 0 AND HdWd_Destroydata_v1r0 equals 0 AND HdWd_Deceased_v1r0 equals 0,,,,,
+,,,,,,,,,,,,,650854071,2 = Refused all future activities,,,,,,,,,HdWd_Activepart_v1r0 equals 1 AND HdWd_HIPAArevoked_v1r0 equals 0 And HdWd_WdConsent_v1r0 equals 0 AND HdWd_Deceased_v1r0 equals 0 AND HdWd_Destroydata_v1r0 equals 0,,,,,
+,,,,,,,,,,,,,312219148,3 = Revoked HIPAA only,,,,,,,,,HdWd_HIPAArevoked_v1r0 equals 1 And HdWd_WdConsent_v1r0 equals 0 And HdWd_Deceased_v1r0 equals 0 AND HdWd_Destroydata_v1r0 equals 0,,,,,
+,,,,,,,,,,,,,292922781,4 = Withdrew consent,,,,,,,,,HdWd_HIPAArevoked_v1r0 equals 1 AND HdWd_WdConsent_v1r0 equals1 AND HdWd_Deceased_v1r0 equals 0 AND HdWd_Destroydata_v1r0 equals 0,,,,,
+,,,,,,,,,,,,,345480303,5 = Destroy data,,,,,,,,,HdWd_Destroydata_v1r0 equals 1,,,,,
+,,,,,,,,,,,,,561141335,6 = Deceased,,,,,,,,,HdWd_Deceased_v1r0 equals 1,,,,,
 129084651,Survey,745268907,"Medications, Reproductive Health, Exercise, and Sleep",399982309,Pain relievers- Have you ever taken any of these medications at least 4 times a month for 6 months or longer? Select all that apply.,469512398,Baby or low-dose aspirin (81 mg or less),Baby or low-dose aspirin (81 mg or less),SrvMRE_LAspirin_v1r0,0,Num,2,,,104430631,2=No,104430631,0 = No,No,No,,,,,,,,PAINREL1
 ,,,,,,,,,,,,,,,353358909,1=Yes,353358909,1 = Yes,,,,,,,,,,
 129084651,Survey,745268907,"Medications, Reproductive Health, Exercise, and Sleep",399982309,Pain relievers- Have you ever taken any of these medications at least 4 times a month for 6 months or longer? Select all that apply.,194424439,Regular or extra strength aspirin (such as Bufferin or Anacin),Regular or extra strength aspirin (such as Bufferin or Anacin),SrvMRE_REAspirin_v1r0,1,Num,2,,,104430631,2=No,104430631,0 = No,No,No,,,,,,,,PAINREL1
@@ -2850,82 +2850,82 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question,co
 ,,,,,,,,,,,,,,,353358909,1=Yes,353358909,1 = Yes,,,,,,,,,,
 129084651,Survey,745268907,"Medications, Reproductive Health, Exercise, and Sleep",204421360,"During the past 12 months, did you do any of these activities outside of work? Select all that apply.",256626602,I did not do any of these activities,I did not do any of these activities,SrvMRE_NoActivity_v1r0,88,Num,2,,,104430631,2=No,104430631,0 = No,No,No,,,,,,,6/14/21,LAWN1
 ,,,,,,,,,,,,,,,353358909,1=Yes,353358909,1 = Yes,,,,,,,,,,
-129084651,Survey,745268907,"Medications, Reproductive Health, Exercise, and Sleep",442059084,"In which season(s) did you do these moderate outdoor chores (such as weeding, raking, or mowing the lawn)? Select all that apply.",917302906,Winter,Winter,SrvMRE_Winter_v1r0,0,Num,2,,,442059084,2=No,981994917,0 = No,No,No,,Only display if LAWN1=0,,,,,6/14/21,LAWN2A
+129084651,Survey,745268907,"Medications, Reproductive Health, Exercise, and Sleep",442059084,"In which season(s) did you do these moderate outdoor chores (such as weeding, raking, or mowing the lawn)? Select all that apply.",917302906,Winter,Winter,SrvMRE_Winter_v1r0,0,Num,2,,,442059084,2=No,686771043,0 = No,No,No,,Only display if LAWN1=0,,,,,6/14/21,LAWN2A
 ,,,,,,,,,,,,,,,353358909,1=Yes,353358909,1 = Yes,,,,,,,,,,
-,,,,829749579,"In which season(s) did you do these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)? Select all that apply.",,,,,,,,,,829749579,,955007747,,,,,,,,,,,LAWN2B
-,,,,618482103,"In which season(s) did you do these home repairs (such as painting, plumbing, or replacing carpeting)? Select all that apply.",,,,,,,,,,618482103,,336931057,,,,,,,,,,,LAWN2C
-,,,,894610280,In which season(s) did you walk or hike for exercise? Select all that apply.,,,,,,,,,,894610280,,380516265,,,,,,,,,,,EXEREC2A
-,,,,222110888,In which season(s) did you jog or run? Select all that apply.,,,,,,,,,,222110888,,101591286,,,,,,,,,,,EXEREC2B
-,,,,564242877,"In which season(s) did you play tennis, squash, or racquetball? Select all that apply.",,,,,,,,,,564242877,,260757578,,,,,,,,,,,EXEREC2C
-,,,,635874413,In which season(s) did you play golf? Select all that apply.,,,,,,,,,,635874413,,516274602,,,,,,,,,,,EXEREC2D
-,,,,371748514,In which season(s) did you swim laps? Select all that apply.,,,,,,,,,,371748514,,909676291,,,,,,,,,,,EXEREC2E
-,,,,858525957,In which season(s) did you ride a bicycle (including a stationary bike)? Select all that apply.,,,,,,,,,,858525957,,212015267,,,,,,,,,,,EXEREC2F
-,,,,787591805,"In which season(s) did you do strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups)? Select all that apply.",,,,,,,,,,787591805,,581025173,,,,,,,,,,,EXEREC2G
-,,,,900299856,"In which season(s) did you do Yoga, Pilates, or Tai Chi? Select all that apply.",,,,,,,,,,900299856,,692300823,,,,,,,,,,,EXEREC2H
-,,,,149884127,In which season(s) did you do Martial Arts (such as Karate or Judo)? Select all that apply.,,,,,,,,,,149884127,,397919688,,,,,,,,,,,EXEREC2I
-,,,,845164425,In which season(s) did you dance? Select all that apply.,,,,,,,,,,845164425,,144062150,,,,,,,,,,,EXEREC2J
-,,,,187772368,In which season(s) did you downhill skiing or snowboarding? Select all that apply.,,,,,,,,,,187772368,,864592152,,,,,,,,,,,EXEREC2K
-,,,,815229596,In which season(s) you cross-country ski? Select all that apply.,,,,,,,,,,815229596,,894616277,,,,,,,,,,,EXEREC2L
-,,,,262305264,In which season(s) you surf or bodyboard? Select all that apply.,,,,,,,,,,262305264,,989889753,,,,,,,,,,,EXEREC2M
-,,,,409324592,In which season(s) you do high-intensity circuit training (such as P90x or Crossfit)? Select all that apply.,,,,,,,,,,409324592,,539645042,,,,,,,,,,,EXEREC2N
-,,,,895837106,In which season(s) you do other exercise? Select all that apply.,,,,,,,,,,895837106,,111332194,,,,,,,,,,,EXEREC2O
-129084651,Survey,745268907,"Medications, Reproductive Health, Exercise, and Sleep",442059084,"In which season(s) did you do these moderate outdoor chores (such as weeding, raking, or mowing the lawn)? Select all that apply.",152773041,Spring,Spring,SrvMRE_Spring_v1r0,1,Num,2,,,442059084,2=No,981994917,0 = No,No,No,,Only display if LAWN1=0,,,,,6/14/21,LAWN2A
+,,,,829749579,"In which season(s) did you do these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)? Select all that apply.",,,,,,,,,,829749579,,493031113,,,,,,,,,,,LAWN2B
+,,,,618482103,"In which season(s) did you do these home repairs (such as painting, plumbing, or replacing carpeting)? Select all that apply.",,,,,,,,,,618482103,,788042647,,,,,,,,,,,LAWN2C
+,,,,894610280,In which season(s) did you walk or hike for exercise? Select all that apply.,,,,,,,,,,894610280,,763335678,,,,,,,,,,,EXEREC2A
+,,,,222110888,In which season(s) did you jog or run? Select all that apply.,,,,,,,,,,222110888,,341088437,,,,,,,,,,,EXEREC2B
+,,,,564242877,"In which season(s) did you play tennis, squash, or racquetball? Select all that apply.",,,,,,,,,,564242877,,139876342,,,,,,,,,,,EXEREC2C
+,,,,635874413,In which season(s) did you play golf? Select all that apply.,,,,,,,,,,635874413,,451713969,,,,,,,,,,,EXEREC2D
+,,,,371748514,In which season(s) did you swim laps? Select all that apply.,,,,,,,,,,371748514,,140654884,,,,,,,,,,,EXEREC2E
+,,,,858525957,In which season(s) did you ride a bicycle (including a stationary bike)? Select all that apply.,,,,,,,,,,858525957,,532782265,,,,,,,,,,,EXEREC2F
+,,,,787591805,"In which season(s) did you do strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups)? Select all that apply.",,,,,,,,,,787591805,,904354604,,,,,,,,,,,EXEREC2G
+,,,,900299856,"In which season(s) did you do Yoga, Pilates, or Tai Chi? Select all that apply.",,,,,,,,,,900299856,,579734675,,,,,,,,,,,EXEREC2H
+,,,,149884127,In which season(s) did you do Martial Arts (such as Karate or Judo)? Select all that apply.,,,,,,,,,,149884127,,919208762,,,,,,,,,,,EXEREC2I
+,,,,845164425,In which season(s) did you dance? Select all that apply.,,,,,,,,,,845164425,,373748851,,,,,,,,,,,EXEREC2J
+,,,,187772368,In which season(s) did you downhill skiing or snowboarding? Select all that apply.,,,,,,,,,,187772368,,532487659,,,,,,,,,,,EXEREC2K
+,,,,815229596,In which season(s) you cross-country ski? Select all that apply.,,,,,,,,,,815229596,,955498485,,,,,,,,,,,EXEREC2L
+,,,,262305264,In which season(s) you surf or bodyboard? Select all that apply.,,,,,,,,,,262305264,,951348006,,,,,,,,,,,EXEREC2M
+,,,,409324592,In which season(s) you do high-intensity circuit training (such as P90x or Crossfit)? Select all that apply.,,,,,,,,,,409324592,,176371832,,,,,,,,,,,EXEREC2N
+,,,,895837106,In which season(s) you do other exercise? Select all that apply.,,,,,,,,,,895837106,,487035012,,,,,,,,,,,EXEREC2O
+129084651,Survey,745268907,"Medications, Reproductive Health, Exercise, and Sleep",442059084,"In which season(s) did you do these moderate outdoor chores (such as weeding, raking, or mowing the lawn)? Select all that apply.",152773041,Spring,Spring,SrvMRE_Spring_v1r0,1,Num,2,,,442059084,2=No,686771043,0 = No,No,No,,Only display if LAWN1=0,,,,,6/14/21,LAWN2A
 ,,,,,,,,,,,,,,,353358909,1=Yes,353358909,1 = Yes,,,,,,,,,,
-,,,,829749579,"In which season(s) did you do these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)? Select all that apply.",,,,,,,,,,829749579,,955007747,,,,,,,,,,,LAWN2B
-,,,,618482103,"In which season(s) did you do these home repairs (such as painting, plumbing, or replacing carpeting)? Select all that apply.",,,,,,,,,,618482103,,336931057,,,,,,,,,,,LAWN2C
-,,,,894610280,In which season(s) did you walk or hike for exercise? Select all that apply.,,,,,,,,,,894610280,,380516265,,,,,,,,,,,EXEREC2A
-,,,,222110888,In which season(s) did you jog or run? Select all that apply.,,,,,,,,,,222110888,,101591286,,,,,,,,,,,EXEREC2B
-,,,,564242877,"In which season(s) did you play tennis, squash, or racquetball? Select all that apply.",,,,,,,,,,564242877,,260757578,,,,,,,,,,,EXEREC2C
-,,,,635874413,In which season(s) did you play golf? Select all that apply.,,,,,,,,,,635874413,,516274602,,,,,,,,,,,EXEREC2D
-,,,,371748514,In which season(s) did you swim laps? Select all that apply.,,,,,,,,,,371748514,,909676291,,,,,,,,,,,EXEREC2E
-,,,,858525957,In which season(s) did you ride a bicycle (including a stationary bike)? Select all that apply.,,,,,,,,,,858525957,,212015267,,,,,,,,,,,EXEREC2F
-,,,,787591805,"In which season(s) did you do strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups)? Select all that apply.",,,,,,,,,,787591805,,581025173,,,,,,,,,,,EXEREC2G
-,,,,900299856,"In which season(s) did you do Yoga, Pilates, or Tai Chi? Select all that apply.",,,,,,,,,,900299856,,692300823,,,,,,,,,,,EXEREC2H
-,,,,149884127,In which season(s) did you do Martial Arts (such as Karate or Judo)? Select all that apply.,,,,,,,,,,149884127,,397919688,,,,,,,,,,,EXEREC2I
-,,,,845164425,In which season(s) did you dance? Select all that apply.,,,,,,,,,,845164425,,144062150,,,,,,,,,,,EXEREC2J
-,,,,187772368,In which season(s) did you downhill skiing or snowboarding? Select all that apply.,,,,,,,,,,187772368,,864592152,,,,,,,,,,,EXEREC2K
-,,,,815229596,In which season(s) you cross-country ski? Select all that apply.,,,,,,,,,,815229596,,894616277,,,,,,,,,,,EXEREC2L
-,,,,262305264,In which season(s) you surf or bodyboard? Select all that apply.,,,,,,,,,,262305264,,989889753,,,,,,,,,,,EXEREC2M
-,,,,409324592,In which season(s) you do high-intensity circuit training (such as P90x or Crossfit)? Select all that apply.,,,,,,,,,,409324592,,539645042,,,,,,,,,,,EXEREC2N
-,,,,895837106,In which season(s) you do other exercise? Select all that apply.,,,,,,,,,,895837106,,111332194,,,,,,,,,,,EXEREC2O
-129084651,Survey,745268907,"Medications, Reproductive Health, Exercise, and Sleep",442059084,"In which season(s) did you do these moderate outdoor chores (such as weeding, raking, or mowing the lawn)? Select all that apply.",249341444,Summer,Summer,SrvMRE_Summer_v1r0,2,Num,2,,,442059084,2=No,981994917,0 = No,No,No,,Only display if LAWN1=0,,,,,6/14/21,LAWN2A
+,,,,829749579,"In which season(s) did you do these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)? Select all that apply.",,,,,,,,,,829749579,,493031113,,,,,,,,,,,LAWN2B
+,,,,618482103,"In which season(s) did you do these home repairs (such as painting, plumbing, or replacing carpeting)? Select all that apply.",,,,,,,,,,618482103,,788042647,,,,,,,,,,,LAWN2C
+,,,,894610280,In which season(s) did you walk or hike for exercise? Select all that apply.,,,,,,,,,,894610280,,763335678,,,,,,,,,,,EXEREC2A
+,,,,222110888,In which season(s) did you jog or run? Select all that apply.,,,,,,,,,,222110888,,341088437,,,,,,,,,,,EXEREC2B
+,,,,564242877,"In which season(s) did you play tennis, squash, or racquetball? Select all that apply.",,,,,,,,,,564242877,,139876342,,,,,,,,,,,EXEREC2C
+,,,,635874413,In which season(s) did you play golf? Select all that apply.,,,,,,,,,,635874413,,451713969,,,,,,,,,,,EXEREC2D
+,,,,371748514,In which season(s) did you swim laps? Select all that apply.,,,,,,,,,,371748514,,140654884,,,,,,,,,,,EXEREC2E
+,,,,858525957,In which season(s) did you ride a bicycle (including a stationary bike)? Select all that apply.,,,,,,,,,,858525957,,532782265,,,,,,,,,,,EXEREC2F
+,,,,787591805,"In which season(s) did you do strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups)? Select all that apply.",,,,,,,,,,787591805,,904354604,,,,,,,,,,,EXEREC2G
+,,,,900299856,"In which season(s) did you do Yoga, Pilates, or Tai Chi? Select all that apply.",,,,,,,,,,900299856,,579734675,,,,,,,,,,,EXEREC2H
+,,,,149884127,In which season(s) did you do Martial Arts (such as Karate or Judo)? Select all that apply.,,,,,,,,,,149884127,,919208762,,,,,,,,,,,EXEREC2I
+,,,,845164425,In which season(s) did you dance? Select all that apply.,,,,,,,,,,845164425,,373748851,,,,,,,,,,,EXEREC2J
+,,,,187772368,In which season(s) did you downhill skiing or snowboarding? Select all that apply.,,,,,,,,,,187772368,,532487659,,,,,,,,,,,EXEREC2K
+,,,,815229596,In which season(s) you cross-country ski? Select all that apply.,,,,,,,,,,815229596,,955498485,,,,,,,,,,,EXEREC2L
+,,,,262305264,In which season(s) you surf or bodyboard? Select all that apply.,,,,,,,,,,262305264,,951348006,,,,,,,,,,,EXEREC2M
+,,,,409324592,In which season(s) you do high-intensity circuit training (such as P90x or Crossfit)? Select all that apply.,,,,,,,,,,409324592,,176371832,,,,,,,,,,,EXEREC2N
+,,,,895837106,In which season(s) you do other exercise? Select all that apply.,,,,,,,,,,895837106,,487035012,,,,,,,,,,,EXEREC2O
+129084651,Survey,745268907,"Medications, Reproductive Health, Exercise, and Sleep",442059084,"In which season(s) did you do these moderate outdoor chores (such as weeding, raking, or mowing the lawn)? Select all that apply.",249341444,Summer,Summer,SrvMRE_Summer_v1r0,2,Num,2,,,442059084,2=No,686771043,0 = No,No,No,,Only display if LAWN1=0,,,,,6/14/21,LAWN2A
 ,,,,,,,,,,,,,,,353358909,1=Yes,353358909,1 = Yes,,,,,,,,,,
-,,,,829749579,"In which season(s) did you do these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)? Select all that apply.",,,,,,,,,,829749579,,955007747,,,,,,,,,,,LAWN2B
-,,,,618482103,"In which season(s) did you do these home repairs (such as painting, plumbing, or replacing carpeting)? Select all that apply.",,,,,,,,,,618482103,,336931057,,,,,,,,,,,LAWN2C
-,,,,894610280,In which season(s) did you walk or hike for exercise? Select all that apply.,,,,,,,,,,894610280,,380516265,,,,,,,,,,,EXEREC2A
-,,,,222110888,In which season(s) did you jog or run? Select all that apply.,,,,,,,,,,222110888,,101591286,,,,,,,,,,,EXEREC2B
-,,,,564242877,"In which season(s) did you play tennis, squash, or racquetball? Select all that apply.",,,,,,,,,,564242877,,260757578,,,,,,,,,,,EXEREC2C
-,,,,635874413,In which season(s) did you play golf? Select all that apply.,,,,,,,,,,635874413,,516274602,,,,,,,,,,,EXEREC2D
-,,,,371748514,In which season(s) did you swim laps? Select all that apply.,,,,,,,,,,371748514,,909676291,,,,,,,,,,,EXEREC2E
-,,,,858525957,In which season(s) did you ride a bicycle (including a stationary bike)? Select all that apply.,,,,,,,,,,858525957,,212015267,,,,,,,,,,,EXEREC2F
-,,,,787591805,"In which season(s) did you do strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups)? Select all that apply.",,,,,,,,,,787591805,,581025173,,,,,,,,,,,EXEREC2G
-,,,,900299856,"In which season(s) did you do Yoga, Pilates, or Tai Chi? Select all that apply.",,,,,,,,,,900299856,,692300823,,,,,,,,,,,EXEREC2H
-,,,,149884127,In which season(s) did you do Martial Arts (such as Karate or Judo)? Select all that apply.,,,,,,,,,,149884127,,397919688,,,,,,,,,,,EXEREC2I
-,,,,845164425,In which season(s) did you dance? Select all that apply.,,,,,,,,,,845164425,,144062150,,,,,,,,,,,EXEREC2J
-,,,,187772368,In which season(s) did you downhill skiing or snowboarding? Select all that apply.,,,,,,,,,,187772368,,864592152,,,,,,,,,,,EXEREC2K
-,,,,815229596,In which season(s) you cross-country ski? Select all that apply.,,,,,,,,,,815229596,,894616277,,,,,,,,,,,EXEREC2L
-,,,,262305264,In which season(s) you surf or bodyboard? Select all that apply.,,,,,,,,,,262305264,,989889753,,,,,,,,,,,EXEREC2M
-,,,,409324592,In which season(s) you do high-intensity circuit training (such as P90x or Crossfit)? Select all that apply.,,,,,,,,,,409324592,,539645042,,,,,,,,,,,EXEREC2N
-,,,,895837106,In which season(s) you do other exercise? Select all that apply.,,,,,,,,,,895837106,,111332194,,,,,,,,,,,EXEREC2O
-129084651,Survey,745268907,"Medications, Reproductive Health, Exercise, and Sleep",442059084,"In which season(s) did you do these moderate outdoor chores (such as weeding, raking, or mowing the lawn)? Select all that apply.",690018400,Fall,Fall,SrvMRE_Fall_v1r0,3,Num,2,,,442059084,2=No,981994917,0 = No,No,No,,Only display if LAWN1=0,,,,,6/14/21,LAWN2A
+,,,,829749579,"In which season(s) did you do these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)? Select all that apply.",,,,,,,,,,829749579,,493031113,,,,,,,,,,,LAWN2B
+,,,,618482103,"In which season(s) did you do these home repairs (such as painting, plumbing, or replacing carpeting)? Select all that apply.",,,,,,,,,,618482103,,788042647,,,,,,,,,,,LAWN2C
+,,,,894610280,In which season(s) did you walk or hike for exercise? Select all that apply.,,,,,,,,,,894610280,,763335678,,,,,,,,,,,EXEREC2A
+,,,,222110888,In which season(s) did you jog or run? Select all that apply.,,,,,,,,,,222110888,,341088437,,,,,,,,,,,EXEREC2B
+,,,,564242877,"In which season(s) did you play tennis, squash, or racquetball? Select all that apply.",,,,,,,,,,564242877,,139876342,,,,,,,,,,,EXEREC2C
+,,,,635874413,In which season(s) did you play golf? Select all that apply.,,,,,,,,,,635874413,,451713969,,,,,,,,,,,EXEREC2D
+,,,,371748514,In which season(s) did you swim laps? Select all that apply.,,,,,,,,,,371748514,,140654884,,,,,,,,,,,EXEREC2E
+,,,,858525957,In which season(s) did you ride a bicycle (including a stationary bike)? Select all that apply.,,,,,,,,,,858525957,,532782265,,,,,,,,,,,EXEREC2F
+,,,,787591805,"In which season(s) did you do strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups)? Select all that apply.",,,,,,,,,,787591805,,904354604,,,,,,,,,,,EXEREC2G
+,,,,900299856,"In which season(s) did you do Yoga, Pilates, or Tai Chi? Select all that apply.",,,,,,,,,,900299856,,579734675,,,,,,,,,,,EXEREC2H
+,,,,149884127,In which season(s) did you do Martial Arts (such as Karate or Judo)? Select all that apply.,,,,,,,,,,149884127,,919208762,,,,,,,,,,,EXEREC2I
+,,,,845164425,In which season(s) did you dance? Select all that apply.,,,,,,,,,,845164425,,373748851,,,,,,,,,,,EXEREC2J
+,,,,187772368,In which season(s) did you downhill skiing or snowboarding? Select all that apply.,,,,,,,,,,187772368,,532487659,,,,,,,,,,,EXEREC2K
+,,,,815229596,In which season(s) you cross-country ski? Select all that apply.,,,,,,,,,,815229596,,955498485,,,,,,,,,,,EXEREC2L
+,,,,262305264,In which season(s) you surf or bodyboard? Select all that apply.,,,,,,,,,,262305264,,951348006,,,,,,,,,,,EXEREC2M
+,,,,409324592,In which season(s) you do high-intensity circuit training (such as P90x or Crossfit)? Select all that apply.,,,,,,,,,,409324592,,176371832,,,,,,,,,,,EXEREC2N
+,,,,895837106,In which season(s) you do other exercise? Select all that apply.,,,,,,,,,,895837106,,487035012,,,,,,,,,,,EXEREC2O
+129084651,Survey,745268907,"Medications, Reproductive Health, Exercise, and Sleep",442059084,"In which season(s) did you do these moderate outdoor chores (such as weeding, raking, or mowing the lawn)? Select all that apply.",690018400,Fall,Fall,SrvMRE_Fall_v1r0,3,Num,2,,,442059084,2=No,686771043,0 = No,No,No,,Only display if LAWN1=0,,,,,6/14/21,LAWN2A
 ,,,,,,,,,,,,,,,353358909,1=Yes,353358909,1 = Yes,,,,,,,,,,
-,,,,829749579,"In which season(s) did you do these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)? Select all that apply.",,,,,,,,,,829749579,,955007747,,,,,,,,,,,LAWN2B
-,,,,618482103,"In which season(s) did you do these home repairs (such as painting, plumbing, or replacing carpeting)? Select all that apply.",,,,,,,,,,618482103,,336931057,,,,,,,,,,,LAWN2C
-,,,,894610280,In which season(s) did you walk or hike for exercise? Select all that apply.,,,,,,,,,,894610280,,380516265,,,,,,,,,,,EXEREC2A
-,,,,222110888,In which season(s) did you jog or run? Select all that apply.,,,,,,,,,,222110888,,101591286,,,,,,,,,,,EXEREC2B
-,,,,564242877,"In which season(s) did you play tennis, squash, or racquetball? Select all that apply.",,,,,,,,,,564242877,,260757578,,,,,,,,,,,EXEREC2C
-,,,,635874413,In which season(s) did you play golf? Select all that apply.,,,,,,,,,,635874413,,516274602,,,,,,,,,,,EXEREC2D
-,,,,371748514,In which season(s) did you swim laps? Select all that apply.,,,,,,,,,,371748514,,909676291,,,,,,,,,,,EXEREC2E
-,,,,858525957,In which season(s) did you ride a bicycle (including a stationary bike)? Select all that apply.,,,,,,,,,,858525957,,212015267,,,,,,,,,,,EXEREC2F
-,,,,787591805,"In which season(s) did you do strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups)? Select all that apply.",,,,,,,,,,787591805,,581025173,,,,,,,,,,,EXEREC2G
-,,,,900299856,"In which season(s) did you do Yoga, Pilates, or Tai Chi? Select all that apply.",,,,,,,,,,900299856,,692300823,,,,,,,,,,,EXEREC2H
-,,,,149884127,In which season(s) did you do Martial Arts (such as Karate or Judo)? Select all that apply.,,,,,,,,,,149884127,,397919688,,,,,,,,,,,EXEREC2I
-,,,,845164425,In which season(s) did you dance? Select all that apply.,,,,,,,,,,845164425,,144062150,,,,,,,,,,,EXEREC2J
-,,,,187772368,In which season(s) did you downhill skiing or snowboarding? Select all that apply.,,,,,,,,,,187772368,,864592152,,,,,,,,,,,EXEREC2K
-,,,,815229596,In which season(s) you cross-country ski? Select all that apply.,,,,,,,,,,815229596,,894616277,,,,,,,,,,,EXEREC2L
-,,,,262305264,In which season(s) you surf or bodyboard? Select all that apply.,,,,,,,,,,262305264,,989889753,,,,,,,,,,,EXEREC2M
-,,,,409324592,In which season(s) you do high-intensity circuit training (such as P90x or Crossfit)? Select all that apply.,,,,,,,,,,409324592,,539645042,,,,,,,,,,,EXEREC2N
-,,,,895837106,In which season(s) you do other exercise? Select all that apply.,,,,,,,,,,895837106,,111332194,,,,,,,,,,,EXEREC2O
+,,,,829749579,"In which season(s) did you do these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)? Select all that apply.",,,,,,,,,,829749579,,493031113,,,,,,,,,,,LAWN2B
+,,,,618482103,"In which season(s) did you do these home repairs (such as painting, plumbing, or replacing carpeting)? Select all that apply.",,,,,,,,,,618482103,,788042647,,,,,,,,,,,LAWN2C
+,,,,894610280,In which season(s) did you walk or hike for exercise? Select all that apply.,,,,,,,,,,894610280,,763335678,,,,,,,,,,,EXEREC2A
+,,,,222110888,In which season(s) did you jog or run? Select all that apply.,,,,,,,,,,222110888,,341088437,,,,,,,,,,,EXEREC2B
+,,,,564242877,"In which season(s) did you play tennis, squash, or racquetball? Select all that apply.",,,,,,,,,,564242877,,139876342,,,,,,,,,,,EXEREC2C
+,,,,635874413,In which season(s) did you play golf? Select all that apply.,,,,,,,,,,635874413,,451713969,,,,,,,,,,,EXEREC2D
+,,,,371748514,In which season(s) did you swim laps? Select all that apply.,,,,,,,,,,371748514,,140654884,,,,,,,,,,,EXEREC2E
+,,,,858525957,In which season(s) did you ride a bicycle (including a stationary bike)? Select all that apply.,,,,,,,,,,858525957,,532782265,,,,,,,,,,,EXEREC2F
+,,,,787591805,"In which season(s) did you do strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups)? Select all that apply.",,,,,,,,,,787591805,,904354604,,,,,,,,,,,EXEREC2G
+,,,,900299856,"In which season(s) did you do Yoga, Pilates, or Tai Chi? Select all that apply.",,,,,,,,,,900299856,,579734675,,,,,,,,,,,EXEREC2H
+,,,,149884127,In which season(s) did you do Martial Arts (such as Karate or Judo)? Select all that apply.,,,,,,,,,,149884127,,919208762,,,,,,,,,,,EXEREC2I
+,,,,845164425,In which season(s) did you dance? Select all that apply.,,,,,,,,,,845164425,,373748851,,,,,,,,,,,EXEREC2J
+,,,,187772368,In which season(s) did you downhill skiing or snowboarding? Select all that apply.,,,,,,,,,,187772368,,532487659,,,,,,,,,,,EXEREC2K
+,,,,815229596,In which season(s) you cross-country ski? Select all that apply.,,,,,,,,,,815229596,,955498485,,,,,,,,,,,EXEREC2L
+,,,,262305264,In which season(s) you surf or bodyboard? Select all that apply.,,,,,,,,,,262305264,,951348006,,,,,,,,,,,EXEREC2M
+,,,,409324592,In which season(s) you do high-intensity circuit training (such as P90x or Crossfit)? Select all that apply.,,,,,,,,,,409324592,,176371832,,,,,,,,,,,EXEREC2N
+,,,,895837106,In which season(s) you do other exercise? Select all that apply.,,,,,,,,,,895837106,,487035012,,,,,,,,,,,EXEREC2O
 129084651,Survey,745268907,"Medications, Reproductive Health, Exercise, and Sleep",,,992022740,"During the season[s] in the past 12 months that you did moderate outdoor chores (such as weeding, raking, or mowing the lawn), about how often did you do these chores outside of work?","How often days moderate outdoor chores (such as weeding, raking, or mowing the lawn)",SrvMRE_ModChoreOften_v1r0,LAWN3A,Num,2,,,239152340,1 = Once a month or less_,239152340,0 = Once a month or less_,No,No,,Only display if LAWN1=0,,,,,,
 ,,,,,,,,,,,,,,,582006876,2 = 1-3 days a month_,582006876,1 = 1-3 days a month_,,,,,,,,,,
 ,,,,,,,,,,,,,,,645894551,3 = 0-2 days a week,645894551,2 = 0-2 days a week,,,,,,,,,,
@@ -4438,3 +4438,4 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question,co
 ,,,,,,598943582,,,Never used on a regular basis,,,,,,,,,,,,,,,,,,,
 ,,,,,,537492699,,,Never drank on a regular basis,,,,,,,,,,,,,,,,,,,
 ,,,,,,286592155,,,Never smoked on a regular basis,,,,,,,,,,,,,,,,,,,
+,,,,,,104430631,,,No,,,,,,,,,,,,,,,,,,,
