@@ -29,7 +29,8 @@ function parseMasterModule(){
         
         if(currJSON['Primary Source'] && currJSON['Primary Source'] === "129084651.json"){
             //Checks for module name
-            if(currJSON['Secondary Source'] && ["745268907.json","965707586.json", "898006288.json", "726699695.json"].includes(currJSON['Secondary Source'])){
+            // "898006288.json", "726699695.json"
+            if(currJSON['Secondary Source'] && ["745268907.json","965707586.json"].includes(currJSON['Secondary Source'])){
 
                 if(currJSON['Connect Value for Select all that apply questions']){
                     let isTB = false;
@@ -232,7 +233,7 @@ function parseMasterModule(){
             }
         }
     }
-    /*
+    
     let module1 = fs.readFileSync('./module1Dict.json')
     let module1JSON = JSON.parse(module1);
     let module1Keys = Object.keys(module1JSON);
@@ -240,9 +241,24 @@ function parseMasterModule(){
         if(!toReturn[module1Keys[i]]){
             toReturn[module1Keys[i]] = module1JSON[module1Keys[i]]
         }
-    }*/
+    }
     //console.log(JSON.stringify(toReturn))
     //console.log(toCheckIds)
+    let keys1 = Object.keys(toReturn);
+    for(let i = 0; i < keys1.length; i++){
+        let currJSON = toReturn[keys1[i]];
+        if(currJSON['questIds']){
+            let ids = Object.keys(currJSON['questIds']);
+            for(let j = 0; j < ids.length; j++){
+                let currId = ids[j];
+                if(isNaN(currId)){
+                    toReturn[currId] = currJSON['questIds'][currId];
+                    //console.log(currId)
+                    //console.log(currJSON['questIds'][currId])
+                }
+            }
+        }
+    }
     fs.writeFileSync('testDict.json', JSON.stringify(toReturn,null, 2));
     //fs.writeFileSync('toCheckIDs.json', JSON.stringify(toCheckIds,null, 2));
 
