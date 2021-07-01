@@ -31,21 +31,24 @@ function parseMasterModule(){
             //Checks for module name
             // "898006288.json", "726699695.json"
             if(currJSON['Secondary Source'] && ["745268907.json","965707586.json"].includes(currJSON['Secondary Source'])){
-
+                
                 if(currJSON['Connect Value for Select all that apply questions']){
                     let isTB = false;
                     let header = currJSON['Connect Value for Select all that apply questions'];
                     let toInsert = {};
-                    let headerName = currJSON['Connect Value for Select all that apply questions']
-                    
+                    let headerName = currJSON['Connect Value for Select all that apply questions'];
+                    if(currJSON['Connect Value for Select all that apply questions'] == "ECIG3"){
+                        //console.log(currJSON)
+                        //console.log(headerName)
+                    }
                     if(!currJSON['Quest_Src Question']){                    
 
                         if(currJSON['Connect Value'] && Array.isArray(currJSON['Connect Value'])){
                             isTB = false;
                             let keys = Object.keys(currJSON['Connect Value'])
 
-                            if(toReturn[headerName]){
-                                toInsert = toReturn[headerName];
+                            if(toReturn[headerName.toUpperCase()]){
+                                toInsert = toReturn[headerName.toUpperCase()];
                             }
                             if(!toInsert['questIds']){
                                 toInsert = {'questIds':{}}
@@ -58,7 +61,7 @@ function parseMasterModule(){
                                     //console.log(keys)
                                     //console.log(currJSON)
                                 }
-                                questIds[currJSON['Connect Value'][keys[j]]] = {
+                                questIds[currJSON['Connect Value'][keys[j]].toUpperCase()] = {
                                     "conceptId": keys[j].substring(0,9),
                                     "concept": masterJSON[keys[j]]['Variable Name']?masterJSON[objKeys[k]]['Variable Name']:masterJSON[objKeys[k]]['PII']
                                 }
@@ -68,7 +71,7 @@ function parseMasterModule(){
                             }
                             toInsert['questionText'] = currJSON['Question Text']
                             toInsert['conceptId'] = currJSON['conceptId'];
-                            toReturn[currJSON['Connect Value for Select all that apply questions']] = toInsert;
+                            toReturn[currJSON['Connect Value for Select all that apply questions'].toUpperCase()] = toInsert;
                             
                         }
                         else{
@@ -84,21 +87,21 @@ function parseMasterModule(){
                                     }
                                     toInsert['questionText'] = currJSON['Question Text']
                                     toInsert['conceptId'] = currJSON['conceptId'];
-                                    toReturn[currJSON['Connect Value for Select all that apply questions']] = toInsert;
+                                    toReturn[currJSON['Connect Value for Select all that apply questions'].toUpperCase()] = toInsert;
                                 }
                                 else{
                                     isTB = true;
                                     toInsert['isTextBox'] = isTB;
                                     toInsert['questionText'] = currJSON['Question Text']
                                     toInsert['conceptId'] = currJSON['conceptId'];
-                                    toReturn[currJSON['Connect Value for Select all that apply questions']] = toInsert;
+                                    toReturn[currJSON['Connect Value for Select all that apply questions'].toUpperCase()] = toInsert;
                                 }
                             }
                             else if(typeof val === 'object' && val !== null){
                                let objKeys = Object.keys(val);
                                let qIds = {}
                                for(let k = 0; k < objKeys.length; k++){
-                                    qIds[val[objKeys[k]]] = {
+                                    qIds[val[objKeys[k]].toUpperCase()] = {
                                         "conceptId":objKeys[k].substring(0,9),
                                         "concept":masterJSON[objKeys[k]]['Variable Name']? masterJSON[objKeys[k]]['Variable Name']: masterJSON[objKeys[k]]['PII']
                                         
@@ -107,7 +110,7 @@ function parseMasterModule(){
                                 toInsert['questIds'] = qIds;
                                 toInsert['questionText'] = currJSON['Question Text']
                                 toInsert['conceptId'] = currJSON['conceptId'];
-                                toReturn[currJSON['Connect Value for Select all that apply questions']] = toInsert;
+                                toReturn[currJSON['Connect Value for Select all that apply questions'].toUpperCase()] = toInsert;
                             }
                             else{
                                 if(val.includes('=')){
@@ -123,21 +126,31 @@ function parseMasterModule(){
                                        console.log(valNum)
                                    }
                                    isTB = false;
-                                   toInsert['questIds'] = {}
-                                   toInsert['questIds'][keyNum] = {
+                                   if(toReturn[currJSON['Connect Value for Select all that apply questions'].toUpperCase()]){
+                                       toInsert = toReturn[headerName.toUpperCase()];
+                                    }
+                                    if(!toInsert['questIds']){
+                                        toInsert['questIds'] = {}
+                                    }
+                                   //toInsert['questIds'] = {}
+                                   toInsert['questIds'][keyNum.toUpperCase()] = {
                                        "conceptId":masterJSON[valNum]?masterJSON[valNum]['conceptId']: thisConcept,
                                        "concept":valNum
                                    }
-                                   toInsert['questionText'] = currJSON['Question Text']
+                                   if(!toInsert['questionText']){
+                                       toInsert['questionText'] = currJSON['Question Text']
+                                   }
                                    toInsert['conceptId'] = currJSON['conceptId'];
-                                   toReturn[currJSON['Connect Value for Select all that apply questions']] = toInsert;
+                                   toReturn[currJSON['Connect Value for Select all that apply questions'].toUpperCase()] = toInsert;
                                 }
                                 else{
                                     isTB = true;
                                     toInsert['isTextBox'] = isTB;
-                                    toInsert['questionText'] = currJSON['Question Text']
+                                    if(!toInsert['questionText']){
+                                        toInsert['questionText'] = currJSON['Question Text']
+                                    }
                                     toInsert['conceptId'] = currJSON['conceptId'];
-                                    toReturn[currJSON['Connect Value for Select all that apply questions']] = toInsert;
+                                    toReturn[currJSON['Connect Value for Select all that apply questions'].toUpperCase()] = toInsert;
                                 }
                             }
                             
@@ -148,16 +161,21 @@ function parseMasterModule(){
                     }
                     //check if it is a text response (Connect Value)
                     else{
-                        if(currJSON['Connect Value']){
+                        
+                        if(currJSON['Connect Value'] && typeof currJSON['Connect Value'] === 'object' && currJSON['Connect Value'] !== null){
                             isTB = false;
                         }
                         else{
                             isTB = true;
+                            console.log(currJSON['Connect Value'])
                         }
+                        
                         headerName = currJSON['Quest_Src Question'];
                         if(!Array.isArray(headerName)){
-                            if(toReturn[headerName]){
-                                toInsert = toReturn[headerName];
+                            
+                            //isTB = true;
+                            if(toReturn[headerName.toUpperCase()]){
+                                toInsert = toReturn[headerName.toUpperCase()];
                             }
                             else{
                                 toInsert = {'questIds':{}}
@@ -171,12 +189,12 @@ function parseMasterModule(){
                             //console.log(headerName);
                             //console.log(questIds)
                             //console.log(currJSON['Connect Value for Select all that apply questions'])
-                            questIds[currJSON['Connect Value for Select all that apply questions']] = {
+                            questIds[currJSON['Connect Value for Select all that apply questions'].toUpperCase()] = {
                                 "conceptId" : currJSON['conceptId'],
                                 "concept": currJSON["Question Text"]
                             }
                             if(isTB){
-                                questIds[currJSON['Connect Value for Select all that apply questions']]['isTextBox'] = true;
+                                questIds[currJSON['Connect Value for Select all that apply questions'].toUpperCase()]['isTextBox'] = true;
                             }
                             if(currJSON['Source Question']){
                                 toInsert['conceptId'] = currJSON['Source Question'].substring(0,9);
@@ -184,16 +202,17 @@ function parseMasterModule(){
                                     console.log(currJSON)
                                 }
                                 
-                                toInsert['concept'] = masterJSON[currJSON['Source Question']]['Variable Name'];
+                                toInsert['questionText'] = masterJSON[currJSON['Source Question']]['Variable Name'];
                             }
                             
-                            toReturn[headerName] = toInsert;
+                            toReturn[headerName.toUpperCase()] = toInsert;
                         }
                         else{
+                            
                             for(let k = 0; k < headerName.length; k++){
                                 let head = headerName[k];
-                                if(toReturn[masterJSON[head]['Quest_Src Question']]){
-                                    toInsert = toReturn[masterJSON[head]['Quest_Src Question']];
+                                if(toReturn[masterJSON[head]['Quest_Src Question'].toUpperCase()]){
+                                    toInsert = toReturn[masterJSON[head]['Quest_Src Question'].toUpperCase()];
                                 }
                                 else{
                                     toInsert = {'questIds':{}}
@@ -201,21 +220,21 @@ function parseMasterModule(){
                                 let questIds = toInsert['questIds']
     
                                 //console.log(questIds)
-                                questIds[currJSON['Connect Value for Select all that apply questions']] = {
+                                questIds[currJSON['Connect Value for Select all that apply questions'].toUpperCase()] = {
                                     "conceptId" : currJSON['conceptId'],
                                     "concept": currJSON["Question Text"]
                                 }
                                 if(isTB){
-                                    questIds[currJSON['Connect Value for Select all that apply questions']]['isTextBox'] = true;
+                                    questIds[currJSON['Connect Value for Select all that apply questions'].toUpperCase()]['isTextBox'] = true;
                                 }
                                 if(currJSON['Source Question']){
                                     toInsert['conceptId'] = currJSON['Source Question'][k].substring(0,9);
                                     
-                                    toInsert['concept'] = masterJSON[currJSON['Source Question'][k]]['Variable Name'];
+                                    toInsert['questionText'] = masterJSON[currJSON['Source Question'][k]]['Variable Name'];
                                 }
                                 //console.log(masterJSON[head])
                                 
-                                toReturn[masterJSON[head]['Quest_Src Question']] = toInsert;
+                                toReturn[masterJSON[head]['Quest_Src Question'].toUpperCase()] = toInsert;
 
 
 
@@ -239,21 +258,21 @@ function parseMasterModule(){
     let module1JSON = JSON.parse(module1);
     let module1Keys = Object.keys(module1JSON);
     for(let i = 0; i < module1Keys.length; i++){
-        if(!toReturn[module1Keys[i]]){
-            toReturn[module1Keys[i]] = module1JSON[module1Keys[i]]
+        if(!toReturn[module1Keys[i].toUpperCase()]){
+            toReturn[module1Keys[i].toUpperCase()] = module1JSON[module1Keys[i]]
         }
     }
     //console.log(JSON.stringify(toReturn))
     //console.log(toCheckIds)
     let keys1 = Object.keys(toReturn);
     for(let i = 0; i < keys1.length; i++){
-        let currJSON = toReturn[keys1[i]];
+        let currJSON = toReturn[keys1[i].toUpperCase()];
         if(currJSON['questIds']){
             let ids = Object.keys(currJSON['questIds']);
             for(let j = 0; j < ids.length; j++){
                 let currId = ids[j];
                 if(isNaN(currId)){
-                    toReturn[currId] = currJSON['questIds'][currId];
+                    toReturn[currId.toUpperCase()] = currJSON['questIds'][currId.toUpperCase()];
                     //console.log(currId)
                     //console.log(currJSON['questIds'][currId])
                 }
