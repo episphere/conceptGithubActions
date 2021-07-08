@@ -264,6 +264,7 @@ function parseMasterModule(){
     }
     //console.log(JSON.stringify(toReturn))
     //console.log(toCheckIds)
+    /*
     let keys1 = Object.keys(toReturn);
     for(let i = 0; i < keys1.length; i++){
         let currJSON = toReturn[keys1[i].toUpperCase()];
@@ -278,7 +279,7 @@ function parseMasterModule(){
                 }
             }
         }
-    }
+    }*/
 
     // add a timestamp to filename so filename is in format: testDict-YYYY-MM-DD-hh-mm-ss.json
     let timestamp = new Date().toISOString().split('.')[0].replace(/:/g,'-').replace('T', '-');

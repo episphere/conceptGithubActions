@@ -1426,20 +1426,9 @@
     "conceptId": "168431681"
   },
   "THMAR9A": {
-    "questIds": {
-      "77": {
-        "conceptId": "171879494",
-        "concept": "Number of servings use/used THC concentrates, servings per day, do not know",
-        "isTextBox": true
-      },
-      "THMAR9A": {
-        "conceptId": "712461803",
-        "concept": "On days that you [use/used] THC concentrates via dabbing, how many servings [do/did] you have per day?",
-        "isTextBox": true
-      }
-    },
-    "conceptId": "414935157",
-    "questionText": "On days that you [use/used] THC concentrates via dabbing, how many servings [do/did] you have per day?"
+    "conceptId": "712461803",
+    "concept": "On days that you [use/used] THC concentrates via dabbing, how many servings [do/did] you have per day?",
+    "isTextBox": true
   },
   "PAINREL5_1": {
     "questIds": {
@@ -2761,19 +2750,8 @@
     "conceptId": "982747062"
   },
   "SMMAR10": {
-    "questIds": {
-      "SMMAR10": {
-        "conceptId": "263057893",
-        "concept": "Why [do/did] you smoke marijuana?"
-      },
-      "SMMAR10OTH": {
-        "conceptId": "734359400",
-        "concept": "Other: Please describe text box",
-        "isTextBox": true
-      }
-    },
-    "conceptId": "114152934",
-    "questionText": "Why [do/did] you smoke marijuana?"
+    "conceptId": "263057893",
+    "concept": "Why [do/did] you smoke marijuana?"
   },
   "MENSHIS6": {
     "isTextBox": true,
@@ -3852,19 +3830,8 @@
     "questionText": "In total, how many months or years have you used other progestin-only medication?"
   },
   "THMAR10": {
-    "questIds": {
-      "THMAR10OTH": {
-        "conceptId": "370281993",
-        "concept": "Other: Please describe text box",
-        "isTextBox": true
-      },
-      "THMAR10": {
-        "conceptId": "906196928",
-        "concept": "Why [do/did] you use THC concentrates via dabbing?"
-      }
-    },
-    "conceptId": "535355672",
-    "questionText": "Why [do/did] you use use THC concentrates via dabbing?"
+    "conceptId": "906196928",
+    "concept": "Why [do/did] you use THC concentrates via dabbing?"
   },
   "HORMED4_8": {
     "isTextBox": true,
@@ -4176,19 +4143,8 @@
     "questionText": "During the time(s) that you were taking prescription pain relievers containing opioids, about how many days per week OR per month did you take it? Please choose whichever makes the most sense for you."
   },
   "TOMAR10": {
-    "questIds": {
-      "TOMAR10OTH": {
-        "conceptId": "400777538",
-        "concept": "Other: Please describe text box",
-        "isTextBox": true
-      },
-      "TOMAR10": {
-        "conceptId": "654928225",
-        "concept": "Why [do/did] you smoke a combination of marijuana with tobacco?"
-      }
-    },
-    "conceptId": "512767895",
-    "questionText": "Why [do/did] you smoke a combination of marijuana with tobacco?"
+    "conceptId": "654928225",
+    "concept": "Why [do/did] you smoke a combination of marijuana with tobacco?"
   },
   "EAMARLIFEH": {
     "isTextBox": true,
@@ -5253,20 +5209,9 @@
     "conceptId": "494197785"
   },
   "MENSHIS": {
-    "questIds": {
-      "MENSHIS": {
-        "conceptId": "496539718",
-        "concept": "Age first menstrual period, never had",
-        "isTextBox": true
-      },
-      "MENSHISA": {
-        "conceptId": "969451837",
-        "concept": "Age first menstrual period",
-        "isTextBox": true
-      }
-    },
-    "conceptId": "930232115",
-    "questionText": "How old were you when you had your first menstrual period? Please make your best guess if you are not sure."
+    "conceptId": "496539718",
+    "concept": "Age first menstrual period, never had",
+    "isTextBox": true
   },
   "HOOKAH9A": {
     "questIds": {
@@ -8570,15 +8515,9 @@
     "conceptId": "799382711"
   },
   "INSULIN5_1": {
-    "questIds": {
-      "INSULIN5_1": {
-        "conceptId": "799903478",
-        "concept": "About how many years did you take Insulin?",
-        "isTextBox": true
-      }
-    },
-    "conceptId": "986893440",
-    "questionText": "About how many years did you take Insulin?"
+    "conceptId": "799903478",
+    "concept": "About how many years did you take Insulin?",
+    "isTextBox": true
   },
   "SMMAR8": {
     "isTextBox": true,
@@ -9050,19 +8989,8 @@
     "conceptId": "836337236"
   },
   "ELMAR10": {
-    "questIds": {
-      "ELMAR10": {
-        "conceptId": "842604608",
-        "concept": "Why [do/did] you use electronic marijuana delivery devices that can be vaped?"
-      },
-      "ELMAR10OTH": {
-        "conceptId": "878502626",
-        "concept": "Other: Please describe text box",
-        "isTextBox": true
-      }
-    },
-    "conceptId": "897751538",
-    "questionText": "Why [do/did] you use electronic marijuana delivery devices that can be vaped?"
+    "conceptId": "842604608",
+    "concept": "Why [do/did] you use electronic marijuana delivery devices that can be vaped?"
   },
   "CHEW5": {
     "questIds": {
@@ -16951,5 +16879,2454 @@
     },
     "conceptId": "134642404",
     "questionText": "When you were told that you have or had fibrocystic breasts, or other benign breast disease, was it confirmed by biopsy?"
+  },
+  "FERT_12_OTHER": {
+    "conceptId": "762700622",
+    "concept": "Other medication: please describe text box",
+    "isTextBox": true
+  },
+  "HORMED_9_OTHER": {
+    "conceptId": "684201296",
+    "concept": "Other medication: please describe text box",
+    "isTextBox": true
+  },
+  "MINIPILLYEAR": {
+    "conceptId": "107313998",
+    "concept": "Years use progesterone-only or progestin-only contraceptive pills",
+    "isTextBox": true
+  },
+  "MINIPILLMONTH": {
+    "conceptId": "947006279",
+    "concept": "Months use progesterone-only or progestin-only contraceptive pills",
+    "isTextBox": true
+  },
+  "METFOR2_1WK": {
+    "conceptId": "112601935",
+    "concept": "Metformin days per week",
+    "isTextBox": true
+  },
+  "METFOR2_1MO": {
+    "conceptId": "706162015",
+    "concept": "Metformin days per month",
+    "isTextBox": true
+  },
+  "PRESHOR2MONTH": {
+    "conceptId": "114770320",
+    "concept": "Months use the other type of prescription hormone",
+    "isTextBox": true
+  },
+  "PRESHOR2YEAR": {
+    "conceptId": "497198642",
+    "concept": "Years use the other type of prescription hormone",
+    "isTextBox": true
+  },
+  "PIPE3_AGE": {
+    "conceptId": "804091197",
+    "concept": "Age first used a tobacco pipe on a regular basis",
+    "isTextBox": true
+  },
+  "SHIFTLASTYEAR": {
+    "conceptId": "120485458",
+    "concept": "Year last shift work",
+    "isTextBox": true
+  },
+  "SHIFTLASTAGE": {
+    "conceptId": "863007380",
+    "concept": "Age last shift work",
+    "isTextBox": true
+  },
+  "HORMEDOTHERYEAR": {
+    "conceptId": "120525723",
+    "concept": "Years use the other hormonal medications or devices",
+    "isTextBox": true
+  },
+  "HORMEDOTHERMONTH": {
+    "conceptId": "500148101",
+    "concept": "Months use the other hormonal medications or devices",
+    "isTextBox": true
+  },
+  "ACIDSUP2_2MO": {
+    "conceptId": "141258493",
+    "concept": "over-the-counter proton pump inhibitors days per month",
+    "isTextBox": true
+  },
+  "ACIDSUP2_2WK": {
+    "conceptId": "315967343",
+    "concept": "over-the-counter proton pump inhibitors days per week",
+    "isTextBox": true
+  },
+  "HORIUDMONTH": {
+    "conceptId": "149379312",
+    "concept": "Months use hormonal IUD",
+    "isTextBox": true
+  },
+  "HORIUDYEAR": {
+    "conceptId": "472493847",
+    "concept": "Years use hormonal IUD",
+    "isTextBox": true
+  },
+  "SLHABIT1B": {
+    "conceptId": "151006826",
+    "concept": "Did you wake up several times a night?"
+  },
+  "SLHABIT1A": {
+    "conceptId": "220238240",
+    "concept": "Did you have trouble falling asleep?"
+  },
+  "SLHABIT1G": {
+    "conceptId": "257137378",
+    "concept": "Did you feel very tired during the day?"
+  },
+  "SLHABIT1E": {
+    "conceptId": "453071098",
+    "concept": "Did you take prescription or over-the-counter sleeping pills to help you sleep?"
+  },
+  "SLHABIT1F": {
+    "conceptId": "513065503",
+    "concept": "Did you have sleep problems that made you irritable (easily annoyed)?"
+  },
+  "SLHABIT1D": {
+    "conceptId": "781115321",
+    "concept": "Did you have trouble getting back to sleep after you woke up earlier than you planned to?"
+  },
+  "SLHABIT1C": {
+    "conceptId": "965290070",
+    "concept": "Did you wake up earlier than you planned to?"
+  },
+  "OUTSIDEMIN": {
+    "conceptId": "157959631",
+    "concept": "Minutes spent in direct sunlight",
+    "isTextBox": true
+  },
+  "OUTSIDEHOURS": {
+    "conceptId": "611065150",
+    "concept": "Hours spent in direct sunlight",
+    "isTextBox": true
+  },
+  "ACETWEEK": {
+    "conceptId": "166789083",
+    "concept": "Acetaminophen days per week",
+    "isTextBox": true
+  },
+  "ACETMONTH": {
+    "conceptId": "570218792",
+    "concept": "Acetaminophen days per month",
+    "isTextBox": true
+  },
+  "SLHABIT3H": {
+    "conceptId": "179705366",
+    "concept": "In a car, while you are stopped for a few minutes in traffic"
+  },
+  "SLHABIT3D": {
+    "conceptId": "186488870",
+    "concept": "Riding as a passenger in a car for an hour without stopping"
+  },
+  "SLHABIT3G": {
+    "conceptId": "354550061",
+    "concept": "Sitting quietly after a lunch that did not include alcohol"
+  },
+  "SLHABIT3A": {
+    "conceptId": "403155173",
+    "concept": "Sitting and reading"
+  },
+  "SLHABIT3B": {
+    "conceptId": "576621769",
+    "concept": "Watching television"
+  },
+  "SLHABIT3F": {
+    "conceptId": "760686611",
+    "concept": "Sitting and talking to someone"
+  },
+  "SLHABIT3E": {
+    "conceptId": "922388461",
+    "concept": "Lying down to rest in the afternoon"
+  },
+  "SLHABIT3I": {
+    "conceptId": "955609858",
+    "concept": "At the dinner table"
+  },
+  "SLHABIT3C": {
+    "conceptId": "988508028",
+    "concept": "Sitting inactive in a public place (such as a theater or a meeting)"
+  },
+  "REGSMMAR_AGE": {
+    "conceptId": "183577545",
+    "concept": "Age first smoked marijuana on a regular basis",
+    "isTextBox": true
+  },
+  "REGVAPE_AGE": {
+    "conceptId": "513823922",
+    "concept": "Age first used e-cigarettes or other vaping devices on a regular basis",
+    "isTextBox": true
+  },
+  "RINGMONTH": {
+    "conceptId": "194522326",
+    "concept": "Months use vaginal ring, vaginal cream, or vaginal tablet estrogen-only medication",
+    "isTextBox": true
+  },
+  "RINGYEAR": {
+    "conceptId": "795789472",
+    "concept": "Years use vaginal ring, vaginal cream, or vaginal tablet estrogen-only medication",
+    "isTextBox": true
+  },
+  "FERT4OTHER": {
+    "conceptId": "833755477",
+    "concept": "Other reason: please describe text box",
+    "isTextBox": true
+  },
+  "ESTROHOR1_5_OTHER": {
+    "conceptId": "640559281",
+    "concept": "Other medication: please describe text box",
+    "isTextBox": true
+  },
+  "TWOPILLYEAR": {
+    "conceptId": "210213285",
+    "concept": "Years use two separate pills",
+    "isTextBox": true
+  },
+  "TWOPILLMONTH": {
+    "conceptId": "750432034",
+    "concept": "Months use two separate pills",
+    "isTextBox": true
+  },
+  "HORMEDRINGYEAR": {
+    "conceptId": "214110186",
+    "concept": "Years use vaginal ring",
+    "isTextBox": true
+  },
+  "HORMEDRINGMONTH": {
+    "conceptId": "242971857",
+    "concept": "Months use vaginal ring",
+    "isTextBox": true
+  },
+  "COPIUDMONTH": {
+    "conceptId": "216290348",
+    "concept": "Months use copper IUD",
+    "isTextBox": true
+  },
+  "COPIUDYEAR": {
+    "conceptId": "858114567",
+    "concept": "Years use copper IUD",
+    "isTextBox": true
+  },
+  "CHOLHTN2_2MO": {
+    "conceptId": "225191459",
+    "concept": "anti-hypertensive medication/drugs used to treat hypertension (high blood pressure) days per month",
+    "isTextBox": true
+  },
+  "CHOLHTN2_2WK": {
+    "conceptId": "399077240",
+    "concept": "anti-hypertensive medication/drugs used to treat hypertension (high blood pressure) days per week",
+    "isTextBox": true
+  },
+  "ORALEST_OTHER": {
+    "conceptId": "235516216",
+    "concept": "Other progestin/progesterone-only medication: please describe text box",
+    "isTextBox": true
+  },
+  "REGTOMAR_AGE": {
+    "conceptId": "243410586",
+    "concept": "Age first used marijana with tobacco on a regular basis",
+    "isTextBox": true
+  },
+  "ACIDSUP2_1MO": {
+    "conceptId": "244122695",
+    "concept": "prescription proton pump inhibitors days per month",
+    "isTextBox": true
+  },
+  "ACIDSUP2_1WK": {
+    "conceptId": "715378651",
+    "concept": "prescription proton pump inhibitors days per week",
+    "isTextBox": true
+  },
+  "ESTOTHERYEAR": {
+    "conceptId": "244161291",
+    "concept": "Years use the other type of estrogen-only medication",
+    "isTextBox": true
+  },
+  "ESTOTHERMONTH": {
+    "conceptId": "512467339",
+    "concept": "Months use the other type of estrogen-only medication",
+    "isTextBox": true
+  },
+  "IBUPROFENMONTH": {
+    "conceptId": "247777639",
+    "concept": "ibuprofen days per month",
+    "isTextBox": true
+  },
+  "IBUPROFENWEEK": {
+    "conceptId": "576558862",
+    "concept": "ibuprofen days per week",
+    "isTextBox": true
+  },
+  "EAMAR9CNUM": {
+    "conceptId": "729432549",
+    "concept": "When daily user, number of servings consumed marijuana in food or drinks",
+    "isTextBox": true
+  },
+  "CHOLHTN2_1WK": {
+    "conceptId": "259022344",
+    "concept": "statins/cholesterol or lipid lowering drugs days per week",
+    "isTextBox": true
+  },
+  "CHOLHTN2_1MO": {
+    "conceptId": "944872953",
+    "concept": "statins/cholesterol or lipid lowering drugs days per month",
+    "isTextBox": true
+  },
+  "HORMEDPATCHMONTH": {
+    "conceptId": "259977665",
+    "concept": "Months use birth control patch",
+    "isTextBox": true
+  },
+  "HORMEDPATCHYEAR": {
+    "conceptId": "491932490",
+    "concept": "Years use birth control patch",
+    "isTextBox": true
+  },
+  "ESTSKINMONTH": {
+    "conceptId": "260261558",
+    "concept": "Months use estrogen-only skin gel, cream, or spray-on medication",
+    "isTextBox": true
+  },
+  "ESTSKINYEAR": {
+    "conceptId": "548035456",
+    "concept": "Years use estrogen-only skin gel, cream, or spray-on medication",
+    "isTextBox": true
+  },
+  "SLPROB_TB": {
+    "conceptId": "654253676",
+    "concept": "Other: Please describe text box",
+    "isTextBox": true
+  },
+  "REGALCOHOL_AGE": {
+    "conceptId": "917374961",
+    "concept": "Age drank alcohol on regular basis",
+    "isTextBox": true
+  },
+  "SMMAR10OTH": {
+    "conceptId": "734359400",
+    "concept": "Other: Please describe text box",
+    "isTextBox": true
+  },
+  "COMBINEDYEAR": {
+    "conceptId": "272567515",
+    "concept": "Years use combined oral estrogen plus progestin pill",
+    "isTextBox": true
+  },
+  "COMBINEDMONTH": {
+    "conceptId": "708740027",
+    "concept": "Months use combined oral estrogen plus progestin pill",
+    "isTextBox": true
+  },
+  "CIG3_AGE": {
+    "conceptId": "289735961",
+    "concept": "Age first used cigarettes on a regular basis",
+    "isTextBox": true
+  },
+  "DEPROPROVMONTH": {
+    "conceptId": "297902766",
+    "concept": "Months use Depo-Provera",
+    "isTextBox": true
+  },
+  "DEPROPROVYEAR": {
+    "conceptId": "835187326",
+    "concept": "Years use Depo-Provera",
+    "isTextBox": true
+  },
+  "ALCOHOL7OTH": {
+    "conceptId": "894473304",
+    "concept": "Other: Please describe text box",
+    "isTextBox": true
+  },
+  "REGASPRINMONTH": {
+    "conceptId": "310061478",
+    "concept": "Regular or extra strength aspirin days per month",
+    "isTextBox": true
+  },
+  "REGASPRINWEEK": {
+    "conceptId": "317527310",
+    "concept": "Regular or extra strength aspirin days per week",
+    "isTextBox": true
+  },
+  "NONWORKAWAKEBEFOREUPMIN": {
+    "conceptId": "322321979",
+    "concept": "How long do you lay in bed after you wake up on non-workdays (min)?",
+    "isTextBox": true
+  },
+  "NONWORKAWAKEBEFOREUPHOURS": {
+    "conceptId": "386662015",
+    "concept": "How long do you lay in bed after you wake up on non-workdays (hours)?",
+    "isTextBox": true
+  },
+  "EAMAR9ANUM": {
+    "conceptId": "753944468",
+    "concept": "Number of servings consumed  marijuana in food or drinks, servings per day",
+    "isTextBox": true
+  },
+  "PATCHESTMONTH": {
+    "conceptId": "343812306",
+    "concept": "Months use patch estrogen-only medication",
+    "isTextBox": true
+  },
+  "PATCHESTYEAR": {
+    "conceptId": "575129346",
+    "concept": "Years use patch estrogen-only medication",
+    "isTextBox": true
+  },
+  "LAYINBEDHRS": {
+    "conceptId": "358394749",
+    "concept": "How long do you lay in bed after you wake up on workdays (hours)?",
+    "isTextBox": true
+  },
+  "LAYINBEDMIN": {
+    "conceptId": "858473349",
+    "concept": "How long do you lay in bed after you wake up on workdays (min)?",
+    "isTextBox": true
+  },
+  "ANYCOMEST_OTHER": {
+    "conceptId": "542108835",
+    "concept": "Any other type of combined estrogen plus progestin prescription hormones (such as the patch (Climara-Pro), other pills, or creams): Please describe text box",
+    "isTextBox": true
+  },
+  "PROESTYEAR": {
+    "conceptId": "370043841",
+    "concept": "Years use progestin-only medication",
+    "isTextBox": true
+  },
+  "PROESTMONTH": {
+    "conceptId": "763033021",
+    "concept": "Months use progestin-only medication",
+    "isTextBox": true
+  },
+  "THMAR10OTH": {
+    "conceptId": "370281993",
+    "concept": "Other: Please describe text box",
+    "isTextBox": true
+  },
+  "CELECOXIBWEEK": {
+    "conceptId": "376091473",
+    "concept": "Celebrex (celecoxib) days per week",
+    "isTextBox": true
+  },
+  "CELECOXIBMONTH": {
+    "conceptId": "596733110",
+    "concept": "Celebrex (celecoxib) days per month",
+    "isTextBox": true
+  },
+  "EAMAR10OTH": {
+    "conceptId": "389486386",
+    "concept": "Other: Please describe text box",
+    "isTextBox": true
+  },
+  "PAINRELMONTH": {
+    "conceptId": "400017574",
+    "concept": "prescription pain relievers containing opioids days per month",
+    "isTextBox": true
+  },
+  "PAINRELWEEK": {
+    "conceptId": "427336386",
+    "concept": "prescription pain relievers containing opioids days per week",
+    "isTextBox": true
+  },
+  "TOMAR10OTH": {
+    "conceptId": "400777538",
+    "concept": "Other: Please describe text box",
+    "isTextBox": true
+  },
+  "INSULIN2_1MO": {
+    "conceptId": "420047863",
+    "concept": "Insulin days per month",
+    "isTextBox": true
+  },
+  "INSULIN2_1WK": {
+    "conceptId": "864142365",
+    "concept": "Insulin days per week",
+    "isTextBox": true
+  },
+  "HORCOMPILLMONTH": {
+    "conceptId": "434243220",
+    "concept": "Months use combined oral contraceptive pills",
+    "isTextBox": true
+  },
+  "HORCOMPILLYEAR": {
+    "conceptId": "970604592",
+    "concept": "Years use combined oral contraceptive pills",
+    "isTextBox": true
+  },
+  "HOOKAH3_AGE": {
+    "conceptId": "451313430",
+    "concept": "Age started smoking hookah or water pipe on a regular basis",
+    "isTextBox": true
+  },
+  "WORKDAYOUTSIDEMIN": {
+    "conceptId": "476617491",
+    "concept": "Minutes spent in direct sunlight",
+    "isTextBox": true
+  },
+  "WORKDAYOUTSIDEHOURS": {
+    "conceptId": "857965355",
+    "concept": "Hours spent in direct sunlight",
+    "isTextBox": true
+  },
+  "NORPLANTMONTH": {
+    "conceptId": "483659008",
+    "concept": "Months use Norplant",
+    "isTextBox": true
+  },
+  "NORPLANTYEAR": {
+    "conceptId": "733631705",
+    "concept": "Years use Norplant",
+    "isTextBox": true
+  },
+  "MENSHISA": {
+    "conceptId": "969451837",
+    "concept": "Age first menstrual period",
+    "isTextBox": true
+  },
+  "ANYCOMESTYEAR": {
+    "conceptId": "515989453",
+    "concept": "Years use the other combined estrogen plus progestin prescription hormone",
+    "isTextBox": true
+  },
+  "ANYCOMESTMONTH": {
+    "conceptId": "812311153",
+    "concept": "Months use the other combined estrogen plus progestin prescription hormone",
+    "isTextBox": true
+  },
+  "ORALMEDMONTH": {
+    "conceptId": "561569619",
+    "concept": "Months use oral progestin-only medication",
+    "isTextBox": true
+  },
+  "ORALMEDYEAR": {
+    "conceptId": "611719142",
+    "concept": "Years use oral progestin-only medication",
+    "isTextBox": true
+  },
+  "THMAR9CNUM": {
+    "conceptId": "918017644",
+    "concept": "When daily user, number of servings use THC concentrates via dabbing",
+    "isTextBox": true
+  },
+  "REGTHMAR_AGE": {
+    "conceptId": "609032801",
+    "concept": "Age first use THC concentrates via dabbing on a regular basis",
+    "isTextBox": true
+  },
+  "NONWORKFALLASLEEPHOURS": {
+    "conceptId": "613216897",
+    "concept": "Hours take to fall asleep, before non-workday",
+    "isTextBox": true
+  },
+  "NONWORKFALLASLEEPMIN": {
+    "conceptId": "740906394",
+    "concept": "Minutes take to fall asleep, before non-workday",
+    "isTextBox": true
+  },
+  "FALLASLEEPHOURS": {
+    "conceptId": "707805344",
+    "concept": "Hours take to fall asleep, before workdays",
+    "isTextBox": true
+  },
+  "FALLASLEEPMIN": {
+    "conceptId": "850393641",
+    "concept": "Minutes take to fall asleep, before workdays",
+    "isTextBox": true
+  },
+  "ORALESTMONTH": {
+    "conceptId": "708192933",
+    "concept": "Months use oral estrogen-only medication",
+    "isTextBox": true
+  },
+  "ORALESTYEAR": {
+    "conceptId": "723188977",
+    "concept": "Years use oral estrogen-only medication",
+    "isTextBox": true
+  },
+  "REGCHEW_AGE": {
+    "conceptId": "829487688",
+    "concept": "Age started using chewing tobacco, snus, snuff, or dip on a regular basis",
+    "isTextBox": true
+  },
+  "BABYASPRINWEEK": {
+    "conceptId": "765748316",
+    "concept": "Baby or low-dose aspirin (81 mg or less) days per week",
+    "isTextBox": true
+  },
+  "BABYASPRINMONTH": {
+    "conceptId": "785412329",
+    "concept": "Baby or low-dose aspirin (81 mg or less) days per month",
+    "isTextBox": true
+  },
+  "REGELMAR_AGE": {
+    "conceptId": "794349803",
+    "concept": "Age first used e-cigarettes or other vaping devices on a regular basis",
+    "isTextBox": true
+  },
+  "ELMAR10OTH": {
+    "conceptId": "878502626",
+    "concept": "Other: Please describe text box",
+    "isTextBox": true
+  },
+  "NAPROXENWEEK": {
+    "conceptId": "857680243",
+    "concept": "Naproxen days per week",
+    "isTextBox": true
+  },
+  "NAPROXENMONTH": {
+    "conceptId": "977076834",
+    "concept": "Naproxen days per month",
+    "isTextBox": true
+  },
+  "REGEAMAR_AGE": {
+    "conceptId": "924537140",
+    "concept": "Age first consumed marijuana in food or drinks on a regular basis",
+    "isTextBox": true
+  },
+  "REGCIGAR_AGE": {
+    "conceptId": "969342083",
+    "concept": "Age first used cigars, cigarillos, or little filtered cigars on a regular basis",
+    "isTextBox": true
+  },
+  "ACIDSUP2_3WK": {
+    "conceptId": "944586769",
+    "concept": "over-the-counter H2 receptor blockers days per week",
+    "isTextBox": true
+  },
+  "ACIDSUP2_3MO": {
+    "conceptId": "953328498",
+    "concept": "over-the-counter H2 receptor blockers days per month",
+    "isTextBox": true
+  },
+  "RACEETH_TB": {
+    "conceptId": "747350323",
+    "concept": "None of these fully describe me. Please describe [text box]",
+    "isTextBox": true
+  },
+  "RACEETH2_TB": {
+    "conceptId": "650100414",
+    "concept": "None of these fully describe me. Please describe [text box]",
+    "isTextBox": true
+  },
+  "RACEETH3_TB": {
+    "conceptId": "396618548",
+    "concept": "None of these fully describe me. Please describe [text box]",
+    "isTextBox": true
+  },
+  "RACEETH4_TB": {
+    "conceptId": "852296096",
+    "concept": "None of these fully describe me. Please describe [text box]",
+    "isTextBox": true
+  },
+  "RACEETH5_TB": {
+    "conceptId": "440307926",
+    "concept": "None of these fully describe me. Please describe [text box]",
+    "isTextBox": true
+  },
+  "RACEETH6_TB": {
+    "conceptId": "576646485",
+    "concept": "None of these fully describe me. Please describe [text box]",
+    "isTextBox": true
+  },
+  "RACEETH7_TB": {
+    "conceptId": "403180970",
+    "concept": "None of these fully describe me. Please describe [text box]",
+    "isTextBox": true
+  },
+  "RACE_ETH8": {
+    "conceptId": "774928994",
+    "concept": "None of these fully describe me. Please describe [text box]",
+    "isTextBox": true
+  },
+  "LANG_TB": {
+    "conceptId": "486535201",
+    "concept": "Other language(s): Please describe[text box]",
+    "isTextBox": true
+  },
+  "GEN_TB": {
+    "conceptId": "918409306",
+    "concept": "Do you think of yourself as: [text box]",
+    "isTextBox": true
+  },
+  "SEXORIENT_TB": {
+    "conceptId": "979809707",
+    "concept": "Do you think of yourself as:",
+    "isTextBox": true
+  },
+  "SKINCANC3_AGE": {
+    "conceptId": "206625031",
+    "concept": "Skin cancer diagnosis age",
+    "isTextBox": true
+  },
+  "SKINCANC3_YEAR": {
+    "conceptId": "261863326",
+    "concept": "Skin cancer diagnosis year",
+    "isTextBox": true
+  },
+  "ANEMIA_AGE": {
+    "conceptId": "931993957",
+    "concept": "B-12 deficiency (pernicious anemia) diagnosis age",
+    "isTextBox": true
+  },
+  "ANEMIA_YEAR": {
+    "conceptId": "576179368",
+    "concept": "B-12 deficiency (pernicious anemia) diagnosis year",
+    "isTextBox": true
+  },
+  "CVD_AGE": {
+    "conceptId": "228799893",
+    "concept": "Coronary artery/coronary heart disease diagnosis age",
+    "isTextBox": true
+  },
+  "CVD_YEAR": {
+    "conceptId": "108590237",
+    "concept": "Coronary artery/coronary heart disease diagnosis year",
+    "isTextBox": true
+  },
+  "CHF_AGE": {
+    "conceptId": "516399119",
+    "concept": "Congestive heart failure diagnosis age",
+    "isTextBox": true
+  },
+  "CHF_YEAR": {
+    "conceptId": "818385316",
+    "concept": "Congestive heart failure diagnosis year",
+    "isTextBox": true
+  },
+  "CHOL_AGE": {
+    "conceptId": "637556277",
+    "concept": "High cholesteroldiagnosis age",
+    "isTextBox": true
+  },
+  "CHOL_YEAR": {
+    "conceptId": "470282814",
+    "concept": "High cholesterol diagnosis year",
+    "isTextBox": true
+  },
+  "HEARTATT_AGE": {
+    "conceptId": "652228674",
+    "concept": "Heart attack (myocardial infarction)diagnosis age",
+    "isTextBox": true
+  },
+  "HEARTATT_YEAR": {
+    "conceptId": "298689217",
+    "concept": "Heart attack (myocardial infarction) diagnosis year",
+    "isTextBox": true
+  },
+  "ARRHYT_AGE": {
+    "conceptId": "431020458",
+    "concept": "Abnormal heart rhythm (arrhythmia) diagnosis age",
+    "isTextBox": true
+  },
+  "ARRHYT_YEAR": {
+    "conceptId": "675507089",
+    "concept": "Abnormal heart rhythm (arrhythmia) diagnosis year",
+    "isTextBox": true
+  },
+  "CHESTPAIN_AGE": {
+    "conceptId": "320057074",
+    "concept": "chest pain (angina)diagnosis age",
+    "isTextBox": true
+  },
+  "CHESTPAIN_YEAR": {
+    "conceptId": "400070088",
+    "concept": "chest pain (angina) diagnosis year",
+    "isTextBox": true
+  },
+  "HEARTVALV_AGE": {
+    "conceptId": "235755344",
+    "concept": "heart valve problems diagnosis age",
+    "isTextBox": true
+  },
+  "HEARTVALV_YEAR": {
+    "conceptId": "787473236",
+    "concept": "heart valve problemsdiagnosis year",
+    "isTextBox": true
+  },
+  "HTN_AGE": {
+    "conceptId": "367670682",
+    "concept": "high blood pressure (hypertension)diagnosis age",
+    "isTextBox": true
+  },
+  "HTN_YEAR": {
+    "conceptId": "608469482",
+    "concept": "high blood pressure (hypertension) diagnosis year",
+    "isTextBox": true
+  },
+  "BLOODCLOT_AGE": {
+    "conceptId": "497018554",
+    "concept": "blood clots (deep vein thrombosis, pulmonary embolism)diagnosis age",
+    "isTextBox": true
+  },
+  "BLOODCLOT_YEAR": {
+    "conceptId": "694594047",
+    "concept": "blood clots (deep vein thrombosis, pulmonary embolism)diagnosis year",
+    "isTextBox": true
+  },
+  "STROKE_AGE": {
+    "conceptId": "224468136",
+    "concept": "stroke diagnosis age",
+    "isTextBox": true
+  },
+  "STROKE_YEAR": {
+    "conceptId": "208748910",
+    "concept": "stroke diagnosis year",
+    "isTextBox": true
+  },
+  "COPD_YEAR": {
+    "conceptId": "974971209",
+    "concept": "Chronic lung disease (Emphysema, Chronic Bronchitis, or Chronic Obstructive Pulmonary Disease (COPD)) diagnosis year",
+    "isTextBox": true
+  },
+  "COPD_AGE": {
+    "conceptId": "584827172",
+    "concept": "Chronic lung disease (Emphysema, Chronic Bronchitis, or Chronic Obstructive Pulmonary Disease (COPD)) diagnosis age",
+    "isTextBox": true
+  },
+  "ASTHMA_YEAR": {
+    "conceptId": "737107233",
+    "concept": "Asthma diagnosis year",
+    "isTextBox": true
+  },
+  "ASTHMA_AGE": {
+    "conceptId": "592296024",
+    "concept": "Asthma diagnosis age",
+    "isTextBox": true
+  },
+  "HAYFEVER_YEAR": {
+    "conceptId": "240041263",
+    "concept": "Hay Fever (Allergic to pollen or Allergic Rhinitis) diagnosis year",
+    "isTextBox": true
+  },
+  "HAYFEVER_AGE": {
+    "conceptId": "173154171",
+    "concept": "Hay Fever (Allergic to pollen or Allergic Rhinitis)diagnosis age",
+    "isTextBox": true
+  },
+  "GERD_YEAR": {
+    "conceptId": "585932247",
+    "concept": "Esophageal Acid Reflux (GERD) diagnosis year",
+    "isTextBox": true
+  },
+  "GERD_AGE": {
+    "conceptId": "227342684",
+    "concept": "Esophageal Acid Reflux (GERD) diagnosis age",
+    "isTextBox": true
+  },
+  "BARESO_YEAR": {
+    "conceptId": "803028998",
+    "concept": "Barrett's Esophagus diagnosis year",
+    "isTextBox": true
+  },
+  "BARESO_AGE": {
+    "conceptId": "826646799",
+    "concept": "Barrett's Esophagus diagnosis age",
+    "isTextBox": true
+  },
+  "IBS_YEAR": {
+    "conceptId": "298255589",
+    "concept": "Irritable Bowel Syndrome diagnosis year",
+    "isTextBox": true
+  },
+  "IBS_AGE": {
+    "conceptId": "572809474",
+    "concept": "Irritable Bowel Syndrome diagnosis age",
+    "isTextBox": true
+  },
+  "IBD_YEAR": {
+    "conceptId": "998058022",
+    "concept": "Inflammatory Bowel Disease diagnosis year",
+    "isTextBox": true
+  },
+  "IBD_AGE": {
+    "conceptId": "781638192",
+    "concept": "Inflammatory Bowel Disease diagnosis age",
+    "isTextBox": true
+  },
+  "DIVERT_YEAR": {
+    "conceptId": "707914446",
+    "concept": "Diverticulitis or Diverticulosis year",
+    "isTextBox": true
+  },
+  "DIVERT_AGE": {
+    "conceptId": "128533155",
+    "concept": "Diverticulitis or Diverticulosis age",
+    "isTextBox": true
+  },
+  "UC_YEAR": {
+    "conceptId": "267217303",
+    "concept": "Ulcerative Colitis year",
+    "isTextBox": true
+  },
+  "UC_AGE": {
+    "conceptId": "156985576",
+    "concept": "Ulcerative Colitis age",
+    "isTextBox": true
+  },
+  "CD_YEAR": {
+    "conceptId": "617007460",
+    "concept": "Crohn's Disease year",
+    "isTextBox": true
+  },
+  "CD_AGE": {
+    "conceptId": "422829791",
+    "concept": "Crohn's Disease age",
+    "isTextBox": true
+  },
+  "CCD_YEAR": {
+    "conceptId": "800466826",
+    "concept": "Celiac Disease (also known as Gluten-Sensitive Enteropathy) year",
+    "isTextBox": true
+  },
+  "CCD_AGE": {
+    "conceptId": "374526317",
+    "concept": "Celiac Disease (also known as Gluten-Sensitive Enteropathy) age",
+    "isTextBox": true
+  },
+  "GALL_YEAR": {
+    "conceptId": "700773214",
+    "concept": "Gallstones (Biliary Stones) year",
+    "isTextBox": true
+  },
+  "GALL_AGE": {
+    "conceptId": "174058153",
+    "concept": "Gallstones (Biliary Stones) age",
+    "isTextBox": true
+  },
+  "LIVCIRR_YEAR": {
+    "conceptId": "734308092",
+    "concept": "Liver Cirrhosis year",
+    "isTextBox": true
+  },
+  "LIVCIRR_AGE": {
+    "conceptId": "658037718",
+    "concept": "Liver Cirrhosis age",
+    "isTextBox": true
+  },
+  "PANCREA_YEAR": {
+    "conceptId": "125201447",
+    "concept": "Pancreatitis year",
+    "isTextBox": true
+  },
+  "PANCREA_AGE": {
+    "conceptId": "745179569",
+    "concept": "Pancreatitis age",
+    "isTextBox": true
+  },
+  "THYROID_YEAR": {
+    "conceptId": "213850947",
+    "concept": "Thyroid Disorder (Overactive or Underactive Thyroid) year",
+    "isTextBox": true
+  },
+  "THYROID_AGE": {
+    "conceptId": "132265702",
+    "concept": "Thyroid Disorder (Overactive or Underactive Thyroid) age",
+    "isTextBox": true
+  },
+  "DM2_YEAR": {
+    "conceptId": "166195719",
+    "concept": "Diabetes year",
+    "isTextBox": true
+  },
+  "DM2_AGE": {
+    "conceptId": "861769692",
+    "concept": "Diabetes age",
+    "isTextBox": true
+  },
+  "GRAVES_YEAR": {
+    "conceptId": "350967202",
+    "concept": "Graves' Disease year",
+    "isTextBox": true
+  },
+  "GRAVES_AGE": {
+    "conceptId": "499636077",
+    "concept": "Graves' Disease age",
+    "isTextBox": true
+  },
+  "KIDNEY_YEAR": {
+    "conceptId": "995170330",
+    "concept": "Kidney Stones year",
+    "isTextBox": true
+  },
+  "KIDNEY_AGE": {
+    "conceptId": "484819765",
+    "concept": "Kidney Stones age",
+    "isTextBox": true
+  },
+  "CKD_YEAR": {
+    "conceptId": "288135482",
+    "concept": "Chronic Kidney Disease (Also Known as Chronic Kidney Failure) year",
+    "isTextBox": true
+  },
+  "CKD_AGE": {
+    "conceptId": "267726874",
+    "concept": "Chronic Kidney Disease (Also Known as Chronic Kidney Failure) age",
+    "isTextBox": true
+  },
+  "RA_YEAR": {
+    "conceptId": "279620272",
+    "concept": "Rheumatoid Arthritis year",
+    "isTextBox": true
+  },
+  "RA_AGE": {
+    "conceptId": "162655918",
+    "concept": "Rheumatoid Arthritis age",
+    "isTextBox": true
+  },
+  "LUPUS_YEAR": {
+    "conceptId": "533163465",
+    "concept": "Lupus year",
+    "isTextBox": true
+  },
+  "LUPUS_AGE": {
+    "conceptId": "118454020",
+    "concept": "Lupus age",
+    "isTextBox": true
+  },
+  "GOUT_YEAR": {
+    "conceptId": "512110573",
+    "concept": "Gout year",
+    "isTextBox": true
+  },
+  "GOUT_AGE": {
+    "conceptId": "951905447",
+    "concept": "Gout age",
+    "isTextBox": true
+  },
+  "MONO_YEAR": {
+    "conceptId": "793993848",
+    "concept": "Infectious Mononucleosis (???Mono??? or ???Kissing Disease???) diagnosis year",
+    "isTextBox": true
+  },
+  "MONO_AGE": {
+    "conceptId": "890062459",
+    "concept": "Infectious Mononucleosis (???Mono??? or ???Kissing Disease???) diagnosis age",
+    "isTextBox": true
+  },
+  "SHINGLES_YEAR": {
+    "conceptId": "495181746",
+    "concept": "Shingles (Herpes Zoster) diagnosis year",
+    "isTextBox": true
+  },
+  "SHINGLES_AGE": {
+    "conceptId": "815428772",
+    "concept": "Shingles (Herpes Zoster) diagnosis age",
+    "isTextBox": true
+  },
+  "HBVHCV_YEAR": {
+    "conceptId": "109852267",
+    "concept": "Chronic Hepatitis B or C diagnosis year",
+    "isTextBox": true
+  },
+  "HBVHCV_AGE": {
+    "conceptId": "193969992",
+    "concept": "Chronic Hepatitis B or C diagnosis age",
+    "isTextBox": true
+  },
+  "GONORR_YEAR": {
+    "conceptId": "577416267",
+    "concept": "Gonorrhea diagnosis year",
+    "isTextBox": true
+  },
+  "GONORR_AGE": {
+    "conceptId": "781265554",
+    "concept": "Gonorrhea diagnosis age",
+    "isTextBox": true
+  },
+  "CHLA_YEAR": {
+    "conceptId": "244315628",
+    "concept": "Chlamydia diagnosis year",
+    "isTextBox": true
+  },
+  "CHLA_AGE": {
+    "conceptId": "106117489",
+    "concept": "Chlamydia diagnosis age",
+    "isTextBox": true
+  },
+  "TRICH_YEAR": {
+    "conceptId": "959338759",
+    "concept": "Trichomoniasis diagnosis year",
+    "isTextBox": true
+  },
+  "TRICH_AGE": {
+    "conceptId": "263035750",
+    "concept": "Trichomoniasis diagnosis age",
+    "isTextBox": true
+  },
+  "SYPH_YEAR": {
+    "conceptId": "312392165",
+    "concept": "Syphilis diagnosis year",
+    "isTextBox": true
+  },
+  "SYPH_AGE": {
+    "conceptId": "493095196",
+    "concept": "Syphilis diagnosis age",
+    "isTextBox": true
+  },
+  "GENWARTS_YEAR": {
+    "conceptId": "615111201",
+    "concept": "Genital Warts diagnosis year",
+    "isTextBox": true
+  },
+  "GENWARTS_AGE": {
+    "conceptId": "603114576",
+    "concept": "Genital Warts diagnosis age",
+    "isTextBox": true
+  },
+  "HPV_YEAR": {
+    "conceptId": "381702052",
+    "concept": "HPV diagnosis year",
+    "isTextBox": true
+  },
+  "HPV_AGE": {
+    "conceptId": "214966808",
+    "concept": "HPV diagnosis age",
+    "isTextBox": true
+  },
+  "HIVAIDS_YEAR": {
+    "conceptId": "817938366",
+    "concept": "HIV/AIDS diagnosis year",
+    "isTextBox": true
+  },
+  "HIVAIDS_AGE": {
+    "conceptId": "967119702",
+    "concept": "HIV/AIDS diagnosis age",
+    "isTextBox": true
+  },
+  "UF_YEAR": {
+    "conceptId": "351965599",
+    "concept": "Uterine Fibroids year",
+    "isTextBox": true
+  },
+  "UF_AGE": {
+    "conceptId": "895115511",
+    "concept": "Uterine Fibroids age",
+    "isTextBox": true
+  },
+  "ENDO_YEAR": {
+    "conceptId": "627561788",
+    "concept": "Endometriosis year",
+    "isTextBox": true
+  },
+  "ENDO_AGE": {
+    "conceptId": "916563135",
+    "concept": "Endometriosis age",
+    "isTextBox": true
+  },
+  "PCOS_YEAR": {
+    "conceptId": "210695876",
+    "concept": "Polycystic Ovary Syndrome (PCOS) year",
+    "isTextBox": true
+  },
+  "PCOS_AGE": {
+    "conceptId": "603202179",
+    "concept": "Polycystic Ovary Syndrome (PCOS) age",
+    "isTextBox": true
+  },
+  "ENLGPROS_YEAR": {
+    "conceptId": "718426460",
+    "concept": "Enlarged Prostate year",
+    "isTextBox": true
+  },
+  "ENLGPROS_AGE": {
+    "conceptId": "689382389",
+    "concept": "Enlarged Prostate age",
+    "isTextBox": true
+  },
+  "BREASTDIS_YEAR": {
+    "conceptId": "138780721",
+    "concept": "Fibrocystic Breast, or other Benign Breast Disease year",
+    "isTextBox": true
+  },
+  "BREASTDIS_AGE": {
+    "conceptId": "162512268",
+    "concept": "Fibrocystic Breast, or other Benign Breast Disease age",
+    "isTextBox": true
+  },
+  "DEPRESS2_YEAR": {
+    "conceptId": "591959654",
+    "concept": "depression year",
+    "isTextBox": true
+  },
+  "DEPRESS2_AGE": {
+    "conceptId": "479548517",
+    "concept": "depression age",
+    "isTextBox": true
+  },
+  "TONSILS_AGE": {
+    "conceptId": "300754548",
+    "concept": "tonsillectomy age",
+    "isTextBox": true
+  },
+  "TONSILS_YEAR": {
+    "conceptId": "714712574",
+    "concept": "tonsillectomy year",
+    "isTextBox": true
+  },
+  "GALLREM_AGE": {
+    "conceptId": "770077563",
+    "concept": "cholecystectomy age",
+    "isTextBox": true
+  },
+  "GALLREM_YEAR": {
+    "conceptId": "673916004",
+    "concept": "cholecystectomy year",
+    "isTextBox": true
+  },
+  "APPEND_AGE": {
+    "conceptId": "919193251",
+    "concept": "appendectomy age",
+    "isTextBox": true
+  },
+  "APPEND_YEAR": {
+    "conceptId": "727704681",
+    "concept": "appendectomy year",
+    "isTextBox": true
+  },
+  "LIPOSUCT_AGE": {
+    "conceptId": "937331599",
+    "concept": "liposuction age",
+    "isTextBox": true
+  },
+  "LIPOSUCT_YEAR": {
+    "conceptId": "940310458",
+    "concept": "liposuction year",
+    "isTextBox": true
+  },
+  "BARSUR_AGE": {
+    "conceptId": "701709442",
+    "concept": "bariatric surgery age",
+    "isTextBox": true
+  },
+  "BARSUR_YEAR": {
+    "conceptId": "681330157",
+    "concept": "bariatric surgery year",
+    "isTextBox": true
+  },
+  "BREASTSUR_TB": {
+    "conceptId": "942347130",
+    "concept": "Other: Please describe[text box]",
+    "isTextBox": true
+  },
+  "BREASTSUR2_AGE": {
+    "conceptId": "326574941",
+    "concept": "breast surgery age",
+    "isTextBox": true
+  },
+  "BREASTSUR2_YEAR": {
+    "conceptId": "560915680",
+    "concept": "breast surgery year",
+    "isTextBox": true
+  },
+  "HYSTER_AGE": {
+    "conceptId": "861162777",
+    "concept": "uterus removed (hysterectomy) age",
+    "isTextBox": true
+  },
+  "HYSTER_YEAR": {
+    "conceptId": "223433842",
+    "concept": "uterus removed (hysterectomy) year",
+    "isTextBox": true
+  },
+  "TUBLIG_AGE": {
+    "conceptId": "232595513",
+    "concept": "tubes tied (tubal ligation) age",
+    "isTextBox": true
+  },
+  "TUBLIG_YEAR": {
+    "conceptId": "614366597",
+    "concept": "tubes tied (tubal ligation) year",
+    "isTextBox": true
+  },
+  "OVARYREM2_AGE": {
+    "conceptId": "382585565",
+    "concept": "oophorectomy age",
+    "isTextBox": true
+  },
+  "OVARYREM2_YEAR": {
+    "conceptId": "792079466",
+    "concept": "oophorectomy year",
+    "isTextBox": true
+  },
+  "FTREM2_AGE": {
+    "conceptId": "145109012",
+    "concept": "salpingectomy age",
+    "isTextBox": true
+  },
+  "FTREM2_YEAR": {
+    "conceptId": "317830774",
+    "concept": "salpingectomy year",
+    "isTextBox": true
+  },
+  "VASEC_AGE": {
+    "conceptId": "928298652",
+    "concept": "vasectomy age",
+    "isTextBox": true
+  },
+  "VASEC_YEAR": {
+    "conceptId": "490279682",
+    "concept": "vasectomy year",
+    "isTextBox": true
+  },
+  "TESTREM2_AGE": {
+    "conceptId": "996533518",
+    "concept": "testicle removal surgery age",
+    "isTextBox": true
+  },
+  "TESTREM2_YEAR": {
+    "conceptId": "636402284",
+    "concept": "testicle removal surgery year",
+    "isTextBox": true
+  },
+  "PROSREM2_AGE": {
+    "conceptId": "331285390",
+    "concept": "prostate removal surgery age",
+    "isTextBox": true
+  },
+  "PROSREM2_YEAR": {
+    "conceptId": "614994823",
+    "concept": "prostate removal surgery year",
+    "isTextBox": true
+  },
+  "PENREM_AGE": {
+    "conceptId": "453820144",
+    "concept": "penis removed (penectomy age",
+    "isTextBox": true
+  },
+  "PENREM_YEAR": {
+    "conceptId": "535698869",
+    "concept": "penis removed (penectomy year",
+    "isTextBox": true
+  },
+  "BLDTRANS3_AGE": {
+    "conceptId": "380275309",
+    "concept": "First blood transfusion age",
+    "isTextBox": true
+  },
+  "BLDTRANS3_YEAR": {
+    "conceptId": "197994844",
+    "concept": "First blood transfusion year",
+    "isTextBox": true
+  },
+  "BLDTRANS4_AGE": {
+    "conceptId": "434556295",
+    "concept": "last blood transfusion age",
+    "isTextBox": true
+  },
+  "BLDTRANS4_YEAR": {
+    "conceptId": "106010694",
+    "concept": "last blood transfusion year",
+    "isTextBox": true
+  },
+  "HEIGHTFT": {
+    "conceptId": "340854069",
+    "concept": "Height feet",
+    "isTextBox": true
+  },
+  "HEIGHTIN": {
+    "conceptId": "600462977",
+    "concept": "Height inches",
+    "isTextBox": true
+  },
+  "WEIGHTHIS1": {
+    "conceptId": "821387277",
+    "concept": "Weight at 18 years old entry",
+    "isTextBox": true
+  },
+  "WEIGHTHIS2": {
+    "conceptId": "121646540",
+    "concept": "Weight at 25 years old entry",
+    "isTextBox": true
+  },
+  "WEIGHTHIS3": {
+    "conceptId": "950080618",
+    "concept": "Weight at 35 years old entry",
+    "isTextBox": true
+  },
+  "WEIGHTHIS4": {
+    "conceptId": "407167089",
+    "concept": "Weight at 45 years old entry",
+    "isTextBox": true
+  },
+  "WEIGHTHIS5": {
+    "conceptId": "503154158",
+    "concept": "Weight at 55 years old entry",
+    "isTextBox": true
+  },
+  "WTLOSS2_1825_TB": {
+    "conceptId": "155535868",
+    "concept": "Other text box",
+    "isTextBox": true
+  },
+  "WTLOSS2_2535_TB": {
+    "conceptId": "899840609",
+    "concept": "Other text box",
+    "isTextBox": true
+  },
+  "WTLOSS2_3545_TB": {
+    "conceptId": "660541817",
+    "concept": "Other text box",
+    "isTextBox": true
+  },
+  "WTLOSS2_4555_TB": {
+    "conceptId": "963867920",
+    "concept": "Other text box",
+    "isTextBox": true
+  },
+  "HRMED2_TB": {
+    "conceptId": "787193493",
+    "concept": "Other: Please describe[text box]",
+    "isTextBox": true
+  },
+  "MOMCANC2_TB": {
+    "conceptId": "677702321",
+    "concept": "Another type of cancer: Please describe [text box]",
+    "isTextBox": true
+  },
+  "MOMCANC3A_AGE": {
+    "conceptId": "610682728",
+    "concept": "Mom anal cancer age",
+    "isTextBox": true
+  },
+  "MOMCANC3A_YEAR": {
+    "conceptId": "413373359",
+    "concept": "Mom anal cancer year",
+    "isTextBox": true
+  },
+  "MOMCANC3B_AGE": {
+    "conceptId": "453541419",
+    "concept": "Mom bladder cancer age",
+    "isTextBox": true
+  },
+  "MOMCANC3B_YEAR": {
+    "conceptId": "109977403",
+    "concept": "Mom bladder cancer year",
+    "isTextBox": true
+  },
+  "MOMCANC3C_AGE": {
+    "conceptId": "959143767",
+    "concept": "Mom brain cancer age",
+    "isTextBox": true
+  },
+  "MOMCANC3C_YEAR": {
+    "conceptId": "277009302",
+    "concept": "Mom brain cancer year",
+    "isTextBox": true
+  },
+  "MOMCANC3D_AGE": {
+    "conceptId": "388289687",
+    "concept": "Mom breast cancer age",
+    "isTextBox": true
+  },
+  "MOMCANC3D_YEAR": {
+    "conceptId": "734800333",
+    "concept": "Mom breast cancer year",
+    "isTextBox": true
+  },
+  "MOMCANC3E_AGE": {
+    "conceptId": "169302755",
+    "concept": "Mom cervical cancer age",
+    "isTextBox": true
+  },
+  "MOMCANC3E_YEAR": {
+    "conceptId": "385040556",
+    "concept": "Mom cervical cancer year",
+    "isTextBox": true
+  },
+  "MOMCANC3F_AGE": {
+    "conceptId": "985487786",
+    "concept": "Mom colon/rectal cancer age",
+    "isTextBox": true
+  },
+  "MOMCANC3F_YEAR": {
+    "conceptId": "270796664",
+    "concept": "Mom colon/rectal cancer year",
+    "isTextBox": true
+  },
+  "MOMCANC3G_AGE": {
+    "conceptId": "168033284",
+    "concept": "Mom esophageal cancer age",
+    "isTextBox": true
+  },
+  "MOMCANC3G_YEAR": {
+    "conceptId": "492448557",
+    "concept": "Mom esophageal cancer year",
+    "isTextBox": true
+  },
+  "MOMCANC3H_AGE": {
+    "conceptId": "983373946",
+    "concept": "Mom Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.) cancer age",
+    "isTextBox": true
+  },
+  "MOMCANC3H_YEAR": {
+    "conceptId": "599506109",
+    "concept": "Mom Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.) cancer year",
+    "isTextBox": true
+  },
+  "MOMCANC3I_AGE": {
+    "conceptId": "838759794",
+    "concept": "Mom kidney cancer age",
+    "isTextBox": true
+  },
+  "MOMCANC3I_YEAR": {
+    "conceptId": "752235407",
+    "concept": "Mom kidney cancer year",
+    "isTextBox": true
+  },
+  "MOMCANC3J_AGE": {
+    "conceptId": "547104738",
+    "concept": "Mom Leukemia (blood and bone marrow) cancer age",
+    "isTextBox": true
+  },
+  "MOMCANC3J_YEAR": {
+    "conceptId": "379026574",
+    "concept": "Mom Leukemia (blood and bone marrow) cancer year",
+    "isTextBox": true
+  },
+  "MOMCANC3K_AGE": {
+    "conceptId": "388374840",
+    "concept": "Mom Liver cancer age",
+    "isTextBox": true
+  },
+  "MOMCANC3K_YEAR": {
+    "conceptId": "358704664",
+    "concept": "Mom Liver cancer year",
+    "isTextBox": true
+  },
+  "MOMCANC3L_AGE": {
+    "conceptId": "596241685",
+    "concept": "Mom Lung or bronchial cancer age",
+    "isTextBox": true
+  },
+  "MOMCANC3L_YEAR": {
+    "conceptId": "121874737",
+    "concept": "Mom Lung or bronchial cancer year",
+    "isTextBox": true
+  },
+  "MOMCANC3M_AGE": {
+    "conceptId": "541724401",
+    "concept": "Mom Non-Hodgkin's lymphoma cancer age",
+    "isTextBox": true
+  },
+  "MOMCANC3M_YEAR": {
+    "conceptId": "205864986",
+    "concept": "Mom Non-Hodgkin's lymphoma cancer year",
+    "isTextBox": true
+  },
+  "MOMCANC3N_AGE": {
+    "conceptId": "874054245",
+    "concept": "Mom Lymphoma cancer age",
+    "isTextBox": true
+  },
+  "MOMCANC3N_YEAR": {
+    "conceptId": "418180335",
+    "concept": "Mom Lymphoma cancer year",
+    "isTextBox": true
+  },
+  "MOMCANC3O_AGE": {
+    "conceptId": "141144552",
+    "concept": "Mom Melanoma (skin) cancer age",
+    "isTextBox": true
+  },
+  "MOMCANC3O_YEAR": {
+    "conceptId": "440607185",
+    "concept": "Mom Melanoma (skin) cancer year",
+    "isTextBox": true
+  },
+  "MOMCANC3P_AGE": {
+    "conceptId": "289706761",
+    "concept": "Mom Non-melanoma skin (basal or squamous) cancer age",
+    "isTextBox": true
+  },
+  "MOMCANC3P_YEAR": {
+    "conceptId": "605453103",
+    "concept": "Mom Non-melanoma skin (basal or squamous) cancer year",
+    "isTextBox": true
+  },
+  "MOMCANC3Q_AGE": {
+    "conceptId": "973394396",
+    "concept": "Mom Ovarian cancer age",
+    "isTextBox": true
+  },
+  "MOMCANC3Q_YEAR": {
+    "conceptId": "665582429",
+    "concept": "Mom Ovarian cancer year",
+    "isTextBox": true
+  },
+  "MOMCANC3R_AGE": {
+    "conceptId": "524645358",
+    "concept": "Mom Pancreatic cancer age",
+    "isTextBox": true
+  },
+  "MOMCANC3R_YEAR": {
+    "conceptId": "592006986",
+    "concept": "Mom Pancreatic cancer year",
+    "isTextBox": true
+  },
+  "MOMCANC3S_AGE": {
+    "conceptId": "162638173",
+    "concept": "Mom Stomach cancer age",
+    "isTextBox": true
+  },
+  "MOMCANC3S_YEAR": {
+    "conceptId": "889983189",
+    "concept": "Mom Stomach cancer year",
+    "isTextBox": true
+  },
+  "MOMCANC3T_AGE": {
+    "conceptId": "397846140",
+    "concept": "Mom Thyroid cancer age",
+    "isTextBox": true
+  },
+  "MOMCANC3T_YEAR": {
+    "conceptId": "214233290",
+    "concept": "Mom Thyroid cancer year",
+    "isTextBox": true
+  },
+  "MOMCANC3U_AGE": {
+    "conceptId": "656295184",
+    "concept": "Mom Uterine (endometrial) cancer age",
+    "isTextBox": true
+  },
+  "MOMCANC3U_YEAR": {
+    "conceptId": "692482321",
+    "concept": "Mom Uterine (endometrial) cancer year",
+    "isTextBox": true
+  },
+  "MOMCANC3V_AGE": {
+    "conceptId": "918309234",
+    "concept": "Mom response from MOMCANC2/another type of cancer age",
+    "isTextBox": true
+  },
+  "MOMCANC3V_YEAR": {
+    "conceptId": "604877545",
+    "concept": "Mom response from MOMCANC2/another type of cancer year",
+    "isTextBox": true
+  },
+  "MOMCANC3W_AGE": {
+    "conceptId": "183037954",
+    "concept": "Mom cancer age",
+    "isTextBox": true
+  },
+  "MOMCANC3W_YEAR": {
+    "conceptId": "888515115",
+    "concept": "Mom cancer year",
+    "isTextBox": true
+  },
+  "DADCANC2_TB": {
+    "conceptId": "195093589",
+    "concept": "Another type of cancer: Please describe [text box]",
+    "isTextBox": true
+  },
+  "DADCANC3A_AGE": {
+    "conceptId": "120646060",
+    "concept": "Dad anal cancer age",
+    "isTextBox": true
+  },
+  "DADCANC3A_YEAR": {
+    "conceptId": "980685446",
+    "concept": "Dad anal cancer year",
+    "isTextBox": true
+  },
+  "DADCANC3B_AGE": {
+    "conceptId": "796923959",
+    "concept": "Dad bladder cancer age",
+    "isTextBox": true
+  },
+  "DADCANC3B_YEAR": {
+    "conceptId": "927451815",
+    "concept": "Dad bladder cancer year",
+    "isTextBox": true
+  },
+  "DADCANC3C_AGE": {
+    "conceptId": "688933594",
+    "concept": "Dad brain cancer age",
+    "isTextBox": true
+  },
+  "DADCANC3C_YEAR": {
+    "conceptId": "648084034",
+    "concept": "Dad brain cancer year",
+    "isTextBox": true
+  },
+  "DADCANC3D_AGE": {
+    "conceptId": "400162033",
+    "concept": "Dad breast cancer age",
+    "isTextBox": true
+  },
+  "DADCANC3D_YEAR": {
+    "conceptId": "385423193",
+    "concept": "Dad breast cancer year",
+    "isTextBox": true
+  },
+  "DADCANC3E_AGE": {
+    "conceptId": "326343894",
+    "concept": "Dad colon/rectal cancer age",
+    "isTextBox": true
+  },
+  "DADCANC3E_YEAR": {
+    "conceptId": "440948417",
+    "concept": "Dad colon/rectal cancer year",
+    "isTextBox": true
+  },
+  "DADCANC3F_AGE": {
+    "conceptId": "733347323",
+    "concept": "Dad esophageal cancer age",
+    "isTextBox": true
+  },
+  "DADCANC3F_YEAR": {
+    "conceptId": "497657524",
+    "concept": "Dad esophageal cancer year",
+    "isTextBox": true
+  },
+  "DADCANC3G_AGE": {
+    "conceptId": "345313558",
+    "concept": "Dad Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.) cancer age",
+    "isTextBox": true
+  },
+  "DADCANC3G_YEAR": {
+    "conceptId": "695129126",
+    "concept": "Dad Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.) cancer year",
+    "isTextBox": true
+  },
+  "DADCANC3H_AGE": {
+    "conceptId": "540892360",
+    "concept": "Dad kidney cancer age",
+    "isTextBox": true
+  },
+  "DADCANC3H_YEAR": {
+    "conceptId": "737478230",
+    "concept": "Dad kidney cancer year",
+    "isTextBox": true
+  },
+  "DADCANC3I_AGE": {
+    "conceptId": "989148071",
+    "concept": "Dad Leukemia (blood and bone marrow) cancer age",
+    "isTextBox": true
+  },
+  "DADCANC3I_YEAR": {
+    "conceptId": "178661553",
+    "concept": "Dad Leukemia (blood and bone marrow) cancer year",
+    "isTextBox": true
+  },
+  "DADCANC3J_AGE": {
+    "conceptId": "829692074",
+    "concept": "Dad Liver cancer age",
+    "isTextBox": true
+  },
+  "DADCANC3J_YEAR": {
+    "conceptId": "991371613",
+    "concept": "Dad Liver cancer year",
+    "isTextBox": true
+  },
+  "DADCANC3K_AGE": {
+    "conceptId": "260972338",
+    "concept": "Dad Lung or bronchial cancer age",
+    "isTextBox": true
+  },
+  "DADCANC3K_YEAR": {
+    "conceptId": "331562964",
+    "concept": "Dad Lung or bronchial cancer year",
+    "isTextBox": true
+  },
+  "DADCANC3L_AGE": {
+    "conceptId": "877901263",
+    "concept": "Dad Non-Hodgkin's lymphoma cancer age",
+    "isTextBox": true
+  },
+  "DADCANC3L_YEAR": {
+    "conceptId": "238799612",
+    "concept": "Dad Non-Hodgkin's lymphoma cancer year",
+    "isTextBox": true
+  },
+  "DADCANC3M_AGE": {
+    "conceptId": "404242396",
+    "concept": "Dad Lymphoma cancer age",
+    "isTextBox": true
+  },
+  "DADCANC3M_YEAR": {
+    "conceptId": "140497026",
+    "concept": "Dad Lymphoma cancer year",
+    "isTextBox": true
+  },
+  "DADCANC3N_AGE": {
+    "conceptId": "167852044",
+    "concept": "Dad Melanoma (skin) cancer age",
+    "isTextBox": true
+  },
+  "DADCANC3N_YEAR": {
+    "conceptId": "219945811",
+    "concept": "Dad Melanoma (skin) cancer year",
+    "isTextBox": true
+  },
+  "DADCANC3O_AGE": {
+    "conceptId": "854361219",
+    "concept": "Dad Non-melanoma skin (basal or squamous) cancer age",
+    "isTextBox": true
+  },
+  "DADCANC3O_YEAR": {
+    "conceptId": "791071736",
+    "concept": "Dad Non-melanoma skin (basal or squamous) cancer year",
+    "isTextBox": true
+  },
+  "DADCANC3P_AGE": {
+    "conceptId": "320619944",
+    "concept": "Dad Pancreatic cancer age",
+    "isTextBox": true
+  },
+  "DADCANC3P_YEAR": {
+    "conceptId": "222019920",
+    "concept": "Dad Pancreatic cancer year",
+    "isTextBox": true
+  },
+  "DADCANC3Q_AGE": {
+    "conceptId": "429252206",
+    "concept": "Dad Prostate cancer age",
+    "isTextBox": true
+  },
+  "DADCANC3Q_YEAR": {
+    "conceptId": "462925081",
+    "concept": "Dad Prostate cancer year",
+    "isTextBox": true
+  },
+  "DADCANC3R_AGE": {
+    "conceptId": "193601028",
+    "concept": "Dad Stomach cancer age",
+    "isTextBox": true
+  },
+  "DADCANC3R_YEAR": {
+    "conceptId": "400751267",
+    "concept": "Dad Stomach cancer year",
+    "isTextBox": true
+  },
+  "DADCANC3S_AGE": {
+    "conceptId": "567975304",
+    "concept": "Dad Testicular cancer age",
+    "isTextBox": true
+  },
+  "DADCANC3S_YEAR": {
+    "conceptId": "296501787",
+    "concept": "Dad Testicular cancer year",
+    "isTextBox": true
+  },
+  "DADCANC3T_AGE": {
+    "conceptId": "708853698",
+    "concept": "Dad Thyroid cancer age",
+    "isTextBox": true
+  },
+  "DADCANC3T_YEAR": {
+    "conceptId": "315421706",
+    "concept": "Dad Thyroid cancer year",
+    "isTextBox": true
+  },
+  "DADCANC3U_AGE": {
+    "conceptId": "958275484",
+    "concept": "Dad response from DadCANC2/another type of cancer age",
+    "isTextBox": true
+  },
+  "DADCANC3U_YEAR": {
+    "conceptId": "672937779",
+    "concept": "Dad response from DadCANC2/another type of cancer year",
+    "isTextBox": true
+  },
+  "DADCANC3V_AGE": {
+    "conceptId": "511732607",
+    "concept": "Dad cancer age",
+    "isTextBox": true
+  },
+  "DADCANC3V_YEAR": {
+    "conceptId": "854558887",
+    "concept": "Dad cancer year",
+    "isTextBox": true
+  },
+  "SIBCANC2_TB": {
+    "conceptId": "957429734",
+    "concept": "Another type of cancer: Please describe [text box]",
+    "isTextBox": true
+  },
+  "SIBCANC3A_AGE": {
+    "conceptId": "510529171",
+    "concept": "Sibling 1 anal cancer age",
+    "isTextBox": true
+  },
+  "SIBCANC3A_YEAR": {
+    "conceptId": "649482083",
+    "concept": "Sibling 1 anal cancer year",
+    "isTextBox": true
+  },
+  "SIBCANC3B_AGE": {
+    "conceptId": "603180043",
+    "concept": "Sibling 1 bladder cancer age",
+    "isTextBox": true
+  },
+  "SIBCANC3B_YEAR": {
+    "conceptId": "830244671",
+    "concept": "Sibling 1 bladder cancer year",
+    "isTextBox": true
+  },
+  "SIBCANC3C_AGE": {
+    "conceptId": "138097365",
+    "concept": "Sibling 1 brain cancer age",
+    "isTextBox": true
+  },
+  "SIBCANC3C_YEAR": {
+    "conceptId": "358401051",
+    "concept": "Sibling 1 brain cancer year",
+    "isTextBox": true
+  },
+  "SIBCANC3D_AGE": {
+    "conceptId": "650332509",
+    "concept": "Sibling 1 breast cancer age",
+    "isTextBox": true
+  },
+  "SIBCANC3D_YEAR": {
+    "conceptId": "932489634",
+    "concept": "Sibling 1 breast cancer year",
+    "isTextBox": true
+  },
+  "SIBCANC3E_AGE": {
+    "conceptId": "842731701",
+    "concept": "Sibling 1 cervical cancer age",
+    "isTextBox": true
+  },
+  "SIBCANC3E_YEAR": {
+    "conceptId": "263703032",
+    "concept": "Sibling 1 cervical cancer year",
+    "isTextBox": true
+  },
+  "SIBCANC3F_AGE": {
+    "conceptId": "899435964",
+    "concept": "Sibling 1 colon/rectal cancer age",
+    "isTextBox": true
+  },
+  "SIBCANC3F_YEAR": {
+    "conceptId": "973110368",
+    "concept": "Sibling 1 colon/rectal cancer year",
+    "isTextBox": true
+  },
+  "SIBCANC3G_AGE": {
+    "conceptId": "301293668",
+    "concept": "Sibling 1 esophageal cancer age",
+    "isTextBox": true
+  },
+  "SIBCANC3G_YEAR": {
+    "conceptId": "355636351",
+    "concept": "Sibling 1 esophageal cancer year",
+    "isTextBox": true
+  },
+  "SIBCANC3H_AGE": {
+    "conceptId": "225886624",
+    "concept": "Sibling 1 Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.) cancer age",
+    "isTextBox": true
+  },
+  "SIBCANC3H_YEAR": {
+    "conceptId": "957985997",
+    "concept": "Sibling 1 Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.) cancer year",
+    "isTextBox": true
+  },
+  "SIBCANC3I_AGE": {
+    "conceptId": "239465377",
+    "concept": "Sibling 1 kidney cancer age",
+    "isTextBox": true
+  },
+  "SIBCANC3I_YEAR": {
+    "conceptId": "273406875",
+    "concept": "Sibling 1 kidney cancer year",
+    "isTextBox": true
+  },
+  "SIBCANC3J_AGE": {
+    "conceptId": "167405019",
+    "concept": "Sibling 1 Leukemia (blood and bone marrow) cancer age",
+    "isTextBox": true
+  },
+  "SIBCANC3J_YEAR": {
+    "conceptId": "796283680",
+    "concept": "Sibling 1 Leukemia (blood and bone marrow) cancer year",
+    "isTextBox": true
+  },
+  "SIBCANC3K_AGE": {
+    "conceptId": "194878968",
+    "concept": "Sibling 1 Liver cancer age",
+    "isTextBox": true
+  },
+  "SIBCANC3K_YEAR": {
+    "conceptId": "758058429",
+    "concept": "Sibling 1 Liver cancer year",
+    "isTextBox": true
+  },
+  "SIBCANC3L_AGE": {
+    "conceptId": "894869147",
+    "concept": "Sibling 1 Lung or bronchial cancer age",
+    "isTextBox": true
+  },
+  "SIBCANC3L_YEAR": {
+    "conceptId": "718578254",
+    "concept": "Sibling 1 Lung or bronchial cancer year",
+    "isTextBox": true
+  },
+  "SIBCANC3M_AGE": {
+    "conceptId": "742703036",
+    "concept": "Sibling 1 Non-Hodgkin's lymphoma cancer age",
+    "isTextBox": true
+  },
+  "SIBCANC3M_YEAR": {
+    "conceptId": "378416726",
+    "concept": "Sibling 1 Non-Hodgkin's lymphoma cancer year",
+    "isTextBox": true
+  },
+  "SIBCANC3N_AGE": {
+    "conceptId": "779428217",
+    "concept": "Sibling 1 Lymphoma cancer age",
+    "isTextBox": true
+  },
+  "SIBCANC3N_YEAR": {
+    "conceptId": "306261647",
+    "concept": "Sibling 1 Lymphoma cancer year",
+    "isTextBox": true
+  },
+  "SIBCANC3O_AGE": {
+    "conceptId": "230633094",
+    "concept": "Sibling 1 Melanoma (skin) cancer age",
+    "isTextBox": true
+  },
+  "SIBCANC3O_YEAR": {
+    "conceptId": "962468280",
+    "concept": "Sibling 1 Melanoma (skin) cancer year",
+    "isTextBox": true
+  },
+  "SIBCANC3P_AGE": {
+    "conceptId": "320895201",
+    "concept": "Sibling 1 Non-melanoma skin (basal or squamous) cancer age",
+    "isTextBox": true
+  },
+  "SIBCANC3P_YEAR": {
+    "conceptId": "407586710",
+    "concept": "Sibling 1 Non-melanoma skin (basal or squamous) cancer year",
+    "isTextBox": true
+  },
+  "SIBCANC3Q_AGE": {
+    "conceptId": "260447694",
+    "concept": "Sibling 1 Ovarian cancer age",
+    "isTextBox": true
+  },
+  "SIBCANC3Q_YEAR": {
+    "conceptId": "169843483",
+    "concept": "Sibling 1 Ovarian cancer year",
+    "isTextBox": true
+  },
+  "SIBCANC3R_AGE": {
+    "conceptId": "413033387",
+    "concept": "Sibling 1 Pancreatic cancer age",
+    "isTextBox": true
+  },
+  "SIBCANC3R_YEAR": {
+    "conceptId": "123052136",
+    "concept": "Sibling 1 Pancreatic cancer year",
+    "isTextBox": true
+  },
+  "SIBCANC3S_AGE": {
+    "conceptId": "960076770",
+    "concept": "Sibling 1 Prostate cancer age",
+    "isTextBox": true
+  },
+  "SIBCANC3S_YEAR": {
+    "conceptId": "678850998",
+    "concept": "Sibling 1 Prostate cancer year",
+    "isTextBox": true
+  },
+  "SIBCANC3T_AGE": {
+    "conceptId": "244198411",
+    "concept": "Sibling 1 Stomach cancer age",
+    "isTextBox": true
+  },
+  "SIBCANC3T_YEAR": {
+    "conceptId": "944234755",
+    "concept": "Sibling 1 Stomach cancer year",
+    "isTextBox": true
+  },
+  "SIBCANC3U_AGE": {
+    "conceptId": "459513552",
+    "concept": "Sibling 1 Testicular cancer age",
+    "isTextBox": true
+  },
+  "SIBCANC3U_YEAR": {
+    "conceptId": "880128119",
+    "concept": "Sibling 1 Testicular cancer year",
+    "isTextBox": true
+  },
+  "SIBCANC3V_AGE": {
+    "conceptId": "367854451",
+    "concept": "Sibling 1 Thyroid cancer age",
+    "isTextBox": true
+  },
+  "SIBCANC3V_YEAR": {
+    "conceptId": "753912404",
+    "concept": "Sibling 1 Thyroid cancer year",
+    "isTextBox": true
+  },
+  "SIBCANC3W_AGE": {
+    "conceptId": "607640595",
+    "concept": "Sibling 1 Uterine (endometrial) cancer age",
+    "isTextBox": true
+  },
+  "SIBCANC3W_YEAR": {
+    "conceptId": "638209807",
+    "concept": "Sibling 1 Uterine (endometrial) cancer year",
+    "isTextBox": true
+  },
+  "SIBCANC3X_AGE": {
+    "conceptId": "808732744",
+    "concept": "Sibling 1 response from Sibling 1CANC2/another type of cancer age",
+    "isTextBox": true
+  },
+  "SIBCANC3X_YEAR": {
+    "conceptId": "708505439",
+    "concept": "Sibling 1 response from SIB1CANC2/another type of cancer year",
+    "isTextBox": true
+  },
+  "SIBCANC3Y_AGE": {
+    "conceptId": "458680879",
+    "concept": "Sibling 1 cancer age",
+    "isTextBox": true
+  },
+  "SIBCANC3Y_YEAR": {
+    "conceptId": "460380328",
+    "concept": "Sibling 1 cancer year",
+    "isTextBox": true
+  },
+  "CHILDCANC2_TB": {
+    "conceptId": "933110091",
+    "concept": "Another type of cancer: Please describe [text box]",
+    "isTextBox": true
+  },
+  "CHILDCANC3A_AGE": {
+    "conceptId": "603938149",
+    "concept": "Child 1 anal cancer age",
+    "isTextBox": true
+  },
+  "CHILDCANC3A_YEAR": {
+    "conceptId": "501239434",
+    "concept": "Child 1 anal cancer year",
+    "isTextBox": true
+  },
+  "CHILDCANC3B_AGE": {
+    "conceptId": "354436205",
+    "concept": "Child 1 bladder cancer age",
+    "isTextBox": true
+  },
+  "CHILDCANC3B_YEAR": {
+    "conceptId": "108359825",
+    "concept": "Child 1 bladder cancer year",
+    "isTextBox": true
+  },
+  "CHILDCANC3C_AGE": {
+    "conceptId": "780070895",
+    "concept": "Child 1 brain cancer age",
+    "isTextBox": true
+  },
+  "CHILDCANC3C_YEAR": {
+    "conceptId": "567419874",
+    "concept": "Child 1 brain cancer year",
+    "isTextBox": true
+  },
+  "CHILDCANC3D_AGE": {
+    "conceptId": "601077153",
+    "concept": "Child 1 breast cancer age",
+    "isTextBox": true
+  },
+  "CHILDCANC3D_YEAR": {
+    "conceptId": "755243811",
+    "concept": "Child 1 breast cancer year",
+    "isTextBox": true
+  },
+  "CHILDCANC3E_AGE": {
+    "conceptId": "571878079",
+    "concept": "Child 1 cervical cancer age",
+    "isTextBox": true
+  },
+  "CHILDCANC3E_YEAR": {
+    "conceptId": "817830684",
+    "concept": "Child 1 cervical cancer year",
+    "isTextBox": true
+  },
+  "CHILDCANC3F_AGE": {
+    "conceptId": "388130858",
+    "concept": "Child 1 colon/rectal cancer age",
+    "isTextBox": true
+  },
+  "CHILDCANC3F_YEAR": {
+    "conceptId": "804601443",
+    "concept": "Child 1 colon/rectal cancer year",
+    "isTextBox": true
+  },
+  "CHILDCANC3G_AGE": {
+    "conceptId": "446624061",
+    "concept": "Child 1 esophageal cancer age",
+    "isTextBox": true
+  },
+  "CHILDCANC3G_YEAR": {
+    "conceptId": "811915727",
+    "concept": "Child 1 esophageal cancer year",
+    "isTextBox": true
+  },
+  "CHILDCANC3H_AGE": {
+    "conceptId": "114042143",
+    "concept": "Child 1 Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.) cancer age",
+    "isTextBox": true
+  },
+  "CHILDCANC3H_YEAR": {
+    "conceptId": "778001130",
+    "concept": "Child 1 Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.) cancer year",
+    "isTextBox": true
+  },
+  "CHILDCANC3I_AGE": {
+    "conceptId": "568360291",
+    "concept": "Child 1 kidney cancer age",
+    "isTextBox": true
+  },
+  "CHILDCANC3I_YEAR": {
+    "conceptId": "954022335",
+    "concept": "Child 1 kidney cancer year",
+    "isTextBox": true
+  },
+  "CHILDCANC3J_AGE": {
+    "conceptId": "711224139",
+    "concept": "Child 1 Leukemia (blood and bone marrow) cancer age",
+    "isTextBox": true
+  },
+  "CHILDCANC3J_YEAR": {
+    "conceptId": "640489106",
+    "concept": "Child 1 Leukemia (blood and bone marrow) cancer year",
+    "isTextBox": true
+  },
+  "CHILDCANC3K_AGE": {
+    "conceptId": "160930045",
+    "concept": "Child 1 Liver cancer age",
+    "isTextBox": true
+  },
+  "CHILDCANC3K_YEAR": {
+    "conceptId": "614641556",
+    "concept": "Child 1 Liver cancer year",
+    "isTextBox": true
+  },
+  "CHILDCANC3L_AGE": {
+    "conceptId": "381106518",
+    "concept": "Child 1 Lung or bronchial cancer age",
+    "isTextBox": true
+  },
+  "CHILDCANC3L_YEAR": {
+    "conceptId": "183751424",
+    "concept": "Child 1 Lung or bronchial cancer year",
+    "isTextBox": true
+  },
+  "CHILDCANC3M_AGE": {
+    "conceptId": "813143322",
+    "concept": "Child 1 Non-Hodgkin's lymphoma cancer age",
+    "isTextBox": true
+  },
+  "CHILDCANC3M_YEAR": {
+    "conceptId": "526342365",
+    "concept": "Child 1 Non-Hodgkin's lymphoma cancer year",
+    "isTextBox": true
+  },
+  "CHILDCANC3N_AGE": {
+    "conceptId": "735764211",
+    "concept": "Child 1 Lymphoma cancer age",
+    "isTextBox": true
+  },
+  "CHILDCANC3N_YEAR": {
+    "conceptId": "159321856",
+    "concept": "Child 1 Lymphoma cancer year",
+    "isTextBox": true
+  },
+  "CHILDCANC3O_AGE": {
+    "conceptId": "711213420",
+    "concept": "Child 1 Melanoma (skin) cancer age",
+    "isTextBox": true
+  },
+  "CHILDCANC3O_YEAR": {
+    "conceptId": "980148812",
+    "concept": "Child 1 Melanoma (skin) cancer year",
+    "isTextBox": true
+  },
+  "CHILDCANC3P_AGE": {
+    "conceptId": "704011008",
+    "concept": "Child 1 Non-melanoma skin (basal or squamous) cancer age",
+    "isTextBox": true
+  },
+  "CHILDCANC3P_YEAR": {
+    "conceptId": "812959109",
+    "concept": "Child 1 Non-melanoma skin (basal or squamous) cancer year",
+    "isTextBox": true
+  },
+  "CHILDCANC3Q_AGE": {
+    "conceptId": "650144607",
+    "concept": "Child 1 Ovarian cancer age",
+    "isTextBox": true
+  },
+  "CHILDCANC3Q_YEAR": {
+    "conceptId": "806191740",
+    "concept": "Child 1 Ovarian cancer year",
+    "isTextBox": true
+  },
+  "CHILDCANC3R_AGE": {
+    "conceptId": "823938694",
+    "concept": "Child 1 Pancreatic cancer age",
+    "isTextBox": true
+  },
+  "CHILDCANC3R_YEAR": {
+    "conceptId": "249763782",
+    "concept": "Child 1 Pancreatic cancer year",
+    "isTextBox": true
+  },
+  "CHILDCANC3S_AGE": {
+    "conceptId": "531639940",
+    "concept": "Child 1 Prostate cancer year",
+    "isTextBox": true
+  },
+  "CHILDCANC3S_YEAR": {
+    "conceptId": "485849300",
+    "concept": "Child 1 Prostate cancer year",
+    "isTextBox": true
+  },
+  "CHILDCANC3T_AGE": {
+    "conceptId": "849706420",
+    "concept": "Child 1 Stomach cancer age",
+    "isTextBox": true
+  },
+  "CHILDCANC3T_YEAR": {
+    "conceptId": "271352384",
+    "concept": "Child 1 Stomach cancer year",
+    "isTextBox": true
+  },
+  "CHILDCANC3U_AGE": {
+    "conceptId": "474499646",
+    "concept": "Child 1 Testicular cancer age",
+    "isTextBox": true
+  },
+  "CHILDCANC3U_YEAR": {
+    "conceptId": "819907500",
+    "concept": "Child 1 Testicular cancer year",
+    "isTextBox": true
+  },
+  "CHILDCANC3V_AGE": {
+    "conceptId": "985262460",
+    "concept": "Child 1 Thyroid cancer age",
+    "isTextBox": true
+  },
+  "CHILDCANC3V_YEAR": {
+    "conceptId": "112978735",
+    "concept": "Child 1 Thyroid cancer year",
+    "isTextBox": true
+  },
+  "CHILDCANC3W_AGE": {
+    "conceptId": "368502744",
+    "concept": "Child 1 Uterine (endometrial) cancer age",
+    "isTextBox": true
+  },
+  "CHILDCANC3W_YEAR": {
+    "conceptId": "579956297",
+    "concept": "Child 1 Uterine (endometrial) cancer year",
+    "isTextBox": true
+  },
+  "CHILDCANC3X_AGE": {
+    "conceptId": "404289423",
+    "concept": "Child 1 response from Child 1CANC2/another type of cancer age",
+    "isTextBox": true
+  },
+  "CHILDCANC3X_YEAR": {
+    "conceptId": "171238071",
+    "concept": "Child 1 response from SIB1CANC2/another type of cancer year",
+    "isTextBox": true
+  },
+  "CHILDCANC3Y_AGE": {
+    "conceptId": "843649258",
+    "concept": "Child 1 cancer age",
+    "isTextBox": true
+  },
+  "CHILDCANC3Y_YEAR": {
+    "conceptId": "449224715",
+    "concept": "Child 1 cancer year",
+    "isTextBox": true
+  },
+  "EDU_TB": {
+    "conceptId": "940387701",
+    "concept": "Education Please describe [text box]",
+    "isTextBox": true
+  },
+  "BSNSSTYP1_TB": {
+    "conceptId": "923333992",
+    "concept": "Other text box",
+    "isTextBox": true
+  },
+  "BSNSSTYP2_TB": {
+    "conceptId": "739237614",
+    "concept": "Other text box",
+    "isTextBox": true
+  },
+  "PPLHOUSE_NUM": {
+    "conceptId": "173508724",
+    "concept": "People in house number",
+    "isTextBox": true
+  },
+  "ALTADDRESS2_LINE1": {
+    "conceptId": "284580415",
+    "concept": "Address line 1",
+    "isTextBox": true
+  },
+  "ALTADDRESS2_LINE2": {
+    "conceptId": "728926441",
+    "concept": "Address line 2",
+    "isTextBox": true
+  },
+  "ALTADDRESS2_CITY": {
+    "conceptId": "907038282",
+    "concept": "City",
+    "isTextBox": true
+  },
+  "ALTADDRESS2_STATE": {
+    "conceptId": "970839481",
+    "concept": "State",
+    "isTextBox": true
+  },
+  "ALTADDRESS2_ZIP": {
+    "conceptId": "379899229",
+    "concept": "Zip",
+    "isTextBox": true
+  },
+  "ALTCONTACT1_FNAME": {
+    "conceptId": "661719912",
+    "concept": "Alternate contact first name",
+    "isTextBox": true
+  },
+  "ALTCONTACT1_LNAME": {
+    "conceptId": "801653230",
+    "concept": "Alternate contact last name",
+    "isTextBox": true
+  },
+  "ALTCONTACT2_MOBILE": {
+    "conceptId": "286149234",
+    "concept": "Alternate contact mobile phone",
+    "isTextBox": true
+  },
+  "ALTCONTACT2_HOME": {
+    "conceptId": "318130543",
+    "concept": "Alternate contact home phone",
+    "isTextBox": true
+  },
+  "ALTCONTACT2_EMAIL": {
+    "conceptId": "750097000",
+    "concept": "Alternate contact email",
+    "isTextBox": true
+  },
+  "DCIS_YEAR": {
+    "conceptId": "551017973",
+    "concept": "DCIS year",
+    "isTextBox": true
+  },
+  "DCIS_AGE": {
+    "conceptId": "440662483",
+    "concept": "DCIS age",
+    "isTextBox": true
   }
 }
