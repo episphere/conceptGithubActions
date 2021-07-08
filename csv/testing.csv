@@ -226,24 +226,24 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question,co
 129084651,Survey,965707586,"Smoking, Alcohol, and Sun Exposure",,,152219278,"Month - During that time, did you ever smoke a hookah or water pipe every day?","Use hookah or water pipe  every day, months",SrvSAS_HookahED_v1r0,,HOOKAH7B,Num,2,,,104430631,2=No,,,,No,,No,,,,,,,,,,
 ,,,,,,,,,,,,,,,,353358909,1=Yes,,,,,,,,,,,,,,,,
 129084651,Survey,965707586,"Smoking, Alcohol, and Sun Exposure",,,152574674,"On days that you smoked when you were age [X / 30] to age [Y / 39 / current age], about how many pipe fills of tobacco did you smoke per day?","How many pipe fills of tobacco per day, [X / 30] to age [Y / 39 / current age]",SrvSAS_PipeFills3039_v1r0,,PIPELIFED,Num,2,,,,N/A,,N/A,,No,,No,,,,,,,,,,
-129084651,Survey,745268907,"Medications, Reproductive Health, Exercise, and Sleep",442059084,"In which season(s) did you do these moderate outdoor chores (such as weeding, raking, or mowing the lawn)? Select all that apply.",152773041,Spring,Spring,SrvMRE_Spring_v1r0,,1,Num,2,,,353358909,1=Yes,,,,No,,No,,Only display if LAWN1=0,,,,,,6/14/21,686771043,LAWN2A
-,,,,829749579,"In which season(s) did you do these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)? Select all that apply.",,,,,,,,,,,104430631,2=No,,,,,,,,,,,,,,,493031113,LAWN2B
-,,,,618482103,"In which season(s) did you do these home repairs (such as painting, plumbing, or replacing carpeting)? Select all that apply.",,,,,,,,,,,,,,,,,,,,,,,,,,,788042647,LAWN2C
-,,,,894610280,In which season(s) did you walk or hike for exercise? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,763335678,EXEREC2A
-,,,,222110888,In which season(s) did you jog or run? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,341088437,EXEREC2B
-,,,,564242877,"In which season(s) did you play tennis, squash, or racquetball? Select all that apply.",,,,,,,,,,,,,,,,,,,,,,,,,,,139876342,EXEREC2C
-,,,,635874413,In which season(s) did you play golf? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,451713969,EXEREC2D
-,,,,371748514,In which season(s) did you swim laps? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,140654884,EXEREC2E
-,,,,858525957,In which season(s) did you ride a bicycle (including a stationary bike)? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,532782265,EXEREC2F
-,,,,787591805,"In which season(s) did you do strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups)? Select all that apply.",,,,,,,,,,,,,,,,,,,,,,,,,,,904354604,EXEREC2G
-,,,,900299856,"In which season(s) did you do Yoga, Pilates, or Tai Chi? Select all that apply.",,,,,,,,,,,,,,,,,,,,,,,,,,,579734675,EXEREC2H
-,,,,149884127,In which season(s) did you do Martial Arts (such as Karate or Judo)? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,919208762,EXEREC2I
-,,,,845164425,In which season(s) did you dance? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,373748851,EXEREC2J
-,,,,187772368,In which season(s) did you downhill skiing or snowboarding? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,532487659,EXEREC2K
-,,,,815229596,In which season(s) you cross-country ski? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,955498485,EXEREC2L
-,,,,262305264,In which season(s) you surf or bodyboard? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,951348006,EXEREC2M
-,,,,409324592,In which season(s) you do high-intensity circuit training (such as P90x or Crossfit)? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,176371832,EXEREC2N
-,,,,895837106,In which season(s) you do other exercise? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,487035012,EXEREC2O
+129084651,Survey,745268907,"Medications, Reproductive Health, Exercise, and Sleep",442059084,"In which season(s) did you do these moderate outdoor chores (such as weeding, raking, or mowing the lawn)? Select all that apply.",152773041,Spring,Spring,SrvMRE_Spring_v1r0,,1,Num,2,,,686771043,1=Yes,,,,No,,No,,Only display if LAWN1=0,,,,,,6/14/21,686771043,LAWN2A
+,,,,829749579,"In which season(s) did you do these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)? Select all that apply.",,,,,,,,,,,493031113,2=No,,,,,,,,,,,,,,,493031113,LAWN2B
+,,,,618482103,"In which season(s) did you do these home repairs (such as painting, plumbing, or replacing carpeting)? Select all that apply.",,,,,,,,,,,788042647,,,,,,,,,,,,,,,,788042647,LAWN2C
+,,,,894610280,In which season(s) did you walk or hike for exercise? Select all that apply.,,,,,,,,,,,763335678,,,,,,,,,,,,,,,,763335678,EXEREC2A
+,,,,222110888,In which season(s) did you jog or run? Select all that apply.,,,,,,,,,,,341088437,,,,,,,,,,,,,,,,341088437,EXEREC2B
+,,,,564242877,"In which season(s) did you play tennis, squash, or racquetball? Select all that apply.",,,,,,,,,,,139876342,,,,,,,,,,,,,,,,139876342,EXEREC2C
+,,,,635874413,In which season(s) did you play golf? Select all that apply.,,,,,,,,,,,451713969,,,,,,,,,,,,,,,,451713969,EXEREC2D
+,,,,371748514,In which season(s) did you swim laps? Select all that apply.,,,,,,,,,,,140654884,,,,,,,,,,,,,,,,140654884,EXEREC2E
+,,,,858525957,In which season(s) did you ride a bicycle (including a stationary bike)? Select all that apply.,,,,,,,,,,,532782265,,,,,,,,,,,,,,,,532782265,EXEREC2F
+,,,,787591805,"In which season(s) did you do strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups)? Select all that apply.",,,,,,,,,,,904354604,,,,,,,,,,,,,,,,904354604,EXEREC2G
+,,,,900299856,"In which season(s) did you do Yoga, Pilates, or Tai Chi? Select all that apply.",,,,,,,,,,,579734675,,,,,,,,,,,,,,,,579734675,EXEREC2H
+,,,,149884127,In which season(s) did you do Martial Arts (such as Karate or Judo)? Select all that apply.,,,,,,,,,,,919208762,,,,,,,,,,,,,,,,919208762,EXEREC2I
+,,,,845164425,In which season(s) did you dance? Select all that apply.,,,,,,,,,,,373748851,,,,,,,,,,,,,,,,373748851,EXEREC2J
+,,,,187772368,In which season(s) did you downhill skiing or snowboarding? Select all that apply.,,,,,,,,,,,532487659,,,,,,,,,,,,,,,,532487659,EXEREC2K
+,,,,815229596,In which season(s) you cross-country ski? Select all that apply.,,,,,,,,,,,955498485,,,,,,,,,,,,,,,,955498485,EXEREC2L
+,,,,262305264,In which season(s) you surf or bodyboard? Select all that apply.,,,,,,,,,,,951348006,,,,,,,,,,,,,,,,951348006,EXEREC2M
+,,,,409324592,In which season(s) you do high-intensity circuit training (such as P90x or Crossfit)? Select all that apply.,,,,,,,,,,,176371832,,,,,,,,,,,,,,,,176371832,EXEREC2N
+,,,,895837106,In which season(s) you do other exercise? Select all that apply.,,,,,,,,,,,487035012,,,,,,,,,,,,,,,,487035012,EXEREC2O
 192505768,Recruitment,332759827,User Profile,,,153211406,What is your preferred first name?,Preferred Name,RcrtUP_PrefName_v1r0,,,Char,50,,N/A,,,,,,No,,Yes,,Collected in user profile.  Displayed on check-in screens for Biospecimens.,,,"Recruitment Data Dictionary, Biospecimen Clinical, Biospecimen Research",No,No,,,
 129084651,Survey,965707586,"Smoking, Alcohol, and Sun Exposure",,,153533892,"Month - During that time, did you ever smoke a combination of marijuana with tobacco every day?","Use marijana with tobacco every day, months",SrvSAS_TobMJEDUseMo_v1r0,,TOMAR7B,Num,2,,,104430631,2=No,,,,No,,No,,,,,,,,,,
 ,,,,,,,,,,,,,,,,353358909,1=Yes,,,,,,,,,,,,,,,,
@@ -684,24 +684,24 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question,co
 ,,,,,,,,,,,,,,,,,,353358909,1=Yes,,,,,,,,,,,,,,
 129084651,Survey,898006288,Background and Overall Health,308014437,"Hispanic, Latino, or Spanish- Which categories describe you? Select all that apply. Note, you may select more than one group.",248444252,Cuban,Cuban,SrvBOH_Cuban_v1r0,,1,Num,1,,,,,104430631,2=No,,No,,No,,"Only display if RACEETH = Hispanic, Latino, or Spanish",,,,,,,,RACEETH5
 ,,,,,,,,,,,,,,,,,,353358909,1=Yes,,,,,,,,,,,,,,
-129084651,Survey,745268907,"Medications, Reproductive Health, Exercise, and Sleep",442059084,"In which season(s) did you do these moderate outdoor chores (such as weeding, raking, or mowing the lawn)? Select all that apply.",249341444,Summer,Summer,SrvMRE_Summer_v1r0,,2,Num,2,,,353358909,1=Yes,,,,No,,No,,Only display if LAWN1=0,,,,,,6/14/21,686771043,LAWN2A
-,,,,829749579,"In which season(s) did you do these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)? Select all that apply.",,,,,,,,,,,104430631,2=No,,,,,,,,,,,,,,,493031113,LAWN2B
-,,,,618482103,"In which season(s) did you do these home repairs (such as painting, plumbing, or replacing carpeting)? Select all that apply.",,,,,,,,,,,,,,,,,,,,,,,,,,,788042647,LAWN2C
-,,,,894610280,In which season(s) did you walk or hike for exercise? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,763335678,EXEREC2A
-,,,,222110888,In which season(s) did you jog or run? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,341088437,EXEREC2B
-,,,,564242877,"In which season(s) did you play tennis, squash, or racquetball? Select all that apply.",,,,,,,,,,,,,,,,,,,,,,,,,,,139876342,EXEREC2C
-,,,,635874413,In which season(s) did you play golf? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,451713969,EXEREC2D
-,,,,371748514,In which season(s) did you swim laps? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,140654884,EXEREC2E
-,,,,858525957,In which season(s) did you ride a bicycle (including a stationary bike)? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,532782265,EXEREC2F
-,,,,787591805,"In which season(s) did you do strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups)? Select all that apply.",,,,,,,,,,,,,,,,,,,,,,,,,,,904354604,EXEREC2G
-,,,,900299856,"In which season(s) did you do Yoga, Pilates, or Tai Chi? Select all that apply.",,,,,,,,,,,,,,,,,,,,,,,,,,,579734675,EXEREC2H
-,,,,149884127,In which season(s) did you do Martial Arts (such as Karate or Judo)? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,919208762,EXEREC2I
-,,,,845164425,In which season(s) did you dance? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,373748851,EXEREC2J
-,,,,187772368,In which season(s) did you downhill skiing or snowboarding? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,532487659,EXEREC2K
-,,,,815229596,In which season(s) you cross-country ski? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,955498485,EXEREC2L
-,,,,262305264,In which season(s) you surf or bodyboard? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,951348006,EXEREC2M
-,,,,409324592,In which season(s) you do high-intensity circuit training (such as P90x or Crossfit)? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,176371832,EXEREC2N
-,,,,895837106,In which season(s) you do other exercise? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,487035012,EXEREC2O
+129084651,Survey,745268907,"Medications, Reproductive Health, Exercise, and Sleep",442059084,"In which season(s) did you do these moderate outdoor chores (such as weeding, raking, or mowing the lawn)? Select all that apply.",249341444,Summer,Summer,SrvMRE_Summer_v1r0,,2,Num,2,,,686771043,1=Yes,,,,No,,No,,Only display if LAWN1=0,,,,,,6/14/21,686771043,LAWN2A
+,,,,829749579,"In which season(s) did you do these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)? Select all that apply.",,,,,,,,,,,493031113,2=No,,,,,,,,,,,,,,,493031113,LAWN2B
+,,,,618482103,"In which season(s) did you do these home repairs (such as painting, plumbing, or replacing carpeting)? Select all that apply.",,,,,,,,,,,788042647,,,,,,,,,,,,,,,,788042647,LAWN2C
+,,,,894610280,In which season(s) did you walk or hike for exercise? Select all that apply.,,,,,,,,,,,763335678,,,,,,,,,,,,,,,,763335678,EXEREC2A
+,,,,222110888,In which season(s) did you jog or run? Select all that apply.,,,,,,,,,,,341088437,,,,,,,,,,,,,,,,341088437,EXEREC2B
+,,,,564242877,"In which season(s) did you play tennis, squash, or racquetball? Select all that apply.",,,,,,,,,,,139876342,,,,,,,,,,,,,,,,139876342,EXEREC2C
+,,,,635874413,In which season(s) did you play golf? Select all that apply.,,,,,,,,,,,451713969,,,,,,,,,,,,,,,,451713969,EXEREC2D
+,,,,371748514,In which season(s) did you swim laps? Select all that apply.,,,,,,,,,,,140654884,,,,,,,,,,,,,,,,140654884,EXEREC2E
+,,,,858525957,In which season(s) did you ride a bicycle (including a stationary bike)? Select all that apply.,,,,,,,,,,,532782265,,,,,,,,,,,,,,,,532782265,EXEREC2F
+,,,,787591805,"In which season(s) did you do strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups)? Select all that apply.",,,,,,,,,,,904354604,,,,,,,,,,,,,,,,904354604,EXEREC2G
+,,,,900299856,"In which season(s) did you do Yoga, Pilates, or Tai Chi? Select all that apply.",,,,,,,,,,,579734675,,,,,,,,,,,,,,,,579734675,EXEREC2H
+,,,,149884127,In which season(s) did you do Martial Arts (such as Karate or Judo)? Select all that apply.,,,,,,,,,,,919208762,,,,,,,,,,,,,,,,919208762,EXEREC2I
+,,,,845164425,In which season(s) did you dance? Select all that apply.,,,,,,,,,,,373748851,,,,,,,,,,,,,,,,373748851,EXEREC2J
+,,,,187772368,In which season(s) did you downhill skiing or snowboarding? Select all that apply.,,,,,,,,,,,532487659,,,,,,,,,,,,,,,,532487659,EXEREC2K
+,,,,815229596,In which season(s) you cross-country ski? Select all that apply.,,,,,,,,,,,955498485,,,,,,,,,,,,,,,,955498485,EXEREC2L
+,,,,262305264,In which season(s) you surf or bodyboard? Select all that apply.,,,,,,,,,,,951348006,,,,,,,,,,,,,,,,951348006,EXEREC2M
+,,,,409324592,In which season(s) you do high-intensity circuit training (such as P90x or Crossfit)? Select all that apply.,,,,,,,,,,,176371832,,,,,,,,,,,,,,,,176371832,EXEREC2N
+,,,,895837106,In which season(s) you do other exercise? Select all that apply.,,,,,,,,,,,487035012,,,,,,,,,,,,,,,,487035012,EXEREC2O
 129084651,Survey,898006288,Background and Overall Health,362270886,"American Indian or Alaska Native- Which categories describe you? Select all that apply. Note, you may select more than one group.",249603425,American Indian,American Indian,SrvBOH_AmerInd_v1r0,,0,Num,1,,,,,104430631,2=No,,No,,No,,Only display if RACEETH = American Indian or Alaska Native,,,,,,,,RACEETH2
 ,,,,,,,,,,,,,,,,,,353358909,1=Yes,,,,,,,,,,,,,,
 129084651,Survey,726699695,Background and Overall Health,127257956,Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Pancreatic cancer?,249763782,Child 1 Pancreatic cancer year,Child 1 Pancreatic cancer year,SrvBOH_C1PancCancYr_v1r0,,CHILDCANC3R_YEAR,Year,4,,,,,,yyyy,,No,,No,,Connect Format/Values - Only display if SIBCANC2= 17,,,,,,,,CHILDCANC3R
@@ -1358,7 +1358,7 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question,co
 ,,,,,,,,,,,,,,,,766964355,6=Associate’s degree,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,875342283,7=College graduate Bachelor’s degree,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,598242454,"8=Advanced degree Master’s, Doctorate, etc.",,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,415017324,EDU_TB,,,,,,,,,,,,,,,,
+,,,,,,,,,,415017324,,,,,,415017324,EDU_TB,,,,,,,,,,,,,,,,
 129084651,Survey,898006288,Background and Overall Health,308014437,"Hispanic, Latino, or Spanish- Which categories describe you? Select all that apply. Note, you may select more than one group.",412757551,Ecuadorian,Ecuadorian,SrvBOH_Ecuadorian_v1r0,,3,Num,1,,,,,104430631,2=No,,No,,No,,"Only display if RACEETH = Hispanic, Latino, or Spanish",,,,,,,,RACEETH5
 ,,,,,,,,,,,,,,,,,,353358909,1=Yes,,,,,,,,,,,,,,
 129084651,Survey,898006288,Background and Overall Health,384191091,"Which categories describe you? Select all that apply. Note, you may select more than one group.",412790539,White,White,SrvBOH_White_v1r0,,6,Num,1,,,,,104430631,2=No,,No,,No,,,,,,,,,,RACEETH
@@ -2701,24 +2701,24 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question,co
 ,,,,,,,,,,,,,,,,996315715,4=3-4 days a week,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,671267928,5=5-6 days a week,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,408121350,6=Every day,,,,,,,,,,,,,,,,
-129084651,Survey,745268907,"Medications, Reproductive Health, Exercise, and Sleep",442059084,"In which season(s) did you do these moderate outdoor chores (such as weeding, raking, or mowing the lawn)? Select all that apply.",690018400,Fall,Fall,SrvMRE_Fall_v1r0,,3,Num,2,,,353358909,1=Yes,,,,No,,No,,Only display if LAWN1=0,,,,,,6/14/21,686771043,LAWN2A
-,,,,829749579,"In which season(s) did you do these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)? Select all that apply.",,,,,,,,,,,104430631,2=No,,,,,,,,,,,,,,,493031113,LAWN2B
-,,,,618482103,"In which season(s) did you do these home repairs (such as painting, plumbing, or replacing carpeting)? Select all that apply.",,,,,,,,,,,,,,,,,,,,,,,,,,,788042647,LAWN2C
-,,,,894610280,In which season(s) did you walk or hike for exercise? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,763335678,EXEREC2A
-,,,,222110888,In which season(s) did you jog or run? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,341088437,EXEREC2B
-,,,,564242877,"In which season(s) did you play tennis, squash, or racquetball? Select all that apply.",,,,,,,,,,,,,,,,,,,,,,,,,,,139876342,EXEREC2C
-,,,,635874413,In which season(s) did you play golf? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,451713969,EXEREC2D
-,,,,371748514,In which season(s) did you swim laps? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,140654884,EXEREC2E
-,,,,858525957,In which season(s) did you ride a bicycle (including a stationary bike)? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,532782265,EXEREC2F
-,,,,787591805,"In which season(s) did you do strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups)? Select all that apply.",,,,,,,,,,,,,,,,,,,,,,,,,,,904354604,EXEREC2G
-,,,,900299856,"In which season(s) did you do Yoga, Pilates, or Tai Chi? Select all that apply.",,,,,,,,,,,,,,,,,,,,,,,,,,,579734675,EXEREC2H
-,,,,149884127,In which season(s) did you do Martial Arts (such as Karate or Judo)? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,919208762,EXEREC2I
-,,,,845164425,In which season(s) did you dance? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,373748851,EXEREC2J
-,,,,187772368,In which season(s) did you downhill skiing or snowboarding? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,532487659,EXEREC2K
-,,,,815229596,In which season(s) you cross-country ski? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,955498485,EXEREC2L
-,,,,262305264,In which season(s) you surf or bodyboard? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,951348006,EXEREC2M
-,,,,409324592,In which season(s) you do high-intensity circuit training (such as P90x or Crossfit)? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,176371832,EXEREC2N
-,,,,895837106,In which season(s) you do other exercise? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,487035012,EXEREC2O
+129084651,Survey,745268907,"Medications, Reproductive Health, Exercise, and Sleep",442059084,"In which season(s) did you do these moderate outdoor chores (such as weeding, raking, or mowing the lawn)? Select all that apply.",690018400,Fall,Fall,SrvMRE_Fall_v1r0,,3,Num,2,,,686771043,1=Yes,,,,No,,No,,Only display if LAWN1=0,,,,,,6/14/21,686771043,LAWN2A
+,,,,829749579,"In which season(s) did you do these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)? Select all that apply.",,,,,,,,,,,493031113,2=No,,,,,,,,,,,,,,,493031113,LAWN2B
+,,,,618482103,"In which season(s) did you do these home repairs (such as painting, plumbing, or replacing carpeting)? Select all that apply.",,,,,,,,,,,788042647,,,,,,,,,,,,,,,,788042647,LAWN2C
+,,,,894610280,In which season(s) did you walk or hike for exercise? Select all that apply.,,,,,,,,,,,763335678,,,,,,,,,,,,,,,,763335678,EXEREC2A
+,,,,222110888,In which season(s) did you jog or run? Select all that apply.,,,,,,,,,,,341088437,,,,,,,,,,,,,,,,341088437,EXEREC2B
+,,,,564242877,"In which season(s) did you play tennis, squash, or racquetball? Select all that apply.",,,,,,,,,,,139876342,,,,,,,,,,,,,,,,139876342,EXEREC2C
+,,,,635874413,In which season(s) did you play golf? Select all that apply.,,,,,,,,,,,451713969,,,,,,,,,,,,,,,,451713969,EXEREC2D
+,,,,371748514,In which season(s) did you swim laps? Select all that apply.,,,,,,,,,,,140654884,,,,,,,,,,,,,,,,140654884,EXEREC2E
+,,,,858525957,In which season(s) did you ride a bicycle (including a stationary bike)? Select all that apply.,,,,,,,,,,,532782265,,,,,,,,,,,,,,,,532782265,EXEREC2F
+,,,,787591805,"In which season(s) did you do strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups)? Select all that apply.",,,,,,,,,,,904354604,,,,,,,,,,,,,,,,904354604,EXEREC2G
+,,,,900299856,"In which season(s) did you do Yoga, Pilates, or Tai Chi? Select all that apply.",,,,,,,,,,,579734675,,,,,,,,,,,,,,,,579734675,EXEREC2H
+,,,,149884127,In which season(s) did you do Martial Arts (such as Karate or Judo)? Select all that apply.,,,,,,,,,,,919208762,,,,,,,,,,,,,,,,919208762,EXEREC2I
+,,,,845164425,In which season(s) did you dance? Select all that apply.,,,,,,,,,,,373748851,,,,,,,,,,,,,,,,373748851,EXEREC2J
+,,,,187772368,In which season(s) did you downhill skiing or snowboarding? Select all that apply.,,,,,,,,,,,532487659,,,,,,,,,,,,,,,,532487659,EXEREC2K
+,,,,815229596,In which season(s) you cross-country ski? Select all that apply.,,,,,,,,,,,955498485,,,,,,,,,,,,,,,,955498485,EXEREC2L
+,,,,262305264,In which season(s) you surf or bodyboard? Select all that apply.,,,,,,,,,,,951348006,,,,,,,,,,,,,,,,951348006,EXEREC2M
+,,,,409324592,In which season(s) you do high-intensity circuit training (such as P90x or Crossfit)? Select all that apply.,,,,,,,,,,,176371832,,,,,,,,,,,,,,,,176371832,EXEREC2N
+,,,,895837106,In which season(s) you do other exercise? Select all that apply.,,,,,,,,,,,487035012,,,,,,,,,,,,,,,,487035012,EXEREC2O
 819848608,Biospecimen,360770860,Collection,248868659,Deviation? (Select all that apply),690540566,Deviation- Improper temperature - too high (record time and temperature Deviation in the comments),Deviation- Improper temperature - too high,BioCol_Dev_v1r0_TempH,,,Num,1,104430631,2=No,,,,,,Yes if yes to deviation for a specimen and no other deviation selected,,No,,Default no,,,"Biospecimen Clinical, Biospecimen Research",No,Yes,,,
 ,,,,,,,,,,,,,,353358909,1=Yes,,,,,,,,,,,,,,,,,,
 129084651,Survey,898006288,Background and Overall Health,207025341,How did you lose weight between ages 18 and 25?,691423127,Skipped meals,Skipped meals,SrvBOH_SkipMeal1_v1r0,,2,Num,1,,,,,104430631,2=No,,No,,No,,Only display if flag for percent weight change 18-25 = yes,,,,,,,,WTLOSS2_1825
@@ -3868,24 +3868,24 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question,co
 ,,,,,,,,,,,,,,353358909,1=Yes,,,,,,,,,,,,,,,,,,
 819848608,Biospecimen,360770860,Collection,,,915838974,Autogenerated date/time when scanned at regional lab - automatically populated when next is hit at the end of the Collection Data Entry page prior to reason selection and additional comments.,Date/Time scanned at Regional  Lab,BioReg_ArRegTime_v1r0,,,ISO,24,,example: 2020-07-17T15:21:26.763Z,,,,,,Yes if BioReg_AtReg_v1r0 equals 1,,No,,ISO to be converted to SAS format,,,Biospecimen Clinical,No,No,3/26/21,,
 129084651,Survey,898006288,Background and Overall Health,530548878,How old were you when a doctor or other health professional first told you that you have or had Shingles (Herpes Zoster) ?,916563135,Endometriosis age,Endometriosis age,SrvBOH_EndoAge_v1r0,,ENDO_AGE,Num,2,,,,,,N/A,,No,,No,,Only display if MHGROUP8= Endometriosis,,,,,,,,ENDO
-129084651,Survey,745268907,"Medications, Reproductive Health, Exercise, and Sleep",442059084,"In which season(s) did you do these moderate outdoor chores (such as weeding, raking, or mowing the lawn)? Select all that apply.",917302906,Winter,Winter,SrvMRE_Winter_v1r0,,0,Num,2,,,353358909,1=Yes,,,,No,,No,,Only display if LAWN1=0,,,,,,6/14/21,686771043,LAWN2A
-,,,,829749579,"In which season(s) did you do these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)? Select all that apply.",,,,,,,,,,,104430631,2=No,,,,,,,,,,,,,,,493031113,LAWN2B
-,,,,618482103,"In which season(s) did you do these home repairs (such as painting, plumbing, or replacing carpeting)? Select all that apply.",,,,,,,,,,,,,,,,,,,,,,,,,,,788042647,LAWN2C
-,,,,894610280,In which season(s) did you walk or hike for exercise? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,763335678,EXEREC2A
-,,,,222110888,In which season(s) did you jog or run? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,341088437,EXEREC2B
-,,,,564242877,"In which season(s) did you play tennis, squash, or racquetball? Select all that apply.",,,,,,,,,,,,,,,,,,,,,,,,,,,139876342,EXEREC2C
-,,,,635874413,In which season(s) did you play golf? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,451713969,EXEREC2D
-,,,,371748514,In which season(s) did you swim laps? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,140654884,EXEREC2E
-,,,,858525957,In which season(s) did you ride a bicycle (including a stationary bike)? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,532782265,EXEREC2F
-,,,,787591805,"In which season(s) did you do strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups)? Select all that apply.",,,,,,,,,,,,,,,,,,,,,,,,,,,904354604,EXEREC2G
-,,,,900299856,"In which season(s) did you do Yoga, Pilates, or Tai Chi? Select all that apply.",,,,,,,,,,,,,,,,,,,,,,,,,,,579734675,EXEREC2H
-,,,,149884127,In which season(s) did you do Martial Arts (such as Karate or Judo)? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,919208762,EXEREC2I
-,,,,845164425,In which season(s) did you dance? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,373748851,EXEREC2J
-,,,,187772368,In which season(s) did you downhill skiing or snowboarding? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,532487659,EXEREC2K
-,,,,815229596,In which season(s) you cross-country ski? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,955498485,EXEREC2L
-,,,,262305264,In which season(s) you surf or bodyboard? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,951348006,EXEREC2M
-,,,,409324592,In which season(s) you do high-intensity circuit training (such as P90x or Crossfit)? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,176371832,EXEREC2N
-,,,,895837106,In which season(s) you do other exercise? Select all that apply.,,,,,,,,,,,,,,,,,,,,,,,,,,,487035012,EXEREC2O
+129084651,Survey,745268907,"Medications, Reproductive Health, Exercise, and Sleep",442059084,"In which season(s) did you do these moderate outdoor chores (such as weeding, raking, or mowing the lawn)? Select all that apply.",917302906,Winter,Winter,SrvMRE_Winter_v1r0,,0,Num,2,,,686771043,1=Yes,,,,No,,No,,Only display if LAWN1=0,,,,,,6/14/21,686771043,LAWN2A
+,,,,829749579,"In which season(s) did you do these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)? Select all that apply.",,,,,,,,,,,493031113,2=No,,,,,,,,,,,,,,,493031113,LAWN2B
+,,,,618482103,"In which season(s) did you do these home repairs (such as painting, plumbing, or replacing carpeting)? Select all that apply.",,,,,,,,,,,788042647,,,,,,,,,,,,,,,,788042647,LAWN2C
+,,,,894610280,In which season(s) did you walk or hike for exercise? Select all that apply.,,,,,,,,,,,763335678,,,,,,,,,,,,,,,,763335678,EXEREC2A
+,,,,222110888,In which season(s) did you jog or run? Select all that apply.,,,,,,,,,,,341088437,,,,,,,,,,,,,,,,341088437,EXEREC2B
+,,,,564242877,"In which season(s) did you play tennis, squash, or racquetball? Select all that apply.",,,,,,,,,,,139876342,,,,,,,,,,,,,,,,139876342,EXEREC2C
+,,,,635874413,In which season(s) did you play golf? Select all that apply.,,,,,,,,,,,451713969,,,,,,,,,,,,,,,,451713969,EXEREC2D
+,,,,371748514,In which season(s) did you swim laps? Select all that apply.,,,,,,,,,,,140654884,,,,,,,,,,,,,,,,140654884,EXEREC2E
+,,,,858525957,In which season(s) did you ride a bicycle (including a stationary bike)? Select all that apply.,,,,,,,,,,,532782265,,,,,,,,,,,,,,,,532782265,EXEREC2F
+,,,,787591805,"In which season(s) did you do strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups)? Select all that apply.",,,,,,,,,,,904354604,,,,,,,,,,,,,,,,904354604,EXEREC2G
+,,,,900299856,"In which season(s) did you do Yoga, Pilates, or Tai Chi? Select all that apply.",,,,,,,,,,,579734675,,,,,,,,,,,,,,,,579734675,EXEREC2H
+,,,,149884127,In which season(s) did you do Martial Arts (such as Karate or Judo)? Select all that apply.,,,,,,,,,,,919208762,,,,,,,,,,,,,,,,919208762,EXEREC2I
+,,,,845164425,In which season(s) did you dance? Select all that apply.,,,,,,,,,,,373748851,,,,,,,,,,,,,,,,373748851,EXEREC2J
+,,,,187772368,In which season(s) did you downhill skiing or snowboarding? Select all that apply.,,,,,,,,,,,532487659,,,,,,,,,,,,,,,,532487659,EXEREC2K
+,,,,815229596,In which season(s) you cross-country ski? Select all that apply.,,,,,,,,,,,955498485,,,,,,,,,,,,,,,,955498485,EXEREC2L
+,,,,262305264,In which season(s) you surf or bodyboard? Select all that apply.,,,,,,,,,,,951348006,,,,,,,,,,,,,,,,951348006,EXEREC2M
+,,,,409324592,In which season(s) you do high-intensity circuit training (such as P90x or Crossfit)? Select all that apply.,,,,,,,,,,,176371832,,,,,,,,,,,,,,,,176371832,EXEREC2N
+,,,,895837106,In which season(s) you do other exercise? Select all that apply.,,,,,,,,,,,487035012,,,,,,,,,,,,,,,,487035012,EXEREC2O
 129084651,Survey,965707586,"Smoking, Alcohol, and Sun Exposure",982747062,How old were you when you started drinking alcohol on a regular basis?,917374961,Age drank alcohol on regular basis,Age drank alcohol on regular basis,SrvSAS_AgeAlcReg_v1r0,,REGALCOHOL_AGE,Num,2,,,,N/A,,N/A,,No,,No,,,,,,,,,,ALCOHOL4
 129084651,Survey,965707586,"Smoking, Alcohol, and Sun Exposure",395711997,"When you were a daily user of THC concentrates via dabbing, how many servings did you have per day?",918017644,"When daily user, number of servings use THC concentrates via dabbing","When daily user, number of servings use THC concentrates via dabbing",SrvSAS_THCServingNum_v1r0,,THMAR9CNUM,Num,2,,,,N/A,,N/A,,No,,No,,,,,,,,6/4/21,,THMAR9C
 129084651,Survey,898006288,Background and Overall Health,797626610,"White- Which categories describe you? Select all that apply. Note, you may select more than one group.",918190932,Norwegian,Norwegian,SrvBOH_Norwegian_v1r0,,7,Num,1,,,,,104430631,2=No,,No,,No,,Only display if RACEETH = White,,,,,,,,RACEETH8

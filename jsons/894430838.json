@@ -11,12 +11,10 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
+  "Notes": "Only display if MHGROUP9=breast surgery",
   "Quest_Src Question": "BREASTSUR",
   "Connect Value": {
-    "104430631.json": "0",
+    "104430631.json": "2",
     "353358909.json": "1"
-  },
-  "Notes": {
-    "530057837.json": "Only display if MHGROUP9"
   }
 }
