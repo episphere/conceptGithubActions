@@ -26,11 +26,11 @@ for(let i = 0; i < files.length; i++){
         changed = true;
         i = files.length;
     }
-    else if(file.match(/[0-9]+.json/)){
+    /*else if(file.match(/[0-9]+.json/)){
         otherDirection.reverseRead()
         i = files.length;
         changed = true;
-    }
+    }*/
     
 }
 
