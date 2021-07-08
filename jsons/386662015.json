@@ -3,14 +3,15 @@
   "Secondary Source": "745268907.json",
   "Source Question": "711365027.json",
   "conceptId": "386662015",
-  "Question Text": "Hours take to fall asleep, before non-workday",
-  "Variable Label": "Hours take to fall asleep, before non-workday",
-  "Variable Name": "SrvMRE_FallAsleepHrNW_v1r0",
+  "Question Text": "How long do you lay in bed after you wake up on non-workdays (hours)?",
+  "Variable Label": "How long do you lay in bed after you wake up on non-workdays (hours)?",
+  "Variable Name": "SrvMRE_LayInBedHrNW_v1r0",
   "Connect Value for Select all that apply questions": "NonWorkAwakeBeforeUpHours",
   "Variable Type": "Num",
   "Variable Length": "1",
   "Old Quest Value": "N/A",
   "Required": "No",
   "PII": "No",
+  "Date added or modified": "7/7/21",
   "Quest_Src Question": "SLEEP2I"
 }
