@@ -208,9 +208,6 @@
   "116065851": {
     "Variable Name": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Uterine (endometrial) cancer?"
   },
-  "116087300": {
-    "Variable Name": "5-6 days a week"
-  },
   "116984232": {
     "Variable Label": "Prefer not to answer",
     "Variable Name": "SrvBOH_PrefNoAnsRE_v1r0"
@@ -269,6 +266,9 @@
   "121342999": {
     "Variable Label": "use THC concentrates via dabbing now",
     "Variable Name": "SrvSAS_THCNow_v1r0"
+  },
+  "121359526": {
+    "Variable Name": "20 to 25 days per month"
   },
   "121430614": {
     "Variable Label": "I do not have reliable access to the internet/a\"\"\"\"device",
@@ -474,9 +474,6 @@
   "138836502": {
     "Variable Label": "How many days per cycle did you use two separate pills, one estrogen and one progestin?",
     "Variable Name": "SrvMRE_SepPillCycle_v1r0"
-  },
-  "138976886": {
-    "Variable Name": "2-3 days a month"
   },
   "139060098": {
     "Variable Label": "Age first used tanning bed",
@@ -803,9 +800,6 @@
   "165538368": {
     "Variable Label": "Use a tobacco pipe now",
     "Variable Name": "SrvSAS_TobPipeNow_v1r0"
-  },
-  "165577379": {
-    "Variable Name": "Once a month or less"
   },
   "166195719": {
     "Variable Label": "Diabetes year",
@@ -1164,6 +1158,9 @@
   "197316935": {
     "Variable Name": "Verified"
   },
+  "197499908": {
+    "Variable Name": "45 min"
+  },
   "197735538": {
     "Variable Label": "Hours around tobacco smoke of others, oast year",
     "Variable Name": "SrvSAS_HrsAroundSmoke_v1r0"
@@ -1214,9 +1211,6 @@
   "199979808": {
     "Variable Label": "Consumed marijuana in food or drinks every day, age last used",
     "Variable Name": "SrvSAS_EdiblesEDAgeL_v1r0"
-  },
-  "200050324": {
-    "Variable Name": "05 minutes or less"
   },
   "200180620": {
     "Variable Label": "Payment refused by any participant",
@@ -1301,7 +1295,7 @@
     "Variable Name": "SrvBOH_MomNHLympYr_v1r0"
   },
   "206020811": {
-    "Variable Name": "21-44 minutes"
+    "Variable Name": "31-44 minutes"
   },
   "206319592": {
     "Variable Label": "Hair male",
@@ -1704,6 +1698,9 @@
     "Variable Label": "Hay Fever (Allergic to pollen or Allergic Rhinitis) diagnosis year",
     "Variable Name": "SrvBOH_HayFeverYear_v1r0"
   },
+  "240149995": {
+    "Variable Name": "2-2.9 hours"
+  },
   "240721579": {
     "Variable Label": "Korean",
     "Variable Name": "SrvBOH_Korean_v1r0"
@@ -1737,9 +1734,6 @@
   "243596698": {
     "Variable Label": "Headaches/migraine",
     "Variable Name": "SrvMRE_Headache_v1r0"
-  },
-  "243933210": {
-    "Variable Name": "My periods stopped after endometrial ablation (removal of the endometrium \"\"\"\" lining of the uterus)"
   },
   "244122695": {
     "Variable Label": "prescription proton pump inhibitors days per month",
@@ -1809,7 +1803,7 @@
     "Variable Name": "SrvMRE_IbuprofenMo_v1r0"
   },
   "248303092": {
-    "Variable Name": "06-30 minutes"
+    "Variable Name": "16-30 minutes"
   },
   "248374037": {
     "Variable Label": "Testicular",
@@ -1896,7 +1890,10 @@
     "Variable Name": "SrvMRE_TiredDuringDay_v1r0"
   },
   "258023209": {
-    "Variable Name": "35 min"
+    "Variable Name": "45 min"
+  },
+  "258379459": {
+    "Variable Name": "15 to 19 days per month"
   },
   "258617384": {
     "Variable Label": "When daily user, number of servings consumed marijuana in food or drinks don't know",
@@ -2010,10 +2007,10 @@
     "Variable Name": "SrvBOH_S1CervCancYr_v1r0"
   },
   "263785082": {
-    "Variable Name": "Have you ever taken any of these types of combined estrogen plus progestin prescription hormones? Select all that apply."
+    "Variable Name": "Have you ever taken any of these types of progestin-only prescription hormones? Select all that apply."
   },
   "264163865": {
-    "Variable Name": "35-59 minutes"
+    "Variable Name": "45-59 minutes"
   },
   "264644252": {
     "Variable Label": "Date/time of Completion of Where You Live and Work",
@@ -2098,9 +2095,6 @@
     "Variable Label": "Mom colon/rectal cancer year",
     "Variable Name": "SrvBOH_MomColCancYr_v1r0"
   },
-  "270806184": {
-    "Variable Name": "21-44 minutes"
-  },
   "270994579": {
     "Variable Name": "Yes, 5 or more times a week"
   },
@@ -2163,7 +2157,7 @@
     "Variable Name": "5 – 6 times a week"
   },
   "275059825": {
-    "Variable Name": "00 to 14 days per month"
+    "Variable Name": "10 to 14 days per month"
   },
   "275143071": {
     "Variable Name": "Why did you take regular or extra strength aspirin? Select all that apply."
@@ -2345,9 +2339,6 @@
   },
   "293515830": {
     "Variable Name": "No change in skin color"
-  },
-  "294507358": {
-    "Variable Name": "06-30 minutes"
   },
   "294748736": {
     "Variable Label": "Age last consumed marijuana in food or drinks",
@@ -2636,8 +2627,8 @@
     "Variable Name": "SrvSAS_CigsUsed4049_v1r0"
   },
   "322321979": {
-    "Variable Label": "Minutes take to fall asleep, before non-workday",
-    "Variable Name": "SrvMRE_FallAsleepMinNW_v1r0"
+    "Variable Label": "How long do you lay in bed after you wake up on non-workdays (min)?",
+    "Variable Name": "SrvMRE_LayInBedMinNW_v1r0"
   },
   "322476409": {
     "Variable Label": "Why consume marijuana in food or drinks",
@@ -2825,7 +2816,7 @@
     "Variable Name": "Other relative or proxy"
   },
   "342252688": {
-    "Variable Name": "0 to 2.9 hrs"
+    "Variable Name": "1 to 2.9 hrs"
   },
   "342735868": {
     "Variable Label": "Tubal blockage",
@@ -2921,9 +2912,15 @@
   "353358909": {
     "Variable Name": "Yes"
   },
+  "353707278": {
+    "Variable Name": "45-59 minutes"
+  },
   "353967256": {
     "Variable Label": "Used diet pills/medications",
     "Variable Name": "SrvBOH_Meds2_v1r0"
+  },
+  "354061912": {
+    "Variable Name": "3 to 4.9 hrs"
   },
   "354326265": {
     "Variable Label": "Mother age",
@@ -2970,6 +2967,10 @@
   },
   "358153128": {
     "Variable Name": "Didn't drink during this time"
+  },
+  "358394749": {
+    "Variable Label": "How long do you lay in bed after you wake up on workdays (hours)?",
+    "Variable Name": "SrvMRE_LayInBedHrs_v1r0"
   },
   "358401051": {
     "Variable Label": "Sibling 1 brain cancer year",
@@ -3116,6 +3117,9 @@
   "371453207": {
     "Variable Label": "How much time electronic marijuana delivery devices used, [X / 50] to age [Y / 59 / current age]",
     "Variable Name": "SrvSAS_EMJDev5059_v1r0"
+  },
+  "371453436": {
+    "Variable Name": "30 min"
   },
   "371531887": {
     "Variable Label": "Surf or bodyboard",
@@ -3288,8 +3292,8 @@
     "Variable Name": "SrvBOH_PCOS_v1r0"
   },
   "386662015": {
-    "Variable Label": "Hours take to fall asleep, before non-workday",
-    "Variable Name": "SrvMRE_FallAsleepHrNW_v1r0"
+    "Variable Label": "How long do you lay in bed after you wake up on non-workdays (hours)?",
+    "Variable Name": "SrvMRE_LayInBedHrNW_v1r0"
   },
   "387108065": {
     "Variable Label": "Collection ID Manually Entered",
@@ -3556,6 +3560,9 @@
     "Variable Label": "Total amount of time used electronic marijuana delivery devices per day when daily user",
     "Variable Name": "SrvSAS_TotTmEMJDaily_v1r0"
   },
+  "409732784": {
+    "Variable Name": "31-44 minutes"
+  },
   "409941390": {
     "Variable Name": "2 glasses"
   },
@@ -3796,7 +3803,7 @@
     "Variable Name": "4-5 timer per day"
   },
   "428999623": {
-    "Variable Name": "05 minutes or less"
+    "Variable Name": "15 minutes or less"
   },
   "429252206": {
     "Variable Label": "Dad Prostate cancer age",
@@ -4167,6 +4174,9 @@
     "Variable Label": "Days used cigarettes past 30 days",
     "Variable Name": "SrvSAS_DaysCigsUse30L_v1r0"
   },
+  "459101407": {
+    "Variable Name": "1 hr"
+  },
   "459188493": {
     "Variable Label": "Lupron depot",
     "Variable Name": "SrvMRE_LupronDepot_v1r0"
@@ -4370,7 +4380,7 @@
     "Variable Name": "RcrtSI_WorkflowType_v1r0"
   },
   "481217808": {
-    "Variable Name": "05 to 19 days per month"
+    "Variable Name": "15 to 19 days per month"
   },
   "481662922": {
     "Variable Name": "Something else: Please describe [text box]"
@@ -4404,7 +4414,7 @@
     "Variable Name": "SrvBOH_KSAge_v1r0"
   },
   "485370350": {
-    "Variable Name": "0-1.9 hours"
+    "Variable Name": "1-1.9 hours"
   },
   "485387966": {
     "Variable Label": "Months ago last used marijuana",
@@ -5303,9 +5313,6 @@
   "552278254": {
     "Variable Name": "Very mild hair loss or thinning of hair on the top of the head along the middle of the head"
   },
-  "552450164": {
-    "Variable Name": "1-2.9 hours"
-  },
   "553237701": {
     "Variable Label": "Mining",
     "Variable Name": "SrvBOH_MiningP_v1r0"
@@ -5448,7 +5455,7 @@
     "Variable Name": "SrvSAS_MJUseLast30D_v1r0"
   },
   "565450397": {
-    "Variable Name": "10 to 25 days per month"
+    "Variable Name": "20 to 25 days per month"
   },
   "565881164": {
     "Variable Name": "Very good"
@@ -6126,7 +6133,7 @@
     "Variable Name": "SrvMRE_Clomid_v1r0"
   },
   "620179158": {
-    "Variable Name": "2 to 4.9 hrs"
+    "Variable Name": "3 to 4.9 hrs"
   },
   "620577362": {
     "Variable Label": "Farming",
@@ -6346,7 +6353,7 @@
     "Variable Name": "Two"
   },
   "638092100": {
-    "Variable Name": "0 hr"
+    "Variable Name": "1 hr"
   },
   "638209807": {
     "Variable Label": "Sibling 1 Uterine (endometrial) cancer year",
@@ -6385,6 +6392,9 @@
   "640559281": {
     "Variable Label": "Other medication: please describe text box",
     "Variable Name": "SrvMRE_OthEstrMedDesc_v1r0"
+  },
+  "641328508": {
+    "Variable Name": "1 to 2.9 hrs"
   },
   "641572847": {
     "Variable Label": "Manufacturing",
@@ -6914,7 +6924,7 @@
     "Variable Name": "SrvBOH_C1BreastCanc_v1r0"
   },
   "679781213": {
-    "Variable Name": "1-2.9 hours"
+    "Variable Name": "2-2.9 hours"
   },
   "679832994": {
     "Variable Label": "Token Match",
@@ -7053,9 +7063,6 @@
   "691450854": {
     "Variable Label": "HIV/AIDS",
     "Variable Name": "SrvBOH_HIV_v1r0"
-  },
-  "691674684": {
-    "Variable Name": "My periods stopped because I began taking female hormones during the menopausal transition or menopause (\"\"\"\"the change of life\"\"\"\")"
   },
   "691766591": {
     "Variable Label": "Irritable Bowel Syndrome",
@@ -7566,7 +7573,7 @@
     "Variable Name": "SrvSAS_OtherAlc2529_v1r0"
   },
   "729681071": {
-    "Variable Name": "20 min"
+    "Variable Name": "30 min"
   },
   "729863969": {
     "Variable Label": "Gel/cream",
@@ -8147,9 +8154,6 @@
     "Variable Label": "Delivery method",
     "Variable Name": "SrvMRE_DeliveryMethod_v1r0"
   },
-  "771880925": {
-    "Variable Name": "35-59 minutes"
-  },
   "772835285": {
     "Variable Name": "15 minutes or less"
   },
@@ -8205,6 +8209,9 @@
   "775487149": {
     "Variable Label": "Ever had an alcoholic beverage",
     "Variable Name": "SrvSAS_EverHadAlcohol_v1r0"
+  },
+  "776730278": {
+    "Variable Name": "16-30 minutes"
   },
   "777021367": {
     "Variable Label": "Wine",
@@ -8571,7 +8578,7 @@
     "Variable Name": "Genderqueer, not exclusively male or female"
   },
   "805918496": {
-    "Variable Name": "2 hours or more"
+    "Variable Name": "3 hours or more"
   },
   "806191740": {
     "Variable Label": "Child 1 Ovarian cancer year",
@@ -8931,9 +8938,6 @@
     "Variable Label": "I am opposed to genetic testing",
     "Variable Name": "RcrtSI_OptOut_v1r0_GenTest"
   },
-  "831539892": {
-    "Variable Name": "3-4 days a week"
-  },
   "831643763": {
     "Variable Label": "On the days that you did downhill skiing or snowboarding, about how much time per day did you spend doing this activity?",
     "Variable Name": "SrvMRE_SkiTime_v1r0"
@@ -9035,6 +9039,9 @@
     "Variable Label": "Date/Time Check-In Complete",
     "Variable Name": "BioChk_Time_v1r0"
   },
+  "840302357": {
+    "Variable Name": "3 hours or more"
+  },
   "841390583": {
     "Variable Label": "Orphan tube - shipped flag",
     "Variable Name": "BioPack_OShipFlag_v1r0"
@@ -9058,6 +9065,9 @@
   "844092095": {
     "Variable Label": "Last used chewing tobacco, snus, snuff, or dip",
     "Variable Name": "SrvSAS_LastUsedCT_v1r0"
+  },
+  "844147799": {
+    "Variable Name": "1-1.9 hours"
   },
   "844710773": {
     "Variable Label": "Lymphoma",
@@ -9240,6 +9250,10 @@
   },
   "858427002": {
     "Variable Name": "Less than 21 days"
+  },
+  "858473349": {
+    "Variable Label": "How long do you lay in bed after you wake up on workdays (min)?",
+    "Variable Name": "SrvMRE_LayInBedMin_v1r0"
   },
   "858525957": {
     "Variable Name": "In which season(s) did you ride a bicycle (including a stationary bike)? Select all that apply."
@@ -9530,9 +9544,6 @@
   "878094302": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Chronic Kidney Disease?"
   },
-  "878119893": {
-    "Variable Name": "1-2 days a week"
-  },
   "878286618": {
     "Variable Name": "Somewhat feminine"
   },
@@ -9755,9 +9766,6 @@
   },
   "899465659": {
     "Variable Name": "Five or more"
-  },
-  "899752533": {
-    "Variable Name": "0-1.9 hours"
   },
   "899840609": {
     "Variable Label": "Other text box",
@@ -10184,6 +10192,9 @@
     "Variable Label": "Dance",
     "Variable Name": "SrvMRE_Dance_v1r0"
   },
+  "936336449": {
+    "Variable Name": "On workdays, how long do you usually lie in bed after you wake up before getting out of bed? Select the number of minutes and/or hours using the drop-down options below."
+  },
   "936366310": {
     "Variable Label": "Year ago last took over-the-counter proton pump inhibitors",
     "Variable Name": "SrvMRE_ProtPumpOCYA_v1r0"
@@ -10481,9 +10492,6 @@
   "959021713": {
     "Variable Name": "III"
   },
-  "959083208": {
-    "Variable Name": "2 hours or more"
-  },
   "959143767": {
     "Variable Label": "Mom brain cancer age",
     "Variable Name": "SrvBOH_MomBraCancAge_v1r0"
@@ -10507,6 +10515,9 @@
   "960076770": {
     "Variable Label": "Sibling 1 Prostate cancer age",
     "Variable Name": "SrvBOH_S1ProstCancAge_v1r0"
+  },
+  "960680554": {
+    "Variable Name": "10 to 14 days per month"
   },
   "960760116": {
     "Variable Name": "What type(s) of alcoholic beverages did you usually drink when you were age [X / 18] to age [Y / 24]? Select all that apply."
