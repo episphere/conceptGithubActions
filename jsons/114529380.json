@@ -8,7 +8,6 @@
   "Connect Value for Select all that apply questions": "WORK2",
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Connect Value": "99=Declined",
   "Required": "No",
   "PII": "No",
   "Old Quest Value": {
@@ -18,5 +17,13 @@
     "756948639.json": "4",
     "181769837.json": "5",
     "528526505.json": "6"
+  },
+  "Connect Value": {
+    "584368278.json": "0",
+    "475665841.json": "1",
+    "656816477.json": "2",
+    "756948639.json": "3",
+    "181769837.json": "55",
+    "746038746.json": "99"
   }
 }

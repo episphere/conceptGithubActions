@@ -8,7 +8,6 @@
   "Connect Value for Select all that apply questions": "MARITAL",
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Connect Value": "99=Declined",
   "Required": "No",
   "PII": "No",
   "Old Quest Value": {
@@ -18,6 +17,15 @@
     "649436542.json": "4",
     "733527132.json": "5",
     "741094625.json": "6",
-    "528526505.json": "6"
+    "528526505.json": "99"
+  },
+  "Connect Value": {
+    "514080822.json": "0",
+    "522680498.json": "1",
+    "288321056.json": "2",
+    "649436542.json": "3",
+    "733527132.json": "4",
+    "741094625.json": "5",
+    "746038746.json": "99"
   }
 }

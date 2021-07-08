@@ -8,7 +8,6 @@
   "Connect Value for Select all that apply questions": "MENSHIS5",
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Connect Value": "0=I have not had a menstrual  period in the past 12 months",
   "Required": "No",
   "PII": "No",
   "Old Quest Value": {
@@ -17,5 +16,12 @@
     "388370628.json": "3",
     "859025516.json": "4",
     "471375042.json": "5"
+  },
+  "Connect Value": {
+    "650420270.json": "0",
+    "113064256.json": "1",
+    "388370628.json": "2",
+    "859025516.json": "3",
+    "471375042.json": "4"
   }
 }

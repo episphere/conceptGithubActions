@@ -1,7 +1,6 @@
 {
   "Primary Source": "129084651.json",
   "Secondary Source": "745268907.json",
-  "Source Question": "887435355.json",
   "conceptId": "283652434",
   "Question Text": "Disease prevention",
   "Variable Label": "Disease prevention",
@@ -11,10 +10,40 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if PAINREL1 = 6",
-  "Quest_Src Question": "PAINREL7_7",
+  "Date added or modified": "7/8/21",
+  "Source Question": [
+    "643807999.json",
+    "275143071.json",
+    "152138929.json",
+    "630231395.json",
+    "655266993.json",
+    "509383583.json",
+    "887435355.json"
+  ],
+  "Quest_Src Question": [
+    "978340522.json",
+    "765702203.json",
+    "440843723.json",
+    "944422429.json",
+    "257742541.json",
+    "550654011.json",
+    "514839097.json"
+  ],
   "Old Quest Value": {
-    "353358909.json": "1",
-    "104430631.json": "2"
+    "104430631.json": "2",
+    "353358909.json": "1"
+  },
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  },
+  "Notes": {
+    "918573169.json": "Only display if PAINREL1",
+    "349122068.json": "Only display if PAINREL1",
+    "156095877.json": "Only display if PAINREL1",
+    "162668459.json": "Only display if PAINREL1",
+    "278139969.json": "Only display if PAINREL1",
+    "676824724.json": "Only display if PAINREL1",
+    "512144428.json": "Only display if PAINREL1"
   }
 }
