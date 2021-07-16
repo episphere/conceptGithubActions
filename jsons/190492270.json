@@ -1,0 +1,27 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "965707586.json",
+  "conceptId": "190492270",
+  "Question Text": "On a usual day that you [smoke/smoked], how soon after you [wake up/woke up] [do/did] you smoke your first cigarette of the day?",
+  "Variable Label": "Use cigarette after waking up",
+  "Variable Name": "SrvSAS_CigsWakeUp_v1r0",
+  "Connect Value for Select all that apply questions": "CIG10",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "567392844.json": "1",
+    "784541389.json": "2",
+    "990013470.json": "3",
+    "480517959.json": "4",
+    "431253233.json": "5"
+  },
+  "Connect Value": {
+    "567392844.json": "0",
+    "784541389.json": "1",
+    "990013470.json": "2",
+    "480517959.json": "3",
+    "431253233.json": "4"
+  }
+}

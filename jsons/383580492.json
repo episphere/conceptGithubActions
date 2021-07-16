@@ -1,0 +1,29 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "965707586.json",
+  "conceptId": "383580492",
+  "Question Text": "What is the natural color of your eyes?",
+  "Variable Label": "Natural color eyes",
+  "Variable Name": "SrvSAS_EyeColor_v1r0",
+  "Connect Value for Select all that apply questions": "EYECOLOR",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "993577223.json": "1",
+    "366870315.json": "2",
+    "478802795.json": "3",
+    "780323283.json": "4",
+    "991873061.json": "5",
+    "181769837.json": "6"
+  },
+  "Connect Value": {
+    "993577223.json": "0",
+    "366870315.json": "1",
+    "478802795.json": "2",
+    "780323283.json": "3",
+    "991873061.json": "4",
+    "181769837.json": "55"
+  }
+}

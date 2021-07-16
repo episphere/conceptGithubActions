@@ -1,0 +1,27 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "965707586.json",
+  "conceptId": "606546256",
+  "Question Text": "On a usual day that you [smoke/smoked], how often [do/did] you smoke a cigarette before your first meal of the day?",
+  "Variable Label": "Use cigarette before first meal",
+  "Variable Name": "SrvSAS_CigsFirstMeal_v1r0",
+  "Connect Value for Select all that apply questions": "CIG11",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "937942033.json": "1",
+    "984589111.json": "2",
+    "922257633.json": "3",
+    "876846702.json": "4",
+    "216238014.json": "5"
+  },
+  "Connect Value": {
+    "937942033.json": "0",
+    "984589111.json": "1",
+    "922257633.json": "2",
+    "876846702.json": "3",
+    "216238014.json": "4"
+  }
+}

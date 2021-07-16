@@ -1,0 +1,27 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "965707586.json",
+  "conceptId": "310082069",
+  "Question Text": "On days that you [use/used] e-cigarettes or other vaping devices, what is the total amount of time you [use/used] them per day?",
+  "Variable Label": "Total amount of time used e-cigarettes or other vaping devices per day",
+  "Variable Name": "SrvSAS_ECigTotalTm_v1r0",
+  "Connect Value for Select all that apply questions": "ECIG9A",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "428999623.json": "1",
+    "102037840.json": "2",
+    "860032404.json": "3",
+    "751411113.json": "4",
+    "431253233.json": "5"
+  },
+  "Connect Value": {
+    "428999623.json": "0",
+    "102037840.json": "1",
+    "860032404.json": "2",
+    "751411113.json": "3",
+    "431253233.json": "4"
+  }
+}

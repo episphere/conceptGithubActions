@@ -1,0 +1,23 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "965707586.json",
+  "conceptId": "395241786",
+  "Question Text": "When was the last time you used e-cigarettes or other vaping devices for nicotine or tobacco?",
+  "Variable Label": "Last used e-cigarettes or other vaping devices",
+  "Variable Name": "SrvSAS_ECigUseL_v1r0",
+  "Connect Value for Select all that apply questions": "ECIG5",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "317567178.json": "1",
+    "484055234.json": "2",
+    "802197176.json": "3"
+  },
+  "Connect Value": {
+    "317567178.json": "0",
+    "484055234.json": "1",
+    "802197176.json": "2"
+  }
+}

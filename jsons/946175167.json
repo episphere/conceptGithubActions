@@ -1,0 +1,33 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "965707586.json",
+  "conceptId": "946175167",
+  "Question Text": "In the past year, about how often were you around tobacco smoke from other people  smoking in your home or at work?",
+  "Variable Label": "Days around tobacco smoke of others, past year",
+  "Variable Name": "SrvSAS_DaysAroundSmoke_v1r0",
+  "Connect Value for Select all that apply questions": "CURRSM",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "408121350.json": "1",
+    "479491514.json": "2",
+    "558757017.json": "3",
+    "870620921.json": "4",
+    "608462606.json": "5",
+    "113177889.json": "6",
+    "115667512.json": "7",
+    "832414773.json": "8"
+  },
+  "Connect Value": {
+    "408121350.json": "0",
+    "479491514.json": "1",
+    "558757017.json": "2",
+    "870620921.json": "3",
+    "608462606.json": "4",
+    "113177889.json": "5",
+    "115667512.json": "6",
+    "832414773.json": "7"
+  }
+}
