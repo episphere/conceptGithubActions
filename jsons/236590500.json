@@ -8,11 +8,17 @@
   "Connect Value for Select all that apply questions": "CHILDDEATH",
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Connect Value": "0 = Less than 1 year",
   "Required": "No",
   "PII": "No",
+  "Date added or modified": [
+    "678241847.json"
+  ],
   "Old Quest Value": {
     "469175985.json": "1",
-    "794381175.json": "99"
+    "920765381.json": "99"
+  },
+  "Connect Value": {
+    "469175985.json": "0",
+    "920765381.json": "77"
   }
 }
