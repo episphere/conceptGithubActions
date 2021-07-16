@@ -1,0 +1,27 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "965707586.json",
+  "conceptId": "881374396",
+  "Question Text": "Which of these best describes your natural skin color on the parts of your body that are not exposed to sunor tanning beds",
+  "Variable Label": "Natural skin color",
+  "Variable Name": "SrvSAS_SkinColor_v1r0",
+  "Connect Value for Select all that apply questions": "SKINCOLOR",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "300633065.json": "1",
+    "834817071.json": "2",
+    "385246065.json": "3",
+    "189414295.json": "4",
+    "482157734.json": "5"
+  },
+  "Connect Value": {
+    "300633065.json": "0",
+    "834817071.json": "1",
+    "385246065.json": "2",
+    "189414295.json": "3",
+    "482157734.json": "4"
+  }
+}

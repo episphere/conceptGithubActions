@@ -1,0 +1,20 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "207025341.json",
+  "conceptId": "934037640",
+  "Question Text": "Changed diet",
+  "Variable Label": "Changed diet",
+  "Variable Name": "SrvBOH_ChangeDiet1_v1r0",
+  "Connect Value for Select all that apply questions": "0",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if flag for percent weight change 18-25 = yes",
+  "Quest_Src Question": "WTLOSS2_1825",
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

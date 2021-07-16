@@ -1,0 +1,42 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "conceptId": "206319592",
+  "Question Text": "Which one of these figures most closely resembles your hair pattern at age 40?",
+  "Variable Label": "Hair male",
+  "Variable Name": "SrvBOH_HairMale_v1r0",
+  "Connect Value for Select all that apply questions": "HAIRMALE",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "[DISPLAY IF SEX= 01 and GEN= 01]",
+  "Old Quest Value": {
+    "927925620.json": "1",
+    "681297320.json": "2",
+    "779727245.json": "3",
+    "858842301.json": "4",
+    "275847648.json": "5",
+    "672529536.json": "6",
+    "953616967.json": "7",
+    "328940271.json": "8",
+    "388159121.json": "9",
+    "882992657.json": "10",
+    "594004335.json": "11",
+    "462112817.json": "12"
+  },
+  "Connect Value": {
+    "927925620.json": "0",
+    "629452816.json": "1",
+    "915557297.json": "2",
+    "103565678.json": "3",
+    "381878591.json": "4",
+    "446794016.json": "5",
+    "526238862.json": "6",
+    "173625583.json": "7",
+    "782282163.json": "8",
+    "693010445.json": "9",
+    "732008197.json": "10",
+    "734998477.json": "11"
+  }
+}

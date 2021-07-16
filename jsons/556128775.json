@@ -1,0 +1,25 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "965707586.json",
+  "conceptId": "556128775",
+  "Question Text": "How many days have you smoked a tobacco pipe in your  life?",
+  "Variable Label": "How many days smoked tobacco pipe in life",
+  "Variable Name": "SrvSAS_TobPipeDays_v1r0",
+  "Connect Value for Select all that apply questions": "PIPE1",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "151488193.json": "1",
+    "627538534.json": "2",
+    "504173415.json": "3",
+    "132232896.json": "4"
+  },
+  "Connect Value": {
+    "151488193.json": "0",
+    "627538534.json": "1",
+    "504173415.json": "2",
+    "132232896.json": "3"
+  }
+}

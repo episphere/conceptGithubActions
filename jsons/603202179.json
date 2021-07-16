@@ -1,0 +1,17 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "469947273.json",
+  "conceptId": "603202179",
+  "Question Text": "Polycystic Ovary Syndrome (PCOS) age",
+  "Variable Label": "Polycystic Ovary Syndrome (PCOS) age",
+  "Variable Name": "SrvBOH_PCOSAge_v1r0",
+  "Connect Value for Select all that apply questions": "PCOS_AGE",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Connect Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if MHGROUP8= Polycystic Ovary Syndrome (PCOS)",
+  "Quest_Src Question": "PCOS"
+}
