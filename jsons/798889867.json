@@ -1,0 +1,24 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "conceptId": "798889867",
+  "Question Text": "Have you ever used hormones or other medications to make your body better reflect your gender (for example, estrogen or testosterone-blockers)?",
+  "Variable Label": "Ever took hormones to reflect your gender",
+  "Variable Name": "SrvMRE_FemHormones_v1r0",
+  "Connect Value for Select all that apply questions": "HORNONCISWOM",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Diaply if SEX= \"\"MALE\"\" OR  \"\"INTERSEX OR OTHER\"\" AND GEN= \"\"FEMALE\"\", \"\"TRANSGENDER\"\"FEMALE\"\", \"\"GENDERQUEER\"\", OR \"\"ADDITIONAL GENDER\"\")\"\"",
+  "Old Quest Value": {
+    "225656445.json": "1",
+    "507537564.json": "2",
+    "286932940.json": "3"
+  },
+  "Connect Value": {
+    "562877322.json": "0",
+    "200323667.json": "1",
+    "249673703.json": "2"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "conceptId": "887697329",
+  "Question Text": "Child 1-Thinking of [child initials or nickname/your [oldest/next oldest]child], what biological sex was this child assigned at birth?",
+  "Variable Label": "Child 1 sex at birth",
+  "Variable Name": "SrvBOH_Child1Sex_v1r0",
+  "Connect Value for Select all that apply questions": "CHILD2",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Format/Value": [
+    "363207401.json",
+    "606016099.json",
+    "582836202.json",
+    "812083351.json"
+  ],
+  "Date added or modified": [
+    "684707739.json"
+  ],
+  "Old Quest Value": {
+    "124988005.json": "1",
+    "591228611.json": "2",
+    "563680365.json": "3",
+    "272172595.json": "77"
+  },
+  "Connect Value": {
+    "591228611.json": "0",
+    "124988005.json": "1",
+    "563680365.json": "2",
+    "696325260.json": "77"
+  }
+}

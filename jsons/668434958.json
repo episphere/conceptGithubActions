@@ -1,0 +1,24 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "Source Question": "624179836.json",
+  "conceptId": "668434958",
+  "Question Text": "I have not had any of these surgeries",
+  "Variable Label": "I have not had any of these surgeries",
+  "Variable Name": "SrvBOH_NoSurgery_v1r0",
+  "Connect Value for Select all that apply questions": "88",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only can be selected if no other variables selected in MHGROUP9",
+  "Quest_Src Question": "MHGROUP9",
+  "Format/Value": [
+    "511034015.json",
+    "515490736.json"
+  ],
+  "Connect Value": {
+    "559538664.json": "0",
+    "364467973.json": "1"
+  }
+}

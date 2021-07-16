@@ -1,0 +1,31 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "conceptId": "170440011",
+  "Question Text": "Is your biological mother still living?",
+  "Variable Label": "Mom living",
+  "Variable Name": "SrvBOH_MomLiving_v1r0",
+  "Connect Value for Select all that apply questions": "MOM",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Format/Value": [
+    "511034015.json",
+    "515490736.json",
+    "812083351.json"
+  ],
+  "Date added or modified": [
+    "684707739.json"
+  ],
+  "Old Quest Value": {
+    "559538664.json": "1",
+    "364467973.json": "2",
+    "272172595.json": "77"
+  },
+  "Connect Value": {
+    "559538664.json": "0",
+    "364467973.json": "1",
+    "696325260.json": "77"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "conceptId": "759004335",
+  "Question Text": "Which of these options best describes your household's total combined family income for the <b>past 12 months</b>? This should include money earned from all places: job wages, rent from properties, investment income, social security, disability and/or veteran's benefits, unemployment benefits, workman's compensation, child support payments, alimony, and so on. Answer with the amount before taxes.",
+  "Variable Label": "Income",
+  "Variable Name": "SrvBOH_Income_v1r0",
+  "Connect Value for Select all that apply questions": "INCOME",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Format/Value": [
+    "523250171.json",
+    "443313894.json",
+    "779650069.json",
+    "913298446.json",
+    "614874683.json",
+    "348382722.json",
+    "461324178.json",
+    "942576173.json",
+    "194327352.json",
+    "812083351.json",
+    "732063171.json"
+  ],
+  "Date added or modified": [
+    "684707739.json"
+  ],
+  "Old Quest Value": {
+    "800243987.json": "1",
+    "802156872.json": "2",
+    "142949556.json": "3",
+    "900610114.json": "4",
+    "481996647.json": "5",
+    "352745397.json": "6",
+    "955097873.json": "7",
+    "775015078.json": "8",
+    "731413711.json": "9",
+    "581794296.json": "77",
+    "102146086.json": "99"
+  },
+  "Connect Value": {
+    "800243987.json": "0",
+    "530269132.json": "1",
+    "647408408.json": "2",
+    "660123583.json": "3",
+    "950848748.json": "4",
+    "140148062.json": "5",
+    "548843257.json": "6",
+    "742079639.json": "7",
+    "731413711.json": "8",
+    "696325260.json": "77",
+    "422363217.json": "99"
+  }
+}

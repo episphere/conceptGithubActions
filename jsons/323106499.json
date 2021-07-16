@@ -1,0 +1,49 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "conceptId": "323106499",
+  "Question Text": "Arthritis",
+  "Variable Label": "Arthritis",
+  "Variable Name": "SrvMRE_Arthiritis_v1r0",
+  "Connect Value for Select all that apply questions": "0",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "7/8/21",
+  "Source Question": [
+    "643807999.json",
+    "275143071.json",
+    "152138929.json",
+    "630231395.json",
+    "655266993.json",
+    "509383583.json",
+    "887435355.json"
+  ],
+  "Quest_Src Question": [
+    "313121487.json",
+    "787673440.json",
+    "219876557.json",
+    "487372547.json",
+    "180816209.json",
+    "168505011.json",
+    "539088485.json"
+  ],
+  "Old Quest Value": {
+    "104430631.json": "2",
+    "353358909.json": "1"
+  },
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  },
+  "Notes": {
+    "192626439.json": "Only display if PAINREL1",
+    "482585576.json": "Only display if PAINREL1",
+    "944403742.json": "Only display if PAINREL1",
+    "421583938.json": "Only display if PAINREL1",
+    "171297425.json": "Only display if PAINREL1",
+    "282546597.json": "Only display if PAINREL1",
+    "132724093.json": "Only display if PAINREL1"
+  }
+}

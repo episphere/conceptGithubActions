@@ -1,0 +1,27 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "965707586.json",
+  "conceptId": "112435343",
+  "Question Text": "When you were a daily user of chewing tobacco, snus, snuff, or dip, what is the total amount of time you used them per day?",
+  "Variable Label": "Total amount of time used chewing tobacco, snus, snuff, or dip  per day when daily user",
+  "Variable Name": "SrvSAS_TotTmUseCT_v1r0",
+  "Connect Value for Select all that apply questions": "CHEW9C",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "428999623.json": "1",
+    "686730091.json": "2",
+    "819573904.json": "3",
+    "501946697.json": "4",
+    "713370251.json": "5"
+  },
+  "Connect Value": {
+    "428999623.json": "0",
+    "686730091.json": "1",
+    "819573904.json": "2",
+    "501946697.json": "3",
+    "713370251.json": "4"
+  }
+}

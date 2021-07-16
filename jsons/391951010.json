@@ -1,0 +1,33 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "conceptId": "391951010",
+  "Question Text": "What was the outcome of this pregnancy?",
+  "Variable Label": "Outcome pregnancy",
+  "Variable Name": "SrvMRE_PregOutcome_v1r0",
+  "Connect Value for Select all that apply questions": "PREG5",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "794778306.json": "1",
+    "403793698.json": "2",
+    "912514242.json": "3",
+    "384993493.json": "4",
+    "125132535.json": "5",
+    "695482332.json": "6",
+    "618452071.json": "7",
+    "528526505.json": "99"
+  },
+  "Connect Value": {
+    "223216393.json": "0",
+    "628445697.json": "1",
+    "419220239.json": "2",
+    "306890578.json": "3",
+    "858244199.json": "4",
+    "434041171.json": "5",
+    "550615107.json": "6",
+    "528526505.json": "99"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "965707586.json",
+  "conceptId": "448877312",
+  "Question Text": "Do you use chewing tobacco, snus, snuff, or dip  now?",
+  "Variable Label": "Use chewing tobacco, snus, snuff, or dip  now",
+  "Variable Name": "SrvSAS_UseCTNow_v1r0",
+  "Connect Value for Select all that apply questions": "CHEW4",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "489529892.json": "1",
+    "475949594.json": "2",
+    "766890880.json": "3",
+    "750136517.json": "4"
+  },
+  "Connect Value": {
+    "489529892.json": "0",
+    "475949594.json": "1",
+    "766890880.json": "2",
+    "750136517.json": "3"
+  }
+}

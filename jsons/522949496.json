@@ -1,0 +1,30 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "conceptId": "522949496",
+  "Question Text": "During the season[s] in the past 12 months that you did other exercise, about how often did you do this activity?",
+  "Variable Label": "During the season[s] in the past 12 months that you did other exercise, about how often did you do this activity?",
+  "Variable Name": "SrvMRE_ExerciseOften_v1r0",
+  "Connect Value for Select all that apply questions": "EXEREC3O",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if EXEREC1=55",
+  "Old Quest Value": {
+    "757334811.json": "1",
+    "902232439.json": "2",
+    "493022664.json": "3",
+    "935410546.json": "4",
+    "606224619.json": "5",
+    "923664112.json": "6"
+  },
+  "Connect Value": {
+    "239152340.json": "0",
+    "582006876.json": "1",
+    "645894551.json": "2",
+    "996315715.json": "3",
+    "671267928.json": "4",
+    "408121350.json": "5"
+  }
+}

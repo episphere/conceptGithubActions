@@ -1,0 +1,28 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "conceptId": "589588769",
+  "Question Text": "Sibling 1- Is [SIBLING INITIALS OR NICKNAME/your sibling] aâ€¦",
+  "Variable Label": "Sibling 1 full/half",
+  "Variable Name": "SrvBOH_Sib1FullHalf_v1r0",
+  "Connect Value for Select all that apply questions": "SIB3",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Format/Value": [
+    "867143974.json",
+    "468495250.json",
+    "715808825.json"
+  ],
+  "Old Quest Value": {
+    "303652043.json": "1",
+    "706038345.json": "2",
+    "961184958.json": "3"
+  },
+  "Connect Value": {
+    "303652043.json": "0",
+    "706038345.json": "1",
+    "961184958.json": "2"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "conceptId": "875208305",
+  "Question Text": "In general, how would you rate your overall health?",
+  "Variable Label": "General health",
+  "Variable Name": "SrvBOH_OverHealth_v1r0",
+  "Connect Value for Select all that apply questions": "OVERHEALTH",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Format/Value": [
+    "494303778.json",
+    "585373784.json",
+    "242018181.json",
+    "104662140.json",
+    "455097331.json"
+  ],
+  "Old Quest Value": {
+    "402151368.json": "1",
+    "854617629.json": "2",
+    "787613741.json": "3",
+    "333657043.json": "4",
+    "852574171.json": "5"
+  },
+  "Connect Value": {
+    "402151368.json": "0",
+    "854617629.json": "1",
+    "787613741.json": "2",
+    "333657043.json": "3",
+    "852574171.json": "4"
+  }
+}

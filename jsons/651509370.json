@@ -1,0 +1,31 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "965707586.json",
+  "conceptId": "651509370",
+  "Question Text": "Over the past 12 months, how often did you usually drink liquor or mixed drinks?",
+  "Variable Label": "Often drink liquor or mixed drinks, past 12 months",
+  "Variable Name": "SrvSAS_LiquorOften12Mo_v1r0",
+  "Connect Value for Select all that apply questions": "LIQUOR1",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "533993246.json": "1",
+    "711475063.json": "2",
+    "308854175.json": "3",
+    "111614368.json": "4",
+    "752883374.json": "5",
+    "118763783.json": "6",
+    "408121350.json": "7"
+  },
+  "Connect Value": {
+    "533993246.json": "0",
+    "711475063.json": "1",
+    "308854175.json": "2",
+    "111614368.json": "3",
+    "752883374.json": "4",
+    "118763783.json": "5",
+    "408121350.json": "6"
+  }
+}

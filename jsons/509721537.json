@@ -9,9 +9,16 @@
   "Connect Value for Select all that apply questions": "0",
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Format/Value": "104430631",
-  "Connect Value": "0=No",
   "Required": "No",
   "PII": "No",
-  "Notes": "\""
+  "Notes": "[DISPLAY ONLY IF SEX = (00) OR (SEX= (02) AND SEX2 = (05))]",
+  "Quest_Src Question": "MHGROUP8",
+  "Format/Value": [
+    "511034015.json",
+    "515490736.json"
+  ],
+  "Connect Value": {
+    "559538664.json": "0",
+    "364467973.json": "1"
+  }
 }

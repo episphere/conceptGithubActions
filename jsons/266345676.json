@@ -1,0 +1,29 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "965707586.json",
+  "conceptId": "266345676",
+  "Question Text": "What is the highest SPF number of the sunscreen you use most often?",
+  "Variable Label": "Highest SPF number used most often",
+  "Variable Name": "SrvSAS_SPFHighestNum_v1r0",
+  "Connect Value for Select all that apply questions": "SUNSCREEN4",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "183604477.json": "1",
+    "110095175.json": "2",
+    "848214198.json": "3",
+    "926521823.json": "4",
+    "118073530.json": "5",
+    "581794296.json": "6"
+  },
+  "Connect Value": {
+    "183604477.json": "0",
+    "110095175.json": "1",
+    "848214198.json": "2",
+    "926521823.json": "3",
+    "118073530.json": "4",
+    "581794296.json": "77"
+  }
+}

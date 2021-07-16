@@ -1,0 +1,43 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "conceptId": "842657297",
+  "Question Text": "During the past 12 months, about how many days per week did you typically work for pay?",
+  "Variable Label": "Days work",
+  "Variable Name": "SrvBOH_DaysWork_v1r0",
+  "Connect Value for Select all that apply questions": "DAYSWORK",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Format/Value": [
+    "870867359.json",
+    "249124875.json",
+    "213776492.json",
+    "710213221.json",
+    "536296807.json",
+    "481371911.json",
+    "945273103.json",
+    "169828538.json"
+  ],
+  "Old Quest Value": {
+    "957060349.json": "1",
+    "227021426.json": "2",
+    "488365998.json": "3",
+    "179887982.json": "4",
+    "368662412.json": "5",
+    "150270400.json": "6",
+    "202301963.json": "7",
+    "347169634.json": "8"
+  },
+  "Connect Value": {
+    "957060349.json": "0",
+    "227021426.json": "1",
+    "488365998.json": "2",
+    "179887982.json": "3",
+    "368662412.json": "4",
+    "150270400.json": "5",
+    "202301963.json": "6",
+    "347169634.json": "7"
+  }
+}

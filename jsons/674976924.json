@@ -1,0 +1,23 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "conceptId": "674976924",
+  "Question Text": "Have you worked as a shift worker? [Informational text: Shift work is work that takes place on a schedule different from the traditional 9:00AM \"\"\"\" 5:00PM schedule. Employers that need 24-hour coverage often rely on shift work.]",
+  "Variable Label": "Shift worker",
+  "Variable Name": "SrvMRE_ShiftWorker_v1r0",
+  "Connect Value for Select all that apply questions": "SHIFTWORK",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "136195991.json": "0",
+    "896369303.json": "1",
+    "104430631.json": "2"
+  },
+  "Connect Value": {
+    "958538953.json": "0",
+    "274062548.json": "1",
+    "104430631.json": "2"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "conceptId": "338924834",
+  "Question Text": "On a scale of 1 to 10, where 1 means a little pain and 10 means a lot of pain, how would you rate your physical pain?",
+  "Variable Label": "Pain rank",
+  "Variable Name": "SrvBOH_PainRank_v1r0",
+  "Connect Value for Select all that apply questions": "PAIN2",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Format/Value": [
+    "951219808.json",
+    "157406445.json",
+    "489775024.json",
+    "956480871.json",
+    "853001573.json",
+    "351221600.json",
+    "219643217.json",
+    "737385205.json",
+    "567050110.json",
+    "319590253.json"
+  ],
+  "Old Quest Value": {
+    "297586529.json": "1",
+    "944403742.json": "2",
+    "421583938.json": "3",
+    "171297425.json": "4",
+    "282546597.json": "5",
+    "132724093.json": "6",
+    "763161646.json": "7",
+    "610391609.json": "8",
+    "722563561.json": "9",
+    "152687761.json": "10"
+  },
+  "Connect Value": {
+    "297586529.json": "0",
+    "944403742.json": "1",
+    "421583938.json": "2",
+    "171297425.json": "3",
+    "282546597.json": "4",
+    "132724093.json": "5",
+    "763161646.json": "6",
+    "610391609.json": "7",
+    "722563561.json": "8",
+    "152687761.json": "9"
+  }
+}

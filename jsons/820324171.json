@@ -1,0 +1,27 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "conceptId": "820324171",
+  "Question Text": "When you were about 10 years old, compared to average, would you describe yourself asâ€¦",
+  "Variable Label": "10 year old weight",
+  "Variable Name": "SrvBOH_10YrWeight_v1r0",
+  "Connect Value for Select all that apply questions": "AVEWEIGHT",
+  "Variable Type": "Num",
+  "Required": "No",
+  "PII": "No",
+  "Format/Value": [
+    "147709991.json",
+    "401971437.json",
+    "177636866.json"
+  ],
+  "Old Quest Value": {
+    "384163393.json": "1",
+    "802932147.json": "2",
+    "822725164.json": "3"
+  },
+  "Connect Value": {
+    "384163393.json": "0",
+    "802932147.json": "1",
+    "822725164.json": "2"
+  }
+}

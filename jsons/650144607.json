@@ -1,0 +1,17 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "774774759.json",
+  "conceptId": "650144607",
+  "Question Text": "Child 1 Ovarian cancer age",
+  "Variable Label": "Child 1 Ovarian cancer age",
+  "Variable Name": "SrvBOH_C1OvarCancAge_v1r0",
+  "Connect Value for Select all that apply questions": "CHILDCANC3Q_AGE",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Connect Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Connect Format/Values - Only display if SIBCANC2= 16",
+  "Quest_Src Question": "CHILDCANC3Q"
+}

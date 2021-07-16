@@ -1,0 +1,25 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "conceptId": "473529484",
+  "Question Text": "Was this child born a twin, triplet, or other multiple?",
+  "Variable Label": "Child 1 twin/multiple",
+  "Variable Name": "SrvBOH_Child1Mult_v1r0",
+  "Connect Value for Select all that apply questions": "CHILDMULT",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Format/Value": [
+    "511034015.json",
+    "515490736.json"
+  ],
+  "Old Quest Value": {
+    "559538664.json": "1",
+    "364467973.json": "2"
+  },
+  "Connect Value": {
+    "559538664.json": "0",
+    "364467973.json": "1"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "conceptId": "784967158",
+  "Question Text": "Are you currently enrolled in school?",
+  "Variable Label": "Student",
+  "Variable Name": "SrvBOH_Student_v1r0",
+  "Connect Value for Select all that apply questions": "STUDENT",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Format/Value": [
+    "511034015.json",
+    "279566888.json",
+    "657702540.json"
+  ],
+  "Old Quest Value": {
+    "559538664.json": "1",
+    "676488150.json": "2",
+    "256304006.json": "3"
+  },
+  "Connect Value": {
+    "559538664.json": "0",
+    "676488150.json": "1",
+    "256304006.json": "2"
+  }
+}

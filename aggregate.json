@@ -1,7 +1,4 @@
 {
-  "103139066": {
-    "Variable Name": "Type 2"
-  },
   "106117489": {
     "Variable Label": "Chlamydia diagnosis age",
     "Variable Name": "SrvBOH_ChlamydiaAge_v1r0"
@@ -30,9 +27,6 @@
     "Variable Label": "Algerian",
     "Variable Name": "SrvBOH_Algerian_v1r0"
   },
-  "120834344": {
-    "Variable Name": "Don't Know"
-  },
   "125201447": {
     "Variable Label": "Pancreatitis year",
     "Variable Name": "SrvBOH_PancreatitisYr_v1r0"
@@ -60,9 +54,15 @@
     "Variable Label": "Gout",
     "Variable Name": "SrvBOH_Gout_v1r0"
   },
+  "135435969": {
+    "Variable Name": "Intersex or other"
+  },
   "136956596": {
     "Variable Label": "Trichomoniasis",
     "Variable Name": "SrvBOH_Trich_v1r0"
+  },
+  "140530214": {
+    "Variable Name": "Don't Know"
   },
   "144320785": {
     "Variable Label": "Israeli",
@@ -116,12 +116,6 @@
     "Variable Label": "Chronic Kidney Disease (Also Known as Chronic Kidney Failure)",
     "Variable Name": "SrvBOH_CKD_v1r0"
   },
-  "168276973": {
-    "Variable Name": "Intersex or other"
-  },
-  "169392829": {
-    "Variable Name": "Mostly masculine"
-  },
   "173154171": {
     "Variable Label": "Hay Fever (Allergic to pollen or Allergic Rhinitis)diagnosis age",
     "Variable Name": "SrvBOH_HayFeverAge_v1r0"
@@ -134,12 +128,15 @@
     "Variable Label": "None of these fully describe me. Please describe",
     "Variable Name": "SrvBOH_NoneRE8_v1r0"
   },
-  "184201841": {
-    "Variable Name": "Never married"
+  "187839915": {
+    "Variable Name": "Not married but living with partner"
   },
   "190152384": {
     "Variable Label": "Afghan",
     "Variable Name": "SrvBOH_Afghan_v1r0"
+  },
+  "192632581": {
+    "Variable Name": "Type 1"
   },
   "192776753": {
     "Variable Label": "European",
@@ -160,9 +157,6 @@
     "Variable Label": "stroke diagnosis year",
     "Variable Name": "SrvBOH_StrokeYear_v1r0"
   },
-  "212430781": {
-    "Variable Name": "Equally feminine and masculine"
-  },
   "212982928": {
     "Variable Label": "Other language(s): Please describe",
     "Variable Name": "SrvBOH_OtherLang_v1r0"
@@ -178,9 +172,6 @@
   "214966808": {
     "Variable Label": "HPV diagnosis age",
     "Variable Name": "SrvBOH_HPVAge_v1r0"
-  },
-  "222786789": {
-    "Variable Name": "Very feminine"
   },
   "224468136": {
     "Variable Label": "stroke diagnosis age",
@@ -233,12 +224,12 @@
     "Variable Label": "American Indian",
     "Variable Name": "SrvBOH_AmerInd_v1r0"
   },
+  "249986027": {
+    "Variable Name": "Never married"
+  },
   "251231642": {
     "Variable Label": "NO MHGROUP6 conditions",
     "Variable Name": "SrvBOH_NoGroup6_v1r0"
-  },
-  "259676575": {
-    "Variable Name": "Somewhat feminine"
   },
   "261863326": {
     "Variable Label": "Skin cancer diagnosis year",
@@ -264,9 +255,6 @@
     "Variable Label": "Prefer not to answer",
     "Variable Name": "SrvBOH_PrefNoAnsRE3_v1r0"
   },
-  "277694566": {
-    "Variable Name": "Widowed"
-  },
   "279620272": {
     "Variable Label": "Rheumatoid Arthritis year",
     "Variable Name": "SrvBOH_RAYear_v1r0"
@@ -274,9 +262,6 @@
   "280957170": {
     "Variable Label": "Caribbean",
     "Variable Name": "SrvBOH_Caribbean_v1r0"
-  },
-  "283307832": {
-    "Variable Name": "Very masculine"
   },
   "285995100": {
     "Variable Label": "Celiac Disease (also known as Gluten-Sensitive Enteropathy)",
@@ -306,6 +291,9 @@
     "Variable Label": "Heart attack (myocardial infarction) diagnosis year",
     "Variable Name": "SrvBOH_MIyear_v1r0"
   },
+  "301468821": {
+    "Variable Name": "Female"
+  },
   "304643362": {
     "Variable Label": "Somali",
     "Variable Name": "SrvBOH_Somali_v1r0"
@@ -317,6 +305,9 @@
   "312392165": {
     "Variable Label": "Syphilis diagnosis year",
     "Variable Name": "SrvBOH_SyphilisYear_v1r0"
+  },
+  "312896317": {
+    "Variable Name": "Very feminine"
   },
   "320057074": {
     "Variable Label": "chest pain (angina) diagnosis age",
@@ -330,8 +321,20 @@
     "Variable Label": "Filipino",
     "Variable Name": "SrvBOH_Filipino_v1r0"
   },
-  "326703598": {
-    "Variable Name": "Divorced"
+  "326978038": {
+    "Variable Name": "No"
+  },
+  "331568128": {
+    "Variable Name": "Mostly masculine"
+  },
+  "332361876": {
+    "Variable Name": "Lesbian, gay, or homosexual"
+  },
+  "334357195": {
+    "Variable Name": "Bisexual"
+  },
+  "335582306": {
+    "Variable Name": "Equally feminine and masculine"
   },
   "336505365": {
     "Variable Label": "Abnormal Heart Rhythm (Arrhythmia)",
@@ -364,9 +367,15 @@
     "Variable Label": "Celiac Disease (also known as Gluten-Sensitive Enteropathy) age",
     "Variable Name": "SrvBOH_CeliacAge_v1r0"
   },
+  "374813205": {
+    "Variable Name": "Type 2"
+  },
   "379093069": {
     "Variable Label": "Nigerian",
     "Variable Name": "SrvBOH_Nigerian_v1r0"
+  },
+  "379908152": {
+    "Variable Name": "Straight or heterosexual"
   },
   "380583570": {
     "Variable Label": "Tunisian",
@@ -379,6 +388,9 @@
   "381749264": {
     "Variable Label": "Polish",
     "Variable Name": "SrvBOH_Polish_v1r0"
+  },
+  "395859523": {
+    "Variable Name": "Mostly feminine"
   },
   "396618548": {
     "Variable Label": "None of these fully describe me. Please describe [text box]",
@@ -395,6 +407,9 @@
     "Variable Label": "None of these fully describe me. Please describe [text box]",
     "Variable Name": "SrvBOH_NoneDescribeRE7_v1r0"
   },
+  "405573383": {
+    "Variable Name": "Yes"
+  },
   "406890409": {
     "Variable Label": "Esophageal Acid Reflux (GERD)",
     "Variable Name": "SrvBOH_GERD_v1r0"
@@ -406,9 +421,6 @@
   "407340134": {
     "Variable Label": "Asthma",
     "Variable Name": "SrvBOH_Asthma_v1r0"
-  },
-  "408754115": {
-    "Variable Name": "Yes"
   },
   "412757551": {
     "Variable Label": "Ecuadorian",
@@ -454,9 +466,15 @@
     "Variable Label": "None of these fully describe me. Please describe [text box]",
     "Variable Name": "SrvBOH_NoneDescribeRE5_v1r0"
   },
+  "444173025": {
+    "Variable Name": "Somewhat masculine"
+  },
   "445446905": {
     "Variable Label": "NO RESPIRATORY PROBELMS",
     "Variable Name": "SrvBOH_NoResp_v1r0"
+  },
+  "447470536": {
+    "Variable Name": "Transgender Female/Trans Woman/Male-to-Female (MTF)"
   },
   "453456270": {
     "Variable Label": "Marshallese",
@@ -477,6 +495,9 @@
   "459880289": {
     "Variable Name": "SrvBOH_KoreanLang_v1r0"
   },
+  "467419974": {
+    "Variable Name": "Genderqueer, not exclusively male or female"
+  },
   "469918550": {
     "Variable Label": "Hmong",
     "Variable Name": "SrvBOH_Hmong_v1r0"
@@ -484,6 +505,9 @@
   "470282814": {
     "Variable Label": "High cholesterol diagnosis year",
     "Variable Name": "SrvBOH_CholesterolYr_v1r0"
+  },
+  "471545600": {
+    "Variable Name": "Somewhat feminine"
   },
   "473901019": {
     "Variable Label": "NO DIGESTIVE SYSTEM PROBLEMS",
@@ -493,9 +517,15 @@
     "Variable Label": "Age confirmation",
     "Variable Name": "SrvBOH_AgeCon_v1r0"
   },
+  "480036861": {
+    "Variable Name": "Something else: Please describe [text box]"
+  },
   "484819765": {
     "Variable Label": "Kidney Stones age",
     "Variable Name": "SrvBOH_KSAge_v1r0"
+  },
+  "484971641": {
+    "Variable Name": "Don't know"
   },
   "486535201": {
     "Variable Label": "Other language(s): Please describe[text box]",
@@ -508,6 +538,9 @@
   "493095196": {
     "Variable Label": "Syphilis diagnosis age",
     "Variable Name": "SrvBOH_SyphilisAge_v1r0"
+  },
+  "493277682": {
+    "Variable Name": "Divorced"
   },
   "494032093": {
     "Variable Label": "Diabetes type",
@@ -533,6 +566,9 @@
     "Variable Label": "Cervix",
     "Variable Name": "SrvBOH_Cervix_v1r0"
   },
+  "507664865": {
+    "Variable Name": "Prefer not to answer"
+  },
   "508525427": {
     "Variable Label": "None of these fully describe me. Please describe",
     "Variable Name": "SrvBOH_NoneRE6_v1r0"
@@ -552,6 +588,9 @@
   "516399119": {
     "Variable Label": "Congestive heart failure diagnosis age",
     "Variable Name": "SrvBOH_CHFAge_v1r0"
+  },
+  "521203298": {
+    "Variable Name": "Additional gender category: Please describe [text box]"
   },
   "530063091": {
     "Variable Label": "Alaska Native",
@@ -593,9 +632,6 @@
   "563857306": {
     "Variable Name": "SrvBOH_PortLang_v1r0"
   },
-  "564373115": {
-    "Variable Name": "Something else: Please describe [text box]"
-  },
   "567284980": {
     "Variable Label": "Ulcerative Colitis",
     "Variable Name": "SrvBOH_UC_v1r0"
@@ -611,9 +647,6 @@
   "572909251": {
     "Variable Label": "I have not had any of these conditions",
     "Variable Name": "SrvBOH_NoSTD_v1r0"
-  },
-  "573082692": {
-    "Variable Name": "Mostly feminine"
   },
   "576179368": {
     "Variable Label": "B-12 deficiency (pernicious anemia) diagnosis year",
@@ -655,9 +688,6 @@
     "Variable Label": "Esophageal Acid Reflux (GERD) diagnosis year",
     "Variable Name": "SrvBOH_GERDYear_v1r0"
   },
-  "586757450": {
-    "Variable Name": "Transgender Male/Trans Man/Female-to-Male (FTM)"
-  },
   "586825330": {
     "Variable Label": "Native Hawaiian or other Pacific Islander",
     "Variable Name": "SrvBOH_Hawaiian_v1r0"
@@ -676,9 +706,6 @@
   "603114576": {
     "Variable Label": "Genital Warts diagnosis age",
     "Variable Name": "SrvBOH_WartsAge_v1r0"
-  },
-  "608263394": {
-    "Variable Name": "Female"
   },
   "608469482": {
     "Variable Label": "high blood pressure (hypertension) diagnosis year",
@@ -700,11 +727,8 @@
     "Variable Label": "Stroke",
     "Variable Name": "SrvBOH_Stroke_v1r0"
   },
-  "620299196": {
-    "Variable Name": "Additional gender category: Please describe [text box]"
-  },
-  "631892162": {
-    "Variable Name": "Declined"
+  "627372907": {
+    "Variable Name": "Other"
   },
   "636030086": {
     "Variable Label": "Rheumatoid Arthritis",
@@ -717,9 +741,6 @@
   "637556277": {
     "Variable Label": "High cholesterol diagnosis age",
     "Variable Name": "SrvBOH_CholesterolAge_v1r0"
-  },
-  "639609415": {
-    "Variable Name": "Other"
   },
   "643489668": {
     "Variable Label": "Central or South American Indian",
@@ -741,9 +762,6 @@
     "Variable Label": "Liver Cirrhosis age",
     "Variable Name": "SrvBOH_CirrhosisAge_v1r0"
   },
-  "658168763": {
-    "Variable Name": "Separated"
-  },
   "664571574": {
     "Variable Label": "Dutch",
     "Variable Name": "SrvBOH_Dutch_v1r0"
@@ -755,6 +773,9 @@
   "669977999": {
     "Variable Name": "SrvBOH_ArabicLang_v1r0"
   },
+  "674960911": {
+    "Variable Name": "Widowed"
+  },
   "675507089": {
     "Variable Label": "Abnormal heart rhythm (arrhythmia) diagnosis year",
     "Variable Name": "SrvBOH_AHRYear_v1r0"
@@ -762,9 +783,6 @@
   "680575651": {
     "Variable Label": "Iraqi",
     "Variable Name": "SrvBOH_Iraqi_v1r0"
-  },
-  "681031456": {
-    "Variable Name": "Don't know"
   },
   "685406566": {
     "Variable Label": "Palauan",
@@ -830,15 +848,6 @@
     "Variable Label": "Liver Cirrhosis",
     "Variable Name": "SrvBOH_Cirrhosis_v1r0"
   },
-  "709843590": {
-    "Variable Name": "Somewhat masculine"
-  },
-  "714291218": {
-    "Variable Name": "No"
-  },
-  "723115077": {
-    "Variable Name": "Genderqueer, not exclusively male or female"
-  },
   "726539692": {
     "Variable Label": "Thyroid Disorder (Overactive or Underactive Thyroid)",
     "Variable Name": "SrvBOH_Thyroid_v1r0"
@@ -855,22 +864,20 @@
     "Variable Label": "Liver Cirrhosis year",
     "Variable Name": "SrvBOH_CirrhosisYear_v1r0"
   },
-  "735403719": {
-    "Variable Name": "Not married but living with partner"
+  "735333410": {
+    "Variable Name": "Separated"
   },
   "737107233": {
     "Variable Label": "Asthma diagnosis year",
     "Variable Name": "SrvBOH_AsthmaYear_v1r0"
   },
-  "741691235": {
-    "Variable Name": "Lesbian, gay, or homosexual"
+  "738280579": {
+    "Variable Label": "Appearance, style, dress, mannerisms",
+    "Variable Name": "SrvBOH_Appearance_v1r0"
   },
   "745179569": {
     "Variable Label": "Pancreatitis age",
     "Variable Name": "SrvBOH_PancreatitisAge_v1r0"
-  },
-  "745304960": {
-    "Variable Name": "Bisexual"
   },
   "747350323": {
     "Variable Label": "None of these fully describe me. Please describe [text box]",
@@ -894,10 +901,6 @@
   },
   "760008937": {
     "Variable Name": "SrvBOH_FCLang_v1r0"
-  },
-  "762598351": {
-    "Variable Label": "Appearance, style, dress, mannerisms",
-    "Variable Name": "SrvBOH_Appearance_v1r0"
   },
   "764331628": {
     "Variable Label": "Dominican",
@@ -942,6 +945,9 @@
   "787473236": {
     "Variable Label": "heart valve problemsdiagnosis year",
     "Variable Name": "SrvBOH_HeartValveYr_v1r0"
+  },
+  "793685122": {
+    "Variable Name": "Very masculine"
   },
   "793993848": {
     "Variable Label": "Infectious Mononucleosis (â€œMonoâ€ or â€œKissing Diseaseâ€) diagnosis year",
@@ -1009,12 +1015,12 @@
     "Variable Label": "Prefer not to answer",
     "Variable Name": "SrvBOH_PrefNoAnsRE6_v1r0"
   },
-  "838463091": {
-    "Variable Name": "Prefer not to answer"
-  },
   "838744325": {
     "Variable Label": "Coronary Artery/Coronary Heart Disease",
     "Variable Name": "SrvBOH_CHD_v1r0"
+  },
+  "842579305": {
+    "Variable Name": "Male"
   },
   "846483618": {
     "Variable Label": "Vagina",
@@ -1023,6 +1029,9 @@
   "852296096": {
     "Variable Label": "None of these fully describe me. Please describe [text box]",
     "Variable Name": "SrvBOH_NoneDescribeRE4_v1r0"
+  },
+  "858887260": {
+    "Variable Name": "Transgender Male/Trans Man/Female-to-Male (FTM)"
   },
   "859329001": {
     "Variable Label": "Irish",
@@ -1042,9 +1051,6 @@
   },
   "865039252": {
     "Variable Name": "SrvBOH_VietLang_v1r0"
-  },
-  "865086139": {
-    "Variable Name": "Married"
   },
   "870244556": {
     "Variable Label": "NO MHGROUP5 conditions",
@@ -1077,11 +1083,8 @@
     "Variable Label": "Cambodian",
     "Variable Name": "SrvBOH_Cambodian_v1r0"
   },
-  "905347484": {
-    "Variable Name": "Type 1"
-  },
-  "905799687": {
-    "Variable Name": "Male"
+  "909784920": {
+    "Variable Name": "Married"
   },
   "918190932": {
     "Variable Label": "Norwegian",
@@ -1091,18 +1094,12 @@
     "Variable Label": "Gender",
     "Variable Name": "SrvBOH_GenderDesc_v1r0"
   },
-  "918622325": {
-    "Variable Name": "Transgender Female/Trans Woman/Male-to-Female (MTF)"
-  },
   "918819379": {
     "Variable Name": "SrvBOH_SCLang_v1r0"
   },
   "923311241": {
     "Variable Label": "None of these fully describe me. Please describe",
     "Variable Name": "SrvBOH_NoneRE2_v1r0"
-  },
-  "927054051": {
-    "Variable Name": "Straight or heterosexual"
   },
   "931993957": {
     "Variable Label": "B-12 deficiency (pernicious anemia) diagnosis age",
@@ -1111,6 +1108,9 @@
   "932563284": {
     "Variable Label": "Moroccan",
     "Variable Name": "SrvBOH_Moroccan_v1r0"
+  },
+  "934410958": {
+    "Variable Name": "Declined"
   },
   "943054522": {
     "Variable Label": "Graves' Disease",

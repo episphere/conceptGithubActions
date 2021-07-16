@@ -1,0 +1,29 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "965707586.json",
+  "conceptId": "543950156",
+  "Question Text": "On days you were around other people’s tobacco smoke in the past year in your home or work, about how many hours per day were you around it?",
+  "Variable Label": "Hours around tobacco smoke of others, oast year",
+  "Variable Name": "SrvSAS_HrsAroundSmoke_v1r0",
+  "Connect Value for Select all that apply questions": "CURRSM2",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "448468319.json": "1",
+    "740213293.json": "2",
+    "536191729.json": "3",
+    "857632909.json": "4",
+    "212487614.json": "5",
+    "763787102.json": "6"
+  },
+  "Connect Value": {
+    "448468319.json": "0",
+    "740213293.json": "1",
+    "536191729.json": "2",
+    "857632909.json": "3",
+    "212487614.json": "4",
+    "763787102.json": "5"
+  }
+}

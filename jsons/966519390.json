@@ -1,0 +1,23 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "965707586.json",
+  "conceptId": "966519390",
+  "Question Text": "When was the last time you smoked marijuana?",
+  "Variable Label": "Last used marijuana",
+  "Variable Name": "SrvSAS_LastUsedMJ_v1r0",
+  "Connect Value for Select all that apply questions": "SMMAR5",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "317567178.json": "1",
+    "484055234.json": "2",
+    "802197176.json": "3"
+  },
+  "Connect Value": {
+    "317567178.json": "0",
+    "484055234.json": "1",
+    "802197176.json": "2"
+  }
+}
