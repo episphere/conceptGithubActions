@@ -82,7 +82,7 @@ function parseMasterModule(){
                                     toInsert['questIds'] = {
                                         "77":{
                                             "conceptId":"495230752",
-                                            "concept":"Don't Know" 
+                                            "concept":"Don't know" 
                                         }
                                     }
                                     toInsert['questionText'] = currJSON['Question Text']
