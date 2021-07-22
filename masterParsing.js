@@ -30,7 +30,7 @@ function parseMasterModule(){
         if(currJSON['Primary Source'] && currJSON['Primary Source'] === "129084651.json"){
             //Checks for module name
             // "898006288.json", "726699695.json"
-            if(currJSON['Secondary Source'] && ["745268907.json","965707586.json"].includes(currJSON['Secondary Source'])){
+            if(currJSON['Secondary Source'] && ["745268907.json","965707586.json","726699695.json", "898006288.json"].includes(currJSON['Secondary Source'])){
                 
                 if(currJSON['Connect Value for Select all that apply questions']){
                     let isTB = false;
@@ -110,6 +110,8 @@ function parseMasterModule(){
                                 toInsert['questIds'] = qIds;
                                 toInsert['questionText'] = currJSON['Question Text']
                                 toInsert['conceptId'] = currJSON['conceptId'];
+                                console.log(currJSON['Connect Value for Select all that apply questions'])
+                                console.log(currJSON)
                                 toReturn[currJSON['Connect Value for Select all that apply questions'].toUpperCase()] = toInsert;
                             }
                             else{
@@ -123,7 +125,7 @@ function parseMasterModule(){
                                        thisConcept = varNameToConcept[valNum]
                                    }
                                    else{
-                                       console.log(valNum)
+                                       //console.log(valNum)
                                    }
                                    isTB = false;
                                    if(toReturn[currJSON['Connect Value for Select all that apply questions'].toUpperCase()]){
@@ -167,7 +169,7 @@ function parseMasterModule(){
                         }
                         else{
                             isTB = true;
-                            console.log(currJSON['Connect Value'])
+                            //console.log(currJSON['Connect Value'])
                         }
                         
                         headerName = currJSON['Quest_Src Question'];
@@ -253,7 +255,7 @@ function parseMasterModule(){
             }
         }
     }
-    
+    /*
     let module1 = fs.readFileSync('./module1Dict.json')
     let module1JSON = JSON.parse(module1);
     let module1Keys = Object.keys(module1JSON);
@@ -261,7 +263,7 @@ function parseMasterModule(){
         if(!toReturn[module1Keys[i].toUpperCase()]){
             toReturn[module1Keys[i].toUpperCase()] = module1JSON[module1Keys[i]]
         }
-    }
+    }*/
     //console.log(JSON.stringify(toReturn))
     //console.log(toCheckIds)
     /*
