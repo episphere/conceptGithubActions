@@ -1,0 +1,17 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "Source Question": "139348254.json",
+  "conceptId": "500148101",
+  "Question Text": "Months use the other hormonal medications or devices",
+  "Variable Label": "Months use the other hormonal medications or devices",
+  "Variable Name": "SrvMRE_OthHorMedMoUsed_v1r0",
+  "Connect Value for Select all that apply questions": "hormedOtherMonth",
+  "Variable Type": "Num",
+  "Variable Length": "3",
+  "Old Quest Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if HORMED= 45",
+  "Quest_Src Question": "HORMED5_9"
+}

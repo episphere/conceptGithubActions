@@ -1,0 +1,20 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "conceptId": "323512813",
+  "Question Text": "Over the past three months, have you felt any physical pain on most days?",
+  "Variable Label": "Daily pain",
+  "Variable Name": "SrvBOH_DailyPain_v1r0",
+  "Connect Value for Select all that apply questions": "PAIN",
+  "Variable Type": "Num",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "104430631.json": "1",
+    "353358909.json": "2"
+  },
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

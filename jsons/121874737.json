@@ -1,0 +1,17 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "726451917.json",
+  "conceptId": "121874737",
+  "Question Text": "Mom Lung or bronchial cancer year",
+  "Variable Label": "Mom Lung or bronchial cancer year",
+  "Variable Name": "SrvBOH_MomLungCancYr_v1r0",
+  "Connect Value for Select all that apply questions": "MOMCANC3L_YEAR",
+  "Variable Type": "Year",
+  "Variable Length": "4",
+  "Connect Value": "yyyy",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Connect Format/Values - Only display if MOMCANC2= 11",
+  "Quest_Src Question": "MOMCANC3L"
+}

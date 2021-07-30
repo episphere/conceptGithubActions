@@ -1,0 +1,22 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "898006288.json",
+  "conceptId": "952682839",
+  "Question Text": "In the past three months, how much did the pain get in the way of your normal work? By work, we mean both housework and work outside of the home.",
+  "Variable Label": "Pain affect work",
+  "Variable Name": "SrvBOH_PainAffectWork_v1r0",
+  "Connect Value for Select all that apply questions": "PAIN3",
+  "Variable Type": "Num",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "111520945.json": "1",
+    "548628123.json": "2",
+    "597477164.json": "3"
+  },
+  "Connect Value": {
+    "111520945.json": "0",
+    "548628123.json": "1",
+    "597477164.json": "2"
+  }
+}

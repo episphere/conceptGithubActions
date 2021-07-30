@@ -1,0 +1,19 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "578895128.json",
+  "conceptId": "318663022",
+  "Question Text": "Non-melanoma skin (basal or squamous)",
+  "Variable Label": "Non-melanoma skin (basal or squamous)",
+  "Variable Name": "SrvBOH_S1NMSkinCanc_v1r0",
+  "Connect Value for Select all that apply questions": "15",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Quest_Src Question": "SIBCANC2",
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

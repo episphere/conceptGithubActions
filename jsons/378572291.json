@@ -1,0 +1,15 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "conceptId": "378572291",
+  "Question Text": "About how many years did you take over-the-counter proton pump inhibitors?",
+  "Variable Label": "Years took over-the-counter proton pump inhibitors",
+  "Variable Name": "SrvMRE_ProtPumpOCYr_v1r0",
+  "Connect Value for Select all that apply questions": "ACIDSUP4_2",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Old Quest Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if ACIDSUP = 1"
+}

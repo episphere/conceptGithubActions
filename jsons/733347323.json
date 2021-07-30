@@ -1,0 +1,17 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "152885579.json",
+  "conceptId": "733347323",
+  "Question Text": "Dad esophageal cancer age",
+  "Variable Label": "Dad esophageal cancer age",
+  "Variable Name": "SrvBOH_DadEsCancAge_v1r0",
+  "Connect Value for Select all that apply questions": "DADCANC3F_AGE",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Connect Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Connect Format/Values - Only display if DADCANC2= 5",
+  "Quest_Src Question": "DADCANC3F"
+}
