@@ -2036,7 +2036,7 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question,co
 ,,,,,,,,,,,,,,,353358909,,,1=Yes,,,,,,,,,,,,
 129084651,Survey,726699695,Background and Overall Health,530742915,What type of business was this? [Select all that apply.],739237614,Other text box,Other text box,SrvBOH_OtherBsnDescP_v1r0,BSN2STYP1_TB,Char,300,,,,,,N/A,No,No,,Only fill if other selection for BSNSSTYP2,,,,,,BSNSSTYP2,,
 129084651,Survey,726699695,Background and Overall Health,530742915,What type of business was this? [Select all that apply.],427583219,Do not know,Do not know,SrvBOH_BsnUnknownP_v1r0,77,Num,1,,,104430631,,,0 = No,,,,,,,,,,BSNSSTYP2,,
-,,,,,,,,,,,,,,,353358909,,,1 = Yes,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,1 = Yes,,,,,,,,,,,,
 129084651,Survey,726699695,Background and Overall Health,,,233198706,"What products were made, or services provided, by this employer? If multiple, please provide the product/services related to your work unit. For example: automotive parts, residential home construction, accounting services, pharmaceutical research.",Current employers services or prodcuts,SrvBOH_ServiceProdP_v1r0,EMPLYRSRVCE1,Char,300,,,,,,N/A,No,Yes,,,,,,,,,,
 129084651,Survey,726699695,Background and Overall Health,,,686172464,How many years have you worked in that job {$WORK3_JOBTITLE}?,Years past job,SrvBOH_YearsPastJob_v1r0,WORK4,Num,2,,,,,,N/A,No,Yes,,,,,,,,,,
 129084651,Survey,726699695,Background and Overall Health,,,842657297,"During the past 12 months, about how many days per week did you typically work for pay?",Days work,SrvBOH_DaysWork_v1r0,DAYSWORK,Num,2,,,503218834,1 = None,,0= None,No,No,,,,,,,,,,
