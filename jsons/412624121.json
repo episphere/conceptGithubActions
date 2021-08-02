@@ -5,21 +5,24 @@
   "Question Text": "What is the highest level of school that you have completed?",
   "Variable Label": "Education level",
   "Variable Name": "SrvBOH_EducLevel_v1r0",
-  "Connect Value for Select all that apply questions": "EDU",
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
+  "Connect Value for Select all that apply questions": [
+    "209559742.json",
+    "967177948.json"
+  ],
   "Old Quest Value": {
-    "317868222.json": "1",
+    "978204320.json": "1",
     "935502060.json": "2",
     "404564707.json": "3",
     "432193665.json": "4",
     "890756124.json": "5",
-    "713207768.json": "6",
-    "217096729.json": "7",
-    "373204546.json": "8",
-    "431441193.json": "9",
+    "766964355.json": "6",
+    "875342283.json": "7",
+    "598242454.json": "8",
+    "181769837.json": "9",
     "104475702.json": "9"
   },
   "Connect Value": {
