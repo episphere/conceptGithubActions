@@ -2157,7 +2157,7 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question,co
 ,,,,887435355,Why did you take prescription pain relievers containing opioids? Select all that apply.,,,,,,,,,,887435355,,540626816,,,,512144428,Only display if PAINREL1 = 6,,,,,,PAINREL7_7,
 129084651,Survey,745268907,"Medications, Reproductive Health, Exercise, and Sleep",578235651,Why did you take baby or low-dose aspirin (81 mg or less)? Select all that apply.,769901710,Back pain/backache,Back pain/backache,SrvMRE_BackPain_v1r0,1,Num,2,,,643807999,2=No,349122068,0 = No,No,No,918573169,Only display if PAINREL1 = 0,,,,,7/20/21,PAINREL7_1,
 ,,,,,,,,,,,,,,,353358909,1=Yes,353358909,1 = Yes,,,,,,,,,,,
-,,,,774097453,Why did you take regular or extra strength aspirin? Select all that apply.,,,,,JBM: 1 is not appearing in JSON while 0 and 2-7 are,,,,,275143071,,882519484,,,,349122068,Only display if PAINREL1 = 1,,,,,,PAINREL7_2,
+,,,,774097453,Why did you take regular or extra strength aspirin? Select all that apply.,,,,,,,,,,275143071,,882519484,,,,349122068,Only display if PAINREL1 = 1,,,,,,PAINREL7_2,
 ,,,,152138929,Why did you take ibuprofen? Select all that apply.,,,,,,,,,,152138929,,790540385,,,,156095877,Only display if PAINREL1 = 2,,,,,,PAINREL7_3,
 ,,,,630231395,Why did you take acetaminophen? Select all that apply.,,,,,,,,,,630231395,,583066199,,,,162668459,Only display if PAINREL1 = 3,,,,,,PAINREL7_4,
 ,,,,655266993,Why did you take naproxen? Select all that apply.,,,,,,,,,,655266993,,825513524,,,,278139969,Only display if PAINREL1 = 4,,,,,,PAINREL7_5,

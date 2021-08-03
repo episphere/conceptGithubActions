@@ -220,6 +220,8 @@ function parseMasterModule(){
                                 let questIds = toInsert['questIds']
     
                                 //console.log(questIds)
+                                console.log(currJSON);
+                                console.log(currJSON['Connect Value for Select all that apply questions']);
                                 questIds[currJSON['Connect Value for Select all that apply questions'].toUpperCase()] = {
                                     "conceptId" : currJSON['conceptId'],
                                     "concept": currJSON["Question Text"]
