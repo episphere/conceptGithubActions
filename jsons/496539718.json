@@ -6,10 +6,13 @@
   "Question Text": "Age first menstrual period, never had",
   "Variable Label": "Age first menstrual period, never had",
   "Variable Name": "SrvMRE_FirstPeriAgeDK_v1r0",
-  "Connect Value for Select all that apply questions": "MENSHIS",
+  "Connect Value for Select all that apply questions": "88",
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Connect Value": "88=Never had a menstrual period",
+  "Old Quest Value": "88= Never had a menstrual period",
+  "Connect Value": "88= Never had a menstrual period",
   "Required": "N/A",
-  "PII": "No"
+  "PII": "No",
+  "Date added or modified": "7/20/21",
+  "Quest_Src Question": "88"
 }
