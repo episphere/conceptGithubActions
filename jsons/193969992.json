@@ -6,12 +6,13 @@
   "Question Text": "Chronic Hepatitis B or C diagnosis age",
   "Variable Label": "Chronic Hepatitis B or C diagnosis age",
   "Variable Name": "SrvBOH_HepatitisAge_v1r0",
-  "Connect Value for Select all that apply questions": "HPVHCV_AGE",
+  "Connect Value for Select all that apply questions": "HBVHCV_AGE",
   "Variable Type": "Num",
   "Variable Length": "2",
   "Connect Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if MHGROUP7= Chronic Hepatitis B or C",
+  "Date added or modified": "8/5/21",
   "Quest_Src Question": "HBVHCV"
 }

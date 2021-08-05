@@ -6,12 +6,13 @@
   "Question Text": "Hay Fever (Allergic to pollen or Allergic Rhinitis)diagnosis age",
   "Variable Label": "Hay Fever (Allergic to pollen or Allergic Rhinitis)diagnosis age",
   "Variable Name": "SrvBOH_HayFeverAge_v1r0",
-  "Connect Value for Select all that apply questions": "HAYFEVER_YEAR",
+  "Connect Value for Select all that apply questions": "HAYFEVER_AGE",
   "Variable Type": "Num",
   "Variable Length": "2",
   "Connect Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if MHGROUP2 = Hay fever",
+  "Date added or modified": "8/5/21",
   "Quest_Src Question": "HAYFEVER"
 }

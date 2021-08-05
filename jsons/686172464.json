@@ -5,10 +5,11 @@
   "Question Text": "How many years have you worked in that job {$WORK3_JOBTITLE}?",
   "Variable Label": "Years past job",
   "Variable Name": "SrvBOH_YearsPastJob_v1r0",
-  "Connect Value for Select all that apply questions": "WORK4",
+  "Connect Value for Select all that apply questions": "WORK8",
   "Variable Type": "Num",
   "Variable Length": "2",
   "Connect Value": "N/A",
   "Required": "No",
-  "PII": "Yes"
+  "PII": "Yes",
+  "Date added or modified": "8/5/21"
 }
