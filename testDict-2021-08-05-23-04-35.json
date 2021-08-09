@@ -536,12 +536,12 @@
   },
   "HBVHCV": {
     "questIds": {
-      "HBVHCV_YEAR": {
+      "HPVHCV_YEAR": {
         "conceptId": "109852267",
         "concept": "Chronic Hepatitis B or C diagnosis year",
         "isTextBox": true
       },
-      "HBVHCV_AGE": {
+      "HPVHCV_AGE": {
         "conceptId": "193969992",
         "concept": "Chronic Hepatitis B or C diagnosis age",
         "isTextBox": true
@@ -3312,7 +3312,7 @@
     "conceptId": "682651189",
     "questionText": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had Ovarian cancer?"
   },
-  "MOM1": {
+  "MOM": {
     "questIds": {
       "0": {
         "conceptId": "104430631",
@@ -3348,11 +3348,6 @@
   },
   "HAYFEVER": {
     "questIds": {
-      "HAYFEVER_AGE": {
-        "conceptId": "173154171",
-        "concept": "Hay Fever (Allergic to pollen or Allergic Rhinitis)diagnosis age",
-        "isTextBox": true
-      },
       "HAYFEVER_YEAR": {
         "conceptId": "240041263",
         "concept": "Hay Fever (Allergic to pollen or Allergic Rhinitis) diagnosis year",
@@ -3812,17 +3807,11 @@
   },
   "WTLOSS1_3545": {
     "questIds": {
-      "0": {
-        "conceptId": "104430631",
-        "concept": "No"
-      },
-      "1": {
-        "conceptId": "353358909",
-        "concept": "Yes"
+      "WTLOSS1_3545": {
+        "conceptId": "183572295",
+        "concept": "Did you lose weight on purpose between ages 35 and 45?"
       }
-    },
-    "questionText": "Did you lose weight on purpose between ages 35 and 45?",
-    "conceptId": "183572295"
+    }
   },
   "SMMAR3": {
     "questIds": {
@@ -4359,12 +4348,12 @@
   },
   "BLDTRANS3": {
     "questIds": {
-      "BLDTRANS3_YEAR": {
+      "BLDTRANS_YEAR": {
         "conceptId": "197994844",
         "concept": "First blood transfusion year",
         "isTextBox": true
       },
-      "BLDTRANS3_AGE": {
+      "BLDTRANS_AGE": {
         "conceptId": "380275309",
         "concept": "First blood transfusion age",
         "isTextBox": true
@@ -4475,7 +4464,7 @@
         "conceptId": "427583219",
         "concept": "Do not know"
       },
-      "BSNSSTYP2_TB": {
+      "BSN2STYP1_TB": {
         "conceptId": "739237614",
         "concept": "Other text box",
         "isTextBox": true
@@ -5289,10 +5278,10 @@
     "questionText": "On days that you smoked when you were age [X / 18] to age [Y / 24], about how many cigarettes did you smoke per day?",
     "conceptId": "232849512"
   },
-  "EMPLYRSRVCE2": {
+  "EMPLYRSRVCE1": {
     "isTextBox": true,
     "questionText": "What products were made, or services provided, by this employer? If multiple, please provide the product/services related to your work unit. For example: automotive parts, residential home construction, accounting services, pharmaceutical research.",
-    "conceptId": "233198706"
+    "conceptId": "868232409"
   },
   "CHEW3": {
     "questIds": {
@@ -5373,12 +5362,8 @@
   "CHILDDEATH": {
     "questIds": {
       "0": {
-        "conceptId": "878869293",
-        "concept": "Less than 1 year"
-      },
-      "77": {
-        "conceptId": "363609598",
-        "concept": "Don't Know"
+        "conceptId": "104430631",
+        "concept": "No"
       }
     },
     "questionText": "Child 1- How old was [CHILD INITIALS OR NICKNAME/your CHILD] when they died?",
@@ -6152,7 +6137,7 @@
   },
   "CKD": {
     "questIds": {
-      "CKD_AGE": {
+      "CLD_AGE": {
         "conceptId": "267726874",
         "concept": "Chronic Kidney Disease (Also Known as Chronic Kidney Failure) age",
         "isTextBox": true
@@ -6839,11 +6824,6 @@
   "IBS": {
     "questIds": {
       "IBS_YEAR": {
-        "conceptId": "298255589",
-        "concept": "Irritable Bowel Syndrome diagnosis year",
-        "isTextBox": true
-      },
-      "IBS_AGE": {
         "conceptId": "572809474",
         "concept": "Irritable Bowel Syndrome diagnosis age",
         "isTextBox": true
@@ -8177,14 +8157,14 @@
     "questionText": "[During the year (s) you were drinking] when you were age [Y / 17], about how often did you drink alcohol?",
     "conceptId": "373827128"
   },
-  "CCD": {
+  "CDD": {
     "questIds": {
-      "CCD_AGE": {
+      "CDD_AGE": {
         "conceptId": "374526317",
         "concept": "Celiac Disease (also known as Gluten-Sensitive Enteropathy) age",
         "isTextBox": true
       },
-      "CCD_YEAR": {
+      "CDD_YEAR": {
         "conceptId": "800466826",
         "concept": "Celiac Disease (also known as Gluten-Sensitive Enteropathy) year",
         "isTextBox": true
@@ -8902,16 +8882,16 @@
         "concept": "Technical or trade school after high school"
       },
       "5": {
-        "conceptId": "768117045",
-        "concept": "Associate's degree"
+        "conceptId": "766964355",
+        "concept": "Associate’s degree"
       },
       "6": {
-        "conceptId": "937973370",
-        "concept": "College graduate Bachelor's degree"
+        "conceptId": "875342283",
+        "concept": "College graduate Bachelor’s degree"
       },
       "7": {
-        "conceptId": "738779835",
-        "concept": "Advanced degree Master's, Doctorate, etc."
+        "conceptId": "598242454",
+        "concept": "Advanced degree Master’s, Doctorate, etc."
       },
       "55": {
         "conceptId": "181769837",
@@ -9457,7 +9437,7 @@
     "conceptId": "233764880",
     "questionText": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had esophageal cancer?"
   },
-  "CHILD1": {
+  "CHILD": {
     "isTextBox": true,
     "questionText": "How many children do you have?",
     "conceptId": "446999144"
@@ -9777,7 +9757,7 @@
     "questionText": "How old were you when you stopped using THC concentrates via dabbing every day?",
     "conceptId": "477138874"
   },
-  "SIBAGE_AGE": {
+  "SIB_AGE": {
     "isTextBox": true,
     "questionText": "Sibling 1- How old is [SIBLING INITIALS OR NICKNAME/your sibling] today?",
     "conceptId": "478706011"
@@ -10723,7 +10703,7 @@
         "conceptId": "999994434",
         "concept": "Bisexual"
       },
-      "55": {
+      "3": {
         "conceptId": "481662922",
         "concept": "Something else: Please describe [text box]"
       },
@@ -12009,12 +11989,8 @@
   "CHILDAGE": {
     "questIds": {
       "0": {
-        "conceptId": "878869293",
-        "concept": "Less than 1 year"
-      },
-      "77": {
-        "conceptId": "363609598",
-        "concept": "Don't Know"
+        "conceptId": "104430631",
+        "concept": "No"
       }
     },
     "questionText": "Child 1- How old is [CHILD INITIALS OR NICKNAME/your CHILD] today?",
@@ -12416,14 +12392,14 @@
     "questionText": "On the days that you swam laps, about how much time per day did you spend doing this activity?",
     "conceptId": "658018390"
   },
-  "LIVCIRR": {
+  "LIVERCIRR": {
     "questIds": {
-      "LIVCIRR_AGE": {
+      "LIVERCIRR_AGE": {
         "conceptId": "658037718",
         "concept": "Liver Cirrhosis age",
         "isTextBox": true
       },
-      "LIVCIRR_YEAR": {
+      "LIVERCIRR_YEAR": {
         "conceptId": "734308092",
         "concept": "Liver Cirrhosis year",
         "isTextBox": true
@@ -12888,19 +12864,14 @@
     "questionText": "The followingquestions ask about your use of electronic marijuana delivery devices that can be vaped, such as vape pens or pod-mods. These electronic devices sometimes look like regular cigarettes but are battery-powered and create vapor instead of smoke.",
     "conceptId": "686109550"
   },
-  "WORK8": {
+  "WORK4": {
     "isTextBox": true,
     "questionText": "How many years have you worked in that job {$WORK3_JOBTITLE}?",
-    "conceptId": "686172464"
+    "conceptId": "739294356"
   },
-  "ENLGPROS": {
+  "ENLGPRO": {
     "questIds": {
-      "ENLGPROS_AGE": {
-        "conceptId": "689382389",
-        "concept": "Enlarged Prostate age",
-        "isTextBox": true
-      },
-      "ENLGPROS_YEAR": {
+      "ENLGPRO_YEAR": {
         "conceptId": "718426460",
         "concept": "Enlarged Prostate year",
         "isTextBox": true
@@ -13018,7 +12989,7 @@
     "questionText": "On days that you used e-cigarettes or other vaping devices for nicotine or tobacco when you were age [X / 40] to age [Y / 49 / current age], what is the total amount of time you used them per day?",
     "conceptId": "693537623"
   },
-  "SIB1": {
+  "SIB": {
     "isTextBox": true,
     "questionText": "How many siblings do you have, including full and half-siblings?",
     "conceptId": "694265648"
@@ -13500,11 +13471,6 @@
     "questionText": "About how many years ago did you take prescription pain relievers containing opioids?",
     "conceptId": "737490587"
   },
-  "WORK4": {
-    "isTextBox": true,
-    "questionText": "How many years have you worked in that job {$WORK3_JOBTITLE}?",
-    "conceptId": "739294356"
-  },
   "SMMAR5": {
     "questIds": {
       "0": {
@@ -13655,32 +13621,32 @@
         "concept": "Less than $10,000/year"
       },
       "1": {
-        "conceptId": "535892970",
-        "concept": "$10,000â€“$24,999/year"
+        "conceptId": "976555124",
+        "concept": "$10,000–$24,999/year"
       },
       "2": {
-        "conceptId": "516465793",
-        "concept": "$25,000â€“$34,999/year"
+        "conceptId": "745561936",
+        "concept": "$25,000–$34,999/year"
       },
       "3": {
-        "conceptId": "886861554",
-        "concept": "$35,000â€“$49,999/year"
+        "conceptId": "209571450",
+        "concept": "$35,000–$49,999/year"
       },
       "4": {
-        "conceptId": "821815773",
-        "concept": "$50,000â€“$74,999/year"
+        "conceptId": "212249150",
+        "concept": "$50,000–$74,999/year"
       },
       "5": {
-        "conceptId": "390640580",
-        "concept": "$75,000â€“$99,999/year"
+        "conceptId": "777814771",
+        "concept": "$75,000–$99,999/year"
       },
       "6": {
-        "conceptId": "411789590",
-        "concept": "$100,000â€“$149,999/year"
+        "conceptId": "922395188",
+        "concept": "$100,000–$149,999/year"
       },
       "7": {
-        "conceptId": "714809476",
-        "concept": "$150,000â€“$199,999/year"
+        "conceptId": "913602274",
+        "concept": "$150,000–$199,999/year"
       },
       "8": {
         "conceptId": "742032816",
@@ -14381,17 +14347,11 @@
   },
   "WTLOSS1_2535": {
     "questIds": {
-      "0": {
-        "conceptId": "104430631",
-        "concept": "No"
-      },
-      "1": {
-        "conceptId": "353358909",
-        "concept": "Yes"
+      "WTLOSS1_2535": {
+        "conceptId": "803129396",
+        "concept": "Did you lose weight on purpose between ages 25 and 35?"
       }
-    },
-    "questionText": "Did you lose weight on purpose between ages 25 and 35?",
-    "conceptId": "803129396"
+    }
   },
   "ACIDSUP3_2": {
     "questIds": {
@@ -14499,17 +14459,11 @@
   },
   "WTLOSS1_1825": {
     "questIds": {
-      "0": {
-        "conceptId": "104430631",
-        "concept": "No"
-      },
-      "1": {
-        "conceptId": "353358909",
-        "concept": "Yes"
+      "WTLOSS1_1825": {
+        "conceptId": "808806810",
+        "concept": "Did you lose weight on purpose between ages 18 and 25?"
       }
-    },
-    "questionText": "Did you lose weight on purpose between ages 18 and 25?",
-    "conceptId": "808806810"
+    }
   },
   "HORMED2_2": {
     "isTextBox": true,
@@ -14868,17 +14822,11 @@
   },
   "WTLOSS1_4555": {
     "questIds": {
-      "0": {
-        "conceptId": "104430631",
-        "concept": "No"
-      },
-      "1": {
-        "conceptId": "353358909",
-        "concept": "Yes"
+      "WTLOSS1_4555": {
+        "conceptId": "837402132",
+        "concept": "Did you lose weight on purpose between ages 45 and 55?"
       }
-    },
-    "questionText": "Did you lose weight on purpose between ages 45 and 55?",
-    "conceptId": "837402132"
+    }
   },
   "PIPELIFEH": {
     "isTextBox": true,
@@ -15387,11 +15335,6 @@
     },
     "questionText": "Age last used - During that time, did you ever smoke cigars, cigarillos, or little filtered cigars every day?",
     "conceptId": "867999224"
-  },
-  "EMPLYRSRVCE1": {
-    "isTextBox": true,
-    "questionText": "What products were made, or services provided, by this employer? If multiple, please provide the product/services related to your work unit. For example: automotive parts, residential home construction, accounting services, pharmaceutical research.",
-    "conceptId": "868232409"
   },
   "SIBAGE": {
     "questIds": {
@@ -16188,7 +16131,7 @@
     "questionText": "How many years ago did you last take over-the-counter proton pump inhibitors?",
     "conceptId": "936366310"
   },
-  "LIPOSUCT": {
+  "LIPSUCT": {
     "questIds": {
       "LIPOSUCT_AGE": {
         "conceptId": "937331599",
