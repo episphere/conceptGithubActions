@@ -85,6 +85,7 @@ function parseMasterModule(){
                                             "concept":"Don't know" 
                                         }
                                     }
+                                    console.log(currJSON)
                                     toInsert['questionText'] = currJSON['Question Text']
                                     toInsert['conceptId'] = currJSON['conceptId'];
                                     toReturn[currJSON['Connect Value for Select all that apply questions'].toUpperCase()] = toInsert;
@@ -110,7 +111,7 @@ function parseMasterModule(){
                                 toInsert['questIds'] = qIds;
                                 toInsert['questionText'] = currJSON['Question Text']
                                 toInsert['conceptId'] = currJSON['conceptId'];
-                                console.log(currJSON)
+                                //console.log(currJSON)
                                 toReturn[currJSON['Connect Value for Select all that apply questions'].toUpperCase()] = toInsert;
                             }
                             else{
@@ -124,7 +125,7 @@ function parseMasterModule(){
                                        thisConcept = varNameToConcept[valNum]
                                    }
                                    else{
-                                       console.log(valNum)
+                                       //console.log(valNum)
                                    }
                                    isTB = false;
                                    if(toReturn[currJSON['Connect Value for Select all that apply questions'].toUpperCase()]){
@@ -168,7 +169,7 @@ function parseMasterModule(){
                         }
                         else{
                             isTB = true;
-                            console.log(currJSON['Connect Value'])
+                            //console.log(currJSON['Connect Value'])
                         }
                         
                         headerName = currJSON['Quest_Src Question'];
@@ -221,8 +222,8 @@ function parseMasterModule(){
                                 let questIds = toInsert['questIds']
     
                                 //console.log(questIds)
-                                console.log(currJSON);
-                                console.log(currJSON['Connect Value for Select all that apply questions']);
+                                //console.log(currJSON);
+                                //console.log(currJSON['Connect Value for Select all that apply questions']);
                                 questIds[currJSON['Connect Value for Select all that apply questions'].toUpperCase()] = {
                                     "conceptId" : currJSON['conceptId'],
                                     "concept": currJSON["Question Text"]
