@@ -1,15 +1,17 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
   "Source Question": "954405492.json",
   "conceptId": "244315628",
   "Question Text": "Chlamydia diagnosis year",
   "Variable Label": "Chlamydia diagnosis year",
   "Variable Name": "SrvBOH_ChlamydiaYear_v1r0",
+  "Connect Value for Select all that apply questions": "CHLA_YEAR",
   "Variable Type": "Year",
   "Variable Length": "4",
-  "Format/Value": "yyyy",
+  "Connect Value": "yyyy",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if MHGROUP7= CHLAMYDIA"
+  "Notes": "Only display if MHGROUP7= CHLAMYDIA",
+  "Quest_Src Question": "CHLA"
 }

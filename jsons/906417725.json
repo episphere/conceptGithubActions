@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Help Desk",
+  "Primary Source": "237817859.json",
   "Secondary Source": "635994596.json",
   "conceptId": "906417725",
   "Question Text": "Refusing all future activities",
@@ -7,12 +7,13 @@
   "Variable Name": "HdWd_Activepart_v1r0",
   "Variable Type": "Num",
   "Variable Length": "1",
-  "PII": "Yes",
-  "Derivation Notes": "Set by help desk agent via dashboard",
-  "State Attribute": "Withdrawal, Study Manager Data Dictionary",
-  "Default Variable": "No",
-  "Date added or modified": "Yes",
-  "Quest_Src Question": "4/22/21",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Set by help desk agent via dashboard",
+  "Dictionary": "Withdrawal, Study Manager Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "4/22/21",
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

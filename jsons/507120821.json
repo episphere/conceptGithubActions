@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Study Manager",
+  "Primary Source": "332961895.json",
   "Secondary Source": "581036703.json",
   "conceptId": "507120821",
   "Question Text": "Disposition codes for enrollment status",
@@ -7,27 +7,27 @@
   "Variable Name": "SMMet_EnrollStatus_v1r0",
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Derivation Notes": "Developed for enrollment status on Study Manager dashboard.  Row of derivation is on same row as corresponding response variable.",
-  "State Attribute": "Master Data Dictionary",
-  "Default Variable": "No",
-  "Date added or modified": "Yes",
-  "Quest_Src Question": "5/27/21",
-  "Dictionary": [
-    "930841883.json",
-    "829820185.json",
-    "383782363.json",
-    "803212740.json",
-    "732200593.json",
-    "517042619.json",
-    "706956072.json"
+  "Notes": "Developed for enrollment status on Study Manager dashboard.  Row of derivation is on same row as corresponding response variable.",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "5/27/21",
+  "Derivation Notes": [
+    "225406343.json",
+    "381382903.json",
+    "175538997.json",
+    "412576243.json",
+    "530500833.json",
+    "863990272.json",
+    "910587135.json"
   ],
   "Format/Value": {
-    "238916532.json": "0",
-    "165539416.json": "1",
-    "232581561.json": "2",
-    "593616423.json": "3",
-    "289729076.json": "4",
-    "800366201.json": "5",
-    "116215611.json": "6"
+    "225406343.json": "0",
+    "381382903.json": "1",
+    "175538997.json": "2",
+    "412576243.json": "3",
+    "530500833.json": "4",
+    "863990272.json": "5",
+    "910587135.json": "6"
   }
 }

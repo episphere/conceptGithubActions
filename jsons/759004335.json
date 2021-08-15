@@ -1,25 +1,42 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "129084651.json",
   "Secondary Source": "726699695.json",
   "conceptId": "759004335",
-  "Question Text": "Which of these options best describes your household’s total combined family income for the <b>past 12 months</b>? This should include money earned from all places: job wages, rent from properties, investment income, social security, disability and/or veteran’s benefits, unemployment benefits, workman’s compensation, child support payments, alimony, and so on. Answer with the amount before taxes.",
+  "Question Text": "Which of these options best describes your household's total combined family income for the <b>past 12 months</b>? This should include money earned from all places: job wages, rent from properties, investment income, social security, disability and/or veteran's benefits, unemployment benefits, workman's compensation, child support payments, alimony, and so on. Answer with the amount before taxes.",
   "Variable Label": "Income",
   "Variable Name": "SrvBOH_Income_v1r0",
+  "Connect Value for Select all that apply questions": "INCOME",
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Format/Value": {
+  "Date added or modified": [
+    "236893226.json"
+  ],
+  "Old Quest Value": {
+    "374508062.json": "1",
+    "976555124.json": "2",
+    "745561936.json": "3",
+    "209571450.json": "4",
+    "212249150.json": "5",
+    "777814771.json": "6",
+    "922395188.json": "7",
+    "913602274.json": "8",
+    "742032816.json": "9",
+    "236893226.json": "77",
+    "746038746.json": "99"
+  },
+  "Connect Value": {
     "374508062.json": "0",
-    "976555124.json": "1",
-    "745561936.json": "2",
-    "209571450.json": "3",
-    "212249150.json": "4",
-    "777814771.json": "5",
-    "922395188.json": "6",
-    "913602274.json": "7",
+    "621213002.json": "1",
+    "262852787.json": "2",
+    "753921243.json": "3",
+    "449169549.json": "4",
+    "584023255.json": "5",
+    "490919097.json": "6",
+    "129411048.json": "7",
     "742032816.json": "8",
-    "178420302.json": "77",
+    "998567121.json": "77",
     "746038746.json": "99"
   }
 }

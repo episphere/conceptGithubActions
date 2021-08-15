@@ -1,15 +1,17 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "129084651.json",
   "Secondary Source": "726699695.json",
   "Source Question": "216840563.json",
   "conceptId": "367854451",
   "Question Text": "Sibling 1 Thyroid cancer age",
   "Variable Label": "Sibling 1 Thyroid cancer age",
   "Variable Name": "SrvBOH_S1ThyrCancAge_v1r0",
+  "Connect Value for Select all that apply questions": "SIBCANC3V_AGE",
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Format/Value": "N/A",
+  "Connect Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Connect Format/Values - Only display if SIBCANC2= 21"
+  "Notes": "Connect Format/Values - Only display if SIBCANC2= 21",
+  "Quest_Src Question": "SIBCANC3V"
 }

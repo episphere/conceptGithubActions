@@ -1,15 +1,26 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "129084651.json",
   "Secondary Source": "726699695.json",
   "conceptId": "842657297",
   "Question Text": "During the past 12 months, about how many days per week did you typically work for pay?",
   "Variable Label": "Days work",
   "Variable Name": "SrvBOH_DaysWork_v1r0",
+  "Connect Value for Select all that apply questions": "DAYSWORK",
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Format/Value": {
+  "Old Quest Value": {
+    "503218834.json": "1",
+    "632371391.json": "2",
+    "709969190.json": "3",
+    "928753604.json": "4",
+    "686379250.json": "5",
+    "107714591.json": "6",
+    "689829953.json": "7",
+    "164282814.json": "8"
+  },
+  "Connect Value": {
     "503218834.json": "0",
     "632371391.json": "1",
     "709969190.json": "2",

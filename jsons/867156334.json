@@ -1,0 +1,29 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "965707586.json",
+  "conceptId": "867156334",
+  "Question Text": "During each of these age ranges, how many people in your household smoked tobacco (such as cigarettes, cigars, or pipes) in your presence? Please do not include yourself.                      Ages 11 to 14",
+  "Variable Label": "Ages 11 to 15",
+  "Variable Name": "SrvSAS_NumSmoke1115_v1r0",
+  "Connect Value for Select all that apply questions": "SECSMC",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "503218834.json": "1",
+    "759356722.json": "2",
+    "668407984.json": "3",
+    "448069154.json": "4",
+    "485163252.json": "5",
+    "160036380.json": "6"
+  },
+  "Connect Value": {
+    "503218834.json": "0",
+    "759356722.json": "1",
+    "668407984.json": "2",
+    "448069154.json": "3",
+    "485163252.json": "4",
+    "160036380.json": "5"
+  }
+}

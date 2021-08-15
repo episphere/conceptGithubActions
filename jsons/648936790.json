@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Help Desk",
+  "Primary Source": "237817859.json",
   "Secondary Source": "117044491.json",
   "conceptId": "648936790",
   "Question Text": "NORC issued payment to participant",
@@ -7,11 +7,12 @@
   "Variable Name": "HDPaym_PaymIssued_v1r0",
   "Variable Type": "Num",
   "Variable Length": "1",
-  "PII": "Yes",
-  "Derivation Notes": "Payment issued for all sites other than UoC, repeated measures variable associated with Round",
-  "State Attribute": "Study Manager Data Dictionary, Biospecimen Research",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Payment issued for all sites other than UoC, repeated measures variable associated with Round",
+  "Dictionary": "Study Manager Data Dictionary, Biospecimen Research",
+  "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "No",
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

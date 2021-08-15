@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Recruitment",
+  "Primary Source": "192505768.json",
   "Secondary Source": "332759827.json",
   "conceptId": "714419972",
   "Question Text": "Additional Email 3",
@@ -8,8 +8,9 @@
   "Variable Type": "Char",
   "Variable Length": "120",
   "Format/Value": "N/A",
-  "PII": "No",
-  "State Attribute": "Recruitment Data Dictionary, Biospecimen Research",
-  "Default Variable": "No",
-  "Date added or modified": "No"
+  "Required": "No",
+  "PII": "Yes",
+  "Dictionary": "Recruitment Data Dictionary, Biospecimen Research",
+  "State Attribute": "No",
+  "Default Variable": "No"
 }

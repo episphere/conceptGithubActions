@@ -1,15 +1,17 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
   "Source Question": "810918716.json",
   "conceptId": "350967202",
-  "Question Text": "Graves’ Disease year",
-  "Variable Label": "Graves’ Disease year",
+  "Question Text": "Graves' Disease year",
+  "Variable Label": "Graves' Disease year",
   "Variable Name": "SrvBOH_GravesYear_v1r0",
+  "Connect Value for Select all that apply questions": "GRAVES_YEAR",
   "Variable Type": "Year",
   "Variable Length": "4",
-  "Format/Value": "yyyy",
+  "Connect Value": "yyyy",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if MHGROUP4 = Grave's disease"
+  "Notes": "Only display if MHGROUP4 = Grave's disease",
+  "Quest_Src Question": "GRAVES"
 }

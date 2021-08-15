@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Study Manager",
+  "Primary Source": "332961895.json",
   "Secondary Source": "581036703.json",
   "conceptId": "912301837",
   "Question Text": "Disposition codes for participation status",
@@ -7,27 +7,27 @@
   "Variable Name": "SMMet_PartStatus_v1r0",
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Derivation Notes": "Developed for participant status on Study Manager dashboard.  Row of derivation is on same row as corresponding response variable.",
-  "State Attribute": "Master Data Dictionary",
-  "Default Variable": "No",
-  "Date added or modified": "Yes",
-  "Quest_Src Question": "5/27/21",
-  "Dictionary": [
-    "706456170.json",
-    "114949539.json",
-    "135330445.json",
-    "104768868.json",
-    "665294237.json",
-    "387238144.json",
-    "418718721.json"
+  "Notes": "Developed for participant status on Study Manager dashboard.  Row of derivation is on same row as corresponding response variable.",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "5/27/21",
+  "Derivation Notes": [
+    "770906104.json",
+    "844644959.json",
+    "885933774.json",
+    "882451405.json",
+    "740675327.json",
+    "236565679.json",
+    "385109445.json"
   ],
   "Format/Value": {
-    "208325815.json": "0",
-    "622008261.json": "1",
-    "134659217.json": "2",
-    "872012139.json": "3",
-    "854021266.json": "4",
-    "241236037.json": "5",
-    "659782255.json": "6"
+    "770906104.json": "0",
+    "844644959.json": "1",
+    "885933774.json": "2",
+    "882451405.json": "3",
+    "740675327.json": "4",
+    "236565679.json": "5",
+    "385109445.json": "6"
   }
 }

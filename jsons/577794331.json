@@ -1,0 +1,26 @@
+{
+  "Primary Source": "237817859.json",
+  "Secondary Source": "635994596.json",
+  "conceptId": "577794331",
+  "Question Text": "HIPAA Revocation Categorical",
+  "Variable Label": "HIPAA Revocation Categorical",
+  "Variable Name": "HdWd_HIPAARevokedCat_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "6/7/21",
+  "Derivation Notes": [
+    "200908813.json",
+    "449670379.json",
+    "639508959.json"
+  ],
+  "Format/Value": {
+    "200908813.json": "0",
+    "449670379.json": "1",
+    "639508959.json": "2"
+  }
+}

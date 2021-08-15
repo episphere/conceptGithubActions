@@ -1,16 +1,18 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
   "Source Question": "900541533.json",
   "conceptId": "943054522",
-  "Question Text": "Graves’ Disease",
-  "Variable Label": "Graves’ Disease",
+  "Question Text": "Graves' Disease",
+  "Variable Label": "Graves' Disease",
   "Variable Name": "SrvBOH_Graves_v1r0",
+  "Connect Value for Select all that apply questions": "2",
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Format/Value": {
+  "Quest_Src Question": "MHGROUP4",
+  "Connect Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

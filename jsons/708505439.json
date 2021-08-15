@@ -1,15 +1,17 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "129084651.json",
   "Secondary Source": "726699695.json",
   "Source Question": "247160067.json",
   "conceptId": "708505439",
   "Question Text": "Sibling 1 response from SIB1CANC2/another type of cancer year",
   "Variable Label": "Sibling 1 response from Sibling 1CANC2/another type of cancer year",
   "Variable Name": "SrvBOH_S1OtherCancYr_v1r0",
+  "Connect Value for Select all that apply questions": "SIBCANC3X_YEAR",
   "Variable Type": "Year",
   "Variable Length": "4",
-  "Format/Value": "yyyy",
+  "Connect Value": "yyyy",
   "Required": "No",
   "PII": "No",
-  "Notes": "Connect Format/Values - Only display if SIBCANC2= 23"
+  "Notes": "Connect Format/Values - Only display if SIBCANC2= 23",
+  "Quest_Src Question": "SIBCANC3X"
 }

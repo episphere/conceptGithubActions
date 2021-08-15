@@ -1,15 +1,18 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
   "Source Question": "860920332.json",
   "conceptId": "940310458",
   "Question Text": "liposuction year",
   "Variable Label": "liposuction year",
   "Variable Name": "SrvBOH_LiposuctYear_v1r0",
+  "Connect Value for Select all that apply questions": "LIPOSUCT_YEAR",
   "Variable Type": "Year",
   "Variable Length": "9",
-  "Format/Value": "yyyy",
+  "Connect Value": "yyyy",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if MHGROUP9 = liposuction"
+  "Notes": "Only display if MHGROUP9 = liposuction",
+  "Date added or modified": "8/5/21",
+  "Quest_Src Question": "LIPOSUCT"
 }

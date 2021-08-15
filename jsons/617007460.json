@@ -1,15 +1,17 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
   "Source Question": "190347832.json",
   "conceptId": "617007460",
-  "Question Text": "Crohn’s Disease year",
-  "Variable Label": "Crohn’s Disease year",
+  "Question Text": "Crohn's Disease year",
+  "Variable Label": "Crohn's Disease year",
   "Variable Name": "SrvBOH_ChronsYear_v1r0",
+  "Connect Value for Select all that apply questions": "CD_YEAR",
   "Variable Type": "Year",
   "Variable Length": "4",
-  "Format/Value": "yyyy",
+  "Connect Value": "yyyy",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if MHGROUP3= Crohn’s Disease"
+  "Notes": "Only display if MHGROUP3= Crohn's Disease",
+  "Quest_Src Question": "CD"
 }

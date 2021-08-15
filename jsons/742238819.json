@@ -1,16 +1,18 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "129084651.json",
   "Secondary Source": "726699695.json",
   "Source Question": "812370563.json",
   "conceptId": "742238819",
   "Question Text": "Stomach",
   "Variable Label": "Stomach",
   "Variable Name": "SrvBOH_C1StomachCanc_v1r0",
+  "Connect Value for Select all that apply questions": "19",
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Format/Value": {
+  "Quest_Src Question": "CHILDCANC2",
+  "Connect Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

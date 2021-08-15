@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Recruitment",
+  "Primary Source": "192505768.json",
   "Secondary Source": "705748897.json",
   "conceptId": "492983562",
   "Question Text": "Firebase authentication userid",
@@ -8,8 +8,9 @@
   "Variable Type": "Char",
   "Variable Length": "240",
   "Format/Value": "N/A",
+  "Required": "Yes",
   "PII": "Yes",
-  "State Attribute": "Recruitment Data Dictionary",
-  "Default Variable": "No",
-  "Date added or modified": "No"
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No"
 }

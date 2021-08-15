@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Study Manager",
+  "Primary Source": "332961895.json",
   "Secondary Source": "581036703.json",
   "conceptId": "424306855",
   "Question Text": "Participant is fully enrolled",
@@ -7,11 +7,12 @@
   "Variable Name": "SMMet_FullyEnrolled_v1r0",
   "Variable Type": "Num",
   "Variable Length": "1",
-  "PII": "Yes",
-  "Dictionary": "SMMet_FullyEnrolled_v1r0 equals 1 if RcrtV_Verification_v1r0 equals 1 AND SMMet_BaseSrvCompl_v1r0 equals 1 AND  SMMet_BLSamplesColl_v1r0 equals 1 AND EMRBl_Push_v1r0 equals 1",
-  "State Attribute": "Master Data Dictionary",
+  "Required": "Yes",
+  "PII": "No",
+  "Derivation Notes": "SMMet_FullyEnrolled_v1r0 equals 1 if RcrtV_Verification_v1r0 equals 1 AND SMMet_BaseSrvCompl_v1r0 equals 1 AND  SMMet_BLSamplesColl_v1r0 equals 1 AND EMRBl_Push_v1r0 equals 1",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "No",
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
