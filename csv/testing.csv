@@ -2153,7 +2153,7 @@ conceptId,Primary Source,conceptId,Secondary Source,conceptId,Source Question,co
 129084651,Survey,745268907,"Medications, Reproductive Health, Exercise, and Sleep",,,737490587,About how many years ago did you take prescription pain relievers containing opioids?,Years ago took prescription pain relievers containing opioids,SrvMRE_OpioidsYA_v1r0,PAINREL6_7,Num,2,,,,N/A,,,No,No,,Only display if PAINREL1 = 6,,,,,,,
 129084651,Survey,745268907,"Medications, Reproductive Health, Exercise, and Sleep",643807999,Why did you take baby or low-dose aspirin (81 mg or less)? Select all that apply.,323106499,Arthritis,Arthritis,SrvMRE_Arthiritis_v1r0,0,Num,2,,,643807999,2=No,474697739,0 = No,No,No,918573169,Only display if PAINREL1 = 0,,,,,7/8/21,PAINREL7_1,
 ,,,,,,,,,,,,,,,353358909,1=Yes,353358909,1 = Yes,,,,,,,,,,,
-,,,,275143071,Why did you take regular or extra strength aspirin? Select all that apply.,,,,,,,,,,275143071,,102522179,,,,349122068,Only display if PAINREL1 = 1,,,,,,PAINREL7_2,
+,,,,275143071,Why did you take regular or extra strength aspirin? Select all that apply.,,,,,,,,,,,,102522179,,,,349122068,Only display if PAINREL1 = 1,,,,,,PAINREL7_2,
 ,,,,152138929,Why did you take ibuprofen? Select all that apply.,,,,,,,,,,152138929,,774338792,,,,156095877,Only display if PAINREL1 = 2,,,,,,PAINREL7_3,
 ,,,,630231395,Why did you take acetaminophen? Select all that apply.,,,,,,,,,,630231395,,970534879,,,,162668459,Only display if PAINREL1 = 3,,,,,,PAINREL7_4,
 ,,,,655266993,Why did you take naproxen? Select all that apply.,,,,,,,,,,655266993,,945787772,,,,278139969,Only display if PAINREL1 = 4,,,,,,PAINREL7_5,
