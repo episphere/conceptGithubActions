@@ -103,11 +103,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                     let currVarName = cluster[k][[conceptIdReverseLookup[conceptColNames[i]] + 1]]
                     if(currId == '' && nameToConcept.hasOwnProperty(currVarName)){
                         currId = nameToConcept[currVarName]
-<<<<<<< HEAD
-                        //console.log('abc: ' + currId)
-=======
                         console.log('abc: ' + currId)
->>>>>>> badf8f374b155e022a31cf87f7a7c8780bb06459
                     }
                     //console.log(currId)
                     let found = -1;
@@ -190,11 +186,8 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
            if(!currValue){
                 //console.log(currRow)
            }
-<<<<<<< HEAD
            //console.log(currRow);
            console.log(currRow)
-=======
->>>>>>> badf8f374b155e022a31cf87f7a7c8780bb06459
             if(currValue.indexOf('=') != -1){
                 if(currValue == "1=Live birth: single infant"){
                     debug = true;
