@@ -5,20 +5,30 @@
   "Question Text": "Back pain/backache",
   "Variable Label": "Back pain/backache",
   "Variable Name": "SrvMRE_BackPain_v1r0",
+<<<<<<< HEAD
+=======
+  "Connect Value for Select all that apply questions": "1",
+>>>>>>> badf8f374b155e022a31cf87f7a7c8780bb06459
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "7/20/21",
   "Source Question": [
+<<<<<<< HEAD
     "809094368.json",
     "411890741.json",
+=======
+    "643807999.json",
+    "275143071.json",
+>>>>>>> badf8f374b155e022a31cf87f7a7c8780bb06459
     "152138929.json",
     "630231395.json",
     "655266993.json",
     "509383583.json",
     "887435355.json"
   ],
+<<<<<<< HEAD
   "Connect Value for Select all that apply questions": [
     "349122068.json",
     "236579715.json"
@@ -38,6 +48,23 @@
   },
   "Connect Value": {
     "349122068.json": "0",
+=======
+  "Quest_Src Question": [
+    "787545273.json",
+    "927767283.json",
+    "911858430.json",
+    "713298594.json",
+    "440694003.json",
+    "789001145.json",
+    "694600838.json"
+  ],
+  "Old Quest Value": {
+    "643807999.json": "2",
+    "353358909.json": "1"
+  },
+  "Connect Value": {
+    "787545273.json": "0",
+>>>>>>> badf8f374b155e022a31cf87f7a7c8780bb06459
     "353358909.json": "1"
   },
   "Notes": {
