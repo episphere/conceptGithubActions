@@ -1,13 +1,17 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "129084651.json",
   "Secondary Source": "726699695.json",
   "Source Question": "814510313.json",
   "conceptId": "677702321",
   "Question Text": "Another type of cancer: Please describe [text box]",
   "Variable Label": "Another type of cancer: Please describe [text box]",
   "Variable Name": "SrvBOH_MOtherCancerDes_v1r0",
+  "Connect Value for Select all that apply questions": "MOMCANC2_TB",
   "Variable Type": "Char",
-  "Format/Value": "N/A",
+  "Variable Length": "300",
+  "Connect Value": "N/A",
   "Required": "No",
-  "PII": "No"
+  "PII": "No",
+  "Date added or modified": "8/9/21",
+  "Quest_Src Question": "MOMCANC2"
 }

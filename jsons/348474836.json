@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Recruitment",
+  "Primary Source": "192505768.json",
   "Secondary Source": "705748897.json",
   "conceptId": "348474836",
   "Question Text": "Firebase authentication phone",
@@ -8,8 +8,9 @@
   "Variable Type": "Num",
   "Variable Length": "10",
   "Format/Value": "N/A",
-  "PII": "Yes if no email",
-  "State Attribute": "Recruitment Data Dictionary",
-  "Default Variable": "No",
-  "Date added or modified": "No"
+  "Required": "Yes if no email",
+  "PII": "Yes",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No"
 }

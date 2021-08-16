@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Recruitment",
+  "Primary Source": "192505768.json",
   "Secondary Source": "332759827.json",
   "conceptId": "793072415",
   "Question Text": "Other phone",
@@ -8,8 +8,9 @@
   "Variable Type": "Num",
   "Variable Length": "10",
   "Format/Value": "N/A",
-  "PII": "Yes, if no other phone number given",
-  "State Attribute": "Recruitment Data Dictionary, Biospecimen Research",
-  "Default Variable": "No",
-  "Date added or modified": "No"
+  "Required": "Yes, if no other phone number given",
+  "PII": "Yes",
+  "Dictionary": "Recruitment Data Dictionary, Biospecimen Research",
+  "State Attribute": "No",
+  "Default Variable": "No"
 }

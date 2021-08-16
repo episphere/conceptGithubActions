@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Recruitment",
+  "Primary Source": "192505768.json",
   "Secondary Source": "332759827.json",
   "conceptId": "544150384",
   "Question Text": "Birth Year",
@@ -8,9 +8,10 @@
   "Variable Type": "Year",
   "Variable Length": "4",
   "Format/Value": "yyyy",
+  "Required": "Yes",
   "PII": "Yes",
-  "Derivation Notes": "Field will require a 4 digit response.",
-  "State Attribute": "Recruitment Data Dictionary",
-  "Default Variable": "No",
-  "Date added or modified": "No"
+  "Notes": "Field will require a 4 digit response.",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No"
 }

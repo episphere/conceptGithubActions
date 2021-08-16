@@ -1,0 +1,29 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "965707586.json",
+  "conceptId": "554130137",
+  "Question Text": "Over the past 12 months, on the days that you drank wine, how many 5-ounce glasses of wine did you drink per day?",
+  "Variable Label": "How many servings drink wine, past 12 months",
+  "Variable Name": "SrvSAS_WineServ12Mo_v1r0",
+  "Connect Value for Select all that apply questions": "WINE2",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "699958841.json": "1",
+    "409941390.json": "2",
+    "544325898.json": "3",
+    "472838011.json": "4",
+    "510384613.json": "5",
+    "243554619.json": "6"
+  },
+  "Connect Value": {
+    "699958841.json": "0",
+    "409941390.json": "1",
+    "544325898.json": "2",
+    "472838011.json": "3",
+    "510384613.json": "4",
+    "243554619.json": "5"
+  }
+}

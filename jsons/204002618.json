@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Recruitment",
+  "Primary Source": "192505768.json",
   "Secondary Source": "453017582.json",
   "conceptId": "204002618",
   "Question Text": "Derived variable for the time from submission of consent to completion of User Profile as RcrtUP_SUBMITTIME_V1R0 - RcrtCS_ConsentSumit_v1r0",
@@ -8,9 +8,10 @@
   "Variable Type": "Minutes",
   "Variable Length": "18",
   "Format/Value": "N/A",
-  "PII": "Yes",
-  "Derivation Notes": "Can be further derived to other time units (e.g. hours + fractions of hours) or as multiple time variables (e.g. hours, minutes, and seconds)",
-  "State Attribute": "Recruitment Data Dictionary",
-  "Default Variable": "No",
-  "Date added or modified": "No"
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Can be further derived to other time units (e.g. hours + fractions of hours) or as multiple time variables (e.g. hours, minutes, and seconds)",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No"
 }

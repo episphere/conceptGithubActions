@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Recruitment",
+  "Primary Source": "192505768.json",
   "Secondary Source": "332759827.json",
   "conceptId": "117249500",
   "Question Text": "Age derived from DOB at time of user profile completion.",
@@ -8,8 +8,9 @@
   "Variable Type": "Num",
   "Variable Length": "3",
   "Format/Value": "N/A",
-  "PII": "Yes",
-  "State Attribute": "Recruitment Data Dictionary",
-  "Default Variable": "No",
-  "Date added or modified": "No"
+  "Required": "Yes",
+  "PII": "No",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No"
 }

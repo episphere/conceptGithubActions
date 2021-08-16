@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Help Desk",
+  "Primary Source": "237817859.json",
   "Secondary Source": "635994596.json",
   "conceptId": "104278817",
   "Question Text": "First Name extracted from Data Destruction form",
@@ -8,10 +8,11 @@
   "Variable Type": "Char",
   "Variable Length": "50",
   "Format/Value": "N/A",
+  "Required": "Yes",
   "PII": "Yes",
-  "Derivation Notes": "Legal first name for all non-KP sites. For KP sites it is their ID card name.",
-  "State Attribute": "Master Data Dictionary",
+  "Notes": "Legal first name for all non-KP sites. For KP sites it is their ID card name.",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "No",
-  "Quest_Src Question": "4/9/21"
+  "Date added or modified": "4/9/21"
 }

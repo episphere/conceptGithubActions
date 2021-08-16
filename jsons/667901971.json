@@ -1,20 +1,22 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
   "Source Question": "517307064.json",
   "conceptId": "667901971",
   "Question Text": "Removal of a lactiferous or milk duct (microdochectomy)",
   "Variable Label": "Removal of a lactiferous or milk duct (microdochectomy)",
   "Variable Name": "SrvBOH_Microdochectomy_v1r0",
+  "Connect Value for Select all that apply questions": "8",
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Format/Value": {
+  "Quest_Src Question": "BREASTSUR",
+  "Connect Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   },
   "Notes": {
-    "530057837.json": "Only display if MHGROUP9"
+    "163107586.json": "Only display if MHGROUP9"
   }
 }

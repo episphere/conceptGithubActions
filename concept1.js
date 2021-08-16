@@ -36,6 +36,7 @@ function generateRandomUUID(conceptIdList){
 function processCluster(cluster, header, nameToConcept, indexVariableName, conceptIdList, conceptIdObject, sourceJSONS, jsonList){
     let nonEmpty = [];
     let list = [1,2,3]
+    //console.log(conceptIdObject)
     let conceptIdObjectKeys =Object.keys(conceptIdObject)
     let conceptIdIndices = [];
     let generalId = -1;
@@ -85,51 +86,74 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
     let conceptColNames = Object.keys(conceptIdReverseLookup)
     for(let i = 0; i < conceptColNames.length; i++){
         if(conceptColNames[i].indexOf('Source') != -1 && firstRow[conceptIdReverseLookup[conceptColNames[i]] + 1] != ''){
-            let currId = firstRow[conceptIdReverseLookup[conceptColNames[i]]]
+
+            //onsole.log(conceptColNames[i])
+            /*let currId = firstRow[conceptIdReverseLookup[conceptColNames[i]]]
             
             let currVarName = firstRow[conceptIdReverseLookup[conceptColNames[i]] + 1]
             
             if(currId == '' && nameToConcept.hasOwnProperty(currVarName)){
                 currId = nameToConcept[currVarName]
-            }
-
-            let found = -1;
-            for(let j = 0; j < sourceJSONS.length; j++){
-                let currJSON = sourceJSONS[j];
-                if(currId != '' && currJSON['conceptId'] == currId){
-                    found = i;
-                    if(!currJSON['subcollections'].includes(firstRowJSON['conceptId'] + '.json')){
-                        currJSON['subcollections'].push(firstRowJSON['conceptId'] + '.json')
+                console.log('abc: ' + currId)
+            }*/
+            //console.log(currId)
+            for(let k = 0; k < cluster.length; k++){
+                if(cluster[k][conceptIdReverseLookup[conceptColNames[i]] + 1] != ""){
+                    let currId = cluster[k][conceptIdReverseLookup[conceptColNames[i]]];
+                    let currVarName = cluster[k][[conceptIdReverseLookup[conceptColNames[i]] + 1]]
+                    if(currId == '' && nameToConcept.hasOwnProperty(currVarName)){
+                        currId = nameToConcept[currVarName]
+                        //console.log('abc: ' + currId)
                     }
-                    j = sourceJSONS.length;
-                }
-                else if(currId == '' && currVarName == currJSON['Variable Name']){
-                    found = i;
-                    currId = currJSON['conceptId'];
-                    if(!currJSON['subcollections'].includes(firstRowJSON['conceptId'] + '.json')){
-                        currJSON['subcollections'].push(firstRowJSON['conceptId'] + '.json')
+                    //console.log(currId)
+                    let found = -1;
+                    for(let j = 0; j < sourceJSONS.length; j++){
+                        let currJSON = sourceJSONS[j];
+                        if(currId != '' && currJSON['conceptId'] == currId){
+                            found = i;
+                            if(!currJSON['subcollections'].includes(firstRowJSON['conceptId'] + '.json')){
+                                currJSON['subcollections'].push(firstRowJSON['conceptId'] + '.json')
+                            }
+                            j = sourceJSONS.length;
+                        }
+                        else if(currId == '' && currVarName == currJSON['Variable Name']){
+                            found = i;
+                            currId = currJSON['conceptId'];
+                            if(!currJSON['subcollections'].includes(firstRowJSON['conceptId'] + '.json')){
+                                currJSON['subcollections'].push(firstRowJSON['conceptId'] + '.json')
+                            }
+                            j = sourceJSONS.length
+                        }
                     }
-                    j = sourceJSONS.length
-                }
-            }
-            if(found == -1){
-                let newJSON = {}
-                if(currId == '' ){
-                    currId = generateRandomUUID(conceptIdList);
-                }
+                    if(found == -1){
+                        let newJSON = {}
+                        if(currId == '' ){
+                            currId = generateRandomUUID(conceptIdList);
+                        }
+                        
+                        newJSON['conceptId'] = currId;
+                        newJSON['Variable Name'] = currVarName;
+                        newJSON['subcollections'] = [firstRowJSON['conceptId'] + '.json']
+                        sourceJSONS.push(newJSON)
+                    }
+                    nameToConcept[currVarName] = currId
+                    if(!conceptIdList.includes(currId)){
+                        conceptIdList.push(currId)
+                    }
                 
-                newJSON['conceptId'] = currId;
-                newJSON['Variable Name'] = currVarName;
-                newJSON['subcollections'] = [firstRowJSON['conceptId'] + '.json']
-                sourceJSONS.push(newJSON)
+                    if(k > 0){
+                        if(!Array.isArray(firstRowJSON[header[conceptIdReverseLookup[conceptColNames[i]] + 1]])){
+                            firstRowJSON[header[conceptIdReverseLookup[conceptColNames[i]] + 1]] = [firstRowJSON[header[conceptIdReverseLookup[conceptColNames[i]] + 1]]]
+                            firstRowJSON[header[conceptIdReverseLookup[conceptColNames[i]] + 1]].push(currId + '.json')
+                        }
+                        firstRowJSON[header[conceptIdReverseLookup[conceptColNames[i]] + 1]].push(currId + '.json')
+                    }
+                    else{
+                        firstRowJSON[header[conceptIdReverseLookup[conceptColNames[i]] + 1]] = currId + '.json'
+                    }
+                    cluster[k][conceptIdReverseLookup[conceptColNames[i]]] = currId;
+                }
             }
-            nameToConcept[currVarName] = currId
-            if(!conceptIdList.includes(currId)){
-                conceptIdList.push(currId)
-            }
-            
-            firstRowJSON[header[conceptIdReverseLookup[conceptColNames[i]] + 1]] = currId + '.json'
-            firstRow[conceptIdReverseLookup[conceptColNames[i]]] = currId;
         }
     }
 
@@ -156,8 +180,14 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                 //console.log('---------')
                 //console.log(nonEmptyIndex)
             }
-            
-           
+            if(!currValue){
+                //console.log(currRow)
+            }
+           if(!currValue){
+                //console.log(currRow)
+           }
+           //console.log(currRow);
+           console.log(currRow)
             if(currValue.indexOf('=') != -1){
                 if(currValue == "1=Live birth: single infant"){
                     debug = true;
@@ -498,7 +528,7 @@ async function getConceptIds(fileName){
     lookForConcepts(cluster, header, idsToInsert, leftMost);
     rl.close()
     fileStream.close()
-    console.log(idsToInsert)
+    //console.log(idsToInsert)
     if(!idsToInsert.includes(leftMost[0]) && leftMost[0] != leftMostStart){
         idsToInsert.push(leftMost[0])
     }
@@ -547,9 +577,6 @@ async function getConceptIds(fileName){
                 if(arr[i].includes('conceptId') && i != arr.length - 1){
                     if(arr[i+1] == general){
                         finalConceptIndices[i] = 'thisRowId'
-                    }
-                    else if(arr[i+1] == leftMost[1]){
-                        finalConceptIndices[i] = 'leftMostId'
                     }
                     else{
                         finalConceptIndices[i] = arr[i+1]

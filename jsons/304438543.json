@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Help Desk",
+  "Primary Source": "237817859.json",
   "Secondary Source": "635994596.json",
   "conceptId": "304438543",
   "Question Text": "Data Destruction Form Version",
@@ -7,10 +7,11 @@
   "Variable Name": "HdWd_DestroyDataVer_v1r0",
   "Variable Type": "Char",
   "Format/Value": "N/A",
-  "PII": "Yes",
-  "Derivation Notes": "Other version codes to be added as needed.",
-  "State Attribute": "Master Data Dictionary",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Other version codes to be added as needed.",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "No",
-  "Quest_Src Question": "4/9/21"
+  "Date added or modified": "4/9/21"
 }

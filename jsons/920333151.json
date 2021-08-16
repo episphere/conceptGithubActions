@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "129084651.json",
   "Secondary Source": "166676176.json",
   "conceptId": "920333151",
   "Question Text": "Last 4 digits of Social Security Number",
@@ -8,10 +8,11 @@
   "Variable Type": "Num",
   "Variable Length": "4",
   "Format/Value": "N/A",
-  "PII": "No",
-  "Derivation Notes": "Question shown only if full SSN is NOT given.",
-  "State Attribute": "Study Manager Data Dictionary, BIospecimen Research",
+  "Required": "No",
+  "PII": "Yes",
+  "Notes": "Question shown only if full SSN is NOT given.",
+  "Dictionary": "Study Manager Data Dictionary, BIospecimen Research",
+  "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "No",
-  "Quest_Src Question": "4/23/21"
+  "Date added or modified": "4/23/21"
 }

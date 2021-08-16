@@ -1,0 +1,27 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "965707586.json",
+  "conceptId": "974839519",
+  "Question Text": "On days that you used chewing tobacco, snus, snuff, or dip  when you were age [X / 18] to age [Y / 24], what is the total amount of time you used them per day?",
+  "Variable Label": "How much time chewing tobacco, snus, snuff, or dip  used, Age [X / 18] to age [Y / 24]",
+  "Variable Name": "SrvSAS_CTTime1824_v1r0",
+  "Connect Value for Select all that apply questions": "CHEWLIFEB",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "428999623.json": "1",
+    "922468566.json": "2",
+    "846035838.json": "3",
+    "474838228.json": "4",
+    "324857780.json": "5"
+  },
+  "Connect Value": {
+    "428999623.json": "0",
+    "922468566.json": "1",
+    "846035838.json": "2",
+    "474838228.json": "3",
+    "324857780.json": "4"
+  }
+}

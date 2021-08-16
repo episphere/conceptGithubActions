@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Recruitment",
+  "Primary Source": "192505768.json",
   "Secondary Source": "883203566.json",
   "conceptId": "119643471",
   "Question Text": "Sanford Health Reported Race",
@@ -7,10 +7,11 @@
   "Variable Name": "RcrtSI_SHRace_v1r0",
   "Variable Type": "Num",
   "Variable Length": "2",
-  "PII": "For Sanford Health",
-  "State Attribute": "Recruitment Data Dictionary",
-  "Default Variable": "Yes",
-  "Date added or modified": "No",
+  "Required": "For Sanford Health",
+  "PII": "No",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "Yes",
+  "Default Variable": "No",
   "Format/Value": {
     "232334767.json": "0",
     "211228524.json": "1",

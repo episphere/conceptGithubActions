@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Biospecimen",
+  "Primary Source": "819848608.json",
   "Secondary Source": "360770860.json",
   "conceptId": "677469051",
   "Question Text": "EDTA Tube 2",
@@ -8,8 +8,9 @@
   "Variable Type": "N/A",
   "Variable Length": "N/A",
   "Format/Value": "N/A",
-  "PII": "Yes",
-  "State Attribute": "Biospecimen Clinical, BIospecimen Shipping",
-  "Default Variable": "No",
-  "Date added or modified": "No"
+  "Required": "Yes",
+  "PII": "No",
+  "Dictionary": "Biospecimen Clinical, BIospecimen Shipping",
+  "State Attribute": "No",
+  "Default Variable": "No"
 }

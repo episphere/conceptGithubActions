@@ -1,14 +1,17 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
   "Source Question": "431628922.json",
   "conceptId": "963867920",
   "Question Text": "Other text box",
   "Variable Label": "Other text box",
   "Variable Name": "SrvBOH_OtherWtLossDes4_v1r0",
+  "Connect Value for Select all that apply questions": "WTLOSS2_4555_TB",
   "Variable Type": "Char",
-  "Format/Value": "N/A",
+  "Variable Length": "300",
+  "Connect Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if flag for percent weight change 45-55 = yes"
+  "Notes": "Only display if flag for percent weight change 45-55 = yes",
+  "Quest_Src Question": "WTLOSS2_4555"
 }

@@ -1,15 +1,17 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
   "Source Question": "355472178.json",
   "conceptId": "138780721",
   "Question Text": "Fibrocystic Breast, or other Benign Breast Disease year",
   "Variable Label": "Fibrocystic Breast, or other Benign Breast Disease year",
   "Variable Name": "SrvBOH_BreastDisYr_v1r0",
+  "Connect Value for Select all that apply questions": "BREASTDIS_YEAR",
   "Variable Type": "Year",
   "Variable Length": "4",
-  "Format/Value": "yyyy",
+  "Connect Value": "yyyy",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if MHGROUP8= Fibrocystic Breast, or other Benign Breast Disease"
+  "Notes": "Only display if MHGROUP8= Fibrocystic Breast, or other Benign Breast Disease",
+  "Quest_Src Question": "BREASTDIS"
 }

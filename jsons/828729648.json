@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Recruitment",
+  "Primary Source": "192505768.json",
   "Secondary Source": "214456996.json",
   "conceptId": "828729648",
   "Question Text": "I do not have a pin",
@@ -7,11 +7,12 @@
   "Variable Name": "RcrtES_noPIN_v1r0",
   "Variable Type": "Num",
   "Variable Length": "1",
+  "Required": "No",
   "PII": "No",
-  "Derivation Notes": "Default is 0, RcrtES_noPIN_v1r0 equals 1 if I do not have a PIN\"\" button selected",
-  "State Attribute": "Recruitment Data Dictionary",
-  "Default Variable": "No",
-  "Date added or modified": "Yes",
+  "Notes": "Default is 0, RcrtES_noPIN_v1r0 equals 1 if I do not have a PIN\"\" button selected",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

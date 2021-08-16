@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Recruitment",
+  "Primary Source": "192505768.json",
   "Secondary Source": "273437590.json",
   "conceptId": "471168198",
   "Question Text": "First Name extracted from consent form",
@@ -8,9 +8,10 @@
   "Variable Type": "Char",
   "Variable Length": "50",
   "Format/Value": "N/A",
+  "Required": "Yes",
   "PII": "Yes",
-  "Derivation Notes": "Legal first name for all non-KP sites. For KP sites it is their ID card name.",
-  "State Attribute": "Recruitment Data Dictionary",
-  "Default Variable": "No",
-  "Date added or modified": "No"
+  "Notes": "Legal first name for all non-KP sites. For KP sites it is their ID card name.",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No"
 }

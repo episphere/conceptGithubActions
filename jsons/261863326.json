@@ -1,15 +1,17 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
   "Source Question": "904550680.json",
   "conceptId": "261863326",
   "Question Text": "Skin cancer diagnosis year",
   "Variable Label": "Skin cancer diagnosis year",
   "Variable Name": "SrvBOH_SkinCancYear_v1r0",
+  "Connect Value for Select all that apply questions": "SKINCANC3_YEAR",
   "Variable Type": "Year",
   "Variable Length": "4",
-  "Format/Value": "yyyy",
+  "Connect Value": "yyyy",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display is SKINCANC = 1"
+  "Notes": "Only display is SKINCANC = 1",
+  "Quest_Src Question": "SKINCANC3"
 }

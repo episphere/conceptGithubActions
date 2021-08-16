@@ -1,16 +1,18 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "129084651.json",
   "Secondary Source": "726699695.json",
   "Source Question": "814510313.json",
   "conceptId": "596122041",
   "Question Text": "Esophageal",
   "Variable Label": "Esophageal",
   "Variable Name": "SrvBOH_MEsophagealCanc_v1r0",
+  "Connect Value for Select all that apply questions": "6",
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Format/Value": {
+  "Quest_Src Question": "MOMCANC2",
+  "Connect Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

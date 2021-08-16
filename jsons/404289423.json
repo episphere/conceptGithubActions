@@ -1,15 +1,17 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "129084651.json",
   "Secondary Source": "726699695.json",
   "Source Question": "278159347.json",
   "conceptId": "404289423",
   "Question Text": "Child 1 response from Child 1CANC2/another type of cancer age",
   "Variable Label": "Child 1 response from SIB1CANC2/another type of cancer age",
   "Variable Name": "SrvBOH_C1OtherCancAge_v1r0",
+  "Connect Value for Select all that apply questions": "CHILDCANC3X_AGE",
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Format/Value": "N/A",
+  "Connect Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Connect Format/Values - Only display if SIBCANC2= 23"
+  "Notes": "Connect Format/Values - Only display if SIBCANC2= 23",
+  "Quest_Src Question": "CHILDCANC3X"
 }

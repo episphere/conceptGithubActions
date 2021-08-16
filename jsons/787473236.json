@@ -1,15 +1,17 @@
 {
-  "Primary Source": "Survey",
+  "Primary Source": "129084651.json",
   "Secondary Source": "898006288.json",
   "Source Question": "660358706.json",
   "conceptId": "787473236",
   "Question Text": "heart valve problemsdiagnosis year",
   "Variable Label": "heart valve problemsdiagnosis year",
   "Variable Name": "SrvBOH_HeartValveYr_v1r0",
+  "Connect Value for Select all that apply questions": "HEARTVALV_YEAR",
   "Variable Type": "Year",
   "Variable Length": "4",
-  "Format/Value": "yyyy",
+  "Connect Value": "yyyy",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if MHGROUP1 = heart valve problems"
+  "Notes": "Only display if MHGROUP1 = heart valve problems",
+  "Quest_Src Question": "HEARTVALV"
 }

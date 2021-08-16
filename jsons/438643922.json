@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Recruitment",
+  "Primary Source": "192505768.json",
   "Secondary Source": "332759827.json",
   "conceptId": "438643922",
   "Question Text": "Home phone",
@@ -8,9 +8,10 @@
   "Variable Type": "Num",
   "Variable Length": "10",
   "Format/Value": "N/A",
-  "PII": "Yes, if no other phone number given",
-  "Derivation Notes": "Type and length are based on a numbers only format, no dashes",
-  "State Attribute": "Recruitment Data Dictionary, Biospecimen Research",
-  "Default Variable": "No",
-  "Date added or modified": "No"
+  "Required": "Yes, if no other phone number given",
+  "PII": "Yes",
+  "Notes": "Type and length are based on a numbers only format, no dashes",
+  "Dictionary": "Recruitment Data Dictionary, Biospecimen Research",
+  "State Attribute": "No",
+  "Default Variable": "No"
 }

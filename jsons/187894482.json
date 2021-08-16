@@ -1,5 +1,5 @@
 {
-  "Primary Source": "Recruitment",
+  "Primary Source": "192505768.json",
   "Secondary Source": "332759827.json",
   "conceptId": "187894482",
   "Question Text": "Can we leave voicemail at this number?",
@@ -7,10 +7,11 @@
   "Variable Name": "RcrtUP_HomeVM_v1r0",
   "Variable Type": "Num",
   "Variable Length": "1",
+  "Required": "No",
   "PII": "No",
-  "State Attribute": "Recruitment Data Dictionary, Biospecimen Research",
+  "Dictionary": "Recruitment Data Dictionary, Biospecimen Research",
+  "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "No",
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
