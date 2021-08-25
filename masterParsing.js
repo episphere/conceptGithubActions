@@ -175,11 +175,11 @@ function parseMasterModule(){
                         headerName = currJSON['Quest_Src Question'];
                         if(!Array.isArray(headerName)){
                             if(headerName == currJSON['Connect Value for Select all that apply questions']){
-                                console.log('EQUALS')
-                                console.log(headerName);
+                                //console.log('EQUALS')
+                                //console.log(headerName);
 
                                 let val = currJSON['Connect Value']
-                                console.log(val);
+                                //console.log(val);
                                 if(val && typeof val == "string" && val.includes('=')){
                                     //console.log(val)
                                     let keyNum = val.split('=')[0].trim();
@@ -205,13 +205,40 @@ function parseMasterModule(){
                                         "concept":valNum
                                     }
                                     if(!toInsert['Source Question']){
-                                        toInsert['questionText'] = masterJSON[currJSON['Source Question']];
+                                        toInsert['questionText'] = masterJSON[currJSON['Source Question']]['Variable Name'];
                                     }
                                     toInsert['conceptId'] = currJSON['Source Question'].substring(0,9);
 
                                     toReturn[headerName.toUpperCase()] = toInsert;
                                     
                                  }
+                                 else if(val && typeof Array.isArray(val)){
+                                    let valKeys = Object.keys(val);
+                                    for(let k = 0; k < valKeys.length; k++){
+                                        let keyNum = val[valKeys[k]];
+                                        let valNum = valKeys[k];
+                                        isTB = false;
+                                    if(toReturn[headerName.toUpperCase()]){
+                                        toInsert = toReturn[headerName.toUpperCase()];
+                                     }
+                                     if(!toInsert['questIds']){
+                                         toInsert['questIds'] = {}
+                                     }
+                                    //toInsert['questIds'] = {}
+                                    console.log(masterJSON[valNum])
+                                    
+                                    toInsert['questIds'][keyNum.toUpperCase()] = {
+                                        "conceptId":valNum.substring(0,9),
+                                        "concept":masterJSON[valNum]["Variable Name"]
+                                    }
+                                    if(!toInsert['Source Question']){
+                                        toInsert['questionText'] = masterJSON[currJSON['Source Question']]['Variable Name'];
+                                    }
+                                    toInsert['conceptId'] = currJSON['Source Question'].substring(0,9);
+
+                                    toReturn[headerName.toUpperCase()] = toInsert;
+                                    }
+                                }
                             }
                             else{
                                 //isTB = true;

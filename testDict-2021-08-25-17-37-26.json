@@ -3696,14 +3696,6 @@
   },
   "CHILDDEATH": {
     "questIds": {
-      "0": {
-        "conceptId": "339090963",
-        "concept": "Less than 1 year"
-      },
-      "77": {
-        "conceptId": "665517141",
-        "concept": "Don't Know"
-      },
       "CHILDDEATH_NUM": {
         "conceptId": "182786508",
         "concept": "Child 1- How old was [CHILD INITIALS OR NICKNAME/your CHILD] when they died?, Number",
@@ -6815,14 +6807,6 @@
   },
   "CHILDAGE": {
     "questIds": {
-      "0": {
-        "conceptId": "339090963",
-        "concept": "Less than 1 year"
-      },
-      "77": {
-        "conceptId": "665517141",
-        "concept": "Don't Know"
-      },
       "CHILDAGE_AGE": {
         "conceptId": "299300933",
         "concept": "Child 1- How old is [CHILD INITIALS OR NICKNAME/your CHILD] today?, Number",
@@ -7072,26 +7056,6 @@
   },
   "TOMAR10": {
     "questIds": {
-      "0": {
-        "conceptId": "437269318",
-        "concept": "Recreation"
-      },
-      "1": {
-        "conceptId": "838317013",
-        "concept": "As medicine"
-      },
-      "2": {
-        "conceptId": "585672584",
-        "concept": "Recreation and as medicine"
-      },
-      "55": {
-        "conceptId": "431441193",
-        "concept": "Other: Please describe"
-      },
-      "99": {
-        "conceptId": "528526505",
-        "concept": "Prefer not to answer"
-      },
       "TOMAR10OTH": {
         "conceptId": "316687007",
         "concept": "Other: Please describe text box",
@@ -7439,7 +7403,14 @@
       }
     },
     "conceptId": "264145207",
-    "questionText": "Sibling 1- How old was [SIBLING INITIALS OR NICKNAME/your sibling] when they died?"
+    "questionText": {
+      "conceptId": "264145207",
+      "Variable Name": "Sibling 1- How old was [SIBLING INITIALS OR NICKNAME/your sibling] when they died?",
+      "subcollections": [
+        "537137982.json",
+        "338020179.json"
+      ]
+    }
   },
   "PAIN2": {
     "questIds": {
@@ -8427,37 +8398,6 @@
     },
     "questionText": "On days that you [smoke/smoked], what is the total amount of time you [smoke/smoked] a hookah or water pipe per day?",
     "conceptId": "387332705"
-  },
-  "ELMAR10": {
-    "questIds": {
-      "0": {
-        "conceptId": "437269318",
-        "concept": "Recreation"
-      },
-      "1": {
-        "conceptId": "838317013",
-        "concept": "As medicine"
-      },
-      "2": {
-        "conceptId": "585672584",
-        "concept": "Recreation and as medicine"
-      },
-      "55": {
-        "conceptId": "431441193",
-        "concept": "Other: Please describe"
-      },
-      "99": {
-        "conceptId": "528526505",
-        "concept": "Prefer not to answer"
-      },
-      "ELMAR10OTH": {
-        "conceptId": "660167405",
-        "concept": "Other: Please describe text box",
-        "isTextBox": true
-      }
-    },
-    "questionText": "Why [do/did] you use electronic marijuana delivery devices that can be vaped?",
-    "conceptId": "268240612"
   },
   "CHILDCANC3F": {
     "questIds": {
@@ -9729,7 +9669,14 @@
       }
     },
     "conceptId": "474557519",
-    "questionText": "Sibling 1- How old is [SIBLING INITIALS OR NICKNAME/your sibling] today?"
+    "questionText": {
+      "conceptId": "474557519",
+      "Variable Name": "Sibling 1- How old is [SIBLING INITIALS OR NICKNAME/your sibling] today?",
+      "subcollections": [
+        "869387390.json",
+        "478706011.json"
+      ]
+    }
   },
   "AGECOR": {
     "questIds": {
@@ -10292,7 +10239,14 @@
       }
     },
     "conceptId": "836062426",
-    "questionText": "At what age did your father die?"
+    "questionText": {
+      "conceptId": "836062426",
+      "Variable Name": "At what age did your father die?",
+      "subcollections": [
+        "628078826.json",
+        "517670352.json"
+      ]
+    }
   },
   "EXEREC3O": {
     "questIds": {
@@ -12225,6 +12179,17 @@
     "questionText": "[If Dad=01] Has a doctor or other health professional ever said that your father has or had any type of cancer? [If Dad=00, 77, NON-RESPONSE] Did a doctor or other health professional ever say that your father had any type of cancer?",
     "conceptId": "659784914"
   },
+  "ELMAR10": {
+    "questIds": {
+      "ELMAR10OTH": {
+        "conceptId": "660167405",
+        "concept": "Other: Please describe text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "268240612",
+    "questionText": "Why [do/did] you use electronic marijuana delivery devices that can be vaped?"
+  },
   "CIG5": {
     "questIds": {
       "0": {
@@ -12902,37 +12867,6 @@
     },
     "questionText": "Month - During that time, did you ever smoke marijuana every day?",
     "conceptId": "701139036"
-  },
-  "SMMAR10": {
-    "questIds": {
-      "0": {
-        "conceptId": "437269318",
-        "concept": "Recreation"
-      },
-      "1": {
-        "conceptId": "838317013",
-        "concept": "As medicine"
-      },
-      "2": {
-        "conceptId": "585672584",
-        "concept": "Recreation and as medicine"
-      },
-      "55": {
-        "conceptId": "431441193",
-        "concept": "Other: Please describe"
-      },
-      "99": {
-        "conceptId": "528526505",
-        "concept": "Prefer not to answer"
-      },
-      "SMMAR10OTH": {
-        "conceptId": "883366465",
-        "concept": "Other: Please describe text box",
-        "isTextBox": true
-      }
-    },
-    "questionText": "Why [do/did] you smoke marijuana?",
-    "conceptId": "377064836"
   },
   "CHILDCANC3P": {
     "questIds": {
@@ -15308,6 +15242,17 @@
     "questionText": "Which of these best describes your natural skin color on the parts of your body that are not exposed to sunor tanning beds",
     "conceptId": "881374396"
   },
+  "SMMAR10": {
+    "questIds": {
+      "SMMAR10OTH": {
+        "conceptId": "883366465",
+        "concept": "Other: Please describe text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "377064836",
+    "questionText": "Why [do/did] you smoke marijuana?"
+  },
   "SMMARLIFEF": {
     "questIds": {
       "0": {
@@ -15453,26 +15398,6 @@
   },
   "THMAR10": {
     "questIds": {
-      "0": {
-        "conceptId": "437269318",
-        "concept": "Recreation"
-      },
-      "1": {
-        "conceptId": "838317013",
-        "concept": "As medicine"
-      },
-      "2": {
-        "conceptId": "585672584",
-        "concept": "Recreation and as medicine"
-      },
-      "55": {
-        "conceptId": "431441193",
-        "concept": "Other: Please describe"
-      },
-      "99": {
-        "conceptId": "528526505",
-        "concept": "Prefer not to answer"
-      },
       "THMAR10OTH": {
         "conceptId": "894298062",
         "concept": "Other: Please describe text box",
