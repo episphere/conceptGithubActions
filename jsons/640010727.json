@@ -1,6 +1,7 @@
 {
   "Primary Source": "129084651.json",
   "Secondary Source": "726699695.json",
+  "Source Question": "133174173.json",
   "conceptId": "640010727",
   "Question Text": "Child 1- How old is [CHILD INITIALS OR NICKNAME/your CHILD] today?",
   "Variable Label": "Child 1 age, other",
@@ -8,23 +9,16 @@
   "Connect Value for Select all that apply questions": "CHILDAGE",
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Required": [
-    "104430631.json",
-    "104430631.json"
-  ],
-  "PII": [
-    "104430631.json",
-    "104430631.json"
-  ],
-  "Date added or modified": [
-    "978023140.json"
-  ],
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "8/23/21",
+  "Quest_Src Question": "CHILDAGE",
   "Old Quest Value": {
-    "589670939.json": "1",
-    "495230752.json": "99"
+    "339090963.json": "1",
+    "458449215.json": "99"
   },
   "Connect Value": {
-    "589670939.json": "0",
-    "998567121.json": "77"
+    "339090963.json": "0",
+    "665517141.json": "77"
   }
 }

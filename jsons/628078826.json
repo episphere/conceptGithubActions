@@ -1,10 +1,11 @@
 {
   "Primary Source": "129084651.json",
   "Secondary Source": "726699695.json",
+  "Source Question": "836062426.json",
   "conceptId": "628078826",
-  "Question Text": "How old is your father today?",
-  "Variable Label": "father age",
-  "Variable Name": "SrvBOH_DadAge_v1r0",
+  "Question Text": "At what age did your father die?",
+  "Variable Label": "father age at death",
+  "Variable Name": "SrvBOH_DadAgeDeath_v1r0",
   "Connect Value for Select all that apply questions": "DADDEATH",
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -12,5 +13,6 @@
   "Connect Value": "77 = Don't Know",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "6/24/21"
+  "Date added or modified": "8/23/21",
+  "Quest_Src Question": "DADDEATH"
 }
