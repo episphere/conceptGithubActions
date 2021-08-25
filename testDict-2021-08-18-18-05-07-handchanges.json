@@ -7135,6 +7135,10 @@
         "conceptId": "316687007",
         "concept": "Other: Please describe text box",
         "isTextBox": true
+      },
+      "TOMAR10": {
+        "conceptId": "646101684",
+        "concept": "Why [do/did] you smoke a combination of marijuana with tobacco?"
       }
     },
     "conceptId": "755923078",
@@ -7769,9 +7773,10 @@
   },
   "MOMAGE": {
     "questIds": {
-      "77": {
-        "conceptId": "998567121",
-        "concept": "Don't Know"
+      "MOMAGE": {
+        "conceptId": "354326265",
+        "concept": "How old is your mother today? Don't know",
+        "isTextBox": true
       },
       "MOM_AGE": {
         "conceptId": "378988419",
@@ -7779,8 +7784,8 @@
         "isTextBox": true
       }
     },
-    "questionText": "How old is your mother?",
-    "conceptId": "448108715"
+    "conceptId": "448108715",
+    "questionText": "How old is your mother?"
   },
   "SLEEP1L": {
     "questIds": {
@@ -8462,6 +8467,21 @@
     "questionText": "On days that you [smoke/smoked], what is the total amount of time you [smoke/smoked] a hookah or water pipe per day?",
     "conceptId": "387332705"
   },
+  "ELMAR10": {
+    "questIds": {
+      "ELMAR10": {
+        "conceptId": "387604865",
+        "concept": "Why [do/did] you use electronic marijuana delivery devices that can be vaped?"
+      },
+      "ELMAR10OTH": {
+        "conceptId": "660167405",
+        "concept": "Other: Please describe text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "268240612",
+    "questionText": "Why [do/did] you use electronic marijuana delivery devices that can be vaped?"
+  },
   "CHILDCANC3F": {
     "questIds": {
       "CHILDCANC3F_AGE": {
@@ -9092,9 +9112,10 @@
   },
   "MOMDEATH": {
     "questIds": {
-      "77": {
-        "conceptId": "998567121",
-        "concept": "Don't Know"
+      "MOMDEATH": {
+        "conceptId": "422714611",
+        "concept": "At what age did your mother die? Don't know",
+        "isTextBox": true
       },
       "MOMDEATH_NUM": {
         "conceptId": "807765962",
@@ -9102,8 +9123,8 @@
         "isTextBox": true
       }
     },
-    "questionText": "Age of mother's death?",
-    "conceptId": "514285473"
+    "conceptId": "514285473",
+    "questionText": "Age of mother's death?"
   },
   "CD": {
     "questIds": {
@@ -10005,6 +10026,11 @@
       "88": {
         "conceptId": "249502933",
         "concept": "Never had a menstrual period"
+      },
+      "MENSHISA": {
+        "isTextBox": true,
+        "questionText": "Age first menstrual period",
+        "conceptId": "969451837"
       }
     },
     "questionText": "Age first menstrual period, never had",
@@ -12216,17 +12242,6 @@
     "questionText": "[If Dad=01] Has a doctor or other health professional ever said that your father has or had any type of cancer? [If Dad=00, 77, NON-RESPONSE] Did a doctor or other health professional ever say that your father had any type of cancer?",
     "conceptId": "659784914"
   },
-  "ELMAR10": {
-    "questIds": {
-      "ELMAR10OTH": {
-        "conceptId": "660167405",
-        "concept": "Other: Please describe text box",
-        "isTextBox": true
-      }
-    },
-    "conceptId": "268240612",
-    "questionText": "Why [do/did] you use electronic marijuana delivery devices that can be vaped?"
-  },
   "CIG5": {
     "questIds": {
       "0": {
@@ -12904,6 +12919,21 @@
     },
     "questionText": "Month - During that time, did you ever smoke marijuana every day?",
     "conceptId": "701139036"
+  },
+  "SMMAR10": {
+    "questIds": {
+      "SMMAR10": {
+        "conceptId": "702948071",
+        "concept": "Why [do/did] you smoke marijuana?"
+      },
+      "SMMAR10OTH": {
+        "conceptId": "883366465",
+        "concept": "Other: Please describe text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "377064836",
+    "questionText": "Why [do/did] you smoke marijuana?"
   },
   "CHILDCANC3P": {
     "questIds": {
@@ -15275,17 +15305,6 @@
     "questionText": "Which of these best describes your natural skin color on the parts of your body that are not exposed to sunor tanning beds",
     "conceptId": "881374396"
   },
-  "SMMAR10": {
-    "questIds": {
-      "SMMAR10OTH": {
-        "conceptId": "883366465",
-        "concept": "Other: Please describe text box",
-        "isTextBox": true
-      }
-    },
-    "conceptId": "377064836",
-    "questionText": "Why [do/did] you smoke marijuana?"
-  },
   "SMMARLIFEF": {
     "questIds": {
       "0": {
@@ -15435,6 +15454,10 @@
         "conceptId": "894298062",
         "concept": "Other: Please describe text box",
         "isTextBox": true
+      },
+      "THMAR10": {
+        "conceptId": "994380553",
+        "concept": "Why [do/did] you use THC concentrates via dabbing?"
       }
     },
     "conceptId": "265469878",
@@ -16409,11 +16432,6 @@
     "isTextBox": true,
     "questionText": "How old were you when your [first/2nd/3rd/4th/etc.] pregnancy began?",
     "conceptId": "968816827"
-  },
-  "MENSHISA": {
-    "isTextBox": true,
-    "questionText": "Age first menstrual period",
-    "conceptId": "969451837"
   },
   "ALCLIFE2F": {
     "questIds": {

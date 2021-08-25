@@ -85,7 +85,7 @@ function parseMasterModule(){
                                             "concept":"Don't know" 
                                         }
                                     }
-                                    console.log(currJSON)
+                                    //console.log(currJSON)
                                     toInsert['questionText'] = currJSON['Question Text']
                                     toInsert['conceptId'] = currJSON['conceptId'];
                                     toReturn[currJSON['Connect Value for Select all that apply questions'].toUpperCase()] = toInsert;
@@ -174,43 +174,82 @@ function parseMasterModule(){
                         
                         headerName = currJSON['Quest_Src Question'];
                         if(!Array.isArray(headerName)){
-                            
-                            //isTB = true;
-                            if(toReturn[headerName.toUpperCase()]){
-                                toInsert = toReturn[headerName.toUpperCase()];
+                            if(headerName == currJSON['Connect Value for Select all that apply questions']){
+                                console.log('EQUALS')
+                                console.log(headerName);
+
+                                let val = currJSON['Connect Value']
+                                console.log(val);
+                                if(val && typeof val == "string" && val.includes('=')){
+                                    //console.log(val)
+                                    let keyNum = val.split('=')[0].trim();
+                                    let valNum = val.split('=')[1].trim();
+                                    let thisConcept = '';
+                                    if(varNameToConcept[valNum]){
+                                        
+                                        thisConcept = varNameToConcept[valNum]
+                                    }
+                                    else{
+                                        //console.log(valNum)
+                                    }
+                                    isTB = false;
+                                    if(toReturn[headerName.toUpperCase()]){
+                                        toInsert = toReturn[headerName.toUpperCase()];
+                                     }
+                                     if(!toInsert['questIds']){
+                                         toInsert['questIds'] = {}
+                                     }
+                                    //toInsert['questIds'] = {}
+                                    toInsert['questIds'][keyNum.toUpperCase()] = {
+                                        "conceptId":masterJSON[valNum]?masterJSON[valNum]['conceptId']: thisConcept,
+                                        "concept":valNum
+                                    }
+                                    if(!toInsert['Source Question']){
+                                        toInsert['questionText'] = masterJSON[currJSON['Source Question']];
+                                    }
+                                    toInsert['conceptId'] = currJSON['Source Question'].substring(0,9);
+
+                                    toReturn[headerName.toUpperCase()] = toInsert;
+                                    
+                                 }
                             }
                             else{
-                                toInsert = {'questIds':{}}
-                            }
-                            if(!toInsert['questIds']){
-                                toInsert['questIds'] = {};
-                            }
-                            //console.log(toInsert);
-                            let questIds = toInsert['questIds']
-                            //console.log(toInsert)
-                            //console.log(headerName);
-                            //console.log(questIds)
-                            //console.log(currJSON['Connect Value for Select all that apply questions'])
-                            questIds[currJSON['Connect Value for Select all that apply questions'].toUpperCase()] = {
-                                "conceptId" : currJSON['conceptId'],
-                                "concept": currJSON["Question Text"]
-                            }
-                            if(isTB){
-                                questIds[currJSON['Connect Value for Select all that apply questions'].toUpperCase()]['isTextBox'] = true;
-                            }
-                            if(currJSON['Source Question']){
-                                toInsert['conceptId'] = currJSON['Source Question'].substring(0,9);
-                                if(!masterJSON[currJSON['Source Question']]){
-                                    console.log(currJSON)
+                                //isTB = true;
+                                if(toReturn[headerName.toUpperCase()]){
+                                    toInsert = toReturn[headerName.toUpperCase()];
+                                }
+                                else{
+                                    toInsert = {'questIds':{}}
+                                }
+                                if(!toInsert['questIds']){
+                                    toInsert['questIds'] = {};
+                                }
+                                //console.log(toInsert);
+                                let questIds = toInsert['questIds']
+                                //console.log(toInsert)
+                                //console.log(headerName);
+                                //console.log(questIds)
+                                //console.log(currJSON['Connect Value for Select all that apply questions'])
+                                questIds[currJSON['Connect Value for Select all that apply questions'].toUpperCase()] = {
+                                    "conceptId" : currJSON['conceptId'],
+                                    "concept": currJSON["Question Text"]
+                                }
+                                if(isTB){
+                                    questIds[currJSON['Connect Value for Select all that apply questions'].toUpperCase()]['isTextBox'] = true;
+                                }
+                                if(currJSON['Source Question']){
+                                    toInsert['conceptId'] = currJSON['Source Question'].substring(0,9);
+                                    if(!masterJSON[currJSON['Source Question']]){
+                                        //console.log(currJSON)
+                                    }
+                                    
+                                    toInsert['questionText'] = masterJSON[currJSON['Source Question']]['Variable Name'];
                                 }
                                 
-                                toInsert['questionText'] = masterJSON[currJSON['Source Question']]['Variable Name'];
+                                toReturn[headerName.toUpperCase()] = toInsert;
                             }
-                            
-                            toReturn[headerName.toUpperCase()] = toInsert;
                         }
                         else{
-                            
                             for(let k = 0; k < headerName.length; k++){
                                 let head = headerName[k];
                                 if(toReturn[masterJSON[head]['Quest_Src Question'].toUpperCase()]){
@@ -221,9 +260,9 @@ function parseMasterModule(){
                                 }
                                 let questIds = toInsert['questIds']
     
-                                console.log(questIds)
-                                console.log(currJSON);
-                                console.log(currJSON['Connect Value for Select all that apply questions']);
+                                //console.log(questIds)
+                                //console.log(currJSON);
+                                //console.log(currJSON['Connect Value for Select all that apply questions']);
                                 questIds[currJSON['Connect Value for Select all that apply questions'].toUpperCase()] = {
                                     "conceptId" : currJSON['conceptId'],
                                     "concept": currJSON["Question Text"]
