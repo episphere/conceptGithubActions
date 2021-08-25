@@ -29,9 +29,6 @@
     "Variable Label": "Pills per day baby or low-dose aspirin (81 mg or less)",
     "Variable Name": "SrvMRE_LAspirinPill_v1r0"
   },
-  "101543119": {
-    "Variable Name": "Advanced degree Master's, Doctorate, etc."
-  },
   "102695484": {
     "Variable Label": "Deviation- Centrifuge -  did not clot at least 30 minutes",
     "Variable Name": "BioCol_Dev_v1r0_ClotS"
@@ -345,9 +342,6 @@
   "129084651": {
     "Variable Name": "Survey"
   },
-  "129411048": {
-    "Variable Name": "$150,000â€“$199,999/year"
-  },
   "129924389": {
     "Variable Name": "In total, how many months or years have you used copper IUD?"
   },
@@ -397,6 +391,9 @@
     "Variable Label": "Box ID",
     "Variable Name": "BioPack_BoxID_v1r0"
   },
+  "133174173": {
+    "Variable Name": "Child 1- How old is [CHILD INITIALS OR NICKNAME/your CHILD] today?"
+  },
   "133297530": {
     "Variable Label": "Eclampsia or pre-eclampsia",
     "Variable Name": "SrvMRE_Eclampsia_v1r0"
@@ -411,9 +408,6 @@
   },
   "133583572": {
     "Variable Name": "SrvBOH_ItalianLang_v1r0"
-  },
-  "133727045": {
-    "Variable Name": "Other: Please describe [text box]"
   },
   "133730190": {
     "Variable Name": "Higher than 50"
@@ -727,10 +721,6 @@
     "Variable Label": "Child 1 Liver cancer age",
     "Variable Name": "SrvBOH_C1LiverCancAge_v1r0"
   },
-  "161079036": {
-    "Variable Label": "Appearance, style, dress, mannerisms",
-    "Variable Name": "SrvBOH_Appearance_v1r0"
-  },
   "161366008": {
     "Variable Label": "Date of the start of suspend all contact",
     "Variable Name": "HdWd_SuspendDt_v1r0"
@@ -756,9 +746,6 @@
   "163057677": {
     "Variable Label": "Years took statins/cholesterol or lipid lowering drugs",
     "Variable Name": "SrvMRE_StatinsYr_v1r0"
-  },
-  "163107586": {
-    "Variable Name": "breast surgery"
   },
   "163149180": {
     "Variable Label": "English",
@@ -794,6 +781,12 @@
   "164910211": {
     "Variable Label": "Infectious Mononucleosis (â€œMonoâ€ or â€œKissing Diseaseâ€)",
     "Variable Name": "SrvBOH_Mono_v1r0"
+  },
+  "165156038": {
+    "Variable Name": "Other (Hispanic, Asian, American Indian/Alaskan Native, Native Hawaiian or Pacific Islander) and Ethnicity Unavailable/Unknown"
+  },
+  "165642672": {
+    "Variable Name": "Race Unavailable/Unknown and Ethnicity Unavailable/Unknown"
   },
   "166195719": {
     "Variable Label": "Diabetes year",
@@ -929,6 +922,9 @@
     "Variable Label": "Cigarettes (manufactured or hand-rolled)",
     "Variable Name": "SrvSAS_Marijuana_v1r0"
   },
+  "176494726": {
+    "Variable Name": "Not Revoked"
+  },
   "176904165": {
     "Variable Name": "Thinner than average"
   },
@@ -962,8 +958,8 @@
     "Variable Name": "SrvBOH_DadLeukYr_v1r0"
   },
   "178774803": {
-    "Variable Label": "father age at death",
-    "Variable Name": "SrvBOH_DadAgeDeath_v1r0"
+    "Variable Label": "father age",
+    "Variable Name": "SrvBOH_DadAge_v1r0"
   },
   "179559655": {
     "Variable Label": "Thyroid",
@@ -979,6 +975,9 @@
   },
   "180306463": {
     "Variable Name": "5 shots"
+  },
+  "180386309": {
+    "Variable Name": "Verified - mimimally enrolled"
   },
   "180426138": {
     "Variable Label": "How often drink alcohol, [X / 70] and older",
@@ -997,9 +996,6 @@
   },
   "180961306": {
     "Variable Name": "Digestive System Problems- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply."
-  },
-  "181322095": {
-    "Variable Name": "Orientation - Do you think of yourself as:"
   },
   "181458564": {
     "Variable Label": "Outgoing shipments comments",
@@ -1508,10 +1504,6 @@
   },
   "218595434": {
     "Variable Name": "Verification"
-  },
-  "218809243": {
-    "Variable Label": "Past employer's for job",
-    "Variable Name": "SrvBOH_EmployerP_v1r0"
   },
   "219502140": {
     "Variable Label": "Chewing tobacco, snus, snuff, or dip; some of the most popular brands are Red Man, Levi Garrett, BEECH-NUT, Skoal, and Copenhagen.",
@@ -2047,13 +2039,6 @@
     "Variable Label": "Date/Time of HIPAA Authorization",
     "Variable Name": "RcrtCS_HIPAAAuthDt_v1r0"
   },
-  "262690393": {
-    "Variable Label": "Ductal Carcinoma biopsy",
-    "Variable Name": "SrvBOH_DuctCarcinoma_v1r0"
-  },
-  "262852787": {
-    "Variable Name": "$25,000â€“$34,999/year"
-  },
   "263035750": {
     "Variable Label": "Trichomoniasis diagnosis age",
     "Variable Name": "SrvBOH_TrichAge_v1r0"
@@ -2072,6 +2057,9 @@
   },
   "263785082": {
     "Variable Name": "Have you ever taken any of these types of progestin-only prescription hormones? Select all that apply."
+  },
+  "264145207": {
+    "Variable Name": "Sibling 1- How old was [SIBLING INITIALS OR NICKNAME/your sibling] when they died?"
   },
   "264163865": {
     "Variable Name": "45-59 minutes"
@@ -2212,6 +2200,9 @@
     "Variable Label": "Years use combined oral estrogen plus progestin pill",
     "Variable Name": "SrvMRE_CombPillYrUse_v1r0"
   },
+  "273187259": {
+    "Variable Name": "$100,000â€“$149,999/year"
+  },
   "273218182": {
     "Variable Label": "Insulin units, don't know",
     "Variable Name": "SrvMRE_InsulinUnitsDK_v1r0"
@@ -2248,9 +2239,6 @@
   "275143071": {
     "Variable Name": "Why did you take regular or extra strength aspirin? Select all that apply."
   },
-  "275219391": {
-    "Variable Name": "Very masculine"
-  },
   "275706407": {
     "Variable Name": "Completed by someone else on behalf of study participant"
   },
@@ -2276,6 +2264,12 @@
   "277363275": {
     "Variable Label": "Times used indoor tanning bed",
     "Variable Name": "SrvSAS_IndoorTanNum_v1r0"
+  },
+  "277376215": {
+    "Variable Name": "Somewhat masculine"
+  },
+  "277403300": {
+    "Variable Name": "African American/Black and Hispanic or Latino"
   },
   "277479354": {
     "Variable Label": "Refused baseline saliva sample",
@@ -2310,6 +2304,9 @@
   "280957170": {
     "Variable Label": "Caribbean",
     "Variable Name": "SrvBOH_Caribbean_v1r0"
+  },
+  "281078072": {
+    "Variable Name": "Gender - Do you think of yourself as:"
   },
   "281494550": {
     "Variable Label": "Multiples",
@@ -2371,10 +2368,6 @@
   },
   "286592155": {
     "Variable Name": "Never smoked on a regular basis"
-  },
-  "287496375": {
-    "Variable Label": "DCIS age",
-    "Variable Name": "SrvBOH_DCISAge_v1r0"
   },
   "287673126": {
     "Variable Label": "How often drink alcohol, Age [X / 18] to age [Y / 24]",
@@ -2476,6 +2469,9 @@
     "Variable Label": "Heart attack (myocardial infarction) diagnosis year",
     "Variable Name": "SrvBOH_MIyear_v1r0"
   },
+  "298716850": {
+    "Variable Name": "Requested and signed"
+  },
   "299007183": {
     "Variable Label": "Number of cigars, cigarillos, or little filtered cigars per day",
     "Variable Name": "SrvSAS_CigarsPerDay_v1r0"
@@ -2494,6 +2490,9 @@
   },
   "299561721": {
     "Variable Name": "Yes, but rarely"
+  },
+  "300028058": {
+    "Variable Name": "Destroy data"
   },
   "300267574": {
     "Variable Name": "Kaiser Permanente Hawaii"
@@ -2577,10 +2576,6 @@
   "306890578": {
     "Variable Name": "Live birth and stillbirth (loss of one or more of multiples)"
   },
-  "307059534": {
-    "Variable Label": "Current employer's for job",
-    "Variable Name": "SrvBOH_EmployerC_v1r0"
-  },
   "307414105": {
     "Variable Label": "Pills per day statins/cholesterol or lipid lowering drugs",
     "Variable Name": "SrvMRE_StatinsPills_v1r0"
@@ -2627,9 +2622,6 @@
     "Variable Label": "Other (such as wine coolers, \"\"hard soda,\"\" spiked seltzer (sparkling water), Smirnoff Ice, malt liquor, or pre-mixed cocktails)",
     "Variable Name": "SrvSAS_OtherAlc_v1r0"
   },
-  "311095894": {
-    "Variable Name": "Mostly masculine"
-  },
   "311580100": {
     "Variable Label": "Full Social Security Number Given",
     "Variable Name": "SrvSS_SSN_Given_v1r0"
@@ -2651,6 +2643,9 @@
   },
   "312545873": {
     "Variable Name": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had cancer?"
+  },
+  "313432346": {
+    "Variable Name": "User Profile Complete"
   },
   "315421706": {
     "Variable Label": "Dad Thyroid cancer year",
@@ -2825,6 +2820,9 @@
     "Variable Label": "Cigars, cigarillos, or little filtered cigars; some of the most popular brands include Macanudo, Romeo y Julieta, Black and Mild, Swisher Sweets, Prime Time, and Cheyenne. Please do not include blunts as we will be asking about marijuana use in a later section.",
     "Variable Name": "SrvSAS_Cigarillos_v1r0"
   },
+  "329413728": {
+    "Variable Name": "Consented"
+  },
   "330745988": {
     "Variable Name": "My periods stopped because I began taking female hormones during the menopausal transition or menopause (\"\"\"\"the change of life\"\"\"\")"
   },
@@ -2916,6 +2914,9 @@
   "338924834": {
     "Variable Label": "Pain rank",
     "Variable Name": "SrvBOH_PainRank_v1r0"
+  },
+  "339090963": {
+    "Variable Name": "Less than 1 year"
   },
   "339167809": {
     "Variable Label": "Health or medical reasons",
@@ -3293,6 +3294,9 @@
   "377968392": {
     "Variable Label": "Beer or hard cider",
     "Variable Name": "SrvSAS_Beer_ v1r0"
+  },
+  "378158796": {
+    "Variable Name": "Other (Hispanic, Asian, American Indian/Alaskan Native, Native Hawaiian or Pacific Islander) and not Hispanic or Latino"
   },
   "378416726": {
     "Variable Label": "Sibling 1 Non-Hodgkin's lymphoma cancer year",
@@ -3862,6 +3866,9 @@
     "Variable Label": "Check out complete",
     "Variable Name": "BioFin_Complete_v1r0"
   },
+  "421277102": {
+    "Variable Name": "Refused some activities"
+  },
   "421823980": {
     "Variable Label": "Account Email",
     "Variable Name": "email"
@@ -4066,6 +4073,9 @@
     "Variable Label": "Year took Celebrex (celecoxib)",
     "Variable Name": "SrvMRE_CelebrexYr_v1r0"
   },
+  "439238549": {
+    "Variable Name": "African American/Black and not Hispanic or Latino"
+  },
   "440307926": {
     "Variable Label": "None of these fully describe me. Please describe [text box]",
     "Variable Name": "SrvBOH_NoneDescribeRE5_v1r0"
@@ -4088,6 +4098,9 @@
   "442166669": {
     "Variable Label": "Address line 2",
     "Variable Name": "RcrtUP_AddressLn2_v1r0"
+  },
+  "442954542": {
+    "Variable Name": "Orientation - Do you think of yourself as:"
   },
   "444403470": {
     "Variable Label": "When daily user, number of servings consumed marijuana in food or drinks don't know",
@@ -4144,9 +4157,6 @@
   "448069154": {
     "Variable Name": "Three"
   },
-  "448108715": {
-    "Variable Name": "How old is your mother?"
-  },
   "448476881": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Irritable Bowel Syndrome diagnosis age?"
   },
@@ -4168,9 +4178,6 @@
   "449093151": {
     "Variable Label": "Government",
     "Variable Name": "SrvBOH_GovernmentP_v1r0"
-  },
-  "449169549": {
-    "Variable Name": "$50,000â€“$74,999/year"
   },
   "449224715": {
     "Variable Label": "Child 1 cancer year",
@@ -4292,6 +4299,9 @@
     "Variable Label": "Black, African American, or African",
     "Variable Name": "SrvBOH_Black_v1r0"
   },
+  "458449215": {
+    "Variable Name": "Don't know"
+  },
   "458680879": {
     "Variable Label": "Sibling 1 cancer age",
     "Variable Name": "SrvBOH_S1CancerAge_v1r0"
@@ -4357,10 +4367,6 @@
     "Variable Label": "Tubes tied (tubal ligation)",
     "Variable Name": "SrvBOH_TubesTied_v1r0"
   },
-  "465386150": {
-    "Variable Label": "Testicular",
-    "Variable Name": "SrvBOH_C1TesticCanc_v1r0"
-  },
   "465635548": {
     "Variable Label": "Last took Insulin",
     "Variable Name": "SrvMRE_InsulinTime_v1r0"
@@ -4422,6 +4428,9 @@
     "Variable Label": "First Name",
     "Variable Name": "RcrtCS_Fname_v1r0"
   },
+  "471188668": {
+    "Variable Name": "How old is your father today?"
+  },
   "471294296": {
     "Variable Name": "2-4 times per week"
   },
@@ -4458,9 +4467,15 @@
     "Variable Label": "NO DIGESTIVE SYSTEM PROBLEMS",
     "Variable Name": "SrvBOH_NoDIgestive_v1r0"
   },
+  "474478128": {
+    "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had ductal carcinoma in situ of the breast?"
+  },
   "474499646": {
     "Variable Label": "Child 1 Testicular cancer age",
     "Variable Name": "SrvBOH_C1TestCancAge_v1r0"
+  },
+  "474557519": {
+    "Variable Name": "Sibling 1- How old is [SIBLING INITIALS OR NICKNAME/your sibling] today?"
   },
   "475454159": {
     "Variable Name": "4 beers"
@@ -4502,6 +4517,9 @@
   "479628567": {
     "Variable Name": "Has a doctor or other health professional ever told you that you have any of these conditions? Select all that apply."
   },
+  "479963467": {
+    "Variable Name": "Signed-in"
+  },
   "480305327": {
     "Variable Label": "Suffix",
     "Variable Name": "RcrtCS_Suffix_v1r0"
@@ -4522,6 +4540,9 @@
   },
   "481662922": {
     "Variable Name": "Something else: Please describe [text box]"
+  },
+  "482119169": {
+    "Variable Name": "$10,000â€“$24,999/year"
   },
   "482157734": {
     "Variable Name": "Very Dark"
@@ -4546,6 +4567,10 @@
   },
   "484055234": {
     "Variable Name": "More than a month ago, but in the past year"
+  },
+  "484679574": {
+    "Variable Label": "Past employer's for job",
+    "Variable Name": "SrvBOH_EmployerP_v1r0"
   },
   "484819765": {
     "Variable Label": "Kidney Stones age",
@@ -4624,9 +4649,6 @@
   "490796638": {
     "Variable Name": "Not at all flexible"
   },
-  "490919097": {
-    "Variable Name": "$100,000â€“$149,999/year"
-  },
   "491099823": {
     "Variable Label": "I do not have reliable access to the internet/a device",
     "Variable Name": "RcrtSI_OptOut_v1r0_access"
@@ -4676,6 +4698,9 @@
   "493095196": {
     "Variable Label": "Syphilis diagnosis age",
     "Variable Name": "SrvBOH_SyphilisAge_v1r0"
+  },
+  "493716391": {
+    "Variable Name": "Advanced degree Master's, Doctorate, etc."
   },
   "494032093": {
     "Variable Label": "Diabetes type",
@@ -4767,6 +4792,9 @@
     "Variable Label": "Graves' Disease age",
     "Variable Name": "SrvBOH_GravesAge_v1r0"
   },
+  "499950562": {
+    "Variable Name": "Equally feminine and masculine"
+  },
   "500023550": {
     "Variable Name": "I had surgery to remove remove my whole prostaste"
   },
@@ -4814,6 +4842,9 @@
   },
   "506790433": {
     "Variable Name": "Around the waist or stomach"
+  },
+  "506815454": {
+    "Variable Name": "$25,000â€“$34,999/year"
   },
   "506826178": {
     "Variable Label": "Suffix",
@@ -4910,9 +4941,6 @@
   "514080822": {
     "Variable Name": "Never married"
   },
-  "514285473": {
-    "Variable Name": "Age of mother's death?"
-  },
   "514366083": {
     "Variable Label": "Days used cigarettes past 30 days",
     "Variable Name": "SrvSAS_DaysCigsUse30L_v1r0"
@@ -4923,6 +4951,9 @@
   },
   "515202788": {
     "Variable Name": "15 – 20"
+  },
+  "515310311": {
+    "Variable Name": "Cannot Be Verified"
   },
   "515434780": {
     "Variable Label": "Vaginal ring (Femring), vaginal cream (Estrace), or vaginal tablet (Vagifem) estrogen-only medication",
@@ -5018,9 +5049,6 @@
   "521824358": {
     "Variable Label": "Address line 1",
     "Variable Name": "RcrtUP_AddressLn1_v1r0"
-  },
-  "521905676": {
-    "Variable Name": "Somewhat feminine"
   },
   "522143286": {
     "Variable Name": "Restless"
@@ -5132,6 +5160,9 @@
   "531313956": {
     "Variable Name": "KPHI RRL"
   },
+  "531416849": {
+    "Variable Name": "At what age did your mother die?"
+  },
   "531629870": {
     "Variable Name": "HealthPartners"
   },
@@ -5238,7 +5269,7 @@
     "Variable Name": "SrvMRE_BaseStatus_v1r0"
   },
   "537137982": {
-    "Variable Label": "Sibling 1 age",
+    "Variable Label": "Sibling 1 age at death",
     "Variable Name": "SrvBOH_Sib1AgeDeath_v1r0"
   },
   "537153788": {
@@ -5464,6 +5495,10 @@
     "Variable Label": "Autogenerated date/time when box last modified (bag added or removed)",
     "Variable Name": "BioPack_ModifiedTime_v1r0"
   },
+  "555825564": {
+    "Variable Label": "DCIS year",
+    "Variable Name": "SrvBOH_DCISYr_v1r0"
+  },
   "556128775": {
     "Variable Label": "How many days smoked tobacco pipe in life",
     "Variable Name": "SrvSAS_TobPipeDays_v1r0"
@@ -5512,6 +5547,9 @@
   "559534463": {
     "Variable Label": "Zip code Match",
     "Variable Name": "RcrtV_ZipMatch_v1r0"
+  },
+  "559956191": {
+    "Variable Name": "$75,000â€“$99,999/year"
   },
   "560711355": {
     "Variable Label": "Months cycles Lupron depot",
@@ -5569,9 +5607,6 @@
   "563663099": {
     "Variable Label": "Days oral progestin-only cycle use",
     "Variable Name": "SrvMRE_ProgCycleDays_v1r0"
-  },
-  "563832733": {
-    "Variable Name": "Mostly feminine"
   },
   "563857306": {
     "Variable Name": "SrvBOH_PortLang_v1r0"
@@ -5823,9 +5858,6 @@
     "Variable Label": "American Indian or Alaska Native",
     "Variable Name": "SrvBOH_AlaskaNative_v1r0"
   },
-  "584023255": {
-    "Variable Name": "$75,000â€“$99,999/year"
-  },
   "584368278": {
     "Variable Name": "Retired"
   },
@@ -5835,6 +5867,9 @@
   },
   "585076356": {
     "Variable Name": "My periods stopped after radiation or chemotherapy"
+  },
+  "585152862": {
+    "Variable Name": "Other (Hispanic, Asian, American Indian/Alaskan Native, Native Hawaiian or Pacific Islander) and Hispanic or Latino"
   },
   "585672584": {
     "Variable Name": "Recreation and as medicine"
@@ -5871,9 +5906,6 @@
   "589588769": {
     "Variable Label": "Sibling 1 full/half",
     "Variable Name": "SrvBOH_Sib1FullHalf_v1r0"
-  },
-  "589670939": {
-    "Variable Name": "Less than 1 year"
   },
   "589702540": {
     "Variable Name": "Completed by study participant"
@@ -5930,6 +5962,10 @@
   "593622020": {
     "Variable Label": "Brain",
     "Variable Name": "SrvBOH_S1BrainCanc_v1r0"
+  },
+  "593835252": {
+    "Variable Label": "Current employer's for job",
+    "Variable Name": "SrvBOH_EmployerC_v1r0"
   },
   "593843561": {
     "Variable Label": "Tube Collected",
@@ -6202,6 +6238,9 @@
     "Variable Label": "Haitian",
     "Variable Name": "SrvBOH_Haitian_v1r0"
   },
+  "618315021": {
+    "Variable Name": "Withdrew consent"
+  },
   "618427836": {
     "Variable Label": "Pills per day over-the-counter H2 receptor blockers, don't know",
     "Variable Name": "SrvMRE_H2RecBlOCPillDK_v1r0"
@@ -6227,6 +6266,9 @@
     "Variable Label": "Clomid (clomiphene)",
     "Variable Name": "SrvMRE_Clomid_v1r0"
   },
+  "620051550": {
+    "Variable Name": "Not Requested"
+  },
   "620179158": {
     "Variable Name": "3 to 4.9 hrs"
   },
@@ -6241,9 +6283,6 @@
   "620696506": {
     "Variable Label": "I am not able to complete the study activities online",
     "Variable Name": "HdRef_Online_v1r0"
-  },
-  "621213002": {
-    "Variable Name": "$10,000â€“$24,999/year"
   },
   "621370621": {
     "Variable Name": "Very restless"
@@ -6293,6 +6332,9 @@
   "625249910": {
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Stomach cancer?"
   },
+  "625670708": {
+    "Variable Name": "African American/Black and Ethnicity Unavailable/Unknown"
+  },
   "625709326": {
     "Variable Label": "How much time hookah or water pipe  used, [X / 60] to age [Y / 69 / current age]",
     "Variable Name": "SrvSAS_HookahTm6069_v1r0"
@@ -6319,8 +6361,8 @@
     "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyE"
   },
   "628078826": {
-    "Variable Label": "father age",
-    "Variable Name": "SrvBOH_DadAge_v1r0"
+    "Variable Label": "father age at death",
+    "Variable Name": "SrvBOH_DadAgeDeath_v1r0"
   },
   "628137243": {
     "Variable Label": "Months cycles hCG",
@@ -6367,6 +6409,10 @@
     "Variable Label": "Use cigarettes every day, months",
     "Variable Name": "SrvSAS_CigsUseEDMo_v1r0"
   },
+  "632093893": {
+    "Variable Label": "Testicular",
+    "Variable Name": "SrvBOH_C1TesticCanc_v1r0"
+  },
   "632371391": {
     "Variable Name": "1 day"
   },
@@ -6376,6 +6422,10 @@
   "633546100": {
     "Variable Label": "Gallbladder removed (cholecystectomy)",
     "Variable Name": "SrvBOH_Cholecystectomy_v1r0"
+  },
+  "633678152": {
+    "Variable Label": "DCIS age",
+    "Variable Name": "SrvBOH_DCISAge_v1r0"
   },
   "633764113": {
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Uterine (endometrial) cancer?"
@@ -6502,6 +6552,9 @@
   "642004888": {
     "Variable Label": "Danazol",
     "Variable Name": "SrvMRE_Danazol_v1r0"
+  },
+  "642147859": {
+    "Variable Name": "Deceased"
   },
   "642287621": {
     "Variable Label": "Social media post (on Facebook, Twitter, Instagram, or other channels)",
@@ -6800,6 +6853,9 @@
     "Variable Label": "Alternate contact first name",
     "Variable Name": "SrvBOH_AltContFv1r0"
   },
+  "662769540": {
+    "Variable Name": "Race Unavailable/Unknown and Ethnicity Hispanic or Latino"
+  },
   "662990729": {
     "Variable Label": "How many days used marijuana, usual month",
     "Variable Name": "SrvSAS_NumDaysUseMJ_v1r0"
@@ -6841,6 +6897,9 @@
   "665142761": {
     "Variable Label": "How many cigarettes used, [X / 25] to age [Y / 29]",
     "Variable Name": "SrvSAS_CigsUsed2529_v1r0"
+  },
+  "665517141": {
+    "Variable Name": "Don't Know"
   },
   "665582429": {
     "Variable Label": "Mom Ovarian cancer year",
@@ -6936,6 +6995,9 @@
   },
   "676824724": {
     "Variable Name": "5"
+  },
+  "676887704": {
+    "Variable Name": "Refused all future activities"
   },
   "677109866": {
     "Variable Label": "Little filtered cigar",
@@ -7257,6 +7319,9 @@
     "Variable Label": "Sitting with small arm movements (for example, desk or computer work, light assembly, driving, etc.)",
     "Variable Name": "SrvMRE_SmallArmMove_v1r0"
   },
+  "699331227": {
+    "Variable Name": "Revoked and signed"
+  },
   "699553344": {
     "Variable Label": "High Cholesterol",
     "Variable Name": "SrvBOH_Cholesterol_v1r0"
@@ -7324,6 +7389,9 @@
   },
   "704199032": {
     "Variable Name": "Non-Oahu"
+  },
+  "704344916": {
+    "Variable Name": "No"
   },
   "704544306": {
     "Variable Label": "Barrett's Esophagus",
@@ -7460,10 +7528,6 @@
     "Variable Label": "Child 1 name",
     "Variable Name": "SrvBOH_Child1Name_v1r0"
   },
-  "714371794": {
-    "Variable Label": "DCIS year",
-    "Variable Name": "SrvBOH_DCISYr_v1r0"
-  },
   "714419972": {
     "Variable Label": "Additional email 3",
     "Variable Name": "RcrtUP_Email3_v1r0"
@@ -7501,6 +7565,9 @@
   },
   "715873973": {
     "Variable Name": "How old were you when you started smoking a hookah or water pipe on a regular basis?"
+  },
+  "716089469": {
+    "Variable Name": "Very masculine"
   },
   "716117817": {
     "Variable Name": "Where You Live and Work"
@@ -7565,6 +7632,10 @@
   "724181652": {
     "Variable Label": "Weight 3 years ago",
     "Variable Name": "SrvBOH_Weight3YAgo_v1r0"
+  },
+  "724956954": {
+    "Variable Label": "Ductal Carcinoma biopsy",
+    "Variable Name": "SrvBOH_DuctCarcinoma_v1r0"
   },
   "725626004": {
     "Variable Name": "Urinary and Reproductive System Problems- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply."
@@ -7844,6 +7915,9 @@
   "746038746": {
     "Variable Name": "Declined"
   },
+  "746183687": {
+    "Variable Name": "Child 1- How old was [CHILD INITIALS OR NICKNAME/your CHILD] when they died?"
+  },
   "746328729": {
     "Variable Name": "Severehair loss on the top of the head from the forehead to the back of the ears."
   },
@@ -7960,9 +8034,6 @@
     "Variable Label": "Sibling 1 Thyroid cancer year",
     "Variable Name": "SrvBOH_S1ThyrCancYr_v1r0"
   },
-  "753921243": {
-    "Variable Name": "$35,000â€“$49,999/year"
-  },
   "754745617": {
     "Variable Label": "Lung or bronchial",
     "Variable Name": "SrvBOH_MLungCancer_v1r0"
@@ -8002,12 +8073,15 @@
   "757609794": {
     "Variable Name": "I was pregnant or breastfeeding during the last year"
   },
-  "757725355": {
-    "Variable Name": "Associate's degree"
-  },
   "758058429": {
     "Variable Label": "Sibling 1 Liver cancer year",
     "Variable Name": "SrvBOH_S1LiverCancYr_v1r0"
+  },
+  "758118522": {
+    "Variable Name": "$35,000â€“$49,999/year"
+  },
+  "758676286": {
+    "Variable Name": "Requested but not signed"
   },
   "759004335": {
     "Variable Label": "Income",
@@ -8015,6 +8089,9 @@
   },
   "759356722": {
     "Variable Name": "One"
+  },
+  "759488658": {
+    "Variable Name": "How old is your mother today?"
   },
   "760008937": {
     "Variable Name": "SrvBOH_FCLang_v1r0"
@@ -8246,6 +8323,9 @@
     "Variable Label": "During the season[s] in the past 12 months that you did high-intensity circuit training (such as P90x or Crossfit), about how often did you do this activity?",
     "Variable Name": "SrvMRE_HICTOften_v1r0"
   },
+  "776145989": {
+    "Variable Name": "$50,000â€“$74,999/year"
+  },
   "777378451": {
     "Variable Label": "A retail store",
     "Variable Name": "SrvBOH_RetailStoreP_v1r0"
@@ -8412,6 +8492,9 @@
   "790248631": {
     "Variable Name": "How old were you when you started using THC concentrates via dabbing on a regular basis?"
   },
+  "790430845": {
+    "Variable Name": "Mostly feminine"
+  },
   "791071736": {
     "Variable Label": "Dad Non-melanoma skin (basal or squamous) cancer year",
     "Variable Name": "SrvBOH_DadNMSkCancYr_v1r0"
@@ -8473,10 +8556,6 @@
     "Variable Label": "Number of blood transfusions",
     "Variable Name": "SrvBOH_BloodTransNum_v1r0"
   },
-  "796194275": {
-    "Variable Label": "Ductal Carcinoma in situ (DCIS)",
-    "Variable Name": "SrvBOH_DCIS_v1r0"
-  },
   "796283680": {
     "Variable Label": "Sibling 1 Leukemia (blood and bone marrow) cancer year",
     "Variable Name": "SrvBOH_S1LeukemYr_v1r0"
@@ -8527,6 +8606,9 @@
     "Variable Label": "Pills per day naproxen, don't know",
     "Variable Name": "SrvMRE_NaproxenPillDK_v1r0"
   },
+  "799369044": {
+    "Variable Name": "Verification Complete"
+  },
   "799382711": {
     "Variable Label": "Age oral estrogen-only medication last use",
     "Variable Name": "SrvMRE_AgeOralEstrL_v1r0"
@@ -8551,6 +8633,9 @@
   },
   "801142243": {
     "Variable Name": "More than 4 years"
+  },
+  "801526817": {
+    "Variable Name": "Race Unavailable/Unknown and Ethnicity not Hispanic or Latino"
   },
   "801653230": {
     "Variable Label": "Alternate contact last name",
@@ -8593,9 +8678,6 @@
   },
   "804785430": {
     "Variable Name": "Yes, every day"
-  },
-  "804838480": {
-    "Variable Name": "Gender - Do you think of yourself as:"
   },
   "804918759": {
     "Variable Name": "phone"
@@ -8645,6 +8727,9 @@
   "807835037": {
     "Variable Label": "None of these fully describe me. Please describe",
     "Variable Name": "SrvBOH_NoneRE_v1r0"
+  },
+  "807838105": {
+    "Variable Name": "Very feminine"
   },
   "808047414": {
     "Variable Label": "Months ago last used cigars, cigarillos, or little filtered cigars",
@@ -8814,6 +8899,9 @@
     "Variable Label": "Lung or bronchial",
     "Variable Name": "SrvBOH_S1LungCanc_v1r0"
   },
+  "820121470": {
+    "Variable Name": "Somewhat feminine"
+  },
   "820324171": {
     "Variable Label": "10 year old weight",
     "Variable Name": "SrvBOH_10YrWeight_v1r0"
@@ -8821,9 +8909,6 @@
   "820476880": {
     "Variable Label": "Collection ID",
     "Variable Name": "BioSpm_ColIDScan_v1r0"
-  },
-  "820576477": {
-    "Variable Name": "Somewhat masculine"
   },
   "820694957": {
     "Variable Label": "Wake up before alarm clock non-workdays",
@@ -8904,6 +8989,9 @@
     "Variable Label": "Barrett's Esophagus diagnosis age",
     "Variable Name": "SrvBOH_BarrettsAge_v1r0"
   },
+  "827135790": {
+    "Variable Name": "Other: Please describe [text box]"
+  },
   "827220437": {
     "Variable Label": "Site",
     "Variable Name": "RcrtES_Site_v1r0"
@@ -8981,9 +9069,6 @@
     "Variable Label": "Wine",
     "Variable Name": "SrvSAS_Wine70_v1r0"
   },
-  "833269333": {
-    "Variable Name": "College graduate Bachelor's degree"
-  },
   "833304208": {
     "Variable Label": "Often have 4/5 or more alcoholic beverages at same sitting",
     "Variable Name": "SrvSAS_4To5AlcBev_v1r0"
@@ -9023,6 +9108,9 @@
   },
   "835682347": {
     "Variable Name": "3 shots"
+  },
+  "836062426": {
+    "Variable Name": "At what age did your father die?"
   },
   "836224975": {
     "Variable Label": "Prefer not to answer",
@@ -9258,6 +9346,10 @@
   },
   "854903954": {
     "Variable Name": "Passive to Active"
+  },
+  "854945381": {
+    "Variable Label": "Ductal Carcinoma in situ (DCIS)",
+    "Variable Name": "SrvBOH_DCIS_v1r0"
   },
   "856273546": {
     "Variable Label": "How much time chewing tobacco, snus, snuff, or dip  used, [X / 70] and older",
@@ -9669,6 +9761,9 @@
     "Variable Label": "Cigar",
     "Variable Name": "SrvSAS_Cigars_v1r0"
   },
+  "887216213": {
+    "Variable Name": "No Refusal"
+  },
   "887344819": {
     "Variable Label": "Tobacco pipe",
     "Variable Name": "SrvSAS_TobaccoPipe_v1r0"
@@ -9687,9 +9782,6 @@
   "888313306": {
     "Variable Label": "How often days vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)",
     "Variable Name": "SrvMRE_VigChoreOften_v1r0"
-  },
-  "888322039": {
-    "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had ductal carcinoma in situ of the breast?"
   },
   "888515115": {
     "Variable Label": "Mom cancer year",
@@ -9854,6 +9946,9 @@
   "902131456": {
     "Variable Name": "About average build"
   },
+  "902413147": {
+    "Variable Name": "Associate's degree"
+  },
   "902999015": {
     "Variable Label": "Age vaginal ring first use",
     "Variable Name": "SrvMRE_AgeVagRingUsedF_v1r0"
@@ -9912,12 +10007,18 @@
   "908129316": {
     "Variable Name": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Stomach cancer?"
   },
+  "908288666": {
+    "Variable Name": "Revoked HIPAA only"
+  },
   "908455996": {
     "Variable Label": "How many servings consumed marijuana in food or drinks used, [X / 30] to age [Y / 39 / current age]",
     "Variable Name": "SrvSAS_EdiblesServ3039_v1r0"
   },
   "909774794": {
     "Variable Name": "My periods stopped after surgery that removed my uterus and/or both ovaries"
+  },
+  "910082179": {
+    "Variable Name": "Mostly masculine"
   },
   "910260651": {
     "Variable Label": "Highest SPF number used most often",
@@ -10021,9 +10122,6 @@
   "918819379": {
     "Variable Name": "SrvBOH_SCLang_v1r0"
   },
-  "918871124": {
-    "Variable Name": "Very feminine"
-  },
   "918885806": {
     "Variable Name": "2 hours or more_"
   },
@@ -10124,6 +10222,12 @@
   "925196539": {
     "Variable Name": "Login"
   },
+  "925281802": {
+    "Variable Name": "Revoked but not signed"
+  },
+  "925358001": {
+    "Variable Name": "breast surgery"
+  },
   "925558172": {
     "Variable Label": "Prostate",
     "Variable Name": "SrvBOH_C1ProstateCanc_v1r0"
@@ -10156,9 +10260,6 @@
   "928753604": {
     "Variable Name": "3 days"
   },
-  "929044886": {
-    "Variable Name": "Equally feminine and masculine"
-  },
   "929148006": {
     "Variable Name": "A little flexible"
   },
@@ -10186,6 +10287,9 @@
     "Variable Label": "Moroccan",
     "Variable Name": "SrvBOH_Moroccan_v1r0"
   },
+  "933005122": {
+    "Variable Name": "Fully Enrolled"
+  },
   "933110091": {
     "Variable Label": "Another type of cancer: Please describe [text box]",
     "Variable Name": "SrvBOH_C1OtherCancDesc_v1r0"
@@ -10200,6 +10304,9 @@
   "934037640": {
     "Variable Label": "Changed diet",
     "Variable Name": "SrvBOH_ChangeDiet1_v1r0"
+  },
+  "934151744": {
+    "Variable Name": "College graduate Bachelor's degree"
   },
   "934298480": {
     "Variable Label": "Site reported age at recruitment",
@@ -10291,6 +10398,9 @@
     "Variable Label": "liposuction year",
     "Variable Name": "SrvBOH_LiposuctYear_v1r0"
   },
+  "940328177": {
+    "Variable Name": "Caucasian/White and not Hispanic or Latino"
+  },
   "940387701": {
     "Variable Label": "Education Please describe [text box]",
     "Variable Name": "SrvBOH_EducDesc_v1r0"
@@ -10356,6 +10466,9 @@
   "944874693": {
     "Variable Label": "Two separate pills, one estrogen and one progestin pill",
     "Variable Name": "SrvMRE_TwoSepPills_v1r0"
+  },
+  "944915049": {
+    "Variable Name": "No"
   },
   "945244774": {
     "Variable Label": "Body parts apply sunscreen",
@@ -10594,6 +10707,9 @@
   "961021302": {
     "Variable Name": "1 to 2"
   },
+  "961623786": {
+    "Variable Name": "$150,000â€“$199,999/year"
+  },
   "961914905": {
     "Variable Label": "Age first used electronic marijuana delivery devices",
     "Variable Name": "SrvSAS_AgeUseEMJDevF_v1r0"
@@ -10609,6 +10725,9 @@
   "962468280": {
     "Variable Label": "Sibling 1 Melanoma (skin) cancer year",
     "Variable Name": "SrvBOH_S1MelanomaYr_v1r0"
+  },
+  "963011116": {
+    "Variable Name": "Caucasian/White and Ethnicity Unavailable/Unknown"
   },
   "963284259": {
     "Variable Label": "Currently using oral progestin-only medication two pills",
@@ -10693,6 +10812,9 @@
   },
   "969177591": {
     "Variable Name": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Thyroid cancer?"
+  },
+  "969238455": {
+    "Variable Name": "Caucasian/White and Hispanic or Latino"
   },
   "969451837": {
     "Variable Label": "Age first menstrual period",
@@ -10909,6 +11031,10 @@
     "Variable Label": "How much time hookah or water pipe  used, [X / 40] to age [Y / 49 / current age]",
     "Variable Name": "SrvSAS_HookahTm4049_v1r0"
   },
+  "987107433": {
+    "Variable Label": "Appearance, style, dress, mannerisms",
+    "Variable Name": "SrvBOH_Appearance_v1r0"
+  },
   "987134866": {
     "Variable Label": "Exercised",
     "Variable Name": "SrvBOH_Exercised3_v1r0"
@@ -11050,9 +11176,6 @@
   "998058022": {
     "Variable Label": "Inflammatory Bowel Disease diagnosis year",
     "Variable Name": "SrvBOH_IBDYear_v1r0"
-  },
-  "998567121": {
-    "Variable Name": "Don't Know"
   },
   "999994434": {
     "Variable Name": "Bisexual"
