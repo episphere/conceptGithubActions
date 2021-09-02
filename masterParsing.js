@@ -30,7 +30,8 @@ function parseMasterModule(){
         if(currJSON['Primary Source'] && currJSON['Primary Source'] === "129084651.json"){
             //Checks for module name
             // "898006288.json", "726699695.json"
-            if(currJSON['Secondary Source'] && ["745268907.json","965707586.json","898006288.json", "726699695.json"].includes(currJSON['Secondary Source'])){
+            //if(currJSON['Secondary Source'] && ["745268907.json","965707586.json","898006288.json", "726699695.json"].includes(currJSON['Secondary Source'])){
+            if(currJSON['Secondary Source'] && ["898006288.json", "726699695.json"].includes(currJSON['Secondary Source'])){
                 
                 if(currJSON['Connect Value for Select all that apply questions']){
                     let isTB = false;
