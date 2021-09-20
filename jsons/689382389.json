@@ -1,0 +1,18 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "467061940.json",
+  "conceptId": "689382389",
+  "Question Text": "Enlarged Prostate age",
+  "Variable Label": "Enlarged Prostate age",
+  "Variable Name": "SrvBOH_EnlProstateAge_v1r0",
+  "Connect Value for Select all that apply questions": "ENLGPROS_AGE",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Connect Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if MHGROUP8= Enlarged Prostate",
+  "Date added or modified": "9/13/21",
+  "Quest_Src Question": "ENLGPROS"
+}

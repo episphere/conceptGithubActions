@@ -1,0 +1,49 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "conceptId": "769901710",
+  "Question Text": "Back pain/backache",
+  "Variable Label": "Back pain/backache",
+  "Variable Name": "SrvMRE_BackPain_v1r0",
+  "Connect Value for Select all that apply questions": "1",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "7/20/21",
+  "Source Question": [
+    "643807999.json",
+    "275143071.json",
+    "152138929.json",
+    "630231395.json",
+    "655266993.json",
+    "509383583.json",
+    "887435355.json"
+  ],
+  "Quest_Src Question": [
+    "207702932.json",
+    "981871370.json",
+    "484494800.json",
+    "845939262.json",
+    "219152227.json",
+    "593944411.json",
+    "541603756.json"
+  ],
+  "Old Quest Value": {
+    "643807999.json": "2",
+    "353358909.json": "1"
+  },
+  "Connect Value": {
+    "207702932.json": "0",
+    "353358909.json": "1"
+  },
+  "Notes": {
+    "918573169.json": "Only display if PAINREL1",
+    "349122068.json": "Only display if PAINREL1",
+    "156095877.json": "Only display if PAINREL1",
+    "162668459.json": "Only display if PAINREL1",
+    "278139969.json": "Only display if PAINREL1",
+    "676824724.json": "Only display if PAINREL1",
+    "512144428.json": "Only display if PAINREL1"
+  }
+}

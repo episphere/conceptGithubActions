@@ -1,0 +1,23 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "conceptId": "183572295",
+  "Question Text": "Did you lose weight on purpose between ages 35 and 45?",
+  "Variable Label": "Did you lose weight on purpose between ages 35 and 45?",
+  "Variable Name": "SrvBOH_LoseWeight3_v1r0",
+  "Connect Value for Select all that apply questions": "WTLOSS1_3545",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if flag for percent weight change 35-45 = yes",
+  "Date added or modified": "8/5/21",
+  "Old Quest Value": {
+    "104430631.json": "1",
+    "353358909.json": "2"
+  },
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

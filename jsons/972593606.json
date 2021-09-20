@@ -1,0 +1,23 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "745268907.json",
+  "conceptId": "972593606",
+  "Question Text": "Once your menstrual periods became regular, what was the usual length of your menstrual cycle? The length of a menstrual cycle is the number of days from the first day of one menstrual period to the first day of the next menstrual period.",
+  "Variable Label": "Usual length regular period",
+  "Variable Name": "SrvMRE_PeriodLength_v1r0",
+  "Connect Value for Select all that apply questions": "MENSHIS3_1",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "549031911.json": "1",
+    "858427002.json": "2",
+    "471375042.json": "3"
+  },
+  "Connect Value": {
+    "549031911.json": "0",
+    "858427002.json": "1",
+    "471375042.json": "2"
+  }
+}

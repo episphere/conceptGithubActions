@@ -1,0 +1,36 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "965707586.json",
+  "conceptId": "287673126",
+  "Question Text": "[During the year (s) you were drinking] when you were age [X / 18] to age [Y / 24], about how often did you drink alcohol?",
+  "Variable Label": "How often drink alcohol, Age [X / 18] to age [Y / 24]",
+  "Variable Name": "SrvSAS_AlcOften1824_v1r0",
+  "Connect Value for Select all that apply questions": "ALCLIFE2B",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "7/21/21",
+  "Old Quest Value": {
+    "265550580.json": "1",
+    "950039557.json": "2",
+    "402048066.json": "3",
+    "877881191.json": "4",
+    "756073829.json": "5",
+    "858624942.json": "6",
+    "132709023.json": "7",
+    "810264230.json": "8",
+    "333682419.json": "9"
+  },
+  "Connect Value": {
+    "265550580.json": "0",
+    "950039557.json": "1",
+    "402048066.json": "2",
+    "877881191.json": "3",
+    "756073829.json": "4",
+    "858624942.json": "5",
+    "132709023.json": "6",
+    "810264230.json": "7",
+    "333682419.json": "8"
+  }
+}

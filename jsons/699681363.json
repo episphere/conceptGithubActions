@@ -1,0 +1,27 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "965707586.json",
+  "conceptId": "699681363",
+  "Question Text": "On days that you used electronic marijuana delivery devices or tobacco when you were age [X / 30] to age [Y / 39 / current age], what is the total amount of time you used them per day?",
+  "Variable Label": "How much time electronic marijuana delivery devices used, [X / 30] to age [Y / 39 / current age]",
+  "Variable Name": "SrvSAS_EMJDev3039_v1r0",
+  "Connect Value for Select all that apply questions": "ELMARLIFED",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "428999623.json": "1",
+    "541577660.json": "2",
+    "812408975.json": "3",
+    "339365288.json": "4",
+    "206178969.json": "5"
+  },
+  "Connect Value": {
+    "428999623.json": "0",
+    "541577660.json": "1",
+    "812408975.json": "2",
+    "339365288.json": "3",
+    "206178969.json": "4"
+  }
+}

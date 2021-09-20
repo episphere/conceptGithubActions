@@ -1,0 +1,22 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "conceptId": "807431780",
+  "Question Text": "Sibling 1-You said you were born a twin, triplet, or other multiple. Is this sibling your twin, triplet, or multiple?",
+  "Variable Label": "Sibling 1 participant twin/multiple",
+  "Variable Name": "SrvBOH_Sibling1Mult_v1r0",
+  "Connect Value for Select all that apply questions": "MULT2",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Connect Format/Values - Only display if MULTBIRTH = 1, 2, 3",
+  "Old Quest Value": {
+    "104430631.json": "1",
+    "353358909.json": "2"
+  },
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

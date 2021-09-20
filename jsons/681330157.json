@@ -1,0 +1,18 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "986613440.json",
+  "conceptId": "681330157",
+  "Question Text": "bariatric surgery year",
+  "Variable Label": "bariatric surgery year",
+  "Variable Name": "SrvBOH_BarSurgYear_v1r0",
+  "Connect Value for Select all that apply questions": "BARSUR_YEAR",
+  "Variable Type": "Year",
+  "Variable Length": "4",
+  "Connect Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if MHGROUP9 = bariatric surgery",
+  "Date added or modified": "9/13/21",
+  "Quest_Src Question": "BARSUR"
+}
