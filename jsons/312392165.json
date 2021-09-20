@@ -1,7 +1,7 @@
 {
   "Primary Source": "129084651.json",
   "Secondary Source": "726699695.json",
-  "Source Question": "937166274.json",
+  "Source Question": "931470797.json",
   "conceptId": "312392165",
   "Question Text": "Syphilis diagnosis year",
   "Variable Label": "Syphilis diagnosis year",
@@ -9,9 +9,10 @@
   "Connect Value for Select all that apply questions": "SYPH_YEAR",
   "Variable Type": "Year",
   "Variable Length": "4",
-  "Connect Value": "yyyy",
+  "Connect Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if MHGROUP7= SYPHILIS",
+  "Date added or modified": "9/13/21",
   "Quest_Src Question": "SYPH"
 }
