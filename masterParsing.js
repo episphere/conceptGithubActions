@@ -271,6 +271,7 @@ function parseMasterModule(){
                                         //console.log(currJSON)
                                     }
                                     
+                                    console.log(masterJSON[currJSON['Source Question']])
                                     toInsert['questionText'] = masterJSON[currJSON['Source Question']]['Variable Name'];
                                 }
                                 
