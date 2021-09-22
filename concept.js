@@ -107,6 +107,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                     }
                     //console.log(currId)
                     let found = -1;
+                    //console.log(sourceJSONS.length)
                     for(let j = 0; j < sourceJSONS.length; j++){
                         let currJSON = sourceJSONS[j];
                         if(currId != '' && currJSON['conceptId'] == currId){
@@ -672,9 +673,45 @@ async function readFile(fileName){
     }
     let returned = processCluster(cluster, header, nameToConcept, varLabelIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList);
     excelOutput.push(returned)
+    //console.log(sourceJSONS)
     for(let i = 0; i < sourceJSONS.length; i++){
-        jsonList.push(sourceJSONS[i])
-        fs.writeFileSync('./jsons/' + sourceJSONS[i]['conceptId'] + '.json', JSON.stringify(sourceJSONS[i],null, 2));
+        let found = false;
+        let result = {};
+        for(let j = 0; j < jsonList.length; j++){
+            let currJ = jsonList[j];
+            let currS = sourceJSONS[i];
+            if(currJ.conceptId == currS.conceptId){
+                
+                let key;
+
+                for (key in currS) {
+                    if(currS.hasOwnProperty(key)){
+                        result[key] = currS[key];
+                    }
+                }
+
+                for (key in currJ) {
+                    if(currJ.hasOwnProperty(key)){
+                        result[key] = currJ[key];
+                        
+                    }
+                }
+                if(currJ.conceptId == "289664241"){
+                    console.log(result)
+                }
+                found = true;
+                jsonList[j] = result
+            }
+        }   
+        if(!found){
+            jsonList.push(sourceJSONS[i])
+            fs.writeFileSync('./jsons/' + sourceJSONS[i]['conceptId'] + '.json', JSON.stringify(sourceJSONS[i],null, 2));
+
+        }
+        else{
+            fs.writeFileSync('./jsons/' + sourceJSONS[i]['conceptId'] + '.json', JSON.stringify(result,null, 2))
+        }
+        
     }
     fs.writeFileSync('./jsons/varToConcept.json', JSON.stringify(nameToConcept))
     fs.writeFileSync('./jsons/conceptIds.txt', JSON.stringify(conceptIdList))
