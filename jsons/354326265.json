@@ -1,8 +1,22 @@
 {
   "conceptId": "354326265",
-  "Variable Name": "How old is your mother today?",
+  "Variable Name": "SrvBOH_MotherAge_v1r0",
   "subcollections": [
     "378988419.json",
     "354326265.json"
-  ]
+  ],
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "354326265.json",
+  "Question Text": "How old is your mother today?",
+  "Variable Label": "Mother age",
+  "Connect Value for Select all that apply questions": "MOMAGE",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Old Quest Value": "99= Don't know",
+  "Connect Value": "77 = Unavailable/Unknown",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "8/23/21",
+  "Quest_Src Question": "MOMAGE"
 }

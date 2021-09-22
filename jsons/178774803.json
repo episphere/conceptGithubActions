@@ -1,8 +1,22 @@
 {
   "conceptId": "178774803",
-  "Variable Name": "How old is your father today?",
+  "Variable Name": "SrvBOH_DadAge_v1r0",
   "subcollections": [
     "178774803.json",
     "334956961.json"
-  ]
+  ],
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "178774803.json",
+  "Question Text": "How old is your father today?",
+  "Variable Label": "father age",
+  "Connect Value for Select all that apply questions": "DADAGE",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Old Quest Value": "99= Don't know",
+  "Connect Value": "77 = Unavailable/Unknown",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "8/23/21",
+  "Quest_Src Question": "DADAGE"
 }

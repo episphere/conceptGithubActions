@@ -1,8 +1,28 @@
 {
   "conceptId": "236590500",
-  "Variable Name": "Child 1- How old was [CHILD INITIALS OR NICKNAME/your CHILD] when they died?",
+  "Variable Name": "SrvBOH_Chi1DeathAgeOther_v1r0",
   "subcollections": [
     "182786508.json",
     "236590500.json"
-  ]
+  ],
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "236590500.json",
+  "Question Text": "Child 1- How old was [CHILD INITIALS OR NICKNAME/your CHILD] when they died?",
+  "Variable Label": "Child 1 death age, other",
+  "Connect Value for Select all that apply questions": "CHILDDEATH",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "8/23/21",
+  "Quest_Src Question": "CHILDDEATH",
+  "Old Quest Value": {
+    "958239616.json": "1",
+    "495230752.json": "99"
+  },
+  "Connect Value": {
+    "958239616.json": "0",
+    "178420302.json": "77"
+  }
 }
