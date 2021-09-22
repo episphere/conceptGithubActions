@@ -947,7 +947,8 @@
     "Variable Name": "SrvBOH_DadLeukYr_v1r0"
   },
   "178774803": {
-    "Variable Name": "How old is your father today?"
+    "Variable Label": "father age",
+    "Variable Name": "SrvBOH_DadAge_v1r0"
   },
   "179559655": {
     "Variable Label": "Thyroid",
@@ -1719,7 +1720,8 @@
     "Variable Name": "SrvBOH_RussianLang_v1r0"
   },
   "236590500": {
-    "Variable Name": "Child 1- How old was [CHILD INITIALS OR NICKNAME/your CHILD] when they died?"
+    "Variable Label": "Child 1 death age, other",
+    "Variable Name": "SrvBOH_Chi1DeathAgeOther_v1r0"
   },
   "237817859": {
     "Variable Name": "Help Desk"
@@ -2377,7 +2379,8 @@
     "Variable Name": "SrvSAS_Cigar3039_v1r0"
   },
   "289664241": {
-    "Variable Name": "Gender - Do you think of yourself as:"
+    "Variable Label": "Gender",
+    "Variable Name": "SrvBOH_Gender_v1r0"
   },
   "289706761": {
     "Variable Label": "Mom Non-melanoma skin (basal or squamous) cancer age",
@@ -3003,7 +3006,8 @@
     "Variable Name": "SrvBOH_Meds2_v1r0"
   },
   "354326265": {
-    "Variable Name": "How old is your mother today?"
+    "Variable Label": "Mother age",
+    "Variable Name": "SrvBOH_MotherAge_v1r0"
   },
   "354436205": {
     "Variable Label": "Child 1 bladder cancer age",
@@ -3693,7 +3697,8 @@
     "Variable Name": "3 beers"
   },
   "412624121": {
-    "Variable Name": "What is the highest level of school that you have completed?"
+    "Variable Label": "Education level",
+    "Variable Name": "SrvBOH_EducLevel_v1r0"
   },
   "412757551": {
     "Variable Label": "Ecuadorian",
@@ -3806,9 +3811,6 @@
   "420091116": {
     "Variable Name": "2 beers"
   },
-  "420423416": {
-    "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had gout?"
-  },
   "420755312": {
     "Variable Label": "Birth to 5 years of age",
     "Variable Name": "SrvSAS_NumSmoke5_v1r0"
@@ -3833,14 +3835,12 @@
     "Variable Name": "SrvMRE_JogRunTime_v1r0"
   },
   "422714611": {
-    "Variable Name": "At what age did your mother die?"
+    "Variable Label": "Mother age at death",
+    "Variable Name": "SrvBOH_MomAgeDeath_v1r0"
   },
   "422829791": {
     "Variable Label": "Crohn's Disease age",
     "Variable Name": "SrvBOH_ChronsAge_v1r0"
-  },
-  "423547108": {
-    "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had endometriosis?"
   },
   "423631576": {
     "Variable Label": "High-intensity circuit training (such P90x or Crossfit)",
@@ -5080,7 +5080,7 @@
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Shingles (Herpes Zoster) ?"
   },
   "530742915": {
-    "Variable Name": "What type of business was this? [Select all that apply.]"
+    "Variable Name": "What type of business was this at your longest held job? [Select all that apply.]"
   },
   "531313956": {
     "Variable Name": "KPHI RRL"
@@ -5191,7 +5191,8 @@
     "Variable Name": "SrvMRE_BaseStatus_v1r0"
   },
   "537137982": {
-    "Variable Name": "Sibling 1- How old was [SIBLING INITIALS OR NICKNAME/your sibling] when they died?"
+    "Variable Label": "Sibling 1 age at death",
+    "Variable Name": "SrvBOH_Sib1AgeDeath_v1r0"
   },
   "537153788": {
     "Variable Label": "Skin cancer diagnosis",
@@ -5415,7 +5416,8 @@
     "Variable Name": "Full sibling"
   },
   "555481393": {
-    "Variable Name": "Orientation - Do you think of yourself as:"
+    "Variable Label": "Sexual orientation",
+    "Variable Name": "SrvBOH_SexOrient_v1r0"
   },
   "555555502": {
     "Variable Label": "Acetaminophen (such as Tylenol)",
@@ -6271,7 +6273,8 @@
     "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyE"
   },
   "628078826": {
-    "Variable Name": "At what age did your father die?"
+    "Variable Label": "father age at death",
+    "Variable Name": "SrvBOH_DadAgeDeath_v1r0"
   },
   "628137243": {
     "Variable Label": "Months cycles hCG",
@@ -6425,7 +6428,8 @@
     "Variable Name": "RcrtES_Aware_v1r0_Phone"
   },
   "640010727": {
-    "Variable Name": "Child 1- How old is [CHILD INITIALS OR NICKNAME/your CHILD] today?"
+    "Variable Label": "Child 1 age, other",
+    "Variable Name": "SrvBOH_Child1AgeOther_v1r0"
   },
   "640489106": {
     "Variable Label": "Child 1 Leukemia (blood and bone marrow) cancer year",
@@ -6447,7 +6451,8 @@
     "Variable Name": "SrvBOH_ManufacturingC_v1r0"
   },
   "641651634": {
-    "Variable Name": "How many people currently live in your household? Please include yourself in the total number. (Include students living away at school, deployed military, etc.)"
+    "Variable Label": "People in house prefer not to answer",
+    "Variable Name": "SrvBOH_PplHouseNoAns_v1r0"
   },
   "642004888": {
     "Variable Label": "Danazol",
@@ -7226,6 +7231,9 @@
   "700100953": {
     "Variable Label": "Prostate",
     "Variable Name": "SrvBOH_Prostate_v1r0"
+  },
+  "700374192": {
+    "Variable Name": "What type of business was this at your current employer? [Select all that apply.]"
   },
   "700773214": {
     "Variable Label": "Gallstones (Biliary Stones) year",
@@ -9167,9 +9175,6 @@
     "Variable Label": "None of these fully describe me. Please describe [text box]",
     "Variable Name": "SrvBOH_NoneDescribeRE4_v1r0"
   },
-  "852898339": {
-    "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had polycystic ovary syndrome (PCOS)?"
-  },
   "853261835": {
     "Variable Label": "Illness, cold/flu, fever",
     "Variable Name": "SrvMRE_Illness_v1r0"
@@ -9423,7 +9428,8 @@
     "Variable Name": "SrvMRE_Strengthening_v1r0"
   },
   "869387390": {
-    "Variable Name": "Sibling 1- How old is [SIBLING INITIALS OR NICKNAME/your sibling] today?"
+    "Variable Label": "Sibling 1 age",
+    "Variable Name": "SrvBOH_Sib1Age_v1r0"
   },
   "869556831": {
     "Variable Label": "Use e-cigarettes or other vaping devices every day, months",
