@@ -30,9 +30,10 @@ function parseMasterModule(){
         if(currJSON['Primary Source'] && currJSON['Primary Source'] === "129084651.json"){
             //Checks for module name
             // "898006288.json", "726699695.json"
-            //if(currJSON['Secondary Source'] && ["745268907.json","965707586.json","898006288.json", "726699695.json"].includes(currJSON['Secondary Source'])){
-            if(currJSON['Secondary Source'] && ["898006288.json", "726699695.json"].includes(currJSON['Secondary Source'])){
+            if(currJSON['Secondary Source'] && ["745268907.json","965707586.json","898006288.json", "726699695.json"].includes(currJSON['Secondary Source'])){
+            //if(currJSON['Secondary Source'] && ["898006288.json", "726699695.json"].includes(currJSON['Secondary Source'])){
                 
+            //if(currJSON['Secondary Source'] && ["640213240.json"].includes(currJSON['Secondary Source'])){
                 if(currJSON['Connect Value for Select all that apply questions']){
                     let isTB = false;
                     let header = currJSON['Connect Value for Select all that apply questions'];
@@ -42,8 +43,20 @@ function parseMasterModule(){
                         //console.log(currJSON)
                         //console.log(headerName)
                     }
-                    if(!currJSON['Quest_Src Question']){                    
-
+                    console.log(currJSON['Quest_Src Question'])
+                    console.log(currJSON)
+                    if(!currJSON['Quest_Src Question'] || (!Array.isArray(currJSON['Quest_Src Question']) && currJSON['Quest_Src Question'].toLowerCase().includes('grid_'))){                    
+                        if(currJSON['Quest_Src Question'] && currJSON['Quest_Src Question'].toLowerCase().includes('grid_')){
+                            if(currJSON['Source Question']){
+                            console.log(currJSON)
+                            toReturn[currJSON['Quest_Src Question']] = {
+                                'conceptId':currJSON['Source Question'].substring(0,9),
+                                'questionText':masterJSON[currJSON['Source Question']]['Variable Name']
+                            }
+                            console.log(currJSON['Quest_Src Question'])
+                            console.log(toReturn[currJSON['Quest_Src Question']])
+                        }
+                        }
                         if(currJSON['Connect Value'] && Array.isArray(currJSON['Connect Value'])){
                             isTB = false;
                             let keys = Object.keys(currJSON['Connect Value'])
@@ -175,6 +188,7 @@ function parseMasterModule(){
                         
                         headerName = currJSON['Quest_Src Question'];
                         if(!Array.isArray(headerName)){
+                            
                             if(headerName == currJSON['Connect Value for Select all that apply questions']){
                                 //console.log('EQUALS')
                                 //console.log(headerName);
@@ -226,7 +240,7 @@ function parseMasterModule(){
                                          toInsert['questIds'] = {}
                                      }
                                     //toInsert['questIds'] = {}
-                                    console.log(masterJSON[valNum])
+                                    //console.log(masterJSON[valNum])
                                     
                                     toInsert['questIds'][keyNum.toUpperCase()] = {
                                         "conceptId":valNum.substring(0,9),
@@ -271,7 +285,6 @@ function parseMasterModule(){
                                         //console.log(currJSON)
                                     }
                                     
-                                    console.log(masterJSON[currJSON['Source Question']])
                                     toInsert['questionText'] = masterJSON[currJSON['Source Question']]['Variable Name'];
                                 }
                                 
