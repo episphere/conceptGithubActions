@@ -9,11 +9,13 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Sent with de-identified individual demographic variables when participants moved from Eligibility pool to active recruits with submitParticipantsData API call.",
   "Dictionary": "Recruitment Data Dictionary",
   "State Attribute": "Yes",
   "Default Variable": "No",
-  "Date added or modified": "3/25/21",
+  "Date added or modified": "9/20/21",
+  "Notes": {
+    "652372266.json": "For passive recruits, 88"
+  },
   "Format/Value": {
     "926338735.json": "0",
     "348281054.json": "1",
@@ -24,6 +26,7 @@
     "682916147.json": "6",
     "153365143.json": "7",
     "663706936.json": "8",
-    "438483626.json": "55"
+    "181769837.json": "55",
+    "654710226.json": "88"
   }
 }
