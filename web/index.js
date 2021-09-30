@@ -7,6 +7,7 @@ window.onload = async () => {
     addEventSearchConcepts(concepts);
     const element = manageScroll();
     element.scrollIntoView();
+    element.querySelector('.collapsable-btn').click()
 }
 
 window.onhashchange = () => {
@@ -31,7 +32,7 @@ const sortKeys = (obj) => {
 const manageScroll = () => {	
     const hash = location.hash;	
     if(!hash) return;	
-    const element = document.getElementById(hash.replace('#', 'heading'));	
+    const element = document.getElementById(hash.replace('#', 'heading'));
     return element;	
 }
 
