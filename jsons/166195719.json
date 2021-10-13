@@ -3,7 +3,7 @@
   "Secondary Source": "726699695.json",
   "Source Question": "301679110.json",
   "conceptId": "166195719",
-  "Question Text": "Year at diagnosis",
+  "Question Text": "Diabetes year",
   "Variable Label": "Diabetes year",
   "Variable Name": "SrvBOH_DiabetesYear_v1r0",
   "Connect Value for Select all that apply questions": "DM2_YEAR",
@@ -13,6 +13,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if MHGROUP4 = diabetes",
-  "Default Variable": "9/28/21",
-  "Date added or modified": "DM2"
+  "Date added or modified": "9/13/21",
+  "Quest_Src Question": "DM2"
 }

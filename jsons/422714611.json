@@ -1,0 +1,22 @@
+{
+  "conceptId": "422714611",
+  "Variable Name": "SrvBOH_MomAgeDeath_v1r0",
+  "subcollections": [
+    "422714611.json",
+    "807765962.json"
+  ],
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "422714611.json",
+  "Question Text": "At what age did your mother die?",
+  "Variable Label": "Mother age at death",
+  "Connect Value for Select all that apply questions": "MOMDEATH",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Old Quest Value": "99= Don't know",
+  "Connect Value": "77 = Unavailable/Unknown",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "8/23/21",
+  "Quest_Src Question": "MOMDEATH"
+}

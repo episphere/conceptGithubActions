@@ -1,18 +1,22 @@
 {
+  "conceptId": "289664241",
+  "Variable Name": "SrvBOH_Gender_v1r0",
+  "subcollections": [
+    "289664241.json",
+    "918409306.json"
+  ],
   "Primary Source": "129084651.json",
   "Secondary Source": "726699695.json",
-  "Source Question": "326111721.json",
-  "conceptId": "289664241",
+  "Source Question": "289664241.json",
   "Question Text": "Gender-Do you think of yourself as:",
   "Variable Label": "Gender",
-  "Variable Name": "SrvBOH_Gender_v1r0",
   "Connect Value for Select all that apply questions": "GEN",
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Default Variable": "9/23/21",
-  "Date added or modified": "GEN",
+  "Date added or modified": "9/23/21",
+  "Quest_Src Question": "GEN",
   "Old Quest Value": {
     "536341288.json": "1",
     "654207589.json": "2",
@@ -28,7 +32,7 @@
     "405267600.json": "2",
     "873138103.json": "3",
     "805712793.json": "4",
-    "813003415.json": "55",
+    "503788167.json": "55",
     "746038746.json": "99"
   }
 }

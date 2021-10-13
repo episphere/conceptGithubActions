@@ -3,7 +3,7 @@
   "Secondary Source": "726699695.json",
   "Source Question": "986613440.json",
   "conceptId": "701709442",
-  "Question Text": "Age at diagnosis",
+  "Question Text": "bariatric surgery age",
   "Variable Label": "bariatric surgery age",
   "Variable Name": "SrvBOH_BarSurgAge_v1r0",
   "Connect Value for Select all that apply questions": "BARSUR_AGE",
@@ -13,6 +13,5 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if MHGROUP9 = bariatric surgery",
-  "Default Variable": "9/28/21",
-  "Date added or modified": "BARSUR"
+  "Quest_Src Question": "BARSUR"
 }

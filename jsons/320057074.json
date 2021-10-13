@@ -3,7 +3,7 @@
   "Secondary Source": "726699695.json",
   "Source Question": "681229479.json",
   "conceptId": "320057074",
-  "Question Text": "Age at diagnosis",
+  "Question Text": "chest pain (angina)diagnosis age",
   "Variable Label": "chest pain (angina) diagnosis age",
   "Variable Name": "SrvBOH_ChestPainAge_v1r0",
   "Connect Value for Select all that apply questions": "CHESTPAIN_AGE",
@@ -13,6 +13,5 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if MHGROUP1 = chest pain",
-  "Default Variable": "9/28/21",
-  "Date added or modified": "CHESTPAIN"
+  "Quest_Src Question": "CHESTPAIN"
 }

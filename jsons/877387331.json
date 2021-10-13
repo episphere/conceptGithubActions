@@ -1,0 +1,27 @@
+{
+  "Primary Source": "129084651.json",
+  "Secondary Source": "965707586.json",
+  "conceptId": "877387331",
+  "Question Text": "On days that you [smoke/smoked] marijuana, what is the total amount of time you [smoke/smoked] per day?",
+  "Variable Label": "Total amount of time used marijuana  per day",
+  "Variable Name": "SrvSAS_TotTmMJUse_v1r0",
+  "Connect Value for Select all that apply questions": "SMMAR9A",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "428999623.json": "1",
+    "541577660.json": "2",
+    "812408975.json": "3",
+    "339365288.json": "4",
+    "206178969.json": "5"
+  },
+  "Connect Value": {
+    "428999623.json": "0",
+    "541577660.json": "1",
+    "812408975.json": "2",
+    "339365288.json": "3",
+    "206178969.json": "4"
+  }
+}

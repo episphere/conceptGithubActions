@@ -1,9 +1,9 @@
 {
   "Primary Source": "129084651.json",
   "Secondary Source": "726699695.json",
-  "Source Question": "469947273.json",
+  "Source Question": "852898339.json",
   "conceptId": "210695876",
-  "Question Text": "Year at diagnosis",
+  "Question Text": "Polycystic Ovary Syndrome (PCOS) year",
   "Variable Label": "Polycystic Ovary Syndrome (PCOS) year",
   "Variable Name": "SrvBOH_PCOSYear_v1r0",
   "Connect Value for Select all that apply questions": "PCOS_YEAR",
@@ -13,6 +13,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if MHGROUP8= Polycystic Ovary Syndrome (PCOS)",
-  "Default Variable": "9/28/21",
-  "Date added or modified": "PCOS"
+  "Date added or modified": "9/13/21",
+  "Quest_Src Question": "PCOS"
 }

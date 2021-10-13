@@ -1,0 +1,21 @@
+{
+  "conceptId": "641651634",
+  "Variable Name": "SrvBOH_PplHouseNoAns_v1r0",
+  "subcollections": [
+    "173508724.json",
+    "641651634.json"
+  ],
+  "Primary Source": "129084651.json",
+  "Secondary Source": "726699695.json",
+  "Source Question": "641651634.json",
+  "Question Text": "How many people currently live in your household? Please include yourself in the total number. (Include students living away at school, deployed military, etc.)",
+  "Variable Label": "People in house prefer not to answer",
+  "Connect Value for Select all that apply questions": "PPLHOUSE",
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Connect Value": "99 = Declined",
+  "Required": "No",
+  "PII": "Yes",
+  "Date added or modified": "9/14/21",
+  "Quest_Src Question": "PPLHOUSE"
+}

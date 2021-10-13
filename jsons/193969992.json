@@ -3,7 +3,7 @@
   "Secondary Source": "726699695.json",
   "Source Question": "469947273.json",
   "conceptId": "193969992",
-  "Question Text": "Age at diagnosis",
+  "Question Text": "Chronic Hepatitis B or C diagnosis age",
   "Variable Label": "Chronic Hepatitis B or C diagnosis age",
   "Variable Name": "SrvBOH_HepatitisAge_v1r0",
   "Connect Value for Select all that apply questions": "HBVHCV_AGE",
@@ -13,6 +13,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if MHGROUP7= Chronic Hepatitis B or C",
-  "Default Variable": "9/28/21",
-  "Date added or modified": "HBVHCV"
+  "Date added or modified": "9/13/21",
+  "Quest_Src Question": "HBVHCV"
 }

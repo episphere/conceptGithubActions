@@ -1,18 +1,22 @@
 {
+  "conceptId": "555481393",
+  "Variable Name": "SrvBOH_SexOrient_v1r0",
+  "subcollections": [
+    "555481393.json",
+    "979809707.json"
+  ],
   "Primary Source": "129084651.json",
   "Secondary Source": "726699695.json",
-  "Source Question": "611633812.json",
-  "conceptId": "555481393",
+  "Source Question": "555481393.json",
   "Question Text": "Orientation - Do you think of yourself as:",
   "Variable Label": "Sexual orientation",
-  "Variable Name": "SrvBOH_SexOrient_v1r0",
   "Connect Value for Select all that apply questions": "SEXORIENT",
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Default Variable": "9/14/21",
-  "Date added or modified": "SEXORIENT",
+  "Date added or modified": "9/14/21",
+  "Quest_Src Question": "SEXORIENT",
   "Old Quest Value": {
     "271882746.json": "1",
     "903084185.json": "2",
@@ -24,7 +28,7 @@
     "271882746.json": "0",
     "903084185.json": "1",
     "999994434.json": "2",
-    "813003415.json": "55",
+    "503788167.json": "55",
     "746038746.json": "99"
   }
 }
