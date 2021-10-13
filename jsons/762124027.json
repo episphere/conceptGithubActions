@@ -10,9 +10,9 @@
   "Required": "Autoflag as yes if Deviation-broken equals YES",
   "PII": "No",
   "Notes": "Default is no, Autoflag as yes if BioCol_Dev_v1r0_Broken equals YES or if BioCol_Dev_v1r0_Volume equals YES",
-  "Dictionary": "Biospecimen Clinical, Biospecimen Research",
-  "State Attribute": "No",
-  "Default Variable": "Yes",
+  "Derivation Notes": "Biospecimen Clinical, Biospecimen Research",
+  "Dictionary": "No",
+  "State Attribute": "Yes",
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

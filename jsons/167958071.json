@@ -8,10 +8,9 @@
   "Variable Type": "Num",
   "Variable Length": "1",
   "Notes": "For display at check-in and check out.  Currently, place holders, but will maintain the Concept IDs when variables are created. These will be derived from other variables in the biospecimen dictionary. Derivation should come from both biospecimen clinical and biospecimen research",
-  "Derivation Notes": "BioCol_TubeCollected_v1r0 equals1 for urine tube (BioCol_0006_v1r0) AND visit equals baseline which is defined as BioSpm_Visit_v1r0 equals 0 then BioFin_BaseUrineCol_v1r0 equals 1",
-  "Dictionary": "Biospecimen Research",
+  "Derivation Notes": "Biospecimen Research",
+  "Dictionary": "No",
   "State Attribute": "No",
-  "Default Variable": "No",
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

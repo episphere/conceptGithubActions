@@ -11,8 +11,7 @@
   "Required": "Yes",
   "PII": "No",
   "Notes": "Repeated measures associated with Round for display on study manager dashboard",
-  "Derivation Notes": "If BioFin_UoCPaymRef_v1r0 equals 1 then SMPaym_JointTmRefused_v1r0 equals BioFin_TmPaymRef_v1r0, If HDPaym_PaymRefused_v1r0 equals 1 then SMPaym_JointTmRefused_v1r0 equals HDPaym_TmRefused_v1r0",
-  "Dictionary": "Study Manager",
-  "State Attribute": "No",
-  "Default Variable": "No"
+  "Derivation Notes": "Study Manager",
+  "Dictionary": "No",
+  "State Attribute": "No"
 }

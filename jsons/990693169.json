@@ -10,10 +10,9 @@
   "Required": "Yes",
   "PII": "No",
   "Notes": "Repeated measures associated with Round. For display on study manager dashboard indicates whether payment issued",
-  "Derivation Notes": "If BioFin_UoCPayment_v1r0 equals 1 or HDPaym_PaymIssued_v1r0 equals 1 then SMPaym_JointPaymIssued_v1r0 equals 1 else 0",
-  "Dictionary": "Study Manager",
+  "Derivation Notes": "Study Manager",
+  "Dictionary": "No",
   "State Attribute": "No",
-  "Default Variable": "No",
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

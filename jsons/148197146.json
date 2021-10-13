@@ -10,15 +10,15 @@
   "Required": "If RcrtV_Verification_v1r0 equals 3",
   "PII": "No",
   "Notes": "Sent as part of the verification table from the IHCS.",
-  "Dictionary": "Master Data Dictionary",
-  "State Attribute": "Yes",
-  "Default Variable": "No",
-  "Date added or modified": "9/20/21",
+  "Derivation Notes": "Master Data Dictionary",
+  "Dictionary": "Yes",
+  "State Attribute": "No",
+  "Default Variable": "10/4/21",
   "Format/Value": {
     "638335430.json": "0",
-    "283434980.json": "2",
-    "866029623.json": "3",
-    "654558118.json": "4",
-    "979256174.json": "5"
+    "283434980.json": "1",
+    "866029623.json": "2",
+    "654558118.json": "3",
+    "979256174.json": "4"
   }
 }

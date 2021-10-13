@@ -3,7 +3,7 @@
   "Secondary Source": "726699695.json",
   "Source Question": "448722126.json",
   "conceptId": "584827172",
-  "Question Text": "Chronic lung disease (Emphysema, Chronic Bronchitis, or Chronic Obstructive Pulmonary Disease (COPD)) diagnosis age",
+  "Question Text": "Age at diagnosis",
   "Variable Label": "Chronic lung disease (Emphysema, Chronic Bronchitis, or Chronic Obstructive Pulmonary Disease (COPD)) diagnosis age",
   "Variable Name": "SrvBOH_CLDAge_v1r0",
   "Connect Value for Select all that apply questions": "COPD_AGE",
@@ -13,6 +13,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if MHGROUP2 = COPD",
-  "Date added or modified": "9/13/21",
-  "Quest_Src Question": "COPD"
+  "Default Variable": "9/28/21",
+  "Date added or modified": "COPD"
 }

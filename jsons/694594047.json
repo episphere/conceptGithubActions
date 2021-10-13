@@ -3,7 +3,7 @@
   "Secondary Source": "726699695.json",
   "Source Question": "460062034.json",
   "conceptId": "694594047",
-  "Question Text": "blood clots (deep vein thrombosis, pulmonary embolism)diagnosis year",
+  "Question Text": "Year at diagnosis",
   "Variable Label": "blood clots (deep vein thrombosis, pulmonary embolism)diagnosis year",
   "Variable Name": "SrvBOH_BloodClotYr_v1r0",
   "Connect Value for Select all that apply questions": "BLOODCLOT_YEAR",
@@ -13,6 +13,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if MHGROUP1 = blood clots",
-  "Date added or modified": "9/13/21",
-  "Quest_Src Question": "BLOODCLOT"
+  "Default Variable": "9/28/21",
+  "Date added or modified": "BLOODCLOT"
 }
