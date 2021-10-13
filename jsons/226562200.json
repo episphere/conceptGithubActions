@@ -10,9 +10,9 @@
   "Required": "Yes - if used",
   "PII": "No",
   "Notes": "Default is No, should be check if additional labels are used.  This probably needs to be added to the dashboard.",
-  "Derivation Notes": "Biospecimen Clinical, Biospecimen Research",
-  "Dictionary": "No",
-  "State Attribute": "Yes",
+  "Dictionary": "Biospecimen Clinical, Biospecimen Research",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

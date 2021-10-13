@@ -11,8 +11,9 @@
   "Required": "Yes if SMPaym_PaymElig_v1r0 equals 1",
   "PII": "No",
   "Notes": "Date/time would be the date/time stamp of the last of the activities that make them eligible for payment.",
-  "Derivation Notes": "Study Manager Data Dictionary",
-  "Dictionary": "No",
+  "Derivation Notes": "Repeated measures variable associated with Round.",
+  "Dictionary": "Study Manager Data Dictionary",
   "State Attribute": "No",
-  "Default Variable": "3/26/21"
+  "Default Variable": "No",
+  "Date added or modified": "3/26/21"
 }

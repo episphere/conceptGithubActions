@@ -10,9 +10,9 @@
   "Required": "Yes",
   "PII": "No",
   "Notes": "These are the most rolled up versions of the de-identified demographic variables the sites agreed to send, however,  other formats for this data (e.g. Age as a continuous variable) can be accepted.",
-  "Derivation Notes": "Recruitment Data Dictionary",
-  "Dictionary": "Yes",
-  "State Attribute": "No",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "Yes",
+  "Default Variable": "No",
   "Format/Value": {
     "124276120.json": "0",
     "450985724.json": "1",
