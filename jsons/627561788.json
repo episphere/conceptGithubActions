@@ -1,9 +1,9 @@
 {
   "Primary Source": "129084651.json",
   "Secondary Source": "726699695.json",
-  "Source Question": "423547108.json",
+  "Source Question": "530548878.json",
   "conceptId": "627561788",
-  "Question Text": "Endometriosis year",
+  "Question Text": "Year at diagnosis",
   "Variable Label": "Endometriosis year",
   "Variable Name": "SrvBOH_EndoYear_v1r0",
   "Connect Value for Select all that apply questions": "ENDO_YEAR",
@@ -13,6 +13,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if MHGROUP8= Endometriosis",
-  "Date added or modified": "9/13/21",
-  "Quest_Src Question": "ENDO"
+  "Default Variable": "9/28/21",
+  "Date added or modified": "ENDO"
 }

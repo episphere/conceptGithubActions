@@ -3,7 +3,7 @@
   "Secondary Source": "726699695.json",
   "Source Question": "907776050.json",
   "conceptId": "735764211",
-  "Question Text": "Child 1 Lymphoma cancer age",
+  "Question Text": "Age at diagnosis",
   "Variable Label": "Child 1 Lymphoma cancer age",
   "Variable Name": "SrvBOH_C1LymphomaAge_v1r0",
   "Connect Value for Select all that apply questions": "CHILDCANC3N_AGE",
@@ -13,5 +13,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Connect Format/Values - Only display if SIBCANC2= 13",
-  "Quest_Src Question": "CHILDCANC3N"
+  "Default Variable": "9/28/21",
+  "Date added or modified": "CHILDCANC3N"
 }

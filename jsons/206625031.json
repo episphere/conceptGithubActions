@@ -3,7 +3,7 @@
   "Secondary Source": "726699695.json",
   "Source Question": "904550680.json",
   "conceptId": "206625031",
-  "Question Text": "Skin cancer diagnosis age",
+  "Question Text": "Age at diagnosis",
   "Variable Label": "Skin cancer diagnosis age",
   "Variable Name": "SrvBOH_SkinCancAge_v1r0",
   "Connect Value for Select all that apply questions": "SKINCANC3_AGE",
@@ -13,5 +13,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display is SKINCANC = 1",
-  "Quest_Src Question": "SKINCANC3"
+  "Default Variable": "9/28/21",
+  "Date added or modified": "SKINCANC3"
 }

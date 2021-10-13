@@ -3,7 +3,7 @@
   "Secondary Source": "726699695.json",
   "Source Question": "219956652.json",
   "conceptId": "440662483",
-  "Question Text": "DCIS age",
+  "Question Text": "Age at diagnosis",
   "Variable Label": "DCIS age",
   "Variable Name": "SrvBOH_DCISAge_v1r0",
   "Connect Value for Select all that apply questions": "DCIS_AGE",
@@ -13,6 +13,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if MHGROUP8= Ductal Carcinoma in situ (DCIS)",
-  "Date added or modified": "9/13/21",
-  "Quest_Src Question": "BREASTDIS3"
+  "Default Variable": "9/28/21",
+  "Date added or modified": "BREASTDIS3"
 }

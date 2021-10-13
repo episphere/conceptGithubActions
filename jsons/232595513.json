@@ -3,7 +3,7 @@
   "Secondary Source": "726699695.json",
   "Source Question": "122887481.json",
   "conceptId": "232595513",
-  "Question Text": "tubes tied (tubal ligation) age",
+  "Question Text": "Age at diagnosis",
   "Variable Label": "tubes tied (tubal ligation) age",
   "Variable Name": "SrvBOH_TubLigAge_v1r0",
   "Connect Value for Select all that apply questions": "TUBLIG_AGE",
@@ -13,5 +13,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if MHGROUP9 = tubes tied (tubal ligation)",
-  "Quest_Src Question": "TUBLIG"
+  "Default Variable": "9/28/21",
+  "Date added or modified": "TUBLIG"
 }

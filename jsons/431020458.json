@@ -3,7 +3,7 @@
   "Secondary Source": "726699695.json",
   "Source Question": "337278854.json",
   "conceptId": "431020458",
-  "Question Text": "Abnormal heart rhythm (arrhythmia) diagnosis age",
+  "Question Text": "Age at diagnosis",
   "Variable Label": "Abnormal heart rhythm (arrhythmia) diagnosis age",
   "Variable Name": "SrvBOH_AHRAge_v1r0",
   "Connect Value for Select all that apply questions": "ARRHYT_AGE",
@@ -13,5 +13,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if MHGROUP1 = abnormal heart rhythm",
-  "Quest_Src Question": "ARRHYT"
+  "Default Variable": "9/28/21",
+  "Date added or modified": "ARRHYT"
 }

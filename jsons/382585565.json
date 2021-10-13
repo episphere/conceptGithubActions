@@ -3,7 +3,7 @@
   "Secondary Source": "726699695.json",
   "Source Question": "534007917.json",
   "conceptId": "382585565",
-  "Question Text": "oophorectomy age",
+  "Question Text": "Age at diagnosis",
   "Variable Label": "oophorectomy age",
   "Variable Name": "SrvBOH_OophorecAge_v1r0",
   "Connect Value for Select all that apply questions": "OVARYREM2_AGE",
@@ -13,5 +13,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if MHGROUP9 = oophorectomy",
-  "Quest_Src Question": "OVARYREM2"
+  "Default Variable": "9/28/21",
+  "Date added or modified": "OVARYREM2"
 }

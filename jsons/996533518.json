@@ -3,7 +3,7 @@
   "Secondary Source": "726699695.json",
   "Source Question": "275770221.json",
   "conceptId": "996533518",
-  "Question Text": "testicle removal surgery age",
+  "Question Text": "Age at diagnosis",
   "Variable Label": "testicle removal surgery age",
   "Variable Name": "SrvBOH_TestRemSurgAge_v1r0",
   "Connect Value for Select all that apply questions": "TESTREM2_AGE",
@@ -13,5 +13,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if MHGROUP9 = testicle removal surgery",
-  "Quest_Src Question": "TESTREM2"
+  "Default Variable": "9/28/21",
+  "Date added or modified": "TESTREM2"
 }

@@ -3,7 +3,7 @@
   "Secondary Source": "726699695.json",
   "Source Question": "483975329.json",
   "conceptId": "603180043",
-  "Question Text": "Sibling 1 bladder cancer age",
+  "Question Text": "Age at diagnosis",
   "Variable Label": "Sibling 1 bladder cancer age",
   "Variable Name": "SrvBOH_S1BlCancAge_v1r0",
   "Connect Value for Select all that apply questions": "SIBCANC3B_AGE",
@@ -13,5 +13,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Connect Format/Values - Only display if SIBCANC2= 1",
-  "Quest_Src Question": "SIBCANC3B"
+  "Default Variable": "9/28/21",
+  "Date added or modified": "SIBCANC3B"
 }

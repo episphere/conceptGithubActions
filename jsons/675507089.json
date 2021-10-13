@@ -3,7 +3,7 @@
   "Secondary Source": "726699695.json",
   "Source Question": "337278854.json",
   "conceptId": "675507089",
-  "Question Text": "Abnormal heart rhythm (arrhythmia) diagnosis year",
+  "Question Text": "Year at diagnosis",
   "Variable Label": "Abnormal heart rhythm (arrhythmia) diagnosis year",
   "Variable Name": "SrvBOH_AHRYear_v1r0",
   "Connect Value for Select all that apply questions": "ARRHYT_YEAR",
@@ -13,6 +13,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if MHGROUP1 = abnormal heart rhythm",
-  "Date added or modified": "9/13/21",
-  "Quest_Src Question": "ARRHYT"
+  "Default Variable": "9/28/21",
+  "Date added or modified": "ARRHYT"
 }
