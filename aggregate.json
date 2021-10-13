@@ -441,6 +441,10 @@
     "Variable Label": "Often drink other alcoholic beverages, past 12 months",
     "Variable Name": "SrvSAS_OthAlcOften12Mo_v1r0"
   },
+  "134370393": {
+    "Variable Label": "Breast part removal year",
+    "Variable Name": "SrvBOH_BreastPtRemYr_v1r0"
+  },
   "134508650": {
     "Variable Label": "Breast",
     "Variable Name": "SrvBOH_DBreastCancer_v1r0"
@@ -807,7 +811,7 @@
     "Variable Name": "SrvBOH_AcneSawDocAge_v1r0"
   },
   "164910211": {
-    "Variable Label": "Infectious Mononucleosis (â€œMonoâ€ or â€œKissing Diseaseâ€)",
+    "Variable Label": "Infectious Mononucleosis (“Mono” or “Kissing Disease”)",
     "Variable Name": "SrvBOH_Mono_v1r0"
   },
   "166195719": {
@@ -2376,6 +2380,10 @@
     "Variable Label": "Address line 1",
     "Variable Name": "SrvBOH_AddressL1_v1r0"
   },
+  "284762776": {
+    "Variable Label": "Breast lactiferous duct removal year",
+    "Variable Name": "SrvBOH_BreastLacRemYr_v1r0"
+  },
   "285130077": {
     "Variable Label": "Video",
     "Variable Name": "RcrtES_Aware_v1r0_Video"
@@ -2405,6 +2413,9 @@
   },
   "286592155": {
     "Variable Name": "Never smoked on a regular basis"
+  },
+  "287476303": {
+    "Variable Name": "How old were you when you had surgery for a breast abscess (such as incision and draining)?"
   },
   "287673126": {
     "Variable Label": "How often drink alcohol, Age [X / 18] to age [Y / 24]",
@@ -2447,6 +2458,10 @@
   "290010251": {
     "Variable Name": "5 glasses"
   },
+  "290250913": {
+    "Variable Label": "Breast other age",
+    "Variable Name": "SrvBOH_BreastOthAge_v1r0"
+  },
   "291707744": {
     "Variable Label": "Age estrogen-only skin gel, cream, or spray-on medication first use",
     "Variable Name": "SrvMRE_AgeEstGelUseF_v1r0"
@@ -2465,6 +2480,10 @@
   "293289426": {
     "Variable Label": "Other alcoholic beverages (such as wine coolers, \"\"hard soda,\"\" spiked seltzer (sparkling water), Smirnoff Ice, malt liquor, or pre-mixed cocktails)",
     "Variable Name": "SrvSAS_OtherAlc17_v1r0"
+  },
+  "293757507": {
+    "Variable Label": "Breast double removal year",
+    "Variable Name": "SrvBOH_BreastDblRemYr_v1r0"
   },
   "295472931": {
     "Variable Label": "Currently using oral progestin-only medication",
@@ -2675,6 +2694,9 @@
   "312545873": {
     "Variable Name": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had cancer?"
   },
+  "314823256": {
+    "Variable Name": "How old were you when you had removal of one breast (mastectomy)?"
+  },
   "315421706": {
     "Variable Label": "Dad Thyroid cancer year",
     "Variable Name": "SrvBOH_DadThyCancYr_v1r0"
@@ -2814,10 +2836,6 @@
     "Variable Label": "Use hookah or water pipe  every day, months",
     "Variable Name": "SrvSAS_HookahED_v1r0"
   },
-  "326574941": {
-    "Variable Label": "breast surgery age",
-    "Variable Name": "SrvBOH_BreastSurgAge_v1r0"
-  },
   "326604981": {
     "Variable Label": "Filipino",
     "Variable Name": "SrvBOH_Filipino_v1r0"
@@ -2847,6 +2865,9 @@
   "329412543": {
     "Variable Label": "Cigars, cigarillos, or little filtered cigars; some of the most popular brands include Macanudo, Romeo y Julieta, Black and Mild, Swisher Sweets, Prime Time, and Cheyenne. Please do not include blunts as we will be asking about marijuana use in a later section.",
     "Variable Name": "SrvSAS_Cigarillos_v1r0"
+  },
+  "330173203": {
+    "Variable Name": "Advanced degree Master's, Doctorate, etc."
   },
   "330745988": {
     "Variable Name": "My periods stopped because I began taking female hormones during the menopausal transition or menopause (\"\"\"\"\"\"\"\"the change of life\"\"\"\"\"\"\"\")"
@@ -3000,6 +3021,10 @@
     "Variable Label": "How many times marijana with tobacco used, [X / 40] to age [Y / 49 / current age]",
     "Variable Name": "SrvSAS_TmUseTobMJ4049_v1r0"
   },
+  "347177615": {
+    "Variable Label": "Breast double removal age",
+    "Variable Name": "SrvBOH_BreastDblRemAge_v1r0"
+  },
   "347614743": {
     "Variable Label": "Too many contacts from the study",
     "Variable Name": "RcrtSI_OptOut_v1r0_contacts"
@@ -3085,6 +3110,10 @@
   "355636351": {
     "Variable Label": "Sibling 1 esophageal cancer year",
     "Variable Name": "SrvBOH_S1EsoCancYr_v1r0"
+  },
+  "356502497": {
+    "Variable Label": "Breast reduction year",
+    "Variable Name": "SrvBOH_BreastRedYr_v1r0"
   },
   "356674370": {
     "Variable Name": "Not matched"
@@ -3212,6 +3241,10 @@
     "Variable Label": "Last time took over-the-counter H2 receptor blockers",
     "Variable Name": "SrvMRE_H2RecBlOCTime_v1r0"
   },
+  "370003751": {
+    "Variable Label": "Breast part removal age",
+    "Variable Name": "SrvBOH_BreastPtRemAge_v1r0"
+  },
   "370043841": {
     "Variable Label": "Years use progestin-only medication",
     "Variable Name": "SrvMRE_ProgUseYr_v1r0"
@@ -3261,6 +3294,10 @@
   "373827128": {
     "Variable Label": "How often drink alcohol, Age [X] to age [Y / 17]",
     "Variable Name": "SrvSAS_AlcOften17_v1r0"
+  },
+  "374486202": {
+    "Variable Label": "Breast removal year",
+    "Variable Name": "SrvBOH_BreastRemYr_v1r0"
   },
   "374508062": {
     "Variable Name": "Less than $10,000/year"
@@ -3570,6 +3607,9 @@
     "Variable Label": "I am concerned about COVID-19",
     "Variable Name": "RcrtSI_OptOut_v1r0_Covid"
   },
+  "400470311": {
+    "Variable Name": "How old were you when you had removal of a part of my breast tissue (breast-conserving surgery (BCS), lumpectomy, partial mastectomy, or segmental mastectomy)?"
+  },
   "400751267": {
     "Variable Label": "Dad Stomach cancer year",
     "Variable Name": "SrvBOH_DadStomCancYr_v1r0"
@@ -3692,6 +3732,10 @@
   },
   "408121350": {
     "Variable Name": "Every day"
+  },
+  "408628939": {
+    "Variable Label": "Breast abscess age",
+    "Variable Name": "SrvBOH_BreastAbscAge_v1r0"
   },
   "409075721": {
     "Variable Label": "Skipped meals",
@@ -3865,9 +3909,6 @@
   "420091116": {
     "Variable Name": "2 beers"
   },
-  "420423416": {
-    "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had gout?"
-  },
   "420755312": {
     "Variable Label": "Birth to 5 years of age",
     "Variable Name": "SrvSAS_NumSmoke5_v1r0"
@@ -3899,9 +3940,6 @@
     "Variable Label": "Crohn's Disease age",
     "Variable Name": "SrvBOH_ChronsAge_v1r0"
   },
-  "423547108": {
-    "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had endometriosis?"
-  },
   "423631576": {
     "Variable Label": "High-intensity circuit training (such P90x or Crossfit)",
     "Variable Name": "SrvMRE_HICT_v1r0"
@@ -3924,6 +3962,10 @@
   },
   "424807655": {
     "Variable Name": "Exposure to natural sunlight can affect your sleep patterns. During a usual [workday/day], about how much time do you spend outside in direct sunlight? Select the number of minutes and/or hours using the drop-down options below."
+  },
+  "425253001": {
+    "Variable Label": "Breast implants age",
+    "Variable Name": "SrvBOH_BreastImplAge_v1r0"
   },
   "425604618": {
     "Variable Name": "1 shot"
@@ -4460,6 +4502,10 @@
     "Variable Label": "Time recruitment type assigned",
     "Variable Name": "RcrtSI_TypeTime_v1r0"
   },
+  "471858720": {
+    "Variable Label": "Breast reconstruction age",
+    "Variable Name": "SrvBOH_BreastReconAge_v1r0"
+  },
   "472307530": {
     "Variable Label": "Hookah or water pipe",
     "Variable Name": "SrvSAS_WaterPipe_v1r0"
@@ -4481,6 +4527,10 @@
   },
   "473673527": {
     "Variable Name": "4 glasses"
+  },
+  "473725328": {
+    "Variable Label": "Breast reconstruction year",
+    "Variable Name": "SrvBOH_BreastReconYr_v1r0"
   },
   "473901019": {
     "Variable Label": "NO DIGESTIVE SYSTEM PROBLEMS",
@@ -4835,6 +4885,10 @@
   "505325385": {
     "Variable Name": "African American/Black and Ethnicity Unavailable/Unknown"
   },
+  "505767571": {
+    "Variable Label": "Breast lift age",
+    "Variable Name": "SrvBOH_BreastLiftAge_v1r0"
+  },
   "505875387": {
     "Variable Label": "How many times marijana with tobacco used, Age [X] to age [Y / 17]",
     "Variable Name": "SrvSAS_TmUseTobMJ17_v1r0"
@@ -5157,7 +5211,7 @@
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Shingles (Herpes Zoster) ?"
   },
   "530742915": {
-    "Variable Name": "What type of business was this at your longest held job? [Select all that apply.]"
+    "Variable Name": "What type of business was this at your current employer? [Select all that apply.]"
   },
   "531313956": {
     "Variable Name": "KPHI RRL"
@@ -5166,7 +5220,7 @@
     "Variable Name": "HealthPartners"
   },
   "531639940": {
-    "Variable Label": "Child 1 Prostate cancer year",
+    "Variable Label": "Child 1 Prostate cancer age",
     "Variable Name": "SrvBOH_C1ProstCancAge_v1r0"
   },
   "531797350": {
@@ -5323,6 +5377,9 @@
   },
   "541300533": {
     "Variable Name": "Mostly feminine"
+  },
+  "541366865": {
+    "Variable Name": "How old were you when you had breast reduction surgery (reduction mammaplasty)?"
   },
   "541577660": {
     "Variable Name": "15 minutes to 30 minutes"
@@ -5561,10 +5618,6 @@
     "Variable Label": "Currently using patch estrogen-only medication",
     "Variable Name": "SrvMRE_CurrPatchE_v1r0"
   },
-  "560915680": {
-    "Variable Label": "breast surgery year",
-    "Variable Name": "SrvBOH_BreastSurgYr_v1r0"
-  },
   "560975149": {
     "Variable Label": "Location ID, site specific",
     "Variable Name": "BioShip_LocalID_v1r0"
@@ -5733,6 +5786,9 @@
   "574474707": {
     "Variable Label": "Around the waist or stomach",
     "Variable Name": "SrvBOH_WaistWt_v1r0"
+  },
+  "574807307": {
+    "Variable Name": "How old were you when you had removal of a lactiferous or milk duct (microdochectomy)?"
   },
   "575129346": {
     "Variable Label": "Years use patch estrogen-only medication",
@@ -6028,6 +6084,9 @@
   "599063442": {
     "Variable Label": "NO MHGROUP4 conditions",
     "Variable Name": "SrvBOH_NoGroup4_v1r0"
+  },
+  "599157484": {
+    "Variable Name": "How old were you when you had breast reconstruction surgery?"
   },
   "599506109": {
     "Variable Label": "Mom Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.) cancer year",
@@ -6411,6 +6470,10 @@
   "631303960": {
     "Variable Label": "Often snoring",
     "Variable Name": "SrvMRE_OftenSnoring_v1r0"
+  },
+  "631732756": {
+    "Variable Label": "Breast reduction age",
+    "Variable Name": "SrvBOH_BreastRedAge_v1r0"
   },
   "632041230": {
     "Variable Name": "1 – 2 times a week"
@@ -7086,6 +7149,9 @@
   "681745422": {
     "Variable Name": "Participant refusal"
   },
+  "681912204": {
+    "Variable Name": "How old were you when you had removal of both breasts (double or bilateral mastectomy)?"
+  },
   "682147844": {
     "Variable Label": "Consume marijuana in food or drinks now",
     "Variable Name": "SrvSAS_EdiblesNow_v1r0"
@@ -7337,9 +7403,6 @@
     "Variable Label": "Prostate",
     "Variable Name": "SrvBOH_Prostate_v1r0"
   },
-  "700374192": {
-    "Variable Name": "What type of business was this at your current employer? [Select all that apply.]"
-  },
   "700773214": {
     "Variable Label": "Gallstones (Biliary Stones) year",
     "Variable Name": "SrvBOH_GallstonesYear_v1r0"
@@ -7485,6 +7548,9 @@
   "710338315": {
     "Variable Label": "Bladder",
     "Variable Name": "SrvBOH_DBladderCancer_v1r0"
+  },
+  "710551119": {
+    "Variable Name": "How old were you when you had breast lift surgery (mastopexy)?"
   },
   "711047542": {
     "Variable Name": "On the days that you took anti-hypertensive medication/drugs used to treat hypertension (high blood pressure), about how many pills did you take per day, on most days?"
@@ -7639,6 +7705,10 @@
   "725713485": {
     "Variable Label": "On the days that you did strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups), about how much time per day did you spend doing this activity?",
     "Variable Name": "SrvMRE_StrengthTime_v1r0"
+  },
+  "725750115": {
+    "Variable Label": "Breast implants year",
+    "Variable Name": "SrvBOH_BreastImplYr_v1r0"
   },
   "725929722": {
     "Variable Label": "DOB Match",
@@ -8270,6 +8340,10 @@
     "Variable Label": "Delivery method",
     "Variable Name": "SrvMRE_DeliveryMethod_v1r0"
   },
+  "771540698": {
+    "Variable Label": "Breast other year",
+    "Variable Name": "SrvBOH_BreastOthYr_v1r0"
+  },
   "772414753": {
     "Variable Label": "Consumed marijuana in food or drinks every day, age last used, month",
     "Variable Name": "SrvSAS_EdiblesED_v1r0"
@@ -8429,6 +8503,9 @@
   "785019074": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had colon/rectal cancer?"
   },
+  "785152596": {
+    "Variable Name": "How old were you when you had other breast surgery?"
+  },
   "785412329": {
     "Variable Label": "Baby or low-dose aspirin (81 mg or less) days per month",
     "Variable Name": "SrvMRE_LAspirinMo_v1r0"
@@ -8530,16 +8607,26 @@
     "Variable Label": "Other phone",
     "Variable Name": "RcrtUP_OtherPhone_v1r0"
   },
+  "793155594": {
+    "Variable Label": "Breast removal age",
+    "Variable Name": "SrvBOH_BreastRemAge_v1r0"
+  },
   "793320798": {
     "Variable Name": "Some of the time"
+  },
+  "793664057": {
+    "Variable Name": "Associate's degree"
   },
   "793822265": {
     "Variable Label": "Update recruit type",
     "Variable Name": "RcrtV_UpdateRecType_v1r0"
   },
   "793993848": {
-    "Variable Label": "Infectious Mononucleosis (â€œMonoâ€ or â€œKissing Diseaseâ€) diagnosis year",
+    "Variable Label": "Infectious Mononucleosis (\"\"Mono\"\" or \"\"Kissing Disease\"\") diagnosis year",
     "Variable Name": "SrvBOH_MonoYear_v1r0"
+  },
+  "794547937": {
+    "Variable Name": "How old were you when you had breast implants (augmentation surgery)?"
   },
   "794836896": {
     "Variable Label": "Skin without sunscreen",
@@ -8628,6 +8715,9 @@
   "800466826": {
     "Variable Label": "Celiac Disease (also known as Gluten-Sensitive Enteropathy) year",
     "Variable Name": "SrvBOH_CeliacYear_v1r0"
+  },
+  "800625801": {
+    "Variable Name": "College graduate Bachelor's degree"
   },
   "800943768": {
     "Variable Name": "Have you ever taken any of these types of progestin-only prescription hormones? Select all that apply."
@@ -9188,6 +9278,10 @@
     "Variable Label": "How much time electronic marijuana delivery devices used, [X / 60] to age [Y / 69 / current age]",
     "Variable Name": "SrvSAS_EMJDev6069_v1r0"
   },
+  "841389785": {
+    "Variable Label": "Breast lift year",
+    "Variable Name": "SrvBOH_BreastLiftYr_v1r0"
+  },
   "841390583": {
     "Variable Label": "Orphan tube - shipped flag",
     "Variable Name": "BioPack_OShipFlag_v1r0"
@@ -9310,9 +9404,6 @@
   "852296096": {
     "Variable Label": "None of these fully describe me. Please describe [text box]",
     "Variable Name": "SrvBOH_NoneDescribeRE4_v1r0"
-  },
-  "852898339": {
-    "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had polycystic ovary syndrome (PCOS)?"
   },
   "853261835": {
     "Variable Label": "Illness, cold/flu, fever",
@@ -9539,9 +9630,6 @@
   "867237640": {
     "Variable Label": "Forestry",
     "Variable Name": "SrvBOH_ForestryC_v1r0"
-  },
-  "867314445": {
-    "Variable Name": "How old were you when you had breast surgery? If you have had more than one procedure, at what age did you last have this procedure?"
   },
   "867472819": {
     "Variable Label": "How many times marijana with tobacco used, Age [X / 18] to age [Y / 24]",
@@ -9798,7 +9886,7 @@
     "Variable Name": "SrvBOH_MomStomCancYr_v1r0"
   },
   "890062459": {
-    "Variable Label": "Infectious Mononucleosis (â€œMonoâ€ or â€œKissing Diseaseâ€) diagnosis age",
+    "Variable Label": "Infectious Mononucleosis (\"\"Mono\"\" or \"\"Kissing Disease\"\") diagnosis age",
     "Variable Name": "SrvBOH_MonoAge_v1r0"
   },
   "890144398": {
@@ -10149,6 +10237,10 @@
     "Variable Label": "I am no longer interested in the study",
     "Variable Name": "HdRef_NotInterested_v1r0"
   },
+  "919891406": {
+    "Variable Label": "Breast lactiferous duct removal age",
+    "Variable Name": "SrvBOH_BreastLacRemAge_v1r0"
+  },
   "920323031": {
     "Variable Label": "How many servings THC concentrates via dabbing used, [X / 70] and older",
     "Variable Name": "SrvSAS_THCServing70_v1r0"
@@ -10233,9 +10325,6 @@
   "925558172": {
     "Variable Label": "Prostate",
     "Variable Name": "SrvBOH_C1ProstateCanc_v1r0"
-  },
-  "926338735": {
-    "Variable Name": "Random"
   },
   "926584500": {
     "Variable Label": "Swim laps",
@@ -10596,6 +10685,10 @@
   "954318357": {
     "Variable Name": "Louder than talking"
   },
+  "954370746": {
+    "Variable Label": "Breast abscess year",
+    "Variable Name": "SrvBOH_BreastAbscYr_v1r0"
+  },
   "954405492": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had\t Chlamydia?"
   },
@@ -10723,7 +10816,7 @@
     "Variable Name": "SrvSAS_CTTime1824_v1r0"
   },
   "964924704": {
-    "Variable Label": "Viete",
+    "Variable Label": "Vietnamese",
     "Variable Name": "SrvBOH_Viete_v1r0"
   },
   "965290070": {
