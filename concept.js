@@ -164,9 +164,11 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
     let leafIndex = -1;
     let leafObj = {}
     let debug = true;
+    
     for(let i = 0; i < cluster.length; i++){
         let ids = [];
         let currCollection = {}
+        let currIds = {};
         let leaf = ''
         let currRow = cluster[i];
         for(let j = 0; j < nonEmpty.length; j++){
@@ -187,6 +189,8 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
            if(!currValue){
                 //console.log(currRow)
            }
+           //console.log(cluster);
+           
             if(currValue.indexOf('=') != -1){
                 if(currValue == "1=Live birth: single infant"){
                     debug = true;
@@ -232,6 +236,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
             else{
                 if(currRow[nonEmptyIndex] != ''){
                     currCollection[header[nonEmptyIndex]] = currRow[nonEmptyIndex]
+                    currIds[header[nonEmptyIndex]] = nonEmptyIndex
                     //console.log(currCollection)
                 }
             }
@@ -276,7 +281,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                 nameToConcept[currCollection[key]] = cid;
                 currCollection[key]={'conceptId': cid, 'Variable Name': currCollection[key] };
                 collections.push(currCollection);
-                cluster[i][nonEmpty[a]-1] = cid;
+                cluster[i][currIds[key] - 1] = cid;
             }
             //collectionIds.push(cid + '.json')
             
@@ -697,7 +702,7 @@ async function readFile(fileName){
                     }
                 }
                 if(currJ.conceptId == "289664241"){
-                    console.log(result)
+                    //console.log(result)
                 }
                 found = true;
                 jsonList[j] = result
