@@ -1,18 +1,23 @@
 {
+  "conceptId": "799338907",
+  "Variable Name": "SrvMRE_NaproxenPillDK_v1r0",
+  "subcollections": [
+    "784516299.json",
+    "799338907.json"
+  ],
   "Primary Source": "129084651.json",
   "Secondary Source": "745268907.json",
-  "Source Question": "921095024.json",
-  "conceptId": "799338907",
-  "Question Text": "Pills per day naproxen, don't know",
+  "Source Question": "799338907.json",
+  "Question Text": "Pills per day naproxen",
   "Variable Label": "Pills per day naproxen, don't know",
-  "Variable Name": "SrvMRE_NaproxenPillDK_v1r0",
   "Connect Value for Select all that apply questions": "PAINREL3_5",
   "Variable Type": "Num",
   "Variable Length": "3",
   "Old Quest Value": "Don't know",
-  "Connect Value": "77 = Don't Know",
-  "Required": "N/A",
+  "Connect Value": "77 = Unavailable/Unknown",
+  "Required": "No",
   "PII": "No",
   "Notes": "Only display if PAINREL1 = 4",
-  "Date added or modified": "7/19/21"
+  "Date added or modified": "10/6/21",
+  "Quest_Src Question": "PAINREL3_5"
 }

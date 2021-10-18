@@ -7,8 +7,10 @@
   "Variable Name": "SrvMRE_EclampsiaAge_v1r0",
   "Connect Value for Select all that apply questions": "PREG13",
   "Variable Type": "Num",
-  "Variable Length": "3",
+  "Variable Length": "2",
   "Old Quest Value": "N/A",
   "Required": "No",
-  "PII": "No"
+  "PII": "No",
+  "Notes": "Should be asked for EACH pregnancy where PREG5 = 0, 1, 2, or 3",
+  "Date added or modified": "10/6/21"
 }

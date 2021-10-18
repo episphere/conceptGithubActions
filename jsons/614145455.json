@@ -1,15 +1,22 @@
 {
+  "conceptId": "614145455",
+  "Variable Name": "SrvMRE_NoPeriodReason_v1r0",
+  "subcollections": [
+    "614145455.json",
+    "672810476.json"
+  ],
   "Primary Source": "129084651.json",
   "Secondary Source": "745268907.json",
-  "conceptId": "614145455",
+  "Source Question": "614145455.json",
   "Question Text": "Please pick the option that best describes why you have not had a menstrual period in the past 12 months:",
   "Variable Label": "Why not have menstrual period last 12 months",
-  "Variable Name": "SrvMRE_NoPeriodReason_v1r0",
   "Connect Value for Select all that apply questions": "MENSHIS7",
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
+  "Date added or modified": "10/5/21",
+  "Quest_Src Question": "MENSHIS7",
   "Old Quest Value": {
     "582425113.json": "1",
     "330745988.json": "2",

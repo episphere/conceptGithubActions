@@ -1,9 +1,9 @@
 {
   "Primary Source": "129084651.json",
   "Secondary Source": "745268907.json",
-  "Source Question": "647989762.json",
+  "Source Question": "596961796.json",
   "conceptId": "101317072",
-  "Question Text": "Pills per day baby or low-dose aspirin (81 mg or less)",
+  "Question Text": "Pills per day baby or low-dose aspirin (81 mg or less), Number",
   "Variable Label": "Pills per day baby or low-dose aspirin (81 mg or less)",
   "Variable Name": "SrvMRE_LAspirinPill_v1r0",
   "Connect Value for Select all that apply questions": "PAINREL3_1A",
@@ -12,5 +12,7 @@
   "Old Quest Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if PAINREL1 = 0"
+  "Notes": "Only display if PAINREL1 = 0",
+  "Date added or modified": "8/23/21",
+  "Quest_Src Question": "PAINREL3_1"
 }

@@ -3,15 +3,17 @@
   "Secondary Source": "745268907.json",
   "Source Question": "101144925.json",
   "conceptId": "149379312",
-  "Question Text": "Months use hormonal IUD",
+  "Question Text": "Months used",
   "Variable Label": "Months use hormonal IUD",
   "Variable Name": "SrvMRE_HorIUDMoUsed_v1r0",
   "Connect Value for Select all that apply questions": "horIudMonth",
   "Variable Type": "Num",
   "Variable Length": "3",
   "Old Quest Value": "N/A",
+  "Connect Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if HORMED= 6",
+  "Date added or modified": "10/6/21",
   "Quest_Src Question": "HORMED5_8"
 }

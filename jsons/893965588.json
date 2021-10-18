@@ -1,18 +1,23 @@
 {
+  "conceptId": "893965588",
+  "Variable Name": "SrvMRE_CelebrexPillDK_v1r0",
+  "subcollections": [
+    "563606905.json",
+    "893965588.json"
+  ],
   "Primary Source": "129084651.json",
   "Secondary Source": "745268907.json",
-  "Source Question": "764271534.json",
-  "conceptId": "893965588",
-  "Question Text": "Pills per day Celebrex (celecoxib), don't know",
+  "Source Question": "893965588.json",
+  "Question Text": "Pills per day Celebrex (celecoxib)",
   "Variable Label": "Pills per day Celebrex (celecoxib), don't know",
-  "Variable Name": "SrvMRE_CelebrexPillDK_v1r0",
   "Connect Value for Select all that apply questions": "PAINREL3_6",
   "Variable Type": "Num",
   "Variable Length": "3",
   "Old Quest Value": "Don't know",
-  "Connect Value": "77 = Don't Know",
-  "Required": "N/A",
+  "Connect Value": "77 = Unavailable/Unknown",
+  "Required": "No",
   "PII": "No",
   "Notes": "Only display if PAINREL1 = 5",
-  "Date added or modified": "7/19/21"
+  "Date added or modified": "10/6/21",
+  "Quest_Src Question": "PAINREL3_6"
 }

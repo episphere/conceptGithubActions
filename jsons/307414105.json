@@ -1,9 +1,9 @@
 {
   "Primary Source": "129084651.json",
   "Secondary Source": "745268907.json",
-  "Source Question": "751052788.json",
+  "Source Question": "309472838.json",
   "conceptId": "307414105",
-  "Question Text": "Pills per day statins/cholesterol or lipid lowering drugs",
+  "Question Text": "Pills per day statins/cholesterol or lipid lowering drugs, Number",
   "Variable Label": "Pills per day statins/cholesterol or lipid lowering drugs",
   "Variable Name": "SrvMRE_StatinsPills_v1r0",
   "Connect Value for Select all that apply questions": "CHOLHTN3_1A",
@@ -13,5 +13,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if CHOLHTN = 0",
-  "Date added or modified": "6/14/21"
+  "Date added or modified": "8/23/21",
+  "Quest_Src Question": "CHOLHTN3_1"
 }

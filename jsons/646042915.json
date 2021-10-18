@@ -1,18 +1,23 @@
 {
+  "conceptId": "646042915",
+  "Variable Name": "SrvMRE_AcetPillDK_v1r0",
+  "subcollections": [
+    "267187069.json",
+    "646042915.json"
+  ],
   "Primary Source": "129084651.json",
   "Secondary Source": "745268907.json",
-  "Source Question": "465231306.json",
-  "conceptId": "646042915",
-  "Question Text": "Pills per day acetaminophen, don't know",
+  "Source Question": "646042915.json",
+  "Question Text": "Pills per day acetaminophen",
   "Variable Label": "Pills per day acetaminophen, don't know",
-  "Variable Name": "SrvMRE_AcetPillDK_v1r0",
   "Connect Value for Select all that apply questions": "PAINREL3_4",
   "Variable Type": "Num",
   "Variable Length": "3",
   "Old Quest Value": "Don't know",
-  "Connect Value": "77 = Don't Know",
-  "Required": "N/A",
+  "Connect Value": "77 = Unavailable/Unknown",
+  "Required": "No",
   "PII": "No",
   "Notes": "Only display if PAINREL1 = 3",
-  "Date added or modified": "7/19/21"
+  "Date added or modified": "10/6/21",
+  "Quest_Src Question": "PAINREL3_4"
 }

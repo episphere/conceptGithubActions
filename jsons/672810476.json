@@ -1,14 +1,16 @@
 {
   "Primary Source": "129084651.json",
   "Secondary Source": "745268907.json",
+  "Source Question": "614145455.json",
   "conceptId": "672810476",
-  "Question Text": "Other reason: please describe text box",
-  "Variable Label": "Other reason: please describe text box",
+  "Question Text": "Please pick the option that best describes why you have not had a menstrual period in the past 12 months: [text box]",
+  "Variable Label": "Why not have menstrual period last 12 months - Descriptive",
   "Variable Name": "SrvMRE_NoPeriodReasOth_v1r0",
-  "Connect Value for Select all that apply questions": "STOPOTHER",
+  "Connect Value for Select all that apply questions": "MENSHIS7_TB",
   "Variable Type": "Char",
   "Variable Length": "300",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "7/16/21"
+  "Date added or modified": "10/8/21",
+  "Quest_Src Question": "MENSHIS7"
 }

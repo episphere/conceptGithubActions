@@ -6,11 +6,12 @@
   "Variable Label": "Time usual work shift start",
   "Variable Name": "SrvMRE_ShiftStart_v1r0",
   "Connect Value for Select all that apply questions": "SHIFTWORK2",
-  "Variable Type": "Char",
-  "Variable Length": "300",
+  "Variable Type": "Time",
+  "Variable Length": "6",
   "Old Quest Value": "HH:MM AM/PM",
+  "Connect Value": "HH:MM AM/PM",
   "Required": "No",
   "PII": "No",
   "Notes": "Follows SAS TIMEAMPM format",
-  "Date added or modified": "6/22/21"
+  "Date added or modified": "10/6/21"
 }
