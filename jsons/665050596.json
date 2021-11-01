@@ -1,11 +1,19 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "965707586.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
   "conceptId": "665050596",
   "Question Text": "Have you used a tanning bed or sunbed in the past 12 months?",
   "Variable Label": "Used tanning bed past 12 months",
-  "Variable Name": "SrvSAS_TanningBed12Mo_v1r0",
-  "Connect Value for Select all that apply questions": "TANBED3",
+  "Variable Name": [
+    "SrvSAS_TanningBed12Mo_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "TANBED3"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",

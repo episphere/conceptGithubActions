@@ -1,11 +1,19 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "965707586.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
   "conceptId": "720327427",
   "Question Text": "Month - During that time, did you ever use electronic marijuana delivery devices that can be vaped every day?",
   "Variable Label": "Use electronic marijuana delivery devices every day, months",
-  "Variable Name": "SrvSAS_UseEMJDevED_v1r0",
-  "Connect Value for Select all that apply questions": "ELMAR7B",
+  "Variable Name": [
+    "SrvSAS_UseEMJDevED_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "ELMAR7B"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",

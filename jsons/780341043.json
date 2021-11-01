@@ -1,11 +1,19 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "965707586.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
   "conceptId": "780341043",
   "Question Text": "On days that you consumed marijuana in food or drinks  when you were age [X / 40] to age [Y / 49 / current age], about how many cigarettes did you smoke per day?",
   "Variable Label": "How many servings consumed marijuana in food or drinks used, [X / 40] to age [Y / 49 / current age]",
-  "Variable Name": "SrvSAS_EdiblesServ4049_v1r0",
-  "Connect Value for Select all that apply questions": "EAMARLIFEE",
+  "Variable Name": [
+    "SrvSAS_EdiblesServ4049_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "EAMARLIFEE"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Old Quest Value": "N/A",

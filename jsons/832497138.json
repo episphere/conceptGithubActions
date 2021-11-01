@@ -1,18 +1,77 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "965707586.json",
-  "Source Question": "814500887.json",
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json",
+    "965707586.json",
+    "965707586.json",
+    "965707586.json",
+    "965707586.json",
+    "965707586.json",
+    "965707586.json",
+    "965707586.json",
+    "965707586.json"
+  ],
+  "Source Question": [
+    "447720598.json",
+    "155715155.json",
+    "157191791.json",
+    "257162201.json",
+    "901399853.json",
+    "553463872.json",
+    "327485933.json",
+    "146377639.json",
+    "814500887.json"
+  ],
   "conceptId": "832497138",
   "Question Text": "Wine",
   "Variable Label": "Wine",
-  "Variable Name": "SrvSAS_Wine70_v1r0",
-  "Connect Value for Select all that apply questions": "2",
+  "Variable Name": [
+    "SrvSAS_Wine_v1r0",
+    "SrvSAS_Wine17_v1r0",
+    "SrvSAS_Wine1824_v1r0",
+    "SrvSAS_Wine2529_v1r0",
+    "SrvSAS_Wine3039_v1r0",
+    "SrvSAS_Wine4049_v1r0",
+    "SrvSAS_Wine5059_v1r0",
+    "SrvSAS_Wine6069_v1r0",
+    "SrvSAS_Wine70_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "2",
+    "2",
+    "2",
+    "2",
+    "2",
+    "2",
+    "2",
+    "2",
+    "2"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "7/29/21",
-  "Quest_Src Question": "ALCLIFE4H",
+  "Quest_Src Question": [
+    "ALCOHOL8",
+    "ALCLIFE4A",
+    "ALCLIFE4B",
+    "ALCLIFE4C",
+    "ALCLIFE4D",
+    "ALCLIFE4E",
+    "ALCLIFE4F",
+    "ALCLIFE4G",
+    "ALCLIFE4H"
+  ],
   "Old Quest Value": {
     "104430631.json": "2",
     "353358909.json": "1"
@@ -20,5 +79,6 @@
   "Connect Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  }
+  },
+  "Date added or modified": "7/29/21"
 }

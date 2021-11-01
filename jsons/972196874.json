@@ -1,11 +1,19 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "965707586.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
   "conceptId": "972196874",
   "Question Text": "Over the past 12 months, did you drink alcohol?",
   "Variable Label": "Drink alcohol over past 12 months",
-  "Variable Name": "SrvSAS_DrinkAlc12Mo_v1r0",
-  "Connect Value for Select all that apply questions": "ALCOHOL5",
+  "Variable Name": [
+    "SrvSAS_DrinkAlc12Mo_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "ALCOHOL5"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",

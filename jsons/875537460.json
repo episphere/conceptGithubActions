@@ -1,11 +1,19 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "965707586.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
   "conceptId": "875537460",
   "Question Text": "Do you remember having freckles before you were 15 years old?",
   "Variable Label": "Freckles before 15 years old",
-  "Variable Name": "SrvSAS_Freckles15_v1r0",
-  "Connect Value for Select all that apply questions": "FRECKCHLD",
+  "Variable Name": [
+    "SrvSAS_Freckles15_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "FRECKCHLD"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",

@@ -1,18 +1,30 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "898006288.json",
-  "Source Question": "758198855.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Source Question": [
+    "555481393.json"
+  ],
   "conceptId": "979809707",
-  "Question Text": "Do you think of yourself as: [text box]",
-  "Variable Label": "Sexual orientation",
-  "Variable Name": "SrvBOH_SexOrientDesc_v1r0",
-  "Connect Value for Select all that apply questions": "SEXORIENT_TB",
+  "Question Text": "Orientation - Do you think of yourself as: [text box]",
+  "Variable Label": "Sexual orientation - Descriptive",
+  "Variable Name": [
+    "SrvBOH_SexOrientDesc_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "SEXORIENT_TB"
+  ],
   "Variable Type": "Char",
   "Variable Length": "300",
   "Connect Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Option only available if #3 is selected in SEXORIENT",
-  "Date added or modified": "8/9/21",
-  "Quest_Src Question": "SEXORIENT"
+  "Notes": "Option only available if 55 is selected in SEXORIENT",
+  "Date added or modified": "9/14/21",
+  "Quest_Src Question": [
+    "SEXORIENT"
+  ]
 }

@@ -1,0 +1,29 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "171664209",
+  "Question Text": "Have you ever dozed off or fallen asleep while driving a vehicle?",
+  "Variable Label": "Dozed off or fallen asleep while driving",
+  "Variable Name": [
+    "SrvMRE_Driving_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "SLHABIT4"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "104430631.json": "2",
+    "353358909.json": "1"
+  },
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

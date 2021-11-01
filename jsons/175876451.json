@@ -1,11 +1,19 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "965707586.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
   "conceptId": "175876451",
   "Question Text": "Over the past 12 months, how often did you usually drink wine?",
   "Variable Label": "Often drink wine, past 12 months",
-  "Variable Name": "SrvSAS_WineOften12Mo_v1r0",
-  "Connect Value for Select all that apply questions": "WINE1",
+  "Variable Name": [
+    "SrvSAS_WineOften12Mo_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "WINE1"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
@@ -17,7 +25,7 @@
     "632041230.json": "4",
     "764448908.json": "5",
     "224859978.json": "6",
-    "408121350.json": "7"
+    "647504893.json": "7"
   },
   "Connect Value": {
     "323673008.json": "0",
@@ -26,6 +34,6 @@
     "632041230.json": "3",
     "764448908.json": "4",
     "224859978.json": "5",
-    "408121350.json": "6"
+    "647504893.json": "6"
   }
 }

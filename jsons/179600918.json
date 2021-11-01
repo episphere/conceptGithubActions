@@ -1,11 +1,19 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "965707586.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
   "conceptId": "179600918",
   "Question Text": "How old were you when you stopped smoking a tobacco pipe every day?",
   "Variable Label": "Age stopped using a tobacco pipe every day",
-  "Variable Name": "SrvSAS_TobPipeAgeStop_v1r0",
-  "Connect Value for Select all that apply questions": "PIPE9D",
+  "Variable Name": [
+    "SrvSAS_TobPipeAgeStop_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "PIPE9D"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Old Quest Value": "N/A",

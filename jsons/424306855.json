@@ -1,10 +1,16 @@
 {
-  "Primary Source": "332961895.json",
-  "Secondary Source": "581036703.json",
+  "Primary Source": [
+    "332961895.json"
+  ],
+  "Secondary Source": [
+    "581036703.json"
+  ],
   "conceptId": "424306855",
   "Question Text": "Participant is fully enrolled",
   "Variable Label": "Participant is fully enrolled",
-  "Variable Name": "SMMet_FullyEnrolled_v1r0",
+  "Variable Name": [
+    "SMMet_FullyEnrolled_v1r0"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "Yes",

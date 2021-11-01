@@ -1,0 +1,5920 @@
+{
+  "BLDTRANS4": {
+    "questIds": {
+      "BLDTRANS4_YEAR": {
+        "conceptId": "106010694",
+        "concept": "last blood transfusion year",
+        "isTextBox": true
+      },
+      "BLDTRANS4_AGE": {
+        "conceptId": "434556295",
+        "concept": "last blood transfusion age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "593017220",
+    "questionText": "How old were you when you had your last blood transfusion?"
+  },
+  "CHLA": {
+    "questIds": {
+      "CHLA_AGE": {
+        "conceptId": "106117489",
+        "concept": "Chlamydia diagnosis age",
+        "isTextBox": true
+      },
+      "CHLA_YEAR": {
+        "conceptId": "244315628",
+        "concept": "Chlamydia diagnosis year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "954405492",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had Chlamydia?"
+  },
+  "PROSREM": {
+    "questIds": {
+      "0": {
+        "conceptId": "524029283",
+        "concept": "I had surgery to remove remove part of my prostate"
+      },
+      "1": {
+        "conceptId": "500023550",
+        "concept": "I had surgery to remove remove my whole prostaste"
+      },
+      "88": {
+        "conceptId": "398561594",
+        "concept": "None of the above"
+      }
+    },
+    "questionText": "Which of these best describes the type of prostate removal surgery that you had?",
+    "conceptId": "107060069"
+  },
+  "SEX2": {
+    "questIds": {
+      "0": {
+        "conceptId": "582784267",
+        "concept": "Penis"
+      },
+      "1": {
+        "conceptId": "751402477",
+        "concept": "Testes"
+      },
+      "2": {
+        "conceptId": "700100953",
+        "concept": "Prostate"
+      },
+      "3": {
+        "conceptId": "846483618",
+        "concept": "Vagina"
+      },
+      "4": {
+        "conceptId": "505282171",
+        "concept": "Cervix"
+      },
+      "5": {
+        "conceptId": "578416151",
+        "concept": "Uterus"
+      },
+      "6": {
+        "conceptId": "434651539",
+        "concept": "Ovaries"
+      },
+      "7": {
+        "conceptId": "108025529",
+        "concept": "Fallopian Tubes"
+      }
+    },
+    "conceptId": "750420077",
+    "questionText": "Please select the body parts that you were born with."
+  },
+  "CHILDCANC3B": {
+    "questIds": {
+      "CHILDCANC3B_YEAR": {
+        "conceptId": "108359825",
+        "concept": "Child 1 bladder cancer year",
+        "isTextBox": true
+      },
+      "CHILDCANC3B_AGE": {
+        "conceptId": "354436205",
+        "concept": "Child 1 bladder cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "938150507",
+    "questionText": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had bladder cancer?"
+  },
+  "CVD": {
+    "questIds": {
+      "CVD_YEAR": {
+        "conceptId": "108590237",
+        "concept": "Coronary artery/coronary heart disease diagnosis year",
+        "isTextBox": true
+      },
+      "CVD_AGE": {
+        "conceptId": "228799893",
+        "concept": "Coronary artery/coronary heart disease diagnosis age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "929240175",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had coronary artery/coronary heart disease?"
+  },
+  "HRMED3": {
+    "isTextBox": true,
+    "questionText": "How old were you when you first used medication to treat thinning hair or hair loss?",
+    "conceptId": "109544008"
+  },
+  "WTLOSS2_4555": {
+    "questIds": {
+      "0": {
+        "conceptId": "187693726",
+        "concept": "Changed diet"
+      },
+      "1": {
+        "conceptId": "109703705",
+        "concept": "Exercised"
+      },
+      "2": {
+        "conceptId": "409075721",
+        "concept": "Skipped meals"
+      },
+      "3": {
+        "conceptId": "861519803",
+        "concept": "Surgery"
+      },
+      "4": {
+        "conceptId": "406782789",
+        "concept": "Used diet pills/medications"
+      },
+      "5": {
+        "conceptId": "657966263",
+        "concept": "Started to smoke or began to smoke again"
+      },
+      "55": {
+        "conceptId": "629422479",
+        "concept": "Other"
+      },
+      "WTLOSS2_4555_TB": {
+        "conceptId": "963867920",
+        "concept": "Other text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "431628922",
+    "questionText": "How did you lose weight between ages 45 and 55?"
+  },
+  "CHILDCANC2": {
+    "questIds": {
+      "0": {
+        "conceptId": "541893218",
+        "concept": "Anal"
+      },
+      "1": {
+        "conceptId": "810161505",
+        "concept": "Bladder"
+      },
+      "2": {
+        "conceptId": "622370641",
+        "concept": "Brain"
+      },
+      "3": {
+        "conceptId": "679317902",
+        "concept": "Breast"
+      },
+      "4": {
+        "conceptId": "146323064",
+        "concept": "Cervical"
+      },
+      "5": {
+        "conceptId": "148055668",
+        "concept": "Colon/rectal"
+      },
+      "6": {
+        "conceptId": "573529409",
+        "concept": "Esophageal"
+      },
+      "7": {
+        "conceptId": "374751254",
+        "concept": "Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.)"
+      },
+      "8": {
+        "conceptId": "746527572",
+        "concept": "Kidney"
+      },
+      "9": {
+        "conceptId": "742312655",
+        "concept": "Leukemia (blood and bone marrow)"
+      },
+      "10": {
+        "conceptId": "924966896",
+        "concept": "Liver"
+      },
+      "11": {
+        "conceptId": "260344877",
+        "concept": "Lung or bronchial"
+      },
+      "12": {
+        "conceptId": "921975725",
+        "concept": "Non-Hodgkin's lymphoma"
+      },
+      "13": {
+        "conceptId": "540972951",
+        "concept": "Lymphoma"
+      },
+      "14": {
+        "conceptId": "109795483",
+        "concept": "Melanoma (skin)"
+      },
+      "15": {
+        "conceptId": "222010840",
+        "concept": "Non-melanoma skin (basal or squamous)"
+      },
+      "16": {
+        "conceptId": "573112450",
+        "concept": "Ovarian"
+      },
+      "17": {
+        "conceptId": "886012460",
+        "concept": "Pancreatic"
+      },
+      "18": {
+        "conceptId": "925558172",
+        "concept": "Prostate"
+      },
+      "19": {
+        "conceptId": "742238819",
+        "concept": "Stomach"
+      },
+      "20": {
+        "conceptId": "632093893",
+        "concept": "Testicular"
+      },
+      "21": {
+        "conceptId": "179559655",
+        "concept": "Thyroid"
+      },
+      "22": {
+        "conceptId": "525998037",
+        "concept": "Uterine (endometrial)"
+      },
+      "55": {
+        "conceptId": "511202456",
+        "concept": "Another type of cancer: Please describe"
+      },
+      "77": {
+        "conceptId": "698908929",
+        "concept": "I know my child had cancer, but don't know what type"
+      },
+      "CHILDCANC2_TB": {
+        "conceptId": "933110091",
+        "concept": "Another type of cancer: Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "812370563",
+    "questionText": "Child 1- Which type(s) of cancer? Select all that apply."
+  },
+  "HBVHCV": {
+    "questIds": {
+      "HBVHCV_YEAR": {
+        "conceptId": "109852267",
+        "concept": "Chronic Hepatitis B or C diagnosis year",
+        "isTextBox": true
+      },
+      "HBVHCV_AGE": {
+        "conceptId": "193969992",
+        "concept": "Chronic Hepatitis B or C diagnosis age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "469947273",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had \tChronic Hepatitis B or C?"
+  },
+  "MOMCANC3B": {
+    "questIds": {
+      "MOMCANC3B_YEAR": {
+        "conceptId": "109977403",
+        "concept": "Mom bladder cancer year",
+        "isTextBox": true
+      },
+      "MOMCANC3B_AGE": {
+        "conceptId": "453541419",
+        "concept": "Mom bladder cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "528753070",
+    "questionText": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had bladder cancer?"
+  },
+  "CHILDCANC3V": {
+    "questIds": {
+      "CHILDCANC3V_YEAR": {
+        "conceptId": "112978735",
+        "concept": "Child 1 Thyroid cancer year",
+        "isTextBox": true
+      },
+      "CHILDCANC3V_AGE": {
+        "conceptId": "985262460",
+        "concept": "Child 1 Thyroid cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "969177591",
+    "questionText": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Thyroid cancer?"
+  },
+  "CHILDCANC3H": {
+    "questIds": {
+      "CHILDCANC3H_AGE": {
+        "conceptId": "114042143",
+        "concept": "Child 1 Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.) cancer age",
+        "isTextBox": true
+      },
+      "CHILDCANC3H_YEAR": {
+        "conceptId": "778001130",
+        "concept": "Child 1 Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.) cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "905145893",
+    "questionText": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.) cancer?"
+  },
+  "WORK2": {
+    "questIds": {
+      "0": {
+        "conceptId": "584368278",
+        "concept": "Retired"
+      },
+      "1": {
+        "conceptId": "475665841",
+        "concept": "A homemaker"
+      },
+      "2": {
+        "conceptId": "656816477",
+        "concept": "Unemployed"
+      },
+      "3": {
+        "conceptId": "756948639",
+        "concept": "Unable to work (diabled)"
+      },
+      "55": {
+        "conceptId": "181769837",
+        "concept": "Other"
+      },
+      "99": {
+        "conceptId": "746038746",
+        "concept": "Declined"
+      }
+    },
+    "questionText": "Which of these best describes your current employment status?",
+    "conceptId": "114529380"
+  },
+  "RACEETH": {
+    "questIds": {
+      "0": {
+        "conceptId": "583826374",
+        "concept": "American Indian or Alaska Native"
+      },
+      "1": {
+        "conceptId": "636411467",
+        "concept": "Asian"
+      },
+      "2": {
+        "conceptId": "458435048",
+        "concept": "Black, African American, or African"
+      },
+      "3": {
+        "conceptId": "706998638",
+        "concept": "Hispanic, Latino, or Spanish"
+      },
+      "4": {
+        "conceptId": "973565052",
+        "concept": "Middle Eastern or North African"
+      },
+      "5": {
+        "conceptId": "586825330",
+        "concept": "Native Hawaiian or other Pacific Islander"
+      },
+      "6": {
+        "conceptId": "412790539",
+        "concept": "White"
+      },
+      "55": {
+        "conceptId": "807835037",
+        "concept": "None of these fully describe me. Please describe"
+      },
+      "99": {
+        "conceptId": "116984232",
+        "concept": "Prefer not to answer"
+      },
+      "RACEETH_TB": {
+        "conceptId": "747350323",
+        "concept": "None of these fully describe me. Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "384191091",
+    "questionText": "Which categories describe you? Select all that apply. Note, you may select more than one group."
+  },
+  "DADCANC2": {
+    "questIds": {
+      "0": {
+        "conceptId": "516207605",
+        "concept": "Anal"
+      },
+      "1": {
+        "conceptId": "710338315",
+        "concept": "Bladder"
+      },
+      "2": {
+        "conceptId": "985337468",
+        "concept": "Brain"
+      },
+      "3": {
+        "conceptId": "134508650",
+        "concept": "Breast"
+      },
+      "4": {
+        "conceptId": "973093289",
+        "concept": "Colon/rectal"
+      },
+      "5": {
+        "conceptId": "966265248",
+        "concept": "Esophageal"
+      },
+      "6": {
+        "conceptId": "193139957",
+        "concept": "Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.)"
+      },
+      "7": {
+        "conceptId": "222996161",
+        "concept": "Kidney"
+      },
+      "8": {
+        "conceptId": "934913558",
+        "concept": "Leukemia (blood and bone marrow)"
+      },
+      "9": {
+        "conceptId": "678720087",
+        "concept": "Liver"
+      },
+      "10": {
+        "conceptId": "210004486",
+        "concept": "Lung or bronchial"
+      },
+      "11": {
+        "conceptId": "946271712",
+        "concept": "Non-Hodgkin's lymphoma"
+      },
+      "12": {
+        "conceptId": "117774832",
+        "concept": "Lymphoma"
+      },
+      "13": {
+        "conceptId": "824650810",
+        "concept": "Melanoma (skin)"
+      },
+      "14": {
+        "conceptId": "489370336",
+        "concept": "Non-melanoma skin (basal or squamous)"
+      },
+      "15": {
+        "conceptId": "701932585",
+        "concept": "Pancreatic"
+      },
+      "16": {
+        "conceptId": "295976386",
+        "concept": "Prostate"
+      },
+      "17": {
+        "conceptId": "730819933",
+        "concept": "Stomach"
+      },
+      "18": {
+        "conceptId": "248374037",
+        "concept": "Testicular"
+      },
+      "19": {
+        "conceptId": "311662905",
+        "concept": "Thyroid"
+      },
+      "55": {
+        "conceptId": "191104654",
+        "concept": "Another type of cancer: Please describe"
+      },
+      "77": {
+        "conceptId": "967938316",
+        "concept": "I know they had cancer, but don't know what type"
+      },
+      "DADCANC2_TB": {
+        "conceptId": "195093589",
+        "concept": "Another type of cancer: Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "173240848",
+    "questionText": "Father- Which type(s) of cancer? Select all that apply."
+  },
+  "WORK7": {
+    "isTextBox": true,
+    "questionText": "What was your longest-held job? Please be descriptive. For example, high school math teacher, emergency room nurse, automobile painter.",
+    "conceptId": "118061122"
+  },
+  "LUPUS": {
+    "questIds": {
+      "LUPUS_AGE": {
+        "conceptId": "118454020",
+        "concept": "Lupus age",
+        "isTextBox": true
+      },
+      "LUPUS_YEAR": {
+        "conceptId": "533163465",
+        "concept": "Lupus year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "245861186",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had Lupus?"
+  },
+  "MHGROUP9": {
+    "questIds": {
+      "0": {
+        "conceptId": "797189152",
+        "concept": "Tonsils removed (tonsillectomy)"
+      },
+      "1": {
+        "conceptId": "633546100",
+        "concept": "Gallbladder removed (cholecystectomy)"
+      },
+      "2": {
+        "conceptId": "866002271",
+        "concept": "Appendix removed (appendectomy)"
+      },
+      "3": {
+        "conceptId": "118789503",
+        "concept": "Liposuction"
+      },
+      "4": {
+        "conceptId": "715563991",
+        "concept": "Bariatric surgery (lap band, gastric bypass)"
+      },
+      "5": {
+        "conceptId": "533491176",
+        "concept": "Breast surgery"
+      },
+      "6": {
+        "conceptId": "220755749",
+        "concept": "Uterus removed (a hysterectomy)"
+      },
+      "7": {
+        "conceptId": "465318416",
+        "concept": "Tubes tied (tubal ligation)"
+      },
+      "8": {
+        "conceptId": "630100221",
+        "concept": "Removal of one or both ovaries (oophorectomy)"
+      },
+      "9": {
+        "conceptId": "692881833",
+        "concept": "Removal of one or both fallopian tubes (salpingectomy)"
+      },
+      "10": {
+        "conceptId": "654450030",
+        "concept": "Vasectomy"
+      },
+      "11": {
+        "conceptId": "532603425",
+        "concept": "Removal of one or both testicles (orchiectomy or orchidectomy)"
+      },
+      "12": {
+        "conceptId": "733236542",
+        "concept": "Prostate removed (prostatectomy)"
+      },
+      "13": {
+        "conceptId": "961987554",
+        "concept": "Penis removed"
+      },
+      "88": {
+        "conceptId": "668434958",
+        "concept": "I have not had any of these surgeries"
+      }
+    },
+    "conceptId": "624179836",
+    "questionText": "Surgical Procedures- Have you ever had any of these surgeries? Select all that apply."
+  },
+  "RACEETH6": {
+    "questIds": {
+      "0": {
+        "conceptId": "190152384",
+        "concept": "Afghan"
+      },
+      "1": {
+        "conceptId": "119632587",
+        "concept": "Algerian"
+      },
+      "2": {
+        "conceptId": "578616917",
+        "concept": "Egyptian"
+      },
+      "3": {
+        "conceptId": "834030167",
+        "concept": "Iranian"
+      },
+      "4": {
+        "conceptId": "680575651",
+        "concept": "Iraqi"
+      },
+      "5": {
+        "conceptId": "144320785",
+        "concept": "Israeli"
+      },
+      "6": {
+        "conceptId": "214951746",
+        "concept": "Lebanese"
+      },
+      "7": {
+        "conceptId": "932563284",
+        "concept": "Moroccan"
+      },
+      "8": {
+        "conceptId": "336596477",
+        "concept": "Syrian"
+      },
+      "9": {
+        "conceptId": "380583570",
+        "concept": "Tunisian"
+      },
+      "55": {
+        "conceptId": "508525427",
+        "concept": "None of these fully describe me. Please describe"
+      },
+      "99": {
+        "conceptId": "836224975",
+        "concept": "Prefer not to answer"
+      },
+      "RACEETH6_TB": {
+        "conceptId": "576646485",
+        "concept": "None of these fully describe me. Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "351657815",
+    "questionText": "Middle Eastern or North African- Which categories describe you? Select all that apply. Note, you may select more than one group."
+  },
+  "DADCANC3A": {
+    "questIds": {
+      "DADCANC3A_AGE": {
+        "conceptId": "120646060",
+        "concept": "Dad anal cancer age",
+        "isTextBox": true
+      },
+      "DADCANC3A_YEAR": {
+        "conceptId": "980685446",
+        "concept": "Dad anal cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "345146692",
+    "questionText": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had anal cancer?"
+  },
+  "WEIGHTHIS": {
+    "questIds": {
+      "WEIGHTHIS2": {
+        "conceptId": "121646540",
+        "concept": "Weight at 25 years old entry",
+        "isTextBox": true
+      },
+      "WEIGHTHIS4": {
+        "conceptId": "407167089",
+        "concept": "Weight at 45 years old entry",
+        "isTextBox": true
+      },
+      "WEIGHTHIS5": {
+        "conceptId": "503154158",
+        "concept": "Weight at 55 years old entry",
+        "isTextBox": true
+      },
+      "WEIGHTHIS1": {
+        "conceptId": "821387277",
+        "concept": "Weight at 18 years old entry",
+        "isTextBox": true
+      },
+      "WEIGHTHIS3": {
+        "conceptId": "950080618",
+        "concept": "Weight at 35 years old entry",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "912857732",
+    "questionText": "How much did you weigh when you were:"
+  },
+  "MOMCANC3L": {
+    "questIds": {
+      "MOMCANC3L_YEAR": {
+        "conceptId": "121874737",
+        "concept": "Mom Lung or bronchial cancer year",
+        "isTextBox": true
+      },
+      "MOMCANC3L_AGE": {
+        "conceptId": "596241685",
+        "concept": "Mom Lung or bronchial cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "726451917",
+    "questionText": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Lung or bronchial cancer?"
+  },
+  "SIBCANC3R": {
+    "questIds": {
+      "SIBCANC3R_YEAR": {
+        "conceptId": "123052136",
+        "concept": "Sibling 1 Pancreatic cancer year",
+        "isTextBox": true
+      },
+      "SIBCANC3R_AGE": {
+        "conceptId": "413033387",
+        "concept": "Sibling 1 Pancreatic cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "750994269",
+    "questionText": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had Pancreatic cancer?"
+  },
+  "PANCREA": {
+    "questIds": {
+      "PANCREA_YEAR": {
+        "conceptId": "125201447",
+        "concept": "Pancreatitis year",
+        "isTextBox": true
+      },
+      "PANCREA_AGE": {
+        "conceptId": "745179569",
+        "concept": "Pancreatitis age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "430472084",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had Pancreatitis?"
+  },
+  "RACEETH5": {
+    "questIds": {
+      "0": {
+        "conceptId": "810637250",
+        "concept": "Colombian"
+      },
+      "1": {
+        "conceptId": "248444252",
+        "concept": "Cuban"
+      },
+      "2": {
+        "conceptId": "764331628",
+        "concept": "Dominican"
+      },
+      "3": {
+        "conceptId": "412757551",
+        "concept": "Ecuadorian"
+      },
+      "4": {
+        "conceptId": "981774939",
+        "concept": "Honduran"
+      },
+      "5": {
+        "conceptId": "432305109",
+        "concept": "Mexican or Mexican American"
+      },
+      "6": {
+        "conceptId": "862718552",
+        "concept": "Puerto Rican"
+      },
+      "7": {
+        "conceptId": "988121468",
+        "concept": "Salvadoran"
+      },
+      "8": {
+        "conceptId": "773342525",
+        "concept": "Spanish"
+      },
+      "55": {
+        "conceptId": "751755704",
+        "concept": "None of these fully describe me. Please describe"
+      },
+      "99": {
+        "conceptId": "128026114",
+        "concept": "Prefer not to answer"
+      },
+      "RACEETH5_TB": {
+        "conceptId": "440307926",
+        "concept": "None of these fully describe me. Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "308014437",
+    "questionText": "Hispanic, Latino, or Spanish- Which categories describe you? Select all that apply. Note, you may select more than one group."
+  },
+  "DIVERT": {
+    "questIds": {
+      "DIVERT_AGE": {
+        "conceptId": "128533155",
+        "concept": "Diverticulitis or Diverticulosis age",
+        "isTextBox": true
+      },
+      "DIVERT_YEAR": {
+        "conceptId": "707914446",
+        "concept": "Diverticulitis or Diverticulosis year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "374697037",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had Diverticulitis or Diverticulosis?"
+  },
+  "WTLOSS2_3545": {
+    "questIds": {
+      "0": {
+        "conceptId": "716502980",
+        "concept": "Changed diet"
+      },
+      "1": {
+        "conceptId": "987134866",
+        "concept": "Exercised"
+      },
+      "2": {
+        "conceptId": "132833963",
+        "concept": "Skipped meals"
+      },
+      "3": {
+        "conceptId": "621478209",
+        "concept": "Surgery"
+      },
+      "4": {
+        "conceptId": "128862593",
+        "concept": "Used diet pills/medications"
+      },
+      "5": {
+        "conceptId": "861455909",
+        "concept": "Started to smoke or began to smoke again"
+      },
+      "55": {
+        "conceptId": "544677022",
+        "concept": "Other"
+      },
+      "WTLOSS2_3545_TB": {
+        "conceptId": "660541817",
+        "concept": "Other text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "630675760",
+    "questionText": "How did you lose weight between ages 35 and 45?"
+  },
+  "THYROID": {
+    "questIds": {
+      "THYROID_AGE": {
+        "conceptId": "132265702",
+        "concept": "Thyroid Disorder (Overactive or Underactive Thyroid) age",
+        "isTextBox": true
+      },
+      "THYROID_YEAR": {
+        "conceptId": "213850947",
+        "concept": "Thyroid Disorder (Overactive or Underactive Thyroid) year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "139655599",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had Thyroid Disorder?"
+  },
+  "MHGROUP1": {
+    "questIds": {
+      "0": {
+        "conceptId": "698944820",
+        "concept": "B-12 Deficiency (Pernicious Anemia)"
+      },
+      "1": {
+        "conceptId": "838744325",
+        "concept": "Coronary Artery/Coronary Heart Disease"
+      },
+      "2": {
+        "conceptId": "769790179",
+        "concept": "Congestive Heart Failure"
+      },
+      "3": {
+        "conceptId": "699553344",
+        "concept": "High Cholesterol"
+      },
+      "4": {
+        "conceptId": "700811160",
+        "concept": "Heart Attack (Myocardial Infarction)"
+      },
+      "5": {
+        "conceptId": "336505365",
+        "concept": "Abnormal Heart Rhythm (Arrhythmia)"
+      },
+      "6": {
+        "conceptId": "132548932",
+        "concept": "Chest Pain (Angina)"
+      },
+      "7": {
+        "conceptId": "747787163",
+        "concept": "Heart Valve Problems"
+      },
+      "8": {
+        "conceptId": "693851465",
+        "concept": "High Blood Pressure (Hypertension) [Please do not include hypertension during pregnancy.]"
+      },
+      "9": {
+        "conceptId": "512012656",
+        "concept": "Blood Clots (Deep Vein Thrombosis, Pulmonary Embolism)"
+      },
+      "10": {
+        "conceptId": "619337095",
+        "concept": "Stroke"
+      },
+      "88": {
+        "conceptId": "535003378",
+        "concept": "I have not had any of these conditions"
+      }
+    },
+    "conceptId": "167101091",
+    "questionText": "Cardiovascular Disease- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply."
+  },
+  "CHILDAGE": {
+    "questIds": {
+      "0": {
+        "conceptId": "339090963",
+        "concept": "Less than 1 year"
+      },
+      "77": {
+        "conceptId": "665517141",
+        "concept": "Don't Know"
+      },
+      "CHILDAGE_AGE": {
+        "conceptId": "299300933",
+        "concept": "Child 1- How old is [CHILD INITIALS OR NICKNAME/your CHILD] today?, Number",
+        "isTextBox": true
+      }
+    },
+    "questionText": "Child 1- How old is [CHILD INITIALS OR NICKNAME/your CHILD] today?",
+    "conceptId": "640010727"
+  },
+  "BSNSSTYP1": {
+    "questIds": {
+      "0": {
+        "conceptId": "641572847",
+        "concept": "Manufacturing"
+      },
+      "1": {
+        "conceptId": "592592455",
+        "concept": "A retail store"
+      },
+      "2": {
+        "conceptId": "711138281",
+        "concept": "Wholesale or distributor"
+      },
+      "3": {
+        "conceptId": "596792238",
+        "concept": "A service provider"
+      },
+      "4": {
+        "conceptId": "133362151",
+        "concept": "Construction"
+      },
+      "5": {
+        "conceptId": "372993567",
+        "concept": "Mining"
+      },
+      "6": {
+        "conceptId": "620577362",
+        "concept": "Farming"
+      },
+      "7": {
+        "conceptId": "580409149",
+        "concept": "Fishing"
+      },
+      "8": {
+        "conceptId": "867237640",
+        "concept": "Forestry"
+      },
+      "9": {
+        "conceptId": "698814077",
+        "concept": "Government"
+      },
+      "10": {
+        "conceptId": "751475124",
+        "concept": "Military"
+      },
+      "11": {
+        "conceptId": "308286913",
+        "concept": "A shipyard"
+      },
+      "55": {
+        "conceptId": "745065357",
+        "concept": "Some other type of business"
+      },
+      "77": {
+        "conceptId": "362104337",
+        "concept": "Do not know"
+      },
+      "BSNSSTYP1_TB": {
+        "conceptId": "923333992",
+        "concept": "Other text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "530742915",
+    "questionText": "What type of business was this? [Select all that apply.]"
+  },
+  "LANG": {
+    "questIds": {
+      "0": {
+        "conceptId": "876238155",
+        "concept": "English"
+      },
+      "1": {
+        "conceptId": "813560243",
+        "concept": "Spanish"
+      },
+      "2": {
+        "conceptId": "918819379",
+        "concept": "Spanish Creole"
+      },
+      "3": {
+        "conceptId": "196513639",
+        "concept": "French"
+      },
+      "4": {
+        "conceptId": "760008937",
+        "concept": "French Creole"
+      },
+      "5": {
+        "conceptId": "133583572",
+        "concept": "Italian"
+      },
+      "6": {
+        "conceptId": "563857306",
+        "concept": "Portuguese"
+      },
+      "7": {
+        "conceptId": "402098917",
+        "concept": "German"
+      },
+      "8": {
+        "conceptId": "236546933",
+        "concept": "Russian"
+      },
+      "9": {
+        "conceptId": "810350526",
+        "concept": "Polish"
+      },
+      "10": {
+        "conceptId": "553424289",
+        "concept": "Hindi"
+      },
+      "11": {
+        "conceptId": "543494377",
+        "concept": "Chinese"
+      },
+      "12": {
+        "conceptId": "459880289",
+        "concept": "Korean"
+      },
+      "13": {
+        "conceptId": "865039252",
+        "concept": "Viete"
+      },
+      "14": {
+        "conceptId": "544197293",
+        "concept": "Tagalog"
+      },
+      "15": {
+        "conceptId": "367462243",
+        "concept": "Ilocano"
+      },
+      "16": {
+        "conceptId": "602132550",
+        "concept": "Japanese"
+      },
+      "17": {
+        "conceptId": "669977999",
+        "concept": "Arabic"
+      },
+      "55": {
+        "conceptId": "212982928",
+        "concept": "Other language(s): Please describe"
+      },
+      "LANG_TB": {
+        "conceptId": "486535201",
+        "concept": "Other language(s): Please describe[text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "588212264",
+    "questionText": "When you were a child, what language(s) did you first learn at home? Select all that apply"
+  },
+  "MHGROUP6": {
+    "questIds": {
+      "0": {
+        "conceptId": "636030086",
+        "concept": "Rheumatoid Arthritis"
+      },
+      "1": {
+        "conceptId": "239687183",
+        "concept": "Lupus"
+      },
+      "2": {
+        "conceptId": "134592375",
+        "concept": "Gout"
+      },
+      "88": {
+        "conceptId": "251231642",
+        "concept": "I have not had any of these conditions"
+      }
+    },
+    "conceptId": "543728565",
+    "questionText": "Systemic and Other Problems- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply."
+  },
+  "BREASTDIS2": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "When you were told that you have or had fibrocystic breasts, or other benign breast disease, was it confirmed by biopsy?",
+    "conceptId": "134642404"
+  },
+  "MOMCANC2": {
+    "questIds": {
+      "0": {
+        "conceptId": "939782495",
+        "concept": "Anal"
+      },
+      "1": {
+        "conceptId": "135725957",
+        "concept": "Bladder"
+      },
+      "2": {
+        "conceptId": "518416174",
+        "concept": "Brain"
+      },
+      "3": {
+        "conceptId": "847945207",
+        "concept": "Breast"
+      },
+      "4": {
+        "conceptId": "283025574",
+        "concept": "Cervical"
+      },
+      "5": {
+        "conceptId": "942970912",
+        "concept": "Colon/rectal"
+      },
+      "6": {
+        "conceptId": "596122041",
+        "concept": "Esophageal"
+      },
+      "7": {
+        "conceptId": "489400183",
+        "concept": "Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.)"
+      },
+      "8": {
+        "conceptId": "863246236",
+        "concept": "Kidney"
+      },
+      "9": {
+        "conceptId": "607793249",
+        "concept": "Leukemia (blood and bone marrow)"
+      },
+      "10": {
+        "conceptId": "532172400",
+        "concept": "Liver"
+      },
+      "11": {
+        "conceptId": "754745617",
+        "concept": "Lung or bronchial"
+      },
+      "12": {
+        "conceptId": "665036297",
+        "concept": "Non-Hodgkin's lymphoma"
+      },
+      "13": {
+        "conceptId": "200837530",
+        "concept": "Lymphoma"
+      },
+      "14": {
+        "conceptId": "990319383",
+        "concept": "Melanoma (skin)"
+      },
+      "15": {
+        "conceptId": "487917585",
+        "concept": "Non-melanoma skin (basal or squamous)"
+      },
+      "16": {
+        "conceptId": "603181162",
+        "concept": "Ovarian"
+      },
+      "17": {
+        "conceptId": "482225200",
+        "concept": "Pancreatic"
+      },
+      "18": {
+        "conceptId": "764891959",
+        "concept": "Stomach"
+      },
+      "19": {
+        "conceptId": "139822395",
+        "concept": "Thyroid"
+      },
+      "20": {
+        "conceptId": "723614811",
+        "concept": "Uterine (endometrial)"
+      },
+      "55": {
+        "conceptId": "618107598",
+        "concept": "Another type of cancer: Please describe"
+      },
+      "77": {
+        "conceptId": "660424548",
+        "concept": "I know they had cancer, but don't know what type"
+      },
+      "MOMCANC2_TB": {
+        "conceptId": "677702321",
+        "concept": "Another type of cancer: Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "814510313",
+    "questionText": "Mother- Which type(s) of cancer? Select all that apply."
+  },
+  "MHGROUP7": {
+    "questIds": {
+      "0": {
+        "conceptId": "164910211",
+        "concept": "Infectious Mononucleosis (â€œMonoâ€ or â€œKissing Diseaseâ€)"
+      },
+      "1": {
+        "conceptId": "796616844",
+        "concept": "Shingles (Herpes Zoster)"
+      },
+      "2": {
+        "conceptId": "436689514",
+        "concept": "Chronic Hepatitis B or C"
+      },
+      "3": {
+        "conceptId": "296357383",
+        "concept": "Gonorrhea"
+      },
+      "4": {
+        "conceptId": "901077233",
+        "concept": "Chlamydia"
+      },
+      "5": {
+        "conceptId": "136956596",
+        "concept": "Trichomoniasis"
+      },
+      "6": {
+        "conceptId": "455776698",
+        "concept": "Syphilis"
+      },
+      "7": {
+        "conceptId": "155874194",
+        "concept": "Genital Warts"
+      },
+      "8": {
+        "conceptId": "880962432",
+        "concept": "HPV"
+      },
+      "9": {
+        "conceptId": "691450854",
+        "concept": "HIV/AIDS"
+      },
+      "88": {
+        "conceptId": "572909251",
+        "concept": "I have not had any of these conditions"
+      }
+    },
+    "conceptId": "874709643",
+    "questionText": "Sexually Transmitted Diseases and Infections- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply."
+  },
+  "SIBCANC3C": {
+    "questIds": {
+      "SIBCANC3C_AGE": {
+        "conceptId": "138097365",
+        "concept": "Sibling 1 brain cancer age",
+        "isTextBox": true
+      },
+      "SIBCANC3C_YEAR": {
+        "conceptId": "358401051",
+        "concept": "Sibling 1 brain cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "570279754",
+    "questionText": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had brain cancer?"
+  },
+  "BREASTDIS": {
+    "questIds": {
+      "BREASTDIS_YEAR": {
+        "conceptId": "138780721",
+        "concept": "Fibrocystic Breast, or other Benign Breast Disease year",
+        "isTextBox": true
+      },
+      "BREASTDIS_AGE": {
+        "conceptId": "162512268",
+        "concept": "Fibrocystic Breast, or other Benign Breast Disease age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "355472178",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had  Fibrocystic Breast, or other Benign Breast Disease ?"
+  },
+  "DADCANC3M": {
+    "questIds": {
+      "DADCANC3M_YEAR": {
+        "conceptId": "140497026",
+        "concept": "Dad Lymphoma cancer year",
+        "isTextBox": true
+      },
+      "DADCANC3M_AGE": {
+        "conceptId": "404242396",
+        "concept": "Dad Lymphoma cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "413536735",
+    "questionText": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Lymphoma cancer?"
+  },
+  "MOMCANC3O": {
+    "questIds": {
+      "MOMCANC3O_AGE": {
+        "conceptId": "141144552",
+        "concept": "Mom Melanoma (skin) cancer age",
+        "isTextBox": true
+      },
+      "MOMCANC3O_YEAR": {
+        "conceptId": "440607185",
+        "concept": "Mom Melanoma (skin) cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "773974223",
+    "questionText": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Melanoma (skin) cancer?"
+  },
+  "FTREM2": {
+    "questIds": {
+      "FTREM2_AGE": {
+        "conceptId": "145109012",
+        "concept": "salpingectomy age",
+        "isTextBox": true
+      },
+      "FTREM2_YEAR": {
+        "conceptId": "317830774",
+        "concept": "salpingectomy year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "752636038",
+    "questionText": "How old were you when you had one or both fallopian tubes removed (salpingectomy)? If you have had more than one procedure, at what age did you last have this procedure?"
+  },
+  "RACEETH8": {
+    "questIds": {
+      "0": {
+        "conceptId": "664571574",
+        "concept": "Dutch"
+      },
+      "1": {
+        "conceptId": "163149180",
+        "concept": "English"
+      },
+      "2": {
+        "conceptId": "192776753",
+        "concept": "European"
+      },
+      "3": {
+        "conceptId": "733789220",
+        "concept": "French"
+      },
+      "4": {
+        "conceptId": "418464677",
+        "concept": "German"
+      },
+      "5": {
+        "conceptId": "859329001",
+        "concept": "Irish"
+      },
+      "6": {
+        "conceptId": "267472307",
+        "concept": "Italian"
+      },
+      "7": {
+        "conceptId": "918190932",
+        "concept": "Norwegian"
+      },
+      "8": {
+        "conceptId": "381749264",
+        "concept": "Polish"
+      },
+      "9": {
+        "conceptId": "704661219",
+        "concept": "Scottish"
+      },
+      "10": {
+        "conceptId": "147281305",
+        "concept": "Spanish"
+      },
+      "55": {
+        "conceptId": "175204935",
+        "concept": "None of these fully describe me. Please describe"
+      },
+      "99": {
+        "conceptId": "871278927",
+        "concept": "Prefer not to answer"
+      },
+      "RACE_ETH8": {
+        "conceptId": "774928994",
+        "concept": "None of these fully describe me. Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "797626610",
+    "questionText": "White- Which categories describe you? Select all that apply. Note, you may select more than one group."
+  },
+  "AGE": {
+    "isTextBox": true,
+    "questionText": "How old are you today?",
+    "conceptId": "150344905"
+  },
+  "RACEETH4": {
+    "questIds": {
+      "0": {
+        "conceptId": "704774349",
+        "concept": "African American"
+      },
+      "1": {
+        "conceptId": "240854115",
+        "concept": "Barbadian"
+      },
+      "2": {
+        "conceptId": "280957170",
+        "concept": "Caribbean"
+      },
+      "3": {
+        "conceptId": "533776046",
+        "concept": "Ethiopian"
+      },
+      "4": {
+        "conceptId": "647105074",
+        "concept": "Ghanaian"
+      },
+      "5": {
+        "conceptId": "618222258",
+        "concept": "Haitian"
+      },
+      "6": {
+        "conceptId": "487027241",
+        "concept": "Jamaican"
+      },
+      "7": {
+        "conceptId": "900838463",
+        "concept": "Liberian"
+      },
+      "8": {
+        "conceptId": "379093069",
+        "concept": "Nigerian"
+      },
+      "9": {
+        "conceptId": "304643362",
+        "concept": "Somali"
+      },
+      "10": {
+        "conceptId": "151821009",
+        "concept": "South African"
+      },
+      "55": {
+        "conceptId": "456125070",
+        "concept": "None of these fully describe me. Please describe"
+      },
+      "99": {
+        "conceptId": "822663722",
+        "concept": "Prefer not to answer"
+      },
+      "RACEETH4_TB": {
+        "conceptId": "852296096",
+        "concept": "None of these fully describe me. Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "976808005",
+    "questionText": "Black, African American, or African- Which categories describe you? Select all that apply. Note, you may select more than one group."
+  },
+  "WTLOSS2_1825": {
+    "questIds": {
+      "0": {
+        "conceptId": "934037640",
+        "concept": "Changed diet"
+      },
+      "1": {
+        "conceptId": "990501908",
+        "concept": "Exercised"
+      },
+      "2": {
+        "conceptId": "691423127",
+        "concept": "Skipped meals"
+      },
+      "3": {
+        "conceptId": "203773667",
+        "concept": "Surgery"
+      },
+      "4": {
+        "conceptId": "862170896",
+        "concept": "Used diet pills/medications"
+      },
+      "5": {
+        "conceptId": "448594163",
+        "concept": "Started to smoke or began to smoke again"
+      },
+      "55": {
+        "conceptId": "273432966",
+        "concept": "Other"
+      },
+      "WTLOSS2_1825_TB": {
+        "conceptId": "155535868",
+        "concept": "Other text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "207025341",
+    "questionText": "How did you lose weight between ages 18 and 25?"
+  },
+  "UC": {
+    "questIds": {
+      "UC_AGE": {
+        "conceptId": "156985576",
+        "concept": "Ulcerative Colitis age",
+        "isTextBox": true
+      },
+      "UC_YEAR": {
+        "conceptId": "267217303",
+        "concept": "Ulcerative Colitis year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "580911251",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had Ulcerative Colitis?"
+  },
+  "MHGROUP4": {
+    "questIds": {
+      "0": {
+        "conceptId": "726539692",
+        "concept": "Thyroid Disorder (Overactive or Underactive Thyroid)"
+      },
+      "1": {
+        "conceptId": "158044532",
+        "concept": "Diabetes"
+      },
+      "2": {
+        "conceptId": "943054522",
+        "concept": "Graves' Disease"
+      },
+      "88": {
+        "conceptId": "599063442",
+        "concept": "I have not had any of these conditions"
+      }
+    },
+    "conceptId": "900541533",
+    "questionText": "Thyroid, Diabetes, Graves - Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply."
+  },
+  "CHILDCANC3N": {
+    "questIds": {
+      "CHILDCANC3N_YEAR": {
+        "conceptId": "159321856",
+        "concept": "Child 1 Lymphoma cancer year",
+        "isTextBox": true
+      },
+      "CHILDCANC3N_AGE": {
+        "conceptId": "735764211",
+        "concept": "Child 1 Lymphoma cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "907776050",
+    "questionText": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Lymphoma cancer?"
+  },
+  "CHILDCANC3K": {
+    "questIds": {
+      "CHILDCANC3K_AGE": {
+        "conceptId": "160930045",
+        "concept": "Child 1 Liver cancer age",
+        "isTextBox": true
+      },
+      "CHILDCANC3K_YEAR": {
+        "conceptId": "614641556",
+        "concept": "Child 1 Liver cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "331759900",
+    "questionText": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Liver cancer?"
+  },
+  "MOMCANC3S": {
+    "questIds": {
+      "MOMCANC3S_AGE": {
+        "conceptId": "162638173",
+        "concept": "Mom Stomach cancer age",
+        "isTextBox": true
+      },
+      "MOMCANC3S_YEAR": {
+        "conceptId": "889983189",
+        "concept": "Mom Stomach cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "625249910",
+    "questionText": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Stomach cancer?"
+  },
+  "RA": {
+    "questIds": {
+      "RA_AGE": {
+        "conceptId": "162655918",
+        "concept": "Rheumatoid Arthritis age",
+        "isTextBox": true
+      },
+      "RA_YEAR": {
+        "conceptId": "279620272",
+        "concept": "Rheumatoid Arthritis year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "173101988",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had Rheumatoid Arthritis ?"
+  },
+  "ACNE2": {
+    "isTextBox": true,
+    "questionText": "How old were you when you first saw a doctor or other health professional for severe or ongoing acne?",
+    "conceptId": "164752169"
+  },
+  "DM2": {
+    "questIds": {
+      "DM2_YEAR": {
+        "conceptId": "166195719",
+        "concept": "Diabetes year",
+        "isTextBox": true
+      },
+      "DM2_AGE": {
+        "conceptId": "861769692",
+        "concept": "Diabetes age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "301679110",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had Diabetes?"
+  },
+  "RACEETH7": {
+    "questIds": {
+      "0": {
+        "conceptId": "664730658",
+        "concept": "Chamorro"
+      },
+      "1": {
+        "conceptId": "949727109",
+        "concept": "Chuukese"
+      },
+      "2": {
+        "conceptId": "496132363",
+        "concept": "Fijian"
+      },
+      "3": {
+        "conceptId": "453456270",
+        "concept": "Marshallese"
+      },
+      "4": {
+        "conceptId": "819018322",
+        "concept": "Native Hawaiian"
+      },
+      "5": {
+        "conceptId": "685406566",
+        "concept": "Palauan"
+      },
+      "6": {
+        "conceptId": "786290435",
+        "concept": "Samoan"
+      },
+      "7": {
+        "conceptId": "167028305",
+        "concept": "Tahitian"
+      },
+      "8": {
+        "conceptId": "345861266",
+        "concept": "Tongan"
+      },
+      "55": {
+        "conceptId": "578896602",
+        "concept": "None of these fully describe me. Please describe"
+      },
+      "99": {
+        "conceptId": "244187388",
+        "concept": "Prefer not to answer"
+      },
+      "RACEETH7_TB": {
+        "conceptId": "403180970",
+        "concept": "None of these fully describe me. Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "115616118",
+    "questionText": "Native Hawaiian or other Pacific Islander - Which categories describe you? Select all that apply. Note, you may select more than one group."
+  },
+  "MHGROUP5": {
+    "questIds": {
+      "0": {
+        "conceptId": "827542780",
+        "concept": "Kidney Stones"
+      },
+      "1": {
+        "conceptId": "167238688",
+        "concept": "Chronic Kidney Disease (Also Known as Chronic Kidney Failure)"
+      },
+      "88": {
+        "conceptId": "870244556",
+        "concept": "I have not had any of these conditions"
+      }
+    },
+    "conceptId": "874046190",
+    "questionText": "Kidney Disease- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply."
+  },
+  "SIBCANC3J": {
+    "questIds": {
+      "SIBCANC3J_AGE": {
+        "conceptId": "167405019",
+        "concept": "Sibling 1 Leukemia (blood and bone marrow) cancer age",
+        "isTextBox": true
+      },
+      "SIBCANC3J_YEAR": {
+        "conceptId": "796283680",
+        "concept": "Sibling 1 Leukemia (blood and bone marrow) cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "158409298",
+    "questionText": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had Leukemia (blood and bone marrow) cancer?"
+  },
+  "DADCANC3N": {
+    "questIds": {
+      "DADCANC3N_AGE": {
+        "conceptId": "167852044",
+        "concept": "Dad Melanoma (skin) cancer age",
+        "isTextBox": true
+      },
+      "DADCANC3N_YEAR": {
+        "conceptId": "219945811",
+        "concept": "Dad Melanoma (skin) cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "210325948",
+    "questionText": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Melanoma (skin) cancer?"
+  },
+  "MOMCANC3G": {
+    "questIds": {
+      "MOMCANC3G_AGE": {
+        "conceptId": "168033284",
+        "concept": "Mom esophageal cancer age",
+        "isTextBox": true
+      },
+      "MOMCANC3G_YEAR": {
+        "conceptId": "492448557",
+        "concept": "Mom esophageal cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "317093647",
+    "questionText": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had esophageal cancer?"
+  },
+  "MOMCANC3E": {
+    "questIds": {
+      "MOMCANC3E_AGE": {
+        "conceptId": "169302755",
+        "concept": "Mom cervical cancer age",
+        "isTextBox": true
+      },
+      "MOMCANC3E_YEAR": {
+        "conceptId": "385040556",
+        "concept": "Mom cervical cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "247198016",
+    "questionText": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had cervical cancer?"
+  },
+  "SIBCANC3Q": {
+    "questIds": {
+      "SIBCANC3Q_YEAR": {
+        "conceptId": "169843483",
+        "concept": "Sibling 1 Ovarian cancer year",
+        "isTextBox": true
+      },
+      "SIBCANC3Q_AGE": {
+        "conceptId": "260447694",
+        "concept": "Sibling 1 Ovarian cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "682651189",
+    "questionText": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had Ovarian cancer?"
+  },
+  "MOM1": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      },
+      "77": {
+        "conceptId": "665517141",
+        "concept": "Don't Know"
+      }
+    },
+    "questionText": "Is your biological mother still living?",
+    "conceptId": "170440011"
+  },
+  "CHILDCANC3X": {
+    "questIds": {
+      "CHILDCANC3X_YEAR": {
+        "conceptId": "171238071",
+        "concept": "Child 1 response from SIB1CANC2/another type of cancer year",
+        "isTextBox": true
+      },
+      "CHILDCANC3X_AGE": {
+        "conceptId": "404289423",
+        "concept": "Child 1 response from Child 1CANC2/another type of cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "278159347",
+    "questionText": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had response from SIBCANC2/another type of cancer?"
+  },
+  "HAYFEVER": {
+    "questIds": {
+      "HAYFEVER_AGE": {
+        "conceptId": "173154171",
+        "concept": "Hay Fever (Allergic to pollen or Allergic Rhinitis)diagnosis age",
+        "isTextBox": true
+      },
+      "HAYFEVER_YEAR": {
+        "conceptId": "240041263",
+        "concept": "Hay Fever (Allergic to pollen or Allergic Rhinitis) diagnosis year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "436333358",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or hay fever?"
+  },
+  "PPLHOUSE": {
+    "questIds": {
+      "99": {
+        "conceptId": "746038746",
+        "concept": "Declined"
+      },
+      "PPLHOUSE_NUM": {
+        "conceptId": "173508724",
+        "concept": "People in house number",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "641651634",
+    "questionText": "How many people currently live in your household? Please include yourself in the total number. (Include students living away at school, deployed military, etc.)"
+  },
+  "GALL": {
+    "questIds": {
+      "GALL_AGE": {
+        "conceptId": "174058153",
+        "concept": "Gallstones (Biliary Stones) age",
+        "isTextBox": true
+      },
+      "GALL_YEAR": {
+        "conceptId": "700773214",
+        "concept": "Gallstones (Biliary Stones) year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "980403315",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had Gallstones (Biliary Stones) ?"
+  },
+  "SIBCANC2": {
+    "questIds": {
+      "0": {
+        "conceptId": "247280146",
+        "concept": "Anal"
+      },
+      "1": {
+        "conceptId": "978181631",
+        "concept": "Bladder"
+      },
+      "2": {
+        "conceptId": "593622020",
+        "concept": "Brain"
+      },
+      "3": {
+        "conceptId": "254709325",
+        "concept": "Breast"
+      },
+      "4": {
+        "conceptId": "268302153",
+        "concept": "Cervical"
+      },
+      "5": {
+        "conceptId": "764189047",
+        "concept": "Colon/rectal"
+      },
+      "6": {
+        "conceptId": "279425216",
+        "concept": "Esophageal"
+      },
+      "7": {
+        "conceptId": "411660199",
+        "concept": "Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.)"
+      },
+      "8": {
+        "conceptId": "496560214",
+        "concept": "Kidney"
+      },
+      "9": {
+        "conceptId": "653059616",
+        "concept": "Leukemia (blood and bone marrow)"
+      },
+      "10": {
+        "conceptId": "847915042",
+        "concept": "Liver"
+      },
+      "11": {
+        "conceptId": "820098422",
+        "concept": "Lung or bronchial"
+      },
+      "12": {
+        "conceptId": "789944114",
+        "concept": "Non-Hodgkin's lymphoma"
+      },
+      "13": {
+        "conceptId": "844710773",
+        "concept": "Lymphoma"
+      },
+      "14": {
+        "conceptId": "747086784",
+        "concept": "Melanoma (skin)"
+      },
+      "15": {
+        "conceptId": "318663022",
+        "concept": "Non-melanoma skin (basal or squamous)"
+      },
+      "16": {
+        "conceptId": "197862400",
+        "concept": "Ovarian"
+      },
+      "17": {
+        "conceptId": "898847037",
+        "concept": "Pancreatic"
+      },
+      "18": {
+        "conceptId": "541652775",
+        "concept": "Prostate"
+      },
+      "19": {
+        "conceptId": "711620228",
+        "concept": "Stomach"
+      },
+      "20": {
+        "conceptId": "273304342",
+        "concept": "Testicular"
+      },
+      "21": {
+        "conceptId": "966947727",
+        "concept": "Thyroid"
+      },
+      "22": {
+        "conceptId": "639029928",
+        "concept": "Uterine (endometrial)"
+      },
+      "55": {
+        "conceptId": "698581196",
+        "concept": "Another type of cancer: Please describe"
+      },
+      "77": {
+        "conceptId": "178035206",
+        "concept": "I know my sibling had cancer, but don't know what type"
+      },
+      "SIBCANC2_TB": {
+        "conceptId": "957429734",
+        "concept": "Another type of cancer: Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "578895128",
+    "questionText": "Sibling 1- Which type(s) of cancer? Select all that apply."
+  },
+  "DADCANC3I": {
+    "questIds": {
+      "DADCANC3I_YEAR": {
+        "conceptId": "178661553",
+        "concept": "Dad Leukemia (blood and bone marrow) cancer year",
+        "isTextBox": true
+      },
+      "DADCANC3I_AGE": {
+        "conceptId": "989148071",
+        "concept": "Dad Leukemia (blood and bone marrow) cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "808655074",
+    "questionText": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Leukemia (blood and bone marrow) cancer?"
+  },
+  "CHILDDEATH": {
+    "questIds": {
+      "0": {
+        "conceptId": "339090963",
+        "concept": "Less than 1 year"
+      },
+      "77": {
+        "conceptId": "665517141",
+        "concept": "Don't Know"
+      },
+      "CHILDDEATH_NUM": {
+        "conceptId": "182786508",
+        "concept": "Child 1- How old was [CHILD INITIALS OR NICKNAME/your CHILD] when they died?, Number",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "236590500",
+    "questionText": "Child 1- How old was [CHILD INITIALS OR NICKNAME/your CHILD] when they died?"
+  },
+  "MOMCANC3W": {
+    "questIds": {
+      "MOMCANC3W_AGE": {
+        "conceptId": "183037954",
+        "concept": "Mom cancer age",
+        "isTextBox": true
+      },
+      "MOMCANC3W_YEAR": {
+        "conceptId": "888515115",
+        "concept": "Mom cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "671308090",
+    "questionText": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had cancer?"
+  },
+  "WTLOSS1_3545": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Did you lose weight on purpose between ages 35 and 45?",
+    "conceptId": "183572295"
+  },
+  "CHILDCANC3L": {
+    "questIds": {
+      "CHILDCANC3L_YEAR": {
+        "conceptId": "183751424",
+        "concept": "Child 1 Lung or bronchial cancer year",
+        "isTextBox": true
+      },
+      "CHILDCANC3L_AGE": {
+        "conceptId": "381106518",
+        "concept": "Child 1 Lung or bronchial cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "513077276",
+    "questionText": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Lung or bronchial cancer?"
+  },
+  "HRMED4": {
+    "isTextBox": true,
+    "questionText": "How old were you when you last used medication to treat thinning hair or hair loss? If you are currently using medication to treat thinning hair or hair loss, enter your current age.",
+    "conceptId": "186831207"
+  },
+  "DADCANC3R": {
+    "questIds": {
+      "DADCANC3R_AGE": {
+        "conceptId": "193601028",
+        "concept": "Dad Stomach cancer age",
+        "isTextBox": true
+      },
+      "DADCANC3R_YEAR": {
+        "conceptId": "400751267",
+        "concept": "Dad Stomach cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "727260639",
+    "questionText": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Stomach cancer?"
+  },
+  "SIBCANC3K": {
+    "questIds": {
+      "SIBCANC3K_AGE": {
+        "conceptId": "194878968",
+        "concept": "Sibling 1 Liver cancer age",
+        "isTextBox": true
+      },
+      "SIBCANC3K_YEAR": {
+        "conceptId": "758058429",
+        "concept": "Sibling 1 Liver cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "529744595",
+    "questionText": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had Liver cancer?"
+  },
+  "BLDTRANS3": {
+    "questIds": {
+      "BLDTRANS3_YEAR": {
+        "conceptId": "197994844",
+        "concept": "First blood transfusion year",
+        "isTextBox": true
+      },
+      "BLDTRANS3_AGE": {
+        "conceptId": "380275309",
+        "concept": "First blood transfusion age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "406011084",
+    "questionText": "How old were you when you had your first blood transfusion?"
+  },
+  "BSNSSTYP2": {
+    "questIds": {
+      "0": {
+        "conceptId": "730338896",
+        "concept": "Manufacturing"
+      },
+      "1": {
+        "conceptId": "777378451",
+        "concept": "A retail store"
+      },
+      "2": {
+        "conceptId": "328718340",
+        "concept": "Wholesale or distributor"
+      },
+      "3": {
+        "conceptId": "204067509",
+        "concept": "A service provider"
+      },
+      "4": {
+        "conceptId": "884766248",
+        "concept": "Construction"
+      },
+      "5": {
+        "conceptId": "553237701",
+        "concept": "Mining"
+      },
+      "6": {
+        "conceptId": "547793554",
+        "concept": "Farming"
+      },
+      "7": {
+        "conceptId": "200748093",
+        "concept": "Fishing"
+      },
+      "8": {
+        "conceptId": "413336496",
+        "concept": "Forestry"
+      },
+      "9": {
+        "conceptId": "449093151",
+        "concept": "Government"
+      },
+      "10": {
+        "conceptId": "454263183",
+        "concept": "Military"
+      },
+      "11": {
+        "conceptId": "274169783",
+        "concept": "A shipyard"
+      },
+      "55": {
+        "conceptId": "883468127",
+        "concept": "Some other type of business"
+      },
+      "77": {
+        "conceptId": "427583219",
+        "concept": "Do not know"
+      },
+      "BSNSSTYP2_TB": {
+        "conceptId": "739237614",
+        "concept": "Other text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "530742915",
+    "questionText": "What type of business was this? [Select all that apply.]"
+  },
+  "MOMCANC3M": {
+    "questIds": {
+      "MOMCANC3M_YEAR": {
+        "conceptId": "205864986",
+        "concept": "Mom Non-Hodgkin's lymphoma cancer year",
+        "isTextBox": true
+      },
+      "MOMCANC3M_AGE": {
+        "conceptId": "541724401",
+        "concept": "Mom Non-Hodgkin's lymphoma cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "213545903",
+    "questionText": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Non-Hodgkin's lymphoma cancer?"
+  },
+  "HAIRMALE": {
+    "questIds": {
+      "0": {
+        "conceptId": "927925620",
+        "concept": "Full head of hair with no hair loss."
+      },
+      "1": {
+        "conceptId": "629452816",
+        "concept": "Mild hair loss at the sides of the forehead, but not as far back as the ears."
+      },
+      "2": {
+        "conceptId": "915557297",
+        "concept": "Moderate hair loss at the sides of the forehead as far back as the ears, and mild loss from the center of the forehead."
+      },
+      "3": {
+        "conceptId": "103565678",
+        "concept": "Mild hair loss on the sides of the forehead, but not as far back as the ears, and mild loss from the center of the forehead. Also, hair thinning on the top (crown) of the head."
+      },
+      "4": {
+        "conceptId": "381878591",
+        "concept": "Moderate hair loss on the sides of the forehead as far back as the front of the ears, and moderate loss from the center of the forehead. Also, mild baldness on the top (crown) of the head. The two areas of hair loss are separated by a section of hair that goes across the top of the head."
+      },
+      "5": {
+        "conceptId": "446794016",
+        "concept": "Moderate hair loss on the sides of the forehead, as far back as the middle of the ears. Also, moderate baldness on the top (crown) of the head. The two areas of hair loss are separated by a thin strip of hair that goes across the top of the head."
+      },
+      "6": {
+        "conceptId": "526238862",
+        "concept": "Moderate hair loss on the sides and front of the forehead that are continuous with severe baldness on the top (crown) of the head. There is no clear strip of hair that separates these areas of balding."
+      },
+      "7": {
+        "conceptId": "173625583",
+        "concept": "Severe hair loss on the sides and front of the forehead that are continuous with severe baldness on the top (crown) of the head. There is no clear strip of hair that separates these areas of balding. The hairline at the sides of the head is at, or below, the temples. Only a small strip of hair remains around the ears and at the back of the head."
+      },
+      "8": {
+        "conceptId": "782282163",
+        "concept": "Mild hair loss across the entire forehead, but not as far back as the ears."
+      },
+      "9": {
+        "conceptId": "693010445",
+        "concept": "Moderate hair loss across the entire forehead, as far back as the middle of the ears."
+      },
+      "10": {
+        "conceptId": "732008197",
+        "concept": "Severe hair loss across the entire forehead, as far back as the back of the ears."
+      },
+      "11": {
+        "conceptId": "734998477",
+        "concept": "Severe hair loss across the entire forehead, beyond the back of the ears."
+      }
+    },
+    "questionText": "Which one of these figures most closely resembles your hair pattern at age 40?",
+    "conceptId": "206319592"
+  },
+  "SKINCANC3": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Skin cancer diagnosis age",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Skin cancer diagnosis year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "904550680",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had skin cancer?"
+  },
+  "SHORTER2": {
+    "isTextBox": true,
+    "questionText": "How much shorter are you now than when you were in your 20s and 30s? If you are not sure, please make your best guess.",
+    "conceptId": "207494582"
+  },
+  "STROKE": {
+    "questIds": {
+      "STROKE_YEAR": {
+        "conceptId": "208748910",
+        "concept": "stroke diagnosis year",
+        "isTextBox": true
+      },
+      "STROKE_AGE": {
+        "conceptId": "224468136",
+        "concept": "stroke diagnosis age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "110652436",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have had a stroke?"
+  },
+  "PCOS": {
+    "questIds": {
+      "PCOS_YEAR": {
+        "conceptId": "210695876",
+        "concept": "Polycystic Ovary Syndrome (PCOS) year",
+        "isTextBox": true
+      },
+      "PCOS_AGE": {
+        "conceptId": "603202179",
+        "concept": "Polycystic Ovary Syndrome (PCOS) age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "852898339",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had polycystic ovary syndrome (PCOS)?"
+  },
+  "MOMCANC3T": {
+    "questIds": {
+      "MOMCANC3T_YEAR": {
+        "conceptId": "214233290",
+        "concept": "Mom Thyroid cancer year",
+        "isTextBox": true
+      },
+      "MOMCANC3T_AGE": {
+        "conceptId": "397846140",
+        "concept": "Mom Thyroid cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "838564850",
+    "questionText": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Thyroid cancer?"
+  },
+  "HPV": {
+    "questIds": {
+      "HPV_AGE": {
+        "conceptId": "214966808",
+        "concept": "HPV diagnosis age",
+        "isTextBox": true
+      },
+      "HPV_YEAR": {
+        "conceptId": "381702052",
+        "concept": "HPV diagnosis year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "491936871",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had HPV?"
+  },
+  "DADCANC3P": {
+    "questIds": {
+      "DADCANC3P_YEAR": {
+        "conceptId": "222019920",
+        "concept": "Dad Pancreatic cancer year",
+        "isTextBox": true
+      },
+      "DADCANC3P_AGE": {
+        "conceptId": "320619944",
+        "concept": "Dad Pancreatic cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "121502359",
+    "questionText": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Pancreatic cancer?"
+  },
+  "HYSTER": {
+    "questIds": {
+      "HYSTER_YEAR": {
+        "conceptId": "223433842",
+        "concept": "uterus removed (hysterectomy) year",
+        "isTextBox": true
+      },
+      "HYSTER_AGE": {
+        "conceptId": "861162777",
+        "concept": "uterus removed (hysterectomy) age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "150352141",
+    "questionText": "How old were you when you had your uterus removed (hysterectomy)?"
+  },
+  "FTREM": {
+    "questIds": {
+      "0": {
+        "conceptId": "448068764",
+        "concept": "I had surgery to remove one fallopian tube"
+      },
+      "1": {
+        "conceptId": "537173119",
+        "concept": "I had surgery to remove both fallopian tubes"
+      },
+      "88": {
+        "conceptId": "398561594",
+        "concept": "None of the above"
+      }
+    },
+    "questionText": "Which of these best describes the type of fallopian tube removal surgery that you had?",
+    "conceptId": "224791140"
+  },
+  "SIBCANC3H": {
+    "questIds": {
+      "SIBCANC3H_AGE": {
+        "conceptId": "225886624",
+        "concept": "Sibling 1 Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.) cancer age",
+        "isTextBox": true
+      },
+      "SIBCANC3H_YEAR": {
+        "conceptId": "957985997",
+        "concept": "Sibling 1 Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.) cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "550722030",
+    "questionText": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.) cancer?"
+  },
+  "GERD": {
+    "questIds": {
+      "GERD_AGE": {
+        "conceptId": "227342684",
+        "concept": "Esophageal Acid Reflux (GERD) diagnosis age",
+        "isTextBox": true
+      },
+      "GERD_YEAR": {
+        "conceptId": "585932247",
+        "concept": "Esophageal Acid Reflux (GERD) diagnosis year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "554782332",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had Esophageal Acid Reflux (GERD) ?"
+  },
+  "SIBCANC3O": {
+    "questIds": {
+      "SIBCANC3O_AGE": {
+        "conceptId": "230633094",
+        "concept": "Sibling 1 Melanoma (skin) cancer age",
+        "isTextBox": true
+      },
+      "SIBCANC3O_YEAR": {
+        "conceptId": "962468280",
+        "concept": "Sibling 1 Melanoma (skin) cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "259089008",
+    "questionText": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had Melanoma (skin) cancer?"
+  },
+  "TUBLIG": {
+    "questIds": {
+      "TUBLIG_AGE": {
+        "conceptId": "232595513",
+        "concept": "tubes tied (tubal ligation) age",
+        "isTextBox": true
+      },
+      "TUBLIG_YEAR": {
+        "conceptId": "614366597",
+        "concept": "tubes tied (tubal ligation) year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "122887481",
+    "questionText": "How old were you when you had your tubes tied (tubal ligation)?"
+  },
+  "EMPLYRSRVCE2": {
+    "isTextBox": true,
+    "questionText": "What products were made, or services provided, by this employer? If multiple, please provide the product/services related to your work unit. For example: automotive parts, residential home construction, accounting services, pharmaceutical research.",
+    "conceptId": "233198706"
+  },
+  "HEARTVALV": {
+    "questIds": {
+      "HEARTVALV_AGE": {
+        "conceptId": "235755344",
+        "concept": "heart valve problems diagnosis age",
+        "isTextBox": true
+      },
+      "HEARTVALV_YEAR": {
+        "conceptId": "787473236",
+        "concept": "heart valve problemsdiagnosis year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "660358706",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had heart valve problems?"
+  },
+  "DADCANC3L": {
+    "questIds": {
+      "DADCANC3L_YEAR": {
+        "conceptId": "238799612",
+        "concept": "Dad Non-Hodgkin's lymphoma cancer year",
+        "isTextBox": true
+      },
+      "DADCANC3L_AGE": {
+        "conceptId": "877901263",
+        "concept": "Dad Non-Hodgkin's lymphoma cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "291855684",
+    "questionText": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Non-Hodgkin's lymphoma cancer?"
+  },
+  "SIBCANC3I": {
+    "questIds": {
+      "SIBCANC3I_AGE": {
+        "conceptId": "239465377",
+        "concept": "Sibling 1 kidney cancer age",
+        "isTextBox": true
+      },
+      "SIBCANC3I_YEAR": {
+        "conceptId": "273406875",
+        "concept": "Sibling 1 kidney cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "142912472",
+    "questionText": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had kidney cancer?"
+  },
+  "RACEETH3": {
+    "questIds": {
+      "0": {
+        "conceptId": "773844957",
+        "concept": "Asian Indian"
+      },
+      "1": {
+        "conceptId": "901439277",
+        "concept": "Cambodian"
+      },
+      "2": {
+        "conceptId": "750168061",
+        "concept": "Chinese"
+      },
+      "3": {
+        "conceptId": "326604981",
+        "concept": "Filipino"
+      },
+      "4": {
+        "conceptId": "469918550",
+        "concept": "Hmong"
+      },
+      "5": {
+        "conceptId": "288079668",
+        "concept": "Japanese"
+      },
+      "6": {
+        "conceptId": "240721579",
+        "concept": "Korean"
+      },
+      "7": {
+        "conceptId": "571633051",
+        "concept": "Pakistani"
+      },
+      "8": {
+        "conceptId": "964924704",
+        "concept": "Viete"
+      },
+      "55": {
+        "conceptId": "946150260",
+        "concept": "None of these fully describe me. Please describe"
+      },
+      "99": {
+        "conceptId": "271443268",
+        "concept": "Prefer not to answer"
+      },
+      "RACEETH3_TB": {
+        "conceptId": "396618548",
+        "concept": "None of these fully describe me. Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "525535977",
+    "questionText": "Asian- Which categories describe you? Select all that apply. Note, you may select more than one group."
+  },
+  "SIBCANC3T": {
+    "questIds": {
+      "SIBCANC3T_AGE": {
+        "conceptId": "244198411",
+        "concept": "Sibling 1 Stomach cancer age",
+        "isTextBox": true
+      },
+      "SIBCANC3T_YEAR": {
+        "conceptId": "944234755",
+        "concept": "Sibling 1 Stomach cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "990114799",
+    "questionText": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had Stomach cancer?"
+  },
+  "RACEETH2": {
+    "questIds": {
+      "0": {
+        "conceptId": "249603425",
+        "concept": "American Indian"
+      },
+      "1": {
+        "conceptId": "530063091",
+        "concept": "Alaska Native"
+      },
+      "2": {
+        "conceptId": "643489668",
+        "concept": "Central or South American Indian"
+      },
+      "55": {
+        "conceptId": "923311241",
+        "concept": "None of these fully describe me. Please describe"
+      },
+      "99": {
+        "conceptId": "780524998",
+        "concept": "Prefer not to answer"
+      },
+      "RACEETH2_TB": {
+        "conceptId": "650100414",
+        "concept": "None of these fully describe me. Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "362270886",
+    "questionText": "American Indian or Alaska Native- Which categories describe you? Select all that apply. Note, you may select more than one group."
+  },
+  "CHILDCANC3R": {
+    "questIds": {
+      "CHILDCANC3R_YEAR": {
+        "conceptId": "249763782",
+        "concept": "Child 1 Pancreatic cancer year",
+        "isTextBox": true
+      },
+      "CHILDCANC3R_AGE": {
+        "conceptId": "823938694",
+        "concept": "Child 1 Pancreatic cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "127257956",
+    "questionText": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Pancreatic cancer?"
+  },
+  "BREASTSUR": {
+    "questIds": {
+      "0": {
+        "conceptId": "752953170",
+        "concept": "Breast implants"
+      },
+      "1": {
+        "conceptId": "325506683",
+        "concept": "Breast lift surgery (mastopexy)"
+      },
+      "2": {
+        "conceptId": "335563082",
+        "concept": "Breast reconstruction surgery"
+      },
+      "3": {
+        "conceptId": "955881350",
+        "concept": "Breast reduction"
+      },
+      "4": {
+        "conceptId": "492902023",
+        "concept": "Removal of a part of my breast tissue (breast-conserving surgery (BCS), lumpectomy, partial mastectomy, or segmental mastectomy)"
+      },
+      "5": {
+        "conceptId": "256196714",
+        "concept": "Removal of one breast (mastectomy)"
+      },
+      "6": {
+        "conceptId": "802859122",
+        "concept": "Removal of both breasts (double or bilateral mastectomy)"
+      },
+      "7": {
+        "conceptId": "520432394",
+        "concept": "Surgery for a breast abscess (such as incision and draining)"
+      },
+      "8": {
+        "conceptId": "667901971",
+        "concept": "Removal of a lactiferous or milk duct (microdochectomy)"
+      },
+      "55": {
+        "conceptId": "894430838",
+        "concept": "Other: Please describe"
+      },
+      "88": {
+        "conceptId": "875057149",
+        "concept": "None of the above"
+      },
+      "BREASTSUR_TB": {
+        "conceptId": "942347130",
+        "concept": "Other: Please describe[text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "517307064",
+    "questionText": "Which of these breast surgeries have you had? Please do not include a biopsy. Select all that apply."
+  },
+  "DADCANC3K": {
+    "questIds": {
+      "DADCANC3K_AGE": {
+        "conceptId": "260972338",
+        "concept": "Dad Lung or bronchial cancer age",
+        "isTextBox": true
+      },
+      "DADCANC3K_YEAR": {
+        "conceptId": "331562964",
+        "concept": "Dad Lung or bronchial cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "370198527",
+    "questionText": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Lung or bronchial cancer?"
+  },
+  "TRICH": {
+    "questIds": {
+      "TRICH_AGE": {
+        "conceptId": "263035750",
+        "concept": "Trichomoniasis diagnosis age",
+        "isTextBox": true
+      },
+      "TRICH_YEAR": {
+        "conceptId": "959338759",
+        "concept": "Trichomoniasis diagnosis year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "103397024",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had \tTrichomoniasis?"
+  },
+  "SIBCANC3E": {
+    "questIds": {
+      "SIBCANC3E_YEAR": {
+        "conceptId": "263703032",
+        "concept": "Sibling 1 cervical cancer year",
+        "isTextBox": true
+      },
+      "SIBCANC3E_AGE": {
+        "conceptId": "842731701",
+        "concept": "Sibling 1 cervical cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "860112841",
+    "questionText": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had cervical cancer?"
+  },
+  "SIBDEATH": {
+    "questIds": {
+      "77": {
+        "conceptId": "665517141",
+        "concept": "Don't Know"
+      },
+      "SIBDEATH_NUM": {
+        "conceptId": "338020179",
+        "concept": "Sibling 1- How old was [SIBLING INITIALS OR NICKNAME/your sibling] when they died?, Number",
+        "isTextBox": true
+      }
+    },
+    "questionText": "Sibling 1- How old was [SIBLING INITIALS OR NICKNAME/your sibling] when they died?",
+    "conceptId": "537137982"
+  },
+  "ENDO2": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Was your endometriosis confirmed by surgery?",
+    "conceptId": "266847650"
+  },
+  "CKD": {
+    "questIds": {
+      "CKD_AGE": {
+        "conceptId": "267726874",
+        "concept": "Chronic Kidney Disease (Also Known as Chronic Kidney Failure) age",
+        "isTextBox": true
+      },
+      "CKD_YEAR": {
+        "conceptId": "288135482",
+        "concept": "Chronic Kidney Disease (Also Known as Chronic Kidney Failure) year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "878094302",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had Chronic Kidney Disease?"
+  },
+  "MOMCANC3F": {
+    "questIds": {
+      "MOMCANC3F_YEAR": {
+        "conceptId": "270796664",
+        "concept": "Mom colon/rectal cancer year",
+        "isTextBox": true
+      },
+      "MOMCANC3F_AGE": {
+        "conceptId": "985487786",
+        "concept": "Mom colon/rectal cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "891925519",
+    "questionText": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had colon/rectal cancer?"
+  },
+  "CHILDCANC3T": {
+    "questIds": {
+      "CHILDCANC3T_YEAR": {
+        "conceptId": "271352384",
+        "concept": "Child 1 Stomach cancer year",
+        "isTextBox": true
+      },
+      "CHILDCANC3T_AGE": {
+        "conceptId": "849706420",
+        "concept": "Child 1 Stomach cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "908129316",
+    "questionText": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Stomach cancer?"
+  },
+  "MOMCANC": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      },
+      "77": {
+        "conceptId": "665517141",
+        "concept": "Don't Know"
+      }
+    },
+    "questionText": "[If MOM=01] Has a doctor or other health professional ever said that your mother has or had any type of cancer? [If MOM=00, 77, NON-RESPONSE] Did a doctor or other health professional ever say that your mother had any type of cancer?",
+    "conceptId": "276353712"
+  },
+  "MOMCANC3C": {
+    "questIds": {
+      "MOMCANC3C_YEAR": {
+        "conceptId": "277009302",
+        "concept": "Mom brain cancer year",
+        "isTextBox": true
+      },
+      "MOMCANC3C_AGE": {
+        "conceptId": "959143767",
+        "concept": "Mom brain cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "683981980",
+    "questionText": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had brain cancer?"
+  },
+  "OCCUPTN2": {
+    "isTextBox": true,
+    "questionText": "Please identify the occupation category that best describes this job.",
+    "conceptId": "279637054"
+  },
+  "GEN": {
+    "questIds": {
+      "0": {
+        "conceptId": "536341288",
+        "concept": "Female"
+      },
+      "1": {
+        "conceptId": "654207589",
+        "concept": "Male"
+      },
+      "2": {
+        "conceptId": "405267600",
+        "concept": "Transgender Male/Trans Man/Female-to-Male (FTM)"
+      },
+      "3": {
+        "conceptId": "873138103",
+        "concept": "Transgender Female/Trans Woman/Male-to-Female (MTF)"
+      },
+      "4": {
+        "conceptId": "805712793",
+        "concept": "Genderqueer, not exclusively male or female"
+      },
+      "55": {
+        "conceptId": "181769837",
+        "concept": "Other"
+      },
+      "99": {
+        "conceptId": "746038746",
+        "concept": "Declined"
+      },
+      "GEN_TB": {
+        "conceptId": "918409306",
+        "concept": "Gender - Do you think of yourself as: [text box]",
+        "isTextBox": true
+      }
+    },
+    "questionText": "Gender - Do you think of yourself as:",
+    "conceptId": "289664241"
+  },
+  "ACNE": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Have you ever seen a doctor or other health professional for severe or ongoing acne?",
+    "conceptId": "283634623"
+  },
+  "ALTADDRESS2": {
+    "questIds": {
+      "ALTADDRESS2_LINE1": {
+        "conceptId": "284580415",
+        "concept": "Address line 1",
+        "isTextBox": true
+      },
+      "ALTADDRESS2_ZIP": {
+        "conceptId": "379899229",
+        "concept": "Zip",
+        "isTextBox": true
+      },
+      "ALTADDRESS2_LINE2": {
+        "conceptId": "728926441",
+        "concept": "Address line 2",
+        "isTextBox": true
+      },
+      "ALTADDRESS2_CITY": {
+        "conceptId": "907038282",
+        "concept": "City",
+        "isTextBox": true
+      },
+      "ALTADDRESS2_STATE": {
+        "conceptId": "970839481",
+        "concept": "State",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "857915436",
+    "questionText": "What is the address?"
+  },
+  "MHGROUP3": {
+    "questIds": {
+      "0": {
+        "conceptId": "406890409",
+        "concept": "Esophageal Acid Reflux (GERD)"
+      },
+      "1": {
+        "conceptId": "704544306",
+        "concept": "Barrett's Esophagus"
+      },
+      "2": {
+        "conceptId": "691766591",
+        "concept": "Irritable Bowel Syndrome"
+      },
+      "3": {
+        "conceptId": "308645635",
+        "concept": "Inflammatory Bowel Disease"
+      },
+      "4": {
+        "conceptId": "731115613",
+        "concept": "Diverticulitis or Diverticulosis"
+      },
+      "5": {
+        "conceptId": "567284980",
+        "concept": "Ulcerative Colitis"
+      },
+      "6": {
+        "conceptId": "986548173",
+        "concept": "Crohn's Disease"
+      },
+      "7": {
+        "conceptId": "285995100",
+        "concept": "Celiac Disease (also known as Gluten-Sensitive Enteropathy)"
+      },
+      "8": {
+        "conceptId": "545628561",
+        "concept": "Gallstones (Biliary Stones)"
+      },
+      "9": {
+        "conceptId": "709786039",
+        "concept": "Liver Cirrhosis"
+      },
+      "10": {
+        "conceptId": "984479578",
+        "concept": "Pancreatitis"
+      },
+      "88": {
+        "conceptId": "473901019",
+        "concept": "I have not had any of these conditions"
+      }
+    },
+    "conceptId": "180961306",
+    "questionText": "Digestive System Problems- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply."
+  },
+  "ALTCONTACT2": {
+    "questIds": {
+      "ALTCONTACT2_MOBILE": {
+        "conceptId": "286149234",
+        "concept": "Alternate contact mobile phone",
+        "isTextBox": true
+      },
+      "ALTCONTACT2_HOME": {
+        "conceptId": "318130543",
+        "concept": "Alternate contact home phone",
+        "isTextBox": true
+      },
+      "ALTCONTACT2_EMAIL": {
+        "conceptId": "750097000",
+        "concept": "Alternate contact email",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "285718391",
+    "questionText": "How can we reach this person?"
+  },
+  "MOMCANC3P": {
+    "questIds": {
+      "MOMCANC3P_AGE": {
+        "conceptId": "289706761",
+        "concept": "Mom Non-melanoma skin (basal or squamous) cancer age",
+        "isTextBox": true
+      },
+      "MOMCANC3P_YEAR": {
+        "conceptId": "605453103",
+        "concept": "Mom Non-melanoma skin (basal or squamous) cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "433604862",
+    "questionText": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Non-melanoma skin (basal or squamous) cancer?"
+  },
+  "DADCANC3S": {
+    "questIds": {
+      "DADCANC3S_YEAR": {
+        "conceptId": "296501787",
+        "concept": "Dad Testicular cancer year",
+        "isTextBox": true
+      },
+      "DADCANC3S_AGE": {
+        "conceptId": "567975304",
+        "concept": "Dad Testicular cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "359291056",
+    "questionText": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Testicular cancer?"
+  },
+  "IBS": {
+    "questIds": {
+      "IBS_YEAR": {
+        "conceptId": "298255589",
+        "concept": "Irritable Bowel Syndrome diagnosis year",
+        "isTextBox": true
+      },
+      "IBS_AGE": {
+        "conceptId": "572809474",
+        "concept": "Irritable Bowel Syndrome diagnosis age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "448476881",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had Irritable Bowel Syndrome diagnosis age?"
+  },
+  "HEARTATT": {
+    "questIds": {
+      "HEARTATT_YEAR": {
+        "conceptId": "298689217",
+        "concept": "Heart attack (myocardial infarction) diagnosis year",
+        "isTextBox": true
+      },
+      "HEARTATT_AGE": {
+        "conceptId": "652228674",
+        "concept": "Heart attack (myocardial infarction)diagnosis age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "624479779",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have had a heart attack (myocardial infarction)?"
+  },
+  "TONSILS": {
+    "questIds": {
+      "TONSILS_AGE": {
+        "conceptId": "300754548",
+        "concept": "tonsillectomy age",
+        "isTextBox": true
+      },
+      "TONSILS_YEAR": {
+        "conceptId": "714712574",
+        "concept": "tonsillectomy year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "367884741",
+    "questionText": "How old were you when you had your tonsils removed (tonsillectomy)?"
+  },
+  "SIBCANC3G": {
+    "questIds": {
+      "SIBCANC3G_AGE": {
+        "conceptId": "301293668",
+        "concept": "Sibling 1 esophageal cancer age",
+        "isTextBox": true
+      },
+      "SIBCANC3G_YEAR": {
+        "conceptId": "355636351",
+        "concept": "Sibling 1 esophageal cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "654594205",
+    "questionText": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had esophageal cancer?"
+  },
+  "SIBCANC3N": {
+    "questIds": {
+      "SIBCANC3N_YEAR": {
+        "conceptId": "306261647",
+        "concept": "Sibling 1 Lymphoma cancer year",
+        "isTextBox": true
+      },
+      "SIBCANC3N_AGE": {
+        "conceptId": "779428217",
+        "concept": "Sibling 1 Lymphoma cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "391972881",
+    "questionText": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had Lymphoma cancer?"
+  },
+  "SYPH": {
+    "questIds": {
+      "SYPH_YEAR": {
+        "conceptId": "312392165",
+        "concept": "Syphilis diagnosis year",
+        "isTextBox": true
+      },
+      "SYPH_AGE": {
+        "conceptId": "493095196",
+        "concept": "Syphilis diagnosis age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "937166274",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had Syphilis?"
+  },
+  "DADCANC3T": {
+    "questIds": {
+      "DADCANC3T_YEAR": {
+        "conceptId": "315421706",
+        "concept": "Dad Thyroid cancer year",
+        "isTextBox": true
+      },
+      "DADCANC3T_AGE": {
+        "conceptId": "708853698",
+        "concept": "Dad Thyroid cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "968841976",
+    "questionText": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Thyroid cancer?"
+  },
+  "CHESTPAIN": {
+    "questIds": {
+      "CHESTPAIN_AGE": {
+        "conceptId": "320057074",
+        "concept": "chest pain (angina)diagnosis age",
+        "isTextBox": true
+      },
+      "CHESTPAIN_YEAR": {
+        "conceptId": "400070088",
+        "concept": "chest pain (angina) diagnosis year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "681229479",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had chest pain (angina)?"
+  },
+  "SIBCANC3P": {
+    "questIds": {
+      "SIBCANC3P_AGE": {
+        "conceptId": "320895201",
+        "concept": "Sibling 1 Non-melanoma skin (basal or squamous) cancer age",
+        "isTextBox": true
+      },
+      "SIBCANC3P_YEAR": {
+        "conceptId": "407586710",
+        "concept": "Sibling 1 Non-melanoma skin (basal or squamous) cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "209771602",
+    "questionText": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had Non-melanoma skin (basal or squamous) cancer?"
+  },
+  "SKINCANC2": {
+    "questIds": {
+      "0": {
+        "conceptId": "864052438",
+        "concept": "Basal cell"
+      },
+      "1": {
+        "conceptId": "323177352",
+        "concept": "Squamous cell"
+      },
+      "77": {
+        "conceptId": "426285737",
+        "concept": "Don't know"
+      }
+    },
+    "conceptId": "508846529",
+    "questionText": "What type(s) of skin cancer did a doctor or other health professional tell you that you have or had? Select all that apply."
+  },
+  "PAIN": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Over the past three months, have you felt any physical pain on most days?",
+    "conceptId": "323512813"
+  },
+  "DADCANC3E": {
+    "questIds": {
+      "DADCANC3E_AGE": {
+        "conceptId": "326343894",
+        "concept": "Dad colon/rectal cancer age",
+        "isTextBox": true
+      },
+      "DADCANC3E_YEAR": {
+        "conceptId": "440948417",
+        "concept": "Dad colon/rectal cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "785019074",
+    "questionText": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had colon/rectal cancer?"
+  },
+  "BREASTSUR2": {
+    "questIds": {
+      "BREASTSUR2_AGE": {
+        "conceptId": "326574941",
+        "concept": "breast surgery age",
+        "isTextBox": true
+      },
+      "BREASTSUR2_YEAR": {
+        "conceptId": "560915680",
+        "concept": "breast surgery year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "867314445",
+    "questionText": "How old were you when you had breast surgery? If you have had more than one procedure, at what age did you last have this procedure?"
+  },
+  "PROSREM2": {
+    "questIds": {
+      "PROSREM2_AGE": {
+        "conceptId": "331285390",
+        "concept": "prostate removal surgery age",
+        "isTextBox": true
+      },
+      "PROSREM2_YEAR": {
+        "conceptId": "614994823",
+        "concept": "prostate removal surgery year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "882152987",
+    "questionText": "How old were you when you had part or all of your prostate removed (prostatectomy)? If you have had more than one procedure, at what age did you last have this procedure?"
+  },
+  "DADAGE": {
+    "questIds": {
+      "77": {
+        "conceptId": "665517141",
+        "concept": "Don't Know"
+      },
+      "DAD_AGE": {
+        "conceptId": "334956961",
+        "concept": "How old is your father today?, Number",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "178774803",
+    "questionText": "How old is your father today?"
+  },
+  "PAIN2": {
+    "questIds": {
+      "0": {
+        "conceptId": "988858078",
+        "concept": "1 (a little pain)"
+      },
+      "1": {
+        "conceptId": "156095877",
+        "concept": "2"
+      },
+      "2": {
+        "conceptId": "162668459",
+        "concept": "3"
+      },
+      "3": {
+        "conceptId": "278139969",
+        "concept": "4"
+      },
+      "4": {
+        "conceptId": "676824724",
+        "concept": "5"
+      },
+      "5": {
+        "conceptId": "512144428",
+        "concept": "6"
+      },
+      "6": {
+        "conceptId": "125674414",
+        "concept": "7"
+      },
+      "7": {
+        "conceptId": "406650257",
+        "concept": "8"
+      },
+      "8": {
+        "conceptId": "700080862",
+        "concept": "9"
+      },
+      "9": {
+        "conceptId": "616621065",
+        "concept": "10 (a lot of pain)"
+      }
+    },
+    "questionText": "On a scale of 1 to 10, where 1 means a little pain and 10 means a lot of pain, how would you rate your physical pain?",
+    "conceptId": "338924834"
+  },
+  "HEIGHTFEET": {
+    "questIds": {
+      "HEIGHTFT": {
+        "conceptId": "340854069",
+        "concept": "Height feet",
+        "isTextBox": true
+      },
+      "HEIGHTIN": {
+        "conceptId": "600462977",
+        "concept": "Height inches",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "114314839",
+    "questionText": "How tall are you with your shoes off?"
+  },
+  "DADCANC3G": {
+    "questIds": {
+      "DADCANC3G_AGE": {
+        "conceptId": "345313558",
+        "concept": "Dad Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.) cancer age",
+        "isTextBox": true
+      },
+      "DADCANC3G_YEAR": {
+        "conceptId": "695129126",
+        "concept": "Dad Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.) cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "692910565",
+    "questionText": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.) cancer?"
+  },
+  "DEPRESS": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Has a doctor or other health professional ever told you that you have or had clinical depression?",
+    "conceptId": "347860896"
+  },
+  "GRAVES": {
+    "questIds": {
+      "GRAVES_YEAR": {
+        "conceptId": "350967202",
+        "concept": "Graves' Disease year",
+        "isTextBox": true
+      },
+      "GRAVES_AGE": {
+        "conceptId": "499636077",
+        "concept": "Graves' Disease age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "810918716",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or hay Graves' Disease?"
+  },
+  "UF": {
+    "questIds": {
+      "UF_YEAR": {
+        "conceptId": "351965599",
+        "concept": "Uterine Fibroids year",
+        "isTextBox": true
+      },
+      "UF_AGE": {
+        "conceptId": "895115511",
+        "concept": "Uterine Fibroids age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "846786840",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had Uterine Fibroids?"
+  },
+  "WTLOSS2_2535": {
+    "questIds": {
+      "0": {
+        "conceptId": "520988707",
+        "concept": "Changed diet"
+      },
+      "1": {
+        "conceptId": "780763112",
+        "concept": "Exercised"
+      },
+      "2": {
+        "conceptId": "570444456",
+        "concept": "Skipped meals"
+      },
+      "3": {
+        "conceptId": "850231045",
+        "concept": "Surgery"
+      },
+      "4": {
+        "conceptId": "353967256",
+        "concept": "Used diet pills/medications"
+      },
+      "5": {
+        "conceptId": "880559156",
+        "concept": "Started to smoke or began to smoke again"
+      },
+      "55": {
+        "conceptId": "531797350",
+        "concept": "Other"
+      },
+      "WTLOSS2_2535_TB": {
+        "conceptId": "899840609",
+        "concept": "Other text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "827393644",
+    "questionText": "How did you lose weight between ages 25 and 35?"
+  },
+  "MOMCANC3K": {
+    "questIds": {
+      "MOMCANC3K_YEAR": {
+        "conceptId": "358704664",
+        "concept": "Mom Liver cancer year",
+        "isTextBox": true
+      },
+      "MOMCANC3K_AGE": {
+        "conceptId": "388374840",
+        "concept": "Mom Liver cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "186170949",
+    "questionText": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Liver cancer?"
+  },
+  "MHGROUP2": {
+    "questIds": {
+      "0": {
+        "conceptId": "359025642",
+        "concept": "Chronic lung disease (Emphysema, Chronic Bronchitis, or Chronic Obstructive Pulmonary Disease (COPD))"
+      },
+      "1": {
+        "conceptId": "407340134",
+        "concept": "Asthma"
+      },
+      "2": {
+        "conceptId": "427219143",
+        "concept": "Hay Fever (Allergic to pollen or Allergic Rhinitis)"
+      },
+      "88": {
+        "conceptId": "445446905",
+        "concept": "I have not had any of these conditions"
+      }
+    },
+    "conceptId": "894259747",
+    "questionText": "Respiratory Problems- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply."
+  },
+  "HAIRFEM": {
+    "questIds": {
+      "0": {
+        "conceptId": "927925620",
+        "concept": "Full head of hair with no hair loss."
+      },
+      "1": {
+        "conceptId": "552278254",
+        "concept": "Very mild hair loss or thinning of hair on the top of the head along the middle of the head"
+      },
+      "2": {
+        "conceptId": "267104669",
+        "concept": "Mild hair loss on the top of the head along the middle of the head."
+      },
+      "3": {
+        "conceptId": "619337179",
+        "concept": "Mild-to-moderate hair loss on the top of the head along the middle of the head."
+      },
+      "4": {
+        "conceptId": "601381820",
+        "concept": "Moderate hair loss on the top of the head along the middle of the head."
+      },
+      "5": {
+        "conceptId": "151394571",
+        "concept": "Severe hair loss on the top of the head, but no hair loss at the forehead"
+      },
+      "6": {
+        "conceptId": "917379905",
+        "concept": "Severe hair loss on the top of the head, and the hair along the forehead is thinning."
+      },
+      "7": {
+        "conceptId": "746328729",
+        "concept": "Severehair loss on the top of the head from the forehead to the back of the ears."
+      },
+      "8": {
+        "conceptId": "452963767",
+        "concept": "Moderate hair loss on the sides of the head at the forehead and moderate-to-severe hair loss on the top of the head."
+      }
+    },
+    "questionText": "Which one of these figures most closely resembles your hair pattern at age 40?",
+    "conceptId": "365851428"
+  },
+  "DAD": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      },
+      "77": {
+        "conceptId": "665517141",
+        "concept": "Don't Know"
+      }
+    },
+    "questionText": "Is your biological father still living?",
+    "conceptId": "367374606"
+  },
+  "HTN": {
+    "questIds": {
+      "HTN_AGE": {
+        "conceptId": "367670682",
+        "concept": "high blood pressure (hypertension)diagnosis age",
+        "isTextBox": true
+      },
+      "HTN_YEAR": {
+        "conceptId": "608469482",
+        "concept": "high blood pressure (hypertension) diagnosis year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "884793537",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had high blood pressure (hypertension)?"
+  },
+  "EDU": {
+    "questIds": {
+      "0": {
+        "conceptId": "978204320",
+        "concept": "Grade school grades 1-8"
+      },
+      "1": {
+        "conceptId": "935502060",
+        "concept": "Some high school grades 9-11"
+      },
+      "2": {
+        "conceptId": "404564707",
+        "concept": "High school graduate or GED"
+      },
+      "3": {
+        "conceptId": "432193665",
+        "concept": "Some college, no degree"
+      },
+      "4": {
+        "conceptId": "890756124",
+        "concept": "Technical or trade school after high school"
+      },
+      "5": {
+        "conceptId": "902413147",
+        "concept": "Associate's degree"
+      },
+      "6": {
+        "conceptId": "934151744",
+        "concept": "College graduate Bachelor's degree"
+      },
+      "7": {
+        "conceptId": "493716391",
+        "concept": "Advanced degree Master's, Doctorate, etc."
+      },
+      "55": {
+        "conceptId": "181769837",
+        "concept": "Other"
+      },
+      "EDU_TB": {
+        "conceptId": "940387701",
+        "concept": "Education Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "questionText": "What is the highest level of school that you have completed?",
+    "conceptId": "412624121"
+  },
+  "SIBCANC3V": {
+    "questIds": {
+      "SIBCANC3V_AGE": {
+        "conceptId": "367854451",
+        "concept": "Sibling 1 Thyroid cancer age",
+        "isTextBox": true
+      },
+      "SIBCANC3V_YEAR": {
+        "conceptId": "753912404",
+        "concept": "Sibling 1 Thyroid cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "216840563",
+    "questionText": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had Thyroid cancer?"
+  },
+  "CHILDCANC3W": {
+    "questIds": {
+      "CHILDCANC3W_AGE": {
+        "conceptId": "368502744",
+        "concept": "Child 1 Uterine (endometrial) cancer age",
+        "isTextBox": true
+      },
+      "CHILDCANC3W_YEAR": {
+        "conceptId": "579956297",
+        "concept": "Child 1 Uterine (endometrial) cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "116065851",
+    "questionText": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Uterine (endometrial) cancer?"
+  },
+  "CCD": {
+    "questIds": {
+      "CCD_AGE": {
+        "conceptId": "374526317",
+        "concept": "Celiac Disease (also known as Gluten-Sensitive Enteropathy) age",
+        "isTextBox": true
+      },
+      "CCD_YEAR": {
+        "conceptId": "800466826",
+        "concept": "Celiac Disease (also known as Gluten-Sensitive Enteropathy) year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "624777141",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had Celiac Disease?"
+  },
+  "SIBCANC3M": {
+    "questIds": {
+      "SIBCANC3M_YEAR": {
+        "conceptId": "378416726",
+        "concept": "Sibling 1 Non-Hodgkin's lymphoma cancer year",
+        "isTextBox": true
+      },
+      "SIBCANC3M_AGE": {
+        "conceptId": "742703036",
+        "concept": "Sibling 1 Non-Hodgkin's lymphoma cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "852278004",
+    "questionText": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had Non-Hodgkin's lymphoma cancer?"
+  },
+  "OVARYREM": {
+    "questIds": {
+      "0": {
+        "conceptId": "333647143",
+        "concept": "I had surgery to remove one ovary"
+      },
+      "1": {
+        "conceptId": "109972911",
+        "concept": "I had surgery to remove both ovaries"
+      },
+      "88": {
+        "conceptId": "398561594",
+        "concept": "None of the above"
+      }
+    },
+    "questionText": "Which of these best describes the type of ovary removal surgery that you had?",
+    "conceptId": "378892977"
+  },
+  "MOMAGE": {
+    "questIds": {
+      "77": {
+        "conceptId": "665517141",
+        "concept": "Don't Know"
+      },
+      "MOM_AGE": {
+        "conceptId": "378988419",
+        "concept": "How old is your mother today?, Number",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "354326265",
+    "questionText": "How old is your mother today?"
+  },
+  "MOMCANC3J": {
+    "questIds": {
+      "MOMCANC3J_YEAR": {
+        "conceptId": "379026574",
+        "concept": "Mom Leukemia (blood and bone marrow) cancer year",
+        "isTextBox": true
+      },
+      "MOMCANC3J_AGE": {
+        "conceptId": "547104738",
+        "concept": "Mom Leukemia (blood and bone marrow) cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "875221479",
+    "questionText": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Leukemia (blood and bone marrow) cancer?"
+  },
+  "OVARYREM2": {
+    "questIds": {
+      "OVARYREM2_AGE": {
+        "conceptId": "382585565",
+        "concept": "oophorectomy age",
+        "isTextBox": true
+      },
+      "OVARYREM2_YEAR": {
+        "conceptId": "792079466",
+        "concept": "oophorectomy year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "534007917",
+    "questionText": "How old were you when you had one or both ovaries removed (oophorectomy)? If you have had more than one procedure, at what age did you last have this procedure?"
+  },
+  "DADCANC3D": {
+    "questIds": {
+      "DADCANC3D_YEAR": {
+        "conceptId": "385423193",
+        "concept": "Dad breast cancer year",
+        "isTextBox": true
+      },
+      "DADCANC3D_AGE": {
+        "conceptId": "400162033",
+        "concept": "Dad breast cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "135519371",
+    "questionText": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had breast cancer?"
+  },
+  "MHGROUP8": {
+    "questIds": {
+      "0": {
+        "conceptId": "509721537",
+        "concept": "Uterine Fibroids"
+      },
+      "1": {
+        "conceptId": "863286658",
+        "concept": "Endometriosis"
+      },
+      "2": {
+        "conceptId": "386524148",
+        "concept": "Polycystic Ovary Syndrome (PCOS)"
+      },
+      "3": {
+        "conceptId": "937208760",
+        "concept": "Enlarged Prostate"
+      },
+      "4": {
+        "conceptId": "746542057",
+        "concept": "Fibrocystic Breast, or other Benign Breast Disease(such as proliferative Benign Breast Disease or LCIS)"
+      },
+      "5": {
+        "conceptId": "854945381",
+        "concept": "Ductal Carcinoma in situ (DCIS)"
+      },
+      "88": {
+        "conceptId": "522161060",
+        "concept": "I have not had any of these conditions"
+      }
+    },
+    "conceptId": "725626004",
+    "questionText": "Urinary and Reproductive System Problems- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply."
+  },
+  "CHILDCANC3F": {
+    "questIds": {
+      "CHILDCANC3F_AGE": {
+        "conceptId": "388130858",
+        "concept": "Child 1 colon/rectal cancer age",
+        "isTextBox": true
+      },
+      "CHILDCANC3F_YEAR": {
+        "conceptId": "804601443",
+        "concept": "Child 1 colon/rectal cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "558929585",
+    "questionText": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had colon/rectal cancer?"
+  },
+  "MOMCANC3D": {
+    "questIds": {
+      "MOMCANC3D_AGE": {
+        "conceptId": "388289687",
+        "concept": "Mom breast cancer age",
+        "isTextBox": true
+      },
+      "MOMCANC3D_YEAR": {
+        "conceptId": "734800333",
+        "concept": "Mom breast cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "402548942",
+    "questionText": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had breast cancer?"
+  },
+  "WORK6": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Have you ever worked for pay (full-time or part-time)?",
+    "conceptId": "403258164"
+  },
+  "SIBNAME": {
+    "isTextBox": true,
+    "questionText": "Sibling 1-For your [oldest/next oldest] sibling, please create a nickname or share initials that we can use to refer to this sibling again in future surveys.",
+    "conceptId": "406098499"
+  },
+  "SEX": {
+    "questIds": {
+      "0": {
+        "conceptId": "536341288",
+        "concept": "Female"
+      },
+      "1": {
+        "conceptId": "654207589",
+        "concept": "Male"
+      },
+      "2": {
+        "conceptId": "576796184",
+        "concept": "Intersex or other"
+      }
+    },
+    "questionText": "What was your biological sex assigned at birth?",
+    "conceptId": "407056417"
+  },
+  "MOMCANC3A": {
+    "questIds": {
+      "MOMCANC3A_YEAR": {
+        "conceptId": "413373359",
+        "concept": "Mom anal cancer year",
+        "isTextBox": true
+      },
+      "MOMCANC3A_AGE": {
+        "conceptId": "610682728",
+        "concept": "Mom anal cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "259397450",
+    "questionText": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had anal cancer?"
+  },
+  "MOMCANC3N": {
+    "questIds": {
+      "MOMCANC3N_YEAR": {
+        "conceptId": "418180335",
+        "concept": "Mom Lymphoma cancer year",
+        "isTextBox": true
+      },
+      "MOMCANC3N_AGE": {
+        "conceptId": "874054245",
+        "concept": "Mom Lymphoma cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "765903702",
+    "questionText": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Lymphoma cancer?"
+  },
+  "CHILD4": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      },
+      "77": {
+        "conceptId": "665517141",
+        "concept": "Don't Know"
+      }
+    },
+    "questionText": "Child 1- Is [CHILD INITIALS OR NICKNAME/your CHILD] still living?",
+    "conceptId": "418392907"
+  },
+  "CD": {
+    "questIds": {
+      "CD_AGE": {
+        "conceptId": "422829791",
+        "concept": "Crohn's Disease age",
+        "isTextBox": true
+      },
+      "CD_YEAR": {
+        "conceptId": "617007460",
+        "concept": "Crohn's Disease year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "190347832",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had Crohn's Disease ?"
+  },
+  "DADCANC3Q": {
+    "questIds": {
+      "DADCANC3Q_AGE": {
+        "conceptId": "429252206",
+        "concept": "Dad Prostate cancer age",
+        "isTextBox": true
+      },
+      "DADCANC3Q_YEAR": {
+        "conceptId": "462925081",
+        "concept": "Dad Prostate cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "489402657",
+    "questionText": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Prostate cancer?"
+  },
+  "ARRHYT": {
+    "questIds": {
+      "ARRHYT_AGE": {
+        "conceptId": "431020458",
+        "concept": "Abnormal heart rhythm (arrhythmia) diagnosis age",
+        "isTextBox": true
+      },
+      "ARRHYT_YEAR": {
+        "conceptId": "675507089",
+        "concept": "Abnormal heart rhythm (arrhythmia) diagnosis year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "337278854",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had abnormal heart rhythm (arrhythmia)?"
+  },
+  "QXAUTHOR1": {
+    "questIds": {
+      "0": {
+        "conceptId": "589702540",
+        "concept": "Completed by study participant"
+      },
+      "1": {
+        "conceptId": "275706407",
+        "concept": "Completed by someone else on behalf of study participant"
+      }
+    },
+    "questionText": "Who completed this survey section?",
+    "conceptId": "431721131"
+  },
+  "EMPLYR1": {
+    "isTextBox": true,
+    "questionText": "What was your employer's for this job?",
+    "conceptId": "434316600"
+  },
+  "CHILDCANC3G": {
+    "questIds": {
+      "CHILDCANC3G_AGE": {
+        "conceptId": "446624061",
+        "concept": "Child 1 esophageal cancer age",
+        "isTextBox": true
+      },
+      "CHILDCANC3G_YEAR": {
+        "conceptId": "811915727",
+        "concept": "Child 1 esophageal cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "233764880",
+    "questionText": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had esophageal cancer?"
+  },
+  "CHILD1": {
+    "isTextBox": true,
+    "questionText": "How many children do you have?",
+    "conceptId": "446999144"
+  },
+  "CHILDCANC3Y": {
+    "questIds": {
+      "CHILDCANC3Y_YEAR": {
+        "conceptId": "449224715",
+        "concept": "Child 1 cancer year",
+        "isTextBox": true
+      },
+      "CHILDCANC3Y_AGE": {
+        "conceptId": "843649258",
+        "concept": "Child 1 cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "845219872",
+    "questionText": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had cancer?"
+  },
+  "BLDTRANS": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Have you ever had a blood transfusion?",
+    "conceptId": "453252072"
+  },
+  "PENREM": {
+    "questIds": {
+      "PENREM_AGE": {
+        "conceptId": "453820144",
+        "concept": "penis removed (penectomy age",
+        "isTextBox": true
+      },
+      "PENREM_YEAR": {
+        "conceptId": "535698869",
+        "concept": "penis removed (penectomy year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "527057404",
+    "questionText": "How old were you when you had your penis removed (penectomy)?"
+  },
+  "SIBCANC3Y": {
+    "questIds": {
+      "SIBCANC3Y_AGE": {
+        "conceptId": "458680879",
+        "concept": "Sibling 1 cancer age",
+        "isTextBox": true
+      },
+      "SIBCANC3Y_YEAR": {
+        "conceptId": "460380328",
+        "concept": "Sibling 1 cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "312545873",
+    "questionText": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had cancer?"
+  },
+  "SIBCANC3U": {
+    "questIds": {
+      "SIBCANC3U_AGE": {
+        "conceptId": "459513552",
+        "concept": "Sibling 1 Testicular cancer age",
+        "isTextBox": true
+      },
+      "SIBCANC3U_YEAR": {
+        "conceptId": "880128119",
+        "concept": "Sibling 1 Testicular cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "195363361",
+    "questionText": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had testicular cancer?"
+  },
+  "CHOL": {
+    "questIds": {
+      "CHOL_YEAR": {
+        "conceptId": "470282814",
+        "concept": "High cholesterol diagnosis year",
+        "isTextBox": true
+      },
+      "CHOL_AGE": {
+        "conceptId": "637556277",
+        "concept": "High cholesteroldiagnosis age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "836890480",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had high cholesterol?"
+  },
+  "CHILDMULT": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Was this child born a twin, triplet, or other multiple?",
+    "conceptId": "473529484"
+  },
+  "CHILDCANC3U": {
+    "questIds": {
+      "CHILDCANC3U_AGE": {
+        "conceptId": "474499646",
+        "concept": "Child 1 Testicular cancer age",
+        "isTextBox": true
+      },
+      "CHILDCANC3U_YEAR": {
+        "conceptId": "819907500",
+        "concept": "Child 1 Testicular cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "795003496",
+    "questionText": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had testicular cancer?"
+  },
+  "SIBAGE": {
+    "questIds": {
+      "77": {
+        "conceptId": "665517141",
+        "concept": "Don't Know"
+      },
+      "SIBAGE_AGE": {
+        "conceptId": "478706011",
+        "concept": "Sibling 1- How old is [SIBLING INITIALS OR NICKNAME/your sibling] today?, Number",
+        "isTextBox": true
+      }
+    },
+    "questionText": "Sibling 1- How old is [SIBLING INITIALS OR NICKNAME/your sibling] today?",
+    "conceptId": "869387390"
+  },
+  "AGECOR": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Based on the information you provided when you enrolled in this study, you are [Age from Enrollment Questionnaire] years old today. Is that correct?",
+    "conceptId": "479353866"
+  },
+  "DEPRESS2": {
+    "questIds": {
+      "DEPRESS2_AGE": {
+        "conceptId": "479548517",
+        "concept": "depression age",
+        "isTextBox": true
+      },
+      "DEPRESS2_YEAR": {
+        "conceptId": "591959654",
+        "concept": "depression year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "301414575",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had clinical depression?"
+  },
+  "KIDNEY": {
+    "questIds": {
+      "KIDNEY_AGE": {
+        "conceptId": "484819765",
+        "concept": "Kidney Stones age",
+        "isTextBox": true
+      },
+      "KIDNEY_YEAR": {
+        "conceptId": "995170330",
+        "concept": "Kidney Stones year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "989016875",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had Kidney Stones?"
+  },
+  "CHILDCANC3S": {
+    "questIds": {
+      "CHILDCANC3S_YEAR": {
+        "conceptId": "485849300",
+        "concept": "Child 1 Prostate cancer year",
+        "isTextBox": true
+      },
+      "CHILDCANC3S_AGE": {
+        "conceptId": "531639940",
+        "concept": "Child 1 Prostate cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "496917282",
+    "questionText": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had prostate cancer?"
+  },
+  "VASEC": {
+    "questIds": {
+      "VASEC_YEAR": {
+        "conceptId": "490279682",
+        "concept": "vasectomy year",
+        "isTextBox": true
+      },
+      "VASEC_AGE": {
+        "conceptId": "928298652",
+        "concept": "vasectomy age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "518750011",
+    "questionText": "How old were you when you had a vasectomy?"
+  },
+  "DM": {
+    "questIds": {
+      "0": {
+        "conceptId": "146477090",
+        "concept": "Type 1"
+      },
+      "1": {
+        "conceptId": "573635975",
+        "concept": "Type 2"
+      },
+      "77": {
+        "conceptId": "665517141",
+        "concept": "Don't Know"
+      }
+    },
+    "questionText": "Which type of diabetes did a doctor or other health professional tell you that you have or had?",
+    "conceptId": "494032093"
+  },
+  "SHINGLES": {
+    "questIds": {
+      "SHINGLES_YEAR": {
+        "conceptId": "495181746",
+        "concept": "Shingles (Herpes Zoster) diagnosis year",
+        "isTextBox": true
+      },
+      "SHINGLES_AGE": {
+        "conceptId": "815428772",
+        "concept": "Shingles (Herpes Zoster) diagnosis age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "530548878",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had Shingles (Herpes Zoster) ?"
+  },
+  "BLOODCLOT": {
+    "questIds": {
+      "BLOODCLOT_AGE": {
+        "conceptId": "497018554",
+        "concept": "blood clots (deep vein thrombosis, pulmonary embolism)diagnosis age",
+        "isTextBox": true
+      },
+      "BLOODCLOT_YEAR": {
+        "conceptId": "694594047",
+        "concept": "blood clots (deep vein thrombosis, pulmonary embolism)diagnosis year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "460062034",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had blood clots (deep vein thrombosis, pulmonary embolism)?"
+  },
+  "DADCANC3F": {
+    "questIds": {
+      "DADCANC3F_YEAR": {
+        "conceptId": "497657524",
+        "concept": "Dad esophageal cancer year",
+        "isTextBox": true
+      },
+      "DADCANC3F_AGE": {
+        "conceptId": "733347323",
+        "concept": "Dad esophageal cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "152885579",
+    "questionText": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had esophageal cancer?"
+  },
+  "CHILDCANC3A": {
+    "questIds": {
+      "CHILDCANC3A_YEAR": {
+        "conceptId": "501239434",
+        "concept": "Child 1 anal cancer year",
+        "isTextBox": true
+      },
+      "CHILDCANC3A_AGE": {
+        "conceptId": "603938149",
+        "concept": "Child 1 anal cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "900939817",
+    "questionText": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had anal cancer?"
+  },
+  "ACNEMED2": {
+    "isTextBox": true,
+    "questionText": "How old were you when you first used prescription medication to treat the severe or ongoing acne?",
+    "conceptId": "509933065"
+  },
+  "SIBCANC3A": {
+    "questIds": {
+      "SIBCANC3A_AGE": {
+        "conceptId": "510529171",
+        "concept": "Sibling 1 anal cancer age",
+        "isTextBox": true
+      },
+      "SIBCANC3A_YEAR": {
+        "conceptId": "649482083",
+        "concept": "Sibling 1 anal cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "384881609",
+    "questionText": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had anal cancer?"
+  },
+  "DADCANC3V": {
+    "questIds": {
+      "DADCANC3V_AGE": {
+        "conceptId": "511732607",
+        "concept": "Dad cancer age",
+        "isTextBox": true
+      },
+      "DADCANC3V_YEAR": {
+        "conceptId": "854558887",
+        "concept": "Dad cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "499434567",
+    "questionText": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had cancer?"
+  },
+  "GOUT": {
+    "questIds": {
+      "GOUT_YEAR": {
+        "conceptId": "512110573",
+        "concept": "Gout year",
+        "isTextBox": true
+      },
+      "GOUT_AGE": {
+        "conceptId": "951905447",
+        "concept": "Gout age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "420423416",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had gout?"
+  },
+  "ACNEMED": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Have you ever used prescription medication to treat the severe or ongoing acne?",
+    "conceptId": "512167179"
+  },
+  "CHF": {
+    "questIds": {
+      "CHF_AGE": {
+        "conceptId": "516399119",
+        "concept": "Congestive heart failure diagnosis age",
+        "isTextBox": true
+      },
+      "CHF_YEAR": {
+        "conceptId": "818385316",
+        "concept": "Congestive heart failure diagnosis year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "836712013",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had congestive heart failure?"
+  },
+  "DADDEATH": {
+    "questIds": {
+      "77": {
+        "conceptId": "665517141",
+        "concept": "Don't Know"
+      },
+      "DADDEATH_NUM": {
+        "conceptId": "517670352",
+        "concept": "At what age did your father die?, Number",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "628078826",
+    "questionText": "At what age did your father die?"
+  },
+  "MOMCANC3R": {
+    "questIds": {
+      "MOMCANC3R_AGE": {
+        "conceptId": "524645358",
+        "concept": "Mom Pancreatic cancer age",
+        "isTextBox": true
+      },
+      "MOMCANC3R_YEAR": {
+        "conceptId": "592006986",
+        "concept": "Mom Pancreatic cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "497311092",
+    "questionText": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Pancreatic cancer?"
+  },
+  "CHILDCANC3M": {
+    "questIds": {
+      "CHILDCANC3M_YEAR": {
+        "conceptId": "526342365",
+        "concept": "Child 1 Non-Hodgkin's lymphoma cancer year",
+        "isTextBox": true
+      },
+      "CHILDCANC3M_AGE": {
+        "conceptId": "813143322",
+        "concept": "Child 1 Non-Hodgkin's lymphoma cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "519974530",
+    "questionText": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Non-Hodgkin's lymphoma cancer?"
+  },
+  "MOMDEATH": {
+    "questIds": {
+      "77": {
+        "conceptId": "665517141",
+        "concept": "Don't Know"
+      },
+      "MOMDEATH_NUM": {
+        "conceptId": "807765962",
+        "concept": "At what age did your mother die?, Number",
+        "isTextBox": true
+      }
+    },
+    "questionText": "At what age did your mother die?",
+    "conceptId": "422714611"
+  },
+  "ADOPTFOST": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Were you adopted or a foster child?",
+    "conceptId": "535621923"
+  },
+  "SKINCANC": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Has a doctor or other health professional ever told you that you have or had non-melanoma skin cancer?",
+    "conceptId": "537153788"
+  },
+  "DADCANC3H": {
+    "questIds": {
+      "DADCANC3H_AGE": {
+        "conceptId": "540892360",
+        "concept": "Dad kidney cancer age",
+        "isTextBox": true
+      },
+      "DADCANC3H_YEAR": {
+        "conceptId": "737478230",
+        "concept": "Dad kidney cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "522464057",
+    "questionText": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had kidney cancer?"
+  },
+  "CARWEIGHT": {
+    "questIds": {
+      "0": {
+        "conceptId": "245893583",
+        "concept": "Around the chest or shoulders"
+      },
+      "1": {
+        "conceptId": "506790433",
+        "concept": "Around the waist or stomach"
+      },
+      "2": {
+        "conceptId": "601057066",
+        "concept": "Around the hips or thighs"
+      }
+    },
+    "conceptId": "936904328"
+  },
+  "BREASTDIS3": {
+    "questIds": {
+      "DCIS_YEAR": {
+        "conceptId": "555825564",
+        "concept": "DCIS year",
+        "isTextBox": true
+      },
+      "DCIS_AGE": {
+        "conceptId": "633678152",
+        "concept": "DCIS age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "219956652",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had ductal carcinoma in situ of the breast?"
+  },
+  "HRMED2": {
+    "questIds": {
+      "0": {
+        "conceptId": "903825143",
+        "concept": "Rogaine, Minoxidil, or Ioniten"
+      },
+      "1": {
+        "conceptId": "567365088",
+        "concept": "Finasteride"
+      },
+      "55": {
+        "conceptId": "645148312",
+        "concept": "Other: Please describe"
+      },
+      "HRMED2_TB": {
+        "conceptId": "787193493",
+        "concept": "Other: Please describe[text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "814664694",
+    "questionText": "What medication did you use to treat thinning hair or hair loss? Select all that apply."
+  },
+  "CHILDCANC3C": {
+    "questIds": {
+      "CHILDCANC3C_YEAR": {
+        "conceptId": "567419874",
+        "concept": "Child 1 brain cancer year",
+        "isTextBox": true
+      },
+      "CHILDCANC3C_AGE": {
+        "conceptId": "780070895",
+        "concept": "Child 1 brain cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "601211723",
+    "questionText": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had brain cancer?"
+  },
+  "CHILDCANC3I": {
+    "questIds": {
+      "CHILDCANC3I_AGE": {
+        "conceptId": "568360291",
+        "concept": "Child 1 kidney cancer age",
+        "isTextBox": true
+      },
+      "CHILDCANC3I_YEAR": {
+        "conceptId": "954022335",
+        "concept": "Child 1 kidney cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "473190270",
+    "questionText": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had kidney cancer?"
+  },
+  "CHILDCANC3E": {
+    "questIds": {
+      "CHILDCANC3E_AGE": {
+        "conceptId": "571878079",
+        "concept": "Child 1 cervical cancer age",
+        "isTextBox": true
+      },
+      "CHILDCANC3E_YEAR": {
+        "conceptId": "817830684",
+        "concept": "Child 1 cervical cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "204425387",
+    "questionText": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had cervical cancer?"
+  },
+  "ANEMIA": {
+    "questIds": {
+      "ANEMIA_YEAR": {
+        "conceptId": "576179368",
+        "concept": "B-12 deficiency (pernicious anemia) diagnosis year",
+        "isTextBox": true
+      },
+      "ANEMIA_AGE": {
+        "conceptId": "931993957",
+        "concept": "B-12 deficiency (pernicious anemia) diagnosis age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "965917116",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had vitamin B-12 deficiency (pernicious anemia)?"
+  },
+  "GONORR": {
+    "questIds": {
+      "GONORR_YEAR": {
+        "conceptId": "577416267",
+        "concept": "Gonorrhea diagnosis year",
+        "isTextBox": true
+      },
+      "GONORR_AGE": {
+        "conceptId": "781265554",
+        "concept": "Gonorrhea diagnosis age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "685735916",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had \tGonorrhea?"
+  },
+  "SIB2": {
+    "questIds": {
+      "0": {
+        "conceptId": "536341288",
+        "concept": "Female"
+      },
+      "1": {
+        "conceptId": "654207589",
+        "concept": "Male"
+      },
+      "2": {
+        "conceptId": "576796184",
+        "concept": "Intersex or other"
+      },
+      "77": {
+        "conceptId": "665517141",
+        "concept": "Don't Know"
+      }
+    },
+    "questionText": "Sibling 1-For your [oldest/next oldest] sibling, please create a nickname or share initials that we can use to refer to this sibling again in future surveys.",
+    "conceptId": "579563781"
+  },
+  "COPD": {
+    "questIds": {
+      "COPD_AGE": {
+        "conceptId": "584827172",
+        "concept": "Chronic lung disease (Emphysema, Chronic Bronchitis, or Chronic Obstructive Pulmonary Disease (COPD)) diagnosis age",
+        "isTextBox": true
+      },
+      "COPD_YEAR": {
+        "conceptId": "974971209",
+        "concept": "Chronic lung disease (Emphysema, Chronic Bronchitis, or Chronic Obstructive Pulmonary Disease (COPD)) diagnosis year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "448722126",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had COPD?"
+  },
+  "SIB3": {
+    "questIds": {
+      "0": {
+        "conceptId": "555374628",
+        "concept": "Full sibling"
+      },
+      "1": {
+        "conceptId": "871673221",
+        "concept": "Half sibling, same mother"
+      },
+      "2": {
+        "conceptId": "198654048",
+        "concept": "Half sibling, same father"
+      }
+    },
+    "questionText": "Sibling 1- Is [SIBLING INITIALS OR NICKNAME/your sibling] aâ€¦",
+    "conceptId": "589588769"
+  },
+  "ASTHMA": {
+    "questIds": {
+      "ASTHMA_AGE": {
+        "conceptId": "592296024",
+        "concept": "Asthma diagnosis age",
+        "isTextBox": true
+      },
+      "ASTHMA_YEAR": {
+        "conceptId": "737107233",
+        "concept": "Asthma diagnosis year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "201449164",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had asthma?"
+  },
+  "MOMCANC3H": {
+    "questIds": {
+      "MOMCANC3H_YEAR": {
+        "conceptId": "599506109",
+        "concept": "Mom Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.) cancer year",
+        "isTextBox": true
+      },
+      "MOMCANC3H_AGE": {
+        "conceptId": "983373946",
+        "concept": "Mom Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.) cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "684692228",
+    "questionText": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.) cancer?"
+  },
+  "CHILDCANC3D": {
+    "questIds": {
+      "CHILDCANC3D_AGE": {
+        "conceptId": "601077153",
+        "concept": "Child 1 breast cancer age",
+        "isTextBox": true
+      },
+      "CHILDCANC3D_YEAR": {
+        "conceptId": "755243811",
+        "concept": "Child 1 breast cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "861788020",
+    "questionText": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had breast cancer?"
+  },
+  "GENWARTS": {
+    "questIds": {
+      "GENWARTS_AGE": {
+        "conceptId": "603114576",
+        "concept": "Genital Warts diagnosis age",
+        "isTextBox": true
+      },
+      "GENWARTS_YEAR": {
+        "conceptId": "615111201",
+        "concept": "Genital Warts diagnosis year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "393598235",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had Genital Warts?"
+  },
+  "SIBCANC3B": {
+    "questIds": {
+      "SIBCANC3B_AGE": {
+        "conceptId": "603180043",
+        "concept": "Sibling 1 bladder cancer age",
+        "isTextBox": true
+      },
+      "SIBCANC3B_YEAR": {
+        "conceptId": "830244671",
+        "concept": "Sibling 1 bladder cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "483975329",
+    "questionText": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had bladder cancer?"
+  },
+  "MOMCANC3V": {
+    "questIds": {
+      "MOMCANC3V_YEAR": {
+        "conceptId": "604877545",
+        "concept": "Mom response from MOMCANC2/another type of cancer year",
+        "isTextBox": true
+      },
+      "MOMCANC3V_AGE": {
+        "conceptId": "918309234",
+        "concept": "Mom response from MOMCANC2/another type of cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "882263738",
+    "questionText": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had response from MOMCANC2/another type of cancer?"
+  },
+  "SIBCANC3W": {
+    "questIds": {
+      "SIBCANC3W_AGE": {
+        "conceptId": "607640595",
+        "concept": "Sibling 1 Uterine (endometrial) cancer age",
+        "isTextBox": true
+      },
+      "SIBCANC3W_YEAR": {
+        "conceptId": "638209807",
+        "concept": "Sibling 1 Uterine (endometrial) cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "514034680",
+    "questionText": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had Uterine (endometrial) cancer?"
+  },
+  "SIBCANC": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      },
+      "77": {
+        "conceptId": "665517141",
+        "concept": "Don't Know"
+      }
+    },
+    "questionText": "Sibling 1- [If SIB4=01] Has a doctor or other health professional ever told [SIBLING INITIALS OR NICKNAME/your sibling] that they have or had any type of cancer? [If SIB4=00, 77, NON-RESPONSE] Did a doctor or other health professional ever tell [sibling initials or nickname/your sibling] that they had any type of cancer?",
+    "conceptId": "607773106"
+  },
+  "WORK": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Do you currently work for pay (full-time or part-time)?",
+    "conceptId": "613744428"
+  },
+  "WORK3": {
+    "isTextBox": true,
+    "questionText": "What is your current job title?â€¯Please be descriptive. For example, high school math teacher, emergency room nurse, automobile painter.",
+    "conceptId": "627122657"
+  },
+  "ENDO": {
+    "questIds": {
+      "ENDO_YEAR": {
+        "conceptId": "627561788",
+        "concept": "Endometriosis year",
+        "isTextBox": true
+      },
+      "ENDO_AGE": {
+        "conceptId": "916563135",
+        "concept": "Endometriosis age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "423547108",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had endometriosis?"
+  },
+  "TESTREM2": {
+    "questIds": {
+      "TESTREM2_YEAR": {
+        "conceptId": "636402284",
+        "concept": "testicle removal surgery year",
+        "isTextBox": true
+      },
+      "TESTREM2_AGE": {
+        "conceptId": "996533518",
+        "concept": "testicle removal surgery age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "275770221",
+    "questionText": "How old were you when you had one or both testicles removed (orchiectomy or orchidectomy)? If you have had more than one procedure, at what age did you last have this procedure?"
+  },
+  "CHILDCANC3J": {
+    "questIds": {
+      "CHILDCANC3J_YEAR": {
+        "conceptId": "640489106",
+        "concept": "Child 1 Leukemia (blood and bone marrow) cancer year",
+        "isTextBox": true
+      },
+      "CHILDCANC3J_AGE": {
+        "conceptId": "711224139",
+        "concept": "Child 1 Leukemia (blood and bone marrow) cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "483735587",
+    "questionText": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Leukemia (blood and bone marrow) cancer?"
+  },
+  "ALTADDRESS1": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "When you joined this study, you gave us your mailing address. Are there any other mailing addresses that you use?",
+    "conceptId": "646504105"
+  },
+  "DADCANC3C": {
+    "questIds": {
+      "DADCANC3C_YEAR": {
+        "conceptId": "648084034",
+        "concept": "Dad brain cancer year",
+        "isTextBox": true
+      },
+      "DADCANC3C_AGE": {
+        "conceptId": "688933594",
+        "concept": "Dad brain cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "610382315",
+    "questionText": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had brain cancer?"
+  },
+  "CHILDCANC3Q": {
+    "questIds": {
+      "CHILDCANC3Q_AGE": {
+        "conceptId": "650144607",
+        "concept": "Child 1 Ovarian cancer age",
+        "isTextBox": true
+      },
+      "CHILDCANC3Q_YEAR": {
+        "conceptId": "806191740",
+        "concept": "Child 1 Ovarian cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "774774759",
+    "questionText": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Ovarian cancer?"
+  },
+  "SIBCANC3D": {
+    "questIds": {
+      "SIBCANC3D_AGE": {
+        "conceptId": "650332509",
+        "concept": "Sibling 1 breast cancer age",
+        "isTextBox": true
+      },
+      "SIBCANC3D_YEAR": {
+        "conceptId": "932489634",
+        "concept": "Sibling 1 breast cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "907590067",
+    "questionText": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had breast cancer?"
+  },
+  "AVEHEIGHT": {
+    "questIds": {
+      "0": {
+        "conceptId": "325478778",
+        "concept": "Shorter than average"
+      },
+      "1": {
+        "conceptId": "730757606",
+        "concept": "About average height"
+      },
+      "2": {
+        "conceptId": "897599966",
+        "concept": "Taller than average"
+      }
+    },
+    "questionText": "When you were about 10 years old, compared to average, would you describe yourself asâ€¦",
+    "conceptId": "650399623"
+  },
+  "MOMCANC3U": {
+    "questIds": {
+      "MOMCANC3U_AGE": {
+        "conceptId": "656295184",
+        "concept": "Mom Uterine (endometrial) cancer age",
+        "isTextBox": true
+      },
+      "MOMCANC3U_YEAR": {
+        "conceptId": "692482321",
+        "concept": "Mom Uterine (endometrial) cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "633764113",
+    "questionText": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Uterine (endometrial) cancer?"
+  },
+  "LIVCIRR": {
+    "questIds": {
+      "LIVCIRR_AGE": {
+        "conceptId": "658037718",
+        "concept": "Liver Cirrhosis age",
+        "isTextBox": true
+      },
+      "LIVCIRR_YEAR": {
+        "conceptId": "734308092",
+        "concept": "Liver Cirrhosis year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "936039586",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had Liver Cirrhosis?"
+  },
+  "DADCANC": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      },
+      "77": {
+        "conceptId": "665517141",
+        "concept": "Don't Know"
+      }
+    },
+    "questionText": "[If Dad=01] Has a doctor or other health professional ever said that your father has or had any type of cancer? [If Dad=00, 77, NON-RESPONSE] Did a doctor or other health professional ever say that your father had any type of cancer?",
+    "conceptId": "659784914"
+  },
+  "ALTCONTACT1": {
+    "questIds": {
+      "ALTCONTACT1_FNAME": {
+        "conceptId": "661719912",
+        "concept": "Alternate contact first name",
+        "isTextBox": true
+      },
+      "ALTCONTACT1_LNAME": {
+        "conceptId": "801653230",
+        "concept": "Alternate contact last name",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "986275155",
+    "questionText": "Sometimes we find that people have moved when we try to contact them again. It would be helpful if you could give us the contact details of someone close to you (such as a relative or friend) who would be willing for us to contact them if we are unable to reach you. Please leave this section blank if you do not wish to provide these extra contact details."
+  },
+  "MOMCANC3Q": {
+    "questIds": {
+      "MOMCANC3Q_YEAR": {
+        "conceptId": "665582429",
+        "concept": "Mom Ovarian cancer year",
+        "isTextBox": true
+      },
+      "MOMCANC3Q_AGE": {
+        "conceptId": "973394396",
+        "concept": "Mom Ovarian cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "521369040",
+    "questionText": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Ovarian cancer?"
+  },
+  "DADCANC3U": {
+    "questIds": {
+      "DADCANC3U_YEAR": {
+        "conceptId": "672937779",
+        "concept": "Dad response from DadCANC2/another type of cancer year",
+        "isTextBox": true
+      },
+      "DADCANC3U_AGE": {
+        "conceptId": "958275484",
+        "concept": "Dad response from DadCANC2/another type of cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "864981804",
+    "questionText": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had response from DADCANC2/another type of cancer?"
+  },
+  "GALLREM": {
+    "questIds": {
+      "GALLREM_YEAR": {
+        "conceptId": "673916004",
+        "concept": "cholecystectomy year",
+        "isTextBox": true
+      },
+      "GALLREM_AGE": {
+        "conceptId": "770077563",
+        "concept": "cholecystectomy age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "178353079",
+    "questionText": "How old were you when you had your gallbladder removed (cholecystectomy)?"
+  },
+  "ADUHEIGHT": {
+    "isTextBox": true,
+    "questionText": "How old were you when you reached your adult height? If you are not sure, please make your best guess.",
+    "conceptId": "677262300"
+  },
+  "SIBCANC3S": {
+    "questIds": {
+      "SIBCANC3S_YEAR": {
+        "conceptId": "678850998",
+        "concept": "Sibling 1 Prostate cancer year",
+        "isTextBox": true
+      },
+      "SIBCANC3S_AGE": {
+        "conceptId": "960076770",
+        "concept": "Sibling 1 Prostate cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "700889863",
+    "questionText": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had prostate cancer?"
+  },
+  "BARSUR": {
+    "questIds": {
+      "BARSUR_YEAR": {
+        "conceptId": "681330157",
+        "concept": "bariatric surgery year",
+        "isTextBox": true
+      },
+      "BARSUR_AGE": {
+        "conceptId": "701709442",
+        "concept": "bariatric surgery age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "986613440",
+    "questionText": "How old were you when you first had bariatric surgery ?"
+  },
+  "WORK8": {
+    "isTextBox": true,
+    "questionText": "How many years have you worked in that job {$WORK3_JOBTITLE}?",
+    "conceptId": "686172464"
+  },
+  "ENLGPROS": {
+    "questIds": {
+      "ENLGPROS_AGE": {
+        "conceptId": "689382389",
+        "concept": "Enlarged Prostate age",
+        "isTextBox": true
+      },
+      "ENLGPROS_YEAR": {
+        "conceptId": "718426460",
+        "concept": "Enlarged Prostate year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "467061940",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had \tEnlarged Prostate?"
+  },
+  "SIB1": {
+    "isTextBox": true,
+    "questionText": "How many siblings do you have, including full and half-siblings?",
+    "conceptId": "694265648"
+  },
+  "CHILDCANC3P": {
+    "questIds": {
+      "CHILDCANC3P_AGE": {
+        "conceptId": "704011008",
+        "concept": "Child 1 Non-melanoma skin (basal or squamous) cancer age",
+        "isTextBox": true
+      },
+      "CHILDCANC3P_YEAR": {
+        "conceptId": "812959109",
+        "concept": "Child 1 Non-melanoma skin (basal or squamous) cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "252160589",
+    "questionText": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Non-melanoma skin (basal or squamous) cancer?"
+  },
+  "SIBCANC3X": {
+    "questIds": {
+      "SIBCANC3X_YEAR": {
+        "conceptId": "708505439",
+        "concept": "Sibling 1 response from SIB1CANC2/another type of cancer year",
+        "isTextBox": true
+      },
+      "SIBCANC3X_AGE": {
+        "conceptId": "808732744",
+        "concept": "Sibling 1 response from Sibling 1CANC2/another type of cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "247160067",
+    "questionText": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had response from SIBCANC2/another type of cancer?"
+  },
+  "CHILDCANC3O": {
+    "questIds": {
+      "CHILDCANC3O_AGE": {
+        "conceptId": "711213420",
+        "concept": "Child 1 Melanoma (skin) cancer age",
+        "isTextBox": true
+      },
+      "CHILDCANC3O_YEAR": {
+        "conceptId": "980148812",
+        "concept": "Child 1 Melanoma (skin) cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "271684775",
+    "questionText": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Melanoma (skin) cancer?"
+  },
+  "CHILDNAME": {
+    "isTextBox": true,
+    "questionText": "Child 1-For your [oldest/next oldest] sibling, please create a nickname or share initials that we can use to refer to this sibling again in future surveys.",
+    "conceptId": "714001034"
+  },
+  "SIBCANC3L": {
+    "questIds": {
+      "SIBCANC3L_YEAR": {
+        "conceptId": "718578254",
+        "concept": "Sibling 1 Lung or bronchial cancer year",
+        "isTextBox": true
+      },
+      "SIBCANC3L_AGE": {
+        "conceptId": "894869147",
+        "concept": "Sibling 1 Lung or bronchial cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "315987564",
+    "questionText": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had Lung or bronchial cancer?"
+  },
+  "CHILDCANC": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      },
+      "77": {
+        "conceptId": "665517141",
+        "concept": "Don't Know"
+      }
+    },
+    "questionText": "Child 1- [If CHILD4=01] Has a doctor or other health professional ever told [child initials or nickname/your child] that they have or had any type of cancer? [If CHILD4=00, 77, NON-RESPONSE] Did a doctor or other health professional ever tell [child initials or nickname/your child] that they had any type of cancer?",
+    "conceptId": "718867914"
+  },
+  "WEIGHT3Y": {
+    "isTextBox": true,
+    "questionText": "How much did you weigh three years ago? If you don't know your exact weight, please make your best guess. [DISPLAY ADDITIONAL TEXT IF SEX= 02 or 03: If you were pregnant three years ago, how much did you weigh before your pregnancy?]",
+    "conceptId": "724181652"
+  },
+  "APPEND": {
+    "questIds": {
+      "APPEND_YEAR": {
+        "conceptId": "727704681",
+        "concept": "appendectomy year",
+        "isTextBox": true
+      },
+      "APPEND_AGE": {
+        "conceptId": "919193251",
+        "concept": "appendectomy age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "550075233",
+    "questionText": "How old were you when you had your appendix removed (appendectomy)?"
+  },
+  "WORK4": {
+    "isTextBox": true,
+    "questionText": "How many years have you worked in that job {$WORK3_JOBTITLE}?",
+    "conceptId": "739294356"
+  },
+  "WEIGHT": {
+    "isTextBox": true,
+    "questionText": "How much do you weigh without clothes or shoes on? [DISPLAY ADDITIONAL TEXT IF SEX=02 or 03:] [If you are pregnant, how much did you weigh before your pregnancy?]",
+    "conceptId": "746012894"
+  },
+  "MOMCANC3I": {
+    "questIds": {
+      "MOMCANC3I_YEAR": {
+        "conceptId": "752235407",
+        "concept": "Mom kidney cancer year",
+        "isTextBox": true
+      },
+      "MOMCANC3I_AGE": {
+        "conceptId": "838759794",
+        "concept": "Mom kidney cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "671347092",
+    "questionText": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had kidney cancer?"
+  },
+  "INCOME": {
+    "questIds": {
+      "0": {
+        "conceptId": "374508062",
+        "concept": "Less than $10,000/year"
+      },
+      "1": {
+        "conceptId": "482119169",
+        "concept": "$10,000â€“$24,999/year"
+      },
+      "2": {
+        "conceptId": "506815454",
+        "concept": "$25,000â€“$34,999/year"
+      },
+      "3": {
+        "conceptId": "758118522",
+        "concept": "$35,000â€“$49,999/year"
+      },
+      "4": {
+        "conceptId": "776145989",
+        "concept": "$50,000â€“$74,999/year"
+      },
+      "5": {
+        "conceptId": "559956191",
+        "concept": "$75,000â€“$99,999/year"
+      },
+      "6": {
+        "conceptId": "273187259",
+        "concept": "$100,000â€“$149,999/year"
+      },
+      "7": {
+        "conceptId": "961623786",
+        "concept": "$150,000â€“$199,999/year"
+      },
+      "8": {
+        "conceptId": "742032816",
+        "concept": "$200,000 or more/year"
+      },
+      "77": {
+        "conceptId": "665517141",
+        "concept": "Don't Know"
+      },
+      "99": {
+        "conceptId": "746038746",
+        "concept": "Declined"
+      }
+    },
+    "questionText": "Which of these options best describes your household's total combined family income for the <b>past 12 months</b>? This should include money earned from all places: job wages, rent from properties, investment income, social security, disability and/or veteran's benefits, unemployment benefits, workman's compensation, child support payments, alimony, and so on. Answer with the amount before taxes.",
+    "conceptId": "759004335"
+  },
+  "OCCUPTN1": {
+    "isTextBox": true,
+    "questionText": "Please identify the occupation category that best describes this job.",
+    "conceptId": "761310265"
+  },
+  "HRMED": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Have you ever used medication to treat thinning hair or hair loss?",
+    "conceptId": "769668224"
+  },
+  "IBD": {
+    "questIds": {
+      "IBD_AGE": {
+        "conceptId": "781638192",
+        "concept": "Inflammatory Bowel Disease diagnosis age",
+        "isTextBox": true
+      },
+      "IBD_YEAR": {
+        "conceptId": "998058022",
+        "concept": "Inflammatory Bowel Disease diagnosis year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "459764934",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had Inflammatory Bowel Disease?"
+  },
+  "MARITAL": {
+    "questIds": {
+      "0": {
+        "conceptId": "514080822",
+        "concept": "Never married"
+      },
+      "1": {
+        "conceptId": "522680498",
+        "concept": "Not married but living with partner"
+      },
+      "2": {
+        "conceptId": "288321056",
+        "concept": "Married"
+      },
+      "3": {
+        "conceptId": "649436542",
+        "concept": "Divorced"
+      },
+      "4": {
+        "conceptId": "733527132",
+        "concept": "Widowed"
+      },
+      "5": {
+        "conceptId": "741094625",
+        "concept": "Separated"
+      },
+      "99": {
+        "conceptId": "746038746",
+        "concept": "Declined"
+      }
+    },
+    "questionText": "Are you now married, widowed, divorced, separated, never married, or living with a partner?",
+    "conceptId": "783167257"
+  },
+  "STUDENT": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "551525967",
+        "concept": "Yes, full-time student"
+      },
+      "2": {
+        "conceptId": "738284740",
+        "concept": "Yes, part-time student"
+      }
+    },
+    "questionText": "Are you currently enrolled in school?",
+    "conceptId": "784967158"
+  },
+  "DADCANC3O": {
+    "questIds": {
+      "DADCANC3O_YEAR": {
+        "conceptId": "791071736",
+        "concept": "Dad Non-melanoma skin (basal or squamous) cancer year",
+        "isTextBox": true
+      },
+      "DADCANC3O_AGE": {
+        "conceptId": "854361219",
+        "concept": "Dad Non-melanoma skin (basal or squamous) cancer age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "193297280",
+    "questionText": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Non-melanoma skin (basal or squamous) cancer?"
+  },
+  "MONO": {
+    "questIds": {
+      "MONO_YEAR": {
+        "conceptId": "793993848",
+        "concept": "Infectious Mononucleosis (â€œMonoâ€ or â€œKissing Diseaseâ€) diagnosis year",
+        "isTextBox": true
+      },
+      "MONO_AGE": {
+        "conceptId": "890062459",
+        "concept": "Infectious Mononucleosis (â€œMonoâ€ or â€œKissing Diseaseâ€) diagnosis age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "915230886",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had Infectious Mononucleosis (â€œMonoâ€ or â€œKissing Diseaseâ€)?"
+  },
+  "BLDTRANS2": {
+    "isTextBox": true,
+    "questionText": "How many blood transfusions have you had in total?",
+    "conceptId": "795940097"
+  },
+  "DADCANC3B": {
+    "questIds": {
+      "DADCANC3B_AGE": {
+        "conceptId": "796923959",
+        "concept": "Dad bladder cancer age",
+        "isTextBox": true
+      },
+      "DADCANC3B_YEAR": {
+        "conceptId": "927451815",
+        "concept": "Dad bladder cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "243443318",
+    "questionText": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had bladder cancer?"
+  },
+  "BARESO": {
+    "questIds": {
+      "BARESO_YEAR": {
+        "conceptId": "803028998",
+        "concept": "Barrett's Esophagus diagnosis year",
+        "isTextBox": true
+      },
+      "BARESO_AGE": {
+        "conceptId": "826646799",
+        "concept": "Barrett's Esophagus diagnosis age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "409622468",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had Barrett's Esophagus?"
+  },
+  "WTLOSS1_2535": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Did you lose weight on purpose between ages 25 and 35?",
+    "conceptId": "803129396"
+  },
+  "MULT2": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Sibling 1-You said you were born a twin, triplet, or other multiple. Is this sibling your twin, triplet, or multiple?",
+    "conceptId": "807431780"
+  },
+  "WTLOSS1_1825": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Did you lose weight on purpose between ages 18 and 25?",
+    "conceptId": "808806810"
+  },
+  "HIVAIDS": {
+    "questIds": {
+      "HIVAIDS_YEAR": {
+        "conceptId": "817938366",
+        "concept": "HIV/AIDS diagnosis year",
+        "isTextBox": true
+      },
+      "HIVAIDS_AGE": {
+        "conceptId": "967119702",
+        "concept": "HIV/AIDS diagnosis age",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "926855303",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had HIV/AIDS?"
+  },
+  "AVEWEIGHT": {
+    "questIds": {
+      "0": {
+        "conceptId": "176904165",
+        "concept": "Thinner than average"
+      },
+      "1": {
+        "conceptId": "902131456",
+        "concept": "About average build"
+      },
+      "2": {
+        "conceptId": "839266527",
+        "concept": "Heavier than average"
+      }
+    },
+    "questionText": "When you were about 10 years old, compared to average, would you describe yourself asâ€¦",
+    "conceptId": "820324171"
+  },
+  "DADCANC3J": {
+    "questIds": {
+      "DADCANC3J_AGE": {
+        "conceptId": "829692074",
+        "concept": "Dad Liver cancer age",
+        "isTextBox": true
+      },
+      "DADCANC3J_YEAR": {
+        "conceptId": "991371613",
+        "concept": "Dad Liver cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "659627058",
+    "questionText": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Liver cancer?"
+  },
+  "WTLOSS1_4555": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Did you lose weight on purpose between ages 45 and 55?",
+    "conceptId": "837402132"
+  },
+  "DAYSWORK": {
+    "questIds": {
+      "0": {
+        "conceptId": "503218834",
+        "concept": "None"
+      },
+      "1": {
+        "conceptId": "632371391",
+        "concept": "1 day"
+      },
+      "2": {
+        "conceptId": "709969190",
+        "concept": "2 days"
+      },
+      "3": {
+        "conceptId": "928753604",
+        "concept": "3 days"
+      },
+      "4": {
+        "conceptId": "686379250",
+        "concept": "4 days"
+      },
+      "5": {
+        "conceptId": "107714591",
+        "concept": "5 days"
+      },
+      "6": {
+        "conceptId": "689829953",
+        "concept": "6 days"
+      },
+      "7": {
+        "conceptId": "164282814",
+        "concept": "7 days"
+      }
+    },
+    "questionText": "During the past 12 months, about how many days per week did you typically work for pay?",
+    "conceptId": "842657297"
+  },
+  "WORK5": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Is this your longest-held job?",
+    "conceptId": "847533056"
+  },
+  "SHORTER": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "589959753",
+        "concept": "A little shorter"
+      },
+      "2": {
+        "conceptId": "623310018",
+        "concept": "A lot shorter"
+      }
+    },
+    "questionText": "Are you shorter now than when you were in your 20s and 30s?",
+    "conceptId": "848580651"
+  },
+  "BREASTDIS4": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "When you were told that you have or had ductal carcinoma in situ of the breast, was it confirmed by biopsy?",
+    "conceptId": "852236900"
+  },
+  "EMPLYRSRVCE1": {
+    "isTextBox": true,
+    "questionText": "What products were made, or services provided, by this employer? If multiple, please provide the product/services related to your work unit. For example: automotive parts, residential home construction, accounting services, pharmaceutical research.",
+    "conceptId": "868232409"
+  },
+  "CHILD3": {
+    "questIds": {
+      "0": {
+        "conceptId": "709650750",
+        "concept": "Your biological child"
+      },
+      "1": {
+        "conceptId": "810290359",
+        "concept": "Adopted"
+      },
+      "2": {
+        "conceptId": "509607548",
+        "concept": "A step child"
+      }
+    },
+    "questionText": "Child 1- Is [child initials or nickname/your child]â€¦",
+    "conceptId": "873968217"
+  },
+  "OVERHEALTH": {
+    "questIds": {
+      "0": {
+        "conceptId": "670680466",
+        "concept": "Excellent"
+      },
+      "1": {
+        "conceptId": "565881164",
+        "concept": "Very good"
+      },
+      "2": {
+        "conceptId": "719933364",
+        "concept": "Good"
+      },
+      "3": {
+        "conceptId": "131550264",
+        "concept": "Fair"
+      },
+      "4": {
+        "conceptId": "138752522",
+        "concept": "Poor"
+      }
+    },
+    "questionText": "In general, how would you rate your overall health?",
+    "conceptId": "875208305"
+  },
+  "CHILD2": {
+    "questIds": {
+      "0": {
+        "conceptId": "536341288",
+        "concept": "Female"
+      },
+      "1": {
+        "conceptId": "654207589",
+        "concept": "Male"
+      },
+      "2": {
+        "conceptId": "576796184",
+        "concept": "Intersex or other"
+      },
+      "77": {
+        "conceptId": "665517141",
+        "concept": "Don't Know"
+      }
+    },
+    "questionText": "Child 1-Thinking of [child initials or nickname/your [oldest/next oldest]child], what biological sex was this child assigned at birth?",
+    "conceptId": "887697329"
+  },
+  "SIB4": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      },
+      "77": {
+        "conceptId": "665517141",
+        "concept": "Don't Know"
+      }
+    },
+    "questionText": "Sibling 1- Is [SIBLING INITIALS OR NICKNAME/your sibling] still living?",
+    "conceptId": "890637099"
+  },
+  "SIBCANC3F": {
+    "questIds": {
+      "SIBCANC3F_AGE": {
+        "conceptId": "899435964",
+        "concept": "Sibling 1 colon/rectal cancer age",
+        "isTextBox": true
+      },
+      "SIBCANC3F_YEAR": {
+        "conceptId": "973110368",
+        "concept": "Sibling 1 colon/rectal cancer year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "158354252",
+    "questionText": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had colon/rectal cancer?"
+  },
+  "LIPOSUCT": {
+    "questIds": {
+      "LIPOSUCT_AGE": {
+        "conceptId": "937331599",
+        "concept": "liposuction age",
+        "isTextBox": true
+      },
+      "LIPOSUCT_YEAR": {
+        "conceptId": "940310458",
+        "concept": "liposuction year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "860920332",
+    "questionText": "How old were you when you first had liposuction?"
+  },
+  "TESTREM": {
+    "questIds": {
+      "0": {
+        "conceptId": "770550588",
+        "concept": "I had surgery to remove one Testicle"
+      },
+      "1": {
+        "conceptId": "970716952",
+        "concept": "I had surgery to remove both Testicles"
+      },
+      "88": {
+        "conceptId": "398561594",
+        "concept": "None of the above"
+      }
+    },
+    "questionText": "Which of these best describes the type of testicle removal surgery that you had?",
+    "conceptId": "946504570"
+  },
+  "PAIN3": {
+    "questIds": {
+      "0": {
+        "conceptId": "111520945",
+        "concept": "Not at all"
+      },
+      "1": {
+        "conceptId": "548628123",
+        "concept": "A little bit"
+      },
+      "2": {
+        "conceptId": "597477164",
+        "concept": "A lot"
+      }
+    },
+    "questionText": "In the past three months, how much did the pain get in the way of your normal work? By work, we mean both housework and work outside of the home.",
+    "conceptId": "952682839"
+  },
+  "ACNEMED3": {
+    "isTextBox": true,
+    "questionText": "How old were you when you last used prescription medication to treat the severe or ongoing acne? If you are currently using this prescription medication, enter your current age.",
+    "conceptId": "967093163"
+  },
+  "SEXORIENT": {
+    "questIds": {
+      "SEXORIENT_TB": {
+        "conceptId": "979809707",
+        "concept": "Orientation - Do you think of yourself as: [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "555481393",
+    "questionText": "Orientation - Do you think of yourself as:"
+  },
+  "STYLE": {
+    "questIds": {
+      "0": {
+        "conceptId": "807838105",
+        "concept": "Very feminine"
+      },
+      "1": {
+        "conceptId": "790430845",
+        "concept": "Mostly feminine"
+      },
+      "2": {
+        "conceptId": "820121470",
+        "concept": "Somewhat feminine"
+      },
+      "3": {
+        "conceptId": "499950562",
+        "concept": "Equally feminine and masculine"
+      },
+      "4": {
+        "conceptId": "277376215",
+        "concept": "Somewhat masculine"
+      },
+      "5": {
+        "conceptId": "910082179",
+        "concept": "Mostly masculine"
+      },
+      "6": {
+        "conceptId": "716089469",
+        "concept": "Very masculine"
+      },
+      "99": {
+        "conceptId": "746038746",
+        "concept": "Declined"
+      }
+    },
+    "questionText": "A person’s appearance, style, dress, or mannerisms (the way they walk or talk) may affect the way people think of them. On average, how do you think people would describe your appearance, style, dress, or mannerisms?",
+    "conceptId": "987107433"
+  },
+  "EMPLYR2": {
+    "isTextBox": true,
+    "questionText": "What was your employer's for this job?",
+    "conceptId": "988878019"
+  },
+  "MULTBIRTH": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      },
+      "2": {
+        "conceptId": "288105839",
+        "concept": "Yes, fraternal twins (not identical)"
+      },
+      "3": {
+        "conceptId": "626558982",
+        "concept": "Yes, triplets or higher multiple birth"
+      }
+    },
+    "questionText": "Were you born a twin, triplet, or other multiple?",
+    "conceptId": "992987417"
+  }
+}

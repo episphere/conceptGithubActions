@@ -1,11 +1,19 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "965707586.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
   "conceptId": "164444027",
   "Question Text": "Do you smoke marijuana now?",
   "Variable Label": "Use marijuana  now",
-  "Variable Name": "SrvSAS_UseMJNow_v1r0",
-  "Connect Value for Select all that apply questions": "SMMAR4",
+  "Variable Name": [
+    "SrvSAS_UseMJNow_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "SMMAR4"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",

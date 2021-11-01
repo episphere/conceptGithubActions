@@ -1,13 +1,26 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json",
+    "726699695.json"
+  ],
   "conceptId": "279637054",
   "Question Text": "Please identify the occupation category that best describes this job.",
-  "Variable Label": "Past occupation category",
-  "Variable Name": "SrvBOH_PastOccupCat_v1r0",
-  "Connect Value for Select all that apply questions": "OCCUPTN2",
-  "Variable Type": "Num",
-  "Variable Length": "2",
+  "Variable Label": "Current occupation category",
+  "Variable Name": [
+    "SrvBOH_OccupationCat_v1r0",
+    "SrvBOH_PastOccupCat_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "OCCUPTN1",
+    "OCCUPTN2"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "17",
   "Required": "No",
-  "PII": "No"
+  "PII": "No",
+  "Date added or modified": "9/14/21"
 }

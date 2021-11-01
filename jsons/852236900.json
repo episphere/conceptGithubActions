@@ -1,11 +1,19 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "898006288.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
   "conceptId": "852236900",
   "Question Text": "When you were told that you have or had ductal carcinoma in situ of the breast, was it confirmed by biopsy?",
   "Variable Label": "Ductal Carcinoma biopsy",
-  "Variable Name": "SrvBOH_DuctCarcinoma_v1r0",
-  "Connect Value for Select all that apply questions": "BREASTDIS4",
+  "Variable Name": [
+    "SrvBOH_DuctCarcinoma_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "BREASTDIS4"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",

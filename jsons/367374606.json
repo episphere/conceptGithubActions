@@ -1,34 +1,43 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
   "conceptId": "367374606",
   "Question Text": "Is your biological father still living?",
   "Variable Label": "Dad living",
-  "Variable Name": "SrvBOH_DadLiving_v1r0",
-  "Connect Value for Select all that apply questions": "DAD",
+  "Variable Name": [
+    "SrvBOH_DadLiving_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "DAD"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
+  "Dictionary": [
+    "838975146.json"
+  ],
+  "State Attribute": [
+    "249033181.json"
+  ],
+  "Default Variable": [
+    "138972381.json"
+  ],
   "Date added or modified": [
-<<<<<<< HEAD
-    "685565732.json"
-=======
-    "236893226.json"
->>>>>>> badf8f374b155e022a31cf87f7a7c8780bb06459
+    "850872507.json"
   ],
   "Old Quest Value": {
     "104430631.json": "1",
     "353358909.json": "2",
-<<<<<<< HEAD
-    "685565732.json": "77"
-=======
-    "236893226.json": "77"
->>>>>>> badf8f374b155e022a31cf87f7a7c8780bb06459
+    "920765381.json": "77"
   },
   "Connect Value": {
     "104430631.json": "0",
     "353358909.json": "1",
-    "998567121.json": "77"
+    "178420302.json": "77"
   }
 }

@@ -1,0 +1,1028 @@
+{
+  "SEX2": {
+    "questIds": {
+      "0": {
+        "conceptId": "582784267",
+        "concept": "Penis"
+      },
+      "1": {
+        "conceptId": "751402477",
+        "concept": "Testes"
+      },
+      "2": {
+        "conceptId": "700100953",
+        "concept": "Prostate"
+      },
+      "3": {
+        "conceptId": "846483618",
+        "concept": "Vagina"
+      },
+      "4": {
+        "conceptId": "505282171",
+        "concept": "Cervix"
+      },
+      "5": {
+        "conceptId": "578416151",
+        "concept": "Uterus"
+      },
+      "6": {
+        "conceptId": "434651539",
+        "concept": "Ovaries"
+      },
+      "7": {
+        "conceptId": "108025529",
+        "concept": "Fallopian Tubes"
+      }
+    },
+    "conceptId": "750420077",
+    "questionText": "Please select the body parts that you were born with."
+  },
+  "RACEETH": {
+    "questIds": {
+      "0": {
+        "conceptId": "583826374",
+        "concept": "American Indian or Alaska Native"
+      },
+      "1": {
+        "conceptId": "636411467",
+        "concept": "Asian"
+      },
+      "2": {
+        "conceptId": "458435048",
+        "concept": "Black, African American, or African"
+      },
+      "3": {
+        "conceptId": "706998638",
+        "concept": "Hispanic, Latino, or Spanish"
+      },
+      "4": {
+        "conceptId": "973565052",
+        "concept": "Middle Eastern or North African"
+      },
+      "5": {
+        "conceptId": "586825330",
+        "concept": "Native Hawaiian or other Pacific Islander"
+      },
+      "6": {
+        "conceptId": "412790539",
+        "concept": "White"
+      },
+      "55": {
+        "conceptId": "807835037",
+        "concept": "None of these fully describe me. Please describe"
+      },
+      "99": {
+        "conceptId": "116984232",
+        "concept": "Prefer not to answer"
+      },
+      "RACEETH_TB": {
+        "conceptId": "747350323",
+        "concept": "None of these fully describe me. Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "384191091",
+    "questionText": "Which categories describe you? Select all that apply. Note, you may select more than one group."
+  },
+  "HOMEADD2_1": {
+    "questIds": {
+      "77": {
+        "conceptId": "178420302",
+        "concept": "Unavailable/Unknown"
+      },
+      "CITY_FOLLOWUP": {
+        "conceptId": "133195975",
+        "concept": "Current City - Follow-up",
+        "isTextBox": true
+      },
+      "ST_FOLLOWUP": {
+        "conceptId": "214810320",
+        "concept": "Current State/Province - Follow-up",
+        "isTextBox": true
+      },
+      "ZIP_FOLLOWUP": {
+        "conceptId": "220889266",
+        "concept": "Current Zip code - Follow-up",
+        "isTextBox": true
+      },
+      "COUNTRY_FOLLOWUP": {
+        "conceptId": "415654361",
+        "concept": "Current Country - Follow-up",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "892832760",
+    "questionText": "Please provide the following information:"
+  },
+  "AGE": {
+    "isTextBox": true,
+    "questionText": "How old are you today?",
+    "conceptId": "150344905"
+  },
+  "LAWN2A": {
+    "questIds": {
+      "0": {
+        "conceptId": "917302906",
+        "concept": "Winter"
+      },
+      "1": {
+        "conceptId": "152773041",
+        "concept": "Spring"
+      },
+      "2": {
+        "conceptId": "249341444",
+        "concept": "Summer"
+      },
+      "3": {
+        "conceptId": "690018400",
+        "concept": "Fall"
+      }
+    },
+    "conceptId": "442059084",
+    "questionText": "In which season(s) did you do these moderate outdoor chores (such as weeding, raking, or mowing the lawn)? Select all that apply."
+  },
+  "MOM1": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      },
+      "77": {
+        "conceptId": "178420302",
+        "concept": "Unavailable/Unknown"
+      }
+    },
+    "questionText": "Is your biological mother still living?",
+    "conceptId": "170440011"
+  },
+  "DRINKSWTR2A": {
+    "questIds": {
+      "0": {
+        "conceptId": "253606691",
+        "concept": "_times/day"
+      },
+      "1": {
+        "conceptId": "225800026",
+        "concept": "5-6 times/week"
+      },
+      "2": {
+        "conceptId": "837042787",
+        "concept": "3-4 times/week"
+      },
+      "3": {
+        "conceptId": "846720016",
+        "concept": "1-2 times/week"
+      },
+      "4": {
+        "conceptId": "468918270",
+        "concept": "Less than once a week"
+      },
+      "5": {
+        "conceptId": "453873707",
+        "concept": "I drink tap water but don’t know how often"
+      },
+      "DRINKSWTR2A_NUM": {
+        "conceptId": "202120566",
+        "concept": "Tap water times/day",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "906735093",
+    "questionText": "In a usual week, about how often do you drink tap water from your home?"
+  },
+  "SKINCANC3": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Skin cancer diagnosis age",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Skin cancer diagnosis year",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "904550680",
+    "questionText": "How old were you when a doctor or other health professional first told you that you have or had skin cancer?"
+  },
+  "HOMEADD2_2": {
+    "questIds": {
+      "77": {
+        "conceptId": "178420302",
+        "concept": "Unavailable/Unknown"
+      },
+      "ST1_FOLLOWUP": {
+        "conceptId": "392165394",
+        "concept": "1-Previous State/Province - Follow-up",
+        "isTextBox": true
+      },
+      "COUNTRY1_FOLLOWUP": {
+        "conceptId": "436733586",
+        "concept": "1-Previous Country - Follow-up",
+        "isTextBox": true
+      },
+      "CITY1_FOLLOWUP": {
+        "conceptId": "744092052",
+        "concept": "1-Previous City - Follow-up",
+        "isTextBox": true
+      },
+      "ZIP1_FOLLOWUP": {
+        "conceptId": "840605633",
+        "concept": "1-Previous Zip code - Follow-up",
+        "isTextBox": true
+      }
+    },
+    "questionText": "Address 2-Please provide the following information:",
+    "conceptId": "196467989"
+  },
+  "HOMEADD3_2": {
+    "questIds": {
+      "77": {
+        "conceptId": "178420302",
+        "concept": "Unavailable/Unknown"
+      },
+      "STRNAME2": {
+        "conceptId": "228294432",
+        "concept": "1-Previous Full Street name #1",
+        "isTextBox": true
+      },
+      "STRTNAME2": {
+        "conceptId": "404665850",
+        "concept": "1-Previous Full Street name #2",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "854708911",
+    "questionText": "Address 2-Please provide the cross streets of the intersection closest to this address:"
+  },
+  "HOMEADD3_1": {
+    "questIds": {
+      "77": {
+        "conceptId": "178420302",
+        "concept": "Unavailable/Unknown"
+      },
+      "STRTNAME1": {
+        "conceptId": "236833917",
+        "concept": "Current Full Street name #2",
+        "isTextBox": true
+      },
+      "STRNAME1": {
+        "conceptId": "857925417",
+        "concept": "Current Full Street name #1",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "342432998",
+    "questionText": "Please provide the cross streets of the intersection closest to this address:"
+  },
+  "grid_WORKACT": {
+    "conceptId": "787039146",
+    "questionText": "Typical time spent per WORKDAY"
+  },
+  "WORKACTD": {
+    "questIds": {
+      "0": {
+        "conceptId": "503218834",
+        "concept": "None"
+      },
+      "1": {
+        "conceptId": "464753847",
+        "concept": "Less than 30 min"
+      },
+      "2": {
+        "conceptId": "729681071",
+        "concept": "30 min"
+      },
+      "3": {
+        "conceptId": "258023209",
+        "concept": "45 min"
+      },
+      "4": {
+        "conceptId": "638092100",
+        "concept": "1 hr"
+      },
+      "5": {
+        "conceptId": "342252688",
+        "concept": "1 to 2.9 hrs"
+      },
+      "6": {
+        "conceptId": "620179158",
+        "concept": "3 to 4.9 hrs"
+      },
+      "7": {
+        "conceptId": "418933199",
+        "concept": "5 to 6.9 hrs."
+      },
+      "8": {
+        "conceptId": "436446259",
+        "concept": "7 to 8.9 hrs."
+      },
+      "9": {
+        "conceptId": "201002865",
+        "concept": "9 hrs. or more"
+      }
+    },
+    "questionText": "Walking and heavy manual work often working with materials weighing over 50 pounds (for example, digging and shoveling, chopping wood, laying bricks, stacking hay, or other heavy manual labor, etc.)",
+    "conceptId": "239572239"
+  },
+  "LAWN1": {
+    "questIds": {
+      "0": {
+        "conceptId": "797221287",
+        "concept": "Moderate outdoor chores (such as weeding, raking, or mowing the lawn)"
+      },
+      "1": {
+        "conceptId": "500744195",
+        "concept": "Vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)"
+      },
+      "2": {
+        "conceptId": "383015037",
+        "concept": "Home repair (such as painting, plumbing, or replacing carpeting)"
+      },
+      "88": {
+        "conceptId": "256626602",
+        "concept": "I did not do any of these activities"
+      }
+    },
+    "conceptId": "204421360",
+    "questionText": "During the past 12 months, did you do any of these activities outside of work? Select all that apply."
+  },
+  "GEN": {
+    "questIds": {
+      "0": {
+        "conceptId": "536341288",
+        "concept": "Female"
+      },
+      "1": {
+        "conceptId": "654207589",
+        "concept": "Male"
+      },
+      "2": {
+        "conceptId": "405267600",
+        "concept": "Transgender Male/Trans Man/Female-to-Male (FTM)"
+      },
+      "3": {
+        "conceptId": "873138103",
+        "concept": "Transgender Female/Trans Woman/Male-to-Female (MTF)"
+      },
+      "4": {
+        "conceptId": "805712793",
+        "concept": "Genderqueer, not exclusively male or female"
+      },
+      "55": {
+        "conceptId": "438483626",
+        "concept": "Other"
+      },
+      "99": {
+        "conceptId": "746038746",
+        "concept": "Declined"
+      },
+      "GEN_TB": {
+        "conceptId": "918409306",
+        "concept": "Gender - Do you think of yourself as: [text box]",
+        "isTextBox": true
+      }
+    },
+    "questionText": "Gender - Do you think of yourself as:",
+    "conceptId": "289664241"
+  },
+  "HOMEADDOTH1": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Current Review 1- Within the past 20 years, have you lived anywhere else for at least two years ?",
+    "conceptId": "315792019"
+  },
+  "PAINREL7_1": {
+    "questIds": {
+      "0": {
+        "conceptId": "323106499",
+        "concept": "Arthritis"
+      },
+      "1": {
+        "conceptId": "769901710",
+        "concept": "Back pain/backache"
+      },
+      "2": {
+        "conceptId": "727773491",
+        "concept": "Menstrual Pain"
+      }
+    },
+    "conceptId": "643807999",
+    "questionText": "Why did you take baby or low-dose aspirin (81 mg or less)? Select all that apply."
+  },
+  "HEIGHTFEET": {
+    "questIds": {
+      "HEIGHTFT": {
+        "conceptId": "340854069",
+        "concept": "Height feet",
+        "isTextBox": true
+      },
+      "HEIGHTIN": {
+        "conceptId": "600462977",
+        "concept": "Height inches",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "114314839",
+    "questionText": "How tall are you with your shoes off?"
+  },
+  "HAIRFEM": {
+    "questIds": {
+      "0": {
+        "conceptId": "927925620",
+        "concept": "Full head of hair with no hair loss."
+      },
+      "1": {
+        "conceptId": "552278254",
+        "concept": "Very mild hair loss or thinning of hair on the top of the head along the middle of the head"
+      },
+      "2": {
+        "conceptId": "267104669",
+        "concept": "Mild hair loss on the top of the head along the middle of the head."
+      },
+      "3": {
+        "conceptId": "619337179",
+        "concept": "Mild-to-moderate hair loss on the top of the head along the middle of the head."
+      },
+      "4": {
+        "conceptId": "601381820",
+        "concept": "Moderate hair loss on the top of the head along the middle of the head."
+      },
+      "5": {
+        "conceptId": "151394571",
+        "concept": "Severe hair loss on the top of the head, but no hair loss at the forehead"
+      },
+      "6": {
+        "conceptId": "917379905",
+        "concept": "Severe hair loss on the top of the head, and the hair along the forehead is thinning."
+      },
+      "7": {
+        "conceptId": "746328729",
+        "concept": "Severehair loss on the top of the head from the forehead to the back of the ears."
+      },
+      "8": {
+        "conceptId": "452963767",
+        "concept": "Moderate hair loss on the sides of the head at the forehead and moderate-to-severe hair loss on the top of the head."
+      }
+    },
+    "questionText": "Which one of these figures most closely resembles your hair pattern at age 40?",
+    "conceptId": "365851428"
+  },
+  "HOMEADD1_2": {
+    "questIds": {
+      "ZIP1": {
+        "conceptId": "372123763",
+        "concept": "1-Previous Zip code",
+        "isTextBox": true
+      },
+      "FULLST1": {
+        "conceptId": "467170138",
+        "concept": "1-Previous Full street Name",
+        "isTextBox": true
+      },
+      "CITY1": {
+        "conceptId": "578629347",
+        "concept": "1-Previous City",
+        "isTextBox": true
+      },
+      "ST1": {
+        "conceptId": "665709314",
+        "concept": "1-Previous State/Province",
+        "isTextBox": true
+      },
+      "APT1": {
+        "conceptId": "782349318",
+        "concept": "1-Previous Apartment, suite, unit, building, etc.",
+        "isTextBox": true
+      },
+      "COUNTRY1": {
+        "conceptId": "960162355",
+        "concept": "1-Previous Country",
+        "isTextBox": true
+      },
+      "STNUM1": {
+        "conceptId": "965885196",
+        "concept": "1 - Previous street number",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "153184474",
+    "questionText": "Address 2- What is the full street address of the place you lived before? Please only include addresses where you have lived for at least two years."
+  },
+  "MOMAGE": {
+    "questIds": {
+      "77": {
+        "conceptId": "178420302",
+        "concept": "Unavailable/Unknown"
+      },
+      "MOM_AGE": {
+        "conceptId": "378988419",
+        "concept": "How old is your mother today?, Number",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "354326265",
+    "questionText": "How old is your mother today?"
+  },
+  "HOMEADD1_1": {
+    "questIds": {
+      "ST": {
+        "conceptId": "387422081",
+        "concept": "Current State/Province",
+        "isTextBox": true
+      },
+      "CITY": {
+        "conceptId": "416929516",
+        "concept": "Current City",
+        "isTextBox": true
+      },
+      "STNUM": {
+        "conceptId": "619696155",
+        "concept": "Current street number",
+        "isTextBox": true
+      },
+      "FULLST": {
+        "conceptId": "675263958",
+        "concept": "Current Full Street name",
+        "isTextBox": true
+      },
+      "ZIP": {
+        "conceptId": "822859247",
+        "concept": "Current Zip code",
+        "isTextBox": true
+      },
+      "APT": {
+        "conceptId": "844026572",
+        "concept": "Current Apartment, suite, unit, building, etc.",
+        "isTextBox": true
+      },
+      "COUNTRY": {
+        "conceptId": "904864763",
+        "concept": "Current Country",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "143209212",
+    "questionText": "What is the full street address of the place where you live now?"
+  },
+  "SIBNAME": {
+    "isTextBox": true,
+    "questionText": "Sibling 1-For your [oldest/next oldest] sibling, please create a nickname or share initials that we can use to refer to this sibling again in future surveys.",
+    "conceptId": "406098499"
+  },
+  "SEX": {
+    "questIds": {
+      "0": {
+        "conceptId": "536341288",
+        "concept": "Female"
+      },
+      "1": {
+        "conceptId": "654207589",
+        "concept": "Male"
+      },
+      "2": {
+        "conceptId": "576796184",
+        "concept": "Intersex or other"
+      }
+    },
+    "questionText": "What was your biological sex assigned at birth?",
+    "conceptId": "407056417"
+  },
+  "LAWN4A": {
+    "questIds": {
+      "0": {
+        "conceptId": "414216861",
+        "concept": "05 minutes or less"
+      },
+      "1": {
+        "conceptId": "123118324",
+        "concept": "06-30 minutes\"\"\"\""
+      },
+      "2": {
+        "conceptId": "382130728",
+        "concept": "21-44 minutes"
+      },
+      "3": {
+        "conceptId": "310899808",
+        "concept": "35-59 minutes"
+      },
+      "4": {
+        "conceptId": "421794850",
+        "concept": "0-1.9 hours"
+      },
+      "5": {
+        "conceptId": "806828892",
+        "concept": "1-2.9 hours"
+      },
+      "6": {
+        "conceptId": "888601078",
+        "concept": "2 hours or more"
+      }
+    },
+    "questionText": "On the days that you did these moderate outdoor chores (such as weeding, raking, or mowing the lawn) outside of work, about how much time per day did you spend doing these chores?",
+    "conceptId": "429531329"
+  },
+  "SEXORIENT": {
+    "questIds": {
+      "0": {
+        "conceptId": "271882746",
+        "concept": "Straight or heterosexual"
+      },
+      "1": {
+        "conceptId": "903084185",
+        "concept": "Lesbian, gay, or homosexual"
+      },
+      "2": {
+        "conceptId": "999994434",
+        "concept": "Bisexual"
+      },
+      "55": {
+        "conceptId": "259932054",
+        "concept": "Other [text box]"
+      },
+      "99": {
+        "conceptId": "746038746",
+        "concept": "Declined"
+      },
+      "SEXORIENT_TB": {
+        "conceptId": "979809707",
+        "concept": "Orientation - Do you think of yourself as: [text box]",
+        "isTextBox": true
+      }
+    },
+    "questionText": "Orientation - Do you think of yourself as:",
+    "conceptId": "555481393"
+  },
+  "PAINREL1": {
+    "questIds": {
+      "0": {
+        "conceptId": "469512398",
+        "concept": "Baby or low-dose aspirin (81 mg or less)"
+      }
+    },
+    "conceptId": "399982309",
+    "questionText": "Pain relievers- Have you ever taken any of these medications at least 4 times a month for 6 months or longer? Select all that apply."
+  },
+  "AGECOR": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Based on the information you provided when you enrolled in this study, you are [Age from Enrollment Questionnaire] years old today. Is that correct?",
+    "conceptId": "479353866"
+  },
+  "WORKACTC": {
+    "questIds": {
+      "0": {
+        "conceptId": "503218834",
+        "concept": "None"
+      },
+      "1": {
+        "conceptId": "464753847",
+        "concept": "Less than 30 min"
+      },
+      "2": {
+        "conceptId": "729681071",
+        "concept": "30 min"
+      },
+      "3": {
+        "conceptId": "258023209",
+        "concept": "45 min"
+      },
+      "4": {
+        "conceptId": "638092100",
+        "concept": "1 hr"
+      },
+      "5": {
+        "conceptId": "342252688",
+        "concept": "1 to 2.9 hrs"
+      },
+      "6": {
+        "conceptId": "620179158",
+        "concept": "3 to 4.9 hrs"
+      },
+      "7": {
+        "conceptId": "418933199",
+        "concept": "5 to 6.9 hrs."
+      },
+      "8": {
+        "conceptId": "436446259",
+        "concept": "7 to 8.9 hrs."
+      },
+      "9": {
+        "conceptId": "201002865",
+        "concept": "9 hrs. or more"
+      }
+    },
+    "questionText": "Walking and carrying materials weighing less than 50 pounds (for example, delivering mail, waiting tables, light construction, janitorial work, etc.)",
+    "conceptId": "589522790"
+  },
+  "SLEEPSCHA": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "During a usual week, is your sleep schedule determined by your job, school, or other activities?",
+    "conceptId": "591723682"
+  },
+  "WORK": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Do you currently work for pay (full-time or part-time)?",
+    "conceptId": "613744428"
+  },
+  "SLEEP1A": {
+    "isTextBox": true,
+    "questionText": "What time do you usually go to bed on [the nights before workdays/most days]? Please tell us the time you usually get into your bed, not the time you usually fall asleep.",
+    "conceptId": "636757313"
+  },
+  "WORKACTB": {
+    "questIds": {
+      "0": {
+        "conceptId": "503218834",
+        "concept": "None"
+      },
+      "1": {
+        "conceptId": "464753847",
+        "concept": "Less than 30 min"
+      },
+      "2": {
+        "conceptId": "729681071",
+        "concept": "30 min"
+      },
+      "3": {
+        "conceptId": "258023209",
+        "concept": "45 min"
+      },
+      "4": {
+        "conceptId": "638092100",
+        "concept": "1 hr"
+      },
+      "5": {
+        "conceptId": "342252688",
+        "concept": "1 to 2.9 hrs"
+      },
+      "6": {
+        "conceptId": "620179158",
+        "concept": "3 to 4.9 hrs"
+      },
+      "7": {
+        "conceptId": "418933199",
+        "concept": "5 to 6.9 hrs."
+      },
+      "8": {
+        "conceptId": "436446259",
+        "concept": "7 to 8.9 hrs."
+      },
+      "9": {
+        "conceptId": "201002865",
+        "concept": "9 hrs. or more"
+      }
+    },
+    "questionText": "Standing with some walking (for example, as a store clerk, filing, making copies, walking to/from meetings, working on an assembly line, etc.)",
+    "conceptId": "652561589"
+  },
+  "SIB1": {
+    "isTextBox": true,
+    "questionText": "How many siblings do you have, including full and half-siblings?",
+    "conceptId": "694265648"
+  },
+  "WORKACTA": {
+    "questIds": {
+      "0": {
+        "conceptId": "503218834",
+        "concept": "None"
+      },
+      "1": {
+        "conceptId": "464753847",
+        "concept": "Less than 30 min"
+      },
+      "2": {
+        "conceptId": "729681071",
+        "concept": "30 min"
+      },
+      "3": {
+        "conceptId": "258023209",
+        "concept": "45 min"
+      },
+      "4": {
+        "conceptId": "638092100",
+        "concept": "1 hr"
+      },
+      "5": {
+        "conceptId": "342252688",
+        "concept": "1 to 2.9 hrs"
+      },
+      "6": {
+        "conceptId": "620179158",
+        "concept": "3 to 4.9 hrs"
+      },
+      "7": {
+        "conceptId": "418933199",
+        "concept": "5 to 6.9 hrs."
+      },
+      "8": {
+        "conceptId": "436446259",
+        "concept": "7 to 8.9 hrs."
+      },
+      "9": {
+        "conceptId": "201002865",
+        "concept": "9 hrs. or more"
+      }
+    },
+    "questionText": "Sitting with small arm movements (for example, desk or computer work, light assembly, driving, etc.)",
+    "conceptId": "699101535"
+  },
+  "HOMEMOVEOUT1": {
+    "questIds": {
+      "0": {
+        "conceptId": "791229998",
+        "concept": "Still live here"
+      },
+      "HOMEMOVEOUT1_YEAR": {
+        "conceptId": "878021432",
+        "concept": "Current - Year moved out",
+        "isTextBox": true
+      }
+    },
+    "questionText": "Address 1- What year did you move out of [insert address from HOMEADD1 – HOMEADD3/current address/the 2nd address you provided/etc.]? Current",
+    "conceptId": "557026882"
+  },
+  "HOMEMOVEOUT2": {
+    "questIds": {
+      "0": {
+        "conceptId": "791229998",
+        "concept": "Still live here"
+      },
+      "HOMEMOVEOUT2_YEAR": {
+        "conceptId": "717344958",
+        "concept": "Year moved out",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "710126158",
+    "questionText": "Address 2- What year did you move out of [insert address from HOMEADD1 – HOMEADD3/current address/the 2nd address you provided/etc.]? Previous"
+  },
+  "OCCUPTN1": {
+    "isTextBox": true,
+    "questionText": "Please identify the occupation category that best describes this job.",
+    "conceptId": "761310265"
+  },
+  "MARITAL": {
+    "questIds": {
+      "0": {
+        "conceptId": "514080822",
+        "concept": "Never married"
+      },
+      "1": {
+        "conceptId": "522680498",
+        "concept": "Not married but living with partner"
+      },
+      "2": {
+        "conceptId": "288321056",
+        "concept": "Married"
+      },
+      "3": {
+        "conceptId": "649436542",
+        "concept": "Divorced"
+      },
+      "4": {
+        "conceptId": "733527132",
+        "concept": "Widowed"
+      },
+      "5": {
+        "conceptId": "741094625",
+        "concept": "Separated"
+      },
+      "99": {
+        "conceptId": "746038746",
+        "concept": "Declined"
+      }
+    },
+    "questionText": "Are you now married, widowed, divorced, separated, never married, or living with a partner?",
+    "conceptId": "783167257"
+  },
+  "HOMEADDOTH2": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      }
+    },
+    "questionText": "1-Previous Review 2- Within the past 20 years, have you lived anywhere else for at least two years ?",
+    "conceptId": "801850074"
+  },
+  "CHILDTEST": {
+    "questIds": {
+      "0": {
+        "conceptId": "664502016",
+        "concept": "Current Address"
+      },
+      "1": {
+        "conceptId": "810931076",
+        "concept": "Previous address 1"
+      },
+      "2": {
+        "conceptId": "220071049",
+        "concept": "Previous address 2"
+      },
+      "3": {
+        "conceptId": "158544553",
+        "concept": "Previous address 3"
+      },
+      "4": {
+        "conceptId": "241542679",
+        "concept": "Previous address 4"
+      },
+      "5": {
+        "conceptId": "155730686",
+        "concept": "Previous address 5"
+      },
+      "6": {
+        "conceptId": "771596438",
+        "concept": "Previous address 6"
+      },
+      "7": {
+        "conceptId": "605292999",
+        "concept": "Previous address 7"
+      },
+      "8": {
+        "conceptId": "567573866",
+        "concept": "Previous address 8"
+      },
+      "9": {
+        "conceptId": "879201112",
+        "concept": "Previous address 9"
+      },
+      "10": {
+        "conceptId": "201117839",
+        "concept": "Previous address 10"
+      }
+    },
+    "questionText": "Which previously entered address did you live at when you were about 13 years old?",
+    "conceptId": "805221059"
+  },
+  "LAWN3A": {
+    "questIds": {
+      "0": {
+        "conceptId": "239152340",
+        "concept": "Once a month or less"
+      },
+      "1": {
+        "conceptId": "642417691",
+        "concept": "1-3 days a month"
+      },
+      "2": {
+        "conceptId": "240303761",
+        "concept": "0-2 days a week"
+      },
+      "3": {
+        "conceptId": "174669952",
+        "concept": "2-4 days a week"
+      },
+      "4": {
+        "conceptId": "157262726",
+        "concept": "4-6 days a week"
+      },
+      "5": {
+        "conceptId": "590942885",
+        "concept": "Every day_"
+      }
+    },
+    "questionText": "During the season[s] in the past 12 months that you did moderate outdoor chores (such as weeding, raking, or mowing the lawn), about how often did you do these chores outside of work?",
+    "conceptId": "992022740"
+  }
+}

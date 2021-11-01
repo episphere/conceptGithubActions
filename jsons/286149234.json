@@ -1,16 +1,29 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
-  "Source Question": "285718391.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Source Question": [
+    "285718391.json"
+  ],
   "conceptId": "286149234",
   "Question Text": "Alternate contact mobile phone",
   "Variable Label": "Alternate contact mobile phone",
-  "Variable Name": "SrvBOH_AltContCell_v1r0",
-  "Connect Value for Select all that apply questions": "ALTCONTACT2_MOBILE",
+  "Variable Name": [
+    "SrvBOH_AltContCell_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "ALTCONTACT2_MOBILE"
+  ],
   "Variable Type": "Num",
   "Variable Length": "10",
   "Connect Value": "N/A",
   "Required": "No",
   "PII": "Yes",
-  "Quest_Src Question": "ALTCONTACT2"
+  "Date added or modified": "9/14/21",
+  "Quest_Src Question": [
+    "ALTCONTACT2"
+  ]
 }

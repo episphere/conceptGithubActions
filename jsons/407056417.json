@@ -1,23 +1,32 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "898006288.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
   "conceptId": "407056417",
   "Question Text": "What was your biological sex assigned at birth?",
   "Variable Label": "Sex at birth",
-  "Variable Name": "SrvBOH_SexAtBirth_v1r0",
-  "Connect Value for Select all that apply questions": "SEX",
+  "Variable Name": [
+    "SrvBOH_SexAtBirth_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "SEX"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Required": "No",
+  "Required": "Yes",
   "PII": "No",
+  "Date added or modified": "9/14/21",
   "Old Quest Value": {
     "536341288.json": "1",
     "654207589.json": "2",
-    "576796184.json": "3"
+    "830573274.json": "3"
   },
   "Connect Value": {
     "536341288.json": "0",
     "654207589.json": "1",
-    "576796184.json": "2"
+    "830573274.json": "2"
   }
 }

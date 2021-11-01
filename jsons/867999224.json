@@ -1,11 +1,19 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "965707586.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
   "conceptId": "867999224",
   "Question Text": "Age last used - During that time, did you ever smoke cigars, cigarillos, or little filtered cigars every day?",
   "Variable Label": "Use cigars, cigarillos, or little filtered cigars every day, age last used",
-  "Variable Name": "SrvSAS_AgeUseCigarED_v1r0",
-  "Connect Value for Select all that apply questions": "CIGAR8C",
+  "Variable Name": [
+    "SrvSAS_AgeUseCigarED_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "CIGAR8C"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",

@@ -1,0 +1,40 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "Source Question": [
+    "981441822.json"
+  ],
+  "conceptId": "389340254",
+  "Question Text": "Sitting inactive in a public place (such as a theater or a meeting)",
+  "Variable Label": "Sitting inactive in a public place (such as a theater or a meeting)",
+  "Variable Name": [
+    "SrvMRE_DozeSitting_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "SLHABIT3C"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "10/8/21",
+  "Quest_Src Question": [
+    "GRID_SLHABIT3"
+  ],
+  "Old Quest Value": {
+    "514068832.json": "1",
+    "774439579.json": "2",
+    "747099514.json": "3",
+    "977681388.json": "4"
+  },
+  "Connect Value": {
+    "514068832.json": "0",
+    "774439579.json": "1",
+    "747099514.json": "2",
+    "977681388.json": "3"
+  }
+}

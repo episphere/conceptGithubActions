@@ -1,7 +1,55 @@
 {
   "conceptId": "367803647",
-  "Variable Name": "What is the highest level of school that you have completed?",
+  "Question Text": "What is the highest level of school that you have completed?",
   "subcollections": [
+    "367803647.json",
     "940387701.json"
-  ]
+  ],
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Source Question": [
+    "367803647.json"
+  ],
+  "Variable Label": "Education level",
+  "Variable Name": [
+    "SrvBOH_EducLevel_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "EDU"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "9/14/21",
+  "Quest_Src Question": [
+    "EDU"
+  ],
+  "Old Quest Value": {
+    "978204320.json": "1",
+    "935502060.json": "2",
+    "404564707.json": "3",
+    "432193665.json": "4",
+    "890756124.json": "5",
+    "766964355.json": "6",
+    "875342283.json": "7",
+    "598242454.json": "8",
+    "507480379.json": "9",
+    "827135790.json": "9"
+  },
+  "Connect Value": {
+    "978204320.json": "0",
+    "935502060.json": "1",
+    "404564707.json": "2",
+    "432193665.json": "3",
+    "890756124.json": "4",
+    "542825733.json": "5",
+    "364743026.json": "6",
+    "617509139.json": "7",
+    "883468127.json": "55"
+  }
 }

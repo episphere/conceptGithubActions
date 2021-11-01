@@ -1,10 +1,16 @@
 {
-  "Primary Source": "332961895.json",
-  "Secondary Source": "117044491.json",
+  "Primary Source": [
+    "332961895.json"
+  ],
+  "Secondary Source": [
+    "117044491.json"
+  ],
   "conceptId": "130371375",
   "Question Text": "Payment Round",
   "Variable Label": "Payment Round",
-  "Variable Name": "SMPaym_Round_v1r0",
+  "Variable Name": [
+    "SMPaym_Round_v1r0"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "Yes",

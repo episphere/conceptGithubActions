@@ -1,0 +1,4083 @@
+{
+  "BSNSSTYP1": {
+    "questIds": {
+      "0": {
+        "conceptId": "641572847",
+        "concept": "Manufacturing"
+      },
+      "1": {
+        "conceptId": "592592455",
+        "concept": "A retail store"
+      },
+      "2": {
+        "conceptId": "711138281",
+        "concept": "Wholesale or distributor"
+      },
+      "3": {
+        "conceptId": "596792238",
+        "concept": "A service provider"
+      },
+      "4": {
+        "conceptId": "133362151",
+        "concept": "Construction"
+      },
+      "5": {
+        "conceptId": "372993567",
+        "concept": "Mining"
+      },
+      "6": {
+        "conceptId": "620577362",
+        "concept": "Farming"
+      },
+      "7": {
+        "conceptId": "580409149",
+        "concept": "Fishing"
+      },
+      "8": {
+        "conceptId": "867237640",
+        "concept": "Forestry"
+      },
+      "9": {
+        "conceptId": "698814077",
+        "concept": "Government"
+      },
+      "10": {
+        "conceptId": "751475124",
+        "concept": "Military"
+      },
+      "11": {
+        "conceptId": "308286913",
+        "concept": "A shipyard"
+      },
+      "55": {
+        "conceptId": "807835037",
+        "concept": "Other |__|"
+      },
+      "77": {
+        "conceptId": "178420302",
+        "concept": "Unavailable/Unknown"
+      },
+      "BSNSSTYP1_TB": {
+        "conceptId": "923333992",
+        "concept": "Other text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "700374192"
+  },
+  "BSNSSTYP2": {
+    "questIds": {
+      "0": {
+        "conceptId": "641572847",
+        "concept": "Manufacturing"
+      },
+      "1": {
+        "conceptId": "592592455",
+        "concept": "A retail store"
+      },
+      "2": {
+        "conceptId": "711138281",
+        "concept": "Wholesale or distributor"
+      },
+      "3": {
+        "conceptId": "596792238",
+        "concept": "A service provider"
+      },
+      "4": {
+        "conceptId": "133362151",
+        "concept": "Construction"
+      },
+      "5": {
+        "conceptId": "372993567",
+        "concept": "Mining"
+      },
+      "6": {
+        "conceptId": "620577362",
+        "concept": "Farming"
+      },
+      "7": {
+        "conceptId": "580409149",
+        "concept": "Fishing"
+      },
+      "8": {
+        "conceptId": "867237640",
+        "concept": "Forestry"
+      },
+      "9": {
+        "conceptId": "698814077",
+        "concept": "Government"
+      },
+      "10": {
+        "conceptId": "751475124",
+        "concept": "Military"
+      },
+      "11": {
+        "conceptId": "308286913",
+        "concept": "A shipyard"
+      },
+      "55": {
+        "conceptId": "807835037",
+        "concept": "Other |__|"
+      },
+      "77": {
+        "conceptId": "178420302",
+        "concept": "Unavailable/Unknown"
+      },
+      "BSNSSTYP1_TB": {
+        "conceptId": "923333992",
+        "concept": "Other text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "530742915"
+  },
+  "MOMCANC2": {
+    "questIds": {
+      "0": {
+        "conceptId": "939782495",
+        "concept": "Anal"
+      },
+      "1": {
+        "conceptId": "135725957",
+        "concept": "Bladder"
+      },
+      "2": {
+        "conceptId": "518416174",
+        "concept": "Brain"
+      },
+      "3": {
+        "conceptId": "847945207",
+        "concept": "Breast"
+      },
+      "4": {
+        "conceptId": "283025574",
+        "concept": "Cervical"
+      },
+      "5": {
+        "conceptId": "942970912",
+        "concept": "Colon/rectal"
+      },
+      "6": {
+        "conceptId": "596122041",
+        "concept": "Esophageal"
+      },
+      "7": {
+        "conceptId": "489400183",
+        "concept": "Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.)"
+      },
+      "8": {
+        "conceptId": "863246236",
+        "concept": "Kidney"
+      },
+      "9": {
+        "conceptId": "607793249",
+        "concept": "Leukemia (blood and bone marrow)"
+      },
+      "10": {
+        "conceptId": "532172400",
+        "concept": "Liver"
+      },
+      "11": {
+        "conceptId": "754745617",
+        "concept": "Lung or bronchial"
+      },
+      "12": {
+        "conceptId": "665036297",
+        "concept": "Non-Hodgkin's lymphoma"
+      },
+      "13": {
+        "conceptId": "200837530",
+        "concept": "Lymphoma"
+      },
+      "14": {
+        "conceptId": "990319383",
+        "concept": "Melanoma (skin)"
+      },
+      "15": {
+        "conceptId": "487917585",
+        "concept": "Non-melanoma skin (basal or squamous)"
+      },
+      "16": {
+        "conceptId": "603181162",
+        "concept": "Ovarian"
+      },
+      "17": {
+        "conceptId": "482225200",
+        "concept": "Pancreatic"
+      },
+      "18": {
+        "conceptId": "764891959",
+        "concept": "Stomach"
+      },
+      "19": {
+        "conceptId": "139822395",
+        "concept": "Thyroid"
+      },
+      "20": {
+        "conceptId": "723614811",
+        "concept": "Uterine (endometrial)"
+      },
+      "55": {
+        "conceptId": "807835037",
+        "concept": "Other |__|"
+      },
+      "77": {
+        "conceptId": "178420302",
+        "concept": "Unavailable/Unknown"
+      },
+      "MOMCANC2_TB": {
+        "conceptId": "677702321",
+        "concept": "Another type of cancer: Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "814510313"
+  },
+  "DADCANC2": {
+    "questIds": {
+      "0": {
+        "conceptId": "939782495",
+        "concept": "Anal"
+      },
+      "1": {
+        "conceptId": "135725957",
+        "concept": "Bladder"
+      },
+      "2": {
+        "conceptId": "700100953",
+        "concept": "Prostate"
+      },
+      "3": {
+        "conceptId": "847945207",
+        "concept": "Breast"
+      },
+      "5": {
+        "conceptId": "942970912",
+        "concept": "Colon/rectal"
+      },
+      "6": {
+        "conceptId": "596122041",
+        "concept": "Esophageal"
+      },
+      "7": {
+        "conceptId": "489400183",
+        "concept": "Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.)"
+      },
+      "8": {
+        "conceptId": "863246236",
+        "concept": "Kidney"
+      },
+      "9": {
+        "conceptId": "607793249",
+        "concept": "Leukemia (blood and bone marrow)"
+      },
+      "10": {
+        "conceptId": "532172400",
+        "concept": "Liver"
+      },
+      "11": {
+        "conceptId": "754745617",
+        "concept": "Lung or bronchial"
+      },
+      "12": {
+        "conceptId": "665036297",
+        "concept": "Non-Hodgkin's lymphoma"
+      },
+      "13": {
+        "conceptId": "200837530",
+        "concept": "Lymphoma"
+      },
+      "14": {
+        "conceptId": "990319383",
+        "concept": "Melanoma (skin)"
+      },
+      "15": {
+        "conceptId": "487917585",
+        "concept": "Non-melanoma skin (basal or squamous)"
+      },
+      "17": {
+        "conceptId": "482225200",
+        "concept": "Pancreatic"
+      },
+      "18": {
+        "conceptId": "764891959",
+        "concept": "Stomach"
+      },
+      "19": {
+        "conceptId": "139822395",
+        "concept": "Thyroid"
+      },
+      "55": {
+        "conceptId": "807835037",
+        "concept": "Other |__|"
+      },
+      "77": {
+        "conceptId": "178420302",
+        "concept": "Unavailable/Unknown"
+      },
+      "MOMCANC2_TB": {
+        "conceptId": "677702321",
+        "concept": "Another type of cancer: Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "173240848"
+  },
+  "SIBCANC2": {
+    "questIds": {
+      "0": {
+        "conceptId": "939782495",
+        "concept": "Anal"
+      },
+      "1": {
+        "conceptId": "135725957",
+        "concept": "Bladder"
+      },
+      "2": {
+        "conceptId": "700100953",
+        "concept": "Prostate"
+      },
+      "3": {
+        "conceptId": "847945207",
+        "concept": "Breast"
+      },
+      "4": {
+        "conceptId": "283025574",
+        "concept": "Cervical"
+      },
+      "5": {
+        "conceptId": "942970912",
+        "concept": "Colon/rectal"
+      },
+      "6": {
+        "conceptId": "596122041",
+        "concept": "Esophageal"
+      },
+      "7": {
+        "conceptId": "489400183",
+        "concept": "Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.)"
+      },
+      "8": {
+        "conceptId": "863246236",
+        "concept": "Kidney"
+      },
+      "9": {
+        "conceptId": "607793249",
+        "concept": "Leukemia (blood and bone marrow)"
+      },
+      "10": {
+        "conceptId": "532172400",
+        "concept": "Liver"
+      },
+      "11": {
+        "conceptId": "754745617",
+        "concept": "Lung or bronchial"
+      },
+      "12": {
+        "conceptId": "665036297",
+        "concept": "Non-Hodgkin's lymphoma"
+      },
+      "13": {
+        "conceptId": "200837530",
+        "concept": "Lymphoma"
+      },
+      "14": {
+        "conceptId": "990319383",
+        "concept": "Melanoma (skin)"
+      },
+      "15": {
+        "conceptId": "487917585",
+        "concept": "Non-melanoma skin (basal or squamous)"
+      },
+      "16": {
+        "conceptId": "603181162",
+        "concept": "Ovarian"
+      },
+      "17": {
+        "conceptId": "482225200",
+        "concept": "Pancreatic"
+      },
+      "18": {
+        "conceptId": "764891959",
+        "concept": "Stomach"
+      },
+      "19": {
+        "conceptId": "139822395",
+        "concept": "Thyroid"
+      },
+      "20": {
+        "conceptId": "723614811",
+        "concept": "Uterine (endometrial)"
+      },
+      "55": {
+        "conceptId": "807835037",
+        "concept": "Other |__|"
+      },
+      "77": {
+        "conceptId": "178420302",
+        "concept": "Unavailable/Unknown"
+      },
+      "MOMCANC2_TB": {
+        "conceptId": "677702321",
+        "concept": "Another type of cancer: Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "578895128"
+  },
+  "CHILDCANC2": {
+    "questIds": {
+      "0": {
+        "conceptId": "939782495",
+        "concept": "Anal"
+      },
+      "1": {
+        "conceptId": "135725957",
+        "concept": "Bladder"
+      },
+      "2": {
+        "conceptId": "700100953",
+        "concept": "Prostate"
+      },
+      "3": {
+        "conceptId": "847945207",
+        "concept": "Breast"
+      },
+      "4": {
+        "conceptId": "283025574",
+        "concept": "Cervical"
+      },
+      "5": {
+        "conceptId": "942970912",
+        "concept": "Colon/rectal"
+      },
+      "6": {
+        "conceptId": "596122041",
+        "concept": "Esophageal"
+      },
+      "7": {
+        "conceptId": "489400183",
+        "concept": "Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.)"
+      },
+      "8": {
+        "conceptId": "863246236",
+        "concept": "Kidney"
+      },
+      "9": {
+        "conceptId": "607793249",
+        "concept": "Leukemia (blood and bone marrow)"
+      },
+      "10": {
+        "conceptId": "532172400",
+        "concept": "Liver"
+      },
+      "11": {
+        "conceptId": "754745617",
+        "concept": "Lung or bronchial"
+      },
+      "12": {
+        "conceptId": "665036297",
+        "concept": "Non-Hodgkin's lymphoma"
+      },
+      "13": {
+        "conceptId": "200837530",
+        "concept": "Lymphoma"
+      },
+      "14": {
+        "conceptId": "990319383",
+        "concept": "Melanoma (skin)"
+      },
+      "15": {
+        "conceptId": "487917585",
+        "concept": "Non-melanoma skin (basal or squamous)"
+      },
+      "16": {
+        "conceptId": "603181162",
+        "concept": "Ovarian"
+      },
+      "17": {
+        "conceptId": "482225200",
+        "concept": "Pancreatic"
+      },
+      "18": {
+        "conceptId": "764891959",
+        "concept": "Stomach"
+      },
+      "19": {
+        "conceptId": "139822395",
+        "concept": "Thyroid"
+      },
+      "20": {
+        "conceptId": "723614811",
+        "concept": "Uterine (endometrial)"
+      },
+      "55": {
+        "conceptId": "807835037",
+        "concept": "Other |__|"
+      },
+      "77": {
+        "conceptId": "178420302",
+        "concept": "Unavailable/Unknown"
+      },
+      "MOMCANC2_TB": {
+        "conceptId": "677702321",
+        "concept": "Another type of cancer: Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "812370563"
+  },
+  "WTLOSS2_1825": {
+    "questIds": {
+      "0": {
+        "conceptId": "934037640",
+        "concept": "Changed diet"
+      },
+      "1": {
+        "conceptId": "990501908",
+        "concept": "Exercised"
+      },
+      "2": {
+        "conceptId": "691423127",
+        "concept": "Skipped meals"
+      },
+      "3": {
+        "conceptId": "203773667",
+        "concept": "Surgery"
+      },
+      "4": {
+        "conceptId": "862170896",
+        "concept": "Used diet pills/medications"
+      },
+      "5": {
+        "conceptId": "448594163",
+        "concept": "Started to smoke or began to smoke again"
+      },
+      "55": {
+        "conceptId": "807835037",
+        "concept": "Other |__|"
+      },
+      "WTLOSS2_1825_TB": {
+        "conceptId": "155535868",
+        "concept": "Other: Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "207025341"
+  },
+  "WTLOSS2_2535": {
+    "questIds": {
+      "0": {
+        "conceptId": "934037640",
+        "concept": "Changed diet"
+      },
+      "1": {
+        "conceptId": "990501908",
+        "concept": "Exercised"
+      },
+      "2": {
+        "conceptId": "691423127",
+        "concept": "Skipped meals"
+      },
+      "3": {
+        "conceptId": "203773667",
+        "concept": "Surgery"
+      },
+      "4": {
+        "conceptId": "862170896",
+        "concept": "Used diet pills/medications"
+      },
+      "5": {
+        "conceptId": "448594163",
+        "concept": "Started to smoke or began to smoke again"
+      },
+      "55": {
+        "conceptId": "807835037",
+        "concept": "Other |__|"
+      },
+      "WTLOSS2_1825_TB": {
+        "conceptId": "155535868",
+        "concept": "Other: Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "827393644"
+  },
+  "WTLOSS2_3545": {
+    "questIds": {
+      "0": {
+        "conceptId": "934037640",
+        "concept": "Changed diet"
+      },
+      "1": {
+        "conceptId": "990501908",
+        "concept": "Exercised"
+      },
+      "2": {
+        "conceptId": "691423127",
+        "concept": "Skipped meals"
+      },
+      "3": {
+        "conceptId": "203773667",
+        "concept": "Surgery"
+      },
+      "4": {
+        "conceptId": "862170896",
+        "concept": "Used diet pills/medications"
+      },
+      "5": {
+        "conceptId": "448594163",
+        "concept": "Started to smoke or began to smoke again"
+      },
+      "55": {
+        "conceptId": "807835037",
+        "concept": "Other |__|"
+      },
+      "WTLOSS2_1825_TB": {
+        "conceptId": "155535868",
+        "concept": "Other: Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "630675760"
+  },
+  "WTLOSS2_4555": {
+    "questIds": {
+      "0": {
+        "conceptId": "934037640",
+        "concept": "Changed diet"
+      },
+      "1": {
+        "conceptId": "990501908",
+        "concept": "Exercised"
+      },
+      "2": {
+        "conceptId": "691423127",
+        "concept": "Skipped meals"
+      },
+      "3": {
+        "conceptId": "203773667",
+        "concept": "Surgery"
+      },
+      "4": {
+        "conceptId": "862170896",
+        "concept": "Used diet pills/medications"
+      },
+      "5": {
+        "conceptId": "448594163",
+        "concept": "Started to smoke or began to smoke again"
+      },
+      "55": {
+        "conceptId": "807835037",
+        "concept": "Other |__|"
+      },
+      "WTLOSS2_1825_TB": {
+        "conceptId": "155535868",
+        "concept": "Other: Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "431628922"
+  },
+  "SLEEP1M": {
+    "questIds": {
+      "OUTSIDEMIN": {
+        "conceptId": "157959631",
+        "concept": "Minutes spent in direct sunlight",
+        "isTextBox": true
+      },
+      "OUTSIDEHOURS": {
+        "conceptId": "611065150",
+        "concept": "Hours spent in direct sunlight",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "424807655"
+  },
+  "SLEEP2N": {
+    "questIds": {
+      "OUTSIDEMIN": {
+        "conceptId": "157959631",
+        "concept": "Minutes spent in direct sunlight",
+        "isTextBox": true
+      },
+      "OUTSIDEHOURS": {
+        "conceptId": "611065150",
+        "concept": "Hours spent in direct sunlight",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "825227968"
+  },
+  "RACEETH8": {
+    "questIds": {
+      "1": {
+        "conceptId": "163149180",
+        "concept": "English"
+      },
+      "3": {
+        "conceptId": "733789220",
+        "concept": "French"
+      },
+      "4": {
+        "conceptId": "418464677",
+        "concept": "German"
+      },
+      "6": {
+        "conceptId": "267472307",
+        "concept": "Italian"
+      },
+      "8": {
+        "conceptId": "773342525",
+        "concept": "Spanish"
+      },
+      "55": {
+        "conceptId": "807835037",
+        "concept": "Other |__|"
+      },
+      "99": {
+        "conceptId": "746038746",
+        "concept": "Declined"
+      },
+      "RACEETH_TB": {
+        "conceptId": "747350323",
+        "concept": "None of these fully describe me. Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "797626610"
+  },
+  "LANG": {
+    "questIds": {
+      "1": {
+        "conceptId": "163149180",
+        "concept": "English"
+      },
+      "2": {
+        "conceptId": "750168061",
+        "concept": "Chinese"
+      },
+      "3": {
+        "conceptId": "733789220",
+        "concept": "French"
+      },
+      "4": {
+        "conceptId": "418464677",
+        "concept": "German"
+      },
+      "5": {
+        "conceptId": "288079668",
+        "concept": "Japanese"
+      },
+      "6": {
+        "conceptId": "267472307",
+        "concept": "Italian"
+      },
+      "8": {
+        "conceptId": "964924704",
+        "concept": "Vietnamese"
+      },
+      "55": {
+        "conceptId": "807835037",
+        "concept": "Other |__|"
+      }
+    },
+    "conceptId": "588212264"
+  },
+  "SKINCANC2": {
+    "questIds": {
+      "77": {
+        "conceptId": "178420302",
+        "concept": "Unavailable/Unknown"
+      }
+    },
+    "conceptId": "508846529"
+  },
+  "RACEETH7": {
+    "questIds": {
+      "4": {
+        "conceptId": "200929978",
+        "concept": "Native Hawaiian"
+      },
+      "55": {
+        "conceptId": "807835037",
+        "concept": "Other |__|"
+      },
+      "99": {
+        "conceptId": "746038746",
+        "concept": "Declined"
+      },
+      "RACEETH_TB": {
+        "conceptId": "747350323",
+        "concept": "None of these fully describe me. Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "115616118"
+  },
+  "SKINCANC3": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "904550680"
+  },
+  "ANEMIA": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "965917116"
+  },
+  "CVD": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "929240175"
+  },
+  "CHF": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "836712013"
+  },
+  "CHOL": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "836890480"
+  },
+  "HEARTATT": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "624479779"
+  },
+  "ARRHYT": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "337278854"
+  },
+  "CHESTPAIN": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "681229479"
+  },
+  "HEARTVALV": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "660358706"
+  },
+  "HTN": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "884793537"
+  },
+  "BLOODCLOT": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "460062034"
+  },
+  "STROKE": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "110652436"
+  },
+  "COPD": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "448722126"
+  },
+  "ASTHMA": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "201449164"
+  },
+  "HAYFEVER": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "436333358"
+  },
+  "GERD": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "554782332"
+  },
+  "BARESO": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "409622468"
+  },
+  "IBS": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "448476881"
+  },
+  "IBD": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "459764934"
+  },
+  "DIVERT": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "374697037"
+  },
+  "UC": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "580911251"
+  },
+  "CD": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "190347832"
+  },
+  "CCD": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "624777141"
+  },
+  "GALL": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "980403315"
+  },
+  "LIVCIRR": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "936039586"
+  },
+  "PANCREA": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "430472084"
+  },
+  "THYROID": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "139655599"
+  },
+  "DM2": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "301679110"
+  },
+  "GRAVES": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "810918716"
+  },
+  "KIDNEY": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "989016875"
+  },
+  "CKD": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "878094302"
+  },
+  "RA": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "173101988"
+  },
+  "LUPUS": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "245861186"
+  },
+  "GOUT": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "420423416"
+  },
+  "MONO": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "915230886"
+  },
+  "SHINGLES": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "530548878"
+  },
+  "HBVHCV": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "469947273"
+  },
+  "GONORR": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "685735916"
+  },
+  "CHLA": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "954405492"
+  },
+  "TRICH": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "103397024"
+  },
+  "SYPH": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "931470797"
+  },
+  "GENWARTS": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "922524563"
+  },
+  "HPV": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "978485677"
+  },
+  "HIVAIDS": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "523188839"
+  },
+  "UF": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "846786840"
+  },
+  "ENDO": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "423547108"
+  },
+  "PCOS": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "852898339"
+  },
+  "ENLGPROS": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "467061940"
+  },
+  "BREASTDIS": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "619481697"
+  },
+  "BREASTDIS3": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "219956652"
+  },
+  "DEPRESS2": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "301414575"
+  },
+  "TONSILS": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "367884741"
+  },
+  "GALLREM": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "178353079"
+  },
+  "APPEND": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "550075233"
+  },
+  "LIPOSUCT": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "860920332"
+  },
+  "BARSUR": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "986613440"
+  },
+  "HYSTER": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "150352141"
+  },
+  "TUBLIG": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "122887481"
+  },
+  "OVARYREM2": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "534007917"
+  },
+  "FTREM2": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "752636038"
+  },
+  "VASEC": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "518750011"
+  },
+  "TESTREM2": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "275770221"
+  },
+  "PROSREM2": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "882152987"
+  },
+  "PENREM": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "527057404"
+  },
+  "BLDTRANS3": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "406011084"
+  },
+  "BLDTRANS4": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "593017220"
+  },
+  "MOMCANC3A": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "259397450"
+  },
+  "MOMCANC3B": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "528753070"
+  },
+  "MOMCANC3C": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "683981980"
+  },
+  "MOMCANC3D": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "402548942"
+  },
+  "MOMCANC3E": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "247198016"
+  },
+  "MOMCANC3F": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "891925519"
+  },
+  "MOMCANC3G": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "317093647"
+  },
+  "MOMCANC3H": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "684692228"
+  },
+  "MOMCANC3I": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "671347092"
+  },
+  "MOMCANC3J": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "875221479"
+  },
+  "MOMCANC3K": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "186170949"
+  },
+  "MOMCANC3L": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "726451917"
+  },
+  "MOMCANC3M": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "213545903"
+  },
+  "MOMCANC3N": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "765903702"
+  },
+  "MOMCANC3O": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "773974223"
+  },
+  "MOMCANC3P": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "433604862"
+  },
+  "MOMCANC3Q": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "521369040"
+  },
+  "MOMCANC3R": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "497311092"
+  },
+  "MOMCANC3S": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "625249910"
+  },
+  "MOMCANC3T": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "838564850"
+  },
+  "MOMCANC3U": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "633764113"
+  },
+  "MOMCANC3V": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "882263738"
+  },
+  "MOMCANC3W": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "671308090"
+  },
+  "DADCANC3A": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "345146692"
+  },
+  "DADCANC3B": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "243443318"
+  },
+  "DADCANC3C": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "610382315"
+  },
+  "DADCANC3D": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "135519371"
+  },
+  "DADCANC3E": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "785019074"
+  },
+  "DADCANC3F": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "152885579"
+  },
+  "DADCANC3G": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "692910565"
+  },
+  "DADCANC3H": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "522464057"
+  },
+  "DADCANC3I": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "808655074"
+  },
+  "DADCANC3J": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "659627058"
+  },
+  "DADCANC3K": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "370198527"
+  },
+  "DADCANC3L": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "291855684"
+  },
+  "DADCANC3M": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "413536735"
+  },
+  "DADCANC3N": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "210325948"
+  },
+  "DADCANC3O": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "193297280"
+  },
+  "DADCANC3P": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "121502359"
+  },
+  "DADCANC3Q": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "489402657"
+  },
+  "DADCANC3R": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "727260639"
+  },
+  "DADCANC3S": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "359291056"
+  },
+  "DADCANC3T": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "968841976"
+  },
+  "DADCANC3U": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "864981804"
+  },
+  "DADCANC3V": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "499434567"
+  },
+  "SIBCANC3A": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "384881609"
+  },
+  "SIBCANC3B": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "483975329"
+  },
+  "SIBCANC3C": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "570279754"
+  },
+  "SIBCANC3D": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "907590067"
+  },
+  "SIBCANC3E": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "860112841"
+  },
+  "SIBCANC3F": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "158354252"
+  },
+  "SIBCANC3G": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "654594205"
+  },
+  "SIBCANC3H": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "550722030"
+  },
+  "SIBCANC3I": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "142912472"
+  },
+  "SIBCANC3J": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "158409298"
+  },
+  "SIBCANC3K": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "529744595"
+  },
+  "SIBCANC3L": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "315987564"
+  },
+  "SIBCANC3M": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "852278004"
+  },
+  "SIBCANC3N": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "391972881"
+  },
+  "SIBCANC3O": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "259089008"
+  },
+  "SIBCANC3P": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "209771602"
+  },
+  "SIBCANC3Q": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "682651189"
+  },
+  "SIBCANC3R": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "750994269"
+  },
+  "SIBCANC3S": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "700889863"
+  },
+  "SIBCANC3T": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "990114799"
+  },
+  "SIBCANC3U": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "195363361"
+  },
+  "SIBCANC3V": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "216840563"
+  },
+  "SIBCANC3W": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "514034680"
+  },
+  "SIBCANC3X": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "247160067"
+  },
+  "SIBCANC3Y": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "312545873"
+  },
+  "CHILDCANC3A": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "900939817"
+  },
+  "CHILDCANC3B": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "938150507"
+  },
+  "CHILDCANC3C": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "601211723"
+  },
+  "CHILDCANC3D": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "861788020"
+  },
+  "CHILDCANC3E": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "204425387"
+  },
+  "CHILDCANC3F": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "558929585"
+  },
+  "CHILDCANC3G": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "233764880"
+  },
+  "CHILDCANC3H": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "905145893"
+  },
+  "CHILDCANC3I": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "473190270"
+  },
+  "CHILDCANC3J": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "483735587"
+  },
+  "CHILDCANC3K": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "331759900"
+  },
+  "CHILDCANC3L": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "513077276"
+  },
+  "CHILDCANC3M": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "519974530"
+  },
+  "CHILDCANC3N": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "907776050"
+  },
+  "CHILDCANC3O": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "271684775"
+  },
+  "CHILDCANC3P": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "252160589"
+  },
+  "CHILDCANC3Q": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "774774759"
+  },
+  "CHILDCANC3R": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "127257956"
+  },
+  "CHILDCANC3S": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "496917282"
+  },
+  "CHILDCANC3T": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "908129316"
+  },
+  "CHILDCANC3U": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "795003496"
+  },
+  "CHILDCANC3V": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "969177591"
+  },
+  "CHILDCANC3W": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "116065851"
+  },
+  "CHILDCANC3X": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "278159347"
+  },
+  "CHILDCANC3Y": {
+    "questIds": {
+      "SKINCANC3_AGE": {
+        "conceptId": "206625031",
+        "concept": "Age at diagnosis",
+        "isTextBox": true
+      },
+      "SKINCANC3_YEAR": {
+        "conceptId": "261863326",
+        "concept": "Year at diagnosis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "845219872"
+  },
+  "ECIG8C": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631"
+      },
+      "1": {
+        "conceptId": "353358909"
+      }
+    },
+    "questionText": "Age last used - During that time, did you ever use e-cigarettes or other vaping devices for nicotine or tobacco every day?",
+    "conceptId": "207839953"
+  },
+  "RACEETH3": {
+    "questIds": {
+      "2": {
+        "conceptId": "750168061",
+        "concept": "Chinese"
+      },
+      "5": {
+        "conceptId": "288079668",
+        "concept": "Japanese"
+      },
+      "6": {
+        "conceptId": "240721579",
+        "concept": "Korean"
+      },
+      "8": {
+        "conceptId": "964924704",
+        "concept": "Vietnamese"
+      },
+      "55": {
+        "conceptId": "807835037",
+        "concept": "Other |__|"
+      },
+      "99": {
+        "conceptId": "746038746",
+        "concept": "Declined"
+      },
+      "RACEETH_TB": {
+        "conceptId": "747350323",
+        "concept": "None of these fully describe me. Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "525535977"
+  },
+  "CARWEIGHT": {
+    "questIds": {
+      "0": {
+        "conceptId": "245893583",
+        "concept": "Around the chest or shoulders"
+      },
+      "1": {
+        "conceptId": "506790433",
+        "concept": "Around the waist or stomach"
+      },
+      "2": {
+        "conceptId": "601057066",
+        "concept": "Around the hips or thighs"
+      }
+    },
+    "conceptId": "538716648"
+  },
+  "LAWN1": {
+    "questIds": {
+      "88": {
+        "conceptId": "256626602",
+        "concept": "I did not do any of these activities"
+      }
+    },
+    "conceptId": "204421360"
+  },
+  "EXEREC1": {
+    "questIds": {
+      "88": {
+        "conceptId": "256626602",
+        "concept": "I did not do any of these activities"
+      }
+    },
+    "conceptId": "517976064"
+  },
+  "ALCLIFE4A": {
+    "questIds": {
+      "0": {
+        "conceptId": "377968392",
+        "concept": "Beer or hard cider"
+      },
+      "1": {
+        "conceptId": "311976836",
+        "concept": "Liquor or mixed drinks"
+      },
+      "2": {
+        "conceptId": "681178649",
+        "concept": "Wine"
+      },
+      "55": {
+        "conceptId": "293289426",
+        "concept": "Other alcoholic beverages (such as wine coolers, \"\"hard soda,\"\" spiked seltzer (sparkling water), Smirnoff Ice, malt liquor, or pre-mixed cocktails)"
+      }
+    },
+    "conceptId": "155715155"
+  },
+  "ALCLIFE4B": {
+    "questIds": {
+      "0": {
+        "conceptId": "377968392",
+        "concept": "Beer or hard cider"
+      },
+      "1": {
+        "conceptId": "311976836",
+        "concept": "Liquor or mixed drinks"
+      },
+      "2": {
+        "conceptId": "681178649",
+        "concept": "Wine"
+      },
+      "55": {
+        "conceptId": "293289426",
+        "concept": "Other alcoholic beverages (such as wine coolers, \"\"hard soda,\"\" spiked seltzer (sparkling water), Smirnoff Ice, malt liquor, or pre-mixed cocktails)"
+      }
+    },
+    "conceptId": "157191791"
+  },
+  "ALCLIFE4C": {
+    "questIds": {
+      "0": {
+        "conceptId": "377968392",
+        "concept": "Beer or hard cider"
+      },
+      "1": {
+        "conceptId": "311976836",
+        "concept": "Liquor or mixed drinks"
+      },
+      "2": {
+        "conceptId": "681178649",
+        "concept": "Wine"
+      },
+      "55": {
+        "conceptId": "293289426",
+        "concept": "Other alcoholic beverages (such as wine coolers, \"\"hard soda,\"\" spiked seltzer (sparkling water), Smirnoff Ice, malt liquor, or pre-mixed cocktails)"
+      }
+    },
+    "conceptId": "257162201"
+  },
+  "ALCLIFE4D": {
+    "questIds": {
+      "0": {
+        "conceptId": "377968392",
+        "concept": "Beer or hard cider"
+      },
+      "1": {
+        "conceptId": "311976836",
+        "concept": "Liquor or mixed drinks"
+      },
+      "2": {
+        "conceptId": "681178649",
+        "concept": "Wine"
+      },
+      "55": {
+        "conceptId": "293289426",
+        "concept": "Other alcoholic beverages (such as wine coolers, \"\"hard soda,\"\" spiked seltzer (sparkling water), Smirnoff Ice, malt liquor, or pre-mixed cocktails)"
+      }
+    },
+    "conceptId": "901399853"
+  },
+  "ALCLIFE4E": {
+    "questIds": {
+      "0": {
+        "conceptId": "377968392",
+        "concept": "Beer or hard cider"
+      },
+      "1": {
+        "conceptId": "311976836",
+        "concept": "Liquor or mixed drinks"
+      },
+      "2": {
+        "conceptId": "681178649",
+        "concept": "Wine"
+      },
+      "55": {
+        "conceptId": "293289426",
+        "concept": "Other alcoholic beverages (such as wine coolers, \"\"hard soda,\"\" spiked seltzer (sparkling water), Smirnoff Ice, malt liquor, or pre-mixed cocktails)"
+      }
+    },
+    "conceptId": "553463872"
+  },
+  "ALCLIFE4F": {
+    "questIds": {
+      "0": {
+        "conceptId": "377968392",
+        "concept": "Beer or hard cider"
+      },
+      "1": {
+        "conceptId": "311976836",
+        "concept": "Liquor or mixed drinks"
+      },
+      "2": {
+        "conceptId": "681178649",
+        "concept": "Wine"
+      },
+      "55": {
+        "conceptId": "293289426",
+        "concept": "Other alcoholic beverages (such as wine coolers, \"\"hard soda,\"\" spiked seltzer (sparkling water), Smirnoff Ice, malt liquor, or pre-mixed cocktails)"
+      }
+    },
+    "conceptId": "327485933"
+  },
+  "ALCLIFE4G": {
+    "questIds": {
+      "0": {
+        "conceptId": "377968392",
+        "concept": "Beer or hard cider"
+      },
+      "1": {
+        "conceptId": "311976836",
+        "concept": "Liquor or mixed drinks"
+      },
+      "2": {
+        "conceptId": "681178649",
+        "concept": "Wine"
+      },
+      "55": {
+        "conceptId": "293289426",
+        "concept": "Other alcoholic beverages (such as wine coolers, \"\"hard soda,\"\" spiked seltzer (sparkling water), Smirnoff Ice, malt liquor, or pre-mixed cocktails)"
+      }
+    },
+    "conceptId": "146377639"
+  },
+  "ALCLIFE4H": {
+    "questIds": {
+      "0": {
+        "conceptId": "377968392",
+        "concept": "Beer or hard cider"
+      },
+      "1": {
+        "conceptId": "311976836",
+        "concept": "Liquor or mixed drinks"
+      },
+      "2": {
+        "conceptId": "681178649",
+        "concept": "Wine"
+      },
+      "55": {
+        "conceptId": "293289426",
+        "concept": "Other alcoholic beverages (such as wine coolers, \"\"hard soda,\"\" spiked seltzer (sparkling water), Smirnoff Ice, malt liquor, or pre-mixed cocktails)"
+      }
+    },
+    "conceptId": "814500887"
+  },
+  "RACEETH": {
+    "questIds": {
+      "1": {
+        "conceptId": "308427446",
+        "concept": "Asian"
+      },
+      "55": {
+        "conceptId": "807835037",
+        "concept": "Other |__|"
+      },
+      "99": {
+        "conceptId": "746038746",
+        "concept": "Declined"
+      },
+      "RACEETH_TB": {
+        "conceptId": "747350323",
+        "concept": "None of these fully describe me. Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "384191091"
+  },
+  "ALCOHOL8": {
+    "questIds": {
+      "0": {
+        "conceptId": "377968392",
+        "concept": "Beer or hard cider"
+      },
+      "1": {
+        "conceptId": "311976836",
+        "concept": "Liquor or mixed drinks"
+      },
+      "2": {
+        "conceptId": "681178649",
+        "concept": "Wine"
+      }
+    },
+    "conceptId": "447720598"
+  },
+  "ECIG3": {
+    "questIds": {
+      "88": {
+        "conceptId": "598943582",
+        "concept": "Never used on a regular basis"
+      },
+      "REGVAPE_AGE": {
+        "conceptId": "789343109",
+        "concept": "Age first used e-cigarettes or other vaping devices on a regular basis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "218271006"
+  },
+  "CIG3": {
+    "questIds": {
+      "88": {
+        "conceptId": "598943582",
+        "concept": "Never used on a regular basis"
+      }
+    },
+    "questionText": "Never smoked on a regular basis",
+    "conceptId": "348218335"
+  },
+  "HAIRFEM": {
+    "questIds": {
+      "0": {
+        "conceptId": "927925620"
+      },
+      "1": {
+        "conceptId": "552278254"
+      },
+      "2": {
+        "conceptId": "267104669"
+      },
+      "3": {
+        "conceptId": "619337179"
+      },
+      "4": {
+        "conceptId": "601381820"
+      },
+      "5": {
+        "conceptId": "151394571"
+      },
+      "6": {
+        "conceptId": "917379905"
+      },
+      "7": {
+        "conceptId": "746328729"
+      },
+      "8": {
+        "conceptId": "452963767"
+      }
+    },
+    "questionText": "Which one of these figures most closely resembles your hair pattern at age 40?",
+    "conceptId": "365851428"
+  },
+  "MHGROUP1": {
+    "questIds": {
+      "88": {
+        "conceptId": "398561594",
+        "concept": "None of the above"
+      }
+    },
+    "conceptId": "167101091"
+  },
+  "MHGROUP2": {
+    "questIds": {
+      "88": {
+        "conceptId": "398561594",
+        "concept": "None of the above"
+      }
+    },
+    "conceptId": "894259747"
+  },
+  "MHGROUP3": {
+    "questIds": {
+      "88": {
+        "conceptId": "398561594",
+        "concept": "None of the above"
+      }
+    },
+    "conceptId": "180961306"
+  },
+  "MHGROUP4": {
+    "questIds": {
+      "88": {
+        "conceptId": "398561594",
+        "concept": "None of the above"
+      }
+    },
+    "conceptId": "900541533"
+  },
+  "MHGROUP5": {
+    "questIds": {
+      "88": {
+        "conceptId": "398561594",
+        "concept": "None of the above"
+      }
+    },
+    "conceptId": "874046190"
+  },
+  "MHGROUP6": {
+    "questIds": {
+      "88": {
+        "conceptId": "398561594",
+        "concept": "None of the above"
+      }
+    },
+    "conceptId": "543728565"
+  },
+  "MHGROUP7": {
+    "questIds": {
+      "88": {
+        "conceptId": "398561594",
+        "concept": "None of the above"
+      }
+    },
+    "conceptId": "874709643"
+  },
+  "MHGROUP8": {
+    "questIds": {
+      "1": {
+        "conceptId": "863286658",
+        "concept": "Endometriosis"
+      },
+      "88": {
+        "conceptId": "398561594",
+        "concept": "None of the above"
+      }
+    },
+    "conceptId": "725626004"
+  },
+  "MHGROUP9": {
+    "questIds": {
+      "88": {
+        "conceptId": "398561594",
+        "concept": "None of the above"
+      }
+    },
+    "conceptId": "624179836"
+  },
+  "BREASTSUR": {
+    "questIds": {
+      "55": {
+        "conceptId": "807835037",
+        "concept": "Other |__|"
+      },
+      "88": {
+        "conceptId": "398561594",
+        "concept": "None of the above"
+      },
+      "BREASTSUR_TB": {
+        "conceptId": "942347130",
+        "concept": "Other: Please describe[text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "517307064"
+  },
+  "PAINREL1": {
+    "questIds": {
+      "88": {
+        "conceptId": "398561594",
+        "concept": "None of the above"
+      }
+    },
+    "conceptId": "399982309"
+  },
+  "CHOLHTN": {
+    "questIds": {
+      "88": {
+        "conceptId": "398561594",
+        "concept": "None of the above"
+      }
+    },
+    "conceptId": "614123836"
+  },
+  "ACIDSUP": {
+    "questIds": {
+      "88": {
+        "conceptId": "398561594",
+        "concept": "None of the above"
+      }
+    },
+    "conceptId": "643361372"
+  },
+  "FERT6": {
+    "questIds": {
+      "55": {
+        "conceptId": "431441193",
+        "concept": "Other: Please describe"
+      },
+      "88": {
+        "conceptId": "398561594",
+        "concept": "None of the above"
+      },
+      "FERT_12_OTHER": {
+        "conceptId": "762700622",
+        "concept": "Other medication: please describe text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "881200765"
+  },
+  "HORMED1": {
+    "questIds": {
+      "55": {
+        "conceptId": "431441193",
+        "concept": "Other: Please describe"
+      },
+      "88": {
+        "conceptId": "398561594",
+        "concept": "None of the above"
+      },
+      "FERT_12_OTHER": {
+        "conceptId": "762700622",
+        "concept": "Other medication: please describe text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "543780863"
+  },
+  "ESTROHOR": {
+    "questIds": {
+      "88": {
+        "conceptId": "398561594",
+        "concept": "None of the above"
+      },
+      "FERT_12_OTHER": {
+        "conceptId": "762700622",
+        "concept": "Other medication: please describe text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "668834883"
+  },
+  "PROGHOR": {
+    "questIds": {
+      "88": {
+        "conceptId": "398561594",
+        "concept": "None of the above"
+      }
+    },
+    "conceptId": "800943768"
+  },
+  "COMBHOR": {
+    "questIds": {
+      "88": {
+        "conceptId": "398561594",
+        "concept": "None of the above"
+      }
+    },
+    "conceptId": "263785082"
+  },
+  "SLPROB1": {
+    "questIds": {
+      "88": {
+        "conceptId": "398561594",
+        "concept": "None of the above"
+      }
+    },
+    "conceptId": "479628567"
+  },
+  "SLPROB2": {
+    "questIds": {
+      "55": {
+        "conceptId": "431441193",
+        "concept": "Other: Please describe"
+      },
+      "88": {
+        "conceptId": "398561594",
+        "concept": "None of the above"
+      },
+      "SLPROB_TB": {
+        "conceptId": "654253676",
+        "concept": "Other: Please describe text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "629010195"
+  },
+  "SIBNAME": {
+    "isTextBox": true,
+    "questionText": "Sibling 1-For your [oldest/next oldest] sibling, please create a nickname or share initials that we can use to refer to this sibling again in future surveys.",
+    "conceptId": "406098499"
+  },
+  "FERT4": {
+    "questIds": {
+      "1": {
+        "conceptId": "863286658",
+        "concept": "Endometriosis"
+      },
+      "55": {
+        "conceptId": "431441193",
+        "concept": "Other: Please describe"
+      },
+      "STOPOTHER": {
+        "conceptId": "672810476",
+        "concept": "Other reason: please describe text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "548355426"
+  },
+  "CIGAR10": {
+    "questIds": {
+      "55": {
+        "conceptId": "431441193",
+        "concept": "Other: Please describe"
+      },
+      "SLPROB_TB": {
+        "conceptId": "654253676",
+        "concept": "Other: Please describe text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "103566006"
+  },
+  "ALCOHOL7": {
+    "questIds": {
+      "55": {
+        "conceptId": "431441193",
+        "concept": "Other: Please describe"
+      },
+      "SLPROB_TB": {
+        "conceptId": "654253676",
+        "concept": "Other: Please describe text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "789159346"
+  },
+  "EMPLYR1": {
+    "isTextBox": true,
+    "questionText": "What was your employer's for this job?",
+    "conceptId": "434316600"
+  },
+  "ALTADDRESS2": {
+    "questIds": {
+      "ALTADDRESS2_LINE2": {
+        "conceptId": "442166669",
+        "concept": "Address line 2",
+        "isTextBox": true
+      },
+      "ALTADDRESS2_LINE1": {
+        "conceptId": "521824358",
+        "concept": "Address line 1",
+        "isTextBox": true
+      },
+      "ALTADDRESS2_STATE": {
+        "conceptId": "634434746",
+        "concept": "State",
+        "isTextBox": true
+      },
+      "ALTADDRESS2_CITY": {
+        "conceptId": "703385619",
+        "concept": "City",
+        "isTextBox": true
+      },
+      "ALTADDRESS2_ZIP": {
+        "conceptId": "892050548",
+        "concept": "Zip",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "857915436"
+  },
+  "AVEHEIGHT": {
+    "questIds": {
+      "0": {
+        "conceptId": "325478778"
+      },
+      "1": {
+        "conceptId": "730757606"
+      },
+      "2": {
+        "conceptId": "897599966"
+      }
+    },
+    "questionText": "When you were about 10 years old, compared to average, would you describe yourself as…",
+    "conceptId": "650399623"
+  },
+  "SMMAR10": {
+    "questIds": {
+      "SLPROB_TB": {
+        "conceptId": "654253676",
+        "concept": "Other: Please describe text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "377064836"
+  },
+  "TOMAR10": {
+    "questIds": {
+      "SLPROB_TB": {
+        "conceptId": "654253676",
+        "concept": "Other: Please describe text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "755923078"
+  },
+  "ELMAR10": {
+    "questIds": {
+      "SLPROB_TB": {
+        "conceptId": "654253676",
+        "concept": "Other: Please describe text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "268240612"
+  },
+  "EAMAR10": {
+    "questIds": {
+      "SLPROB_TB": {
+        "conceptId": "654253676",
+        "concept": "Other: Please describe text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "810324917"
+  },
+  "THMAR10": {
+    "questIds": {
+      "SLPROB_TB": {
+        "conceptId": "654253676",
+        "concept": "Other: Please describe text box",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "265469878"
+  },
+  "STOPOTHER": {
+    "isTextBox": true,
+    "questionText": "Other reason: please describe text box",
+    "conceptId": "672810476"
+  },
+  "SEX2": {
+    "questIds": {
+      "2": {
+        "conceptId": "700100953",
+        "concept": "Prostate"
+      }
+    },
+    "conceptId": "750420077"
+  },
+  "WORK4": {
+    "isTextBox": true,
+    "questionText": "How many years have you worked in that job {$WORK3_JOBTITLE}?",
+    "conceptId": "739294356"
+  },
+  "RACEETH2": {
+    "questIds": {
+      "55": {
+        "conceptId": "807835037",
+        "concept": "Other |__|"
+      },
+      "99": {
+        "conceptId": "746038746",
+        "concept": "Declined"
+      },
+      "RACEETH_TB": {
+        "conceptId": "747350323",
+        "concept": "None of these fully describe me. Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "362270886"
+  },
+  "RACEETH4": {
+    "questIds": {
+      "55": {
+        "conceptId": "807835037",
+        "concept": "Other |__|"
+      },
+      "99": {
+        "conceptId": "746038746",
+        "concept": "Declined"
+      },
+      "RACEETH_TB": {
+        "conceptId": "747350323",
+        "concept": "None of these fully describe me. Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "976808005"
+  },
+  "RACEETH5": {
+    "questIds": {
+      "8": {
+        "conceptId": "773342525",
+        "concept": "Spanish"
+      },
+      "55": {
+        "conceptId": "807835037",
+        "concept": "Other |__|"
+      },
+      "99": {
+        "conceptId": "746038746",
+        "concept": "Declined"
+      },
+      "RACEETH_TB": {
+        "conceptId": "747350323",
+        "concept": "None of these fully describe me. Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "308014437"
+  },
+  "RACEETH6": {
+    "questIds": {
+      "55": {
+        "conceptId": "807835037",
+        "concept": "Other |__|"
+      },
+      "99": {
+        "conceptId": "746038746",
+        "concept": "Declined"
+      },
+      "RACEETH_TB": {
+        "conceptId": "747350323",
+        "concept": "None of these fully describe me. Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "351657815"
+  },
+  "OCCUPTN1": {
+    "isTextBox": true,
+    "questionText": "Please identify the occupation category that best describes this job.",
+    "conceptId": "761310265"
+  },
+  "ELMAR3": {
+    "questIds": {
+      "REGVAPE_AGE": {
+        "conceptId": "789343109",
+        "concept": "Age first used e-cigarettes or other vaping devices on a regular basis",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "555058327"
+  },
+  "HRMED2": {
+    "questIds": {
+      "55": {
+        "conceptId": "807835037",
+        "concept": "Other |__|"
+      },
+      "BREASTSUR_TB": {
+        "conceptId": "942347130",
+        "concept": "Other: Please describe[text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "814664694"
+  },
+  "EMPLYRSRVCE1": {
+    "isTextBox": true,
+    "questionText": "What products were made, or services provided, by this employer? If multiple, please provide the product/services related to your work unit. For example: automotive parts, residential home construction, accounting services, pharmaceutical research.",
+    "conceptId": "868232409"
+  }
+}

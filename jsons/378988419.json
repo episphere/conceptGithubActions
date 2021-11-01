@@ -1,14 +1,29 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Source Question": [
+    "354326265.json"
+  ],
   "conceptId": "378988419",
-  "Question Text": "How old is your mother today?",
+  "Question Text": "How old is your mother today?, Number",
   "Variable Label": "Mother age, number",
-  "Variable Name": "SrvBOH_MotherAgeNum_v1r0",
-  "Connect Value for Select all that apply questions": "MOM_AGE",
+  "Variable Name": [
+    "SrvBOH_MotherAgeNum_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "MOM_AGE"
+  ],
   "Variable Type": "Num",
-  "Variable Length": "2",
+  "Variable Length": "3",
   "Connect Value": "N/A",
   "Required": "No",
-  "PII": "No"
+  "PII": "No",
+  "Date added or modified": "9/14/21",
+  "Quest_Src Question": [
+    "MOMAGE"
+  ]
 }

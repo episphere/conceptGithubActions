@@ -1,11 +1,19 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "965707586.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
   "conceptId": "135293280",
   "Question Text": "How old were you when you stopped smoking a hookah or water pipe every day?",
   "Variable Label": "Age stopped smoking hookah or water pipe  every day",
-  "Variable Name": "SrvSAS_AgeStopHookah_v1r0",
-  "Connect Value for Select all that apply questions": "HOOKAH9D",
+  "Variable Name": [
+    "SrvSAS_AgeStopHookah_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "HOOKAH9D"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Old Quest Value": "N/A",

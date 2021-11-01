@@ -1,11 +1,19 @@
 {
-  "Primary Source": "192505768.json",
-  "Secondary Source": "883203566.json",
-  "Source Question": "706283025.json",
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "883203566.json"
+  ],
+  "Source Question": [
+    "706283025.json"
+  ],
   "conceptId": "211023960",
   "Question Text": "I do not want to be in a long-term study",
   "Variable Label": "Does not want to be in a long-term study",
-  "Variable Name": "RcrtSI_OptOut_v1r0_term",
+  "Variable Name": [
+    "RcrtSI_OptOut_v1r0_term"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",

@@ -1,11 +1,19 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "965707586.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
   "conceptId": "535019362",
   "Question Text": "When was the last time you smoked a combination of marijuana with tobacco?",
   "Variable Label": "Last use marijana with tobacco",
-  "Variable Name": "SrvSAS_LastUseTobMJ_v1r0",
-  "Connect Value for Select all that apply questions": "TOMAR5",
+  "Variable Name": [
+    "SrvSAS_LastUseTobMJ_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "TOMAR5"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",

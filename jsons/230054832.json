@@ -1,11 +1,19 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "965707586.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
   "conceptId": "230054832",
   "Question Text": "How many freckles do you have  on your back and shoulders now? Please see the pictures below for examples.",
   "Variable Label": "Freckles now",
-  "Variable Name": "SrvSAS_FrecklesNow_v1r0",
-  "Connect Value for Select all that apply questions": "FRECKLING",
+  "Variable Name": [
+    "SrvSAS_FrecklesNow_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "FRECKLING"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",

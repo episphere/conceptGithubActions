@@ -1,42 +1,49 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "898006288.json",
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json",
+    "726699695.json"
+  ],
   "conceptId": "206319592",
   "Question Text": "Which one of these figures most closely resembles your hair pattern at age 40?",
-  "Variable Label": "Hair male",
-  "Variable Name": "SrvBOH_HairMale_v1r0",
-  "Connect Value for Select all that apply questions": "HAIRMALE",
+  "Variable Label": "Hair female",
+  "Variable Name": [
+    "SrvBOH_HairFemale_v1r0",
+    "SrvBOH_HairMale_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "HAIRFEM",
+    "HAIRMALE"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Notes": "[DISPLAY IF SEX= 01 and GEN= 01]",
+  "Notes": "[DISPLAY HAIRFEM IF SEX= 00 and GEN= 00]",
+  "Date added or modified": "9/14/21",
   "Old Quest Value": {
     "927925620.json": "1",
-    "629452816.json": "2",
-    "915557297.json": "3",
-    "103565678.json": "4",
-    "381878591.json": "5",
-    "446794016.json": "6",
-    "526238862.json": "7",
-    "173625583.json": "8",
-    "782282163.json": "9",
-    "693010445.json": "10",
-    "732008197.json": "11",
-    "734998477.json": "12"
+    "552278254.json": "2",
+    "267104669.json": "3",
+    "619337179.json": "4",
+    "601381820.json": "5",
+    "151394571.json": "6",
+    "917379905.json": "7",
+    "746328729.json": "8",
+    "452963767.json": "9"
   },
   "Connect Value": {
     "927925620.json": "0",
-    "629452816.json": "1",
-    "915557297.json": "2",
-    "103565678.json": "3",
-    "381878591.json": "4",
-    "446794016.json": "5",
-    "526238862.json": "6",
-    "173625583.json": "7",
-    "782282163.json": "8",
-    "693010445.json": "9",
-    "732008197.json": "10",
-    "734998477.json": "11"
+    "552278254.json": "1",
+    "267104669.json": "2",
+    "619337179.json": "3",
+    "601381820.json": "4",
+    "151394571.json": "5",
+    "917379905.json": "6",
+    "746328729.json": "7",
+    "452963767.json": "8"
   }
 }

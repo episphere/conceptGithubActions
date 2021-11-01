@@ -1,10 +1,16 @@
 {
-  "Primary Source": "237817859.json",
-  "Secondary Source": "117044491.json",
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "117044491.json"
+  ],
   "conceptId": "648228701",
   "Question Text": "Payment Refused",
   "Variable Label": "Payment refused",
-  "Variable Name": "HDPaym_PaymRefused_v1r0",
+  "Variable Name": [
+    "HDPaym_PaymRefused_v1r0"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "Yes",

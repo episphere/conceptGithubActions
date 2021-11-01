@@ -1,18 +1,24 @@
 {
-  "Primary Source": "237817859.json",
-  "Secondary Source": "635994596.json",
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "635994596.json"
+  ],
   "conceptId": "659990606",
   "Question Text": "Autoset when HdWd_WdConsent_v1r0 selected",
   "Variable Label": "Date withdrew consent",
-  "Variable Name": "HdWd_WdConsentDt_v1r0",
+  "Variable Name": [
+    "HdWd_WdConsentDt_v1r0"
+  ],
   "Variable Type": "ISO",
   "Variable Length": "24",
   "Format/Value": "example: 2020-07-17T15:21:26.763Z",
   "Required": "No",
   "PII": "No",
-  "Notes": "ISO to be converted to SAS format",
+  "Notes": "ISO to be converted to SAS format. The date of revocation won't be stored if withdrawal is also requested",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "4/22/21"
+  "Date added or modified": "9/28/21"
 }

@@ -1,16 +1,29 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
-  "Source Question": "986275155.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Source Question": [
+    "986275155.json"
+  ],
   "conceptId": "661719912",
   "Question Text": "Alternate contact first name",
   "Variable Label": "Alternate contact first name",
-  "Variable Name": "SrvBOH_AltContFv1r0",
-  "Connect Value for Select all that apply questions": "ALTCONTACT1_FNAME",
+  "Variable Name": [
+    "SrvBOH_AltContFv1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "ALTCONTACT1_FNAME"
+  ],
   "Variable Type": "Char",
   "Variable Length": "300",
   "Connect Value": "N/A",
   "Required": "No",
   "PII": "Yes",
-  "Quest_Src Question": "ALTCONTACT1"
+  "Date added or modified": "9/14/21",
+  "Quest_Src Question": [
+    "ALTCONTACT1"
+  ]
 }

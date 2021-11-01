@@ -1,12 +1,22 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "965707586.json",
-  "Source Question": "585819411.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
+  "Source Question": [
+    "585819411.json"
+  ],
   "conceptId": "412764160",
   "Question Text": "When daily user, number of servings use THC concentrates via dabbing",
   "Variable Label": "When daily user, number of servings use THC concentrates via dabbing",
-  "Variable Name": "SrvSAS_THCServingNum_v1r0",
-  "Connect Value for Select all that apply questions": "THMAR9CNUM",
+  "Variable Name": [
+    "SrvSAS_THCServingNum_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "THMAR9CNUM"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Old Quest Value": "N/A",
@@ -14,5 +24,7 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "6/4/21",
-  "Quest_Src Question": "THMAR9C"
+  "Quest_Src Question": [
+    "THMAR9C"
+  ]
 }

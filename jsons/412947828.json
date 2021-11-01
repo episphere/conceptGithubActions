@@ -1,10 +1,16 @@
 {
-  "Primary Source": "192505768.json",
-  "Secondary Source": "883203566.json",
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "883203566.json"
+  ],
   "conceptId": "412947828",
   "Question Text": "Henry Ford Health System Race Ethnicity Combination",
   "Variable Label": "Henry Ford Health System Race Ethnicity Combination",
-  "Variable Name": "RcrtSI_HFHSRE_v1r0",
+  "Variable Name": [
+    "RcrtSI_HFHSRE_v1r0"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "For Henry Ford HS",
@@ -13,60 +19,31 @@
   "State Attribute": "No",
   "Default Variable": "No",
   "Derivation Notes": [
-<<<<<<< HEAD
-    "629418591.json",
-    "890871130.json",
-    "990765337.json",
-    "979245119.json",
-    "120161254.json",
-    "237953184.json",
-    "462407085.json",
-    "811711287.json",
-    "845613341.json",
-    "959841665.json",
-    "634940992.json",
-    "356975903.json"
+    "717771639.json",
+    "938919887.json",
+    "511406674.json",
+    "750642416.json",
+    "370470535.json",
+    "252068442.json",
+    "633461549.json",
+    "179369847.json",
+    "384669395.json",
+    "118934112.json",
+    "369289776.json",
+    "259419447.json"
   ],
   "Format/Value": {
-    "629418591.json": "0",
-    "890871130.json": "1",
-    "990765337.json": "2",
-    "979245119.json": "3",
-    "120161254.json": "4",
-    "237953184.json": "5",
-    "462407085.json": "6",
-    "811711287.json": "7",
-    "845613341.json": "8",
-    "959841665.json": "9",
-    "634940992.json": "10",
-    "356975903.json": "77"
-=======
-    "974330279.json",
-    "441347863.json",
-    "285653323.json",
-    "316067779.json",
-    "846660073.json",
-    "639639469.json",
-    "851710498.json",
-    "417071026.json",
-    "852851790.json",
-    "424426187.json",
-    "177212004.json",
-    "912219822.json"
-  ],
-  "Format/Value": {
-    "974330279.json": "0",
-    "441347863.json": "1",
-    "285653323.json": "2",
-    "316067779.json": "3",
-    "846660073.json": "4",
-    "639639469.json": "5",
-    "851710498.json": "6",
-    "417071026.json": "7",
-    "852851790.json": "8",
-    "424426187.json": "9",
-    "177212004.json": "10",
-    "912219822.json": "77"
->>>>>>> badf8f374b155e022a31cf87f7a7c8780bb06459
+    "717771639.json": "0",
+    "938919887.json": "1",
+    "511406674.json": "2",
+    "750642416.json": "3",
+    "370470535.json": "4",
+    "252068442.json": "5",
+    "633461549.json": "6",
+    "179369847.json": "7",
+    "384669395.json": "8",
+    "118934112.json": "9",
+    "369289776.json": "10",
+    "259419447.json": "77"
   }
 }

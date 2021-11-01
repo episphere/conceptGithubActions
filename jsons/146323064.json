@@ -1,17 +1,41 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
-  "Source Question": "812370563.json",
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json",
+    "726699695.json",
+    "726699695.json"
+  ],
+  "Source Question": [
+    "814510313.json",
+    "578895128.json",
+    "812370563.json"
+  ],
   "conceptId": "146323064",
   "Question Text": "Cervical",
   "Variable Label": "Cervical",
-  "Variable Name": "SrvBOH_C1CervicalCanc_v1r0",
-  "Connect Value for Select all that apply questions": "4",
+  "Variable Name": [
+    "SrvBOH_MCervicalCancer_v1r0",
+    "SrvBOH_S1CervicalCanc_v1r0",
+    "SrvBOH_C1CervicalCanc_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "4",
+    "4",
+    "4"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Quest_Src Question": "CHILDCANC2",
+  "Quest_Src Question": [
+    "MOMCANC2",
+    "SIBCANC2",
+    "CHILDCANC2"
+  ],
   "Connect Value": {
     "104430631.json": "0",
     "353358909.json": "1"

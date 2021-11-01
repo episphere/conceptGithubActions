@@ -1,10 +1,16 @@
 {
-  "Primary Source": "192505768.json",
-  "Secondary Source": "332759827.json",
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "332759827.json"
+  ],
   "conceptId": "524461170",
   "Question Text": "How do you prefer that we reach you?",
   "Variable Label": "Preferred contact method",
-  "Variable Name": "RcrtUP_PrefMethod_v1r0",
+  "Variable Name": [
+    "RcrtUP_PrefMethod_v1r0"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "Yes if both mobile phone and email given",

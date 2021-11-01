@@ -1,18 +1,30 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "898006288.json",
-  "Source Question": "308014437.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Source Question": [
+    "308014437.json"
+  ],
   "conceptId": "432305109",
   "Question Text": "Mexican or Mexican American",
   "Variable Label": "Mexican or Mexican American",
-  "Variable Name": "SrvBOH_Mexican_v1r0",
-  "Connect Value for Select all that apply questions": "5",
+  "Variable Name": [
+    "SrvBOH_Mexican_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "5"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if RACEETH = Hispanic, Latino, or Spanish",
-  "Quest_Src Question": "RACEETH5",
+  "Quest_Src Question": [
+    "RACEETH5"
+  ],
   "Connect Value": {
     "104430631.json": "0",
     "353358909.json": "1"

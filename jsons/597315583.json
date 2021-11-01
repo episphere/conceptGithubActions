@@ -1,0 +1,23 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "597315583",
+  "Question Text": "What time do you usually go to bed on [the nights before workdays/most days]? Please tell us the time you usually get into your bed, not the time you usually fall asleep.",
+  "Variable Label": "Time normally in bed workdays/most days",
+  "Variable Name": [
+    "SrvMRE_Bedtime_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "SLEEP1A"
+  ],
+  "Variable Type": "Time",
+  "Variable Length": "6",
+  "Old Quest Value": "HH:MM AM/PM",
+  "Connect Value": "HH:MM AM/PM",
+  "Required": "No",
+  "Notes": "Follows SAS TIMEAMPM format"
+}

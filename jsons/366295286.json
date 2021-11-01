@@ -1,10 +1,16 @@
 {
-  "Primary Source": "237817859.json",
-  "Secondary Source": "635994596.json",
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "635994596.json"
+  ],
   "conceptId": "366295286",
   "Question Text": "Who Requested the Refusal/Withdrawal- Other (specify):",
   "Variable Label": "Who Requested the Refusal/Withdrawal- Other (specify):",
-  "Variable Name": "HdWd_RequestedRefWdOth_v1r0",
+  "Variable Name": [
+    "HdWd_RequestedRefWdOth_v1r0"
+  ],
   "Variable Type": "Char",
   "Variable Length": "800",
   "Required": "Yes",

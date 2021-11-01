@@ -1,11 +1,19 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "965707586.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
   "conceptId": "196651092",
   "Question Text": "Do you smoke a tobacco pipe now?",
   "Variable Label": "Use a tobacco pipe now",
-  "Variable Name": "SrvSAS_TobPipeNow_v1r0",
-  "Connect Value for Select all that apply questions": "PIPE4",
+  "Variable Name": [
+    "SrvSAS_TobPipeNow_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "PIPE4"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",

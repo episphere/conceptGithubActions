@@ -1,11 +1,32 @@
 {
-  "Secondary Source": "965707586.json",
-  "Source Question": "555058327.json",
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json",
+    ""
+  ],
+  "Secondary Source": [
+    "965707586.json",
+    "965707586.json",
+    "965707586.json"
+  ],
+  "Source Question": [
+    "218271006.json",
+    "132117087.json",
+    "555058327.json"
+  ],
   "conceptId": "323695655",
   "Question Text": "Never used them on a regular basis",
   "Variable Label": "Never used them on a regular basis",
-  "Variable Name": "SrvSAS_NeverEMJDev_v1r0",
-  "Connect Value for Select all that apply questions": "ELMAR3",
+  "Variable Name": [
+    "SrvSAS_ECigNeverReg_v1r0",
+    "SrvSAS_NeverUseCTReg_v1r0",
+    "SrvSAS_NeverEMJDev_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "ECIG3",
+    "CHEW3",
+    "ELMAR3"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Connect Value": "88=Never used on a regular basis",

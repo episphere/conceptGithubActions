@@ -1,11 +1,19 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
   "conceptId": "403258164",
   "Question Text": "Have you ever worked for pay (full-time or part-time)?",
   "Variable Label": "Ever work",
-  "Variable Name": "SrvBOH_EverWork_v1r0",
-  "Connect Value for Select all that apply questions": "WORK6",
+  "Variable Name": [
+    "SrvBOH_EverWork_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "WORK6"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",

@@ -1,41 +1,40 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
   "conceptId": "640010727",
   "Question Text": "Child 1- How old is [CHILD INITIALS OR NICKNAME/your CHILD] today?",
+  "subcollections": [
+    "299300933.json",
+    "640010727.json"
+  ],
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Source Question": [
+    "640010727.json"
+  ],
   "Variable Label": "Child 1 age, other",
-  "Variable Name": "SrvBOH_Child1AgeOther_v1r0",
-  "Connect Value for Select all that apply questions": "CHILDAGE",
+  "Variable Name": [
+    "SrvBOH_Child1AgeOther_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "CHILDAGE"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Required": [
-    "104430631.json",
-<<<<<<< HEAD
-    "911635580.json"
-=======
-    "761640835.json"
->>>>>>> badf8f374b155e022a31cf87f7a7c8780bb06459
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "8/23/21",
+  "Quest_Src Question": [
+    "CHILDAGE"
   ],
-  "PII": [
-    "104430631.json",
-    "104430631.json"
-  ],
-  "Connect Value": {
-    "104430631.json": "0"
+  "Old Quest Value": {
+    "958239616.json": "1",
+    "920765381.json": "99"
   },
-  "Date added or modified": [
-<<<<<<< HEAD
-    "685565732.json"
-  ],
-  "Old Quest Value": {
-    "104430631.json": "1",
-    "908441575.json": "99"
-=======
-    "236893226.json"
-  ],
-  "Old Quest Value": {
-    "104430631.json": "1",
-    "435966569.json": "99"
->>>>>>> badf8f374b155e022a31cf87f7a7c8780bb06459
+  "Connect Value": {
+    "958239616.json": "0",
+    "178420302.json": "77"
   }
 }

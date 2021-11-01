@@ -1,17 +1,29 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "898006288.json",
-  "Source Question": "180961306.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Source Question": [
+    "180961306.json"
+  ],
   "conceptId": "308645635",
   "Question Text": "Inflammatory Bowel Disease",
   "Variable Label": "Inflammatory Bowel Disease",
-  "Variable Name": "SrvBOH_IBD_v1r0",
-  "Connect Value for Select all that apply questions": "3",
+  "Variable Name": [
+    "SrvBOH_IBD_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "3"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Quest_Src Question": "MHGROUP3",
+  "Quest_Src Question": [
+    "MHGROUP3"
+  ],
   "Connect Value": {
     "104430631.json": "0",
     "353358909.json": "1"

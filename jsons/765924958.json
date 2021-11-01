@@ -1,10 +1,16 @@
 {
-  "Primary Source": "192505768.json",
-  "Secondary Source": "453017582.json",
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "453017582.json"
+  ],
   "conceptId": "765924958",
   "Question Text": "Derived variable for the time from sign-in to submission of consent as RcrtCS_ConsentSumit_v1r0 - RcrtSI_SignTime_v1r0",
   "Variable Label": "Time from account to consent",
-  "Variable Name": "RcrtCT_Acct_Cnst_v1r0",
+  "Variable Name": [
+    "RcrtCT_Acct_Cnst_v1r0"
+  ],
   "Variable Type": "Minutes",
   "Variable Length": "18",
   "Format/Value": "N/A",

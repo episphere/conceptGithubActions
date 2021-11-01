@@ -1,11 +1,19 @@
 {
-  "Primary Source": "192505768.json",
-  "Secondary Source": "214456996.json",
-  "Source Question": "142654897.json",
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "214456996.json"
+  ],
+  "Source Question": [
+    "142654897.json"
+  ],
   "conceptId": "607081902",
   "Question Text": "Invitation through my patient portal (such as MyChart)",
   "Variable Label": "Invitation through my patient portal (such as MyChart)",
-  "Variable Name": "RcrtES_Aware_v1r0_Invite",
+  "Variable Name": [
+    "RcrtES_Aware_v1r0_Invite"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",

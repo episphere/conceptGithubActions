@@ -1,11 +1,19 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "965707586.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
   "conceptId": "960065448",
   "Question Text": "Age last used- During that time, how many days (1 to 30) did you use e-cigarettes or other vaping devices for nicotine or tobacco in a usual month?",
   "Variable Label": "How many days used  e-cigarettes or other vaping devices, age last used",
-  "Variable Name": "SrvSAS_ECigUseDaysAgeL_v1r0",
-  "Connect Value for Select all that apply questions": "ECIG8D",
+  "Variable Name": [
+    "SrvSAS_ECigUseDaysAgeL_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "ECIG8D"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Old Quest Value": "N/A",

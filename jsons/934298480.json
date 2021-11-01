@@ -1,10 +1,16 @@
 {
-  "Primary Source": "192505768.json",
-  "Secondary Source": "883203566.json",
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "883203566.json"
+  ],
   "conceptId": "934298480",
   "Question Text": "Site reported age at recruitment",
   "Variable Label": "Site reported age at recruitment",
-  "Variable Name": "RcrtSI_Age_v1r0",
+  "Variable Name": [
+    "RcrtSI_Age_v1r0"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "Yes",

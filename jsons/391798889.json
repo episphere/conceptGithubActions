@@ -1,11 +1,19 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "965707586.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
   "conceptId": "391798889",
   "Question Text": "In your life, how many blistering sunburns (blisters filled with fluid) have you ever had?",
   "Variable Label": "Blistering sunburns in life",
-  "Variable Name": "SrvSAS_SunburnNum_v1r0",
-  "Connect Value for Select all that apply questions": "BLISTERING",
+  "Variable Name": [
+    "SrvSAS_SunburnNum_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "BLISTERING"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",

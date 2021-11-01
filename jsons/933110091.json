@@ -1,17 +1,47 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
-  "Source Question": "812370563.json",
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json",
+    "726699695.json",
+    "726699695.json",
+    "726699695.json"
+  ],
+  "Source Question": [
+    "814510313.json",
+    "173240848.json",
+    "578895128.json",
+    "812370563.json"
+  ],
   "conceptId": "933110091",
   "Question Text": "Another type of cancer: Please describe [text box]",
   "Variable Label": "Another type of cancer: Please describe [text box]",
-  "Variable Name": "SrvBOH_C1OtherCancDesc_v1r0",
-  "Connect Value for Select all that apply questions": "CHILDCANC2_TB",
+  "Variable Name": [
+    "SrvBOH_MOtherCancerDes_v1r0",
+    "SrvBOH_DOtherCancerDes_v1r0",
+    "SrvBOH_S1OtherCancDesc_v1r0",
+    "SrvBOH_C1OtherCancDesc_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "MOMCANC2_TB",
+    "DADCANC2_TB",
+    "SIBCANC2_TB",
+    "CHILDCANC2_TB"
+  ],
   "Variable Type": "Char",
   "Variable Length": "300",
   "Connect Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "8/9/21",
-  "Quest_Src Question": "CHILDCANC2"
+  "Quest_Src Question": [
+    "MOMCANC2",
+    "DADCANC2",
+    "SIBCANC2",
+    "CHILDCANC2"
+  ]
 }

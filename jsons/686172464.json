@@ -1,11 +1,23 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json",
+    "726699695.json"
+  ],
   "conceptId": "686172464",
   "Question Text": "How many years have you worked in that job {$WORK3_JOBTITLE}?",
-  "Variable Label": "Years past job",
-  "Variable Name": "SrvBOH_YearsPastJob_v1r0",
-  "Connect Value for Select all that apply questions": "WORK8",
+  "Variable Label": "Years current job",
+  "Variable Name": [
+    "SrvBOH_CurrentJobYr_v1r0",
+    "SrvBOH_YearsPastJob_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "WORK4",
+    "WORK8"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Connect Value": "N/A",

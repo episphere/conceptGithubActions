@@ -1,0 +1,34 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "695886544",
+  "Question Text": "How would you describe your snoring?",
+  "Variable Label": "Describe snoring",
+  "Variable Name": [
+    "SrvMRE_SnoreDescribe_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "SNORING2"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "10/8/21",
+  "Old Quest Value": {
+    "624808470.json": "1",
+    "137254299.json": "2",
+    "954318357.json": "3",
+    "920765381.json": "4"
+  },
+  "Connect Value": {
+    "624808470.json": "0",
+    "137254299.json": "1",
+    "954318357.json": "2",
+    "178420302.json": "77"
+  }
+}

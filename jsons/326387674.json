@@ -1,11 +1,19 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "965707586.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
   "conceptId": "326387674",
   "Question Text": "Month - During that time, did you ever smoke a hookah or water pipe every day?",
   "Variable Label": "Use hookah or water pipe  every day, months",
-  "Variable Name": "SrvSAS_HookahED_v1r0",
-  "Connect Value for Select all that apply questions": "HOOKAH7B",
+  "Variable Name": [
+    "SrvSAS_HookahED_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "HOOKAH7B"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",

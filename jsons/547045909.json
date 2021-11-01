@@ -1,11 +1,19 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "965707586.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
   "conceptId": "547045909",
   "Question Text": "How old were you when you first smoked a cigars, cigarillos, or little filtered cigars?",
   "Variable Label": "Age first used cigars, cigarillos, or little filtered cigars",
-  "Variable Name": "SrvSAS_AgeCigarsUseF_v1r0",
-  "Connect Value for Select all that apply questions": "CIGAR2",
+  "Variable Name": [
+    "SrvSAS_AgeCigarsUseF_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "CIGAR2"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Old Quest Value": "N/A",

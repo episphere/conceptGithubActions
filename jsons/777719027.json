@@ -1,17 +1,31 @@
 {
-  "Primary Source": "237817859.json",
-  "Secondary Source": "861315814.json",
+  "Primary Source": [
+    "192505768.json",
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "883203566.json",
+    "861315814.json"
+  ],
+  "Source Question": [
+    "706283025.json",
+    ""
+  ],
   "conceptId": "777719027",
   "Question Text": "I have other privacy concerns",
   "Variable Label": "I have other privacy concerns",
-  "Variable Name": "HdRef_PrivacyJ_v1r0",
+  "Variable Name": [
+    "RcrtSI_OptOut_v1r0_PrivacyL",
+    "HdRef_PrivacyJ_v1r0"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Required": "Yes",
+  "Required": "No",
   "PII": "No",
-  "Dictionary": "Master Data Dictionary",
-  "State Attribute": "No",
-  "Default Variable": "Yes",
+  "Notes": "For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "Yes",
+  "Default Variable": "No",
   "Date added or modified": "5/25/21",
   "Format/Value": {
     "104430631.json": "0",

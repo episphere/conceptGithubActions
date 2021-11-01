@@ -1,21 +1,29 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "898006288.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
   "conceptId": "936904328",
-  "Variable Label": "Carry weight",
-  "Variable Name": "SrvBOH_CarryWeight_v1r0",
-  "Connect Value for Select all that apply questions": "CARWEIGHT",
+  "Question Text": "215247896",
+  "Variable Label": "936904328",
+  "Variable Name": [
+    "908306206"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "777904872"
+  ],
   "Variable Type": "Num",
-  "Required": "No",
+  "Required": "104430631",
   "PII": "No",
-  "Old Quest Value": {
-    "245893583.json": "1",
-    "506790433.json": "2",
-    "601057066.json": "3"
-  },
   "Connect Value": {
-    "245893583.json": "0",
-    "506790433.json": "1",
-    "601057066.json": "2"
+    "574474707.json": "1",
+    "694973364.json": "2"
+  },
+  "Old Quest Value": {
+    "543906711.json": "1",
+    "574474707.json": "2",
+    "694973364.json": "3"
   }
 }

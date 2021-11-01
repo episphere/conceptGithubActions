@@ -1,12 +1,42 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "965707586.json",
-  "Source Question": "431638794.json",
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json",
+    "965707586.json",
+    "965707586.json",
+    "965707586.json",
+    "965707586.json"
+  ],
+  "Source Question": [
+    "388227278.json",
+    "244400088.json",
+    "715873973.json",
+    "413109457.json",
+    "431638794.json"
+  ],
   "conceptId": "894504029",
   "Question Text": "Never smoked on a regular basis",
   "Variable Label": "Never smoked on a regular basis",
-  "Variable Name": "SrvSAS_NeverSmokeReg_v1r0",
-  "Connect Value for Select all that apply questions": "TOMAR3",
+  "Variable Name": [
+    "SrvSAS_NeverSmokedReg_v1r0",
+    "SrvSAS_NeverSmoked_v1r0",
+    "SrvSAS_NeverHookah_v1r0",
+    "SrvSAS_TobPipeNever_v1r0",
+    "SrvSAS_NeverSmokeReg_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "CIG3",
+    "CIGAR3",
+    "HOOKAH3",
+    "PIPE3",
+    "TOMAR3"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Connect Value": "88=Never used on a regular basis",

@@ -1,11 +1,19 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "965707586.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
   "conceptId": "358051085",
   "Question Text": "How many months ago did you last use electronic marijuana delivery devices that can be vaped?",
   "Variable Label": "Months ago last used electronic marijuana delivery devices",
-  "Variable Name": "SrvSAS_UseEMJDevMo_v1r0",
-  "Connect Value for Select all that apply questions": "ELMAR7A",
+  "Variable Name": [
+    "SrvSAS_UseEMJDevMo_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "ELMAR7A"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Old Quest Value": "N/A",

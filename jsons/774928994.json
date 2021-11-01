@@ -1,17 +1,72 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "898006288.json",
-  "Source Question": "797626610.json",
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json",
+    "726699695.json",
+    "726699695.json",
+    "726699695.json",
+    "726699695.json",
+    "726699695.json",
+    "726699695.json",
+    "726699695.json"
+  ],
+  "Source Question": [
+    "384191091.json",
+    "362270886.json",
+    "525535977.json",
+    "976808005.json",
+    "308014437.json",
+    "351657815.json",
+    "115616118.json",
+    "797626610.json"
+  ],
   "conceptId": "774928994",
   "Question Text": "None of these fully describe me. Please describe [text box]",
   "Variable Label": "None of these fully describe me. Please describe [text box]",
-  "Variable Name": "SrvBOH_NoneDescribeRE8_v1r0",
-  "Connect Value for Select all that apply questions": "RACE_ETH8",
+  "Variable Name": [
+    "SrvBOH_NoneDescribeRE_v1r0",
+    "SrvBOH_NoneDescribeRE2_v1r0",
+    "SrvBOH_NoneDescribeRE3_v1r0",
+    "SrvBOH_NoneDescribeRE4_v1r0",
+    "SrvBOH_NoneDescribeRE5_v1r0",
+    "SrvBOH_NoneDescribeRE6_v1r0",
+    "SrvBOH_NoneDescribeRE7_v1r0",
+    "SrvBOH_NoneDescribeRE8_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "RACEETH_TB",
+    "RACEETH2_TB",
+    "RACEETH3_TB",
+    "RACEETH4_TB",
+    "RACEETH5_TB",
+    "RACEETH6_TB",
+    "RACEETH7_TB",
+    "RACEETH8_TB"
+  ],
   "Variable Type": "Char",
   "Variable Length": "300",
   "Connect Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if RACEETH = White",
-  "Quest_Src Question": "RACEETH8"
+  "Date added or modified": "9/14/21",
+  "Quest_Src Question": [
+    "RACEETH",
+    "RACEETH2",
+    "RACEETH3",
+    "RACEETH4",
+    "RACEETH5",
+    "RACEETH6",
+    "RACEETH7",
+    "RACEETH8"
+  ],
+  "Notes": "Only display if RACEETH = American Indian or Alaska Native"
 }

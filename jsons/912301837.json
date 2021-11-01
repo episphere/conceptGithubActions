@@ -1,10 +1,16 @@
 {
-  "Primary Source": "332961895.json",
-  "Secondary Source": "581036703.json",
+  "Primary Source": [
+    "332961895.json"
+  ],
+  "Secondary Source": [
+    "581036703.json"
+  ],
   "conceptId": "912301837",
   "Question Text": "Disposition codes for participation status",
   "Variable Label": "Participation status",
-  "Variable Name": "SMMet_PartStatus_v1r0",
+  "Variable Name": [
+    "SMMet_PartStatus_v1r0"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Notes": "Developed for participant status on Study Manager dashboard.  Row of derivation is on same row as corresponding response variable.",
@@ -13,40 +19,21 @@
   "Default Variable": "Yes",
   "Date added or modified": "5/27/21",
   "Derivation Notes": [
-<<<<<<< HEAD
-    "897483914.json",
-    "145921084.json",
-    "505469993.json",
-    "515386661.json",
-    "596085737.json",
-    "877216397.json",
-    "709188449.json"
+    "821887248.json",
+    "776574047.json",
+    "445880625.json",
+    "961876386.json",
+    "315343605.json",
+    "601274383.json",
+    "441235631.json"
   ],
   "Format/Value": {
-    "897483914.json": "0",
-    "145921084.json": "1",
-    "505469993.json": "2",
-    "515386661.json": "3",
-    "596085737.json": "4",
-    "877216397.json": "5",
-    "709188449.json": "6"
-=======
-    "770906104.json",
-    "844644959.json",
-    "885933774.json",
-    "882451405.json",
-    "740675327.json",
-    "236565679.json",
-    "385109445.json"
-  ],
-  "Format/Value": {
-    "770906104.json": "0",
-    "844644959.json": "1",
-    "885933774.json": "2",
-    "882451405.json": "3",
-    "740675327.json": "4",
-    "236565679.json": "5",
-    "385109445.json": "6"
->>>>>>> badf8f374b155e022a31cf87f7a7c8780bb06459
+    "821887248.json": "0",
+    "776574047.json": "1",
+    "445880625.json": "2",
+    "961876386.json": "3",
+    "315343605.json": "4",
+    "601274383.json": "5",
+    "441235631.json": "6"
   }
 }

@@ -1,11 +1,19 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "965707586.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
   "conceptId": "715821643",
   "Question Text": "Did you ever smoke marijuana every day?",
   "Variable Label": "Ever use marijuana  every day",
-  "Variable Name": "SrvSAS_EverUseMJED_v1r0",
-  "Connect Value for Select all that apply questions": "SMMAR9B",
+  "Variable Name": [
+    "SrvSAS_EverUseMJED_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "SMMAR9B"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",

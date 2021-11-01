@@ -1,10 +1,16 @@
 {
-  "Primary Source": "192505768.json",
-  "Secondary Source": "214456996.json",
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "214456996.json"
+  ],
   "conceptId": "827220437",
   "Question Text": "Healthcare provider",
   "Variable Label": "Site",
-  "Variable Name": "RcrtES_Site_v1r0",
+  "Variable Name": [
+    "RcrtES_Site_v1r0"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "Yes -  if there is not a valid token or PIN",

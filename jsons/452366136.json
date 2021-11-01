@@ -1,11 +1,19 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "965707586.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
   "conceptId": "452366136",
   "Question Text": "When was the last time you smoked a hookah or water pipe?",
   "Variable Label": "Last smoked a hookah or water pipe",
-  "Variable Name": "SrvSAS_HookahLast_v1r0",
-  "Connect Value for Select all that apply questions": "HOOKAH5",
+  "Variable Name": [
+    "SrvSAS_HookahLast_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "HOOKAH5"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",

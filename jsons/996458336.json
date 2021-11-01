@@ -1,0 +1,44 @@
+{
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json",
+    "726699695.json",
+    "726699695.json"
+  ],
+  "Source Question": [
+    "173240848.json",
+    "578895128.json",
+    "812370563.json"
+  ],
+  "conceptId": "996458336",
+  "Question Text": "Testicular",
+  "Variable Label": "Testicular",
+  "Variable Name": [
+    "SrvBOH_DTesticularCanc_v1r0",
+    "SrvBOH_S1TesticularCanc_v1r0",
+    "SrvBOH_C1TesticCanc_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "18",
+    "20",
+    "20"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Quest_Src Question": [
+    "DADCANC2",
+    "SIBCANC2",
+    "CHILDCANC2"
+  ],
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  },
+  "Date added or modified": "6/24/21"
+}

@@ -1,11 +1,19 @@
 {
-  "Primary Source": "819848608.json",
-  "Secondary Source": "360770860.json",
-  "Source Question": "248868659.json",
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "360770860.json"
+  ],
+  "Source Question": [
+    "248868659.json"
+  ],
   "conceptId": "242307474",
   "Question Text": "Deviation- Hemolyzed",
   "Variable Label": "Deviation- Hemolyzed",
-  "Variable Name": "BioCol_Dev_v1r0_Hemo",
+  "Variable Name": [
+    "BioCol_Dev_v1r0_Hemo"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "Yes if yes to deviation for a specimen and no other deviation selected",
