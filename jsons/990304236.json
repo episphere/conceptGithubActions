@@ -1,0 +1,22 @@
+{
+  "Primary Source": "237817859.json",
+  "Secondary Source": "635994596.json",
+  "Source Question": "678208830.json",
+  "conceptId": "990304236",
+  "Question Text": "The participant",
+  "Variable Label": "The participant (via the CSC directly or via a Connect site staff)",
+  "Variable Name": "HdWd_PartRequested_v1r0",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Variable changed to select all that apply format so that each option is assigned an individual concept ID to allow the requester to be recorded each time a refusal/withdrawal request is made.",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "11/18/21",
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}
