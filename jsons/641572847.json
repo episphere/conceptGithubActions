@@ -1,0 +1,39 @@
+{
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json",
+    "726699695.json"
+  ],
+  "Source Question": [
+    "700374192.json",
+    "530742915.json"
+  ],
+  "conceptId": "641572847",
+  "Question Text": "Manufacturing",
+  "Variable Label": "Manufacturing",
+  "Variable Name": [
+    "SrvBOH_ManufacturingC_v1r0",
+    "SrvBOH_ManufacturingP_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "0",
+    "0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "10/13/21",
+  "": "Optional Select All that Apply",
+  "Quest_Src Question": [
+    "BSNSSTYP1",
+    "BSNSSTYP2"
+  ],
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

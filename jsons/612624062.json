@@ -1,0 +1,42 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "Source Question": [
+    "421859821.json"
+  ],
+  "conceptId": "612624062",
+  "Question Text": "Did you have trouble getting back to sleep after you woke up earlier than you planned to?",
+  "Variable Label": "Did you have trouble getting back to sleep after you woke up earlier than you planned to?",
+  "Variable Name": [
+    "SrvMRE_TrblSleeping_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "SLHABIT1D"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "11/15/21",
+  "Quest_Src Question": [
+    "GRID_SLHABIT1"
+  ],
+  "Old Quest Value": {
+    "104430631.json": "1",
+    "525779785.json": "2",
+    "565036180.json": "3",
+    "284343405.json": "4",
+    "270994579.json": "5"
+  },
+  "Connect Value": {
+    "104430631.json": "0",
+    "525779785.json": "1",
+    "565036180.json": "2",
+    "284343405.json": "3",
+    "270994579.json": "4"
+  }
+}

@@ -36,7 +36,7 @@ function generateRandomUUID(conceptIdList){
 function processCluster(cluster, header, nameToConcept, indexVariableName, conceptIdList, conceptIdObject, sourceJSONS, jsonList){
     let nonEmpty = [];
     let list = [1,2,3]
-    //console.log(conceptIdObject)
+    console.log(cluster)
     let conceptIdObjectKeys =Object.keys(conceptIdObject)
     let conceptIdIndices = [];
     let generalId = -1;
@@ -718,7 +718,7 @@ async function readFile(fileName){
     }
     let toReplace = fs.readFileSync(fileName,{encoding:'utf8', flag:'r'})
     ////console.log(toReplace)
-    toReplace = toReplace.replace(/�/g, "\"\"")
+    toReplace = toReplace.replace(/�/g, "\"")
     fs.writeFileSync(fileName, toReplace)
     let idIndex = '[]'
     if(fs.existsSync('./jsons/conceptIds.txt')){

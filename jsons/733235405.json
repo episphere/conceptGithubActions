@@ -1,0 +1,35 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "Source Question": [
+    "668834883.json"
+  ],
+  "conceptId": "733235405",
+  "Question Text": "Oral estrogen-only medication (such as Cenestin, Estrace, Femtrace, Menest, Ogen, or Premarin)",
+  "Variable Label": "Oral estrogen-only medication (such as Cenestin, Estrace, Femtrace, Menest, Ogen, or Premarin)",
+  "Variable Name": [
+    "SrvMRE_OralEstrogen_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Quest_Src Question": [
+    "ESTROHOR"
+  ],
+  "Old Quest Value": {
+    "104430631.json": "2",
+    "353358909.json": "1"
+  },
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

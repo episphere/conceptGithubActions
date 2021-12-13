@@ -1,6 +1,4 @@
 {
-  "conceptId": "543906711",
-  "Question Text": "Around the chest or shoulders",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,6 +8,8 @@
   "Source Question": [
     "538716648.json"
   ],
+  "conceptId": "543906711",
+  "Question Text": "Around the chest or shoulders",
   "Variable Label": "Around the chest or shoulders",
   "Variable Name": [
     "SrvBOH_ChestWt_v1r0"
@@ -21,6 +21,7 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
+  "": "Optional Select All that Apply",
   "Quest_Src Question": [
     "CARWEIGHT"
   ],

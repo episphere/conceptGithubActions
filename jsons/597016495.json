@@ -1,0 +1,25 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "597016495",
+  "Question Text": "What time do you usually wake up on [workdays/most days]? Select your answer using the drop-down options below.",
+  "Variable Label": "Time usually wake up workdays/most days",
+  "Variable Name": [
+    "SrvMRE_Wakeup_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "SLEEP1F"
+  ],
+  "Variable Type": "Time",
+  "Variable Length": "6",
+  "Old Quest Value": "HH:MM AM/PM",
+  "Connect Value": "HH:MM AM/PM",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Follows SAS TIMEAMPM format",
+  "Date added or modified": "10/6/21"
+}

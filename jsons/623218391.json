@@ -1,21 +1,66 @@
 {
   "Primary Source": [
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
+    "726699695.json",
+    "726699695.json",
+    "726699695.json",
+    "726699695.json",
+    "726699695.json",
+    "726699695.json",
+    "726699695.json",
+    "726699695.json",
+    "726699695.json",
     "726699695.json"
   ],
   "Source Question": [
-    "176453768.json"
+    "477690298.json",
+    "176453768.json",
+    "145786416.json",
+    "287605131.json",
+    "701157499.json",
+    "428639167.json",
+    "282355641.json",
+    "539301647.json",
+    "579225381.json",
+    "891214661.json"
   ],
   "conceptId": "623218391",
-  "Question Text": "Breast lift age at surgery",
-  "Variable Label": "Breast lift age",
+  "Question Text": "Age at surgery",
+  "Variable Label": "Breast implants age",
   "Variable Name": [
-    "SrvBOH_BreastLiftAge_v1r0"
+    "SrvBOH_BreastImplAge_v1r0",
+    "SrvBOH_BreastLiftAge_v1r0",
+    "SrvBOH_BreastReconAge_v1r0",
+    "SrvBOH_BreastRedAge_v1r0",
+    "SrvBOH_BreastPtRemAge_v1r0",
+    "SrvBOH_BreastRemAge_v1r0",
+    "SrvBOH_BreastDblRemAge_v1r0",
+    "SrvBOH_BreastAbscAge_v1r0",
+    "SrvBOH_BreastLacRemAge_v1r0",
+    "SrvBOH_BreastOthAge_v1r0"
   ],
   "Connect Value for Select all that apply questions": [
-    "BREASTLIFT_AGE"
+    "BREASTIMPLANTS_AGE",
+    "BREASTLIFT_AGE",
+    "BREASTRECON_AGE",
+    "BREASTREDN_AGE",
+    "BREASTPARTREM_AGE",
+    "BREASTREM_AGE",
+    "BREASTDBLREM_AGE",
+    "BREASTABSS_AGE",
+    "BREASTLACTREM_AGE",
+    "BREASTOTH_AGE"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -23,7 +68,17 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "10/12/21",
+  "": "Or (xor=) Question (either/or text boxes without radio button)",
   "Quest_Src Question": [
-    "BREASTSUR1"
+    "BREASTSUR0",
+    "BREASTSUR1",
+    "BREASTSUR2",
+    "BREASTSUR3",
+    "BREASTSUR4",
+    "BREASTSUR5",
+    "BREASTSUR6",
+    "BREASTSUR7",
+    "BREASTSUR8",
+    "BREASTSUR9"
   ]
 }

@@ -1,0 +1,29 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "320034660",
+  "Question Text": "Are you currently using the other type of prescription hormone?",
+  "Variable Label": "Are you currently using the the other type of prescription hormone?",
+  "Variable Name": [
+    "SrvMRE_OthHormCurr_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "PRESHOR4"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "104430631.json": "2",
+    "353358909.json": "1"
+  },
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "278473618",
+  "Question Text": "How many years ago did you last take prescription proton pump inhibitors?",
+  "Variable Label": "Year ago last took prescription proton pump inhibitors",
+  "Variable Name": [
+    "SrvMRE_ProtPumpPresYA_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "ACIDSUP6_1"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Old Quest Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if ACIDSUP = 0",
+  "Date added or modified": "11/10/21"
+}

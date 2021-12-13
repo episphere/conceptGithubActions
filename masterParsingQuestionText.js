@@ -61,7 +61,7 @@ function parseMasterModule() {
                             let header = currJSON['Connect Value for Select all that apply questions'][sourceIndex];
                             let toInsert = {};
                             let headerName = currJSON['Connect Value for Select all that apply questions'][sourceIndex];
-                            if (currJSON['Connect Value for Select all that apply questions'][sourceIndex] == "ECIG3") {
+                            if (currJSON['Connect Value for Select all that apply questions'][sourceIndex] == "77") {
                                 //console.log(currJSON)
                                 //console.log(headerName)
                             }
@@ -198,13 +198,17 @@ function parseMasterModule() {
                             }
                             //check if it is a text response (Connect Value)
                             else {
-                                
                                 if (currJSON['Connect Value'] && typeof currJSON['Connect Value'] === 'object' && currJSON['Connect Value'] !== null) {
                                     isTB = false;
                                 }
                                 else {
                                     isTB = true;
                                     //console.log(currJSON['Connect Value'])
+                                }
+                                if (currJSON['Connect Value for Select all that apply questions'][sourceIndex] && !isNaN(currJSON['Connect Value for Select all that apply questions'][sourceIndex])) {
+                                    //console.log(currJSON['Connect Value for Select all that apply questions'][sourceIndex])
+                                    //console.log(headerName)
+                                    isTB = false;
                                 }
 
                                 headerName = currJSON['Quest_Src Question'][sourceIndex];
@@ -298,7 +302,8 @@ function parseMasterModule() {
                                             "concept": currJSON["Question Text"]
                                         }
                                         if (isTB) {
-                                            questIds[currJSON['Connect Value for Select all that apply questions'][sourceIndex].toUpperCase()]['isTextBox'] = true;
+                                           
+                                            questIds[currJSON['Connect Value for Select all that apply questions'][sourceIndex].toUpperCase()]['isTextBox'] = isTB;
                                         }
                                         if (currJSON['Source Question'] && currJSON['Source Question'][sourceIndex]) {
                                             toInsert['conceptId'] = currJSON['Source Question'][sourceIndex].substring(0, 9);

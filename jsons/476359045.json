@@ -1,0 +1,24 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "476359045",
+  "Question Text": "How old were you when you last used Norplant?",
+  "Variable Label": "Age Norplant last use",
+  "Variable Name": [
+    "SrvMRE_AgeNorpUsedL_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "HORMED4_3"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Old Quest Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if HORMED= 1",
+  "Date added or modified": "10/6/21"
+}

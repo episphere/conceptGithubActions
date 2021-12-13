@@ -1,0 +1,41 @@
+{
+  "Primary Source": [
+    "192505768.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "332759827.json",
+    "726699695.json"
+  ],
+  "conceptId": "703385619",
+  "Question Text": "City",
+  "Variable Label": "City",
+  "Variable Name": [
+    "RcrtUP_City_v1r0",
+    "SrvBOH_City_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "45",
+  "Format/Value": "N/A",
+  "Required": "Yes",
+  "PII": "Yes",
+  "Notes": "Populated from Google Addresses",
+  "Dictionary": "Recruitment Data Dictionary, Biospecimen Clinical, Biospecimen Research",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Source Question": [
+    "",
+    "857915436.json"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "",
+    "ALTADDRESS2_CITY"
+  ],
+  "Connect Value": "N/A",
+  "Date added or modified": "9/14/21",
+  "": "Multiple Text Boxes",
+  "Quest_Src Question": [
+    "",
+    "ALTADDRESS2"
+  ]
+}
