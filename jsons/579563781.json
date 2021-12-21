@@ -1,29 +1,24 @@
 {
   "Primary Source": [
-    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "726699695.json",
     "726699695.json"
   ],
   "conceptId": "579563781",
-  "Question Text": "Sibling 1-For your [oldest/next oldest] sibling, please create a nickname or share initials that we can use to refer to this sibling again in future surveys.",
-  "Variable Label": "Sibling 1 name",
+  "Question Text": "Sibling 1-Thinking of [SIBLING INITIALS OR NICKNAME/your next oldest sibling], what biological sex was this sibling assigned at birth?",
+  "Variable Label": "Sibling 1 sex at birth",
   "Variable Name": [
-    "SrvBOH_Sibling1Name_v1r0",
     "SrvBOH_Sibling1Sex_v1r0"
   ],
   "Connect Value for Select all that apply questions": [
-    "SIBNAME",
     "SIB2"
   ],
-  "Variable Type": "Char",
-  "Variable Length": "300",
-  "Connect Value": "N/A",
+  "Variable Type": "Num",
+  "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "": "Text only Response, Loops",
+  "": "Optional Multiple Choice",
   "Date added or modified": [
     "850872507.json"
   ],
@@ -31,6 +26,12 @@
     "536341288.json": "1",
     "654207589.json": "2",
     "830573274.json": "3",
+    "178420302.json": "77"
+  },
+  "Connect Value": {
+    "536341288.json": "0",
+    "654207589.json": "1",
+    "830573274.json": "2",
     "178420302.json": "77"
   }
 }

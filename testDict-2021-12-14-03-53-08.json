@@ -548,7 +548,7 @@
         "concept": "Declined"
       },
       "RACEETH6_TB": {
-        "conceptId": "747350323",
+        "conceptId": "774928994",
         "concept": "None of these fully describe me. Please describe [text box]",
         "isTextBox": true
       }
@@ -909,7 +909,7 @@
         "concept": "Unavailable/Unknown"
       },
       "BSNSSTYP1_TB": {
-        "conceptId": "923333992",
+        "conceptId": "739237614",
         "concept": "Other text box",
         "isTextBox": true
       }
@@ -976,7 +976,7 @@
         "concept": "Unavailable/Unknown"
       },
       "BSNSSTYP2_TB": {
-        "conceptId": "923333992",
+        "conceptId": "739237614",
         "concept": "Other text box",
         "isTextBox": true
       }
@@ -1138,7 +1138,7 @@
         "concept": "Unavailable/Unknown"
       },
       "MOMCANC2_TB": {
-        "conceptId": "677702321",
+        "conceptId": "933110091",
         "concept": "Another type of cancer: Please describe [text box]",
         "isTextBox": true
       }
@@ -1237,7 +1237,7 @@
         "concept": "Unavailable/Unknown"
       },
       "DADCANC2_TB": {
-        "conceptId": "677702321",
+        "conceptId": "933110091",
         "concept": "Another type of cancer: Please describe [text box]",
         "isTextBox": true
       }
@@ -1348,7 +1348,7 @@
         "concept": "Unavailable/Unknown"
       },
       "SIBCANC2_TB": {
-        "conceptId": "677702321",
+        "conceptId": "933110091",
         "concept": "Another type of cancer: Please describe [text box]",
         "isTextBox": true
       }
@@ -1459,7 +1459,7 @@
         "concept": "Unavailable/Unknown"
       },
       "CHILDCANC2_TB": {
-        "conceptId": "677702321",
+        "conceptId": "933110091",
         "concept": "Another type of cancer: Please describe [text box]",
         "isTextBox": true
       }
@@ -1765,169 +1765,13 @@
         "concept": "Declined"
       },
       "RACEETH4_TB": {
-        "conceptId": "747350323",
+        "conceptId": "774928994",
         "concept": "None of these fully describe me. Please describe [text box]",
         "isTextBox": true
       }
     },
     "conceptId": "976808005",
     "questionText": "Black, African American, or African- Which categories describe you? Select all that apply. Note, you may select more than one group."
-  },
-  "WTLOSS2_1825": {
-    "questIds": {
-      "0": {
-        "conceptId": "934037640",
-        "concept": "Changed diet"
-      },
-      "1": {
-        "conceptId": "990501908",
-        "concept": "Exercised"
-      },
-      "2": {
-        "conceptId": "691423127",
-        "concept": "Skipped meals"
-      },
-      "3": {
-        "conceptId": "203773667",
-        "concept": "Surgery"
-      },
-      "4": {
-        "conceptId": "862170896",
-        "concept": "Used diet pills/medications"
-      },
-      "5": {
-        "conceptId": "448594163",
-        "concept": "Started to smoke or began to smoke again"
-      },
-      "55": {
-        "conceptId": "807835037",
-        "concept": "Other |__|"
-      },
-      "WTLOSS2_1825_TB": {
-        "conceptId": "155535868",
-        "concept": "Other: Please describe [text box]",
-        "isTextBox": true
-      }
-    },
-    "conceptId": "207025341",
-    "questionText": "How did you lose weight between ages 18 and 25?"
-  },
-  "WTLOSS2_2535": {
-    "questIds": {
-      "0": {
-        "conceptId": "934037640",
-        "concept": "Changed diet"
-      },
-      "1": {
-        "conceptId": "990501908",
-        "concept": "Exercised"
-      },
-      "2": {
-        "conceptId": "691423127",
-        "concept": "Skipped meals"
-      },
-      "3": {
-        "conceptId": "203773667",
-        "concept": "Surgery"
-      },
-      "4": {
-        "conceptId": "862170896",
-        "concept": "Used diet pills/medications"
-      },
-      "5": {
-        "conceptId": "448594163",
-        "concept": "Started to smoke or began to smoke again"
-      },
-      "55": {
-        "conceptId": "807835037",
-        "concept": "Other |__|"
-      },
-      "WTLOSS2_2535_TB": {
-        "conceptId": "155535868",
-        "concept": "Other: Please describe [text box]",
-        "isTextBox": true
-      }
-    },
-    "conceptId": "827393644",
-    "questionText": "How did you lose weight between ages 25 and 35?"
-  },
-  "WTLOSS2_3545": {
-    "questIds": {
-      "0": {
-        "conceptId": "934037640",
-        "concept": "Changed diet"
-      },
-      "1": {
-        "conceptId": "990501908",
-        "concept": "Exercised"
-      },
-      "2": {
-        "conceptId": "691423127",
-        "concept": "Skipped meals"
-      },
-      "3": {
-        "conceptId": "203773667",
-        "concept": "Surgery"
-      },
-      "4": {
-        "conceptId": "862170896",
-        "concept": "Used diet pills/medications"
-      },
-      "5": {
-        "conceptId": "448594163",
-        "concept": "Started to smoke or began to smoke again"
-      },
-      "55": {
-        "conceptId": "807835037",
-        "concept": "Other |__|"
-      },
-      "WTLOSS2_3545_TB": {
-        "conceptId": "155535868",
-        "concept": "Other: Please describe [text box]",
-        "isTextBox": true
-      }
-    },
-    "conceptId": "630675760",
-    "questionText": "How did you lose weight between ages 35 and 45?"
-  },
-  "WTLOSS2_4555": {
-    "questIds": {
-      "0": {
-        "conceptId": "934037640",
-        "concept": "Changed diet"
-      },
-      "1": {
-        "conceptId": "990501908",
-        "concept": "Exercised"
-      },
-      "2": {
-        "conceptId": "691423127",
-        "concept": "Skipped meals"
-      },
-      "3": {
-        "conceptId": "203773667",
-        "concept": "Surgery"
-      },
-      "4": {
-        "conceptId": "862170896",
-        "concept": "Used diet pills/medications"
-      },
-      "5": {
-        "conceptId": "448594163",
-        "concept": "Started to smoke or began to smoke again"
-      },
-      "55": {
-        "conceptId": "807835037",
-        "concept": "Other |__|"
-      },
-      "WTLOSS2_4555_TB": {
-        "conceptId": "155535868",
-        "concept": "Other: Please describe [text box]",
-        "isTextBox": true
-      }
-    },
-    "conceptId": "431628922",
-    "questionText": "How did you lose weight between ages 45 and 55?"
   },
   "PREG6": {
     "questIds": {
@@ -2024,7 +1868,7 @@
         "concept": "Declined"
       },
       "RACEETH8_TB": {
-        "conceptId": "747350323",
+        "conceptId": "774928994",
         "concept": "None of these fully describe me. Please describe [text box]",
         "isTextBox": true
       }
@@ -2185,7 +2029,7 @@
         "concept": "Declined"
       },
       "RACEETH7_TB": {
-        "conceptId": "747350323",
+        "conceptId": "774928994",
         "concept": "None of these fully describe me. Please describe [text box]",
         "isTextBox": true
       }
@@ -2700,6 +2544,162 @@
     "questionText": "How old were you when you last used Depo-Provera?",
     "conceptId": "203616654"
   },
+  "WTLOSS2_1825": {
+    "questIds": {
+      "0": {
+        "conceptId": "934037640",
+        "concept": "Changed diet"
+      },
+      "1": {
+        "conceptId": "990501908",
+        "concept": "Exercised"
+      },
+      "2": {
+        "conceptId": "691423127",
+        "concept": "Skipped meals"
+      },
+      "3": {
+        "conceptId": "203773667",
+        "concept": "Surgery"
+      },
+      "4": {
+        "conceptId": "862170896",
+        "concept": "Used diet pills/medications"
+      },
+      "5": {
+        "conceptId": "448594163",
+        "concept": "Started to smoke or began to smoke again"
+      },
+      "55": {
+        "conceptId": "807835037",
+        "concept": "Other |__|"
+      },
+      "WTLOSS2_1825_TB": {
+        "conceptId": "827135790",
+        "concept": "Other: Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "207025341",
+    "questionText": "How did you lose weight between ages 18 and 25?"
+  },
+  "WTLOSS2_2535": {
+    "questIds": {
+      "0": {
+        "conceptId": "934037640",
+        "concept": "Changed diet"
+      },
+      "1": {
+        "conceptId": "990501908",
+        "concept": "Exercised"
+      },
+      "2": {
+        "conceptId": "691423127",
+        "concept": "Skipped meals"
+      },
+      "3": {
+        "conceptId": "203773667",
+        "concept": "Surgery"
+      },
+      "4": {
+        "conceptId": "862170896",
+        "concept": "Used diet pills/medications"
+      },
+      "5": {
+        "conceptId": "448594163",
+        "concept": "Started to smoke or began to smoke again"
+      },
+      "55": {
+        "conceptId": "807835037",
+        "concept": "Other |__|"
+      },
+      "WTLOSS2_2535_TB": {
+        "conceptId": "827135790",
+        "concept": "Other: Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "827393644",
+    "questionText": "How did you lose weight between ages 25 and 35?"
+  },
+  "WTLOSS2_3545": {
+    "questIds": {
+      "0": {
+        "conceptId": "934037640",
+        "concept": "Changed diet"
+      },
+      "1": {
+        "conceptId": "990501908",
+        "concept": "Exercised"
+      },
+      "2": {
+        "conceptId": "691423127",
+        "concept": "Skipped meals"
+      },
+      "3": {
+        "conceptId": "203773667",
+        "concept": "Surgery"
+      },
+      "4": {
+        "conceptId": "862170896",
+        "concept": "Used diet pills/medications"
+      },
+      "5": {
+        "conceptId": "448594163",
+        "concept": "Started to smoke or began to smoke again"
+      },
+      "55": {
+        "conceptId": "807835037",
+        "concept": "Other |__|"
+      },
+      "WTLOSS2_3545_TB": {
+        "conceptId": "827135790",
+        "concept": "Other: Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "630675760",
+    "questionText": "How did you lose weight between ages 35 and 45?"
+  },
+  "WTLOSS2_4555": {
+    "questIds": {
+      "0": {
+        "conceptId": "934037640",
+        "concept": "Changed diet"
+      },
+      "1": {
+        "conceptId": "990501908",
+        "concept": "Exercised"
+      },
+      "2": {
+        "conceptId": "691423127",
+        "concept": "Skipped meals"
+      },
+      "3": {
+        "conceptId": "203773667",
+        "concept": "Surgery"
+      },
+      "4": {
+        "conceptId": "862170896",
+        "concept": "Used diet pills/medications"
+      },
+      "5": {
+        "conceptId": "448594163",
+        "concept": "Started to smoke or began to smoke again"
+      },
+      "55": {
+        "conceptId": "807835037",
+        "concept": "Other |__|"
+      },
+      "WTLOSS2_4555_TB": {
+        "conceptId": "827135790",
+        "concept": "Other: Please describe [text box]",
+        "isTextBox": true
+      }
+    },
+    "conceptId": "431628922",
+    "questionText": "How did you lose weight between ages 45 and 55?"
+  },
   "EXEREC4J": {
     "questIds": {
       "0": {
@@ -2734,6 +2734,48 @@
     "questionText": "On the days that you danced, about how much time per day did you spend doing this activity?",
     "conceptId": "205100834"
   },
+  "HAIRFEM": {
+    "questIds": {
+      "0": {
+        "conceptId": "927925620",
+        "concept": "Full head of hair with no hair loss."
+      },
+      "1": {
+        "conceptId": "552278254",
+        "concept": "Very mild hair loss or thinning of hair on the top of the head along the middle of the head"
+      },
+      "2": {
+        "conceptId": "267104669",
+        "concept": "Mild hair loss on the top of the head along the middle of the head."
+      },
+      "3": {
+        "conceptId": "619337179",
+        "concept": "Mild-to-moderate hair loss on the top of the head along the middle of the head."
+      },
+      "4": {
+        "conceptId": "601381820",
+        "concept": "Moderate hair loss on the top of the head along the middle of the head."
+      },
+      "5": {
+        "conceptId": "151394571",
+        "concept": "Severe hair loss on the top of the head, but no hair loss at the forehead"
+      },
+      "6": {
+        "conceptId": "917379905",
+        "concept": "Severe hair loss on the top of the head, and the hair along the forehead is thinning."
+      },
+      "7": {
+        "conceptId": "746328729",
+        "concept": "Severehair loss on the top of the head from the forehead to the back of the ears."
+      },
+      "8": {
+        "conceptId": "452963767",
+        "concept": "Moderate hair loss on the sides of the head at the forehead and moderate-to-severe hair loss on the top of the head."
+      }
+    },
+    "questionText": "Which one of these figures most closely resembles your hair pattern at age 40?",
+    "conceptId": "206319592"
+  },
   "HAIRMALE": {
     "questIds": {
       "0": {
@@ -2741,51 +2783,39 @@
         "concept": "Full head of hair with no hair loss."
       },
       "1": {
-        "conceptId": "629452816",
-        "concept": "Mild hair loss at the sides of the forehead, but not as far back as the ears."
+        "conceptId": "552278254",
+        "concept": "Very mild hair loss or thinning of hair on the top of the head along the middle of the head"
       },
       "2": {
-        "conceptId": "915557297",
-        "concept": "Moderate hair loss at the sides of the forehead as far back as the ears, and mild loss from the center of the forehead."
+        "conceptId": "267104669",
+        "concept": "Mild hair loss on the top of the head along the middle of the head."
       },
       "3": {
-        "conceptId": "103565678",
-        "concept": "Mild hair loss on the sides of the forehead, but not as far back as the ears, and mild loss from the center of the forehead. Also, hair thinning on the top (crown) of the head."
+        "conceptId": "619337179",
+        "concept": "Mild-to-moderate hair loss on the top of the head along the middle of the head."
       },
       "4": {
-        "conceptId": "381878591",
-        "concept": "Moderate hair loss on the sides of the forehead as far back as the front of the ears, and moderate loss from the center of the forehead. Also, mild baldness on the top (crown) of the head. The two areas of hair loss are separated by a section of hair that goes across the top of the head."
+        "conceptId": "601381820",
+        "concept": "Moderate hair loss on the top of the head along the middle of the head."
       },
       "5": {
-        "conceptId": "446794016",
-        "concept": "Moderate hair loss on the sides of the forehead, as far back as the middle of the ears. Also, moderate baldness on the top (crown) of the head. The two areas of hair loss are separated by a thin strip of hair that goes across the top of the head."
+        "conceptId": "151394571",
+        "concept": "Severe hair loss on the top of the head, but no hair loss at the forehead"
       },
       "6": {
-        "conceptId": "526238862",
-        "concept": "Moderate hair loss on the sides and front of the forehead that are continuous with severe baldness on the top (crown) of the head. There is no clear strip of hair that separates these areas of balding."
+        "conceptId": "917379905",
+        "concept": "Severe hair loss on the top of the head, and the hair along the forehead is thinning."
       },
       "7": {
-        "conceptId": "173625583",
-        "concept": "Severe hair loss on the sides and front of the forehead that are continuous with severe baldness on the top (crown) of the head. There is no clear strip of hair that separates these areas of balding. The hairline at the sides of the head is at, or below, the temples. Only a small strip of hair remains around the ears and at the back of the head."
+        "conceptId": "746328729",
+        "concept": "Severehair loss on the top of the head from the forehead to the back of the ears."
       },
       "8": {
-        "conceptId": "782282163",
-        "concept": "Mild hair loss across the entire forehead, but not as far back as the ears."
-      },
-      "9": {
-        "conceptId": "693010445",
-        "concept": "Moderate hair loss across the entire forehead, as far back as the middle of the ears."
-      },
-      "10": {
-        "conceptId": "732008197",
-        "concept": "Severe hair loss across the entire forehead, as far back as the back of the ears."
-      },
-      "11": {
-        "conceptId": "734998477",
-        "concept": "Severe hair loss across the entire forehead, beyond the back of the ears."
+        "conceptId": "452963767",
+        "concept": "Moderate hair loss on the sides of the head at the forehead and moderate-to-severe hair loss on the top of the head."
       }
     },
-    "questionText": "Which one of these male figures most closely resembles your hair pattern at age 40?",
+    "questionText": "Which one of these figures most closely resembles your hair pattern at age 40?",
     "conceptId": "206319592"
   },
   "SKINCANC3": {
@@ -5452,6 +5482,16 @@
     "questionText": "Are you currently using two separate pills?",
     "conceptId": "230699223"
   },
+  "EMPLYRSRVCE1": {
+    "isTextBox": true,
+    "questionText": "What products were made, or services provided, by this employer? If multiple, please provide the product/services related to your work unit. For example: automotive parts, residential home construction, accounting services, pharmaceutical research.",
+    "conceptId": "233198706"
+  },
+  "EMPLYRSRVCE2": {
+    "isTextBox": true,
+    "questionText": "What products were made, or services provided, by this employer? If multiple, please provide the product/services related to your work unit. For example: automotive parts, residential home construction, accounting services, pharmaceutical research.",
+    "conceptId": "233198706"
+  },
   "SLEEP1L": {
     "questIds": {
       "0": {
@@ -5579,7 +5619,7 @@
         "concept": "Declined"
       },
       "RACEETH3_TB": {
-        "conceptId": "747350323",
+        "conceptId": "774928994",
         "concept": "None of these fully describe me. Please describe [text box]",
         "isTextBox": true
       }
@@ -5636,24 +5676,6 @@
     "questionText": "Sitting quietly after a lunch that did not include alcohol",
     "conceptId": "244964668"
   },
-  "CARWEIGHT": {
-    "questIds": {
-      "0": {
-        "conceptId": "245893583",
-        "concept": "Around the chest or shoulders"
-      },
-      "1": {
-        "conceptId": "506790433",
-        "concept": "Around the waist or stomach"
-      },
-      "2": {
-        "conceptId": "601057066",
-        "concept": "Around the hips or thighs"
-      }
-    },
-    "conceptId": "936904328",
-    "questionText": "Where do you carry most of your weight on your body? Select all that apply."
-  },
   "RACEETH5": {
     "questIds": {
       "0": {
@@ -5701,7 +5723,7 @@
         "concept": "Declined"
       },
       "RACEETH5_TB": {
-        "conceptId": "747350323",
+        "conceptId": "774928994",
         "concept": "None of these fully describe me. Please describe [text box]",
         "isTextBox": true
       }
@@ -5737,7 +5759,7 @@
         "concept": "Declined"
       },
       "RACEETH2_TB": {
-        "conceptId": "747350323",
+        "conceptId": "774928994",
         "concept": "None of these fully describe me. Please describe [text box]",
         "isTextBox": true
       }
@@ -5827,7 +5849,7 @@
         "concept": "None of the above"
       },
       "BREASTSUR_TB": {
-        "conceptId": "942347130",
+        "conceptId": "787193493",
         "concept": "Other: Please describe[text box]",
         "isTextBox": true
       }
@@ -5962,6 +5984,16 @@
     "isTextBox": true,
     "questionText": "How many years ago did you last take prescription proton pump inhibitors?",
     "conceptId": "278473618"
+  },
+  "OCCUPTN1": {
+    "isTextBox": true,
+    "questionText": "Please identify the occupation category that best describes this job.",
+    "conceptId": "279637054"
+  },
+  "OCCUPTN2": {
+    "isTextBox": true,
+    "questionText": "Please identify the occupation category that best describes this job.",
+    "conceptId": "279637054"
   },
   "EXEREC4F": {
     "questIds": {
@@ -6298,7 +6330,7 @@
         "concept": "Declined"
       },
       "RACEETH_TB": {
-        "conceptId": "747350323",
+        "conceptId": "774928994",
         "concept": "None of these fully describe me. Please describe [text box]",
         "isTextBox": true
       }
@@ -6862,48 +6894,6 @@
     "questionText": "When was the last time you took prescription proton pump inhibitors?",
     "conceptId": "364870595"
   },
-  "HAIRFEM": {
-    "questIds": {
-      "0": {
-        "conceptId": "927925620",
-        "concept": "Full head of hair with no hair loss."
-      },
-      "1": {
-        "conceptId": "552278254",
-        "concept": "Very mild hair loss or thinning of hair on the top of the head along the middle of the head"
-      },
-      "2": {
-        "conceptId": "267104669",
-        "concept": "Mild hair loss on the top of the head along the middle of the head."
-      },
-      "3": {
-        "conceptId": "619337179",
-        "concept": "Mild-to-moderate hair loss on the top of the head along the middle of the head."
-      },
-      "4": {
-        "conceptId": "601381820",
-        "concept": "Moderate hair loss on the top of the head along the middle of the head."
-      },
-      "5": {
-        "conceptId": "151394571",
-        "concept": "Severe hair loss on the top of the head, but no hair loss at the forehead"
-      },
-      "6": {
-        "conceptId": "917379905",
-        "concept": "Severe hair loss on the top of the head, and the hair along the forehead is thinning."
-      },
-      "7": {
-        "conceptId": "746328729",
-        "concept": "Severehair loss on the top of the head from the forehead to the back of the ears."
-      },
-      "8": {
-        "conceptId": "452963767",
-        "concept": "Moderate hair loss on the sides of the head at the forehead and moderate-to-severe hair loss on the top of the head."
-      }
-    },
-    "questionText": "Which one of these female figures most closely resembles your hair pattern at age 40?",
-    "conceptId": "365851428"
-  },
   "DAD": {
     "questIds": {
       "0": {
@@ -6946,15 +6936,15 @@
       },
       "5": {
         "conceptId": "542825733",
-        "concept": "Associate's degree"
+        "concept": "Associate’s degree"
       },
       "6": {
         "conceptId": "364743026",
-        "concept": "College graduate Bachelor's degree"
+        "concept": "College graduate Bachelor’s degree"
       },
       "7": {
         "conceptId": "617509139",
-        "concept": "Advanced degree Master's, Doctorate, etc."
+        "concept": "Advanced degree Master’s, Doctorate, etc."
       },
       "55": {
         "conceptId": "807835037",
@@ -7399,11 +7389,6 @@
     },
     "questionText": "Caring for children or adults (pushing stroller or wheelchair, lifting, bathing) during past 12 months",
     "conceptId": "405685850"
-  },
-  "SIBNAME": {
-    "isTextBox": true,
-    "questionText": "Sibling 1-For your [oldest/next oldest] sibling, please create a nickname or share initials that we can use to refer to this sibling again in future surveys.",
-    "conceptId": "406098499"
   },
   "SEX": {
     "questIds": {
@@ -7973,16 +7958,6 @@
     },
     "conceptId": "305195766",
     "questionText": "In total, how many months or years have you used the other type of prescription hormone?"
-  },
-  "EMPLYR1": {
-    "isTextBox": true,
-    "questionText": "What was your employer's for this job?",
-    "conceptId": "434316600"
-  },
-  "EMPLYR2": {
-    "isTextBox": true,
-    "questionText": "What was your employer's for this job?",
-    "conceptId": "434316600"
   },
   "PAINREL4_1": {
     "isTextBox": true,
@@ -9075,6 +9050,24 @@
     "questionText": "Are you currently using patch estrogen-only medication?",
     "conceptId": "542349924"
   },
+  "CARWEIGHT": {
+    "questIds": {
+      "0": {
+        "conceptId": "543906711",
+        "concept": "Around the chest or shoulders"
+      },
+      "1": {
+        "conceptId": "574474707",
+        "concept": "Around the waist or stomach"
+      },
+      "2": {
+        "conceptId": "694973364",
+        "concept": "Around the hips or thighs"
+      }
+    },
+    "conceptId": "538716648",
+    "questionText": "Where do you carry most of your weight on your body? Select all that apply."
+  },
   "SLHABIT3B": {
     "questIds": {
       "0": {
@@ -9290,7 +9283,7 @@
         "concept": "Other |__|"
       },
       "HRMED2_TB": {
-        "conceptId": "942347130",
+        "conceptId": "787193493",
         "concept": "Other: Please describe[text box]",
         "isTextBox": true
       }
@@ -9403,26 +9396,14 @@
     "questionText": "Caring for pets (walking dogs, feeding, playing, grooming) time per day",
     "conceptId": "577543675"
   },
+  "SIBNAME": {
+    "isTextBox": true,
+    "questionText": "Sibling 1-For your [oldest/next oldest] sibling, please create a nickname or share initials that we can use to refer to this sibling again in future surveys.",
+    "conceptId": "579563781"
+  },
   "SIB2": {
-    "questIds": {
-      "0": {
-        "conceptId": "536341288",
-        "concept": "Female"
-      },
-      "1": {
-        "conceptId": "654207589",
-        "concept": "Male"
-      },
-      "2": {
-        "conceptId": "830573274",
-        "concept": "Intersex or other"
-      },
-      "77": {
-        "conceptId": "178420302",
-        "concept": "Unavailable/Unknown"
-      }
-    },
-    "questionText": "Sibling 1-Thinking of [SIBLING INITIALS OR NICKNAME/your next oldest sibling], what biological sex was this sibling assigned at birth?",
+    "isTextBox": true,
+    "questionText": "Sibling 1-For your [oldest/next oldest] sibling, please create a nickname or share initials that we can use to refer to this sibling again in future surveys.",
     "conceptId": "579563781"
   },
   "COMBHOR4_1": {
@@ -10350,6 +10331,16 @@
     "questionText": "Are you currently using progestin-only medication?",
     "conceptId": "678877658"
   },
+  "WORK4": {
+    "isTextBox": true,
+    "questionText": "How many years have you worked in that job {$WORK3_JOBTITLE}?",
+    "conceptId": "686172464"
+  },
+  "WORK8": {
+    "isTextBox": true,
+    "questionText": "How many years have you worked in that job {$WORK3_JOBTITLE}?",
+    "conceptId": "686172464"
+  },
   "HOUSE1B": {
     "questIds": {
       "1": {
@@ -10842,16 +10833,6 @@
     "questionText": "On the days that you played golf, about how much time per day did you spend doing this activity?",
     "conceptId": "737221322"
   },
-  "WORK4": {
-    "isTextBox": true,
-    "questionText": "How many years have you worked in that job {$WORK3_JOBTITLE}?",
-    "conceptId": "739294356"
-  },
-  "WORK8": {
-    "isTextBox": true,
-    "questionText": "How many years have you worked in that job {$WORK3_JOBTITLE}?",
-    "conceptId": "739294356"
-  },
   "WEIGHT": {
     "isTextBox": true,
     "questionText": "How much do you weigh without clothes or shoes on? [DISPLAY ADDITIONAL TEXT IF SEX=02 or 03:] [If you are pregnant, how much did you weigh before your pregnancy?]",
@@ -10925,16 +10906,6 @@
     },
     "questionText": "Which of these options best describes your household's total combined family income for the <b>past 12 months</b>? This should include money earned from all places: job wages, rent from properties, investment income, social security, disability and/or veteran's benefits, unemployment benefits, workman's compensation, child support payments, alimony, and so on. Answer with the amount before taxes.",
     "conceptId": "759004335"
-  },
-  "OCCUPTN1": {
-    "isTextBox": true,
-    "questionText": "Please identify the occupation category that best describes this job.",
-    "conceptId": "761310265"
-  },
-  "OCCUPTN2": {
-    "isTextBox": true,
-    "questionText": "Please identify the occupation category that best describes this job.",
-    "conceptId": "761310265"
   },
   "MENSHIS2_1": {
     "questIds": {
@@ -11862,16 +11833,6 @@
     "questionText": "Age first menstrual period",
     "conceptId": "867921110"
   },
-  "EMPLYRSRVCE1": {
-    "isTextBox": true,
-    "questionText": "What products were made, or services provided, by this employer? If multiple, please provide the product/services related to your work unit. For example: automotive parts, residential home construction, accounting services, pharmaceutical research.",
-    "conceptId": "868232409"
-  },
-  "EMPLYRSRVCE2": {
-    "isTextBox": true,
-    "questionText": "What products were made, or services provided, by this employer? If multiple, please provide the product/services related to your work unit. For example: automotive parts, residential home construction, accounting services, pharmaceutical research.",
-    "conceptId": "868232409"
-  },
   "CHILD3": {
     "questIds": {
       "0": {
@@ -12264,6 +12225,16 @@
     },
     "questionText": "A person’s appearance, style, dress, or mannerisms (the way they walk or talk) may affect the way people think of them. On average, how do you think people would describe your appearance, style, dress, or mannerisms?",
     "conceptId": "987107433"
+  },
+  "EMPLYR1": {
+    "isTextBox": true,
+    "questionText": "What was your employer's for this job?",
+    "conceptId": "988878019"
+  },
+  "EMPLYR2": {
+    "isTextBox": true,
+    "questionText": "What was your employer's for this job?",
+    "conceptId": "988878019"
   },
   "SITTINGD": {
     "questIds": {

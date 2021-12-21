@@ -36,7 +36,7 @@ function generateRandomUUID(conceptIdList){
 function processCluster(cluster, header, nameToConcept, indexVariableName, conceptIdList, conceptIdObject, sourceJSONS, jsonList){
     let nonEmpty = [];
     let list = [1,2,3]
-    console.log(cluster)
+    //console.log(cluster)
     let conceptIdObjectKeys =Object.keys(conceptIdObject)
     let conceptIdIndices = [];
     let generalId = -1;
