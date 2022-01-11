@@ -1,0 +1,32 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
+  "Source Question": [
+    "470862706.json"
+  ],
+  "conceptId": "318344888",
+  "Question Text": "What type(s) of alcoholic beverages did you usually drink when you were between age 60 and age 69 - Other alcoholic beverages (such as wine coolers, \"\"hard soda,\"\" spiked seltzer (sparkling water), Smirnoff Ice, malt liquor, or pre-mixed cocktails)",
+  "Variable Label": "Types of alcoholic beverages- ages 60 and age 69 - Other",
+  "Variable Name": [
+    "SrvSAS_Other6069_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "ALCLIFE4G_3"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Old Quest Value": "4= Other alcoholic beverages (such as wine coolers, \"\"hard soda,\"\" spiked seltzer (sparkling water), Smirnoff Ice, malt liquor, or pre-mixed cocktails)",
+  "Required": "No",
+  "PII": "No",
+  "Quest_Src Question": [
+    "GRID_ALCLIFE4"
+  ],
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

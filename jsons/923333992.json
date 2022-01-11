@@ -1,26 +1,21 @@
 {
   "Primary Source": [
-    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "726699695.json",
     "726699695.json"
   ],
   "Source Question": [
-    "700374192.json",
-    "530742915.json"
+    "700374192.json"
   ],
   "conceptId": "923333992",
-  "Question Text": "Other text box",
+  "Question Text": "What type of business was this at your current employer? Other [text box]",
   "Variable Label": "Other text box",
   "Variable Name": [
-    "SrvBOH_OtherBsnDescC_v1r0",
-    "SrvBOH_OtherBsnDescP_v1r0"
+    "SrvBOH_OtherBsnDescC_v1r0"
   ],
   "Connect Value for Select all that apply questions": [
-    "BSNSSTYP1_TB",
-    "BSNSSTYP2_TB"
+    "BSNSSTYP1_TB"
   ],
   "Variable Type": "Char",
   "Variable Length": "300",
@@ -31,7 +26,6 @@
   "Date added or modified": "10/13/21",
   "": "Optional Select All that Apply",
   "Quest_Src Question": [
-    "BSNSSTYP1",
-    "BSNSSTYP2"
+    "BSNSSTYP1"
   ]
 }

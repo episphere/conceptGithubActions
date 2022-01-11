@@ -1,0 +1,32 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
+  "Source Question": [
+    "470862706.json"
+  ],
+  "conceptId": "530077526",
+  "Question Text": "What type(s) of alcoholic beverages did you usually drink when you wereage 70 and older - Wine",
+  "Variable Label": "Types of alcoholic beverages- age 70 and older - Wine",
+  "Variable Name": [
+    "SrvSAS_Wine70_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "ALCLIFE4H_2"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Old Quest Value": "3= Wine",
+  "Required": "No",
+  "PII": "No",
+  "Quest_Src Question": [
+    "GRID_ALCLIFE4"
+  ],
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

@@ -12,11 +12,14 @@
     "BioSpm_Visit_v1r0"
   ],
   "Variable Type": "Num",
-  "Format/Value": "0 = Baseline",
   "Required": "Yes",
   "PII": "No",
   "Notes": "Set baseline as the default, full list is not finalized yet.",
   "Dictionary": "Biospecimen Clinical, Biospecimen Research",
   "State Attribute": "No",
-  "Default Variable": "Yes"
+  "Default Variable": "Yes",
+  "Format/Value": {
+    "209454331.json": "0",
+    "496823485.json": "1"
+  }
 }

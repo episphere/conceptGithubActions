@@ -1,0 +1,31 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Source Question": [
+    "362270886.json"
+  ],
+  "conceptId": "650100414",
+  "Question Text": "None of these American Indian or Alaska Native categories fully describe me. Please describe [text box]",
+  "Variable Label": "None of these fully describe me. Please describe [text box]",
+  "Variable Name": [
+    "SrvBOH_NoneDescribeRE2_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "RACEETH2_TB"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "300",
+  "Connect Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if RACEETH = American Indian or Alaska Native",
+  "Date added or modified": "9/14/21",
+  "": "Optional Select All that Apply",
+  "Quest_Src Question": [
+    "RACEETH2"
+  ]
+}

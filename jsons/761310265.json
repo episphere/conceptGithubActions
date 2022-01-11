@@ -1,22 +1,18 @@
 {
   "Primary Source": [
-    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "726699695.json",
     "726699695.json"
   ],
   "conceptId": "761310265",
-  "Question Text": "Please identify the occupation category that best describes this job.",
+  "Question Text": "Please identify the occupation category that best describes this current job.",
   "Variable Label": "Current occupation category",
   "Variable Name": [
-    "SrvBOH_OccupationCat_v1r0",
-    "SrvBOH_PastOccupCat_v1r0"
+    "SrvBOH_OccupationCat_v1r0"
   ],
   "Connect Value for Select all that apply questions": [
-    "OCCUPTN1",
-    "OCCUPTN2"
+    "OCCUPTN1"
   ],
   "Variable Type": "Char",
   "Variable Length": "17",

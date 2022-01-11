@@ -1,0 +1,31 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Source Question": [
+    "857915436.json"
+  ],
+  "conceptId": "728926441",
+  "Question Text": "Alternative address line 2",
+  "Variable Label": "Address line 2",
+  "Variable Name": [
+    "SrvBOH_AddressL2_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "ALTADDRESS2_LINE2"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "70",
+  "Connect Value": "N/A",
+  "Required": "No",
+  "PII": "Yes",
+  "Notes": "Populated from Google Addresses",
+  "Date added or modified": "12/27/21",
+  "": "Multiple Text Boxes",
+  "Quest_Src Question": [
+    "ALTADDRESS2"
+  ]
+}

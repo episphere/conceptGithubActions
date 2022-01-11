@@ -1,0 +1,31 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Source Question": [
+    "976808005.json"
+  ],
+  "conceptId": "852296096",
+  "Question Text": "None of these Black categories fully describe me. Please describe [text box]",
+  "Variable Label": "None of these fully describe me. Please describe [text box]",
+  "Variable Name": [
+    "SrvBOH_NoneDescribeRE4_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "RACEETH4_TB"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "300",
+  "Connect Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if RACEETH = Black, African American, or African",
+  "Date added or modified": "9/14/21",
+  "": "Optional Select All that Apply",
+  "Quest_Src Question": [
+    "RACEETH4"
+  ]
+}
