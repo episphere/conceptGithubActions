@@ -404,7 +404,7 @@ function parseMasterModule() {
 
     // add a timestamp to filename so filename is in format: testDict-YYYY-MM-DD-hh-mm-ss.json
     let timestamp = new Date().toISOString().split('.')[0].replace(/:/g, '-').replace('T', '-');
-    let filename = 'testDict-' + timestamp + '.json';
+    let filename = 'Quest-' + timestamp + '_Transformation.json';
     // write file
     fs.writeFileSync(filename, JSON.stringify(toReturn, null, 2));
     fs.writeFileSync('testDict.json', JSON.stringify(toReturn, null, 2));
