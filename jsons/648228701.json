@@ -15,12 +15,13 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "The payment refusal will come from NORC returning info to DCEG, repeated measures variable associated with Round",
+  "Notes": "The payment refusal will come from NORC returning info to DCEG. Variable is set as a default and is nested under SMPaym_Round_v1r0",
   "Dictionary": "Study Manager Data Dictionary, Biospecimen Research",
   "State Attribute": "No",
-  "Default Variable": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "1/18/21",
   "Format/Value": {
-    "104430631.json": "0",
+    "648960871.json": "0",
     "353358909.json": "1"
   }
 }

@@ -1,28 +1,4 @@
 {
-  "Primary Source": [
-    "819848608.json"
-  ],
-  "Secondary Source": [
-    "123496044.json"
-  ],
   "conceptId": "951355211",
-  "Question Text": "Collection Location",
-  "Variable Label": "Collection Location",
-  "Variable Name": [
-    "BioSpm_Location_v1r0"
-  ],
-  "Variable Type": "Num",
-  "Variable Length": "1",
-  "Notes": "0 equals Default for UoC, 1 equals Default for Marshfield, 2 equals Alt for Marshfield, 3 equals Default for HealthPartners, 4equals Default for Henry Ford, 5equals Default for Sanford.",
-  "Dictionary": "Biospecimen Research",
-  "State Attribute": "No",
-  "Default Variable": "Yes",
-  "Format/Value": {
-    "325115468.json": "0",
-    "692275326.json": "1",
-    "698283667.json": "2",
-    "834825425.json": "3",
-    "736183094.json": "4",
-    "756784147.json": "5"
-  }
+  "Question Type": "BioSpm_Location_v1r0"
 }

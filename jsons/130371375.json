@@ -15,9 +15,11 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
+  "Notes": "Paymentt attributes are nested under the responses for this variable and are defaulted to \"\"No\"\" when we receive the studyId for active recruits or when a passive recruit signs in.",
   "Dictionary": "Study Manager Data Dictionary",
   "State Attribute": "No",
-  "Default Variable": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "1/18/22",
   "Format/Value": {
     "209454331.json": "0",
     "496823485.json": "1",

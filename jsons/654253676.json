@@ -1,0 +1,28 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "Source Question": [
+    "629010195.json"
+  ],
+  "conceptId": "654253676",
+  "Question Text": "Other treatments for sleep apnea: Please describe [text box]",
+  "Variable Label": "Other: Please describe text box",
+  "Variable Name": [
+    "SrvMRE_OtherSATmtDesc_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "SLPROB_TB"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "300",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "10/8/21",
+  "Quest_Src Question": [
+    "SLPROB2"
+  ]
+}

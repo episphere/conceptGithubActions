@@ -1,0 +1,25 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "195662769",
+  "Question Text": "[W/When you were a shift worker, w]hat time [does/did] your usual work shift start?",
+  "Variable Label": "Time usual work shift start",
+  "Variable Name": [
+    "SrvMRE_ShiftStart_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "SHIFTWORK2"
+  ],
+  "Variable Type": "Time",
+  "Variable Length": "6",
+  "Old Quest Value": "HH:MM AM/PM",
+  "Connect Value": "HH:MM AM/PM",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Follows SAS TIMEAMPM format",
+  "Date added or modified": "10/6/21"
+}

@@ -835,7 +835,7 @@ async function readFile(fileName){
     }
     fs.writeFileSync(fileName, toPrint)
     let timestamp = new Date().toISOString().split('.')[0].replace(/:/g, '-').replace('T', '-');
-    let filenameOutside = 'Quest-' + timestamp + '_Concept_Id_Dict.json';
+    let filenameOutside = 'Quest-' + timestamp + '_Concept_Id_Dict.csv';
     fs.writeFileSync(filenameOutside,toPrint)
     
 }

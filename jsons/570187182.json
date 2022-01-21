@@ -1,0 +1,29 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "570187182",
+  "Question Text": "Have you ever taken any other type of prescription hormones?",
+  "Variable Label": "Have you ever taken any other type of prescription hormones?",
+  "Variable Name": [
+    "SrvMRE_OthPresHorm_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "PRESHOR"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Old Quest Value": {
+    "104430631.json": "2",
+    "353358909.json": "1"
+  },
+  "Connect Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

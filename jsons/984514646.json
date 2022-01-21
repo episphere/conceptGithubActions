@@ -1,0 +1,38 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "984514646",
+  "Question Text": "How often did you use testosterone therapy? If you currently use testosterone therapy, how often do you use it?",
+  "Variable Label": "How often did you or do you currently use testosterone therapy?",
+  "Variable Name": [
+    "SrvMRE_TTOften_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "TESTTHER4"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "11/15/21",
+  "Old Quest Value": {
+    "729363341.json": "1",
+    "181786871.json": "2",
+    "626911538.json": "3",
+    "522395860.json": "4",
+    "814242010.json": "5",
+    "235613392.json": "6"
+  },
+  "Connect Value": {
+    "729363341.json": "0",
+    "181786871.json": "1",
+    "626911538.json": "2",
+    "522395860.json": "3",
+    "814242010.json": "4",
+    "235613392.json": "5"
+  }
+}

@@ -14,12 +14,16 @@
   "Variable Type": "Num",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Set baseline as the default, full list is not finalized yet.",
+  "Notes": "Visit selected at the time of check-in",
   "Dictionary": "Biospecimen Clinical, Biospecimen Research",
   "State Attribute": "No",
-  "Default Variable": "Yes",
+  "Default Variable": "No",
+  "Date added or modified": "1/18/22",
+  "Question Type": "See EMRBl_Push_v1r0",
   "Format/Value": {
     "209454331.json": "0",
-    "496823485.json": "1"
+    "496823485.json": "1",
+    "650465111.json": "2",
+    "303552867.json": "3"
   }
 }

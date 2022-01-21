@@ -1,0 +1,40 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "168431681",
+  "Question Text": "How many days per week is your sleep schedule determined by your job, school, or other activities?",
+  "Variable Label": "Days per week sleep schedule determined by your job, school, or other activities",
+  "Variable Name": [
+    "SrvMRE_SleepSchedDays_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "SLEEPSCHB"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "10/8/21",
+  "Old Quest Value": {
+    "918573169.json": "1",
+    "349122068.json": "2",
+    "156095877.json": "3",
+    "162668459.json": "4",
+    "278139969.json": "5",
+    "676824724.json": "6",
+    "512144428.json": "7"
+  },
+  "Connect Value": {
+    "918573169.json": "0",
+    "349122068.json": "1",
+    "156095877.json": "2",
+    "162668459.json": "3",
+    "278139969.json": "4",
+    "676824724.json": "5",
+    "512144428.json": "6"
+  }
+}
