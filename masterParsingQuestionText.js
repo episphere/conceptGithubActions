@@ -410,6 +410,17 @@ function parseMasterModule() {
     fs.writeFileSync('testDict.json', JSON.stringify(toReturn, null, 2));
     //fs.writeFileSync('toCheckIDs.json', JSON.stringify(toCheckIds,null, 2));
 
+    const ordered = Object.keys(toReturn).sort().reduce(
+        (obj, key) => { 
+        obj[key] = unordered[key]; 
+        return obj;
+        }, 
+        {}
+    );
+    let filename2 = 'Quest-' + timestamp + '_Alphabetized_Transformation.json';
+    fs.writeFileSync(filename2, JSON.stringify(ordered, null, 2));
+
+
     //console.log(JSON.stringify(toReturn));
 
     /*
