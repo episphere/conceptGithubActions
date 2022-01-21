@@ -1,12 +1,12 @@
 
-const concept = require('./concept1');
-const aggregate = require('./aggregateJSONS.js');
-const masterParsing = require('./masterParsing.js');
-const fs = require('fs');
-const otherDirection = require('./otherDirection');
-let files = fs.readFileSync('files.csv', {encoding:'utf8'})
-files = files.split(',')
-console.log(files)
+// const concept = require('./concept1');
+// const aggregate = require('./aggregateJSONS.js');
+// const masterParsing = require('./masterParsing.js');
+// const fs = require('fs');
+// const otherDirection = require('./otherDirection');
+// let files = fs.readFileSync('files.csv', {encoding:'utf8'})
+// files = files.split(',')
+// console.log(files)
 /*
 let changed = false;
 for(let i = 0; i < files.length; i++){

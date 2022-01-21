@@ -404,7 +404,7 @@ function parseMasterModule() {
 
     // add a timestamp to filename so filename is in format: testDict-YYYY-MM-DD-hh-mm-ss.json
     let timestamp = new Date().toISOString().split('.')[0].replace(/:/g, '-').replace('T', '-');
-    let filename = 'Quest-' + timestamp + '_Transformation.json';
+    let filename = './transformationFiles/Quest-' + timestamp + '_Transformation.json';
     // write file
     fs.writeFileSync(filename, JSON.stringify(toReturn, null, 2));
     fs.writeFileSync('testDict.json', JSON.stringify(toReturn, null, 2));
@@ -412,12 +412,12 @@ function parseMasterModule() {
 
     const ordered = Object.keys(toReturn).sort().reduce(
         (obj, key) => { 
-        obj[key] = unordered[key]; 
+        obj[key] = toReturn[key]; 
         return obj;
         }, 
         {}
     );
-    let filename2 = 'Quest-' + timestamp + '_Alphabetized_Transformation.json';
+    let filename2 = './transformationFiles/Quest-' + timestamp + '_Alphabetized_Transformation.json';
     fs.writeFileSync(filename2, JSON.stringify(ordered, null, 2));
 
 
