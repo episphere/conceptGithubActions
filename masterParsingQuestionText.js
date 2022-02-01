@@ -406,7 +406,7 @@ function parseMasterModule() {
     let timestamp = new Date().toISOString().split('.')[0].replace(/:/g, '-').replace('T', '-');
     let filename = './transformationFiles/Quest-' + timestamp + '_Transformation.json';
     // write file
-    fs.writeFileSync(filename, JSON.stringify(toReturn, null, 2));
+    // fs.writeFileSync(filename, JSON.stringify(toReturn, null, 2));
     fs.writeFileSync('testDict.json', JSON.stringify(toReturn, null, 2));
     //fs.writeFileSync('toCheckIDs.json', JSON.stringify(toCheckIds,null, 2));
 
@@ -417,8 +417,8 @@ function parseMasterModule() {
         }, 
         {}
     );
-    let filename2 = './transformationFiles/Quest-' + timestamp + '_Alphabetized_Transformation.json';
-    fs.writeFileSync(filename2, JSON.stringify(ordered, null, 2));
+    // let filename = './transformationFiles/Quest-' + timestamp + '_Alphabetized_Transformation.json';
+    fs.writeFileSync(filename, JSON.stringify(ordered, null, 2));
 
 
     //console.log(JSON.stringify(toReturn));

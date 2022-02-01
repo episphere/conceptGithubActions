@@ -186,7 +186,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                 //console.log(currRow)
             }
            if(!currValue){
-                //console.log(currRow)
+                // console.log(currRow)
            }
             if(currValue.indexOf('=') != -1){
                 if(currValue == "1=Live birth: single infant"){
@@ -836,6 +836,8 @@ async function readFile(fileName){
     fs.writeFileSync(fileName, toPrint)
     let timestamp = new Date().toISOString().split('.')[0].replace(/:/g, '-').replace('T', '-');
     let filenameOutside = './csvHistory/Quest-' + timestamp + '_Concept_Id_Dict.csv';
+    let filenameVarGen = './csvHistory/Quest-' + timestamp + '_Concept_ID_Gen.json'
+    fs.writeFileSync(filenameVarGen,JSON.stringify(nameToConcept,null, 2))
     fs.writeFileSync(filenameOutside,toPrint)
     
 }

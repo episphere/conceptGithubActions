@@ -1,0 +1,59 @@
+{
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json",
+    "745268907.json",
+    "745268907.json",
+    "745268907.json",
+    "745268907.json",
+    "745268907.json"
+  ],
+  "Source Question": [
+    "653906464.json",
+    "358259099.json",
+    "424807655.json",
+    "532767229.json",
+    "711365027.json",
+    "825227968.json"
+  ],
+  "conceptId": "857965355",
+  "Question Text": "# of Hours",
+  "Variable Label": "Hours take to fall asleep, before workdays",
+  "Variable Name": [
+    "SrvMRE_FallAsleepHours_v1r0",
+    "SrvMRE_LayInBedHrs_v1r0",
+    "SrvMRE_SunlightHours_v1r0",
+    "SrvMRE_NonWorkAsleepH_v1r0",
+    "SrvMRE_LayInBedHrNW_v1r0",
+    "SrvMRE_SunlightHrsNW_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "FallAsleepHours",
+    "LayInBedHrs",
+    "OutsideHours",
+    "NonWorkFallAsleepHours",
+    "NonWorkAwakeBeforeUpHours",
+    "WorkdayOutsideHours"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Old Quest Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "10/25/21",
+  "Quest_Src Question": [
+    "SLEEP1D",
+    "SLEEP1I",
+    "SLEEP1M",
+    "SLEEP2D",
+    "SLEEP2I",
+    "SLEEP2N"
+  ]
+}

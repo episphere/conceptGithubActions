@@ -1,35 +1,26 @@
 {
   "Primary Source": [
-    "192505768.json",
     "237817859.json"
   ],
   "Secondary Source": [
-    "883203566.json",
     "861315814.json"
   ],
-  "Source Question": [
-    "706283025.json",
-    ""
-  ],
   "conceptId": "624030581",
-  "Question Text": "I do not trust research/researchers",
+  "Question Text": "I do not trust research/researchers- Refusal",
   "Variable Label": "I do not trust research/researchers",
   "Variable Name": [
-    "RcrtSI_OptOut_v1r0_PrivacyE",
     "HdRef_PrivacyC_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Required": "No",
+  "Required": "Yes",
   "PII": "No",
-  "Notes": "For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.",
-  "Dictionary": "Recruitment Data Dictionary",
-  "State Attribute": "Yes",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
   "Default Variable": "Yes",
-  "Date added or modified": "10/21/21",
-  "Question Type": "Question text for HdRef_PrivacyC_v1r0",
+  "Date added or modified": "1/31/22",
   "Format/Value": {
-    "648960871.json": "0",
+    "104430631.json": "0",
     "353358909.json": "1"
   }
 }
