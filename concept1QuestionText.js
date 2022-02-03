@@ -186,7 +186,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                 //console.log(currRow)
             }
            if(!currValue){
-                // console.log(currRow)
+                console.log(currRow)
            }
             if(currValue.indexOf('=') != -1){
                 if(currValue == "1=Live birth: single infant"){
