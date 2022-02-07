@@ -23,27 +23,27 @@
     "711365027.json",
     "825227968.json"
   ],
-  "conceptId": "476617491",
-  "Question Text": "# of Minutes",
-  "Variable Label": "Minutes take to fall asleep, before workdays",
+  "conceptId": "707805344",
+  "Question Text": "# of Hours",
+  "Variable Label": "Hours take to fall asleep, before workdays",
   "Variable Name": [
-    "SrvMRE_FallAsleepMin_v1r0",
-    "SrvMRE_LayInBedMin_v1r0",
-    "SrvMRE_SunlightMin_v1r0",
-    "SrvMRE_NonWorkAsleepM_v1r0",
-    "SrvMRE_LayInBedMinNW_v1r0",
-    "SrvMRE_SunlightMinNW_v1r0"
+    "SrvMRE_FallAsleepHours_v1r0",
+    "SrvMRE_LayInBedHrs_v1r0",
+    "SrvMRE_SunlightHours_v1r0",
+    "SrvMRE_NonWorkAsleepH_v1r0",
+    "SrvMRE_LayInBedHrNW_v1r0",
+    "SrvMRE_SunlightHrsNW_v1r0"
   ],
   "Connect Value for Select all that apply questions": [
-    "FallAsleepMin",
-    "LayInBedMin",
-    "OutsideMin",
-    "NonWorkFallAsleepMin",
-    "NonWorkAwakeBeforeUpMin",
-    "WorkdayOutsideMin"
+    "FallAsleepHours",
+    "LayInBedHrs",
+    "OutsideHours",
+    "NonWorkFallAsleepHours",
+    "NonWorkAwakeBeforeUpHours",
+    "WorkdayOutsideHours"
   ],
   "Variable Type": "Num",
-  "Variable Length": "2",
+  "Variable Length": "1",
   "Old Quest Value": "N/A",
   "Required": "No",
   "PII": "No",
