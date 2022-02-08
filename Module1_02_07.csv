@@ -466,13 +466,19 @@
 129084651,Survey,726699695,Background and Overall Health,978485677,"How old were you when a doctor or other health professional first told you that you have or had 	HPV?",261863326,Year at diagnosis,HPV diagnosis year,SrvBOH_HPVYear_v1r0,HPV_YEAR,Year,4,,N/A,,,No,No,,Only display if MHGROUP7= HPV,,,,,,,9/28/21,Or (xor=) Question (either/or text boxes without radio button),,HPV
 129084651,Survey,726699695,Background and Overall Health,523188839,"How old were you when a doctor or other health professional first told you that you have or had	 HIV/AIDS?",206625031,Age at diagnosis,HIV/AIDS diagnosis age,SrvBOH_HIVAge_v1r0,HIVAIDS_AGE,Num,2,,N/A,,,No,No,,Only display if MHGROUP7= HIVAIDS,,,,,,,9/28/21,Or (xor=) Question (either/or text boxes without radio button),,HIVAIDS
 129084651,Survey,726699695,Background and Overall Health,523188839,"How old were you when a doctor or other health professional first told you that you have or had 	HIV/AIDS?",261863326,Year at diagnosis,HIV/AIDS diagnosis year,SrvBOH_HIVYear_v1r0,HIVAIDS_YEAR ,Year,4,,N/A,,,No,No,,Only display if MHGROUP7= HIVAIDS,,,,,,,9/28/21,Or (xor=) Question (either/or text boxes without radio button),,HIVAIDS 
-129084651,Survey,726699695,Background and Overall Health,725626004,Urinary and Reproductive System Problems- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply.,509721537,Uterine Fibroids,Uterine Fibroids,SrvBOH_UFibroids_v1r0,0,Num,1,104430631,0=No,,,No,No,,"[DISPLAY ONLY IF SEX = (00) OR (SEX= (02) AND SEX2 = (05))]",,,,,,,,"Optional Select All that Apply, Displayif in One or More Responses",,MHGROUP8
+129084651,Survey,726699695,Background and Overall Health,725626004,Urinary and Reproductive System Problems- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply.,509721537,Uterine Fibroids,Uterine Fibroids,SrvBOH_UFibroids_v1r0,0,Num,1,104430631,0=No,,,No,No,,"
+
+[DISPLAY ONLY IF SEX = (00) OR (SEX= (02) AND SEX2 = (05))]",,,,,,,,"Optional Select All that Apply, Displayif in One or More Responses",,MHGROUP8
 ,,,,,,,,,,,,,353358909,1=Yes,,,,,,,,,,,,,,,,
 129084651,Survey,726699695,Background and Overall Health,725626004,Urinary and Reproductive System Problems- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply.,863286658,Endometriosis,Endometriosis,SrvBOH_Endometriosis_v1r0,1,Num,1,104430631,0=No,,,No,No,,[DISPLAY ONLY IF SEX = (00) OR (SEX= (02) AND SEX2 = (05))],,,,,,,,"Optional Select All that Apply, Displayif in One or More Responses",,MHGROUP8
 ,,,,,,,,,,,,,353358909,1=Yes,,,,,,,,,,,,,,,,
-129084651,Survey,726699695,Background and Overall Health,725626004,Urinary and Reproductive System Problems- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply.,386524148,Polycystic Ovary Syndrome (PCOS),Polycystic Ovary Syndrome (PCOS),SrvBOH_PCOS_v1r0,2,Num,1,104430631,0=No,,,No,No,,"[DISPLAY ONLY IF SEX = (00) OR (SEX= (02) AND SEX2 = (06))]",,,,,,,,"Optional Select All that Apply, Displayif in One or More Responses",,MHGROUP8
+129084651,Survey,726699695,Background and Overall Health,725626004,Urinary and Reproductive System Problems- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply.,386524148,Polycystic Ovary Syndrome (PCOS),Polycystic Ovary Syndrome (PCOS),SrvBOH_PCOS_v1r0,2,Num,1,104430631,0=No,,,No,No,,"[DISPLAY ONLY IF SEX = (00) OR (SEX= (02) AND SEX2 = (06))]
+
+",,,,,,,,"Optional Select All that Apply, Displayif in One or More Responses",,MHGROUP8
 ,,,,,,,,,,,,,353358909,1=Yes,,,,,,,,,,,,,,,,
-129084651,Survey,726699695,Background and Overall Health,725626004,Urinary and Reproductive System Problems- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply.,937208760,Enlarged Prostate,Enlarged Prostate,SrvBOH_EnlProstate_v1r0,3,Num,1,104430631,0=No,,,No,No,,"[DISPLAY ONLY IF SEX = (01) OR (SEX = (02) AND SEX2 = (02))]",,,,,,,,"Optional Select All that Apply, Displayif in One or More Responses",,MHGROUP8
+129084651,Survey,726699695,Background and Overall Health,725626004,Urinary and Reproductive System Problems- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply.,937208760,Enlarged Prostate,Enlarged Prostate,SrvBOH_EnlProstate_v1r0,3,Num,1,104430631,0=No,,,No,No,,"[DISPLAY ONLY IF SEX = (01) OR (SEX = (02) AND SEX2 = (02))]
+
+",,,,,,,,"Optional Select All that Apply, Displayif in One or More Responses",,MHGROUP8
 ,,,,,,,,,,,,,353358909,1=Yes,,,,,,,,,,,,,,,,
 129084651,Survey,726699695,Background and Overall Health,725626004,Urinary and Reproductive System Problems- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply.,746542057,"Fibrocystic Breast, or other Benign Breast Disease(such as proliferative Benign Breast Disease or LCIS) ","Fibrocystic Breast, or other Benign Breast Disease(such as proliferative Benign Breast Disease or LCIS) ",SrvBOH_BreastDisease_v1r0,4,Num,1,104430631,0=No,,,No,No,,,,,,,,,,"Optional Select All that Apply, Displayif in One or More Responses",,MHGROUP8
 ,,,,,,,,,,,,,353358909,1=Yes,,,,,,,,,,,,,,,,
@@ -485,7 +491,7 @@
 129084651,Survey,726699695,Background and Overall Health,423547108,How old were you when a doctor or other health professional first told you that you have or had endometriosis?,206625031,Age at diagnosis,Endometriosis age,SrvBOH_EndoAge_v1r0,ENDO_AGE,Num,2,,N/A,,,No,No,,Only display if MHGROUP8= Endometriosis,,,,,,,10/13/21,Or (xor=) Question (either/or text boxes without radio button),,ENDO
 129084651,Survey,726699695,Background and Overall Health,423547108,How old were you when a doctor or other health professional first told you that you have or had endometriosis?,261863326,Year at diagnosis,Endometriosis year,SrvBOH_EndoYear_v1r0,ENDO_YEAR ,Year,4,,N/A,,,No,No,,Only display if MHGROUP8= Endometriosis,,,,,,,10/13/21,Or (xor=) Question (either/or text boxes without radio button),,ENDO
 129084651,Survey,726699695,Background and Overall Health,,,266847650,Was your endometriosis confirmed by surgery?,Endometriosis surgery confirm,SrvBOH_EndoSurgery_v1r0,ENDO2,Num,1,104430631,0=No,,1 = No,No,No,,Only display if MHGROUP8= Endometriosis,,,,,,,,Optional Multiple Choice,,
-,,,,,,,,,,,,,353358909,1=Yes,,2 = Yes,,,,,,,,,,,,,,
+,,726699695,,,,,,,,,,,353358909,1=Yes,,2 = Yes,,,,,,,,,,,,,,
 129084651,Survey,726699695,Background and Overall Health,852898339,How old were you when a doctor or other health professional first told you that you have or had polycystic ovary syndrome (PCOS)?,206625031,Age at diagnosis,Polycystic Ovary Syndrome (PCOS) age,SrvBOH_PCOSAge_v1r0,PCOS_AGE,Num,2,,N/A,,,No,No,,Only display if MHGROUP8= Polycystic Ovary Syndrome (PCOS),,,,,,,10/13/21,Or (xor=) Question (either/or text boxes without radio button),,PCOS
 129084651,Survey,726699695,Background and Overall Health,852898339,How old were you when a doctor or other health professional first told you that you have or had polycystic ovary syndrome (PCOS)?,261863326,Year at diagnosis,Polycystic Ovary Syndrome (PCOS) year,SrvBOH_PCOSYear_v1r0,PCOS_YEAR,Year,4,,N/A,,,No,No,,Only display if MHGROUP8= Polycystic Ovary Syndrome (PCOS),,,,,,,10/13/21,Or (xor=) Question (either/or text boxes without radio button),,PCOS
 129084651,Survey,726699695,Background and Overall Health,467061940,"How old were you when a doctor or other health professional first told you that you have or had 	Enlarged Prostate?",206625031,Age at diagnosis,Enlarged Prostate age,SrvBOH_EnlProstateAge_v1r0,ENLGPROS_AGE,Num,2,,N/A,,,No,No,,Only display if MHGROUP8= Enlarged Prostate,,,,,,,9/28/21,Or (xor=) Question (either/or text boxes without radio button),,ENLGPROS
@@ -573,7 +579,8 @@
 129084651,Survey,726699695,Background and Overall Health,145786416,How old were you when you had breast reconstruction surgery?,802622485,Year at surgery,Breast reconstruction year,SrvBOH_BreastReconYr_v1r0,BREASTRECON_YEAR,Year,4,,N/A,,,No,No,,,,,,,,,10/12/21,Or (xor=) Question (either/or text boxes without radio button),,BREASTSUR2
 129084651,Survey,726699695,Background and Overall Health,287605131,How old were you when you had breast reduction surgery (reduction mammaplasty)?,623218391,Age at surgery,Breast reduction age,SrvBOH_BreastRedAge_v1r0,BREASTREDN_AGE ,Num,2,,N/A,,,No,No,,,,,,,,,10/12/21,Or (xor=) Question (either/or text boxes without radio button),,BREASTSUR3
 129084651,Survey,726699695,Background and Overall Health,287605131,How old were you when you had breast reduction surgery (reduction mammaplasty)?,802622485,Year at surgery,Breast reduction year,SrvBOH_BreastRedYr_v1r0,BREASTREDN_YEAR,Year,4,,N/A,,,No,No,,,,,,,,,10/12/21,Or (xor=) Question (either/or text boxes without radio button),,BREASTSUR3
-129084651,Survey,726699695,Background and Overall Health,701157499,"How old were you when you had removal of a part of my breast tissue (breast-conserving surgery (BCS), lumpectomy, partial mastectomy, or segmental mastectomy)?",623218391,Age at surgery,Breast part removal age,SrvBOH_BreastPtRemAge_v1r0,BREASTPARTREM_AGE ,Num,2,,N/A,,,No,No,,,,,,,,,10/12/21,Or (xor=) Question (either/or text boxes without radio button),,BREASTSUR4
+129084651,Survey,726699695,Background and Overall Health,701157499,"How old were you when you had removal of a part of my breast tissue (breast-conserving surgery (BCS), lumpectomy, partial mastectomy, or segmental mastectomy)?
+",623218391,Age at surgery,Breast part removal age,SrvBOH_BreastPtRemAge_v1r0,BREASTPARTREM_AGE ,Num,2,,N/A,,,No,No,,,,,,,,,10/12/21,Or (xor=) Question (either/or text boxes without radio button),,BREASTSUR4
 129084651,Survey,726699695,Background and Overall Health,701157499,"How old were you when you had removal of a part of my breast tissue (breast-conserving surgery (BCS), lumpectomy, partial mastectomy, or segmental mastectomy)?",802622485,Year at surgery,Breast part removal year,SrvBOH_BreastPtRemYr_v1r0,BREASTPARTREM_YEAR,Year,4,,N/A,,,No,No,,,,,,,,,10/12/21,Or (xor=) Question (either/or text boxes without radio button),,BREASTSUR4
 129084651,Survey,726699695,Background and Overall Health,428639167,How old were you when you had removal of one breast (mastectomy)?,623218391,Age at surgery,Breast removal age,SrvBOH_BreastRemAge_v1r0,BREASTREM_AGE ,Num,2,,N/A,,,No,No,,,,,,,,,10/12/21,Or (xor=) Question (either/or text boxes without radio button),,BREASTSUR5
 129084651,Survey,726699695,Background and Overall Health,428639167,How old were you when you had removal of one breast (mastectomy)?,802622485,Year at surgery,Breast removal year,SrvBOH_BreastRemYr_v1r0,BREASTREM_YEAR,Year,4,,N/A,,,No,No,,,,,,,,,10/12/21,Or (xor=) Question (either/or text boxes without radio button),,BREASTSUR5
@@ -1368,3 +1375,137 @@
 129084651,Survey,726699695,Background and Overall Health,285718391,How can we reach this person?,750097000,Alternate contact email,Alternate contact email,SrvBOH_AltContEmail_v1r0,ALTCONTACT2_EMAIL,Char,120,,N/A,,,No,Yes,,,,,,,,,9/14/21,Multiple Text Boxes,,ALTCONTACT2
 129084651,Survey,726699695,Background and Overall Health,,,431721131,Who completed this survey section?,Who completed this survey section?,SrvBOH_WhoComplQx_v1r0,QXAUTHOR1,Num,1,589702540,0=Completed by study participant,,1 = Completed by study participant,No,No,,,,,,,,,,Optional Multiple Choice,,
 ,,,,,,,,,,,,,275706407,1=Completed by someone else on behalf of study participant,,2 = Completed by someone else on behalf of study participant,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
