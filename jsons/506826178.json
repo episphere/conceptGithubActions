@@ -3,23 +3,24 @@
     "192505768.json"
   ],
   "Secondary Source": [
-    "273437590.json"
+    "332759827.json"
   ],
-  "conceptId": "480305327",
-  "Question Text": "Suffix- Consent",
+  "conceptId": "506826178",
+  "Question Text": "Suffix- User Profile",
   "Variable Label": "Suffix",
   "Variable Name": [
-    "RcrtCS_Suffix_v1r0"
+    "RcrtUP_Suffix_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Notes": "Additional options may be added later.",
+  "Notes": "Populated from RcrtCS_Suffix_v1r0. Additional options may be added later.",
   "Dictionary": "Recruitment Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
   "Date added or modified": "2/11/22",
+  "Question Type": "Question text same as RcrtCS_Suffix_v1r0",
   "Format/Value": {
     "612166858.json": "0",
     "255907182.json": "1",

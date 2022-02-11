@@ -1,25 +1,26 @@
 {
   "Primary Source": [
-    "192505768.json"
+    "237817859.json"
   ],
   "Secondary Source": [
-    "273437590.json"
+    "635994596.json"
   ],
-  "conceptId": "480305327",
-  "Question Text": "Suffix- Consent",
+  "conceptId": "693626233",
+  "Question Text": "Suffix- HIPAA Revocation",
   "Variable Label": "Suffix",
   "Variable Name": [
-    "RcrtCS_Suffix_v1r0"
+    "HdWd_Suffix_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
   "Notes": "Additional options may be added later.",
-  "Dictionary": "Recruitment Data Dictionary",
+  "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
   "Date added or modified": "2/11/22",
+  "Question Type": "Same Question text as RcrtCS_Suffix_v1r0 and RcrtUP_Suffix_v1r0",
   "Format/Value": {
     "612166858.json": "0",
     "255907182.json": "1",
