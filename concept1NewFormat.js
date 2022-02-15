@@ -542,7 +542,7 @@ async function readFile(fileName){
                 cluster.push(arr);
             }
             else{
-                let returned = processCluster(cluster, header, nameToConcept, varLabelIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList, /[0-9]+=/)
+                let returned = processCluster(cluster, header, nameToConcept, varLabelIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList, /[0-9]+\s*=/)
                 excelOutput.push(returned)
                 cluster = [arr]
                 currCluster = true;
@@ -553,7 +553,7 @@ async function readFile(fileName){
             currCluster = true;
         }
     }
-    let returned = processCluster(cluster, header, nameToConcept, varLabelIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList,/[0-9]+=/);
+    let returned = processCluster(cluster, header, nameToConcept, varLabelIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList,/[0-9]+\s*=/);
     excelOutput.push(returned)
     //console.log(sourceJSONS)
     for(let i = 0; i < sourceJSONS.length; i++){
