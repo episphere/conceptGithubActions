@@ -55,7 +55,6 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
             }
         }
     }
-    
     let firstRowJSON = {}
     let firstRow = cluster[0]
     let clump = [];
@@ -153,7 +152,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
     let collectionIds = {};
     let leaves = []
     let leafIndex = -1;
-    let leafObj = {}
+    
     let debug = true;
     
 
@@ -163,13 +162,11 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
         let currIndex = nonEmpty[j]
         let nonEmptyIndex = currIndex;
         let currCol = [];
-
-
+        let leafObj = {}
         for(let i = 0; i < cluster.length; i++){
             let currRow = cluster[i];
             let currElement = currRow[currIndex].trim();
             if(currElement != ''){
-                
                 //Create conceptIds if this exists
                 if(conceptIdObject[currIndex - 1]){
                     if(currElement.indexOf('=') != -1){
