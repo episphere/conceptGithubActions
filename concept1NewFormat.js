@@ -33,6 +33,11 @@ function generateRandomUUID(conceptIdList){
     }
 }
 
+function replaceQuotes(text){
+    text = text.replace(/\"\"+/g,'\"\"')
+    return text;
+}
+
 function processCluster(cluster, header, nameToConcept, indexVariableName, conceptIdList, conceptIdObject, sourceJSONS, jsonList, regexInclude){
     //console.log(cluster[0])
     let nonEmpty = [];
@@ -492,6 +497,7 @@ async function readFile(fileName){
     let toReplace = fs.readFileSync(fileName,{encoding:'utf8', flag:'r'})
     ////console.log(toReplace)
     toReplace = toReplace.replace(/�/g, "\"")
+    toReplace = replaceQuotes(toReplace)
     fs.writeFileSync(fileName, toReplace)
     let idIndex = '[]'
     if(fs.existsSync('./jsons/conceptIds.txt')){
