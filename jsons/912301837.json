@@ -17,22 +17,6 @@
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "Yes",
-  "Derivation Notes": [
-    "821887248.json",
-    "776574047.json",
-    "445880625.json",
-    "961876386.json",
-    "315343605.json",
-    "601274383.json",
-    "441235631.json"
-  ],
-  "Date added or modified": [
-    "797406540.json",
-    "920170300.json"
-  ],
-  "Question Type": [
-    "831041022.json"
-  ],
   "Format/Value": {
     "208325815.json": "0",
     "622008261.json": "1",
@@ -41,5 +25,21 @@
     "854021266.json": "4",
     "241236037.json": "5",
     "987563196.json": "6"
-  }
+  },
+  "Derivation Notes": [
+    "HdRef_Basesrv_v1r0 equals0 AND HdRef_Baseblood_v1r0 equals 0 AND HdRef_Baseurine_v1r0 and HdRef_Basesaliva_v1r0 equals 0 AND HdRef_Allsrv_v1r0 equals 0 AND HdRef_Allsample_v1r0 equals 0 AND HdRef_BlSpecSrv_v1r0 equals 0 AND HdWd_WdConsent_v1r0 equals 0 AND HdWd_Activepart_v1r0 equals 0 AND HdWd_HIPAArevoked_v1r0 equals 0 AND HdWd_Destroydata_v1r0 equals 0 AND HdWd_Deceased_v1r0 equals 0",
+    "HdWd_WdConsent_v1r0 equals 0 AND HdWd_Activepart_v1r0 equals 0 AND HdWd_HIPAArevoked_v1r0 equals 0 AND HdWd_Destroydata_v1r0 equals 0 AND HdWd_Deceased_v1r0 equals 0",
+    "HdWd_Activepart_v1r0 equals 1 AND HdWd_HIPAArevoked_v1r0 equals 0 And HdWd_WdConsent_v1r0 equals 0 AND HdWd_Deceased_v1r0 equals 0 AND HdWd_Destroydata_v1r0 equals 0",
+    "HdWd_HIPAArevoked_v1r0 equals 1 And HdWd_WdConsent_v1r0 equals 0 And HdWd_Deceased_v1r0 equals 0 AND HdWd_Destroydata_v1r0 equals 0",
+    "HdWd_HIPAArevoked_v1r0 equals 1 AND HdWd_WdConsent_v1r0 equals1 AND HdWd_Deceased_v1r0 equals 0 AND HdWd_Destroydata_v1r0 equals 0",
+    "HdWd_Destroydata_v1r0 equals 1",
+    "HdWd_Deceased_v1r0 equals 1"
+  ],
+  "Date added or modified": [
+    "2/2/22",
+    "831041022"
+  ],
+  "Question Type": [
+    "HdWd_Destroydata_v1r0"
+  ]
 }

@@ -30,17 +30,6 @@
       "887435355.json"
     ]
   ],
-  "Quest_Src Question": [
-    [
-      "183214128.json",
-      "372173813.json",
-      "117327962.json",
-      "813938761.json",
-      "507343432.json",
-      "419463709.json",
-      "337271831.json"
-    ]
-  ],
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
@@ -49,13 +38,24 @@
     "104430631.json": "2",
     "353358909.json": "1"
   },
-  "Notes": {
-    "918573169.json": "Only display if PAINREL1",
-    "349122068.json": "Only display if PAINREL1",
-    "156095877.json": "Only display if PAINREL1",
-    "162668459.json": "Only display if PAINREL1",
-    "278139969.json": "Only display if PAINREL1",
-    "676824724.json": "Only display if PAINREL1",
-    "512144428.json": "Only display if PAINREL1"
-  }
+  "Notes": [
+    "Only display if PAINREL1 = 0",
+    "Only display if PAINREL1 = 1",
+    "Only display if PAINREL1 = 2",
+    "Only display if PAINREL1 = 3",
+    "Only display if PAINREL1 = 4",
+    "Only display if PAINREL1 = 5",
+    "Only display if PAINREL1 = 6"
+  ],
+  "Quest_Src Question": [
+    [
+      "PAINREL7_1",
+      "PAINREL7_2",
+      "PAINREL7_3",
+      "PAINREL7_4",
+      "PAINREL7_5",
+      "PAINREL7_6",
+      "PAINREL7_7"
+    ]
+  ]
 }
