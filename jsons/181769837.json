@@ -2,19 +2,24 @@
   "conceptId": "181769837",
   "Question Text": "Other",
   "Primary Source": [
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "745268907.json"
+    "745268907.json",
+    "965707586.json"
   ],
   "Source Question": [
-    "517976064.json"
+    "517976064.json",
+    "447720598.json"
   ],
   "Variable Label": "Other exercise",
   "Variable Name": [
-    "SrvMRE_OtherExercise_v1r0"
+    "SrvMRE_OtherExercise_v1r0",
+    "SrvSAS_OtherAlc_v1r0"
   ],
   "Connect Value for Select all that apply questions": [
+    "55",
     "55"
   ],
   "Variable Type": "Num",
@@ -22,7 +27,8 @@
   "Required": "No",
   "PII": "No",
   "Quest_Src Question": [
-    "EXEREC1"
+    "EXEREC1",
+    "ALCOHOL8"
   ],
   "Format/Value": {
     "104430631.json": "0",
@@ -31,5 +37,6 @@
   "Old Quest Value": {
     "104430631.json": "2",
     "353358909.json": "1"
-  }
+  },
+  "Date added or modified": "10/29/21"
 }
