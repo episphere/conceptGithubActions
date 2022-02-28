@@ -45,6 +45,9 @@
   "103566006": {
     "Variable Name": "What kind of cigar, cigarillo, or little filtered cigar [do/did] you usually use? Select all that apply."
   },
+  "104053459": {
+    "Variable Name": "Not Revoked"
+  },
   "104278817": {
     "Variable Label": "First Name",
     "Variable Name": "HdWd_FnameDD_v1r0"
@@ -146,6 +149,9 @@
   "111520945": {
     "Variable Name": "Not at all"
   },
+  "111959410": {
+    "Variable Name": "Requested but not signed"
+  },
   "112024853": {
     "Variable Label": "Ever took metformin (such as Glucophage, Glumetza, Riomet, Fortamet, or Glucophage XR)",
     "Variable Name": "SrvMRE_Metformin_v1r0"
@@ -237,6 +243,9 @@
     "Variable Label": "Date data destruction request signed",
     "Variable Name": "HdWd_DateDatadestsign_v1r0"
   },
+  "119607689": {
+    "Variable Name": "Destroy data"
+  },
   "119632587": {
     "Variable Label": "Algerian",
     "Variable Name": "SrvBOH_Algerian_v1r0"
@@ -269,8 +278,11 @@
     "Variable Name": "On days that you [consume/consumed] marijuana in food or drinks, how many servings [do/did] you have per day?"
   },
   "121430614": {
-    "Variable Label": "I do not have reliable access to the internet/a\"\"\"\"\"\"\"\"device",
+    "Variable Label": "I do not have reliable access to the internet/a\"\"\"\"device",
     "Variable Name": "HdRef_NoInternet_v1r0"
+  },
+  "121454001": {
+    "Variable Name": "Revoked and signed"
   },
   "121502359": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Pancreatic cancer?"
@@ -278,10 +290,6 @@
   "121646540": {
     "Variable Label": "Weight at 25 years old entry",
     "Variable Name": "SrvBOH_Weight25_v1r0"
-  },
-  "121720893": {
-    "Variable Label": "Other",
-    "Variable Name": "BioBPTL_Other_v1r0"
   },
   "121874737": {
     "Variable Label": "Mom Lung or bronchial cancer year",
@@ -361,11 +369,14 @@
     "Variable Name": "SrvSAS_CigsWakeUp_v1r0"
   },
   "131458944": {
-    "Variable Label": "I am worried that my\"\"\"\"\"\"\"\"information could be used to discriminate against me/my\"\"\"\"\"\"\"\"family",
+    "Variable Label": "I am worried that my\"\"\"\"information could be used to discriminate against me/my\"\"\"\"family",
     "Variable Name": "HdRef_PrivacyH_v1r0"
   },
   "131550264": {
     "Variable Name": "Fair"
+  },
+  "131937399": {
+    "Variable Name": "Caucasian/White and not Hispanic or Latino"
   },
   "132080040": {
     "Variable Name": "No change needed"
@@ -544,6 +555,9 @@
     "Variable Label": "Mouthwash",
     "Variable Name": "BioCol_0007_v1r0"
   },
+  "143660020": {
+    "Variable Name": "Caucasian/White and Hispanic or Latino"
+  },
   "144320785": {
     "Variable Label": "Israeli",
     "Variable Name": "SrvBOH_Israeli_v1r0"
@@ -599,6 +613,10 @@
   "148996099": {
     "Variable Label": "Accession ID Manually Entered",
     "Variable Name": "BioSpm_AccIDEntered_v1r0"
+  },
+  "149224829": {
+    "Variable Label": "Site PI listed on the site-specific consent form",
+    "Variable Name": "HdWd_SitePIRequested_v1r0"
   },
   "149379312": {
     "Variable Label": "Months use hormonal IUD",
@@ -1075,10 +1093,6 @@
     "Variable Label": "Pills per day prescription proton pump inhibitors",
     "Variable Name": "SrvMRE_PPPresPill_v1r0"
   },
-  "188332319": {
-    "Variable Label": "No Pre-notification",
-    "Variable Name": "BioBPTL_NoPreNotif_v1r0"
-  },
   "188797763": {
     "Variable Label": "Outreach required for Verification",
     "Variable Name": "RcrtV_Outreach_v1r0"
@@ -1133,6 +1147,9 @@
   },
   "193297280": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Non-melanoma skin (basal or squamous) cancer?"
+  },
+  "193302534": {
+    "Variable Name": "Other (Hispanic, Asian, American Indian/Alaskan Native, Native Hawaiian or Pacific Islander) and Hispanic or Latino"
   },
   "193601028": {
     "Variable Label": "Dad Stomach cancer age",
@@ -1233,12 +1250,12 @@
     "Variable Label": "Payment refused by any participant",
     "Variable Name": "SMPaym_JointRefused_v1r0"
   },
+  "200183516": {
+    "Variable Label": "Vials - Incorrect Material Type",
+    "Variable Name": "BioBPTL_VialsIMT_v1r0"
+  },
   "200323667": {
     "Variable Name": "Yes, I used hormones or other medications to make my body look more feminine in the past"
-  },
-  "200647000": {
-    "Variable Label": "Shipment Delay",
-    "Variable Name": "BioBPTL_ShipDelay_v1r0"
   },
   "200722644": {
     "Variable Label": "How many days smoked a hookah or water pipe  every day, age last used",
@@ -1308,6 +1325,9 @@
   "204067509": {
     "Variable Label": "A service provider",
     "Variable Name": "SrvBOH_ServiceProvP_v1r0"
+  },
+  "204285984": {
+    "Variable Name": "Caucasian/White and Ethnicity Unavailable/Unknown"
   },
   "204421360": {
     "Variable Name": "During the past 12 months, did you do any of these activities outside of work? Select all that apply."
@@ -1648,10 +1668,6 @@
     "Variable Label": "Coronary artery/coronary heart disease diagnosis age",
     "Variable Name": "SrvBOH_CHDAge_v1r0"
   },
-  "229360386": {
-    "Variable Label": "Manifest/Paperwork/Vial information do not match",
-    "Variable Name": "BioBPTL_ManifestDNM_v1r0"
-  },
   "229540444": {
     "Variable Name": "3 to 5 hours per day"
   },
@@ -1749,6 +1765,9 @@
   "237817859": {
     "Variable Name": "Help Desk"
   },
+  "238268405": {
+    "Variable Name": "Select Package Condition - Site Shipment"
+  },
   "238799612": {
     "Variable Label": "Dad Non-Hodgkin's lymphoma cancer year",
     "Variable Name": "SrvBOH_DadNHLympYr_v1r0"
@@ -1786,10 +1805,6 @@
   "241590841": {
     "Variable Label": "Health care system website",
     "Variable Name": "RcrtES_Aware_v1r0_HCSite"
-  },
-  "242271549": {
-    "Variable Label": "Vials - Missing Labels",
-    "Variable Name": "BioBPTL_VialsMissLabel_v1r0"
   },
   "242307474": {
     "Variable Label": "Deviation- Hemolyzed",
@@ -2000,10 +2015,6 @@
   },
   "259397450": {
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had anal cancer?"
-  },
-  "259439191": {
-    "Variable Label": "Date Received - Site Shipment",
-    "Variable Name": "BioBPTL_DateRec_v1r0"
   },
   "259904995": {
     "Variable Label": "None of the above",
@@ -2385,7 +2396,7 @@
     "Variable Name": "SrvSAS_AgeLastUseTHC_v1r0"
   },
   "285488731": {
-    "Variable Label": "I\"\"\"\"\"\"\"\"do not\"\"\"\"\"\"\"\"want my\"\"\"\"\"\"\"\"information shared with other researchers",
+    "Variable Label": "I\"\"\"\"do not\"\"\"\"want my\"\"\"\"information shared with other researchers",
     "Variable Name": "HdRef_PrivacyD_v1r0"
   },
   "285718391": {
@@ -2450,6 +2461,10 @@
   "290010251": {
     "Variable Name": "5 glasses"
   },
+  "290977684": {
+    "Variable Label": "The Chair of the Connect IRB-of-record (NIH IRB)",
+    "Variable Name": "HdWd_ConChairRequested_v1r0"
+  },
   "291707744": {
     "Variable Label": "Age estrogen-only skin gel, cream, or spray-on medication first use",
     "Variable Name": "SrvMRE_AgeEstGelUseF_v1r0"
@@ -2492,10 +2507,6 @@
   "297084062": {
     "Variable Label": "Years ago last took statins/cholesterol or lipid lowering drugs",
     "Variable Name": "SrvMRE_StatinsYL_v1r0"
-  },
-  "297147359": {
-    "Variable Label": "Who Requested the Refusal/Withdrawal",
-    "Variable Name": "HdWd_WhoRequestedRefWd_v1r0"
   },
   "297462035": {
     "Variable Label": "Date/Time payment given to participant",
@@ -2889,6 +2900,10 @@
   "332961895": {
     "Variable Name": "Study Manager"
   },
+  "333524031": {
+    "Variable Label": "Shipment Received - Site Shipment",
+    "Variable Name": "BioBPTL_ShipRec_v1r0"
+  },
   "333647143": {
     "Variable Name": "I had surgery to remove one ovary"
   },
@@ -3053,10 +3068,6 @@
   "352531133": {
     "Variable Label": "How often days home repairs (such as painting, plumbing, or replacing carpeting)",
     "Variable Name": "SrvMRE_HRepairOften_v1r0"
-  },
-  "352744555": {
-    "Variable Label": "Manifest – not provided",
-    "Variable Name": "BioBPTL_ManifestNP_v1r0"
   },
   "352891568": {
     "Variable Label": "I do not like to do things online",
@@ -3264,7 +3275,7 @@
     "Variable Name": "SrvMRE_Serophene_v1r0"
   },
   "372303208": {
-    "Variable Label": "I am worried that my\"\"\"\"\"\"\"\"information will be used by others to make a profit",
+    "Variable Label": "I am worried that my\"\"\"\"information will be used by others to make a profit",
     "Variable Name": "HdRef_PrivacyI_v1r0"
   },
   "372993567": {
@@ -3446,6 +3457,10 @@
     "Variable Label": "Total amount of time smoked a hookah or water pipe  per day",
     "Variable Name": "SrvSAS_TotTmHookah_v1r0"
   },
+  "387564837": {
+    "Variable Label": "Damaged Vials",
+    "Variable Name": "BioBPTL_DamagedVials_v1r0"
+  },
   "387604865": {
     "Variable Label": "Why use electronic marijuana delivery devices that can be vaped",
     "Variable Name": "SrvSAS_WhyUseEMJDev_v1r0"
@@ -3563,6 +3578,10 @@
     "Variable Label": "First Name",
     "Variable Name": "RcrtUP_Fname_v1r0"
   },
+  "399948893": {
+    "Variable Label": "Vials - Missing Labels",
+    "Variable Name": "BioBPTL_VialsMissLabel_v1r0"
+  },
   "399982309": {
     "Variable Name": "Pain relievers- Have you ever taken any of these medications at least 4 times a month for 6 months or longer? Select all that apply."
   },
@@ -3655,6 +3674,10 @@
   "405352246": {
     "Variable Label": "Compensation to participate is not high enough",
     "Variable Name": "RcrtSI_OptOut_v1r0_comp"
+  },
+  "405513630": {
+    "Variable Label": "Cold Packs - none",
+    "Variable Name": "BioBPTL_ColdPackNone_v1r0"
   },
   "405571048": {
     "Variable Label": "Times pregnant",
@@ -3875,6 +3898,9 @@
   "419415087": {
     "Variable Name": "No, not at all"
   },
+  "419709902": {
+    "Variable Name": "Race Unavailable/Unknown and Ethnicity Hispanic or Latino"
+  },
   "420047863": {
     "Variable Label": "Insulin days per month",
     "Variable Name": "SrvMRE_InsulinMo_v1r0"
@@ -3896,9 +3922,6 @@
   "420757389": {
     "Variable Label": "Check out complete",
     "Variable Name": "BioFin_Complete_v1r0"
-  },
-  "421016519": {
-    "Variable Name": "Select Package Condition - Site Shipment"
   },
   "421823980": {
     "Variable Label": "Account Email",
@@ -4021,7 +4044,7 @@
     "Variable Name": "SrvSAS_TmSmokeMJ70_v1r0"
   },
   "431428747": {
-    "Variable Label": "I am too sick/my health is too poor\"\"\"\"\"\"\"\"to participate",
+    "Variable Label": "I am too sick/my health is too poor\"\"\"\"to participate",
     "Variable Name": "HdRef_Sick_v1r0"
   },
   "431441193": {
@@ -4056,10 +4079,6 @@
   },
   "434041171": {
     "Variable Name": "Termination"
-  },
-  "434049748": {
-    "Variable Label": "Shipment Received - Site Shipment",
-    "Variable Name": "BioBPTL_ShipRec_v1r0"
   },
   "434243220": {
     "Variable Label": "Months use combined oral contraceptive pills",
@@ -4147,6 +4166,10 @@
   "442166669": {
     "Variable Label": "Address line 2",
     "Variable Name": "RcrtUP_AddressLn2_v1r0"
+  },
+  "442684673": {
+    "Variable Label": "Participant Refusal",
+    "Variable Name": "BioBPTL_PartRefusal_v1r0"
   },
   "444403470": {
     "Variable Label": "When daily user, number of servings consumed marijuana in food or drinks don't know",
@@ -4338,9 +4361,15 @@
   "456806539": {
     "Variable Name": "Letter with PIN"
   },
+  "457944265": {
+    "Variable Name": "Not Requested"
+  },
   "458435048": {
     "Variable Label": "Black, African American, or African",
     "Variable Name": "SrvBOH_Black_v1r0"
+  },
+  "458508122": {
+    "Variable Name": "Refused all future activities"
   },
   "458680879": {
     "Variable Label": "Sibling 1 cancer age",
@@ -4386,6 +4415,9 @@
   "463625040": {
     "Variable Label": "Time from account to social security",
     "Variable Name": "SrvSS_Acct_SSN_v1r0"
+  },
+  "463922889": {
+    "Variable Name": "Other (Hispanic, Asian, American Indian/Alaskan Native, Native Hawaiian or Pacific Islander) and not Hispanic or Latino"
   },
   "464169461": {
     "Variable Name": "10 to 15 hours per day"
@@ -4457,10 +4489,6 @@
   "470282814": {
     "Variable Label": "High cholesterol diagnosis year",
     "Variable Name": "SrvBOH_CholesterolYr_v1r0"
-  },
-  "470977257": {
-    "Variable Label": "Participant Refusal",
-    "Variable Name": "BioBPTL_PartRefusal_v1r0"
   },
   "471018082": {
     "Variable Label": "Dozed off or fallen asleep while driving",
@@ -4849,6 +4877,9 @@
     "Variable Label": "Cervix",
     "Variable Name": "SrvBOH_Cervix_v1r0"
   },
+  "505325385": {
+    "Variable Name": "African American/Black and Ethnicity Unavailable/Unknown"
+  },
   "505875387": {
     "Variable Label": "How many times marijana with tobacco used, Age [X] to age [Y / 17]",
     "Variable Name": "SrvSAS_TmUseTobMJ17_v1r0"
@@ -4997,6 +5028,9 @@
     "Variable Label": "Liquor or mixed drinks",
     "Variable Name": "SrvSAS_Liquor70_v1r0"
   },
+  "517187756": {
+    "Variable Name": "African American/Black and not Hispanic or Latino"
+  },
   "517307064": {
     "Variable Name": "Which of these breast surgeries have you had? Please do not include a biopsy. Select all that apply."
   },
@@ -5024,6 +5058,9 @@
   },
   "518750011": {
     "Variable Name": "How old were you when you had a vasectomy?"
+  },
+  "519402449": {
+    "Variable Name": "Race Unavailable/Unknown and Ethnicity Unavailable/Unknown"
   },
   "519761171": {
     "Variable Name": "A few freckles"
@@ -5643,10 +5680,6 @@
     "Variable Label": "Years ago took baby or low-dose aspirin (81 mg or less)",
     "Variable Name": "SrvMRE_LAspirinYA_v1r0"
   },
-  "564936650": {
-    "Variable Label": "Vials - Incorrect Material Type",
-    "Variable Name": "BioBPTL_VialsIMT_v1r0"
-  },
   "564964481": {
     "Variable Label": "Birth Month",
     "Variable Name": "RcrtUP_MOB_v1r0"
@@ -5679,6 +5712,9 @@
   "567419874": {
     "Variable Label": "Child 1 brain cancer year",
     "Variable Name": "SrvBOH_C1BraCancYr_v1r0"
+  },
+  "567590935": {
+    "Variable Name": "Revoked but not signed"
   },
   "567794162": {
     "Variable Label": "Gestational diabetes age",
@@ -5851,6 +5887,9 @@
   "581036703": {
     "Variable Name": "Metrics"
   },
+  "581116389": {
+    "Variable Name": "Refused some activities"
+  },
   "581965591": {
     "Variable Label": "How much time e-cigarettes or other vaping devices used, [X / 50] to age [Y / 59 / current age]",
     "Variable Name": "SrvSAS_ECigTm5059_v1r0"
@@ -5997,6 +6036,10 @@
     "Variable Label": "How much time e-cigarettes or other vaping devices used, [X / 30] to age [Y / 39 / current age]",
     "Variable Name": "SrvSAS_ECigTm3039_v1r0"
   },
+  "595987358": {
+    "Variable Label": "Cold Packs - warm",
+    "Variable Name": "BioBPTL_ColdPackWarm_v1r0"
+  },
   "596122041": {
     "Variable Label": "Esophageal",
     "Variable Name": "SrvBOH_MEsophagealCanc_v1r0"
@@ -6010,7 +6053,7 @@
     "Variable Name": "SrvSAS_Cigar_v1r0"
   },
   "596510649": {
-    "Variable Label": "I am worried\"\"\"\"\"\"\"\"my\"\"\"\"\"\"\"\"information isn\"\"\"\"\"\"\"\"t secure or there will be a data breach",
+    "Variable Label": "I am worried\"\"\"\"my\"\"\"\"information isn\"\"\"\"t secure or there will be a data breach",
     "Variable Name": "HdRef_PrivacyE_v1r0"
   },
   "596733110": {
@@ -6110,6 +6153,9 @@
   "604462520": {
     "Variable Label": "How much time electronic marijuana delivery devices used, Age [X] to age [Y / 17]",
     "Variable Name": "SrvSAS_EMJDevTm17_v1r0"
+  },
+  "604663208": {
+    "Variable Name": "Not Active to Passive"
   },
   "604877545": {
     "Variable Label": "Mom response from MOMCANC2/another type of cancer year",
@@ -6271,6 +6317,9 @@
   "618482103": {
     "Variable Name": "In which season(s) did you do these home repairs (such as painting, plumbing, or replacing carpeting)? Select all that apply."
   },
+  "618686157": {
+    "Variable Name": "Deceased"
+  },
   "619337095": {
     "Variable Label": "Stroke",
     "Variable Name": "SrvBOH_Stroke_v1r0"
@@ -6418,6 +6467,10 @@
   },
   "630675760": {
     "Variable Name": "How did you lose weight between ages 35 and 45?"
+  },
+  "631290535": {
+    "Variable Label": "Vials - Empty",
+    "Variable Name": "BioBPTL_VialsEmpty_v1r0"
   },
   "631303960": {
     "Variable Label": "Often snoring",
@@ -6641,9 +6694,6 @@
     "Variable Label": "Payment refused",
     "Variable Name": "HDPaym_PaymRefused_v1r0"
   },
-  "648459216": {
-    "Variable Name": "The participant (via the CSC directly or via a Connect site staff)"
-  },
   "648665281": {
     "Variable Name": "1 beer"
   },
@@ -6717,9 +6767,6 @@
   "652357376": {
     "Variable Label": "ACD Tube 1",
     "Variable Name": "BioCol_0005_v1r0"
-  },
-  "652372266": {
-    "Variable Name": "None of the above, should be used when campaign type is not available."
   },
   "652561589": {
     "Variable Label": "Standing with some walking (for example, as a store clerk, filing, making copies, walking to/from meetings, working on an assembly line, etc.)",
@@ -6816,19 +6863,12 @@
     "Variable Label": "Liver Cirrhosis age",
     "Variable Name": "SrvBOH_CirrhosisAge_v1r0"
   },
-  "658808644": {
-    "Variable Name": "The Connect Principal Investigator (or designate)"
-  },
   "658810736": {
     "Variable Label": "Slow release implant (testosterone pellets)",
     "Variable Name": "SrvMRE_TTTestosPellets_v1r0"
   },
   "659627058": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Liver cancer?"
-  },
-  "659684779": {
-    "Variable Label": "Damaged Container (outer and/or inner)",
-    "Variable Name": "BioBPTL_DamagedCont_v1r0"
   },
   "659784914": {
     "Variable Label": "Dad living",
@@ -6910,10 +6950,6 @@
     "Variable Label": "Mom Ovarian cancer year",
     "Variable Name": "SrvBOH_MomOvaCancYr_v1r0"
   },
-  "665883282": {
-    "Variable Label": "Cold Packs – insufficient",
-    "Variable Name": "BioBPTL_ColdPackIns_v1r0"
-  },
   "666553960": {
     "Variable Label": "Shipment courier",
     "Variable Name": "BioPack_Courier_v1r0"
@@ -6942,10 +6978,6 @@
   },
   "668834883": {
     "Variable Name": "Have you ever taken any of these types of estrogen-only (unopposed estrogen) prescription hormones? Select all that apply."
-  },
-  "669336526": {
-    "Variable Label": "Cold Packs - warm",
-    "Variable Name": "BioBPTL_ColdPackWarm_v1r0"
   },
   "669977999": {
     "Variable Label": "Arabic",
@@ -7041,9 +7073,16 @@
     "Variable Label": "Collection Date/Time",
     "Variable Name": "BioCol_ColTime_v1r0"
   },
+  "678208830": {
+    "Variable Name": "Who Requested the Refusal/Withdrawal"
+  },
   "678257151": {
     "Variable Label": "Age last smoked a hookah or water pipe",
     "Variable Name": "SrvSAS_AgeHookahL_v1r0"
+  },
+  "678483571": {
+    "Variable Label": "Damaged Container (outer and/or inner)",
+    "Variable Name": "BioBPTL_DamagedCont_v1r0"
   },
   "678720087": {
     "Variable Label": "Liver",
@@ -7275,10 +7314,6 @@
     "Variable Label": "Number siblings",
     "Variable Name": "SrvBOH_SiblingNum_v1r0"
   },
-  "694392646": {
-    "Variable Label": "Cold Packs - none",
-    "Variable Name": "BioBPTL_ColdPackNone_v1r0"
-  },
   "694594047": {
     "Variable Label": "blood clots (deep vein thrombosis, pulmonary embolism)diagnosis year",
     "Variable Name": "SrvBOH_BloodClotYr_v1r0"
@@ -7412,6 +7447,9 @@
   "704199032": {
     "Variable Name": "Non-Oahu"
   },
+  "704529432": {
+    "Variable Name": "Requested and signed"
+  },
   "704544306": {
     "Variable Label": "Barrett's Esophagus",
     "Variable Name": "SrvBOH_Barretts_v1r0"
@@ -7533,6 +7571,10 @@
   "711620228": {
     "Variable Label": "Stomach",
     "Variable Name": "SrvBOH_S1StomachCanc_v1r0"
+  },
+  "711721942": {
+    "Variable Label": "The Connect Principal Investigator (or designate)",
+    "Variable Name": "HdWd_PIRequested_v1r0"
   },
   "711794630": {
     "Variable Label": "PIN Match",
@@ -7908,9 +7950,6 @@
   "745268907": {
     "Variable Name": "Medications, Reproductive Health, Exercise, and Sleep"
   },
-  "745366882": {
-    "Variable Name": "The Chair of the Connect IRB-of-record (NIH IRB)"
-  },
   "745461008": {
     "Variable Label": "During that time, did you ever use THC concentrates via dabbing every day?",
     "Variable Name": "SrvSAS_THCEveryDay_v1r0"
@@ -8015,6 +8054,9 @@
   "750994269": {
     "Variable Name": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had Pancreatic cancer?"
   },
+  "751090337": {
+    "Variable Name": "Less than $10,000/year"
+  },
   "751148938": {
     "Variable Label": "Total amount of time used e-cigarettes or other vaping devices per day when daily user",
     "Variable Name": "SrvSAS_TotalTmECig_v1r0"
@@ -8078,6 +8120,9 @@
   "756521698": {
     "Variable Label": "Often stop breathing",
     "Variable Name": "SrvMRE_StopBreathing_v1r0"
+  },
+  "756543727": {
+    "Variable Name": "Other (Hispanic, Asian, American Indian/Alaskan Native, Native Hawaiian or Pacific Islander) and Ethnicity Unavailable/Unknown"
   },
   "756784147": {
     "Variable Name": "SF Cancer Center LL"
@@ -8253,6 +8298,9 @@
     "Variable Label": "Back pain/backache",
     "Variable Name": "SrvMRE_BackPain_v1r0"
   },
+  "769989901": {
+    "Variable Name": "Revoked HIPAA only"
+  },
   "770077563": {
     "Variable Label": "cholecystectomy age",
     "Variable Name": "SrvBOH_CholecAge_v1r0"
@@ -8330,6 +8378,9 @@
   "774992239": {
     "Variable Label": "Age vaginal ring, vaginal cream, or vaginal tablet estrogen-only medication last use",
     "Variable Name": "SrvMRE_CurrVagRingEL_v1r0"
+  },
+  "775188224": {
+    "Variable Name": "BPTL – Receipts"
   },
   "775227045": {
     "Variable Label": "Number of servings consumed  marijuana in food or drinks, servings per day don't know",
@@ -8457,9 +8508,6 @@
     "Variable Label": "Samoan",
     "Variable Name": "SrvBOH_Samoan_v1r0"
   },
-  "786757575": {
-    "Variable Name": "Site PI listed on the site-specific consent form"
-  },
   "787142499": {
     "Variable Label": "Birth control patch (such as Ortho Evra, applied to the skin)",
     "Variable Name": "SrvMRE_BCPatch_v1r0"
@@ -8482,6 +8530,9 @@
   },
   "787591805": {
     "Variable Name": "In which season(s) did you do strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups)? Select all that apply."
+  },
+  "788071735": {
+    "Variable Name": "African American/Black and Hispanic or Latino"
   },
   "788630268": {
     "Variable Label": "How many days per cycle did you use this other type of combined estrogen plus progestin prescription hormones?",
@@ -8508,10 +8559,6 @@
   },
   "790248631": {
     "Variable Name": "How old were you when you started using THC concentrates via dabbing on a regular basis?"
-  },
-  "790986868": {
-    "Variable Label": "Vials - Empty",
-    "Variable Name": "BioBPTL_VialsEmpty_v1r0"
   },
   "791071736": {
     "Variable Label": "Dad Non-melanoma skin (basal or squamous) cancer year",
@@ -8871,6 +8918,9 @@
     "Variable Label": "Shingles (Herpes Zoster) diagnosis age",
     "Variable Name": "SrvBOH_ShinglesAge_v1r0"
   },
+  "815443726": {
+    "Variable Name": "Withdrew consent"
+  },
   "817131019": {
     "Variable Label": "Hormonal IUD (such as Mirena intrauterine device)",
     "Variable Name": "SrvMRE_HormonalIUD_v1r0"
@@ -9218,6 +9268,10 @@
     "Variable Label": "Days consumed marijuana in food or drinks past 30 days",
     "Variable Name": "SrvSAS_Edibles30Days_v1r0"
   },
+  "842171722": {
+    "Variable Label": "No Pre-notification",
+    "Variable Name": "BioBPTL_NoPreNotif_v1r0"
+  },
   "842657297": {
     "Variable Label": "Days work",
     "Variable Name": "SrvBOH_DaysWork_v1r0"
@@ -9270,12 +9324,13 @@
     "Variable Label": "Last time took over-the-counter proton pump inhibitors",
     "Variable Name": "SrvMRE_ProtPumpOCTime_v1r0"
   },
-  "847056701": {
-    "Variable Name": "Chair of the Site IRB"
-  },
   "847159717": {
     "Variable Label": "Placeholder - Date/time Urine Collected",
     "Variable Name": "BioFin_BUTime_v1r0"
+  },
+  "847410060": {
+    "Variable Label": "Improper Packaging",
+    "Variable Name": "BioBPTL_ImpPackaging_v1r0"
   },
   "847533056": {
     "Variable Label": "Longest held job",
@@ -9329,6 +9384,9 @@
     "Variable Label": "Currently using vaginal ring, vaginal cream, or vaginal tablet estrogen-only medication",
     "Variable Name": "SrvMRE_CurrVagRingE_v1r0"
   },
+  "850872507": {
+    "Variable Name": "Don't know"
+  },
   "852236900": {
     "Variable Label": "Ductal Carcinoma biopsy",
     "Variable Name": "SrvBOH_DuctCarcinoma_v1r0"
@@ -9346,6 +9404,10 @@
   "853261835": {
     "Variable Label": "Illness, cold/flu, fever",
     "Variable Name": "SrvMRE_Illness_v1r0"
+  },
+  "853876696": {
+    "Variable Label": "Manifest – not provided",
+    "Variable Name": "BioBPTL_ManifestNP_v1r0"
   },
   "854033657": {
     "Variable Label": "How many servings THC concentrates via dabbing used, [X / 30] to age [Y / 39 / current age]",
@@ -9598,9 +9660,9 @@
     "Variable Label": "Strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups)",
     "Variable Name": "SrvMRE_Strengthening_v1r0"
   },
-  "869218574": {
-    "Variable Label": "Comments - Site Shipment",
-    "Variable Name": "BioBPTL_ShipComments_v1r0"
+  "869233107": {
+    "Variable Label": "Chair of the Site IRB",
+    "Variable Name": "HdWd_SitChairRequested_v1r0"
   },
   "869387390": {
     "Variable Label": "Sibling 1 age",
@@ -9617,6 +9679,10 @@
   "870244556": {
     "Variable Label": "NO MHGROUP5 conditions",
     "Variable Name": "SrvBOH_NoKidneyDis_v1r0"
+  },
+  "870456401": {
+    "Variable Label": "Comments - Site Shipment",
+    "Variable Name": "BioBPTL_ShipComments_v1r0"
   },
   "871278927": {
     "Variable Label": "Prefer not to answer",
@@ -9923,6 +9989,9 @@
   "895837106": {
     "Variable Name": "In which season(s) you do other exercise? Select all that apply."
   },
+  "896943397": {
+    "Variable Name": "Race Unavailable/Unknown and Ethnicity not Hispanic or Latino"
+  },
   "897282791": {
     "Variable Label": "How many days used cigarettes, age last used",
     "Variable Name": "SrvSAS_DaysCigsUseAgeL_v1r0"
@@ -10065,6 +10134,10 @@
   },
   "909341929": {
     "Variable Name": "Metformin milligrams"
+  },
+  "909529446": {
+    "Variable Label": "Cold Packs – insufficient",
+    "Variable Name": "BioBPTL_ColdPackIns_v1r0"
   },
   "909774794": {
     "Variable Name": "My periods stopped after surgery that removed my uterus and/or both ovaries"
@@ -10252,6 +10325,10 @@
     "Variable Label": "How old were you when you first used two separate pills?",
     "Variable Name": "SrvMRE_TwoSepPillAge_v1r0"
   },
+  "922995819": {
+    "Variable Label": "Manifest/Paperwork/Vial information do not match",
+    "Variable Name": "BioBPTL_ManifestDNM_v1r0"
+  },
   "923311241": {
     "Variable Label": "None of these fully describe me. Please describe",
     "Variable Name": "SrvBOH_NoneRE2_v1r0"
@@ -10278,6 +10355,13 @@
   "925558172": {
     "Variable Label": "Prostate",
     "Variable Name": "SrvBOH_C1ProstateCanc_v1r0"
+  },
+  "926338735": {
+    "Variable Name": "Random"
+  },
+  "926457119": {
+    "Variable Label": "Date Received - Site Shipment",
+    "Variable Name": "BioBPTL_DateRec_v1r0"
   },
   "926584500": {
     "Variable Label": "Swim laps",
@@ -10335,6 +10419,10 @@
   },
   "933417196": {
     "Variable Name": "On days that you [use/used] THC concentrates via dabbing, how many servings [do/did] you have per day?"
+  },
+  "933646000": {
+    "Variable Label": "Other",
+    "Variable Name": "BioBPTL_Other_v1r0"
   },
   "934037640": {
     "Variable Label": "Changed diet",
@@ -10481,9 +10569,6 @@
     "Variable Label": "over-the-counter H2 receptor blockers days per week",
     "Variable Name": "SrvMRE_H2RecBlockOCWk_v1r0"
   },
-  "944602921": {
-    "Variable Name": "BPTL – Receipts"
-  },
   "944699052": {
     "Variable Label": "During the season[s] in the past 12 months that you swam laps, about how often did you do this activity?",
     "Variable Name": "SrvMRE_SwimLapsOften_v1r0"
@@ -10596,6 +10681,10 @@
     "Variable Label": "Age first used e-cigarettes or other vaping devices",
     "Variable Name": "SrvSAS_ECigAgeUseF_v1r0"
   },
+  "951080629": {
+    "Variable Label": "Other",
+    "Variable Name": "HdWd_OtherRequested_v1r0"
+  },
   "951355211": {
     "Variable Label": "Collection Location",
     "Variable Name": "BioSpm_Location_v1r0"
@@ -10672,6 +10761,10 @@
     "Variable Label": "Sibling 1 Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.) cancer year",
     "Variable Name": "SrvBOH_S1HNCancYr_v1r0"
   },
+  "958000780": {
+    "Variable Label": "Shipment Delay",
+    "Variable Name": "BioBPTL_ShipDelay_v1r0"
+  },
   "958005658": {
     "Variable Label": "Last 12 months, often sunbathe outdoors",
     "Variable Name": "SrvSAS_Sunbathe12Mo_v1r0"
@@ -10690,10 +10783,6 @@
   "958275484": {
     "Variable Label": "Dad response from DadCANC2/another type of cancer age",
     "Variable Name": "SrvBOH_DadOtherCancAge_v1r0"
-  },
-  "958386677": {
-    "Variable Label": "Damaged Vials",
-    "Variable Name": "BioBPTL_DamagedVials_v1r0"
   },
   "958524261": {
     "Variable Name": "36 – 50"
@@ -10814,10 +10903,6 @@
   "967372009": {
     "Variable Label": "Recorded message",
     "Variable Name": "RcrtES_Aware_v1r0_Hold"
-  },
-  "967674331": {
-    "Variable Label": "Improper Packaging",
-    "Variable Name": "BioBPTL_ImpPackaging_v1r0"
   },
   "967743610": {
     "Variable Label": "Use cigars, cigarillos, or little filtered cigars now",
@@ -10978,6 +11063,9 @@
   "980403315": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Gallstones (Biliary Stones) ?"
   },
+  "980683548": {
+    "Variable Name": "No Refusal"
+  },
   "980685446": {
     "Variable Label": "Dad anal cancer year",
     "Variable Name": "SrvBOH_DadAnalCancYr_v1r0"
@@ -11117,12 +11205,19 @@
     "Variable Label": "Breast part removal age",
     "Variable Name": "SrvBOH_BreastPtRemAge_v1r0"
   },
+  "989324926": {
+    "Variable Name": "None of the above, should be used when campaign type is not available."
+  },
   "989963077": {
     "Variable Label": "Last consume marijuana in food or drinks",
     "Variable Name": "SrvSAS_EdiblesLast_v1r0"
   },
   "990114799": {
     "Variable Name": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had Stomach cancer?"
+  },
+  "990304236": {
+    "Variable Label": "The participant (via the CSC directly or via a Connect site staff)",
+    "Variable Name": "HdWd_PartRequested_v1r0"
   },
   "990319383": {
     "Variable Label": "Melanoma (skin)",
@@ -11133,7 +11228,7 @@
     "Variable Name": "SrvBOH_Exercised1_v1r0"
   },
   "990579614": {
-    "Variable Label": "I am worried about data being given to\"\"\"\"\"\"\"\"my\"\"\"\"\"\"\"\"employer/potential employer",
+    "Variable Label": "I am worried about data being given to\"\"\"\"my\"\"\"\"employer/potential employer",
     "Variable Name": "HdRef_PrivacyG_v1r0"
   },
   "990599372": {
