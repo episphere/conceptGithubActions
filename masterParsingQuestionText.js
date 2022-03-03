@@ -324,11 +324,12 @@ function parseMasterModule() {
                                         //console.log(currJSON)
                                         //console.log(masterJSON[head])
                                         if(currJSON['conceptId'] == 283652434){
-                                        console.log('efg')
-                                        console.log(masterJSON[head])
-                                    }
-                                        if (toReturn[masterJSON[head]['Quest_Src Question'].toUpperCase()]) {
-                                            toInsert = toReturn[masterJSON[head]['Quest_Src Question'].toUpperCase()];
+                                            console.log('efg')
+                                            console.log(masterJSON[head])
+                                        }
+                                        console.log(toReturn)
+                                        if (toReturn[head.toUpperCase()]) {
+                                            toInsert = toReturn[head.toUpperCase()];
                                         }
                                         else {
                                             toInsert = { 'questIds': {} }
@@ -352,7 +353,7 @@ function parseMasterModule() {
                                         }
                                         //console.log(masterJSON[head])
 
-                                        toReturn[masterJSON[head]['Quest_Src Question'].toUpperCase()] = toInsert;
+                                        toReturn[head.toUpperCase()] = toInsert;
 
 
 
