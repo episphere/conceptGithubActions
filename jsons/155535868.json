@@ -14,9 +14,7 @@
   "Variable Name": [
     "SrvBOH_OtherWtLossDes1_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "WTLOSS2_1825_TB"
-  ],
+  "": "Optional Select All that Apply",
   "Variable Type": "Char",
   "Variable Length": "300",
   "Format/Value": "N/A",
@@ -24,8 +22,5 @@
   "PII": "No",
   "Notes": "Only display if WTLOSS2_1825 = 55",
   "Date added or modified": "9/15/21",
-  "Question Type": "Optional Select All that Apply",
-  "Quest_Src Question": [
-    "WTLOSS2_1825"
-  ]
+  "undefined": "WTLOSS2_1825"
 }

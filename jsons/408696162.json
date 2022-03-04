@@ -58,39 +58,12 @@
     "SrvSAS_AgeUseTHCReg_v1r0",
     "SrvSAS_AgeAlcReg_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "CIG3_AGE",
-    "REGVAPE_AGE",
-    "REGCIGAR_AGE",
-    "REGCHEW_AGE",
-    "HOOKAH3_AGE",
-    "PIPE3_AGE",
-    "REGSMMAR_AGE",
-    "REGTOMAR_AGE",
-    "REGELMAR_AGE",
-    "REGEAMAR_AGE",
-    "REGTHMAR_AGE",
-    "REGALCOHOL_AGE"
-  ],
+  "": "N/A",
   "Variable Type": "Num",
   "Variable Length": "2",
   "Format/Value": "N/A",
-  "Old Quest Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "10/29/21",
-  "Quest_Src Question": [
-    "CIG3",
-    "ECIG3",
-    "CIGAR3",
-    "CHEW3",
-    "HOOKAH3",
-    "PIPE3",
-    "SMMAR3",
-    "TOMAR3",
-    "ELMAR3",
-    "EAMAR3",
-    "THMAR3",
-    "ALCOHOL4"
-  ]
+  "undefined": "CIG3"
 }

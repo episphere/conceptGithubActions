@@ -14,19 +14,14 @@
   "Variable Name": [
     "SrvBOH_Cervix_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "4"
-  ],
+  "": "Required Select All that Apply",
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if SEX=Intersex or other",
   "Date added or modified": "9/17/21",
-  "Question Type": "Required Select All that Apply",
-  "Quest_Src Question": [
-    "SEX2"
-  ],
+  "undefined": "SEX2",
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

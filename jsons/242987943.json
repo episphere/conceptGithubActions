@@ -11,8 +11,13 @@
   "Variable Name": [
     "SrvSAS_WineServ12Mo_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "WINE2"
+  "": [
+    "1= 1 glass",
+    "2= 2 glasses",
+    "3= 3 glasses",
+    "4= 4 glasses",
+    "5= 5 glasses",
+    "6= 6 or more glasses"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -26,13 +31,5 @@
     "473673527.json": "3",
     "290010251.json": "4",
     "355205294.json": "5"
-  },
-  "Old Quest Value": {
-    "332226274.json": "1",
-    "549638643.json": "2",
-    "939235325.json": "3",
-    "473673527.json": "4",
-    "290010251.json": "5",
-    "355205294.json": "6"
   }
 }

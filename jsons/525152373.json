@@ -11,8 +11,13 @@
   "Variable Name": [
     "SrvSAS_SunburnNum_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "BLISTERING"
+  "": [
+    "1= None",
+    "2= 1 to 2",
+    "3= 3 to 4",
+    "4= 5 to 9",
+    "5= 10 or more",
+    "6= Don’t know"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -26,13 +31,5 @@
     "922737557.json": "3",
     "945387130.json": "4",
     "178420302.json": "77"
-  },
-  "Old Quest Value": {
-    "503218834.json": "1",
-    "961021302.json": "2",
-    "953684708.json": "3",
-    "922737557.json": "4",
-    "945387130.json": "5",
-    "832322940.json": "6"
   }
 }

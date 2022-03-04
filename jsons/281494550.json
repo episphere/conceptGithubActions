@@ -11,8 +11,10 @@
   "Variable Name": [
     "SrvMRE_PregMultiples_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "PREG6"
+  "": [
+    "1=Two (twins)",
+    "2=Three (triplets)",
+    "3=Four or more"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -23,10 +25,5 @@
     "582602017.json": "0",
     "105727261.json": "1",
     "720288326.json": "2"
-  },
-  "Old Quest Value": {
-    "582602017.json": "1",
-    "105727261.json": "2",
-    "720288326.json": "3"
   }
 }

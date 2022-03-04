@@ -18,29 +18,24 @@
   "Variable Name": [
     "SrvSAS_WhyUseEMJDev_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "ELMAR10"
+  "": [
+    "1= Recreation",
+    "2= As medicine",
+    "3= Recreation and as medicine",
+    "4= Other: Please describe",
+    "5= Prefer not to answer"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "11/23/21",
-  "Quest_Src Question": [
-    "ELMAR10"
-  ],
+  "undefined": "ELMAR10",
   "Format/Value": {
     "437269318.json": "0",
     "838317013.json": "1",
     "585672584.json": "2",
     "807835037.json": "55",
     "746038746.json": "99"
-  },
-  "Old Quest Value": {
-    "437269318.json": "1",
-    "838317013.json": "2",
-    "585672584.json": "3",
-    "431441193.json": "4",
-    "746038746.json": "5"
   }
 }

@@ -11,8 +11,15 @@
   "Variable Name": [
     "SrvSAS_DaysAroundSmoke_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "CURRSM"
+  "": [
+    "1= Every day",
+    "2= Most days of the week",
+    "3= A few days per week",
+    "4= One day per week",
+    "5= A few days per month",
+    "6= One day per month",
+    "7= A few days per year",
+    "8= Never"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -28,15 +35,5 @@
     "865134801.json": "5",
     "667010122.json": "6",
     "648960871.json": "44"
-  },
-  "Old Quest Value": {
-    "647504893.json": "1",
-    "417208949.json": "2",
-    "797736697.json": "3",
-    "480609810.json": "4",
-    "485011582.json": "5",
-    "865134801.json": "6",
-    "667010122.json": "7",
-    "648960871.json": "8"
   }
 }

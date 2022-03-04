@@ -11,8 +11,9 @@
   "Variable Name": [
     "SrvSAS_DrinkAlc12Mo_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "ALCOHOL5"
+  "": [
+    "1 = Yes",
+    "2 = No"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -22,9 +23,5 @@
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  },
-  "Old Quest Value": {
-    "353358909.json": "1",
-    "104430631.json": "2"
   }
 }

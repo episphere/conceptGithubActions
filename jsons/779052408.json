@@ -11,8 +11,9 @@
   "Variable Name": [
     "SrvMRE_GestDiab_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "PREG10"
+  "": [
+    "2=No",
+    "1=Yes"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -22,10 +23,6 @@
   "Date added or modified": "10/19/21",
   "Format/Value": {
     "104430631.json": "0",
-    "353358909.json": "1"
-  },
-  "Old Quest Value": {
-    "104430631.json": "2",
     "353358909.json": "1"
   }
 }

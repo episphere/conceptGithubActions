@@ -11,8 +11,13 @@
   "Variable Name": [
     "SrvSAS_HrsAroundSmoke_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "CURRSM2"
+  "": [
+    "1=Less than 1 hour per day",
+    "2=1 to 2 hours per day",
+    "3=3 to 5 hours per day",
+    "4=6 to 9 hours per day",
+    "5=10 to 15 hours per day",
+    "6=More than 15 hours per day"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -26,13 +31,5 @@
     "838981994.json": "3",
     "464169461.json": "4",
     "683466918.json": "5"
-  },
-  "Old Quest Value": {
-    "174968750.json": "1",
-    "738454194.json": "2",
-    "229540444.json": "3",
-    "838981994.json": "4",
-    "464169461.json": "5",
-    "683466918.json": "6"
   }
 }

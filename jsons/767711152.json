@@ -14,17 +14,23 @@
   "Variable Name": [
     "SrvSAS_AroundSmoke5059_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "SECSMLF2F"
+  "": [
+    "1= Every day, at least two hours each day",
+    "2= Every day, less than 2  hours each day",
+    "3= Most days of the week",
+    "4= A few days per week",
+    "5= One day per week",
+    "6= A few days per month",
+    "7= One day per month",
+    "8= A few days per year",
+    "9= Never"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "12/1/21",
-  "Quest_Src Question": [
-    "grid_SECSMLF2"
-  ],
+  "undefined": "grid_SECSMLF2",
   "Format/Value": {
     "162693263.json": "0",
     "924926068.json": "1",
@@ -35,16 +41,5 @@
     "865134801.json": "6",
     "667010122.json": "7",
     "648960871.json": "44"
-  },
-  "Old Quest Value": {
-    "162693263.json": "1",
-    "176965294.json": "2",
-    "417208949.json": "3",
-    "797736697.json": "4",
-    "480609810.json": "5",
-    "485011582.json": "6",
-    "865134801.json": "7",
-    "667010122.json": "8",
-    "648960871.json": "9"
   }
 }

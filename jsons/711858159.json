@@ -11,8 +11,10 @@
   "Variable Name": [
     "SrvSAS_BodyPartSPF_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "SUNSCREEN2"
+  "": [
+    "1= All sun exposed areas",
+    "2= Some sun exposed areas",
+    "3= Face/Head only"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -23,10 +25,5 @@
     "905073380.json": "0",
     "223461539.json": "1",
     "901521065.json": "2"
-  },
-  "Old Quest Value": {
-    "905073380.json": "1",
-    "223461539.json": "2",
-    "901521065.json": "3"
   }
 }

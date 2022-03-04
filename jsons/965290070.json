@@ -14,29 +14,24 @@
   "Variable Name": [
     "SrvMRE_WakeUpEarlier_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "SLHABIT1C"
+  "": [
+    "1 = No",
+    "2 = Yes, less than once a week",
+    "3 = Yes, 1 or 2 times a week",
+    "4 = Yes, 3 or 4 times a week",
+    "5 =Yes, 5 or more times a week"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "11/15/21",
-  "Quest_Src Question": [
-    "GRID_SLHABIT1"
-  ],
+  "undefined": "GRID_SLHABIT1",
   "Format/Value": {
     "104430631.json": "0",
     "525779785.json": "1",
     "565036180.json": "2",
     "284343405.json": "3",
     "270994579.json": "4"
-  },
-  "Old Quest Value": {
-    "104430631.json": "1",
-    "525779785.json": "2",
-    "565036180.json": "3",
-    "284343405.json": "4",
-    "270994579.json": "5"
   }
 }

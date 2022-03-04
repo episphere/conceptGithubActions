@@ -11,26 +11,22 @@
   "Variable Name": [
     "SrvBOH_OverHealth_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "OVERHEALTH"
+  "": [
+    "1 = Excellent",
+    "2 = Very good",
+    "3 = Good",
+    "4 = Fair",
+    "5 = Poor"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Question Type": "Optional Multiple Choice",
   "Format/Value": {
     "670680466.json": "0",
     "565881164.json": "1",
     "719933364.json": "2",
     "131550264.json": "3",
     "138752522.json": "4"
-  },
-  "Old Quest Value": {
-    "670680466.json": "1",
-    "565881164.json": "2",
-    "719933364.json": "3",
-    "131550264.json": "4",
-    "138752522.json": "5"
   }
 }

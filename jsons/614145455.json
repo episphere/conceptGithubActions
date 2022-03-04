@@ -18,17 +18,22 @@
   "Variable Name": [
     "SrvMRE_NoPeriodReason_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "MENSHIS7"
+  "": [
+    "1=My periods stopped naturally due to menopause",
+    "2= My periods stopped because I began taking female hormones during the menopausal transition or menopause (\"\"\"\"the change of life\"\"\"\")",
+    "3=My periods stopped after surgery that removed my uterus and/or both ovaries",
+    "4=My periods stopped after endometrial ablation (removal of the endometrium \"\"\"\" lining of the uterus)",
+    "5= I am currently using a hormonal medication or device (such as an intrauterine device (IUD)) to prevent pregnancy, manage my menstrual cycle symptoms, and/or manage conditions like endometriosis or polycystic ovarian syndrome (PCOS)",
+    "6=I was pregnant or breastfeeding during the last year",
+    "7= My periods stopped after radiation or chemotherapy",
+    "8= My periods stopped for other reasons: Please describe"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "10/5/21",
-  "Quest_Src Question": [
-    "MENSHIS7"
-  ],
+  "undefined": "MENSHIS7",
   "Format/Value": {
     "582425113.json": "0",
     "330745988.json": "1",
@@ -38,15 +43,5 @@
     "757609794.json": "5",
     "585076356.json": "6",
     "807835037.json": "55"
-  },
-  "Old Quest Value": {
-    "582425113.json": "1",
-    "330745988.json": "2",
-    "909774794.json": "3",
-    "868504994.json": "4",
-    "655309065.json": "5",
-    "757609794.json": "6",
-    "585076356.json": "7",
-    "766919347.json": "8"
   }
 }

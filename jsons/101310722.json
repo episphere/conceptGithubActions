@@ -66,43 +66,12 @@
     "SrvMRE_PPOCPill_v1r0",
     "SrvMRE_H2RecBlocOCPill_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "PAINREL3_1A",
-    "PAINREL3_2A",
-    "PAINREL3_3A",
-    "PAINREL3_4A",
-    "PAINREL3_5A",
-    "PAINREL3_6A",
-    "PAINREL3_7A",
-    "CHOLHTN3_1A",
-    "CHOLHTN3_2A",
-    "METFOR3_1A",
-    "INSULIN3_1A",
-    "ACIDSUP3_1A",
-    "ACIDSUP3_2A",
-    "ACIDSUP3_3A"
-  ],
+  "": "N/A",
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Old Quest Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if PAINREL1 = 0",
   "Date added or modified": "10/25/21",
-  "Quest_Src Question": [
-    "PAINREL3_1",
-    "PAINREL3_2",
-    "PAINREL3_3",
-    "PAINREL3_4",
-    "PAINREL3_5",
-    "PAINREL3_6",
-    "PAINREL3_7",
-    "CHOLHTN3_1",
-    "CHOLHTN3_2",
-    "METFOR3_1",
-    "INSULIN3_1",
-    "ACIDSUP3_1",
-    "ACIDSUP3_2",
-    "ACIDSUP3_3"
-  ]
+  "undefined": "PAINREL3_1"
 }

@@ -14,9 +14,9 @@
     "SrvSAS_ECigEDAgeUseL_v1r0",
     "SrvSAS_UseEMJDevEDL_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "ECIG8C",
-    "ELMAR8C"
+  "": [
+    "1 = No",
+    "2 = Yes"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -26,9 +26,5 @@
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  },
-  "Old Quest Value": {
-    "104430631.json": "1",
-    "353358909.json": "2"
   }
 }

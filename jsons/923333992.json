@@ -14,9 +14,7 @@
   "Variable Name": [
     "SrvBOH_OtherBsnDescC_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "BSNSSTYP1_TB"
-  ],
+  "": "Optional Select All that Apply",
   "Variable Type": "Char",
   "Variable Length": "300",
   "Format/Value": "N/A",
@@ -24,8 +22,5 @@
   "PII": "No",
   "Notes": "Only fill if other selection for BSNSSTYP1",
   "Date added or modified": "10/13/21",
-  "Question Type": "Optional Select All that Apply",
-  "Quest_Src Question": [
-    "BSNSSTYP1"
-  ]
+  "undefined": "BSNSSTYP1"
 }

@@ -11,8 +11,13 @@
   "Variable Name": [
     "SrvSAS_IndoorTan_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "TANBED1"
+  "": [
+    "1= Never",
+    "2= 1-9 times",
+    "3= 10-49 times",
+    "4= 50-99 times",
+    "5= 100-249",
+    "6= 250 times or more"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -26,13 +31,5 @@
     "649327523.json": "3",
     "587052987.json": "4",
     "838336013.json": "5"
-  },
-  "Old Quest Value": {
-    "648960871.json": "1",
-    "555096059.json": "2",
-    "764937603.json": "3",
-    "387029193.json": "4",
-    "935411376.json": "5",
-    "838336013.json": "6"
   }
 }

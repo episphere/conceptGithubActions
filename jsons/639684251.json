@@ -11,8 +11,11 @@
   "Variable Name": [
     "SrvSAS_UseCigsNow_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "CIG4"
+  "": [
+    "1= Yes, every day",
+    "2= Yes, some day",
+    "3= Yes, but rarely",
+    "4= No, not at all"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -24,11 +27,5 @@
     "299561721.json": "1",
     "716761013.json": "2",
     "804785430.json": "3"
-  },
-  "Old Quest Value": {
-    "804785430.json": "1",
-    "556241009.json": "2",
-    "299561721.json": "3",
-    "419415087.json": "4"
   }
 }

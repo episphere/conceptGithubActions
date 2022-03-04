@@ -11,14 +11,22 @@
   "Variable Name": [
     "SrvBOH_PainRank_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "PAIN2"
+  "": [
+    "1 = 1 (a little pain)",
+    "2 = 2",
+    "3 = 3",
+    "4 = 4",
+    "5 = 5",
+    "6 = 6",
+    "7 = 7",
+    "8 = 8",
+    "9 = 9",
+    "10 = 10 (a lot of pain)"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Question Type": "Optional Multiple Choice",
   "Format/Value": {
     "988858078.json": "0",
     "156095877.json": "1",
@@ -30,17 +38,5 @@
     "406650257.json": "7",
     "700080862.json": "8",
     "616621065.json": "9"
-  },
-  "Old Quest Value": {
-    "988858078.json": "1",
-    "156095877.json": "2",
-    "162668459.json": "3",
-    "278139969.json": "4",
-    "676824724.json": "5",
-    "512144428.json": "6",
-    "125674414.json": "7",
-    "406650257.json": "8",
-    "700080862.json": "9",
-    "616621065.json": "10"
   }
 }

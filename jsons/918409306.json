@@ -14,9 +14,7 @@
   "Variable Name": [
     "SrvBOH_GenderDesc_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "GEN_TB"
-  ],
+  "": "Optional Multiple Choice with Text Box (text in text box)",
   "Variable Type": "Char",
   "Variable Length": "300",
   "Format/Value": "N/A",
@@ -24,8 +22,5 @@
   "PII": "No",
   "Notes": "Option only available if 55 is selected in GEN",
   "Date added or modified": "9/14/21",
-  "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
-  "Quest_Src Question": [
-    "GEN"
-  ]
+  "undefined": "GEN"
 }

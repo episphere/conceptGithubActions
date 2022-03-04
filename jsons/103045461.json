@@ -11,8 +11,13 @@
   "Variable Name": [
     "SrvSAS_OthAlcServ12Mo_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "OTHALC2"
+  "": [
+    "1= 1 serving",
+    "2= 2 servings",
+    "3= 3 servings",
+    "4= 4 servings",
+    "5= 5 servings",
+    "6= 6 or more servings"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -26,13 +31,5 @@
     "905402667.json": "3",
     "900343645.json": "4",
     "554549266.json": "5"
-  },
-  "Old Quest Value": {
-    "968093023.json": "1",
-    "545630587.json": "2",
-    "526602834.json": "3",
-    "905402667.json": "4",
-    "900343645.json": "5",
-    "554549266.json": "6"
   }
 }

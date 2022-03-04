@@ -66,44 +66,13 @@
     "SrvMRE_ProtPumpOCWk_v1r0",
     "SrvMRE_H2RecBlockOCWk_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "BabyAsprinWEEK",
-    "RegAsprinWEEK",
-    "IbuprofenWEEK",
-    "AcetWEEK",
-    "NaproxenWEEK",
-    "CelecoxibWEEK",
-    "PainRelWEEK",
-    "CHOLHTN2_1WK",
-    "CHOLHTN2_2WK",
-    "METFOR2_1WK",
-    "INSULIN2_1WK",
-    "ACIDSUP2_1WK",
-    "ACIDSUP2_2WK",
-    "ACIDSUP2_3WK"
-  ],
+  "": "N/A",
   "Variable Type": "Num",
   "Variable Length": "2",
   "Format/Value": "N/A",
-  "Old Quest Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if PAINREL1 = 0",
   "Date added or modified": "10/8/21",
-  "Quest_Src Question": [
-    "PAINREL2_1",
-    "PAINREL2_2",
-    "PAINREL2_3",
-    "PAINREL2_4",
-    "PAINREL2_5",
-    "PAINREL2_6",
-    "PAINREL2_7",
-    "CHOLHTN2_1",
-    "CHOLHTN2_2",
-    "METFOR2_1",
-    "INSULIN2_1",
-    "ACIDSUP2_1",
-    "ACIDSUP2_2",
-    "ACIDSUP2_3"
-  ]
+  "undefined": "PAINREL2_1"
 }

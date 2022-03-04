@@ -11,31 +11,28 @@
   "Variable Name": [
     "SrvMRE_SkiTime_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "EXEREC4K"
+  "": [
+    "1 = 05 minutes or less_\"\"\"\"",
+    "2 = 06-30 minutes_\"\"\"\"",
+    "3 = 21-44 minutes_",
+    "4 = 35-59 minutes_",
+    "5 = 0-1.9 hours_",
+    "6 = 1-2.9 hours_",
+    "7 = 2 hours or more_"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if EXEREC1=10",
-  "Date added or modified": "11/15/21",
+  "Date added or modified": "2/28/22",
   "Format/Value": {
     "428999623.json": "0",
     "248303092.json": "1",
     "206020811.json": "2",
     "264163865.json": "3",
-    "485370350.json": "4",
-    "679781213.json": "5",
+    "638092100.json": "4",
+    "628177728.json": "5",
     "805918496.json": "6"
-  },
-  "Old Quest Value": {
-    "144986366.json": "1",
-    "717399358.json": "2",
-    "187811281.json": "3",
-    "171420199.json": "4",
-    "914346420.json": "5",
-    "814583703.json": "6",
-    "918885806.json": "7"
   }
 }

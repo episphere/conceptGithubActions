@@ -11,8 +11,11 @@
   "Variable Name": [
     "SrvSAS_SunbatheAdult_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "TANOUTADU"
+  "": [
+    "1= Never",
+    "2= Rarely",
+    "3= Sometimes",
+    "4= Often"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -24,11 +27,5 @@
     "235613392.json": "1",
     "132099255.json": "2",
     "211590917.json": "3"
-  },
-  "Old Quest Value": {
-    "648960871.json": "1",
-    "235613392.json": "2",
-    "132099255.json": "3",
-    "211590917.json": "4"
   }
 }

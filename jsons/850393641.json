@@ -34,26 +34,11 @@
     "SrvMRE_LayInBedMinNW_v1r0",
     "SrvMRE_SunlightMinNW_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "FallAsleepMin",
-    "LayInBedMin",
-    "OutsideMin",
-    "NonWorkFallAsleepMin",
-    "NonWorkAwakeBeforeUpMin",
-    "WorkdayOutsideMin"
-  ],
+  "": "N/A",
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Old Quest Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "10/25/21",
-  "Quest_Src Question": [
-    "SLEEP1D",
-    "SLEEP1I",
-    "SLEEP1M",
-    "SLEEP2D",
-    "SLEEP2I",
-    "SLEEP2N"
-  ]
+  "undefined": "SLEEP1D"
 }

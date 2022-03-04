@@ -34,26 +34,11 @@
     "SrvMRE_LayInBedHrNW_v1r0",
     "SrvMRE_SunlightHrsNW_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "FallAsleepHours",
-    "LayInBedHrs",
-    "OutsideHours",
-    "NonWorkFallAsleepHours",
-    "NonWorkAwakeBeforeUpHours",
-    "WorkdayOutsideHours"
-  ],
+  "": "N/A",
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Old Quest Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "10/25/21",
-  "Quest_Src Question": [
-    "SLEEP1D",
-    "SLEEP1I",
-    "SLEEP1M",
-    "SLEEP2D",
-    "SLEEP2I",
-    "SLEEP2N"
-  ]
+  "undefined": "SLEEP1D"
 }

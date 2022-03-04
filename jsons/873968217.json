@@ -11,23 +11,19 @@
   "Variable Name": [
     "SrvBOH_Child1FullHalf_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "CHILD3"
+  "": [
+    "1 = Your biological child",
+    "2 = Adopted",
+    "3 = A step child"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "9/28/21",
-  "Question Type": "Optional Multiple Choice, Loops",
   "Format/Value": {
     "709650750.json": "0",
     "810290359.json": "1",
     "509607548.json": "2"
-  },
-  "Old Quest Value": {
-    "709650750.json": "1",
-    "810290359.json": "2",
-    "509607548.json": "3"
   }
 }

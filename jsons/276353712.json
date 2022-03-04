@@ -11,23 +11,19 @@
   "Variable Name": [
     "SrvBOH_MomCanc_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "MOMCANC"
+  "": [
+    "1=No",
+    "2=Yes",
+    "77 = Don't know"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Question Type": "Optional Select All that Apply",
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1",
     "178420302.json": "77"
-  },
-  "Old Quest Value": {
-    "104430631.json": "1",
-    "353358909.json": "2",
-    "832322940.json": "77"
   },
   "Date added or modified": [
     "6/24/21"

@@ -11,8 +11,15 @@
   "Variable Name": [
     "SrvMRE_PregOutcome_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "PREG5"
+  "": [
+    "1=Live birth: single infant",
+    "2=Live birth: twins, triplets, or higher multiples",
+    "3=Stillbirth (pregnancy loss after 20 weeks)",
+    "4=Live birth and stillbirth (loss of one or more of multiples)",
+    "5=Miscarriage (pregnancy loss before 20 weeks)",
+    "6=Termination",
+    "7=Ectopic or tubal pregnancy (fertilized egg implants outside of the uterus)",
+    "99=Prefer not to answer"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -27,16 +34,6 @@
     "858244199.json": "4",
     "434041171.json": "5",
     "550615107.json": "6",
-    "746038746.json": "99"
-  },
-  "Old Quest Value": {
-    "223216393.json": "1",
-    "628445697.json": "2",
-    "419220239.json": "3",
-    "306890578.json": "4",
-    "858244199.json": "5",
-    "434041171.json": "6",
-    "550615107.json": "7",
     "746038746.json": "99"
   }
 }

@@ -14,9 +14,7 @@
   "Variable Name": [
     "SrvBOH_NoneDescribeRE2_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "RACEETH2_TB"
-  ],
+  "": "Optional Select All that Apply",
   "Variable Type": "Char",
   "Variable Length": "300",
   "Format/Value": "N/A",
@@ -24,8 +22,5 @@
   "PII": "No",
   "Notes": "Only display if RACEETH = American Indian or Alaska Native",
   "Date added or modified": "9/14/21",
-  "Question Type": "Optional Select All that Apply",
-  "Quest_Src Question": [
-    "RACEETH2"
-  ]
+  "undefined": "RACEETH2"
 }

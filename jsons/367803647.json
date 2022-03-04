@@ -18,18 +18,24 @@
   "Variable Name": [
     "SrvBOH_EducLevel_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "EDU"
+  "": [
+    "1 = Grade school grades 1-8",
+    "2 = Some high school grades 9-11=, no diploma",
+    "3 = High school graduate or GED",
+    "4 = Some college, no degree",
+    "5 = Technical or trade school after high school",
+    "6 = Associate’s degree",
+    "7 = College graduate Bachelor’s degree=",
+    "8 = Advanced degree Master’s, Doctorate, etc.=",
+    "9 = Other: Please describe",
+    "9 = Other: Please describe [text box]"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "1/3/22",
-  "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
-  "Quest_Src Question": [
-    "EDU"
-  ],
+  "undefined": "EDU",
   "Format/Value": {
     "978204320.json": "0",
     "983071268.json": "1",
@@ -40,17 +46,5 @@
     "364743026.json": "6",
     "617509139.json": "7",
     "807835037.json": "55"
-  },
-  "Old Quest Value": {
-    "978204320.json": "1",
-    "935502060.json": "2",
-    "404564707.json": "3",
-    "432193665.json": "4",
-    "890756124.json": "5",
-    "542825733.json": "6",
-    "364743026.json": "7",
-    "617509139.json": "8",
-    "431441193.json": "9",
-    "963867920.json": "9"
   }
 }

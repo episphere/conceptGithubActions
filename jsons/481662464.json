@@ -11,8 +11,13 @@
   "Variable Name": [
     "SrvSAS_BeerServing12Mo_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "BEER2"
+  "": [
+    "1= 1 beer",
+    "2= 2 beers",
+    "3= 3 beers",
+    "4= 4 beers",
+    "5= 5 beers",
+    "6= 6 or more beers"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -26,13 +31,5 @@
     "475454159.json": "3",
     "312200270.json": "4",
     "411022152.json": "5"
-  },
-  "Old Quest Value": {
-    "648665281.json": "1",
-    "420091116.json": "2",
-    "412554346.json": "3",
-    "475454159.json": "4",
-    "312200270.json": "5",
-    "411022152.json": "6"
   }
 }

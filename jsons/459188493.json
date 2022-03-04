@@ -14,22 +14,17 @@
   "Variable Name": [
     "SrvMRE_LupronDepot_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "6"
+  "": [
+    "2=No",
+    "1=Yes"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Quest_Src Question": [
-    "FERT6"
-  ],
+  "undefined": "FERT6",
   "Format/Value": {
     "104430631.json": "0",
-    "353358909.json": "1"
-  },
-  "Old Quest Value": {
-    "104430631.json": "2",
     "353358909.json": "1"
   }
 }

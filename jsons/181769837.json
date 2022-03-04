@@ -18,24 +18,17 @@
     "SrvMRE_OtherExercise_v1r0",
     "SrvSAS_OtherAlc_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "55",
-    "55"
+  "": [
+    "2=No",
+    "1=Yes"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Quest_Src Question": [
-    "EXEREC1",
-    "ALCOHOL8"
-  ],
+  "undefined": "EXEREC1",
   "Format/Value": {
     "104430631.json": "0",
-    "353358909.json": "1"
-  },
-  "Old Quest Value": {
-    "104430631.json": "2",
     "353358909.json": "1"
   },
   "Date added or modified": "10/29/21"

@@ -11,8 +11,11 @@
   "Variable Name": [
     "SrvSAS_DaysUsedMJ_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "SMMAR1"
+  "": [
+    "1= 10 or less",
+    "2= 11—49",
+    "3= 50—99",
+    "4= 100 or more"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -24,11 +27,5 @@
     "805449318.json": "1",
     "486319890.json": "2",
     "132232896.json": "3"
-  },
-  "Old Quest Value": {
-    "151488193.json": "1",
-    "627538534.json": "2",
-    "504173415.json": "3",
-    "132232896.json": "4"
   }
 }

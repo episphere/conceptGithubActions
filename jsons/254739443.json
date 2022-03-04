@@ -11,8 +11,17 @@
   "Variable Name": [
     "SrvSAS_4To5AlcBev_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "ALCOHOL9"
+  "": [
+    "1= Never",
+    "2= 1 – 5 times a year",
+    "3= 6 – 11 times a year",
+    "4= Once a month",
+    "5= 2 – 3 times a month",
+    "6= Once a week",
+    "7= Twice a week",
+    "8= 3 – 4 times a week",
+    "9= 5 – 6 times a week",
+    "10= Every day"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -30,17 +39,5 @@
     "471294296.json": "7",
     "594557208.json": "8",
     "647504893.json": "9"
-  },
-  "Old Quest Value": {
-    "648960871.json": "1",
-    "791382396.json": "2",
-    "411648355.json": "3",
-    "773694393.json": "4",
-    "640707455.json": "5",
-    "522395860.json": "6",
-    "808412976.json": "7",
-    "764448908.json": "8",
-    "224859978.json": "9",
-    "647504893.json": "10"
   }
 }

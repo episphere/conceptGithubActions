@@ -18,24 +18,18 @@
   "Variable Name": [
     "SrvBOH_Child1AgeOther_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "CHILDAGE"
+  "": [
+    "1 = Less than 1 year",
+    "99= Don't know"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "8/23/21",
-  "Question Type": "Textbox Plus Checkbox, Loops",
-  "Quest_Src Question": [
-    "CHILDAGE"
-  ],
+  "undefined": "CHILDAGE",
   "Format/Value": {
     "958239616.json": "0",
     "178420302.json": "77"
-  },
-  "Old Quest Value": {
-    "958239616.json": "1",
-    "832322940.json": "99"
   }
 }

@@ -11,23 +11,19 @@
   "Variable Name": [
     "SrvBOH_Sib1FullHalf_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "SIB3"
+  "": [
+    "1 = Full sibling",
+    "2 = Half sibling, same mother",
+    "3 = Half sibling, same father"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "9/28/21",
-  "Question Type": "Optional Multiple Choice",
   "Format/Value": {
     "555374628.json": "0",
     "871673221.json": "1",
     "198654048.json": "2"
-  },
-  "Old Quest Value": {
-    "555374628.json": "1",
-    "871673221.json": "2",
-    "198654048.json": "3"
   }
 }

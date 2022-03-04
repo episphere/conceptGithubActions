@@ -14,9 +14,7 @@
   "Variable Name": [
     "SrvBOH_NoneDescribeRE4_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "RACEETH4_TB"
-  ],
+  "": "Optional Select All that Apply",
   "Variable Type": "Char",
   "Variable Length": "300",
   "Format/Value": "N/A",
@@ -24,8 +22,5 @@
   "PII": "No",
   "Notes": "Only display if RACEETH = Black, African American, or African",
   "Date added or modified": "9/14/21",
-  "Question Type": "Optional Select All that Apply",
-  "Quest_Src Question": [
-    "RACEETH4"
-  ]
+  "undefined": "RACEETH4"
 }

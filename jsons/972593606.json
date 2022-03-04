@@ -11,8 +11,10 @@
   "Variable Name": [
     "SrvMRE_PeriodLength_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
-    "MENSHIS3_1"
+  "": [
+    "1= Too irregular to guess or used hormonal medication or device such as an intrauterine device IUD== to control menstrual cycle",
+    "2= Less than 21 days",
+    "3= 21 days or more"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -23,10 +25,5 @@
     "549031911.json": "0",
     "858427002.json": "1",
     "471375042.json": "2"
-  },
-  "Old Quest Value": {
-    "549031911.json": "1",
-    "858427002.json": "2",
-    "471375042.json": "3"
   }
 }
