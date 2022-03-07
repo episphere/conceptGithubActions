@@ -11,15 +11,8 @@
   "Variable Name": [
     "SrvBOH_DaysWork_v1r0"
   ],
-  "": [
-    "1 = None",
-    "2 = 1 day",
-    "3 = 2 days",
-    "4 = 3 days",
-    "5 = 4 days",
-    "6 = 5 days",
-    "7 = 6 days",
-    "8 = 7 days"
+  "Connect Value for Select all that apply questions": [
+    "DAYSWORK"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -27,6 +20,7 @@
   "PII": "No",
   "Notes": "THIS QUESTION WAS REMOVED",
   "Date added or modified": "11/19/21",
+  "Question Type": "Optional Multiple Choice",
   "Format/Value": {
     "503218834.json": "0",
     "632371391.json": "1",
@@ -36,5 +30,15 @@
     "107714591.json": "5",
     "689829953.json": "6",
     "164282814.json": "7"
+  },
+  "Old Quest Value": {
+    "503218834.json": "1",
+    "632371391.json": "2",
+    "709969190.json": "3",
+    "928753604.json": "4",
+    "686379250.json": "5",
+    "107714591.json": "6",
+    "689829953.json": "7",
+    "164282814.json": "8"
   }
 }

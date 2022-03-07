@@ -11,12 +11,8 @@
   "Variable Name": [
     "SrvSAS_IndoorTanNum_v1r0"
   ],
-  "": [
-    "1= Every day or almost every day (20-31 days a month)",
-    "2= A few days per week (5-19 days per month)",
-    "3= Once a week",
-    "4= A few times per month (1-4 days per month)",
-    "5= Less than 12 times per year"
+  "Connect Value for Select all that apply questions": [
+    "TANBED5"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -29,5 +25,12 @@
     "522395860.json": "2",
     "756470750.json": "3",
     "402335383.json": "4"
+  },
+  "Old Quest Value": {
+    "255073099.json": "1",
+    "932036279.json": "2",
+    "522395860.json": "3",
+    "968799725.json": "4",
+    "402335383.json": "5"
   }
 }

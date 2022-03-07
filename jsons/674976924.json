@@ -11,10 +11,8 @@
   "Variable Name": [
     "SrvMRE_ShiftWorker_v1r0"
   ],
-  "": [
-    "0=Yes, in the past 3 months",
-    "1 = Yes, more than 3 months ago",
-    "2 = No"
+  "Connect Value for Select all that apply questions": [
+    "SHIFTWORK"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -25,5 +23,10 @@
     "958538953.json": "1",
     "274062548.json": "2",
     "104430631.json": "0"
+  },
+  "Old Quest Value": {
+    "958538953.json": "0",
+    "274062548.json": "1",
+    "104430631.json": "2"
   }
 }

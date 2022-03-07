@@ -14,22 +14,27 @@
   "Variable Name": [
     "SrvMRE_SittingTalking_v1r0"
   ],
-  "": [
-    "1 = No chance",
-    "2 = Slight chance",
-    "3 = Moderate chance",
-    "4 = High Chance"
+  "Connect Value for Select all that apply questions": [
+    "SLHABIT3F"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "10/8/21",
-  "undefined": "GRID_SLHABIT3",
+  "Quest_Src Question": [
+    "GRID_SLHABIT3"
+  ],
   "Format/Value": {
     "514068832.json": "0",
     "774439579.json": "1",
     "747099514.json": "2",
     "977681388.json": "3"
+  },
+  "Old Quest Value": {
+    "514068832.json": "1",
+    "774439579.json": "2",
+    "747099514.json": "3",
+    "977681388.json": "4"
   }
 }

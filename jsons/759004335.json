@@ -11,23 +11,14 @@
   "Variable Name": [
     "SrvBOH_Income_v1r0"
   ],
-  "": [
-    "1 = Less than $10,000/year",
-    "2 = $10,000–$24,999/year",
-    "3 = $25,000–$34,999/year",
-    "4 = $35,000–$49,999/year",
-    "5 = $50,000–$74,999/year",
-    "6 = $75,000–$99,999/year",
-    "7 = $100,000–$149,999/year",
-    "8 = $150,000–$199,999/year",
-    "9 = $200,000 or more/year",
-    "77= Don’t know",
-    "99= Prefer not to answer"
+  "Connect Value for Select all that apply questions": [
+    "INCOME"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
+  "Question Type": "Optional Multiple Choice",
   "Format/Value": {
     "374508062.json": "0",
     "976555124.json": "1",
@@ -39,6 +30,19 @@
     "913602274.json": "7",
     "742032816.json": "8",
     "178420302.json": "77",
+    "746038746.json": "99"
+  },
+  "Old Quest Value": {
+    "374508062.json": "1",
+    "976555124.json": "2",
+    "745561936.json": "3",
+    "209571450.json": "4",
+    "212249150.json": "5",
+    "777814771.json": "6",
+    "922395188.json": "7",
+    "913602274.json": "8",
+    "742032816.json": "9",
+    "832322940.json": "77",
     "746038746.json": "99"
   },
   "Date added or modified": [

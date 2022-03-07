@@ -14,12 +14,17 @@
   "Variable Name": [
     "SrvBOH_HeightFt_v1r0"
   ],
-  "": "Multiple Text Boxes",
+  "Connect Value for Select all that apply questions": [
+    "HEIGHTFT"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "9/14/21",
-  "undefined": "HEIGHTFEET"
+  "Question Type": "Multiple Text Boxes",
+  "Quest_Src Question": [
+    "HEIGHTFEET"
+  ]
 }

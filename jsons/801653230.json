@@ -14,12 +14,17 @@
   "Variable Name": [
     "SrvBOH_AltContLv1r0"
   ],
-  "": "Multiple Text Boxes",
+  "Connect Value for Select all that apply questions": [
+    "ALTCONTACT1_LNAME"
+  ],
   "Variable Type": "Char",
   "Variable Length": "300",
   "Format/Value": "N/A",
   "Required": "No",
   "PII": "Yes",
   "Date added or modified": "9/14/21",
-  "undefined": "ALTCONTACT1"
+  "Question Type": "Multiple Text Boxes",
+  "Quest_Src Question": [
+    "ALTCONTACT1"
+  ]
 }

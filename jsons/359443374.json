@@ -14,20 +14,17 @@
   "Variable Name": [
     "SrvSAS_NumSmoke5_v1r0"
   ],
-  "": [
-    "1= None",
-    "2= One",
-    "3= Two",
-    "4= Three",
-    "5= Four",
-    "6= Five or more"
+  "Connect Value for Select all that apply questions": [
+    "SECSMA"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "8/18/21",
-  "undefined": "grid_SECSM",
+  "Quest_Src Question": [
+    "grid_SECSM"
+  ],
   "Format/Value": {
     "503218834.json": "0",
     "759356722.json": "1",
@@ -35,5 +32,13 @@
     "448069154.json": "3",
     "485163252.json": "4",
     "160036380.json": "5"
+  },
+  "Old Quest Value": {
+    "503218834.json": "1",
+    "759356722.json": "2",
+    "668407984.json": "3",
+    "448069154.json": "4",
+    "485163252.json": "5",
+    "160036380.json": "6"
   }
 }

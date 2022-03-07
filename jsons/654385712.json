@@ -14,17 +14,8 @@
   "Variable Name": [
     "SrvMRE_SitInTransport_v1r0"
   ],
-  "": [
-    "1 = None",
-    "2 = Less than 30 min",
-    "3 = 30 min",
-    "4 = 45 min",
-    "5 = 1 hr",
-    "6 = 1 to 2.9 hrs",
-    "7= 3 to 4.9 hrs",
-    "8=5 to 6.9 hrs.",
-    "9=7 to 8.9 hrs.",
-    "10= 9 hrs. or more"
+  "Connect Value for Select all that apply questions": [
+    "SITTINGA"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -32,7 +23,9 @@
   "PII": "No",
   "Notes": "Grid Question",
   "Date added or modified": "2/28/22",
-  "undefined": "GRID_SITTING",
+  "Quest_Src Question": [
+    "GRID_SITTING"
+  ],
   "Format/Value": {
     "503218834.json": "0",
     "464753847.json": "1",
@@ -44,5 +37,17 @@
     "755558825.json": "7",
     "949555271.json": "8",
     "201002865.json": "9"
+  },
+  "Old Quest Value": {
+    "503218834.json": "1",
+    "464753847.json": "2",
+    "729681071.json": "3",
+    "258023209.json": "4",
+    "638092100.json": "5",
+    "167683404.json": "6",
+    "437899276.json": "7",
+    "377950090.json": "8",
+    "471715698.json": "9",
+    "201002865.json": "10"
   }
 }

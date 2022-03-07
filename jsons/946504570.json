@@ -11,10 +11,8 @@
   "Variable Name": [
     "SrvBOH_TestRemSurg_v1r0"
   ],
-  "": [
-    "1 = I had surgery to remove one Testicle",
-    "2 =I had surgery to remove both Testicles",
-    "3 = None of the above"
+  "Connect Value for Select all that apply questions": [
+    "TESTREM"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -22,9 +20,15 @@
   "PII": "No",
   "Notes": "Only display if MHGROUP9 = Testical remvoal surgery",
   "Date added or modified": "9/28/21",
+  "Question Type": "Optional Multiple Choice",
   "Format/Value": {
     "770550588.json": "0",
     "970716952.json": "1",
     "535003378.json": "88"
+  },
+  "Old Quest Value": {
+    "770550588.json": "1",
+    "970716952.json": "2",
+    "535003378.json": "3"
   }
 }

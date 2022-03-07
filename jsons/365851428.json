@@ -11,16 +11,8 @@
   "Variable Name": [
     "SrvBOH_HairFemale_v1r0"
   ],
-  "": [
-    "1 = Full head of hair with no hair loss.",
-    "2 = Very mild hair loss or thinning of hair on the top of the head along the middle of the head",
-    "3 = Mild hair loss on the top of the head along the middle of the head.",
-    "4 = Mild-to-moderate hair loss on the top of the head along the middle of the head.",
-    "5 = Moderate hair loss on the top of the head along the middle of the head.",
-    "6 = Severe hair loss on the top of the head, but no hair loss at the forehead",
-    "7 = Severe hair loss on the top of the head, and the hair along the forehead is thinning.",
-    "8 = Severehair loss on the top of the head from the forehead to the back of the ears.",
-    "9 = Moderate hair loss on the sides of the head at the forehead and moderate-to-severe hair loss on the top of the head."
+  "Connect Value for Select all that apply questions": [
+    "HAIRFEM"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -28,6 +20,7 @@
   "PII": "No",
   "Notes": "[DISPLAY HAIRFEM IF SEX= 00 and GEN= 00]",
   "Date added or modified": "9/14/21",
+  "Question Type": "Optional Multiple Choice, Figures (with radio button to select one)",
   "Format/Value": {
     "927925620.json": "0",
     "552278254.json": "1",
@@ -38,5 +31,16 @@
     "917379905.json": "6",
     "746328729.json": "7",
     "452963767.json": "8"
+  },
+  "Old Quest Value": {
+    "927925620.json": "1",
+    "552278254.json": "2",
+    "267104669.json": "3",
+    "619337179.json": "4",
+    "601381820.json": "5",
+    "151394571.json": "6",
+    "917379905.json": "7",
+    "746328729.json": "8",
+    "452963767.json": "9"
   }
 }

@@ -14,12 +14,17 @@
   "Variable Name": [
     "SrvBOH_Weight18_v1r0"
   ],
-  "": "Multiple Text Boxes, Display if in One or More Responses",
+  "Connect Value for Select all that apply questions": [
+    "WEIGHTHIS1"
+  ],
   "Variable Type": "Num",
   "Variable Length": "3",
   "Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "9/14/21",
-  "undefined": "WEIGHTHIS"
+  "Question Type": "Multiple Text Boxes, Display if in One or More Responses",
+  "Quest_Src Question": [
+    "WEIGHTHIS"
+  ]
 }

@@ -11,11 +11,14 @@
   "Variable Name": [
     "SrvBOH_SkinCancer_v1r0"
   ],
-  "": "Optional Multiple Choice",
+  "Connect Value for Select all that apply questions": [
+    "SKINCANC"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
+  "Question Type": "Optional Multiple Choice",
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

@@ -11,12 +11,8 @@
   "Variable Name": [
     "SrvMRE_ProgCycleDays_v1r0"
   ],
-  "": [
-    "1= Less than 10 days per month",
-    "2= 10 to 14 days per month",
-    "3= 15 to 19 days per month",
-    "4= 20 to 25 days per month",
-    "5= Every day"
+  "Connect Value for Select all that apply questions": [
+    "PROGHOR6_1"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -29,5 +25,12 @@
     "481217808.json": "2",
     "565450397.json": "3",
     "647504893.json": "4"
+  },
+  "Old Quest Value": {
+    "862918284.json": "1",
+    "275059825.json": "2",
+    "481217808.json": "3",
+    "565450397.json": "4",
+    "647504893.json": "5"
   }
 }

@@ -14,12 +14,16 @@
   "Variable Name": [
     "SrvMRE_ShiftLastAge_v1r0"
   ],
-  "": "ShiftLastAge",
+  "Connect Value for Select all that apply questions": [
+    "ShiftLastAge"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "10/6/21",
-  "undefined": "SHIFTWORK10"
+  "Quest_Src Question": [
+    "SHIFTWORK10"
+  ]
 }

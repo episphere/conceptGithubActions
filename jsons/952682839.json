@@ -11,17 +11,21 @@
   "Variable Name": [
     "SrvBOH_PainAffectWork_v1r0"
   ],
-  "": [
-    "1 =Not at all",
-    "2 = A little bit",
-    "3 = A lot"
+  "Connect Value for Select all that apply questions": [
+    "PAIN3"
   ],
   "Variable Type": "Num",
   "Required": "No",
   "PII": "No",
+  "Question Type": "Optional Multiple Choice",
   "Format/Value": {
     "111520945.json": "0",
     "548628123.json": "1",
     "597477164.json": "2"
+  },
+  "Old Quest Value": {
+    "111520945.json": "1",
+    "548628123.json": "2",
+    "597477164.json": "3"
   }
 }

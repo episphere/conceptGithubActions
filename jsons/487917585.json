@@ -26,12 +26,23 @@
     "SrvBOH_S1NMSkinCanc_v1r0",
     "SrvBOH_C1NMSkinCanc_v1r0"
   ],
-  "": "Optional Select All that Apply",
+  "Connect Value for Select all that apply questions": [
+    "15",
+    "14",
+    "15",
+    "15"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "undefined": "MOMCANC2",
+  "Question Type": "Optional Select All that Apply",
+  "Quest_Src Question": [
+    "MOMCANC2",
+    "DADCANC2",
+    "SIBCANC2",
+    "CHILDCANC2"
+  ],
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

@@ -14,12 +14,17 @@
   "Variable Name": [
     "SrvSAS_StopAlcOthDesc_v1r0"
   ],
-  "": "N/A",
+  "Connect Value for Select all that apply questions": [
+    "ALCOHOL7OTH"
+  ],
   "Variable Type": "Char",
   "Variable Length": "300",
   "Format/Value": "N/A",
+  "Old Quest Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "11/23/21",
-  "undefined": "ALCOHOL7"
+  "Quest_Src Question": [
+    "ALCOHOL7"
+  ]
 }

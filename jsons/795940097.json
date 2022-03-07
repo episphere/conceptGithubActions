@@ -11,9 +11,12 @@
   "Variable Name": [
     "SrvBOH_BloodTransNum_v1r0"
   ],
-  "": "Text only Response",
+  "Connect Value for Select all that apply questions": [
+    "BLDTRANS2"
+  ],
   "Variable Type": "Num",
   "Format/Value": "N/A",
   "Required": "No",
-  "PII": "No"
+  "PII": "No",
+  "Question Type": "Text only Response"
 }

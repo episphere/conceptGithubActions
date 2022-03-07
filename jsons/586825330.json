@@ -14,13 +14,18 @@
   "Variable Name": [
     "SrvBOH_Hawaiian_v1r0"
   ],
-  "": "Optional Select All that Apply",
+  "Connect Value for Select all that apply questions": [
+    "5"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "12/27/21",
-  "undefined": "RACEETH",
+  "Question Type": "Optional Select All that Apply",
+  "Quest_Src Question": [
+    "RACEETH"
+  ],
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

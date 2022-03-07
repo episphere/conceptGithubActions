@@ -11,13 +11,8 @@
   "Variable Name": [
     "SrvSAS_SPFHighestNum_v1r0"
   ],
-  "": [
-    "1= Less than 15",
-    "2= 15 – 20",
-    "3= 21 – 35",
-    "4= 36 – 50",
-    "5= Higher than 50",
-    "6= Don’t know"
+  "Connect Value for Select all that apply questions": [
+    "SUNSCREEN4"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -31,5 +26,13 @@
     "190125431.json": "3",
     "133730190.json": "4",
     "178420302.json": "77"
+  },
+  "Old Quest Value": {
+    "445549128.json": "1",
+    "515202788.json": "2",
+    "524748078.json": "3",
+    "958524261.json": "4",
+    "133730190.json": "5",
+    "832322940.json": "6"
   }
 }

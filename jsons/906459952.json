@@ -11,9 +11,8 @@
   "Variable Name": [
     "SrvMRE_CurrProgMedUse_v1r0"
   ],
-  "": [
-    "2=No",
-    "1=Yes"
+  "Connect Value for Select all that apply questions": [
+    "PROGHOR3_1"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -22,6 +21,10 @@
   "Notes": "Only display if PROGHOR=0",
   "Format/Value": {
     "104430631.json": "0",
+    "353358909.json": "1"
+  },
+  "Old Quest Value": {
+    "104430631.json": "2",
     "353358909.json": "1"
   }
 }

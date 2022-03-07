@@ -18,24 +18,30 @@
   "Variable Name": [
     "SrvBOH_SexOrient_v1r0"
   ],
-  "": [
-    "1 = Straight or heterosexual",
-    "2 = Lesbian, gay, or homosexual",
-    "3 = Bisexual",
-    "4 = Something else: Please describe [text box]",
-    "5 = Prefer not to answer"
+  "Connect Value for Select all that apply questions": [
+    "SEXORIENT"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "9/14/21",
-  "undefined": "SEXORIENT",
+  "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
+  "Quest_Src Question": [
+    "SEXORIENT"
+  ],
   "Format/Value": {
     "271882746.json": "0",
     "903084185.json": "1",
     "999994434.json": "2",
     "807835037.json": "55",
     "746038746.json": "99"
+  },
+  "Old Quest Value": {
+    "271882746.json": "1",
+    "903084185.json": "2",
+    "999994434.json": "3",
+    "481662922.json": "4",
+    "746038746.json": "5"
   }
 }

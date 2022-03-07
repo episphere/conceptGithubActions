@@ -18,21 +18,18 @@
   "Variable Name": [
     "SrvBOH_Gender_v1r0"
   ],
-  "": [
-    "1 = Male",
-    "2 = Female",
-    "3 = Transgender Male/Trans Man/Female-to-Male (FTM)",
-    "4 = Transgender Female/Trans Woman/Male-to-Female (MTF)",
-    "5 = Genderqueer, not exclusively male or female",
-    "6 = Additional gender category: Please describe [text box]",
-    "99 = Prefer not to answer"
+  "Connect Value for Select all that apply questions": [
+    "GEN"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "9/23/21",
-  "undefined": "GEN",
+  "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
+  "Quest_Src Question": [
+    "GEN"
+  ],
   "Format/Value": {
     "536341288.json": "0",
     "654207589.json": "1",
@@ -40,6 +37,15 @@
     "873138103.json": "3",
     "805712793.json": "4",
     "807835037.json": "55",
+    "746038746.json": "99"
+  },
+  "Old Quest Value": {
+    "654207589.json": "1",
+    "536341288.json": "2",
+    "405267600.json": "3",
+    "873138103.json": "4",
+    "805712793.json": "5",
+    "793106818.json": "6",
     "746038746.json": "99"
   }
 }

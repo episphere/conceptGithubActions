@@ -18,15 +18,20 @@
   "Variable Name": [
     "SrvMRE_H2RecBlOCPillDK_v1r0"
   ],
-  "": "Don't know",
+  "Connect Value for Select all that apply questions": [
+    "ACIDSUP3_3"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Format/Value": {
     "178420302.json": "77"
   },
+  "Old Quest Value": "Don't know",
   "Required": "N/A",
   "PII": "No",
   "Notes": "Only display if ACIDSUP = 2",
   "Date added or modified": "10/5/21",
-  "undefined": "ACIDSUP3_3"
+  "Quest_Src Question": [
+    "ACIDSUP3_3"
+  ]
 }

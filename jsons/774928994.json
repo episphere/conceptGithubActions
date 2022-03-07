@@ -14,7 +14,9 @@
   "Variable Name": [
     "SrvBOH_NoneDescribeRE8_v1r0"
   ],
-  "": "Optional Select All that Apply",
+  "Connect Value for Select all that apply questions": [
+    "RACEETH8_TB"
+  ],
   "Variable Type": "Char",
   "Variable Length": "300",
   "Format/Value": "N/A",
@@ -22,5 +24,8 @@
   "PII": "No",
   "Notes": "Only display if RACEETH = White",
   "Date added or modified": "9/14/21",
-  "undefined": "RACEETH8"
+  "Question Type": "Optional Select All that Apply",
+  "Quest_Src Question": [
+    "RACEETH8"
+  ]
 }

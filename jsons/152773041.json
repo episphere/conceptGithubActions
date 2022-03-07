@@ -11,9 +11,8 @@
   "Variable Name": [
     "SrvMRE_Spring_v1r0"
   ],
-  "": [
-    "2=No",
-    "1=Yes"
+  "Connect Value for Select all that apply questions": [
+    "1"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -47,24 +46,30 @@
     "104430631.json": "0",
     "353358909.json": "1"
   },
-  "undefined": [
-    "LAWN2A",
-    "LAWN2B",
-    "LAWN2C",
-    "EXEREC2A",
-    "EXEREC2B",
-    "EXEREC2C",
-    "EXEREC2D",
-    "EXEREC2E",
-    "EXEREC2F",
-    "EXEREC2G",
-    "EXEREC2H",
-    "EXEREC2I",
-    "EXEREC2J",
-    "EXEREC2K",
-    "EXEREC2L",
-    "EXEREC2M",
-    "EXEREC2N",
-    "EXEREC2O"
+  "Old Quest Value": {
+    "104430631.json": "2",
+    "353358909.json": "1"
+  },
+  "Quest_Src Question": [
+    [
+      "LAWN2A",
+      "LAWN2B",
+      "LAWN2C",
+      "EXEREC2A",
+      "EXEREC2B",
+      "EXEREC2C",
+      "EXEREC2D",
+      "EXEREC2E",
+      "EXEREC2F",
+      "EXEREC2G",
+      "EXEREC2H",
+      "EXEREC2I",
+      "EXEREC2J",
+      "EXEREC2K",
+      "EXEREC2L",
+      "EXEREC2M",
+      "EXEREC2N",
+      "EXEREC2O"
+    ]
   ]
 }

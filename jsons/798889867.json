@@ -11,10 +11,8 @@
   "Variable Name": [
     "SrvMRE_FemHormones_v1r0"
   ],
-  "": [
-    "1= No, never",
-    "2= Yes, I used hormones or other medications to make my body look more feminine in the past",
-    "3= Yes, I am currently using hormones or other medications to make my body look more feminine"
+  "Connect Value for Select all that apply questions": [
+    "HORNONCISWOM"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -26,5 +24,10 @@
     "104430631.json": "0",
     "200323667.json": "1",
     "249673703.json": "2"
+  },
+  "Old Quest Value": {
+    "562877322.json": "1",
+    "200323667.json": "2",
+    "249673703.json": "3"
   }
 }

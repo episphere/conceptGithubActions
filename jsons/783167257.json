@@ -11,19 +11,14 @@
   "Variable Name": [
     "SrvBOH_Marital_v1r0"
   ],
-  "": [
-    "1 = Never married",
-    "2 = Not married but living with partner",
-    "3 = Married",
-    "4 = Divorced",
-    "5  = Widowed",
-    "6 = Separated",
-    "99 = Prefer not to answer"
+  "Connect Value for Select all that apply questions": [
+    "MARITAL"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
+  "Question Type": "Optional Multiple Choice",
   "Format/Value": {
     "514080822.json": "0",
     "522680498.json": "1",
@@ -31,6 +26,15 @@
     "649436542.json": "3",
     "733527132.json": "4",
     "741094625.json": "5",
+    "746038746.json": "99"
+  },
+  "Old Quest Value": {
+    "514080822.json": "1",
+    "522680498.json": "2",
+    "288321056.json": "3",
+    "649436542.json": "4",
+    "733527132.json": "5",
+    "741094625.json": "6",
     "746038746.json": "99"
   }
 }

@@ -11,24 +11,27 @@
   "Variable Name": [
     "SrvMRE_PeriodLength12M_v1r0"
   ],
-  "": [
-    "1= I have not had a menstrual period in the past 12 months",
-    "2= I have had at least one menstrual period in the past 12 months but the frequency of my period changed (such as it stopped, became irregular, or difficult to predict)",
-    "3= Too irregular to guess or using hormonal medication or device (such as an intrauterine device (IUD)) to control menstrual cycle",
-    "4= Less than 21 days -> PREG",
-    "5= 11 days or more"
+  "Connect Value for Select all that apply questions": [
+    "MENSHIS5"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "10/5/21",
-  "undefined": "Changed BOH to MRE in secondary source",
+  "": "Changed BOH to MRE in secondary source",
   "Format/Value": {
     "650420270.json": "0",
     "113064256.json": "1",
     "388370628.json": "2",
     "859025516.json": "3",
     "471375042.json": "4"
+  },
+  "Old Quest Value": {
+    "824990813.json": "1",
+    "113064256.json": "2",
+    "388370628.json": "3",
+    "859025516.json": "4",
+    "471375042.json": "5"
   }
 }

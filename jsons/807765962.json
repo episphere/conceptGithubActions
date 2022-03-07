@@ -14,12 +14,17 @@
   "Variable Name": [
     "SrvBOH_MomAgeDeathNum_v1r0"
   ],
-  "": "Text Box Plus Check Box",
+  "Connect Value for Select all that apply questions": [
+    "MOMDEATH_num"
+  ],
   "Variable Type": "Num",
   "Variable Length": "3",
   "Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "9/14/21",
-  "undefined": "MOMDEATH"
+  "Question Type": "Text Box Plus Check Box",
+  "Quest_Src Question": [
+    "MOMDEATH"
+  ]
 }

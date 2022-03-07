@@ -14,11 +14,15 @@
   "Variable Name": [
     "SrvMRE_AnyCombPillDesc_v1r0"
   ],
-  "": "anyComEst_OTHER",
+  "Connect Value for Select all that apply questions": [
+    "anyComEst_OTHER"
+  ],
   "Variable Type": "Char",
   "Variable Length": "300",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "10/8/21",
-  "undefined": "COMBHOR"
+  "Quest_Src Question": [
+    "COMBHOR"
+  ]
 }

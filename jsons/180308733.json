@@ -11,10 +11,8 @@
   "Variable Name": [
     "SrvSAS_LastUsedMJ_v1r0"
   ],
-  "": [
-    "1=  In the past month",
-    "2= More than a month ago, but in the past year",
-    "3= More than 1 year ago"
+  "Connect Value for Select all that apply questions": [
+    "SMMAR5"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -25,5 +23,10 @@
     "317567178.json": "0",
     "484055234.json": "1",
     "802197176.json": "2"
+  },
+  "Old Quest Value": {
+    "317567178.json": "1",
+    "484055234.json": "2",
+    "802197176.json": "3"
   }
 }

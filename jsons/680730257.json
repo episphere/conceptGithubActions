@@ -11,12 +11,8 @@
   "Variable Name": [
     "SrvMRE_FlexibleShift_v1r0"
   ],
-  "": [
-    "1= Extremely flexible",
-    "2= Very flexible",
-    "3= Somewhat flexible",
-    "4= A little flexible",
-    "5= Not at all flexible"
+  "Connect Value for Select all that apply questions": [
+    "SHIFTWORK8"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -29,5 +25,12 @@
     "988873962.json": "2",
     "929148006.json": "3",
     "490796638.json": "4"
+  },
+  "Old Quest Value": {
+    "719954633.json": "1",
+    "764708931.json": "2",
+    "988873962.json": "3",
+    "929148006.json": "4",
+    "490796638.json": "5"
   }
 }

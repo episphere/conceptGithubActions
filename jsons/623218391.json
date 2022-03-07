@@ -50,12 +50,35 @@
     "SrvBOH_BreastLacRemAge_v1r0",
     "SrvBOH_BreastOthAge_v1r0"
   ],
-  "": "Or (xor=) Question (either/or text boxes without radio button)",
+  "Connect Value for Select all that apply questions": [
+    "BREASTIMPLANTS_AGE",
+    "BREASTLIFT_AGE",
+    "BREASTRECON_AGE",
+    "BREASTREDN_AGE",
+    "BREASTPARTREM_AGE",
+    "BREASTREM_AGE",
+    "BREASTDBLREM_AGE",
+    "BREASTABSS_AGE",
+    "BREASTLACTREM_AGE",
+    "BREASTOTH_AGE"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "10/12/21",
-  "undefined": "BREASTSUR0"
+  "Question Type": "Or (xor=) Question (either/or text boxes without radio button)",
+  "Quest_Src Question": [
+    "BREASTSUR0",
+    "BREASTSUR1",
+    "BREASTSUR2",
+    "BREASTSUR3",
+    "BREASTSUR4",
+    "BREASTSUR5",
+    "BREASTSUR6",
+    "BREASTSUR7",
+    "BREASTSUR8",
+    "BREASTSUR9"
+  ]
 }

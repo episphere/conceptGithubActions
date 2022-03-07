@@ -18,15 +18,20 @@
   "Variable Name": [
     "SrvMRE_InsulinUnitsDK_v1r0"
   ],
-  "": "Don't know",
+  "Connect Value for Select all that apply questions": [
+    "INSULIN3_1"
+  ],
   "Variable Type": "Num",
   "Variable Length": "3",
   "Format/Value": {
     "178420302.json": "77"
   },
+  "Old Quest Value": "Don't know",
   "Required": "N/A",
   "PII": "No",
   "Notes": "INSULIN= 1",
   "Date added or modified": "10/5/21",
-  "undefined": "INSULIN3_1"
+  "Quest_Src Question": [
+    "INSULIN3_1"
+  ]
 }

@@ -11,9 +11,8 @@
   "Variable Name": [
     "SrvMRE_Arthiritis_v1r0"
   ],
-  "": [
-    "2=No",
-    "1=Yes"
+  "Connect Value for Select all that apply questions": [
+    "0"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -35,6 +34,10 @@
     "104430631.json": "0",
     "353358909.json": "1"
   },
+  "Old Quest Value": {
+    "104430631.json": "2",
+    "353358909.json": "1"
+  },
   "Notes": [
     "Only display if PAINREL1 = 0",
     "Only display if PAINREL1 = 1",
@@ -44,13 +47,15 @@
     "Only display if PAINREL1 = 5",
     "Only display if PAINREL1 = 6"
   ],
-  "undefined": [
-    "PAINREL7_1",
-    "PAINREL7_2",
-    "PAINREL7_3",
-    "PAINREL7_4",
-    "PAINREL7_5",
-    "PAINREL7_6",
-    "PAINREL7_7"
+  "Quest_Src Question": [
+    [
+      "PAINREL7_1",
+      "PAINREL7_2",
+      "PAINREL7_3",
+      "PAINREL7_4",
+      "PAINREL7_5",
+      "PAINREL7_6",
+      "PAINREL7_7"
+    ]
   ]
 }

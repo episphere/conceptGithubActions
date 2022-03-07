@@ -14,12 +14,17 @@
   "Variable Name": [
     "SrvBOH_Sib1AgeDeathNum_v1r0"
   ],
-  "": "Text Box Plus Check Box, Loops",
+  "Connect Value for Select all that apply questions": [
+    "SIBDEATH_num"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Format/Value": "N/A",
   "Required": "Yes",
   "PII": "Yes",
   "Date added or modified": "9/14/21",
-  "undefined": "SIBDEATH"
+  "Question Type": "Text Box Plus Check Box, Loops",
+  "Quest_Src Question": [
+    "SIBDEATH"
+  ]
 }

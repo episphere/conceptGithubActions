@@ -11,13 +11,8 @@
   "Variable Name": [
     "SrvMRE_OftenSnoring_v1r0"
   ],
-  "": [
-    "1= Almost every day",
-    "2= 2-4 times per week",
-    "3= 0-2 times per week",
-    "4= 0-2 times per month",
-    "5= Less than 1-2 times per month",
-    "6= Don\"\"\"\"t know"
+  "Connect Value for Select all that apply questions": [
+    "SNORING3"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -31,5 +26,13 @@
     "632512449.json": "3",
     "520089841.json": "4",
     "178420302.json": "77"
+  },
+  "Old Quest Value": {
+    "718687985.json": "1",
+    "939541059.json": "2",
+    "614058727.json": "3",
+    "120292380.json": "4",
+    "953074554.json": "5",
+    "476378939.json": "6"
   }
 }

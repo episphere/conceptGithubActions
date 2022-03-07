@@ -11,18 +11,22 @@
   "Variable Name": [
     "SrvBOH_Student_v1r0"
   ],
-  "": [
-    "1 = No",
-    "2 = Yes, full-time student",
-    "3 = Yes, part-time student"
+  "Connect Value for Select all that apply questions": [
+    "STUDENT"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
+  "Question Type": "Optional Multiple Choice",
   "Format/Value": {
     "104430631.json": "0",
     "551525967.json": "1",
     "738284740.json": "2"
+  },
+  "Old Quest Value": {
+    "104430631.json": "1",
+    "551525967.json": "2",
+    "738284740.json": "3"
   }
 }

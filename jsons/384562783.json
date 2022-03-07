@@ -11,15 +11,8 @@
   "Variable Name": [
     "SrvSAS_HairColor_v1r0"
   ],
-  "": [
-    "1= Blond",
-    "2= Red",
-    "3= Reddish-Brown",
-    "4= Light Brown",
-    "5= Medium Brown",
-    "6= Dark Brown",
-    "7= Black",
-    "8= Other"
+  "Connect Value for Select all that apply questions": [
+    "HAIRCOLOR"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -35,5 +28,15 @@
     "777809207.json": "5",
     "469115418.json": "6",
     "181769837.json": "55"
+  },
+  "Old Quest Value": {
+    "230748315.json": "1",
+    "379848047.json": "2",
+    "224120697.json": "3",
+    "248624772.json": "4",
+    "270559240.json": "5",
+    "777809207.json": "6",
+    "469115418.json": "7",
+    "181769837.json": "8"
   }
 }

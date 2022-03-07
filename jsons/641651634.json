@@ -18,7 +18,9 @@
   "Variable Name": [
     "SrvBOH_PplHouseNoAns_v1r0"
   ],
-  "": "Text Box Plus Check Box",
+  "Connect Value for Select all that apply questions": [
+    "PPLHOUSE"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Format/Value": {
@@ -27,5 +29,8 @@
   "Required": "No",
   "PII": "Yes",
   "Date added or modified": "9/14/21",
-  "undefined": "PPLHOUSE"
+  "Question Type": "Text Box Plus Check Box",
+  "Quest_Src Question": [
+    "PPLHOUSE"
+  ]
 }

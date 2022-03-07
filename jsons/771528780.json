@@ -11,9 +11,8 @@
   "Variable Name": [
     "SrvMRE_DeliveryMethod_v1r0"
   ],
-  "": [
-    "1=Cesarean",
-    "2=Vaginal"
+  "Connect Value for Select all that apply questions": [
+    "PREG7"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -22,5 +21,9 @@
   "Format/Value": {
     "660308254.json": "0",
     "936573532.json": "1"
+  },
+  "Old Quest Value": {
+    "660308254.json": "1",
+    "936573532.json": "2"
   }
 }

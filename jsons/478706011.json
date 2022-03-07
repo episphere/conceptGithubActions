@@ -14,12 +14,17 @@
   "Variable Name": [
     "SrvBOH_Sib1AgeNum_v1r0"
   ],
-  "": "Text Box Plus Check Box, Loops",
+  "Connect Value for Select all that apply questions": [
+    "SIBAGE_AGE"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "9/14/21",
-  "undefined": "SIBAGE"
+  "Question Type": "Text Box Plus Check Box, Loops",
+  "Quest_Src Question": [
+    "SIBAGE"
+  ]
 }

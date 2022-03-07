@@ -11,25 +11,15 @@
   "Variable Name": [
     "SrvBOH_HairMale_v1r0"
   ],
-  "": [
-    "1 = Full head of hair with no hair loss.",
-    "2 = Mild hair loss at the sides of the forehead, but not as far back as the ears.",
-    "3 = Moderate hair loss at the sides of the forehead as far back as the ears, and mild loss from the center of the forehead.",
-    "4 = Mild hair loss on the sides of the forehead, but not as far back as the ears, and mild loss from the center of the forehead. Also, hair thinning on the top (crown) of the head.",
-    "5 = Moderate hair loss on the sides of the forehead as far back as the front of the ears, and moderate loss from the center of the forehead. Also, mild baldness on the top (crown) of the head. The two areas of hair loss are separated by a section of hair that goes across the top of the head.",
-    "6 = Moderate hair loss on the sides of the forehead, as far back as the middle of the ears. Also, moderate baldness on the top (crown) of the head. The two areas of hair loss are separated by a thin strip of hair that goes across the top of the head.",
-    "7 = Moderate hair loss on the sides and front of the forehead that are continuous with severe baldness on the top (crown) of the head. There is no clear strip of hair that separates these areas of balding.",
-    "8 = Severe hair loss on the sides and front of the forehead that are continuous with severe baldness on the top (crown) of the head. There is no clear strip of hair that separates these areas of balding. The hairline at the sides of the head is at, or below, the temples. Only a small strip of hair remains around the ears and at the back of the head.",
-    "9 = Mild hair loss across the entire forehead, but not as far back as the ears.",
-    "10 = Moderate hair loss across the entire forehead, as far back as the middle of the ears.",
-    "11 = Severe hair loss across the entire forehead, as far back as the back of the ears.",
-    "12 = Severe hair loss across the entire forehead, beyond the back of the ears."
+  "Connect Value for Select all that apply questions": [
+    "HAIRMALE"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Notes": "[DISPLAY IF SEX= 01 and GEN= 01]",
+  "Question Type": "Optional Multiple Choice, Figures (with radio button to select one)",
   "Format/Value": {
     "927925620.json": "0",
     "629452816.json": "1",
@@ -43,5 +33,19 @@
     "693010445.json": "9",
     "732008197.json": "10",
     "734998477.json": "11"
+  },
+  "Old Quest Value": {
+    "927925620.json": "1",
+    "629452816.json": "2",
+    "915557297.json": "3",
+    "103565678.json": "4",
+    "381878591.json": "5",
+    "446794016.json": "6",
+    "526238862.json": "7",
+    "173625583.json": "8",
+    "782282163.json": "9",
+    "693010445.json": "10",
+    "732008197.json": "11",
+    "734998477.json": "12"
   }
 }

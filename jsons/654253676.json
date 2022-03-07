@@ -14,11 +14,15 @@
   "Variable Name": [
     "SrvMRE_OtherSATmtDesc_v1r0"
   ],
-  "": "SLPROB_TB",
+  "Connect Value for Select all that apply questions": [
+    "SLPROB_TB"
+  ],
   "Variable Type": "Char",
   "Variable Length": "300",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "10/8/21",
-  "undefined": "SLPROB2"
+  "Quest_Src Question": [
+    "SLPROB2"
+  ]
 }

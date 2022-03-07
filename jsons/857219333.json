@@ -11,13 +11,8 @@
   "Variable Name": [
     "SrvSAS_EyeColor_v1r0"
   ],
-  "": [
-    "1= Blue",
-    "2= Green",
-    "3=Hazel",
-    "4= Light Brown",
-    "5= Dark Brown",
-    "6= Other"
+  "Connect Value for Select all that apply questions": [
+    "EYECOLOR"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -31,5 +26,13 @@
     "248624772.json": "3",
     "777809207.json": "4",
     "181769837.json": "55"
+  },
+  "Old Quest Value": {
+    "317312221.json": "1",
+    "858866416.json": "2",
+    "696181630.json": "3",
+    "248624772.json": "4",
+    "777809207.json": "5",
+    "181769837.json": "6"
   }
 }

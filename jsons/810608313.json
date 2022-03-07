@@ -26,12 +26,23 @@
     "SrvSAS_THCServings_v1r0",
     "SrvSAS_THCServingNum_v1r0"
   ],
-  "": "N/A",
+  "Connect Value for Select all that apply questions": [
+    "EAMAR9ANUM",
+    "EAMAR9CNUM",
+    "THMAR9ANUM",
+    "THMAR9CNUM"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Format/Value": "N/A",
+  "Old Quest Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "10/29/21",
-  "undefined": "EAMAR9A"
+  "Quest_Src Question": [
+    "EAMAR9A",
+    "EAMAR9C",
+    "THMAR9A",
+    "THMAR9C"
+  ]
 }

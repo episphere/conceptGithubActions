@@ -18,15 +18,20 @@
   "Variable Name": [
     "SrvMRE_OpioidsPillDK_v1r0"
   ],
-  "": "Don't know",
+  "Connect Value for Select all that apply questions": [
+    "PAINREL3_7"
+  ],
   "Variable Type": "Num",
   "Variable Length": "3",
   "Format/Value": {
     "178420302.json": "77"
   },
+  "Old Quest Value": "Don't know",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if PAINREL1 = 6",
   "Date added or modified": "10/6/21",
-  "undefined": "PAINREL3_7"
+  "Quest_Src Question": [
+    "PAINREL3_7"
+  ]
 }

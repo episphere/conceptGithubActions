@@ -14,12 +14,17 @@
   "Variable Name": [
     "SrvBOH_DadAgeNum_v1r0"
   ],
-  "": "Text Box Plus Check Box",
+  "Connect Value for Select all that apply questions": [
+    "DAD_AGE"
+  ],
   "Variable Type": "Num",
   "Variable Length": "3",
   "Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "9/14/21",
-  "undefined": "DADAGE"
+  "Question Type": "Text Box Plus Check Box",
+  "Quest_Src Question": [
+    "DADAGE"
+  ]
 }

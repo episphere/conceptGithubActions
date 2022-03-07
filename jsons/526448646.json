@@ -14,10 +14,15 @@
   "Variable Name": [
     "SrvMRE_InsulinConcDesc_v1r0"
   ],
-  "": "No",
+  "Connect Value for Select all that apply questions": [
+    "INSULIN4_1"
+  ],
   "Variable Type": "Char",
   "Variable Length": "300",
+  "Old Quest Value": "No",
   "Required": "No",
   "Date added or modified": "10/8/21",
-  "undefined": "INSULIN4_1A"
+  "Quest_Src Question": [
+    "INSULIN4_1A"
+  ]
 }

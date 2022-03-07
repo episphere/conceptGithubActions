@@ -11,18 +11,22 @@
   "Variable Name": [
     "SrvBOH_10YrHeight_v1r0"
   ],
-  "": [
-    "1 = Shorter than average",
-    "2 = About average height",
-    "3 = Taller than average"
+  "Connect Value for Select all that apply questions": [
+    "AVEHEIGHT"
   ],
   "Variable Type": "Num",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "9/28/21",
+  "Question Type": "Optional Multiple Choice",
   "Format/Value": {
     "325478778.json": "0",
     "730757606.json": "1",
     "897599966.json": "2"
+  },
+  "Old Quest Value": {
+    "325478778.json": "1",
+    "730757606.json": "2",
+    "897599966.json": "3"
   }
 }

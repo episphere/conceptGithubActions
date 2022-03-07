@@ -18,14 +18,21 @@
     "SrvBOH_Viete_v1r0",
     "SrvBOH_VietLang_v1r0"
   ],
-  "": "Optional Select All that Apply",
+  "Connect Value for Select all that apply questions": [
+    "8",
+    "13"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if RACEETH = Asian",
   "Date added or modified": "9/24/21",
-  "undefined": "RACEETH3",
+  "Question Type": "Optional Select All that Apply",
+  "Quest_Src Question": [
+    "RACEETH3",
+    "LANG"
+  ],
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

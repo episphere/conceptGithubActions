@@ -18,14 +18,22 @@
   "Variable Name": [
     "SrvBOH_Sib1Age_v1r0"
   ],
-  "": "Text Box Plus Check Box, Loops",
+  "Connect Value for Select all that apply questions": [
+    "SIBAGE"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Format/Value": {
     "178420302.json": "77"
   },
+  "Old Quest Value": {
+    "832322940.json": "99"
+  },
   "Required": "No",
   "PII": "No",
   "Date added or modified": "9/28/21",
-  "undefined": "SIBAGE"
+  "Question Type": "Text Box Plus Check Box, Loops",
+  "Quest_Src Question": [
+    "SIBAGE"
+  ]
 }

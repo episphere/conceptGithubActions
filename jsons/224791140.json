@@ -11,10 +11,8 @@
   "Variable Name": [
     "SrvBOH_FallTubeSurg_v1r0"
   ],
-  "": [
-    "1 = I had surgery to remove one fallopian tube",
-    "2 =I had surgery to remove both fallopian tubes",
-    "3 = None of the above"
+  "Connect Value for Select all that apply questions": [
+    "FTREM"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -22,9 +20,15 @@
   "PII": "No",
   "Notes": "Only display if MHGROUP9 = Fallopian tube surgery",
   "Date added or modified": "9/14/21",
+  "Question Type": "Optional Multiple Choice",
   "Format/Value": {
     "448068764.json": "0",
     "537173119.json": "1",
     "535003378.json": "88"
+  },
+  "Old Quest Value": {
+    "448068764.json": "1",
+    "537173119.json": "2",
+    "535003378.json": "3"
   }
 }

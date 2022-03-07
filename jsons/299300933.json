@@ -14,12 +14,18 @@
   "Variable Name": [
     "SrvBOH_Child1Age_v1r0"
   ],
-  "": "Text Box Plus Check Box, Loops",
+  "Connect Value for Select all that apply questions": [
+    "CHILDAGE_AGE"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Format/Value": "N/A",
+  "Old Quest Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "9/14/21",
-  "undefined": "CHILDAGE"
+  "Question Type": "Text Box Plus Check Box, Loops",
+  "Quest_Src Question": [
+    "CHILDAGE"
+  ]
 }

@@ -14,14 +14,8 @@
   "Variable Name": [
     "SrvMRE_CaringForOthers_v1r0"
   ],
-  "": [
-    "0 = Never",
-    "1 = Once a month or less",
-    "2 = 2-3 days a month",
-    "3 = 1-2 days a week",
-    "4 = 3-4 days a week",
-    "5 = 5-6 days a week",
-    "6 = Every day"
+  "Connect Value for Select all that apply questions": [
+    "HOUSE1D"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -29,7 +23,9 @@
   "PII": "No",
   "Notes": "Grid Question",
   "Date added or modified": "11/15/21",
-  "undefined": "GRID_HOUSE",
+  "Quest_Src Question": [
+    "GRID_HOUSE"
+  ],
   "Format/Value": {
     "648960871.json": "44",
     "239152340.json": "1",
@@ -37,6 +33,15 @@
     "645894551.json": "3",
     "996315715.json": "4",
     "671267928.json": "5",
+    "647504893.json": "6"
+  },
+  "Old Quest Value": {
+    "648960871.json": "0",
+    "239152340.json": "1",
+    "932958558.json": "2",
+    "358778983.json": "3",
+    "464206264.json": "4",
+    "175161681.json": "5",
     "647504893.json": "6"
   }
 }

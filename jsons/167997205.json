@@ -11,21 +11,15 @@
   "Variable Name": [
     "SrvMRE_PeriodRegTime_v1r0"
   ],
-  "": [
-    "1= Never became regular",
-    "2= Within 1 year",
-    "3= 1 to 2 years",
-    "4= More than 2 years to 3 years",
-    "5= More than 3 years to 4 years",
-    "6= More than 4 years",
-    "7= Don't know"
+  "Connect Value for Select all that apply questions": [
+    "MENSHIS2_1"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "11/15/21",
-  "undefined": "Changed BOH to MRE in secondary source",
+  "": "Changed BOH to MRE in secondary source",
   "Format/Value": {
     "648960871.json": "44",
     "868025301.json": "1",
@@ -34,5 +28,14 @@
     "718537646.json": "4",
     "801142243.json": "5",
     "178420302.json": "77"
+  },
+  "Old Quest Value": {
+    "720209718.json": "1",
+    "868025301.json": "2",
+    "939110313.json": "3",
+    "410083265.json": "4",
+    "718537646.json": "5",
+    "801142243.json": "6",
+    "832322940.json": "7"
   }
 }

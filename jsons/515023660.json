@@ -11,9 +11,8 @@
   "Variable Name": [
     "SrvSAS_EdiblesED_v1r0"
   ],
-  "": [
-    "1 = No",
-    "2 = Yes"
+  "Connect Value for Select all that apply questions": [
+    "EAMAR7B"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -23,5 +22,9 @@
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
+  },
+  "Old Quest Value": {
+    "104430631.json": "1",
+    "353358909.json": "2"
   }
 }

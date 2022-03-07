@@ -14,14 +14,8 @@
   "Variable Name": [
     "SrvMRE_CaringForPetsTm_v1r0"
   ],
-  "": [
-    "1 = 15 minutes or less",
-    "2 = 16-30 minutes",
-    "3 = 31-44 minutes",
-    "4 = 45-59 minutes",
-    "5 = 1-1.9 hours",
-    "6 = 2-2.9 hours",
-    "7 = 3 hours or more"
+  "Connect Value for Select all that apply questions": [
+    "HOUSE2C"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -29,7 +23,9 @@
   "PII": "No",
   "Notes": "Grid Question - Only display if HOUSE2C =0 or no response",
   "Date added or modified": "2/28/22",
-  "undefined": "GRID_HOUSE2",
+  "Quest_Src Question": [
+    "GRID_HOUSE2"
+  ],
   "Format/Value": {
     "428999623.json": "0",
     "248303092.json": "1",
@@ -38,5 +34,14 @@
     "638092100.json": "4",
     "628177728.json": "5",
     "805918496.json": "6"
+  },
+  "Old Quest Value": {
+    "428999623.json": "1",
+    "836185098.json": "2",
+    "761981197.json": "3",
+    "179454645.json": "4",
+    "183473012.json": "5",
+    "196713045.json": "6",
+    "805918496.json": "7"
   }
 }

@@ -11,13 +11,8 @@
   "Variable Name": [
     "SrvMRE_TTOften_v1r0"
   ],
-  "": [
-    "1= Multiple times a day",
-    "2= Daily",
-    "3= Every few days",
-    "4= Once a week",
-    "5= Few times a month",
-    "6= Rarely"
+  "Connect Value for Select all that apply questions": [
+    "TESTTHER4"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -31,5 +26,13 @@
     "522395860.json": "3",
     "814242010.json": "4",
     "235613392.json": "5"
+  },
+  "Old Quest Value": {
+    "729363341.json": "1",
+    "181786871.json": "2",
+    "626911538.json": "3",
+    "522395860.json": "4",
+    "814242010.json": "5",
+    "235613392.json": "6"
   }
 }
