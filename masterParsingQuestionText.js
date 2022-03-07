@@ -78,9 +78,9 @@ function parseMasterModule() {
                                 
                                
                                
-                                if (currJSON['Connect Value'] && Array.isArray(currJSON['Connect Value'])) {
+                                if (currJSON['Format/Value'] && Array.isArray(currJSON['Format/Value'])) {
                                     isTB = false;
-                                    let keys = Object.keys(currJSON['Connect Value'])
+                                    let keys = Object.keys(currJSON['Format/Value'])
 
                                     if (toReturn[headerName.toUpperCase()]) {
                                         toInsert = toReturn[headerName.toUpperCase()];
@@ -96,7 +96,7 @@ function parseMasterModule() {
                                             //console.log(keys)
                                             //console.log(currJSON)
                                         }
-                                        questIds[currJSON['Connect Value'][keys[j]].toUpperCase()] = {
+                                        questIds[currJSON['Format/Value'][keys[j]].toUpperCase()] = {
                                             "conceptId": keys[j].substring(0, 9),
                                             "concept": masterJSON[keys[j]]['Question Text'] ? masterJSON[objKeys[k]]['Question Text'] : masterJSON[objKeys[k]]['PII']
                                         }
@@ -110,7 +110,7 @@ function parseMasterModule() {
 
                                 }
                                 else {
-                                    let val = currJSON['Connect Value']
+                                    let val = currJSON['Format/Value']
                                     if (!val) {
                                         if (currJSON['Old Quest Value'] == "Don't know") {
                                             isTB = false;
@@ -198,12 +198,12 @@ function parseMasterModule() {
                             }
                             //check if it is a text response (Connect Value)
                             else {
-                                if (currJSON['Connect Value'] && typeof currJSON['Connect Value'] === 'object' && currJSON['Connect Value'] !== null) {
+                                if (currJSON['Format/Value'] && typeof currJSON['Format/Value'] === 'object' && currJSON['Format/Value'] !== null) {
                                     isTB = false;
                                 }
                                 else {
                                     isTB = true;
-                                    //console.log(currJSON['Connect Value'])
+                                    //console.log(currJSON['Format/Value'])
                                 }
                                 if (currJSON['Connect Value for Select all that apply questions'][sourceIndex] && !isNaN(currJSON['Connect Value for Select all that apply questions'][sourceIndex])) {
                                     //console.log(currJSON['Connect Value for Select all that apply questions'][sourceIndex])
@@ -218,7 +218,7 @@ function parseMasterModule() {
                                         //console.log('EQUALS')
                                         //console.log(headerName);
 
-                                        let val = currJSON['Connect Value']
+                                        let val = currJSON['Format/Value']
                                         //console.log(val);
                                         if (val && typeof val == "string" && val.includes('=')) {
                                             //console.log(val)
@@ -327,7 +327,7 @@ function parseMasterModule() {
                                             console.log('efg')
                                             console.log(masterJSON[head])
                                         }
-                                        console.log(toReturn)
+                                        //console.log(toReturn)
                                         if (toReturn[head.toUpperCase()]) {
                                             toInsert = toReturn[head.toUpperCase()];
                                         }
