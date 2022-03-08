@@ -411,7 +411,7 @@
     "questionText": "Over the past 12 months, on the days that you drank other alcoholic beverages, how many servings of these  beverages (such as wine coolers, \"\"hard soda,\"\" spiked seltzer (sparkling water), Smirnoff Ice, malt liquor, or pre-mixed cocktails) did you drink per day?",
     "conceptId": "103045461"
   },
-  "grid_SECSM": {
+  "GRID_SECSM": {
     "conceptId": "252017075",
     "questionText": "During each of these age ranges, how many people in your household smoked tobacco (such as cigarettes, cigars, or pipes) in your presence? Please do not include yourself."
   },
@@ -1794,6 +1794,20 @@
     "questionText": "On the days that you played tennis, squash, or racquetball, about how much time per day did you spend doing this activity?",
     "conceptId": "141251197"
   },
+  "ELMAR8C": {
+    "questIds": {
+      "0": {
+        "conceptId": "104430631",
+        "concept": "No"
+      },
+      "1": {
+        "conceptId": "353358909",
+        "concept": "Yes"
+      }
+    },
+    "questionText": "Age last used - During that time, did you ever use electronic marijuana delivery devices every day?",
+    "conceptId": "142164107"
+  },
   "CIGAR9D": {
     "isTextBox": true,
     "questionText": "How old were you when you stopped smoking cigars, cigarillos, or little filtered cigars every day?",
@@ -2674,7 +2688,7 @@
     "questionText": "In just the past 12 months, what was the usual length of your menstrual cycle?",
     "conceptId": "164595895"
   },
-  "grid_ALCLIFE2": {
+  "GRID_ALCLIFE2": {
     "conceptId": "633553324",
     "questionText": "During the year(s) you were drinking, about how often did you drink alcohol?"
   },
@@ -2689,8 +2703,8 @@
         "concept": "A few times per year"
       },
       "2": {
-        "conceptId": "402048066",
-        "concept": "A few times permonth"
+        "conceptId": "254281942",
+        "concept": "A few times per month"
       },
       "3": {
         "conceptId": "522395860",
@@ -2959,8 +2973,8 @@
         "concept": "A few times per year"
       },
       "2": {
-        "conceptId": "402048066",
-        "concept": "A few times permonth"
+        "conceptId": "254281942",
+        "concept": "A few times per month"
       },
       "3": {
         "conceptId": "522395860",
@@ -7041,20 +7055,6 @@
     "questionText": "Age last used - During that time, did you ever use e-cigarettes or other vaping devices for nicotine or tobacco every day?",
     "conceptId": "242276545"
   },
-  "ELMAR8C": {
-    "questIds": {
-      "0": {
-        "conceptId": "104430631",
-        "concept": "No"
-      },
-      "1": {
-        "conceptId": "353358909",
-        "concept": "Yes"
-      }
-    },
-    "questionText": "Age last used - During that time, did you ever use e-cigarettes or other vaping devices for nicotine or tobacco every day?",
-    "conceptId": "242276545"
-  },
   "WINE2": {
     "questIds": {
       "0": {
@@ -8017,8 +8017,8 @@
         "concept": "A few times per year"
       },
       "2": {
-        "conceptId": "402048066",
-        "concept": "A few times permonth"
+        "conceptId": "254281942",
+        "concept": "A few times per month"
       },
       "3": {
         "conceptId": "522395860",
@@ -9329,7 +9329,7 @@
     "questionText": "What was the outcome of this pregnancy?",
     "conceptId": "391951010"
   },
-  "grid_SECSMLF2": {
+  "GRID_SECSMLF2": {
     "conceptId": "738219521",
     "questionText": "Thinking about your typical adult life, about how often were you around the tobacco smoke of others, for example in your home, work, or school"
   },
@@ -9751,8 +9751,8 @@
         "isTextBox": true
       }
     },
-    "conceptId": "550244580",
-    "questionText": "Age first used e-cigarettes or other vaping devices on a regular basis"
+    "conceptId": "942945860",
+    "questionText": "Age first used electronic marijuana delivery devices on a regular basis"
   },
   "EAMAR3": {
     "questIds": {
@@ -12750,8 +12750,8 @@
         "concept": "A few times per year"
       },
       "2": {
-        "conceptId": "402048066",
-        "concept": "A few times permonth"
+        "conceptId": "254281942",
+        "concept": "A few times per month"
       },
       "3": {
         "conceptId": "522395860",
@@ -15123,8 +15123,8 @@
         "concept": "A few times per year"
       },
       "2": {
-        "conceptId": "402048066",
-        "concept": "A few times permonth"
+        "conceptId": "254281942",
+        "concept": "A few times per month"
       },
       "3": {
         "conceptId": "522395860",
@@ -15184,8 +15184,8 @@
         "concept": "A few times per year"
       },
       "2": {
-        "conceptId": "402048066",
-        "concept": "A few times permonth"
+        "conceptId": "254281942",
+        "concept": "A few times per month"
       },
       "3": {
         "conceptId": "522395860",
@@ -15857,8 +15857,8 @@
         "concept": "A few times per year"
       },
       "2": {
-        "conceptId": "402048066",
-        "concept": "A few times permonth"
+        "conceptId": "254281942",
+        "concept": "A few times per month"
       },
       "3": {
         "conceptId": "522395860",
@@ -16120,8 +16120,8 @@
         "concept": "A few times per year"
       },
       "2": {
-        "conceptId": "402048066",
-        "concept": "A few times permonth"
+        "conceptId": "254281942",
+        "concept": "A few times per month"
       },
       "3": {
         "conceptId": "522395860",
