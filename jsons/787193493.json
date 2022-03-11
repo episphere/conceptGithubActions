@@ -1,16 +1,29 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
-  "Source Question": "814664694.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Source Question": [
+    "814664694.json"
+  ],
   "conceptId": "787193493",
-  "Question Text": "Other: Please describe[text box]",
+  "Question Text": "Other hair loss medication: Please describe [text box]",
   "Variable Label": "Other hair loss med [text box]",
-  "Variable Name": "SrvBOH_OtherHairMedDes_v1r0",
-  "Connect Value for Select all that apply questions": "HRMED2_TB",
+  "Variable Name": [
+    "SrvBOH_OtherHairMedDes_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "HRMED2_TB"
+  ],
   "Variable Type": "Char",
   "Variable Length": "300",
-  "Connect Value": "N/A",
+  "Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Quest_Src Question": "HRMED2"
+  "Question Type": "Optional Select All that Apply, Displayif in One or More Responses",
+  "Quest_Src Question": [
+    "HRMED2"
+  ]
 }

@@ -1,37 +1,25 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
   "conceptId": "759004335",
   "Question Text": "Which of these options best describes your household's total combined family income for the <b>past 12 months</b>? This should include money earned from all places: job wages, rent from properties, investment income, social security, disability and/or veteran's benefits, unemployment benefits, workman's compensation, child support payments, alimony, and so on. Answer with the amount before taxes.",
   "Variable Label": "Income",
-  "Variable Name": "SrvBOH_Income_v1r0",
-  "Connect Value for Select all that apply questions": "INCOME",
+  "Variable Name": [
+    "SrvBOH_Income_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "INCOME"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Default Variable": [
-    "172308679.json",
-    "322979609.json"
-  ],
-  "Date added or modified": [
-    "265313403.json",
-    "588198557.json"
-  ],
-  "Old Quest Value": {
-    "751090337.json": "1",
-    "976555124.json": "2",
-    "745561936.json": "3",
-    "209571450.json": "4",
-    "212249150.json": "5",
-    "777814771.json": "6",
-    "922395188.json": "7",
-    "913602274.json": "8",
-    "742032816.json": "9",
-    "850872507.json": "77",
-    "746038746.json": "99"
-  },
-  "Connect Value": {
+  "Question Type": "Optional Multiple Choice",
+  "Format/Value": {
     "374508062.json": "0",
     "976555124.json": "1",
     "745561936.json": "2",
@@ -43,5 +31,22 @@
     "742032816.json": "8",
     "178420302.json": "77",
     "746038746.json": "99"
-  }
+  },
+  "Old Quest Value": {
+    "374508062.json": "1",
+    "976555124.json": "2",
+    "745561936.json": "3",
+    "209571450.json": "4",
+    "212249150.json": "5",
+    "777814771.json": "6",
+    "922395188.json": "7",
+    "913602274.json": "8",
+    "742032816.json": "9",
+    "832322940.json": "77",
+    "746038746.json": "99"
+  },
+  "Date added or modified": [
+    "9/28/21",
+    "6/24/21"
+  ]
 }

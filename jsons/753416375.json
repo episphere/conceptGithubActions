@@ -1,23 +1,37 @@
 {
   "conceptId": "753416375",
-  "Variable Name": "SrvMRE_IbuprofenPillDK_v1r0",
+  "Question Text": "Pills per day ibuprofen",
   "subcollections": [
-    "377507430.json",
+    "101310722.json",
     "753416375.json"
   ],
-  "Primary Source": "129084651.json",
-  "Secondary Source": "745268907.json",
-  "Source Question": "753416375.json",
-  "Question Text": "Pills per day ibuprofen",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "Source Question": [
+    "753416375.json"
+  ],
   "Variable Label": "Pills per day ibuprofen, don't know",
-  "Connect Value for Select all that apply questions": "PAINREL3_3",
+  "Variable Name": [
+    "SrvMRE_IbuprofenPillDK_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "PAINREL3_3"
+  ],
   "Variable Type": "Num",
   "Variable Length": "3",
+  "Format/Value": {
+    "178420302.json": "77"
+  },
   "Old Quest Value": "Don't know",
-  "Connect Value": "77 = Unavailable/Unknown",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if PAINREL1 = 2",
   "Date added or modified": "10/6/21",
-  "Quest_Src Question": "PAINREL3_3"
+  "Quest_Src Question": [
+    "PAINREL3_3"
+  ]
 }

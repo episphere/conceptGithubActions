@@ -1,16 +1,25 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
   "conceptId": "207494582",
   "Question Text": "How much shorter are you now than when you were in your 20s and 30s? If you are not sure, please make your best guess.",
   "Variable Label": "Shorter inches",
-  "Variable Name": "SrvBOH_ShorterIn_v1r0",
-  "Connect Value for Select all that apply questions": "SHORTER2",
+  "Variable Name": [
+    "SrvBOH_ShorterIn_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "SHORTER2"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Connect Value": "N/A",
+  "Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Notes": "Display if SHORTER = A little shorter OR a lot shorter",
-  "Date added or modified": "9/14/21"
+  "Date added or modified": "9/14/21",
+  "Question Type": "Text only Response"
 }

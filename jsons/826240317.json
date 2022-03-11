@@ -1,10 +1,16 @@
 {
-  "Primary Source": "237817859.json",
-  "Secondary Source": "635994596.json",
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "635994596.json"
+  ],
   "conceptId": "826240317",
   "Question Text": "Middle Name extracted from HIPAA revocation form",
   "Variable Label": "Middle Name",
-  "Variable Name": "HdWd_Mname_v1r0",
+  "Variable Name": [
+    "HdWd_Mname_v1r0"
+  ],
   "Variable Type": "Char",
   "Variable Length": "50",
   "Format/Value": "N/A",

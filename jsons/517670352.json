@@ -1,17 +1,30 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
-  "Source Question": "628078826.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Source Question": [
+    "628078826.json"
+  ],
   "conceptId": "517670352",
   "Question Text": "At what age did your father die?, Number",
   "Variable Label": "father age at death, number",
-  "Variable Name": "SrvBOH_DadAgeDeathNum_v1r0",
-  "Connect Value for Select all that apply questions": "DADDEATH_num",
+  "Variable Name": [
+    "SrvBOH_DadAgeDeathNum_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "DADDEATH_num"
+  ],
   "Variable Type": "Num",
   "Variable Length": "3",
-  "Connect Value": "N/A",
+  "Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "9/14/21",
-  "Quest_Src Question": "DADDEATH"
+  "Question Type": "Text Box Plus Check Box",
+  "Quest_Src Question": [
+    "DADDEATH"
+  ]
 }

@@ -1,11 +1,19 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "745268907.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
   "conceptId": "880331901",
   "Question Text": "How old were you when you first used combined oral contraceptive pills?",
   "Variable Label": "Age combined oral contraceptive pills first use",
-  "Variable Name": "SrvMRE_AgeCombPillF_v1r0",
-  "Connect Value for Select all that apply questions": "HORMED2_1",
+  "Variable Name": [
+    "SrvMRE_AgeCombPillF_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "HORMED2_1"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Old Quest Value": "N/A",

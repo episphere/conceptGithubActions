@@ -1,19 +1,32 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
-  "Source Question": "517307064.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Source Question": [
+    "517307064.json"
+  ],
   "conceptId": "492902023",
   "Question Text": "Removal of a part of my breast tissue (breast-conserving surgery (BCS), lumpectomy, partial mastectomy, or segmental mastectomy)",
   "Variable Label": "Removal of a part of my breast tissue (breast-conserving surgery (BCS), lumpectomy, partial mastectomy, or segmental mastectomy)",
-  "Variable Name": "SrvBOH_BreastPartRem_v1r0",
-  "Connect Value for Select all that apply questions": "4",
+  "Variable Name": [
+    "SrvBOH_BreastPartRem_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "4"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if MHGROUP9 = breast surgery",
-  "Quest_Src Question": "BREASTSUR",
-  "Connect Value": {
+  "Question Type": "Optional Select All that Apply",
+  "Quest_Src Question": [
+    "BREASTSUR"
+  ],
+  "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

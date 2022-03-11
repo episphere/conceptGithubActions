@@ -1,4 +1,4 @@
-const concept = require('./concept');
+/*const concept = require('./concept');
 const aggregate = require('./aggregateJSONS.js');
 const fs = require('fs');
 const otherDirection = require('./otherDirection');
@@ -32,7 +32,7 @@ for(let i = 0; i < files.length; i++){
         changed = true;
     }*/
     
-}
+//}
 
 /*
 if(changed){

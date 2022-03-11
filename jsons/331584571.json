@@ -1,16 +1,29 @@
 {
-  "Primary Source": "819848608.json",
-  "Secondary Source": "123496044.json",
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "123496044.json"
+  ],
   "conceptId": "331584571",
   "Question Text": "Select visit from drop down menu",
   "Variable Label": "Select visit",
-  "Variable Name": "BioSpm_Visit_v1r0",
+  "Variable Name": [
+    "BioSpm_Visit_v1r0"
+  ],
   "Variable Type": "Num",
-  "Format/Value": "0 = Baseline",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Set baseline as the default, full list is not finalized yet.",
+  "Notes": "Visit selected at the time of check-in",
   "Dictionary": "Biospecimen Clinical, Biospecimen Research",
   "State Attribute": "No",
-  "Default Variable": "Yes"
+  "Default Variable": "No",
+  "Date added or modified": "1/18/22",
+  "Question Type": "See EMRBl_Push_v1r0",
+  "Format/Value": {
+    "266600170.json": "0",
+    "496823485.json": "1",
+    "650465111.json": "2",
+    "303552867.json": "3"
+  }
 }

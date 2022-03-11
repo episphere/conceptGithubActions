@@ -1,19 +1,32 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
-  "Source Question": "115616118.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Source Question": [
+    "115616118.json"
+  ],
   "conceptId": "496132363",
   "Question Text": "Fijian",
   "Variable Label": "Fijian",
-  "Variable Name": "SrvBOH_Fijian_v1r0",
-  "Connect Value for Select all that apply questions": "2",
+  "Variable Name": [
+    "SrvBOH_Fijian_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "2"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if RACEETH = Native Hawaiian or other Pacific Islander",
-  "Quest_Src Question": "RACEETH7",
-  "Connect Value": {
+  "Question Type": "Optional Select All that Apply",
+  "Quest_Src Question": [
+    "RACEETH7"
+  ],
+  "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

@@ -1,14 +1,22 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
-  "Source Question": "140418030.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Source Question": [
+    "140418030.json"
+  ],
   "conceptId": "411466992",
   "Question Text": "WEIGHTHIS percent difference between 25 years old and 35 years old",
   "Variable Label": "WEIGHTHIS percent difference between 25 years old and 35 years old",
-  "Variable Name": "SrvBOH_WtPercent2535_v1r0",
+  "Variable Name": [
+    "SrvBOH_WtPercent2535_v1r0"
+  ],
   "Variable Type": "Num",
   "Variable Length": "3",
-  "Connect Value": "N/A",
+  "Format/Value": "N/A",
   "Required": "No",
   "PII": "No"
 }

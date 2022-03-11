@@ -1,10 +1,16 @@
 {
-  "Primary Source": "192505768.json",
-  "Secondary Source": "218595434.json",
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "218595434.json"
+  ],
   "conceptId": "679832994",
   "Question Text": "Verification Variable - Token",
   "Variable Label": "Token Match",
-  "Variable Name": "RcrtV_TokenMatch_v1r0",
+  "Variable Name": [
+    "RcrtV_TokenMatch_v1r0"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "Yes for some sites",

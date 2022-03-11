@@ -1,15 +1,24 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
   "conceptId": "724181652",
   "Question Text": "How much did you weigh three years ago? If you don't know your exact weight, please make your best guess. [DISPLAY ADDITIONAL TEXT IF SEX= 02 or 03: If you were pregnant three years ago, how much did you weigh before your pregnancy?]",
   "Variable Label": "Weight 3 years ago",
-  "Variable Name": "SrvBOH_Weight3YAgo_v1r0",
-  "Connect Value for Select all that apply questions": "WEIGHT3Y",
+  "Variable Name": [
+    "SrvBOH_Weight3YAgo_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "WEIGHT3Y"
+  ],
   "Variable Type": "Num",
   "Variable Length": "3",
-  "Connect Value": "N/A",
+  "Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "9/14/21"
+  "Date added or modified": "9/14/21",
+  "Question Type": "Text only Response"
 }

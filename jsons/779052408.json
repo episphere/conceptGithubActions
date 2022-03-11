@@ -1,22 +1,31 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "745268907.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
   "conceptId": "779052408",
-  "Question Text": "Has a doctor or other health professional ever told you that you have or had gestational diabetes?",
+  "Question Text": "Did a doctor or other health professional tell you that you have or had gestational diabetes during this pregnacy?",
   "Variable Label": "Gestational diabetes",
-  "Variable Name": "SrvMRE_GestDiab_v1r0",
-  "Connect Value for Select all that apply questions": "PREG10",
+  "Variable Name": [
+    "SrvMRE_GestDiab_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "PREG10"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Notes": "Should be asked for EACH pregnancy where PREG5 = 0, 1, 2, or 3",
-  "Old Quest Value": {
-    "104430631.json": "2",
+  "Date added or modified": "10/19/21",
+  "Format/Value": {
+    "104430631.json": "0",
     "353358909.json": "1"
   },
-  "Connect Value": {
-    "104430631.json": "0",
+  "Old Quest Value": {
+    "104430631.json": "2",
     "353358909.json": "1"
   }
 }

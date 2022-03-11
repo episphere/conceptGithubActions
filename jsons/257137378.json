@@ -1,30 +1,42 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "745268907.json",
-  "Source Question": "421859821.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "Source Question": [
+    "421859821.json"
+  ],
   "conceptId": "257137378",
   "Question Text": "Did you feel very tired during the day?",
   "Variable Label": "Did you feel very tired during the day?",
-  "Variable Name": "SrvMRE_TiredDuringDay_v1r0",
-  "Connect Value for Select all that apply questions": "SLHABIT1G",
+  "Variable Name": [
+    "SrvMRE_TiredDuringDay_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "SLHABIT1G"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "10/8/21",
-  "Quest_Src Question": "GRID_SLHABIT1",
+  "Date added or modified": "11/15/21",
+  "Quest_Src Question": [
+    "GRID_SLHABIT1"
+  ],
+  "Format/Value": {
+    "104430631.json": "0",
+    "525779785.json": "1",
+    "565036180.json": "2",
+    "284343405.json": "3",
+    "270994579.json": "4"
+  },
   "Old Quest Value": {
     "104430631.json": "1",
     "525779785.json": "2",
     "565036180.json": "3",
     "284343405.json": "4",
     "270994579.json": "5"
-  },
-  "Connect Value": {
-    "104430631.json": "0",
-    "525779785.json": "1",
-    "565036180.json": "2",
-    "284343405.json": "3",
-    "270994579.json": "4"
   }
 }

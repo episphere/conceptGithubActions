@@ -1,10 +1,16 @@
 {
-  "Primary Source": "237817859.json",
-  "Secondary Source": "861315814.json",
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "861315814.json"
+  ],
   "conceptId": "538619788",
-  "Question Text": "Reason not given",
+  "Question Text": "Reason not given- Refusal",
   "Variable Label": "Reason not given",
-  "Variable Name": "HdRef_NotGiven_v1r0",
+  "Variable Name": [
+    "HdRef_NotGiven_v1r0"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "Yes",
@@ -12,6 +18,7 @@
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "Yes",
+  "Date added or modified": "1/31/22",
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

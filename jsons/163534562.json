@@ -1,11 +1,19 @@
 {
-  "Primary Source": "192505768.json",
-  "Secondary Source": "883203566.json",
-  "Source Question": "706283025.json",
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "883203566.json"
+  ],
+  "Source Question": [
+    "706283025.json"
+  ],
   "conceptId": "163534562",
   "Question Text": "I am worried the study might find out something concerning about me",
   "Variable Label": "Worried the study might find something concerning about them",
-  "Variable Name": "RcrtSI_OptOut_v1r0_concern",
+  "Variable Name": [
+    "RcrtSI_OptOut_v1r0_concern"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",

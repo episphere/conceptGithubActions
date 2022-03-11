@@ -1,23 +1,37 @@
 {
   "conceptId": "825189914",
-  "Variable Name": "SrvMRE_REAspirinPillDK_v1r0",
+  "Question Text": "Pills per day regular or extra strength aspirin",
   "subcollections": [
-    "506631184.json",
+    "101310722.json",
     "825189914.json"
   ],
-  "Primary Source": "129084651.json",
-  "Secondary Source": "745268907.json",
-  "Source Question": "825189914.json",
-  "Question Text": "Pills per day regular or extra strength aspirin",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "Source Question": [
+    "825189914.json"
+  ],
   "Variable Label": "Pills per day regular or extra strength aspirin, don't know",
-  "Connect Value for Select all that apply questions": "PAINREL3_2",
+  "Variable Name": [
+    "SrvMRE_REAspirinPillDK_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "PAINREL3_2"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
+  "Format/Value": {
+    "178420302.json": "77"
+  },
   "Old Quest Value": "Don't know",
-  "Connect Value": "77 = Unavailable/Unknown",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if PAINREL1 = 1",
   "Date added or modified": "10/6/21",
-  "Quest_Src Question": "PAINREL3_2"
+  "Quest_Src Question": [
+    "PAINREL3_2"
+  ]
 }

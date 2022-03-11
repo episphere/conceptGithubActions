@@ -1,18 +1,38 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "745268907.json",
-  "Source Question": "867921110.json",
   "conceptId": "496539718",
   "Question Text": "Age first menstrual period",
+  "subcollections": [
+    "969451837.json",
+    "496539718.json"
+  ],
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "Source Question": [
+    "496539718.json"
+  ],
   "Variable Label": "Age first menstrual period, never had",
-  "Variable Name": "SrvMRE_FirstPeriAgeNH_v1r0",
-  "Connect Value for Select all that apply questions": "MENSHIS",
+  "Variable Name": [
+    "SrvMRE_FirstPeriAgeNH_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "MENSHIS"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Old Quest Value": "88= Never had a menstrual period",
-  "Connect Value": "88 = None of the above",
+  "Format/Value": {
+    "648960871.json": "44"
+  },
+  "Old Quest Value": {
+    "249502933.json": "88"
+  },
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "10/5/21",
-  "Quest_Src Question": "MENSHIS"
+  "Date added or modified": "11/15/21",
+  "Quest_Src Question": [
+    "MENSHIS"
+  ]
 }

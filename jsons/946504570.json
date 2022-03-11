@@ -1,25 +1,34 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
   "conceptId": "946504570",
   "Question Text": "Which of these best describes the type of testicle removal surgery that you had?",
   "Variable Label": "Testicle removal surgery",
-  "Variable Name": "SrvBOH_TestRemSurg_v1r0",
-  "Connect Value for Select all that apply questions": "TESTREM",
+  "Variable Name": [
+    "SrvBOH_TestRemSurg_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "TESTREM"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if MHGROUP9 = Testical remvoal surgery",
   "Date added or modified": "9/28/21",
+  "Question Type": "Optional Multiple Choice",
+  "Format/Value": {
+    "770550588.json": "0",
+    "970716952.json": "1",
+    "535003378.json": "88"
+  },
   "Old Quest Value": {
     "770550588.json": "1",
     "970716952.json": "2",
-    "398561594.json": "3"
-  },
-  "Connect Value": {
-    "770550588.json": "0",
-    "970716952.json": "1",
-    "398561594.json": "88"
+    "535003378.json": "3"
   }
 }

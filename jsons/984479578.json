@@ -1,18 +1,31 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
-  "Source Question": "180961306.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Source Question": [
+    "180961306.json"
+  ],
   "conceptId": "984479578",
   "Question Text": "Pancreatitis",
   "Variable Label": "Pancreatitis",
-  "Variable Name": "SrvBOH_Pancreatitis_v1r0",
-  "Connect Value for Select all that apply questions": "10",
+  "Variable Name": [
+    "SrvBOH_Pancreatitis_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "10"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Quest_Src Question": "MHGROUP3",
-  "Connect Value": {
+  "Question Type": "Optional Select All that Apply",
+  "Quest_Src Question": [
+    "MHGROUP3"
+  ],
+  "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

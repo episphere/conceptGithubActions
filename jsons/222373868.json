@@ -1,19 +1,26 @@
 {
-  "Primary Source": "332961895.json",
-  "Secondary Source": "117044491.json",
+  "Primary Source": [
+    "332961895.json"
+  ],
+  "Secondary Source": [
+    "117044491.json"
+  ],
   "conceptId": "222373868",
   "Question Text": "NORC Payment Eligibility",
   "Variable Label": "NORC Payment Eligibility",
-  "Variable Name": "SMPaym_NORCPaymElig_v1r0",
+  "Variable Name": [
+    "SMPaym_NORCPaymElig_v1r0"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
   "Notes": "If SMPaym_PaymElig_v1r0 is 1, SMPaym_Round_v1r0 equals 0 and RcrtES_Site_v1r0 is 8 then SMPaym_NORCPaymElig_v1r0 is 0; if SMPaym_PaymElig_v1r0 is 1 and SMPaym_Round_v1r0 equals 0  and RcrtES_Site_v1r0 ne 8 then SMPaym_NORCPaymElig_v1r0 is 1",
-  "Derivation Notes": "This variable is needed to exclude UChicago participants from NORC's payment list. It is repeated measures associated with Round. Additional derivations will be developed for follow-up Rounds. Uses same time stamp as SMPaym_PaymElig_v1r0",
+  "Derivation Notes": "This variable is needed to exclude UChicago participants from NORC's payment list. Additional derivations will be developed for follow-up Rounds. Uses same time stamp as SMPaym_PaymElig_v1r0. Variable is set as a default and is nested under SMPaym_Round_v1r0",
   "Dictionary": "Study Manager Data Dictionary",
   "State Attribute": "No",
-  "Default Variable": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "1/18/22",
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

@@ -1,14 +1,23 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
   "conceptId": "761310265",
-  "Question Text": "Please identify the occupation category that best describes this job.",
+  "Question Text": "Please identify the occupation category that best describes this current job.",
   "Variable Label": "Current occupation category",
-  "Variable Name": "SrvBOH_OccupationCat_v1r0",
-  "Connect Value for Select all that apply questions": "OCCUPTN1",
+  "Variable Name": [
+    "SrvBOH_OccupationCat_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "OCCUPTN1"
+  ],
   "Variable Type": "Char",
   "Variable Length": "17",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "9/14/21"
+  "Date added or modified": "9/14/21",
+  "Question Type": "Self Populates Outside of Quest"
 }

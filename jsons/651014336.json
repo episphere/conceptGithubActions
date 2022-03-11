@@ -1,10 +1,16 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "829441834.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "829441834.json"
+  ],
   "conceptId": "651014336",
   "Question Text": "Any baseline survey modules not yet submitted",
   "Variable Label": "Baseline survey not complete",
-  "Variable Name": "SrvMsg_AnyLeft_v1r0",
+  "Variable Name": [
+    "SrvMsg_AnyLeft_v1r0"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "Yes",

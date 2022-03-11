@@ -1,18 +1,31 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
-  "Source Question": "900541533.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Source Question": [
+    "900541533.json"
+  ],
   "conceptId": "158044532",
   "Question Text": "Diabetes",
   "Variable Label": "Diabetes",
-  "Variable Name": "SrvBOH_Diabetes_v1r0",
-  "Connect Value for Select all that apply questions": "1",
+  "Variable Name": [
+    "SrvBOH_Diabetes_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "1"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Quest_Src Question": "MHGROUP4",
-  "Connect Value": {
+  "Question Type": "Optional Select All that Apply",
+  "Quest_Src Question": [
+    "MHGROUP4"
+  ],
+  "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

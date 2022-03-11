@@ -1,11 +1,19 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "745268907.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
   "conceptId": "690018400",
   "Question Text": "Fall",
   "Variable Label": "Fall",
-  "Variable Name": "SrvMRE_Fall_v1r0",
-  "Connect Value for Select all that apply questions": "3",
+  "Variable Name": [
+    "SrvMRE_Fall_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "3"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
@@ -13,51 +21,55 @@
   "Notes": "Only display if LAWN1=0",
   "Date added or modified": "6/14/21",
   "Source Question": [
-    "442059084.json",
-    "829749579.json",
-    "618482103.json",
-    "894610280.json",
-    "222110888.json",
-    "564242877.json",
-    "635874413.json",
-    "371748514.json",
-    "858525957.json",
-    "787591805.json",
-    "900299856.json",
-    "149884127.json",
-    "845164425.json",
-    "187772368.json",
-    "815229596.json",
-    "262305264.json",
-    "409324592.json",
-    "895837106.json"
+    [
+      "442059084.json",
+      "829749579.json",
+      "618482103.json",
+      "894610280.json",
+      "222110888.json",
+      "564242877.json",
+      "635874413.json",
+      "371748514.json",
+      "858525957.json",
+      "787591805.json",
+      "900299856.json",
+      "149884127.json",
+      "845164425.json",
+      "187772368.json",
+      "815229596.json",
+      "262305264.json",
+      "409324592.json",
+      "895837106.json"
+    ]
   ],
-  "Quest_Src Question": [
-    "187724958.json",
-    "871231158.json",
-    "940268877.json",
-    "322364162.json",
-    "435056689.json",
-    "607928627.json",
-    "522888899.json",
-    "944912254.json",
-    "850025350.json",
-    "573668163.json",
-    "831794911.json",
-    "689809279.json",
-    "577047330.json",
-    "626056477.json",
-    "622697984.json",
-    "707283586.json",
-    "354153539.json",
-    "255900724.json"
-  ],
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  },
   "Old Quest Value": {
     "104430631.json": "2",
     "353358909.json": "1"
   },
-  "Connect Value": {
-    "104430631.json": "0",
-    "353358909.json": "1"
-  }
+  "Quest_Src Question": [
+    [
+      "LAWN2A",
+      "LAWN2B",
+      "LAWN2C",
+      "EXEREC2A",
+      "EXEREC2B",
+      "EXEREC2C",
+      "EXEREC2D",
+      "EXEREC2E",
+      "EXEREC2F",
+      "EXEREC2G",
+      "EXEREC2H",
+      "EXEREC2I",
+      "EXEREC2J",
+      "EXEREC2K",
+      "EXEREC2L",
+      "EXEREC2M",
+      "EXEREC2N",
+      "EXEREC2O"
+    ]
+  ]
 }

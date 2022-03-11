@@ -1,21 +1,9 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
   "conceptId": "936904328",
-  "Variable Label": "Carry weight",
-  "Variable Name": "SrvBOH_CarryWeight_v1r0",
-  "Connect Value for Select all that apply questions": "CARWEIGHT",
-  "Variable Type": "Num",
-  "Required": "No",
-  "PII": "No",
-  "Old Quest Value": {
-    "245893583.json": "1",
-    "506790433.json": "2",
-    "601057066.json": "3"
-  },
-  "Connect Value": {
-    "245893583.json": "0",
-    "506790433.json": "1",
-    "601057066.json": "2"
-  }
+  "Question Text": "Where do you carry most of your weight on your body? Select all that apply.",
+  "subcollections": [
+    "245893583.json",
+    "506790433.json",
+    "601057066.json"
+  ]
 }

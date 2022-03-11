@@ -1,49 +1,61 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "745268907.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
   "conceptId": "323106499",
   "Question Text": "Arthritis",
   "Variable Label": "Arthritis",
-  "Variable Name": "SrvMRE_Arthiritis_v1r0",
-  "Connect Value for Select all that apply questions": "0",
+  "Variable Name": [
+    "SrvMRE_Arthiritis_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "0"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "7/8/21",
   "Source Question": [
-    "643807999.json",
-    "275143071.json",
-    "152138929.json",
-    "630231395.json",
-    "655266993.json",
-    "509383583.json",
-    "887435355.json"
+    [
+      "643807999.json",
+      "275143071.json",
+      "152138929.json",
+      "630231395.json",
+      "655266993.json",
+      "509383583.json",
+      "887435355.json"
+    ]
   ],
-  "Quest_Src Question": [
-    "827744306.json",
-    "295137535.json",
-    "290319492.json",
-    "214259619.json",
-    "254722221.json",
-    "761229580.json",
-    "976968882.json"
-  ],
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  },
   "Old Quest Value": {
     "104430631.json": "2",
     "353358909.json": "1"
   },
-  "Connect Value": {
-    "104430631.json": "0",
-    "353358909.json": "1"
-  },
-  "Notes": {
-    "918573169.json": "Only display if PAINREL1",
-    "349122068.json": "Only display if PAINREL1",
-    "156095877.json": "Only display if PAINREL1",
-    "162668459.json": "Only display if PAINREL1",
-    "278139969.json": "Only display if PAINREL1",
-    "676824724.json": "Only display if PAINREL1",
-    "512144428.json": "Only display if PAINREL1"
-  }
+  "Notes": [
+    "Only display if PAINREL1 = 0",
+    "Only display if PAINREL1 = 1",
+    "Only display if PAINREL1 = 2",
+    "Only display if PAINREL1 = 3",
+    "Only display if PAINREL1 = 4",
+    "Only display if PAINREL1 = 5",
+    "Only display if PAINREL1 = 6"
+  ],
+  "Quest_Src Question": [
+    [
+      "PAINREL7_1",
+      "PAINREL7_2",
+      "PAINREL7_3",
+      "PAINREL7_4",
+      "PAINREL7_5",
+      "PAINREL7_6",
+      "PAINREL7_7"
+    ]
+  ]
 }

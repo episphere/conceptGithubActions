@@ -1,22 +1,30 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "745268907.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
   "conceptId": "344573484",
   "Question Text": "Are you currently using birth control patch?",
   "Variable Label": "Currently using birth control patch",
-  "Variable Name": "SrvMRE_CurrBCPatch_v1r0",
-  "Connect Value for Select all that apply questions": "HORMED3_6",
+  "Variable Name": [
+    "SrvMRE_CurrBCPatch_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "HORMED3_6"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if HORMED= 4",
-  "Old Quest Value": {
-    "104430631.json": "2",
+  "Format/Value": {
+    "104430631.json": "0",
     "353358909.json": "1"
   },
-  "Connect Value": {
-    "104430631.json": "0",
+  "Old Quest Value": {
+    "104430631.json": "2",
     "353358909.json": "1"
   }
 }

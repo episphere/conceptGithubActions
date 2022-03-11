@@ -1,10 +1,16 @@
 {
-  "Primary Source": "192505768.json",
-  "Secondary Source": "705748897.json",
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "705748897.json"
+  ],
   "conceptId": "421823980",
   "Question Text": "Firebase authentication email",
   "Variable Label": "Account Email",
-  "Variable Name": "email",
+  "Variable Name": [
+    "email"
+  ],
   "Variable Type": "Char",
   "Variable Length": "120",
   "Format/Value": "N/A",

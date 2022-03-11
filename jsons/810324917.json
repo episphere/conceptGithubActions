@@ -1,8 +1,40 @@
 {
   "conceptId": "810324917",
-  "Variable Name": "Why [do/did] you use consume marijuana in food or drinks?",
+  "Question Text": "Why [do/did] you use consume marijuana in food or drinks?",
   "subcollections": [
-    "805335247.json",
-    "605736613.json"
-  ]
+    "810324917.json",
+    "479400169.json"
+  ],
+  "Source Question": [
+    "810324917.json"
+  ],
+  "Variable Label": "Why consume marijuana in food or drinks",
+  "Variable Name": [
+    "SrvSAS_WhyEdibles_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "EAMAR10"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "11/23/21",
+  "Quest_Src Question": [
+    "EAMAR10"
+  ],
+  "Format/Value": {
+    "437269318.json": "0",
+    "838317013.json": "1",
+    "585672584.json": "2",
+    "807835037.json": "55",
+    "746038746.json": "99"
+  },
+  "Old Quest Value": {
+    "437269318.json": "1",
+    "838317013.json": "2",
+    "585672584.json": "3",
+    "431441193.json": "4",
+    "746038746.json": "5"
+  }
 }

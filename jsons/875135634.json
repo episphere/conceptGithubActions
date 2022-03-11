@@ -1,11 +1,19 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "745268907.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
   "conceptId": "875135634",
   "Question Text": "In total, how many times or cycles have you had in vitro fertilization (IVF)?",
   "Variable Label": "Months cycles IVF",
-  "Variable Name": "SrvMRE_IVFMo_v1r0",
-  "Connect Value for Select all that apply questions": "FERT9",
+  "Variable Name": [
+    "SrvMRE_IVFMo_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "FERT9"
+  ],
   "Variable Type": "Num",
   "Variable Length": "3",
   "Old Quest Value": "N/A",

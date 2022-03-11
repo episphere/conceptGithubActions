@@ -1,18 +1,31 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
-  "Source Question": "857915436.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Source Question": [
+    "857915436.json"
+  ],
   "conceptId": "970839481",
-  "Question Text": "State",
+  "Question Text": "Alternative address state",
   "Variable Label": "State",
-  "Variable Name": "SrvBOH_State_v1r0",
-  "Connect Value for Select all that apply questions": "ALTADDRESS2_STATE",
+  "Variable Name": [
+    "SrvBOH_State_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "ALTADDRESS2_STATE"
+  ],
   "Variable Type": "Char",
   "Variable Length": "48",
-  "Connect Value": "N/A",
+  "Format/Value": "N/A",
   "Required": "No",
   "PII": "Yes",
   "Notes": "Populated from Google Addresses",
-  "Date added or modified": "9/14/21",
-  "Quest_Src Question": "ALTADDRESS2"
+  "Date added or modified": "12/27/21",
+  "Question Type": "Multiple Text Boxes",
+  "Quest_Src Question": [
+    "ALTADDRESS2"
+  ]
 }

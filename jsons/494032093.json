@@ -1,30 +1,36 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
   "conceptId": "494032093",
   "Question Text": "Which type of diabetes did a doctor or other health professional tell you that you have or had?",
   "Variable Label": "Diabetes type",
-  "Variable Name": "SrvBOH_DiabetesType_v1r0",
-  "Connect Value for Select all that apply questions": "DM",
+  "Variable Name": [
+    "SrvBOH_DiabetesType_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "DM"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if MHGROUP4 = diabetes",
-  "Default Variable": [
-    "322979609.json"
-  ],
-  "Date added or modified": [
-    "588198557.json"
-  ],
-  "Old Quest Value": {
-    "146477090.json": "1",
-    "573635975.json": "2",
-    "850872507.json": "77"
-  },
-  "Connect Value": {
+  "Question Type": "Optional Multiple Choice",
+  "Format/Value": {
     "146477090.json": "0",
     "573635975.json": "1",
     "178420302.json": "77"
-  }
+  },
+  "Old Quest Value": {
+    "146477090.json": "1",
+    "573635975.json": "2",
+    "832322940.json": "77"
+  },
+  "Date added or modified": [
+    "6/24/21"
+  ]
 }

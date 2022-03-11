@@ -1,22 +1,39 @@
 {
   "conceptId": "537137982",
-  "Variable Name": "SrvBOH_Sib1AgeDeath_v1r0",
+  "Question Text": "Sibling 1- How old was [SIBLING INITIALS OR NICKNAME/your sibling] when they died?",
   "subcollections": [
     "537137982.json",
     "338020179.json"
   ],
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
-  "Source Question": "537137982.json",
-  "Question Text": "Sibling 1- How old was [SIBLING INITIALS OR NICKNAME/your sibling] when they died?",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Source Question": [
+    "537137982.json"
+  ],
   "Variable Label": "Sibling 1 age at death",
-  "Connect Value for Select all that apply questions": "SIBDEATH",
+  "Variable Name": [
+    "SrvBOH_Sib1AgeDeath_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "SIBDEATH"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Old Quest Value": "99 = Don't know",
-  "Connect Value": "77 = Unavailable/Unknown",
+  "Format/Value": {
+    "178420302.json": "77"
+  },
+  "Old Quest Value": {
+    "832322940.json": "99"
+  },
   "Required": "No",
   "PII": "No",
   "Date added or modified": "9/28/21",
-  "Quest_Src Question": "SIBDEATH"
+  "Question Type": "Text Box Plus Check Box, Loops",
+  "Quest_Src Question": [
+    "SIBDEATH"
+  ]
 }

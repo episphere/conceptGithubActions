@@ -1,10 +1,16 @@
 {
-  "Primary Source": "237817859.json",
-  "Secondary Source": "635994596.json",
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "635994596.json"
+  ],
   "conceptId": "659990606",
   "Question Text": "Autoset when HdWd_WdConsent_v1r0 selected",
   "Variable Label": "Date withdrew consent",
-  "Variable Name": "HdWd_WdConsentDt_v1r0",
+  "Variable Name": [
+    "HdWd_WdConsentDt_v1r0"
+  ],
   "Variable Type": "ISO",
   "Variable Length": "24",
   "Format/Value": "example: 2020-07-17T15:21:26.763Z",

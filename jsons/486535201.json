@@ -1,17 +1,30 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
-  "Source Question": "588212264.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Source Question": [
+    "588212264.json"
+  ],
   "conceptId": "486535201",
   "Question Text": "Other language(s): Please describe[text box]",
   "Variable Label": "Other language(s): Please describe[text box]",
-  "Variable Name": "SrvBOH_OtherLangDesc_v1r0",
-  "Connect Value for Select all that apply questions": "LANG_TB",
+  "Variable Name": [
+    "SrvBOH_OtherLangDesc_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "LANG_TB"
+  ],
   "Variable Type": "Char",
   "Variable Length": "300",
-  "Connect Value": "N/A",
+  "Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "9/14/21",
-  "Quest_Src Question": "LANG"
+  "Question Type": "Optional Select All that Apply",
+  "Quest_Src Question": [
+    "LANG"
+  ]
 }

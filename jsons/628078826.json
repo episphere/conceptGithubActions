@@ -1,22 +1,39 @@
 {
   "conceptId": "628078826",
-  "Variable Name": "SrvBOH_DadAgeDeath_v1r0",
+  "Question Text": "At what age did your father die?",
   "subcollections": [
     "628078826.json",
     "517670352.json"
   ],
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
-  "Source Question": "628078826.json",
-  "Question Text": "At what age did your father die?",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Source Question": [
+    "628078826.json"
+  ],
   "Variable Label": "father age at death",
-  "Connect Value for Select all that apply questions": "DADDEATH",
+  "Variable Name": [
+    "SrvBOH_DadAgeDeath_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "DADDEATH"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Old Quest Value": "99= Don't know",
-  "Connect Value": "77 = Unavailable/Unknown",
+  "Format/Value": {
+    "178420302.json": "77"
+  },
+  "Old Quest Value": {
+    "832322940.json": "99"
+  },
   "Required": "No",
   "PII": "No",
   "Date added or modified": "8/23/21",
-  "Quest_Src Question": "DADDEATH"
+  "Question Type": "Text Box Plus Check Box",
+  "Quest_Src Question": [
+    "DADDEATH"
+  ]
 }

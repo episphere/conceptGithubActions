@@ -1,18 +1,31 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
-  "Source Question": "630675760.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Source Question": [
+    "630675760.json"
+  ],
   "conceptId": "660541817",
-  "Question Text": "Other: Please describe [text box]",
+  "Question Text": "Other weight loss method between ages 35 and 45: Please describe [text box]",
   "Variable Label": "Other: Please describe [text box]",
-  "Variable Name": "SrvBOH_OtherWtLossDes3_v1r0",
-  "Connect Value for Select all that apply questions": "WTLOSS2_3545_TB",
+  "Variable Name": [
+    "SrvBOH_OtherWtLossDes3_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "WTLOSS2_3545_TB"
+  ],
   "Variable Type": "Char",
   "Variable Length": "300",
-  "Connect Value": "N/A",
+  "Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if WTLOSS2_3545 = 55",
   "Date added or modified": "9/15/21",
-  "Quest_Src Question": "WTLOSS2_3545"
+  "Question Type": "Optional Select All that Apply",
+  "Quest_Src Question": [
+    "WTLOSS2_3545"
+  ]
 }

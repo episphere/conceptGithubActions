@@ -1,10 +1,16 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "166676176.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "166676176.json"
+  ],
   "conceptId": "920333151",
   "Question Text": "Last 4 digits of Social Security Number",
   "Variable Label": "SSN last 4 digits",
-  "Variable Name": "SrvSS_SSN4d_v1r0",
+  "Variable Name": [
+    "SrvSS_SSN4d_v1r0"
+  ],
   "Variable Type": "Num",
   "Variable Length": "4",
   "Format/Value": "N/A",

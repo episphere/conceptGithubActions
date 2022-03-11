@@ -1,10 +1,16 @@
 {
-  "Primary Source": "237817859.json",
-  "Secondary Source": "861315814.json",
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "861315814.json"
+  ],
   "conceptId": "982105411",
   "Question Text": "Autoset when  HdRef_Basesrv_v1r0 selected",
   "Variable Label": "Date/time refused baseline surveys",
-  "Variable Name": "HdRef_DateBasesrv_v1r0",
+  "Variable Name": [
+    "HdRef_DateBasesrv_v1r0"
+  ],
   "Variable Type": "ISO",
   "Variable Length": "24",
   "Format/Value": "example: 2020-07-17T15:21:26.763Z",

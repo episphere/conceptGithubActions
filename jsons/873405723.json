@@ -1,11 +1,19 @@
 {
-  "Primary Source": "192505768.json",
-  "Secondary Source": "883203566.json",
-  "Source Question": "706283025.json",
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "883203566.json"
+  ],
+  "Source Question": [
+    "706283025.json"
+  ],
   "conceptId": "873405723",
   "Question Text": "I am too busy to join",
   "Variable Label": "Too busy/stressed to join",
-  "Variable Name": "RcrtSI_OptOut_v1r0_busy",
+  "Variable Name": [
+    "RcrtSI_OptOut_v1r0_busy"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",

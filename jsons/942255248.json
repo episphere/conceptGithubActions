@@ -1,11 +1,19 @@
 {
-  "Primary Source": "192505768.json",
-  "Secondary Source": "214456996.json",
-  "Source Question": "142654897.json",
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "214456996.json"
+  ],
+  "Source Question": [
+    "142654897.json"
+  ],
   "conceptId": "942255248",
   "Question Text": "Letter or brochure in mail",
   "Variable Label": "Letter or brochure in mail",
-  "Variable Name": "RcrtES_Aware_v1r0_Mail",
+  "Variable Name": [
+    "RcrtES_Aware_v1r0_Mail"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",

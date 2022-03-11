@@ -1,10 +1,16 @@
 {
-  "Primary Source": "192505768.json",
-  "Secondary Source": "218595434.json",
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "218595434.json"
+  ],
   "conceptId": "148197146",
   "Question Text": "Duplicate type",
   "Variable Label": "Duplicate type",
-  "Variable Name": "RcrtV_DuplicateType_v1r0",
+  "Variable Name": [
+    "RcrtV_DuplicateType_v1r0"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "If RcrtV_Verification_v1r0 equals 3",

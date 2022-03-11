@@ -1,11 +1,19 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "745268907.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
   "conceptId": "824165133",
   "Question Text": "How old were you when you first used combined oral estrogen plus progestin pill?",
   "Variable Label": "First used combined oral estrogen plus progestin pill",
-  "Variable Name": "SrvMRE_CombPillAgeF_v1r0",
-  "Connect Value for Select all that apply questions": "COMBHOR2_1",
+  "Variable Name": [
+    "SrvMRE_CombPillAgeF_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "COMBHOR2_1"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Old Quest Value": "N/A",

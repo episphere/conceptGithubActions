@@ -1,18 +1,32 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
-  "Source Question": "384191091.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Source Question": [
+    "384191091.json"
+  ],
   "conceptId": "586825330",
-  "Question Text": "Native Hawaiian or other Pacific Islander",
-  "Variable Label": "Native Hawaiian or other Pacific Islander",
-  "Variable Name": "SrvBOH_Hawaiian_v1r0",
-  "Connect Value for Select all that apply questions": "5",
+  "Question Text": "Hawaiian or other Pacific Islander",
+  "Variable Label": "Hawaiian or other Pacific Islander",
+  "Variable Name": [
+    "SrvBOH_Hawaiian_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "5"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Quest_Src Question": "RACEETH",
-  "Connect Value": {
+  "Date added or modified": "12/27/21",
+  "Question Type": "Optional Select All that Apply",
+  "Quest_Src Question": [
+    "RACEETH"
+  ],
+  "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

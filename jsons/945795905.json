@@ -1,10 +1,16 @@
 {
-  "Primary Source": "237817859.json",
-  "Secondary Source": "117044491.json",
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "117044491.json"
+  ],
   "conceptId": "945795905",
   "Question Text": "Payment Chosen",
   "Variable Label": "Payment Chosen",
-  "Variable Name": "HDPaym_PaymChosen_v1r0",
+  "Variable Name": [
+    "HDPaym_PaymChosen_v1r0"
+  ],
   "Variable Type": "Char",
   "Variable Length": "40",
   "Format/Value": "example: \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"Starbucks eGift\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"",

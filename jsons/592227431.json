@@ -1,10 +1,16 @@
 {
-  "Primary Source": "237817859.json",
-  "Secondary Source": "635994596.json",
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "635994596.json"
+  ],
   "conceptId": "592227431",
-  "Question Text": "Suffix",
+  "Question Text": "Suffix- Data Destruction",
   "Variable Label": "Suffix",
-  "Variable Name": "HdWd_SuffixDD_v1r0",
+  "Variable Name": [
+    "HdWd_SuffixDD_v1r0"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
@@ -13,7 +19,8 @@
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "4/9/21",
+  "Date added or modified": "2/11/22",
+  "Question Type": "Same question text as RcrtCS_Suffix_v1r0, RcrtUP_Suffix_v1r0 and HdWd_Suffix_v1r0",
   "Format/Value": {
     "612166858.json": "0",
     "255907182.json": "1",

@@ -1,10 +1,16 @@
 {
-  "Primary Source": "192505768.json",
-  "Secondary Source": "883203566.json",
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "883203566.json"
+  ],
   "conceptId": "412947828",
   "Question Text": "Henry Ford Health System Race Ethnicity Combination",
   "Variable Label": "Henry Ford Health System Race Ethnicity Combination",
-  "Variable Name": "RcrtSI_HFHSRE_v1r0",
+  "Variable Name": [
+    "RcrtSI_HFHSRE_v1r0"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "For Henry Ford HS",
@@ -12,20 +18,6 @@
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Derivation Notes": [
-    "493706432.json",
-    "504465846.json",
-    "756047856.json",
-    "467247779.json",
-    "275341843.json",
-    "976692545.json",
-    "143625339.json",
-    "451094255.json",
-    "115269077.json",
-    "567615013.json",
-    "989074363.json",
-    "655352469.json"
-  ],
   "Format/Value": {
     "788071735.json": "0",
     "517187756.json": "1",
@@ -39,5 +31,19 @@
     "419709902.json": "9",
     "896943397.json": "10",
     "519402449.json": "77"
-  }
+  },
+  "Derivation Notes": [
+    "RcrtSI_HFHSRE_v1r0 equals 0 if RcrtSI_HFHSRace_v1r0 equals 0 and RcrtSI_HFHSEthnicity equals 0",
+    "RcrtSI_HFHSRE_v1r0 equals 1 if RcrtSI_HFHSRace_v1r0 equals 0 and RcrtSI_HFHSEthnicity equals 1",
+    "RcrtSI_HFHSRE_v1r0 equals 2 if RcrtSI_HFHSRace_v1r0 equals 0 and RcrtSI_HFHSEthnicity equals 77",
+    "RcrtSI_HFHSRE_v1r0 equals 3 if RcrtSI_HFHSRace_v1r0 equals 1 and RcrtSI_HFHSEthnicity equals 0",
+    "RcrtSI_HFHSRE_v1r0 equals 4 if RcrtSI_HFHSRace_v1r0 equals 1 and RcrtSI_HFHSEthnicity equals 1",
+    "RcrtSI_HFHSRE_v1r0 equals 5 if RcrtSI_HFHSRace_v1r0 equals 1 and RcrtSI_HFHSEthnicity equals 77",
+    "RcrtSI_HFHSRE_v1r0 equals 6 if RcrtSI_HFHSRace_v1r0 equals 2 and RcrtSI_HFHSEthnicity equals 0",
+    "RcrtSI_HFHSRE_v1r0 equals 7 if RcrtSI_HFHSRace_v1r0 equals 2 and RcrtSI_HFHSEthnicity equals 1",
+    "RcrtSI_HFHSRE_v1r0 equals 8 if RcrtSI_HFHSRace_v1r0 equals 2 and RcrtSI_HFHSEthnicity equals 77",
+    "RcrtSI_HFHSRE_v1r0 equals 9 if RcrtSI_HFHSRace_v1r0 equals 77 and RcrtSI_HFHSEthnicity equals 0",
+    "RcrtSI_HFHSRE_v1r0 equals 10 if RcrtSI_HFHSRace_v1r0 equals 77 and RcrtSI_HFHSEthnicity equals 1",
+    "RcrtSI_HFHSRE_v1r0 equals 77 if RcrtSI_HFHSRace_v1r0 equals 77 and RcrtSI_HFHSEthnicity equals 77"
+  ]
 }

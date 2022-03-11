@@ -1,11 +1,19 @@
 {
-  "Primary Source": "192505768.json",
-  "Secondary Source": "883203566.json",
-  "Source Question": "706283025.json",
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "883203566.json"
+  ],
+  "Source Question": [
+    "706283025.json"
+  ],
   "conceptId": "497530905",
   "Question Text": "I do not trust the government",
   "Variable Label": "I do not trust the government",
-  "Variable Name": "RcrtSI_OptOut_v1r0_PrivacyD",
+  "Variable Name": [
+    "RcrtSI_OptOut_v1r0_PrivacyD"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
@@ -15,6 +23,7 @@
   "State Attribute": "Yes",
   "Default Variable": "Yes",
   "Date added or modified": "10/21/21",
+  "Question Type": "Question text also for HdRef_PrivacyB_v1r0",
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

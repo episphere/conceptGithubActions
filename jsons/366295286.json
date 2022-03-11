@@ -1,10 +1,19 @@
 {
-  "Primary Source": "237817859.json",
-  "Secondary Source": "635994596.json",
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "635994596.json"
+  ],
+  "Source Question": [
+    "297147359.json"
+  ],
   "conceptId": "366295286",
   "Question Text": "Who Requested the Refusal/Withdrawal- Other (specify):",
   "Variable Label": "Who Requested the Refusal/Withdrawal- Other (specify):",
-  "Variable Name": "HdWd_RequestedRefWdOth_v1r0",
+  "Variable Name": [
+    "HdWd_RequestedRefWdOth_v1r0"
+  ],
   "Variable Type": "Char",
   "Variable Length": "800",
   "Required": "Yes",
@@ -13,5 +22,5 @@
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "6/2/21"
+  "Date added or modified": "1/31/22"
 }

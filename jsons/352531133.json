@@ -1,17 +1,33 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "745268907.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
   "conceptId": "352531133",
   "Question Text": "During the season[s] in the past 12 months that you did home repairs (such as painting, plumbing, or replacing carpeting), about how often did you do these chores outside of work?",
   "Variable Label": "How often days home repairs (such as painting, plumbing, or replacing carpeting)",
-  "Variable Name": "SrvMRE_HRepairOften_v1r0",
-  "Connect Value for Select all that apply questions": "LAWN3C",
+  "Variable Name": [
+    "SrvMRE_HRepairOften_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "LAWN3C"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if LAWN1=2",
-  "Date added or modified": "10/8/21",
+  "Date added or modified": "11/15/21",
+  "Format/Value": {
+    "239152340.json": "0",
+    "582006876.json": "1",
+    "645894551.json": "2",
+    "996315715.json": "3",
+    "671267928.json": "4",
+    "647504893.json": "5"
+  },
   "Old Quest Value": {
     "744016098.json": "1",
     "813304520.json": "2",
@@ -19,13 +35,5 @@
     "761199270.json": "4",
     "427764707.json": "5",
     "590942885.json": "6"
-  },
-  "Connect Value": {
-    "239152340.json": "0",
-    "582006876.json": "1",
-    "645894551.json": "2",
-    "996315715.json": "3",
-    "671267928.json": "4",
-    "408121350.json": "5"
   }
 }

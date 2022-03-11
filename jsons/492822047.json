@@ -1,11 +1,19 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "745268907.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
   "conceptId": "492822047",
   "Question Text": "How old were you when you first used the other type of prescription hormone?",
   "Variable Label": "How old were you when you first used the other type of prescription hormone?",
-  "Variable Name": "SrvMRE_OthHormAgeF_v1r0",
-  "Connect Value for Select all that apply questions": "PRESHOR3",
+  "Variable Name": [
+    "SrvMRE_OthHormAgeF_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "PRESHOR3"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Old Quest Value": "N/A",

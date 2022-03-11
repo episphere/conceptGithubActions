@@ -1,18 +1,49 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
-  "Source Question": "814510313.json",
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json",
+    "726699695.json",
+    "726699695.json",
+    "726699695.json"
+  ],
+  "Source Question": [
+    "814510313.json",
+    "173240848.json",
+    "578895128.json",
+    "812370563.json"
+  ],
   "conceptId": "764891959",
   "Question Text": "Stomach",
   "Variable Label": "Stomach",
-  "Variable Name": "SrvBOH_MStomachCancer_v1r0",
-  "Connect Value for Select all that apply questions": "18",
+  "Variable Name": [
+    "SrvBOH_MStomachCancer_v1r0",
+    "SrvBOH_DStomachCancer_v1r0",
+    "SrvBOH_S1StomachCanc_v1r0",
+    "SrvBOH_C1StomachCanc_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "18",
+    "17",
+    "19",
+    "19"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Quest_Src Question": "MOMCANC2",
-  "Connect Value": {
+  "Question Type": "Optional Select All that Apply",
+  "Quest_Src Question": [
+    "MOMCANC2",
+    "DADCANC2",
+    "SIBCANC2",
+    "CHILDCANC2"
+  ],
+  "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

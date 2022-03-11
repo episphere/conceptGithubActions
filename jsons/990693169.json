@@ -1,10 +1,16 @@
 {
-  "Primary Source": "332961895.json",
-  "Secondary Source": "117044491.json",
+  "Primary Source": [
+    "332961895.json"
+  ],
+  "Secondary Source": [
+    "117044491.json"
+  ],
   "conceptId": "990693169",
   "Question Text": "Payment issued by NORC or UoC",
   "Variable Label": "NORC or UoC Payment Issued",
-  "Variable Name": "SMPaym_JointPaymIssued_v1r0",
+  "Variable Name": [
+    "SMPaym_JointPaymIssued_v1r0"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "Yes",

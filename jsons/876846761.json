@@ -1,24 +1,32 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "745268907.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
   "conceptId": "876846761",
   "Question Text": "Has your snoring ever bothered other people?",
   "Variable Label": "Snoring bother people",
-  "Variable Name": "SrvMRE_SnoringBother_v1r0",
-  "Connect Value for Select all that apply questions": "SNORING4",
+  "Variable Name": [
+    "SrvMRE_SnoringBother_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "SNORING4"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "10/8/21",
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1",
+    "178420302.json": "77"
+  },
   "Old Quest Value": {
     "353358909.json": "1",
     "104430631.json": "2",
-    "920765381.json": "3"
-  },
-  "Connect Value": {
-    "104430631.json": "0",
-    "353358909.json": "1",
-    "495230752.json": "77"
+    "832322940.json": "3"
   }
 }

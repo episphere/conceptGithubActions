@@ -1,19 +1,32 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
-  "Source Question": "525535977.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Source Question": [
+    "525535977.json"
+  ],
   "conceptId": "469918550",
   "Question Text": "Hmong",
   "Variable Label": "Hmong",
-  "Variable Name": "SrvBOH_Hmong_v1r0",
-  "Connect Value for Select all that apply questions": "4",
+  "Variable Name": [
+    "SrvBOH_Hmong_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "4"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if RACEETH = Asian",
-  "Quest_Src Question": "RACEETH3",
-  "Connect Value": {
+  "Question Type": "Optional Select All that Apply",
+  "Quest_Src Question": [
+    "RACEETH3"
+  ],
+  "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

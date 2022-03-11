@@ -1,18 +1,31 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
-  "Source Question": "874709643.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Source Question": [
+    "874709643.json"
+  ],
   "conceptId": "155874194",
   "Question Text": "Genital Warts",
   "Variable Label": "Genital Warts",
-  "Variable Name": "SrvBOH_Warts_v1r0",
-  "Connect Value for Select all that apply questions": "7",
+  "Variable Name": [
+    "SrvBOH_Warts_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "7"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Quest_Src Question": "MHGROUP7",
-  "Connect Value": {
+  "Question Type": "Optional Select All that Apply",
+  "Quest_Src Question": [
+    "MHGROUP7"
+  ],
+  "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

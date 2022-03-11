@@ -1,10 +1,16 @@
 {
-  "Primary Source": "237817859.json",
-  "Secondary Source": "635994596.json",
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "635994596.json"
+  ],
   "conceptId": "883668444",
   "Question Text": "Destroy Data Categorical",
   "Variable Label": "Destroy Data Categorical",
-  "Variable Name": "HdWd_DestroyDataCat_v1r0",
+  "Variable Name": [
+    "HdWd_DestroyDataCat_v1r0"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "Yes",
@@ -13,14 +19,14 @@
   "State Attribute": "No",
   "Default Variable": "No",
   "Date added or modified": "6/7/21",
-  "Derivation Notes": [
-    "764793352.json",
-    "581989446.json",
-    "551318008.json"
-  ],
   "Format/Value": {
     "457944265.json": "0",
     "111959410.json": "1",
     "704529432.json": "2"
-  }
+  },
+  "Derivation Notes": [
+    "Not requested: HdWd_DestroyData_v1r0 equals 0",
+    "Requested but not signed: HdWd_DestroyData_v1r0 equals 1 and HdWd_Datadestroysign_v1r0 equals 0",
+    "Requested and signed: HdWd_DestroyData_v1r0 equals 1 and HdWd_Datadestroysign_v1r0 equals 1"
+  ]
 }

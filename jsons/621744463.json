@@ -1,22 +1,30 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "745268907.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
   "conceptId": "621744463",
   "Question Text": "Have you ever used a hormone prescribed by a doctor or other health professional?",
   "Variable Label": "Used a hormone prescribed by a doctor or other health professional",
-  "Variable Name": "SrvMRE_HormoneDoc_v1r0",
-  "Connect Value for Select all that apply questions": "MENOHOR1",
+  "Variable Name": [
+    "SrvMRE_HormoneDoc_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "MENOHOR1"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "7/7/21",
-  "Old Quest Value": {
-    "104430631.json": "2",
+  "Format/Value": {
+    "104430631.json": "0",
     "353358909.json": "1"
   },
-  "Connect Value": {
-    "104430631.json": "0",
+  "Old Quest Value": {
+    "104430631.json": "2",
     "353358909.json": "1"
   }
 }

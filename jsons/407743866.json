@@ -1,10 +1,16 @@
 {
-  "Primary Source": "237817859.json",
-  "Secondary Source": "635994596.json",
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "635994596.json"
+  ],
   "conceptId": "407743866",
   "Question Text": "HIPAA Revocation Version",
   "Variable Label": "HIPAA Revocation Version",
-  "Variable Name": "HdWd_HIPAArevokedver_v1r0",
+  "Variable Name": [
+    "HdWd_HIPAArevokedver_v1r0"
+  ],
   "Variable Type": "Char",
   "Format/Value": "N/A",
   "Required": "Yes",

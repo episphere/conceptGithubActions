@@ -1,17 +1,30 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "726699695.json",
-  "Source Question": "178774803.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Source Question": [
+    "178774803.json"
+  ],
   "conceptId": "334956961",
   "Question Text": "How old is your father today?, Number",
   "Variable Label": "father age, number",
-  "Variable Name": "SrvBOH_DadAgeNum_v1r0",
-  "Connect Value for Select all that apply questions": "DAD_AGE",
+  "Variable Name": [
+    "SrvBOH_DadAgeNum_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "DAD_AGE"
+  ],
   "Variable Type": "Num",
   "Variable Length": "3",
-  "Connect Value": "N/A",
+  "Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "9/14/21",
-  "Quest_Src Question": "DADAGE"
+  "Question Type": "Text Box Plus Check Box",
+  "Quest_Src Question": [
+    "DADAGE"
+  ]
 }

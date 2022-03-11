@@ -1,11 +1,19 @@
 {
-  "Primary Source": "237817859.json",
-  "Secondary Source": "861315814.json",
-  "Source Question": "685002411.json",
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "861315814.json"
+  ],
+  "Source Question": [
+    "685002411.json"
+  ],
   "conceptId": "949501163",
   "Question Text": "Baseline urine sample",
   "Variable Label": "Refused baseline urine sample",
-  "Variable Name": "HdRef_Baseurine_v1r0",
+  "Variable Name": [
+    "HdRef_Baseurine_v1r0"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "Yes",

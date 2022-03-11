@@ -1,11 +1,19 @@
 {
-  "Primary Source": "129084651.json",
-  "Secondary Source": "745268907.json",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
   "conceptId": "779165920",
   "Question Text": "How old were you when you last used patch estrogen-only medication?",
   "Variable Label": "Age patch estrogen-only medication last use",
-  "Variable Name": "SrvMRE_AgePatchEUsedL_v1r0",
-  "Connect Value for Select all that apply questions": "ESTROHOR4_2",
+  "Variable Name": [
+    "SrvMRE_AgePatchEUsedL_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "ESTROHOR4_2"
+  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Old Quest Value": "N/A",
