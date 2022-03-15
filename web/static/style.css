@@ -46,3 +46,18 @@ div.tooltip {
 .align-left {
     text-align: left;
 }
+
+.tooltiptext {
+    visibility: visible;
+    width: 200px;
+    background-color: #cecece;
+    color: #000000;
+    text-align: center;
+    font-size: small;
+    padding: 5px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 999 !important;
+    left: 13%;
+    top: -5px;
+}
