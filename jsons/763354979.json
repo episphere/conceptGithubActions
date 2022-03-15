@@ -1,0 +1,39 @@
+{
+  "conceptId": "763354979",
+  "Question Text": "Season Address 5-Please provide the cross streets of the intersection closest to this address:",
+  "subcollections": [
+    "677922318.json",
+    "424347938.json",
+    "763354979.json"
+  ],
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Source Question": [
+    "763354979.json"
+  ],
+  "Variable Label": "Do Not Know 5-Seasonal Cross",
+  "Variable Name": [
+    "SrvLAW_Seas5CrDontKnow_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "SEASADD3_5"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Format/Value": {
+    "178420302.json": "77"
+  },
+  "Old Quest Value": {
+    "178420302.json": "77"
+  },
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "3/10/22",
+  "Quest_Src Question": [
+    "SEASADD3_5"
+  ]
+}

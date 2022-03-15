@@ -1,0 +1,28 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Source Question": [
+    "992180692.json"
+  ],
+  "conceptId": "371588177",
+  "Question Text": "Previous Employer Apartment, suite, unit, building, etc.",
+  "Variable Label": "Apartment, suite, unit, building, etc.",
+  "Variable Name": [
+    "SrvLAW_PreWorkApt_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "PREWORKAPT"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "70",
+  "Required": "No",
+  "PII": "Yes",
+  "Date added or modified": "3/10/22",
+  "Quest_Src Question": [
+    "PREWORK1"
+  ]
+}

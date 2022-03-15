@@ -1,0 +1,22 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "conceptId": "138397553",
+  "Question Text": "During how many of the past 12 months did you commute to [insert address from CURWORK1 – CURWORK3/this address]?",
+  "Variable Label": "Months commute to address",
+  "Variable Name": [
+    "SrvLAW_CurWorkMos_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "CURWORKMOS"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Old Quest Value": "No",
+  "Required": "No",
+  "PII": "No"
+}

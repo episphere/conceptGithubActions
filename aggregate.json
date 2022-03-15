@@ -5,6 +5,12 @@
       "SrvMRE_Pergonal_v1r0"
     ]
   },
+  "100591237": {
+    "Variable Label": "Time, Commuter rail, subway, metro commute from current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkT10E_v1r0"
+    ]
+  },
   "100752105": {
     "Variable Label": "Norplant (inserted under the skin of your upper arm, lasts several years)",
     "Variable Name": [
@@ -35,6 +41,12 @@
       "EMRBl_Push_v1r0"
     ]
   },
+  "101219440": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_State5_v1r0"
+    ]
+  },
   "101310722": {
     "Variable Label": "Pills per day baby or low-dose aspirin (81 mg or less)",
     "Variable Name": [
@@ -54,10 +66,22 @@
       "SrvMRE_H2RecBlocOCPill_v1r0"
     ]
   },
+  "101341673": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_ZipFU_v1r0"
+    ]
+  },
   "101710639": {
     "Variable Label": "Use chewing tobacco, snus, snuff, or dip  now",
     "Variable Name": [
       "SrvSAS_UseCTNow_v1r0"
+    ]
+  },
+  "101804763": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_SeaCity5FU_v1r0"
     ]
   },
   "102695484": {
@@ -72,10 +96,34 @@
       "SrvSAS_OthAlcServ12Mo_v1r0"
     ]
   },
+  "103327434": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_SeasWtr3_5_Oth_v1r0"
+    ]
+  },
+  "103689435": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_SeaZip6FU_v1r0"
+    ]
+  },
   "104278817": {
     "Variable Label": "First Name",
     "Variable Name": [
       "HdWd_FnameDD_v1r0"
+    ]
+  },
+  "104666483": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_HomeWtr3_9_Oth_v1r0"
+    ]
+  },
+  "105043152": {
+    "Variable Label": "Full Street name #1",
+    "Variable Name": [
+      "SrvLAW_StrName1_v1r0"
     ]
   },
   "105891443": {
@@ -84,16 +132,40 @@
       "BioPack_TempProbe_v1r0"
     ]
   },
+  "105941645": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd4PrWater_v1r0"
+    ]
+  },
   "106272739": {
     "Variable Label": "Ages 15 to 17",
     "Variable Name": [
       "SrvSAS_NumSmoke1517_v1r0"
     ]
   },
+  "107050954": {
+    "Variable Label": "Major road, commute to current school",
+    "Variable Name": [
+      "SrvLAW_CurSchT4_v1r0"
+    ]
+  },
   "107060069": {
     "Variable Label": "Prostate removal surgery",
     "Variable Name": [
       "SrvBOH_ProsRemSurg_v1r0"
+    ]
+  },
+  "107428524": {
+    "Variable Label": "Walking commute from current school",
+    "Variable Name": [
+      "SrvLAW_CurSchWalk6_v1r0"
+    ]
+  },
+  "107659596": {
+    "Variable Label": "Commuter rail, subway, metro commute to current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkRail_v1r0"
     ]
   },
   "108025529": {
@@ -108,10 +180,40 @@
       "SrvMRE_TTInjection_v1r0"
     ]
   },
+  "108530997": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_PreWorkState_v1r0"
+    ]
+  },
+  "109431893": {
+    "Variable Label": "Time, Bicycle commute to past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkTmBike_v1r0"
+    ]
+  },
   "109544008": {
     "Variable Label": "First used hair med age",
     "Variable Name": [
       "SrvBOH_HairMedAgeF_v1r0"
+    ]
+  },
+  "109991481": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_SeaState2_v1r0"
+    ]
+  },
+  "110516520": {
+    "Variable Label": "Full Street name #2",
+    "Variable Name": [
+      "SrvLAW_SeaStrtName7_v1r0"
+    ]
+  },
+  "110852652": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_PreWorkZip_v1r0"
     ]
   },
   "111082535": {
@@ -132,10 +234,28 @@
       "SrvMRE_AgeOthProgL_v1r0"
     ]
   },
+  "111275683": {
+    "Variable Label": "Full Street name",
+    "Variable Name": [
+      "SrvLAW_FullSt1_v1r0"
+    ]
+  },
   "112024853": {
     "Variable Label": "Ever took metformin (such as Glucophage, Glumetza, Riomet, Fortamet, or Glucophage XR)",
     "Variable Name": [
       "SrvMRE_Metformin_v1r0"
+    ]
+  },
+  "113352592": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_SeaCity3_v1r0"
+    ]
+  },
+  "113557709": {
+    "Variable Label": "Deep private well",
+    "Variable Name": [
+      "SrvLAW_DeepPrivWell6_v1r0"
     ]
   },
   "113579866": {
@@ -154,6 +274,12 @@
     "Variable Label": "Current employement status",
     "Variable Name": [
       "SrvBOH_EmplStatus_v1r0"
+    ]
+  },
+  "115195973": {
+    "Variable Label": "Full Street name #1",
+    "Variable Name": [
+      "SrvLAW_SeaStrName6_v1r0"
     ]
   },
   "115422925": {
@@ -180,16 +306,40 @@
       "SrvSAS_NeverSmokeMJ_v1r0"
     ]
   },
+  "116442173": {
+    "Variable Label": "Bus or streetcar/trolley, light rail/trolley, light rail commute to past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkBus_v1r0"
+    ]
+  },
   "116510981": {
     "Variable Label": "Age first used electronic marijuana delivery devices",
     "Variable Name": [
       "SrvSAS_AgeUseEMJDevF_v1r0"
     ]
   },
+  "116882225": {
+    "Variable Label": "Time, Motorcycle commute to past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkTmMoto_v1r0"
+    ]
+  },
   "117249500": {
     "Variable Label": "User Profile derived age",
     "Variable Name": [
       "RcrtUP_Age_v1r0"
+    ]
+  },
+  "117544868": {
+    "Variable Label": "Full Street name #1",
+    "Variable Name": [
+      "SrvLAW_SeaStrName4_v1r0"
+    ]
+  },
+  "117703279": {
+    "Variable Label": "Street number",
+    "Variable Name": [
+      "SrvLAW_SeaStNum10_v1r0"
     ]
   },
   "118061122": {
@@ -202,6 +352,12 @@
     "Variable Label": "Age Depo-Provera last use",
     "Variable Name": [
       "SrvMRE_AgeDepoUsedL_v1r0"
+    ]
+  },
+  "118738120": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd6PrWater_v1r0"
     ]
   },
   "118789503": {
@@ -228,6 +384,12 @@
       "HdWd_DateDatadestsign_v1r0"
     ]
   },
+  "119483547": {
+    "Variable Label": "Street number",
+    "Variable Name": [
+      "SrvLAW_SeaStNum3_v1r0"
+    ]
+  },
   "119632587": {
     "Variable Label": "Algerian",
     "Variable Name": [
@@ -252,6 +414,12 @@
       "SrvMRE_ShiftLastYear_v1r0"
     ]
   },
+  "120942783": {
+    "Variable Label": "Deep private well",
+    "Variable Name": [
+      "SrvLAW_SeaAdd4DPWell_v1r0"
+    ]
+  },
   "121149986": {
     "Variable Label": "Crushed",
     "Variable Name": [
@@ -268,6 +436,12 @@
     "Variable Label": "Weight at 25 years old entry",
     "Variable Name": [
       "SrvBOH_Weight25_v1r0"
+    ]
+  },
+  "123104885": {
+    "Variable Label": "Do Not Know 7-Previous Cross",
+    "Variable Name": [
+      "SrvLAW_Prev7CrDontKnow_v1r0"
     ]
   },
   "123447762": {
@@ -288,6 +462,12 @@
       "SrvSAS_Cigars_v1r0"
     ]
   },
+  "124320444": {
+    "Variable Label": "Lived anywhere else at least two years",
+    "Variable Name": [
+      "SrvLAW_HomeAddOth10_v1r0"
+    ]
+  },
   "126331570": {
     "Variable Label": "SSN Survey",
     "Variable Name": [
@@ -306,16 +486,46 @@
       "SrvSAS_AgeHookahF_v1r0"
     ]
   },
+  "127963610": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_Zip5_v1r0"
+    ]
+  },
+  "128827522": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_ChildCity_v1r0"
+    ]
+  },
+  "129226572": {
+    "Variable Label": "Apartment, suite, unit, building, etc.",
+    "Variable Name": [
+      "SrvLAW_Apt1_v1r0"
+    ]
+  },
   "129677435": {
     "Variable Label": "Use marijuana every day, age last used",
     "Variable Name": [
       "SrvSAS_MJUseEDLastUsed_v1r0"
     ]
   },
+  "130174162": {
+    "Variable Label": "Street number",
+    "Variable Name": [
+      "SrvLAW_StNum3_v1r0"
+    ]
+  },
   "130371375": {
     "Variable Label": "Payment Round",
     "Variable Name": [
       "SMPaym_Round_v1r0"
+    ]
+  },
+  "130500844": {
+    "Variable Label": "Tap water times/day, other beverages or soup",
+    "Variable Name": [
+      "SrvLAW_DrinksWtr2E_Num_v1r0"
     ]
   },
   "131458944": {
@@ -330,10 +540,22 @@
       "SrvBOH_ChestPain_v1r0"
     ]
   },
+  "132779701": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_PreWrkCountryFU_v1r0"
+    ]
+  },
   "132929440": {
     "Variable Label": "Box ID",
     "Variable Name": [
       "BioPack_BoxID_v1r0"
+    ]
+  },
+  "132979567": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_SeasWtr1_4_Oth_v1r0"
     ]
   },
   "133297530": {
@@ -355,16 +577,34 @@
       "SrvSAS_CTTime_2529_v1r0"
     ]
   },
+  "134210521": {
+    "Variable Label": "Apartment, suite, unit, building, etc.",
+    "Variable Name": [
+      "SrvLAW_SeaApt2_v1r0"
+    ]
+  },
   "134592375": {
     "Variable Label": "Gout",
     "Variable Name": [
       "SrvBOH_Gout_v1r0"
     ]
   },
+  "134624195": {
+    "Variable Label": "First spent time at this address, year",
+    "Variable Name": [
+      "SrvLAW_SeasAddYrs1_8_v1r0"
+    ]
+  },
   "134642404": {
     "Variable Label": "Breast disease biopsy",
     "Variable Name": [
       "SrvBOH_BreastBiopsy_v1r0"
+    ]
+  },
+  "135207939": {
+    "Variable Label": "Lived anywhere else at least two years",
+    "Variable Name": [
+      "SrvLAW_HomeAddOth6_v1r0"
     ]
   },
   "135591601": {
@@ -382,10 +622,22 @@
       "SrvBOH_C1BladderCanc_v1r0"
     ]
   },
+  "136660779": {
+    "Variable Label": "Highway, commute to current school",
+    "Variable Name": [
+      "SrvLAW_CurSchT3_v1r0"
+    ]
+  },
   "136956596": {
     "Variable Label": "Trichomoniasis",
     "Variable Name": [
       "SrvBOH_Trich_v1r0"
+    ]
+  },
+  "137216656": {
+    "Variable Label": "Walking commute from current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkWalk2_v1r0"
     ]
   },
   "138097322": {
@@ -394,10 +646,28 @@
       "BioShip_LogLname_v1r0"
     ]
   },
+  "138116092": {
+    "Variable Label": "Drink tap water, hot tea",
+    "Variable Name": [
+      "SrvLAW_TapWaterTea_v1r0"
+    ]
+  },
+  "138397553": {
+    "Variable Label": "Months commute to address",
+    "Variable Name": [
+      "SrvLAW_CurWorkMos_v1r0"
+    ]
+  },
   "138836502": {
     "Variable Label": "How many days per cycle did you use two separate pills, one estrogen and one progestin?",
     "Variable Name": [
       "SrvMRE_SepPillCycle_v1r0"
+    ]
+  },
+  "139208251": {
+    "Variable Label": "I still live there",
+    "Variable Name": [
+      "SrvLAW_ChildHomeCurr_v1r0"
     ]
   },
   "139603724": {
@@ -445,6 +715,18 @@
       "SrvSAS_UseEMJDevEDL_v1r0"
     ]
   },
+  "142318726": {
+    "Variable Label": "Full Street name #2",
+    "Variable Name": [
+      "SrvLAW_SeaStrtName8_v1r0"
+    ]
+  },
+  "143093472": {
+    "Variable Label": "Street number",
+    "Variable Name": [
+      "SrvLAW_SeaStNum9_v1r0"
+    ]
+  },
   "143523420": {
     "Variable Label": "Date/Time when Baseline EMR was pushed",
     "Variable Name": [
@@ -475,6 +757,12 @@
       "BioShip_ShipSubmit_v1r0"
     ]
   },
+  "146307133": {
+    "Variable Label": "Time, Bus or streetcar/trolley, light rail/trolley commute from current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkT10D_v1r0"
+    ]
+  },
   "146319128": {
     "Variable Label": "Last 12 months, often sunbathe outdoors",
     "Variable Name": [
@@ -491,6 +779,12 @@
     "Variable Label": "Use e-cigarettes or other vaping devices every day, months",
     "Variable Name": [
       "SrvSAS_ECigUseDaysMo_v1r0"
+    ]
+  },
+  "147113671": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_CurSchCountryFU_v1r0"
     ]
   },
   "147176963": {
@@ -517,10 +811,28 @@
       "RcrtV_DuplicateType_v1r0"
     ]
   },
+  "148846635": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_SeaCity3FU_v1r0"
+    ]
+  },
   "148996099": {
     "Variable Label": "Accession ID Manually Entered",
     "Variable Name": [
       "BioSpm_AccIDEntered_v1r0"
+    ]
+  },
+  "149476435": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd3PrWater2_v1r0"
+    ]
+  },
+  "149514187": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_SeaState2FU_v1r0"
     ]
   },
   "150344905": {
@@ -571,10 +883,34 @@
       "HdWd_HIPAArevokesign_v1r0"
     ]
   },
+  "154163153": {
+    "Variable Label": "Full Street name #2",
+    "Variable Name": [
+      "SrvLAW_SeaStrtName1_v1r0"
+    ]
+  },
+  "154170916": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_10PrimaryWater1_v1r0"
+    ]
+  },
+  "154229258": {
+    "Variable Label": "Time, [OTHER FROM CURSCHT1]",
+    "Variable Name": [
+      "SrvLAW_CurSchT2H_v1r0"
+    ]
+  },
   "154603497": {
     "Variable Label": "Age started smoking hookah or water pipe on a regular basis, Never smoked",
     "Variable Name": [
       "SrvSAS_NeverHookah_v1r0"
+    ]
+  },
+  "155199731": {
+    "Variable Label": "Highway, current work commute to current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkT3_v1r0"
     ]
   },
   "155535868": {
@@ -595,6 +931,12 @@
       "SrvBOH_Diabetes_v1r0"
     ]
   },
+  "158186064": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_SeaZip10FU_v1r0"
+    ]
+  },
   "158214723": {
     "Variable Label": "Gum or inner cheek patch",
     "Variable Name": [
@@ -607,6 +949,24 @@
       "RcrtSI_OptOut_v1r0"
     ]
   },
+  "158518077": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_ChildWtr1_1_Oth_v1r0"
+    ]
+  },
+  "158678876": {
+    "Variable Label": "Other: Please describe, text box commute from past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkOthCommute4_v1r0"
+    ]
+  },
+  "158795242": {
+    "Variable Label": "Car, van, or truck (includes carpools or van pools) commute to current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkCar_v1r0"
+    ]
+  },
   "158841370": {
     "Variable Label": "Electronic delivery devices that can be vaped, such as e-cigarettes, Juul, blue, and NJOY. These electronic delivery devices are battery-powered and create vapor.",
     "Variable Name": [
@@ -617,6 +977,18 @@
     "Variable Label": "Payment refused by UoC participant",
     "Variable Name": [
       "BioFin_UoCPaymRef_v1r0"
+    ]
+  },
+  "160188014": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_SeaCity10_v1r0"
+    ]
+  },
+  "161170041": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_CurSchCity_v1r0"
     ]
   },
   "161366008": {
@@ -650,6 +1022,12 @@
       "RcrtSI_OptOut_v1r0_concern"
     ]
   },
+  "164233037": {
+    "Variable Label": "Apartment, suite, unit, building, etc.",
+    "Variable Name": [
+      "SrvLAW_Apt5_v1r0"
+    ]
+  },
   "164595895": {
     "Variable Label": "Days long recent menstrual cycle",
     "Variable Name": [
@@ -672,6 +1050,12 @@
     "Variable Label": "Infectious Mononucleosis (“Mono” or “Kissing Disease”)",
     "Variable Name": [
       "SrvBOH_Mono_v1r0"
+    ]
+  },
+  "165923738": {
+    "Variable Label": "Tap water times/day, iced tea",
+    "Variable Name": [
+      "SrvLAW_DrinksWtr2D_Num_v1r0"
     ]
   },
   "167028305": {
@@ -704,16 +1088,46 @@
       "SrvMRE_MAOften_v1r0"
     ]
   },
+  "167987013": {
+    "Variable Label": "Deep private well",
+    "Variable Name": [
+      "SrvLAW_SeaAdd5DPWell_v1r0"
+    ]
+  },
   "167997205": {
     "Variable Label": "Long until periods regular",
     "Variable Name": [
       "SrvMRE_PeriodRegTime_v1r0"
     ]
   },
+  "168091937": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_PreWorkZipFU_v1r0"
+    ]
+  },
   "168431681": {
     "Variable Label": "Days per week sleep schedule determined by your job, school, or other activities",
     "Variable Name": [
       "SrvMRE_SleepSchedDays_v1r0"
+    ]
+  },
+  "168563469": {
+    "Variable Label": "Local road, current work commute from current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkT13_v1r0"
+    ]
+  },
+  "169499951": {
+    "Variable Label": "Time, Car, van, or truck (includes carpools or van pools) commute to past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkTmDrv_v1r0"
+    ]
+  },
+  "170035952": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd2PrWater_v1r0"
     ]
   },
   "170440011": {
@@ -728,10 +1142,46 @@
       "SrvSAS_EverUseTobMJED_v1r0"
     ]
   },
+  "172103427": {
+    "Variable Label": "Car, van, or truck (includes carpools or van pools) commute to past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkCar_v1r0"
+    ]
+  },
+  "172669345": {
+    "Variable Label": "Do Not Know 8-Seasonal Cross",
+    "Variable Name": [
+      "SrvLAW_Seas8CrDontKnow_v1r0"
+    ]
+  },
+  "173413183": {
+    "Variable Label": "Do Not Know 1-Seasonal",
+    "Variable Name": [
+      "SrvLAW_Seas1DontKnow_v1r0"
+    ]
+  },
   "173508724": {
     "Variable Label": "People in house number",
     "Variable Name": [
       "SrvBOH_PplHouse_v1r0"
+    ]
+  },
+  "173979298": {
+    "Variable Label": "Time, Walking commute to current school",
+    "Variable Name": [
+      "SrvLAW_CurSchT2G_v1r0"
+    ]
+  },
+  "174111872": {
+    "Variable Label": "Full Street name #1",
+    "Variable Name": [
+      "SrvLAW_StrName9_v1r0"
+    ]
+  },
+  "175293001": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_HomeWtr1_10_Oth_v1r0"
     ]
   },
   "175385712": {
@@ -780,6 +1230,12 @@
     "Variable Label": "Last time took baby or low-dose aspirin (81 mg or less)?",
     "Variable Name": [
       "SrvMRE_LaspirinTime_v1r0"
+    ]
+  },
+  "177539753": {
+    "Variable Label": "Bus or streetcar/trolley, light rail/trolley, light rail commute to current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkBus_v1r0"
     ]
   },
   "178242940": {
@@ -836,6 +1292,18 @@
       "BioFin_TmPaymRef_v1r0"
     ]
   },
+  "181005197": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_SeaState9FU_v1r0"
+    ]
+  },
+  "181422361": {
+    "Variable Label": "Major road, current work commute to current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkT4_v1r0"
+    ]
+  },
   "181458564": {
     "Variable Label": "Outgoing shipments comments",
     "Variable Name": [
@@ -847,6 +1315,12 @@
     "Variable Name": [
       "SrvMRE_OtherExercise_v1r0",
       "SrvSAS_OtherAlc_v1r0"
+    ]
+  },
+  "182144476": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_CurWorkZip_v1r0"
     ]
   },
   "182431332": {
@@ -879,10 +1353,22 @@
       "SrvBOH_LoseWeight3_v1r0"
     ]
   },
+  "183816760": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_SeasWtr1_9_Oth_v1r0"
+    ]
+  },
   "184448791": {
     "Variable Label": "During the season[s] in the past 12 months that you played golf, about how often did you do this activity?",
     "Variable Name": [
       "SrvMRE_GolfOften_v1r0"
+    ]
+  },
+  "184681822": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_SeasWtr1_3_Oth_v1r0"
     ]
   },
   "184692605": {
@@ -891,10 +1377,22 @@
       "SrvMRE_AgeOthHMedUseL_v1r0"
     ]
   },
+  "185533250": {
+    "Variable Label": "Time, Bus or streetcar/trolley, light rail/trolley commute to current school",
+    "Variable Name": [
+      "SrvLAW_CurSchT2D_v1r0"
+    ]
+  },
   "186488870": {
     "Variable Label": "Riding as a passenger in a car for an hour without stopping",
     "Variable Name": [
       "SrvMRE_Passenger_v1r0"
+    ]
+  },
+  "186636914": {
+    "Variable Label": "Highway, current work commute from current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkT11_v1r0"
     ]
   },
   "186831207": {
@@ -921,6 +1419,12 @@
       "SrvBOH_Afghan_v1r0"
     ]
   },
+  "190307069": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_9PrimaryWater1_v1r0"
+    ]
+  },
   "190558406": {
     "Variable Label": "WEIGHTHIS percent difference between 45 years old and 55 years old",
     "Variable Name": [
@@ -933,16 +1437,52 @@
       "SrvMRE_AgeVagRingUsedL_v1r0"
     ]
   },
+  "190883115": {
+    "Variable Label": "Apartment, suite, unit, building, etc.",
+    "Variable Name": [
+      "SrvLAW_CurSchApt_v1r0"
+    ]
+  },
   "191656389": {
     "Variable Label": "Muscle or joint pain, joint or bone injuries, sprains, or strains",
     "Variable Name": [
       "SrvMRE_MusclePain_v1r0"
     ]
   },
+  "192184336": {
+    "Variable Label": "Do Not Know 4-Seasonal Cross",
+    "Variable Name": [
+      "SrvLAW_Seas4CrDontKnow_v1r0"
+    ]
+  },
+  "192663941": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_SeaState3FU_v1r0"
+    ]
+  },
   "192776753": {
     "Variable Label": "European",
     "Variable Name": [
       "SrvBOH_European_v1r0"
+    ]
+  },
+  "193077021": {
+    "Variable Label": "Tap water times/day, coffee",
+    "Variable Name": [
+      "SrvLAW_DrinksWtr2B_Num_v1r0"
+    ]
+  },
+  "194165243": {
+    "Variable Label": "Apartment, suite, unit, building, etc.",
+    "Variable Name": [
+      "SrvLAW_Apt7_v1r0"
+    ]
+  },
+  "194338739": {
+    "Variable Label": "Full Street name",
+    "Variable Name": [
+      "SrvLAW_SeaFullSt3_v1r0"
     ]
   },
   "194396716": {
@@ -969,6 +1509,18 @@
       "SrvSAS_AgeCigsUseF_v1r0"
     ]
   },
+  "194944818": {
+    "Variable Label": "Do Not Know 5-Seasonal",
+    "Variable Name": [
+      "SrvLAW_Seas5DontKnow_v1r0"
+    ]
+  },
+  "195068098": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_State_v1r0"
+    ]
+  },
   "195093589": {
     "Variable Label": "Another type of cancer: Please describe [text box]",
     "Variable Name": [
@@ -981,10 +1533,28 @@
       "SrvMw_TmComplete_v1r0"
     ]
   },
+  "195167143": {
+    "Variable Label": "Year moved in",
+    "Variable Name": [
+      "SrvLAW_HomeMoveIn5_v1r0"
+    ]
+  },
+  "195367894": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_4PrimaryWater1_v1r0"
+    ]
+  },
   "195662769": {
     "Variable Label": "Time usual work shift start",
     "Variable Name": [
       "SrvMRE_ShiftStart_v1r0"
+    ]
+  },
+  "195845897": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_State1FollowUp_v1r0"
     ]
   },
   "196038514": {
@@ -997,6 +1567,12 @@
     "Variable Label": "Physician or other health care staff",
     "Variable Name": [
       "RcrtES_Aware_v1r0_Phys"
+    ]
+  },
+  "197093427": {
+    "Variable Label": "Motorcycle commute from past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkMotorcycle4_v1r0"
     ]
   },
   "197309242": {
@@ -1017,16 +1593,34 @@
       "SrvMRE_DanocrineMo_v1r0"
     ]
   },
+  "198883577": {
+    "Variable Label": "Bus or streetcar/trolley, light rail/trolley, light rail commute from current school",
+    "Variable Name": [
+      "SrvLAW_CurSchBus6_v1r0"
+    ]
+  },
   "199039940": {
     "Variable Label": "Caring for children or adults (pushing stroller or wheelchair, lifting, bathing) time per day",
     "Variable Name": [
       "SrvMRE_CaringForOthTm_v1r0"
     ]
   },
+  "199489170": {
+    "Variable Label": "Street number",
+    "Variable Name": [
+      "SrvLAW_SeaStNum7_v1r0"
+    ]
+  },
   "199612020": {
     "Variable Label": "How many times marijana with tobacco used, [X / 40] to age [Y / 49 / current age]",
     "Variable Name": [
       "SrvSAS_TmUseTobMJ4049_v1r0"
+    ]
+  },
+  "200086909": {
+    "Variable Label": "Do Not Know 1-Seasonal Cross",
+    "Variable Name": [
+      "SrvLAW_Seas1CrDontKnow_v1r0"
     ]
   },
   "200180620": {
@@ -1056,10 +1650,34 @@
       "SrvMRE_Infertility_v1r0"
     ]
   },
+  "201906316": {
+    "Variable Label": "Do Not Know 6-Previous",
+    "Variable Name": [
+      "SrvLAW_Prev6DontKnow_v1r0"
+    ]
+  },
+  "201989756": {
+    "Variable Label": "Deep private well",
+    "Variable Name": [
+      "SrvLAW_SeaAdd9DPWell_v1r0"
+    ]
+  },
+  "202104231": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_Country8_v1r0"
+    ]
+  },
   "202355614": {
     "Variable Label": "Cervical mucous factor",
     "Variable Name": [
       "SrvMRE_CervicalMucous_v1r0"
+    ]
+  },
+  "202784871": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_Zip_v1r0"
     ]
   },
   "203192394": {
@@ -1077,10 +1695,22 @@
       "SrvBOH_Surgery4_v1r0"
     ]
   },
+  "203943120": {
+    "Variable Label": "Time to and from current work same",
+    "Variable Name": [
+      "SrvLAW_CurWorkT8_v1r0"
+    ]
+  },
   "204002618": {
     "Variable Label": "Time from consent to user profile",
     "Variable Name": [
       "RcrtCT_Cnst_UP_v1r0"
+    ]
+  },
+  "204186397": {
+    "Variable Label": "Full Street name #2",
+    "Variable Name": [
+      "SrvLAW_FullChldStrtNm1_v1r0"
     ]
   },
   "204884007": {
@@ -1093,6 +1723,12 @@
     "Variable Label": "Copper IUD (such as Paraguard intrauterine device)",
     "Variable Name": [
       "SrvMRE_CopperIUD_v1r0"
+    ]
+  },
+  "205492848": {
+    "Variable Label": "Do Not Know 5-Previous Cross",
+    "Variable Name": [
+      "SrvLAW_Prev5CrDontKnow_v1r0"
     ]
   },
   "205553981": {
@@ -1279,6 +1915,12 @@
       "RcrtES_Aware_v1r0_Web"
     ]
   },
+  "207263450": {
+    "Variable Label": "Taxicab (includes Uber, Lyft, or hired car) commute to current school",
+    "Variable Name": [
+      "SrvLAW_CurSchTaxi5_v1r0"
+    ]
+  },
   "207494582": {
     "Variable Label": "Shorter inches",
     "Variable Name": [
@@ -1309,6 +1951,12 @@
       "RcrtSI_OptOut_v1r0_time"
     ]
   },
+  "209510432": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_HomeWtr3_5_Oth_v1r0"
+    ]
+  },
   "210016366": {
     "Variable Label": "Age first used marijuana",
     "Variable Name": [
@@ -1321,10 +1969,34 @@
       "RcrtSI_OptOut_v1r0_term"
     ]
   },
+  "211269389": {
+    "Variable Label": "Other: Please describe commute to current school",
+    "Variable Name": [
+      "SrvLAW_CurSchCommute5_v1r0"
+    ]
+  },
+  "211740798": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_8PrimaryWater1_v1r0"
+    ]
+  },
+  "212343294": {
+    "Variable Label": "Do Not Know 4-Previous",
+    "Variable Name": [
+      "SrvLAW_Prev4DontKnow_v1r0"
+    ]
+  },
   "213679054": {
     "Variable Label": "Age first used chewing tobacco, snus, snuff, or dip",
     "Variable Name": [
       "SrvSAS_AgeFUseCT_v1r0"
+    ]
+  },
+  "214274185": {
+    "Variable Label": "Time, Walking commute from current school",
+    "Variable Name": [
+      "SrvLAW_CurSchT10G_v1r0"
     ]
   },
   "214750556": {
@@ -1351,16 +2023,40 @@
       "SrvSAS_StopAlcOthDesc_v1r0"
     ]
   },
+  "216096388": {
+    "Variable Label": "Do Not Know 9-Seasonal",
+    "Variable Name": [
+      "SrvLAW_Seas9DontKnow_v1r0"
+    ]
+  },
+  "216954796": {
+    "Variable Label": "Full Street name #2",
+    "Variable Name": [
+      "SrvLAW_StrtName3_v1r0"
+    ]
+  },
   "217367618": {
     "Variable Label": "Baseline specimen surveys",
     "Variable Name": [
       "HdRef_BlSpecSrv_v1r0"
     ]
   },
+  "218334768": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_City5FollowUp_v1r0"
+    ]
+  },
   "219538082": {
     "Variable Label": "How old were you when you first used the other combined estrogen plus progestin prescription hormone?",
     "Variable Name": [
       "SrvMRE_OthCombAgeF_v1r0"
+    ]
+  },
+  "219893040": {
+    "Variable Label": "Days commute, commute from current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkT14_v1r0"
     ]
   },
   "220105997": {
@@ -1411,6 +2107,12 @@
       "BioCol_0009_v1r0"
     ]
   },
+  "224594497": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_HomeWtr3_2_Oth_v1r0"
+    ]
+  },
   "224681201": {
     "Variable Label": "Use fertility medications",
     "Variable Name": [
@@ -1427,6 +2129,12 @@
     "Variable Label": "Last time took statins/cholesterol or lipid lowering drugs",
     "Variable Name": [
       "SrvMRE_StatinsTime_v1r0"
+    ]
+  },
+  "225725599": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_CurSchCityFU_v1r0"
     ]
   },
   "227439141": {
@@ -1447,6 +2155,18 @@
       "SrvSAS_OthAlcOften12Mo_v1r0"
     ]
   },
+  "230376384": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_SeaZip7FU_v1r0"
+    ]
+  },
+  "230528407": {
+    "Variable Label": "Time to and from current school same",
+    "Variable Name": [
+      "SrvLAW_CurSchT8_v1r0"
+    ]
+  },
   "230663853": {
     "Variable Label": "Signed-in",
     "Variable Name": [
@@ -1459,6 +2179,21 @@
       "RcrtUP_Mname_v1r0"
     ]
   },
+  "232063618": {
+    "Variable Label": "Less than 1 month",
+    "Variable Name": [
+      "SrvLAW_Under1MoAdd1_v1r0",
+      "SrvLAW_Under1MoAdd2_v1r0",
+      "SrvLAW_Under1MoAdd3_v1r0",
+      "SrvLAW_Under1MoAdd4_v1r0",
+      "SrvLAW_Under1MoAdd5_v1r0",
+      "SrvLAW_Under1MoAdd6_v1r0",
+      "SrvLAW_Under1MoAdd7_v1r0",
+      "SrvLAW_Under1MoAdd8_v1r0",
+      "SrvLAW_Under1MoAdd9_v1r0",
+      "SrvLAW_Under1MoAdd10_v1r0"
+    ]
+  },
   "232343615": {
     "Variable Label": "Serum Separator Tube 4",
     "Variable Name": [
@@ -1469,6 +2204,12 @@
     "Variable Label": "Current employers services or prodcuts",
     "Variable Name": [
       "SrvBOH_ServiceProdP_v1r0"
+    ]
+  },
+  "234037089": {
+    "Variable Label": "Street number",
+    "Variable Name": [
+      "SrvLAW_SeatsNum_v1r0"
     ]
   },
   "235516216": {
@@ -1487,6 +2228,12 @@
     "Variable Label": "Child 1 death age, other",
     "Variable Name": [
       "SrvBOH_Chi1DeathAgeOther_v1r0"
+    ]
+  },
+  "237204853": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_CountryFU_v1r0"
     ]
   },
   "237415094": {
@@ -1562,6 +2309,12 @@
       "BioCol_Dev_v1r0_Hemo"
     ]
   },
+  "242761203": {
+    "Variable Label": "Time, Commuter rail, subway, metro commute to current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkTmRail_v1r0"
+    ]
+  },
   "242987943": {
     "Variable Label": "How many servings drink wine, past 12 months",
     "Variable Name": [
@@ -1580,6 +2333,24 @@
       "SrvMRE_Headache_v1r0"
     ]
   },
+  "243695994": {
+    "Variable Label": "Year moved in",
+    "Variable Name": [
+      "SrvLAW_HomeMoveIn8_v1r0"
+    ]
+  },
+  "244488084": {
+    "Variable Label": "Other: Please describe commute from current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkCommute2_v1r0"
+    ]
+  },
+  "245044197": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_SeaZip3FU_v1r0"
+    ]
+  },
   "245893583": {
     "Variable Label": "Around the chest or shoulders",
     "Variable Name": [
@@ -1590,6 +2361,12 @@
     "Variable Label": "Oral estrogen-only medication (such as Cenestin, Estrace, Femtrace, Menest, Ogen, or Premarin)",
     "Variable Name": [
       "SrvMRE_OralEstrogen_v1r0"
+    ]
+  },
+  "248168118": {
+    "Variable Label": "Walking commute to current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkWalk_v1r0"
     ]
   },
   "248374037": {
@@ -1606,6 +2383,12 @@
       "SrvBOH_Cuban_v1r0"
     ]
   },
+  "248996395": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_SeaZip7_v1r0"
+    ]
+  },
   "249341444": {
     "Variable Label": "Summer",
     "Variable Name": [
@@ -1618,10 +2401,28 @@
       "SrvBOH_AmerInd_v1r0"
     ]
   },
+  "249657148": {
+    "Variable Label": "Full Street name",
+    "Variable Name": [
+      "SrvLAW_CurSchFullSt_v1r0"
+    ]
+  },
   "250456537": {
     "Variable Label": "Age first drank alcohol",
     "Variable Name": [
       "SrvSAS_AgeFirstAlc_v1r0"
+    ]
+  },
+  "250486386": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_2PrimaryWater2_v1r0"
+    ]
+  },
+  "253017624": {
+    "Variable Label": "Full Street name",
+    "Variable Name": [
+      "SrvLAW_CurWorkFullSt_v1r0"
     ]
   },
   "253883960": {
@@ -1648,10 +2449,28 @@
       "SrvSAS_4To5AlcBev_v1r0"
     ]
   },
+  "255248624": {
+    "Variable Label": "Street number",
+    "Variable Name": [
+      "SrvLAW_StNum_v1r0"
+    ]
+  },
+  "255474241": {
+    "Variable Label": "Do Not Know 5-Previous",
+    "Variable Name": [
+      "SrvLAW_Prev5DontKnow_v1r0"
+    ]
+  },
   "255761998": {
     "Variable Label": "During the season[s] in the past 12 months that you did Yoga, Pilates, or Tai Chi, about how often did you do this activity?",
     "Variable Name": [
       "SrvMRE_YogaOften_v1r0"
+    ]
+  },
+  "255860829": {
+    "Variable Label": "Other: Please describe, text box commute to current school",
+    "Variable Name": [
+      "SrvLAW_CurSchOthCommute5_v1r0"
     ]
   },
   "256131117": {
@@ -1664,6 +2483,12 @@
     "Variable Label": "Removal of one breast (mastectomy)",
     "Variable Name": [
       "SrvBOH_Mastectomy_v1r0"
+    ]
+  },
+  "256790385": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_Zip6_v1r0"
     ]
   },
   "257137378": {
@@ -1688,6 +2513,18 @@
     "Variable Label": "How much time marijuana  smoked, Age [X] to age [Y / 17]",
     "Variable Name": [
       "SrvSAS_TmSmokeMJ17_v1r0"
+    ]
+  },
+  "258501440": {
+    "Variable Label": "Tap water times/day, other",
+    "Variable Name": [
+      "SrvLAW_DrinksWtr2F_Num_v1r0"
+    ]
+  },
+  "258544530": {
+    "Variable Label": "Full Street name #2",
+    "Variable Name": [
+      "SrvLAW_SeaStrtName10_v1r0"
     ]
   },
   "258703325": {
@@ -1718,6 +2555,12 @@
     "Variable Label": "Refused MyChart Invitation",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_MyChart"
+    ]
+  },
+  "261025083": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_SeaCountry3FU_v1r0"
     ]
   },
   "261267696": {
@@ -1916,16 +2759,40 @@
       "SrvMRE_SittingTV_v1r0"
     ]
   },
+  "263588196": {
+    "Variable Label": "Do Not Know Employer",
+    "Variable Name": [
+      "SrvLAW_EmplDontKnow_v1r0"
+    ]
+  },
   "264644252": {
     "Variable Label": "Date/time of Completion of Where You Live and Work",
     "Variable Name": [
       "SrvLAW_TmComplete_v1r0"
     ]
   },
+  "264707783": {
+    "Variable Label": "Street number",
+    "Variable Name": [
+      "SrvLAW_StNum9_v1r0"
+    ]
+  },
+  "264797252": {
+    "Variable Label": "Do Not Know Childhood",
+    "Variable Name": [
+      "SrvLAW_CHDontKnow_v1r0"
+    ]
+  },
   "265193023": {
     "Variable Label": "Blood/urine/mouthwash combined research survey",
     "Variable Name": [
       "SrvBLM_ResSrvCompl_v1r0"
+    ]
+  },
+  "265423096": {
+    "Variable Label": "Time, Motorcycle commute to current school",
+    "Variable Name": [
+      "SrvLAW_CurSchT2C_v1r0"
     ]
   },
   "265428345": {
@@ -1944,6 +2811,12 @@
     "Variable Label": "Cancer Type",
     "Variable Name": [
       "RcrtUP_CancerType_v1r0"
+    ]
+  },
+  "267027102": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_Zip3FollowUp_v1r0"
     ]
   },
   "267122668": {
@@ -1977,6 +2850,18 @@
       "SrvSAS_HookahMo_v1r0"
     ]
   },
+  "268612977": {
+    "Variable Label": "Do Not Know 8-Seasonal",
+    "Variable Name": [
+      "SrvLAW_Seas8DontKnow_v1r0"
+    ]
+  },
+  "268661616": {
+    "Variable Label": "Deep private well",
+    "Variable Name": [
+      "SrvLAW_DeepPrivWell7_v1r0"
+    ]
+  },
   "268665918": {
     "Variable Label": "Middle Name",
     "Variable Name": [
@@ -1989,10 +2874,22 @@
       "HdRef_DateDatadestroy_v1r0"
     ]
   },
+  "270011675": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_HomeWtr3_11_Oth_v1r0"
+    ]
+  },
   "270254670": {
     "Variable Label": "# Years took acetaminophen",
     "Variable Name": [
       "SrvMRE_AcetaminophenYr_v1r0"
+    ]
+  },
+  "270587543": {
+    "Variable Label": "Year moved in",
+    "Variable Name": [
+      "SrvLAW_HomeMoveIn4_v1r0"
     ]
   },
   "271757434": {
@@ -2013,6 +2910,42 @@
       "SrvMRE_InsulinUnitsDK_v1r0"
     ]
   },
+  "274257975": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd7PrWater2_v1r0"
+    ]
+  },
+  "274396191": {
+    "Variable Label": "First spent time at this address, year",
+    "Variable Name": [
+      "SrvLAW_SeasAddYrs1_9_v1r0"
+    ]
+  },
+  "274780951": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd10PrWater_v1r0"
+    ]
+  },
+  "274940131": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_SeaCountry10FU_v1r0"
+    ]
+  },
+  "275244758": {
+    "Variable Label": "Street number",
+    "Variable Name": [
+      "SrvLAW_SeaStNum5_v1r0"
+    ]
+  },
+  "276249147": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_HomeWtr3_3_Oth_v1r0"
+    ]
+  },
   "276353712": {
     "Variable Label": "Mom living",
     "Variable Name": [
@@ -2031,10 +2964,34 @@
       "SrvSAS_PipeFills6069_v1r0"
     ]
   },
+  "277312204": {
+    "Variable Label": "Deep private well",
+    "Variable Name": [
+      "SrvLAW_SeaAdd8DPWell_v1r0"
+    ]
+  },
+  "277348878": {
+    "Variable Label": "Childhood address given",
+    "Variable Name": [
+      "SrvLAW_ChildAddGiv_v1r0"
+    ]
+  },
   "277479354": {
     "Variable Label": "Refused baseline saliva sample",
     "Variable Name": [
       "HdRef_Basesaliva_v1r0"
+    ]
+  },
+  "277745320": {
+    "Variable Label": "Deep private well",
+    "Variable Name": [
+      "SrvLAW_DeepPrivWell10_v1r0"
+    ]
+  },
+  "278164536": {
+    "Variable Label": "Apartment, suite, unit, building, etc.",
+    "Variable Name": [
+      "SrvLAW_SeaApt10_v1r0"
     ]
   },
   "278277373": {
@@ -2043,10 +3000,22 @@
       "SrvMRE_BreastfeedMo_v1r0"
     ]
   },
+  "279026426": {
+    "Variable Label": "Bicycle commute to current school",
+    "Variable Name": [
+      "SrvLAW_CurSchBike5_v1r0"
+    ]
+  },
   "279637054": {
     "Variable Label": "Past occupation category",
     "Variable Name": [
       "SrvBOH_PastOccupCat_v1r0"
+    ]
+  },
+  "280877371": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_City7FollowUp_v1r0"
     ]
   },
   "280957170": {
@@ -2059,6 +3028,12 @@
     "Variable Label": "Multiples",
     "Variable Name": [
       "SrvMRE_PregMultiples_v1r0"
+    ]
+  },
+  "282089547": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_City9_v1r0"
     ]
   },
   "282222950": {
@@ -2087,10 +3062,22 @@
       "SrvMRE_DiseasePrev_v1r0"
     ]
   },
+  "283900560": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_State1_v1r0"
+    ]
+  },
   "283900611": {
     "Variable Label": "Deviation - Mislabeled- Resolved",
     "Variable Name": [
       "BioCol_Dev_v1r0_MislabelR"
+    ]
+  },
+  "284547539": {
+    "Variable Label": "Street number",
+    "Variable Name": [
+      "SrvLAW_ChildStNum_v1r0"
     ]
   },
   "284580415": {
@@ -2111,6 +3098,18 @@
       "HdRef_PrivacyD_v1r0"
     ]
   },
+  "285545471": {
+    "Variable Label": "Drink tap water",
+    "Variable Name": [
+      "SrvLAW_TapWaterNum_v1r0"
+    ]
+  },
+  "285968511": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_HomeWtr3_7_Oth_v1r0"
+    ]
+  },
   "285995100": {
     "Variable Label": "Celiac Disease (also known as Gluten-Sensitive Enteropathy)",
     "Variable Name": [
@@ -2129,10 +3128,22 @@
       "SrvMw_TmStart_v1r0"
     ]
   },
+  "286382158": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_SeasWtr3_6_Oth_v1r0"
+    ]
+  },
   "286598574": {
     "Variable Label": "When daily user, number of pipe fills of  tobacco pipe smoked per day",
     "Variable Name": [
       "SrvSAS_TobPipeFills_v1r0"
+    ]
+  },
+  "286781627": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_ChildZip_v1r0"
     ]
   },
   "287715042": {
@@ -2148,6 +3159,18 @@
       "SrvBOH_JapanLang_v1r0"
     ]
   },
+  "288498031": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_City1FollowUp_v1r0"
+    ]
+  },
+  "289302451": {
+    "Variable Label": "Time, Walking commute from current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkT10G_v1r0"
+    ]
+  },
   "289664241": {
     "Variable Label": "Gender",
     "Variable Name": [
@@ -2158,6 +3181,24 @@
     "Variable Label": "How many days per cycle did you use this other type of combined estrogen plus progestin prescription hormones?",
     "Variable Name": [
       "SrvMRE_SepPillCycle2_v1r0"
+    ]
+  },
+  "290370013": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_State8_v1r0"
+    ]
+  },
+  "290969423": {
+    "Variable Label": "Lived anywhere else at least two years",
+    "Variable Name": [
+      "SrvLAW_HomeAddOth_v1r0"
+    ]
+  },
+  "291458877": {
+    "Variable Label": "Time, Motorcycle commute from current school",
+    "Variable Name": [
+      "SrvLAW_CurSchT10C_v1r0"
     ]
   },
   "291707744": {
@@ -2172,16 +3213,34 @@
       "SrvMRE_IbuprofenTime_v1r0"
     ]
   },
+  "293954660": {
+    "Variable Label": "Do Not Know 7-Seasonal",
+    "Variable Name": [
+      "SrvLAW_Seas7DontKnow_v1r0"
+    ]
+  },
   "294629316": {
     "Variable Label": "How often drink alcohol, up to age 17",
     "Variable Name": [
       "SrvSAS_AlcOften17_v1r0"
     ]
   },
+  "294634899": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_CurWorkCountry_v1r0"
+    ]
+  },
   "295472931": {
     "Variable Label": "Currently using oral progestin-only medication",
     "Variable Name": [
       "SrvMRE_CurrProgMed_v1r0"
+    ]
+  },
+  "295693777": {
+    "Variable Label": "Street number",
+    "Variable Name": [
+      "SrvLAW_SeaStNum8_v1r0"
     ]
   },
   "295976386": {
@@ -2192,10 +3251,22 @@
       "SrvBOH_C1ProstateCanc_v1r0"
     ]
   },
+  "296254034": {
+    "Variable Label": "Bicycle commute to past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkBike_v1r0"
+    ]
+  },
   "296357383": {
     "Variable Label": "Gonorrhea",
     "Variable Name": [
       "SrvBOH_Gonorrhea_v1r0"
+    ]
+  },
+  "296694684": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd9PrWater2_v1r0"
     ]
   },
   "297084062": {
@@ -2216,6 +3287,18 @@
       "HDPaym_TmPaym_v1r0"
     ]
   },
+  "298170847": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_SeaCountry8_v1r0"
+    ]
+  },
+  "298296694": {
+    "Variable Label": "Do Not Know 4-Previous Cross",
+    "Variable Name": [
+      "SrvLAW_Prev4CrDontKnow_v1r0"
+    ]
+  },
   "299274441": {
     "Variable Label": "Who withdrew consent",
     "Variable Name": [
@@ -2234,6 +3317,18 @@
       "BioCol_0001_v1r0"
     ]
   },
+  "300476868": {
+    "Variable Label": "Apartment, suite, unit, building, etc.",
+    "Variable Name": [
+      "SrvLAW_SeaApt7_v1r0"
+    ]
+  },
+  "300611347": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_HomeWtr1_4_Oth_v1r0"
+    ]
+  },
   "301052397": {
     "Variable Label": "Currently using combined oral contraceptive pills",
     "Variable Name": [
@@ -2244,6 +3339,24 @@
     "Variable Label": "Types of alcoholic beverages- ages 30 and age 39 - Other",
     "Variable Name": [
       "SrvSAS_Other3039_v1r0"
+    ]
+  },
+  "302947409": {
+    "Variable Label": "Number showers or baths",
+    "Variable Name": [
+      "SrvLAW_NumBaths_v1r0"
+    ]
+  },
+  "303500597": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_City_v1r0"
+    ]
+  },
+  "304326324": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_SeaState_v1r0"
     ]
   },
   "304438543": {
@@ -2264,6 +3377,12 @@
       "SrvSAS_NumCigsDay_v1r0"
     ]
   },
+  "304685106": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd9PrWater_v1r0"
+    ]
+  },
   "304927036": {
     "Variable Label": "Nolvadex (tamoxifen)",
     "Variable Name": [
@@ -2276,10 +3395,22 @@
       "SrvMRE_HICTTime_v1r0"
     ]
   },
+  "306092529": {
+    "Variable Label": "Full Street name #1",
+    "Variable Name": [
+      "SrvLAW_SeaStrName10_v1r0"
+    ]
+  },
   "306320432": {
     "Variable Label": "How many days used chewing tobacco, snus, snuff, or dip used in life",
     "Variable Name": [
       "SrvSAS_ChewTobDays_v1r0"
+    ]
+  },
+  "306805272": {
+    "Variable Label": "Street number",
+    "Variable Name": [
+      "SrvLAW_StNum5_v1r0"
     ]
   },
   "307736999": {
@@ -2307,6 +3438,12 @@
       "SrvBOH_IBD_v1r0"
     ]
   },
+  "309461541": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_City10_v1r0"
+    ]
+  },
   "309710463": {
     "Variable Label": "Months cycles Nolvadex",
     "Variable Name": [
@@ -2331,6 +3468,27 @@
       "BioCol_Dev_v1r0_OutContam"
     ]
   },
+  "313586037": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_SeaState10FU_v1r0"
+    ]
+  },
+  "314198277": {
+    "Variable Label": "Last spent time at this address, year",
+    "Variable Name": [
+      "SrvLAW_SeasAddYrs2_1Yr_v1r0",
+      "SrvLAW_SeasAddYrs2_2Yr_v1r0",
+      "SrvLAW_SeasAddYrs2_3Yr_v1r0",
+      "SrvLAW_SeasAddYrs2_4Yr_v1r0",
+      "SrvLAW_SeasAddYrs2_5Yr_v1r0",
+      "SrvLAW_SeasAddYrs2_6Yr_v1r0",
+      "SrvLAW_SeasAddYrs2_7Yr_v1r0",
+      "SrvLAW_SeasAddYrs2_8Yr_v1r0",
+      "SrvLAW_SeasAddYrs2_9Yr_v1r0",
+      "SrvLAW_SeaAddYrs2_10Yr_v1r0"
+    ]
+  },
   "315032037": {
     "Variable Label": "Placeholder- Date/Time SSN Survey completed",
     "Variable Name": [
@@ -2353,6 +3511,12 @@
     "Variable Label": "Months ago last used cigarettes",
     "Variable Name": [
       "SrvSAS_MoCigsUseLast_v1r0"
+    ]
+  },
+  "318621931": {
+    "Variable Label": "Deep private well",
+    "Variable Name": [
+      "SrvLAW_DeepPrivWell8_v1r0"
     ]
   },
   "319252189": {
@@ -2385,10 +3549,22 @@
       "HDPaym_CaseNumber_v1r0"
     ]
   },
+  "321932473": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAd10PrWater2_v1r0"
+    ]
+  },
   "322479862": {
     "Variable Label": "Years ago took Celebrex (celecoxib)",
     "Variable Name": [
       "SrvMRE_CelebrexYA_v1r0"
+    ]
+  },
+  "322665488": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd5PrWater_v1r0"
     ]
   },
   "323106499": {
@@ -2421,10 +3597,22 @@
       "SrvBOH_Mastopexy_v1r0"
     ]
   },
+  "325825550": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_HomeWtr1_8_Oth_v1r0"
+    ]
+  },
   "325879966": {
     "Variable Label": "What kind of cigar, cigarillo, or little filtered cigar [do/did] you usually use - Descriptive",
     "Variable Name": [
       "SrvSAS_OthCigarDesc_v1r0"
+    ]
+  },
+  "325919807": {
+    "Variable Label": "Full Street name #2",
+    "Variable Name": [
+      "SrvLAW_StrtName5_v1r0"
     ]
   },
   "326604981": {
@@ -2445,6 +3633,12 @@
       "SrvSAS_UseMJED_v1r0"
     ]
   },
+  "330492115": {
+    "Variable Label": "Time, Bicycle commute to current school",
+    "Variable Name": [
+      "SrvLAW_CurSchT2F_v1r0"
+    ]
+  },
   "331584571": {
     "Variable Label": "Select visit",
     "Variable Name": [
@@ -2463,10 +3657,22 @@
       "SrvSAS_ECigEveryDay_v1r0"
     ]
   },
+  "333362587": {
+    "Variable Label": "Local road, current work commute to current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkT5_v1r0"
+    ]
+  },
   "333524031": {
     "Variable Label": "Shipment Received - Site Shipment",
     "Variable Name": [
       "BioBPTL_ShipRec_v1r0"
+    ]
+  },
+  "333852852": {
+    "Variable Label": "Major road, current school commute from current school",
+    "Variable Name": [
+      "SrvLAW_CurSchT12_v1r0"
     ]
   },
   "334292580": {
@@ -2479,6 +3685,18 @@
     "Variable Label": "father age, number",
     "Variable Name": [
       "SrvBOH_DadAgeNum_v1r0"
+    ]
+  },
+  "335218615": {
+    "Variable Label": "Days commute, commute to past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkT3_v1r0"
+    ]
+  },
+  "335435992": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_Zip2_v1r0"
     ]
   },
   "335563082": {
@@ -2509,6 +3727,18 @@
     "Variable Label": "How many servings consumed marijuana in food or drinks used, Age [X / 18] to age [Y / 24]",
     "Variable Name": [
       "SrvSAS_EdiblesServ1824_v1r0"
+    ]
+  },
+  "337088272": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_Country2_v1r0"
+    ]
+  },
+  "337574535": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_11PrimaryWater1_v1r0"
     ]
   },
   "337810964": {
@@ -2559,6 +3789,18 @@
       "SrvBOH_HeightFt_v1r0"
     ]
   },
+  "340877879": {
+    "Variable Label": "Deep private well",
+    "Variable Name": [
+      "SrvLAW_SeaAdd6DPWell_v1r0"
+    ]
+  },
+  "342677547": {
+    "Variable Label": "Vacation home",
+    "Variable Name": [
+      "SrvLAW_SeasHome_v1r0"
+    ]
+  },
   "342735868": {
     "Variable Label": "Tubal blockage",
     "Variable Name": [
@@ -2569,6 +3811,12 @@
     "Variable Label": "Time check out complete",
     "Variable Name": [
       "BioFin_CheckOutTime_v1r0"
+    ]
+  },
+  "343406242": {
+    "Variable Label": "Time, Taxicab (includes, Uber, Lyft, or hired car, ) commute to past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkTmTaxi_v1r0"
     ]
   },
   "344573484": {
@@ -2619,10 +3867,22 @@
       "SrvBOH_Depression_v1r0"
     ]
   },
+  "348049244": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_St4FollowUp_v1r0"
+    ]
+  },
   "348474836": {
     "Variable Label": "Account phone",
     "Variable Name": [
       "phoneNumber"
+    ]
+  },
+  "348817644": {
+    "Variable Label": "Another vacation home past 20 years",
+    "Variable Name": [
+      "SrvLAW_SeasAddOth8_v1r0"
     ]
   },
   "349034127": {
@@ -2635,6 +3895,36 @@
     "Variable Label": "How many servings THC concentrates via dabbing used, Age [X] to age [Y / 17]",
     "Variable Name": [
       "SrvSAS_THCServing17_v1r0"
+    ]
+  },
+  "350394531": {
+    "Variable Label": "Do Not Know Previous Employer",
+    "Variable Name": [
+      "SrvLAW_PrevEmpDontKnow_v1r0"
+    ]
+  },
+  "351069956": {
+    "Variable Label": "Full Street name #2",
+    "Variable Name": [
+      "SrvLAW_SeaStrtName2_v1r0"
+    ]
+  },
+  "351319555": {
+    "Variable Label": "Full Street name #1",
+    "Variable Name": [
+      "SrvLAW_SeaStrName1_v1r0"
+    ]
+  },
+  "351559015": {
+    "Variable Label": "Street number",
+    "Variable Name": [
+      "SrvLAW_StNum6_v1r0"
+    ]
+  },
+  "351559021": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_City8_v1r0"
     ]
   },
   "352531133": {
@@ -2673,10 +3963,22 @@
       "SrvMRE_SittingLunch_v1r0"
     ]
   },
+  "354833686": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_SeaZipFU_v1r0"
+    ]
+  },
   "354980163": {
     "Variable Label": "Wake up before alarm clock workdays/most days",
     "Variable Name": [
       "SrvMRE_WakeBeforeAlarm_v1r0"
+    ]
+  },
+  "355179190": {
+    "Variable Label": "Do Not Know 6-Seasonal Cross",
+    "Variable Name": [
+      "SrvLAW_Seas6CrDontKnow_v1r0"
     ]
   },
   "355689185": {
@@ -2733,6 +4035,12 @@
       "SrvSAS_NumDaysTobMJUse_v1r0"
     ]
   },
+  "364303962": {
+    "Variable Label": "Drink tap water, other beverages or soup",
+    "Variable Name": [
+      "SrvLAW_TapWaterSoup_v1r0"
+    ]
+  },
   "365370279": {
     "Variable Label": "How many cigars, cigarillos, or little filtered cigars used, [X / 50] to age [Y / 59 / current age]",
     "Variable Name": [
@@ -2763,16 +4071,40 @@
       "SrvBOH_IlocanoLang_v1r0"
     ]
   },
+  "367684056": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_SeaCity8_v1r0"
+    ]
+  },
   "367803647": {
     "Variable Label": "Education level",
     "Variable Name": [
       "SrvBOH_EducLevel_v1r0"
     ]
   },
+  "368486703": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_Country1_v1r0"
+    ]
+  },
   "368595692": {
     "Variable Label": "Last time took over-the-counter H2 receptor blockers",
     "Variable Name": [
       "SrvMRE_H2RecBlOCTime_v1r0"
+    ]
+  },
+  "368973683": {
+    "Variable Label": "Bicycle commute from past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkBike4_v1r0"
+    ]
+  },
+  "370121390": {
+    "Variable Label": "Do Not Know 3-Seasonal Cross",
+    "Variable Name": [
+      "SrvLAW_Seas3CrDontKnow_v1r0"
     ]
   },
   "370253256": {
@@ -2823,6 +4155,12 @@
       "SrvMRE_Surf_v1r0"
     ]
   },
+  "371588177": {
+    "Variable Label": "Apartment, suite, unit, building, etc.",
+    "Variable Name": [
+      "SrvLAW_PreWorkApt_v1r0"
+    ]
+  },
   "372219003": {
     "Variable Label": "Serophene",
     "Variable Name": [
@@ -2846,6 +4184,12 @@
     "Variable Name": [
       "SrvBOH_MiningC_v1r0",
       "SrvBOH_MiningP_v1r0"
+    ]
+  },
+  "374639590": {
+    "Variable Label": "Current job, job includes driving",
+    "Variable Name": [
+      "SrvLAW_WorkRes_v1r0"
     ]
   },
   "375227733": {
@@ -2920,6 +4264,12 @@
       "SrvBOH_Nigerian_v1r0"
     ]
   },
+  "379754686": {
+    "Variable Label": "First spent time at this address, year",
+    "Variable Name": [
+      "SrvLAW_SeasAddYrs1_1_v1r0"
+    ]
+  },
   "379899229": {
     "Variable Label": "Zip",
     "Variable Name": [
@@ -2963,6 +4313,12 @@
       "SrvSAS_TmUseTobMJ3039_v1r0"
     ]
   },
+  "384403974": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_SeaCity7_v1r0"
+    ]
+  },
   "384562783": {
     "Variable Label": "Natural color hair",
     "Variable Name": [
@@ -2981,6 +4337,12 @@
       "SrvMRE_BleedAftMeno_v1r0"
     ]
   },
+  "386487941": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_7PrimaryWater1_v1r0"
+    ]
+  },
   "386488297": {
     "Variable Label": "Date/time Status of Start of Smoking, Alcohol, and Sun Exposure",
     "Variable Name": [
@@ -2993,10 +4355,22 @@
       "SrvBOH_PCOS_v1r0"
     ]
   },
+  "386624051": {
+    "Variable Label": "Tap water times/day, hot tea",
+    "Variable Name": [
+      "SrvLAW_DrinksWtr2C_Num_v1r0"
+    ]
+  },
   "386950237": {
     "Variable Label": "How much time marijuana  smoked, [X / 40] to age [Y / 49 / current age]",
     "Variable Name": [
       "SrvSAS_TmSmokeMJ4049_v1r0"
+    ]
+  },
+  "387077376": {
+    "Variable Label": "Apartment, suite, unit, building, etc.",
+    "Variable Name": [
+      "SrvLAW_SeaApt3_v1r0"
     ]
   },
   "387108065": {
@@ -3023,6 +4397,12 @@
       "BioBPTL_DamagedVials_v1r0"
     ]
   },
+  "388427546": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_Country8FU_v1r0"
+    ]
+  },
   "388614168": {
     "Variable Label": "Age stopped using e-cigarettes or other vaping devices every day",
     "Variable Name": [
@@ -3035,10 +4415,28 @@
       "RcrtUP_Mobile_v1r0"
     ]
   },
+  "389478638": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_SeaState8_v1r0"
+    ]
+  },
   "390198398": {
     "Variable Label": "Date/time refused baseline blood sample",
     "Variable Name": [
       "HdRef_DateBaseblood_v1r0"
+    ]
+  },
+  "390463636": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_State6_v1r0"
+    ]
+  },
+  "390941579": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_SeaState9_v1r0"
     ]
   },
   "391769051": {
@@ -3071,10 +4469,22 @@
       "SrvMRE_ShiftYears_v1r0"
     ]
   },
+  "393682471": {
+    "Variable Label": "Drink tap water, iced tea",
+    "Variable Name": [
+      "SrvLAW_TapWaterIcedTea_v1r0"
+    ]
+  },
   "394049992": {
     "Variable Label": "Total amount of time used chewing tobacco, snus, snuff, or dip  per day",
     "Variable Name": [
       "SrvSAS_TmUsedCT_v1r0"
+    ]
+  },
+  "394294282": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_State5FollowUp_v1r0"
     ]
   },
   "394410256": {
@@ -3099,6 +4509,24 @@
     "Variable Label": "Other sitting outside of work (such as for reading, crafts, and hobbies)",
     "Variable Name": [
       "SrvMRE_SittingOut_v1r0"
+    ]
+  },
+  "398249766": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_SeaCountry4FU_v1r0"
+    ]
+  },
+  "398622449": {
+    "Variable Label": "Full Street name",
+    "Variable Name": [
+      "SrvLAW_SeaFullSt6_v1r0"
+    ]
+  },
+  "398762737": {
+    "Variable Label": "Do Not Know 1-Previous Cross",
+    "Variable Name": [
+      "SrvLAW_Prev1CrDontKnow_v1r0"
     ]
   },
   "399078599": {
@@ -3165,6 +4593,18 @@
     "Variable Label": "Ever work",
     "Variable Name": [
       "SrvBOH_EverWork_v1r0"
+    ]
+  },
+  "403679963": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_CurSchCountry_v1r0"
+    ]
+  },
+  "404141282": {
+    "Variable Label": "Apartment, suite, unit, building, etc.",
+    "Variable Name": [
+      "SrvLAW_CurWorkApt_v1r0"
     ]
   },
   "404289911": {
@@ -3292,6 +4732,12 @@
       "SrvMRE_TennisOften_v1r0"
     ]
   },
+  "411791779": {
+    "Variable Label": "Employer name",
+    "Variable Name": [
+      "SrvLAW_CurWorkEmp_v1r0"
+    ]
+  },
   "411960217": {
     "Variable Label": "When daily user, number of marijana with tobacco per day",
     "Variable Name": [
@@ -3340,6 +4786,18 @@
       "RcrtSI_OptOut_v1r0_specify"
     ]
   },
+  "416620941": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_SeaCityFU_v1r0"
+    ]
+  },
+  "416862112": {
+    "Variable Label": "Full Street name",
+    "Variable Name": [
+      "SrvLAW_SeaFullSt_v1r0"
+    ]
+  },
   "417201414": {
     "Variable Label": "CPAP or BIPAP machine",
     "Variable Name": [
@@ -3365,6 +4823,24 @@
       "SrvBOH_GermanLang_v1r0"
     ]
   },
+  "418702418": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_City5_v1r0"
+    ]
+  },
+  "419151253": {
+    "Variable Label": "Time, [OTHER FROM CURWORKT9 or CURWORKT2]",
+    "Variable Name": [
+      "SrvLAW_CurWorkT10H_v1r0"
+    ]
+  },
+  "419659205": {
+    "Variable Label": "Full Street name",
+    "Variable Name": [
+      "SrvLAW_SeaFullSt4_v1r0"
+    ]
+  },
   "420058896": {
     "Variable Label": "Ride a bicycle (including a stationary bike",
     "Variable Name": [
@@ -3375,6 +4851,12 @@
     "Variable Label": "Use THC concentrates via dabbing now",
     "Variable Name": [
       "SrvSAS_THCNow_v1r0"
+    ]
+  },
+  "421779583": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_SeaZip8FU_v1r0"
     ]
   },
   "421823980": {
@@ -3407,6 +4889,12 @@
       "SrvMRE_HICT_v1r0"
     ]
   },
+  "423713680": {
+    "Variable Label": "Full Street name #1",
+    "Variable Name": [
+      "SrvLAW_StrName4_v1r0"
+    ]
+  },
   "424047361": {
     "Variable Label": "Seek medical advice to get pregnant",
     "Variable Name": [
@@ -3419,16 +4907,46 @@
       "SrvMRE_ProtPumpPresYr_v1r0"
     ]
   },
+  "424272506": {
+    "Variable Label": "Another vacation home past 20 years",
+    "Variable Name": [
+      "SrvLAW_SeasAddOth5_v1r0"
+    ]
+  },
   "424306855": {
     "Variable Label": "Participant is fully enrolled",
     "Variable Name": [
       "SMMet_FullyEnrolled_v1r0"
     ]
   },
+  "424347938": {
+    "Variable Label": "Full Street name #2",
+    "Variable Name": [
+      "SrvLAW_SeaStrtName5_v1r0"
+    ]
+  },
+  "426743354": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd1PrWater_v1r0"
+    ]
+  },
   "427219143": {
     "Variable Label": "Hay Fever (Allergic to pollen or Allergic Rhinitis)",
     "Variable Name": [
       "SrvBOH_HayFever_v1r0"
+    ]
+  },
+  "428044531": {
+    "Variable Label": "Deep private well",
+    "Variable Name": [
+      "SrvLAW_DeepPrivWell4_v1r0"
+    ]
+  },
+  "429200007": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_Country9FU_v1r0"
     ]
   },
   "429228540": {
@@ -3453,6 +4971,18 @@
     "Variable Label": "I am too sick/my health is too poor\"\"\"\"to participate",
     "Variable Name": [
       "HdRef_Sick_v1r0"
+    ]
+  },
+  "431441193": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_OtherTapBev_v1r0"
+    ]
+  },
+  "431488717": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_HomeWtr1_5_Oth_v1r0"
     ]
   },
   "431721131": {
@@ -3534,6 +5064,12 @@
       "SrvBOH_Hepatitis_v1r0"
     ]
   },
+  "438475588": {
+    "Variable Label": "Full Street name",
+    "Variable Name": [
+      "SrvLAW_FullSt7_v1r0"
+    ]
+  },
   "438636757": {
     "Variable Label": "Date/Time payment refused",
     "Variable Name": [
@@ -3558,6 +5094,12 @@
       "SrvMRE_CelebrexYr_v1r0"
     ]
   },
+  "439447560": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_ChildState_v1r0"
+    ]
+  },
   "440307926": {
     "Variable Label": "None of these fully describe me. Please describe [text box]",
     "Variable Name": [
@@ -3570,10 +5112,34 @@
       "SrvSAS_Cigar70_v1r0"
     ]
   },
+  "440597740": {
+    "Variable Label": "Do Not Know 10-Previous Cross",
+    "Variable Name": [
+      "SrvLAW_Pre10CrDontKnow_v1r0"
+    ]
+  },
+  "440796912": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_SeaCountry2_v1r0"
+    ]
+  },
+  "441314504": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_HomeWtr1_2_Oth_v1r0"
+    ]
+  },
   "441493408": {
     "Variable Label": "Combined oral contraceptive pills, commonly called \"\"the pill\"\" (combined means the pill includes both estrogen and progesterone/progestin)",
     "Variable Name": [
       "SrvMRE_CombinedPill_v1r0"
+    ]
+  },
+  "441498892": {
+    "Variable Label": "Deep private well",
+    "Variable Name": [
+      "SrvLAW_DeepPrivWell5_v1r0"
     ]
   },
   "442002787": {
@@ -3592,6 +5158,24 @@
     "Variable Label": "Participant Refusal",
     "Variable Name": [
       "BioBPTL_PartRefusal_v1r0"
+    ]
+  },
+  "443596662": {
+    "Variable Label": "Taxicab (includes Uber, Lyft, or hired car) commute to current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkHire_v1r0"
+    ]
+  },
+  "443679537": {
+    "Variable Label": "Do Not Know Commute School Cross",
+    "Variable Name": [
+      "SrvLAW_CurScCrDontKnow_v1r0"
+    ]
+  },
+  "444145120": {
+    "Variable Label": "Do Not Know 1-Previous",
+    "Variable Name": [
+      "SrvLAW_Prev1DontKnow_v1r0"
     ]
   },
   "444699761": {
@@ -3628,6 +5212,12 @@
     "Variable Label": "How much time hookah or water pipe  used, Age [X] to age [Y / 17]",
     "Variable Name": [
       "SrvSAS_HookahTm17_v1r0"
+    ]
+  },
+  "445867902": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_City4FollowUp_v1r0"
     ]
   },
   "446121108": {
@@ -3675,10 +5265,22 @@
       "SrvSAS_EverHadAlcohol_v1r0"
     ]
   },
+  "449752653": {
+    "Variable Label": "Current school, commute at least once a week",
+    "Variable Name": [
+      "SrvLAW_CurSchCom_v1r0"
+    ]
+  },
   "449861632": {
     "Variable Label": "over-the-counter H2 receptor blockers",
     "Variable Name": [
       "SrvMRE_H2RecBlockerOC_v1r0"
+    ]
+  },
+  "450075248": {
+    "Variable Label": "Car, van, or truck (includes carpools or van pools) commute from past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkCar4_v1r0"
     ]
   },
   "450131058": {
@@ -3691,6 +5293,51 @@
     "Variable Label": "Age first used a tobacco pipe",
     "Variable Name": [
       "SrvSAS_TobPipeAgeF_v1r0"
+    ]
+  },
+  "450433102": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_SeaCity9FU_v1r0"
+    ]
+  },
+  "450630128": {
+    "Variable Label": "Apartment, suite, unit, building, etc.",
+    "Variable Name": [
+      "SrvLAW_Apt10_v1r0"
+    ]
+  },
+  "451310566": {
+    "Variable Label": "Months at address",
+    "Variable Name": [
+      "SrvLAW_MonthAdd1_v1r0",
+      "SrvLAW_MonthAdd2_v1r0",
+      "SrvLAW_MonthAdd3_v1r0",
+      "SrvLAW_MonthAdd4_v1r0",
+      "SrvLAW_MonthAdd5_v1r0",
+      "SrvLAW_MonthAdd6_v1r0",
+      "SrvLAW_MonthAdd7_v1r0",
+      "SrvLAW_MonthAdd8_v1r0",
+      "SrvLAW_MonthAdd9_v1r0",
+      "SrvLAW_MonthAdd10_v1r0"
+    ]
+  },
+  "451394598": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_ChildStateFU_v1r0"
+    ]
+  },
+  "452053599": {
+    "Variable Label": "Name of employer/company",
+    "Variable Name": [
+      "SrvLAW_PreWorkEmp_v1r0"
+    ]
+  },
+  "452103273": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_SeaCountry5_v1r0"
     ]
   },
   "452166062": {
@@ -3711,6 +5358,12 @@
       "SrvMRE_AgeCoppIUDUSedL_v1r0"
     ]
   },
+  "453004768": {
+    "Variable Label": "Time, Taxicab (includes, Uber, Lyft, or hired car, ) commute to current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkTmHire_v1r0"
+    ]
+  },
   "453071098": {
     "Variable Label": "Did you take prescription or over-the-counter sleeping pills to help you sleep?",
     "Variable Name": [
@@ -3729,10 +5382,22 @@
       "BioCol_Dev_v1r0_Other"
     ]
   },
+  "453417964": {
+    "Variable Label": "Time, Bus or streetcar/trolley, light rail/trolley commute from current school",
+    "Variable Name": [
+      "SrvLAW_CurSchT10D_v1r0"
+    ]
+  },
   "453456270": {
     "Variable Label": "Marshallese",
     "Variable Name": [
       "SrvBOH_Marshallese_v1r0"
+    ]
+  },
+  "453691095": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_Zip8_v1r0"
     ]
   },
   "453820991": {
@@ -3783,6 +5448,12 @@
       "SrvBOH_Syphilis_v1r0"
     ]
   },
+  "455968200": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_Zip3_v1r0"
+    ]
+  },
   "457290610": {
     "Variable Label": "Months ago last used cigars, cigarillos, or little filtered cigars",
     "Variable Name": [
@@ -3831,10 +5502,28 @@
       "RcrtES_Aware_v1r0_Email"
     ]
   },
+  "462009573": {
+    "Variable Label": "Time, Bus or streetcar/trolley, light rail/trolley commute from past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkT7D_v1r0"
+    ]
+  },
   "462314689": {
     "Variable Label": "Other",
     "Variable Name": [
       "RcrtES_Aware_v1r0_Other"
+    ]
+  },
+  "462701424": {
+    "Variable Label": "Full Street name #2",
+    "Variable Name": [
+      "SrvLAW_StrtName8_v1r0"
+    ]
+  },
+  "463064782": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_State7FollowUp_v1r0"
     ]
   },
   "463625040": {
@@ -3847,6 +5536,12 @@
     "Variable Label": "Age first used tanning bed",
     "Variable Name": [
       "SrvSAS_TanningBedAgeF_v1r0"
+    ]
+  },
+  "463952618": {
+    "Variable Label": "Another vacation home past 20 years",
+    "Variable Name": [
+      "SrvLAW_SeasAddOth2_v1r0"
     ]
   },
   "465017353": {
@@ -3885,10 +5580,28 @@
       "SrvMRE_OthHormCurr_v1r0"
     ]
   },
+  "467126157": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_SeaState8FU_v1r0"
+    ]
+  },
+  "467242967": {
+    "Variable Label": "Car, van, or truck (includes carpools or van pools) commute from current school",
+    "Variable Name": [
+      "SrvLAW_CurSchCar6_v1r0"
+    ]
+  },
   "467751479": {
     "Variable Label": "Re-apply sunscreen in sun for extended period of time",
     "Variable Name": [
       "SrvSAS_ReapplySPF_v1r0"
+    ]
+  },
+  "467947502": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_Zip1_v1r0"
     ]
   },
   "469512398": {
@@ -3897,10 +5610,28 @@
       "SrvMRE_LAspirin_v1r0"
     ]
   },
+  "469679476": {
+    "Variable Label": "Full Street name #1",
+    "Variable Name": [
+      "SrvLAW_StrName3_v1r0"
+    ]
+  },
   "469819603": {
     "Variable Label": "Scanned by First Name",
     "Variable Name": [
       "BioPack_ScanFname_v1r0"
+    ]
+  },
+  "469838242": {
+    "Variable Label": "Apartment, suite, unit, building, etc.",
+    "Variable Name": [
+      "SrvLAW_Apt_v1r0"
+    ]
+  },
+  "469914719": {
+    "Variable Label": "Do Not Know Childhood Cross",
+    "Variable Name": [
+      "SrvLAW_CHCrossDontKnow_v1r0"
     ]
   },
   "469918550": {
@@ -3919,6 +5650,12 @@
     "Variable Label": "Dozed off or fallen asleep while driving",
     "Variable Name": [
       "SrvMRE_Driving_v1r0"
+    ]
+  },
+  "471142791": {
+    "Variable Label": "Taxicab (includes Uber, Lyft, or hired car) commute from past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkTaxi4_v1r0"
     ]
   },
   "471168198": {
@@ -3957,16 +5694,52 @@
       "SrvBOH_Child1Mult_v1r0"
     ]
   },
+  "474541595": {
+    "Variable Label": "Full Street name #2",
+    "Variable Name": [
+      "SrvLAW_StrtName2_v1r0"
+    ]
+  },
+  "475144270": {
+    "Variable Label": "Days commute, commute from past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkT8_v1r0"
+    ]
+  },
+  "476697171": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_City6FollowUp_v1r0"
+    ]
+  },
+  "476938134": {
+    "Variable Label": "Street number",
+    "Variable Name": [
+      "SrvLAW_SeaStNum2_v1r0"
+    ]
+  },
   "477091792": {
     "Variable Label": "IHCS Membership Status",
     "Variable Name": [
       "RcrtSI_MemberStat_v1r0"
     ]
   },
+  "477319994": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_SeaCountry_v1r0"
+    ]
+  },
   "477756737": {
     "Variable Label": "How many days use THC concentrates via dabbing, usual month",
     "Variable Name": [
       "SrvSAS_THCDaysMo_v1r0"
+    ]
+  },
+  "478513687": {
+    "Variable Label": "Time, Bus or streetcar/trolley, light rail/trolley commute to past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkTmBus_v1r0"
     ]
   },
   "478706011": {
@@ -3991,6 +5764,12 @@
     "Variable Label": "Why [do/did] you use consume marijuana in food or drinks - Descriptive",
     "Variable Name": [
       "SrvSAS_WhyEdiblesOth_v1r0"
+    ]
+  },
+  "480127323": {
+    "Variable Label": "Time, [OTHER FROM PREWORKT6 OR PREWORKT1]",
+    "Variable Name": [
+      "SrvLAW_PreWorkT7H_v1r0"
     ]
   },
   "480155628": {
@@ -4035,6 +5814,12 @@
       "SrvSAS_CigsUseEDMo_v1r0"
     ]
   },
+  "481599610": {
+    "Variable Label": "Full Street name #2",
+    "Variable Name": [
+      "SrvLAW_StrtName6_v1r0"
+    ]
+  },
   "481662464": {
     "Variable Label": "How many servings drink beer or cider, past 12 months",
     "Variable Name": [
@@ -4056,10 +5841,22 @@
       "SrvMRE_CurrVagRing_v1r0"
     ]
   },
+  "484550481": {
+    "Variable Label": "Another vacation home past 20 years",
+    "Variable Name": [
+      "SrvLAW_SeasAddOth6_v1r0"
+    ]
+  },
   "486287398": {
     "Variable Label": "Use a tobacco pipe every day, months",
     "Variable Name": [
       "SrvSAS_TobPipeED_v1r0"
+    ]
+  },
+  "486511102": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_State3FollowUp_v1r0"
     ]
   },
   "486535201": {
@@ -4080,6 +5877,12 @@
       "SrvBOH_Jamaican_v1r0"
     ]
   },
+  "487043303": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_State8FollowUp_v1r0"
+    ]
+  },
   "487917585": {
     "Variable Label": "Non-melanoma skin (basal or squamous)",
     "Variable Name": [
@@ -4095,6 +5898,27 @@
       "SrvSAS_Beer5059_v1r0"
     ]
   },
+  "489019597": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_Country7_v1r0"
+    ]
+  },
+  "489075623": {
+    "Variable Label": "Last spent time at this address, still spend time",
+    "Variable Name": [
+      "SrvLAW_SeasAdd2_1_Curr_v1r0",
+      "SrvLAW_SeasAdd2_2_Curr_v1r0",
+      "SrvLAW_SeasAdd2_3_Curr_v1r0",
+      "SrvLAW_SeasAdd2_4_Curr_v1r0",
+      "SrvLAW_SeasAdd2_5_Curr_v1r0",
+      "SrvLAW_SeasAdd2_6_Curr_v1r0",
+      "SrvLAW_SeasAdd2_7_Curr_v1r0",
+      "SrvLAW_SeasAdd2_8_Curr_v1r0",
+      "SrvLAW_SeasAdd2_9_Curr_v1r0",
+      "SrvLAW_SeaAdd2_10_Curr_v1r0"
+    ]
+  },
   "489400183": {
     "Variable Label": "Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.)",
     "Variable Name": [
@@ -4104,10 +5928,22 @@
       "SrvBOH_C1HNCancer_v1r0"
     ]
   },
+  "490504789": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_SeasWtr1_1_Oth_v1r0"
+    ]
+  },
   "491099823": {
     "Variable Label": "I do not have reliable access to the internet/a device",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_access"
+    ]
+  },
+  "491337167": {
+    "Variable Label": "Deep private well",
+    "Variable Name": [
+      "SrvLAW_SeaAdd10DPWell_v1r0"
     ]
   },
   "491484323": {
@@ -4152,10 +5988,40 @@
       "SrvSAS_CigsUsed4049_v1r0"
     ]
   },
+  "493984171": {
+    "Variable Label": "Street number",
+    "Variable Name": [
+      "SrvLAW_CurWorkStNum_v1r0"
+    ]
+  },
   "494032093": {
     "Variable Label": "Diabetes type",
     "Variable Name": [
       "SrvBOH_DiabetesType_v1r0"
+    ]
+  },
+  "494271326": {
+    "Variable Label": "Full Street name #1",
+    "Variable Name": [
+      "SrvLAW_FullSt1CurSchSt_v1r0"
+    ]
+  },
+  "494357137": {
+    "Variable Label": "Time, Walking commute to past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkTmWalk_v1r0"
+    ]
+  },
+  "494380686": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_SeaZip2_v1r0"
+    ]
+  },
+  "494698740": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_7PrimaryWater2_v1r0"
     ]
   },
   "494982282": {
@@ -4168,6 +6034,18 @@
     "Variable Label": "Insomnia",
     "Variable Name": [
       "SrvMRE_Insomnia_v1r0"
+    ]
+  },
+  "495330716": {
+    "Variable Label": "Year moved in",
+    "Variable Name": [
+      "SrvLAW_HomeMoveIn6_v1r0"
+    ]
+  },
+  "495342185": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_HomeWtr1_11_Oth_v1r0"
     ]
   },
   "495592561": {
@@ -4188,10 +6066,22 @@
       "SrvMRE_FirstPeriAgeNH_v1r0"
     ]
   },
+  "496801729": {
+    "Variable Label": "Commute to and from current school same",
+    "Variable Name": [
+      "SrvLAW_CurSchT7_v1r0"
+    ]
+  },
   "496935183": {
     "Variable Label": "Too sick/poor health to join",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_health"
+    ]
+  },
+  "497260033": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_SeaCountry4_v1r0"
     ]
   },
   "497530905": {
@@ -4212,6 +6102,12 @@
       "SrvMRE_NoPregIssCause_v1r0"
     ]
   },
+  "500100435": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_CountryFollowUp_v1r0"
+    ]
+  },
   "500744195": {
     "Variable Label": "Vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)",
     "Variable Name": [
@@ -4222,6 +6118,12 @@
     "Variable Label": "How many pipe fills of tobacco per day, [X / 30] to age [Y / 39 / current age]",
     "Variable Name": [
       "SrvSAS_PipeFills3039_v1r0"
+    ]
+  },
+  "502068619": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_SeaState5FU_v1r0"
     ]
   },
   "503058092": {
@@ -4242,10 +6144,22 @@
       "SrvMRE_HeavyBleeding_v1r0"
     ]
   },
+  "504158362": {
+    "Variable Label": "First spent time at this address, year",
+    "Variable Name": [
+      "SrvLAW_SeasAddYrs1_5_v1r0"
+    ]
+  },
   "505282171": {
     "Variable Label": "Cervix",
     "Variable Name": [
       "SrvBOH_Cervix_v1r0"
+    ]
+  },
+  "505863509": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_2PrimaryWater1_v1r0"
     ]
   },
   "506790433": {
@@ -4260,10 +6174,34 @@
       "RcrtUP_Suffix_v1r0"
     ]
   },
+  "508187475": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_5PrimaryWater2_v1r0"
+    ]
+  },
+  "508587741": {
+    "Variable Label": "Do Not Know 6-Seasonal",
+    "Variable Name": [
+      "SrvLAW_Seas6DontKnow_v1r0"
+    ]
+  },
+  "509121242": {
+    "Variable Label": "Other: Please describe commute to current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkCommute_v1r0"
+    ]
+  },
   "509170471": {
     "Variable Label": "Around tobacco smoke of others, Age 70 and older",
     "Variable Name": [
       "SrvSAS_AroundSmoke70_v1r0"
+    ]
+  },
+  "509526051": {
+    "Variable Label": "Do Not Know 2-Seasonal Cross",
+    "Variable Name": [
+      "SrvLAW_Seas2CrDontKnow_v1r0"
     ]
   },
   "509721537": {
@@ -4284,10 +6222,22 @@
       "SrvSAS_CigarsNumMo_v1r0"
     ]
   },
+  "510435329": {
+    "Variable Label": "Full Street name #1",
+    "Variable Name": [
+      "SrvLAW_WorkStrName1_v1r0"
+    ]
+  },
   "511145980": {
     "Variable Label": "How many servings THC concentrates via dabbing used, [X / 60] to age [Y / 69 / current age]",
     "Variable Name": [
       "SrvSAS_THCServing6069_v1r0"
+    ]
+  },
+  "511991969": {
+    "Variable Label": "Time, Motorcycle commute to current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkTmMoto_v1r0"
     ]
   },
   "512012656": {
@@ -4314,6 +6264,12 @@
       "SrvMRE_SleepProbIrrit_v1r0"
     ]
   },
+  "513925041": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_HomeWtr1_6_Oth_v1r0"
+    ]
+  },
   "514996698": {
     "Variable Label": "WEIGHTHIS percent difference flag between 15 years old and 25 years old 5 percent decrease in weight",
     "Variable Name": [
@@ -4330,6 +6286,12 @@
     "Variable Label": "Vaginal ring (Femring), vaginal cream (Estrace), or vaginal tablet (Vagifem) estrogen-only medication",
     "Variable Name": [
       "SrvMRE_VaginalRingE_v1r0"
+    ]
+  },
+  "516936572": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_State7_v1r0"
     ]
   },
   "517100968": {
@@ -4365,6 +6327,12 @@
       "SrvBOH_C1BrainCanc_v1r0"
     ]
   },
+  "520264332": {
+    "Variable Label": "Full Street name #2",
+    "Variable Name": [
+      "SrvLAW_WorkStrtName1_v1r0"
+    ]
+  },
   "520301146": {
     "Variable Label": "Local news, television, or radio station",
     "Variable Name": [
@@ -4375,6 +6343,12 @@
     "Variable Label": "Surgery for a breast abscess (such as incision and draining)",
     "Variable Name": [
       "SrvBOH_BreastAbsc_v1r0"
+    ]
+  },
+  "520630754": {
+    "Variable Label": "Full Street name #1",
+    "Variable Name": [
+      "SrvLAW_SeaStrName8_v1r0"
     ]
   },
   "521025370": {
@@ -4395,6 +6369,12 @@
       "RcrtUP_AddressLn1_v1r0"
     ]
   },
+  "521925072": {
+    "Variable Label": "Apartment, suite, unit, building, etc.",
+    "Variable Name": [
+      "SrvLAW_SeaApt6_v1r0"
+    ]
+  },
   "522949496": {
     "Variable Label": "During the season[s] in the past 12 months that you did other exercise, about how often did you do this activity?",
     "Variable Name": [
@@ -4405,6 +6385,12 @@
     "Variable Label": "Worried about receiving results from the study",
     "Variable Name": [
       "HdRef_WorriedResults_v1r0"
+    ]
+  },
+  "524305502": {
+    "Variable Label": "Deep private well",
+    "Variable Name": [
+      "SrvLAW_SeaAdd3DPWell_v1r0"
     ]
   },
   "524352591": {
@@ -4437,10 +6423,34 @@
       "SrvSAS_SunburnNum_v1r0"
     ]
   },
+  "525375987": {
+    "Variable Label": "A glass of iced tea",
+    "Variable Name": [
+      "SrvLAW_GlassOfIcedTea_v1r0"
+    ]
+  },
+  "525778327": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_SeaCountry7_v1r0"
+    ]
+  },
   "526448646": {
     "Variable Label": "Insulin concentration - Descriptive",
     "Variable Name": [
       "SrvMRE_InsulinConcDesc_v1r0"
+    ]
+  },
+  "526462982": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_SeaCountry7FU_v1r0"
+    ]
+  },
+  "527558834": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_HomeWtr1_7_Oth_v1r0"
     ]
   },
   "527823810": {
@@ -4465,6 +6475,12 @@
     "Variable Label": "Why [do/did] you use electronic marijuana delivery devices that can be vaped - Descriptive",
     "Variable Name": [
       "SrvSAS_WhyUseEMJDevOth_v1r0"
+    ]
+  },
+  "531671855": {
+    "Variable Label": "A cup of hot tea",
+    "Variable Name": [
+      "SrvLAW_CupOfHotTea_v1r0"
     ]
   },
   "531811052": {
@@ -4498,6 +6514,18 @@
     "Variable Label": "Last use THC concentrates via dabbing",
     "Variable Name": [
       "SrvSAS_THCLast_v1r0"
+    ]
+  },
+  "532944666": {
+    "Variable Label": "Lived anywhere else at least two years",
+    "Variable Name": [
+      "SrvLAW_HomeAddOth8_v1r0"
+    ]
+  },
+  "533003859": {
+    "Variable Label": "Time, [OTHER FROM CURSCHT1]",
+    "Variable Name": [
+      "SrvLAW_CurSchT10H_v1r0"
     ]
   },
   "533491176": {
@@ -4560,6 +6588,12 @@
       "SrvSAS_NoTobaccoPdt_v1r0"
     ]
   },
+  "535386940": {
+    "Variable Label": "Deep private well",
+    "Variable Name": [
+      "SrvLAW_DeepPrivWell11_v1r0"
+    ]
+  },
   "535621923": {
     "Variable Label": "Adopted, foster child",
     "Variable Name": [
@@ -4582,6 +6616,12 @@
     "Variable Label": "How much time e-cigarettes or other vaping devices used, Age [X / 18] to age [Y / 24]",
     "Variable Name": [
       "SrvSAS_ECigTm1824_v1r0"
+    ]
+  },
+  "536516743": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_City1_v1r0"
     ]
   },
   "536649297": {
@@ -4644,16 +6684,52 @@
       "SrvSAS_Hookah_v1r0"
     ]
   },
+  "539909957": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_1PrimaryWater2_v1r0"
+    ]
+  },
+  "540340377": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_SeaCountry5FU_v1r0"
+    ]
+  },
+  "541565665": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd6PrWater2_v1r0"
+    ]
+  },
   "541836531": {
     "Variable Label": "Date/time Status of Start of Medications, Reproductive Health, Exercise, and Sleep",
     "Variable Name": [
       "SrvMRE_TmStart_v1r0"
     ]
   },
+  "542086156": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_8PrimaryWater2_v1r0"
+    ]
+  },
   "542108835": {
     "Variable Label": "Any other type of combined estrogen plus progestin prescription hormones (such as the patch (Climara-Pro), other pills, or creams): Please describe text box",
     "Variable Name": [
       "SrvMRE_AnyCombPillDesc_v1r0"
+    ]
+  },
+  "542763783": {
+    "Variable Label": "Full Street name #1",
+    "Variable Name": [
+      "SrvLAW_SeaStrName2_v1r0"
+    ]
+  },
+  "543135391": {
+    "Variable Label": "Full Street name #2",
+    "Variable Name": [
+      "SrvLaw_StrtName1_v1r0"
     ]
   },
   "544150384": {
@@ -4674,6 +6750,13 @@
       "SrvSAS_HookahTm70_v1r0"
     ]
   },
+  "544692849": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_State2_v1r0",
+      "SrvLAW_State2FollowUp_v1r0"
+    ]
+  },
   "545628561": {
     "Variable Label": "Gallstones (Biliary Stones)",
     "Variable Name": [
@@ -4686,6 +6769,12 @@
       "SrvSAS_TobPipeNever_v1r0"
     ]
   },
+  "546570171": {
+    "Variable Label": "Time, Bus or streetcar/trolley, light rail/trolley commute to current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkTmBus_v1r0"
+    ]
+  },
   "547363263": {
     "Variable Label": "Placeholder- flag for mouthwash survey",
     "Variable Name": [
@@ -4696,6 +6785,18 @@
     "Variable Label": "Cancer Status Match",
     "Variable Name": [
       "RcrtV_CStatusMatch_v1r0"
+    ]
+  },
+  "548773158": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_City8FollowUp_v1r0"
+    ]
+  },
+  "548863580": {
+    "Variable Label": "Lived anywhere else at least two years",
+    "Variable Name": [
+      "SrvLAW_HomeAddOth9_v1r0"
     ]
   },
   "549079588": {
@@ -4740,6 +6841,12 @@
       "SrvSAS_ECigNeverReg_v1r0"
     ]
   },
+  "550646850": {
+    "Variable Label": "Time, Commuter rail, subway, metro commute from current school",
+    "Variable Name": [
+      "SrvLAW_CurSchT10E_v1r0"
+    ]
+  },
   "550850568": {
     "Variable Label": "How many pipe fills of tobacco per day, [X / 50] to age [Y / 59 / current age]",
     "Variable Name": [
@@ -4752,10 +6859,28 @@
       "SrvSAS_CTTime70_v1r0"
     ]
   },
+  "552410034": {
+    "Variable Label": "Time, Taxicab (includes, Uber, Lyft, or hired car, ) commute from current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkT10B_v1r0"
+    ]
+  },
+  "553357862": {
+    "Variable Label": "Full Street name #1",
+    "Variable Name": [
+      "SrvLAW_StrName2_v1r0"
+    ]
+  },
   "553424289": {
     "Variable Label": "Hindi",
     "Variable Name": [
       "SrvBOH_HindiLang_v1r0"
+    ]
+  },
+  "554901696": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_Zip4_v1r0"
     ]
   },
   "555481393": {
@@ -4776,10 +6901,22 @@
       "BioPack_ModifiedTime_v1r0"
     ]
   },
+  "555767576": {
+    "Variable Label": "Full Street name #2",
+    "Variable Name": [
+      "SrvLAW_StrtName4_v1r0"
+    ]
+  },
   "556235252": {
     "Variable Label": "Insulin years last took",
     "Variable Name": [
       "SrvMRE_InsulinYA_v1r0"
+    ]
+  },
+  "556576930": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_SeaCity_v1r0"
     ]
   },
   "556788178": {
@@ -4812,6 +6949,12 @@
       "SrvMRE_OthPresHormDesc_v1r0"
     ]
   },
+  "557852952": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_SeaState5_v1r0"
+    ]
+  },
   "558435199": {
     "Variable Label": "HIPAA Authorization",
     "Variable Name": [
@@ -4830,10 +6973,22 @@
       "SrvSAS_CTTime4049_v1r0"
     ]
   },
+  "558981691": {
+    "Variable Label": "Do Not Know 4-Seasonal",
+    "Variable Name": [
+      "SrvLAW_Seas4DontKnow_v1r0"
+    ]
+  },
   "559388168": {
     "Variable Label": "How many days smoked tobacco pipe in life",
     "Variable Name": [
       "SrvSAS_TobPipeDays_v1r0"
+    ]
+  },
+  "559488982": {
+    "Variable Label": "Local road, commute to current school",
+    "Variable Name": [
+      "SrvLAW_CurSchT5_v1r0"
     ]
   },
   "559534463": {
@@ -4872,10 +7027,28 @@
       "BioCol_SpeedL_v1r0_SpeedL"
     ]
   },
+  "561635035": {
+    "Variable Label": "Full Street name",
+    "Variable Name": [
+      "SrvLAW_SeaFullSt2_v1r0"
+    ]
+  },
   "561681068": {
     "Variable Label": "Placeholder - Date/time Blood Collected",
     "Variable Name": [
       "BioFin_BBTime_v1r0"
+    ]
+  },
+  "562190570": {
+    "Variable Label": "Year moved in",
+    "Variable Name": [
+      "SrvLAW_HomeMoveIn9_v1r0"
+    ]
+  },
+  "562313563": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_SeasWtr3_9_Oth_v1r0"
     ]
   },
   "562595294": {
@@ -4888,6 +7061,12 @@
     "Variable Label": "Days oral progestin-only cycle use",
     "Variable Name": [
       "SrvMRE_ProgCycleDays_v1r0"
+    ]
+  },
+  "563832508": {
+    "Variable Label": "Full Street name",
+    "Variable Name": [
+      "SrvLAW_FullSt3_v1r0"
     ]
   },
   "563857306": {
@@ -4914,10 +7093,28 @@
       "SrvSAS_UseCigarNow_v1r0"
     ]
   },
+  "564557026": {
+    "Variable Label": "Commute to and from past work same",
+    "Variable Name": [
+      "SrvLAW_PreWorkT4_v1r0"
+    ]
+  },
+  "564684946": {
+    "Variable Label": "Do Not Know 3-Seasonal",
+    "Variable Name": [
+      "SrvLAW_Seas3DontKnow_v1r0"
+    ]
+  },
   "564964481": {
     "Variable Label": "Birth Month",
     "Variable Name": [
       "RcrtUP_MOB_v1r0"
+    ]
+  },
+  "565515774": {
+    "Variable Label": "Full Street name",
+    "Variable Name": [
+      "SrvLAW_FullSt4_v1r0"
     ]
   },
   "566047367": {
@@ -4944,6 +7141,18 @@
       "SrvSAS_AgeStopUseCT_v1r0"
     ]
   },
+  "569375463": {
+    "Variable Label": "First commute longest job year",
+    "Variable Name": [
+      "SrvLAW_PreWorkYr1_v1r0"
+    ]
+  },
+  "569993305": {
+    "Variable Label": "Time, Walking commute to current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkT2G_v1r0"
+    ]
+  },
   "570171052": {
     "Variable Label": "Cause of infertility was not looked into",
     "Variable Name": [
@@ -4954,6 +7163,12 @@
     "Variable Label": "Have you ever taken any other type of prescription hormones?",
     "Variable Name": [
       "SrvMRE_OthPresHorm_v1r0"
+    ]
+  },
+  "570311888": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_SeaCity5_v1r0"
     ]
   },
   "570452130": {
@@ -4974,10 +7189,34 @@
       "SrvBOH_Pakistani_v1r0"
     ]
   },
+  "571926996": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_SeaCity4FU_v1r0"
+    ]
+  },
+  "572209771": {
+    "Variable Label": "Time, Car, van, or truck (includes carpools or van pools) commute from past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkT7A_v1r0"
+    ]
+  },
   "572260608": {
     "Variable Label": "Health or medical reasons",
     "Variable Name": [
       "SrvSAS_HealthReasons_v1r0"
+    ]
+  },
+  "572643998": {
+    "Variable Label": "Other: Please describe commute from past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkCommute4_v1r0"
+    ]
+  },
+  "573998459": {
+    "Variable Label": "Full Street name #1",
+    "Variable Name": [
+      "SrvLAW_StrName11_v1r0"
     ]
   },
   "575237218": {
@@ -4992,10 +7231,22 @@
       "SrvMRE_NaproxenTime_V1r0"
     ]
   },
+  "575883949": {
+    "Variable Label": "Bicycle commute to current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkBike_v1r0"
+    ]
+  },
   "576083042": {
     "Variable Label": "I think the payment or benefit to participant is not great enough",
     "Variable Name": [
       "HdRef_Payment_v1r0"
+    ]
+  },
+  "576149634": {
+    "Variable Label": "Time, Taxicab (includes, Uber, Lyft, or hired car, ) commute from current school",
+    "Variable Name": [
+      "SrvLAW_CurSchT10B_v1r0"
     ]
   },
   "576358766": {
@@ -5020,6 +7271,12 @@
     "Variable Label": "Throat/Uvula surgery",
     "Variable Name": [
       "SrvMRE_ThroatSurgery_v1r0"
+    ]
+  },
+  "576956950": {
+    "Variable Label": "Another vacation home past 20 years",
+    "Variable Name": [
+      "SrvLAW_SeasAddOth1_v1r0"
     ]
   },
   "577794331": {
@@ -5052,6 +7309,12 @@
       "RcrtSI_OptOut_v1r0_PrivacyG"
     ]
   },
+  "580185896": {
+    "Variable Label": "Full Street name #1",
+    "Variable Name": [
+      "SrvLAW_SeaStrName3_v1r0"
+    ]
+  },
   "580367946": {
     "Variable Label": "Time usually wake up workdays/most days",
     "Variable Name": [
@@ -5063,6 +7326,18 @@
     "Variable Name": [
       "SrvBOH_FishingC_v1r0",
       "SrvBOH_FishingP_v1r0"
+    ]
+  },
+  "581231591": {
+    "Variable Label": "Do Not Know 6-Previous Cross",
+    "Variable Name": [
+      "SrvLAW_Prev6CrDontKnow_v1r0"
+    ]
+  },
+  "581991828": {
+    "Variable Label": "Car, van, or truck (includes carpools or van pools) commute from current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkCar2_v1r0"
     ]
   },
   "582784267": {
@@ -5083,16 +7358,46 @@
       "SrvMRE_OthCombPillCurr_v1r0"
     ]
   },
+  "583500714": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_CityFU_v1r0"
+    ]
+  },
   "583826374": {
     "Variable Label": "American Indian or Alaska Native",
     "Variable Name": [
       "SrvBOH_AlaskaNative_v1r0"
     ]
   },
+  "584350267": {
+    "Variable Label": "Full Street name #1",
+    "Variable Name": [
+      "SrvLAW_FullSt1_PreWork_v1r0"
+    ]
+  },
   "584608368": {
     "Variable Label": "How much time hookah or water pipe  used, [X / 30] to age [Y / 39 / current age]",
     "Variable Name": [
       "SrvSAS_HookahTm3039_v1r0"
+    ]
+  },
+  "585153023": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_SeaState7_v1r0"
+    ]
+  },
+  "585360350": {
+    "Variable Label": "Apartment, suite, unit, building, etc.",
+    "Variable Name": [
+      "SrvLAW_Apt2_v1r0"
+    ]
+  },
+  "585473282": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_State10FollowUp_v1r0"
     ]
   },
   "585702271": {
@@ -5119,10 +7424,28 @@
       "SrvBOH_Hawaiian_v1r0"
     ]
   },
+  "587434250": {
+    "Variable Label": "Time, Bicycle commute to current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkTmBike_v1r0"
+    ]
+  },
+  "587765197": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_SeaCountry8FU_v1r0"
+    ]
+  },
   "588637585": {
     "Variable Label": "Caring for pets (walking dogs, feeding, playing, grooming) time per day",
     "Variable Name": [
       "SrvMRE_CaringForPetsTm_v1r0"
+    ]
+  },
+  "588699608": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_City2_v1r0"
     ]
   },
   "589445924": {
@@ -5149,10 +7472,22 @@
       "SrvBOH_Sib1FullHalf_v1r0"
     ]
   },
+  "589689090": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_SeaCountry9FU_v1r0"
+    ]
+  },
   "589885595": {
     "Variable Label": "Days used electronic marijuana delivery devices past 30 days",
     "Variable Name": [
       "SrvSAS_UseEMJDev30_v1r0"
+    ]
+  },
+  "590222838": {
+    "Variable Label": "Year moved in",
+    "Variable Name": [
+      "SrvLAW_HomeMoveIn1_v1r0"
     ]
   },
   "590329439": {
@@ -5190,6 +7525,18 @@
     "Variable Label": "How many days used electronic marijuana delivery devices, usual month",
     "Variable Name": [
       "SrvSAS_UseEMJDevDays_v1r0"
+    ]
+  },
+  "593010802": {
+    "Variable Label": "Time, Car, van, or truck (includes carpools or van pools) commute to current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkTmCar_v1r0"
+    ]
+  },
+  "593146348": {
+    "Variable Label": "Lived anywhere else at least two years",
+    "Variable Name": [
+      "SrvLAW_HomeAddOth3_v1r0"
     ]
   },
   "593843561": {
@@ -5231,10 +7578,22 @@
       "SrvBOH_C1EsophagCanc_v1r0"
     ]
   },
+  "596301593": {
+    "Variable Label": "Year",
+    "Variable Name": [
+      "SrvLAW_CurWorkYr1_Yr_v1r0"
+    ]
+  },
   "596510649": {
     "Variable Label": "I am worried\"\"\"\"my\"\"\"\"information isn\"\"\"\"t secure or there will be a data breach",
     "Variable Name": [
       "HdRef_PrivacyE_v1r0"
+    ]
+  },
+  "596751155": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_SeaState10_v1r0"
     ]
   },
   "596792238": {
@@ -5248,6 +7607,12 @@
     "Variable Label": "Pills per day baby or low-dose aspirin (81 mg or less), don't know",
     "Variable Name": [
       "SrvMRE_LAspirinPillDK_v1r0"
+    ]
+  },
+  "598478268": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd1PrWater2_v1r0"
     ]
   },
   "598680838": {
@@ -5268,10 +7633,28 @@
       "SrvSAS_Liquor5059_v1r0"
     ]
   },
+  "599607007": {
+    "Variable Label": "Full Street name #2",
+    "Variable Name": [
+      "SrvLAW_SeaStrtName3_v1r0"
+    ]
+  },
+  "599753334": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_SeaCity8FU_v1r0"
+    ]
+  },
   "600304149": {
     "Variable Label": "Types of alcoholic beverages- ages 40 and age 49 - Other",
     "Variable Name": [
       "SrvSAS_Other4049_v1r0"
+    ]
+  },
+  "600319581": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_Country4FU_v1r0"
     ]
   },
   "600462977": {
@@ -5312,10 +7695,34 @@
       "HdWd_WhoAllActivity_v1r0"
     ]
   },
+  "603853574": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_SeaCountry9_v1r0"
+    ]
+  },
+  "603945794": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd8PrWater_v1r0"
+    ]
+  },
   "605063358": {
     "Variable Label": "Used tanning bed past 12 months",
     "Variable Name": [
       "SrvSAS_TanningBed12Mo_v1r0"
+    ]
+  },
+  "605155921": {
+    "Variable Label": "Full Street name",
+    "Variable Name": [
+      "SrvLAW_SeaFullSt7_v1r0"
+    ]
+  },
+  "605344820": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_State6FollowUp_v1r0"
     ]
   },
   "606675249": {
@@ -5361,6 +7768,12 @@
     "Variable Label": "During the season[s] in the past 12 months that you danced, about how often did you do this activity?",
     "Variable Name": [
       "SrvMRE_DanceOften_v1r0"
+    ]
+  },
+  "612617245": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_State9_v1r0"
     ]
   },
   "613641698": {
@@ -5490,6 +7903,12 @@
       "BioPack_TubeNotBag_v1r0"
     ]
   },
+  "622968789": {
+    "Variable Label": "Street number",
+    "Variable Name": [
+      "SrvLAW_StNum10_v1r0"
+    ]
+  },
   "623218391": {
     "Variable Label": "Breast implants age",
     "Variable Name": [
@@ -5503,6 +7922,12 @@
       "SrvBOH_BreastAbscAge_v1r0",
       "SrvBOH_BreastLacRemAge_v1r0",
       "SrvBOH_BreastOthAge_v1r0"
+    ]
+  },
+  "623452399": {
+    "Variable Label": "Year moved in",
+    "Variable Name": [
+      "SrvLAW_HomeMoveIn2_v1r0"
     ]
   },
   "623806211": {
@@ -5523,10 +7948,22 @@
       "SrvSAS_DaysUseECig_v1r0"
     ]
   },
+  "624226136": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_SeaZip10_v1r0"
+    ]
+  },
   "627122657": {
     "Variable Label": "Current job",
     "Variable Name": [
       "SrvBOH_CurrentJob_v1r0"
+    ]
+  },
+  "627992821": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_Country6FU_v1r0"
     ]
   },
   "627995442": {
@@ -5565,6 +8002,12 @@
       "SrvBOH_Oophroectomy_v1r0"
     ]
   },
+  "631088397": {
+    "Variable Label": "Other: Please describe, text box commute from current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkOthCommute2_v1r0"
+    ]
+  },
   "631290535": {
     "Variable Label": "Vials - Empty",
     "Variable Name": [
@@ -5583,10 +8026,22 @@
       "SrvBOH_Cholecystectomy_v1r0"
     ]
   },
+  "633590687": {
+    "Variable Label": "Full Street name #1",
+    "Variable Name": [
+      "SrvLAW_StrName10_v1r0"
+    ]
+  },
   "634434746": {
     "Variable Label": "State",
     "Variable Name": [
       "RcrtUP_State_v1r0"
+    ]
+  },
+  "634680635": {
+    "Variable Label": "Commuter rail, subway, metro commute from current school",
+    "Variable Name": [
+      "SrvLAW_CurSchMetro6_v1r0"
     ]
   },
   "635101039": {
@@ -5601,6 +8056,12 @@
       "BioCol_Dev_v1r0_Gel"
     ]
   },
+  "636020848": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd8PrWater2_v1r0"
+    ]
+  },
   "636030086": {
     "Variable Label": "Rheumatoid Arthritis",
     "Variable Name": [
@@ -5613,6 +8074,12 @@
       "SrvBOH_Asian_v1r0"
     ]
   },
+  "636708825": {
+    "Variable Label": "Name of school",
+    "Variable Name": [
+      "SrvLAW_CurSchName_v1r0"
+    ]
+  },
   "636757313": {
     "Variable Label": "Time normally in bed workdays/most days",
     "Variable Name": [
@@ -5623,6 +8090,12 @@
     "Variable Label": "Types of alcoholic beverages- ages 25 to 29 - Wine",
     "Variable Name": [
       "SrvSAS_Wine2529_v1r0"
+    ]
+  },
+  "638833327": {
+    "Variable Label": "Motorcycle commute to current school",
+    "Variable Name": [
+      "SrvLAW_CurSchMotorcycle5_v1r0"
     ]
   },
   "639172801": {
@@ -5641,6 +8114,12 @@
     "Variable Label": "Phone call invitation",
     "Variable Name": [
       "RcrtES_Aware_v1r0_Phone"
+    ]
+  },
+  "639735881": {
+    "Variable Label": "Commuter rail, subway, metro commute to past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkMetro_v1r0"
     ]
   },
   "640010727": {
@@ -5674,6 +8153,12 @@
       "SrvBOH_PplHouseNoAns_v1r0"
     ]
   },
+  "641655118": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_SeasWtr3_10_Oth_V1r0"
+    ]
+  },
   "642004888": {
     "Variable Label": "Danazol",
     "Variable Name": [
@@ -5704,10 +8189,28 @@
       "SrvMRE_VigChoreTime_v1r0"
     ]
   },
+  "645051966": {
+    "Variable Label": "Taxicab (includes Uber, Lyft, or hired car) commute from current school",
+    "Variable Name": [
+      "SrvLAW_CurSchTaxi6_v1r0"
+    ]
+  },
+  "645150792": {
+    "Variable Label": "Full Street name",
+    "Variable Name": [
+      "SrvLAW_FullSt2_v1r0"
+    ]
+  },
   "645361463": {
     "Variable Label": "How much time marijuana  smoked, [X / 60] to age [Y / 69 / current age]",
     "Variable Name": [
       "SrvSAS_TmSmokeMJ6069"
+    ]
+  },
+  "645589113": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_SeaState4FU_v1r0"
     ]
   },
   "645681293": {
@@ -5720,6 +8223,12 @@
     "Variable Label": "Pills per day acetaminophen, don't know",
     "Variable Name": [
       "SrvMRE_AcetPillDK_v1r0"
+    ]
+  },
+  "646099557": {
+    "Variable Label": "Full Street name",
+    "Variable Name": [
+      "SrvLAW_SeaFullSt8_v1r0"
     ]
   },
   "646504105": {
@@ -5746,6 +8255,12 @@
       "SrvBOH_Ghanaian_v1r0"
     ]
   },
+  "647612167": {
+    "Variable Label": "Lived anywhere else at least two years",
+    "Variable Name": [
+      "SrvLAW_HomeAddOth7_v1r0"
+    ]
+  },
   "648216681": {
     "Variable Label": "Age last used tanning bed",
     "Variable Name": [
@@ -5756,6 +8271,12 @@
     "Variable Label": "Payment refused",
     "Variable Name": [
       "HDPaym_PaymRefused_v1r0"
+    ]
+  },
+  "648495207": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_City2FollowUp_v1r0"
     ]
   },
   "648678282": {
@@ -5774,6 +8295,12 @@
     "Variable Label": "WEIGHTHIS percent difference flag between 35 years old and 45 years old 5 percent decrease in weight",
     "Variable Name": [
       "SrvBOH_PercentDiff3545_v1r0"
+    ]
+  },
+  "649864362": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_Zip2FollowUp_v1r0"
     ]
   },
   "650100414": {
@@ -5812,6 +8339,18 @@
       "SrvMsg_AnyLeft_v1r0"
     ]
   },
+  "651233069": {
+    "Variable Label": "Deep private well",
+    "Variable Name": [
+      "SrvLAW_DeepPrivWell2_v1r0"
+    ]
+  },
+  "652022112": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_PreWorkCityFU_v1r0"
+    ]
+  },
   "652357376": {
     "Variable Label": "ACD Tube 1",
     "Variable Name": [
@@ -5828,6 +8367,12 @@
     "Variable Label": "Standing with some walking (for example, as a store clerk, filing, making copies, walking to/from meetings, working on an assembly line, etc.)",
     "Variable Name": [
       "SrvMRE_LightWalking_v1r0"
+    ]
+  },
+  "653181757": {
+    "Variable Label": "Apartment, suite, unit, building, etc.",
+    "Variable Name": [
+      "SrvLAW_SeaApt4_v1r0"
     ]
   },
   "653198444": {
@@ -5860,6 +8405,12 @@
       "SrvBOH_Vasectomy_v1r0"
     ]
   },
+  "656067463": {
+    "Variable Label": "Other: Please describe, text box commute from current school",
+    "Variable Name": [
+      "SrvLAW_CurSchOthCommute6_v1r0"
+    ]
+  },
   "656548982": {
     "Variable Label": "Autogenerated date/time stamp for submit shipment time",
     "Variable Name": [
@@ -5878,6 +8429,12 @@
       "HdRef_BlSpecSrvDt_v1r0"
     ]
   },
+  "657986901": {
+    "Variable Label": "Do Not Know 2-Seasonal",
+    "Variable Name": [
+      "SrvLAW_Seas2DontKnow_v1r0"
+    ]
+  },
   "658018390": {
     "Variable Label": "On the days that you swam laps, about how much time per day did you spend doing this activity?",
     "Variable Name": [
@@ -5890,10 +8447,28 @@
       "SrvMRE_TTTestosPellets_v1r0"
     ]
   },
+  "659122266": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_Zip8FollowUp_v1r0"
+    ]
+  },
   "659140794": {
     "Variable Label": "Months ago last used electronic marijuana delivery devices",
     "Variable Name": [
       "SrvSAS_UseEMJDevMo_v1r0"
+    ]
+  },
+  "659457234": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_SeaCountry6FU_v1r0"
+    ]
+  },
+  "659744749": {
+    "Variable Label": "Months commute to address",
+    "Variable Name": [
+      "SrvLAW_CurSchMos_v1r0"
     ]
   },
   "659784914": {
@@ -5902,10 +8477,22 @@
       "SrvBOH_DadCanc_v1r0"
     ]
   },
+  "659799855": {
+    "Variable Label": "Time, Car, van, or truck (includes carpools or van pools) commute to current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkT10A_v1r0"
+    ]
+  },
   "659990606": {
     "Variable Label": "Date withdrew consent",
     "Variable Name": [
       "HdWd_WdConsentDt_v1r0"
+    ]
+  },
+  "660217075": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_CurSchState_v1r0"
     ]
   },
   "660541817": {
@@ -5914,10 +8501,28 @@
       "SrvBOH_OtherWtLossDes3_v1r0"
     ]
   },
+  "660927579": {
+    "Variable Label": "Motorcycle commute from current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkMotorcycle2_v1r0"
+    ]
+  },
+  "661148931": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_SeaCountryFU_v1r0"
+    ]
+  },
   "661719912": {
     "Variable Label": "Alternate contact first name",
     "Variable Name": [
       "SrvBOH_AltContFv1r0"
+    ]
+  },
+  "662584384": {
+    "Variable Label": "Time, [OTHER FROM CURWORKT1]",
+    "Variable Name": [
+      "SrvLAW_CurWorkT2H_v1r0"
     ]
   },
   "662762705": {
@@ -5965,6 +8570,30 @@
       "SrvBOH_C1NHLympoma_v1r0"
     ]
   },
+  "665593888": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_Chld1PrimWater2_v1r0"
+    ]
+  },
+  "665978055": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_6PrimaryWater1_v1r0"
+    ]
+  },
+  "666011940": {
+    "Variable Label": "Full Street name",
+    "Variable Name": [
+      "SrvLAW_FullSt9_v1r0"
+    ]
+  },
+  "666445636": {
+    "Variable Label": "Street number",
+    "Variable Name": [
+      "SrvLAW_SeaStNum6_v1r0"
+    ]
+  },
   "666553960": {
     "Variable Label": "Shipment courier",
     "Variable Name": [
@@ -6001,6 +8630,24 @@
       "SrvSAS_Beer6069_v1r0"
     ]
   },
+  "668887646": {
+    "Variable Label": "Do Not Know Current School",
+    "Variable Name": [
+      "SrvLAW_CurSchDontKnow_v1r0"
+    ]
+  },
+  "669305975": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_ChildWtr2_1_Oth_v1r0"
+    ]
+  },
+  "669359763": {
+    "Variable Label": "Commuter rail, subway, metro commute from current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkMetro2_v1r0"
+    ]
+  },
   "669977999": {
     "Variable Label": "Arabic",
     "Variable Name": [
@@ -6011,6 +8658,24 @@
     "Variable Label": "Ages 11 to 14",
     "Variable Name": [
       "SrvSAS_NumSmoke1114_v1r0"
+    ]
+  },
+  "670316988": {
+    "Variable Label": "Do Not Know 10-Seasonal Cross",
+    "Variable Name": [
+      "SrvLAW_Sea10CrDontKnow_v1r0"
+    ]
+  },
+  "670605457": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_SeasWtr3_1_Oth_v1r0"
+    ]
+  },
+  "671149035": {
+    "Variable Label": "Apartment, suite, unit, building, etc.",
+    "Variable Name": [
+      "SrvLAW_SeaApt_v1r0"
     ]
   },
   "671380198": {
@@ -6037,10 +8702,28 @@
       "BioPack_BoxStrtTime_v1r0"
     ]
   },
+  "673034401": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_Zip7_v1r0"
+    ]
+  },
+  "673667112": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_SeasWtr1_10_Oth_v1r0"
+    ]
+  },
   "673842048": {
     "Variable Label": "Ever use chewing tobacco, snus, snuff, or dip  every day",
     "Variable Name": [
       "SrvSAS_UseCTEveryday_v1r0"
+    ]
+  },
+  "674024553": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_Zip9_v1r0"
     ]
   },
   "674148137": {
@@ -6055,6 +8738,12 @@
       "SrvSAS_CigarsDaysNum_v1r0"
     ]
   },
+  "674785575": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_SeasWtr1_2_Oth_v1r0"
+    ]
+  },
   "674976924": {
     "Variable Label": "Shift worker",
     "Variable Name": [
@@ -6065,6 +8754,12 @@
     "Variable Label": "Hookah or water pipe",
     "Variable Name": [
       "SrvSAS_WaterPipe_v1r0"
+    ]
+  },
+  "675539614": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_HomeWtr3_4_Oth_v1r0"
     ]
   },
   "677262300": {
@@ -6089,6 +8784,18 @@
     "Variable Label": "How many servings consumed marijuana in food or drinks used, [X / 40] to age [Y / 49 / current age]",
     "Variable Name": [
       "SrvSAS_EdiblesServ4049_v1r0"
+    ]
+  },
+  "677739650": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_SeaCountry2FU_v1r0"
+    ]
+  },
+  "677922318": {
+    "Variable Label": "Full Street name #1",
+    "Variable Name": [
+      "SrvLAW_SeaStrName5_v1r0"
     ]
   },
   "678166505": {
@@ -6157,6 +8864,12 @@
       "SrvSAS_THCDays30_v1r0"
     ]
   },
+  "683306241": {
+    "Variable Label": "Motorcycle commute to past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkMotorcycle_v1r0"
+    ]
+  },
   "683613884": {
     "Variable Label": "EDTA Tube 3",
     "Variable Name": [
@@ -6167,6 +8880,18 @@
     "Variable Label": "Other medication: please describe text box",
     "Variable Name": [
       "SrvMRE_OthHorMedsDes_v1r0"
+    ]
+  },
+  "684217044": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_Zip4FollowUp_v1r0"
+    ]
+  },
+  "684542266": {
+    "Variable Label": "Commute to and from current work same",
+    "Variable Name": [
+      "SrvLAW_CurWorkT7_v1r0"
     ]
   },
   "684617815": {
@@ -6217,10 +8942,40 @@
       "SrvSAS_TobaccoPipe_v1r0"
     ]
   },
+  "686494153": {
+    "Variable Label": "Time, Walking commute from past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkT7G_v1r0"
+    ]
+  },
+  "686611963": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_SeaCity6FU_v1r0"
+    ]
+  },
+  "686647703": {
+    "Variable Label": "Full Street name #2",
+    "Variable Name": [
+      "SrvLAW_SeaStrtName9_v1r0"
+    ]
+  },
   "687050279": {
     "Variable Label": "Oral progestin-only medication (such as Provera or Prometrium)",
     "Variable Name": [
       "SrvMRE_OralProg_v1r0"
+    ]
+  },
+  "687407917": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_SeaZip6_v1r0"
+    ]
+  },
+  "688216428": {
+    "Variable Label": "Full Street name",
+    "Variable Name": [
+      "SrvLAW_SeaFullSt5_v1r0"
     ]
   },
   "689339933": {
@@ -6262,6 +9017,12 @@
       "SrvBOH_HIV_v1r0"
     ]
   },
+  "691579493": {
+    "Variable Label": "Walking commute to current school",
+    "Variable Name": [
+      "SrvLAW_CurSchWalk5_v1r0"
+    ]
+  },
   "691766591": {
     "Variable Label": "Irritable Bowel Syndrome",
     "Variable Name": [
@@ -6286,6 +9047,12 @@
       "SrvBOH_HBP_v1r0"
     ]
   },
+  "694113343": {
+    "Variable Label": "Worked in 2019",
+    "Variable Name": [
+      "SrvLAW_WorkedIn2019_v1r0"
+    ]
+  },
   "694261722": {
     "Variable Label": "Use electronic marijuana delivery devices every day, months",
     "Variable Name": [
@@ -6304,10 +9071,34 @@
       "SrvSAS_UseEMJDevDayNum_v1r0"
     ]
   },
+  "696017690": {
+    "Variable Label": "Another vacation home past 20 years",
+    "Variable Name": [
+      "SrvLAW_SeasAddOth4_v1r0"
+    ]
+  },
+  "696874548": {
+    "Variable Label": "Full Street name",
+    "Variable Name": [
+      "SrvLAW_FullSt10_v1r0"
+    ]
+  },
+  "696972918": {
+    "Variable Label": "First spent time at this address, year",
+    "Variable Name": [
+      "SrvLAW_SeasAddYrs1_6_v1r0"
+    ]
+  },
   "697256759": {
     "Variable Label": "Date/time for pre-consent opt-out",
     "Variable Name": [
       "RcrtSI_OptOutTm_v1r0"
+    ]
+  },
+  "697751634": {
+    "Variable Label": "Deep private well",
+    "Variable Name": [
+      "SrvLAW_DeepPrivWell9_v1r0"
     ]
   },
   "698314386": {
@@ -6377,10 +9168,22 @@
       "SrvBOH_MI_v1r0"
     ]
   },
+  "701056236": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_SeaZip4FU_v1r0"
+    ]
+  },
   "702433259": {
     "Variable Label": "I am worried about data being given to my insurance company/effects on insurance (health, life, other)",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_PrivacyH"
+    ]
+  },
+  "702555988": {
+    "Variable Label": "Time, Bicycle commute from past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkT7F_v1r0"
     ]
   },
   "702729897": {
@@ -6393,6 +9196,12 @@
     "Variable Label": "City",
     "Variable Name": [
       "RcrtUP_City_v1r0"
+    ]
+  },
+  "703944664": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_City6_v1r0"
     ]
   },
   "703954371": {
@@ -6425,6 +9234,12 @@
       "SrvSAS_CTTime1824_v1r0"
     ]
   },
+  "705673076": {
+    "Variable Label": "Highway, current school commute from current school",
+    "Variable Name": [
+      "SrvLAW_CurSchT11_v1r0"
+    ]
+  },
   "705732561": {
     "Variable Label": "I do not want to complete surveys",
     "Variable Name": [
@@ -6443,10 +9258,28 @@
       "RcrtSI_Sex_v1r0"
     ]
   },
+  "706592013": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_City10FollowUp"
+    ]
+  },
+  "706861475": {
+    "Variable Label": "Full Street name #2",
+    "Variable Name": [
+      "SrvLAW_SeaStrtName6_v1r0"
+    ]
+  },
   "706998638": {
     "Variable Label": "Hispanic, Latino, or Spanish",
     "Variable Name": [
       "SrvBOH_Hispanic_v1r0"
+    ]
+  },
+  "707276214": {
+    "Variable Label": "Full Street name #1",
+    "Variable Name": [
+      "SrvLAW_StrName8_v1r0"
     ]
   },
   "707805344": {
@@ -6460,16 +9293,34 @@
       "SrvMRE_SunlightHrsNW_v1r0"
     ]
   },
+  "708136662": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_SeasWtr3_3_Oth_v1r0"
+    ]
+  },
   "708921303": {
     "Variable Label": "Age birth control patch last use",
     "Variable Name": [
       "SrvMRE_AgePatchUsedL_v1r0"
     ]
   },
+  "709374950": {
+    "Variable Label": "Full Street name",
+    "Variable Name": [
+      "SrvLAW_FullSt8_v1r0"
+    ]
+  },
   "709786039": {
     "Variable Label": "Liver Cirrhosis",
     "Variable Name": [
       "SrvBOH_Cirrhosis_v1r0"
+    ]
+  },
+  "710449106": {
+    "Variable Label": "Summary vacation homes",
+    "Variable Name": [
+      "SrvLAW_SeasAddSum1_v1r0"
     ]
   },
   "711138281": {
@@ -6497,6 +9348,12 @@
       "SrvSAS_BodyPartSPF_v1r0"
     ]
   },
+  "711881258": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_SeaCity9_v1r0"
+    ]
+  },
   "712653855": {
     "Variable Label": "Cigarettes (manufactured or hand-rolled)",
     "Variable Name": [
@@ -6515,10 +9372,22 @@
       "SrvBOH_Child1Name_v1r0"
     ]
   },
+  "714365367": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_Chld1PrimWater_v1r0"
+    ]
+  },
   "714419972": {
     "Variable Label": "Additional email 3",
     "Variable Name": [
       "RcrtUP_Email3_v1r0"
+    ]
+  },
+  "715370929": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_SeaCity2_v1r0"
     ]
   },
   "715390138": {
@@ -6531,6 +9400,12 @@
     "Variable Label": "Bariatric surgery (lap band, gastric bypass)",
     "Variable Name": [
       "SrvBOH_BariatricSurg_v1r0"
+    ]
+  },
+  "716343828": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_SeaZip4_v1r0"
     ]
   },
   "716554850": {
@@ -6563,6 +9438,18 @@
       "RcrtSI_OptOut_v1r0_impt"
     ]
   },
+  "719647239": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd4PrWater2_v1r0"
+    ]
+  },
+  "720221117": {
+    "Variable Label": "Previously listed childhood address",
+    "Variable Name": [
+      "SrvLAW_ChildAddPre_v1r0"
+    ]
+  },
   "720305356": {
     "Variable Label": "Ever use hookah or water pipe  every day",
     "Variable Name": [
@@ -6573,6 +9460,12 @@
     "Variable Label": "Ever use marijuana  every day",
     "Variable Name": [
       "SrvSAS_EverUseMJED_v1r0"
+    ]
+  },
+  "723108194": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_Country2FU_v1r0"
     ]
   },
   "723614811": {
@@ -6613,6 +9506,18 @@
       "SrvSAS_TmUseTobMJ2529_v1r0"
     ]
   },
+  "725408440": {
+    "Variable Label": "Deep private well",
+    "Variable Name": [
+      "SrvLAW_DeepPrivWell1_v1r0"
+    ]
+  },
+  "725583683": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_CityFollowUp_v1r0"
+    ]
+  },
   "725713485": {
     "Variable Label": "On the days that you did strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups), about how much time per day did you spend doing this activity?",
     "Variable Name": [
@@ -6637,16 +9542,40 @@
       "SrvBOH_Thyroid_v1r0"
     ]
   },
+  "726654963": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_3PrimaryWater2_v1r0"
+    ]
+  },
+  "726739712": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_SeaCity2FU_v1r0"
+    ]
+  },
   "726847824": {
     "Variable Label": "Often drink beer or cider, past 12 months",
     "Variable Name": [
       "SrvSAS_BeerOften12Mo_v1r0"
     ]
   },
+  "727126965": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_SeasWtr1_7_Oth_v1r0"
+    ]
+  },
   "727773491": {
     "Variable Label": "Menstrual Pain",
     "Variable Name": [
       "SrvMRE_MenstrualPain_v1r0"
+    ]
+  },
+  "728256340": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd7PrWater_v1r0"
     ]
   },
   "728366619": {
@@ -6667,6 +9596,12 @@
       "SrVMRE_CombPillAgeL_v1r0"
     ]
   },
+  "728704613": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_Country3_v1r0"
+    ]
+  },
   "728926441": {
     "Variable Label": "Address line 2",
     "Variable Name": [
@@ -6677,6 +9612,12 @@
     "Variable Label": "Gel/cream",
     "Variable Name": [
       "SrvMRE_TTGel_v1r0"
+    ]
+  },
+  "730666903": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_PreWorkStateFU_v1r0"
     ]
   },
   "730851186": {
@@ -6697,6 +9638,12 @@
       "SMPaym_PaymElig_v1r0"
     ]
   },
+  "732107715": {
+    "Variable Label": "Full Street name #1",
+    "Variable Name": [
+      "SrvLAW_StrName7_v1r0"
+    ]
+  },
   "732465277": {
     "Variable Label": "Interactions with medications",
     "Variable Name": [
@@ -6707,6 +9654,24 @@
     "Variable Label": "Prostate removed (prostatectomy)",
     "Variable Name": [
       "SrvBOH_Prostatectomy_v1r0"
+    ]
+  },
+  "733317111": {
+    "Variable Label": "Do Not Know Previous Employer Cross",
+    "Variable Name": [
+      "SrvLAW_PreEmCrDontKnow_v1r0"
+    ]
+  },
+  "733365745": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_SeaCountry3_v1r0"
+    ]
+  },
+  "733619119": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_SeaCity4_v1r0"
     ]
   },
   "733789220": {
@@ -6720,6 +9685,36 @@
     "Variable Label": "Last time took Celebrex (celecoxib)?",
     "Variable Name": [
       "SrvMRE_CelebrexTime_v1r0"
+    ]
+  },
+  "733929451": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_ChildCountry_v1r0"
+    ]
+  },
+  "734345879": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_Country3FU_v1r0"
+    ]
+  },
+  "734547775": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_SeasWtr1_5_Oth_v1r0"
+    ]
+  },
+  "734596352": {
+    "Variable Label": "Deep private well",
+    "Variable Name": [
+      "SrvLAW_SeaAdd2DPWell_v1r0"
+    ]
+  },
+  "734790700": {
+    "Variable Label": "Full Street name",
+    "Variable Name": [
+      "SrvLAW_SeaFullSt10_v1r0"
     ]
   },
   "734828170": {
@@ -6740,16 +9735,34 @@
       "SrvMRE_CrossCountry_v1r0"
     ]
   },
+  "735022625": {
+    "Variable Label": "Full Street name #2",
+    "Variable Name": [
+      "SrvLAW_Strtname9_v1r0"
+    ]
+  },
   "736251808": {
     "Variable Label": "Last Name",
     "Variable Name": [
       "RcrtCS_Lname_v1r0"
     ]
   },
+  "736981982": {
+    "Variable Label": "Bus or streetcar/trolley, light rail/trolley, light rail commute to current school",
+    "Variable Name": [
+      "SrvLAW_CurSchBus5_v1r0"
+    ]
+  },
   "737490587": {
     "Variable Label": "Years ago took prescription pain relievers containing opioids",
     "Variable Name": [
       "SrvMRE_OpioidsYA_v1r0"
+    ]
+  },
+  "737885885": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_SeaZip9_v1r0"
     ]
   },
   "739237614": {
@@ -6764,10 +9777,28 @@
       "SrvBOH_CurrentJobYr_v1r0"
     ]
   },
+  "740535024": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_9PrimaryWater2_v1r0"
+    ]
+  },
   "741643840": {
     "Variable Label": "Cigarillo",
     "Variable Name": [
       "SrvSAS_Cigarillo_v1r0"
+    ]
+  },
+  "742105146": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_StateFU_v1r0"
+    ]
+  },
+  "742177990": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_City4_v1r0"
     ]
   },
   "742254559": {
@@ -6794,16 +9825,34 @@
       "SrvMRE_Synarel_v1r0"
     ]
   },
+  "744039577": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_HomeWtr3_10_Oth_v1r0"
+    ]
+  },
   "744197145": {
     "Variable Label": "Person is unable to participate or deceased",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_unable"
     ]
   },
+  "744290061": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_City7_v1r0"
+    ]
+  },
   "744604255": {
     "Variable Label": "Last Name",
     "Variable Name": [
       "HdWd_LnameDD_v1r0"
+    ]
+  },
+  "744987950": {
+    "Variable Label": "Month",
+    "Variable Name": [
+      "SrvLAW_CurSchYr1_Mo_v1r0"
     ]
   },
   "746012894": {
@@ -6825,10 +9874,28 @@
       "SrvBOH_PrefNoAnsRE8_v1r0"
     ]
   },
+  "746533238": {
+    "Variable Label": "Apartment, suite, unit, building, etc.",
+    "Variable Name": [
+      "SrvLAW_ChildApt_v1r0"
+    ]
+  },
   "746542057": {
     "Variable Label": "Fibrocystic Breast, or other Benign Breast Disease(such as proliferative Benign Breast Disease or LCIS)",
     "Variable Name": [
       "SrvBOH_BreastDisease_v1r0"
+    ]
+  },
+  "746604821": {
+    "Variable Label": "Do Not Know 3-Previous Cross",
+    "Variable Name": [
+      "SrvLAW_Prev3CrDontKnow_v1r0"
+    ]
+  },
+  "746619983": {
+    "Variable Label": "Full Street name",
+    "Variable Name": [
+      "SrvLAW_SeaFullSt9_v1r0"
     ]
   },
   "746788766": {
@@ -6905,6 +9972,12 @@
       "SrvBOH_MilitaryP_v1r0"
     ]
   },
+  "752101258": {
+    "Variable Label": "Do Not Know 2-Previous",
+    "Variable Name": [
+      "SrvLAW_Prev2DontKnow_v1r0"
+    ]
+  },
   "752795304": {
     "Variable Label": "How many servings THC concentrates via dabbing used, [X / 25] to age [Y / 29]",
     "Variable Name": [
@@ -6956,10 +10029,28 @@
       "SrvSAS_WhySmokeTobMJ_v1r0"
     ]
   },
+  "756061540": {
+    "Variable Label": "Motorcycle commute from current school",
+    "Variable Name": [
+      "SrvLAW_CurSchMotorcycle6_v1r0"
+    ]
+  },
+  "756458580": {
+    "Variable Label": "Full Street name #1",
+    "Variable Name": [
+      "SrvLAW_StrName6_v1r0"
+    ]
+  },
   "756521698": {
     "Variable Label": "Often stop breathing",
     "Variable Name": [
       "SrvMRE_StopBreathing_v1r0"
+    ]
+  },
+  "756548442": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_State3_v1r0"
     ]
   },
   "756862764": {
@@ -6974,6 +10065,12 @@
       "BioCol_Dev_v1r0_Leak"
     ]
   },
+  "757983656": {
+    "Variable Label": "Do Not Know 10-Seasonal",
+    "Variable Name": [
+      "SrvLAW_Seas10DontKnow_v1r0"
+    ]
+  },
   "759004335": {
     "Variable Label": "Income",
     "Variable Name": [
@@ -6984,6 +10081,12 @@
     "Variable Label": "French Creole",
     "Variable Name": [
       "SrvBOH_FCLang_v1r0"
+    ]
+  },
+  "760197341": {
+    "Variable Label": "Full Street name #2",
+    "Variable Name": [
+      "SrvLAW_StrtName11_v1r0"
     ]
   },
   "760484278": {
@@ -7044,6 +10147,12 @@
     "Variable Label": "How many cigarettes used in life",
     "Variable Name": [
       "SrvSAS_CigarettesLife_v1r0"
+    ]
+  },
+  "763354979": {
+    "Variable Label": "Do Not Know 5-Seasonal Cross",
+    "Variable Name": [
+      "SrvLAW_Seas5CrDontKnow_v1r0"
     ]
   },
   "764331628": {
@@ -7110,6 +10219,12 @@
       "SrvSAS_AgeUseTHCF_v1r0"
     ]
   },
+  "766970054": {
+    "Variable Label": "Other: Please describe commute to past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkCommute_v1r0"
+    ]
+  },
   "767711152": {
     "Variable Label": "Around tobacco smoke of others, Age 50 to Age 59",
     "Variable Name": [
@@ -7120,6 +10235,12 @@
     "Variable Label": "Months cycles Synarel nasal solution",
     "Variable Name": [
       "SrvMRE_SynarelMo_v1r0"
+    ]
+  },
+  "768114466": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_SeaState3_v1r0"
     ]
   },
   "768302347": {
@@ -7140,6 +10261,12 @@
       "SrvBOH_HairLossMed_v1r0"
     ]
   },
+  "769785846": {
+    "Variable Label": "Time, Commuter rail, subway, metro commute to current school",
+    "Variable Name": [
+      "SrvLAW_CurSchT2E_v1r0"
+    ]
+  },
   "769790179": {
     "Variable Label": "Congestive Heart Failure",
     "Variable Name": [
@@ -7158,6 +10285,12 @@
       "SrvSAS_TmComplete_v1r0"
     ]
   },
+  "770959058": {
+    "Variable Label": "Year",
+    "Variable Name": [
+      "SrvLAW_CurSchYr1_Yr_v1r0"
+    ]
+  },
   "771146804": {
     "Variable Label": "I am worried about data being given to my employer/potential employer",
     "Variable Name": [
@@ -7168,6 +10301,12 @@
     "Variable Label": "How often drink alcohol, Age 25 to Age 29",
     "Variable Name": [
       "SrvSAS_AlcOften2529_v1r0"
+    ]
+  },
+  "771505558": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd3PrWater_v1r0"
     ]
   },
   "771526486": {
@@ -7188,12 +10327,24 @@
       "SrvSAS_AlcOften6069_v1r0"
     ]
   },
+  "772382520": {
+    "Variable Label": "Time, Motorcycle commute from current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkT10C_v1r0"
+    ]
+  },
   "773342525": {
     "Variable Label": "Spanish",
     "Variable Name": [
       "SrvBOH_Spanish_v1r0",
       "SrvBOH_Spanish2_v1r0",
       "SrvBOH_SpanishLang_v1r0"
+    ]
+  },
+  "773680071": {
+    "Variable Label": "Another vacation home past 20 years",
+    "Variable Name": [
+      "SrvLAW_SeasAddOth7_v1r0"
     ]
   },
   "773707518": {
@@ -7208,10 +10359,22 @@
       "SrvBOH_AsianInd_v1r0"
     ]
   },
+  "774087638": {
+    "Variable Label": "Days per week paid",
+    "Variable Name": [
+      "SrvLAW_DaysPWPaid_v1r0"
+    ]
+  },
   "774514900": {
     "Variable Label": "# Years took over-the-counter H2 receptor blockers",
     "Variable Name": [
       "SrvMRE_H2RecBlockYr_v1r0"
+    ]
+  },
+  "774707280": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_CurWorkState_v1r0"
     ]
   },
   "774928994": {
@@ -7226,10 +10389,28 @@
       "SrvMRE_CurrVagRingEL_v1r0"
     ]
   },
+  "775038507": {
+    "Variable Label": "First spent time at this address, year",
+    "Variable Name": [
+      "SrvLAW_SeasAddYrs1_3_v1r0"
+    ]
+  },
   "775324618": {
     "Variable Label": "During the season[s] in the past 12 months that you did high-intensity circuit training (such as P90x or Crossfit), about how often did you do this activity?",
     "Variable Name": [
       "SrvMRE_HICTOften_v1r0"
+    ]
+  },
+  "776406200": {
+    "Variable Label": "Lived anywhere else at least two years",
+    "Variable Name": [
+      "SrvLAW_HomeAddOth5_v1r0"
+    ]
+  },
+  "776580384": {
+    "Variable Label": "Local road, current school commute from current school",
+    "Variable Name": [
+      "SrvLAW_CurSchT13_v1r0"
     ]
   },
   "777486216": {
@@ -7256,6 +10437,12 @@
       "SrvBOH_WtPercent3545_v1r0"
     ]
   },
+  "778721228": {
+    "Variable Label": "First spent time at this address, year",
+    "Variable Name": [
+      "SrvLAW_SeasAddYrs1_4_v1r0"
+    ]
+  },
   "779052408": {
     "Variable Label": "Gestational diabetes",
     "Variable Name": [
@@ -7268,10 +10455,22 @@
       "SrvMRE_AgePatchEUsedL_v1r0"
     ]
   },
+  "779421821": {
+    "Variable Label": "Bus or streetcar/trolley, light rail/trolley, light rail commute from past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkBus4_v1r0"
+    ]
+  },
   "779642303": {
     "Variable Label": "Why [do/did] you smoke marijuana - Descriptive",
     "Variable Name": [
       "SrvSAS_WhySmokeMJOth_v1r0"
+    ]
+  },
+  "780298998": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_Country10_v1r0"
     ]
   },
   "780685299": {
@@ -7304,10 +10503,22 @@
       "SrvSAS_WhyTHCOther_v1r0"
     ]
   },
+  "782113721": {
+    "Variable Label": "Car, van, or truck (includes carpools or van pools) commute to current school",
+    "Variable Name": [
+      "SrvLAW_CurSchCar5_v1r0"
+    ]
+  },
   "783167257": {
     "Variable Label": "Marital status",
     "Variable Name": [
       "SrvBOH_Marital_v1r0"
+    ]
+  },
+  "783797179": {
+    "Variable Label": "Year moved in",
+    "Variable Name": [
+      "SrvLAW_HomeMoveIn7_v1r0"
     ]
   },
   "784265504": {
@@ -7347,6 +10558,18 @@
       "SrvMRE_H2RecBlockOCMo_v1r0"
     ]
   },
+  "785588454": {
+    "Variable Label": "Street number",
+    "Variable Name": [
+      "SrvLAW_SeaStNum4_v1r0"
+    ]
+  },
+  "786244297": {
+    "Variable Label": "Time, [OTHER FROM PREWORKT1]",
+    "Variable Name": [
+      "SrvLAW_PreWorkT2H_v1r0"
+    ]
+  },
   "786290435": {
     "Variable Label": "Samoan",
     "Variable Name": [
@@ -7359,10 +10582,22 @@
       "SrvSAS_DaysNumEdibles_v1r0"
     ]
   },
+  "786749210": {
+    "Variable Label": "Time, Motorcycle commute from past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkT7C_v1r0"
+    ]
+  },
   "787047261": {
     "Variable Label": "Last smoked a hookah or water pipe",
     "Variable Name": [
       "SrvSAS_HookahLast_v1r0"
+    ]
+  },
+  "787064287": {
+    "Variable Label": "Do Not Know 9-Previous",
+    "Variable Name": [
+      "SrvLAW_Prev9DontKnow_v1r0"
     ]
   },
   "787142499": {
@@ -7383,6 +10618,12 @@
       "BioCol_0008_v1r0"
     ]
   },
+  "787391994": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_SeaZip5FU_v1r0"
+    ]
+  },
   "787567527": {
     "Variable Label": "Time Payment Eligible for Round",
     "Variable Name": [
@@ -7395,16 +10636,34 @@
       "SrvSAS_UseCigarLast_v1r0"
     ]
   },
+  "789637860": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_State10_v1r0"
+    ]
+  },
   "789843387": {
     "Variable Label": "Login Site",
     "Variable Name": [
       "BioShip_LogSite_v1r0"
     ]
   },
+  "790359238": {
+    "Variable Label": "Year moved in",
+    "Variable Name": [
+      "SrvLAW_HomeMoveIn10_v1r0"
+    ]
+  },
   "790436165": {
     "Variable Label": "Age first used cigarettes on a regular basis, Never smoked",
     "Variable Name": [
       "SrvSAS_NeverSmokedReg_v1r0"
+    ]
+  },
+  "790657437": {
+    "Variable Label": "Bicycle commute from current school",
+    "Variable Name": [
+      "SrvLAW_CurSchBike6_v1r0"
     ]
   },
   "790681252": {
@@ -7441,6 +10700,18 @@
     "Variable Label": "Update recruit type",
     "Variable Name": [
       "RcrtV_UpdateRecType_v1r0"
+    ]
+  },
+  "794959813": {
+    "Variable Label": "Taxicab (includes Uber, Lyft, or hired car) commute to past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkTaxi_v1r0"
+    ]
+  },
+  "795253129": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_Zip10_v1r0"
     ]
   },
   "795265404": {
@@ -7527,6 +10798,12 @@
       "SrvMRE_AgeOralEstrL_v1r0"
     ]
   },
+  "799451743": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_HomeWtr1Oth_v1r0"
+    ]
+  },
   "799903478": {
     "Variable Label": "# Years took Insulin",
     "Variable Name": [
@@ -7539,10 +10816,22 @@
       "SrvSAS_Other70_v1r0"
     ]
   },
+  "800194290": {
+    "Variable Label": "Another vacation home past 20 years",
+    "Variable Name": [
+      "SrvLAW_SeasAddOth9_v1r0"
+    ]
+  },
   "800410166": {
     "Variable Label": "Naproxen (such as Naprosyn, Anaprox, or Aleve)",
     "Variable Name": [
       "SrvMRE_Naproxen_v1r0"
+    ]
+  },
+  "800859736": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_SeasWtr3_7_Oth_v1r0"
     ]
   },
   "801183888": {
@@ -7561,6 +10850,12 @@
     "Variable Label": "Currently using oral estrogen-only medication",
     "Variable Name": [
       "SrvMRE_CurrOralEstr_v1r0"
+    ]
+  },
+  "802585033": {
+    "Variable Label": "Full Street name",
+    "Variable Name": [
+      "SrvLAW_ChildFullSt_v1r0"
     ]
   },
   "802622485": {
@@ -7596,10 +10891,34 @@
       "SMPaym_JointTmRefused_v1r0"
     ]
   },
+  "803219073": {
+    "Variable Label": "Full Street name #2",
+    "Variable Name": [
+      "SrvLAW_StrtName7_v1r0"
+    ]
+  },
+  "803526907": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_Zip5FollowUp_v1r0"
+    ]
+  },
   "803968511": {
     "Variable Label": "Pills per day over-the-counter proton pump inhibitors, don't know",
     "Variable Name": [
       "SrvMRE_PPOCPillDK_v1r0"
+    ]
+  },
+  "804504024": {
+    "Variable Label": "Do Not Know Current Cross",
+    "Variable Name": [
+      "SrvLAW_CurCrosDontKnow_v1r0"
+    ]
+  },
+  "804918983": {
+    "Variable Label": "Other: Please describe commute from current school",
+    "Variable Name": [
+      "SrvLAW_CurSchCommute6_v1r0"
     ]
   },
   "806253825": {
@@ -7618,6 +10937,12 @@
     "Variable Label": "Deviation- Mislabeled",
     "Variable Name": [
       "BioCol_Dev_v1r0_Label"
+    ]
+  },
+  "807127029": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_SeaCountry10_v1r0"
     ]
   },
   "807214881": {
@@ -7673,6 +10998,12 @@
       "SrvSAS_StopAlcOther_v1r0"
     ]
   },
+  "807973203": {
+    "Variable Label": "Walking commute to past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkWalk3_v1r0"
+    ]
+  },
   "808663245": {
     "Variable Label": "Date/time refused baseline urine sample",
     "Variable Name": [
@@ -7683,6 +11014,18 @@
     "Variable Label": "Did you lose weight on purpose between ages 18 and 25?",
     "Variable Name": [
       "SrvBOH_LoseWeight1_v1r0"
+    ]
+  },
+  "809387606": {
+    "Variable Label": "Deep private well",
+    "Variable Name": [
+      "SrvLAW_DeepPrivWell3_v1r0"
+    ]
+  },
+  "809682067": {
+    "Variable Label": "Deep private well",
+    "Variable Name": [
+      "SrvLAW_SeaAdd1DPWell_v1r0"
     ]
   },
   "809735528": {
@@ -7730,6 +11073,12 @@
       "SrvSAS_PipeFills1824_v1r0"
     ]
   },
+  "812433386": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_SeaZip_v1r0"
+    ]
+  },
   "813305389": {
     "Variable Label": "Date/time payment issued by NORC or UoC",
     "Variable Name": [
@@ -7742,10 +11091,22 @@
       "SrvSAS_NeverSmoked_v1r0"
     ]
   },
+  "814137809": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_Zip10FollowUp"
+    ]
+  },
   "814141708": {
     "Variable Label": "Last time took regular or extra strength aspirin?",
     "Variable Name": [
       "SrvMRE_REAspirinTime_v1r0"
+    ]
+  },
+  "814644814": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_Zip6FollowUp_v1r0"
     ]
   },
   "815776236": {
@@ -7770,6 +11131,12 @@
     "Variable Label": "Chewing tobacco, snus, snuff, or dip; some of the most popular brands are Red Man, Levi Garrett, BEECH-NUT, Skoal, and Copenhagen.",
     "Variable Name": [
       "SrvSAS_ChewTob_v1r0"
+    ]
+  },
+  "817839081": {
+    "Variable Label": "Apartment, suite, unit, building, etc.",
+    "Variable Name": [
+      "SrvLAW_Apt3_v1r0"
     ]
   },
   "818310825": {
@@ -7800,6 +11167,18 @@
     "Variable Label": "Poster, flyer, or sign at my health care system",
     "Variable Name": [
       "RcrtES_Aware_v1r0_Poster"
+    ]
+  },
+  "819429013": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_Country4_v1r0"
+    ]
+  },
+  "819844467": {
+    "Variable Label": "Full Street name",
+    "Variable Name": [
+      "SrvLAW_FullSt5_v1r0"
     ]
   },
   "819957363": {
@@ -7856,6 +11235,12 @@
       "HdWd_ReqOtherAllActivity_v1r0"
     ]
   },
+  "822005593": {
+    "Variable Label": "Last commute longest job year",
+    "Variable Name": [
+      "SrvLAW_PreWorkYr2_v1r0"
+    ]
+  },
   "822499427": {
     "Variable Label": "Placeholder - Date/time Status of Start of blood/urine/mouthwash research survey",
     "Variable Name": [
@@ -7866,6 +11251,18 @@
     "Variable Label": "How much time electronic marijuana delivery devices used, [X / 25] to age [Y / 29]",
     "Variable Name": [
       "SrvSAS_EMJDevTm2529_v1r0"
+    ]
+  },
+  "823402922": {
+    "Variable Label": "Time, Bicycle commute from current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkT10F_v1r0"
+    ]
+  },
+  "823509509": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd2PrWater2_v1r0"
     ]
   },
   "823541843": {
@@ -7880,6 +11277,12 @@
       "SrvMRE_NonWorkBed_v1r0"
     ]
   },
+  "824151724": {
+    "Variable Label": "Month",
+    "Variable Name": [
+      "SrvLAW_CurWorkYr1_Mo_v1r0"
+    ]
+  },
   "824165133": {
     "Variable Label": "First used combined oral estrogen plus progestin pill",
     "Variable Name": [
@@ -7890,6 +11293,12 @@
     "Variable Label": "Last time took prescription proton pump inhibitors",
     "Variable Name": [
       "SrvMRE_ProtPumpPresTm_v1r0"
+    ]
+  },
+  "825109070": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_10PrimaryWater2_v1r0"
     ]
   },
   "825189914": {
@@ -7940,16 +11349,34 @@
       "RcrtES_noPIN_v1r0"
     ]
   },
+  "828801156": {
+    "Variable Label": "Current job, commute at least once a week",
+    "Variable Name": [
+      "SrvLAW_NumWork_v1r0"
+    ]
+  },
   "829269606": {
     "Variable Label": "Connect table at public event",
     "Variable Name": [
       "RcrtES_Aware_v1r0_Table"
     ]
   },
+  "830201925": {
+    "Variable Label": "Walking commute from past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkWalk4_v1r0"
+    ]
+  },
   "831041022": {
     "Variable Label": "Wants data destroyed",
     "Variable Name": [
       "HdWd_Destroydata_v1r0"
+    ]
+  },
+  "831127170": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_Country_v1r0"
     ]
   },
   "831137710": {
@@ -7994,6 +11421,12 @@
       "SrvBOH_Iranian_v1r0"
     ]
   },
+  "834822910": {
+    "Variable Label": "Other: Please describe [text box]",
+    "Variable Name": [
+      "SrvLAW_DrinksWtr1_Oth_v1r0"
+    ]
+  },
   "836460125": {
     "Variable Label": "Does not like to do things online",
     "Variable Name": [
@@ -8018,16 +11451,40 @@
       "BioCol_0003_v1r0"
     ]
   },
+  "838725845": {
+    "Variable Label": "Street number",
+    "Variable Name": [
+      "SrvLAW_StNum4_v1r0"
+    ]
+  },
   "838744325": {
     "Variable Label": "Coronary Artery/Coronary Heart Disease",
     "Variable Name": [
       "SrvBOH_CHD_v1r0"
     ]
   },
+  "839233937": {
+    "Variable Label": "Time to and from past work same",
+    "Variable Name": [
+      "SrvLAW_PreWorkT5_v1r0"
+    ]
+  },
+  "839454121": {
+    "Variable Label": "Days commute, commute to current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkT6_v1r0"
+    ]
+  },
   "840048338": {
     "Variable Label": "Date/Time Check-In Complete",
     "Variable Name": [
       "BioChk_Time_v1r0"
+    ]
+  },
+  "840147245": {
+    "Variable Label": "Full Street name #2",
+    "Variable Name": [
+      "SrvLAW_FullSt2_PreWork_v1r0"
     ]
   },
   "841390583": {
@@ -8054,16 +11511,46 @@
       "SrvBOH_DaysWork_v1r0"
     ]
   },
+  "843508307": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_St4_v1r0"
+    ]
+  },
   "843593800": {
     "Variable Label": "How often drink alcohol, Age 40 to Age 49",
     "Variable Name": [
       "SrvSAS_AlcOften4049_v1r0"
     ]
   },
+  "843674851": {
+    "Variable Label": "Apartment, suite, unit, building, etc.",
+    "Variable Name": [
+      "SrvLAW_SeaApt5_v1r0"
+    ]
+  },
+  "843680322": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_SeaState4_v1r0"
+    ]
+  },
   "845122623": {
     "Variable Label": "Last use a tobacco pipe",
     "Variable Name": [
       "SrvSAS_TobPipeLast_v1r0"
+    ]
+  },
+  "845446624": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_SeaZip2FU_v1r0"
+    ]
+  },
+  "845811202": {
+    "Variable Label": "Employer Cross Do Not Know",
+    "Variable Name": [
+      "SrvLAW_EmplCrDontKnow_v1r0"
     ]
   },
   "846227588": {
@@ -8076,6 +11563,12 @@
     "Variable Label": "Vagina",
     "Variable Name": [
       "SrvBOH_Vagina_v1r0"
+    ]
+  },
+  "846844103": {
+    "Variable Label": "Taxicab (includes Uber, Lyft, or hired car) commute from current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkTaxi2_v1r0"
     ]
   },
   "846978339": {
@@ -8094,6 +11587,12 @@
     "Variable Label": "How many days used marijana with tobacco, usual month",
     "Variable Name": [
       "SrvSAS_NumDaysTobMJ_v1r0"
+    ]
+  },
+  "847327251": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_ChildCountryFU_v1r0"
     ]
   },
   "847410060": {
@@ -8115,6 +11614,12 @@
       "SrvBOH_DBreastCancer_v1r0",
       "SrvBOH_S1BreastCanc_v1r0",
       "SrvBOH_C1BreastCanc_v1r0"
+    ]
+  },
+  "848348504": {
+    "Variable Label": "Apartment, suite, unit, building, etc.",
+    "Variable Name": [
+      "SrvLAW_Apt4_v1r0"
     ]
   },
   "848580651": {
@@ -8139,6 +11644,12 @@
     "Variable Label": "Additional email 1",
     "Variable Name": [
       "RcrtUP_Email1_v1r0"
+    ]
+  },
+  "849811593": {
+    "Variable Label": "Days commute, commute from current school",
+    "Variable Name": [
+      "SrvLAW_CurSchT14_v1r0"
     ]
   },
   "849945160": {
@@ -8170,6 +11681,12 @@
       "SrvMRE_CurrVagRingE_v1r0"
     ]
   },
+  "851731394": {
+    "Variable Label": "Do Not Know 7-Seasonal Cross",
+    "Variable Name": [
+      "SrvLAW_Seas7CrDontKnow_v1r0"
+    ]
+  },
   "852236900": {
     "Variable Label": "Ductal Carcinoma biopsy",
     "Variable Name": [
@@ -8194,6 +11711,12 @@
       "BioBPTL_ManifestNP_v1r0"
     ]
   },
+  "853931010": {
+    "Variable Label": "Apartment, suite, unit, building, etc.",
+    "Variable Name": [
+      "SrvLAW_Apt8_v1r0"
+    ]
+  },
   "854078473": {
     "Variable Label": "Age the other type of estrogen-only medication last use",
     "Variable Name": [
@@ -8212,6 +11735,18 @@
       "SrvBOH_DCIS_v1r0"
     ]
   },
+  "855530921": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_SeaZip9FU_v1r0"
+    ]
+  },
+  "855583262": {
+    "Variable Label": "Full Street name",
+    "Variable Name": [
+      "SrvLAW_PreWorkFullSt_v1r0"
+    ]
+  },
   "856627601": {
     "Variable Label": "Age oral estrogen-only medication first use",
     "Variable Name": [
@@ -8222,6 +11757,18 @@
     "Variable Label": "Natural color eyes",
     "Variable Name": [
       "SrvSAS_EyeColor_v1r0"
+    ]
+  },
+  "857265979": {
+    "Variable Label": "Full Street name #2",
+    "Variable Name": [
+      "SrvLAW_StrtName10_v1r0"
+    ]
+  },
+  "858353109": {
+    "Variable Label": "Lived there since birth",
+    "Variable Name": [
+      "SrvLAW_ChildHomeBirth_v1r0"
     ]
   },
   "858858333": {
@@ -8242,6 +11789,18 @@
       "SrvBOH_Irish_v1r0"
     ]
   },
+  "860984191": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_SeaCity7FU_v1r0"
+    ]
+  },
+  "861097935": {
+    "Variable Label": "Time, Commuter rail, subway, metro commute to past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkTmRail_v1r0"
+    ]
+  },
   "861162895": {
     "Variable Label": "Deviation- Centrifuge - Improper speed/force setting used (too high)",
     "Variable Name": [
@@ -8254,6 +11813,12 @@
       "SrvMRE_AcetaminophenTm_v1r0"
     ]
   },
+  "862052821": {
+    "Variable Label": "Lived anywhere else at least two years",
+    "Variable Name": [
+      "SrvLAW_HomeAddOth2_v1r0"
+    ]
+  },
   "862170896": {
     "Variable Label": "Used diet pills/medications",
     "Variable Name": [
@@ -8261,6 +11826,12 @@
       "SrvBOH_Meds2_v1r0",
       "SrvBOH_Meds3_v1r0",
       "SrvBOH_Meds4_v1r0"
+    ]
+  },
+  "862255177": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_State9FollowUp_v1r0"
     ]
   },
   "862718552": {
@@ -8279,6 +11850,12 @@
     "Variable Label": "Age last shift work",
     "Variable Name": [
       "SrvMRE_ShiftLastAge_v1r0"
+    ]
+  },
+  "863092608": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_SeasWtr3_4_Oth_v1r0"
     ]
   },
   "863246236": {
@@ -8309,6 +11886,12 @@
       "SrvSAS_AgeLastUsedMJ_v1r0"
     ]
   },
+  "863839736": {
+    "Variable Label": "A cup of coffee",
+    "Variable Name": [
+      "SrvLAW_CupOfCoffee_v1r0"
+    ]
+  },
   "863920008": {
     "Variable Label": "Vaginal ring (such as Nuva Ring, inserted vaginally each month)",
     "Variable Name": [
@@ -8327,6 +11910,12 @@
       "BioFin_TmPayment_v1r0"
     ]
   },
+  "864213677": {
+    "Variable Label": "Do Not Know 7-Previous",
+    "Variable Name": [
+      "SrvLAW_Prev7DontKnow_v1r0"
+    ]
+  },
   "864290328": {
     "Variable Label": "How much time marijuana  smoked, [X / 30] to age [Y / 39 / current age]",
     "Variable Name": [
@@ -8337,6 +11926,12 @@
     "Variable Label": "During the season[s] in the past 12 months that you did downhill skiing or snowboarding, about how often did you do this activity?",
     "Variable Name": [
       "SrvMRE_SkiOften_v1r0"
+    ]
+  },
+  "865310914": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_Zip7FollowUp_v1r0"
     ]
   },
   "866002271": {
@@ -8357,6 +11952,12 @@
       "SrvSAS_ECigTm70_v1r0"
     ]
   },
+  "867109611": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_PreWorkCountry_v1r0"
+    ]
+  },
   "867203506": {
     "Variable Label": "Refused all future surveys",
     "Variable Name": [
@@ -8370,10 +11971,32 @@
       "SrvBOH_ForestryP_v1r0"
     ]
   },
+  "867247249": {
+    "Variable Label": "Still live here",
+    "Variable Name": [
+      "SrvLAW_StillLiveHere_v1r0",
+      "SrvLAW_StillLiveHere2_v1r0",
+      "SrvLAW_StillLiveHere3_v1r0",
+      "SrvLAW_StillLiveHere4_v1r0",
+      "SrvLAW_StillLiveHere5_v1r0",
+      "SrvLAW_StillLiveHere6_v1r0",
+      "SrvLAW_StillLiveHere7_v1r0",
+      "SrvLAW_StillLiveHere8_v1r0",
+      "SrvLAW_StillLiveHere9_v1r0",
+      "SrvLAW_StillLiveHere10_v1r0",
+      "SrvLAW_StillLiveHere11_v1r0"
+    ]
+  },
   "868232409": {
     "Variable Label": "Current employers services or prodcuts",
     "Variable Name": [
       "SrvBOH_ServiceProdC_v1r0"
+    ]
+  },
+  "868650023": {
+    "Variable Label": "Full Street name #2",
+    "Variable Name": [
+      "SrvLAW_SeaStrtName4_v1r0"
     ]
   },
   "868685663": {
@@ -8410,6 +12033,12 @@
     "Variable Label": "Age the other type of estrogen-only medication first use",
     "Variable Name": [
       "SrvMRE_AgeOthEstUseF_v1r0"
+    ]
+  },
+  "872527709": {
+    "Variable Label": "Full Street name #1",
+    "Variable Name": [
+      "SrvLAW_SeaStrName9_v1r0"
     ]
   },
   "872821562": {
@@ -8460,6 +12089,24 @@
       "RcrtSI_MaxContcts_v1r0"
     ]
   },
+  "875706715": {
+    "Variable Label": "Street number",
+    "Variable Name": [
+      "SrvLAW_StNum2_v1r0"
+    ]
+  },
+  "876443676": {
+    "Variable Label": "Year moved in",
+    "Variable Name": [
+      "SrvLAW_HomeMoveIn3_v1r0"
+    ]
+  },
+  "876521406": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_Country10FU_v1r0"
+    ]
+  },
   "876683805": {
     "Variable Label": "Currently using Depo-Provera",
     "Variable Name": [
@@ -8478,10 +12125,22 @@
       "SrvSAS_EMJDev3039_v1r0"
     ]
   },
+  "878688378": {
+    "Variable Label": "Do Not Know 10-Previous",
+    "Variable Name": [
+      "SrvLAW_Prev10DontKnow_v1r0"
+    ]
+  },
   "878865966": {
     "Variable Label": "Baseline blood sample collected",
     "Variable Name": [
       "BioFin_BaseBloodCol_v1r0"
+    ]
+  },
+  "879180101": {
+    "Variable Label": "Do Not Know 3-Previous",
+    "Variable Name": [
+      "SrvLAW_Prev3DontKnow_v1r0"
     ]
   },
   "880067330": {
@@ -8502,6 +12161,12 @@
       "SrvBOH_HPV_v1r0"
     ]
   },
+  "882731998": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_Country5_v1r0"
+    ]
+  },
   "882838859": {
     "Variable Label": "How much time marijuana  smoked, [X / 70] and older",
     "Variable Name": [
@@ -8520,10 +12185,34 @@
       "BioCol_NotCol_v1r0"
     ]
   },
+  "884494489": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_CurSchZip_v1r0"
+    ]
+  },
   "885486943": {
     "Variable Label": "Shipper Last name signature",
     "Variable Name": [
       "BioShip_SignLname_v1r0"
+    ]
+  },
+  "886203785": {
+    "Variable Label": "Other: Please describe, text box commute to past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkOthCommute_v1r0"
+    ]
+  },
+  "886247195": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_Country9_v1r0"
+    ]
+  },
+  "886284650": {
+    "Variable Label": "Apartment, suite, unit, building, etc.",
+    "Variable Name": [
+      "SrvLAW_SeaApt8_v1r0"
     ]
   },
   "887697329": {
@@ -8536,6 +12225,12 @@
     "Variable Label": "How often days vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)",
     "Variable Name": [
       "SrvMRE_VigChoreOften_v1r0"
+    ]
+  },
+  "888514303": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_SeaCity6_v1r0"
     ]
   },
   "888898065": {
@@ -8556,10 +12251,40 @@
       "SrvMRE_ProtPumpPresYA_v1r0"
     ]
   },
+  "890134757": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_SeasWtr1_6_Oth_v1r0"
+    ]
+  },
   "890637099": {
     "Variable Label": "Sibling 1 living",
     "Variable Name": [
       "SrvBOH_Sib1Living_v1r0"
+    ]
+  },
+  "890661849": {
+    "Variable Label": "Do Not Know 8-Previous Cross",
+    "Variable Name": [
+      "SrvLAW_Prev8CrDontKnow_v1r0"
+    ]
+  },
+  "890792569": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_ChildCityFU_v1r0"
+    ]
+  },
+  "891237683": {
+    "Variable Label": "Time, Car, van, or truck (includes carpools or van pools) commute to current school",
+    "Variable Name": [
+      "SrvLAW_CurSchT2A_v1r0"
+    ]
+  },
+  "891573875": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_City9FollowUp_v1r0"
     ]
   },
   "891825638": {
@@ -8578,6 +12303,24 @@
     "Variable Label": "Zip",
     "Variable Name": [
       "RcrtUP_Zip_v1r0"
+    ]
+  },
+  "892150843": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_SeaState7FU_v1r0"
+    ]
+  },
+  "892894242": {
+    "Variable Label": "Motorcycle commute to current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkMoto_v1r0"
+    ]
+  },
+  "893639464": {
+    "Variable Label": "Street number",
+    "Variable Name": [
+      "SrvLAW_StNum7_v1r0"
     ]
   },
   "893965588": {
@@ -8610,16 +12353,34 @@
       "RcrtSI_OptOut_v1r0_other"
     ]
   },
+  "897920852": {
+    "Variable Label": "Time, Commuter rail, subway, metro commute from past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkT7E_v1r0"
+    ]
+  },
   "899840609": {
     "Variable Label": "Other: Please describe [text box]",
     "Variable Name": [
       "SrvBOH_OtherWtLossDes2_v1r0"
     ]
   },
+  "900377581": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_Country7FU_v1r0"
+    ]
+  },
   "900838463": {
     "Variable Label": "Liberian",
     "Variable Name": [
       "SrvBOH_Liberian_v1r0"
+    ]
+  },
+  "900950849": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_SeaState6FU_v1r0"
     ]
   },
   "901077233": {
@@ -8652,6 +12413,18 @@
       "SrvMRE_WalkHikeTime_v1r0"
     ]
   },
+  "902077989": {
+    "Variable Label": "Other: Please describe, text box commute to current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkOthComm_v1r0"
+    ]
+  },
+  "902193418": {
+    "Variable Label": "Do Not Know 9-Previous Cross",
+    "Variable Name": [
+      "SrvLAW_Prev9CrDontKnow_v1r0"
+    ]
+  },
   "902332801": {
     "Variable Label": "Who requested data destruction- Other (specify):",
     "Variable Name": [
@@ -8664,10 +12437,22 @@
       "SrvMRE_AgeVagRingUsedF_v1r0"
     ]
   },
+  "903490632": {
+    "Variable Label": "Full Street name",
+    "Variable Name": [
+      "SrvLAW_FullSt6_v1r0"
+    ]
+  },
   "903825143": {
     "Variable Label": "Rogaine, Minoxidil, or Ioniten",
     "Variable Name": [
       "SrvBOH_Rogaine_v1r0"
+    ]
+  },
+  "903896611": {
+    "Variable Label": "Street number",
+    "Variable Name": [
+      "SrvLAW_PreWorkStNum_v1r0"
     ]
   },
   "904844824": {
@@ -8682,10 +12467,22 @@
       "SrvMRE_WalkHike_v1r0"
     ]
   },
+  "905002640": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_SeaState6_v1r0"
+    ]
+  },
   "905787778": {
     "Variable Label": "Who requested HIPAA revocation- Other (specify):",
     "Variable Name": [
       "HdWd_ReqHIPAArevoke_v1r0"
+    ]
+  },
+  "906119853": {
+    "Variable Label": "Apartment, suite, unit, building, etc.",
+    "Variable Name": [
+      "SrvLAW_Apt6_v1r0"
     ]
   },
   "906155105": {
@@ -8742,6 +12539,12 @@
       "SrvMRE_SleepLast4Wk_v1r0"
     ]
   },
+  "911964974": {
+    "Variable Label": "Apartment, suite, unit, building, etc.",
+    "Variable Name": [
+      "SrvLAW_SeaApt9_v1r0"
+    ]
+  },
   "912088602": {
     "Variable Label": "Deviation- Centrifuge -  clotted for longer than 2 hours",
     "Variable Name": [
@@ -8778,10 +12581,22 @@
       "SrvSS_SSN4d_Given_v1r0"
     ]
   },
+  "915222355": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_Country6_v1r0"
+    ]
+  },
   "915293401": {
     "Variable Label": "Days smoked a hookah or water pipe in past 30 days",
     "Variable Name": [
       "SrvSAS_Hookah30_v1r0"
+    ]
+  },
+  "915527263": {
+    "Variable Label": "Full Street name #1",
+    "Variable Name": [
+      "SrvLAW_StrName5_v1r0"
     ]
   },
   "915838974": {
@@ -8790,10 +12605,22 @@
       "BioReg_ArRegTime_v1r0"
     ]
   },
+  "915859406": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_SeaStateFU_v1r0"
+    ]
+  },
   "916721819": {
     "Variable Label": "Types of alcoholic beverages- ages 40 and age 49 - Wine",
     "Variable Name": [
       "SrvSAS_Wine4049_v1r0"
+    ]
+  },
+  "917021073": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_StateFollowUp_v1r0"
     ]
   },
   "917302906": {
@@ -8844,6 +12671,18 @@
       "SrvMRE_ProtonPumpOC_v1r0"
     ]
   },
+  "920576363": {
+    "Variable Label": "Do Not Know Current",
+    "Variable Name": [
+      "SrvLAW_CurDontKnow_v1r0"
+    ]
+  },
+  "921090200": {
+    "Variable Label": "First spent time at this address, year",
+    "Variable Name": [
+      "SrvLAW_SeasAddYrs1_7_v1r0"
+    ]
+  },
   "921220809": {
     "Variable Label": "On the days that you did cross-country skiing, about how much time per day did you spend doing this activity?",
     "Variable Name": [
@@ -8860,6 +12699,12 @@
     "Variable Label": "Last consume marijuana in food or drinks",
     "Variable Name": [
       "SrvSAS_EdiblesLast_v1r0"
+    ]
+  },
+  "921998144": {
+    "Variable Label": "Do Not Know 9-Seasonal Cross",
+    "Variable Name": [
+      "SrvLAW_Seas9CrDontKnow_v1r0"
     ]
   },
   "922388461": {
@@ -8898,10 +12743,28 @@
       "SrvSAS_CigsUsed1824_v1r0"
     ]
   },
+  "924583345": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_Country1FU_v1r0"
+    ]
+  },
   "925215135": {
     "Variable Label": "How many servings consumed marijuana in food or drinks used, [X / 25] to age [Y / 29]",
     "Variable Name": [
       "SrvSAS_EdiblesServ2529_v1r0"
+    ]
+  },
+  "925663113": {
+    "Variable Label": "Commuter rail, subway, metro commute from past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkMetro4_v1r0"
+    ]
+  },
+  "925747671": {
+    "Variable Label": "Year moved in",
+    "Variable Name": [
+      "SrvLAW_HomeMoveIn11_v1r0"
     ]
   },
   "926457119": {
@@ -8914,6 +12777,12 @@
     "Variable Label": "Swim laps",
     "Variable Name": [
       "SrvMRE_SwimLaps_v1r0"
+    ]
+  },
+  "927932321": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_11PrimaryWater2_v1r0"
     ]
   },
   "928803137": {
@@ -8934,10 +12803,40 @@
       "SrvSAS_MJUseDaysNum_v1r0"
     ]
   },
+  "930511603": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_City3_v1r0"
+    ]
+  },
+  "931999203": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_City3FollowUp_v1r0"
+    ]
+  },
+  "932195315": {
+    "Variable Label": "Commuter rail, subway, metro commute to current school",
+    "Variable Name": [
+      "SrvLAW_CurSchMetro5_v1r0"
+    ]
+  },
   "932563284": {
     "Variable Label": "Moroccan",
     "Variable Name": [
       "SrvBOH_Moroccan_v1r0"
+    ]
+  },
+  "932828568": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_SeaCountry6_v1r0"
+    ]
+  },
+  "933017499": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_6PrimaryWater2_v1r0"
     ]
   },
   "933110091": {
@@ -8973,10 +12872,22 @@
       "SrvBOH_ChangeDiet4_v1r0"
     ]
   },
+  "934184033": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_4PrimaryWater2_v1r0"
+    ]
+  },
   "934298480": {
     "Variable Label": "Site reported age at recruitment",
     "Variable Name": [
       "RcrtSI_Age_v1r0"
+    ]
+  },
+  "935326619": {
+    "Variable Label": "Time, Taxicab (includes, Uber, Lyft, or hired car, ) commute from past work",
+    "Variable Name": [
+      "SrvLAW_PreWorkT7B_v1r0"
     ]
   },
   "936042582": {
@@ -8985,10 +12896,28 @@
       "SrvMRE_Dance_v1r0"
     ]
   },
+  "936129960": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_Zip1FollowUp_v1r0"
+    ]
+  },
   "936366310": {
     "Variable Label": "Year ago last took over-the-counter proton pump inhibitors",
     "Variable Name": [
       "SrvMRE_ProtPumpOCYA_v1r0"
+    ]
+  },
+  "936382173": {
+    "Variable Label": "Tap water times/day",
+    "Variable Name": [
+      "SrvLAW_DrinksWtr2A_Num_v1r0"
+    ]
+  },
+  "936393993": {
+    "Variable Label": "Major road, current work commute from current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkT12_v1r0"
     ]
   },
   "936579387": {
@@ -9013,6 +12942,12 @@
     "Variable Label": "Ever use THC concentrates via dabbing every day",
     "Variable Name": [
       "SrvSAS_THCUseED_v1r0"
+    ]
+  },
+  "938180781": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_SeaZip3_v1r0"
     ]
   },
   "938333920": {
@@ -9048,16 +12983,46 @@
       "SrvMRE_PregTried_v1r0"
     ]
   },
+  "940219092": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_SeasWtr1_8_Oth_v1r0"
+    ]
+  },
   "940387701": {
     "Variable Label": "Education Please describe [text box]",
     "Variable Name": [
       "SrvBOH_EducDesc_v1r0"
     ]
   },
+  "940452831": {
+    "Variable Label": "Bus or streetcar/trolley, light rail/trolley, light rail commute from current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkBus2_v1r0"
+    ]
+  },
+  "940513931": {
+    "Variable Label": "First spent time at this address, year",
+    "Variable Name": [
+      "SrvLAW_SeasAddyrs1_10_v1r0"
+    ]
+  },
+  "940631293": {
+    "Variable Label": "Days commute, commute to current school",
+    "Variable Name": [
+      "SrvLAW_CurSchT6_v1r0"
+    ]
+  },
   "940733450": {
     "Variable Label": "Do you snore?",
     "Variable Name": [
       "SrvMRE_Snore_v1r0"
+    ]
+  },
+  "941168091": {
+    "Variable Label": "Country",
+    "Variable Name": [
+      "SrvLAW_Country5FU_v1r0"
     ]
   },
   "941756870": {
@@ -9111,10 +13076,33 @@
       "SrvSS_TmStart_v1r0"
     ]
   },
+  "943813942": {
+    "Variable Label": "Year moved out",
+    "Variable Name": [
+      "SrvLAW_HomeMoveOut1Yr_v1r0",
+      "SrvLAW_HomeMoveOut2Yr_v1r0",
+      "SrvLAW_HomeMoveOut3Yr_v1r0",
+      "SrvLAW_HomeMoveOut4Yr_v1r0",
+      "SrvLAW_HomeMoveOut5Yr_v1r0",
+      "SrvLAW_HomeMoveOut6Yr_v1r0",
+      "SrvLAW_HomeMoveOut7Yr_v1r0",
+      "SrvLAW_HomeMoveOut8Yr_v1r0",
+      "SrvLAW_HomeMoveOut9Yr_v1r0",
+      "SrvLAW_HomeMoveOut10Yr_v1r0",
+      "SrvLAW_HomeMoveOut11Yr_v1r0",
+      "SrvLAW_ChildAddOut_Yr_v1r0"
+    ]
+  },
   "943996164": {
     "Variable Label": "Months cycles gonadotropins",
     "Variable Name": [
       "SrvMRE_GonadotropinsMo_v1r0"
+    ]
+  },
+  "944517297": {
+    "Variable Label": "Drink tap water, other",
+    "Variable Name": [
+      "SrvLAW_TapWaterOther_v1r0"
     ]
   },
   "944699052": {
@@ -9127,6 +13115,12 @@
     "Variable Label": "Two separate pills, one estrogen and one progestin pill",
     "Variable Name": [
       "SrvMRE_TwoSepPills_v1r0"
+    ]
+  },
+  "945532934": {
+    "Variable Label": "Full Street name",
+    "Variable Name": [
+      "SrvLAW_FullSt_v1r0"
     ]
   },
   "945795905": {
@@ -9153,6 +13147,12 @@
       "RcrtES_PINmatch_v1r0"
     ]
   },
+  "948416598": {
+    "Variable Label": "Year moved in",
+    "Variable Name": [
+      "SrvLAW_ChildAddIn_Yr_v1r0"
+    ]
+  },
   "948887825": {
     "Variable Label": "Shipper first name signature",
     "Variable Name": [
@@ -9165,10 +13165,22 @@
       "SrvBOH_BaseStatus_v1r0"
     ]
   },
+  "949478044": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_SeaZip8_v1r0"
+    ]
+  },
   "949501163": {
     "Variable Label": "Refused baseline urine sample",
     "Variable Name": [
       "HdRef_Baseurine_v1r0"
+    ]
+  },
+  "949549557": {
+    "Variable Label": "Time, Bicycle commute from current school",
+    "Variable Name": [
+      "SrvLAW_CurSchT10F_v1r0"
     ]
   },
   "949663397": {
@@ -9195,6 +13207,12 @@
       "SrvBOH_Weight35_v1r0"
     ]
   },
+  "950972496": {
+    "Variable Label": "Bicycle commute from current work",
+    "Variable Name": [
+      "SrvLAW_CurWorkBike2_v1r0"
+    ]
+  },
   "951151270": {
     "Variable Label": "How many cigars, cigarillos, or little filtered cigars used, Age [X / 18] to age [Y / 24]",
     "Variable Name": [
@@ -9213,6 +13231,18 @@
       "SrvSAS_AgeStopHookah_v1r0"
     ]
   },
+  "952124199": {
+    "Variable Label": "Full Street name #1",
+    "Variable Name": [
+      "SrvLAW_FullChildStrNm1_v1r0"
+    ]
+  },
+  "952170182": {
+    "Variable Label": "Full Street name #2",
+    "Variable Name": [
+      "SrvLAW_FullSt2CurSchSt_v1r0"
+    ]
+  },
   "952682839": {
     "Variable Label": "Pain affect work",
     "Variable Name": [
@@ -9229,6 +13259,12 @@
     "Variable Label": "Manual verification",
     "Variable Name": [
       "RcrtV_Mannual_v1r0"
+    ]
+  },
+  "953722451": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd5PrWater2_v1r0"
     ]
   },
   "955609858": {
@@ -9255,6 +13291,12 @@
       "SrvBOH_S1OtherCancDesc_v1r0"
     ]
   },
+  "957717014": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_3PrimaryWater1_v1r0"
+    ]
+  },
   "958000780": {
     "Variable Label": "Shipment Delay",
     "Variable Name": [
@@ -9267,6 +13309,12 @@
       "SrvMRE_CurrProgPill_v1r0"
     ]
   },
+  "958419506": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_1PrimaryWater1_v1r0"
+    ]
+  },
   "958588520": {
     "Variable Label": "I am concerned about COVID-19",
     "Variable Name": [
@@ -9277,6 +13325,18 @@
     "Variable Label": "Heparin Tube 2",
     "Variable Name": [
       "BioCol_0013_v1r0"
+    ]
+  },
+  "959371875": {
+    "Variable Label": "Current school, number of campuses comuted to",
+    "Variable Name": [
+      "SrvLAW_CurSchCom2_v1r0"
+    ]
+  },
+  "959488634": {
+    "Variable Label": "Another vacation home past 20 years",
+    "Variable Name": [
+      "SrvLAW_SeasAddOth3_v1r0"
     ]
   },
   "959535900": {
@@ -9297,16 +13357,40 @@
       "BioPack_TrackScan1_v1r0"
     ]
   },
+  "959804472": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_CurWorkCity_v1r0"
+    ]
+  },
   "960332453": {
     "Variable Label": "Brand of chewing tobacco, snus, snuff, or dip",
     "Variable Name": [
       "SrvSAS_CTBrand_v1r0"
     ]
   },
+  "961178879": {
+    "Variable Label": "Drink tap water, coffee",
+    "Variable Name": [
+      "SrvLAW_TapWaterCoffee_v1r0"
+    ]
+  },
+  "961572487": {
+    "Variable Label": "Do Not Know 2-Previous Cross",
+    "Variable Name": [
+      "SrvLAW_Prev2CrDontKnow_v1r0"
+    ]
+  },
   "961987554": {
     "Variable Label": "Penis removed",
     "Variable Name": [
       "SrvBOH_PenisRemoved_v1r0"
+    ]
+  },
+  "962868433": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_PreWorkCity_v1r0"
     ]
   },
   "963040791": {
@@ -9321,6 +13405,12 @@
       "SrvMRE_CurrProgMeds_v1r0"
     ]
   },
+  "963795928": {
+    "Variable Label": "First spent time at this address, year",
+    "Variable Name": [
+      "SrvLAW_SeasAddYrs1_2_v1r0"
+    ]
+  },
   "963867920": {
     "Variable Label": "Other: Please describe [text box]",
     "Variable Name": [
@@ -9331,6 +13421,12 @@
     "Variable Label": "Number of marijana with tobacco per day",
     "Variable Name": [
       "SrvSAS_NumTobMJ_v1r0"
+    ]
+  },
+  "964853797": {
+    "Variable Label": "Do Not Know 8-Previous",
+    "Variable Name": [
+      "SrvLAW_Prev8DontKnow_v1r0"
     ]
   },
   "964924704": {
@@ -9376,6 +13472,18 @@
       "SrvMRE_FirstPeriodAge_v1r0"
     ]
   },
+  "970000442": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_ZipFollowUp_v1r0"
+    ]
+  },
+  "970217879": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_SeaZip5_v1r0"
+    ]
+  },
   "970325871": {
     "Variable Label": "Age last use THC concentrates via dabbing",
     "Variable Name": [
@@ -9411,6 +13519,24 @@
     "Variable Label": "State",
     "Variable Name": [
       "SrvBOH_State_v1r0"
+    ]
+  },
+  "970996351": {
+    "Variable Label": "Street number",
+    "Variable Name": [
+      "SrvLAW_CurSchStNum_v1r0"
+    ]
+  },
+  "971016509": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_SeasWtr3_2_Oth_v1r0"
+    ]
+  },
+  "972332937": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_Zip9FollowUp_v1r0"
     ]
   },
   "972593606": {
@@ -9455,16 +13581,34 @@
       "SrvSAS_BaseStatus_v1r0"
     ]
   },
+  "976597527": {
+    "Variable Label": "Deep private well",
+    "Variable Name": [
+      "SrvLAW_SeaAdd7DPWell_v1r0"
+    ]
+  },
   "976863738": {
     "Variable Label": "Around tobacco smoke of others, Age 25 to Age 29",
     "Variable Name": [
       "SrvSAS_AroundSmoke2529_v1r0"
     ]
   },
+  "977086216": {
+    "Variable Label": "State/Province",
+    "Variable Name": [
+      "SrvLAW_CurSchStateFU_v1r0"
+    ]
+  },
   "979809707": {
     "Variable Label": "Sexual orientation - Descriptive",
     "Variable Name": [
       "SrvBOH_SexOrientDesc_v1r0"
+    ]
+  },
+  "980007418": {
+    "Variable Label": "Longest held occupration, job includes driving",
+    "Variable Name": [
+      "SrvLAW_PreWorkDrive_v1r0"
     ]
   },
   "980120253": {
@@ -9479,10 +13623,28 @@
       "SrvMRE_CaringForPets_v1r0"
     ]
   },
+  "980497607": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_HomeWtr3_6_Oth_v1r0"
+    ]
+  },
+  "980695076": {
+    "Variable Label": "Time, Taxicab (includes, Uber, Lyft, or hired car, ) commute to current school",
+    "Variable Name": [
+      "SrvLAW_CurSchT2B_v1r0"
+    ]
+  },
   "981509686": {
     "Variable Label": "During the season[s] in the past 12 months that you did cross-country skiing, about how often did you do this activity?",
     "Variable Name": [
       "SrvMRE_CCSkiOften_v1r0"
+    ]
+  },
+  "981594981": {
+    "Variable Label": "Apartment, suite, unit, building, etc.",
+    "Variable Name": [
+      "SrvLAW_Apt9_v1r0"
     ]
   },
   "981755099": {
@@ -9527,10 +13689,22 @@
       "BioCol_Dev_v1r0_NotFound"
     ]
   },
+  "983038259": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "SrvLAW_SeaCity10FU_v1r0"
+    ]
+  },
   "983278853": {
     "Variable Label": "Other voicemail",
     "Variable Name": [
       "RcrtUP_OtherVM_v1r0"
+    ]
+  },
+  "983592172": {
+    "Variable Label": "Lived anywhere else at least two years",
+    "Variable Name": [
+      "SrvLAW_HomeAddOth4_v1r0"
     ]
   },
   "984479578": {
@@ -9545,6 +13719,24 @@
       "SrvMRE_TTOften_v1r0"
     ]
   },
+  "984805254": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_HomeWtr1_3_Oth_v1r0"
+    ]
+  },
+  "984908796": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_ChildZipFU_v1r0"
+    ]
+  },
+  "985267931": {
+    "Variable Label": "Street number",
+    "Variable Name": [
+      "SrvLAW_StNum1_v1r0"
+    ]
+  },
   "986476579": {
     "Variable Label": "Walking while shopping or doing errands (Do not count walking for exercise.) time per day",
     "Variable Name": [
@@ -9555,6 +13747,12 @@
     "Variable Label": "Crohn's Disease",
     "Variable Name": [
       "SrvBOH_Chrons_v1r0"
+    ]
+  },
+  "986989731": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_5PrimaryWater1_v1r0"
     ]
   },
   "987107433": {
@@ -9575,6 +13773,12 @@
       "SrvBOH_Salvadoran_v1r0"
     ]
   },
+  "988266183": {
+    "Variable Label": "Street number",
+    "Variable Name": [
+      "SrvLAW_StNum8_v1r0"
+    ]
+  },
   "988508028": {
     "Variable Label": "Sitting inactive in a public place (such as a theater or a meeting)",
     "Variable Name": [
@@ -9587,10 +13791,22 @@
       "SrvBOH_EmployerP_v1r0"
     ]
   },
+  "988941261": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_HomeWtr1_9_Oth_v1r0"
+    ]
+  },
   "989594002": {
     "Variable Label": "How much time electronic marijuana delivery devices used, [X / 40] to age [Y / 49 / current age]",
     "Variable Name": [
       "SrvSAS_EMJDev4049_v1r0"
+    ]
+  },
+  "990162153": {
+    "Variable Label": "Time, Car, van, or truck (includes carpools or van pools) commute from current school",
+    "Variable Name": [
+      "SrvLAW_CurSchT10A_v1r0"
     ]
   },
   "990319383": {
@@ -9677,10 +13893,22 @@
       "SrvMRE_ModerateChores_v1r0"
     ]
   },
+  "993557817": {
+    "Variable Label": "Full Street name #1",
+    "Variable Name": [
+      "SrvLAW_SeaStrName7_v1r0"
+    ]
+  },
   "994064239": {
     "Variable Label": "Refused baseline surveys",
     "Variable Name": [
       "HdRef_Basesrv_v1r0"
+    ]
+  },
+  "994632550": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_HomeWtr3Oth_v1r0"
     ]
   },
   "994899398": {
@@ -9701,6 +13929,18 @@
       "SrvSAS_CTTime6069_v1r0"
     ]
   },
+  "995620555": {
+    "Variable Label": "Longest held occuptation, commute at least once a week",
+    "Variable Name": [
+      "SrvLAW_PreWorkCom_v1r0"
+    ]
+  },
+  "995797773": {
+    "Variable Label": "Any other beverage or soup made with your tap water (such as fruit juice made from concentrate and beverages made from powder)",
+    "Variable Name": [
+      "SrvLAW_BeverageOrSoup_v1r0"
+    ]
+  },
   "996038075": {
     "Variable Label": "Last Name",
     "Variable Name": [
@@ -9713,6 +13953,18 @@
       "SrvMRE_EverPreg_v1r0"
     ]
   },
+  "996493158": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_SeasWtr3_8_Oth_v1r0"
+    ]
+  },
+  "997041632": {
+    "Variable Label": "Zip code",
+    "Variable Name": [
+      "SrvLAW_CurSchZipFU_v1r0"
+    ]
+  },
   "997412869": {
     "Variable Label": "Age last used cigars, cigarillos, or little filtered cigars",
     "Variable Name": [
@@ -9723,6 +13975,12 @@
     "Variable Label": "Why use THC concentrates via dabbing",
     "Variable Name": [
       "SrvSAS_WhyTHC_v1r0"
+    ]
+  },
+  "997984387": {
+    "Variable Label": "Other: Please describe",
+    "Variable Name": [
+      "SrvLAW_HomeWtr3_8_Oth_v1r0"
     ]
   }
 }

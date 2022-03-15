@@ -1,0 +1,48 @@
+{
+  "conceptId": "364303962",
+  "Question Text": "In a usual week, about how often do you use tap water from your home to make any other beverages or soup?",
+  "subcollections": [
+    "364303962.json",
+    "130500844.json"
+  ],
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Source Question": [
+    "364303962.json"
+  ],
+  "Variable Label": "Drink tap water, other beverages or soup",
+  "Variable Name": [
+    "SrvLAW_TapWaterSoup_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "DRINKSWTR2E"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "3/10/22",
+  "Quest_Src Question": [
+    "DRINKSWTR2E"
+  ],
+  "Format/Value": {
+    "706062016.json": "0",
+    "594557208.json": "1",
+    "471294296.json": "2",
+    "198347104.json": "3",
+    "693256778.json": "4",
+    "703370365.json": "5"
+  },
+  "Old Quest Value": {
+    "558333402.json": "1",
+    "751518792.json": "2",
+    "280997939.json": "3",
+    "148147535.json": "4",
+    "177075320.json": "5",
+    "703370365.json": "6"
+  }
+}
