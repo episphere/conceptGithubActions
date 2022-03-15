@@ -408,7 +408,7 @@ function parseMasterModule() {
     let filename = './transformationFiles/Quest-' + timestamp + '_Transformation.json';
     // write file
     // fs.writeFileSync(filename, JSON.stringify(toReturn, null, 2));
-    fs.writeFileSync('testDict.json', JSON.stringify(toReturn, null, 2));
+    fs.writeFileSync('transformation.json', JSON.stringify(toReturn, null, 2));
     //fs.writeFileSync('toCheckIDs.json', JSON.stringify(toCheckIds,null, 2));
 
     const ordered = Object.keys(toReturn).sort().reduce(
@@ -432,4 +432,4 @@ function parseMasterModule() {
 module.exports = {
     parseMasterModule: parseMasterModule
 }
-parseMasterModule();
+// parseMasterModule();
