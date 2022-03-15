@@ -72,34 +72,71 @@ const addEventTriggerCollapse = () => {
             else {
                 let template = '';
                 const cardBody = element.querySelectorAll('[class="card-body"]')[0];
-                const response = await fetch(`${api}${element.id}.json`)
-                const data = await response.json();
+                const data = await getConceptDetails(element.id);
                 for(let key in data) {
                     template += `<div><strong>${key}: </strong>&nbsp;`
                     if(typeof data[key] === 'object') {
-                        template += `<p>`
+                        
                         if(Array.isArray(data[key])){
                             for(let obj of data[key]){
-                                template += /.json/.test(obj) ? `<a href="#${obj.replace('.json', '')}">${obj}<a></br>`:`${obj}`
+                                template += /.json/.test(obj) ? `
+                                <div style="position: relative;"><a class="display-info" data-concept-id="${obj.replace('.json', '')}" href="#${obj.replace('.json', '')}">${obj}</a></div>
+                                `:`${obj}`
                             }
                         }
                         else {
                             for(let obj in data[key]){
-                                template += /.json/.test(obj) ? `<a href="#${obj.replace('.json', '')}">${obj}<a>: ${data[key][obj]}</br>`:`${obj}: ${data[key][obj]}`
+                                template += /.json/.test(obj) ? `
+                                <div style="position: relative;"><a class="display-info" data-concept-id="${obj.replace('.json', '')}" href="#${obj.replace('.json', '')}">${obj}</a>: ${data[key][obj]}</br></div>`
+                                :
+                                `${obj}: ${data[key][obj]}`
                             }
                         }
-                        template += `</p>`
+                        
                     }
                     else {
                         const url = /https:/i.test(data[key]);
-                        template += `${url ? `<a href="${data[key]}" target="_blank">${data[key]}<a>` : key === 'Primary Source' || key === 'Secondary Source'?`<a href="#${data[key].replace('.json', '')}">${data[key]}<a>`:`${data[key]}`}</div>`;
+                        template += `${url ? `
+                            <a href="${data[key]}" target="_blank">${data[key]}</a>
+                        ` : 
+                            key === 'Primary Source' || key === 'Secondary Source'?`
+                            <a class="display-info" data-concept-id="${data[key].replace('.json', '')}" href="#${data[key].replace('.json', '')}">${data[key]}</a>`
+                        :`${data[key]}`}
+                        `;
                     }
+                    template += '</div>';
                 }
                 cardBody.innerHTML = template;
                 element.classList.add('show');
             }
+            handleDisplayInfo();
         })
     })
+}
+
+const handleDisplayInfo = () => {
+    const displayInfo = document.getElementsByClassName('display-info');;
+    Array.from(displayInfo).forEach(info => {
+        info.addEventListener('mouseenter', async () => {
+            const conceptId = info.dataset.conceptId;
+            const div = document.createElement('div');
+            div.classList.add('tooltiptext');
+            const data = await getConceptDetails(conceptId);
+            div.innerHTML = data['Question Text'] ? data['Question Text'] : JSON.stringify(data,null, 2)
+            info.parentNode.appendChild(div);
+        })
+        info.addEventListener('mouseleave', () => {
+            const divs = info.parentNode.querySelectorAll('.tooltiptext');
+            if(!divs) return;
+            Array.from(divs).forEach(div => div.remove());
+        })
+    })
+}
+
+const getConceptDetails = async (conceptId) => {
+    const response = await fetch(`${api}${conceptId}.json`)
+    const data = await response.json();
+    return data;
 }
 
 const addEventSearchConcepts = (data) => {
