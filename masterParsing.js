@@ -432,4 +432,4 @@ function parseMasterModule() {
 module.exports = {
     parseMasterModule: parseMasterModule
 }
-// parseMasterModule();
+parseMasterModule();
