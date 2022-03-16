@@ -21,10 +21,6 @@ function aggregate(){
                 aggregate[currJSON['conceptId']] = toAdd;
             }
             //console.log(file)
-            if(file == '685002411.json'){
-                console.log('foubnd!')
-                console.log(toAdd)
-            }
         }
     });
     //console.log(JSON.stringify(aggregate));
