@@ -14,15 +14,25 @@ function aggregate(){
             if(currJSON.hasOwnProperty('Variable Name')){
                 toAdd['Variable Name'] = currJSON['Variable Name']
             }
+            if(!currJSON.hasOwnProperty('Variable Label') && !currJSON.hasOwnProperty('Variable Name') && currJSON.hasOwnProperty('Question Text')){
+                toAdd['Variable Name'] = currJSON['Question Text']
+            }
             if(Object.keys(toAdd).length > 0){
                 aggregate[currJSON['conceptId']] = toAdd;
             }
+            //console.log(file)
+            if(file == '685002411.json'){
+                console.log('foubnd!')
+                console.log(toAdd)
+            }
         }
     });
-    console.log(JSON.stringify(aggregate));
+    //console.log(JSON.stringify(aggregate));
     fs.writeFileSync('aggregate.json', JSON.stringify(aggregate,null, 2))
 }
 
 module.exports = {
     aggregate:aggregate
 }
+
+aggregate()
