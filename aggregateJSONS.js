@@ -14,17 +14,21 @@ function aggregate(){
             if(currJSON.hasOwnProperty('Variable Name')){
                 toAdd['Variable Name'] = currJSON['Variable Name']
             }
+            if(!currJSON.hasOwnProperty('Variable Label') && !currJSON.hasOwnProperty('Variable Name') && currJSON.hasOwnProperty('Question Text')){
+                toAdd['Variable Name'] = currJSON['Question Text']
+            }
             if(Object.keys(toAdd).length > 0){
                 aggregate[currJSON['conceptId']] = toAdd;
             }
+            //console.log(file)
         }
     });
     //console.log(JSON.stringify(aggregate));
     fs.writeFileSync('aggregate.json', JSON.stringify(aggregate,null, 2))
 }
 
-aggregate();
-
 module.exports = {
     aggregate:aggregate
 }
+
+aggregate()
