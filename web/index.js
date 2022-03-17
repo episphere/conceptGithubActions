@@ -110,6 +110,7 @@ const addEventTriggerCollapse = () => {
                 element.classList.add('show');
             }
             handleDisplayInfo();
+            removeToolTip();
         })
     })
 }
@@ -127,6 +128,17 @@ const handleDisplayInfo = () => {
         })
         info.addEventListener('mouseleave', () => {
             const divs = info.parentNode.querySelectorAll('.tooltiptext');
+            if(!divs) return;
+            Array.from(divs).forEach(div => div.remove());
+        })
+    })
+}
+
+const removeToolTip = () => {
+    const displayInfo = document.getElementsByClassName('display-info');;
+    Array.from(displayInfo).forEach(info => {
+        info.addEventListener('mouseleave', () => {
+            const divs = document.querySelectorAll('.tooltiptext');
             if(!divs) return;
             Array.from(divs).forEach(div => div.remove());
         })
