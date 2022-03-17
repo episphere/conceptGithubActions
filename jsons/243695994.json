@@ -1,0 +1,23 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "conceptId": "243695994",
+  "Question Text": "Address 8- What year did you move into [insert address from HOMEADD1 – HOMEADD3/current address/the 2nd address you provided/etc.]?",
+  "Variable Label": "Year moved in",
+  "Variable Name": [
+    "SrvLAW_HomeMoveIn8_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "HOMEMOVEIN8"
+  ],
+  "Variable Type": "Year",
+  "Variable Length": "4",
+  "Format/Value": "yyyy",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "2/4/22"
+}

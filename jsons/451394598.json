@@ -1,0 +1,28 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Source Question": [
+    "264797252.json"
+  ],
+  "conceptId": "451394598",
+  "Question Text": "Childhood State/Province - Follow-up",
+  "Variable Label": "State/Province",
+  "Variable Name": [
+    "SrvLAW_ChildStateFU_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "CHILDST_FOLLOWUP"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "48",
+  "Required": "No",
+  "PII": "Yes",
+  "Date added or modified": "3/3/22",
+  "Quest_Src Question": [
+    "CHILDADD2"
+  ]
+}

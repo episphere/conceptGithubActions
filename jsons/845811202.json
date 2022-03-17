@@ -1,0 +1,39 @@
+{
+  "conceptId": "845811202",
+  "Question Text": "Current work- Please provide the cross streets of the intersection closest to this address:",
+  "subcollections": [
+    "510435329.json",
+    "520264332.json",
+    "845811202.json"
+  ],
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Source Question": [
+    "845811202.json"
+  ],
+  "Variable Label": "Employer Cross Do Not Know",
+  "Variable Name": [
+    "SrvLAW_EmplCrDontKnow_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "CURWORK3"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Format/Value": {
+    "178420302.json": "77"
+  },
+  "Old Quest Value": {
+    "178420302.json": "77"
+  },
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "3/10/22",
+  "Quest_Src Question": [
+    "CURWORK3"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Source Question": [
+    "263588196.json"
+  ],
+  "conceptId": "583500714",
+  "Question Text": "Employer City - Follow-Up",
+  "Variable Label": "City",
+  "Variable Name": [
+    "SrvLAW_CityFU_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "CITY_FOLLOWUP"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "45",
+  "Required": "No",
+  "PII": "Yes",
+  "Date added or modified": "3/3/22",
+  "Quest_Src Question": [
+    "CURWORK2"
+  ]
+}

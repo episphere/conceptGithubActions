@@ -1,0 +1,39 @@
+{
+  "conceptId": "298296694",
+  "Question Text": "Address 5-Please provide the cross streets of the intersection closest to this address:",
+  "subcollections": [
+    "915527263.json",
+    "325919807.json",
+    "298296694.json"
+  ],
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Source Question": [
+    "298296694.json"
+  ],
+  "Variable Label": "Do Not Know 4-Previous Cross",
+  "Variable Name": [
+    "SrvLAW_Prev4CrDontKnow_v1r0"
+  ],
+  "Connect Value for Select all that apply questions": [
+    "HOMEADD3_5"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Format/Value": {
+    "178420302.json": "77"
+  },
+  "Old Quest Value": {
+    "178420302.json": "77"
+  },
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "3/10/22",
+  "Quest_Src Question": [
+    "HOMEADD3_5"
+  ]
+}
