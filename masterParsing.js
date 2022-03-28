@@ -32,14 +32,14 @@ function parseMasterModule() {
                 if(currJSON['Secondary Source']){
                     currJSON['Secondary Source'] = [currJSON['Secondary Source']];
                 }
-                if(currJSON['Quest_Src Question']){
-                    currJSON['Quest_Src Question'] = [currJSON['Quest_Src Question']];   
+                if(currJSON['Source Question Name - Surveys Only']){
+                    currJSON['Source Question Name - Surveys Only'] = [currJSON['Source Question Name - Surveys Only']];   
                 }
                 if(currJSON['Source Question']){
                     currJSON['Source Question'] = [currJSON['Source Question']];   
                 }
-                if(currJSON['Connect Value for Select all that apply questions']){
-                    currJSON['Connect Value for Select all that apply questions'] = [currJSON['Connect Value for Select all that apply questions']];   
+                if(currJSON['Connect Value for Select all that apply questions - Surveys Only']){
+                    currJSON['Connect Value for Select all that apply questions - Surveys Only'] = [currJSON['Connect Value for Select all that apply questions - Surveys Only']];   
                 }
 
             }
@@ -56,21 +56,22 @@ function parseMasterModule() {
                     //if(currJSON['Secondary Source'] && ["640213240.json"].includes(currJSON['Secondary Source'])){
                         
                     if (currJSON['Secondary Source'][sourceIndex] && ["745268907.json","965707586.json","898006288.json", "726699695.json"].includes(currJSON['Secondary Source'][sourceIndex])) {
-                        if (currJSON['Connect Value for Select all that apply questions'] && currJSON['Connect Value for Select all that apply questions'][sourceIndex]) {
+                      console.log("test")
+                        if (currJSON['Connect Value for Select all that apply questions - Surveys Only'] && currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex]) {
                             let isTB = false;
-                            let header = currJSON['Connect Value for Select all that apply questions'][sourceIndex];
+                            let header = currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex];
                             let toInsert = {};
-                            let headerName = currJSON['Connect Value for Select all that apply questions'][sourceIndex];
-                            if (currJSON['Connect Value for Select all that apply questions'][sourceIndex] == "77") {
+                            let headerName = currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex];
+                            if (currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex] == "77") {
                                 //console.log(currJSON)
                                 //console.log(headerName)
                             }
                             
-                            if (!currJSON['Quest_Src Question'] || !currJSON['Quest_Src Question'][sourceIndex] || (!Array.isArray(currJSON['Quest_Src Question'][sourceIndex]) && currJSON['Quest_Src Question'][sourceIndex].toLowerCase().includes('grid_'))) {
-                                if (currJSON['Quest_Src Question'] && currJSON['Quest_Src Question'][sourceIndex] && currJSON['Quest_Src Question'][sourceIndex].toLowerCase().includes('grid_')) {
+                            if (!currJSON['Source Question Name - Surveys Only'] || !currJSON['Source Question Name - Surveys Only'][sourceIndex] || (!Array.isArray(currJSON['Source Question Name - Surveys Only'][sourceIndex]) && currJSON['Source Question Name - Surveys Only'][sourceIndex].toLowerCase().includes('grid_'))) {
+                                if (currJSON['Source Question Name - Surveys Only'] && currJSON['Source Question Name - Surveys Only'][sourceIndex] && currJSON['Source Question Name - Surveys Only'][sourceIndex].toLowerCase().includes('grid_')) {
                                     
                                     if (currJSON['Source Question'] && currJSON['Source Question'][sourceIndex]) {
-                                        toReturn[currJSON['Quest_Src Question'][sourceIndex]] = {
+                                        toReturn[currJSON['Source Question Name - Surveys Only'][sourceIndex]] = {
                                             'conceptId': currJSON['Source Question'][sourceIndex].substring(0, 9),
                                             'questionText': masterJSON[currJSON['Source Question'][sourceIndex]]['Question Text']
                                         }
@@ -104,17 +105,17 @@ function parseMasterModule() {
                                             "concept": masterJSON[keys[j]]['Question Text'] ? masterJSON[objKeys[k]]['Question Text'] : masterJSON[objKeys[k]]['PII']
                                         }
                                     }
-                                    if (currJSON['Connect Value for Select all that apply questions'][sourceIndex] === undefined) {
+                                    if (currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex] === undefined) {
                                         //console.log(currJSON)
                                     }
                                     toInsert['questionText'] = currJSON['Question Text']
                                     toInsert['conceptId'] = currJSON['conceptId'];
-                                    toReturn[currJSON['Connect Value for Select all that apply questions'][sourceIndex].toUpperCase()] = toInsert;
+                                    toReturn[currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()] = toInsert;
 
                                 }
                                 else {
-                                    if(currJSON['Connect Value for Select all that apply questions'][sourceIndex].toUpperCase().includes('ALCLIFE4')){
-                                        console.log(currJSON['Connect Value for Select all that apply questions'][sourceIndex].toUpperCase())
+                                    if(currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase().includes('ALCLIFE4')){
+                                        console.log(currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase())
                                     }
                                     
                                     let val = currJSON['Format/Value']
@@ -129,20 +130,20 @@ function parseMasterModule() {
                                             }
                                             toInsert['questionText'] = currJSON['Question Text']
                                             toInsert['conceptId'] = currJSON['conceptId'];
-                                            toReturn[currJSON['Connect Value for Select all that apply questions'][sourceIndex].toUpperCase()] = toInsert;
+                                            toReturn[currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()] = toInsert;
                                         }
                                         else {
-                                            if(currJSON['Connect Value for Select all that apply questions'][sourceIndex].toUpperCase().includes('GRID_')){
+                                            if(currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase().includes('GRID_')){
                                                 toInsert['questionText'] = currJSON['Question Text']
                                                 toInsert['conceptId'] = currJSON['conceptId'];
-                                                toReturn[currJSON['Connect Value for Select all that apply questions'][sourceIndex].toUpperCase()] = toInsert;
+                                                toReturn[currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()] = toInsert;
                                             }
                                             else{
                                                 isTB = true;
                                                 toInsert['isTextBox'] = isTB;
                                                 toInsert['questionText'] = currJSON['Question Text']
                                                 toInsert['conceptId'] = currJSON['conceptId'];
-                                                toReturn[currJSON['Connect Value for Select all that apply questions'][sourceIndex].toUpperCase()] = toInsert;
+                                                toReturn[currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()] = toInsert;
                                             }
                                             
                                         }
@@ -150,9 +151,9 @@ function parseMasterModule() {
                                     }
                                     else if (typeof val === 'object' && val !== null) {
 
-                                        if (currJSON['Quest_Src Question'] && currJSON['Quest_Src Question'][sourceIndex] && currJSON['Quest_Src Question'][sourceIndex].toLowerCase().includes('grid_') && val['104430631.json'] && val['353358909.json']) {
-                                            console.log(currJSON['Connect Value for Select all that apply questions'][sourceIndex].toUpperCase())
-                                            let currName = currJSON['Connect Value for Select all that apply questions'][sourceIndex].toUpperCase()
+                                        if (currJSON['Source Question Name - Surveys Only'] && currJSON['Source Question Name - Surveys Only'][sourceIndex] && currJSON['Source Question Name - Surveys Only'][sourceIndex].toLowerCase().includes('grid_') && val['104430631.json'] && val['353358909.json']) {
+                                            console.log(currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase())
+                                            let currName = currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()
                                             if(currName.includes('_')){
                                                 let name = currName.substring(0, currName.indexOf('_'))
                                                 let id = currName.substring(currName.indexOf('_') + 1)
@@ -182,7 +183,7 @@ function parseMasterModule() {
                                             toInsert['questionText'] = currJSON['Question Text']
                                             toInsert['conceptId'] = currJSON['conceptId'];
                                             //console.log(currJSON)
-                                            toReturn[currJSON['Connect Value for Select all that apply questions'][sourceIndex].toUpperCase()] = toInsert;
+                                            toReturn[currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()] = toInsert;
                                         }
                                         }
                                     else {
@@ -199,7 +200,7 @@ function parseMasterModule() {
                                                 //console.log(valNum)
                                             }
                                             isTB = false;
-                                            if (toReturn[currJSON['Connect Value for Select all that apply questions'][sourceIndex].toUpperCase()]) {
+                                            if (toReturn[currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()]) {
                                                 toInsert = toReturn[headerName.toUpperCase()];
                                             }
                                             if (!toInsert['questIds']) {
@@ -214,7 +215,7 @@ function parseMasterModule() {
                                                 toInsert['questionText'] = currJSON['Question Text']
                                             }
                                             toInsert['conceptId'] = currJSON['conceptId'];
-                                            toReturn[currJSON['Connect Value for Select all that apply questions'][sourceIndex].toUpperCase()] = toInsert;
+                                            toReturn[currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()] = toInsert;
                                         }
                                         else {
                                             isTB = true;
@@ -223,7 +224,7 @@ function parseMasterModule() {
                                                 toInsert['questionText'] = currJSON['Question Text']
                                             }
                                             toInsert['conceptId'] = currJSON['conceptId'];
-                                            toReturn[currJSON['Connect Value for Select all that apply questions'][sourceIndex].toUpperCase()] = toInsert;
+                                            toReturn[currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()] = toInsert;
                                         }
                                     }
 
@@ -241,16 +242,16 @@ function parseMasterModule() {
                                     isTB = true;
                                     //console.log(currJSON['Format/Value'])
                                 }
-                                if (currJSON['Connect Value for Select all that apply questions'][sourceIndex] && !isNaN(currJSON['Connect Value for Select all that apply questions'][sourceIndex])) {
-                                    //console.log(currJSON['Connect Value for Select all that apply questions'][sourceIndex])
+                                if (currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex] && !isNaN(currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex])) {
+                                    //console.log(currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex])
                                     //console.log(headerName)
                                     isTB = false;
                                 }
 
-                                headerName = currJSON['Quest_Src Question'][sourceIndex];
+                                headerName = currJSON['Source Question Name - Surveys Only'][sourceIndex];
                                 if (!Array.isArray(headerName)) {
 
-                                    if (headerName == currJSON['Connect Value for Select all that apply questions'][sourceIndex]) {
+                                    if (headerName == currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex]) {
                                         //console.log('EQUALS')
                                         //console.log(headerName);
 
@@ -332,14 +333,14 @@ function parseMasterModule() {
                                         //console.log(toInsert)
                                         //console.log(headerName);
                                         //console.log(questIds)
-                                        //console.log(currJSON['Connect Value for Select all that apply questions'])
-                                        questIds[currJSON['Connect Value for Select all that apply questions'][sourceIndex].toUpperCase()] = {
+                                        //console.log(currJSON['Connect Value for Select all that apply questions - Surveys Only'])
+                                        questIds[currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()] = {
                                             "conceptId": currJSON['conceptId'],
                                             "concept": currJSON["Question Text"]
                                         }
                                         if (isTB) {
                                            
-                                            questIds[currJSON['Connect Value for Select all that apply questions'][sourceIndex].toUpperCase()]['isTextBox'] = isTB;
+                                            questIds[currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()]['isTextBox'] = isTB;
                                         }
                                         if (currJSON['Source Question'] && currJSON['Source Question'][sourceIndex]) {
                                             toInsert['conceptId'] = currJSON['Source Question'][sourceIndex].substring(0, 9);
@@ -374,13 +375,13 @@ function parseMasterModule() {
 
                                         //console.log(questIds)
                                         //console.log(currJSON);
-                                        //console.log(currJSON['Connect Value for Select all that apply questions']);
-                                        questIds[currJSON['Connect Value for Select all that apply questions'][sourceIndex].toUpperCase()] = {
+                                        //console.log(currJSON['Connect Value for Select all that apply questions - Surveys Only']);
+                                        questIds[currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()] = {
                                             "conceptId": currJSON['conceptId'],
                                             "concept": currJSON["Question Text"]
                                         }
                                         if (isTB) {
-                                            questIds[currJSON['Connect Value for Select all that apply questions'][sourceIndex].toUpperCase()]['isTextBox'] = true;
+                                            questIds[currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()]['isTextBox'] = true;
                                         }
                                         if (currJSON['Source Question'] && currJSON['Source Question'][sourceIndex]) {
                                             toInsert['conceptId'] = currJSON['Source Question'][sourceIndex][k].substring(0, 9);
@@ -444,7 +445,7 @@ function parseMasterModule() {
     let filename = './transformationFiles/Quest-' + timestamp + '_Transformation.json';
     // write file
     // fs.writeFileSync(filename, JSON.stringify(toReturn, null, 2));
-    fs.writeFileSync('testDict.json', JSON.stringify(toReturn, null, 2));
+    // fs.writeFileSync('testDict.json', JSON.stringify(toReturn, null, 2));
     //fs.writeFileSync('toCheckIDs.json', JSON.stringify(toCheckIds,null, 2));
 
     const ordered = Object.keys(toReturn).sort().reduce(
@@ -464,6 +465,9 @@ function parseMasterModule() {
     if(changed){
         aggregate.aggregate();
     }*/
+    // console.log("toReturn",toReturn)
+    // console.log("ordered",ordered)
+    
 }
 module.exports = {
     parseMasterModule: parseMasterModule
