@@ -1,6 +1,6 @@
 {
   "conceptId": "636020848",
-  "Question Text": "Seasonal Address 8- What [is/was] the main source of water that you [drink/drank] at [insert address insert address from SEASADD1 â€“ SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank].",
+  "Question Text": "Seasonal Address 8- What [is/was] the main source of water that you [drink/drank] at [insert address insert address from SEASADD1 – SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank].",
   "subcollections": [
     "636020848.json",
     "996493158.json"
@@ -18,7 +18,7 @@
   "Variable Name": [
     "SrvLAW_SeaAdd8PrWater2_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
+  "Connect Value for Select all that apply questions - Surveys Only": [
     "SEASWTR3_8"
   ],
   "Variable Type": "Num",
@@ -26,7 +26,7 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "3/10/22",
-  "Quest_Src Question": [
+  "Source Question Name - Surveys Only": [
     "SEASWTR3_8"
   ],
   "Format/Value": {
@@ -39,7 +39,7 @@
     "807835037.json": "55",
     "178420302.json": "77"
   },
-  "Old Quest Value": {
+  "Old Quest Value - Surveys Only": {
     "123108471.json": "1",
     "463122075.json": "2",
     "254061941.json": "3",

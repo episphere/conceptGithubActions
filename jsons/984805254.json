@@ -9,22 +9,22 @@
     "957717014.json"
   ],
   "conceptId": "984805254",
-  "Question Text": "Address 3- What [is/was] the source of water to [insert address from HOMEADD1 â€“ HOMEADD3/ current address/the 2nd address you provided/etc.]? Please describe [text box]",
+  "Question Text": "Address 3- What [is/was] the source of water to [insert address from HOMEADD1 – HOMEADD3/ current address/the 2nd address you provided/etc.]? Please describe [text box]",
   "Variable Label": "Other: Please describe",
   "Variable Name": [
     "SrvLAW_HomeWtr1_3_Oth_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
+  "Connect Value for Select all that apply questions - Surveys Only": [
     "HOMEWTR1_3_OTH"
   ],
   "Variable Type": "Char",
   "Variable Length": "300",
   "Format/Value": "N/A",
-  "Old Quest Value": "No",
+  "Old Quest Value - Surveys Only": "No",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "3/10/22",
-  "Quest_Src Question": [
+  "Source Question Name - Surveys Only": [
     "HOMEWTR1_3"
   ]
 }

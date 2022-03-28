@@ -14,7 +14,7 @@
   "Variable Name": [
     "SrvBOH_OtherWtLossDes4_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
+  "Connect Value for Select all that apply questions - Surveys Only": [
     "WTLOSS2_4555_TB"
   ],
   "Variable Type": "Char",
@@ -25,7 +25,7 @@
   "Notes": "Only display if WTLOSS2_4555 = 55",
   "Date added or modified": "9/15/21",
   "Question Type": "Optional Select All that Apply",
-  "Quest_Src Question": [
+  "Source Question Name - Surveys Only": [
     "WTLOSS2_4555"
   ]
 }

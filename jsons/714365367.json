@@ -1,6 +1,6 @@
 {
   "conceptId": "714365367",
-  "Question Text": "What was the source of water to [insert address from CHILDADD1 â€“ CHILDADD3/your childhood home]?",
+  "Question Text": "What was the source of water to [insert address from CHILDADD1 – CHILDADD3/your childhood home]?",
   "subcollections": [
     "714365367.json",
     "158518077.json"
@@ -18,7 +18,7 @@
   "Variable Name": [
     "SrvLAW_Chld1PrimWater_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
+  "Connect Value for Select all that apply questions - Surveys Only": [
     "CHILDWTR1"
   ],
   "Variable Type": "Num",
@@ -26,7 +26,7 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "3/10/22",
-  "Quest_Src Question": [
+  "Source Question Name - Surveys Only": [
     "CHILDWTR1"
   ],
   "Format/Value": {
@@ -36,7 +36,7 @@
     "807835037.json": "55",
     "178420302.json": "77"
   },
-  "Old Quest Value": {
+  "Old Quest Value - Surveys Only": {
     "901693169.json": "1",
     "519767819.json": "2",
     "388690303.json": "3",

@@ -14,7 +14,7 @@
   "Variable Name": [
     "SrvMRE_ModChoresTm_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
+  "Connect Value for Select all that apply questions - Surveys Only": [
     "HOUSE2B"
   ],
   "Variable Type": "Num",
@@ -23,7 +23,7 @@
   "PII": "No",
   "Notes": "Grid Question -Only display if HOUSE2B =0 or no response",
   "Date added or modified": "2/28/22",
-  "Quest_Src Question": [
+  "Source Question Name - Surveys Only": [
     "GRID_HOUSE2"
   ],
   "Format/Value": {
@@ -35,7 +35,7 @@
     "628177728.json": "5",
     "805918496.json": "6"
   },
-  "Old Quest Value": {
+  "Old Quest Value - Surveys Only": {
     "428999623.json": "1",
     "836185098.json": "2",
     "761981197.json": "3",

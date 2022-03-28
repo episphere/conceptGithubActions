@@ -9,12 +9,12 @@
     "274780951.json"
   ],
   "conceptId": "673667112",
-  "Question Text": "Seasonal Address 10- What [is/was] the source of water to [insert address insert address from SEASADD1 â€“ SEASADD3/ the 1st/2nd/3rd/etc. address you provided? Please describe [text box]",
+  "Question Text": "Seasonal Address 10- What [is/was] the source of water to [insert address insert address from SEASADD1 – SEASADD3/ the 1st/2nd/3rd/etc. address you provided? Please describe [text box]",
   "Variable Label": "Other: Please describe",
   "Variable Name": [
     "SrvLAW_SeasWtr1_10_Oth_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
+  "Connect Value for Select all that apply questions - Surveys Only": [
     "SEASWTR1_10_OTH"
   ],
   "Variable Type": "Char",
@@ -23,7 +23,7 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "3/10/22",
-  "Quest_Src Question": [
+  "Source Question Name - Surveys Only": [
     "SEASWTR1_10"
   ]
 }

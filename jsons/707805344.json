@@ -34,7 +34,7 @@
     "SrvMRE_LayInBedHrNW_v1r0",
     "SrvMRE_SunlightHrsNW_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
+  "Connect Value for Select all that apply questions - Surveys Only": [
     "FallAsleepHours",
     "LayInBedHrs",
     "OutsideHours",
@@ -44,11 +44,11 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Old Quest Value": "N/A",
+  "Old Quest Value - Surveys Only": "N/A",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "10/25/21",
-  "Quest_Src Question": [
+  "Source Question Name - Surveys Only": [
     "SLEEP1D",
     "SLEEP1I",
     "SLEEP1M",

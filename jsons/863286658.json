@@ -18,7 +18,7 @@
     "SrvBOH_Endometriosis_v1r0",
     "SrvMRE_Endometriosis_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
+  "Connect Value for Select all that apply questions - Surveys Only": [
     "1",
     "2"
   ],
@@ -28,7 +28,7 @@
   "PII": "No",
   "Notes": "[DISPLAY ONLY IF SEX = (00) OR (SEX= (02) AND SEX2 = (05))]",
   "Question Type": "Optional Select All that Apply, Displayif in One or More Responses",
-  "Quest_Src Question": [
+  "Source Question Name - Surveys Only": [
     "MHGROUP8",
     "FERT4"
   ],
@@ -36,7 +36,7 @@
     "104430631.json": "0",
     "353358909.json": "1"
   },
-  "Old Quest Value": {
+  "Old Quest Value - Surveys Only": {
     "104430631.json": "2",
     "353358909.json": "1"
   }

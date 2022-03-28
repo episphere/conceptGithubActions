@@ -1,6 +1,6 @@
 {
   "conceptId": "154170916",
-  "Question Text": "Address 10- What [is/was] the source of water to [insert address from HOMEADD1 â€“ HOMEADD3/ current address/the 2nd address you provided/etc.]?",
+  "Question Text": "Address 10- What [is/was] the source of water to [insert address from HOMEADD1 – HOMEADD3/ current address/the 2nd address you provided/etc.]?",
   "subcollections": [
     "154170916.json",
     "175293001.json"
@@ -18,7 +18,7 @@
   "Variable Name": [
     "SrvLAW_10PrimaryWater1_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
+  "Connect Value for Select all that apply questions - Surveys Only": [
     "HOMEWTR1_10"
   ],
   "Variable Type": "Num",
@@ -26,7 +26,7 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "3/10/22",
-  "Quest_Src Question": [
+  "Source Question Name - Surveys Only": [
     "HOMEWTR1_10"
   ],
   "Format/Value": {
@@ -36,7 +36,7 @@
     "807835037.json": "55",
     "178420302.json": "77"
   },
-  "Old Quest Value": {
+  "Old Quest Value - Surveys Only": {
     "901693169.json": "1",
     "519767819.json": "2",
     "388690303.json": "3",

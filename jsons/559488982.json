@@ -6,12 +6,12 @@
     "716117817.json"
   ],
   "conceptId": "559488982",
-  "Question Text": "Does your usual one-way trip to [insert address from CURSCH1 â€“ CURSCH3/this address] from your home involve travel on a local or neighborhood roadway? These usually have only one lane in each direction. An example is pictured.",
+  "Question Text": "Does your usual one-way trip to [insert address from CURSCH1 – CURSCH3/this address] from your home involve travel on a local or neighborhood roadway? These usually have only one lane in each direction. An example is pictured.",
   "Variable Label": "Local road, commute to current school",
   "Variable Name": [
     "SrvLAW_CurSchT5_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
+  "Connect Value for Select all that apply questions - Surveys Only": [
     "CURSCHT5"
   ],
   "Variable Type": "Num",
@@ -24,7 +24,7 @@
     "746635399.json": "1",
     "419415087.json": "2"
   },
-  "Old Quest Value": {
+  "Old Quest Value - Surveys Only": {
     "614087017.json": "1",
     "746635399.json": "2",
     "419415087.json": "3"

@@ -9,12 +9,12 @@
     "665593888.json"
   ],
   "conceptId": "669305975",
-  "Question Text": "What was the main source of water that you drank at [insert address from CHILDADD1 â€“ CHILDADD3/your childhood home]? Please think about water used to make drinks. Please describe [text box]",
+  "Question Text": "What was the main source of water that you drank at [insert address from CHILDADD1 – CHILDADD3/your childhood home]? Please think about water used to make drinks. Please describe [text box]",
   "Variable Label": "Other: Please describe",
   "Variable Name": [
     "SrvLAW_ChildWtr2_1_Oth_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
+  "Connect Value for Select all that apply questions - Surveys Only": [
     "CHILDWTR2_1_OTH"
   ],
   "Variable Type": "Char",
@@ -22,7 +22,7 @@
   "Format/Value": "N/A",
   "Required": "No",
   "Date added or modified": "1/19/22",
-  "Quest_Src Question": [
+  "Source Question Name - Surveys Only": [
     "CHILDWTR2"
   ]
 }

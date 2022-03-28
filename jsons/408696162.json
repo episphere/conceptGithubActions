@@ -58,7 +58,7 @@
     "SrvSAS_AgeUseTHCReg_v1r0",
     "SrvSAS_AgeAlcReg_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
+  "Connect Value for Select all that apply questions - Surveys Only": [
     "CIG3_AGE",
     "REGVAPE_AGE",
     "REGCIGAR_AGE",
@@ -75,11 +75,11 @@
   "Variable Type": "Num",
   "Variable Length": "2",
   "Format/Value": "N/A",
-  "Old Quest Value": "N/A",
+  "Old Quest Value - Surveys Only": "N/A",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "10/29/21",
-  "Quest_Src Question": [
+  "Source Question Name - Surveys Only": [
     "CIG3",
     "ECIG3",
     "CIGAR3",

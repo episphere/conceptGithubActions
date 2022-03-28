@@ -18,7 +18,7 @@
   "Variable Name": [
     "SrvBOH_MotherAge_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
+  "Connect Value for Select all that apply questions - Surveys Only": [
     "MOMAGE"
   ],
   "Variable Type": "Num",
@@ -26,14 +26,14 @@
   "Format/Value": {
     "178420302.json": "77"
   },
-  "Old Quest Value": {
+  "Old Quest Value - Surveys Only": {
     "832322940.json": "99"
   },
   "Required": "No",
   "PII": "No",
   "Date added or modified": "8/23/21",
   "Question Type": "Text Box Plus Check Box",
-  "Quest_Src Question": [
+  "Source Question Name - Surveys Only": [
     "MOMAGE"
   ]
 }

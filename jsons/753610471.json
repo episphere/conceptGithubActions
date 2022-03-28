@@ -18,7 +18,7 @@
   "Variable Name": [
     "SrvMRE_PPPresPillDK_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
+  "Connect Value for Select all that apply questions - Surveys Only": [
     "ACIDSUP3_1"
   ],
   "Variable Type": "Num",
@@ -26,12 +26,12 @@
   "Format/Value": {
     "178420302.json": "77"
   },
-  "Old Quest Value": "Don't know",
+  "Old Quest Value - Surveys Only": "Don't know",
   "Required": "N/A",
   "PII": "No",
   "Notes": "Only display if ACIDSUP = 0",
   "Date added or modified": "10/5/21",
-  "Quest_Src Question": [
+  "Source Question Name - Surveys Only": [
     "ACIDSUP3_1"
   ]
 }

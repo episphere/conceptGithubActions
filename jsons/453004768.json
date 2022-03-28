@@ -9,12 +9,12 @@
     "440093675.json"
   ],
   "conceptId": "453004768",
-  "Question Text": "Taxicab (includes, Uber, Lyft, or hired car)- Thinking about the one-way trip from your home to [insert address from CURWORK1 â€“ CURWORK3/this address] on a usual workday, about how much time do you usually spend in each type of transportation?",
+  "Question Text": "Taxicab (includes, Uber, Lyft, or hired car)- Thinking about the one-way trip from your home to [insert address from CURWORK1 – CURWORK3/this address] on a usual workday, about how much time do you usually spend in each type of transportation?",
   "Variable Label": "Time, Taxicab (includes, Uber, Lyft, or hired car, ) commute to current work",
   "Variable Name": [
     "SrvLAW_CurWorkTmHire_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
+  "Connect Value for Select all that apply questions - Surveys Only": [
     "CURWORKT2B"
   ],
   "Variable Type": "Num",
@@ -22,7 +22,7 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "2/28/22",
-  "Quest_Src Question": [
+  "Source Question Name - Surveys Only": [
     "GRID_CURWORKT2"
   ],
   "Format/Value": {
@@ -32,7 +32,7 @@
     "638092100.json": "3",
     "127455035.json": "4"
   },
-  "Old Quest Value": {
+  "Old Quest Value - Surveys Only": {
     "727482357.json": "1",
     "877129110.json": "2",
     "183153654.json": "3",

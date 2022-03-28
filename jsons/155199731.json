@@ -6,12 +6,12 @@
     "716117817.json"
   ],
   "conceptId": "155199731",
-  "Question Text": "Does your usual one-way trip to [insert address from CURWORK1 â€“ CURWORK3/this address] from your home involve travel on a highway, parkway, freeway, or toll road? An example is pictured.",
+  "Question Text": "Does your usual one-way trip to [insert address from CURWORK1 – CURWORK3/this address] from your home involve travel on a highway, parkway, freeway, or toll road? An example is pictured.",
   "Variable Label": "Highway, current work commute to current work",
   "Variable Name": [
     "SrvLAW_CurWorkT3_v1r0"
   ],
-  "Connect Value for Select all that apply questions": [
+  "Connect Value for Select all that apply questions - Surveys Only": [
     "CURWORKT3"
   ],
   "Variable Type": "Num",
@@ -24,7 +24,7 @@
     "746635399.json": "1",
     "419415087.json": "2"
   },
-  "Old Quest Value": {
+  "Old Quest Value - Surveys Only": {
     "614087017.json": "1",
     "746635399.json": "2",
     "419415087.json": "3"
