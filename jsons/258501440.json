@@ -8,6 +8,9 @@
   "Source Question": [
     "944517297.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "DRINKSWTR2F"
+  ],
   "conceptId": "258501440",
   "Question Text": "In a usual week, about how often do you use tap water from your home to make [insert response from DRINKSWTR1/other beverages]? Please describe [text box]",
   "Variable Label": "Tap water times/day, other",
@@ -21,8 +24,5 @@
   "Variable Length": "3",
   "Format/Value": "N/A",
   "Required": "No",
-  "PII": "Yes",
-  "Source Question Name - Surveys Only": [
-    "DRINKSWTR2F"
-  ]
+  "PII": "Yes"
 }

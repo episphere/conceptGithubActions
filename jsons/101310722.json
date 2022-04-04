@@ -47,6 +47,22 @@
     "803968511.json",
     "618427836.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "PAINREL3_1",
+    "PAINREL3_2",
+    "PAINREL3_3",
+    "PAINREL3_4",
+    "PAINREL3_5",
+    "PAINREL3_6",
+    "PAINREL3_7",
+    "CHOLHTN3_1",
+    "CHOLHTN3_2",
+    "METFOR3_1",
+    "INSULIN3_1",
+    "ACIDSUP3_1",
+    "ACIDSUP3_2",
+    "ACIDSUP3_3"
+  ],
   "conceptId": "101310722",
   "Question Text": "# Pills per day",
   "Variable Label": "Pills per day baby or low-dose aspirin (81 mg or less)",
@@ -84,25 +100,8 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Old Quest Value - Surveys Only": "N/A",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if PAINREL1 = 0",
-  "Date added or modified": "10/25/21",
-  "Source Question Name - Surveys Only": [
-    "PAINREL3_1",
-    "PAINREL3_2",
-    "PAINREL3_3",
-    "PAINREL3_4",
-    "PAINREL3_5",
-    "PAINREL3_6",
-    "PAINREL3_7",
-    "CHOLHTN3_1",
-    "CHOLHTN3_2",
-    "METFOR3_1",
-    "INSULIN3_1",
-    "ACIDSUP3_1",
-    "ACIDSUP3_2",
-    "ACIDSUP3_3"
-  ]
+  "Date added or modified": "10/25/21"
 }

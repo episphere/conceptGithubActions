@@ -1,6 +1,4 @@
 {
-  "conceptId": "531671855",
-  "Question Text": "A cup of hot tea",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,6 +8,11 @@
   "Source Question": [
     "831438612.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "DRINKSWTR1"
+  ],
+  "conceptId": "531671855",
+  "Question Text": "A cup of hot tea",
   "Variable Label": "A cup of hot tea",
   "Variable Name": [
     "SrvLAW_CupOfHotTea_v1r0"
@@ -19,15 +22,9 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Old Quest Value - Surveys Only": {
-    "531671855.json": "2"
-  },
   "Required": "No",
   "PII": "No",
   "Date added or modified": "1/19/22",
-  "Source Question Name - Surveys Only": [
-    "DRINKSWTR1"
-  ],
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

@@ -17,6 +17,12 @@
     "578895128.json",
     "812370563.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "MOMCANC2",
+    "DADCANC2",
+    "SIBCANC2",
+    "CHILDCANC2"
+  ],
   "conceptId": "200837530",
   "Question Text": "Lymphoma",
   "Variable Label": "Lymphoma",
@@ -37,12 +43,6 @@
   "Required": "No",
   "PII": "No",
   "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "MOMCANC2",
-    "DADCANC2",
-    "SIBCANC2",
-    "CHILDCANC2"
-  ],
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

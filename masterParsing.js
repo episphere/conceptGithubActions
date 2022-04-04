@@ -32,8 +32,8 @@ function parseMasterModule() {
                 if(currJSON['Secondary Source']){
                     currJSON['Secondary Source'] = [currJSON['Secondary Source']];
                 }
-                if(currJSON['Source Question Name - Surveys Only']){
-                    currJSON['Source Question Name - Surveys Only'] = [currJSON['Source Question Name - Surveys Only']];   
+                if(currJSON['GridID/Source Question Name - Surveys Only']){
+                    currJSON['GridID/Source Question Name - Surveys Only'] = [currJSON['GridID/Source Question Name - Surveys Only']];   
                 }
                 if(currJSON['Source Question']){
                     currJSON['Source Question'] = [currJSON['Source Question']];   
@@ -67,11 +67,11 @@ function parseMasterModule() {
                                 //console.log(headerName)
                             }
                             
-                            if (!currJSON['Source Question Name - Surveys Only'] || !currJSON['Source Question Name - Surveys Only'][sourceIndex] || (!Array.isArray(currJSON['Source Question Name - Surveys Only'][sourceIndex]) && currJSON['Source Question Name - Surveys Only'][sourceIndex].toLowerCase().includes('grid_'))) {
-                                if (currJSON['Source Question Name - Surveys Only'] && currJSON['Source Question Name - Surveys Only'][sourceIndex] && currJSON['Source Question Name - Surveys Only'][sourceIndex].toLowerCase().includes('grid_')) {
+                            if (!currJSON['GridID/Source Question Name - Surveys Only'] || !currJSON['GridID/Source Question Name - Surveys Only'][sourceIndex] || (!Array.isArray(currJSON['GridID/Source Question Name - Surveys Only'][sourceIndex]) && currJSON['GridID/Source Question Name - Surveys Only'][sourceIndex].toLowerCase().includes('grid_'))) {
+                                if (currJSON['GridID/Source Question Name - Surveys Only'] && currJSON['GridID/Source Question Name - Surveys Only'][sourceIndex] && currJSON['GridID/Source Question Name - Surveys Only'][sourceIndex].toLowerCase().includes('grid_')) {
                                     
                                     if (currJSON['Source Question'] && currJSON['Source Question'][sourceIndex]) {
-                                        toReturn[currJSON['Source Question Name - Surveys Only'][sourceIndex]] = {
+                                        toReturn[currJSON['GridID/Source Question Name - Surveys Only'][sourceIndex]] = {
                                             'conceptId': currJSON['Source Question'][sourceIndex].substring(0, 9),
                                             'questionText': masterJSON[currJSON['Source Question'][sourceIndex]]['Question Text']
                                         }
@@ -151,7 +151,7 @@ function parseMasterModule() {
                                     }
                                     else if (typeof val === 'object' && val !== null) {
 
-                                        if (currJSON['Source Question Name - Surveys Only'] && currJSON['Source Question Name - Surveys Only'][sourceIndex] && currJSON['Source Question Name - Surveys Only'][sourceIndex].toLowerCase().includes('grid_') && val['104430631.json'] && val['353358909.json']) {
+                                        if (currJSON['GridID/Source Question Name - Surveys Only'] && currJSON['GridID/Source Question Name - Surveys Only'][sourceIndex] && currJSON['GridID/Source Question Name - Surveys Only'][sourceIndex].toLowerCase().includes('grid_') && val['104430631.json'] && val['353358909.json']) {
                                             console.log(currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase())
                                             let currName = currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()
                                             if(currName.includes('_')){
@@ -248,7 +248,7 @@ function parseMasterModule() {
                                     isTB = false;
                                 }
 
-                                headerName = currJSON['Source Question Name - Surveys Only'][sourceIndex];
+                                headerName = currJSON['GridID/Source Question Name - Surveys Only'][sourceIndex];
                                 if (!Array.isArray(headerName)) {
 
                                     if (headerName == currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex]) {

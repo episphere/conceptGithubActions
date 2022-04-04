@@ -8,8 +8,11 @@
   "Source Question": [
     "968388901.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "GRID_PREWORKT2"
+  ],
   "conceptId": "109431893",
-  "Question Text": "Bicycle- Thinking about the one-way trip from your home to [insert address from PREWORK1 – PREWORK3/this address] on a usual workday, about how much time did you usually spend in each type of transportation?",
+  "Question Text": "Bicycle- Thinking about the one-way trip from your home to [insert address from PREWORK1 - PREWORK3/this address] on a usual workday, about how much time did you usually spend in each type of transportation?",
   "Variable Label": "Time, Bicycle commute to past work",
   "Variable Name": [
     "SrvLAW_PreWorkTmBike_v1r0"
@@ -22,21 +25,11 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "3/10/22",
-  "Source Question Name - Surveys Only": [
-    "GRID_PREWORKT2"
-  ],
   "Format/Value": {
     "428999623.json": "0",
     "248303092.json": "1",
     "998679771.json": "2",
     "638092100.json": "3",
     "127455035.json": "4"
-  },
-  "Old Quest Value - Surveys Only": {
-    "727482357.json": "1",
-    "877129110.json": "2",
-    "183153654.json": "3",
-    "485370350.json": "4",
-    "206178969.json": "5"
   }
 }

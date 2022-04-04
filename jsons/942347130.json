@@ -8,6 +8,9 @@
   "Source Question": [
     "517307064.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "BREASTSUR"
+  ],
   "conceptId": "942347130",
   "Question Text": "Other breast surgeries: Please describe[text box]",
   "Variable Label": "Other: Please describe[text box]",
@@ -23,8 +26,5 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if MHGROUP9 = breast surgery",
-  "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "BREASTSUR"
-  ]
+  "Question Type": "Optional Select All that Apply"
 }

@@ -8,6 +8,9 @@
   "Source Question": [
     "367803647.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "EDU"
+  ],
   "conceptId": "940387701",
   "Question Text": "What is the highest level of school that you have completed? [text box]",
   "Variable Label": "Education Please describe [text box]",
@@ -24,8 +27,5 @@
   "PII": "No",
   "Notes": "Option only available if EDU = 55 Other",
   "Date added or modified": "9/14/21",
-  "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
-  "Source Question Name - Surveys Only": [
-    "EDU"
-  ]
+  "Question Type": "Optional Multiple Choice with Text Box (text in text box)"
 }

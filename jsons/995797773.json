@@ -1,6 +1,4 @@
 {
-  "conceptId": "995797773",
-  "Question Text": "Any other beverage or soup made with your tap water (such as fruit juice made from concentrate and beverages made from powder)",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,6 +8,11 @@
   "Source Question": [
     "831438612.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "DRINKSWTR1"
+  ],
+  "conceptId": "995797773",
+  "Question Text": "Any other beverage or soup made with your tap water (such as fruit juice made from concentrate and beverages made from powder)",
   "Variable Label": "Any other beverage or soup made with your tap water (such as fruit juice made from concentrate and beverages made from powder)",
   "Variable Name": [
     "SrvLAW_BeverageOrSoup_v1r0"
@@ -19,15 +22,9 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Old Quest Value - Surveys Only": {
-    "995797773.json": "4"
-  },
   "Required": "No",
   "PII": "No",
   "Date added or modified": "1/19/22",
-  "Source Question Name - Surveys Only": [
-    "DRINKSWTR1"
-  ],
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

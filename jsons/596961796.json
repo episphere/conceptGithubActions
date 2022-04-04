@@ -14,6 +14,9 @@
   "Source Question": [
     "596961796.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "PAINREL3_1"
+  ],
   "Variable Label": "Pills per day baby or low-dose aspirin (81 mg or less), don't know",
   "Variable Name": [
     "SrvMRE_LAspirinPillDK_v1r0"
@@ -26,12 +29,8 @@
   "Format/Value": {
     "178420302.json": "77"
   },
-  "Old Quest Value - Surveys Only": "Don't know",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if PAINREL1 = 0",
-  "Date added or modified": "10/6/21",
-  "Source Question Name - Surveys Only": [
-    "PAINREL3_1"
-  ]
+  "Date added or modified": "10/6/21"
 }

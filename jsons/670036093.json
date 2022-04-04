@@ -8,6 +8,9 @@
   "Source Question": [
     "252017075.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "GRID_SECSM"
+  ],
   "conceptId": "670036093",
   "Question Text": "During each of these age ranges, how many people in your household smoked tobacco (such as cigarettes, cigars, or pipes) in your presence? Please do not include yourself.                      Ages 11 to 14",
   "Variable Label": "Ages 11 to 14",
@@ -22,9 +25,6 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "3/7/22",
-  "Source Question Name - Surveys Only": [
-    "GRID_SECSM"
-  ],
   "Format/Value": {
     "503218834.json": "0",
     "759356722.json": "1",
@@ -32,13 +32,5 @@
     "448069154.json": "3",
     "485163252.json": "4",
     "160036380.json": "5"
-  },
-  "Old Quest Value - Surveys Only": {
-    "503218834.json": "1",
-    "759356722.json": "2",
-    "668407984.json": "3",
-    "448069154.json": "4",
-    "485163252.json": "5",
-    "160036380.json": "6"
   }
 }

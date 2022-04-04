@@ -1,0 +1,27 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "912367929.json"
+  ],
+  "conceptId": "459098666",
+  "Question Text": "Menstrual cycle survey completion",
+  "Variable Label": "Flag for menstrual cycle survey",
+  "Variable Name": [
+    "SrvMC_BaseComplete_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Dictionary": "Master Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "3/30/22",
+  "Format/Value": {
+    "972455046.json": "0",
+    "615768760.json": "1",
+    "231311385.json": "2"
+  }
+}

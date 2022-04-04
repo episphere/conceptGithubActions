@@ -8,6 +8,9 @@
   "Source Question": [
     "517307064.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "BREASTSUR"
+  ],
   "conceptId": "492902023",
   "Question Text": "Removal of a part of my breast tissue (breast-conserving surgery (BCS), lumpectomy, partial mastectomy, or segmental mastectomy)",
   "Variable Label": "Removal of a part of my breast tissue (breast-conserving surgery (BCS), lumpectomy, partial mastectomy, or segmental mastectomy)",
@@ -23,9 +26,6 @@
   "PII": "No",
   "Notes": "Only display if MHGROUP9 = breast surgery",
   "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "BREASTSUR"
-  ],
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
