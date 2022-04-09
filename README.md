@@ -95,5 +95,5 @@ and generated these jsons for the cluster (or concept):
 Each of these objects will be stored in the jsons folder under the name "jsons/{conceptId}.json" and the spreadsheet will be stored back into the workbook it was read from.
 
 
-### Web page live @ https://episphere.github.io/conceptGithubActions/web/#conceptId	Source Animal Type	conceptId	Variable Name	Description
+### Web page live @ https://episphere.github.io/conceptGithubActions/web/#conceptId
 
