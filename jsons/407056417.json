@@ -1,18 +1,22 @@
 {
   "Primary Source": [
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "726699695.json"
+    "726699695.json",
+    "131497719.json"
   ],
   "conceptId": "407056417",
   "Question Text": "What was your biological sex assigned at birth?",
   "Variable Label": "Sex at birth",
   "Variable Name": [
-    "SrvBOH_SexAtBirth_v1r0"
+    "SrvBOH_SexAtBirth_v1r0",
+    "SrvBio_Sex_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "SEX"
+    "SEX",
+    ""
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -20,9 +24,21 @@
   "PII": "No",
   "Date added or modified": "12/21/21",
   "Question Type": "Required Multiple Choice",
+  "Formula for Index": [
+    "1027",
+    "1028",
+    "1029"
+  ],
+  "Index": [
+    "1027",
+    "1028",
+    "1029"
+  ],
   "Format/Value": {
     "536341288.json": "0",
     "654207589.json": "1",
     "576796184.json": "2"
-  }
+  },
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No"
 }

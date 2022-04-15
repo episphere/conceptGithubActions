@@ -1,0 +1,37 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "131497719.json"
+  ],
+  "conceptId": "494226443",
+  "Question Text": "Have you ever had COVID-19?",
+  "Variable Label": "COVID Infection",
+  "Variable Name": [
+    "SrvBlU_COV1_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Question Type": "Optional Multiple Choice",
+  "IMS Review Notes": "Column Q added space before the = sign.",
+  "Formula for Index": [
+    "6102",
+    "6103",
+    "6104"
+  ],
+  "Index": [
+    "6102",
+    "6103",
+    "6104"
+  ],
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1",
+    "178420302.json": "77"
+  }
+}

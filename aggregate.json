@@ -135,6 +135,15 @@
   "104053459": {
     "Variable Name": "Not Revoked"
   },
+  "104084564": {
+    "Variable Label": "Long COVID Post-exercise feeling",
+    "Variable Name": [
+      "SrvBlU_COV19B5_v1r0",
+      "SrvBlU_COV20A13_v1r0",
+      "SrvBlU_COV23B4_v1r0",
+      "SrvBlU_COV24A10_v1r0"
+    ]
+  },
   "104278817": {
     "Variable Label": "First Name",
     "Variable Name": [
@@ -142,7 +151,11 @@
     ]
   },
   "104430631": {
-    "Variable Name": "No"
+    "Variable Label": "No permanent teeth lost",
+    "Variable Name": [
+      "[SrvMw_NOPERMTTHLOST_v1r0]",
+      "SrvMw_DENTURES_v1r0"
+    ]
   },
   "104666483": {
     "Variable Label": "Other: Please describe",
@@ -238,6 +251,12 @@
       "SrvLAW_PreWorkState_v1r0"
     ]
   },
+  "108733102": {
+    "Variable Label": "Pneumonia",
+    "Variable Name": [
+      "SrvBlU_COV10_v1r0"
+    ]
+  },
   "109431893": {
     "Variable Label": "Time, Bicycle commute to past work",
     "Variable Name": [
@@ -259,6 +278,9 @@
       "SrvLAW_SeaState2_v1r0"
     ]
   },
+  "110092955": {
+    "Variable Name": "The same day"
+  },
   "110516520": {
     "Variable Label": "Full Street name #2",
     "Variable Name": [
@@ -272,6 +294,12 @@
     "Variable Label": "Zip code",
     "Variable Name": [
       "SrvLAW_PreWorkZip_v1r0"
+    ]
+  },
+  "110872086": {
+    "Variable Label": "Other Long COVID Symptom: Please Describe",
+    "Variable Name": [
+      "SrvBlU_COV19C6A_v1r0"
     ]
   },
   "111082535": {
@@ -310,6 +338,12 @@
       "SrvMRE_Metformin_v1r0"
     ]
   },
+  "112151599": {
+    "Variable Label": "Menstrual Period within last 60 days",
+    "Variable Name": [
+      "SrvBlU_MENST60_v1r0"
+    ]
+  },
   "113064256": {
     "Variable Name": "I have had at least one menstrual period in the past 12 months but the frequency of my period changed (such as it stopped, became irregular, or difficult to predict)"
   },
@@ -337,8 +371,14 @@
       "SrvMRE_LAspirinYr_v1r0"
     ]
   },
+  "113838601": {
+    "Variable Name": "AstraZeneca"
+  },
   "113930886": {
     "Variable Name": "Address 6- What is the full street address of the place you lived before? Please only include addresses where you have lived for at least two years."
+  },
+  "114280729": {
+    "Variable Name": "How long did you experience the following symptoms?"
   },
   "114314839": {
     "Variable Name": "How tall are you with your shoes off?"
@@ -511,12 +551,6 @@
       "BioBPTL_PkgCrushed_v1r0"
     ]
   },
-  "121430614": {
-    "Variable Label": "I do not have reliable access to the internet/a\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"device",
-    "Variable Name": [
-      "HdRef_NoInternet_v1r0"
-    ]
-  },
   "121454001": {
     "Variable Name": "Revoked and signed"
   },
@@ -643,6 +677,12 @@
       "SrvLAW_StNum3_v1r0"
     ]
   },
+  "130311122": {
+    "Variable Label": "Hormone",
+    "Variable Name": [
+      "SrvBlU_HORMONE_v1r0"
+    ]
+  },
   "130371375": {
     "Variable Label": "Payment Round",
     "Variable Name": [
@@ -655,11 +695,8 @@
       "SrvLAW_DrinksWtr2E_Num_v1r0"
     ]
   },
-  "131458944": {
-    "Variable Label": "I am worried that my\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"information could be used to discriminate against me/my\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"family",
-    "Variable Name": [
-      "HdRef_PrivacyH_v1r0"
-    ]
+  "131497719": {
+    "Variable Name": "Blood, Urine, and Mouthwash Collection Form"
   },
   "131550264": {
     "Variable Name": "Fair"
@@ -788,6 +825,9 @@
       "SrvLAW_CurSchT3_v1r0"
     ]
   },
+  "136730307": {
+    "Variable Name": "Since your COVID-19 diagnosis, have you experienced any of the following symptoms? COV19B"
+  },
   "136956596": {
     "Variable Label": "Trichomoniasis",
     "Variable Name": [
@@ -827,6 +867,9 @@
     "Variable Name": [
       "SrvLAW_TapWaterTea_v1r0"
     ]
+  },
+  "138332277": {
+    "Variable Name": "Three to five times per week"
   },
   "138397553": {
     "Variable Label": "Months commute to address",
@@ -948,6 +991,15 @@
       "SrvBOH_Israeli_v1r0"
     ]
   },
+  "144384751": {
+    "Variable Label": "Long COVID More tired than usual",
+    "Variable Name": [
+      "SrvBlU_COV19A3_v1r0",
+      "SrvBlU_COV20A2_v1r0",
+      "SrvBlU_COV23A3_v1r0",
+      "SrvBlU_COV24A3_v1r0"
+    ]
+  },
   "145078867": {
     "Variable Label": "Age stopped using cigars, cigarillos, or little filtered cigars every day",
     "Variable Name": [
@@ -961,6 +1013,15 @@
     "Variable Label": "Submit shipment flag",
     "Variable Name": [
       "BioShip_ShipSubmit_v1r0"
+    ]
+  },
+  "146078807": {
+    "Variable Label": "Long COVID Feeling lightheaded or dizzy",
+    "Variable Name": [
+      "SrvBlU_COV19C1_v1r0",
+      "SrvBlU_COV20A7_v1r0",
+      "SrvBlU_COV23B1_v1r0",
+      "SrvBlU_COV24A7_v1r0"
     ]
   },
   "146307133": {
@@ -1098,6 +1159,15 @@
   "152885579": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had esophageal cancer?"
   },
+  "153166371": {
+    "Variable Label": "Long COVID Troubling remembering things",
+    "Variable Name": [
+      "SrvBlU_COV19A4_v1r0",
+      "SrvBlU_COV20A3_v1r0",
+      "SrvBlU_COV23A4_v1r0",
+      "SrvBlU_COV24A4_v1r0"
+    ]
+  },
   "153211406": {
     "Variable Label": "Preferred Name",
     "Variable Name": [
@@ -1158,6 +1228,12 @@
   "156095877": {
     "Variable Name": "2"
   },
+  "157417942": {
+    "Variable Label": "Other Pandemic Symptom: Please describe textbox",
+    "Variable Name": [
+      "SrvBlU_COV23B8ADesc_v1r0"
+    ]
+  },
   "158044532": {
     "Variable Label": "Diabetes",
     "Variable Name": [
@@ -1212,12 +1288,6 @@
       "SrvSAS_EDevices_v1r0"
     ]
   },
-  "159816243": {
-    "Variable Label": "Payment refused by UoC participant",
-    "Variable Name": [
-      "BioFin_UoCPaymRef_v1r0"
-    ]
-  },
   "160036380": {
     "Variable Name": "Five or more"
   },
@@ -1230,6 +1300,12 @@
       "SrvLAW_SeaCity10_v1r0"
     ]
   },
+  "160627865": {
+    "Variable Label": "Weakness or fatigue",
+    "Variable Name": [
+      "SrvBlU_COV8D_v1r0"
+    ]
+  },
   "161170041": {
     "Variable Label": "City",
     "Variable Name": [
@@ -1240,6 +1316,12 @@
     "Variable Label": "Date of the start of suspend all contact",
     "Variable Name": [
       "HdWd_SuspendDt_v1r0"
+    ]
+  },
+  "162167690": {
+    "Variable Label": "Sore throat",
+    "Variable Name": [
+      "SrvBlU_COV8I_v1r0"
     ]
   },
   "162668459": {
@@ -1264,7 +1346,8 @@
   "163284008": {
     "Variable Label": "I am worried that my information could be used to discriminate against me/my family",
     "Variable Name": [
-      "RcrtSI_OptOut_v1r0_PrivacyJ"
+      "RcrtSI_OptOut_v1r0_PrivacyJ",
+      "HdRef_PrivacyH_v1r0"
     ]
   },
   "163534562": {
@@ -1301,9 +1384,15 @@
     ]
   },
   "164910211": {
-    "Variable Label": "Infectious Mononucleosis (ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œMonoÃƒÂ¢Ã¢â€šÂ¬Ã‚Â or ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œKissing DiseaseÃƒÂ¢Ã¢â€šÂ¬Ã‚Â)",
+    "Variable Label": "Infectious Mononucleosis (Mono or Kissing Disease)",
     "Variable Name": [
       "SrvBOH_Mono_v1r0"
+    ]
+  },
+  "165596977": {
+    "Variable Label": "Water-based flosser or pick/jet past month",
+    "Variable Name": [
+      "SrvMw_WTRPICK1_v1r0"
     ]
   },
   "165923738": {
@@ -1390,6 +1479,12 @@
       "SrvLAW_PreWorkTmDrv_v1r0"
     ]
   },
+  "169509213": {
+    "Variable Label": "Dialysis Days",
+    "Variable Name": [
+      "SrvBlU_COV17B_v1r0"
+    ]
+  },
   "170035952": {
     "Variable Label": "Primary water source",
     "Variable Name": [
@@ -1436,6 +1531,12 @@
     "Variable Label": "Do Not Know 1-Seasonal",
     "Variable Name": [
       "SrvLAW_Seas1DontKnow_v1r0"
+    ]
+  },
+  "173502329": {
+    "Variable Label": "Infection Date Month",
+    "Variable Name": [
+      "SrvBlU_COV3_MONTH_v1r0"
     ]
   },
   "173508724": {
@@ -1540,6 +1641,12 @@
       "SrvSAS_PipeFills2529_v1r0"
     ]
   },
+  "178318661": {
+    "Variable Label": "Stomach pain",
+    "Variable Name": [
+      "SrvBlU_COV8M_v1r0"
+    ]
+  },
   "178353079": {
     "Variable Name": "How old were you when you had your gallbladder removed (cholecystectomy)?"
   },
@@ -1552,7 +1659,8 @@
       "SrvBOH_S1CancerUnk_v1r0",
       "SrvBOH_C1CancerUnk_v1r0",
       "SrvBOH_BsnUnknownC_v1r0",
-      "SrvBOH_BsnUnknownP_v1r0"
+      "SrvBOH_BsnUnknownP_v1r0",
+      "SrvMw_DENTURESDK_v1r0"
     ]
   },
   "178609656": {
@@ -1568,6 +1676,15 @@
     "Variable Label": "father age",
     "Variable Name": [
       "SrvBOH_DadAge_v1r0"
+    ]
+  },
+  "178780048": {
+    "Variable Name": "Yes, I have had this symptom in the past, but I do not have it now"
+  },
+  "179406442": {
+    "Variable Label": "ICU",
+    "Variable Name": [
+      "SrvBlU_COV16A_v1r0"
     ]
   },
   "179510070": {
@@ -1594,12 +1711,6 @@
   "180583933": {
     "Variable Name": "Not active"
   },
-  "180641472": {
-    "Variable Label": "Date/Time payment refused by UC participant",
-    "Variable Name": [
-      "BioFin_TmPaymRef_v1r0"
-    ]
-  },
   "180961306": {
     "Variable Name": "Digestive System Problems- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply."
   },
@@ -1625,7 +1736,8 @@
     "Variable Label": "Other exercise",
     "Variable Name": [
       "SrvMRE_OtherExercise_v1r0",
-      "SrvSAS_OtherAlc_v1r0"
+      "SrvSAS_OtherAlc_v1r0",
+      "SrvMw_DENTOTHER_v1r0"
     ]
   },
   "181786871": {
@@ -1677,6 +1789,12 @@
     "Variable Label": "During the season[s] in the past 12 months that you played golf, about how often did you do this activity?",
     "Variable Name": [
       "SrvMRE_GolfOften_v1r0"
+    ]
+  },
+  "184513726": {
+    "Variable Label": "Teeth-whiteners past month",
+    "Variable Name": [
+      "SrvMw_WHITE1_v1r0"
     ]
   },
   "184681822": {
@@ -1775,6 +1893,12 @@
       "SrvLAW_CurSchApt_v1r0"
     ]
   },
+  "191057574": {
+    "Variable Label": "Last eat drink time",
+    "Variable Name": [
+      "SrvBio_EatDrinkTime_v1r0"
+    ]
+  },
   "191168161": {
     "Variable Name": "What type(s) of transportation do you use to get to [insert address from CURSCH1 - CURSCH3/this address] from home? Select all that apply."
   },
@@ -1819,6 +1943,9 @@
   },
   "193302534": {
     "Variable Name": "Other (Hispanic, Asian, American Indian/Alaskan Native, Native Hawaiian or Pacific Islander) and Hispanic or Latino"
+  },
+  "194129782": {
+    "Variable Name": "2 to 4"
   },
   "194165243": {
     "Variable Label": "Apartment, suite, unit, building, etc.",
@@ -1988,12 +2115,6 @@
       "SrvLAW_Seas1CrDontKnow_v1r0"
     ]
   },
-  "200180620": {
-    "Variable Label": "Payment refused by any participant",
-    "Variable Name": [
-      "SMPaym_JointRefused_v1r0"
-    ]
-  },
   "200183516": {
     "Variable Label": "Vials - Incorrect Material Type",
     "Variable Name": [
@@ -2019,7 +2140,7 @@
     "Variable Name": "9 hours or more"
   },
   "201434907": {
-    "Variable Label": "Spouse/partner\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"s infertility",
+    "Variable Label": "Spouse/partner's infertility",
     "Variable Name": [
       "SrvMRE_Infertility_v1r0"
     ]
@@ -2072,6 +2193,12 @@
       "SrvBOH_Surgery4_v1r0"
     ]
   },
+  "203919683": {
+    "Variable Label": "Toothbrush past month",
+    "Variable Name": [
+      "SrvMw_BRUSH1_v1r0"
+    ]
+  },
   "203943120": {
     "Variable Label": "Time to and from current work same",
     "Variable Name": [
@@ -2121,6 +2248,12 @@
     "Variable Label": "Date/time Status of Start of Background and Overall Health",
     "Variable Name": [
       "SrvBOH_TmStart_v1r0"
+    ]
+  },
+  "205713835": {
+    "Variable Label": "Floss frequency past month",
+    "Variable Name": [
+      "SrvMw_FLOSS2_v1r0"
     ]
   },
   "206020811": {
@@ -2421,8 +2554,21 @@
       "SrvLAW_CurSchT10G_v1r0"
     ]
   },
+  "214414872": {
+    "Variable Label": "No symptoms day",
+    "Variable Name": [
+      "SrvBio_NoSymptDay_v1r0"
+    ]
+  },
   "214456996": {
     "Variable Name": "Eligibility Screener"
+  },
+  "214734819": {
+    "Variable Label": "Long COVID Return to work or school",
+    "Variable Name": [
+      "SrvBlU_COV19B3_v1r0",
+      "SrvBlU_COV20A11_v1r0"
+    ]
   },
   "214750556": {
     "Variable Label": "During the season[s] in the past 12 months that you did surfing or bodyboarding, about how often did you do this activity?",
@@ -2450,6 +2596,12 @@
   },
   "215455305": {
     "Variable Name": "In total, how many months or years have you used combined oral contraceptive pills?"
+  },
+  "215662651": {
+    "Variable Label": "Full Denture",
+    "Variable Name": [
+      "SrvMw_FULLDENT_v1r0"
+    ]
   },
   "216096388": {
     "Variable Label": "Do Not Know 9-Seasonal",
@@ -2490,6 +2642,12 @@
   "218595434": {
     "Variable Name": "Verification"
   },
+  "218852075": {
+    "Variable Label": "Other: Please describe text box",
+    "Variable Name": [
+      "SrvBlU_COV8S_OTH_v1r0"
+    ]
+  },
   "219317801": {
     "Variable Name": "Thinking about the one-way trip from [insert address from CURSCH1 - CURSCH3/this address] to your home on a usual day, about how much time do you usually spend in each type of transportation?"
   },
@@ -2513,6 +2671,12 @@
   },
   "219956652": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had ductal carcinoma in situ of the breast?"
+  },
+  "220055064": {
+    "Variable Label": "Vaccine Brand",
+    "Variable Name": [
+      "SrvBlU_COV28_v1r0"
+    ]
   },
   "220083334": {
     "Variable Name": "Very feminine"
@@ -2573,6 +2737,9 @@
     "Variable Name": [
       "BioCol_0009_v1r0"
     ]
+  },
+  "224099497": {
+    "Variable Name": "Yes, mostly"
   },
   "224120697": {
     "Variable Name": "Reddish-Brown"
@@ -2712,6 +2879,12 @@
   "234177873": {
     "Variable Name": "During the time(s) that you were taking Naproxen, about how many days per week OR per month did you take it? Please choose whichever makes the most sense for you."
   },
+  "234714655": {
+    "Variable Label": "Pregnant in last 3 months",
+    "Variable Name": [
+      "SrvBlU_PREG3MON_v1r0"
+    ]
+  },
   "234731641": {
     "Variable Name": "Address 7- What year did you move out of [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]?"
   },
@@ -2719,6 +2892,12 @@
     "Variable Label": "Tubes Collected",
     "Variable Name": [
       "BioPack_TubesColl_v1r0"
+    ]
+  },
+  "235386560": {
+    "Variable Label": "Diarrhea day",
+    "Variable Name": [
+      "SrvBio_DiarrDay_v1r0"
     ]
   },
   "235516216": {
@@ -2868,6 +3047,9 @@
     "Variable Name": [
       "SrvLAW_HomeMoveIn8_v1r0"
     ]
+  },
+  "244354126": {
+    "Variable Name": "No, I never had this symptom"
   },
   "244488084": {
     "Variable Label": "Other: Please describe commute from current work",
@@ -3138,10 +3320,25 @@
       "SrvSAS_EdiblesEDAgeL_v1r0"
     ]
   },
+  "259744087": {
+    "Variable Label": "Mouthwash for sensitive teeth",
+    "Variable Name": [
+      "SrvMw_MWSENSITIVE1_v1r0"
+    ]
+  },
   "260133861": {
     "Variable Label": "Additional Notes (Optional)",
     "Variable Name": [
       "BioRec_NoteOpt_v1r0"
+    ]
+  },
+  "260316992": {
+    "Variable Label": "Long COVID Mood changes",
+    "Variable Name": [
+      "SrvBlU_COV19C4_v1r0",
+      "SrvBlU_COV20A15_v1r0",
+      "SrvBlU_COV23B6_v1r0",
+      "SrvBlU_COV24A12_v1r0"
     ]
   },
   "260703126": {
@@ -3554,6 +3751,12 @@
       "SrvMRE_InsulinUnitsDK_v1r0"
     ]
   },
+  "273371161": {
+    "Variable Label": "Recovery",
+    "Variable Name": [
+      "SrvBlU_COV21_v1r0"
+    ]
+  },
   "273437590": {
     "Variable Name": "Consent"
   },
@@ -3736,6 +3939,12 @@
       "SrvMRE_DiseasePrev_v1r0"
     ]
   },
+  "283776061": {
+    "Variable Label": "Conjunctivitis",
+    "Variable Name": [
+      "SrvBlU_COV8R_v1r0"
+    ]
+  },
   "283900560": {
     "Variable Label": "State/Province",
     "Variable Name": [
@@ -3846,7 +4055,7 @@
     "Variable Name": "Yes, fraternal twins (not identical)"
   },
   "288109261": {
-    "Variable Name": "Seasonal Address 10- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select â€œI still spend time here.â€"
+    "Variable Name": "Seasonal Address 10- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select Ã¢â‚¬Å“I still spend time here.Ã¢â‚¬Â"
   },
   "288321056": {
     "Variable Name": "Married"
@@ -3861,6 +4070,12 @@
     "Variable Label": "Time, Walking commute from current work",
     "Variable Name": [
       "SrvLAW_CurWorkT10G_v1r0"
+    ]
+  },
+  "289322354": {
+    "Variable Label": "Material Thawed",
+    "Variable Name": [
+      "BioBPTL_MaterialThaw_v1r0"
     ]
   },
   "289664241": {
@@ -3930,6 +4145,12 @@
     "Variable Label": "Country",
     "Variable Name": [
       "SrvLAW_CurWorkCountry_v1r0"
+    ]
+  },
+  "294886836": {
+    "Variable Label": "Gum Hour Before",
+    "Variable Name": [
+      "SrvMw_GUMBEFORE_v1r0"
     ]
   },
   "295472931": {
@@ -4015,6 +4236,12 @@
       "SrvBOH_Child1Age_v1r0"
     ]
   },
+  "299417266": {
+    "Variable Label": "Last sleep time",
+    "Variable Name": [
+      "SrvBio_SleepTime_v1r0"
+    ]
+  },
   "299553921": {
     "Variable Label": "Serum Separator Tube 1",
     "Variable Name": [
@@ -4065,6 +4292,13 @@
   },
   "303095574": {
     "Variable Name": "Sound and restful"
+  },
+  "303278227": {
+    "Variable Label": "Long COVID Return to usual activities",
+    "Variable Name": [
+      "SrvBlU_COV19B4_v1r0",
+      "SrvBlU_COV20A12_v1r0"
+    ]
   },
   "303349821": {
     "Variable Name": "Marshfield Clinic Health System"
@@ -4217,6 +4451,13 @@
   "311891586": {
     "Variable Name": "What type(s) of transportation did you use to get from your home to [insert address from PREWORK1 - PREWORK3/this address]? Select all that apply."
   },
+  "311897929": {
+    "Variable Label": "Long COVID Exercise ability",
+    "Variable Name": [
+      "SrvBlU_COV19B2_v1r0",
+      "SrvBlU_COV20A10_v1r0"
+    ]
+  },
   "311981718": {
     "Variable Name": "Bottled water, including water from a store dispenser or delivered to your home"
   },
@@ -4259,6 +4500,9 @@
       "SrvLAW_SeaAddYrs2_10Yr_v1r0"
     ]
   },
+  "314487612": {
+    "Variable Name": "More than 2 years ago"
+  },
   "315032037": {
     "Variable Label": "Date/Time SSN Survey completed",
     "Variable Name": [
@@ -4280,6 +4524,9 @@
   "317718701": {
     "Variable Name": "101 to 150 feet"
   },
+  "317811347": {
+    "Variable Name": "Do not know"
+  },
   "318130543": {
     "Variable Label": "Alternate contact home phone",
     "Variable Name": [
@@ -4296,6 +4543,12 @@
     "Variable Label": "Deep private well",
     "Variable Name": [
       "SrvLAW_DeepPrivWell8_v1r0"
+    ]
+  },
+  "318641324": {
+    "Variable Label": "Antibiotics time",
+    "Variable Name": [
+      "SrvMw_ANTIBIOTIME_v1r0"
     ]
   },
   "319252189": {
@@ -4364,6 +4617,15 @@
       "SrvBOH_DailyPain_v1r0"
     ]
   },
+  "324030618": {
+    "Variable Label": "Long COVID Heart racing",
+    "Variable Name": [
+      "SrvBlU_COV19C2_v1r0",
+      "SrvBlU_COV20A8_v1r0",
+      "SrvBlU_COV23B2_v1r0",
+      "SrvBlU_COV24A8_v1r0"
+    ]
+  },
   "324692899": {
     "Variable Name": "Non-screening appointment"
   },
@@ -4421,6 +4683,15 @@
   "327912200": {
     "Variable Name": "Kaiser Permanente Georgia"
   },
+  "329536041": {
+    "Variable Label": "Dental Bridge",
+    "Variable Name": [
+      "SrvMw_DENTBRIDGE_v1r0"
+    ]
+  },
+  "330461666": {
+    "Variable Name": "More than a day before"
+  },
   "330492115": {
     "Variable Label": "Time, Bicycle commute to current school",
     "Variable Name": [
@@ -4428,7 +4699,7 @@
     ]
   },
   "330745988": {
-    "Variable Name": "My periods stopped because I began taking female hormones during the menopausal transition or menopause (\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"the change of life\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\")"
+    "Variable Name": "My periods stopped because I began taking female hormones during the menopausal transition or menopause (the change of life)"
   },
   "331584571": {
     "Variable Label": "Select visit",
@@ -4598,6 +4869,12 @@
       "SrvBOH_PainRank_v1r0"
     ]
   },
+  "339570897": {
+    "Variable Label": "Last Dental Cleaning",
+    "Variable Name": [
+      "SrvMw_DENTALCLEAN_v1r0"
+    ]
+  },
   "340854069": {
     "Variable Label": "Height feet",
     "Variable Name": [
@@ -4727,6 +5004,18 @@
       "SrvSAS_THCServing17_v1r0"
     ]
   },
+  "349659426": {
+    "Variable Label": "alcohol-based mouthwash frequency past month",
+    "Variable Name": [
+      "SrvMw_MWALC_v1r0"
+    ]
+  },
+  "350251057": {
+    "Variable Label": "Oral Health",
+    "Variable Name": [
+      "SrvMw_ORALHLTH_v1r0"
+    ]
+  },
   "350394531": {
     "Variable Label": "Do Not Know Previous Employer",
     "Variable Name": [
@@ -4795,6 +5084,12 @@
   },
   "353358909": {
     "Variable Name": "Yes"
+  },
+  "353467497": {
+    "Variable Label": "Water-based flosser or pick/jet frequency past month",
+    "Variable Name": [
+      "SrvMw_WTRPICK2_v1r0"
+    ]
   },
   "354020985": {
     "Variable Name": "Previous address 6"
@@ -4934,6 +5229,12 @@
       "SrvSAS_Cigar5059_v1r0"
     ]
   },
+  "365685000": {
+    "Variable Label": "Partial Denture",
+    "Variable Name": [
+      "SrvMw_PARTDENT_v1r0"
+    ]
+  },
   "365851428": {
     "Variable Label": "Hair female",
     "Variable Name": [
@@ -4944,6 +5245,18 @@
     "Variable Label": "Who Requested the Refusal/Withdrawal- Other (specify):",
     "Variable Name": [
       "HdWd_RequestedRefWdOth_v1r0"
+    ]
+  },
+  "366972678": {
+    "Variable Label": "Infection Date Year",
+    "Variable Name": [
+      "SrvBlU_COV3_YEAR_v1r0"
+    ]
+  },
+  "366980310": {
+    "Variable Label": "Positive Test",
+    "Variable Name": [
+      "SrvBlU_COV4_v1r0"
     ]
   },
   "367374606": {
@@ -4964,6 +5277,12 @@
       "SrvLAW_SeaCity8_v1r0"
     ]
   },
+  "367747257": {
+    "Variable Label": "Nasal congestion",
+    "Variable Name": [
+      "SrvBlU_COV8H_v1r0"
+    ]
+  },
   "367803647": {
     "Variable Label": "Education level",
     "Variable Name": [
@@ -4972,6 +5291,13 @@
   },
   "367884741": {
     "Variable Name": "How old were you when you had your tonsils removed (tonsillectomy)?"
+  },
+  "368469776": {
+    "Variable Label": "Long COVID Muscle aches",
+    "Variable Name": [
+      "SrvBlU_COV19C5_v1r0",
+      "SrvBlU_COV20A16_v1r0"
+    ]
   },
   "368486703": {
     "Variable Label": "Country",
@@ -4983,6 +5309,12 @@
     "Variable Label": "Last time took over-the-counter H2 receptor blockers",
     "Variable Name": [
       "SrvMRE_H2RecBlOCTime_v1r0"
+    ]
+  },
+  "368715875": {
+    "Variable Label": "Other Pandemic-  Presence: Please describe",
+    "Variable Name": [
+      "SrvBlU_COV23B8B_v1r0"
     ]
   },
   "368973683": {
@@ -5061,12 +5393,6 @@
     "Variable Label": "Serophene",
     "Variable Name": [
       "SrvMRE_Serophene_v1r0"
-    ]
-  },
-  "372303208": {
-    "Variable Label": "I am worried that my\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"information will be used by others to make a profit",
-    "Variable Name": [
-      "HdRef_PrivacyI_v1r0"
     ]
   },
   "372398512": {
@@ -5193,6 +5519,12 @@
       "SrvBOH_Tunisian_v1r0"
     ]
   },
+  "380603392": {
+    "Variable Label": "Menstrual Period",
+    "Variable Name": [
+      "SrvBlU_MENSTPRD_v1r0"
+    ]
+  },
   "380621340": {
     "Variable Name": "Address 2- What year did you move out of [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]?"
   },
@@ -5218,11 +5550,17 @@
   "381878591": {
     "Variable Name": "Moderate hair loss on the sides of the forehead as far back as the front of the ears, and moderate loss from the center of the forehead. Also, mild baldness on the top (crown) of the head. The two areas of hair loss are separated by a section of hair that goes across the top of the head."
   },
+  "382679079": {
+    "Variable Name": "More than 1 week ago, but in the past 4 weeks"
+  },
   "383015037": {
     "Variable Label": "Home repair (such as painting, plumbing, or replacing carpeting)",
     "Variable Name": [
       "SrvMRE_HomeRepair_v1r0"
     ]
+  },
+  "383505459": {
+    "Variable Name": "More than one, but not sure how many"
   },
   "383535171": {
     "Variable Name": "Season Address 6- What is the full street address of your seasonal or vacation home?"
@@ -5311,7 +5649,8 @@
   "387198193": {
     "Variable Label": "I am worried that my information will be used by others to make a profit",
     "Variable Name": [
-      "RcrtSI_OptOut_v1r0_PrivacyK"
+      "RcrtSI_OptOut_v1r0_PrivacyK",
+      "HdRef_PrivacyI_v1r0"
     ]
   },
   "387489930": {
@@ -5356,6 +5695,12 @@
   "388804810": {
     "Variable Name": "During the time(s) that you were taking ibuprofen, about how many days per week OR per month did you take it? Please choose whichever makes the most sense for you."
   },
+  "389465772": {
+    "Variable Label": "Blood clots",
+    "Variable Name": [
+      "SrvBlU_COV11_v1r0"
+    ]
+  },
   "389478638": {
     "Variable Label": "State/Province",
     "Variable Name": [
@@ -5369,7 +5714,10 @@
     ]
   },
   "390351864": {
-    "Variable Name": "Mouthwash"
+    "Variable Label": "Mouthwash past month",
+    "Variable Name": [
+      "SrvMw_MW1_v1r0"
+    ]
   },
   "390463636": {
     "Variable Label": "State/Province",
@@ -5441,6 +5789,12 @@
     "Variable Label": "Use cigars, cigarillos, or little filtered cigars every day, age last used",
     "Variable Name": [
       "SrvSAS_AgeUseCigarED_v1r0"
+    ]
+  },
+  "395747093": {
+    "Variable Label": "Vaccine Brand - Descriptive",
+    "Variable Name": [
+      "SrvBlU_COV28Desc_v1r0"
     ]
   },
   "396618548": {
@@ -5530,6 +5884,15 @@
   "402335383": {
     "Variable Name": "Less than 12 times per year"
   },
+  "402501336": {
+    "Variable Label": "Long COVID Trouble thinking or making decisions",
+    "Variable Name": [
+      "SrvBlU_COV19A6_v1r0",
+      "SrvBlU_COV20A5_v1r0",
+      "SrvBlU_COV23A6_v1r0",
+      "SrvBlU_COV24A6_v1r0"
+    ]
+  },
   "402548942": {
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had breast cancer?"
   },
@@ -5558,7 +5921,7 @@
     ]
   },
   "404118353": {
-    "Variable Name": "Seasonal Address 6- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select â€œI still spend time here.â€"
+    "Variable Name": "Seasonal Address 6- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select Ã¢â‚¬Å“I still spend time here.Ã¢â‚¬Â"
   },
   "404141282": {
     "Variable Label": "Apartment, suite, unit, building, etc.",
@@ -5570,6 +5933,12 @@
     "Variable Label": "Participant is incarcerated",
     "Variable Name": [
       "HdRef_Incarcerated_v1r0"
+    ]
+  },
+  "404389800": {
+    "Variable Label": "Peroxide mouthwash",
+    "Variable Name": [
+      "SrvMw_MWPEROX1_v1r0"
     ]
   },
   "404564707": {
@@ -5632,6 +6001,9 @@
       "SrvMRE_SnoreDescribe_v1r0"
     ]
   },
+  "406270109": {
+    "Variable Name": "In the last month, which of these mouthwash products have you used? Select all that apply"
+  },
   "406650257": {
     "Variable Name": "8"
   },
@@ -5647,10 +6019,18 @@
       "SrvBOH_GERD_v1r0"
     ]
   },
+  "406943303": {
+    "Variable Label": "Fever day",
+    "Variable Name": [
+      "SrvBio_FeverDay_v1r0",
+      "SrvBlU_COV8A_v1r0"
+    ]
+  },
   "407056417": {
     "Variable Label": "Sex at birth",
     "Variable Name": [
-      "SrvBOH_SexAtBirth_v1r0"
+      "SrvBOH_SexAtBirth_v1r0",
+      "SrvBio_Sex_v1r0"
     ]
   },
   "407167089": {
@@ -5729,6 +6109,9 @@
     "Variable Name": [
       "SrvLAW_CurWorkEmp_v1r0"
     ]
+  },
+  "411943417": {
+    "Variable Name": "Johnson & Johnson"
   },
   "411960217": {
     "Variable Label": "When daily user, number of marijana with tobacco per day",
@@ -5914,6 +6297,12 @@
       "SrvBOH_MomAgeDeath_v1r0"
     ]
   },
+  "423283665": {
+    "Variable Label": "Body or muscle aches",
+    "Variable Name": [
+      "SrvBlU_COV8C_v1r0"
+    ]
+  },
   "423547108": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had endometriosis?"
   },
@@ -5957,6 +6346,12 @@
     "Variable Label": "Full Street name #2",
     "Variable Name": [
       "SrvLAW_SeaStrtName5_v1r0"
+    ]
+  },
+  "424718457": {
+    "Variable Label": "Other Pandemic Symptom: Please describe",
+    "Variable Name": [
+      "SrvBlU_COV23B8A_v1r0"
     ]
   },
   "424768954": {
@@ -6022,6 +6417,24 @@
   "429634576": {
     "Variable Name": "Shipping - Temp Probe"
   },
+  "429994023": {
+    "Variable Label": "Tongue Scraper frequency past month",
+    "Variable Name": [
+      "SrvMw_TONGUE2_v1r0"
+    ]
+  },
+  "430060900": {
+    "Variable Label": "mouthwash for sensitive teeth frequency past month",
+    "Variable Name": [
+      "SrvMw_MWSENSITIVE_v1r0"
+    ]
+  },
+  "430166879": {
+    "Variable Label": "Breathing Tube or Ventilator Days",
+    "Variable Name": [
+      "SrvBlU_COV15B_v1r0"
+    ]
+  },
   "430472084": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Pancreatitis?"
   },
@@ -6032,7 +6445,7 @@
     ]
   },
   "431428747": {
-    "Variable Label": "I am too sick/my health is too poor\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"to participate",
+    "Variable Label": "I am too sick/my health is too poor to participate",
     "Variable Name": [
       "HdRef_Sick_v1r0"
     ]
@@ -6150,7 +6563,7 @@
     "Variable Name": "Recreation"
   },
   "437395872": {
-    "Variable Name": "Seasonal Address 9- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select â€œI still spend time here.â€"
+    "Variable Name": "Seasonal Address 9- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select Ã¢â‚¬Å“I still spend time here.Ã¢â‚¬Â"
   },
   "438475588": {
     "Variable Label": "Full Street name",
@@ -6422,6 +6835,12 @@
   "450985724": {
     "Variable Name": "46-50"
   },
+  "451163824": {
+    "Variable Label": "Daily activity interference",
+    "Variable Name": [
+      "SrvBlU_COV7_v1r0"
+    ]
+  },
   "451310566": {
     "Variable Label": "Months at address",
     "Variable Name": [
@@ -6466,6 +6885,12 @@
   },
   "452412599": {
     "Variable Name": "Kaiser Permanente Northwest"
+  },
+  "452438775": {
+    "Variable Label": "Permanent teeth lost from tooth decay or disease",
+    "Variable Name": [
+      "[SrvMw_PERMTTHLOST2_v1r0]"
+    ]
   },
   "452942800": {
     "Variable Label": "Date/time Status of Start of Where You Live and Work",
@@ -6647,6 +7072,12 @@
   "460062034": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had blood clots (deep vein thrombosis, pulmonary embolism)?"
   },
+  "460873842": {
+    "Variable Label": "cetylpyridinium chloride mouthwash  frequency past month",
+    "Variable Name": [
+      "SrvMw_MWCETYL_v1r0"
+    ]
+  },
   "461488577": {
     "Variable Label": "Email or text invitation",
     "Variable Name": [
@@ -6683,6 +7114,12 @@
   "463122075": {
     "Variable Name": "Water from a refrigerator that has a water filter"
   },
+  "463302301": {
+    "Variable Label": "Cetylpyridinium chloride mouthwash",
+    "Variable Name": [
+      "SrvMw_MWCETYL1_v1r0"
+    ]
+  },
   "463625040": {
     "Variable Label": "Time from account to social security",
     "Variable Name": [
@@ -6706,6 +7143,9 @@
   },
   "464169461": {
     "Variable Name": "10 to 15 hours per day"
+  },
+  "464631026": {
+    "Variable Name": "Very much"
   },
   "464753847": {
     "Variable Name": "Less than 30 minutes"
@@ -6820,6 +7260,9 @@
     "Variable Name": [
       "SrvSAS_HookahTm6069_v1r0"
     ]
+  },
+  "470484596": {
+    "Variable Name": "Did you have any of the following symptoms in the 24 hours before you donated your samples? Select all that apply."
   },
   "470862706": {
     "Variable Name": "What type(s) of alcoholic beverages did you usually drink?"
@@ -6946,6 +7389,9 @@
     "Variable Name": [
       "SrvBOH_Sib1AgeNum_v1r0"
     ]
+  },
+  "479143504": {
+    "Variable Name": "Next, we have a few questions about your oral health and routine that will help us better understand your mouthwash (saliva) sample. In the lastmonth, which of these oral hygiene products have you used? Select all that apply."
   },
   "479278368": {
     "Variable Label": "Last Name",
@@ -7118,6 +7564,9 @@
   "487265825": {
     "Variable Name": "Previous address 9"
   },
+  "487532606": {
+    "Variable Name": "Have you taken any of these medications in the past month? If so, please share the last time you took each type of medication before donating your samples. If you are not sure of an answer, please make your best guess"
+  },
   "487917585": {
     "Variable Label": "Non-melanoma skin (basal or squamous)",
     "Variable Name": [
@@ -7175,7 +7624,8 @@
   "491099823": {
     "Variable Label": "I do not have reliable access to the internet/a device",
     "Variable Name": [
-      "RcrtSI_OptOut_v1r0_access"
+      "RcrtSI_OptOut_v1r0_access",
+      "HdRef_NoInternet_v1r0"
     ]
   },
   "491337167": {
@@ -7242,6 +7692,12 @@
     "Variable Label": "Diabetes type",
     "Variable Name": [
       "SrvBOH_DiabetesType_v1r0"
+    ]
+  },
+  "494226443": {
+    "Variable Label": "COVID Infection",
+    "Variable Name": [
+      "SrvBlU_COV1_v1r0"
     ]
   },
   "494271326": {
@@ -7355,14 +7811,32 @@
       "SrvMRE_H2RecBlockOCYA_v1r0"
     ]
   },
+  "498462481": {
+    "Variable Label": "Healthcare Provider",
+    "Variable Name": [
+      "SrvBlU_COV5_v1r0"
+    ]
+  },
   "498799217": {
     "Variable Label": "No cause was found",
     "Variable Name": [
       "SrvMRE_NoPregIssCause_v1r0"
     ]
   },
+  "498984275": {
+    "Variable Label": "Toothbrush frequency past month",
+    "Variable Name": [
+      "SrvMw_BRUSH2_v1r0"
+    ]
+  },
   "499434567": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had cancer?"
+  },
+  "499977481": {
+    "Variable Label": "Teeth whiteners frequency past month",
+    "Variable Name": [
+      "SrvMw_WHITE2_v1r0"
+    ]
   },
   "500023550": {
     "Variable Name": "I had surgery to remove remove my whole prostaste"
@@ -7661,6 +8135,12 @@
   "518750011": {
     "Variable Name": "How old were you when you had a vasectomy?"
   },
+  "518916981": {
+    "Variable Label": "Pregnant",
+    "Variable Name": [
+      "SrvBlU_PREGNANT_v1r0"
+    ]
+  },
   "519402449": {
     "Variable Name": "Race Unavailable/Unknown and Ethnicity Unavailable/Unknown"
   },
@@ -7688,6 +8168,12 @@
       "RcrtES_Aware_v1r0_TV"
     ]
   },
+  "520416570": {
+    "Variable Label": "chlorhexidine mouthwash  frequency past month",
+    "Variable Name": [
+      "SrvMw_MWCHLOR_v1r0"
+    ]
+  },
   "520432394": {
     "Variable Label": "Surgery for a breast abscess (such as incision and draining)",
     "Variable Name": [
@@ -7698,6 +8184,12 @@
     "Variable Label": "Full Street name #1",
     "Variable Name": [
       "SrvLAW_SeaStrName8_v1r0"
+    ]
+  },
+  "520755310": {
+    "Variable Label": "NSAIDS",
+    "Variable Name": [
+      "SrvBlU_NSAIDs_v1r0"
     ]
   },
   "520808137": {
@@ -7757,6 +8249,12 @@
   "523188839": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had HIV/AIDS?"
   },
+  "523660949": {
+    "Variable Label": "Mouthwash for dry mouth",
+    "Variable Name": [
+      "SrvMw_MWDRY1_v1r0"
+    ]
+  },
   "523768810": {
     "Variable Label": "Worried about receiving results from the study",
     "Variable Name": [
@@ -7765,6 +8263,12 @@
   },
   "524029283": {
     "Variable Name": "I had surgery to remove remove part of my prostate"
+  },
+  "524258008": {
+    "Variable Label": "Nausea",
+    "Variable Name": [
+      "SrvBlU_COV8O_v1r0"
+    ]
   },
   "524305502": {
     "Variable Label": "Deep private well",
@@ -7837,6 +8341,12 @@
   },
   "526602834": {
     "Variable Name": "3 servings"
+  },
+  "526973271": {
+    "Variable Label": "Peroxide mouthwash frequency past month",
+    "Variable Name": [
+      "SrvMw_MWPEROX_v1r0"
+    ]
   },
   "527057404": {
     "Variable Name": "How old were you when you had your penis removed (penectomy)?"
@@ -8167,6 +8677,9 @@
     "Variable Name": [
       "SrvMRE_AnyCombPillDesc_v1r0"
     ]
+  },
+  "542661394": {
+    "Variable Name": "Do you currently use any type of dentures or dental appliance? Please select all you have."
   },
   "542763783": {
     "Variable Label": "Full Street name #1",
@@ -8571,6 +9084,12 @@
       "SrvSAS_TotTmEMJDaily_v1r0"
     ]
   },
+  "563539159": {
+    "Variable Label": "Breastfeeding in last 3 months",
+    "Variable Name": [
+      "SrvBlU_BRSTFD3MON_v1r0"
+    ]
+  },
   "563663099": {
     "Variable Label": "Days oral progestin-only cycle use",
     "Variable Name": [
@@ -8664,6 +9183,9 @@
   "567590935": {
     "Variable Name": "Revoked but not signed"
   },
+  "567908725": {
+    "Variable Name": "Somewhat"
+  },
   "568113091": {
     "Variable Label": "Age stopped using chewing tobacco, snus, snuff, or dip  every day",
     "Variable Name": [
@@ -8680,6 +9202,15 @@
     "Variable Label": "Time, Walking commute to current work",
     "Variable Name": [
       "SrvLAW_CurWorkT2G_v1r0"
+    ]
+  },
+  "570020767": {
+    "Variable Label": "Long COVID Appetite changes",
+    "Variable Name": [
+      "SrvBlU_COV19A2_v1r0",
+      "SrvBlU_COV20A6_v1r0",
+      "SrvBlU_COV23A2_v1r0",
+      "SrvBlU_COV24A2_v1r0"
     ]
   },
   "570171052": {
@@ -8832,6 +9363,12 @@
   "578176688": {
     "Variable Name": "In total, how many months or years have you used combined oral estrogen plus progestin pill?"
   },
+  "578402172": {
+    "Variable Label": "Tongue Cleaner or Scraper past month",
+    "Variable Name": [
+      "SrvMw_TONGUE1_v1r0"
+    ]
+  },
   "578416151": {
     "Variable Label": "Uterus",
     "Variable Name": [
@@ -8849,6 +9386,16 @@
   },
   "579225381": {
     "Variable Name": "How old were you when you had removal of a lactiferous or milk duct (microdochectomy)?"
+  },
+  "579409935": {
+    "Variable Label": "Trouble sleeping",
+    "Variable Name": [
+      "SrvBlU_COV8F_v1r0",
+      "SrvBlU_COV19C3_v1r0",
+      "SrvBlU_COV20A14_v1r0",
+      "SrvBlU_COV23B5_v1r0",
+      "SrvBlU_COV24A11_v1r0"
+    ]
   },
   "579563781": {
     "Variable Label": "Sibling 1 sex at birth",
@@ -8995,6 +9542,9 @@
       "SrvSAS_THCServingNumDK_v1r0"
     ]
   },
+  "586272115": {
+    "Variable Name": "Yes, I have had this in the past, but I am not experiencing it now"
+  },
   "586306068": {
     "Variable Label": "How much time electronic marijuana delivery devices used, [X / 70] and older",
     "Variable Name": [
@@ -9035,6 +9585,12 @@
     "Variable Label": "City",
     "Variable Name": [
       "SrvLAW_City2_v1r0"
+    ]
+  },
+  "589004291": {
+    "Variable Label": "Other Pandemic Symptom- Duration: Please describe",
+    "Variable Name": [
+      "SrvBlU_COV24A14_v1r0"
     ]
   },
   "589224449": {
@@ -9094,10 +9650,19 @@
       "SrvSAS_ECigDaysUse_v1r0"
     ]
   },
+  "591670915": {
+    "Variable Name": "Yes, in the past month"
+  },
   "591723682": {
     "Variable Label": "Is sleep schedule determined by your job, school, or other activities",
     "Variable Name": [
       "SrvMRE_SleepSched_v1r0"
+    ]
+  },
+  "591826144": {
+    "Variable Label": "Other Long COVID Symptom- Presence: Please Describe",
+    "Variable Name": [
+      "SrvBlU_COV19C6B_v1r0"
     ]
   },
   "592227431": {
@@ -9189,7 +9754,7 @@
     "Variable Name": "What is the name and the street address of the workplace that you commute to most often?"
   },
   "596510649": {
-    "Variable Label": "I am worried\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"my\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"information isn\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"t secure or there will be a data breach",
+    "Variable Label": "I am worried my information is not secure or there will be a data breach",
     "Variable Name": [
       "HdRef_PrivacyE_v1r0"
     ]
@@ -9401,8 +9966,14 @@
       "SrvLAW_State9_v1r0"
     ]
   },
+  "613022284": {
+    "Variable Label": "No Refrigerant",
+    "Variable Name": [
+      "BioBPTL_NoRefrigerant_v1r0"
+    ]
+  },
   "613251957": {
-    "Variable Name": "Seasonal Address 8- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select â€œI still spend time here.â€"
+    "Variable Name": "Seasonal Address 8- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select Ã¢â‚¬Å“I still spend time here.Ã¢â‚¬Â"
   },
   "613641698": {
     "Variable Label": "Date HIPAA revocation signed",
@@ -9504,6 +10075,12 @@
     "Variable Label": "Jog or run",
     "Variable Name": [
       "SrvMRE_JogRun_v1r0"
+    ]
+  },
+  "619765650": {
+    "Variable Label": "Tylenol®",
+    "Variable Name": [
+      "SrvBlU_Tylenol_v1r0"
     ]
   },
   "619799524": {
@@ -9822,6 +10399,12 @@
       "SrvMRE_Bedtime_v1r0"
     ]
   },
+  "637540387": {
+    "Variable Label": "Other Long COVID Symptom: Please Describe textbox",
+    "Variable Name": [
+      "SrvBlU_COV19C6ADesc_v1r0"
+    ]
+  },
   "637900673": {
     "Variable Name": "Once per month"
   },
@@ -9841,6 +10424,15 @@
     "Variable Label": "I am worried the study might find something concerning about me",
     "Variable Name": [
       "HdRef_Worried_v1r0"
+    ]
+  },
+  "639639385": {
+    "Variable Label": "Long COVID Trouble paying attention",
+    "Variable Name": [
+      "SrvBlU_COV19A5_v1r0",
+      "SrvBlU_COV20A4_v1r0",
+      "SrvBlU_COV23A5_v1r0",
+      "SrvBlU_COV24A5_v1r0"
     ]
   },
   "639684251": {
@@ -9904,6 +10496,12 @@
       "SrvMRE_Danazol_v1r0"
     ]
   },
+  "642044281": {
+    "Variable Label": "Tobacco Hour Before",
+    "Variable Name": [
+      "SrvMw_TOBACCOBEFORE_v1r0"
+    ]
+  },
   "642287621": {
     "Variable Label": "Social media post (on Facebook, Twitter, Instagram, or other channels)",
     "Variable Name": [
@@ -9938,6 +10536,12 @@
     "Variable Label": "Time per day spent doing vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)",
     "Variable Name": [
       "SrvMRE_VigChoreTime_v1r0"
+    ]
+  },
+  "644459734": {
+    "Variable Label": "Menstrual Start Date",
+    "Variable Name": [
+      "SrvBlU_MENSTART_v1r0"
     ]
   },
   "645051966": {
@@ -10162,6 +10766,12 @@
       "SrvMRE_LightWalking_v1r0"
     ]
   },
+  "652923023": {
+    "Variable Label": "Vaccine Date Year",
+    "Variable Name": [
+      "SrvBlU_COV27_YEAR_v1r0"
+    ]
+  },
   "653181757": {
     "Variable Label": "Apartment, suite, unit, building, etc.",
     "Variable Name": [
@@ -10172,6 +10782,12 @@
     "Variable Label": "Age first consumed marijuana in food or drinks on a regular basis, Never consumed",
     "Variable Name": [
       "SrvSAS_EdiblesNever_v1r0"
+    ]
+  },
+  "653630699": {
+    "Variable Label": "New loss of taste or smell",
+    "Variable Name": [
+      "SrvBlU_COV8G_v1r0"
     ]
   },
   "653906464": {
@@ -10225,6 +10841,12 @@
       "SrvLAW_CurSchOthCommute6_v1r0"
     ]
   },
+  "656498939": {
+    "Variable Label": "Dental Implants",
+    "Variable Name": [
+      "SrvMw_DENTIMP_v1r0"
+    ]
+  },
   "656548982": {
     "Variable Label": "Autogenerated date/time stamp for submit shipment time",
     "Variable Name": [
@@ -10248,6 +10870,15 @@
     "Variable Name": [
       "HdRef_BlSpecSrvDt_v1r0"
     ]
+  },
+  "657566099": {
+    "Variable Label": "Rashes or other skin changes",
+    "Variable Name": [
+      "SrvBlU_COV8Q_v1r0"
+    ]
+  },
+  "657978450": {
+    "Variable Name": "Pfizer"
   },
   "657986901": {
     "Variable Label": "Do Not Know 2-Seasonal",
@@ -10354,6 +10985,9 @@
       "SrvBOH_AltContFv1r0"
     ]
   },
+  "661871565": {
+    "Variable Name": "Moderna"
+  },
   "662584384": {
     "Variable Label": "Time, [OTHER FROM CURWORKT1]",
     "Variable Name": [
@@ -10444,6 +11078,9 @@
     "Variable Name": [
       "SrvLAW_FullSt9_v1r0"
     ]
+  },
+  "666365344": {
+    "Variable Name": "Within the last 24 hours"
   },
   "666445636": {
     "Variable Label": "Street number",
@@ -10715,6 +11352,12 @@
       "SrvSAS_TobPipe30_v1r0"
     ]
   },
+  "679368947": {
+    "Variable Label": "Shortness of breath",
+    "Variable Name": [
+      "SrvBlU_COV8K_v1r0"
+    ]
+  },
   "679430807": {
     "Variable Name": "Thinking about the one-way trip from [insert address from PREWORK1 - PREWORK3/this address] to your home on a usual workday, about how much time did you usually spend in each type of transportation?"
   },
@@ -10764,7 +11407,7 @@
     "Variable Name": "Participant refusal"
   },
   "682457230": {
-    "Variable Name": "Seasonal Address 5- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select â€œI still spend time here.â€"
+    "Variable Name": "Seasonal Address 5- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select Ã¢â‚¬Å“I still spend time here.Ã¢â‚¬Â"
   },
   "682651189": {
     "Variable Name": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had Ovarian cancer?"
@@ -10789,6 +11432,12 @@
   },
   "683981980": {
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had brain cancer?"
+  },
+  "684149600": {
+    "Variable Label": "Diarrhea",
+    "Variable Name": [
+      "SrvBlU_COV8N_v1r0"
+    ]
   },
   "684201296": {
     "Variable Label": "Other medication: please describe text box",
@@ -10922,6 +11571,12 @@
   "689829953": {
     "Variable Name": "6 days"
   },
+  "689861450": {
+    "Variable Label": "Wake up time",
+    "Variable Name": [
+      "SrvBio_WakeTime_v1r0"
+    ]
+  },
   "689956879": {
     "Variable Label": "During the season[s] in the past 12 months that you did strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups), about how often did you do this activity?",
     "Variable Name": [
@@ -10979,6 +11634,9 @@
   "692275326": {
     "Variable Name": "Marshfield"
   },
+  "692824372": {
+    "Variable Name": "More than 3 months"
+  },
   "692881833": {
     "Variable Label": "Removal of one or both fallopian tubes (salpingectomy)",
     "Variable Name": [
@@ -11022,6 +11680,12 @@
     "Variable Label": "Number siblings",
     "Variable Name": [
       "SrvBOH_SiblingNum_v1r0"
+    ]
+  },
+  "694503437": {
+    "Variable Label": "Symptoms",
+    "Variable Name": [
+      "SrvBlU_COV6_v1r0"
     ]
   },
   "694817520": {
@@ -11154,6 +11818,12 @@
   "701157499": {
     "Variable Name": "How old were you when you had removal of a part of my breast tissue (breast-conserving surgery (BCS), lumpectomy, partial mastectomy, or segmental mastectomy)?"
   },
+  "701387353": {
+    "Variable Label": "Vaccine Date Month",
+    "Variable Name": [
+      "SrvBlU_COV27_MONTH_v1r0"
+    ]
+  },
   "701803756": {
     "Variable Name": "Seasonal Address 10- In general, how many months per year did you spend at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]?"
   },
@@ -11176,7 +11846,7 @@
     ]
   },
   "703370365": {
-    "Variable Name": "I drink tap water but donâ€™t know how often"
+    "Variable Name": "I drink tap water but donÃ¢â‚¬â„¢t know how often"
   },
   "703385619": {
     "Variable Label": "City",
@@ -11222,6 +11892,9 @@
     "Variable Name": [
       "SrvSAS_CTTime1824_v1r0"
     ]
+  },
+  "705336878": {
+    "Variable Name": "Did you have any of the following symptoms, the [first/2nd/3rd/etc.] time you had COVID-19? Select all that apply"
   },
   "705673076": {
     "Variable Label": "Highway, current school commute from current school",
@@ -11279,6 +11952,9 @@
     "Variable Name": [
       "SrvLAW_StrName8_v1r0"
     ]
+  },
+  "707601969": {
+    "Variable Name": "Yes |_|"
   },
   "707805344": {
     "Variable Label": "Hours take to fall asleep, before workdays",
@@ -11421,6 +12097,9 @@
       "SrvBOH_BariatricSurg_v1r0"
     ]
   },
+  "715581797": {
+    "Variable Name": "When were you vaccinated?"
+  },
   "715632875": {
     "Variable Name": "KPNW RRL"
   },
@@ -11545,6 +12224,15 @@
     "Variable Name": [
       "SrvSAS_EdiblesDaysNum_v1r0"
     ]
+  },
+  "724589244": {
+    "Variable Label": "Teeth Lost from accident or injury",
+    "Variable Name": [
+      "SrvMw_TEETHLOSTAI_v1r0"
+    ]
+  },
+  "724612102": {
+    "Variable Name": "Yes, I have this symptom now"
   },
   "724624086": {
     "Variable Name": "Less than 50 feet"
@@ -11702,10 +12390,22 @@
       "SrvBOH_Divert_v1r0"
     ]
   },
+  "731141335": {
+    "Variable Name": "Yes, in the past week"
+  },
   "731498909": {
     "Variable Label": "Eligible for Payment",
     "Variable Name": [
       "SMPaym_PaymElig_v1r0"
+    ]
+  },
+  "731533223": {
+    "Variable Label": "Long COVID Shortness of breath",
+    "Variable Name": [
+      "SrvBlU_COV19B1_v1r0",
+      "SrvBlU_COV20A9_v1r0",
+      "SrvBlU_COV23B3_v1r0",
+      "SrvBlU_COV24A9_v1r0"
     ]
   },
   "731790154": {
@@ -11829,6 +12529,18 @@
       "SrvLAW_Strtname9_v1r0"
     ]
   },
+  "735136116": {
+    "Variable Name": "More than 24 hours ago, but in the past week"
+  },
+  "735330419": {
+    "Variable Name": "Once or twice per week"
+  },
+  "736028153": {
+    "Variable Label": "Gum disease",
+    "Variable Name": [
+      "SrvMw_GUMDISEASE_v1r0"
+    ]
+  },
   "736183094": {
     "Variable Name": "HFHS Research Clinic (Main Campus)"
   },
@@ -11836,6 +12548,12 @@
     "Variable Label": "Last Name",
     "Variable Name": [
       "RcrtCS_Lname_v1r0"
+    ]
+  },
+  "736393021": {
+    "Variable Label": "Antibiotics",
+    "Variable Name": [
+      "SrvMw_ANTIBIO_v1r0"
     ]
   },
   "736981982": {
@@ -11947,6 +12665,12 @@
     "Variable Label": "Person is unable to participate or deceased",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_unable"
+    ]
+  },
+  "744230001": {
+    "Variable Label": "Nights in hospital",
+    "Variable Name": [
+      "SrvBlU_COV13_v1r0"
     ]
   },
   "744290061": {
@@ -12079,6 +12803,9 @@
       "RcrtSI_EligibilityVer_v1r0"
     ]
   },
+  "749956170": {
+    "Variable Name": "How long did you experience the following symptoms  ?"
+  },
   "750000285": {
     "Variable Name": "Seasonal Address 4- In general, how many months per year did you spend at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]?"
   },
@@ -12107,6 +12834,9 @@
       "SrvSAS_ECigNow_v1r0"
     ]
   },
+  "751358419": {
+    "Variable Name": "Since your COVID-19 diagnosis, have you experienced any of the following symptoms? COV19C"
+  },
   "751402477": {
     "Variable Label": "Testes",
     "Variable Name": [
@@ -12131,6 +12861,9 @@
     "Variable Name": [
       "SrvLAW_Prev2DontKnow_v1r0"
     ]
+  },
+  "752219885": {
+    "Variable Name": "More than a year ago, but in the past 2 years"
   },
   "752636038": {
     "Variable Name": "How old were you when you had one or both fallopian tubes removed (salpingectomy)? If you have had more than one procedure, at what age did you last have this procedure?"
@@ -12231,6 +12964,13 @@
       "SrvLAW_State3_v1r0"
     ]
   },
+  "756774083": {
+    "Variable Label": "Cough day",
+    "Variable Name": [
+      "SrvBio_CoughDay_v1r0",
+      "SrvBlU_COV8J_v1r0"
+    ]
+  },
   "756862764": {
     "Variable Label": "Account Name",
     "Variable Name": [
@@ -12276,6 +13016,12 @@
       "SrvLAW_StrtName11_v1r0"
     ]
   },
+  "760243464": {
+    "Variable Label": "Body chills",
+    "Variable Name": [
+      "SrvBlU_COV8B_v1r0"
+    ]
+  },
   "760484278": {
     "Variable Label": "Yoga, Pilates, or Tai Chi",
     "Variable Name": [
@@ -12299,6 +13045,9 @@
     "Variable Name": [
       "SrvMRE_PregTriedAge_v1r0"
     ]
+  },
+  "760969884": {
+    "Variable Name": "Quite a bit"
   },
   "761037053": {
     "Variable Label": "Age first used e-cigarettes or other vaping devices",
@@ -12328,6 +13077,12 @@
     "Variable Label": "Other medication: please describe text box",
     "Variable Name": [
       "SrvMRE_OthFertMedsDesc_v1r0"
+    ]
+  },
+  "762727133": {
+    "Variable Label": "Alcohol-free mouthwash",
+    "Variable Name": [
+      "SrvMw_MWALCFREE1_v1r0"
     ]
   },
   "763164658": {
@@ -12409,6 +13164,12 @@
       "RcrtCT_Acct_Cnst_v1r0"
     ]
   },
+  "766370065": {
+    "Variable Label": "alcohol-free mouthwash  frequency past month",
+    "Variable Name": [
+      "SrvMw_MWALCFREE_v1r0"
+    ]
+  },
   "766791333": {
     "Variable Label": "Age first use THC concentrates via dabbing",
     "Variable Name": [
@@ -12478,6 +13239,9 @@
       "SrvMRE_BackPain_v1r0"
     ]
   },
+  "770236544": {
+    "Variable Name": "No, I never experienced this"
+  },
   "770257102": {
     "Variable Label": "Date/time of Completion of Smoking, Alcohol, and Sun Exposure",
     "Variable Name": [
@@ -12496,7 +13260,8 @@
   "771146804": {
     "Variable Label": "I am worried about data being given to my employer/potential employer",
     "Variable Name": [
-      "RcrtSI_OptOut_v1r0_PrivacyI"
+      "RcrtSI_OptOut_v1r0_PrivacyI",
+      "HdRef_PrivacyG_v1r0"
     ]
   },
   "771230670": {
@@ -12612,6 +13377,12 @@
   "775188224": {
     "Variable Name": "BPTL - Receipts"
   },
+  "775313030": {
+    "Variable Label": "Hospital stay overnight",
+    "Variable Name": [
+      "SrvBlU_COV12_v1r0"
+    ]
+  },
   "775324618": {
     "Variable Label": "During the season[s] in the past 12 months that you did high-intensity circuit training (such as P90x or Crossfit), about how often did you do this activity?",
     "Variable Name": [
@@ -12667,7 +13438,7 @@
     ]
   },
   "778495585": {
-    "Variable Name": "Seasonal Address 2- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select â€œI still spend time here.â€"
+    "Variable Name": "Seasonal Address 2- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select Ã¢â‚¬Å“I still spend time here.Ã¢â‚¬Â"
   },
   "778711683": {
     "Variable Name": "Season Address 10- What is the full street address of your seasonal or vacation home?"
@@ -12746,6 +13517,12 @@
   },
   "782282163": {
     "Variable Name": "Mild hair loss across the entire forehead, but not as far back as the ears."
+  },
+  "782396371": {
+    "Variable Label": "Oxygen",
+    "Variable Name": [
+      "SrvBlU_COV14A_v1r0"
+    ]
   },
   "783167257": {
     "Variable Label": "Marital status",
@@ -12950,6 +13727,12 @@
       "SrvMRE_PeriodDays_v1r0"
     ]
   },
+  "792134396": {
+    "Variable Label": "Gum disease treatment",
+    "Variable Name": [
+      "SrvMw_GUMTX_v1r0"
+    ]
+  },
   "792792066": {
     "Variable Label": "Currently using estrogen-only skin gel, cream, or spray-on medication",
     "Variable Name": [
@@ -13010,6 +13793,9 @@
       "SrvBOH_BloodTransNum_v1r0"
     ]
   },
+  "796081734": {
+    "Variable Name": "More than 6 months ago, but in the past year"
+  },
   "796616844": {
     "Variable Label": "Shingles (Herpes Zoster)",
     "Variable Name": [
@@ -13044,6 +13830,12 @@
     "Variable Label": "Years ago took naproxen",
     "Variable Name": [
       "SrvMRE_NaproxenYA_v1r0"
+    ]
+  },
+  "798452445": {
+    "Variable Label": "Breastfeeding",
+    "Variable Name": [
+      "SrvBlU_BRSTFD_v1r0"
     ]
   },
   "798549704": {
@@ -13101,6 +13893,18 @@
     "Variable Label": "Naproxen (such as Naprosyn, Anaprox, or Aleve)",
     "Variable Name": [
       "SrvMRE_Naproxen_v1r0"
+    ]
+  },
+  "800703566": {
+    "Variable Label": "Rinse Hour Before",
+    "Variable Name": [
+      "SrvMw_RINSEBEFORE_v1r0"
+    ]
+  },
+  "800752981": {
+    "Variable Label": "mouthwash for dry mouth frequency past month",
+    "Variable Name": [
+      "SrvMw_MWDRY_v1r0"
     ]
   },
   "800859736": {
@@ -13169,16 +13973,16 @@
       "SrvBOH_LoseWeight2_v1r0"
     ]
   },
-  "803129756": {
-    "Variable Label": "Date/time payment refused by any participant",
-    "Variable Name": [
-      "SMPaym_JointTmRefused_v1r0"
-    ]
-  },
   "803219073": {
     "Variable Label": "Full Street name #2",
     "Variable Name": [
       "SrvLAW_StrtName7_v1r0"
+    ]
+  },
+  "803339020": {
+    "Variable Label": "ICU Days",
+    "Variable Name": [
+      "SrvBlU_COV16B_v1r0"
     ]
   },
   "803526907": {
@@ -13227,7 +14031,7 @@
     ]
   },
   "806530984": {
-    "Variable Name": "Seasonal Address 7- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select â€œI still spend time here.â€"
+    "Variable Name": "Seasonal Address 7- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select Ã¢â‚¬Å“I still spend time here.Ã¢â‚¬Â"
   },
   "806746224": {
     "Variable Label": "Sitting and browsing the internet, playing video games, using social media, or using any other apps or programs on a tablet, phone, computer, or television",
@@ -13297,7 +14101,14 @@
       "SrvMRE_AnyCombPill_v1r0",
       "SrvMRE_OtherSATmt_v1r0",
       "SrvSAS_OtherCigar_v1r0",
-      "SrvSAS_StopAlcOther_v1r0"
+      "SrvSAS_StopAlcOther_v1r0",
+      "SrvBlU_COV8S_v1r0"
+    ]
+  },
+  "807884576": {
+    "Variable Label": "Floss past month",
+    "Variable Name": [
+      "SrvMw_FLOSS1_v1r0"
     ]
   },
   "807973203": {
@@ -13354,6 +14165,12 @@
       "SrvSAS_WhyEdibles_v1r0"
     ]
   },
+  "810340693": {
+    "Variable Label": "Vomiting",
+    "Variable Name": [
+      "SrvBlU_COV8P_v1r0"
+    ]
+  },
   "810608313": {
     "Variable Label": "Number of servings consumed  marijuana in food or drinks, servings per day",
     "Variable Name": [
@@ -13378,6 +14195,18 @@
       "BioCol_Dev_v1r0_Discard"
     ]
   },
+  "811126581": {
+    "Variable Label": "Feeling sick day",
+    "Variable Name": [
+      "SrvBio_VomitDay_v1r0"
+    ]
+  },
+  "812107266": {
+    "Variable Label": "Permanent teeth lost from accident or injury",
+    "Variable Name": [
+      "[SrvMw_PERMTTHLOST1_v1r0]"
+    ]
+  },
   "812161236": {
     "Variable Name": "Address 10- What year did you move out of [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]?"
   },
@@ -13396,11 +14225,8 @@
       "SrvLAW_SeaZip_v1r0"
     ]
   },
-  "813305389": {
-    "Variable Label": "Date/time payment issued by NORC or UoC",
-    "Variable Name": [
-      "SMPaym_JointTmIssued_v1r0"
-    ]
+  "813989715": {
+    "Variable Name": "Since the beginning of 2020, have you experienced any of the following symptoms?"
   },
   "814115676": {
     "Variable Label": "Age first used cigars, cigarillos, or little filtered cigars on a regular basis, Never smoked",
@@ -13724,7 +14550,7 @@
     "Variable Name": "In which season(s) did you do these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)? Select all that apply."
   },
   "829751791": {
-    "Variable Name": "Seasonal Address 3- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select â€œI still spend time here.â€"
+    "Variable Name": "Seasonal Address 3- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select Ã¢â‚¬Å“I still spend time here.Ã¢â‚¬Â"
   },
   "830201925": {
     "Variable Label": "Walking commute from past work",
@@ -13737,6 +14563,9 @@
   },
   "830608495": {
     "Variable Name": "Have you ever used any of these marijuana products, even once? Select all that apply."
+  },
+  "830677489": {
+    "Variable Name": "More than 4 weeks ago"
   },
   "831041022": {
     "Variable Label": "Wants data destroyed",
@@ -13776,6 +14605,9 @@
     "Variable Name": [
       "SrvMRE_TmComplete_v1r0"
     ]
+  },
+  "832322940": {
+    "Variable Name": "Don’t know"
   },
   "833653379": {
     "Variable Label": "Login first name",
@@ -13884,6 +14716,12 @@
   },
   "839266527": {
     "Variable Name": "Heavier than average"
+  },
+  "839329467": {
+    "Variable Label": "Acid Reducers",
+    "Variable Name": [
+      "SrvBlU_Acid_v1r0"
+    ]
   },
   "839454121": {
     "Variable Label": "Days commute, commute to current work",
@@ -14047,6 +14885,9 @@
       "SrvBOH_LongestJob_v1r0"
     ]
   },
+  "847578001": {
+    "Variable Name": "Since your COVID-19 diagnosis, have you experienced any of the following symptoms? COV19A"
+  },
   "847945207": {
     "Variable Label": "Breast",
     "Variable Name": [
@@ -14126,6 +14967,9 @@
     "Variable Name": [
       "SrvMRE_CurrVagRingE_v1r0"
     ]
+  },
+  "850675416": {
+    "Variable Name": "Two or more times per day"
   },
   "851731394": {
     "Variable Label": "Do Not Know 7-Seasonal Cross",
@@ -14271,6 +15115,12 @@
       "SrvBOH_Irish_v1r0"
     ]
   },
+  "860011428": {
+    "Variable Label": "# COVID Infections",
+    "Variable Name": [
+      "SrvBlU_COV2_v1r0"
+    ]
+  },
   "860112841": {
     "Variable Name": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had cervical cancer?"
   },
@@ -14340,12 +15190,6 @@
       "SrvBOH_PR_v1r0"
     ]
   },
-  "862774033": {
-    "Variable Label": "Payment issued to UoC participant",
-    "Variable Name": [
-      "BioFin_UoCPayment_v1r0"
-    ]
-  },
   "862918284": {
     "Variable Name": "Less than 10 days per month"
   },
@@ -14405,12 +15249,6 @@
     "Variable Label": "Basal cell",
     "Variable Name": [
       "SrvBOH_BasalCell_v1r0"
-    ]
-  },
-  "864199029": {
-    "Variable Label": "Date/Time payment given to UoC participant",
-    "Variable Name": [
-      "BioFin_TmPayment_v1r0"
     ]
   },
   "864213677": {
@@ -14502,6 +15340,12 @@
       "SrvLAW_StillLiveHere11_v1r0"
     ]
   },
+  "867307558": {
+    "Variable Label": "Eat drink before",
+    "Variable Name": [
+      "SrvBio_EatDrinkBefore_v1r0"
+    ]
+  },
   "868025301": {
     "Variable Name": "Within 1 year"
   },
@@ -14512,7 +15356,7 @@
     ]
   },
   "868504994": {
-    "Variable Name": "My periods stopped after endometrial ablation (removal of the endometrium \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\" lining of the uterus)"
+    "Variable Name": "My periods stopped after endometrial ablation (removal of the endometrium lining of the uterus)"
   },
   "868650023": {
     "Variable Label": "Full Street name #2",
@@ -14628,6 +15472,12 @@
   "875342283": {
     "Variable Name": "College graduate Bachelor's degree"
   },
+  "875535246": {
+    "Variable Label": "Contraception",
+    "Variable Name": [
+      "SrvBlU_CONTRACEPT_v1r0"
+    ]
+  },
   "875549268": {
     "Variable Label": "Max number of contacts reached for cycle",
     "Variable Name": [
@@ -14662,6 +15512,24 @@
     "Variable Label": "Snoring bother people",
     "Variable Name": [
       "SrvMRE_SnoringBother_v1r0"
+    ]
+  },
+  "877074400": {
+    "Variable Label": "# COVID vaccines",
+    "Variable Name": [
+      "SrvBlU_COV26_v1r0"
+    ]
+  },
+  "877842367": {
+    "Variable Label": "Chlorhexidine mouthwash",
+    "Variable Name": [
+      "SrvMw_MWCHLOR1_v1r0"
+    ]
+  },
+  "877878167": {
+    "Variable Label": "Mouthwash Hour Before",
+    "Variable Name": [
+      "SrvMw_MWBEFORE_v1r0"
     ]
   },
   "878094302": {
@@ -14787,6 +15655,12 @@
       "SrvLAW_SeaApt8_v1r0"
     ]
   },
+  "886771318": {
+    "Variable Label": "Flouride mouthwash",
+    "Variable Name": [
+      "SrvMw_MWFLOURIDE1_v1r0"
+    ]
+  },
   "887435355": {
     "Variable Name": "Why did you take prescription pain relievers containing opioids? Select all that apply."
   },
@@ -14832,6 +15706,12 @@
       "SrvLAW_SeasWtr1_6_Oth_v1r0"
     ]
   },
+  "890156588": {
+    "Variable Label": "COVID vaccination",
+    "Variable Name": [
+      "SrvBlU_COV25_v1r0"
+    ]
+  },
   "890182396": {
     "Variable Name": "IHCS Staff"
   },
@@ -14864,6 +15744,9 @@
     "Variable Name": [
       "SrvLAW_CurSchT2A_v1r0"
     ]
+  },
+  "891558680": {
+    "Variable Name": "More than a month ago, but in the past 6 months"
   },
   "891573875": {
     "Variable Label": "City",
@@ -14916,6 +15799,12 @@
       "SrvMRE_CelebrexPillDK_v1r0"
     ]
   },
+  "893966847": {
+    "Variable Label": "Dialysis",
+    "Variable Name": [
+      "SrvBlU_COV17A_v1r0"
+    ]
+  },
   "894259747": {
     "Variable Name": "Respiratory Problems- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply."
   },
@@ -14936,6 +15825,12 @@
   },
   "895837106": {
     "Variable Name": "In which season(s) you do other exercise? Select all that apply."
+  },
+  "896163801": {
+    "Variable Label": "Chest tightness",
+    "Variable Name": [
+      "SrvBlU_COV8L_v1r0"
+    ]
   },
   "896943397": {
     "Variable Name": "Race Unavailable/Unknown and Ethnicity not Hispanic or Latino"
@@ -14963,6 +15858,9 @@
     "Variable Name": [
       "SrvLAW_PreWorkT7E_v1r0"
     ]
+  },
+  "899251483": {
+    "Variable Name": "Have you lost any of your permanent adult teeth, not including your wisdom teeth? Select all that apply."
   },
   "899455852": {
     "Variable Name": "In total, how many months or years have you used Depo-Provera?"
@@ -15219,6 +16117,13 @@
       "BioCol_Dev_v1r0_ClotL"
     ]
   },
+  "912213972": {
+    "Variable Label": "Pandemic Muscle Aches",
+    "Variable Name": [
+      "SrvBlU_COV23B7_v1r0",
+      "SrvBlU_COV24A13_v1r0"
+    ]
+  },
   "912301837": {
     "Variable Label": "Participation status",
     "Variable Name": [
@@ -15253,7 +16158,7 @@
     "Variable Name": "2 shots"
   },
   "914325712": {
-    "Variable Name": "Seasonal Address 4- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select â€œI still spend time here.â€"
+    "Variable Name": "Seasonal Address 4- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select Ã¢â‚¬Å“I still spend time here.Ã¢â‚¬Â"
   },
   "914594314": {
     "Variable Label": "Verification status time",
@@ -15277,7 +16182,7 @@
     ]
   },
   "915230886": {
-    "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Infectious Mononucleosis (ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“MonoÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â or ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“Kissing DiseaseÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â)?"
+    "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Infectious Mononucleosis or Kissing Disease?"
   },
   "915293401": {
     "Variable Label": "Days smoked a hookah or water pipe in past 30 days",
@@ -15399,6 +16304,12 @@
       "SrvSAS_EdiblesLast_v1r0"
     ]
   },
+  "921972241": {
+    "Variable Label": "fluoride mouthwash  frequency past month",
+    "Variable Name": [
+      "SrvMw_MWFLOURIDE_v1r0"
+    ]
+  },
   "921998144": {
     "Variable Label": "Do Not Know 9-Seasonal Cross",
     "Variable Name": [
@@ -15498,6 +16409,9 @@
       "SrvMRE_SwimLaps_v1r0"
     ]
   },
+  "927477599": {
+    "Variable Name": "Very Good"
+  },
   "927925620": {
     "Variable Name": "Full head of hair with no hair loss."
   },
@@ -15509,6 +16423,12 @@
   },
   "928112898": {
     "Variable Name": "Seasonal Address 2- In general, how many months per year did you spend at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]?"
+  },
+  "928530823": {
+    "Variable Label": "Septic Shock",
+    "Variable Name": [
+      "SrvBlU_COV9_v1r0"
+    ]
   },
   "928670216": {
     "Variable Name": "Previous address 5"
@@ -15546,8 +16466,17 @@
       "SrvLAW_City3_v1r0"
     ]
   },
+  "930944000": {
+    "Variable Label": "Oxygen Days",
+    "Variable Name": [
+      "SrvBlU_COV14B_v1r0"
+    ]
+  },
   "931470797": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Syphilis?"
+  },
+  "931688701": {
+    "Variable Name": "Yes, I am experiencing this now"
   },
   "931999203": {
     "Variable Label": "City",
@@ -15624,6 +16553,12 @@
       "RcrtSI_Age_v1r0"
     ]
   },
+  "934384452": {
+    "Variable Label": "Other Long COVID Symptom- Duration: Please Describe",
+    "Variable Name": [
+      "SrvBlU_COV20A17_v1r0"
+    ]
+  },
   "935326619": {
     "Variable Label": "Time, Taxicab (includes, Uber, Lyft, or hired car, ) commute from past work",
     "Variable Name": [
@@ -15644,6 +16579,9 @@
     "Variable Name": [
       "SrvMRE_Dance_v1r0"
     ]
+  },
+  "936042740": {
+    "Variable Name": "Yes, in the past two days"
   },
   "936129960": {
     "Variable Label": "Zip code",
@@ -15917,6 +16855,9 @@
   "947205597": {
     "Variable Name": "Have you ever used any of these tobacco products, even once? Select all that apply."
   },
+  "948148236": {
+    "Variable Name": "Between 1 and 3 months"
+  },
   "948195369": {
     "Variable Label": "PIN match",
     "Variable Name": [
@@ -15995,6 +16936,12 @@
   "950591599": {
     "Variable Name": "Most of the time"
   },
+  "950773275": {
+    "Variable Label": "Alcohol-based mouthwash",
+    "Variable Name": [
+      "SrvMw_MWALC1_v1r0"
+    ]
+  },
   "950972496": {
     "Variable Label": "Bicycle commute from current work",
     "Variable Name": [
@@ -16031,6 +16978,9 @@
       "SrvLAW_FullSt2CurSchSt_v1r0"
     ]
   },
+  "952212668": {
+    "Variable Name": "The day before"
+  },
   "952682839": {
     "Variable Label": "Pain affect work",
     "Variable Name": [
@@ -16058,11 +17008,26 @@
       "SrvLAW_SeaAdd5PrWater2_v1r0"
     ]
   },
+  "953776504": {
+    "Variable Label": "Long COVID Loss of taste or smell",
+    "Variable Name": [
+      "SrvBlU_COV19A1_v1r0",
+      "SrvBlU_COV20A1_v1r0",
+      "SrvBlU_COV23A1_v1r0",
+      "SrvBlU_COV24A1_v1r0"
+    ]
+  },
   "954318357": {
     "Variable Name": "Louder than talking"
   },
   "954405492": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Chlamydia?"
+  },
+  "955154600": {
+    "Variable Label": "Stuffy nose day",
+    "Variable Name": [
+      "SrvBio_NoseDay_v1r0"
+    ]
   },
   "955609858": {
     "Variable Label": "At the dinner table",
@@ -16080,6 +17045,12 @@
     "Variable Label": "Deviation- Insufficient volume",
     "Variable Name": [
       "BioCol_Dev_v1r0_UrVol"
+    ]
+  },
+  "957305523": {
+    "Variable Label": "Teeth Lost from decay or disease",
+    "Variable Name": [
+      "SrvMw_TEETHLOSTD_v1r0"
     ]
   },
   "957429734": {
@@ -16169,10 +17140,22 @@
       "SrvLAW_CurWorkCity_v1r0"
     ]
   },
+  "959877599": {
+    "Variable Label": "Recovery duration",
+    "Variable Name": [
+      "SrvBlU_COV22_v1r0"
+    ]
+  },
   "960332453": {
     "Variable Label": "Brand of chewing tobacco, snus, snuff, or dip",
     "Variable Name": [
       "SrvSAS_CTBrand_v1r0"
+    ]
+  },
+  "960642359": {
+    "Variable Label": "Confusion",
+    "Variable Name": [
+      "SrvBlU_COV8E_v1r0"
     ]
   },
   "961021302": {
@@ -16402,6 +17385,9 @@
       "HdRef_DateAllsrv_v1r0"
     ]
   },
+  "974230748": {
+    "Variable Name": "Yes, in the past day"
+  },
   "974248369": {
     "Variable Label": "Prescription pain relievers containing opioids",
     "Variable Name": [
@@ -16409,7 +17395,7 @@
     ]
   },
   "975198123": {
-    "Variable Name": "Seasonal Address 1- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select â€œI still spend time here.â€"
+    "Variable Name": "Seasonal Address 1- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select Ã¢â‚¬Å“I still spend time here.Ã¢â‚¬Â"
   },
   "976052812": {
     "Variable Label": "Last time took anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)",
@@ -16498,6 +17484,9 @@
       "SrvLAW_CurSchT2B_v1r0"
     ]
   },
+  "980800222": {
+    "Variable Name": "When was the [first/2nd/3rd/etc.] time you had COVID-19? If you are not sure, please make your best guess."
+  },
   "981441822": {
     "Variable Name": "What is the chance that you would doze off or fall asleep (not just \"\"feel tired\"\") in each of these situations? If you are never or rarely in the situation, please make your best guess for what would happen."
   },
@@ -16561,6 +17550,12 @@
       "SrvLAW_SeaCity10FU_v1r0"
     ]
   },
+  "983043203": {
+    "Variable Label": "Cavity",
+    "Variable Name": [
+      "SrvMw_CAVITY_v1r0"
+    ]
+  },
   "983278853": {
     "Variable Label": "Other voicemail",
     "Variable Name": [
@@ -16571,6 +17566,12 @@
     "Variable Label": "Lived anywhere else at least two years",
     "Variable Name": [
       "SrvLAW_HomeAddOth4_v1r0"
+    ]
+  },
+  "984121390": {
+    "Variable Label": "Breathing Tube or Ventilator",
+    "Variable Name": [
+      "SrvBlU_COV15A_v1r0"
     ]
   },
   "984479578": {
@@ -16717,22 +17718,10 @@
       "SrvBOH_Exercised4_v1r0"
     ]
   },
-  "990579614": {
-    "Variable Label": "I am worried about data being given to\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"my\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"employer/potential employer",
-    "Variable Name": [
-      "HdRef_PrivacyG_v1r0"
-    ]
-  },
   "990599372": {
     "Variable Label": "Ovary or hormone problem",
     "Variable Name": [
       "SrvMRE_HormoneProb_v1r0"
-    ]
-  },
-  "990693169": {
-    "Variable Label": "NORC or UoC Payment Issued",
-    "Variable Name": [
-      "SMPaym_JointPaymIssued_v1r0"
     ]
   },
   "991158851": {

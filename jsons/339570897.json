@@ -1,0 +1,48 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "131497719.json"
+  ],
+  "conceptId": "339570897",
+  "Question Text": "When did you last have a professional dental cleaning by a dentist or hygienist?",
+  "Variable Label": "Last Dental Cleaning",
+  "Variable Name": [
+    "SrvMw_DENTALCLEAN_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Question Type": "Optional Multiple Choice",
+  "Formula for Index": [
+    "6547",
+    "6548",
+    "6549",
+    "6550",
+    "6551",
+    "6552"
+  ],
+  "Index": [
+    "6547",
+    "6548",
+    "6549",
+    "6550",
+    "6551",
+    "6552"
+  ],
+  "Format/Value": {
+    "317567178.json": "0",
+    "891558680.json": "1",
+    "796081734.json": "2",
+    "752219885.json": "3",
+    "314487612.json": "4",
+    "178420302.json": "77"
+  },
+  "Notes": [
+    "Harmonization - Questionnaire will still say \"\"\"\"Don't Know\"\"\"\""
+  ]
+}

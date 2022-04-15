@@ -19,7 +19,16 @@
   "Derivation Notes": "If BioSpm_Setting_v1r0 is 0 or 1 and BioCol_TubeCollected_v1r0 for any tube is 1 except tubes BioCol_0006_v1r0 and BioCol_0007v1r0 and BioSpm_Visit_v1r0 is 0 then BioFin_BaseBloodCol_v1r0 is 1",
   "Dictionary": "Biospecimen Clinical, Biospecimen Research, Study Manager Data Dictionary",
   "State Attribute": "No",
-  "Default Variable": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "4/14/22",
+  "Formula for Index": [
+    "514",
+    "515"
+  ],
+  "Index": [
+    "514",
+    "515"
+  ],
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

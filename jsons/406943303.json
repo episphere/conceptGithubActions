@@ -1,0 +1,52 @@
+{
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "131497719.json",
+    "131497719.json"
+  ],
+  "Source Question": [
+    "470484596.json",
+    "705336878.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "SrvBio_SYMPTDAY_v1r0",
+    "SrvBlU_COV8_v1r0"
+  ],
+  "conceptId": "406943303",
+  "Question Text": "Fever",
+  "Variable Label": "Fever day",
+  "Variable Name": [
+    "SrvBio_FeverDay_v1r0",
+    "SrvBlU_COV8A_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "4",
+    "0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Question Type": "Optional Select All that Apply",
+  "Formula for Index": [
+    "6060",
+    "6061"
+  ],
+  "Index": [
+    "6060",
+    "6061"
+  ],
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  },
+  "IMS Review Notes": [
+    "GRID ID/Source Variable Name (Column H) needed",
+    "\"Added spaces around \"\"=\"\"\""
+  ]
+}

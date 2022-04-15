@@ -6,7 +6,7 @@
     "117044491.json"
   ],
   "conceptId": "648936790",
-  "Question Text": "NORC issued payment to participant",
+  "Question Text": "Payment issued to participant",
   "Variable Label": "Payment issued",
   "Variable Name": [
     "HDPaym_PaymIssued_v1r0"
@@ -20,6 +20,14 @@
   "State Attribute": "No",
   "Default Variable": "Yes",
   "Date added or modified": "1/18/22",
+  "Formula for Index": [
+    "527",
+    "528"
+  ],
+  "Index": [
+    "527",
+    "528"
+  ],
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

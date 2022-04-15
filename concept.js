@@ -171,6 +171,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
         for(let i = 0; i < cluster.length; i++){
             let currRow = cluster[i];
             // console.log(currRow)
+            if(currIndex < currRow.length) {
             let currElement = currRow[currIndex].trim();
             if(currElement != ''){
                 //Create conceptIds if this exists
@@ -239,8 +240,8 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                 else{
                     currCol.push(currElement)
                 }
-
             }
+          }
         }
         //console.log(firstRowJSON)
         //If they are in the 0=No form

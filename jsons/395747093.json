@@ -1,0 +1,31 @@
+{
+  "Formula for Index": "6394",
+  "Index": "6394",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "131497719.json"
+  ],
+  "Source Question": [
+    "220055064.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "SrvBlU_COV28_v1r0"
+  ],
+  "conceptId": "395747093",
+  "Question Text": "Which COVID-19 vaccine shot did you get? Please describe [text box]",
+  "Variable Label": "Vaccine Brand - Descriptive",
+  "Variable Name": [
+    "SrvBlU_COV28Desc_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "300",
+  "Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Question Type": "Optional Multiple Choice with Text Box, Loops",
+  "IMS Review Notes": "Added Source Variable Name (Column H)"
+}

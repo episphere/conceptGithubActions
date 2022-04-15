@@ -6,7 +6,7 @@
     "726699695.json"
   ],
   "conceptId": "650399623",
-  "Question Text": "When you were about 10 years old, compared to average height, would you describe yourself asÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦",
+  "Question Text": "When you were about 10 years old, compared to average height, would you describe yourself as",
   "Variable Label": "10 year old height",
   "Variable Name": [
     "SrvBOH_10YrHeight_v1r0"
@@ -19,6 +19,16 @@
   "PII": "No",
   "Date added or modified": "9/28/21",
   "Question Type": "Optional Multiple Choice",
+  "Formula for Index": [
+    "1445",
+    "1446",
+    "1447"
+  ],
+  "Index": [
+    "1445",
+    "1446",
+    "1447"
+  ],
   "Format/Value": {
     "325478778.json": "0",
     "730757606.json": "1",

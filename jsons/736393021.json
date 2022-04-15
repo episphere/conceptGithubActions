@@ -1,0 +1,39 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "131497719.json"
+  ],
+  "conceptId": "736393021",
+  "Question Text": "In the past two months, have you taken any antibiotic medicine? Common antibiotics include Azithromycin (such as Zithromax®/Z-Paks®), Penicillin (such as Pfizerpen® or Pen-Vee K®), and Amoxicillin (such as Amoxil®) and are generally used to treat infections.",
+  "Variable Label": "Antibiotics",
+  "Variable Name": [
+    "SrvMw_ANTIBIO_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Question Type": "Optional Multiple Choice",
+  "Formula for Index": [
+    "6562",
+    "6563",
+    "6564"
+  ],
+  "Index": [
+    "6562",
+    "6563",
+    "6564"
+  ],
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1",
+    "178420302.json": "77"
+  },
+  "Notes": [
+    "Harmonization - Questionnaire will still say \"\"\"\"Don't Know\"\"\"\""
+  ]
+}

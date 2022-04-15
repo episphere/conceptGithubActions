@@ -12,8 +12,8 @@
     "MHGROUP7"
   ],
   "conceptId": "164910211",
-  "Question Text": "Infectious Mononucleosis (ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œMonoÃƒÂ¢Ã¢â€šÂ¬Ã‚Â or ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œKissing DiseaseÃƒÂ¢Ã¢â€šÂ¬Ã‚Â)",
-  "Variable Label": "Infectious Mononucleosis (ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œMonoÃƒÂ¢Ã¢â€šÂ¬Ã‚Â or ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œKissing DiseaseÃƒÂ¢Ã¢â€šÂ¬Ã‚Â)",
+  "Question Text": "Infectious Mononucleosis (Mono or Kissing Disease)",
+  "Variable Label": "Infectious Mononucleosis (Mono or Kissing Disease)",
   "Variable Name": [
     "SrvBOH_Mono_v1r0"
   ],
@@ -26,6 +26,14 @@
   "PII": "No",
   "Date added or modified": "9/28/21",
   "Question Type": "Optional Select All that Apply",
+  "Formula for Index": [
+    "1225",
+    "1226"
+  ],
+  "Index": [
+    "1225",
+    "1226"
+  ],
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

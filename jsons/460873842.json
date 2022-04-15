@@ -1,0 +1,55 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "131497719.json"
+  ],
+  "conceptId": "460873842",
+  "Question Text": "In the last month, how often did you use cetylpyridinium chloride mouthwash (such as Crest® Pro-Health)?",
+  "Variable Label": "cetylpyridinium chloride mouthwash  frequency past month",
+  "Variable Name": [
+    "SrvMw_MWCETYL_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Formula for Index": [
+    "6497",
+    "6498",
+    "6499",
+    "6500",
+    "6501",
+    "6502"
+  ],
+  "Index": [
+    "6497",
+    "6498",
+    "6499",
+    "6500",
+    "6501",
+    "6502"
+  ],
+  "Format/Value": {
+    "648960871.json": "44",
+    "693256778.json": "0",
+    "735330419.json": "1",
+    "138332277.json": "2",
+    "858624942.json": "3",
+    "850675416.json": "4"
+  },
+  "Required": [
+    "No"
+  ],
+  "PII": [
+    "No"
+  ],
+  "Question Type": [
+    "Optional Multiple Choice"
+  ],
+  "IMS Review Notes": [
+    "changed column Q to 44 Never",
+    "Added Row to add the 44 Never above"
+  ]
+}

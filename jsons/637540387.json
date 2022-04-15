@@ -1,0 +1,33 @@
+{
+  "Formula for Index": "6238",
+  "Index": "6238",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "131497719.json"
+  ],
+  "Source Question": [
+    "110872086.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "SrvBlU_COV19C6A_v1r0"
+  ],
+  "conceptId": "637540387",
+  "Question Text": "Since your COVID-19 diagnosis, have you experienced any other symptoms? [text box]",
+  "Variable Label": "Other Long COVID Symptom: Please Describe textbox",
+  "Variable Name": [
+    "SrvBlU_COV19C6ADesc_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "300",
+  "Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Option only available if #55 is selected in COV19C6A",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Date added or modified": "3/4/22",
+  "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
+  "IMS Review Notes": "Added Source Variable Name (Column H). Renamed variable name"
+}

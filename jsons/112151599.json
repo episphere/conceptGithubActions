@@ -1,0 +1,34 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "131497719.json"
+  ],
+  "conceptId": "112151599",
+  "Question Text": "Have you had a menstrual period in the last 60 days?",
+  "Variable Label": "Menstrual Period within last 60 days",
+  "Variable Name": [
+    "SrvBlU_MENST60_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Question Type": "Required Multiple Choice",
+  "IMS Review Notes": "Changed question type to required",
+  "Formula for Index": [
+    "6087",
+    "6088"
+  ],
+  "Index": [
+    "6087",
+    "6088"
+  ],
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

@@ -15,11 +15,23 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Paymentt attributes are nested under the responses for this variable and are defaulted to \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"No\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\" when we receive the studyId for active recruits or when a passive recruit signs in.",
+  "Notes": "Payment attributes are nested under the responses for this variable and are defaulted to \"\"No\"\" when we receive the studyId for active recruits or when a passive recruit signs in.  UoC will send payment variables through the updateParticipantData API, NORC will send them through the NORC API",
   "Dictionary": "Study Manager Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "Yes",
-  "Date added or modified": "1/18/22",
+  "Date added or modified": "4/13/22",
+  "Formula for Index": [
+    "518",
+    "519",
+    "520",
+    "521"
+  ],
+  "Index": [
+    "518",
+    "519",
+    "520",
+    "521"
+  ],
   "Format/Value": {
     "266600170.json": "0",
     "496823485.json": "1",
