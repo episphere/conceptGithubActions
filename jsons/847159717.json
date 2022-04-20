@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "401",
-  "Index": "401",
+  "Formula for Index": "412",
+  "Index": "412",
   "Primary Source": [
     "819848608.json"
   ],
@@ -18,9 +18,9 @@
   "Format/Value": "example: 2020-07-17T15:21:26.763Z",
   "Required": "Yes if BioFin_BaseUrineCol_v1r0 equals 1",
   "PII": "No",
-  "Notes": "ISO to be converted to SAS format",
+  "Notes": "ISO to be converted to SAS format and nested under Collection Environment",
   "Dictionary": "Biospecimen Research",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "3/26/21"
+  "Date added or modified": "4/19/22"
 }
