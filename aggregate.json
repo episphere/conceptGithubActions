@@ -940,6 +940,12 @@
       "HdRef_TooMuchTime_v1r0"
     ]
   },
+  "141874857": {
+    "Variable Label": "Age drank alcohol on regular basis",
+    "Variable Name": [
+      "SrvSAS_AgeAlcReg_v1r0"
+    ]
+  },
   "142164107": {
     "Variable Label": "Use electronic marijuana delivery devices every day, age last used",
     "Variable Name": [
@@ -1288,6 +1294,9 @@
       "SrvSAS_EDevices_v1r0"
     ]
   },
+  "159625321": {
+    "Variable Name": "No, I want to enter another address (11th address)"
+  },
   "160036380": {
     "Variable Name": "Five or more"
   },
@@ -1548,6 +1557,12 @@
   "173625583": {
     "Variable Name": "Severe hair loss on the sides and front of the forehead that are continuous with severe baldness on the top (crown) of the head. There is no clear strip of hair that separates these areas of balding. The hairline at the sides of the head is at, or below, the temples. Only a small strip of hair remains around the ears and at the back of the head."
   },
+  "173836415": {
+    "Variable Label": "Collection Environment",
+    "Variable Name": [
+      "BipSpm_CollEnvNest_v1r0"
+    ]
+  },
   "173979298": {
     "Variable Label": "Time, Walking commute to current school",
     "Variable Name": [
@@ -1784,6 +1799,9 @@
     "Variable Name": [
       "SrvLAW_SeasWtr1_9_Oth_v1r0"
     ]
+  },
+  "184065355": {
+    "Variable Name": "No, I want to enter another address (2nd address)"
   },
   "184448791": {
     "Variable Label": "During the season[s] in the past 12 months that you played golf, about how often did you do this activity?",
@@ -2909,6 +2927,9 @@
   "235613392": {
     "Variable Name": "Rarely"
   },
+  "235762633": {
+    "Variable Name": "No, I want to enter another address (8th address)"
+  },
   "236546933": {
     "Variable Label": "Russian",
     "Variable Name": [
@@ -3202,6 +3223,9 @@
     "Variable Name": [
       "SrvSAS_4To5AlcBev_v1r0"
     ]
+  },
+  "255112983": {
+    "Variable Name": "No, I want to add another seasonal or vacation home address (3rd address)"
   },
   "255248624": {
     "Variable Label": "Street number",
@@ -3721,6 +3745,9 @@
       "SrvLAW_HomeMoveIn4_v1r0"
     ]
   },
+  "270752953": {
+    "Variable Name": "No, I want to enter another address (1st address)"
+  },
   "270793412": {
     "Variable Name": "II"
   },
@@ -4055,7 +4082,7 @@
     "Variable Name": "Yes, fraternal twins (not identical)"
   },
   "288109261": {
-    "Variable Name": "Seasonal Address 10- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select Ã¢â‚¬Å“I still spend time here.Ã¢â‚¬Â"
+    "Variable Name": "Seasonal Address 10- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œI still spend time here.ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â"
   },
   "288321056": {
     "Variable Name": "Married"
@@ -5223,6 +5250,9 @@
       "SrvLAW_TapWaterSoup_v1r0"
     ]
   },
+  "365196404": {
+    "Variable Name": "No, I want to enter another address (6th address)"
+  },
   "365370279": {
     "Variable Label": "How many cigars, cigarillos, or little filtered cigars used, [X / 50] to age [Y / 59 / current age]",
     "Variable Name": [
@@ -5842,6 +5872,9 @@
       "RcrtUP_Fname_v1r0"
     ]
   },
+  "399540389": {
+    "Variable Name": "No, I want to enter another address (5th address)"
+  },
   "399659169": {
     "Variable Label": "When daily user, number of cigarettes per day",
     "Variable Name": [
@@ -5856,6 +5889,9 @@
   },
   "399982309": {
     "Variable Name": "Pain relievers- Have you ever taken any of these medications at least 4 times a month for 6 months or longer? Select all that apply."
+  },
+  "400090705": {
+    "Variable Name": "No, I want to enter another address (4th address)"
   },
   "400259098": {
     "Variable Label": "I am concerned about COVID-19",
@@ -5921,7 +5957,7 @@
     ]
   },
   "404118353": {
-    "Variable Name": "Seasonal Address 6- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select Ã¢â‚¬Å“I still spend time here.Ã¢â‚¬Â"
+    "Variable Name": "Seasonal Address 6- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œI still spend time here.ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â"
   },
   "404141282": {
     "Variable Label": "Apartment, suite, unit, building, etc.",
@@ -6064,8 +6100,7 @@
       "SrvSAS_AgeUseTobMJReg_v1r0",
       "SrvSAS_AgeEMJDevReg_v1r0",
       "SrvSAS_EdiblesAgeReg_v1r0",
-      "SrvSAS_AgeUseTHCReg_v1r0",
-      "SrvSAS_AgeAlcReg_v1r0"
+      "SrvSAS_AgeUseTHCReg_v1r0"
     ]
   },
   "409324592": {
@@ -6375,6 +6410,9 @@
       "SrvLAW_SeaAdd1PrWater_v1r0"
     ]
   },
+  "427169173": {
+    "Variable Name": "No, I want to add another seasonal or vacation home address (2nd address)"
+  },
   "427219143": {
     "Variable Label": "Hay Fever (Allergic to pollen or Allergic Rhinitis)",
     "Variable Name": [
@@ -6416,6 +6454,9 @@
   },
   "429634576": {
     "Variable Name": "Shipping - Temp Probe"
+  },
+  "429773462": {
+    "Variable Name": "No, I want to add another seasonal or vacation home address (8th address)"
   },
   "429994023": {
     "Variable Label": "Tongue Scraper frequency past month",
@@ -6563,7 +6604,7 @@
     "Variable Name": "Recreation"
   },
   "437395872": {
-    "Variable Name": "Seasonal Address 9- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select Ã¢â‚¬Å“I still spend time here.Ã¢â‚¬Â"
+    "Variable Name": "Seasonal Address 9- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œI still spend time here.ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â"
   },
   "438475588": {
     "Variable Label": "Full Street name",
@@ -6780,6 +6821,9 @@
   },
   "448722126": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had COPD?"
+  },
+  "448861079": {
+    "Variable Name": "No, I want to add another seasonal or vacation home address (1st address)"
   },
   "448968121": {
     "Variable Label": "Ever had an alcoholic beverage",
@@ -9288,6 +9332,9 @@
       "SrvLAW_StrName11_v1r0"
     ]
   },
+  "574728716": {
+    "Variable Name": "No, I want to enter another address (3rd address)"
+  },
   "574985342": {
     "Variable Name": "Address 2- What is the full street address of the place you lived before? Please only include addresses where you have lived for at least two years."
   },
@@ -9375,6 +9422,9 @@
       "SrvBOH_Uterus_v1r0"
     ]
   },
+  "578520343": {
+    "Variable Name": "You have entered the maximum number of seasonal or vacation home addresses. You will move on to the next questions"
+  },
   "578616917": {
     "Variable Label": "Egyptian",
     "Variable Name": [
@@ -9420,6 +9470,9 @@
     "Variable Name": [
       "SrvMRE_Wakeup_v1r0"
     ]
+  },
+  "580377720": {
+    "Variable Name": "Yes, this list is complete"
   },
   "580409149": {
     "Variable Label": "Fishing",
@@ -9663,6 +9716,12 @@
     "Variable Label": "Other Long COVID Symptom- Presence: Please Describe",
     "Variable Name": [
       "SrvBlU_COV19C6B_v1r0"
+    ]
+  },
+  "592099155": {
+    "Variable Label": "Blood Collection Setting",
+    "Variable Name": [
+      "BioSpm_BloodSetting_v1r0"
     ]
   },
   "592227431": {
@@ -9973,7 +10032,7 @@
     ]
   },
   "613251957": {
-    "Variable Name": "Seasonal Address 8- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select Ã¢â‚¬Å“I still spend time here.Ã¢â‚¬Â"
+    "Variable Name": "Seasonal Address 8- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œI still spend time here.ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â"
   },
   "613641698": {
     "Variable Label": "Date HIPAA revocation signed",
@@ -10078,7 +10137,7 @@
     ]
   },
   "619765650": {
-    "Variable Label": "Tylenol®",
+    "Variable Label": "TylenolÂ®",
     "Variable Name": [
       "SrvBlU_Tylenol_v1r0"
     ]
@@ -10088,6 +10147,9 @@
     "Variable Name": [
       "SrvMRE_Clomid_v1r0"
     ]
+  },
+  "619914973": {
+    "Variable Name": "No, I want to add another seasonal or vacation home address (6th address)"
   },
   "620425840": {
     "Variable Label": "How much time hookah or water pipe  used, Age [X / 18] to age [Y / 24]",
@@ -10206,6 +10268,9 @@
   },
   "624808470": {
     "Variable Name": "Slightly louder than breathing"
+  },
+  "625202092": {
+    "Variable Name": "No, I want to add another seasonal or vacation home address (4th address)"
   },
   "625249910": {
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Stomach cancer?"
@@ -10470,6 +10535,9 @@
     "Variable Name": [
       "SrvSAS_ECigTm6069"
     ]
+  },
+  "641104372": {
+    "Variable Name": "No, I want to enter another address (10th address)"
   },
   "641572847": {
     "Variable Label": "Manufacturing",
@@ -11286,6 +11354,9 @@
   "676516297": {
     "Variable Name": "Every day or almost every day (20 to 31 days per month)"
   },
+  "676569438": {
+    "Variable Name": "No, I want to enter another address (7th address)"
+  },
   "676824724": {
     "Variable Name": "5"
   },
@@ -11407,7 +11478,7 @@
     "Variable Name": "Participant refusal"
   },
   "682457230": {
-    "Variable Name": "Seasonal Address 5- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select Ã¢â‚¬Å“I still spend time here.Ã¢â‚¬Â"
+    "Variable Name": "Seasonal Address 5- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œI still spend time here.ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â"
   },
   "682651189": {
     "Variable Name": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had Ovarian cancer?"
@@ -11600,6 +11671,12 @@
   },
   "690918725": {
     "Variable Name": "What type(s) of alcoholic beverages did you usually drink when you were between age 40 and age 49?"
+  },
+  "690973619": {
+    "Variable Label": "Seasonal address summary",
+    "Variable Name": [
+      "SrvLAW_SeaAddSum_v1r0"
+    ]
   },
   "691423127": {
     "Variable Label": "Skipped meals",
@@ -11846,7 +11923,7 @@
     ]
   },
   "703370365": {
-    "Variable Name": "I drink tap water but donÃ¢â‚¬â„¢t know how often"
+    "Variable Name": "I drink tap water but donÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢t know how often"
   },
   "703385619": {
     "Variable Label": "City",
@@ -12128,6 +12205,12 @@
     "Variable Label": "Skin patch",
     "Variable Name": [
       "SrvMRE_TTSkinPatch_v1r0"
+    ]
+  },
+  "718172863": {
+    "Variable Label": "Urine Collection Setting",
+    "Variable Name": [
+      "BioSpm_UrineSetting_v1r0"
     ]
   },
   "718537646": {
@@ -12804,7 +12887,7 @@
     ]
   },
   "749956170": {
-    "Variable Name": "How long did you experience the following symptoms  ?"
+    "Variable Name": "How long did you experience the following symptomsÂ Â ?"
   },
   "750000285": {
     "Variable Name": "Seasonal Address 4- In general, how many months per year did you spend at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]?"
@@ -13438,7 +13521,7 @@
     ]
   },
   "778495585": {
-    "Variable Name": "Seasonal Address 2- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select Ã¢â‚¬Å“I still spend time here.Ã¢â‚¬Â"
+    "Variable Name": "Seasonal Address 2- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œI still spend time here.ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â"
   },
   "778711683": {
     "Variable Name": "Season Address 10- What is the full street address of your seasonal or vacation home?"
@@ -14031,18 +14114,12 @@
     ]
   },
   "806530984": {
-    "Variable Name": "Seasonal Address 7- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select Ã¢â‚¬Å“I still spend time here.Ã¢â‚¬Â"
+    "Variable Name": "Seasonal Address 7- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œI still spend time here.ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â"
   },
   "806746224": {
     "Variable Label": "Sitting and browsing the internet, playing video games, using social media, or using any other apps or programs on a tablet, phone, computer, or television",
     "Variable Name": [
       "SrvMRE_SittingInternet_v1r0"
-    ]
-  },
-  "806820884": {
-    "Variable Label": "Deviation- Mislabeled",
-    "Variable Name": [
-      "BioCol_Dev_v1r0_Label"
     ]
   },
   "807127029": {
@@ -14550,13 +14627,16 @@
     "Variable Name": "In which season(s) did you do these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)? Select all that apply."
   },
   "829751791": {
-    "Variable Name": "Seasonal Address 3- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select Ã¢â‚¬Å“I still spend time here.Ã¢â‚¬Â"
+    "Variable Name": "Seasonal Address 3- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œI still spend time here.ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â"
   },
   "830201925": {
     "Variable Label": "Walking commute from past work",
     "Variable Name": [
       "SrvLAW_PreWorkWalk4_v1r0"
     ]
+  },
+  "830279557": {
+    "Variable Name": "No, I want to add another seasonal or vacation home address (7th address)"
   },
   "830573274": {
     "Variable Name": "Intersex or other- Site Reported"
@@ -14607,7 +14687,7 @@
     ]
   },
   "832322940": {
-    "Variable Name": "Don’t know"
+    "Variable Name": "Donâ€™t know"
   },
   "833653379": {
     "Variable Label": "Login first name",
@@ -14629,6 +14709,9 @@
   },
   "834544960": {
     "Variable Name": "Geographic group"
+  },
+  "834672471": {
+    "Variable Name": "No, I want to enter another address (9th address)"
   },
   "834817071": {
     "Variable Name": "Light"
@@ -15386,6 +15469,12 @@
     "Variable Label": "Preferred email",
     "Variable Name": [
       "RcrtUP_PreEmail_v1r0"
+    ]
+  },
+  "869829679": {
+    "Variable Label": "Home address summary",
+    "Variable Name": [
+      "SrvLAW_HomeAddSum_v1r0"
     ]
   },
   "870456401": {
@@ -16158,7 +16247,7 @@
     "Variable Name": "2 shots"
   },
   "914325712": {
-    "Variable Name": "Seasonal Address 4- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select Ã¢â‚¬Å“I still spend time here.Ã¢â‚¬Â"
+    "Variable Name": "Seasonal Address 4- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œI still spend time here.ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â"
   },
   "914594314": {
     "Variable Label": "Verification status time",
@@ -16174,6 +16263,12 @@
   },
   "914696832": {
     "Variable Name": "What is the name and the street address of the school that you commute to most often?"
+  },
+  "915179629": {
+    "Variable Label": "Mouthwash Collection Setting",
+    "Variable Name": [
+      "BioSpm_MWSetting_v1r0"
+    ]
   },
   "915222355": {
     "Variable Label": "Country",
@@ -17035,6 +17130,9 @@
       "SrvMRE_Dinner_v1r0"
     ]
   },
+  "955755777": {
+    "Variable Name": "No, I want to add another seasonal or vacation home address (5th address)"
+  },
   "955881350": {
     "Variable Label": "Breast reduction",
     "Variable Name": [
@@ -17046,6 +17144,9 @@
     "Variable Name": [
       "BioCol_Dev_v1r0_UrVol"
     ]
+  },
+  "956935470": {
+    "Variable Name": "No, I want to add another seasonal or vacation home address (10th address)"
   },
   "957305523": {
     "Variable Label": "Teeth Lost from decay or disease",
@@ -17145,6 +17246,9 @@
     "Variable Name": [
       "SrvBlU_COV22_v1r0"
     ]
+  },
+  "960288496": {
+    "Variable Name": "You have entered the maximum number of addresses. You will proceed to the next questions."
   },
   "960332453": {
     "Variable Label": "Brand of chewing tobacco, snus, snuff, or dip",
@@ -17282,6 +17386,9 @@
   "969177591": {
     "Variable Name": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Thyroid cancer?"
   },
+  "969318635": {
+    "Variable Name": "No, I want to add another seasonal or vacation home address (9th address)"
+  },
   "969451837": {
     "Variable Label": "Age first menstrual period",
     "Variable Name": [
@@ -17395,7 +17502,7 @@
     ]
   },
   "975198123": {
-    "Variable Name": "Seasonal Address 1- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select Ã¢â‚¬Å“I still spend time here.Ã¢â‚¬Â"
+    "Variable Name": "Seasonal Address 1- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œI still spend time here.ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â"
   },
   "976052812": {
     "Variable Label": "Last time took anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)",
