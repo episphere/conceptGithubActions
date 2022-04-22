@@ -1,6 +1,5 @@
 {
-  "Formula for Index": "544",
-  "Index": "544",
+  "Formula for Index": "545",
   "Primary Source": [
     "237817859.json"
   ],
@@ -15,7 +14,7 @@
   ],
   "Variable Type": "Char",
   "Variable Length": "40",
-  "Format/Value": "example: \"\"\"\"\"\"\"\"Starbucks eGift\"\"\"\"\"\"\"\"",
+  "Format/Value": "example: \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"Starbucks eGift\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"",
   "Required": "Yes",
   "PII": "No",
   "Notes": "Type of payment chosen/what kind. Repeated measures variable associated with Round. Left as empty string field for now, payment chosen will be sent by NORC. Value will pull from Tango Card Catalog. Payment options change dynamically based on Tango catalog",

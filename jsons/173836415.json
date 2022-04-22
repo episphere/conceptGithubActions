@@ -1,9 +1,9 @@
 {
   "conceptId": "173836415",
-  "Question Text": "Collection Environment",
-  "Variable Label": "Collection Environment",
+  "Question Text": "Collection Details",
+  "Variable Label": "Collection Details",
   "Variable Name": [
-    "BipSpm_CollEnvNest_v1r0"
+    "BipSpm_CollDetails_v1r0"
   ],
   "Variable Type": "Num",
   "Required": "Yes",
@@ -12,14 +12,8 @@
   "Dictionary": "Biospecimen Research",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "4/19/22",
+  "Date added or modified": "4/22/22",
   "Formula for Index": [
-    "332",
-    "333",
-    "334",
-    "335"
-  ],
-  "Index": [
     "332",
     "333",
     "334",

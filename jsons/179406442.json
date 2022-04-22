@@ -6,7 +6,7 @@
     "131497719.json"
   ],
   "conceptId": "179406442",
-  "Question Text": "While you were in the hospital the [first/2nd/3rd/etc.] time you had COVID-19, were you treated in an â€œintensive care unitâ€ or with ICU monitoring? If you are not sure, please make your best guess.",
+  "Question Text": "While you were in the hospital the [first/2nd/3rd/etc.] time you had COVID-19, were you treated in an Ã¢â‚¬Å“intensive care unitÃ¢â‚¬Â or with ICU monitoring? If you are not sure, please make your best guess.",
   "Variable Label": "ICU",
   "Variable Name": [
     "SrvBlU_COV16A_v1r0"
@@ -19,14 +19,9 @@
   "State Attribute": "No",
   "Question Type": "Optional Multiple Choice, Loops",
   "Formula for Index": [
-    "6216",
-    "6217",
-    "6218"
-  ],
-  "Index": [
-    "6216",
-    "6217",
-    "6218"
+    "6224",
+    "6225",
+    "6226"
   ],
   "Format/Value": {
     "104430631.json": "0",
@@ -37,6 +32,6 @@
     "Column Q added space before the = sign."
   ],
   "Notes": [
-    "Harmonization - Questionnaire will still say \"\"\"\"\"\"\"\"Don't Know\"\"\"\"\"\"\"\""
+    "Harmonization - Questionnaire will still say \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"Don't Know\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\""
   ]
 }

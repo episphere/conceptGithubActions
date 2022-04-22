@@ -6,7 +6,7 @@
     "131497719.json"
   ],
   "conceptId": "349659426",
-  "Question Text": "In the last month, how often did you use alcohol-based mouthwash (such as ScopeÂ® or LISTERINEÂ®)?",
+  "Question Text": "In the last month, how often did you use alcohol-based mouthwash (such as ScopeÃ‚Â® or LISTERINEÃ‚Â®)?",
   "Variable Label": "alcohol-based mouthwash frequency past month",
   "Variable Name": [
     "SrvMw_MWALC_v1r0"
@@ -19,20 +19,12 @@
   "State Attribute": "No",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "6503",
-    "6504",
-    "6505",
-    "6506",
-    "6507",
-    "6508"
-  ],
-  "Index": [
-    "6503",
-    "6504",
-    "6505",
-    "6506",
-    "6507",
-    "6508"
+    "6511",
+    "6512",
+    "6513",
+    "6514",
+    "6515",
+    "6516"
   ],
   "Format/Value": {
     "648960871.json": "44",

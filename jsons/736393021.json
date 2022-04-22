@@ -6,7 +6,7 @@
     "131497719.json"
   ],
   "conceptId": "736393021",
-  "Question Text": "In the past two months, have you taken any antibiotic medicine? Common antibiotics include Azithromycin (such as ZithromaxÂ®/Z-PaksÂ®), Penicillin (such as PfizerpenÂ® or Pen-Vee KÂ®), and Amoxicillin (such as AmoxilÂ®) and are generally used to treat infections.",
+  "Question Text": "In the past two months, have you taken any antibiotic medicine? Common antibiotics include Azithromycin (such as ZithromaxÃ‚Â®/Z-PaksÃ‚Â®), Penicillin (such as PfizerpenÃ‚Â® or Pen-Vee KÃ‚Â®), and Amoxicillin (such as AmoxilÃ‚Â®) and are generally used to treat infections.",
   "Variable Label": "Antibiotics",
   "Variable Name": [
     "SrvMw_ANTIBIO_v1r0"
@@ -19,14 +19,9 @@
   "State Attribute": "No",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "6598",
-    "6599",
-    "6600"
-  ],
-  "Index": [
-    "6598",
-    "6599",
-    "6600"
+    "6606",
+    "6607",
+    "6608"
   ],
   "Format/Value": {
     "104430631.json": "0",

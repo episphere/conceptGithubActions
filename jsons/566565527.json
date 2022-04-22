@@ -1,0 +1,25 @@
+{
+  "Formula for Index": "427",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "206639461.json"
+  ],
+  "conceptId": "566565527",
+  "Question Text": "Avaiable Survey Count",
+  "Variable Label": "Avaiable Survey Count",
+  "Variable Name": [
+    "SrvAll_SurveyCt_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Format/Value": "N/A",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Used to populate PWA participant banner with the number of surveys available to them to complete.  Dervied on the back end.",
+  "Dictionary": "Master Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "4/22/22"
+}

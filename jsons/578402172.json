@@ -8,7 +8,7 @@
   "Source Question": [
     "479143504.json"
   ],
-  "GridID/Source Question Name - Surveys Only": [
+  "GridID/Source Question Name": [
     "SrvMw_HYGIENE_v1r0"
   ],
   "conceptId": "578402172",
@@ -27,14 +27,10 @@
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
   "Question Type": "Optional Select All that Apply",
-  "IMS Review Notes": "GRID ID/Source Variable Name (Column H) needed. Added a space between the period and \"\"In\"\" in the source questin (column G)",
+  "IMS Review Notes": "GRID ID/Source Variable Name (Column H) needed. Added a space between the period and \"\"\"\"In\"\"\"\" in the source questin (column G)",
   "Formula for Index": [
-    "6451",
-    "6452"
-  ],
-  "Index": [
-    "6451",
-    "6452"
+    "6459",
+    "6460"
   ],
   "Format/Value": {
     "104430631.json": "0",

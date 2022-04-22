@@ -8,7 +8,7 @@
   "Source Question": [
     "470484596.json"
   ],
-  "GridID/Source Question Name - Surveys Only": [
+  "GridID/Source Question Name": [
     "SrvBio_SYMPTDAY_v1r0"
   ],
   "conceptId": "214414872",
@@ -29,12 +29,8 @@
   "State Attribute": "No",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "6098",
-    "6099"
-  ],
-  "Index": [
-    "6098",
-    "6099"
+    "6106",
+    "6107"
   ],
   "Format/Value": {
     "104430631.json": "0",
@@ -42,6 +38,6 @@
   },
   "IMS Review Notes": [
     "GRID ID/Source Variable Name (Column H) needed",
-    "Added spaces around \"\"=\"\""
+    "Added spaces around \"\"\"\"=\"\"\"\""
   ]
 }

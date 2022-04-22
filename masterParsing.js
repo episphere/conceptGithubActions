@@ -72,7 +72,7 @@ function parseMasterModule() {
                                     if (currJSON['Source Question'] && currJSON['Source Question'][sourceIndex]) {
                                         toReturn[currJSON['GridID/Source Question Name - Surveys Only'][sourceIndex]] = {
                                             'conceptId': currJSON['Source Question'][sourceIndex].substring(0, 9),
-                                            'questionText': masterJSON[currJSON['Source Question'][sourceIndex]]['Question Text'].toUpperCase()
+                                            'questionText': masterJSON[currJSON['Source Question'][sourceIndex]]['Question Text']
                                         }
                                     }
 
@@ -160,7 +160,7 @@ function parseMasterModule() {
                                                     toReturn[name] = {}
                                                 }
                                                 toReturn[name][id] = {
-                                                    'questionText':currJSON['Question Text'].toUpperCase(),
+                                                    'questionText':currJSON['Question Text'],
                                                     'conceptId':currJSON['conceptId'].substring(0, 9)
                                                 }
                                                 console.log(currJSON)
@@ -422,7 +422,7 @@ function parseMasterModule() {
                                   if (currJSON['Source Question'] && currJSON['Source Question'][sourceIndex]) {
                                       toReturn[currJSON['GridID/Source Question Name - Surveys Only'][sourceIndex]] = {
                                           'conceptId': currJSON['Source Question'][sourceIndex].substring(0, 9),
-                                          'questionText': masterJSON[currJSON['Source Question'][sourceIndex]]['Question Text'].toUpperCase()
+                                          'questionText': masterJSON[currJSON['Source Question'][sourceIndex]]['Question Text']
                                       }
                                   }
 
@@ -510,7 +510,7 @@ function parseMasterModule() {
                                                   toReturn[name] = {}
                                               }
                                               toReturn[name][id] = {
-                                                  'questionText':currJSON['Question Text'].toUpperCase(),
+                                                  'questionText':currJSON['Question Text'],
                                                   'conceptId':currJSON['conceptId'].substring(0, 9)
                                               }
                                               console.log(currJSON)
