@@ -1,6 +1,4 @@
 {
-  "conceptId": "525375987",
-  "Question Text": "A glass of iced tea",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,6 +8,11 @@
   "Source Question": [
     "831438612.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "DRINKSWTR1"
+  ],
+  "conceptId": "525375987",
+  "Question Text": "A glass of iced tea",
   "Variable Label": "A glass of iced tea",
   "Variable Name": [
     "SrvLAW_GlassOfIcedTea_v1r0"
@@ -19,14 +22,16 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Old Quest Value - Surveys Only": {
-    "525375987.json": "3"
-  },
   "Required": "No",
   "PII": "No",
   "Date added or modified": "1/19/22",
-  "Source Question Name - Surveys Only": [
-    "DRINKSWTR1"
+  "Formula for Index": [
+    "5495",
+    "5496"
+  ],
+  "Index": [
+    "5495",
+    "5496"
   ],
   "Format/Value": {
     "104430631.json": "0",

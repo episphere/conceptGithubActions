@@ -8,6 +8,9 @@
   "Source Question": [
     "447720598.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "ALCOHOL8"
+  ],
   "conceptId": "889023234",
   "Question Text": "Wine",
   "Variable Label": "Wine",
@@ -22,15 +25,16 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "10/20/21",
-  "Source Question Name - Surveys Only": [
-    "ALCOHOL8"
+  "Formula for Index": [
+    "4247",
+    "4248"
+  ],
+  "Index": [
+    "4247",
+    "4248"
   ],
   "Format/Value": {
     "104430631.json": "0",
-    "353358909.json": "1"
-  },
-  "Old Quest Value - Surveys Only": {
-    "104430631.json": "2",
     "353358909.json": "1"
   }
 }

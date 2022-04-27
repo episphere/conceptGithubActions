@@ -10,6 +10,9 @@
   "Source Question": [
     "752015272.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "CHILDADD6"
+  ],
   "Variable Label": "I still live there",
   "Variable Name": [
     "SrvLAW_ChildHomeCurr_v1r0"
@@ -22,15 +25,16 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "3/10/22",
-  "Source Question Name - Surveys Only": [
-    "CHILDADD6"
+  "Formula for Index": [
+    "5467",
+    "5468"
+  ],
+  "Index": [
+    "5467",
+    "5468"
   ],
   "Format/Value": {
     "139208251.json": "0",
-    "178420302.json": "77"
-  },
-  "Old Quest Value - Surveys Only": {
-    "139208251.json": "1",
     "178420302.json": "77"
   }
 }

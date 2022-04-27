@@ -11,6 +11,10 @@
     "700374192.json",
     "530742915.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "BSNSSTYP1",
+    "BSNSSTYP2"
+  ],
   "conceptId": "596792238",
   "Question Text": "A service provider",
   "Variable Label": "A service provider",
@@ -28,9 +32,13 @@
   "PII": "No",
   "Date added or modified": "10/13/21",
   "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "BSNSSTYP1",
-    "BSNSSTYP2"
+  "Formula for Index": [
+    "2071",
+    "2072"
+  ],
+  "Index": [
+    "2071",
+    "2072"
   ],
   "Format/Value": {
     "104430631.json": "0",

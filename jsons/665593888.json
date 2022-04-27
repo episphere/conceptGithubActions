@@ -1,6 +1,6 @@
 {
   "conceptId": "665593888",
-  "Question Text": "What was the main source of water that you drank at [insert address from CHILDADD1 – CHILDADD3/your childhood home]? Please think about water used to make drinks.",
+  "Question Text": "What was the main source of water that you drank at [insert address from CHILDADD1 - CHILDADD3/your childhood home]? Please think about water used to make drinks.",
   "subcollections": [
     "669305975.json"
   ],
@@ -12,6 +12,9 @@
   ],
   "Source Question": [
     "270024672.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "CHILDWTR2"
   ],
   "Variable Label": "Primary water source",
   "Variable Name": [
@@ -25,8 +28,25 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "3/10/22",
-  "Source Question Name - Surveys Only": [
-    "CHILDWTR2"
+  "Formula for Index": [
+    "5475",
+    "5476",
+    "5477",
+    "5478",
+    "5479",
+    "5480",
+    "5481",
+    "5482"
+  ],
+  "Index": [
+    "5475",
+    "5476",
+    "5477",
+    "5478",
+    "5479",
+    "5480",
+    "5481",
+    "5482"
   ],
   "Format/Value": {
     "123108471.json": "0",
@@ -37,15 +57,5 @@
     "311981718.json": "5",
     "807835037.json": "55",
     "178420302.json": "77"
-  },
-  "Old Quest Value - Surveys Only": {
-    "123108471.json": "1",
-    "463122075.json": "2",
-    "254061941.json": "3",
-    "794792871.json": "4",
-    "893801093.json": "5",
-    "311981718.json": "6",
-    "431441193.json": "7",
-    "832322940.json": "77"
   }
 }

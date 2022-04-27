@@ -8,6 +8,9 @@
   "Source Question": [
     "668834883.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "ESTROHOR"
+  ],
   "conceptId": "246843973",
   "Question Text": "Oral estrogen-only medication (such as Cenestin, Estrace, Femtrace, Menest, Ogen, or Premarin)",
   "Variable Label": "Oral estrogen-only medication (such as Cenestin, Estrace, Femtrace, Menest, Ogen, or Premarin)",
@@ -21,15 +24,16 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Source Question Name - Surveys Only": [
-    "ESTROHOR"
+  "Formula for Index": [
+    "2616",
+    "2617"
+  ],
+  "Index": [
+    "2616",
+    "2617"
   ],
   "Format/Value": {
     "104430631.json": "0",
-    "353358909.json": "1"
-  },
-  "Old Quest Value - Surveys Only": {
-    "104430631.json": "2",
     "353358909.json": "1"
   }
 }

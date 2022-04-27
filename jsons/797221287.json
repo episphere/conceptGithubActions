@@ -8,6 +8,9 @@
   "Source Question": [
     "204421360.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "LAWN1"
+  ],
   "conceptId": "797221287",
   "Question Text": "Moderate outdoor chores (such as weeding, raking, or mowing the lawn)",
   "Variable Label": "Moderate outdoor chores (such as weeding, raking, or mowing the lawn)",
@@ -21,15 +24,16 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Source Question Name - Surveys Only": [
-    "LAWN1"
+  "Formula for Index": [
+    "2911",
+    "2912"
+  ],
+  "Index": [
+    "2911",
+    "2912"
   ],
   "Format/Value": {
     "104430631.json": "0",
-    "353358909.json": "1"
-  },
-  "Old Quest Value - Surveys Only": {
-    "104430631.json": "2",
     "353358909.json": "1"
   }
 }

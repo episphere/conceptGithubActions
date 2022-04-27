@@ -8,6 +8,9 @@
   "Source Question": [
     "894259747.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "MHGROUP2"
+  ],
   "conceptId": "427219143",
   "Question Text": "Hay Fever (Allergic to pollen or Allergic Rhinitis)",
   "Variable Label": "Hay Fever (Allergic to pollen or Allergic Rhinitis)",
@@ -22,8 +25,13 @@
   "Required": "No",
   "PII": "No",
   "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "MHGROUP2"
+  "Formula for Index": [
+    "1128",
+    "1129"
+  ],
+  "Index": [
+    "1128",
+    "1129"
   ],
   "Format/Value": {
     "104430631.json": "0",

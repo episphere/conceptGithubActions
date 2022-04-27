@@ -1,4 +1,6 @@
 {
+  "Formula for Index": "2565",
+  "Index": "2565",
   "Primary Source": [
     "129084651.json",
     "129084651.json",
@@ -65,6 +67,28 @@
     "824251330.json",
     "305195766.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "HORMED5_1",
+    "HORMED5_2",
+    "HORMED5_3",
+    "HORMED5_4",
+    "HORMED5_5",
+    "HORMED5_6",
+    "HORMED5_7",
+    "HORMED5_8",
+    "HORMED5_9",
+    "ESTROHOR5_1",
+    "ESTROHOR5_2",
+    "ESTROHOR5_3",
+    "ESTROHOR5_4",
+    "ESTROHOR5_5",
+    "PROGHOR5_1",
+    "PROGHOR5_2",
+    "COMBHOR5_1",
+    "COMBHOR5_2",
+    "COMBHOR5_3",
+    "PRESHOR6"
+  ],
   "conceptId": "970604592",
   "Question Text": "Years used",
   "Variable Label": "Years use combined oral contraceptive pills",
@@ -115,31 +139,8 @@
   "Variable Type": "Num",
   "Variable Length": "3",
   "Format/Value": "N/A",
-  "Old Quest Value - Surveys Only": "N/A",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if HORMED= 0",
-  "Date added or modified": "10/8/21",
-  "Source Question Name - Surveys Only": [
-    "HORMED5_1",
-    "HORMED5_2",
-    "HORMED5_3",
-    "HORMED5_4",
-    "HORMED5_5",
-    "HORMED5_6",
-    "HORMED5_7",
-    "HORMED5_8",
-    "HORMED5_9",
-    "ESTROHOR5_1",
-    "ESTROHOR5_2",
-    "ESTROHOR5_3",
-    "ESTROHOR5_4",
-    "ESTROHOR5_5",
-    "PROGHOR5_1",
-    "PROGHOR5_2",
-    "COMBHOR5_1",
-    "COMBHOR5_2",
-    "COMBHOR5_3",
-    "PRESHOR6"
-  ]
+  "Date added or modified": "10/8/21"
 }

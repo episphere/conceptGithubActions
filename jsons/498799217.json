@@ -8,6 +8,9 @@
   "Source Question": [
     "548355426.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "FERT4"
+  ],
   "conceptId": "498799217",
   "Question Text": "No cause was found",
   "Variable Label": "No cause was found",
@@ -21,15 +24,16 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Source Question Name - Surveys Only": [
-    "FERT4"
+  "Formula for Index": [
+    "2489",
+    "2490"
+  ],
+  "Index": [
+    "2489",
+    "2490"
   ],
   "Format/Value": {
     "104430631.json": "0",
-    "353358909.json": "1"
-  },
-  "Old Quest Value - Surveys Only": {
-    "104430631.json": "2",
     "353358909.json": "1"
   }
 }

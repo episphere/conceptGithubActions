@@ -1,0 +1,24 @@
+{
+  "Formula for Index": "6171",
+  "Index": "6171",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "131497719.json"
+  ],
+  "conceptId": "744230001",
+  "Question Text": "How many nights did you stay in the hospital when you had COVID-19 for the [first/2nd/3rd/etc.] time you had COVID-19? If you had multiple overnight hospital stays, please add up all of the nights from each of your stays.",
+  "Variable Label": "Nights in hospital",
+  "Variable Name": [
+    "SrvBlU_COV13_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "3",
+  "Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Question Type": "Text Only Response, loops"
+}

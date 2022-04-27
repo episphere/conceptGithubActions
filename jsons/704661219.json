@@ -8,6 +8,9 @@
   "Source Question": [
     "797626610.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "RACEETH8"
+  ],
   "conceptId": "704661219",
   "Question Text": "Scottish",
   "Variable Label": "Scottish",
@@ -23,8 +26,13 @@
   "PII": "No",
   "Notes": "Only display if RACEETH = White",
   "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "RACEETH8"
+  "Formula for Index": [
+    "979",
+    "980"
+  ],
+  "Index": [
+    "979",
+    "980"
   ],
   "Format/Value": {
     "104430631.json": "0",

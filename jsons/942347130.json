@@ -1,4 +1,6 @@
 {
+  "Formula for Index": "1363",
+  "Index": "1363",
   "Primary Source": [
     "129084651.json"
   ],
@@ -7,6 +9,9 @@
   ],
   "Source Question": [
     "517307064.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "BREASTSUR"
   ],
   "conceptId": "942347130",
   "Question Text": "Other breast surgeries: Please describe[text box]",
@@ -23,8 +28,5 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if MHGROUP9 = breast surgery",
-  "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "BREASTSUR"
-  ]
+  "Question Type": "Optional Select All that Apply"
 }

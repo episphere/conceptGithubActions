@@ -8,6 +8,9 @@
   "Source Question": [
     "517307064.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "BREASTSUR"
+  ],
   "conceptId": "667901971",
   "Question Text": "Removal of a lactiferous or milk duct (microdochectomy)",
   "Variable Label": "Removal of a lactiferous or milk duct (microdochectomy)",
@@ -24,8 +27,13 @@
   "Notes": "Only display if MHGROUP9 = breast surgery",
   "Date added or modified": "9/14/21",
   "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "BREASTSUR"
+  "Formula for Index": [
+    "1359",
+    "1360"
+  ],
+  "Index": [
+    "1359",
+    "1360"
   ],
   "Format/Value": {
     "104430631.json": "0",

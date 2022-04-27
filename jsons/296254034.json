@@ -8,6 +8,9 @@
   "Source Question": [
     "311891586.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "PREWORKT1"
+  ],
   "conceptId": "296254034",
   "Question Text": "Bicycle commute to past work",
   "Variable Label": "Bicycle commute to past work",
@@ -22,15 +25,16 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "3/10/22",
-  "Source Question Name - Surveys Only": [
-    "PREWORKT1"
+  "Formula for Index": [
+    "5753",
+    "5754"
+  ],
+  "Index": [
+    "5753",
+    "5754"
   ],
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  },
-  "Old Quest Value - Surveys Only": {
-    "353358909.json": "1",
-    "104430631.json": "2"
   }
 }

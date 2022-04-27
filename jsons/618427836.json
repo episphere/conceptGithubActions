@@ -5,6 +5,8 @@
     "101310722.json",
     "618427836.json"
   ],
+  "Formula for Index": "2386",
+  "Index": "2386",
   "Primary Source": [
     "129084651.json"
   ],
@@ -13,6 +15,9 @@
   ],
   "Source Question": [
     "618427836.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "ACIDSUP3_3"
   ],
   "Variable Label": "Pills per day over-the-counter H2 receptor blockers, don't know",
   "Variable Name": [
@@ -26,12 +31,8 @@
   "Format/Value": {
     "178420302.json": "77"
   },
-  "Old Quest Value - Surveys Only": "Don't know",
   "Required": "N/A",
   "PII": "No",
   "Notes": "Only display if ACIDSUP = 2",
-  "Date added or modified": "10/5/21",
-  "Source Question Name - Surveys Only": [
-    "ACIDSUP3_3"
-  ]
+  "Date added or modified": "10/5/21"
 }

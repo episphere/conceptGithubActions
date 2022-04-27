@@ -1,4 +1,49 @@
 {
   "conceptId": "104430631",
-  "Question Text": "No"
+  "Question Text": "No",
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "131497719.json",
+    "131497719.json"
+  ],
+  "Source Question": [
+    "899251483.json",
+    "542661394.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "SrvMw_PERMTTHLOST_v1r0",
+    "SrvMw_DENTURES_v1r0"
+  ],
+  "Variable Label": "No permanent teeth lost",
+  "Variable Name": [
+    "[SrvMw_NOPERMTTHLOST_v1r0]",
+    "SrvMw_DENTURES_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "0",
+    "0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Question Type": "Select All That Apply",
+  "IMS Review Notes": "GRID ID/Source Variable Name (Column H) needed",
+  "Formula for Index": [
+    "6519",
+    "6520"
+  ],
+  "Index": [
+    "6519",
+    "6520"
+  ],
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
 }

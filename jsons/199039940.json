@@ -8,6 +8,9 @@
   "Source Question": [
     "128705365.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "GRID_HOUSE2"
+  ],
   "conceptId": "199039940",
   "Question Text": "Caring for children or adults (pushing stroller or wheelchair, lifting, bathing) time per day",
   "Variable Label": "Caring for children or adults (pushing stroller or wheelchair, lifting, bathing) time per day",
@@ -23,8 +26,23 @@
   "PII": "No",
   "Notes": "Grid Question - Only display if HOUSE2D =0 or no response",
   "Date added or modified": "2/28/22",
-  "Source Question Name - Surveys Only": [
-    "GRID_HOUSE2"
+  "Formula for Index": [
+    "2897",
+    "2898",
+    "2899",
+    "2900",
+    "2901",
+    "2902",
+    "2903"
+  ],
+  "Index": [
+    "2897",
+    "2898",
+    "2899",
+    "2900",
+    "2901",
+    "2902",
+    "2903"
   ],
   "Format/Value": {
     "428999623.json": "0",
@@ -34,14 +52,5 @@
     "638092100.json": "4",
     "628177728.json": "5",
     "805918496.json": "6"
-  },
-  "Old Quest Value - Surveys Only": {
-    "428999623.json": "1",
-    "836185098.json": "2",
-    "761981197.json": "3",
-    "179454645.json": "4",
-    "183473012.json": "5",
-    "196713045.json": "6",
-    "805918496.json": "7"
   }
 }

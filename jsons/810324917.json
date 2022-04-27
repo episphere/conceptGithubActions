@@ -14,6 +14,9 @@
   "Source Question": [
     "810324917.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "EAMAR10"
+  ],
   "Variable Label": "Why consume marijuana in food or drinks",
   "Variable Name": [
     "SrvSAS_WhyEdibles_v1r0"
@@ -26,8 +29,19 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "3/10/22",
-  "Source Question Name - Surveys Only": [
-    "EAMAR10"
+  "Formula for Index": [
+    "4164",
+    "4165",
+    "4166",
+    "4167",
+    "4168"
+  ],
+  "Index": [
+    "4164",
+    "4165",
+    "4166",
+    "4167",
+    "4168"
   ],
   "Format/Value": {
     "437269318.json": "0",
@@ -35,12 +49,5 @@
     "585672584.json": "2",
     "807835037.json": "55",
     "746038746.json": "99"
-  },
-  "Old Quest Value - Surveys Only": {
-    "437269318.json": "1",
-    "838317013.json": "2",
-    "585672584.json": "3",
-    "431441193.json": "4",
-    "528526505.json": "5"
   }
 }

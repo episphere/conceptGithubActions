@@ -8,6 +8,9 @@
   "Source Question": [
     "874709643.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "MHGROUP7"
+  ],
   "conceptId": "296357383",
   "Question Text": "Gonorrhea",
   "Variable Label": "Gonorrhea",
@@ -22,8 +25,13 @@
   "Required": "No",
   "PII": "No",
   "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "MHGROUP7"
+  "Formula for Index": [
+    "1231",
+    "1232"
+  ],
+  "Index": [
+    "1231",
+    "1232"
   ],
   "Format/Value": {
     "104430631.json": "0",

@@ -80,6 +80,33 @@
     "947205597.json",
     "830608495.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "MHGROUP1",
+    "MHGROUP2",
+    "MHGROUP3",
+    "MHGROUP4",
+    "MHGROUP5",
+    "MHGROUP6",
+    "MHGROUP7",
+    "MHGROUP8",
+    "MHGROUP9",
+    "BREASTSUR",
+    "PAINREL1",
+    "CHOLHTN",
+    "ACIDSUP",
+    "MENSHIS9",
+    "FERT6",
+    "HORMED1",
+    "ESTROHOR",
+    "PROGHOR",
+    "COMBHOR",
+    "LAWN1",
+    "EXEREC1",
+    "SLPROB1",
+    "SLPROB2",
+    "TOBACCO",
+    "MARIJUANA"
+  ],
   "conceptId": "535003378",
   "Question Text": "None of the above",
   "Variable Label": "No cardiovascular conditions",
@@ -144,39 +171,16 @@
   "Notes": "Only can be selected if no other variables selected in MHGROUP1",
   "Date added or modified": "9/23/21",
   "Question Type": "Optional Select All that Apply, Displayif in One or More Responses",
-  "Source Question Name - Surveys Only": [
-    "MHGROUP1",
-    "MHGROUP2",
-    "MHGROUP3",
-    "MHGROUP4",
-    "MHGROUP5",
-    "MHGROUP6",
-    "MHGROUP7",
-    "MHGROUP8",
-    "MHGROUP9",
-    "BREASTSUR",
-    "PAINREL1",
-    "CHOLHTN",
-    "ACIDSUP",
-    "MENSHIS9",
-    "FERT6",
-    "HORMED1",
-    "ESTROHOR",
-    "PROGHOR",
-    "COMBHOR",
-    "LAWN1",
-    "EXEREC1",
-    "SLPROB1",
-    "SLPROB2",
-    "TOBACCO",
-    "MARIJUANA"
+  "Formula for Index": [
+    "1100",
+    "1101"
+  ],
+  "Index": [
+    "1100",
+    "1101"
   ],
   "Format/Value": {
     "104430631.json": "0",
-    "353358909.json": "1"
-  },
-  "Old Quest Value - Surveys Only": {
-    "104430631.json": "2",
     "353358909.json": "1"
   }
 }

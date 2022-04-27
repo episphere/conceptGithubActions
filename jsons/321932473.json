@@ -1,6 +1,6 @@
 {
   "conceptId": "321932473",
-  "Question Text": "Seasonal Address 10- What [is/was] the main source of water that you [drink/drank] at [insert address insert address from SEASADD1 – SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank].",
+  "Question Text": "Seasonal Address 10- What [is/was] the main source of water that you [drink/drank] at [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank].",
   "subcollections": [
     "321932473.json",
     "641655118.json"
@@ -14,6 +14,9 @@
   "Source Question": [
     "321932473.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "SEASWTR3_10"
+  ],
   "Variable Label": "Primary water source",
   "Variable Name": [
     "SrvLAW_SeaAd10PrWater2_v1r0"
@@ -26,8 +29,25 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "3/10/22",
-  "Source Question Name - Surveys Only": [
-    "SEASWTR3_10"
+  "Formula for Index": [
+    "5426",
+    "5427",
+    "5428",
+    "5429",
+    "5430",
+    "5431",
+    "5432",
+    "5433"
+  ],
+  "Index": [
+    "5426",
+    "5427",
+    "5428",
+    "5429",
+    "5430",
+    "5431",
+    "5432",
+    "5433"
   ],
   "Format/Value": {
     "123108471.json": "0",
@@ -38,15 +58,5 @@
     "311981718.json": "5",
     "807835037.json": "55",
     "178420302.json": "77"
-  },
-  "Old Quest Value - Surveys Only": {
-    "123108471.json": "1",
-    "463122075.json": "2",
-    "254061941.json": "3",
-    "794792871.json": "4",
-    "893801093.json": "5",
-    "311981718.json": "6",
-    "431441193.json": "7",
-    "832322940.json": "77"
   }
 }

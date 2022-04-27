@@ -1,4 +1,6 @@
 {
+  "Formula for Index": "5557",
+  "Index": "5557",
   "Primary Source": [
     "129084651.json"
   ],
@@ -7,6 +9,9 @@
   ],
   "Source Question": [
     "596318751.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "CURWORK1"
   ],
   "conceptId": "774707280",
   "Question Text": "Employer State/Province",
@@ -20,8 +25,5 @@
   "Variable Type": "Char",
   "Variable Length": "48",
   "Required": "No",
-  "PII": "Yes",
-  "Source Question Name - Surveys Only": [
-    "CURWORK1"
-  ]
+  "PII": "Yes"
 }

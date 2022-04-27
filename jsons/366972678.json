@@ -1,0 +1,31 @@
+{
+  "Formula for Index": "6107",
+  "Index": "6107",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "131497719.json"
+  ],
+  "Source Question": [
+    "980800222.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "SrvBlU_COV3_v1r0"
+  ],
+  "conceptId": "366972678",
+  "Question Text": "When was the [first/2nd/3rd/etc.] time you had COVID-19? If you are not sure, please make your best guess. Year",
+  "Variable Label": "Infection Date Year",
+  "Variable Name": [
+    "SrvBlU_COV3_YEAR_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "4",
+  "Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Question Type": "Multiple Text Boxes, Loops",
+  "IMS Review Notes": "This Question has 2 text boxes so needs two separate DD questions with the same source question."
+}

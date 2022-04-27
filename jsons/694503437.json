@@ -1,0 +1,34 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "131497719.json"
+  ],
+  "conceptId": "694503437",
+  "Question Text": "The [first/2nd/3rd/etc.] time you had COVID-19, did you have any symptoms?",
+  "Variable Label": "Symptoms",
+  "Variable Name": [
+    "SrvBlU_COV6_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Question Type": "Optional Multiple Choice, Loops",
+  "IMS Review Notes": "Added space between  \"time\" and \"you\"",
+  "Formula for Index": [
+    "6113",
+    "6114"
+  ],
+  "Index": [
+    "6113",
+    "6114"
+  ],
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

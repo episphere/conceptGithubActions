@@ -1,4 +1,6 @@
 {
+  "Formula for Index": "1067",
+  "Index": "1067",
   "Primary Source": [
     "129084651.json"
   ],
@@ -7,6 +9,9 @@
   ],
   "Source Question": [
     "555481393.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "SEXORIENT"
   ],
   "conceptId": "979809707",
   "Question Text": "Orientation - Do you think of yourself as: [text box]",
@@ -24,8 +29,5 @@
   "PII": "No",
   "Notes": "Option only available if 55 is selected in SEXORIENT",
   "Date added or modified": "9/14/21",
-  "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
-  "Source Question Name - Surveys Only": [
-    "SEXORIENT"
-  ]
+  "Question Type": "Optional Multiple Choice with Text Box (text in text box)"
 }

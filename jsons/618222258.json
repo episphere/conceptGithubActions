@@ -8,6 +8,9 @@
   "Source Question": [
     "976808005.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "RACEETH4"
+  ],
   "conceptId": "618222258",
   "Question Text": "Haitian",
   "Variable Label": "Haitian",
@@ -23,8 +26,13 @@
   "PII": "No",
   "Notes": "Only display if RACEETH = Black, African American, or African",
   "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "RACEETH4"
+  "Formula for Index": [
+    "873",
+    "874"
+  ],
+  "Index": [
+    "873",
+    "874"
   ],
   "Format/Value": {
     "104430631.json": "0",

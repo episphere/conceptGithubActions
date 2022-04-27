@@ -1,4 +1,6 @@
 {
+  "Formula for Index": "4157",
+  "Index": "4157",
   "Primary Source": [
     "129084651.json",
     "129084651.json",
@@ -16,6 +18,12 @@
     "517100968.json",
     "933417196.json",
     "585819411.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "EAMAR9A",
+    "EAMAR9C",
+    "THMAR9A",
+    "THMAR9C"
   ],
   "conceptId": "810608313",
   "Question Text": "# Servings per day",
@@ -35,14 +43,7 @@
   "Variable Type": "Num",
   "Variable Length": "2",
   "Format/Value": "N/A",
-  "Old Quest Value - Surveys Only": "N/A",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "10/29/21",
-  "Source Question Name - Surveys Only": [
-    "EAMAR9A",
-    "EAMAR9C",
-    "THMAR9A",
-    "THMAR9C"
-  ]
+  "Date added or modified": "10/29/21"
 }

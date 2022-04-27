@@ -6,7 +6,7 @@
     "716117817.json"
   ],
   "conceptId": "203943120",
-  "Question Text": "Does the trip home usually take about the same amount of time as the trip to get to [insert address from CURWORK1 – CURWORK3/this address]?",
+  "Question Text": "Does the trip home usually take about the same amount of time as the trip to get to [insert address from CURWORK1 - CURWORK3/this address]?",
   "Variable Label": "Time to and from current work same",
   "Variable Name": [
     "SrvLAW_CurWorkT8_v1r0"
@@ -18,12 +18,16 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
+  "Formula for Index": [
+    "5646",
+    "5647"
+  ],
+  "Index": [
+    "5646",
+    "5647"
+  ],
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  },
-  "Old Quest Value - Surveys Only": {
-    "353358909.json": "1",
-    "104430631.json": "2"
   }
 }

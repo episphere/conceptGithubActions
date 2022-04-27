@@ -8,6 +8,9 @@
   "Source Question": [
     "797626610.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "RACEETH8"
+  ],
   "conceptId": "918190932",
   "Question Text": "Norwegian",
   "Variable Label": "Norwegian",
@@ -23,8 +26,13 @@
   "PII": "No",
   "Notes": "Only display if RACEETH = White",
   "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "RACEETH8"
+  "Formula for Index": [
+    "975",
+    "976"
+  ],
+  "Index": [
+    "975",
+    "976"
   ],
   "Format/Value": {
     "104430631.json": "0",

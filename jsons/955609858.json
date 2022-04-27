@@ -8,6 +8,9 @@
   "Source Question": [
     "981441822.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "GRID_SLHABIT3"
+  ],
   "conceptId": "955609858",
   "Question Text": "At the dinner table",
   "Variable Label": "At the dinner table",
@@ -22,19 +25,22 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "10/8/21",
-  "Source Question Name - Surveys Only": [
-    "GRID_SLHABIT3"
+  "Formula for Index": [
+    "3368",
+    "3369",
+    "3370",
+    "3371"
+  ],
+  "Index": [
+    "3368",
+    "3369",
+    "3370",
+    "3371"
   ],
   "Format/Value": {
     "514068832.json": "0",
     "774439579.json": "1",
     "747099514.json": "2",
     "977681388.json": "3"
-  },
-  "Old Quest Value - Surveys Only": {
-    "514068832.json": "1",
-    "774439579.json": "2",
-    "747099514.json": "3",
-    "977681388.json": "4"
   }
 }

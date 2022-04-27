@@ -17,6 +17,12 @@
     "578895128.json",
     "812370563.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "MOMCANC2",
+    "DADCANC2",
+    "SIBCANC2",
+    "CHILDCANC2"
+  ],
   "conceptId": "665036297",
   "Question Text": "Non-Hodgkin's lymphoma",
   "Variable Label": "Non-Hodgkin's lymphoma",
@@ -37,11 +43,13 @@
   "Required": "No",
   "PII": "No",
   "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "MOMCANC2",
-    "DADCANC2",
-    "SIBCANC2",
-    "CHILDCANC2"
+  "Formula for Index": [
+    "1626",
+    "1627"
+  ],
+  "Index": [
+    "1626",
+    "1627"
   ],
   "Format/Value": {
     "104430631.json": "0",

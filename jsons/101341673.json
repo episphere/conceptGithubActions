@@ -1,4 +1,6 @@
 {
+  "Formula for Index": "5562",
+  "Index": "5562",
   "Primary Source": [
     "129084651.json"
   ],
@@ -8,6 +10,9 @@
   "Source Question": [
     "263588196.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "CURWORK2"
+  ],
   "conceptId": "101341673",
   "Question Text": "Employer Zip code - Follow-Up",
   "Variable Label": "Zip code",
@@ -15,12 +20,9 @@
     "SrvLAW_ZipFU_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "CURWORKZIP _FOLLOWUP"
+    "CURWORKZIP_FOLLOWUP"
   ],
   "Variable Type": "Num",
   "Variable Length": "5",
-  "Date added or modified": "3/23/22",
-  "Source Question Name - Surveys Only": [
-    "CURWORK2"
-  ]
+  "Date added or modified": "3/31/22"
 }

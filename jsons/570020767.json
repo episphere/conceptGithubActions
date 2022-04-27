@@ -1,0 +1,58 @@
+{
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "131497719.json",
+    "131497719.json",
+    "131497719.json",
+    "131497719.json"
+  ],
+  "Source Question": [
+    "847578001.json",
+    "114280729.json",
+    "813989715.json",
+    "633946551.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "GRID_SRVBLU_COV19A_V1R0",
+    "GRID_SRVBLU_COV20A_V1R0",
+    "GRID_SRVBLU_COV23A_V1R0",
+    "GRID_SRVBLU_COV24A_V1R0"
+  ],
+  "conceptId": "570020767",
+  "Question Text": "Appetite changes",
+  "Variable Label": "Long COVID Appetite changes",
+  "Variable Name": [
+    "SrvBlU_COV19A2_v1r0",
+    "SrvBlU_COV20A6_v1r0",
+    "SrvBlU_COV23A2_v1r0",
+    "SrvBlU_COV24A2_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Question Type": "Grid with Multiple Choice Sub-Questions",
+  "IMS Review Notes": "Updated column G \"Source Question\"",
+  "Formula for Index": [
+    "6191",
+    "6192",
+    "6193"
+  ],
+  "Index": [
+    "6191",
+    "6192",
+    "6193"
+  ],
+  "Format/Value": {
+    "244354126.json": "0",
+    "724612102.json": "1",
+    "178780048.json": "2"
+  }
+}

@@ -1,4 +1,6 @@
 {
+  "Formula for Index": "1930",
+  "Index": "1930",
   "Primary Source": [
     "129084651.json"
   ],
@@ -7,6 +9,9 @@
   ],
   "Source Question": [
     "640010727.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "CHILDAGE"
   ],
   "conceptId": "299300933",
   "Question Text": "Child 1- How old is [CHILD INITIALS OR NICKNAME/your CHILD] today?, Number",
@@ -20,12 +25,8 @@
   "Variable Type": "Num",
   "Variable Length": "2",
   "Format/Value": "N/A",
-  "Old Quest Value - Surveys Only": "N/A",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "9/14/21",
-  "Question Type": "Text Box Plus Check Box, Loops",
-  "Source Question Name - Surveys Only": [
-    "CHILDAGE"
-  ]
+  "Question Type": "Text Box Plus Check Box, Loops"
 }

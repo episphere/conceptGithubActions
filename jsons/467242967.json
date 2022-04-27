@@ -8,6 +8,9 @@
   "Source Question": [
     "345355061.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "CURSCHT9"
+  ],
   "conceptId": "467242967",
   "Question Text": "Car, van, or truck (includes carpools or van pools) commute from current school",
   "Variable Label": "Car, van, or truck (includes carpools or van pools) commute from current school",
@@ -22,15 +25,16 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "3/10/22",
-  "Source Question Name - Surveys Only": [
-    "CURSCHT9"
+  "Formula for Index": [
+    "5976",
+    "5977"
+  ],
+  "Index": [
+    "5976",
+    "5977"
   ],
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  },
-  "Old Quest Value - Surveys Only": {
-    "353358909.json": "1",
-    "104430631.json": "2"
   }
 }

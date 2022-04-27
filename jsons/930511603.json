@@ -1,4 +1,6 @@
 {
+  "Formula for Index": "4587",
+  "Index": "4587",
   "Primary Source": [
     "129084651.json"
   ],
@@ -7,6 +9,9 @@
   ],
   "Source Question": [
     "680046149.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "HOMEADD1_4"
   ],
   "conceptId": "930511603",
   "Question Text": "3-Previous City",
@@ -20,8 +25,5 @@
   "Variable Type": "Char",
   "Variable Length": "45",
   "Required": "No",
-  "PII": "Yes",
-  "Source Question Name - Surveys Only": [
-    "HOMEADD1_4"
-  ]
+  "PII": "Yes"
 }

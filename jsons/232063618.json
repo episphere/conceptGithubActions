@@ -1,6 +1,8 @@
 {
   "conceptId": "232063618",
   "Question Text": "Less than 1 month",
+  "Formula for Index": "5169",
+  "Index": "5169",
   "Primary Source": [
     "129084651.json",
     "129084651.json",
@@ -37,6 +39,18 @@
     "709755471.json",
     "701803756.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "SEASADDMOS1",
+    "SEASADDMOS2",
+    "SEASADDMOS3",
+    "SEASADDMOS4",
+    "SEASADDMOS5",
+    "SEASADDMOS6",
+    "SEASADDMOS7",
+    "SEASADDMOS8",
+    "SEASADDMOS9",
+    "SEASADDMOS10"
+  ],
   "Variable Label": "Less than 1 month",
   "Variable Name": [
     "SrvLAW_Under1MoAdd1_v1r0",
@@ -67,20 +81,7 @@
   "Format/Value": {
     "232063618.json": "0"
   },
-  "Old Quest Value - Surveys Only": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "2/4/22",
-  "Source Question Name - Surveys Only": [
-    "SEASADDMOS1",
-    "SEASADDMOS2",
-    "SEASADDMOS3",
-    "SEASADDMOS4",
-    "SEASADDMOS5",
-    "SEASADDMOS6",
-    "SEASADDMOS7",
-    "SEASADDMOS8",
-    "SEASADDMOS9",
-    "SEASADDMOS10"
-  ]
+  "Date added or modified": "2/4/22"
 }

@@ -1,0 +1,49 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "131497719.json"
+  ],
+  "conceptId": "498984275",
+  "Question Text": "In the last month, how often did you use a toothbrush?",
+  "Variable Label": "Toothbrush frequency past month",
+  "Variable Name": [
+    "SrvMw_BRUSH2_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Question Type": "Optional Multiple Choice",
+  "Formula for Index": [
+    "6421",
+    "6422",
+    "6423",
+    "6424",
+    "6425",
+    "6426"
+  ],
+  "Index": [
+    "6421",
+    "6422",
+    "6423",
+    "6424",
+    "6425",
+    "6426"
+  ],
+  "Format/Value": {
+    "648960871.json": "44",
+    "693256778.json": "0",
+    "735330419.json": "1",
+    "138332277.json": "2",
+    "858624942.json": "3",
+    "850675416.json": "4"
+  },
+  "IMS Review Notes": [
+    "changed column Q to 44 Never",
+    "Added Row to add the 44 Never above"
+  ]
+}

@@ -8,6 +8,9 @@
   "Source Question": [
     "543780863.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "HORMED1"
+  ],
   "conceptId": "787142499",
   "Question Text": "Birth control patch (such as Ortho Evra, applied to the skin)",
   "Variable Label": "Birth control patch (such as Ortho Evra, applied to the skin)",
@@ -22,15 +25,16 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "7/1/21",
-  "Source Question Name - Surveys Only": [
-    "HORMED1"
+  "Formula for Index": [
+    "2549",
+    "2550"
+  ],
+  "Index": [
+    "2549",
+    "2550"
   ],
   "Format/Value": {
     "104430631.json": "0",
-    "353358909.json": "1"
-  },
-  "Old Quest Value - Surveys Only": {
-    "104430631.json": "2",
     "353358909.json": "1"
   }
 }

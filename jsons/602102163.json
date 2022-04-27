@@ -8,6 +8,9 @@
   "Source Question": [
     "633553324.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "GRID_ALCLIFE2"
+  ],
   "conceptId": "602102163",
   "Question Text": "During the year(s) you were drinking, when you were age 70 and older, about how often did you drink alcohol?",
   "Variable Label": "How often drink alcohol, Age 70 and older",
@@ -22,8 +25,27 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "3/7/22",
-  "Source Question Name - Surveys Only": [
-    "GRID_ALCLIFE2"
+  "Formula for Index": [
+    "4376",
+    "4377",
+    "4378",
+    "4379",
+    "4380",
+    "4381",
+    "4382",
+    "4383",
+    "4384"
+  ],
+  "Index": [
+    "4376",
+    "4377",
+    "4378",
+    "4379",
+    "4380",
+    "4381",
+    "4382",
+    "4383",
+    "4384"
   ],
   "Format/Value": {
     "265550580.json": "0",
@@ -35,16 +57,5 @@
     "424768954.json": "6",
     "687445652.json": "7",
     "333682419.json": "8"
-  },
-  "Old Quest Value - Surveys Only": {
-    "265550580.json": "1",
-    "950039557.json": "2",
-    "402048066.json": "3",
-    "522395860.json": "4",
-    "756073829.json": "5",
-    "858624942.json": "6",
-    "132709023.json": "7",
-    "810264230.json": "8",
-    "333682419.json": "9"
   }
 }

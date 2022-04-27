@@ -14,6 +14,9 @@
   "Source Question": [
     "640010727.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "CHILDAGE"
+  ],
   "Variable Label": "Child 1 age, other",
   "Variable Name": [
     "SrvBOH_Child1AgeOther_v1r0"
@@ -27,15 +30,16 @@
   "PII": "No",
   "Date added or modified": "8/23/21",
   "Question Type": "Text Box Plus Check Box, Loops",
-  "Source Question Name - Surveys Only": [
-    "CHILDAGE"
+  "Formula for Index": [
+    "1931",
+    "1932"
+  ],
+  "Index": [
+    "1931",
+    "1932"
   ],
   "Format/Value": {
     "958239616.json": "0",
     "178420302.json": "77"
-  },
-  "Old Quest Value - Surveys Only": {
-    "958239616.json": "1",
-    "832322940.json": "99"
   }
 }

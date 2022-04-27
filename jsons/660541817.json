@@ -1,4 +1,6 @@
 {
+  "Formula for Index": "1519",
+  "Index": "1519",
   "Primary Source": [
     "129084651.json"
   ],
@@ -7,6 +9,9 @@
   ],
   "Source Question": [
     "630675760.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "WTLOSS2_3545"
   ],
   "conceptId": "660541817",
   "Question Text": "Other weight loss method between ages 35 and 45: Please describe [text box]",
@@ -24,8 +29,5 @@
   "PII": "No",
   "Notes": "Only display if WTLOSS2_3545 = 55",
   "Date added or modified": "9/15/21",
-  "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "WTLOSS2_3545"
-  ]
+  "Question Type": "Optional Select All that Apply"
 }

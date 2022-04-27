@@ -8,6 +8,9 @@
   "Source Question": [
     "543780863.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "HORMED1"
+  ],
   "conceptId": "205223932",
   "Question Text": "Copper IUD (such as Paraguard intrauterine device)",
   "Variable Label": "Copper IUD (such as Paraguard intrauterine device)",
@@ -22,15 +25,16 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "7/1/21",
-  "Source Question Name - Surveys Only": [
-    "HORMED1"
+  "Formula for Index": [
+    "2551",
+    "2552"
+  ],
+  "Index": [
+    "2551",
+    "2552"
   ],
   "Format/Value": {
     "104430631.json": "0",
-    "353358909.json": "1"
-  },
-  "Old Quest Value - Surveys Only": {
-    "104430631.json": "2",
     "353358909.json": "1"
   }
 }

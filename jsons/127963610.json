@@ -1,4 +1,6 @@
 {
+  "Formula for Index": "4623",
+  "Index": "4623",
   "Primary Source": [
     "129084651.json"
   ],
@@ -7,6 +9,9 @@
   ],
   "Source Question": [
     "113930886.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "HOMEADD1_6"
   ],
   "conceptId": "127963610",
   "Question Text": "5-Previous Zip code",
@@ -20,8 +25,5 @@
   "Variable Type": "Num",
   "Variable Length": "5",
   "Required": "No",
-  "PII": "Yes",
-  "Source Question Name - Surveys Only": [
-    "HOMEADD1_6"
-  ]
+  "PII": "Yes"
 }

@@ -21,14 +21,19 @@
   "Notes": "Only display if MHGROUP9 = oophorectomy",
   "Date added or modified": "9/14/21",
   "Question Type": "Optional Multiple Choice",
+  "Formula for Index": [
+    "1390",
+    "1391",
+    "1392"
+  ],
+  "Index": [
+    "1390",
+    "1391",
+    "1392"
+  ],
   "Format/Value": {
     "333647143.json": "0",
     "109972911.json": "1",
     "535003378.json": "88"
-  },
-  "Old Quest Value - Surveys Only": {
-    "333647143.json": "1",
-    "109972911.json": "2",
-    "535003378.json": "3"
   }
 }

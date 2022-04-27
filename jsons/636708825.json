@@ -1,4 +1,6 @@
 {
+  "Formula for Index": "5880",
+  "Index": "5880",
   "Primary Source": [
     "129084651.json"
   ],
@@ -7,6 +9,9 @@
   ],
   "Source Question": [
     "914696832.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "CURSCH1"
   ],
   "conceptId": "636708825",
   "Question Text": "Commute School Name of school",
@@ -20,8 +25,5 @@
   "Variable Type": "Char",
   "Variable Length": "300",
   "Required": "No",
-  "PII": "Yes",
-  "Source Question Name - Surveys Only": [
-    "CURSCH1"
-  ]
+  "PII": "Yes"
 }

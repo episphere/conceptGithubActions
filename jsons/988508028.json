@@ -8,6 +8,9 @@
   "Source Question": [
     "981441822.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "GRID_SLHABIT3"
+  ],
   "conceptId": "988508028",
   "Question Text": "Sitting inactive in a public place (such as a theater or a meeting)",
   "Variable Label": "Sitting inactive in a public place (such as a theater or a meeting)",
@@ -22,19 +25,22 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "10/8/21",
-  "Source Question Name - Surveys Only": [
-    "GRID_SLHABIT3"
+  "Formula for Index": [
+    "3344",
+    "3345",
+    "3346",
+    "3347"
+  ],
+  "Index": [
+    "3344",
+    "3345",
+    "3346",
+    "3347"
   ],
   "Format/Value": {
     "514068832.json": "0",
     "774439579.json": "1",
     "747099514.json": "2",
     "977681388.json": "3"
-  },
-  "Old Quest Value - Surveys Only": {
-    "514068832.json": "1",
-    "774439579.json": "2",
-    "747099514.json": "3",
-    "977681388.json": "4"
   }
 }

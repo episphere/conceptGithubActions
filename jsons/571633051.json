@@ -8,6 +8,9 @@
   "Source Question": [
     "525535977.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "RACEETH3"
+  ],
   "conceptId": "571633051",
   "Question Text": "Pakistani",
   "Variable Label": "Pakistani",
@@ -23,8 +26,13 @@
   "PII": "No",
   "Notes": "Only display if RACEETH = Asian",
   "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "RACEETH3"
+  "Formula for Index": [
+    "854",
+    "855"
+  ],
+  "Index": [
+    "854",
+    "855"
   ],
   "Format/Value": {
     "104430631.json": "0",

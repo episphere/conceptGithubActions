@@ -1,0 +1,39 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "131497719.json"
+  ],
+  "conceptId": "366980310",
+  "Question Text": "The  [first/2nd/3rd/etc.] time you had COVID-19, did you test positive?",
+  "Variable Label": "Positive Test",
+  "Variable Name": [
+    "SrvBlU_COV4_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Question Type": "Optional Multiple Choice, Loops",
+  "Formula for Index": [
+    "6108",
+    "6109",
+    "6110"
+  ],
+  "Index": [
+    "6108",
+    "6109",
+    "6110"
+  ],
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1",
+    "178420302.json": "77"
+  },
+  "IMS Review Notes": [
+    "Column Q added space before the = sign."
+  ]
+}

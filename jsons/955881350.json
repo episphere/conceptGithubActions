@@ -8,6 +8,9 @@
   "Source Question": [
     "517307064.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "BREASTSUR"
+  ],
   "conceptId": "955881350",
   "Question Text": "Breast reduction",
   "Variable Label": "Breast reduction",
@@ -24,8 +27,13 @@
   "Notes": "Only display if MHGROUP9 = breast surgery",
   "Date added or modified": "8/9/21",
   "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "BREASTSUR"
+  "Formula for Index": [
+    "1349",
+    "1350"
+  ],
+  "Index": [
+    "1349",
+    "1350"
   ],
   "Format/Value": {
     "104430631.json": "0",

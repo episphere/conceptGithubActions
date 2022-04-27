@@ -21,14 +21,19 @@
   "Notes": "Only display if MHGROUP9 = prostate remvoal surgery",
   "Date added or modified": "9/14/21",
   "Question Type": "Optional Multiple Choice",
+  "Formula for Index": [
+    "1407",
+    "1408",
+    "1409"
+  ],
+  "Index": [
+    "1407",
+    "1408",
+    "1409"
+  ],
   "Format/Value": {
     "524029283.json": "0",
     "500023550.json": "1",
     "535003378.json": "88"
-  },
-  "Old Quest Value - Surveys Only": {
-    "524029283.json": "1",
-    "500023550.json": "2",
-    "535003378.json": "3"
   }
 }

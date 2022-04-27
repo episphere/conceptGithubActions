@@ -8,6 +8,9 @@
   "Source Question": [
     "947205597.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "TOBACCO"
+  ],
   "conceptId": "706254326",
   "Question Text": "Electronic delivery devices that can be vaped, such as e-cigarettes, Juul, blue, and NJOY. These electronic delivery devices are battery-powered and create vapor.",
   "Variable Label": "Electronic delivery devices that can be vaped, such as e-cigarettes, Juul, blue, and NJOY. These electronic delivery devices are battery-powered and create vapor.",
@@ -22,15 +25,16 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "10/20/21",
-  "Source Question Name - Surveys Only": [
-    "TOBACCO"
+  "Formula for Index": [
+    "3433",
+    "3434"
+  ],
+  "Index": [
+    "3433",
+    "3434"
   ],
   "Format/Value": {
     "104430631.json": "0",
-    "353358909.json": "1"
-  },
-  "Old Quest Value - Surveys Only": {
-    "104430631.json": "2",
     "353358909.json": "1"
   }
 }

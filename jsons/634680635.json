@@ -8,6 +8,9 @@
   "Source Question": [
     "345355061.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "CURSCHT9"
+  ],
   "conceptId": "634680635",
   "Question Text": "Commuter rail, subway, metro commute from current school",
   "Variable Label": "Commuter rail, subway, metro commute from current school",
@@ -22,15 +25,16 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "3/10/22",
-  "Source Question Name - Surveys Only": [
-    "CURSCHT9"
+  "Formula for Index": [
+    "5984",
+    "5985"
+  ],
+  "Index": [
+    "5984",
+    "5985"
   ],
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  },
-  "Old Quest Value - Surveys Only": {
-    "353358909.json": "1",
-    "104430631.json": "2"
   }
 }

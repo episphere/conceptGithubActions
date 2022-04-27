@@ -17,6 +17,12 @@
     "578895128.json",
     "812370563.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "MOMCANC2",
+    "DADCANC2",
+    "SIBCANC2",
+    "CHILDCANC2"
+  ],
   "conceptId": "489400183",
   "Question Text": "Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.)",
   "Variable Label": "Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.)",
@@ -37,11 +43,13 @@
   "Required": "No",
   "PII": "No",
   "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "MOMCANC2",
-    "DADCANC2",
-    "SIBCANC2",
-    "CHILDCANC2"
+  "Formula for Index": [
+    "1616",
+    "1617"
+  ],
+  "Index": [
+    "1616",
+    "1617"
   ],
   "Format/Value": {
     "104430631.json": "0",

@@ -1,0 +1,43 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "131497719.json"
+  ],
+  "Source Question": [
+    "705336878.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "SrvBlU_COV8_v1r0"
+  ],
+  "conceptId": "160627865",
+  "Question Text": "Weakness or fatigue (tiredness)",
+  "Variable Label": "Weakness or fatigue",
+  "Variable Name": [
+    "SrvBlU_COV8D_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "3"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Question Type": "Optional Select All that Apply, Loops",
+  "IMS Review Notes": "Added Source Variable Name (Column H)",
+  "Formula for Index": [
+    "6126",
+    "6127"
+  ],
+  "Index": [
+    "6126",
+    "6127"
+  ],
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

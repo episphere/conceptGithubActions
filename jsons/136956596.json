@@ -8,6 +8,9 @@
   "Source Question": [
     "874709643.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "MHGROUP7"
+  ],
   "conceptId": "136956596",
   "Question Text": "Trichomoniasis",
   "Variable Label": "Trichomoniasis",
@@ -22,8 +25,13 @@
   "Required": "No",
   "PII": "No",
   "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "MHGROUP7"
+  "Formula for Index": [
+    "1235",
+    "1236"
+  ],
+  "Index": [
+    "1235",
+    "1236"
   ],
   "Format/Value": {
     "104430631.json": "0",

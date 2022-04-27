@@ -1,4 +1,6 @@
 {
+  "Formula for Index": "1053",
+  "Index": "1053",
   "Primary Source": [
     "129084651.json"
   ],
@@ -7,6 +9,9 @@
   ],
   "Source Question": [
     "289664241.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "GEN"
   ],
   "conceptId": "918409306",
   "Question Text": "Gender - Do you think of yourself as: [text box]",
@@ -24,8 +29,5 @@
   "PII": "No",
   "Notes": "Option only available if 55 is selected in GEN",
   "Date added or modified": "9/14/21",
-  "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
-  "Source Question Name - Surveys Only": [
-    "GEN"
-  ]
+  "Question Type": "Optional Multiple Choice with Text Box (text in text box)"
 }

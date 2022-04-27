@@ -1,0 +1,36 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "131497719.json"
+  ],
+  "conceptId": "273371161",
+  "Question Text": "Following your COVID-19 infection in [FILL IN DATES FROM SrvBlU_COV3_v1r0], do you feel that you have fully recovered to your usual state of health?",
+  "Variable Label": "Recovery",
+  "Variable Name": [
+    "SrvBlU_COV21_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Question Type": "Optional multiple Choice",
+  "Formula for Index": [
+    "6292",
+    "6293",
+    "6294"
+  ],
+  "Index": [
+    "6292",
+    "6293",
+    "6294"
+  ],
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1",
+    "224099497.json": "2"
+  }
+}

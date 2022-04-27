@@ -1,0 +1,57 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "131497719.json"
+  ],
+  "conceptId": "205713835",
+  "Question Text": "In the last month, how often did you use floss?",
+  "Variable Label": "Floss frequency past month",
+  "Variable Name": [
+    "SrvMw_FLOSS2_v1r0"
+  ],
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Formula for Index": [
+    "6427",
+    "6428",
+    "6429",
+    "6430",
+    "6431",
+    "6432"
+  ],
+  "Index": [
+    "6427",
+    "6428",
+    "6429",
+    "6430",
+    "6431",
+    "6432"
+  ],
+  "Variable Type": [
+    "Num"
+  ],
+  "Variable Length": [
+    "2"
+  ],
+  "Format/Value": {
+    "648960871.json": "44",
+    "693256778.json": "0",
+    "735330419.json": "1",
+    "138332277.json": "2",
+    "858624942.json": "3",
+    "850675416.json": "4"
+  },
+  "Required": [
+    "No"
+  ],
+  "Question Type": [
+    "Optional Multiple Choice"
+  ],
+  "IMS Review Notes": [
+    "changed column Q to 44 Never",
+    "Added Row to add the 44 Never above"
+  ]
+}

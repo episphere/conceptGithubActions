@@ -31,6 +31,16 @@
     "115616118.json",
     "797626610.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "RACEETH",
+    "RACEETH2",
+    "RACEETH3",
+    "RACEETH4",
+    "RACEETH5",
+    "RACEETH6",
+    "RACEETH7",
+    "RACEETH8"
+  ],
   "Variable Label": "Prefer not to answer",
   "Variable Name": [
     "SrvBOH_PrefNoAnsRE_v1r0",
@@ -58,15 +68,13 @@
   "PII": "No",
   "Date added or modified": "9/23/21",
   "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "RACEETH",
-    "RACEETH2",
-    "RACEETH3",
-    "RACEETH4",
-    "RACEETH5",
-    "RACEETH6",
-    "RACEETH7",
-    "RACEETH8"
+  "Formula for Index": [
+    "827",
+    "828"
+  ],
+  "Index": [
+    "827",
+    "828"
   ],
   "Format/Value": {
     "104430631.json": "0",

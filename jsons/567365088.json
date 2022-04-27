@@ -8,6 +8,9 @@
   "Source Question": [
     "814664694.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "HRMED2"
+  ],
   "conceptId": "567365088",
   "Question Text": "Finasteride",
   "Variable Label": "Finasteride",
@@ -24,8 +27,13 @@
   "Notes": "[DISPLAY IF SEX=01 or 02]",
   "Date added or modified": "9/14/21",
   "Question Type": "Optional Select All that Apply, Displayif in One or More Responses",
-  "Source Question Name - Surveys Only": [
-    "HRMED2"
+  "Formula for Index": [
+    "1572",
+    "1573"
+  ],
+  "Index": [
+    "1572",
+    "1573"
   ],
   "Format/Value": {
     "104430631.json": "0",

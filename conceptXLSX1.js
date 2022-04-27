@@ -1,5 +1,7 @@
 const XLSX = require("xlsx");
 const fs = require('fs');
+const XLSXStyle = require("xlsx-style");
+
 
 
 //See if actions works on forks
@@ -519,8 +521,10 @@ async function readFile(fileName){
 
     //reads file using xlsx api
     filename = 'csv/masterFile.xlsx'
-    let workbook = XLSX.readFile(filename);
-    let sheet = workbook.Sheets[workbook.SheetNames[2]]
+    let workbook = XLSX.readFile(filename, {'cellStyles':true, 'sheetStubs':true});
+
+    console.log(workbook.SheetNames.indexOf('MasterFile'))
+    let sheet = workbook.Sheets[workbook.SheetNames[workbook.SheetNames.indexOf('MasterFile')]]
     let matrix = sheet2arr(sheet)
 
 
@@ -627,21 +631,40 @@ async function readFile(fileName){
     //fs.writeFileSync(fileName, toPrint)
     console.log(toPrint[0])
     console.log(workbook.utils)
-    let currSheet = XLSX.utils.aoa_to_sheet(toPrint)
-    workbook.Sheets[workbook.SheetNames[2]] = currSheet
+    
+    let workbookStyle = XLSXStyle.readFile(filename, {'cellStyles':true, 'sheetStubs':true});
+    let sheetStyle = workbookStyle.Sheets[workbookStyle.SheetNames[workbookStyle.SheetNames.indexOf('MasterFile')]]
+    let styles = sheet2Styles(sheetStyle)
+    let cols = []
+    let rows = []
+    for(let i = 0; i < workbook.SheetNames.length; i++){
+        cols.push(workbookStyle.Sheets[workbook.SheetNames[i]]['!cols'])
+        rows.push(workbookStyle.Sheets[workbook.SheetNames[i]]['!rows'])
+    }
+    XLSX.utils.sheet_add_aoa(workbook.Sheets[workbook.SheetNames[workbook.SheetNames.indexOf('MasterFile')]],toPrint)
+    
+    //workbook.Sheets[workbook.SheetNames[workbook.SheetNames.indexOf('MasterFile')]] = currSheet
+    
+
+    XLSX.writeFile(workbook, fileName, {'cellStyles': true});
+
+    let workbookStyleWrite = XLSXStyle.readFile(filename, {'cellStyles':true, 'sheetStubs':true});
+    let sheetToWrite = workbook.Sheets[workbook.SheetNames[workbook.SheetNames.indexOf('MasterFile')]]
+    applyStyles(sheetToWrite, styles)
+    for(let i = 0; i < workbook.SheetNames.length; i++){
+        workbook.Sheets[workbook.SheetNames[i]]['!cols'] = cols[i] 
+        workbook.Sheets[workbook.SheetNames[i]]['!rows'] = rows[i] 
+    }
+    XLSXStyle.writeFile(workbook, fileName, {'cellStyles': true});
+
     let timestamp = new Date().toISOString().split('.')[0].replace(/:/g, '-').replace('T', '-');
     let filenameOutside = './csvHistory/Quest-' + timestamp + '_Concept_Id_Dict.xlsx';
     let filenameVarGen = './csvHistory/Quest-' + timestamp + '_Concept_ID_Gen.json'
     fs.writeFileSync(filenameVarGen,JSON.stringify(nameToConcept,null, 2))
+
     //fs.writeFileSync(filenameOutside,toPrint)
-    var outside = XLSX.utils.book_new();
-    console.log(excelOutput[2])
-    
-    let currSheet1 = XLSX.utils.aoa_to_sheet(toPrint);
-    XLSX.utils.book_append_sheet(outside, currSheet1, 'masterFile')
-    let a = sheet2arr(currSheet1);
-    console.log(a)
-    XLSX.writeFile(outside, filenameOutside);
+
+    XLSXStyle.writeFile(workbook, filenameOutside, {'cellStyles': true});
 
 }
 
@@ -659,7 +682,14 @@ function sheet2arr(sheet){
           ];
           if( typeof nextCell === 'undefined' ){
              row.push(void 0);
-          } else row.push(nextCell.w);
+          } else {
+            if(nextCell.w != undefined){
+                row.push(nextCell.w.trim())
+            }  
+            else{
+                row.push(nextCell.w);
+            }
+          }
        }
        result.push(row);
    }
@@ -667,9 +697,70 @@ function sheet2arr(sheet){
 };
 
 
+
+function sheet2Styles(sheet){
+    var range = XLSXStyle.utils.decode_range(sheet['!ref']);
+    var result = [];
+    var row;
+    var rowNum;
+    var colNum;
+    for(rowNum = range.s.r; rowNum <= range.e.r; rowNum++){
+        row = [];
+        for(colNum=range.s.c; colNum<=range.e.c; colNum++){
+            var nextCell = sheet[
+                XLSXStyle.utils.encode_cell({r: rowNum, c: colNum})
+            ];
+            //row.push(sheet[XLSXStyle.utils.encode_cell({r: rowNum, c: colNum})].s)
+            if( typeof nextCell === 'undefined' ){
+                row.push({});
+                //console.log( XLSXStyle.utils.encode_cell({r: rowNum, c: colNum}))
+            } else {
+                if(nextCell.s.hasOwnProperty('border')){
+                    delete nextCell.s.border
+                }
+                row.push(nextCell.s);
+                
+            }
+        }
+        result.push(row);
+    }
+    //console.log(result[0])
+    return result
+}
+
+function applyStyles(sheet, styles){
+    var range = XLSX.utils.decode_range(sheet['!ref']);
+    var row;
+    var rowNum;
+    var colNum;
+    for(rowNum = range.s.r; rowNum <= range.e.r; rowNum++){
+        row = [];
+        for(colNum=range.s.c; colNum<=range.e.c; colNum++){
+            var nextCell = sheet[
+                XLSX.utils.encode_cell({r: rowNum, c: colNum})
+            ];
+            if( typeof nextCell === 'undefined' ){
+                if (JSON.stringify(styles[rowNum][colNum]) != '{}'){
+                    sheet[
+                        XLSX.utils.encode_cell({r: rowNum, c: colNum})
+                    ].s = styles[rowNum][colNum]
+                }
+            } else{
+                //console.log(styles)
+                //console.log(styles[rowNum][colNum])
+                console.log(rowNum)
+                if (JSON.stringify(styles[rowNum][colNum]) != '{}'){
+                    nextCell.s = styles[rowNum][colNum]
+                }
+                
+            } 
+        }
+    }
+}
+
 module.exports = {
     readFile:readFile
 }
 
-let filename = 'csv/masterFile.xlsx'
-readFile(filename)
+//let filename = 'csv/masterFile.xlsx'
+//readFile(filename)

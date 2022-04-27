@@ -1,0 +1,42 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "131497719.json"
+  ],
+  "conceptId": "179406442",
+  "Question Text": "While you were in the hospital the [first/2nd/3rd/etc.] time you had COVID-19, were you treated in an “intensive care unit” or with ICU monitoring? If you are not sure, please make your best guess.",
+  "Variable Label": "ICU",
+  "Variable Name": [
+    "SrvBlU_COV16A_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Question Type": "Optional Multiple Choice, Loops",
+  "Formula for Index": [
+    "6180",
+    "6181",
+    "6182"
+  ],
+  "Index": [
+    "6180",
+    "6181",
+    "6182"
+  ],
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1",
+    "178420302.json": "77"
+  },
+  "IMS Review Notes": [
+    "Column Q added space before the = sign."
+  ],
+  "Notes": [
+    "Harmonization - Questionnaire will still say \"Don't Know\""
+  ]
+}

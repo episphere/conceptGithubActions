@@ -7,7 +7,7 @@
   ],
   "conceptId": "684635302",
   "Question Text": "Baseline Mouthwash Collected",
-  "Variable Label": "Placeholder- Baseline Mouthwash Collected",
+  "Variable Label": "Baseline Mouthwash Collected",
   "Variable Name": [
     "BioFin_BaseMouthCol_v1r0"
   ],
@@ -18,7 +18,16 @@
   "Derivation Notes": "BioCol_TubeCollected_v1r0 equals 1 for tube BioCol_0007v1r0 and BioSpm_Visit_v1r0 equals 0 then BioFin_BaseMouthCol_v1r0 equals 1.",
   "Dictionary": "Biospecimen Research",
   "State Attribute": "No",
-  "Default Variable": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "4/14/22",
+  "Formula for Index": [
+    "396",
+    "397"
+  ],
+  "Index": [
+    "396",
+    "397"
+  ],
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

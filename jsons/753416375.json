@@ -5,6 +5,8 @@
     "101310722.json",
     "753416375.json"
   ],
+  "Formula for Index": "2204",
+  "Index": "2204",
   "Primary Source": [
     "129084651.json"
   ],
@@ -13,6 +15,9 @@
   ],
   "Source Question": [
     "753416375.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "PAINREL3_3"
   ],
   "Variable Label": "Pills per day ibuprofen, don't know",
   "Variable Name": [
@@ -26,12 +31,8 @@
   "Format/Value": {
     "178420302.json": "77"
   },
-  "Old Quest Value - Surveys Only": "Don't know",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if PAINREL1 = 2",
-  "Date added or modified": "10/6/21",
-  "Source Question Name - Surveys Only": [
-    "PAINREL3_3"
-  ]
+  "Date added or modified": "10/6/21"
 }

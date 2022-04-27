@@ -11,6 +11,10 @@
     "797626610.json",
     "588212264.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "RACEETH8",
+    "LANG"
+  ],
   "conceptId": "418464677",
   "Question Text": "German",
   "Variable Label": "German",
@@ -28,9 +32,13 @@
   "PII": "No",
   "Notes": "Only display if RACEETH = White",
   "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "RACEETH8",
-    "LANG"
+  "Formula for Index": [
+    "969",
+    "970"
+  ],
+  "Index": [
+    "969",
+    "970"
   ],
   "Format/Value": {
     "104430631.json": "0",

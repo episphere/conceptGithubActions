@@ -1,0 +1,43 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "131497719.json"
+  ],
+  "Source Question": [
+    "479143504.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "SrvMw_HYGIENE_v1r0"
+  ],
+  "conceptId": "578402172",
+  "Question Text": "Tongue Cleaner or Scraper",
+  "Variable Label": "Tongue Cleaner or Scraper past month",
+  "Variable Name": [
+    "SrvMw_TONGUE1_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "3"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Question Type": "Optional Select All that Apply",
+  "IMS Review Notes": "GRID ID/Source Variable Name (Column H) needed. Added a space between the period and \"In\" in the source questin (column G)",
+  "Formula for Index": [
+    "6415",
+    "6416"
+  ],
+  "Index": [
+    "6415",
+    "6416"
+  ],
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

@@ -1,4 +1,6 @@
 {
+  "Formula for Index": "887",
+  "Index": "887",
   "Primary Source": [
     "129084651.json"
   ],
@@ -7,6 +9,9 @@
   ],
   "Source Question": [
     "976808005.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "RACEETH4"
   ],
   "conceptId": "852296096",
   "Question Text": "None of these Black categories fully describe me. Please describe [text box]",
@@ -24,8 +29,5 @@
   "PII": "No",
   "Notes": "Only display if RACEETH = Black, African American, or African",
   "Date added or modified": "9/14/21",
-  "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "RACEETH4"
-  ]
+  "Question Type": "Optional Select All that Apply"
 }

@@ -1,4 +1,6 @@
 {
+  "Formula for Index": "2159",
+  "Index": "2159",
   "Primary Source": [
     "129084651.json"
   ],
@@ -7,6 +9,9 @@
   ],
   "Source Question": [
     "857915436.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "ALTADDRESS2"
   ],
   "conceptId": "907038282",
   "Question Text": "Alternative address city",
@@ -24,8 +29,5 @@
   "PII": "Yes",
   "Notes": "Populated from Google Addresses",
   "Date added or modified": "12/27/21",
-  "Question Type": "Multiple Text Boxes",
-  "Source Question Name - Surveys Only": [
-    "ALTADDRESS2"
-  ]
+  "Question Type": "Multiple Text Boxes"
 }

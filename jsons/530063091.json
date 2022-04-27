@@ -8,6 +8,9 @@
   "Source Question": [
     "362270886.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "RACEETH2"
+  ],
   "conceptId": "530063091",
   "Question Text": "Alaska Native",
   "Variable Label": "Alaska Native",
@@ -23,8 +26,13 @@
   "PII": "No",
   "Notes": "Only display if RACEETH = American Indian or Alaska Native",
   "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "RACEETH2"
+  "Formula for Index": [
+    "831",
+    "832"
+  ],
+  "Index": [
+    "831",
+    "832"
   ],
   "Format/Value": {
     "104430631.json": "0",

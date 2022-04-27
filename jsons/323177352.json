@@ -8,6 +8,9 @@
   "Source Question": [
     "508846529.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "SKINCANC2"
+  ],
   "conceptId": "323177352",
   "Question Text": "Squamous cell",
   "Variable Label": "Squamous cell",
@@ -23,8 +26,13 @@
   "PII": "No",
   "Notes": "Only display is SKINCANC = 1",
   "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "SKINCANC2"
+  "Formula for Index": [
+    "1072",
+    "1073"
+  ],
+  "Index": [
+    "1072",
+    "1073"
   ],
   "Format/Value": {
     "104430631.json": "0",

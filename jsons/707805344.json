@@ -1,4 +1,6 @@
 {
+  "Formula for Index": "3271",
+  "Index": "3271",
   "Primary Source": [
     "129084651.json",
     "129084651.json",
@@ -23,6 +25,14 @@
     "711365027.json",
     "825227968.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "SLEEP1D",
+    "SLEEP1I",
+    "SLEEP1M",
+    "SLEEP2D",
+    "SLEEP2I",
+    "SLEEP2N"
+  ],
   "conceptId": "707805344",
   "Question Text": "# of Hours",
   "Variable Label": "Hours take to fall asleep, before workdays",
@@ -44,16 +54,7 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Old Quest Value - Surveys Only": "N/A",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "10/25/21",
-  "Source Question Name - Surveys Only": [
-    "SLEEP1D",
-    "SLEEP1I",
-    "SLEEP1M",
-    "SLEEP2D",
-    "SLEEP2I",
-    "SLEEP2N"
-  ]
+  "Date added or modified": "10/25/21"
 }

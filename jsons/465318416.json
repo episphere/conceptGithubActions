@@ -8,6 +8,9 @@
   "Source Question": [
     "624179836.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "MHGROUP9"
+  ],
   "conceptId": "465318416",
   "Question Text": "Tubes tied (tubal ligation)",
   "Variable Label": "Tubes tied (tubal ligation)",
@@ -22,8 +25,13 @@
   "Required": "No",
   "PII": "No",
   "Question Type": "Optional Select All that Apply, Displayif in One or More Responses",
-  "Source Question Name - Surveys Only": [
-    "MHGROUP9"
+  "Formula for Index": [
+    "1317",
+    "1318"
+  ],
+  "Index": [
+    "1317",
+    "1318"
   ],
   "Format/Value": {
     "104430631.json": "0",

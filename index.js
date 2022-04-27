@@ -1,4 +1,4 @@
-const concept = require('./concept');
+const concept = require('./conceptXLSX1');
 const parse = require('./masterParsing.js')
 const aggregate = require('./aggregateJSONS.js');
 
@@ -12,7 +12,7 @@ console.log(files)
 let changed = false;
 for(let i = 0; i < files.length; i++){
     let file = files[i]
-    if(file.includes("masterFile.csv")){
+    if(file.includes("masterFile.xlsx")){
         const fs = require('fs');
         fs.readdirSync('./jsons/').forEach(file => {
             if((file.match(/[0-9]+.json/))){

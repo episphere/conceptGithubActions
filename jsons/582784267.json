@@ -8,6 +8,9 @@
   "Source Question": [
     "750420077.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "SEX2"
+  ],
   "conceptId": "582784267",
   "Question Text": "Penis",
   "Variable Label": "Penis",
@@ -24,8 +27,13 @@
   "Notes": "Only display if SEX=Intersex or other",
   "Date added or modified": "9/17/21",
   "Question Type": "Required Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "SEX2"
+  "Formula for Index": [
+    "1030",
+    "1031"
+  ],
+  "Index": [
+    "1030",
+    "1031"
   ],
   "Format/Value": {
     "104430631.json": "0",

@@ -8,6 +8,9 @@
   "Source Question": [
     "525535977.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "RACEETH3"
+  ],
   "conceptId": "901439277",
   "Question Text": "Cambodian",
   "Variable Label": "Cambodian",
@@ -23,8 +26,13 @@
   "PII": "No",
   "Notes": "Only display if RACEETH = Asian",
   "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "RACEETH3"
+  "Formula for Index": [
+    "842",
+    "843"
+  ],
+  "Index": [
+    "842",
+    "843"
   ],
   "Format/Value": {
     "104430631.json": "0",

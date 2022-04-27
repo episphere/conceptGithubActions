@@ -8,9 +8,12 @@
   "Source Question": [
     "543780863.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "HORMED1"
+  ],
   "conceptId": "441493408",
-  "Question Text": "Combined oral contraceptive pills, commonly called \"\"the pill\"\" (combined means the pill includes both estrogen and progesterone/progestin)",
-  "Variable Label": "Combined oral contraceptive pills, commonly called \"\"the pill\"\" (combined means the pill includes both estrogen and progesterone/progestin)",
+  "Question Text": "Combined oral contraceptive pills, commonly called \"the pill\" (combined means the pill includes both estrogen and progesterone/progestin)",
+  "Variable Label": "Combined oral contraceptive pills, commonly called \"the pill\" (combined means the pill includes both estrogen and progesterone/progestin)",
   "Variable Name": [
     "SrvMRE_CombinedPill_v1r0"
   ],
@@ -22,15 +25,16 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "7/1/21",
-  "Source Question Name - Surveys Only": [
-    "HORMED1"
+  "Formula for Index": [
+    "2539",
+    "2540"
+  ],
+  "Index": [
+    "2539",
+    "2540"
   ],
   "Format/Value": {
     "104430631.json": "0",
-    "353358909.json": "1"
-  },
-  "Old Quest Value - Surveys Only": {
-    "104430631.json": "2",
     "353358909.json": "1"
   }
 }

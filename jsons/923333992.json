@@ -1,4 +1,6 @@
 {
+  "Formula for Index": "2091",
+  "Index": "2091",
   "Primary Source": [
     "129084651.json"
   ],
@@ -7,6 +9,9 @@
   ],
   "Source Question": [
     "700374192.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "BSNSSTYP1"
   ],
   "conceptId": "923333992",
   "Question Text": "What type of business was this at your current employer? Other [text box]",
@@ -24,8 +29,5 @@
   "PII": "No",
   "Notes": "Only fill if other selection for BSNSSTYP1",
   "Date added or modified": "10/13/21",
-  "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "BSNSSTYP1"
-  ]
+  "Question Type": "Optional Select All that Apply"
 }

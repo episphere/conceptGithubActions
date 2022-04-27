@@ -8,6 +8,9 @@
   "Source Question": [
     "351657815.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "RACEETH6"
+  ],
   "conceptId": "144320785",
   "Question Text": "Israeli",
   "Variable Label": "Israeli",
@@ -23,8 +26,13 @@
   "PII": "No",
   "Notes": "Only display if RACEETH = Middle Eastern or North African",
   "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "RACEETH6"
+  "Formula for Index": [
+    "923",
+    "924"
+  ],
+  "Index": [
+    "923",
+    "924"
   ],
   "Format/Value": {
     "104430631.json": "0",

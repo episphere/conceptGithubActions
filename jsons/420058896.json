@@ -8,6 +8,9 @@
   "Source Question": [
     "517976064.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "EXEREC1"
+  ],
   "conceptId": "420058896",
   "Question Text": "Ride a bicycle (including a stationary bike",
   "Variable Label": "Ride a bicycle (including a stationary bike",
@@ -21,15 +24,16 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Source Question Name - Surveys Only": [
-    "EXEREC1"
+  "Formula for Index": [
+    "3044",
+    "3045"
+  ],
+  "Index": [
+    "3044",
+    "3045"
   ],
   "Format/Value": {
     "104430631.json": "0",
-    "353358909.json": "1"
-  },
-  "Old Quest Value - Surveys Only": {
-    "104430631.json": "2",
     "353358909.json": "1"
   }
 }

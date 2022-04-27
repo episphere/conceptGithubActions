@@ -8,6 +8,9 @@
   "Source Question": [
     "517307064.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "BREASTSUR"
+  ],
   "conceptId": "256196714",
   "Question Text": "Removal of one breast (mastectomy)",
   "Variable Label": "Removal of one breast (mastectomy)",
@@ -23,8 +26,13 @@
   "PII": "No",
   "Notes": "Only display if MHGROUP9 = breast surgery",
   "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "BREASTSUR"
+  "Formula for Index": [
+    "1353",
+    "1354"
+  ],
+  "Index": [
+    "1353",
+    "1354"
   ],
   "Format/Value": {
     "104430631.json": "0",

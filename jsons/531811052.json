@@ -8,6 +8,9 @@
   "Source Question": [
     "479628567.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "SLPROB1"
+  ],
   "conceptId": "531811052",
   "Question Text": "Narcolepsy",
   "Variable Label": "Narcolepsy",
@@ -22,15 +25,16 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "7/1/21",
-  "Source Question Name - Surveys Only": [
-    "SLPROB1"
+  "Formula for Index": [
+    "3403",
+    "3404"
+  ],
+  "Index": [
+    "3403",
+    "3404"
   ],
   "Format/Value": {
     "104430631.json": "0",
-    "353358909.json": "1"
-  },
-  "Old Quest Value - Surveys Only": {
-    "104430631.json": "2",
     "353358909.json": "1"
   }
 }

@@ -20,15 +20,20 @@
   "PII": "No",
   "Notes": "Only display if MHGROUP4 = diabetes",
   "Question Type": "Optional Multiple Choice",
+  "Formula for Index": [
+    "1194",
+    "1195",
+    "1196"
+  ],
+  "Index": [
+    "1194",
+    "1195",
+    "1196"
+  ],
   "Format/Value": {
     "146477090.json": "0",
     "573635975.json": "1",
     "178420302.json": "77"
-  },
-  "Old Quest Value - Surveys Only": {
-    "146477090.json": "1",
-    "573635975.json": "2",
-    "832322940.json": "77"
   },
   "Date added or modified": [
     "6/24/21"

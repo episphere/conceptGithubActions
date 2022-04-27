@@ -8,6 +8,9 @@
   "Source Question": [
     "649352910.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "GRID_SITTING"
+  ],
   "conceptId": "806746224",
   "Question Text": "Sitting and browsing the internet, playing video games, using social media, or using any other apps or programs on a tablet, phone, computer, or television",
   "Variable Label": "Sitting and browsing the internet, playing video games, using social media, or using any other apps or programs on a tablet, phone, computer, or television",
@@ -23,8 +26,29 @@
   "PII": "No",
   "Notes": "Grid Question",
   "Date added or modified": "2/28/22",
-  "Source Question Name - Surveys Only": [
-    "GRID_SITTING"
+  "Formula for Index": [
+    "2821",
+    "2822",
+    "2823",
+    "2824",
+    "2825",
+    "2826",
+    "2827",
+    "2828",
+    "2829",
+    "2830"
+  ],
+  "Index": [
+    "2821",
+    "2822",
+    "2823",
+    "2824",
+    "2825",
+    "2826",
+    "2827",
+    "2828",
+    "2829",
+    "2830"
   ],
   "Format/Value": {
     "503218834.json": "0",
@@ -37,17 +61,5 @@
     "755558825.json": "7",
     "949555271.json": "8",
     "201002865.json": "9"
-  },
-  "Old Quest Value - Surveys Only": {
-    "503218834.json": "1",
-    "464753847.json": "2",
-    "729681071.json": "3",
-    "258023209.json": "4",
-    "638092100.json": "5",
-    "167683404.json": "6",
-    "437899276.json": "7",
-    "377950090.json": "8",
-    "471715698.json": "9",
-    "201002865.json": "10"
   }
 }

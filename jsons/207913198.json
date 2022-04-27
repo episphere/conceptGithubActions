@@ -8,6 +8,9 @@
   "Source Question": [
     "543780863.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "HORMED1"
+  ],
   "conceptId": "207913198",
   "Question Text": "Depo-provera (birth control shot given once every three months)",
   "Variable Label": "Depo-provera (birth control shot given once every three months)",
@@ -22,15 +25,16 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "7/1/21",
-  "Source Question Name - Surveys Only": [
-    "HORMED1"
+  "Formula for Index": [
+    "2545",
+    "2546"
+  ],
+  "Index": [
+    "2545",
+    "2546"
   ],
   "Format/Value": {
     "104430631.json": "0",
-    "353358909.json": "1"
-  },
-  "Old Quest Value - Surveys Only": {
-    "104430631.json": "2",
     "353358909.json": "1"
   }
 }

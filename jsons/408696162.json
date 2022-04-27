@@ -1,4 +1,6 @@
 {
+  "Formula for Index": "3450",
+  "Index": "3450",
   "Primary Source": [
     "129084651.json",
     "129084651.json",
@@ -41,6 +43,20 @@
     "742254559.json",
     "556837046.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "CIG3",
+    "ECIG3",
+    "CIGAR3",
+    "CHEW3",
+    "HOOKAH3",
+    "PIPE3",
+    "SMMAR3",
+    "TOMAR3",
+    "ELMAR3",
+    "EAMAR3",
+    "THMAR3",
+    "ALCOHOL4"
+  ],
   "conceptId": "408696162",
   "Question Text": "Age started using on regular basis",
   "Variable Label": "Age first used cigarettes on a regular basis",
@@ -75,22 +91,7 @@
   "Variable Type": "Num",
   "Variable Length": "2",
   "Format/Value": "N/A",
-  "Old Quest Value - Surveys Only": "N/A",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "10/29/21",
-  "Source Question Name - Surveys Only": [
-    "CIG3",
-    "ECIG3",
-    "CIGAR3",
-    "CHEW3",
-    "HOOKAH3",
-    "PIPE3",
-    "SMMAR3",
-    "TOMAR3",
-    "ELMAR3",
-    "EAMAR3",
-    "THMAR3",
-    "ALCOHOL4"
-  ]
+  "Date added or modified": "10/29/21"
 }

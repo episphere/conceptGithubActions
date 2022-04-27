@@ -8,6 +8,9 @@
   "Source Question": [
     "115616118.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "RACEETH7"
+  ],
   "conceptId": "786290435",
   "Question Text": "Samoan",
   "Variable Label": "Samoan",
@@ -23,8 +26,13 @@
   "PII": "No",
   "Notes": "Only display if RACEETH = Native Hawaiian or other Pacific Islander",
   "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "RACEETH7"
+  "Formula for Index": [
+    "950",
+    "951"
+  ],
+  "Index": [
+    "950",
+    "951"
   ],
   "Format/Value": {
     "104430631.json": "0",

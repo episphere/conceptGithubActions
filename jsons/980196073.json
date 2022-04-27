@@ -8,6 +8,9 @@
   "Source Question": [
     "733547268.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "GRID_HOUSE"
+  ],
   "conceptId": "980196073",
   "Question Text": "Caring for pets (walking dogs, feeding, playing, grooming) during past 12 months",
   "Variable Label": "Caring for pets (walking dogs, feeding, playing, grooming) during past 12 months",
@@ -23,8 +26,23 @@
   "PII": "No",
   "Notes": "Grid Question",
   "Date added or modified": "11/15/21",
-  "Source Question Name - Surveys Only": [
-    "GRID_HOUSE"
+  "Formula for Index": [
+    "2855",
+    "2856",
+    "2857",
+    "2858",
+    "2859",
+    "2860",
+    "2861"
+  ],
+  "Index": [
+    "2855",
+    "2856",
+    "2857",
+    "2858",
+    "2859",
+    "2860",
+    "2861"
   ],
   "Format/Value": {
     "648960871.json": "44",
@@ -33,15 +51,6 @@
     "645894551.json": "3",
     "996315715.json": "4",
     "671267928.json": "5",
-    "647504893.json": "6"
-  },
-  "Old Quest Value - Surveys Only": {
-    "648960871.json": "0",
-    "239152340.json": "1",
-    "932958558.json": "2",
-    "358778983.json": "3",
-    "464206264.json": "4",
-    "175161681.json": "5",
     "647504893.json": "6"
   }
 }

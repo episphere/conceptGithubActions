@@ -8,6 +8,9 @@
   "Source Question": [
     "725626004.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "MHGROUP8"
+  ],
   "conceptId": "746542057",
   "Question Text": "Fibrocystic Breast, or other Benign Breast Disease(such as proliferative Benign Breast Disease or LCIS)",
   "Variable Label": "Fibrocystic Breast, or other Benign Breast Disease(such as proliferative Benign Breast Disease or LCIS)",
@@ -22,8 +25,13 @@
   "Required": "No",
   "PII": "No",
   "Question Type": "Optional Select All that Apply, Displayif in One or More Responses",
-  "Source Question Name - Surveys Only": [
-    "MHGROUP8"
+  "Formula for Index": [
+    "1275",
+    "1276"
+  ],
+  "Index": [
+    "1275",
+    "1276"
   ],
   "Format/Value": {
     "104430631.json": "0",

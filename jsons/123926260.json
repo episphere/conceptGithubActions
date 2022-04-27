@@ -8,6 +8,9 @@
   "Source Question": [
     "103566006.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "CIGAR10"
+  ],
   "conceptId": "123926260",
   "Question Text": "Cigar",
   "Variable Label": "Cigar",
@@ -22,15 +25,16 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "10/20/21",
-  "Source Question Name - Surveys Only": [
-    "CIGAR10"
+  "Formula for Index": [
+    "3596",
+    "3597"
+  ],
+  "Index": [
+    "3596",
+    "3597"
   ],
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  },
-  "Old Quest Value - Surveys Only": {
-    "104430631.json": "1",
-    "353358909.json": "2"
   }
 }

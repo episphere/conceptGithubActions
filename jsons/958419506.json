@@ -1,6 +1,6 @@
 {
   "conceptId": "958419506",
-  "Question Text": "Address 1- What [is/was] the source of water to [insert address from HOMEADD1 – HOMEADD3/ current address/the 2nd address you provided/etc.]?",
+  "Question Text": "Address 1- What [is/was] the source of water to [insert address from HOMEADD1 - HOMEADD3/ current address/the 2nd address you provided/etc.]?",
   "subcollections": [
     "958419506.json",
     "799451743.json"
@@ -14,6 +14,9 @@
   "Source Question": [
     "958419506.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "HOMEWTR1_1"
+  ],
   "Variable Label": "Primary water source",
   "Variable Name": [
     "SrvLAW_1PrimaryWater1_v1r0"
@@ -26,8 +29,19 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "3/10/22",
-  "Source Question Name - Surveys Only": [
-    "HOMEWTR1_1"
+  "Formula for Index": [
+    "4751",
+    "4752",
+    "4753",
+    "4754",
+    "4755"
+  ],
+  "Index": [
+    "4751",
+    "4752",
+    "4753",
+    "4754",
+    "4755"
   ],
   "Format/Value": {
     "901693169.json": "0",
@@ -35,12 +49,5 @@
     "388690303.json": "2",
     "807835037.json": "55",
     "178420302.json": "77"
-  },
-  "Old Quest Value - Surveys Only": {
-    "901693169.json": "1",
-    "519767819.json": "2",
-    "388690303.json": "3",
-    "431441193.json": "4",
-    "832322940.json": "77"
   }
 }

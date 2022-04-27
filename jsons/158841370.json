@@ -8,6 +8,9 @@
   "Source Question": [
     "830608495.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "MARIJUANA"
+  ],
   "conceptId": "158841370",
   "Question Text": "Smoking a combination of marijuana with tobacco (such as blunts, spliffs, or hollowed out cigars or cigarillos filled with marijuana)",
   "Variable Label": "Electronic delivery devices that can be vaped, such as e-cigarettes, Juul, blue, and NJOY. These electronic delivery devices are battery-powered and create vapor.",
@@ -22,15 +25,16 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "10/20/21",
-  "Source Question Name - Surveys Only": [
-    "MARIJUANA"
+  "Formula for Index": [
+    "3918",
+    "3919"
+  ],
+  "Index": [
+    "3918",
+    "3919"
   ],
   "Format/Value": {
     "104430631.json": "0",
-    "353358909.json": "1"
-  },
-  "Old Quest Value - Surveys Only": {
-    "104430631.json": "2",
     "353358909.json": "1"
   }
 }

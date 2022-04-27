@@ -8,6 +8,9 @@
   "Source Question": [
     "668834883.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "ESTROHOR"
+  ],
   "conceptId": "515434780",
   "Question Text": "Vaginal ring (Femring), vaginal cream (Estrace), or vaginal tablet (Vagifem) estrogen-only medication",
   "Variable Label": "Vaginal ring (Femring), vaginal cream (Estrace), or vaginal tablet (Vagifem) estrogen-only medication",
@@ -21,15 +24,16 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Source Question Name - Surveys Only": [
-    "ESTROHOR"
+  "Formula for Index": [
+    "2620",
+    "2621"
+  ],
+  "Index": [
+    "2620",
+    "2621"
   ],
   "Format/Value": {
     "104430631.json": "0",
-    "353358909.json": "1"
-  },
-  "Old Quest Value - Surveys Only": {
-    "104430631.json": "2",
     "353358909.json": "1"
   }
 }

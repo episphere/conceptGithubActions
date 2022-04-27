@@ -8,6 +8,9 @@
   "Source Question": [
     "308014437.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "RACEETH5"
+  ],
   "conceptId": "764331628",
   "Question Text": "Dominican",
   "Variable Label": "Dominican",
@@ -23,8 +26,13 @@
   "PII": "No",
   "Notes": "Only display if RACEETH = Hispanic, Latino, or Spanish",
   "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "RACEETH5"
+  "Formula for Index": [
+    "894",
+    "895"
+  ],
+  "Index": [
+    "894",
+    "895"
   ],
   "Format/Value": {
     "104430631.json": "0",

@@ -14,6 +14,9 @@
   "Source Question": [
     "614145455.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "MENSHIS7"
+  ],
   "Variable Label": "Why not have menstrual period last 12 months",
   "Variable Name": [
     "SrvMRE_NoPeriodReason_v1r0"
@@ -26,8 +29,25 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "10/5/21",
-  "Source Question Name - Surveys Only": [
-    "MENSHIS7"
+  "Formula for Index": [
+    "2424",
+    "2425",
+    "2426",
+    "2427",
+    "2428",
+    "2429",
+    "2430",
+    "2431"
+  ],
+  "Index": [
+    "2424",
+    "2425",
+    "2426",
+    "2427",
+    "2428",
+    "2429",
+    "2430",
+    "2431"
   ],
   "Format/Value": {
     "582425113.json": "0",
@@ -38,15 +58,5 @@
     "757609794.json": "5",
     "585076356.json": "6",
     "807835037.json": "55"
-  },
-  "Old Quest Value - Surveys Only": {
-    "582425113.json": "1",
-    "330745988.json": "2",
-    "909774794.json": "3",
-    "868504994.json": "4",
-    "655309065.json": "5",
-    "757609794.json": "6",
-    "585076356.json": "7",
-    "766919347.json": "8"
   }
 }

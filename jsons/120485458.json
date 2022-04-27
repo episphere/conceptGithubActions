@@ -1,4 +1,6 @@
 {
+  "Formula for Index": "3430",
+  "Index": "3430",
   "Primary Source": [
     "129084651.json"
   ],
@@ -7,6 +9,9 @@
   ],
   "Source Question": [
     "199254974.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "SHIFTWORK10"
   ],
   "conceptId": "120485458",
   "Question Text": "Year last shift work",
@@ -20,11 +25,7 @@
   "Variable Type": "Num",
   "Variable Length": "4",
   "Format/Value": "N/A",
-  "Old Quest Value - Surveys Only": "yyyy",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "10/6/21",
-  "Source Question Name - Surveys Only": [
-    "SHIFTWORK10"
-  ]
+  "Date added or modified": "10/6/21"
 }

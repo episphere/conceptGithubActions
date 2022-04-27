@@ -1,0 +1,46 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "131497719.json"
+  ],
+  "Source Question": [
+    "470484596.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "SrvBio_SYMPTDAY_v1r0"
+  ],
+  "conceptId": "811126581",
+  "Question Text": "Feeling sick to your stomach or throwing up",
+  "Variable Label": "Feeling sick day",
+  "Variable Name": [
+    "SrvBio_VomitDay_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "3"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Question Type": "Optional Select All that Apply",
+  "Formula for Index": [
+    "6058",
+    "6059"
+  ],
+  "Index": [
+    "6058",
+    "6059"
+  ],
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  },
+  "IMS Review Notes": [
+    "GRID ID/Source Variable Name (Column H) needed",
+    "Added spaces around \"=\""
+  ]
+}

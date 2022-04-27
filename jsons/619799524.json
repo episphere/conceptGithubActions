@@ -8,6 +8,9 @@
   "Source Question": [
     "881200765.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "FERT6"
+  ],
   "conceptId": "619799524",
   "Question Text": "Clomid (clomiphene)",
   "Variable Label": "Clomid (clomiphene)",
@@ -21,15 +24,16 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Source Question Name - Surveys Only": [
-    "FERT6"
+  "Formula for Index": [
+    "2497",
+    "2498"
+  ],
+  "Index": [
+    "2497",
+    "2498"
   ],
   "Format/Value": {
     "104430631.json": "0",
-    "353358909.json": "1"
-  },
-  "Old Quest Value - Surveys Only": {
-    "104430631.json": "2",
     "353358909.json": "1"
   }
 }

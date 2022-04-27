@@ -8,6 +8,9 @@
   "Source Question": [
     "404697804.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "CURWORKT9"
+  ],
   "conceptId": "846844103",
   "Question Text": "Taxicab (includes Uber, Lyft, or hired car) commute from current work",
   "Variable Label": "Taxicab (includes Uber, Lyft, or hired car) commute from current work",
@@ -22,15 +25,16 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "3/23/22",
-  "Source Question Name - Surveys Only": [
-    "CURWORKT9"
+  "Formula for Index": [
+    "5650",
+    "5651"
+  ],
+  "Index": [
+    "5650",
+    "5651"
   ],
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  },
-  "Old Quest Value - Surveys Only": {
-    "353358909.json": "1",
-    "104430631.json": "2"
   }
 }

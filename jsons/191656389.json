@@ -30,24 +30,31 @@
       "887435355.json"
     ]
   ],
+  "Formula for Index": [
+    "2296",
+    "2297",
+    "2298",
+    "2299",
+    "2300",
+    "2301",
+    "2302",
+    "2303"
+  ],
+  "Index": [
+    "2296",
+    "2297",
+    "2298",
+    "2299",
+    "2300",
+    "2301",
+    "2302",
+    "2303"
+  ],
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   },
-  "Old Quest Value - Surveys Only": {
-    "104430631.json": "2",
-    "353358909.json": "1"
-  },
-  "Notes": [
-    "Only display if PAINREL1 = 0",
-    "Only display if PAINREL1 = 1",
-    "Only display if PAINREL1 = 2",
-    "Only display if PAINREL1 = 3",
-    "Only display if PAINREL1 = 4",
-    "Only display if PAINREL1 = 5",
-    "Only display if PAINREL1 = 6"
-  ],
-  "Source Question Name - Surveys Only": [
+  "GridID/Source Question Name - Surveys Only": [
     [
       "PAINREL7_1",
       "PAINREL7_2",
@@ -57,5 +64,14 @@
       "PAINREL7_6",
       "PAINREL7_7"
     ]
+  ],
+  "Notes": [
+    "Only display if PAINREL1 = 0",
+    "Only display if PAINREL1 = 1",
+    "Only display if PAINREL1 = 2",
+    "Only display if PAINREL1 = 3",
+    "Only display if PAINREL1 = 4",
+    "Only display if PAINREL1 = 5",
+    "Only display if PAINREL1 = 6"
   ]
 }

@@ -1,4 +1,6 @@
 {
+  "Formula for Index": "5452",
+  "Index": "5452",
   "Primary Source": [
     "129084651.json"
   ],
@@ -7,6 +9,9 @@
   ],
   "Source Question": [
     "632533534.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "CHILDADD1"
   ],
   "conceptId": "439447560",
   "Question Text": "Childhood State/Province",
@@ -20,8 +25,5 @@
   "Variable Type": "Char",
   "Variable Length": "48",
   "Required": "No",
-  "PII": "Yes",
-  "Source Question Name - Surveys Only": [
-    "CHILDADD1"
-  ]
+  "PII": "Yes"
 }

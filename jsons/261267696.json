@@ -8,6 +8,9 @@
   "Source Question": [
     "517976064.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "EXEREC1"
+  ],
   "conceptId": "261267696",
   "Question Text": "Play golf",
   "Variable Label": "Play golf",
@@ -21,15 +24,16 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Source Question Name - Surveys Only": [
-    "EXEREC1"
+  "Formula for Index": [
+    "3040",
+    "3041"
+  ],
+  "Index": [
+    "3040",
+    "3041"
   ],
   "Format/Value": {
     "104430631.json": "0",
-    "353358909.json": "1"
-  },
-  "Old Quest Value - Surveys Only": {
-    "104430631.json": "2",
     "353358909.json": "1"
   }
 }

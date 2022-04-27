@@ -8,6 +8,9 @@
   "Source Question": [
     "750420077.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "SEX2"
+  ],
   "conceptId": "578416151",
   "Question Text": "Uterus",
   "Variable Label": "Uterus",
@@ -24,8 +27,13 @@
   "Notes": "Only display if SEX=Intersex or other",
   "Date added or modified": "9/17/21",
   "Question Type": "Required Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "SEX2"
+  "Formula for Index": [
+    "1040",
+    "1041"
+  ],
+  "Index": [
+    "1040",
+    "1041"
   ],
   "Format/Value": {
     "104430631.json": "0",

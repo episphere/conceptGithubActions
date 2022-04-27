@@ -1,4 +1,6 @@
 {
+  "Formula for Index": "2129",
+  "Index": "2129",
   "Primary Source": [
     "129084651.json"
   ],
@@ -7,6 +9,9 @@
   ],
   "Source Question": [
     "530742915.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "BSNSSTYP2"
   ],
   "conceptId": "739237614",
   "Question Text": "What type of business was this at your longest held job? Other [text box]",
@@ -24,8 +29,5 @@
   "PII": "No",
   "Notes": "Only fill if other selection for BSNSSTYP2",
   "Date added or modified": "9/22/21",
-  "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "BSNSSTYP2"
-  ]
+  "Question Type": "Optional Select All that Apply"
 }

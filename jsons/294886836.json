@@ -1,0 +1,33 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "131497719.json"
+  ],
+  "conceptId": "294886836",
+  "Question Text": "In the 1 hour beforeyou donated your mouthwash (saliva) sample, did you chew gum?",
+  "Variable Label": "Gum Hour Before",
+  "Variable Name": [
+    "SrvMw_GUMBEFORE_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Question Type": "Optional Multiple Choice",
+  "Formula for Index": [
+    "6405",
+    "6406"
+  ],
+  "Index": [
+    "6405",
+    "6406"
+  ],
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

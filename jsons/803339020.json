@@ -1,0 +1,25 @@
+{
+  "Formula for Index": "6183",
+  "Index": "6183",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "131497719.json"
+  ],
+  "conceptId": "803339020",
+  "Question Text": "How many days were you treated in an “intensive care unit” or with ICU monitoring when you had COVID-19 for the [first/2nd/3rd/etc.] time?",
+  "Variable Label": "ICU Days",
+  "Variable Name": [
+    "SrvBlU_COV16B_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "3",
+  "Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Question Type": "Text Only Response, Loops",
+  "IMS Review Notes": "Added a space between \"monitoring\" and \"when\""
+}

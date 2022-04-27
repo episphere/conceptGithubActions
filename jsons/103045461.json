@@ -6,7 +6,7 @@
     "965707586.json"
   ],
   "conceptId": "103045461",
-  "Question Text": "Over the past 12 months, on the days that you drank other alcoholic beverages, how many servings of these  beverages (such as wine coolers, \"\"hard soda,\"\" spiked seltzer (sparkling water), Smirnoff Ice, malt liquor, or pre-mixed cocktails) did you drink per day?",
+  "Question Text": "Over the past 12 months, on the days that you drank other alcoholic beverages, how many servings of these  beverages (such as wine coolers, \"hard soda,\" spiked seltzer (sparkling water), Smirnoff Ice, malt liquor, or pre-mixed cocktails) did you drink per day?",
   "Variable Label": "How many servings other alcoholic beverages, past 12 months",
   "Variable Name": [
     "SrvSAS_OthAlcServ12Mo_v1r0"
@@ -19,6 +19,22 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "10/25/21",
+  "Formula for Index": [
+    "4297",
+    "4298",
+    "4299",
+    "4300",
+    "4301",
+    "4302"
+  ],
+  "Index": [
+    "4297",
+    "4298",
+    "4299",
+    "4300",
+    "4301",
+    "4302"
+  ],
   "Format/Value": {
     "968093023.json": "0",
     "545630587.json": "1",
@@ -26,13 +42,5 @@
     "905402667.json": "3",
     "900343645.json": "4",
     "554549266.json": "5"
-  },
-  "Old Quest Value - Surveys Only": {
-    "968093023.json": "1",
-    "545630587.json": "2",
-    "526602834.json": "3",
-    "905402667.json": "4",
-    "900343645.json": "5",
-    "554549266.json": "6"
   }
 }

@@ -8,6 +8,7 @@
     "129084651.json",
     "129084651.json",
     "129084651.json",
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
@@ -17,7 +18,8 @@
     "726699695.json",
     "726699695.json",
     "726699695.json",
-    "726699695.json"
+    "726699695.json",
+    "131497719.json"
   ],
   "Source Question": [
     "508846529.json",
@@ -26,7 +28,18 @@
     "578895128.json",
     "812370563.json",
     "700374192.json",
-    "530742915.json"
+    "530742915.json",
+    "542661394.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "SKINCANC2",
+    "MOMCANC2",
+    "DADCANC2",
+    "SIBCANC2",
+    "CHILDCANC2",
+    "BSNSSTYP1",
+    "BSNSSTYP2",
+    "SrvMw_DENTURES_v1r0"
   ],
   "Variable Label": "Don't know",
   "Variable Name": [
@@ -36,9 +49,11 @@
     "SrvBOH_S1CancerUnk_v1r0",
     "SrvBOH_C1CancerUnk_v1r0",
     "SrvBOH_BsnUnknownC_v1r0",
-    "SrvBOH_BsnUnknownP_v1r0"
+    "SrvBOH_BsnUnknownP_v1r0",
+    "SrvMw_DENTURESDK_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
+    "77",
     "77",
     "77",
     "77",
@@ -54,17 +69,19 @@
   "Notes": "Only display is SKINCANC = 1",
   "Date added or modified": "9/23/21",
   "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "SKINCANC2",
-    "MOMCANC2",
-    "DADCANC2",
-    "SIBCANC2",
-    "CHILDCANC2",
-    "BSNSSTYP1",
-    "BSNSSTYP2"
+  "Formula for Index": [
+    "1074",
+    "1075"
+  ],
+  "Index": [
+    "1074",
+    "1075"
   ],
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  }
+  },
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "IMS Review Notes": "GRID ID/Source Variable Name (Column H) needed"
 }

@@ -1,4 +1,6 @@
 {
+  "Formula for Index": "1366",
+  "Index": "1366",
   "Primary Source": [
     "129084651.json",
     "129084651.json",
@@ -35,6 +37,18 @@
     "579225381.json",
     "891214661.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "BREASTSUR0",
+    "BREASTSUR1",
+    "BREASTSUR2",
+    "BREASTSUR3",
+    "BREASTSUR4",
+    "BREASTSUR5",
+    "BREASTSUR6",
+    "BREASTSUR7",
+    "BREASTSUR8",
+    "BREASTSUR9"
+  ],
   "conceptId": "623218391",
   "Question Text": "Age at surgery",
   "Variable Label": "Breast implants age",
@@ -68,17 +82,5 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "10/12/21",
-  "Question Type": "Or (xor=) Question (either/or text boxes without radio button)",
-  "Source Question Name - Surveys Only": [
-    "BREASTSUR0",
-    "BREASTSUR1",
-    "BREASTSUR2",
-    "BREASTSUR3",
-    "BREASTSUR4",
-    "BREASTSUR5",
-    "BREASTSUR6",
-    "BREASTSUR7",
-    "BREASTSUR8",
-    "BREASTSUR9"
-  ]
+  "Question Type": "Or (xor=) Question (either/or text boxes without radio button)"
 }

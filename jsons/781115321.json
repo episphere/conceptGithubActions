@@ -8,6 +8,9 @@
   "Source Question": [
     "421859821.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "GRID_SLHABIT1"
+  ],
   "conceptId": "781115321",
   "Question Text": "Did you have trouble getting back to sleep after you woke up earlier than you planned to?",
   "Variable Label": "Did you have trouble getting back to sleep after you woke up earlier than you planned to?",
@@ -22,8 +25,19 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "11/15/21",
-  "Source Question Name - Surveys Only": [
-    "GRID_SLHABIT1"
+  "Formula for Index": [
+    "3311",
+    "3312",
+    "3313",
+    "3314",
+    "3315"
+  ],
+  "Index": [
+    "3311",
+    "3312",
+    "3313",
+    "3314",
+    "3315"
   ],
   "Format/Value": {
     "104430631.json": "0",
@@ -31,12 +45,5 @@
     "565036180.json": "2",
     "284343405.json": "3",
     "270994579.json": "4"
-  },
-  "Old Quest Value - Surveys Only": {
-    "104430631.json": "1",
-    "525779785.json": "2",
-    "565036180.json": "3",
-    "284343405.json": "4",
-    "270994579.json": "5"
   }
 }

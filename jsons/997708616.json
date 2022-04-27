@@ -8,6 +8,9 @@
   "Source Question": [
     "265469878.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "THMAR10"
+  ],
   "conceptId": "997708616",
   "Question Text": "Why [do/did] you use THC concentrates via dabbing?",
   "Variable Label": "Why use THC concentrates via dabbing",
@@ -22,8 +25,19 @@
   "Required": "No",
   "PII": "No",
   "Date added or modified": "11/23/21",
-  "Source Question Name - Surveys Only": [
-    "THMAR10"
+  "Formula for Index": [
+    "4208",
+    "4209",
+    "4210",
+    "4211",
+    "4212"
+  ],
+  "Index": [
+    "4208",
+    "4209",
+    "4210",
+    "4211",
+    "4212"
   ],
   "Format/Value": {
     "437269318.json": "0",
@@ -31,12 +45,5 @@
     "585672584.json": "2",
     "807835037.json": "55",
     "746038746.json": "99"
-  },
-  "Old Quest Value - Surveys Only": {
-    "437269318.json": "1",
-    "838317013.json": "2",
-    "585672584.json": "3",
-    "431441193.json": "4",
-    "528526505.json": "5"
   }
 }

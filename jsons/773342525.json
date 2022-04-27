@@ -14,6 +14,11 @@
     "797626610.json",
     "588212264.json"
   ],
+  "GridID/Source Question Name - Surveys Only": [
+    "RACEETH5",
+    "RACEETH8",
+    "LANG"
+  ],
   "conceptId": "773342525",
   "Question Text": "Spanish",
   "Variable Label": "Spanish",
@@ -33,10 +38,13 @@
   "PII": "No",
   "Notes": "Only display if RACEETH = Hispanic, Latino, or Spanish",
   "Question Type": "Optional Select All that Apply",
-  "Source Question Name - Surveys Only": [
-    "RACEETH5",
-    "RACEETH8",
-    "LANG"
+  "Formula for Index": [
+    "906",
+    "907"
+  ],
+  "Index": [
+    "906",
+    "907"
   ],
   "Format/Value": {
     "104430631.json": "0",

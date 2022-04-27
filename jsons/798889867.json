@@ -18,16 +18,21 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Notes": "Diaply if SEX= \"\"MALE\"\" OR  \"\"INTERSEX OR OTHER\"\" AND GEN= \"\"FEMALE\"\", \"\"TRANSGENDER\"\"FEMALE\"\", \"\"GENDERQUEER\"\", OR \"\"ADDITIONAL GENDER\"\")\"\"",
+  "Notes": "Diaply if SEX= \"MALE\" OR  \"INTERSEX OR OTHER\" AND GEN= \"FEMALE\", \"TRANSGENDER\"FEMALE\", \"GENDERQUEER\", OR \"ADDITIONAL GENDER\")\"",
   "Date added or modified": "11/15/21",
+  "Formula for Index": [
+    "2402",
+    "2403",
+    "2404"
+  ],
+  "Index": [
+    "2402",
+    "2403",
+    "2404"
+  ],
   "Format/Value": {
     "104430631.json": "0",
     "200323667.json": "1",
     "249673703.json": "2"
-  },
-  "Old Quest Value - Surveys Only": {
-    "562877322.json": "1",
-    "200323667.json": "2",
-    "249673703.json": "3"
   }
 }

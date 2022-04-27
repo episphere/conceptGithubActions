@@ -1,4 +1,6 @@
 {
+  "Formula for Index": "2361",
+  "Index": "2361",
   "Primary Source": [
     "129084651.json"
   ],
@@ -7,6 +9,9 @@
   ],
   "Source Question": [
     "850202336.json"
+  ],
+  "GridID/Source Question Name - Surveys Only": [
+    "INSULIN4_1A"
   ],
   "conceptId": "526448646",
   "Question Text": "On the days that you took insulin, what concentration did you take: [text box]",
@@ -19,10 +24,6 @@
   ],
   "Variable Type": "Char",
   "Variable Length": "300",
-  "Old Quest Value - Surveys Only": "No",
   "Required": "No",
-  "Date added or modified": "10/8/21",
-  "Source Question Name - Surveys Only": [
-    "INSULIN4_1A"
-  ]
+  "Date added or modified": "10/8/21"
 }
