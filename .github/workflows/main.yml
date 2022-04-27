@@ -21,7 +21,10 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@master
-
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 14
+    
     - id: file_changes
       uses: trilom/file-changes-action@v1.2.3
       with:
@@ -31,7 +34,10 @@ jobs:
     - name: test
       run: |
         cat $HOME/files.csv > files.csv
-
+    
+    - run: npm install
+    - run: npm test
+    
     - name: running index file
       run: node index.js
 
