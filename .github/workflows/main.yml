@@ -36,7 +36,6 @@ jobs:
         cat $HOME/files.csv > files.csv
     
     - run: npm install
-    - run: npm test
     
     - name: running index file
       run: node index.js
