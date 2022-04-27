@@ -1,0 +1,23 @@
+{
+  "name": "conceptgithubactions",
+  "version": "1.0.0",
+  "description": "# Description This tool is used to reconcile Excel representations of concepts with JSON representations. The tool takes in the Excel (.xlsx) file when it is updated in the repository, creates concept ids for concepts that need them, and creates the JSON files with representations of the concept ids.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/episphere/conceptGithubActions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/episphere/conceptGithubActions/issues"
+  },
+  "homepage": "https://github.com/episphere/conceptGithubActions#readme",
+  "dependencies": {
+    "xlsx": "^0.18.5",
+    "xlsx-style": "^0.8.13"
+  }
+}
