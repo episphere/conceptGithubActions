@@ -1,25 +1,20 @@
 {
   "Primary Source": [
-    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "131497719.json",
     "131497719.json"
   ],
   "Source Question": [
-    "136730307.json",
     "114280729.json"
   ],
   "GridID/Source Question Name": [
-    "GRID_SRVBLU_COV19B_V1R0",
     "GRID_SRVBLU_COV20A_V1R0"
   ],
   "conceptId": "303278227",
-  "Question Text": "Not able to return to your usual activities",
-  "Variable Label": "Long COVID Return to usual activities",
+  "Question Text": "Not able to return to your usual activities - How long experienced",
+  "Variable Label": "Long COVID Return to usual activities duration",
   "Variable Name": [
-    "SrvBlU_COV19B4_v1r0",
     "SrvBlU_COV20A12_v1r0"
   ],
   "Variable Type": "Num",
@@ -29,15 +24,14 @@
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
   "Question Type": "Grid with Multiple Choice Sub-Questions",
-  "IMS Review Notes": "Updated column G \"\"\"\"Source Question\"\"\"\"",
   "Formula for Index": [
-    "6259",
-    "6260",
-    "6261"
+    "6318",
+    "6319",
+    "6320"
   ],
   "Format/Value": {
-    "244354126.json": "0",
-    "724612102.json": "1",
-    "178780048.json": "2"
+    "232063618.json": "0",
+    "948148236.json": "1",
+    "692824372.json": "2"
   }
 }

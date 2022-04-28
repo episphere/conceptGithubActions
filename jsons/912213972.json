@@ -1,25 +1,20 @@
 {
   "Primary Source": [
-    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "131497719.json",
     "131497719.json"
   ],
   "Source Question": [
-    "813989715.json",
     "749956170.json"
   ],
   "GridID/Source Question Name": [
-    "GRID_SRVBLU_COV23B_V1R0",
     "GRID_SRVBLU_COV24A_V1R0"
   ],
   "conceptId": "912213972",
-  "Question Text": "Muscle Aches",
-  "Variable Label": "Pandemic Muscle Aches",
+  "Question Text": "Muscle Aches - How long experienced",
+  "Variable Label": "Pandemic Muscle Aches duration",
   "Variable Name": [
-    "SrvBlU_COV23B7_v1r0",
     "SrvBlU_COV24A13_v1r0"
   ],
   "Variable Type": "Num",
@@ -29,15 +24,15 @@
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
   "Question Type": "Grid with Multiple Choice Sub-Questions",
-  "IMS Review Notes": "Updated column G \"\"\"\"Source Question\"\"\"\"",
+  "IMS Review Notes": "changed \"\"\"\"=\"\"\"\" in GRID ID/Source Variable Name to \"\"\"\"_\"\"\"\"",
   "Formula for Index": [
-    "6376",
-    "6377",
-    "6378"
+    "6420",
+    "6421",
+    "6422"
   ],
   "Format/Value": {
-    "770236544.json": "0",
-    "931688701.json": "1",
-    "586272115.json": "2"
+    "232063618.json": "0",
+    "948148236.json": "1",
+    "692824372.json": "2"
   }
 }

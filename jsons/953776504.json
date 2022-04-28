@@ -1,35 +1,25 @@
 {
   "Primary Source": [
     "129084651.json",
-    "129084651.json",
-    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
     "131497719.json",
-    "131497719.json",
-    "131497719.json",
     "131497719.json"
   ],
   "Source Question": [
-    "847578001.json",
     "114280729.json",
-    "813989715.json",
     "749956170.json"
   ],
   "GridID/Source Question Name": [
-    "GRID_SRVBLU_COV19A_V1R0",
     "GRID_SRVBLU_COV20A_V1R0",
-    "GRID_SRVBLU_COV23A_V1R0",
     "GRID_SRVBLU_COV24A_V1R0"
   ],
   "conceptId": "953776504",
-  "Question Text": "Loss of taste or smell",
-  "Variable Label": "Long COVID Loss of taste or smell",
+  "Question Text": "Loss of taste or smell - How long experienced",
+  "Variable Label": "Long COVID Loss of taste or smell duration",
   "Variable Name": [
-    "SrvBlU_COV19A1_v1r0",
     "SrvBlU_COV20A1_v1r0",
-    "SrvBlU_COV23A1_v1r0",
     "SrvBlU_COV24A1_v1r0"
   ],
   "Variable Type": "Num",
@@ -39,15 +29,15 @@
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
   "Question Type": "Grid with Multiple Choice Sub-Questions",
-  "IMS Review Notes": "Updated column G \"\"\"\"Source Question\"\"\"\"",
   "Formula for Index": [
-    "6232",
-    "6233",
-    "6234"
+    "6285",
+    "6286",
+    "6287"
   ],
   "Format/Value": {
-    "244354126.json": "0",
-    "724612102.json": "1",
-    "178780048.json": "2"
-  }
+    "232063618.json": "0",
+    "948148236.json": "1",
+    "692824372.json": "2"
+  },
+  "IMS Review Notes": "changed \"\"\"\"=\"\"\"\" in GRID ID/Source Variable Name to \"\"\"\"_\"\"\"\""
 }

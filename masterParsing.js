@@ -163,7 +163,7 @@ function parseMasterModule() {
                                                     'questionText':currJSON['Question Text'],
                                                     'conceptId':currJSON['conceptId'].substring(0, 9)
                                                 }
-                                                console.log(currJSON)
+                                                // console.log(currJSON)
                                                 toReturn[name]['conceptId'] = currJSON['Source Question'][sourceIndex].substring(0, 9)
                                                 toReturn[name]['concept'] = masterJSON[currJSON['Source Question'][sourceIndex]]['Question Text']
                                             }
@@ -501,22 +501,23 @@ function parseMasterModule() {
                                   else if (typeof val === 'object' && val !== null) {
 
                                       if (currJSON['GridID/Source Question Name'] && currJSON['GridID/Source Question Name'][sourceIndex] && currJSON['GridID/Source Question Name'][sourceIndex].toLowerCase().includes('grid_') && val['104430631.json'] && val['353358909.json']) {
-                                          console.log(currJSON['Variable Name'][sourceIndex].toUpperCase())
+                                          // console.log(currJSON['Variable Name'][sourceIndex].toUpperCase())
                                           let currName = currJSON['Variable Name'][sourceIndex].toUpperCase()
-                                          if(currName.includes('_')){
-                                              let name = currName.substring(0, currName.indexOf('_'))
-                                              let id = currName.substring(currName.indexOf('_') + 1)
-                                              if(!toReturn[name]){
-                                                  toReturn[name] = {}
-                                              }
-                                              toReturn[name][id] = {
-                                                  'questionText':currJSON['Question Text'],
-                                                  'conceptId':currJSON['conceptId'].substring(0, 9)
-                                              }
-                                              console.log(currJSON)
-                                              toReturn[name]['conceptId'] = currJSON['Source Question'][sourceIndex].substring(0, 9)
-                                              toReturn[name]['concept'] = masterJSON[currJSON['Source Question'][sourceIndex]]['Question Text']
-                                          }
+                                          // if(currName.includes('_')){
+                                          //   console.log("This is '_' currName condition",currName)
+                                          //     let name = currName.substring(0, currName.indexOf('_'))
+                                          //     let id = currName.substring(currName.indexOf('_') + 1)
+                                          //     if(!toReturn[name]){
+                                          //         toReturn[name] = {}
+                                          //     }
+                                          //     toReturn[name][id] = {
+                                          //         'questionText':currJSON['Question Text'],
+                                          //         'conceptId':currJSON['conceptId'].substring(0, 9)
+                                          //     }
+                                          //     // console.log(currJSON)
+                                          //     toReturn[name]['conceptId'] = currJSON['Source Question'][sourceIndex].substring(0, 9)
+                                          //     toReturn[name]['concept'] = masterJSON[currJSON['Source Question'][sourceIndex]]['Question Text']
+                                          // }
                                       }
                                       else{
                                           let objKeys = Object.keys(val);
@@ -710,10 +711,6 @@ function parseMasterModule() {
                                       let head = headerName[k];
                                       //console.log(currJSON)
                                       //console.log(masterJSON[head])
-                                      if(currJSON['conceptId'] == 283652434){
-                                          console.log('efg')
-                                          console.log(masterJSON[head])
-                                      }
                                       //console.log(toReturn)
                                       if (toReturn[head.toUpperCase()]) {
                                           toInsert = toReturn[head.toUpperCase()];

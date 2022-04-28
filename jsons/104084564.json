@@ -1,35 +1,25 @@
 {
   "Primary Source": [
     "129084651.json",
-    "129084651.json",
-    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
     "131497719.json",
-    "131497719.json",
-    "131497719.json",
     "131497719.json"
   ],
   "Source Question": [
-    "136730307.json",
     "114280729.json",
-    "813989715.json",
     "749956170.json"
   ],
   "GridID/Source Question Name": [
-    "GRID_SRVBLU_COV19B_V1R0",
     "GRID_SRVBLU_COV20A_V1R0",
-    "GRID_SRVBLU_COV23B_V1R0",
     "GRID_SRVBLU_COV24A_V1R0"
   ],
   "conceptId": "104084564",
-  "Question Text": "Feeling weak, tired and/or sick 24-48 hours after physical activity or exercise",
-  "Variable Label": "Long COVID Post-exercise feeling",
+  "Question Text": "Feeling weak, tired and/or sick 24-48 hours after physical activity or exercise - How long experienced",
+  "Variable Label": "Long COVID Post-exercise feeling duration",
   "Variable Name": [
-    "SrvBlU_COV19B5_v1r0",
     "SrvBlU_COV20A13_v1r0",
-    "SrvBlU_COV23B4_v1r0",
     "SrvBlU_COV24A10_v1r0"
   ],
   "Variable Type": "Num",
@@ -39,15 +29,15 @@
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
   "Question Type": "Grid with Multiple Choice Sub-Questions",
-  "IMS Review Notes": "Updated column G \"\"\"\"Source Question\"\"\"\"",
   "Formula for Index": [
-    "6262",
-    "6263",
-    "6264"
+    "6321",
+    "6322",
+    "6323"
   ],
   "Format/Value": {
-    "244354126.json": "0",
-    "724612102.json": "1",
-    "178780048.json": "2"
-  }
+    "232063618.json": "0",
+    "948148236.json": "1",
+    "692824372.json": "2"
+  },
+  "IMS Review Notes": "changed \"\"\"\"=\"\"\"\" in GRID ID/Source Variable Name to \"\"\"\"_\"\"\"\""
 }
