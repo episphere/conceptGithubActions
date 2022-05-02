@@ -135,13 +135,6 @@
   "104053459": {
     "Variable Name": "Not Revoked"
   },
-  "104084564": {
-    "Variable Label": "Long COVID Post-exercise feeling duration",
-    "Variable Name": [
-      "SrvBlU_COV20A13_v1r0",
-      "SrvBlU_COV24A10_v1r0"
-    ]
-  },
   "104278817": {
     "Variable Label": "First Name",
     "Variable Name": [
@@ -381,6 +374,12 @@
   "114314839": {
     "Variable Name": "How tall are you with your shoes off?"
   },
+  "114333500": {
+    "Variable Label": "Long COVID Not able to exercise at your usual level duration",
+    "Variable Name": [
+      "SrvBlU_COV20A10_v1r0"
+    ]
+  },
   "114529380": {
     "Variable Label": "Current employement status",
     "Variable Name": [
@@ -549,6 +548,13 @@
       "BioBPTL_PkgCrushed_v1r0"
     ]
   },
+  "121430614": {
+    "Variable Label": "I do not have reliable access to the internet/a device",
+    "Variable Name": [
+      "RcrtSI_OptOut_v1r0_access",
+      "HdRef_NoInternet_v1r0"
+    ]
+  },
   "121454001": {
     "Variable Name": "Revoked and signed"
   },
@@ -613,6 +619,12 @@
     "Variable Label": "SSN Survey",
     "Variable Name": [
       "SrvSS_SSNSurvey_v1r0"
+    ]
+  },
+  "126794793": {
+    "Variable Label": "Long COVID Return to usual activities",
+    "Variable Name": [
+      "SrvBlU_COV19B4_v1r0"
     ]
   },
   "127038003": {
@@ -691,6 +703,13 @@
     "Variable Label": "Tap water times/day, other beverages or soup",
     "Variable Name": [
       "SrvLAW_DrinksWtr2E_Num_v1r0"
+    ]
+  },
+  "131458944": {
+    "Variable Label": "I am worried that my information could be used to discriminate against me/my family",
+    "Variable Name": [
+      "RcrtSI_OptOut_v1r0_PrivacyJ",
+      "HdRef_PrivacyH_v1r0"
     ]
   },
   "131497719": {
@@ -917,6 +936,13 @@
       "SrvBOH_C1ThyroidCanc_v1r0"
     ]
   },
+  "140405912": {
+    "Variable Label": "Long COVID Feeling lightheaded or dizzy duration",
+    "Variable Name": [
+      "SrvBlU_COV20A7_v1r0",
+      "SrvBlU_COV24A7_v1r0"
+    ]
+  },
   "140418030": {
     "Variable Name": "WEIGHTHIS percent difference"
   },
@@ -995,13 +1021,6 @@
       "SrvBOH_Israeli_v1r0"
     ]
   },
-  "144384751": {
-    "Variable Label": "Long COVID More tired than usual duration",
-    "Variable Name": [
-      "SrvBlU_COV20A2_v1r0",
-      "SrvBlU_COV24A3_v1r0"
-    ]
-  },
   "145078867": {
     "Variable Label": "Age stopped using cigars, cigarillos, or little filtered cigars every day",
     "Variable Name": [
@@ -1015,13 +1034,6 @@
     "Variable Label": "Submit shipment flag",
     "Variable Name": [
       "BioShip_ShipSubmit_v1r0"
-    ]
-  },
-  "146078807": {
-    "Variable Label": "Long COVID Feeling lightheaded or dizzy duration",
-    "Variable Name": [
-      "SrvBlU_COV20A7_v1r0",
-      "SrvBlU_COV24A7_v1r0"
     ]
   },
   "146307133": {
@@ -1135,6 +1147,12 @@
       "SrvMRE_WalkingErrands_v1r0"
     ]
   },
+  "151327643": {
+    "Variable Label": "Pandemic Troubling remembering things",
+    "Variable Name": [
+      "SrvBlU_COV23A4_v1r0"
+    ]
+  },
   "151394571": {
     "Variable Name": "Severe hair loss on the top of the head, but no hair loss at the forehead"
   },
@@ -1158,13 +1176,6 @@
   },
   "152885579": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had esophageal cancer?"
-  },
-  "153166371": {
-    "Variable Label": "Long COVID Troubling remembering things duration",
-    "Variable Name": [
-      "SrvBlU_COV20A3_v1r0",
-      "SrvBlU_COV24A4_v1r0"
-    ]
   },
   "153211406": {
     "Variable Label": "Preferred Name",
@@ -1262,6 +1273,13 @@
   "158409298": {
     "Variable Name": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had Leukemia (blood and bone marrow) cancer?"
   },
+  "158493425": {
+    "Variable Label": "Long COVID Shortness of breath duration",
+    "Variable Name": [
+      "SrvBlU_COV20A9_v1r0",
+      "SrvBlU_COV24A9_v1r0"
+    ]
+  },
   "158518077": {
     "Variable Label": "Other: Please describe",
     "Variable Name": [
@@ -1344,13 +1362,6 @@
       "SrvBOH_EnglishLang_v1r0"
     ]
   },
-  "163284008": {
-    "Variable Label": "I am worried that my information could be used to discriminate against me/my family",
-    "Variable Name": [
-      "RcrtSI_OptOut_v1r0_PrivacyJ",
-      "HdRef_PrivacyH_v1r0"
-    ]
-  },
   "163534562": {
     "Variable Label": "Worried the study might find something concerning about them",
     "Variable Name": [
@@ -1429,6 +1440,12 @@
       "SrvBOH_CKD_v1r0"
     ]
   },
+  "167695804": {
+    "Variable Label": "Long COVID Appetite changes",
+    "Variable Name": [
+      "SrvBlU_COV19A2_v1r0"
+    ]
+  },
   "167958071": {
     "Variable Label": "Baseline Urine Collected",
     "Variable Name": [
@@ -1457,6 +1474,13 @@
     "Variable Label": "Zip code",
     "Variable Name": [
       "SrvLAW_PreWorkZipFU_v1r0"
+    ]
+  },
+  "168126690": {
+    "Variable Label": "Long COVID More tired than usual duration",
+    "Variable Name": [
+      "SrvBlU_COV20A2_v1r0",
+      "SrvBlU_COV24A3_v1r0"
     ]
   },
   "168431681": {
@@ -1725,6 +1749,13 @@
     "Variable Label": "State/Province",
     "Variable Name": [
       "SrvLAW_SeaState9FU_v1r0"
+    ]
+  },
+  "181192481": {
+    "Variable Label": "Long COVID Mood changes duration",
+    "Variable Name": [
+      "SrvBlU_COV20A15_v1r0",
+      "SrvBlU_COV24A12_v1r0"
     ]
   },
   "181422361": {
@@ -2576,12 +2607,6 @@
   "214456996": {
     "Variable Name": "Eligibility Screener"
   },
-  "214734819": {
-    "Variable Label": "Long COVID Inability to return to work or school duration",
-    "Variable Name": [
-      "SrvBlU_COV20A11_v1r0"
-    ]
-  },
   "214750556": {
     "Variable Label": "During the season[s] in the past 12 months that you did surfing or bodyboarding, about how often did you do this activity?",
     "Variable Name": [
@@ -2613,6 +2638,12 @@
     "Variable Label": "Full Denture",
     "Variable Name": [
       "SrvMw_FULLDENT_v1r0"
+    ]
+  },
+  "215996690": {
+    "Variable Label": "Long COVID Troubling remembering things",
+    "Variable Name": [
+      "SrvBlU_COV19A4_v1r0"
     ]
   },
   "216096388": {
@@ -2653,6 +2684,12 @@
   },
   "218595434": {
     "Variable Name": "Verification"
+  },
+  "218793117": {
+    "Variable Label": "Long COVID Post-exercise feeling",
+    "Variable Name": [
+      "SrvBlU_COV19B5_v1r0"
+    ]
   },
   "218852075": {
     "Variable Label": "Other: Please describe text box",
@@ -2936,6 +2973,12 @@
       "SrvBOH_Chi1DeathAgeOther_v1r0"
     ]
   },
+  "236696795": {
+    "Variable Label": "Pandemic Muscle Aches duration",
+    "Variable Name": [
+      "SrvBlU_COV24A13_v1r0"
+    ]
+  },
   "237204853": {
     "Variable Label": "Country",
     "Variable Name": [
@@ -2950,6 +2993,12 @@
   },
   "237817859": {
     "Variable Name": "Help Desk"
+  },
+  "238135048": {
+    "Variable Label": "Long COVID Mood changes",
+    "Variable Name": [
+      "SrvBlU_COV19C4_v1r0"
+    ]
   },
   "238268405": {
     "Variable Name": "Select Package Condition - Site Shipment"
@@ -3348,13 +3397,6 @@
     "Variable Label": "Additional Notes (Optional)",
     "Variable Name": [
       "BioRec_NoteOpt_v1r0"
-    ]
-  },
-  "260316992": {
-    "Variable Label": "Long COVID Mood changes duration",
-    "Variable Name": [
-      "SrvBlU_COV20A15_v1r0",
-      "SrvBlU_COV24A12_v1r0"
     ]
   },
   "260703126": {
@@ -3943,6 +3985,12 @@
       "SrvBOH_C1CervicalCanc_v1r0"
     ]
   },
+  "283112988": {
+    "Variable Label": "Pandemic Appetite changes",
+    "Variable Name": [
+      "SrvBlU_COV23A2_v1r0"
+    ]
+  },
   "283434980": {
     "Variable Name": "Not Active recruit signed in as Passive recruit"
   },
@@ -4312,12 +4360,6 @@
   "303095574": {
     "Variable Name": "Sound and restful"
   },
-  "303278227": {
-    "Variable Label": "Long COVID Return to usual activities duration",
-    "Variable Name": [
-      "SrvBlU_COV20A12_v1r0"
-    ]
-  },
   "303349821": {
     "Variable Name": "Marshfield Clinic Health System"
   },
@@ -4468,12 +4510,6 @@
   },
   "311891586": {
     "Variable Name": "What type(s) of transportation did you use to get from your home to [insert address from PREWORK1 - PREWORK3/this address]? Select all that apply."
-  },
-  "311897929": {
-    "Variable Label": "Long COVID Not able to exercise at your usual level duration",
-    "Variable Name": [
-      "SrvBlU_COV20A10_v1r0"
-    ]
   },
   "311981718": {
     "Variable Name": "Bottled water, including water from a store dispenser or delivered to your home"
@@ -4632,13 +4668,6 @@
     "Variable Label": "Daily pain",
     "Variable Name": [
       "SrvBOH_DailyPain_v1r0"
-    ]
-  },
-  "324030618": {
-    "Variable Label": "Long COVID Heart racing duration",
-    "Variable Name": [
-      "SrvBlU_COV20A8_v1r0",
-      "SrvBlU_COV24A8_v1r0"
     ]
   },
   "324692899": {
@@ -4872,6 +4901,12 @@
       "BioCol_ColNote1_v1r0"
     ]
   },
+  "338613869": {
+    "Variable Label": "Long COVID Return to work or school",
+    "Variable Name": [
+      "SrvBlU_COV19B3_v1r0"
+    ]
+  },
   "338914506": {
     "Variable Label": "How many days smoked a hookah or water pipe  every day, usual month",
     "Variable Name": [
@@ -4969,6 +5004,12 @@
     "Variable Label": "Martial Arts (such as Karate or Judo)",
     "Variable Name": [
       "SrvMRE_MartialArts_v1r0"
+    ]
+  },
+  "347230479": {
+    "Variable Label": "Pandemic Trouble sleeping",
+    "Variable Name": [
+      "SrvBlU_COV23B5_v1r0"
     ]
   },
   "347614743": {
@@ -5184,6 +5225,12 @@
   "358259099": {
     "Variable Name": "On workdays, how long do you usually lie in bed after you wake up before getting out of bed? Select the number of minutes and/or hours using the drop-down options below."
   },
+  "358714299": {
+    "Variable Label": "Long COVID Return to usual activities duration",
+    "Variable Name": [
+      "SrvBlU_COV20A12_v1r0"
+    ]
+  },
   "359025642": {
     "Variable Label": "Chronic lung disease (Emphysema, Chronic Bronchitis, or Chronic Obstructive Pulmonary Disease (COPD))",
     "Variable Name": [
@@ -5259,6 +5306,13 @@
       "SrvBOH_HairFemale_v1r0"
     ]
   },
+  "365894869": {
+    "Variable Label": "Long COVID Post-exercise feeling duration",
+    "Variable Name": [
+      "SrvBlU_COV20A13_v1r0",
+      "SrvBlU_COV24A10_v1r0"
+    ]
+  },
   "366295286": {
     "Variable Label": "Who Requested the Refusal/Withdrawal- Other (specify):",
     "Variable Name": [
@@ -5310,12 +5364,6 @@
   "367884741": {
     "Variable Name": "How old were you when you had your tonsils removed (tonsillectomy)?"
   },
-  "368469776": {
-    "Variable Label": "Long COVID Muscle aches duration",
-    "Variable Name": [
-      "SrvBlU_COV20A16_v1r0"
-    ]
-  },
   "368486703": {
     "Variable Label": "Country",
     "Variable Name": [
@@ -5359,6 +5407,12 @@
     "Variable Label": "Months ago last use THC concentrates via dabbing",
     "Variable Name": [
       "SrvSAS_THCMoAgo_v1r0"
+    ]
+  },
+  "370377547": {
+    "Variable Label": "Pandemic Feeling  after exercise",
+    "Variable Name": [
+      "SrvBlU_COV23B4_v1r0"
     ]
   },
   "370798456": {
@@ -5410,6 +5464,13 @@
     "Variable Label": "Serophene",
     "Variable Name": [
       "SrvMRE_Serophene_v1r0"
+    ]
+  },
+  "372303208": {
+    "Variable Label": "I am worried that my information will be used by others to make a profit",
+    "Variable Name": [
+      "RcrtSI_OptOut_v1r0_PrivacyK",
+      "HdRef_PrivacyI_v1r0"
     ]
   },
   "372398512": {
@@ -5663,13 +5724,6 @@
       "BioSpm_ColIDEntered_v1r0"
     ]
   },
-  "387198193": {
-    "Variable Label": "I am worried that my information will be used by others to make a profit",
-    "Variable Name": [
-      "RcrtSI_OptOut_v1r0_PrivacyK",
-      "HdRef_PrivacyI_v1r0"
-    ]
-  },
   "387489930": {
     "Variable Label": "How many cigarettes used, [X / 30] to age [Y / 39 / current age]",
     "Variable Name": [
@@ -5892,6 +5946,13 @@
       "SrvSAS_CigsUseEDAgeL_v1r0"
     ]
   },
+  "401238908": {
+    "Variable Label": "Long COVID Trouble thinking or making decisions duration",
+    "Variable Name": [
+      "SrvBlU_COV20A5_v1r0",
+      "SrvBlU_COV24A6_v1r0"
+    ]
+  },
   "401335456": {
     "Variable Name": "Other (Hispanic, Asian, American Indian/Alaskan Native, Native Hawaiian or Pacific Islander)"
   },
@@ -5906,13 +5967,6 @@
   },
   "402335383": {
     "Variable Name": "Less than 12 times per year"
-  },
-  "402501336": {
-    "Variable Label": "Long COVID Trouble thinking or making decisions duration",
-    "Variable Name": [
-      "SrvBlU_COV20A5_v1r0",
-      "SrvBlU_COV24A6_v1r0"
-    ]
   },
   "402548942": {
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had breast cancer?"
@@ -6653,6 +6707,12 @@
       "SrvLAW_SeaCountry2_v1r0"
     ]
   },
+  "440872808": {
+    "Variable Label": "Pandemic Trouble paying attention",
+    "Variable Name": [
+      "SrvBlU_COV23A5_v1r0"
+    ]
+  },
   "441314504": {
     "Variable Label": "Other: Please describe",
     "Variable Name": [
@@ -6920,6 +6980,13 @@
       "[SrvMw_PERMTTHLOST2_v1r0]"
     ]
   },
+  "452499493": {
+    "Variable Label": "Long COVID Troubling remembering things duration",
+    "Variable Name": [
+      "SrvBlU_COV20A3_v1r0",
+      "SrvBlU_COV24A4_v1r0"
+    ]
+  },
   "452942800": {
     "Variable Label": "Date/time Status of Start of Where You Live and Work",
     "Variable Name": [
@@ -7133,6 +7200,12 @@
       "SrvLAW_StrtName8_v1r0"
     ]
   },
+  "462737492": {
+    "Variable Label": "Long COVID Trouble paying attention",
+    "Variable Name": [
+      "SrvBlU_COV19A5_v1r0"
+    ]
+  },
   "463064782": {
     "Variable Label": "State/Province",
     "Variable Name": [
@@ -7248,6 +7321,12 @@
     "Variable Label": "Baby or low-dose aspirin (81 mg or less)",
     "Variable Name": [
       "SrvMRE_LAspirin_v1r0"
+    ]
+  },
+  "469675296": {
+    "Variable Label": "Long COVID Trouble thinking or making decisions",
+    "Variable Name": [
+      "SrvBlU_COV19A6_v1r0"
     ]
   },
   "469679476": {
@@ -7604,6 +7683,12 @@
       "SrvBOH_C1NMSkinCanc_v1r0"
     ]
   },
+  "488415137": {
+    "Variable Label": "Long COVID Loss of taste or smell",
+    "Variable Name": [
+      "SrvBlU_COV19A1_v1r0"
+    ]
+  },
   "489019597": {
     "Variable Label": "Country",
     "Variable Name": [
@@ -7648,13 +7733,6 @@
   },
   "490796638": {
     "Variable Name": "Not at all flexible"
-  },
-  "491099823": {
-    "Variable Label": "I do not have reliable access to the internet/a device",
-    "Variable Name": [
-      "RcrtSI_OptOut_v1r0_access",
-      "HdRef_NoInternet_v1r0"
-    ]
   },
   "491337167": {
     "Variable Label": "Deep private well",
@@ -8010,6 +8088,13 @@
       "SrvBOH_AcneMedF_v1r0"
     ]
   },
+  "510090033": {
+    "Variable Label": "Long COVID Trouble sleeping duration",
+    "Variable Name": [
+      "SrvBlU_COV20A14_v1r0",
+      "SrvBlU_COV24A11_v1r0"
+    ]
+  },
   "510148951": {
     "Variable Name": "Somewhat masculine"
   },
@@ -8291,6 +8376,12 @@
   },
   "524029283": {
     "Variable Name": "I had surgery to remove remove part of my prostate"
+  },
+  "524096053": {
+    "Variable Label": "Long COVID Feeling lightheaded or dizzy",
+    "Variable Name": [
+      "SrvBlU_COV19C1_v1r0"
+    ]
   },
   "524258008": {
     "Variable Label": "Nausea",
@@ -9238,13 +9329,6 @@
       "SrvLAW_CurWorkT2G_v1r0"
     ]
   },
-  "570020767": {
-    "Variable Label": "Long COVID Appetite changes duration",
-    "Variable Name": [
-      "SrvBlU_COV20A6_v1r0",
-      "SrvBlU_COV24A2_v1r0"
-    ]
-  },
   "570171052": {
     "Variable Label": "Cause of infertility was not looked into",
     "Variable Name": [
@@ -9426,10 +9510,9 @@
     "Variable Name": "How old were you when you had removal of a lactiferous or milk duct (microdochectomy)?"
   },
   "579409935": {
-    "Variable Label": "Long COVID Trouble sleeping duration",
+    "Variable Label": "Trouble sleeping",
     "Variable Name": [
-      "SrvBlU_COV20A14_v1r0",
-      "SrvBlU_COV24A11_v1r0"
+      "SrvBlU_COV8F_v1r0"
     ]
   },
   "579563781": {
@@ -9464,6 +9547,12 @@
     "Variable Name": [
       "SrvBOH_FishingC_v1r0",
       "SrvBOH_FishingP_v1r0"
+    ]
+  },
+  "580629349": {
+    "Variable Label": "Pandemic More tired than usual",
+    "Variable Name": [
+      "SrvBlU_COV23A3_v1r0"
     ]
   },
   "580911251": {
@@ -10299,6 +10388,13 @@
   "628177728": {
     "Variable Name": "2 hours"
   },
+  "628413081": {
+    "Variable Label": "Long COVID Loss of taste or smell duration",
+    "Variable Name": [
+      "SrvBlU_COV20A1_v1r0",
+      "SrvBlU_COV24A1_v1r0"
+    ]
+  },
   "628445697": {
     "Variable Name": "Live birth: twins, triplets, or higher multiples"
   },
@@ -10362,6 +10458,12 @@
   "632533534": {
     "Variable Name": "If your childhood address was not listed in the previous question, please enter it here. If you cannot remember the full address, please share as much information as you can."
   },
+  "632714520": {
+    "Variable Label": "Long COVID Muscle aches",
+    "Variable Name": [
+      "SrvBlU_COV19C5_v1r0"
+    ]
+  },
   "633546100": {
     "Variable Label": "Gallbladder removed (cholecystectomy)",
     "Variable Name": [
@@ -10390,6 +10492,12 @@
     "Variable Label": "Commuter rail, subway, metro commute from current school",
     "Variable Name": [
       "SrvLAW_CurSchMetro6_v1r0"
+    ]
+  },
+  "635026188": {
+    "Variable Label": "Long COVID Trouble sleeping",
+    "Variable Name": [
+      "SrvBlU_COV19C3_v1r0"
     ]
   },
   "635101039": {
@@ -10474,13 +10582,6 @@
     "Variable Label": "I am worried the study might find something concerning about me",
     "Variable Name": [
       "HdRef_Worried_v1r0"
-    ]
-  },
-  "639639385": {
-    "Variable Label": "Long COVID Trouble paying attention duration",
-    "Variable Name": [
-      "SrvBlU_COV20A4_v1r0",
-      "SrvBlU_COV24A5_v1r0"
     ]
   },
   "639684251": {
@@ -10945,6 +11046,13 @@
   },
   "658491312": {
     "Variable Name": "Current Address"
+  },
+  "658746018": {
+    "Variable Label": "Long COVID Heart racing duration",
+    "Variable Name": [
+      "SrvBlU_COV20A8_v1r0",
+      "SrvBlU_COV24A8_v1r0"
+    ]
   },
   "658808644": {
     "Variable Name": "The Connect Principal Investigator (or designate)"
@@ -11620,6 +11728,12 @@
     "Variable Label": "How many pipe fills of tobacco per day, Age [X] to age [Y / 17]",
     "Variable Name": [
       "SrvSAS_PipeFills17_v1r0"
+    ]
+  },
+  "689569056": {
+    "Variable Label": "Pandemic Shortness of breath",
+    "Variable Name": [
+      "SrvBlU_COV23B3_v1r0"
     ]
   },
   "689829953": {
@@ -12453,6 +12567,12 @@
       "SrvMRE_TTGel_v1r0"
     ]
   },
+  "730334054": {
+    "Variable Label": "Long COVID More tired than usual",
+    "Variable Name": [
+      "SrvBlU_COV19A3_v1r0"
+    ]
+  },
   "730666903": {
     "Variable Label": "State/Province",
     "Variable Name": [
@@ -12475,13 +12595,6 @@
     "Variable Label": "Eligible for Payment",
     "Variable Name": [
       "SMPaym_PaymElig_v1r0"
-    ]
-  },
-  "731533223": {
-    "Variable Label": "Long COVID Shortness of breath duration",
-    "Variable Name": [
-      "SrvBlU_COV20A9_v1r0",
-      "SrvBlU_COV24A9_v1r0"
     ]
   },
   "731790154": {
@@ -13333,13 +13446,6 @@
       "SrvLAW_CurSchYr1_Yr_v1r0"
     ]
   },
-  "771146804": {
-    "Variable Label": "I am worried about data being given to my employer/potential employer",
-    "Variable Name": [
-      "RcrtSI_OptOut_v1r0_PrivacyI",
-      "HdRef_PrivacyG_v1r0"
-    ]
-  },
   "771230670": {
     "Variable Name": "61-65"
   },
@@ -13463,6 +13569,12 @@
     "Variable Label": "During the season[s] in the past 12 months that you did high-intensity circuit training (such as P90x or Crossfit), about how often did you do this activity?",
     "Variable Name": [
       "SrvMRE_HICTOften_v1r0"
+    ]
+  },
+  "775929772": {
+    "Variable Label": "Pandemic Lightheaded",
+    "Variable Name": [
+      "SrvBlU_COV23B1_v1r0"
     ]
   },
   "776406200": {
@@ -13616,6 +13728,12 @@
     "Variable Label": "Student",
     "Variable Name": [
       "SrvBOH_Student_v1r0"
+    ]
+  },
+  "785014117": {
+    "Variable Label": "Long COVID Inability to return to work or school duration",
+    "Variable Name": [
+      "SrvBlU_COV20A11_v1r0"
     ]
   },
   "785019074": {
@@ -14055,12 +14173,6 @@
       "SrvLAW_StrtName7_v1r0"
     ]
   },
-  "803339020": {
-    "Variable Label": "ICU Days",
-    "Variable Name": [
-      "SrvBlU_COV16B_v1r0"
-    ]
-  },
   "803526907": {
     "Variable Label": "Zip code",
     "Variable Name": [
@@ -14093,6 +14205,13 @@
   },
   "805449318": {
     "Variable Name": "11 to 49"
+  },
+  "805658828": {
+    "Variable Label": "Long COVID Appetite changes duration",
+    "Variable Name": [
+      "SrvBlU_COV20A6_v1r0",
+      "SrvBlU_COV24A2_v1r0"
+    ]
   },
   "805712793": {
     "Variable Name": "Genderqueer, not exclusively male or female"
@@ -14298,6 +14417,12 @@
   "813989715": {
     "Variable Name": "Since the beginning of 2020, have you experienced any of the following symptoms? COV23A"
   },
+  "814101706": {
+    "Variable Label": "Long COVID Heart racing",
+    "Variable Name": [
+      "SrvBlU_COV19C2_v1r0"
+    ]
+  },
   "814115676": {
     "Variable Label": "Age first used cigars, cigarillos, or little filtered cigars on a regular basis, Never smoked",
     "Variable Name": [
@@ -14401,6 +14526,12 @@
     "Variable Label": "Country",
     "Variable Name": [
       "SrvLAW_Country4_v1r0"
+    ]
+  },
+  "819468394": {
+    "Variable Label": "Pandemic Muscle Aches",
+    "Variable Name": [
+      "SrvBlU_COV23B7_v1r0"
     ]
   },
   "819844467": {
@@ -14821,6 +14952,12 @@
     "Variable Label": "Orphan tube - shipped flag",
     "Variable Name": [
       "BioPack_OShipFlag_v1r0"
+    ]
+  },
+  "841885566": {
+    "Variable Label": "Long COVID Muscle aches duration",
+    "Variable Name": [
+      "SrvBlU_COV20A16_v1r0"
     ]
   },
   "842088582": {
@@ -15518,6 +15655,18 @@
   "874046190": {
     "Variable Name": "Kidney Disease- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply."
   },
+  "874168085": {
+    "Variable Label": "Pandemic Loss of taste or smell",
+    "Variable Name": [
+      "SrvBlU_COV23A1_v1r0"
+    ]
+  },
+  "874223830": {
+    "Variable Label": "Pandemic Trouble thinking or making decisions",
+    "Variable Name": [
+      "SrvBlU_COV23A6_v1r0"
+    ]
+  },
   "874262904": {
     "Variable Label": "Use alarm clock non-workdays",
     "Variable Name": [
@@ -15899,6 +16048,13 @@
   "894610280": {
     "Variable Name": "In which season(s) did you walk or hike for exercise? Select all that apply."
   },
+  "895377736": {
+    "Variable Label": "Long COVID Trouble paying attention duration",
+    "Variable Name": [
+      "SrvBlU_COV20A4_v1r0",
+      "SrvBlU_COV24A5_v1r0"
+    ]
+  },
   "895826652": {
     "Variable Label": "Personal Choice",
     "Variable Name": [
@@ -16203,12 +16359,6 @@
     "Variable Label": "Deviation- Centrifuge -  clotted for longer than 2 hours",
     "Variable Name": [
       "BioCol_Dev_v1r0_ClotL"
-    ]
-  },
-  "912213972": {
-    "Variable Label": "Pandemic Muscle Aches duration",
-    "Variable Name": [
-      "SrvBlU_COV24A13_v1r0"
     ]
   },
   "912301837": {
@@ -17101,13 +17251,6 @@
       "SrvLAW_SeaAdd5PrWater2_v1r0"
     ]
   },
-  "953776504": {
-    "Variable Label": "Long COVID Loss of taste or smell duration",
-    "Variable Name": [
-      "SrvBlU_COV20A1_v1r0",
-      "SrvBlU_COV24A1_v1r0"
-    ]
-  },
   "954318357": {
     "Variable Name": "Louder than talking"
   },
@@ -17273,6 +17416,12 @@
       "SrvBOH_PenisRemoved_v1r0"
     ]
   },
+  "962475128": {
+    "Variable Label": "Long COVID Shortness of breath",
+    "Variable Name": [
+      "SrvBlU_COV19B1_v1r0"
+    ]
+  },
   "962868433": {
     "Variable Label": "City",
     "Variable Name": [
@@ -17329,6 +17478,12 @@
     "Variable Label": "Did you wake up earlier than you planned to?",
     "Variable Name": [
       "SrvMRE_WakeUpEarlier_v1r0"
+    ]
+  },
+  "965416796": {
+    "Variable Label": "Pandemic Mood Changes",
+    "Variable Name": [
+      "SrvBlU_COV23B6_v1r0"
     ]
   },
   "965707001": {
@@ -17493,6 +17648,12 @@
   },
   "975198123": {
     "Variable Name": "Seasonal Address 1- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select “I still spend time here.\"\""
+  },
+  "975626459": {
+    "Variable Label": "Pandemic Racing Heart",
+    "Variable Name": [
+      "SrvBlU_COV23B2_v1r0"
+    ]
   },
   "976052812": {
     "Variable Label": "Last time took anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)",
@@ -17782,6 +17943,12 @@
   "989016875": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Kidney Stones?"
   },
+  "989576239": {
+    "Variable Label": "Long COVID Exercise ability",
+    "Variable Name": [
+      "SrvBlU_COV19B2_v1r0"
+    ]
+  },
   "989594002": {
     "Variable Label": "How much time electronic marijuana delivery devices used, [X / 40] to age [Y / 49 / current age]",
     "Variable Name": [
@@ -17813,6 +17980,13 @@
       "SrvBOH_Exercised2_v1r0",
       "SrvBOH_Exercised3_v1r0",
       "SrvBOH_Exercised4_v1r0"
+    ]
+  },
+  "990579614": {
+    "Variable Label": "I am worried about data being given to my employer/potential employer",
+    "Variable Name": [
+      "RcrtSI_OptOut_v1r0_PrivacyI",
+      "HdRef_PrivacyG_v1r0"
     ]
   },
   "990599372": {
@@ -17930,6 +18104,12 @@
     "Variable Label": "Any other beverage or soup made with your tap water (such as fruit juice made from concentrate and beverages made from powder)",
     "Variable Name": [
       "SrvLAW_BeverageOrSoup_v1r0"
+    ]
+  },
+  "995911394": {
+    "Variable Label": "ICU Days",
+    "Variable Name": [
+      "SrvBlU_COV16B_v1r0"
     ]
   },
   "996038075": {
