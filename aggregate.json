@@ -1880,6 +1880,12 @@
       "SrvBOH_HairMedAgeL_v1r0"
     ]
   },
+  "187399900": {
+    "Variable Label": "Pandemic Muscle Aches",
+    "Variable Name": [
+      "SrvBlU_COV23B7_v1r0"
+    ]
+  },
   "187772368": {
     "Variable Name": "In which season(s) did you downhill skiing or snowboarding? Select all that apply."
   },
@@ -2700,6 +2706,12 @@
   "219317801": {
     "Variable Name": "Thinking about the one-way trip from [insert address from CURSCH1 - CURSCH3/this address] to your home on a usual day, about how much time do you usually spend in each type of transportation?"
   },
+  "219358831": {
+    "Variable Label": "Pandemic Racing Heart",
+    "Variable Name": [
+      "SrvBlU_COV23B2_v1r0"
+    ]
+  },
   "219538082": {
     "Variable Label": "How old were you when you first used the other combined estrogen plus progestin prescription hormone?",
     "Variable Name": [
@@ -3093,6 +3105,12 @@
   },
   "243443318": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had bladder cancer?"
+  },
+  "243443780": {
+    "Variable Label": "Pandemic Feeling  after exercise",
+    "Variable Name": [
+      "SrvBlU_COV23B4_v1r0"
+    ]
   },
   "243519559": {
     "Variable Label": "How many cigars, cigarillos, or little filtered cigars used, [X / 40] to age [Y / 49 / current age]",
@@ -5006,12 +5024,6 @@
       "SrvMRE_MartialArts_v1r0"
     ]
   },
-  "347230479": {
-    "Variable Label": "Pandemic Trouble sleeping",
-    "Variable Name": [
-      "SrvBlU_COV23B5_v1r0"
-    ]
-  },
   "347614743": {
     "Variable Label": "Too many contacts from the study",
     "Variable Name": [
@@ -5219,6 +5231,12 @@
       "BioPack_Bag13_v1r0"
     ]
   },
+  "357462273": {
+    "Variable Label": "Pandemic Trouble sleeping",
+    "Variable Name": [
+      "SrvBlU_COV23B5_v1r0"
+    ]
+  },
   "358011592": {
     "Variable Name": "In total, how many months or years have you used vaginal ring?"
   },
@@ -5407,12 +5425,6 @@
     "Variable Label": "Months ago last use THC concentrates via dabbing",
     "Variable Name": [
       "SrvSAS_THCMoAgo_v1r0"
-    ]
-  },
-  "370377547": {
-    "Variable Label": "Pandemic Feeling  after exercise",
-    "Variable Name": [
-      "SrvBlU_COV23B4_v1r0"
     ]
   },
   "370798456": {
@@ -6104,7 +6116,7 @@
   "407056417": {
     "Variable Label": "Sex at birth",
     "Variable Name": [
-      "SrvBio_Sex_v1r0"
+      "SrvBOH_SexAtBirth_v1r0"
     ]
   },
   "407167089": {
@@ -8335,6 +8347,12 @@
       "SrvLAW_SeaApt6_v1r0"
     ]
   },
+  "522008539": {
+    "Variable Label": "Sex at birth",
+    "Variable Name": [
+      "SrvBio_Sex_v1r0"
+    ]
+  },
   "522094118": {
     "Variable Label": "Orphan Bag/Container Scan",
     "Variable Name": [
@@ -10536,6 +10554,12 @@
       "SrvBOH_RA_v1r0"
     ]
   },
+  "636367178": {
+    "Variable Label": "Pandemic Shortness of breath",
+    "Variable Name": [
+      "SrvBlU_COV23B3_v1r0"
+    ]
+  },
   "636411467": {
     "Variable Label": "Asian",
     "Variable Name": [
@@ -10571,6 +10595,12 @@
   },
   "638335430": {
     "Variable Name": "Active recruit signed in as Passive recruit"
+  },
+  "638380747": {
+    "Variable Label": "Pandemic Mood Changes",
+    "Variable Name": [
+      "SrvBlU_COV23B6_v1r0"
+    ]
   },
   "638833327": {
     "Variable Label": "Motorcycle commute to current school",
@@ -11730,12 +11760,6 @@
       "SrvSAS_PipeFills17_v1r0"
     ]
   },
-  "689569056": {
-    "Variable Label": "Pandemic Shortness of breath",
-    "Variable Name": [
-      "SrvBlU_COV23B3_v1r0"
-    ]
-  },
   "689829953": {
     "Variable Name": "6 days"
   },
@@ -11975,9 +11999,9 @@
     "Variable Name": "What type of business was this at your current employer? [Select all that apply.]"
   },
   "700620868": {
-    "Variable Label": "Recovery duration Days",
+    "Variable Label": "Recovery duration Months",
     "Variable Name": [
-      "SRVBLU_COV22_DAYS_V1R0"
+      "SRVBLU_COV22_MONTHS_V1R0"
     ]
   },
   "700811160": {
@@ -13571,12 +13595,6 @@
       "SrvMRE_HICTOften_v1r0"
     ]
   },
-  "775929772": {
-    "Variable Label": "Pandemic Lightheaded",
-    "Variable Name": [
-      "SrvBlU_COV23B1_v1r0"
-    ]
-  },
   "776406200": {
     "Variable Label": "Lived anywhere else at least two years",
     "Variable Name": [
@@ -14173,6 +14191,12 @@
       "SrvLAW_StrtName7_v1r0"
     ]
   },
+  "803339020": {
+    "Variable Label": "ICU Days",
+    "Variable Name": [
+      "SrvBlU_COV16B_v1r0"
+    ]
+  },
   "803526907": {
     "Variable Label": "Zip code",
     "Variable Name": [
@@ -14526,12 +14550,6 @@
     "Variable Label": "Country",
     "Variable Name": [
       "SrvLAW_Country4_v1r0"
-    ]
-  },
-  "819468394": {
-    "Variable Label": "Pandemic Muscle Aches",
-    "Variable Name": [
-      "SrvBlU_COV23B7_v1r0"
     ]
   },
   "819844467": {
@@ -15092,6 +15110,12 @@
       "BioBPTL_ImpPackaging_v1r0"
     ]
   },
+  "847529903": {
+    "Variable Label": "Pandemic Lightheaded",
+    "Variable Name": [
+      "SrvBlU_COV23B1_v1r0"
+    ]
+  },
   "847533056": {
     "Variable Label": "Longest held job",
     "Variable Name": [
@@ -15270,6 +15294,9 @@
     "Variable Name": [
       "SrvMRE_AgeOralEstrF_v1r0"
     ]
+  },
+  "857165713": {
+    "Variable Name": "Since the beginning of 2020, have you experienced any of the following symptoms? COV23B"
   },
   "857219333": {
     "Variable Label": "Natural color eyes",
@@ -15886,6 +15913,9 @@
       "SrvLAW_SeaApt8_v1r0"
     ]
   },
+  "886364332": {
+    "Variable Name": "HFH Cancer Pavilion Research Clinic"
+  },
   "886771318": {
     "Variable Label": "Flouride mouthwash",
     "Variable Name": [
@@ -15930,6 +15960,9 @@
     "Variable Name": [
       "SrvMRE_ProtPumpPresYA_v1r0"
     ]
+  },
+  "889386523": {
+    "Variable Name": "Supply Unavailable"
   },
   "890134757": {
     "Variable Label": "Other: Please describe",
@@ -16308,9 +16341,9 @@
     "Variable Name": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Lymphoma cancer?"
   },
   "908044428": {
-    "Variable Label": "Recovery duration Months",
+    "Variable Label": "Recovery duration Days",
     "Variable Name": [
-      "SRVBLU_COV22_MONTHS_V1R0"
+      "SRVBLU_COV22_DAYS_V1R0"
     ]
   },
   "908129316": {
@@ -17380,6 +17413,9 @@
       "SrvLAW_CurWorkCity_v1r0"
     ]
   },
+  "959877599": {
+    "Variable Name": "How long did it take you to recover to your usual state of health from the date you first realized you had COVID-19?"
+  },
   "960288496": {
     "Variable Name": "You have entered the maximum number of addresses. You will proceed to the next questions."
   },
@@ -17478,12 +17514,6 @@
     "Variable Label": "Did you wake up earlier than you planned to?",
     "Variable Name": [
       "SrvMRE_WakeUpEarlier_v1r0"
-    ]
-  },
-  "965416796": {
-    "Variable Label": "Pandemic Mood Changes",
-    "Variable Name": [
-      "SrvBlU_COV23B6_v1r0"
     ]
   },
   "965707001": {
@@ -17648,12 +17678,6 @@
   },
   "975198123": {
     "Variable Name": "Seasonal Address 1- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select “I still spend time here.\"\""
-  },
-  "975626459": {
-    "Variable Label": "Pandemic Racing Heart",
-    "Variable Name": [
-      "SrvBlU_COV23B2_v1r0"
-    ]
   },
   "976052812": {
     "Variable Label": "Last time took anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)",
@@ -18104,12 +18128,6 @@
     "Variable Label": "Any other beverage or soup made with your tap water (such as fruit juice made from concentrate and beverages made from powder)",
     "Variable Name": [
       "SrvLAW_BeverageOrSoup_v1r0"
-    ]
-  },
-  "995911394": {
-    "Variable Label": "ICU Days",
-    "Variable Name": [
-      "SrvBlU_COV16B_v1r0"
     ]
   },
   "996038075": {
