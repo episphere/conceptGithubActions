@@ -1,26 +1,21 @@
 {
   "Primary Source": [
-    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "131497719.json",
     "131497719.json"
   ],
   "Source Question": [
-    "114280729.json",
-    "749956170.json"
+    "114280729.json"
   ],
   "GridID/Source Question Name": [
-    "GRID_SRVBLU_COV20A_V1R0",
-    "GRID_SRVBLU_COV24A_V1R0"
+    "GRID_SRVBLU_COV20A_V1R0"
   ],
-  "conceptId": "452499493",
-  "Question Text": "Troubling remembering things - How long experienced",
-  "Variable Label": "Long COVID Troubling remembering things duration",
+  "conceptId": "702905707",
+  "Question Text": "Changes in your mood and emotions (such as feeling sad, anxious, or annoyed more than usual) - How long experienced COV20A",
+  "Variable Label": "Long COVID Mood changes duration",
   "Variable Name": [
-    "SrvBlU_COV20A3_v1r0",
-    "SrvBlU_COV24A4_v1r0"
+    "SrvBlU_COV20A15_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -30,14 +25,18 @@
   "State Attribute": "No",
   "Question Type": "Grid with Multiple Choice Sub-Questions",
   "Formula for Index": [
-    "6291",
-    "6292",
-    "6293"
+    "6329",
+    "6330",
+    "6331"
+  ],
+  "Index": [
+    "6329",
+    "6330",
+    "6331"
   ],
   "Format/Value": {
     "232063618.json": "0",
     "948148236.json": "1",
     "692824372.json": "2"
-  },
-  "IMS Review Notes": "\"changed \"\"\"\"=\"\"\"\" in GRID ID/Source Variable Name to \"\"\"\"_\"\"\"\"\""
+  }
 }

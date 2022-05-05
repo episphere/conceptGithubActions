@@ -11,11 +11,11 @@
   "GridID/Source Question Name": [
     "GRID_SRVBLU_COV20A_V1R0"
   ],
-  "conceptId": "841885566",
-  "Question Text": "Muscle aches - How long experienced",
-  "Variable Label": "Long COVID Muscle aches duration",
+  "conceptId": "336856410",
+  "Question Text": "Feeling lightheaded or dizzy - How long experienced COV20A",
+  "Variable Label": "Long COVID Feeling lightheaded or dizzy duration",
   "Variable Name": [
-    "SrvBlU_COV20A16_v1r0"
+    "SrvBlU_COV20A7_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -25,9 +25,14 @@
   "State Attribute": "No",
   "Question Type": "Grid with Multiple Choice Sub-Questions",
   "Formula for Index": [
-    "6330",
-    "6331",
-    "6332"
+    "6305",
+    "6306",
+    "6307"
+  ],
+  "Index": [
+    "6305",
+    "6306",
+    "6307"
   ],
   "Format/Value": {
     "232063618.json": "0",

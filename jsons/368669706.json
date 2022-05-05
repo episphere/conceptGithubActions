@@ -11,11 +11,11 @@
   "GridID/Source Question Name": [
     "GRID_SRVBLU_COV20A_V1R0"
   ],
-  "conceptId": "114333500",
-  "Question Text": "Not able to exercise at your usual level - How long experienced",
-  "Variable Label": "Long COVID Not able to exercise at your usual level duration",
+  "conceptId": "368669706",
+  "Question Text": "Trouble paying attention - How long experienced COV20A",
+  "Variable Label": "Long COVID Trouble paying attention duration",
   "Variable Name": [
-    "SrvBlU_COV20A10_v1r0"
+    "SrvBlU_COV20A4_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -25,9 +25,14 @@
   "State Attribute": "No",
   "Question Type": "Grid with Multiple Choice Sub-Questions",
   "Formula for Index": [
-    "6312",
-    "6313",
-    "6314"
+    "6296",
+    "6297",
+    "6298"
+  ],
+  "Index": [
+    "6296",
+    "6297",
+    "6298"
   ],
   "Format/Value": {
     "232063618.json": "0",

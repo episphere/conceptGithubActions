@@ -1,26 +1,21 @@
 {
   "Primary Source": [
-    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "131497719.json",
     "131497719.json"
   ],
   "Source Question": [
-    "114280729.json",
     "749956170.json"
   ],
   "GridID/Source Question Name": [
-    "GRID_SRVBLU_COV20A_V1R0",
     "GRID_SRVBLU_COV24A_V1R0"
   ],
-  "conceptId": "140405912",
-  "Question Text": "Feeling lightheaded or dizzy - How long experienced",
-  "Variable Label": "Long COVID Feeling lightheaded or dizzy duration",
+  "conceptId": "223008071",
+  "Question Text": "Trouble thinking or making decisions - How long experienced COV24A",
+  "Variable Label": "Pandemic Trouble thinking or making decisions duration",
   "Variable Name": [
-    "SrvBlU_COV20A7_v1r0",
-    "SrvBlU_COV24A7_v1r0"
+    "SrvBlU_COV24A6_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -29,15 +24,20 @@
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
   "Question Type": "Grid with Multiple Choice Sub-Questions",
+  "IMS Review Notes": "\"changed \"\"\"\"=\"\"\"\" in GRID ID/Source Variable Name to \"\"\"\"_\"\"\"\"\"",
   "Formula for Index": [
-    "6303",
-    "6304",
-    "6305"
+    "6402",
+    "6403",
+    "6404"
+  ],
+  "Index": [
+    "6402",
+    "6403",
+    "6404"
   ],
   "Format/Value": {
     "232063618.json": "0",
     "948148236.json": "1",
     "692824372.json": "2"
-  },
-  "IMS Review Notes": "\"changed \"\"\"\"=\"\"\"\" in GRID ID/Source Variable Name to \"\"\"\"_\"\"\"\"\""
+  }
 }

@@ -1,26 +1,21 @@
 {
   "Primary Source": [
-    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "131497719.json",
     "131497719.json"
   ],
   "Source Question": [
-    "114280729.json",
-    "749956170.json"
+    "114280729.json"
   ],
   "GridID/Source Question Name": [
-    "GRID_SRVBLU_COV20A_V1R0",
-    "GRID_SRVBLU_COV24A_V1R0"
+    "GRID_SRVBLU_COV20A_V1R0"
   ],
-  "conceptId": "805658828",
-  "Question Text": "Appetite changes - How long experienced",
-  "Variable Label": "Long COVID Appetite changes duration",
+  "conceptId": "374567479",
+  "Question Text": "Loss of taste or smell - How long experienced COV20A",
+  "Variable Label": "Long COVID Loss of taste or smell duration",
   "Variable Name": [
-    "SrvBlU_COV20A6_v1r0",
-    "SrvBlU_COV24A2_v1r0"
+    "SrvBlU_COV20A1_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -30,14 +25,18 @@
   "State Attribute": "No",
   "Question Type": "Grid with Multiple Choice Sub-Questions",
   "Formula for Index": [
-    "6300",
-    "6301",
-    "6302"
+    "6287",
+    "6288",
+    "6289"
+  ],
+  "Index": [
+    "6287",
+    "6288",
+    "6289"
   ],
   "Format/Value": {
     "232063618.json": "0",
     "948148236.json": "1",
     "692824372.json": "2"
-  },
-  "IMS Review Notes": "\"changed \"\"\"\"=\"\"\"\" in GRID ID/Source Variable Name to \"\"\"\"_\"\"\"\"\""
+  }
 }

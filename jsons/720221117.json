@@ -20,8 +20,6 @@
   "PII": "Yes",
   "Notes": "Addresses are piped into the response variables from previous answers.  The number of options is limited by the number of address given by the participant. Only there response variabler code (0, 1, 2, etc) is saved on the back end of Quest. Once the concept IDs are assigned to each response option, that's what will be saved as the response in BigQuery.",
   "Formula for Index": [
-    "5481",
-    "5482",
     "5483",
     "5484",
     "5485",
@@ -30,7 +28,22 @@
     "5488",
     "5489",
     "5490",
-    "5491"
+    "5491",
+    "5492",
+    "5493"
+  ],
+  "Index": [
+    "5483",
+    "5484",
+    "5485",
+    "5486",
+    "5487",
+    "5488",
+    "5489",
+    "5490",
+    "5491",
+    "5492",
+    "5493"
   ],
   "Format/Value": {
     "658491312.json": "0",
