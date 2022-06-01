@@ -15,14 +15,14 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Set by help desk agent via dashboard",
+  "Notes": "Automatically flipped to yes if withdrawal or data destruction are selected, however, time of selection and who requested will only be populated when Revoke HIPAA alone is seleted",
   "Dictionary": "Withdrawal, Study Manager Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "Yes",
-  "Date added or modified": "4/23/21",
+  "Date added or modified": "5/19/22",
   "Formula for Index": [
-    "577",
-    "578"
+    "576",
+    "577"
   ],
   "Index": [
     "577",
