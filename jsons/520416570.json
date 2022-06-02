@@ -1,0 +1,53 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "299215535.json"
+  ],
+  "conceptId": "520416570",
+  "Question Text": "In the last month, how often did you use chlorhexidine mouthwash (such as PeridexTM, PerioGard®, or Paroex®)?",
+  "Variable Label": "chlorhexidine mouthwash  frequency past month",
+  "Variable Name": [
+    "SrvMw_MWCHLOR_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Formula for Index": [
+    "6524",
+    "6525",
+    "6526",
+    "6527",
+    "6528",
+    "6529"
+  ],
+  "Index": [
+    "6526",
+    "6527",
+    "6528",
+    "6529",
+    "6530",
+    "6531"
+  ],
+  "Format/Value": {
+    "648960871.json": "44",
+    "693256778.json": "0",
+    "735330419.json": "1",
+    "138332277.json": "2",
+    "858624942.json": "3",
+    "850675416.json": "4"
+  },
+  "Required": [
+    "No"
+  ],
+  "Question Type": [
+    "Optional Multiple Choice"
+  ],
+  "IMS Review Notes": [
+    "changed column Q to 44 Never",
+    "Added Row to add the 44 Never above"
+  ]
+}

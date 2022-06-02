@@ -1,0 +1,49 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "299215535.json"
+  ],
+  "Source Question": [
+    "487532606.json"
+  ],
+  "GridID/Source Question Name": [
+    "GRID_SRVBLU_MED1_V1R0"
+  ],
+  "conceptId": "839329467",
+  "Question Text": "Medications to lower stomach acid [such as Prilosec®, Prevacid®, Protonix®, Aciphex®, Omeprazole, Nexium®, Tagamet®, Zantac®]",
+  "Variable Label": "Acid Reducers",
+  "Variable Name": [
+    "SrvBlU_Acid_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Question Type": "Grid with Multiple Choice Sub-Questions",
+  "IMS Review Notes": "Replaced source question text",
+  "Formula for Index": [
+    "6124",
+    "6125",
+    "6126",
+    "6127",
+    "6128"
+  ],
+  "Index": [
+    "6126",
+    "6127",
+    "6128",
+    "6129",
+    "6130"
+  ],
+  "Format/Value": {
+    "104430631.json": "0",
+    "974230748.json": "1",
+    "936042740.json": "2",
+    "731141335.json": "3",
+    "591670915.json": "4"
+  }
+}

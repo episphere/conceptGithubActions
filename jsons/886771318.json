@@ -1,0 +1,43 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "299215535.json"
+  ],
+  "Source Question": [
+    "406270109.json"
+  ],
+  "GridID/Source Question Name": [
+    "SrvMw_MWUSE_v1r0"
+  ],
+  "conceptId": "886771318",
+  "Question Text": "Fluoride mouthwash (such as ACT®)",
+  "Variable Label": "Fluoride mouthwash",
+  "Variable Name": [
+    "SrvMw_MWFLUORIDE1_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "3"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Question Type": "Optional Select All that Apply",
+  "IMS Review Notes": "Updated spelling of fluoride in question text, variable label and variable name",
+  "Formula for Index": [
+    "6502",
+    "6503"
+  ],
+  "Index": [
+    "6504",
+    "6505"
+  ],
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}
