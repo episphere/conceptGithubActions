@@ -6,10 +6,10 @@
     "123496044.json"
   ],
   "conceptId": "148996099",
-  "Question Text": "Accession ID Manually Entered",
-  "Variable Label": "Accession ID Manually Entered",
+  "Question Text": "Blood Accession ID Manually Entered",
+  "Variable Label": "Blood Accession ID Manually Entered",
   "Variable Name": [
-    "BioSpm_AccIDEntered_v1r0"
+    "BioSpm_BlAccIDEntered_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -19,12 +19,8 @@
   "State Attribute": "No",
   "Default Variable": "No",
   "Formula for Index": [
-    "341",
-    "342"
-  ],
-  "Index": [
-    "341",
-    "342"
+    "342",
+    "343"
   ],
   "Format/Value": {
     "104430631.json": "0",

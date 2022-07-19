@@ -13,28 +13,21 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Notes": "0 equals Default for UoC, 1 equals Default for Marshfield, 2 equals Alt for Marshfield, 3 equals Default for HealthPartners, 4equals Default for Henry Ford, 5equals Default for Sanford.",
+  "Notes": "0 equals Default for UoC, 1 equals Default for Marshfield, 2 equals Alt for Marshfield, 3 equals Default for HealthPartners, 4equals Default for Henry Ford, 5equals Alt for Henry Ford, 6equals Default for Sanford, 7equals Default for MOL, 55equals Other. Sent by KP.",
   "Dictionary": "Biospecimen Research",
   "State Attribute": "No",
   "Default Variable": "Yes",
-  "Date added or modified": "5/4/22",
+  "Date added or modified": "7/18/22",
   "Formula for Index": [
-    "417",
-    "418",
-    "419",
     "420",
     "421",
     "422",
-    "423"
-  ],
-  "Index": [
-    "417",
-    "418",
-    "419",
-    "420",
-    "421",
-    "422",
-    "423"
+    "423",
+    "424",
+    "425",
+    "426",
+    "427",
+    "428"
   ],
   "Format/Value": {
     "777644826.json": "0",
@@ -43,6 +36,8 @@
     "834825425.json": "3",
     "736183094.json": "4",
     "886364332.json": "5",
-    "589224449.json": "6"
+    "589224449.json": "6",
+    "744737393.json": "7",
+    "807835037.json": "55"
   }
 }

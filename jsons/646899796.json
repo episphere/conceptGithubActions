@@ -1,6 +1,5 @@
 {
   "Formula for Index": "340",
-  "Index": "340",
   "Primary Source": [
     "819848608.json"
   ],
@@ -8,18 +7,19 @@
     "123496044.json"
   ],
   "conceptId": "646899796",
-  "Question Text": "Accession ID",
-  "Variable Label": "Accession ID",
+  "Question Text": "Scanned DB blood accession number",
+  "Variable Label": "Blood Accession ID",
   "Variable Name": [
-    "BioSpm_AccessionID_v1r0"
+    "BioSpm_BlAccessionID_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "30",
   "Format/Value": "N/A",
   "Required": "Yes for KP sites Only",
   "PII": "No",
-  "Notes": "Additional format info to be added later.",
+  "Notes": "From clinical dashboard.",
   "Dictionary": "Biospecimen Clinical",
   "State Attribute": "No",
-  "Default Variable": "No"
+  "Default Variable": "No",
+  "Date added or modified": "7/13/22"
 }

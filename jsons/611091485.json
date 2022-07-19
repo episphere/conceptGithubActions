@@ -1,0 +1,25 @@
+{
+  "Formula for Index": "341",
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "123496044.json"
+  ],
+  "conceptId": "611091485",
+  "Question Text": "Scanned DB urine accession number",
+  "Variable Label": "Urine Accession ID",
+  "Variable Name": [
+    "BioSpm_UrAccessionID_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "30",
+  "Format/Value": "N/A",
+  "Required": "Yes for KP sites Only",
+  "PII": "No",
+  "Notes": "From clinical dashboard.",
+  "Dictionary": "Biospecimen Clinical",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "7/18/22"
+}

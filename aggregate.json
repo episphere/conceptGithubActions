@@ -221,9 +221,6 @@
       "SrvLAW_CurWorkRail_v1r0"
     ]
   },
-  "107714591": {
-    "Variable Name": "5 days"
-  },
   "108025529": {
     "Variable Label": "Fallopian Tubes",
     "Variable Name": [
@@ -1102,9 +1099,9 @@
     ]
   },
   "148996099": {
-    "Variable Label": "Accession ID Manually Entered",
+    "Variable Label": "Blood Accession ID Manually Entered",
     "Variable Name": [
-      "BioSpm_AccIDEntered_v1r0"
+      "BioSpm_BlAccIDEntered_v1r0"
     ]
   },
   "149476435": {
@@ -1374,9 +1371,6 @@
     "Variable Name": [
       "SrvLAW_Apt5_v1r0"
     ]
-  },
-  "164282814": {
-    "Variable Name": "7 days"
   },
   "164595895": {
     "Variable Label": "Days long recent menstrual cycle",
@@ -2110,6 +2104,12 @@
       "SrvSAS_Cigar_v1r0"
     ]
   },
+  "198261154": {
+    "Variable Label": "Clinical Site Urine accession number",
+    "Variable Name": [
+      "BioClin_UrineAccNo_v1r0"
+    ]
+  },
   "198347104": {
     "Variable Name": "1 to 2 times per week"
   },
@@ -2549,6 +2549,12 @@
   "210325948": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Melanoma (skin) cancer?"
   },
+  "210921343": {
+    "Variable Label": "Clinical DB Urine RRL received",
+    "Variable Name": [
+      "BioClin_DBUrineRRL_v1r0"
+    ]
+  },
   "211023960": {
     "Variable Label": "Does not want to be in a long-term study",
     "Variable Name": [
@@ -2811,6 +2817,12 @@
     "Variable Label": "Other: Please describe",
     "Variable Name": [
       "SrvLAW_HomeWtr3_2_Oth_v1r0"
+    ]
+  },
+  "224596428": {
+    "Variable Label": "Clinical Site Urine RRL Date / Time Received",
+    "Variable Name": [
+      "BioClin_SiteUrineRRLDt_v1r0"
     ]
   },
   "224681201": {
@@ -4148,7 +4160,7 @@
     "Variable Name": "Yes, fraternal twins (not identical)"
   },
   "288109261": {
-    "Variable Name": "Seasonal Address 10- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select“I still spend time here."
+    "Variable Name": "Seasonal Address 10- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select\"\"I still spend time here."
   },
   "288321056": {
     "Variable Name": "Married"
@@ -4973,6 +4985,12 @@
     "Variable Label": "Deep private well",
     "Variable Name": [
       "SrvLAW_SeaAdd6DPWell_v1r0"
+    ]
+  },
+  "341570479": {
+    "Variable Label": "Clinical Site Blood accession number",
+    "Variable Name": [
+      "BioClin_BloodAccNo_v1r0"
     ]
   },
   "341709648": {
@@ -5926,6 +5944,12 @@
       "SrvLAW_SeaFullSt6_v1r0"
     ]
   },
+  "398645039": {
+    "Variable Label": "Clinical DB blood RRL Date/Time Received",
+    "Variable Name": [
+      "BioClin_DBBloodRRLDt_v1r0"
+    ]
+  },
   "398762737": {
     "Variable Label": "Do Not Know 1-Previous Cross",
     "Variable Name": [
@@ -6020,7 +6044,7 @@
     ]
   },
   "404118353": {
-    "Variable Name": "Seasonal Address 6- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select “I still spend time here."
+    "Variable Name": "Seasonal Address 6- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select \"\"I still spend time here."
   },
   "404141282": {
     "Variable Label": "Apartment, suite, unit, building, etc.",
@@ -6165,9 +6189,9 @@
     "Variable Name": "More than 2 years to 3 years"
   },
   "410912345": {
-    "Variable Label": "Go to shipping",
+    "Variable Label": "Collection Entry Finalized",
     "Variable Name": [
-      "BioRec_ShipFlag_v1r0"
+      "BioRec_CollectFinal_v1r0"
     ]
   },
   "411022152": {
@@ -6668,7 +6692,7 @@
     "Variable Name": "Recreation"
   },
   "437395872": {
-    "Variable Name": "Seasonal Address 9- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select “I still spend time here."
+    "Variable Name": "Seasonal Address 9- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select \"\"I still spend time here."
   },
   "438475588": {
     "Variable Label": "Full Street name",
@@ -7052,6 +7076,12 @@
     "Variable Label": "Time, Bus or streetcar/trolley, light rail/trolley commute from current school",
     "Variable Name": [
       "SrvLAW_CurSchT10D_v1r0"
+    ]
+  },
+  "453452655": {
+    "Variable Label": "Clinical Site Urine RRL Received",
+    "Variable Name": [
+      "BioClin_SiteUrineRRL_v1r0"
     ]
   },
   "453456270": {
@@ -8647,6 +8677,12 @@
   "534007917": {
     "Variable Name": "How old were you when you had one or both ovaries removed (oophorectomy)? If you have had more than one procedure, at what age did you last have this procedure?"
   },
+  "534041351": {
+    "Variable Label": "Clinical DB Blood RRL Received",
+    "Variable Name": [
+      "BioClin_DBBloodRRL_v1r0"
+    ]
+  },
   "534351312": {
     "Variable Label": "Use cigarette before first meal",
     "Variable Name": [
@@ -8832,6 +8868,12 @@
   },
   "541300533": {
     "Variable Name": "Mostly feminine"
+  },
+  "541311218": {
+    "Variable Label": "Clinical DB urine RRL Date/Time received",
+    "Variable Name": [
+      "BioClin_DBUrineRRLDt_v1r0"
+    ]
   },
   "541565665": {
     "Variable Label": "Primary water source",
@@ -9116,9 +9158,9 @@
     ]
   },
   "556788178": {
-    "Variable Label": "Date/Time go to shipping",
+    "Variable Label": "Date/Time Collection Entry Finalized",
     "Variable Name": [
-      "BioRec_ShipTime_v1r0"
+      "BioRec_CollectFinalTime_v1r0"
     ]
   },
   "556837046": {
@@ -10161,6 +10203,12 @@
   "610382315": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had brain cancer?"
   },
+  "611091485": {
+    "Variable Label": "Urine Accession ID",
+    "Variable Name": [
+      "BioSpm_UrAccessionID_v1r0"
+    ]
+  },
   "612012325": {
     "Variable Label": "Progesterone-only or progestin-only contraceptive pills, commonly called \"\"the mini-pill\"\"",
     "Variable Name": [
@@ -10189,7 +10237,7 @@
     ]
   },
   "613251957": {
-    "Variable Name": "Seasonal Address 8- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select “I still spend time here."
+    "Variable Name": "Seasonal Address 8- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select \"\"I still spend time here."
   },
   "613641698": {
     "Variable Label": "Date HIPAA revocation signed",
@@ -10537,9 +10585,6 @@
       "SrvMRE_OftenSnoring_v1r0"
     ]
   },
-  "632371391": {
-    "Variable Name": "1 day"
-  },
   "632512449": {
     "Variable Name": "1 to 2 times per month"
   },
@@ -10854,9 +10899,9 @@
     ]
   },
   "646899796": {
-    "Variable Label": "Accession ID",
+    "Variable Label": "Blood Accession ID",
     "Variable Name": [
-      "BioSpm_AccessionID_v1r0"
+      "BioSpm_BlAccessionID_v1r0"
     ]
   },
   "646918928": {
@@ -11668,7 +11713,7 @@
     "Variable Name": "Participant refusal"
   },
   "682457230": {
-    "Variable Name": "Seasonal Address 5- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select “I still spend time here."
+    "Variable Name": "Seasonal Address 5- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select \"\"I still spend time here."
   },
   "682651189": {
     "Variable Name": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had Ovarian cancer?"
@@ -11778,9 +11823,6 @@
       "SrvSAS_TobaccoPipe_v1r0"
     ]
   },
-  "686379250": {
-    "Variable Name": "4 days"
-  },
   "686494153": {
     "Variable Label": "Time, Walking commute from past work",
     "Variable Name": [
@@ -11828,9 +11870,6 @@
     "Variable Name": [
       "SrvSAS_PipeFills17_v1r0"
     ]
-  },
-  "689829953": {
-    "Variable Name": "6 days"
   },
   "689861450": {
     "Variable Label": "Wake up time",
@@ -11924,6 +11963,12 @@
   },
   "693256778": {
     "Variable Name": "Less than once per week"
+  },
+  "693370086": {
+    "Variable Label": "Clinical Site Blood Collected",
+    "Variable Name": [
+      "BioClin_SiteBloodColl_v1r0"
+    ]
   },
   "693626233": {
     "Variable Label": "Suffix",
@@ -12285,9 +12330,6 @@
       "SrvBOH_Cirrhosis_v1r0"
     ]
   },
-  "709969190": {
-    "Variable Name": "2 days"
-  },
   "710443293": {
     "Variable Name": "Seasonal Address 7- In general, how many months per year did you spend at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]?"
   },
@@ -12648,6 +12690,12 @@
       "SrVMRE_CombPillAgeL_v1r0"
     ]
   },
+  "728696253": {
+    "Variable Label": "Clinical_Site Blood RRL Received",
+    "Variable Name": [
+      "BioClin_SiteBloodRRL_v1r0"
+    ]
+  },
   "728704613": {
     "Variable Label": "Country",
     "Variable Name": [
@@ -12991,6 +13039,9 @@
       "HdWd_LnameDD_v1r0"
     ]
   },
+  "744737393": {
+    "Variable Name": "MOL"
+  },
   "744987950": {
     "Variable Label": "Month",
     "Variable Name": [
@@ -12998,7 +13049,7 @@
     ]
   },
   "745205161": {
-    "Variable Name": "Participant unable"
+    "Variable Name": "Participant attempted"
   },
   "745223146": {
     "Variable Name": "During the time(s) that you were taking Insulin, about how many days per week OR per month did you take it? Please choose whichever makes the most sense for you."
@@ -13749,7 +13800,7 @@
     ]
   },
   "778495585": {
-    "Variable Name": "Seasonal Address 2- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select “I still spend time here."
+    "Variable Name": "Seasonal Address 2- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select \"\"I still spend time here."
   },
   "778711683": {
     "Variable Name": "Season Address 10- What is the full street address of your seasonal or vacation home?"
@@ -13919,6 +13970,12 @@
   },
   "786757575": {
     "Variable Name": "Site PI listed on the site-specific consent form"
+  },
+  "786930107": {
+    "Variable Label": "Clinical_Site Urine Collected",
+    "Variable Name": [
+      "BioClin_SiteUrineColl_v1r0"
+    ]
   },
   "787047261": {
     "Variable Label": "Last smoked a hookah or water pipe",
@@ -14348,7 +14405,7 @@
     ]
   },
   "806530984": {
-    "Variable Name": "Seasonal Address 7- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select “I still spend time here."
+    "Variable Name": "Seasonal Address 7- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select \"\"I still spend time here."
   },
   "806746224": {
     "Variable Label": "Sitting and browsing the internet, playing video games, using social media, or using any other apps or programs on a tablet, phone, computer, or television",
@@ -14719,6 +14776,12 @@
       "SrvLAW_PreWorkYr2_v1r0"
     ]
   },
+  "822274939": {
+    "Variable Label": "Clinical Site Blood RRL Date / Time Received",
+    "Variable Name": [
+      "BioClin_SiteBloodRRLDt_v1r0"
+    ]
+  },
   "822499427": {
     "Variable Label": "Date/time Status of Start of blood/urine/mouthwash research survey",
     "Variable Name": [
@@ -14867,7 +14930,7 @@
     "Variable Name": "In which season(s) did you do these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)? Select all that apply."
   },
   "829751791": {
-    "Variable Name": "Seasonal Address 3- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select “I still spend time here."
+    "Variable Name": "Seasonal Address 3- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select \"\"I still spend time here."
   },
   "830201925": {
     "Variable Label": "Walking commute from past work",
@@ -15092,12 +15155,6 @@
     "Variable Label": "Contains Orphan Flag",
     "Variable Name": [
       "BioPack_ContainsOrphan_v1r0"
-    ]
-  },
-  "842657297": {
-    "Variable Label": "Days work",
-    "Variable Name": [
-      "SrvBOH_DaysWork_v1r0"
     ]
   },
   "843508307": {
@@ -15475,6 +15532,12 @@
     "Variable Label": "Pandemic Heart racing duration",
     "Variable Name": [
       "SrvBlU_COV24A8_v1r0"
+    ]
+  },
+  "860477844": {
+    "Variable Label": "Biospecimen Order Placed",
+    "Variable Name": [
+      "BioClin_OrderPlaced_v1r0"
     ]
   },
   "860920332": {
@@ -16531,7 +16594,7 @@
     "Variable Name": "2 shots"
   },
   "914325712": {
-    "Variable Name": "Seasonal Address 4- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select “I still spend time here."
+    "Variable Name": "Seasonal Address 4- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select \"\"I still spend time here."
   },
   "914594314": {
     "Variable Label": "Verification status time",
@@ -16812,8 +16875,11 @@
   "928670216": {
     "Variable Name": "Previous address 5"
   },
-  "928753604": {
-    "Variable Name": "3 days"
+  "928693120": {
+    "Variable Label": "Scanned_DB urine accession number",
+    "Variable Name": [
+      "BioClin_ScanUrineAccNo_v1r0"
+    ]
   },
   "928803137": {
     "Variable Label": "How many days used cigarettes, usual month",
@@ -17053,6 +17119,12 @@
       "SrvBOH_DAnalCancer_v1r0",
       "SrvBOH_S1AnalCanc_v1r0",
       "SrvBOH_C1AnalCanc_v1r0"
+    ]
+  },
+  "939818935": {
+    "Variable Label": "Date/Time Biospecimen Order Placed",
+    "Variable Name": [
+      "BioClin_OrderPlacedDt_v1r0"
     ]
   },
   "939897560": {
@@ -17397,6 +17469,12 @@
     "Variable Label": "Stuffy nose day",
     "Variable Name": [
       "SrvBio_NoseDay_v1r0"
+    ]
+  },
+  "955466813": {
+    "Variable Label": "Urine Accession ID Manually Entered",
+    "Variable Name": [
+      "BioSpm_UrAccIDEntered_v1r0"
     ]
   },
   "955609858": {
@@ -17786,7 +17864,7 @@
     ]
   },
   "975198123": {
-    "Variable Name": "Seasonal Address 1- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select “I still spend time here."
+    "Variable Name": "Seasonal Address 1- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select \"\"I still spend time here."
   },
   "976052812": {
     "Variable Label": "Last time took anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)",

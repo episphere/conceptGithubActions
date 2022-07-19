@@ -13,19 +13,15 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Notes": "For display at check-in and check out.  Currently, place holders, but will maintain the Concept IDs when variables are created. These will be derived from other variables in the biospecimen dictionary. Derivation should come from both biospecimen clinical and biospecimen research",
+  "Notes": "For display at check-in and check out. These will be derived from other variables in the biospecimen dictionary. Derivation should come from both biospecimen clinical and biospecimen research. From clinical dashboard.",
   "Derivation Notes": "BioCol_TubeCollected_v1r0 equals1 for urine tube (BioCol_0006_v1r0) AND visit equals baseline which is defined as BioSpm_Visit_v1r0 equals 0 then BioFin_BaseUrineCol_v1r0 equals 1",
   "Dictionary": "Biospecimen Research",
   "State Attribute": "No",
   "Default Variable": "Yes",
-  "Date added or modified": "4/14/22",
+  "Date added or modified": "7/13/22",
   "Formula for Index": [
-    "411",
-    "412"
-  ],
-  "Index": [
-    "411",
-    "412"
+    "414",
+    "415"
   ],
   "Format/Value": {
     "104430631.json": "0",

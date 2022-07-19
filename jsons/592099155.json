@@ -15,18 +15,13 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Derived variable nested under BipSpm_CollEnvNest_v1r0.",
+  "Notes": "Derived variable nested under BipSpm_CollEnvNest_v1r0. From clinical dashboard.",
   "Derivation Notes": "BioCol_TubeCollected_v1r0 for any tube is 1 except tubes BioCol_0006_v1r0 and BioCol_0007v1r0 and set to BioSpm_Setting_v1r0 for that visit",
   "Dictionary": "Biospecimen Clinical , Biospecimen Research",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "4/19/22",
+  "Date added or modified": "7/13/22",
   "Formula for Index": [
-    "323",
-    "324",
-    "325"
-  ],
-  "Index": [
     "323",
     "324",
     "325"
