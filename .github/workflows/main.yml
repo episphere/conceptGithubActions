@@ -34,9 +34,9 @@ jobs:
     - name: test
       run: |
         cat $HOME/files.csv > files.csv
-    
-    - run: npm install
-    - run: npm test
+    # Comment out for old approach
+    # - run: npm install
+    # - run: npm test
     
     - name: running index file
       run: node index.js
