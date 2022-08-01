@@ -6,10 +6,10 @@
     "664882224.json"
   ],
   "conceptId": "860477844",
-  "Question Text": "Biospecimen Order Placed",
-  "Variable Label": "Biospecimen Order Placed",
+  "Question Text": "Urine Order Placed",
+  "Variable Label": "Urine Order Placed",
   "Variable Name": [
-    "BioClin_OrderPlaced_v1r0"
+    "BioClin_UrnOrderPlaced_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -19,10 +19,14 @@
   "Dictionary": "Biospecimen Clinical",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "7/13/22",
+  "Date added or modified": "8/1/22",
   "Formula for Index": [
-    "434",
-    "435"
+    "437",
+    "438"
+  ],
+  "Index": [
+    "437",
+    "438"
   ],
   "Format/Value": {
     "104430631.json": "0",

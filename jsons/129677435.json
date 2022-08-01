@@ -6,7 +6,7 @@
     "965707586.json"
   ],
   "conceptId": "129677435",
-  "Question Text": "Age last used - During that time, did you ever smoke marijuana every day?",
+  "Question Text": "Age last used - During that time, did you smoke marijuana every day?",
   "Variable Label": "Use marijuana every day, age last used",
   "Variable Name": [
     "SrvSAS_MJUseEDLastUsed_v1r0"
@@ -18,10 +18,14 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "10/25/21",
+  "Date added or modified": "7/28/22",
   "Formula for Index": [
-    "#REF!",
-    "#REF!"
+    "3993",
+    "3994"
+  ],
+  "Index": [
+    "3993",
+    "3994"
   ],
   "Format/Value": {
     "104430631.json": "0",

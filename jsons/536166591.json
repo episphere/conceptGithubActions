@@ -6,7 +6,7 @@
     "965707586.json"
   ],
   "conceptId": "536166591",
-  "Question Text": "Age last used -During that time, did you ever use THC concentrates via dabbing every day?",
+  "Question Text": "Age last used - During that time, did you use THC concentrates via dabbing every day?",
   "Variable Label": "Use THC concentrates via dabbing, age last used",
   "Variable Name": [
     "SrvSAS_AgeLastTHCED_v1r0"
@@ -18,10 +18,14 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "10/25/21",
+  "Date added or modified": "7/28/22",
   "Formula for Index": [
-    "#REF!",
-    "#REF!"
+    "4243",
+    "4244"
+  ],
+  "Index": [
+    "4243",
+    "4244"
   ],
   "Format/Value": {
     "104430631.json": "0",

@@ -7,6 +7,10 @@
   ],
   "conceptId": "291959537",
   "Question Text": "Is your current job the longest job you have had in the past 20 years?",
+  "Variable Label": "Current job is also longest held job in past 20 years",
+  "Variable Name": [
+    "SrvLAW_LongestCurJob_v1r0"
+  ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "PREWORK1A"
   ],
@@ -14,8 +18,16 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "7/25/22",
+  "Date added or modified": "7/28/22",
   "Question Type": "Optional Multiple Choice",
+  "Formula for Index": [
+    "5796",
+    "5797"
+  ],
+  "Index": [
+    "5796",
+    "5797"
+  ],
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"

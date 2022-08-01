@@ -6,7 +6,7 @@
     "965707586.json"
   ],
   "conceptId": "400969127",
-  "Question Text": "Age last used - During that time, did you ever smoke cigarettes every day?",
+  "Question Text": "Age last used - During that time, did you smoke cigarettes every day?",
   "Variable Label": "Use cigarettes every day, age last used",
   "Variable Name": [
     "SrvSAS_CigsUseEDAgeL_v1r0"
@@ -18,10 +18,14 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "10/25/21",
+  "Date added or modified": "7/28/22",
   "Formula for Index": [
-    "#REF!",
-    "#REF!"
+    "3510",
+    "3511"
+  ],
+  "Index": [
+    "3510",
+    "3511"
   ],
   "Format/Value": {
     "104430631.json": "0",

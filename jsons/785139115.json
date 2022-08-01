@@ -6,7 +6,7 @@
     "965707586.json"
   ],
   "conceptId": "785139115",
-  "Question Text": "Age last used - During that time, did you ever use chewing tobacco, snus, snuff, or dip  every day?",
+  "Question Text": "Age last used - During that time, did you use chewing tobacco, snus, snuff, or dip  every day?",
   "Variable Label": "Use chewing tobacco, snus, snuff, or dip  every day, age last used",
   "Variable Name": [
     "SrvSAS_UseCTEDAge_v1r0"
@@ -18,10 +18,14 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "10/25/21",
+  "Date added or modified": "7/28/22",
   "Formula for Index": [
-    "#REF!",
-    "#REF!"
+    "3678",
+    "3679"
+  ],
+  "Index": [
+    "3678",
+    "3679"
   ],
   "Format/Value": {
     "104430631.json": "0",

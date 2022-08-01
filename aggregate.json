@@ -1840,6 +1840,12 @@
       "SrvSAS_AgeUseTHCReg_v1r0"
     ]
   },
+  "185243482": {
+    "Variable Label": "Blood Location ID",
+    "Variable Name": [
+      "BioShip_BloodLocalID_v1r0"
+    ]
+  },
   "185533250": {
     "Variable Label": "Time, Bus or streetcar/trolley, light rail/trolley commute to current school",
     "Variable Name": [
@@ -4229,7 +4235,10 @@
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Non-Hodgkin's lymphoma cancer?"
   },
   "291959537": {
-    "Variable Name": "Is your current job the longest job you have had in the past 20 years?"
+    "Variable Label": "Current job is also longest held job in past 20 years",
+    "Variable Name": [
+      "SrvLAW_LongestCurJob_v1r0"
+    ]
   },
   "292658699": {
     "Variable Label": "Last time took ibuprofen?",
@@ -7031,6 +7040,12 @@
     "Variable Label": "Permanent teeth lost from tooth decay or disease",
     "Variable Name": [
       "SrvMw_PERMTTHLOST2_v1r0"
+    ]
+  },
+  "452847912": {
+    "Variable Label": "Urine Location ID",
+    "Variable Name": [
+      "BioShip_BloodLocalID_v1r0"
     ]
   },
   "452942800": {
@@ -15538,9 +15553,9 @@
     ]
   },
   "860477844": {
-    "Variable Label": "Biospecimen Order Placed",
+    "Variable Label": "Urine Order Placed",
     "Variable Name": [
-      "BioClin_OrderPlaced_v1r0"
+      "BioClin_UrnOrderPlaced_v1r0"
     ]
   },
   "860920332": {
@@ -17125,9 +17140,9 @@
     ]
   },
   "939818935": {
-    "Variable Label": "Date/Time Biospecimen Order Placed",
+    "Variable Label": "Date/Time Urine Order Placed",
     "Variable Name": [
-      "BioClin_OrderPlacedDt_v1r0"
+      "BioClin_UrnOrderPlacdDt_v1r0"
     ]
   },
   "939897560": {

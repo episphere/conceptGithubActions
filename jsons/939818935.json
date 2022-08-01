@@ -1,5 +1,4 @@
 {
-  "Formula for Index": "436",
   "Primary Source": [
     "819848608.json"
   ],
@@ -7,19 +6,27 @@
     "664882224.json"
   ],
   "conceptId": "939818935",
-  "Question Text": "Date/Time Biospecimen Order Placed",
-  "Variable Label": "Date/Time Biospecimen Order Placed",
+  "Question Text": "Date/Time Urine Order Placed",
+  "Variable Label": "Date/Time Urine Order Placed",
   "Variable Name": [
-    "BioClin_OrderPlacedDt_v1r0"
+    "BioClin_UrnOrderPlacdDt_v1r0"
   ],
   "Variable Type": "ISO",
   "Variable Length": "24",
   "Format/Value": "example: 2020-07-17T15:21:26.763Z",
-  "Required": "Yes if BioClin_OrderPlaced_v1r0 =1",
+  "Required": "Yes if BioClin_UrnOrderPlaced_v1r0 =1",
   "PII": "No",
   "Notes": "ISO to be converted to SAS format. Sent by KP",
   "Dictionary": "Biospecimen Clinical",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "7/13/22"
+  "Date added or modified": "8/1/22",
+  "Formula for Index": [
+    "439",
+    "440"
+  ],
+  "Index": [
+    "439",
+    "440"
+  ]
 }

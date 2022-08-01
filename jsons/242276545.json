@@ -6,7 +6,7 @@
     "965707586.json"
   ],
   "conceptId": "242276545",
-  "Question Text": "Age last used - During that time, did you ever use e-cigarettes or other vaping devices for nicotine or tobacco every day?",
+  "Question Text": "Age last used - During that time, did you use e-cigarettes or other vaping devices for nicotine or tobacco every day?",
   "Variable Label": "Use e-cigarettes or other vaping devices every day, age last used",
   "Variable Name": [
     "SrvSAS_ECigEDAgeUseL_v1r0"
@@ -18,10 +18,14 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "10/25/21",
+  "Date added or modified": "7/28/22",
   "Formula for Index": [
-    "#REF!",
-    "#REF!"
+    "3556",
+    "3557"
+  ],
+  "Index": [
+    "3556",
+    "3557"
   ],
   "Format/Value": {
     "104430631.json": "0",
