@@ -14,7 +14,7 @@ function getConceptIdIndex (header){
     return -1;
 }
 
-function generateNine(){
+function generateNine(){ // Generate nine digit number, first number must be 1 - 9 and other proceeding numbers will be 0 - 9
     let a = ''
     a += Math.floor(Math.random()*9 + 1)
     for(let i = 1; i < 9; i++){
@@ -24,7 +24,7 @@ function generateNine(){
     return a;
 }
 
-function generateRandomUUID(conceptIdList){
+function generateRandomUUID(conceptIdList){ // continue to create unique 9 digit number until generated 9 digit number not found in --> conceptIdList
     //return uuidv4();
     let num = generateNine()
     while(!conceptIdList.includes(num)){
@@ -402,7 +402,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
 
 }
 
-function findJSON(jsonList, questionText){
+function findJSON(jsonList, questionText){ // loop entire jsonList, find match between question Text of param1 and param2, return json 
     //console.log('finding: ' + questionText)
     for(let i = 0; i < jsonList.length;i++){
         let json = jsonList[i];
@@ -426,7 +426,7 @@ function CSVToArray(strData){
             let nextLook = strData.indexOf('\"\"')
             let nextQuote = strData.indexOf('\"');
 
-            while(nextLook != -1 && nextLook == nextQuote){
+            while(nextLook != -1 && nextLook == nextQuote){ // pushes from start to end of "\"\"
                 ////console.log(nextLook)
                 toPush += strData.substring(0,nextLook) + '\"\"'
                 strData = strData.substring(strData.indexOf("\"\"") + 2);    
@@ -465,7 +465,7 @@ function CSVToArray(strData){
     return( arr );
 }
 
-function getConceptIdCols(header){
+function getConceptIdCols(header){ // pushing headers into columns
     let toReturn = {}
     for(let i = 0; i < header.length;i++){
         if(header[i] == 'conceptId'){
