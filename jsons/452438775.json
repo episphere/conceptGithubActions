@@ -1,6 +1,4 @@
 {
-  "Formula for Index": "6591",
-  "Index": "6591",
   "Primary Source": [
     "129084651.json"
   ],
@@ -24,13 +22,22 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Format/Value": {
-    "104430631.json": "0"
-  },
   "Required": "No",
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
   "Question Type": "Select All That Apply",
-  "IMS Review Notes": "GRID ID/Source Variable Name (Column H) needed"
+  "IMS Review Notes": "GRID ID/Source Variable Name (Column H) needed",
+  "Formula for Index": [
+    "6591",
+    "6592"
+  ],
+  "Index": [
+    "6591",
+    "6592"
+  ],
+  "Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
 }
