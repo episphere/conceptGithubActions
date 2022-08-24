@@ -6,16 +6,16 @@
     "299215535.json"
   ],
   "Source Question": [
-    "542661394.json"
+    "899251483.json"
   ],
   "GridID/Source Question Name": [
-    "SrvMw_DENTURES_v1r0"
+    "SrvMw_PERMTTHLOST_v1r0"
   ],
-  "conceptId": "365685000",
-  "Question Text": "Partial Denture",
-  "Variable Label": "Partial Denture",
+  "conceptId": "886864375",
+  "Question Text": "Yes, for some other reason",
+  "Variable Label": "Permanent teeth lost from some other reason",
   "Variable Name": [
-    "SrvMw_PARTDENT_v1r0"
+    "SrvMw_PERMTTHLOST3_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "2"
@@ -26,15 +26,16 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Question Type": "Optional Select All that Apply",
-  "IMS Review Notes": "GRID ID/Source Variable Name (Column H) needed",
+  "Date added or modified": "8/22/22",
+  "Question Type": "Select All That Apply",
+  "IMS Review Notes": "These rows were all added row 6594-6595",
   "Formula for Index": [
-    "6617",
-    "6618"
+    "6592",
+    "6593"
   ],
   "Index": [
-    "6617",
-    "6618"
+    "6592",
+    "6593"
   ],
   "Format/Value": {
     "104430631.json": "0",

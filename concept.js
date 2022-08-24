@@ -170,7 +170,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
         let leafObj = {}
         for(let i = 0; i < cluster.length; i++){
             let currRow = cluster[i];
-            // console.log(currRow)
+            console.log(currRow)
             if(currIndex < currRow.length) {
             let currElement = currRow[currIndex].trim();
             if(currElement != ''){
