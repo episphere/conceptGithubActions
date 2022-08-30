@@ -492,30 +492,43 @@ async function readFile(fileName){
             sourceJSONS.push(currJSON);
         }*/
     });
-    let ConceptIndex = '{}'
+    let ConceptIndex = '{}' // becomes varToConcept.json list (found), {} (not found)
     if(fs.existsSync('./jsons/varToConcept.json')){
         ConceptIndex = fs.readFileSync('./jsons/varToConcept.json', {encoding:'utf8'})
     }
     let toReplace = fs.readFileSync(fileName,{encoding:'utf8', flag:'r'})
     ////console.log(toReplace)
     toReplace = toReplace.replace(/�/g, "\"")
-    toReplace = replaceQuotes(toReplace)
-    fs.writeFileSync(fileName, toReplace)
+    // toReplace = toReplace.replace(/¬Æ/g, "®")
+    // toReplace = toReplace.replace(/√®/g, "è")
+    // toReplace = toReplace.replace(/‚Ä¶/g, "…")
+    toReplace = replaceQuotes(toReplace) // replaceQuotes has no affect
+    fs.writeFileSync(fileName, toReplace) // rewrite fileName with regex conditions
     let idIndex = '[]'
     if(fs.existsSync('./jsons/conceptIds.txt')){
-        idIndex = fs.readFileSync('./jsons/conceptIds.txt', {encoding:'utf8'})
+        idIndex = fs.readFileSync('./jsons/conceptIds.txt', {encoding:'utf8'}) // Array of concept Ids (string)
     }
-    let conceptIdList = JSON.parse(idIndex)
+    let conceptIdList = JSON.parse(idIndex) // Array of concept Ids (list of string concepts)
     let varLabelIndex = 0;
     let cluster = []
     
-    const fileStream = fs.createReadStream(fileName);
+    const fileStream = fs.createReadStream(fileName); // opens up file/stream and read data (all of it!)
+    // console.log("fileStream",fileStream)
+
+    // fileStream.on('data',(chunk) => {
+    //     console.log("chunk",typeof chunk.toString())
+    //     console.log("chunk",chunk.toString())
+    // })
+
+    /* START COMMENT HERE */
     const outFile = 'prelude1Concept1.csv'
     let excelOutput = []
-    const rl = readline.createInterface({
+    const rl = readline.createInterface({ // readline - interface for reading data from a readable stream
         input: fileStream,
-        crlfDelay: Infinity
+        crlfDelay: Infinity // crlfDelay - recognize all instances of CR LF from fileStream as a single line break
     })
+
+
     let first = true;
     let second  = true;
     let currCluster = false;
@@ -523,112 +536,121 @@ async function readFile(fileName){
     let conceptCols = [];
     let conceptIdObject = {};
     let nameToConcept = JSON.parse(ConceptIndex);
-    for await(const line of rl){
+    
+
+    rl.on('line', (input) => {
+        console.log(typeof `${input}`);
+      });
+
+    for await(const line of rl){ // each line from rl will be read as a single line
         //let arr = line.split(',');
         let arr = CSVToArray(line, ',')
-        if(first){
-            conceptIdObject = getConceptIdCols(arr)
-            console.log('abc')
-            console.log(conceptIdObject)
-            header = arr;
-            first = false;
-            for(let i = 0; i < arr.length; i++){
-                if(arr[i] == "Question Text"){
-                    varLabelIndex = i;
-                }
-                if(arr[i] == "conceptId" && i+1 < arr.length){
-                    conceptCols.push(i+1)
-                }
-            }
-            excelOutput.push([arr])
-        }
-        else if(currCluster){
-            if(arr[varLabelIndex] == ''){
-                cluster.push(arr);
-            }
-            else{
-                let returned = processCluster(cluster, header, nameToConcept, varLabelIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList, /[0-9]+\s*=/)
-                excelOutput.push(returned)
-                cluster = [arr]
-                currCluster = true;
-            }
-        }
-        else{
-            cluster.push(arr)
-            currCluster = true;
-        }
+        // console.log("arr", arr)
+        // if(first){
+        //     conceptIdObject = getConceptIdCols(arr)
+        //     console.log('abc')
+        //     console.log(conceptIdObject)
+        //     header = arr;
+        //     first = false;
+        //     for(let i = 0; i < arr.length; i++){
+        //         if(arr[i] == "Question Text"){
+        //             varLabelIndex = i;
+        //         }
+        //         if(arr[i] == "conceptId" && i+1 < arr.length){
+        //             conceptCols.push(i+1)
+        //         }
+        //     }
+        //     excelOutput.push([arr])
+        // }
+        // else if(currCluster){
+        //     if(arr[varLabelIndex] == ''){
+        //         cluster.push(arr);
+        //     }
+        //     else{
+        //         let returned = processCluster(cluster, header, nameToConcept, varLabelIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList, /[0-9]+\s*=/)
+        //         excelOutput.push(returned)
+        //         cluster = [arr]
+        //         currCluster = true;
+            // }
+        // }
+    //     else{
+    //         cluster.push(arr)
+    //         currCluster = true;
+    //     }
     }
-    let returned = processCluster(cluster, header, nameToConcept, varLabelIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList,/[0-9]+\s*=/);
-    excelOutput.push(returned)
-    //console.log(sourceJSONS)
-    for(let i = 0; i < sourceJSONS.length; i++){
-        let found = false;
-        let result = {};
-        for(let j = 0; j < jsonList.length; j++){
-            let currJ = jsonList[j];
-            let currS = sourceJSONS[i];
-            if(currJ.conceptId == currS.conceptId){
+    // // GO TO processCluster
+    // let returned = processCluster(cluster, header, nameToConcept, varLabelIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList,/[0-9]+\s*=/);
+    // excelOutput.push(returned)
+    // //console.log(sourceJSONS)
+    // for(let i = 0; i < sourceJSONS.length; i++){
+    //     let found = false;
+    //     let result = {};
+    //     for(let j = 0; j < jsonList.length; j++){
+    //         let currJ = jsonList[j];
+    //         let currS = sourceJSONS[i];
+    //         if(currJ.conceptId == currS.conceptId){
                 
-                let key;
+    //             let key;
 
-                for (key in currS) {
-                    if(currS.hasOwnProperty(key)){
-                        result[key] = currS[key];
-                    }
-                }
+    //             for (key in currS) {
+    //                 if(currS.hasOwnProperty(key)){
+    //                     result[key] = currS[key];
+    //                 }
+    //             }
 
-                for (key in currJ) {
-                    if(currJ.hasOwnProperty(key)){
-                        result[key] = currJ[key];
+    //             for (key in currJ) {
+    //                 if(currJ.hasOwnProperty(key)){
+    //                     result[key] = currJ[key];
                         
-                    }
-                }
-                if(currJ.conceptId == "289664241"){
-                    //console.log(result)
-                }
-                found = true;
-                jsonList[j] = result
-            }
-        }   
-        if(!found){
-            jsonList.push(sourceJSONS[i])
-            fs.writeFileSync('./jsons/' + sourceJSONS[i]['conceptId'] + '.json', JSON.stringify(sourceJSONS[i],null, 2));
+    //                 }
+    //             }
+    //             if(currJ.conceptId == "289664241"){
+    //                 //console.log(result)
+    //             }
+    //             found = true;
+    //             jsonList[j] = result
+    //         }
+    //     }   
+    //     if(!found){
+    //         jsonList.push(sourceJSONS[i])
+    //         fs.writeFileSync('./jsons/' + sourceJSONS[i]['conceptId'] + '.json', JSON.stringify(sourceJSONS[i],null, 2));
 
-        }
-        else{
-            fs.writeFileSync('./jsons/' + sourceJSONS[i]['conceptId'] + '.json', JSON.stringify(result,null, 2))
-        }
+    //     }
+    //     else{
+    //         fs.writeFileSync('./jsons/' + sourceJSONS[i]['conceptId'] + '.json', JSON.stringify(result,null, 2))
+    //     }
         
-    }
-    fs.writeFileSync('./jsons/varToConcept.json', JSON.stringify(nameToConcept))
-    fs.writeFileSync('./jsons/conceptIds.txt', JSON.stringify(conceptIdList))
-    rl.close();
-    fileStream.close();
-    let toPrint = '';
-    for(let i=0; i < excelOutput.length; i++){
-        let cluster = excelOutput[i]
-        for(let j = 0; j < cluster.length; j++){
-            let row = cluster[j]
-            toPrint += cluster[j].map(function(value){
-                if(value.indexOf(',') != -1){
-                    return "\"" + value + "\"";
-                }
-                else{
-                    return value;
-                }
-            }).join(",");
-            if(i!=excelOutput.length-1 || j!=cluster.length -1){
-                toPrint += '\n'
-            }
-        }
-    }
-    fs.writeFileSync(fileName, toPrint)
-    let timestamp = new Date().toISOString().split('.')[0].replace(/:/g, '-').replace('T', '-');
-    let filenameOutside = './csvHistory/Quest-' + timestamp + '_Concept_Id_Dict.csv';
-    let filenameVarGen = './csvHistory/Quest-' + timestamp + '_Concept_ID_Gen.json'
-    fs.writeFileSync(filenameVarGen,JSON.stringify(nameToConcept,null, 2))
-    fs.writeFileSync(filenameOutside,toPrint)
+    // }
+    // fs.writeFileSync('./jsons/varToConcept.json', JSON.stringify(nameToConcept))
+    // fs.writeFileSync('./jsons/conceptIds.txt', JSON.stringify(conceptIdList))
+    // rl.close();
+    // fileStream.close();
+    // let toPrint = '';
+    // for(let i=0; i < excelOutput.length; i++){
+    //     let cluster = excelOutput[i]
+    //     for(let j = 0; j < cluster.length; j++){
+    //         let row = cluster[j]
+    //         toPrint += cluster[j].map(function(value){
+    //             if(value.indexOf(',') != -1){
+    //                 return "\"" + value + "\"";
+    //             }
+    //             else{
+    //                 return value;
+    //             }
+    //         }).join(",");
+    //         if(i!=excelOutput.length-1 || j!=cluster.length -1){
+    //             toPrint += '\n'
+    //         }
+    //     }
+    // }
+    // fs.writeFileSync(fileName, toPrint)
+    // let timestamp = new Date().toISOString().split('.')[0].replace(/:/g, '-').replace('T', '-');
+    // let filenameOutside = './csvHistory/Quest-' + timestamp + '_Concept_Id_Dict.csv';
+    // let filenameVarGen = './csvHistory/Quest-' + timestamp + '_Concept_ID_Gen.json'
+    // fs.writeFileSync(filenameVarGen,JSON.stringify(nameToConcept,null, 2))
+    // fs.writeFileSync(filenameOutside,toPrint)
     
+    /* END COMMENT HERE */
 }
 
 module.exports = {

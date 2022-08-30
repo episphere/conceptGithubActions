@@ -1,14 +1,14 @@
 const fs = require('fs');
 
 const concept = require('./concept');
-let file='./csv/masterFile.csv'
-concept.readFile(file)
+// let file='./csv/masterFile.csv'
+// concept.readFile(file)
 
 /*
 TEST YOUR OWN FILES HERE
-let file='./csv/masterFile1.csv'
-concept.readFile(file)
 */ 
+let file='./csv/masterFileCopy.csv'
+concept.readFile(file)
 
 /*
 let fileName = "./csv/testing1.csv"
