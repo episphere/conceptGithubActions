@@ -4,30 +4,36 @@
   "Primary Source": [
     "129084651.json",
     "129084651.json",
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
+    "745268907.json",
     "745268907.json",
     "965707586.json",
     "299215535.json"
   ],
   "Source Question": [
+    "543780863.json",
     "517976064.json",
     "447720598.json",
     "542661394.json"
   ],
   "GridID/Source Question Name": [
+    "HORMED1",
     "EXEREC1",
     "ALCOHOL8",
     "SrvMw_DENTURES_v1r0"
   ],
-  "Variable Label": "Other exercise",
+  "Variable Label": "Other hormonal medications",
   "Variable Name": [
+    "SrvMRE_OtherHorMeds_v1r0",
     "SrvMRE_OtherExercise_v1r0",
     "SrvSAS_OtherAlc_v1r0",
     "SrvMw_DENTOTHER_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
+    "55",
     "55",
     "55",
     "55"
@@ -36,21 +42,21 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
+  "Date added or modified": "9/1/22",
+  "IMS Review Notes": "Updated column J-L for content changes",
   "Formula for Index": [
-    "3107",
-    "3108"
+    "2598",
+    "2599"
   ],
   "Index": [
-    "3107",
-    "3108"
+    "2598",
+    "2599"
   ],
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   },
-  "Date added or modified": "10/29/21",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Question Type": "Optional Select All that Apply",
-  "IMS Review Notes": "GRID ID/Source Variable Name (Column H) needed"
+  "Question Type": "Optional Select All that Apply"
 }

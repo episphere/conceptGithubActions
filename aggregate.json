@@ -1752,8 +1752,9 @@
     ]
   },
   "181769837": {
-    "Variable Label": "Other exercise",
+    "Variable Label": "Other hormonal medications",
     "Variable Name": [
+      "SrvMRE_OtherHorMeds_v1r0",
       "SrvMRE_OtherExercise_v1r0",
       "SrvSAS_OtherAlc_v1r0",
       "SrvMw_DENTOTHER_v1r0"
@@ -4501,7 +4502,7 @@
     ]
   },
   "306890578": {
-    "Variable Name": "Live birth and stillbirth (loss of one or more of multiples)"
+    "Variable Name": "Pregnancy loss before 20 weeks"
   },
   "307736999": {
     "Variable Label": "How old were you when you last used the other type of prescription hormone?",
@@ -6361,7 +6362,7 @@
     ]
   },
   "419220239": {
-    "Variable Name": "Stillbirth (pregnancy loss after 20 weeks)"
+    "Variable Name": "Live birth and loss of one or more of multiples"
   },
   "419415087": {
     "Variable Name": "No, not at all"
@@ -6644,9 +6645,6 @@
     "Variable Name": [
       "SrvSAS_CigsUsed6069_v1r0"
     ]
-  },
-  "434041171": {
-    "Variable Name": "Termination"
   },
   "434243220": {
     "Variable Label": "Months use combined oral contraceptive pills",
@@ -9075,9 +9073,6 @@
     "Variable Name": [
       "SrvSAS_ECigNeverReg_v1r0"
     ]
-  },
-  "550615107": {
-    "Variable Name": "Ectopic or tubal pregnancy (fertilized egg implants outside of the uterus)"
   },
   "550646850": {
     "Variable Label": "Time, Commuter rail, subway, metro commute from current school",
@@ -11773,12 +11768,6 @@
     "Variable Label": "Diarrhea",
     "Variable Name": [
       "SrvBlU_COV8N_v1r0"
-    ]
-  },
-  "684201296": {
-    "Variable Label": "Other medication: please describe text box",
-    "Variable Name": [
-      "SrvMRE_OthHorMedsDes_v1r0"
     ]
   },
   "684217044": {
@@ -14493,7 +14482,6 @@
       "SrvBOH_OtherBusinessP_v1r0",
       "SrvMRE_OtherPregIssue_v1r0",
       "SrvMRE_OtherFertMeds_v1r0",
-      "SrvMRE_OtherHorMeds_v1r0",
       "SrvMRE_OthEstrogenMed_v1r0",
       "SrvMRE_OtherProg_v1r0",
       "SrvMRE_AnyCombPill_v1r0",
@@ -15505,7 +15493,7 @@
     "Variable Name": "What is the address?"
   },
   "858244199": {
-    "Variable Name": "Miscarriage (pregnancy loss before 20 weeks)"
+    "Variable Name": "Pregnancy loss after 20 weeks"
   },
   "858353109": {
     "Variable Label": "Lived there since birth",

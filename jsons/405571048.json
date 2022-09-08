@@ -8,7 +8,7 @@
     "745268907.json"
   ],
   "conceptId": "405571048",
-  "Question Text": "How many times have you been pregnant? Please include all live births, as well as pregnancies that ended as stillbirths, miscarriages, ectopic or tubal pregnancies, or termination. Twins, triplets, or higher multiples count as one pregnancy.",
+  "Question Text": "How many times have you been pregnant? Please include all live births, as well as pregnancies that ended as stillbirths or other pregnancy losses.Twins, triplets, or higher multiples count as one pregnancy.",
   "Variable Label": "Times pregnant",
   "Variable Name": [
     "SrvMRE_TimesPreg_v1r0"
@@ -20,5 +20,6 @@
   "Variable Length": "3",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "10/6/21"
+  "Date added or modified": "9/1/22",
+  "IMS Review Notes": "Updated column K language to reflect content change."
 }
