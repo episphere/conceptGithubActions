@@ -191,6 +191,12 @@
       "SrvLAW_SeaAdd4PrWater_v1r0"
     ]
   },
+  "106010694": {
+    "Variable Label": "Last blood transfusion year",
+    "Variable Name": [
+      "SrvBOH_LBloodTransYr_v1r0"
+    ]
+  },
   "106272739": {
     "Variable Label": "Ages 15 to 17",
     "Variable Name": [
@@ -2099,6 +2105,12 @@
   "197316935": {
     "Variable Name": "Verified"
   },
+  "197994844": {
+    "Variable Label": "First blood transfusion year",
+    "Variable Name": [
+      "SrvBOH_BloodTransYr_v1r0"
+    ]
+  },
   "198133418": {
     "Variable Label": "Cigars, cigarillos, or little filtered cigars; some of the most popular brands include Macanudo, Romeo y Julieta, Black and Mild, Swisher Sweets, Prime Time, and Cheyenne. Please do not include blunts as we will be asking about marijuana use in a later section.",
     "Variable Name": [
@@ -2373,8 +2385,6 @@
       "SrvBOH_TestRemSurgAge_v1r0",
       "SrvBOH_ProsRemSurgAge_v1r0",
       "SrvBOH_PenRemAge_v1r0",
-      "SrvBOH_BloodTransAge_v1r0",
-      "SrvBOH_LBloodTransAge_v1r0",
       "SrvBOH_MomAnalCancAge_v1r0",
       "SrvBOH_MomBlCancAge_v1r0",
       "SrvBOH_MomBraCancAge_v1r0",
@@ -3523,8 +3533,6 @@
       "SrvBOH_TestRemSurgYr_v1r0",
       "SrvBOH_ProsRemSurgYr_v1r0",
       "SrvBOH_PenRemYear_v1r0",
-      "SrvBOH_BloodTransYr_v1r0",
-      "SrvBOH_LBloodTransYr_v1r0",
       "SrvBOH_MomAnalCancYr_v1r0",
       "SrvBOH_MomBlCancYr_v1r0",
       "SrvBOH_MomBraCancYr_v1r0",
@@ -5650,6 +5658,12 @@
       "SrvBOH_Zip_v1r0"
     ]
   },
+  "380275309": {
+    "Variable Label": "First blood transfusion age",
+    "Variable Name": [
+      "SrvBOH_BloodTransAge_v1r0"
+    ]
+  },
   "380579855": {
     "Variable Name": "In what month and year did you start commuting to [insert address from CURWORK1 - CURWORK3/this address]?"
   },
@@ -6669,6 +6683,12 @@
     "Variable Label": "Current employer's for job",
     "Variable Name": [
       "SrvBOH_EmployerC_v1r0"
+    ]
+  },
+  "434556295": {
+    "Variable Label": "Last blood transfusion age",
+    "Variable Name": [
+      "SrvBOH_LBloodTransAge_v1r0"
     ]
   },
   "434651539": {
