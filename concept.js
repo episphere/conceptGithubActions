@@ -2,6 +2,7 @@
 const fs = require('fs');
 const readline = require('readline')
 let conceptIdVariants = ["@id","conceptId"];
+
 let jsonList = [];
 
 function getConceptIdIndex (header){
@@ -413,14 +414,16 @@ function findJSON(jsonList, questionText){ // loop entire jsonList, find match b
     return undefined;
 }
 
-function CSVToArray(strData){
-    let orig = strData;
-    strData = strData.trim();
+function CSVToArray(strData){ // Takes current row as a string
+    let orig = strData; // Not needed anymore?
+    strData = strData.trim(); 
     let arr = [];
     let finalPush = true;
-    while(strData.indexOf(",") != -1 ){
-        let toPush = "";
+    let num = 0 
+    while(strData.indexOf(",") != -1 ){ // searches inside current string for comma
         
+        console.log("test", num,strData.indexOf(","))
+        let toPush = "";
         if(strData.substring(0,1) == "\""){
             strData = strData.substring(1);            
             let nextLook = strData.indexOf('\"\"')
@@ -456,6 +459,7 @@ function CSVToArray(strData){
         arr.push(toPush.trim())
 
         //let nextQuote = strData.indexOf("\"")
+        num ++
     }
     if(finalPush == true){
         arr.push(strData.trim());
@@ -482,7 +486,7 @@ function getConceptIdCols(header){ // pushing headers into columns
     
 }
 
-async function readFile(fileName){
+async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ********************************************************************************
     let jsonList = []
     let sourceJSONS = []
     fs.readdirSync('./jsons/').forEach(file => {
@@ -492,13 +496,16 @@ async function readFile(fileName){
             sourceJSONS.push(currJSON);
         }*/
     });
-    let ConceptIndex = '{}' // becomes varToConcept.json list (found), {} (not found)
+    let ConceptIndex = '{}' // becomes varToConcept.json list (FOUND), {} (NOT FOUND)
     if(fs.existsSync('./jsons/varToConcept.json')){
         ConceptIndex = fs.readFileSync('./jsons/varToConcept.json', {encoding:'utf8'})
     }
     let toReplace = fs.readFileSync(fileName,{encoding:'utf8', flag:'r'})
-    ////console.log(toReplace)
+
+    // console.log("toReplace",typeof toReplace) // entire string csv file
+
     toReplace = toReplace.replace(/�/g, "\"")
+    
     // toReplace = toReplace.replace(/¬Æ/g, "®")
     // toReplace = toReplace.replace(/√®/g, "è")
     // toReplace = toReplace.replace(/‚Ä¶/g, "…")
@@ -506,20 +513,25 @@ async function readFile(fileName){
     fs.writeFileSync(fileName, toReplace) // rewrite fileName with regex conditions
     let idIndex = '[]'
     if(fs.existsSync('./jsons/conceptIds.txt')){
-        idIndex = fs.readFileSync('./jsons/conceptIds.txt', {encoding:'utf8'}) // Array of concept Ids (string)
+        idIndex = fs.readFileSync('./jsons/conceptIds.txt', {encoding:'utf8'}) // Array of concept Ids (string) (Note: purpose of the string array of strings '['...','...',....]'
     }
+
     let conceptIdList = JSON.parse(idIndex) // Array of concept Ids (list of string concepts)
     let varLabelIndex = 0;
     let cluster = []
-    
+
+    /*------------------------------------------------------------ CHECKPOINT ------------------------------------------------------------ */
+
     const fileStream = fs.createReadStream(fileName); // opens up file/stream and read data (all of it!)
-    // console.log("fileStream",fileStream)
+
+    // console.log("fileStream",typeof fileStream)
 
     // fileStream.on('data',(chunk) => {
     //     console.log("chunk",typeof chunk.toString())
     //     console.log("chunk",chunk.toString())
     // })
 
+    
     /* START COMMENT HERE */
     const outFile = 'prelude1Concept1.csv'
     let excelOutput = []
@@ -527,7 +539,6 @@ async function readFile(fileName){
         input: fileStream,
         crlfDelay: Infinity // crlfDelay - recognize all instances of CR LF from fileStream as a single line break
     })
-
 
     let first = true;
     let second  = true;
@@ -538,14 +549,16 @@ async function readFile(fileName){
     let nameToConcept = JSON.parse(ConceptIndex);
     
 
-    rl.on('line', (input) => {
-        console.log(typeof `${input}`);
-      });
+    // rl.on('line', (input) => {
+    //     console.log(typeof `${input}`, input);
+    // });
 
-    for await(const line of rl){ // each line from rl will be read as a single line
-        //let arr = line.split(',');
+    for await(const line of rl){ // handle promise based value --> each line from rl will be read as a single line
+        // CSVToArray(',') not needed
+        // console.log("line",typeof line,line)
         let arr = CSVToArray(line, ',')
         // console.log("arr", arr)
+        return
         // if(first){
         //     conceptIdObject = getConceptIdCols(arr)
         //     console.log('abc')
@@ -578,6 +591,7 @@ async function readFile(fileName){
     //         currCluster = true;
     //     }
     }
+    
     // // GO TO processCluster
     // let returned = processCluster(cluster, header, nameToConcept, varLabelIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList,/[0-9]+\s*=/);
     // excelOutput.push(returned)
