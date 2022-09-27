@@ -422,13 +422,14 @@ function CSVToArray(strData){ // Takes current row as a string
     let num = 0 
     while(strData.indexOf(",") != -1 ){ // searches inside current string for comma
         
-        console.log("test", num,strData.indexOf(","))
+        // console.log("test \"", num,strData.indexOf(","), strData, strData.substring(0,1) == "\"")
         let toPush = "";
-        if(strData.substring(0,1) == "\""){
-            strData = strData.substring(1);            
-            let nextLook = strData.indexOf('\"\"')
+        if(strData.substring(0,1) == "\""){ // check first character for quote chracter
+            strData = strData.substring(1); // all characters after "      
+            console.log("strData", strData)
+            let nextLook = strData.indexOf('\"\"') 
             let nextQuote = strData.indexOf('\"');
-
+            console.log("nextLook,nextQuote",nextLook,nextQuote, num)
             while(nextLook != -1 && nextLook == nextQuote){ // pushes from start to end of "\"\"
                 ////console.log(nextLook)
                 toPush += strData.substring(0,nextLook) + '\"\"'
@@ -437,7 +438,7 @@ function CSVToArray(strData){ // Takes current row as a string
                     ////console.log(strData.substring(strData.indexOf("\"\"") + 2));
                     ////console.log('------------------------')
                 }
-                nextLook = strData.indexOf('\"\"')
+                nextLook = strData.indexOf('\"\"') // get index of first quote
                 nextQuote = strData.indexOf('\"');
             }
 
@@ -554,7 +555,7 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
     // });
 
     for await(const line of rl){ // handle promise based value --> each line from rl will be read as a single line
-        // CSVToArray(',') not needed
+        // CSVToArray(',') extra paramater not needed
         // console.log("line",typeof line,line)
         let arr = CSVToArray(line, ',')
         // console.log("arr", arr)
