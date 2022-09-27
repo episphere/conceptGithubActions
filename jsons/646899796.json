@@ -1,17 +1,17 @@
 {
-  "Formula for Index": "340",
-  "Index": "340",
+  "Formula for Index": "438",
+  "Index": "438",
   "Primary Source": [
     "819848608.json"
   ],
   "Secondary Source": [
-    "123496044.json"
+    "664882224.json"
   ],
   "conceptId": "646899796",
-  "Question Text": "Scanned DB blood accession number",
-  "Variable Label": "Blood Accession ID",
+  "Question Text": "Dashboard clinical blood accession ID",
+  "Variable Label": "Dashboard clinical Blood Accession ID",
   "Variable Name": [
-    "BioSpm_BlAccessionID_v1r0"
+    "BioClin_DBBloodID_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "30",
@@ -22,5 +22,5 @@
   "Dictionary": "Biospecimen Clinical",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "7/13/22"
+  "Date added or modified": "9/27/22"
 }

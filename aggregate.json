@@ -915,6 +915,12 @@
       "SrvLAW_ChildHomeCurr_v1r0"
     ]
   },
+  "139245758": {
+    "Variable Label": "Date/time Clinical Urine Collected",
+    "Variable Name": [
+      "BioClin_ClinicalUrnTime_v1r0"
+    ]
+  },
   "139348254": {
     "Variable Name": "In total, how many months or years have you used the other hormonal medications or devices?"
   },
@@ -2118,9 +2124,9 @@
     ]
   },
   "198261154": {
-    "Variable Label": "Clinical Site Urine accession number",
+    "Variable Label": "Sent Clinical Urine accession ID",
     "Variable Name": [
-      "BioClin_UrineAccNo_v1r0"
+      "BioClin_SntUrineAccID_v1r0"
     ]
   },
   "198347104": {
@@ -5003,9 +5009,9 @@
     ]
   },
   "341570479": {
-    "Variable Label": "Clinical Site Blood accession number",
+    "Variable Label": "Sent Clinical Blood accession ID",
     "Variable Name": [
-      "BioClin_BloodAccNo_v1r0"
+      "BioClin_SntBloodAccID_v1r0"
     ]
   },
   "341709648": {
@@ -9317,9 +9323,9 @@
     ]
   },
   "561681068": {
-    "Variable Label": "Date/time Blood Collected",
+    "Variable Label": "Date/time Research Blood Collected",
     "Variable Name": [
-      "BioFin_BBTime_v1r0"
+      "BioFin_ResearchBldTime_v1r0"
     ]
   },
   "562190570": {
@@ -10243,9 +10249,9 @@
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had brain cancer?"
   },
   "611091485": {
-    "Variable Label": "Urine Accession ID",
+    "Variable Label": "Dashboard clinical Urine Accession ID",
     "Variable Name": [
-      "BioSpm_UrAccessionID_v1r0"
+      "BioClin_DBUrineID_v1r0"
     ]
   },
   "612012325": {
@@ -10938,9 +10944,9 @@
     ]
   },
   "646899796": {
-    "Variable Label": "Blood Accession ID",
+    "Variable Label": "Dashboard clinical Blood Accession ID",
     "Variable Name": [
-      "BioSpm_BlAccessionID_v1r0"
+      "BioClin_DBBloodID_v1r0"
     ]
   },
   "646918928": {
@@ -15286,9 +15292,9 @@
     "Variable Name": "Chair of the Site IRB"
   },
   "847159717": {
-    "Variable Label": "Date/time Urine Collected",
+    "Variable Label": "Date/time Research Urine Collected",
     "Variable Name": [
-      "BioFin_BUTime_v1r0"
+      "BioFin_ResearchUrnTime_v1r0"
     ]
   },
   "847277590": {
@@ -18031,6 +18037,12 @@
     "Variable Label": "Date/time refused baseline surveys",
     "Variable Name": [
       "HdRef_DateBasesrv_v1r0"
+    ]
+  },
+  "982213346": {
+    "Variable Label": "Date/time Clinical Blood Collected",
+    "Variable Name": [
+      "BioClin_ClinBloodTime_v1r0"
     ]
   },
   "982402227": {

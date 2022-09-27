@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "438",
-  "Index": "438",
+  "Formula for Index": "437",
+  "Index": "437",
   "Primary Source": [
     "819848608.json"
   ],
@@ -8,10 +8,10 @@
     "664882224.json"
   ],
   "conceptId": "198261154",
-  "Question Text": "Clinical Site Urine accession number",
-  "Variable Label": "Clinical Site Urine accession number",
+  "Question Text": "Sent Clinical Urine accession ID",
+  "Variable Label": "Sent Clinical Urine accession ID",
   "Variable Name": [
-    "BioClin_UrineAccNo_v1r0"
+    "BioClin_SntUrineAccID_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "30",
@@ -22,5 +22,5 @@
   "Dictionary": "Biospecimen Clinical",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "7/13/22"
+  "Date added or modified": "9/27/22"
 }
