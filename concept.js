@@ -454,15 +454,18 @@ function CSVToArray(strData){ // Takes current row as a string
             }
         }
         else{
-            toPush = strData.substring(0, strData.indexOf(','));
-            strData = strData.substring(strData.indexOf(',') + 1)
+            toPush = strData.substring(0, strData.indexOf(',')); // push from 
+            // console.log(num, toPush)
+            strData = strData.substring(strData.indexOf(',') + 1) // reassign strData to start at next "," occurence (not including comma) by increasing indexOf value
         }
+        // console.log('toPush',toPush,num)
         arr.push(toPush.trim())
-
         //let nextQuote = strData.indexOf("\"")
         num ++
+        console.log("arr",num, arr)
     }
-    if(finalPush == true){
+    if(finalPush == true){ // strData val gets reassigned, so last becomes nothing
+        // console.log("final push ,arr", arr,"strData", strData)
         arr.push(strData.trim());
     }
 
