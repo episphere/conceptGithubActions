@@ -417,52 +417,61 @@ function findJSON(jsonList, questionText){ // loop entire jsonList, find match b
 function CSVToArray(strData){ // Takes current row as a string
     let orig = strData; // Not needed anymore?
     strData = strData.trim(); 
-    let arr = [];
+    let arr = []; // info from toPush variable
     let finalPush = true;
-    let num = 0 
+    let num = 0 // added to see current count
     while(strData.indexOf(",") != -1 ){ // searches inside current string for comma
         
         // console.log("test \"", num,strData.indexOf(","), strData, strData.substring(0,1) == "\"")
-        let toPush = "";
+        let toPush = ""; // each loop is new toPush value
         if(strData.substring(0,1) == "\""){ // check first character for quote chracter
-            strData = strData.substring(1); // all characters after "      
-            console.log("strData", strData)
-            let nextLook = strData.indexOf('\"\"') 
-            let nextQuote = strData.indexOf('\"');
-            console.log("nextLook,nextQuote",nextLook,nextQuote, num)
+            console.log("For thy quotes!")
+            strData = strData.substring(1); // all characters after quote " (first quote doesn't count)     
+            // console.log("strData", strData)
+            let nextLook = strData.indexOf('\"\"') // index - double quotes "" (must be double quotes)
+            let nextQuote = strData.indexOf('\"'); // index - single quote " "
+            // console.log(num ,"nextLook,nextQuote",nextLook,nextQuote)
+            let numQuotes = 0 
             while(nextLook != -1 && nextLook == nextQuote){ // pushes from start to end of "\"\"
                 ////console.log(nextLook)
-                toPush += strData.substring(0,nextLook) + '\"\"'
-                strData = strData.substring(strData.indexOf("\"\"") + 2);    
+                toPush += strData.substring(0,nextLook) + '\"\"' // pushes only double quotes; (0,nextLook) is empty string no value + "" --> ""
+                console.log("toPush 1", toPush)
+                strData = strData.substring(strData.indexOf("\"\"") + 2);   // reassign to all text after double quotes 
                 if(orig.includes('Ever took hormones to reflect your gender')){
                     ////console.log(strData.substring(strData.indexOf("\"\"") + 2));
                     ////console.log('------------------------')
                 }
+                console.log("before",nextLook,nextQuote, strData)
                 nextLook = strData.indexOf('\"\"') // get index of first quote
                 nextQuote = strData.indexOf('\"');
+                console.log("after",nextLook,nextQuote, strData)
+                numQuotes++
+                console.log("numQuotes",numQuotes)
             }
 
+            // console.log("toPush",strData.substring(0,strData.indexOf("\"")))
+
             toPush += strData.substring(0,  strData.indexOf("\""));    
-            strData = strData.substring(strData.indexOf("\"") + 1);    
+            strData = strData.substring(strData.indexOf("\"") + 1);
             if(orig.includes('Ever took hormones to reflect your gender')){
                 ////console.log(strData.substring(strData.indexOf("\"") + 1));
                 ////console.log('------------------------')
             }
-            strData = strData.substring(strData.indexOf(',')+1)
+            strData = strData.substring(strData.indexOf(',')+1) // all text after comma
             if(strData.trim() == ''){
                 finalPush = false
             }
         }
         else{
-            toPush = strData.substring(0, strData.indexOf(',')); // push from 
-            // console.log(num, toPush)
+            toPush = strData.substring(0, strData.indexOf(',')); // push from start of strData up to next comma ("," not included); Note: strData.indexOf(',') is 0 if current value is comma
+            // console.log(num, toPush,"strDATA",strData)
             strData = strData.substring(strData.indexOf(',') + 1) // reassign strData to start at next "," occurence (not including comma) by increasing indexOf value
+            // console.log("strData toPush", strData.indexOf(','),toPush)
         }
         // console.log('toPush',toPush,num)
         arr.push(toPush.trim())
         //let nextQuote = strData.indexOf("\"")
         num ++
-        console.log("arr",num, arr)
     }
     if(finalPush == true){ // strData val gets reassigned, so last becomes nothing
         // console.log("final push ,arr", arr,"strData", strData)
