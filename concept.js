@@ -196,7 +196,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                         }
                         if(found == false){
                             jsonList.push({'conceptId':cid, 'Question Text':val})
-                            fs.writeFileSync('./jsons/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Question Text':val},null, 2))
+                            // fs.writeFileSync('./jsons/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Question Text':val},null, 2))
                             nameToConcept[val] = cid
                         }
                         if(!conceptIdList.includes(cid)){
@@ -227,7 +227,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                         }
                         if(found == false){
                             jsonList.push({'conceptId':cid, 'Question Text':currElement})
-                            fs.writeFileSync('./jsons/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Question Text':currElement},null, 2))
+                            // fs.writeFileSync('./jsons/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Question Text':currElement},null, 2))
                             nameToConcept[currElement] = cid
                         }
                         if(!conceptIdList.includes(cid)){
@@ -295,7 +295,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
             }
             if(found == false){
                 jsonList.push({'conceptId':cid, 'Question Text':currVal})
-                fs.writeFileSync('./jsons/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Question Text':currVal},null, 2))
+                // fs.writeFileSync('./jsons/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Question Text':currVal},null, 2))
                 nameToConcept[currVal] = cid
             }
             if(!conceptIdList.includes(cid)){
@@ -398,7 +398,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
         }
     }
     jsonList.push(firstRowJSON);
-    fs.writeFileSync('./jsons/' + firstRowJSON['conceptId'] + '.json', JSON.stringify(firstRowJSON,null, 2))
+    // fs.writeFileSync('./jsons/' + firstRowJSON['conceptId'] + '.json', JSON.stringify(firstRowJSON,null, 2))
     return cluster;
 
 }
@@ -490,7 +490,7 @@ function getConceptIdCols(header){ // pushing object of headers with concept Ids
             // console.log("header conceptId",i,header[i])
             if(i + 1 < header.length && header[i+1] != 'conceptId'){ // check header after concept Id; concept Id before column header
                 // console.log("header after", header[i+1])
-                toReturn[i] = header[i+1];
+                toReturn[i] = header[i+1]; // Ex. {'2': 'Primary Source',}
             }
             else{
                 console.error('Header Error (conceptIds not in correct place)')
@@ -507,16 +507,22 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
     let jsonList = []
     let sourceJSONS = []
     fs.readdirSync('./jsons/').forEach(file => {
-        /*if(file.match(/[0-9]{9}.json/)){
+        if(file.match(/[0-9]{9}.json/)){
             let currFileContents = fs.readFileSync('./jsons/' + file);
-            let currJSON = JSON.parse(currFileContents)
-            sourceJSONS.push(currJSON);
-        }*/
+            console.log("currFileContents", currFileContents)
+            // let currJSON = JSON.parse(currFileContents)
+            // sourceJSONS.push(currJSON);
+        }
     });
     let ConceptIndex = '{}' // becomes varToConcept.json list (FOUND), {} (NOT FOUND)
-    if(fs.existsSync('./jsons/varToConcept.json')){
-        ConceptIndex = fs.readFileSync('./jsons/varToConcept.json', {encoding:'utf8'})
+    /* Add back origin varToConcept.json */
+    // if(fs.existsSync('./jsons/varToConcept.json')){                 /*  USES / READS --> VARTOCONCEPT.JSON LIBRARY!!!!!  */
+    //     ConceptIndex = fs.readFileSync('./jsons/varToConcept.json', {encoding:'utf8'})
+    // }
+    if(fs.existsSync('./jsons/varToConceptTest.json')){
+        ConceptIndex = fs.readFileSync('./jsons/varToConceptTest.json', {encoding:'utf8'}) // MAKE CHANGES TO LIBRARY FOR TESTING 
     }
+    console.log("ConceptIndex!!!", typeof ConceptIndex, typeof JSON.parse(ConceptIndex), JSON.parse(ConceptIndex))
     let toReplace = fs.readFileSync(fileName,{encoding:'utf8', flag:'r'})
 
     // console.log("toReplace",typeof toReplace) // entire string csv file
@@ -529,15 +535,19 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
     toReplace = replaceQuotes(toReplace) // replaceQuotes has no affect
     fs.writeFileSync(fileName, toReplace) // rewrite fileName with regex conditions
     let idIndex = '[]'
-    if(fs.existsSync('./jsons/conceptIds.txt')){
-        idIndex = fs.readFileSync('./jsons/conceptIds.txt', {encoding:'utf8'}) // Array of concept Ids (string) (Note: purpose of the string array of strings '['...','...',....]'
-    }
+    /* Add back origin conceptIds.txt */
+    // if(fs.existsSync('./jsons/conceptIds.txt')){
+    //     idIndex = fs.readFileSync('./jsons/conceptIds.txt', {encoding:'utf8'}) // Array of concept Ids (string) (Note: purpose of the string array of strings '['...','...',....]'
+    // }
+    if(fs.existsSync('./jsons/conceptIdsTest.txt')){
+            idIndex = fs.readFileSync('./jsons/conceptIdsTest.txt', {encoding:'utf8'}) // Array of concept Ids (string) (Note: purpose of the string array of strings '['...','...',....]'
+        }
 
     let conceptIdList = JSON.parse(idIndex) // Array of concept Ids (list of string concepts)
-    let varLabelIndex = 0;
+    let varLabelIndex = 0; // reassigns to the index location of Question Text
     let cluster = []
 
-    /*------------------------------------------------------------ CHECKPOINT ------------------------------------------------------------ */
+    /*------------------------------------------------------------ CHECKPOINT 1 ------------------------------------------------------------ */
 
     const fileStream = fs.createReadStream(fileName); // opens up file/stream and read data (all of it!)
 
@@ -563,7 +573,7 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
     let header = [];
     let conceptCols = []; // concept Columns will be here
     let conceptIdObject = {};
-    let nameToConcept = JSON.parse(ConceptIndex);
+    let nameToConcept = JSON.parse(ConceptIndex); // varToConcept Library 
     
 
     // rl.on('line', (input) => {
@@ -576,17 +586,17 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
         // console.log("line",typeof line,line)
         let arr = CSVToArray(line, ',')
         // console.log("arr", arr)
-
+/*------------------------------------------------------------ (CHECKPOINT 2 - Looping through curremt row array, push to cluster array )------------------------------------------------------------ */
         if(first){
             conceptIdObject = getConceptIdCols(arr)
             // console.log('abc')
-            // console.log("conceptIdObject",conceptIdObject)
+            console.log("conceptIdObject",conceptIdObject)
             header = arr; // array of string items
             // console.log("header",header)
             first = false; // reassign, only used for top header
             for(let i = 0; i < arr.length; i++){
                 if(arr[i] == "Question Text"){
-                    varLabelIndex = i; // reassign varLabelIndex with index of Question Text
+                    varLabelIndex = i; // reassign varLabelIndex with index of Question Text!
                     // console.log("varLabelIndex" , i)
                 }
                 if(arr[i] == "conceptId" && i+1 < arr.length){ // arr loop length control 
@@ -598,20 +608,28 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
             excelOutput.push([arr])
             // console.log("excelOutput", excelOutput)
         }
-        // else if(currCluster){
-        //     console.log("currCluster",currCluster)
-        //     if(arr[varLabelIndex] == ''){
-        //         cluster.push(arr);
-        //     }
-        //     else{
-        //         let returned = processCluster(cluster, header, nameToConcept, varLabelIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList, /[0-9]+\s*=/)
-        //         excelOutput.push(returned)
-        //         cluster = [arr]
-        //         currCluster = true;
-        //     }
-        // }
-        else{
-            console.log("cluster push arr", numCounter,arr)
+        else if(currCluster){ // conditional for the rows 3 and onwards
+            // console.log("currCluster!, arr, varLabelIndex",currCluster, arr, varLabelIndex)
+            if(arr[varLabelIndex] == ''){ // empty question text cell path, push curr row arr 
+                cluster.push(arr);
+            }
+            else{ 
+                // console.log("cluster val rows 3 and beyond!", cluster)
+                // console.log("header val rows 3 and beyond!", header)
+                // console.log("nameToConcept",nameToConcept)
+                // console.log("varLabelIndex",varLabelIndex)
+                // console.log("conceptIdList",conceptIdList)
+                // console.log("conceptIdObject",conceptIdObject)
+                console.log("sourceJSONS",sourceJSONS)
+                
+                // let returned = processCluster(cluster, header, nameToConcept, varLabelIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList, /[0-9]+\s*=/)
+                // excelOutput.push(returned)
+                cluster = [arr]
+                currCluster = true;
+            }
+        }
+        else{ // row after header switches currCluster boolean state, why?
+            // console.log("cluster push arr", numCounter,arr)
             cluster.push(arr)
             // console.log("cluster push arr", cluster)
             currCluster = true;
