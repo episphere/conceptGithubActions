@@ -414,7 +414,7 @@ function findJSON(jsonList, questionText){ // loop entire jsonList, find match b
     return undefined;
 }
 
-function CSVToArray(strData){ // Takes current row as a string
+function CSVToArray(strData){ // Takes current row as a string, returns an array
     let orig = strData; // Not needed anymore?
     strData = strData.trim(); 
     let arr = []; // info from toPush variable
@@ -425,7 +425,7 @@ function CSVToArray(strData){ // Takes current row as a string
         // console.log("test \"", num,strData.indexOf(","), strData, strData.substring(0,1) == "\"")
         let toPush = ""; // each loop is new toPush value
         if(strData.substring(0,1) == "\""){ // check first character for quote chracter
-            console.log("For thy quotes!")
+            // console.log("For thy quotes!")
             strData = strData.substring(1); // all characters after quote " (first quote doesn't count)     
             // console.log("strData", strData)
             let nextLook = strData.indexOf('\"\"') // index - double quotes "" (must be double quotes)
@@ -435,18 +435,18 @@ function CSVToArray(strData){ // Takes current row as a string
             while(nextLook != -1 && nextLook == nextQuote){ // pushes from start to end of "\"\"
                 ////console.log(nextLook)
                 toPush += strData.substring(0,nextLook) + '\"\"' // pushes only double quotes; (0,nextLook) is empty string no value + "" --> ""
-                console.log("toPush 1", toPush)
+                // console.log("toPush 1", toPush)
                 strData = strData.substring(strData.indexOf("\"\"") + 2);   // reassign to all text after double quotes 
                 if(orig.includes('Ever took hormones to reflect your gender')){
                     ////console.log(strData.substring(strData.indexOf("\"\"") + 2));
                     ////console.log('------------------------')
                 }
-                console.log("before",nextLook,nextQuote, strData)
+                // console.log("before",nextLook,nextQuote, strData)
                 nextLook = strData.indexOf('\"\"') // get index of first quote
                 nextQuote = strData.indexOf('\"');
-                console.log("after",nextLook,nextQuote, strData)
+                // console.log("after",nextLook,nextQuote, strData)
                 numQuotes++
-                console.log("numQuotes",numQuotes)
+                // console.log("numQuotes",numQuotes)
             }
 
             // console.log("toPush",strData.substring(0,strData.indexOf("\"")))
@@ -482,11 +482,14 @@ function CSVToArray(strData){ // Takes current row as a string
     return( arr );
 }
 
-function getConceptIdCols(header){ // pushing headers into columns
+function getConceptIdCols(header){ // pushing object of headers with concept Ids
+    // console.log("header",header)
     let toReturn = {}
     for(let i = 0; i < header.length;i++){
         if(header[i] == 'conceptId'){
-            if(i + 1 < header.length && header[i+1] != 'conceptId'){
+            // console.log("header conceptId",i,header[i])
+            if(i + 1 < header.length && header[i+1] != 'conceptId'){ // check header after concept Id; concept Id before column header
+                // console.log("header after", header[i+1])
                 toReturn[i] = header[i+1];
             }
             else{
@@ -495,6 +498,7 @@ function getConceptIdCols(header){ // pushing headers into columns
             
         }
     }
+    // console.log(toReturn)
     return toReturn
     
 }
@@ -547,7 +551,7 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
     
     /* START COMMENT HERE */
     const outFile = 'prelude1Concept1.csv'
-    let excelOutput = []
+    let excelOutput = [] // [ [ [] ] ]; array nested 2 layers
     const rl = readline.createInterface({ // readline - interface for reading data from a readable stream
         input: fileStream,
         crlfDelay: Infinity // crlfDelay - recognize all instances of CR LF from fileStream as a single line break
@@ -557,7 +561,7 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
     let second  = true;
     let currCluster = false;
     let header = [];
-    let conceptCols = [];
+    let conceptCols = []; // concept Columns will be here
     let conceptIdObject = {};
     let nameToConcept = JSON.parse(ConceptIndex);
     
@@ -566,29 +570,36 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
     //     console.log(typeof `${input}`, input);
     // });
 
+    let numCounter = 0
     for await(const line of rl){ // handle promise based value --> each line from rl will be read as a single line
         // CSVToArray(',') extra paramater not needed
         // console.log("line",typeof line,line)
         let arr = CSVToArray(line, ',')
         // console.log("arr", arr)
-        return
-        // if(first){
-        //     conceptIdObject = getConceptIdCols(arr)
-        //     console.log('abc')
-        //     console.log(conceptIdObject)
-        //     header = arr;
-        //     first = false;
-        //     for(let i = 0; i < arr.length; i++){
-        //         if(arr[i] == "Question Text"){
-        //             varLabelIndex = i;
-        //         }
-        //         if(arr[i] == "conceptId" && i+1 < arr.length){
-        //             conceptCols.push(i+1)
-        //         }
-        //     }
-        //     excelOutput.push([arr])
-        // }
+
+        if(first){
+            conceptIdObject = getConceptIdCols(arr)
+            // console.log('abc')
+            // console.log("conceptIdObject",conceptIdObject)
+            header = arr; // array of string items
+            // console.log("header",header)
+            first = false; // reassign, only used for top header
+            for(let i = 0; i < arr.length; i++){
+                if(arr[i] == "Question Text"){
+                    varLabelIndex = i; // reassign varLabelIndex with index of Question Text
+                    // console.log("varLabelIndex" , i)
+                }
+                if(arr[i] == "conceptId" && i+1 < arr.length){ // arr loop length control 
+                    conceptCols.push(i+1) // push all conceptCols
+                }
+            }
+            // console.log("conceptCols" , conceptCols)
+            // console.log("arr",arr)
+            excelOutput.push([arr])
+            // console.log("excelOutput", excelOutput)
+        }
         // else if(currCluster){
+        //     console.log("currCluster",currCluster)
         //     if(arr[varLabelIndex] == ''){
         //         cluster.push(arr);
         //     }
@@ -597,12 +608,15 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
         //         excelOutput.push(returned)
         //         cluster = [arr]
         //         currCluster = true;
-            // }
+        //     }
         // }
-    //     else{
-    //         cluster.push(arr)
-    //         currCluster = true;
-    //     }
+        else{
+            console.log("cluster push arr", numCounter,arr)
+            cluster.push(arr)
+            // console.log("cluster push arr", cluster)
+            currCluster = true;
+        }
+        numCounter++
     }
     
     // // GO TO processCluster
