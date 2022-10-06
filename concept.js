@@ -506,14 +506,27 @@ function getConceptIdCols(header){ // pushing object of headers with concept Ids
 async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ********************************************************************************
     let jsonList = []
     let sourceJSONS = []
-    fs.readdirSync('./jsons/').forEach(file => {
+    // fs.readdirSync('./jsons/').forEach(file => {
+    //     if(file.match(/[0-9]{9}.json/)){
+    //         let currFileContents = fs.readFileSync('./jsons/' + file);
+    //         // console.log("currFileContents", currFileContents)
+    //         let currJSON = JSON.parse(currFileContents)
+    //         // console.log("currJSON",file,currJSON)
+    //         sourceJSONS.push(currJSON);
+    //     }
+    // });
+
+    fs.readdirSync('./jsonsTest/').forEach(file => { // jsonsTest Folder (TEST FILE READ)
         if(file.match(/[0-9]{9}.json/)){
             let currFileContents = fs.readFileSync('./jsons/' + file);
-            console.log("currFileContents", currFileContents)
-            // let currJSON = JSON.parse(currFileContents)
-            // sourceJSONS.push(currJSON);
+            // console.log("currFileContents", currFileContents)
+            let currJSON = JSON.parse(currFileContents)
+            // console.log("currJSON",file,currJSON)
+            sourceJSONS.push(currJSON);
         }
     });
+    console.log('sourceJSONS value', sourceJSONS)
+
     let ConceptIndex = '{}' // becomes varToConcept.json list (FOUND), {} (NOT FOUND)
     /* Add back origin varToConcept.json */
     // if(fs.existsSync('./jsons/varToConcept.json')){                 /*  USES / READS --> VARTOCONCEPT.JSON LIBRARY!!!!!  */
@@ -620,7 +633,8 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
                 // console.log("varLabelIndex",varLabelIndex)
                 // console.log("conceptIdList",conceptIdList)
                 // console.log("conceptIdObject",conceptIdObject)
-                console.log("sourceJSONS",sourceJSONS)
+                // console.log("sourceJSONS",sourceJSONS)
+                console.log("jsonList",jsonList)
                 
                 // let returned = processCluster(cluster, header, nameToConcept, varLabelIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList, /[0-9]+\s*=/)
                 // excelOutput.push(returned)
