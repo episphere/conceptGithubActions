@@ -39,13 +39,31 @@ function replaceQuotes(text){
     return text;
 }
 
+/**
+ * processCluster for the current row as a readable streamline file
+ * @param {array} cluster - current row after header row
+ * @param {array} header - header items of the first row
+ * @param {object} nameToConcept - varToConcept object library mapping
+ * @param {number} indexVariableName - conceptId index location before question Text
+ * @param {object} conceptIdList - object type array from conceptIds.txt file
+ * @param {object} conceptIdObject - object mapping of conceptId index value to next header string value (Ex. '2': 'Primary Source')
+ * @param {array} sourceJSONS - array of objects from each individual concept id json
+ * @param {array} jsonList - empty array []
+ * @param {string} regexInclude - regex string /[0-9]+\s*=/
+ *  
+
+
+ */
+
 function processCluster(cluster, header, nameToConcept, indexVariableName, conceptIdList, conceptIdObject, sourceJSONS, jsonList, regexInclude){
     //console.log(cluster[0])
     let nonEmpty = [];
-    let conceptIdObjectKeys =Object.keys(conceptIdObject)
+    let conceptIdObjectKeys = Object.keys(conceptIdObject)
     let conceptIdIndices = [];
     let generalId = -1;
     let conceptIdReverseLookup = {};
+    console.log("conceptIdObjectKeys", conceptIdObjectKeys)
+    /* START HERE */
     for(let i = 0; i < conceptIdObjectKeys.length; i++){
         conceptIdIndices.push(parseInt(conceptIdObjectKeys[i]))
         conceptIdReverseLookup[conceptIdObject[conceptIdObjectKeys[i]]] = parseInt(conceptIdObjectKeys[i])
@@ -399,7 +417,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
     }
     jsonList.push(firstRowJSON);
     // fs.writeFileSync('./jsons/' + firstRowJSON['conceptId'] + '.json', JSON.stringify(firstRowJSON,null, 2))
-    return cluster;
+    console.log("cluster",cluster)
 
 }
 
@@ -627,16 +645,16 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
                 cluster.push(arr);
             }
             else{ 
-                // console.log("cluster val rows 3 and beyond!", cluster)
-                // console.log("header val rows 3 and beyond!", header)
-                // console.log("nameToConcept",nameToConcept)
-                // console.log("varLabelIndex",varLabelIndex)
-                // console.log("conceptIdList",conceptIdList)
-                // console.log("conceptIdObject",conceptIdObject)
-                // console.log("sourceJSONS",sourceJSONS)
-                console.log("jsonList",jsonList)
+                // console.log("cluster val rows 3 and beyond!, conditional block from currCluster flag", cluster)
+                // console.log("header", header)
+                // console.log("nameToConcept",typeof nameToConcept, nameToConcept)
+                // console.log("varLabelIndex",typeof varLabelIndex, varLabelIndex)
+                // console.log("conceptIdList",typeof conceptIdList, conceptIdList)
+                // console.log("conceptIdObject", typeof conceptIdObject,conceptIdObject )
+                // console.log("sourceJSONS",typeof sourceJSONS, sourceJSONS )
+                // console.log("jsonList",typeof jsonList, jsonList )
                 
-                // let returned = processCluster(cluster, header, nameToConcept, varLabelIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList, /[0-9]+\s*=/)
+                let returned = processCluster(cluster, header, nameToConcept, varLabelIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList, /[0-9]+\s*=/)
                 // excelOutput.push(returned)
                 cluster = [arr]
                 currCluster = true;
