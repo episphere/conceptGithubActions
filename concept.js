@@ -40,13 +40,13 @@ function replaceQuotes(text){
 }
 
 /**
- * processCluster for the current row as a readable streamline file
+ * processCluster - for the current row as a readable streamline file
  * @param {array} cluster - current row after header row
  * @param {array} header - header items of the first row
  * @param {object} nameToConcept - varToConcept object library mapping
  * @param {number} indexVariableName - conceptId index location before question Text
  * @param {object} conceptIdList - object type array from conceptIds.txt file
- * @param {object} conceptIdObject - object mapping of conceptId index value to next header string value (Ex. '2': 'Primary Source')
+ * @param {object} conceptIdObject - object mapping of conceptId index value to next header string value --> Ex. { 2: 'Primary Source', 4: 'Secondary Source', 6: 'Source Question', 9: 'Question Text', 16: 'Format/Value'}
  * @param {array} sourceJSONS - array of objects from each individual concept id json
  * @param {array} jsonList - empty array []
  * @param {string} regexInclude - regex string /[0-9]+\s*=/
@@ -56,21 +56,22 @@ function replaceQuotes(text){
  */
 
 function processCluster(cluster, header, nameToConcept, indexVariableName, conceptIdList, conceptIdObject, sourceJSONS, jsonList, regexInclude){
-    //console.log(cluster[0])
+    // console.log('cluster 0',cluster[0])
     let nonEmpty = [];
-    let conceptIdObjectKeys = Object.keys(conceptIdObject)
-    let conceptIdIndices = [];
+    let conceptIdObjectKeys = Object.keys(conceptIdObject) // array of keys from conceptIdObject --> Ex. [ '2', '4', '6', '9', '16' ]
+    let conceptIdIndices = []; // pushed conceptId indices as num values --> Ex. [2, 4, 6, 9, 16] 
     let generalId = -1;
-    let conceptIdReverseLookup = {};
-    console.log("conceptIdObjectKeys", conceptIdObjectKeys)
-    /* START HERE */
+    let conceptIdReverseLookup = {}; // Ex. {'Primary Source': 2, 'Secondary Source': 4, 'Source Question': 6, 'Question Text': 9, 'Format/Value': 16}
+    
     for(let i = 0; i < conceptIdObjectKeys.length; i++){
         conceptIdIndices.push(parseInt(conceptIdObjectKeys[i]))
         conceptIdReverseLookup[conceptIdObject[conceptIdObjectKeys[i]]] = parseInt(conceptIdObjectKeys[i])
     }
-
+    // console.log("conceptIdReverseLookup", conceptIdReverseLookup)
+    // console.log('cluster',cluster, cluster.length)
     for(let i = 1; i < cluster.length; i++){
-        let currArr = cluster[i]
+        let currArr = cluster[i] 
+        // console.log('currArr', i,currArr)
         for(let j = 0; j < currArr.length; j++){
             if(currArr[j].trim()!='' && !conceptIdIndices.includes(j)){
                 if(!nonEmpty.includes(j)){
@@ -79,14 +80,18 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
             }
         }
     }
+
     let firstRowJSON = {}
-    let firstRow = cluster[0]
+    let firstRow = cluster[0] // row with a questionText value
     let clump = [];
-    for(let i = 0; i < firstRow.length; i++){
+    // console.log('firstRow',firstRow)
+    // console.log('nonEmpty', nonEmpty)
+    for(let i = 0; i < firstRow.length; i++){ // check each item for the following conditions
         if((firstRow[i] != "" && !nonEmpty.includes(i) && !conceptIdIndices.includes(i)) || (conceptIdIndices.includes(i) && conceptIdObject[i] =="Question Text")){
             firstRowJSON[header[i]] = firstRow[i]
         }
     }
+    console.log("firstRowJSON", firstRowJSON)
 
     //Creating concept Id for the cluster
     if(!firstRowJSON.hasOwnProperty('conceptId') || firstRowJSON['conceptId'] == ''){
@@ -417,9 +422,11 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
     }
     jsonList.push(firstRowJSON);
     // fs.writeFileSync('./jsons/' + firstRowJSON['conceptId'] + '.json', JSON.stringify(firstRowJSON,null, 2))
-    console.log("cluster",cluster)
+    // console.log("cluster",cluster)
 
 }
+/* -------------- FINISH PROCESS CLUSTER --------------*/
+
 
 function findJSON(jsonList, questionText){ // loop entire jsonList, find match between question Text of param1 and param2, return json 
     //console.log('finding: ' + questionText)
@@ -639,9 +646,10 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
             excelOutput.push([arr])
             // console.log("excelOutput", excelOutput)
         }
-        else if(currCluster){ // conditional for the rows 3 and onwards
-            // console.log("currCluster!, arr, varLabelIndex",currCluster, arr, varLabelIndex)
-            if(arr[varLabelIndex] == ''){ // empty question text cell path, push curr row arr 
+        else if(currCluster){ // conditional for the rows 3 and onwards; third path after 2 rows go through confditional flow
+            // console.log("currCluster!, arr, varLabelIndex",currCluster, arr, varLabelIndex))
+            if(arr[varLabelIndex] == ''){ // (empty question text) cell path, push curr row arr 
+                // console.log('numCounter cluster', numCounter,arr) // leave for testing rows
                 cluster.push(arr);
             }
             else{ 
@@ -667,6 +675,7 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
             currCluster = true;
         }
         numCounter++
+        // console.log(cluster)
     }
     
     // // GO TO processCluster
