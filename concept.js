@@ -71,7 +71,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
     // console.log('cluster',cluster, cluster.length)
     for(let i = 1; i < cluster.length; i++){
         let currArr = cluster[i] 
-        // console.log('currArr', i,currArr)
+        // console.log('currArr', i, currArr)
         for(let j = 0; j < currArr.length; j++){
             if(currArr[j].trim()!='' && !conceptIdIndices.includes(j)){
                 if(!nonEmpty.includes(j)){
@@ -91,7 +91,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
             firstRowJSON[header[i]] = firstRow[i]
         }
     }
-    console.log("firstRowJSON", firstRowJSON)
+    // console.log("firstRowJSON", firstRowJSON)
 
     //Creating concept Id for the cluster
     if(!firstRowJSON.hasOwnProperty('conceptId') || firstRowJSON['conceptId'] == ''){
@@ -550,17 +550,17 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
             sourceJSONS.push(currJSON);
         }
     });
-    console.log('sourceJSONS value', sourceJSONS)
+    // console.log('sourceJSONS value', sourceJSONS)
 
     let ConceptIndex = '{}' // becomes varToConcept.json list (FOUND), {} (NOT FOUND)
     /* Add back origin varToConcept.json */
     // if(fs.existsSync('./jsons/varToConcept.json')){                 /*  USES / READS --> VARTOCONCEPT.JSON LIBRARY!!!!!  */
     //     ConceptIndex = fs.readFileSync('./jsons/varToConcept.json', {encoding:'utf8'})
     // }
-    if(fs.existsSync('./jsons/varToConceptTest.json')){
-        ConceptIndex = fs.readFileSync('./jsons/varToConceptTest.json', {encoding:'utf8'}) // MAKE CHANGES TO LIBRARY FOR TESTING 
+    if(fs.existsSync('./jsonsTest/varToConceptTest.json')){
+        ConceptIndex = fs.readFileSync('./jsonsTest/varToConceptTest.json', {encoding:'utf8'}) // MAKE CHANGES TO LIBRARY FOR TESTING 
     }
-    console.log("ConceptIndex!!!", typeof ConceptIndex, typeof JSON.parse(ConceptIndex), JSON.parse(ConceptIndex))
+    // console.log("ConceptIndex!!!", typeof ConceptIndex, typeof JSON.parse(ConceptIndex), JSON.parse(ConceptIndex))
     let toReplace = fs.readFileSync(fileName,{encoding:'utf8', flag:'r'})
 
     // console.log("toReplace",typeof toReplace) // entire string csv file
@@ -577,9 +577,10 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
     // if(fs.existsSync('./jsons/conceptIds.txt')){
     //     idIndex = fs.readFileSync('./jsons/conceptIds.txt', {encoding:'utf8'}) // Array of concept Ids (string) (Note: purpose of the string array of strings '['...','...',....]'
     // }
-    if(fs.existsSync('./jsons/conceptIdsTest.txt')){
-            idIndex = fs.readFileSync('./jsons/conceptIdsTest.txt', {encoding:'utf8'}) // Array of concept Ids (string) (Note: purpose of the string array of strings '['...','...',....]'
-        }
+    if(fs.existsSync('./jsonsTest/conceptIdsTest.txt')){
+            idIndex = fs.readFileSync('./jsonsTest/conceptIdsTest.txt', {encoding:'utf8'}) // Array of concept Ids (string) (Note: purpose of the string array of strings '['...','...',....]'
+    }
+
 
     let conceptIdList = JSON.parse(idIndex) // Array of concept Ids (list of string concepts)
     let varLabelIndex = 0; // reassigns to the index location of Question Text
@@ -623,9 +624,9 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
         // CSVToArray(',') extra paramater not needed
         // console.log("line",typeof line,line)
         let arr = CSVToArray(line, ',')
-        // console.log("arr", arr)
+        console.log("arr", numCounter, arr) /* Current arr row and iteration count */
 /*------------------------------------------------------------ (CHECKPOINT 2 - Looping through curremt row array, push to cluster array )------------------------------------------------------------ */
-        if(first){
+        if(first){ // populates header array variable; assigns index val of question text header (first row) to varLabelIndex variable
             conceptIdObject = getConceptIdCols(arr)
             // console.log('abc')
             console.log("conceptIdObject",conceptIdObject)
@@ -647,6 +648,7 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
             // console.log("excelOutput", excelOutput)
         }
         else if(currCluster){ // conditional for the rows 3 and onwards; third path after 2 rows go through confditional flow
+            console.log("numCounter elseif currCuster", numCounter, currCluster)
             // console.log("currCluster!, arr, varLabelIndex",currCluster, arr, varLabelIndex))
             if(arr[varLabelIndex] == ''){ // (empty question text) cell path, push curr row arr 
                 // console.log('numCounter cluster', numCounter,arr) // leave for testing rows
@@ -669,6 +671,7 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
             }
         }
         else{ // row after header switches currCluster boolean state, why?
+            console.log("numCounter else currCuster", numCounter, currCluster)
             // console.log("cluster push arr", numCounter,arr)
             cluster.push(arr)
             // console.log("cluster push arr", cluster)
