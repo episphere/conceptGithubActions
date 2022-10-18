@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "875535246",
-  "Question Text": "Within the last month, have you used hormonal contraceptives? These types of contraceptives include oral contraceptives (\"\"the pill\"\"), injections, implants, skin patches, vaginal rings, and hormonal intrauterine devices (IUDs)",
+  "Question Text": "Within the last month, have you used hormonal contraceptives? These types of contraceptives include oral contraceptives (the pill), injections, implants, skin patches, vaginal rings, and hormonal intrauterine devices (IUDs)",
   "Variable Label": "Contraception",
   "Variable Name": [
     "SrvBlU_CONTRACEPT_v1r0"
@@ -18,14 +18,14 @@
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
   "Question Type": "Optional Multiple Choice",
-  "IMS Review Notes": "\"Added a comma to Column E to be consistent. Added a space to separate the 2 words in \"\"\"\"\"\"\"\"intrauterinedevices\"\"\"\"\"\"\"\"\"",
+  "IMS Review Notes": "Added a comma to Column E to be consistent. Added a space to separate the 2 words in: intrauterine devices",
   "Formula for Index": [
-    "6164",
-    "6165"
+    "6185",
+    "6186"
   ],
   "Index": [
-    "6164",
-    "6165"
+    "6185",
+    "6186"
   ],
   "Format/Value": {
     "104430631.json": "0",

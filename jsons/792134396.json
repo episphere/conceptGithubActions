@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "792134396",
-  "Question Text": "Have you ever had treatment for gum disease, such as scaling or root planing, sometimes called \"\"deep cleaning\"\"?",
+  "Question Text": "Have you ever had treatment for gum disease, such as scaling or root planing, sometimes called deep cleaning?",
   "Variable Label": "Gum disease treatment",
   "Variable Name": [
     "SrvMw_GUMTX_v1r0"
@@ -18,16 +18,16 @@
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
   "Question Type": "Optional Multiple Choice",
-  "IMS Review Notes": "\"Added a space between \"\"\"\"\"\"\"\"or\"\"\"\"\"\"\"\" and \"\"\"\"\"\"\"\"root\"\"\"\"\"\"\"\" in the Question Text\"",
+  "IMS Review Notes": "Added a space between or and root in the Question Text",
   "Formula for Index": [
-    "6634",
-    "6635",
-    "6636"
+    "6655",
+    "6656",
+    "6657"
   ],
   "Index": [
-    "6634",
-    "6635",
-    "6636"
+    "6655",
+    "6656",
+    "6657"
   ],
   "Format/Value": {
     "104430631.json": "0",
@@ -35,6 +35,6 @@
     "178420302.json": "77"
   },
   "Notes": [
-    "Harmonization - Questionnaire will still say \"\"\"\"\"\"\"\"Don't Know\"\"\"\"\"\"\"\""
+    "Harmonization - Questionnaire will still say Don't Know"
   ]
 }

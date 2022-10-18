@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "842",
-  "Index": "842",
+  "Formula for Index": "841",
+  "Index": "841",
   "Primary Source": [
     "819848608.json"
   ],
@@ -18,9 +18,10 @@
   "Format/Value": "N/A",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Information about \"\"thing\"\" contents, such as tubes packed in it or who scanned the label is nested under \"\"thing\"\" concept ID.",
+  "Notes": "Information about thing contents, such as tubes packed in it or who scanned the label is nested under thing concept ID.",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "4/1/22"
+  "Date added or modified": "4/1/22",
+  "IMS Review Notes": "removed quotation marks"
 }

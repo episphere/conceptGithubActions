@@ -15,10 +15,11 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "All Study IDs for which the sites have indicated they are actively recruiting will be flagged as 1.  This should be triggered by a combination of sending the Study IDs to the \"\"Get Participant Token\"\" API and then sending the deidentified demographic information to the \"\"Submit participant data\"\" API. Study IDs assigned a token/PIN, but who are not being actively recruited are flagged as zero (default) when the study ID is submitted. All individuals who sign-in without a valid token or pin are flagged as 2.",
+  "Notes": "All Study IDs for which the sites have indicated they are actively recruiting will be flagged as 1.  This should be triggered by a combination of sending the Study IDs to the: Get Participant Token API and then sending the deidentified demographic information to the: Submit participant data API. Study IDs assigned a token/PIN, but who are not being actively recruited are flagged as zero (default) when the study ID is submitted. All individuals who sign-in without a valid token or pin are flagged as 2.",
   "Dictionary": "Recruitment Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "Yes",
+  "IMS Review Notes": "removed quotation marks",
   "Formula for Index": [
     "2",
     "3",

@@ -1,22 +1,18 @@
 {
   "Primary Source": [
-    "192505768.json",
-    "237817859.json"
+    "192505768.json"
   ],
   "Secondary Source": [
-    "883203566.json",
-    "861315814.json"
+    "883203566.json"
   ],
   "Source Question": [
-    "706283025.json",
-    ""
+    "706283025.json"
   ],
   "conceptId": "702433259",
   "Question Text": "I am worried about data being given to my insurance company/effects on insurance (health, life, other)",
   "Variable Label": "I am worried about data being given to my insurance company/effects on insurance (health, life, other)",
   "Variable Name": [
-    "RcrtSI_OptOut_v1r0_PrivacyH",
-    "HdRef_PrivacyF_v1r0"
+    "RcrtSI_OptOut_v1r0_PrivacyH"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -38,7 +34,5 @@
   "Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  },
-  "Question Type": "Quotes are off and fixing this would impact RcrtSI_OptOut_v1r0_PrivacyH",
-  "IMS Review Notes": "Row was missing , copied from 9/15 version. Removed quotations from columns L & K"
+  }
 }
