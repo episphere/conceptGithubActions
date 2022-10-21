@@ -58,7 +58,11 @@ function replaceQuotes(text){
 function processCluster(cluster, header, nameToConcept, indexVariableName, conceptIdList, conceptIdObject, sourceJSONS, jsonList, regexInclude, numCounter){
     // console.log('cluster 0',cluster[0])
     /* Cluster will be length 1 if no, question text rows are proceeded afterwards*/
-    let nonEmpty = [];
+    console.log("conceptIdObject", conceptIdObject)
+    /*
+    conceptIdObject --> { '2': 'Primary Source','4': 'Secondary Source','6': 'Source Question','9': 'Question Text','16': 'Format/Value'}
+    */
+    let nonEmpty = []; // to mark during iterating an array item, known to be NOT empty later in looping process
     let conceptIdObjectKeys = Object.keys(conceptIdObject) // array of keys from conceptIdObject --> Ex. [ '2', '4', '6', '9', '16' ]
     let conceptIdIndices = []; // pushed conceptId indices as num values --> Ex. [2, 4, 6, 9, 16] 
     let generalId = -1;
@@ -67,8 +71,11 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
         Ex. {'Primary Source': 2, 'Secondary Source': 4, 'Source Question': 6, 'Question Text': 9, 'Format/Value': 16}
     */ 
     let conceptIdReverseLookup = {}; 
-    /* LOOP 1 - Done*/
-    console.log("nonEmpty", nonEmpty)
+    /* 
+    LOOP 1 - DONE
+    populate conceptIdIndices and conceptIdReverseLookup
+    */
+
     for(let i = 0; i < conceptIdObjectKeys.length; i++){
         conceptIdIndices.push(parseInt(conceptIdObjectKeys[i]))
         conceptIdReverseLookup[conceptIdObject[conceptIdObjectKeys[i]]] = parseInt(conceptIdObjectKeys[i])
@@ -76,32 +83,67 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
     }
     // console.log("conceptIdReverseLookup", conceptIdReverseLookup)
     // console.log('cluster processCluster',numCounter, cluster, cluster.length)
-    /* LOOP 2 - DONE */
-    for(let i = 1; i < cluster.length; i++){ /* starts at 1 to not include main cluster, but rows without questionText index; push to nonEmpty arr*/
+
+    /* 
+    LOOP 2 - DONE 
+    Iterate through current cluster's rows (without any questionText value)
+    for each row proceeding first row, iterate array's items and check if there not an item and not found in conceptIdIndicies
+    This will push to nonEmpty array for later use
+    */
+    for(let i = 1; i < cluster.length; i++){ /* starts at 1 to not include main cluster, but rows without questionText index belonging to current cluster; push to nonEmpty arr*/
         let currArr = cluster[i] 
-        console.log('currArr', i, currArr, numCounter)
+        // console.log('currArr', i, currArr, numCounter) // output proceeding rows belonging to cluster's first row
         for(let j = 0; j < currArr.length; j++){
             // console.log("conceptIdIndices j", j, currArr[j].trim(),currArr[j].trim()!='',!conceptIdIndices.includes(j))
             if(currArr[j].trim()!='' && !conceptIdIndices.includes(j)){ // not empty item, current iteration j not found in array
                 if(!nonEmpty.includes(j)){ // current j iteration not found, add iteration to nonEmpty arr
                     nonEmpty.push(j)
-                    console.log("nonEmpty", nonEmpty)
+                    // console.log("nonEmpty", j, nonEmpty)
                 }
             }
         }
     }
-    let firstRowJSON = {}
+    /* 
+    Map header to related first row value item 
+    {'Formula for Index': '1', Index: '1','Primary Source': 'Recruitment'...}
+
+    Note:ConceptId skipped for 2nd index (Reference: conceptIdIndices --> [2, 4, 6, 9, 16] )
+    */
+    let firstRowJSON = {} 
     let firstRow = cluster[0] // row with a questionText value
     let clump = [];
-    // console.log('firstRow',firstRow)
-    // console.log('nonEmpty', nonEmpty)
-    /* LOOP 3*/
+    // console.log('processCluster firstRow',numCounter, firstRow)
+    console.log('nonEmpty', nonEmpty)
+
+    /* 
+    LOOP 3 - DONE
+    Loop first Row array of items
+    push header and firstRow value to firstRowJSON based on conditions
+    Note to self: Revisit or determine purpose for nonEmpty array?
+    Answer: to mark during iterating an array item that is known to be not empty later in looping process
+
+    Added Note: Find out why concept Id indices 9 is being pushed in loop
+    index 9 gets pushed via conceptIdIndices array has 9 value AND conceptIdObject obj key 9 === "Question Text"
+    Ex. numCounter 3 --> Cluster 1 / row 1
+    */
     for(let i = 0; i < firstRow.length; i++){ // check each item for the following conditions
+        // console.log("clusterProcess firstRow loop 3", numCounter, firstRow)
+        /*
+        ALL TRUE -- > firstRow current item MUST NOT BE EMPTY; nonEmpty current loop count not found in array; current loop count not found in conceptIdIndices
+        OR current loop count found in conceptIdIndices and current loop count 16 conceptIdObject must be "Question Text"
+
+        Continue to append to firstRowJSON key and value
+        */
         if((firstRow[i] != "" && !nonEmpty.includes(i) && !conceptIdIndices.includes(i)) || (conceptIdIndices.includes(i) && conceptIdObject[i] =="Question Text")){
+            console.log(`ALL TRUE - firstRow[i] != "" && !nonEmpty.includes(i) && !conceptIdIndices.includes(i))`,`numCounter:`,numCounter,`curr i:`, i, firstRow[i] != "",!nonEmpty.includes(i),!conceptIdIndices.includes(i))
+            console.log(`OR - conceptIdIndices.includes(i) && conceptIdObject[i] =="Question Text" -`, `numCounter:`,numCounter,`curr i:`, i,conceptIdIndices.includes(i), conceptIdObject[i] =="Question Text", )
+            // console.log("header firstRow",typeof header[i],header[i], firstRow[i])
             firstRowJSON[header[i]] = firstRow[i]
+            console.log("firstRowJSON loop 3 - ", `numCounter:`,numCounter,`curr i:`, i, firstRowJSON)
         }
     }
-    // console.log("firstRowJSON", firstRowJSON)
+    // console.log("firstRowJSON", numCounter, firstRowJSON)
+    
 
     //Creating concept Id for the cluster
     if(!firstRowJSON.hasOwnProperty('conceptId') || firstRowJSON['conceptId'] == ''){
@@ -541,6 +583,7 @@ function getConceptIdCols(header){ // pushing object of headers with concept Ids
 }
 
 async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ********************************************************************************
+    console.log("fileName",fileName)
     let jsonList = []
     let sourceJSONS = []
     // fs.readdirSync('./jsons/').forEach(file => {
@@ -574,7 +617,7 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
     }
     // console.log("ConceptIndex!!!", typeof ConceptIndex, typeof JSON.parse(ConceptIndex), JSON.parse(ConceptIndex))
     let toReplace = fs.readFileSync(fileName,{encoding:'utf8', flag:'r'})
-
+    
     // console.log("toReplace",typeof toReplace) // entire string csv file
 
     toReplace = toReplace.replace(/�/g, "\"")
@@ -678,7 +721,8 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
                 // console.log("conceptIdObject", typeof conceptIdObject,conceptIdObject )
                 // console.log("sourceJSONS",typeof sourceJSONS, sourceJSONS )
                 // console.log("jsonList",typeof jsonList, jsonList )
-                // console.log('arr[varLabelIndex]', varLabelIndex, arr[varLabelIndex], numCounter) /* varLabelIndex is  */
+                // console.log('arr[varLabelIndex]', varLabelIndex, arr[varLabelIndex], numCounter) 
+                /* varLabelIndex is question Text index value (10)  */
                 let returned = processCluster(cluster, header, nameToConcept, varLabelIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList, /[0-9]+\s*=/, numCounter)
                 excelOutput.push(returned) // push to excelOutput (Main array of rows)
                 cluster = [arr] // reassign empty array with current row line arr (to be used in processCluster)

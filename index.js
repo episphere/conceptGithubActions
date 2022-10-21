@@ -9,6 +9,7 @@ files = files.split(',')
 console.log(files)
 
 // try catch block to find masterFile.csv file
+/* Note replace masterFile with test copy */
 let changed = false;
 for(let i = 0; i < files.length; i++){
     let file = files[i]
