@@ -624,7 +624,8 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
         // CSVToArray(',') extra paramater not needed
         // console.log("line",typeof line,line)
         let arr = CSVToArray(line, ',')
-        console.log("arr", numCounter, arr) /* Current arr row and iteration count */
+        /* Current arr row and iteration count */
+        // console.log("arr", numCounter, arr) 
 /*------------------------------------------------------------ (CHECKPOINT 2 - Looping through curremt row array, push to cluster array )------------------------------------------------------------ */
         if(first){ // populates header array variable; assigns index val of question text header (first row) to varLabelIndex variable
             conceptIdObject = getConceptIdCols(arr)
@@ -652,9 +653,10 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
             // console.log("currCluster!, arr, varLabelIndex",currCluster, arr, varLabelIndex))
             if(arr[varLabelIndex] == ''){ // (empty question text) cell path, push curr row arr 
                 // console.log('numCounter cluster', numCounter,arr) // leave for testing rows
+                console.log('arr[varLabelIndex]', varLabelIndex, arr[varLabelIndex], numCounter)
                 cluster.push(arr);
             }
-            else{ 
+            else{ // only paths here if there is
                 // console.log("cluster val rows 3 and beyond!, conditional block from currCluster flag", cluster)
                 // console.log("header", header)
                 // console.log("nameToConcept",typeof nameToConcept, nameToConcept)
@@ -663,7 +665,7 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
                 // console.log("conceptIdObject", typeof conceptIdObject,conceptIdObject )
                 // console.log("sourceJSONS",typeof sourceJSONS, sourceJSONS )
                 // console.log("jsonList",typeof jsonList, jsonList )
-                
+                // console.log('arr[varLabelIndex]', varLabelIndex, arr[varLabelIndex], numCounter) /* varLabelIndex is  */
                 let returned = processCluster(cluster, header, nameToConcept, varLabelIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList, /[0-9]+\s*=/)
                 // excelOutput.push(returned)
                 cluster = [arr]
