@@ -44,7 +44,7 @@ function replaceQuotes(text){
  * @param {array} cluster - current row after header row
  * @param {array} header - header items of the first row
  * @param {object} nameToConcept - varToConcept object library mapping
- * @param {number} indexVariableName - conceptId index location before question Text
+ * @param {number} indexVariableName - conceptId index location of question Text - should be 10
  * @param {object} conceptIdList - object type array from conceptIds.txt file
  * @param {object} conceptIdObject - object mapping of conceptId index value to next header string value --> Ex. { 2: 'Primary Source', 4: 'Secondary Source', 6: 'Source Question', 9: 'Question Text', 16: 'Format/Value'}
  * @param {array} sourceJSONS - array of objects from each individual concept id json
@@ -56,6 +56,7 @@ function replaceQuotes(text){
  */
 
 function processCluster(cluster, header, nameToConcept, indexVariableName, conceptIdList, conceptIdObject, sourceJSONS, jsonList, regexInclude, numCounter){
+    console.log("conceptIdList", conceptIdList)
     // console.log('cluster 0',cluster[0])
     /* Cluster will be length 1 if no, question text rows are proceeded afterwards*/
     console.log("conceptIdObject", conceptIdObject)
@@ -111,7 +112,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
     */
     let firstRowJSON = {} 
     let firstRow = cluster[0] // row with a questionText value
-    let clump = [];
+    let clump = []; // NOT USED - DEPRECATED
     // console.log('processCluster firstRow',numCounter, firstRow)
     console.log('nonEmpty', nonEmpty)
 
@@ -135,37 +136,59 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
         Continue to append to firstRowJSON key and value
         */
         if((firstRow[i] != "" && !nonEmpty.includes(i) && !conceptIdIndices.includes(i)) || (conceptIdIndices.includes(i) && conceptIdObject[i] =="Question Text")){
-            console.log(`ALL TRUE - firstRow[i] != "" && !nonEmpty.includes(i) && !conceptIdIndices.includes(i))`,`numCounter:`,numCounter,`curr i:`, i, firstRow[i] != "",!nonEmpty.includes(i),!conceptIdIndices.includes(i))
-            console.log(`OR - conceptIdIndices.includes(i) && conceptIdObject[i] =="Question Text" -`, `numCounter:`,numCounter,`curr i:`, i,conceptIdIndices.includes(i), conceptIdObject[i] =="Question Text", )
+            // console.log(`ALL TRUE - firstRow[i] != "" && !nonEmpty.includes(i) && !conceptIdIndices.includes(i))`,`numCounter:`,numCounter,`curr i:`, i, firstRow[i] != "",!nonEmpty.includes(i),!conceptIdIndices.includes(i))
+            // console.log(`OR - conceptIdIndices.includes(i) && conceptIdObject[i] =="Question Text" -`, `numCounter:`,numCounter,`curr i:`, i,conceptIdIndices.includes(i), conceptIdObject[i] =="Question Text", )
             // console.log("header firstRow",typeof header[i],header[i], firstRow[i])
             firstRowJSON[header[i]] = firstRow[i]
-            console.log("firstRowJSON loop 3 - ", `numCounter:`,numCounter,`curr i:`, i, firstRowJSON)
+            // console.log("firstRowJSON loop 3 - ", `numCounter:`,numCounter,`curr i:`, i, firstRowJSON)
         }
     }
-    // console.log("firstRowJSON", numCounter, firstRowJSON)
-    
-
+    console.log("firstRowJSON", numCounter, firstRowJSON)
+    console.log("nameToConcept",nameToConcept)
+    // console.log("test!!!", numCounter, firstRow[indexVariableName],indexVariableName)
     //Creating concept Id for the cluster
-    if(!firstRowJSON.hasOwnProperty('conceptId') || firstRowJSON['conceptId'] == ''){
-        if(nameToConcept.hasOwnProperty(firstRow[indexVariableName])){
-            firstRowJSON['conceptId'] = nameToConcept[firstRow[indexVariableName]]
-            if(!conceptIdList.includes(firstRowJSON['conceptId'])){
+    // firstRowJSON = {}
+    console.log("conceptIdList", conceptIdList)
+    /*
+    Outer If 1 - WIP
+    // firstRowJSON inital value empty {}; no conceptId property or conceptId value empty ''
+    */
+    if(!firstRowJSON.hasOwnProperty('conceptId') || firstRowJSON['conceptId'] == ''){ 
+        console.log("PASS HERE", [firstRow[indexVariableName]])
+        /*
+         Checks varToConceptJson obj if the current first cluster row has question text
+         Found --> append conceptId key with matched question text value to nameToConcept
+         Not Found --> push concepId key with uuid number to firstRowJSON, push conceptId to conceptIdList, append questionText key with conceptId to nameConcept
+         Note: nameToConcept is varToConcept object
+        */
+        if(nameToConcept.hasOwnProperty(firstRow[indexVariableName])){ //firstRow[indexVariableName] --> questionText of first row
+            // assign question Text
+            firstRowJSON['conceptId'] = nameToConcept[firstRow[indexVariableName]] // conceptId: Question Text value
+            if(!conceptIdList.includes(firstRowJSON['conceptId'])){ // conceptId  NOT FOUND in arr based off of .txt file, push concept Id question text value
                 conceptIdList.push(firstRowJSON['conceptId'])
             }
             
         }
-        else{
+        else{ // generate conceptId, append unfound questionText to new concept ID mapping
              firstRowJSON['conceptId'] = generateRandomUUID(conceptIdList);
+            //  console.log("else firstRowJSON",firstRowJSON)
              conceptIdList.push(firstRowJSON['conceptId'])
              nameToConcept[firstRow[indexVariableName]] = firstRowJSON['conceptId']
+            //  console.log("else nameToConcept", nameToConcept)
         }
     }
 
     firstRow[conceptIdReverseLookup['Question Text']] = firstRowJSON['conceptId']
 
     //find sources first
-    let conceptColNames = Object.keys(conceptIdReverseLookup)
-    /* LOOP 4*/
+    let conceptColNames = Object.keys(conceptIdReverseLookup) 
+    /* 
+    LOOP 4
+    conceptColNames are headers for concept Ids
+    conceptColNames --> ['Primary Source','Secondary Source','Source Question','Question Text','Format/Value']
+    loop conceptColNames
+    */ 
+
     for(let i = 0; i < conceptColNames.length; i++){
         if(conceptColNames[i].indexOf('Source') != -1 && firstRow[conceptIdReverseLookup[conceptColNames[i]] + 1] != ''){
 
