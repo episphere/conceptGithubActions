@@ -646,6 +646,9 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
     toReplace = toReplace.replace(/�/g, "\"")
     
     // toReplace = toReplace.replace(/¬Æ/g, "®")
+    // toReplace = toReplace.replace(/‚Äú/g, "“") 
+    // toReplace = toReplace.replace(/‚Äù/g, "”")
+    // toReplace = toReplace.replace(/‚Ä¶/g, "…")
     // toReplace = toReplace.replace(/√®/g, "è")
     // toReplace = toReplace.replace(/‚Ä¶/g, "…")
     toReplace = replaceQuotes(toReplace) // replaceQuotes has no affect
