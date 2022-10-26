@@ -187,11 +187,14 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
     conceptColNames are headers for concept Ids
     conceptColNames --> ['Primary Source','Secondary Source','Source Question','Question Text','Format/Value']
     loop conceptColNames
+
+    Search for text "Source" in each column item AND checks first row for concept ID for all indices with Source
     */ 
-
-    for(let i = 0; i < conceptColNames.length; i++){
+    console.log("firstRow",firstRow)
+    console.log("conceptIdReverseLookup",numCounter,conceptIdReverseLookup)
+    for(let i = 0; i < conceptColNames.length; i++){ 
         if(conceptColNames[i].indexOf('Source') != -1 && firstRow[conceptIdReverseLookup[conceptColNames[i]] + 1] != ''){
-
+            console.log("value of concept id", numCounter, i ,firstRow[conceptIdReverseLookup[conceptColNames[i]] + 1])
             for(let k = 0; k < cluster.length; k++){
                 if(cluster[k][conceptIdReverseLookup[conceptColNames[i]] + 1] != ""){
                     let currId = cluster[k][conceptIdReverseLookup[conceptColNames[i]]];
