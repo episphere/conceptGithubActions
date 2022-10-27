@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "205713835",
-  "Question Text": "In the last month, how often did you use floss?",
+  "Question Text- v1": "In the last month, how often did you use floss?",
   "Variable Label": "Floss frequency past month",
   "Variable Name": [
     "SrvMw_FLOSS2_v1r0"
@@ -15,20 +15,20 @@
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
   "Formula for Index": [
-    "6515",
-    "6516",
-    "6517",
-    "6518",
-    "6519",
-    "6520"
+    "6541",
+    "6542",
+    "6543",
+    "6544",
+    "6545",
+    "6546"
   ],
   "Index": [
-    "6515",
-    "6516",
-    "6517",
-    "6518",
-    "6519",
-    "6520"
+    "6541",
+    "6542",
+    "6543",
+    "6544",
+    "6545",
+    "6546"
   ],
   "Variable Type": [
     "Num"
@@ -36,7 +36,7 @@
   "Variable Length": [
     "2"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "648960871.json": "44",
     "693256778.json": "0",
     "735330419.json": "1",

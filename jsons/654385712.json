@@ -12,7 +12,7 @@
     "GRID_SITTING"
   ],
   "conceptId": "654385712",
-  "Question Text": "Driving or sitting in a car, bus or train. [This includes commuting to and from work.]",
+  "Question Text- v1": "Driving or sitting in a car, bus or train. [This includes commuting to and from work.]",
   "Variable Label": "Driving or sitting in a car, bus or train. [This includes commuting to and from work.]",
   "Variable Name": [
     "SrvMRE_SitInTransport_v1r0"
@@ -25,32 +25,32 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Grid Question",
-  "Date added or modified": "44620",
+  "Date added or modified": "2/28/22",
   "Formula for Index": [
-    "2838",
-    "2839",
-    "2840",
-    "2841",
     "2842",
     "2843",
     "2844",
     "2845",
     "2846",
-    "2847"
+    "2847",
+    "2848",
+    "2849",
+    "2850",
+    "2851"
   ],
   "Index": [
-    "2838",
-    "2839",
-    "2840",
-    "2841",
     "2842",
     "2843",
     "2844",
     "2845",
     "2846",
-    "2847"
+    "2847",
+    "2848",
+    "2849",
+    "2850",
+    "2851"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "503218834.json": "0",
     "464753847.json": "1",
     "729681071.json": "2",

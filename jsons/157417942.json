@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "6425",
-  "Index": "6425",
+  "Formula for Index": "6450",
+  "Index": "6450",
   "Primary Source": [
     "129084651.json"
   ],
@@ -14,20 +14,20 @@
     "SrvBlU_COV23B8A_v1r0"
   ],
   "conceptId": "157417942",
-  "Question Text": "Since the beginning of 2020, have you experienced any other health symptoms? [text box]",
+  "Question Text- v1": "Since the beginning of 2020, have you experienced any other health symptoms? [text box]",
   "Variable Label": "Other Pandemic Symptom: Please describe textbox",
   "Variable Name": [
     "SrvBlU_COV23B8ADesc_v1r0"
   ],
   "Variable Type": "Char",
   "Variable Length": "300",
-  "Format/Value": "N/A",
+  "Format/Value - r0": "N/A",
   "Required": "No",
   "PII": "No",
   "Notes": "Option only available if #55 is selected in COV23B8A",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "44673",
+  "Date added or modified": "4/22/22",
   "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
   "IMS Review Notes": "Added Source Variable Name (Column H). Renamed variable name"
 }

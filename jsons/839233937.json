@@ -6,7 +6,7 @@
     "716117817.json"
   ],
   "conceptId": "839233937",
-  "Question Text": "Did the trip home usually take about the same amount of time as the trip to get to [insert address from PREWORK1 - PREWORK3/this address] from your home?",
+  "Question Text- v1": "Did the trip home usually take about the same amount of time as the trip to get to [insert address from PREWORK1 - PREWORK3/this address] from your home?",
   "Variable Label": "Time to and from past work same",
   "Variable Name": [
     "SrvLAW_PreWorkT5_v1r0"
@@ -19,14 +19,14 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "5896",
-    "5897"
+    "5921",
+    "5922"
   ],
   "Index": [
-    "5896",
-    "5897"
+    "5921",
+    "5922"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

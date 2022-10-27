@@ -12,7 +12,7 @@
     "RACEETH4"
   ],
   "conceptId": "304643362",
-  "Question Text": "Somali",
+  "Question Text- v1": "Somali",
   "Variable Label": "Somali",
   "Variable Name": [
     "SrvBOH_Somali_v1r0"
@@ -27,14 +27,14 @@
   "Notes": "Only display if RACEETH = Black, African American, or African",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "929",
-    "930"
+    "933",
+    "934"
   ],
   "Index": [
-    "929",
-    "930"
+    "933",
+    "934"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

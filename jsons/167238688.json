@@ -12,7 +12,7 @@
     "MHGROUP5"
   ],
   "conceptId": "167238688",
-  "Question Text": "Chronic Kidney Disease (Also Known as Chronic Kidney Failure)",
+  "Question Text- v1": "Chronic Kidney Disease (Also Known as Chronic Kidney Failure)",
   "Variable Label": "Chronic Kidney Disease (Also Known as Chronic Kidney Failure)",
   "Variable Name": [
     "SrvBOH_CKD_v1r0"
@@ -26,14 +26,14 @@
   "PII": "No",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "1251",
-    "1252"
+    "1255",
+    "1256"
   ],
   "Index": [
-    "1251",
-    "1252"
+    "1255",
+    "1256"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

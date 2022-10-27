@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "1467",
-  "Index": "1467",
+  "Formula for Index": "1471",
+  "Index": "1471",
   "Primary Source": [
     "129084651.json"
   ],
@@ -14,7 +14,7 @@
     "BLDTRANS4"
   ],
   "conceptId": "434556295",
-  "Question Text": "Last blood transfusion age",
+  "Question Text- v1": "Last blood transfusion age",
   "Variable Label": "Last blood transfusion age",
   "Variable Name": [
     "SrvBOH_LBloodTransAge_v1r0"
@@ -24,7 +24,7 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Format/Value": "N/A",
+  "Format/Value - r0": "N/A",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if BLDTRANS=YES",

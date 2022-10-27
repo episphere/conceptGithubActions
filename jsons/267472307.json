@@ -16,7 +16,7 @@
     "LANG"
   ],
   "conceptId": "267472307",
-  "Question Text": "Italian",
+  "Question Text- v1": "Italian",
   "Variable Label": "Italian",
   "Variable Name": [
     "SrvBOH_Italian_v1r0",
@@ -33,16 +33,16 @@
   "Notes": "Only display if RACEETH = White",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "1021",
-    "1022"
+    "1025",
+    "1026"
   ],
   "Index": [
-    "1021",
-    "1022"
+    "1025",
+    "1026"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   },
-  "Date added or modified": "44453"
+  "Date added or modified": "9/14/21"
 }

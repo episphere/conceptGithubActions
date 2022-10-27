@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "694503437",
-  "Question Text": "The [first/2nd/3rd/etc.] time you had COVID-19, did you have any symptoms?",
+  "Question Text- v1": "The [first/2nd/3rd/etc.] time you had COVID-19, did you have any symptoms?",
   "Variable Label": "Symptoms",
   "Variable Name": [
     "SrvBlU_COV6_v1r0"
@@ -20,14 +20,14 @@
   "Question Type": "Optional Multiple Choice, Loops",
   "IMS Review Notes": "Added space between time and you",
   "Formula for Index": [
-    "6200",
-    "6201"
+    "6225",
+    "6226"
   ],
   "Index": [
-    "6200",
-    "6201"
+    "6225",
+    "6226"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "214750556",
-  "Question Text": "During the season[s] in the past 12 months that you did surfing or bodyboarding, about how often did you do this activity?",
+  "Question Text- v1": "During the season[s] in the past 12 months that you did surfing or bodyboarding, about how often did you do this activity?",
   "Variable Label": "During the season[s] in the past 12 months that you did surfing or bodyboarding, about how often did you do this activity?",
   "Variable Name": [
     "SrvMRE_SurfOften_v1r0"
@@ -19,24 +19,24 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if EXEREC1=12",
-  "Date added or modified": "44515",
+  "Date added or modified": "11/15/21",
   "Formula for Index": [
-    "3259",
-    "3260",
-    "3261",
-    "3262",
     "3263",
-    "3264"
+    "3264",
+    "3265",
+    "3266",
+    "3267",
+    "3268"
   ],
   "Index": [
-    "3259",
-    "3260",
-    "3261",
-    "3262",
     "3263",
-    "3264"
+    "3264",
+    "3265",
+    "3266",
+    "3267",
+    "3268"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "239152340.json": "0",
     "582006876.json": "1",
     "645894551.json": "2",

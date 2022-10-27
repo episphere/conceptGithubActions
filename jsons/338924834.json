@@ -6,7 +6,7 @@
     "726699695.json"
   ],
   "conceptId": "338924834",
-  "Question Text": "On a scale of 1 to 10, where 1 means a little pain and 10 means a lot of pain, how would you rate your physical pain?",
+  "Question Text- v1": "On a scale of 1 to 10, where 1 means a little pain and 10 means a lot of pain, how would you rate your physical pain?",
   "Variable Label": "Pain rank",
   "Variable Name": [
     "SrvBOH_PainRank_v1r0"
@@ -20,30 +20,30 @@
   "PII": "No",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "1476",
-    "1477",
-    "1478",
-    "1479",
     "1480",
     "1481",
     "1482",
     "1483",
     "1484",
-    "1485"
+    "1485",
+    "1486",
+    "1487",
+    "1488",
+    "1489"
   ],
   "Index": [
-    "1476",
-    "1477",
-    "1478",
-    "1479",
     "1480",
     "1481",
     "1482",
     "1483",
     "1484",
-    "1485"
+    "1485",
+    "1486",
+    "1487",
+    "1488",
+    "1489"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "988858078.json": "0",
     "156095877.json": "1",
     "162668459.json": "2",

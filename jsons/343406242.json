@@ -12,7 +12,7 @@
     "GRID_PREWORKT2"
   ],
   "conceptId": "343406242",
-  "Question Text": "Taxicab (includes, Uber, Lyft, or hired car)- Thinking about the one-way trip from your home to [insert address from PREWORK1 - PREWORK3/this address] on a usual workday, about how much time did you usually spend in each type of transportation?",
+  "Question Text- v1": "Taxicab (includes, Uber, Lyft, or hired car)- Thinking about the one-way trip from your home to [insert address from PREWORK1 - PREWORK3/this address] on a usual workday, about how much time did you usually spend in each type of transportation?",
   "Variable Label": "Time, Taxicab (includes, Uber, Lyft, or hired car, ) commute to past work",
   "Variable Name": [
     "SrvLAW_PreWorkTmTaxi_v1r0"
@@ -24,22 +24,22 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44630",
+  "Date added or modified": "3/10/22",
   "Formula for Index": [
-    "5852",
-    "5853",
-    "5854",
-    "5855",
-    "5856"
+    "5877",
+    "5878",
+    "5879",
+    "5880",
+    "5881"
   ],
   "Index": [
-    "5852",
-    "5853",
-    "5854",
-    "5855",
-    "5856"
+    "5877",
+    "5878",
+    "5879",
+    "5880",
+    "5881"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "428999623.json": "0",
     "248303092.json": "1",
     "998679771.json": "2",

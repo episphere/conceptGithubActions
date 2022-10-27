@@ -12,7 +12,7 @@
     "CURWORKT1"
   ],
   "conceptId": "509121242",
-  "Question Text": "Other: Please describe commute to work",
+  "Question Text- v1": "Other: Please describe commute to work",
   "Variable Label": "Other: Please describe commute to current work",
   "Variable Name": [
     "SrvLAW_CurWorkCommute_v1r0"
@@ -24,16 +24,16 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44580",
+  "Date added or modified": "1/19/22",
   "Formula for Index": [
-    "5669",
-    "5670"
+    "5694",
+    "5695"
   ],
   "Index": [
-    "5669",
-    "5670"
+    "5694",
+    "5695"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

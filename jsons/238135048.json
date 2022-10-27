@@ -12,7 +12,7 @@
     "GRID_SRVBLU_COV19C_V1R0"
   ],
   "conceptId": "238135048",
-  "Question Text": "Changes in your mood and emotions (such as feeling sad, anxious, or annoyed more than usual) - Since your diagnosis",
+  "Question Text- v1": "Changes in your mood and emotions (such as feeling sad, anxious, or annoyed more than usual) - Since your diagnosis",
   "Variable Label": "Long COVID Mood changes",
   "Variable Name": [
     "SrvBlU_COV19C4_v1r0"
@@ -26,16 +26,16 @@
   "Question Type": "Grid with Multiple Choice Sub-Questions",
   "IMS Review Notes": "Updated column G Source Question",
   "Formula for Index": [
-    "6317",
-    "6318",
-    "6319"
+    "6342",
+    "6343",
+    "6344"
   ],
   "Index": [
-    "6317",
-    "6318",
-    "6319"
+    "6342",
+    "6343",
+    "6344"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "244354126.json": "0",
     "724612102.json": "1",
     "178780048.json": "2"

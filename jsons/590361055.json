@@ -12,7 +12,7 @@
     "GRID_SRVBLU_COV20A_V1R0"
   ],
   "conceptId": "590361055",
-  "Question Text": "Not able to return to your usual activities - How long experienced COV20A",
+  "Question Text- v1": "Not able to return to your usual activities - How long experienced COV20A",
   "Variable Label": "Long COVID Return to usual activities duration",
   "Variable Name": [
     "SrvBlU_COV20A12_v1r0"
@@ -25,16 +25,16 @@
   "State Attribute": "No",
   "Question Type": "Grid with Multiple Choice Sub-Questions",
   "Formula for Index": [
-    "6361",
-    "6362",
-    "6363"
+    "6386",
+    "6387",
+    "6388"
   ],
   "Index": [
-    "6361",
-    "6362",
-    "6363"
+    "6386",
+    "6387",
+    "6388"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "232063618.json": "0",
     "948148236.json": "1",
     "692824372.json": "2"

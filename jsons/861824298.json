@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "861824298",
-  "Question Text": "When was the last time you took acetaminophen?",
+  "Question Text- v1": "When was the last time you took acetaminophen?",
   "Variable Label": "Last time took acetaminophen?",
   "Variable Name": [
     "SrvMRE_AcetaminophenTm_v1r0"
@@ -20,16 +20,16 @@
   "PII": "No",
   "Notes": "Only display if PAINREL1 = 3",
   "Formula for Index": [
-    "2269",
-    "2270",
-    "2271"
+    "2273",
+    "2274",
+    "2275"
   ],
   "Index": [
-    "2269",
-    "2270",
-    "2271"
+    "2273",
+    "2274",
+    "2275"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "317567178.json": "0",
     "484055234.json": "1",
     "802197176.json": "2"

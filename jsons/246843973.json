@@ -12,7 +12,7 @@
     "ESTROHOR"
   ],
   "conceptId": "246843973",
-  "Question Text": "Oral estrogen-only medication (such as Cenestin, Estrace, Femtrace, Menest, Ogen, or Premarin)",
+  "Question Text- v1": "Oral estrogen-only medication (such as Cenestin, Estrace, Femtrace, Menest, Ogen, or Premarin)",
   "Variable Label": "Oral estrogen-only medication (such as Cenestin, Estrace, Femtrace, Menest, Ogen, or Premarin)",
   "Variable Name": [
     "SrvMRE_OralEstrogen_v1r0"
@@ -25,14 +25,14 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "2653",
-    "2654"
+    "2657",
+    "2658"
   ],
   "Index": [
-    "2653",
-    "2654"
+    "2657",
+    "2658"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "389465772",
-  "Question Text": "During the [first/2nd/3rd/etc.] time you had COVID-19, were you diagnosed with blood clots as a complication of COVID-19?",
+  "Question Text- v1": "During the [first/2nd/3rd/etc.] time you had COVID-19, were you diagnosed with blood clots as a complication of COVID-19?",
   "Variable Label": "Blood clots",
   "Variable Name": [
     "SrvBlU_COV11_v1r0"
@@ -19,16 +19,16 @@
   "State Attribute": "No",
   "Question Type": "Optional Multiple Choice, Loops",
   "Formula for Index": [
-    "6252",
-    "6253",
-    "6254"
+    "6277",
+    "6278",
+    "6279"
   ],
   "Index": [
-    "6252",
-    "6253",
-    "6254"
+    "6277",
+    "6278",
+    "6279"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1",
     "178420302.json": "77"

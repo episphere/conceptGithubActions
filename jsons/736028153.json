@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "736028153",
-  "Question Text": "Has a dentist ever told you that you have gum disease (periodontal disease)?",
+  "Question Text- v1": "Has a dentist ever told you that you have gum disease (periodontal disease)?",
   "Variable Label": "Gum disease",
   "Variable Name": [
     "SrvMw_GUMDISEASE_v1r0"
@@ -19,16 +19,16 @@
   "State Attribute": "No",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "6652",
-    "6653",
-    "6654"
+    "6678",
+    "6679",
+    "6680"
   ],
   "Index": [
-    "6652",
-    "6653",
-    "6654"
+    "6678",
+    "6679",
+    "6680"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1",
     "178420302.json": "77"

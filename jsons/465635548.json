@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "465635548",
-  "Question Text": "When was the last time you took Insulin?",
+  "Question Text- v1": "When was the last time you took Insulin?",
   "Variable Label": "Last took Insulin",
   "Variable Name": [
     "SrvMRE_InsulinTime_v1r0"
@@ -20,16 +20,16 @@
   "PII": "No",
   "Notes": "INSULIN= 1",
   "Formula for Index": [
-    "2403",
-    "2404",
-    "2405"
+    "2407",
+    "2408",
+    "2409"
   ],
   "Index": [
-    "2403",
-    "2404",
-    "2405"
+    "2407",
+    "2408",
+    "2409"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "317567178.json": "0",
     "484055234.json": "1",
     "802197176.json": "2"

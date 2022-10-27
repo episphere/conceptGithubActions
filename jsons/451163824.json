@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "451163824",
-  "Question Text": "When you were experiencing your worst COVID-19 symptoms, the [first/2nd/3rd/etc.] time you had COVID-19, did they interfere with or stop you from doing your daily activities?",
+  "Question Text- v1": "When you were experiencing your worst COVID-19 symptoms, the [first/2nd/3rd/etc.] time you had COVID-19, did they interfere with or stop you from doing your daily activities?",
   "Variable Label": "Daily activity interference",
   "Variable Name": [
     "SrvBlU_COV7_v1r0"
@@ -20,20 +20,20 @@
   "Question Type": "Optional Multiple Choice, Loops",
   "IMS Review Notes": "Added a space in Question Text between did and they.",
   "Formula for Index": [
-    "6202",
-    "6203",
-    "6204",
-    "6205",
-    "6206"
+    "6227",
+    "6228",
+    "6229",
+    "6230",
+    "6231"
   ],
   "Index": [
-    "6202",
-    "6203",
-    "6204",
-    "6205",
-    "6206"
+    "6227",
+    "6228",
+    "6229",
+    "6230",
+    "6231"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "111520945.json": "0",
     "548628123.json": "1",
     "567908725.json": "2",

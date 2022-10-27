@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "471018082",
-  "Question Text": "Have you ever dozed off or fallen asleep while driving a vehicle?",
+  "Question Text- v1": "Have you ever dozed off or fallen asleep while driving a vehicle?",
   "Variable Label": "Dozed off or fallen asleep while driving",
   "Variable Name": [
     "SrvMRE_Driving_v1r0"
@@ -19,14 +19,14 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "3409",
-    "3410"
+    "3413",
+    "3414"
   ],
   "Index": [
-    "3409",
-    "3410"
+    "3413",
+    "3414"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

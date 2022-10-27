@@ -12,7 +12,7 @@
     "LAWN1"
   ],
   "conceptId": "383015037",
-  "Question Text": "Home repair (such as painting, plumbing, or replacing carpeting)",
+  "Question Text- v1": "Home repair (such as painting, plumbing, or replacing carpeting)",
   "Variable Label": "Home repair (such as painting, plumbing, or replacing carpeting)",
   "Variable Name": [
     "SrvMRE_HomeRepair_v1r0"
@@ -25,14 +25,14 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "2952",
-    "2953"
+    "2956",
+    "2957"
   ],
   "Index": [
-    "2952",
-    "2953"
+    "2956",
+    "2957"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

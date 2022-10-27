@@ -12,7 +12,7 @@
     "RACEETH8"
   ],
   "conceptId": "918190932",
-  "Question Text": "Norwegian",
+  "Question Text- v1": "Norwegian",
   "Variable Label": "Norwegian",
   "Variable Name": [
     "SrvBOH_Norwegian_v1r0"
@@ -27,14 +27,14 @@
   "Notes": "Only display if RACEETH = White",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "1023",
-    "1024"
+    "1027",
+    "1028"
   ],
   "Index": [
-    "1023",
-    "1024"
+    "1027",
+    "1028"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

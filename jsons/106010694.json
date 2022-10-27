@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "1468",
-  "Index": "1468",
+  "Formula for Index": "1472",
+  "Index": "1472",
   "Primary Source": [
     "129084651.json"
   ],
@@ -14,7 +14,7 @@
     "BLDTRANS4"
   ],
   "conceptId": "106010694",
-  "Question Text": "Last blood transfusion year",
+  "Question Text- v1": "Last blood transfusion year",
   "Variable Label": "Last blood transfusion year",
   "Variable Name": [
     "SrvBOH_LBloodTransYr_v1r0"
@@ -24,7 +24,7 @@
   ],
   "Variable Type": "Year",
   "Variable Length": "4",
-  "Format/Value": "N/A",
+  "Format/Value - r0": "N/A",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if BLDTRANS=YES",

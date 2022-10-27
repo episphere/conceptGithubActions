@@ -1,0 +1,41 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "conceptId": "294308065",
+  "Question Text- v1": "Please review the list below and tell us if it includes all of the addresses where you have lived for at least two years in the last 20 years. Address 4",
+  "Variable Label": "Home address summary",
+  "Variable Name": [
+    "SrvLAW_HomeAddSum_4_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "HOMEADDSUM_4"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "4/12/22",
+  "Question Type": "Optional Multiple Choice",
+  "Formula for Index": [
+    "4661",
+    "4662"
+  ],
+  "Index": [
+    "4661",
+    "4662"
+  ],
+  "Format/Value - r0": {
+    "224381551.json": "0",
+    "942916188.json": "1"
+  },
+  "IMS Review Notes": [
+    "Deleted CID in column L",
+    "New line added for HOMEADDSUM"
+  ]
+}

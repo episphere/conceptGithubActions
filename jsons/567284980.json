@@ -12,7 +12,7 @@
     "MHGROUP3"
   ],
   "conceptId": "567284980",
-  "Question Text": "Ulcerative Colitis",
+  "Question Text- v1": "Ulcerative Colitis",
   "Variable Label": "Ulcerative Colitis",
   "Variable Name": [
     "SrvBOH_UC_v1r0"
@@ -26,14 +26,14 @@
   "PII": "No",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "1196",
-    "1197"
+    "1200",
+    "1201"
   ],
   "Index": [
-    "1196",
-    "1197"
+    "1200",
+    "1201"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

@@ -12,7 +12,7 @@
     "SrvMw_MWUSE_v1r0"
   ],
   "conceptId": "950773275",
-  "Question Text": "Alcohol-based mouthwash (such as Scope® or LISTERINE®)",
+  "Question Text- v1": "Alcohol-based mouthwash (such as Scope® or LISTERINE®)",
   "Variable Label": "Alcohol-based mouthwash",
   "Variable Name": [
     "SrvMw_MWALC1_v1r0"
@@ -29,14 +29,14 @@
   "Question Type": "Optional Select All that Apply",
   "IMS Review Notes": "GRID ID/Source Variable Name (Column H) needed",
   "Formula for Index": [
-    "6539",
-    "6540"
+    "6565",
+    "6566"
   ],
   "Index": [
-    "6539",
-    "6540"
+    "6565",
+    "6566"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

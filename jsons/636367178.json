@@ -12,7 +12,7 @@
     "GRID_SRVBLU_COV23B_V1R0"
   ],
   "conceptId": "636367178",
-  "Question Text": "Shortness of breath - Since beginning of 2020 COV23B",
+  "Question Text- v1": "Shortness of breath - Since beginning of 2020 COV23B",
   "Variable Label": "Pandemic Shortness of breath",
   "Variable Name": [
     "SrvBlU_COV23B3_v1r0"
@@ -26,16 +26,16 @@
   "Question Type": "Grid with Multiple Choice Sub-Questions",
   "IMS Review Notes": "Updated column G Source Question",
   "Formula for Index": [
-    "6408",
-    "6409",
-    "6410"
+    "6433",
+    "6434",
+    "6435"
   ],
   "Index": [
-    "6408",
-    "6409",
-    "6410"
+    "6433",
+    "6434",
+    "6435"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "770236544.json": "0",
     "931688701.json": "1",
     "586272115.json": "2"

@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "3505",
-  "Index": "3505",
+  "Formula for Index": "3509",
+  "Index": "3509",
   "Primary Source": [
     "129084651.json"
   ],
@@ -8,7 +8,7 @@
     "965707586.json"
   ],
   "conceptId": "304657762",
-  "Question Text": "On days that you [smoke/smoked], how many cigarettes [do/did] you smoke per day? Please provide the number of cigarettes, not the number of packs.",
+  "Question Text- v1": "On days that you [smoke/smoked], how many cigarettes [do/did] you smoke per day? Please provide the number of cigarettes, not the number of packs.",
   "Variable Label": "Number of cigarettes per day",
   "Variable Name": [
     "SrvSAS_NumCigsDay_v1r0"
@@ -18,7 +18,7 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Format/Value": "N/A",
+  "Format/Value - r0": "N/A",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "12/6/21"

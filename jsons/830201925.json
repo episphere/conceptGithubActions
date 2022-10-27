@@ -12,7 +12,7 @@
     "PREWORKT6"
   ],
   "conceptId": "830201925",
-  "Question Text": "Walking commute from past work",
+  "Question Text- v1": "Walking commute from past work",
   "Variable Label": "Walking commute from past work",
   "Variable Name": [
     "SrvLAW_PreWorkWalk4_v1r0"
@@ -24,16 +24,16 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44630",
+  "Date added or modified": "3/10/22",
   "Formula for Index": [
-    "5910",
-    "5911"
+    "5935",
+    "5936"
   ],
   "Index": [
-    "5910",
-    "5911"
+    "5935",
+    "5936"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

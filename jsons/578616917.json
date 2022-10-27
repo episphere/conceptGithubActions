@@ -12,7 +12,7 @@
     "RACEETH6"
   ],
   "conceptId": "578616917",
-  "Question Text": "Egyptian",
+  "Question Text- v1": "Egyptian",
   "Variable Label": "Egyptian",
   "Variable Name": [
     "SrvBOH_Egyptian_v1r0"
@@ -27,14 +27,14 @@
   "Notes": "Only display if RACEETH = Middle Eastern or North African",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "965",
-    "966"
+    "969",
+    "970"
   ],
   "Index": [
-    "965",
-    "966"
+    "969",
+    "970"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

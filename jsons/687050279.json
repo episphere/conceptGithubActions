@@ -12,7 +12,7 @@
     "PROGHOR"
   ],
   "conceptId": "687050279",
-  "Question Text": "Oral progestin-only medication (such as Provera or Prometrium)",
+  "Question Text- v1": "Oral progestin-only medication (such as Provera or Prometrium)",
   "Variable Label": "Oral progestin-only medication (such as Provera or Prometrium)",
   "Variable Name": [
     "SrvMRE_OralProg_v1r0"
@@ -25,14 +25,14 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "2696",
-    "2697"
+    "2700",
+    "2701"
   ],
   "Index": [
-    "2696",
-    "2697"
+    "2700",
+    "2701"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

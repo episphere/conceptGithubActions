@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "484006644",
-  "Question Text": "Are you currently using vaginal ring?",
+  "Question Text- v1": "Are you currently using vaginal ring?",
   "Variable Label": "Currently using vaginal ring",
   "Variable Name": [
     "SrvMRE_CurrVagRing_v1r0"
@@ -20,14 +20,14 @@
   "PII": "No",
   "Notes": "Only display if HORMED= 3",
   "Formula for Index": [
-    "2622",
-    "2623"
+    "2626",
+    "2627"
   ],
   "Index": [
-    "2622",
-    "2623"
+    "2626",
+    "2627"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

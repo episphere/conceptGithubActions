@@ -12,7 +12,7 @@
     "RACEETH4"
   ],
   "conceptId": "647105074",
-  "Question Text": "Ghanaian",
+  "Question Text- v1": "Ghanaian",
   "Variable Label": "Ghanaian",
   "Variable Name": [
     "SrvBOH_Ghanaian_v1r0"
@@ -27,14 +27,14 @@
   "Notes": "Only display if RACEETH = Black, African American, or African",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "919",
-    "920"
+    "923",
+    "924"
   ],
   "Index": [
-    "919",
-    "920"
+    "923",
+    "924"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

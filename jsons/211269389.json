@@ -12,7 +12,7 @@
     "CURSCHT1"
   ],
   "conceptId": "211269389",
-  "Question Text": "Other: Please describe commute to school",
+  "Question Text- v1": "Other: Please describe commute to school",
   "Variable Label": "Other: Please describe commute to current school",
   "Variable Name": [
     "SrvLAW_CurSchCommute5_v1r0"
@@ -24,16 +24,16 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44630",
+  "Date added or modified": "3/10/22",
   "Formula for Index": [
-    "6000",
-    "6001"
+    "6025",
+    "6026"
   ],
   "Index": [
-    "6000",
-    "6001"
+    "6025",
+    "6026"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

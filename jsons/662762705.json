@@ -6,7 +6,7 @@
     "965707586.json"
   ],
   "conceptId": "662762705",
-  "Question Text": "How many times have you ever used an indoor tanning bed or sunbed?",
+  "Question Text- v1": "How many times have you ever used an indoor tanning bed or sunbed?",
   "Variable Label": "Times used indoor tanning bed",
   "Variable Name": [
     "SrvSAS_IndoorTan_v1r0"
@@ -18,24 +18,24 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44523",
+  "Date added or modified": "11/23/21",
   "Formula for Index": [
-    "4530",
-    "4531",
-    "4532",
-    "4533",
     "4534",
-    "4535"
+    "4535",
+    "4536",
+    "4537",
+    "4538",
+    "4539"
   ],
   "Index": [
-    "4530",
-    "4531",
-    "4532",
-    "4533",
     "4534",
-    "4535"
+    "4535",
+    "4536",
+    "4537",
+    "4538",
+    "4539"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "648960871.json": "44",
     "102445389.json": "1",
     "388196732.json": "2",

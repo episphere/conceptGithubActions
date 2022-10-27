@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "563539159",
-  "Question Text": "Did you breastfeed in the last 3 months?",
+  "Question Text- v1": "Did you breastfeed in the last 3 months?",
   "Variable Label": "Breastfeeding in last 3 months",
   "Variable Name": [
     "SrvBlU_BRSTFD3MON_v1r0"
@@ -20,14 +20,14 @@
   "Question Type": "Optional Multiple Choice",
   "IMS Review Notes": "Added a comma between: Urine,  and: and, in column E Secondary Source.",
   "Formula for Index": [
-    "6183",
-    "6184"
+    "6208",
+    "6209"
   ],
   "Index": [
-    "6183",
-    "6184"
+    "6208",
+    "6209"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

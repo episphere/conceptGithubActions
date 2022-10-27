@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "768302347",
-  "Question Text": "On the days that you played golf, about how much time per day did you spend doing this activity?",
+  "Question Text- v1": "On the days that you played golf, about how much time per day did you spend doing this activity?",
   "Variable Label": "On the days that you played golf, about how much time per day did you spend doing this activity?",
   "Variable Name": [
     "SrvMRE_GolfTime_v1r0"
@@ -19,26 +19,26 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if EXEREC1=3",
-  "Date added or modified": "44620",
+  "Date added or modified": "2/28/22",
   "Formula for Index": [
-    "3148",
-    "3149",
-    "3150",
-    "3151",
     "3152",
     "3153",
-    "3154"
+    "3154",
+    "3155",
+    "3156",
+    "3157",
+    "3158"
   ],
   "Index": [
-    "3148",
-    "3149",
-    "3150",
-    "3151",
     "3152",
     "3153",
-    "3154"
+    "3154",
+    "3155",
+    "3156",
+    "3157",
+    "3158"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "428999623.json": "0",
     "248303092.json": "1",
     "206020811.json": "2",

@@ -12,7 +12,7 @@
     "PREWORKT1"
   ],
   "conceptId": "172103427",
-  "Question Text": "Car, van, or truck (includes carpools or van pools) commute to past work",
+  "Question Text- v1": "Car, van, or truck (includes carpools or van pools) commute to past work",
   "Variable Label": "Car, van, or truck (includes carpools or van pools) commute to past work",
   "Variable Name": [
     "SrvLAW_PreWorkCar_v1r0"
@@ -26,14 +26,14 @@
   "PII": "No",
   "Date added or modified": "3/10/22",
   "Formula for Index": [
-    "5830",
-    "5831"
+    "5855",
+    "5856"
   ],
   "Index": [
-    "5830",
-    "5831"
+    "5855",
+    "5856"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

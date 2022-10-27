@@ -12,7 +12,7 @@
     "CURWORKT1"
   ],
   "conceptId": "107659596",
-  "Question Text": "Commuter rail, subway, metro commute to work",
+  "Question Text- v1": "Commuter rail, subway, metro commute to work",
   "Variable Label": "Commuter rail, subway, metro commute to current work",
   "Variable Name": [
     "SrvLAW_CurWorkRail_v1r0"
@@ -24,16 +24,16 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44580",
+  "Date added or modified": "1/19/22",
   "Formula for Index": [
-    "5663",
-    "5664"
+    "5688",
+    "5689"
   ],
   "Index": [
-    "5663",
-    "5664"
+    "5688",
+    "5689"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "294886836",
-  "Question Text": "In the 1 hour beforeyou donated your mouthwash (saliva) sample, did you chew gum?",
+  "Question Text- v1": "In the 1 hour beforeyou donated your mouthwash (saliva) sample, did you chew gum?",
   "Variable Label": "Gum Hour Before",
   "Variable Name": [
     "SrvMw_GUMBEFORE_v1r0"
@@ -19,14 +19,14 @@
   "State Attribute": "No",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "6493",
-    "6494"
+    "6519",
+    "6520"
   ],
   "Index": [
-    "6493",
-    "6494"
+    "6519",
+    "6520"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

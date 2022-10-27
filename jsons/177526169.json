@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "177526169",
-  "Question Text": "When was the last time you took baby or low-dose aspirin (81 mg or less)?",
+  "Question Text- v1": "When was the last time you took baby or low-dose aspirin (81 mg or less)?",
   "Variable Label": "Last time took baby or low-dose aspirin (81 mg or less)?",
   "Variable Name": [
     "SrvMRE_LaspirinTime_v1r0"
@@ -20,16 +20,16 @@
   "PII": "No",
   "Notes": "Only display if PAINREL1 = 0",
   "Formula for Index": [
-    "2260",
-    "2261",
-    "2262"
+    "2264",
+    "2265",
+    "2266"
   ],
   "Index": [
-    "2260",
-    "2261",
-    "2262"
+    "2264",
+    "2265",
+    "2266"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "317567178.json": "0",
     "484055234.json": "1",
     "802197176.json": "2"

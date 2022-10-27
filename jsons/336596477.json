@@ -12,7 +12,7 @@
     "RACEETH6"
   ],
   "conceptId": "336596477",
-  "Question Text": "Syrian",
+  "Question Text- v1": "Syrian",
   "Variable Label": "Syrian",
   "Variable Name": [
     "SrvBOH_Syrian_v1r0"
@@ -27,14 +27,14 @@
   "Notes": "Only display if RACEETH = Middle Eastern or North African",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "977",
-    "978"
+    "981",
+    "982"
   ],
   "Index": [
-    "977",
-    "978"
+    "981",
+    "982"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

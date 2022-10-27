@@ -12,7 +12,7 @@
     "RACEETH3"
   ],
   "conceptId": "773844957",
-  "Question Text": "Asian Indian",
+  "Question Text- v1": "Asian Indian",
   "Variable Label": "Asian Indian",
   "Variable Name": [
     "SrvBOH_AsianInd_v1r0"
@@ -27,14 +27,14 @@
   "Notes": "Only display if RACEETH = Asian",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "888",
-    "889"
+    "892",
+    "893"
   ],
   "Index": [
-    "888",
-    "889"
+    "892",
+    "893"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

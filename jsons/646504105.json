@@ -6,7 +6,7 @@
     "726699695.json"
   ],
   "conceptId": "646504105",
-  "Question Text": "When you joined this study, you gave us your mailing address. Are there any other mailing addresses that you use?",
+  "Question Text- v1": "When you joined this study, you gave us your mailing address. Are there any other mailing addresses that you use?",
   "Variable Label": "Other mailing address",
   "Variable Name": [
     "SrvBOH_AltMailAddress_v1r0"
@@ -21,14 +21,14 @@
   "Date added or modified": "8/9/21",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "2195",
-    "2196"
+    "2199",
+    "2200"
   ],
   "Index": [
-    "2195",
-    "2196"
+    "2199",
+    "2200"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

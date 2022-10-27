@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "631303960",
-  "Question Text": "How often do you snore?",
+  "Question Text- v1": "How often do you snore?",
   "Variable Label": "Often snoring",
   "Variable Name": [
     "SrvMRE_OftenSnoring_v1r0"
@@ -18,24 +18,24 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44515",
+  "Date added or modified": "11/15/21",
   "Formula for Index": [
-    "3418",
-    "3419",
-    "3420",
-    "3421",
     "3422",
-    "3423"
+    "3423",
+    "3424",
+    "3425",
+    "3426",
+    "3427"
   ],
   "Index": [
-    "3418",
-    "3419",
-    "3420",
-    "3421",
     "3422",
-    "3423"
+    "3423",
+    "3424",
+    "3425",
+    "3426",
+    "3427"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "718687985.json": "0",
     "471294296.json": "1",
     "198347104.json": "2",

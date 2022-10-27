@@ -6,7 +6,7 @@
     "726699695.json"
   ],
   "conceptId": "987107433",
-  "Question Text": "A person's appearance, style, dress, or mannerisms (the way they walk or talk) may affect the way people think of them. On average, how do you think people would describe your appearance, style, dress, or mannerisms?",
+  "Question Text- v1": "A person's appearance, style, dress, or mannerisms (the way they walk or talk) may affect the way people think of them. On average, how do you think people would describe your appearance, style, dress, or mannerisms?",
   "Variable Label": "Appearance, style, dress, mannerisms",
   "Variable Name": [
     "SrvBOH_Appearance_v1r0"
@@ -21,26 +21,26 @@
   "Date added or modified": "8/18/21",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "1102",
-    "1103",
-    "1104",
-    "1105",
     "1106",
     "1107",
     "1108",
-    "1109"
+    "1109",
+    "1110",
+    "1111",
+    "1112",
+    "1113"
   ],
   "Index": [
-    "1102",
-    "1103",
-    "1104",
-    "1105",
     "1106",
     "1107",
     "1108",
-    "1109"
+    "1109",
+    "1110",
+    "1111",
+    "1112",
+    "1113"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "220083334.json": "0",
     "541300533.json": "1",
     "878286618.json": "2",

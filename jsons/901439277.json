@@ -12,7 +12,7 @@
     "RACEETH3"
   ],
   "conceptId": "901439277",
-  "Question Text": "Cambodian",
+  "Question Text- v1": "Cambodian",
   "Variable Label": "Cambodian",
   "Variable Name": [
     "SrvBOH_Cambodian_v1r0"
@@ -27,14 +27,14 @@
   "Notes": "Only display if RACEETH = Asian",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "890",
-    "891"
+    "894",
+    "895"
   ],
   "Index": [
-    "890",
-    "891"
+    "894",
+    "895"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

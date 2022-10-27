@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "576",
-  "Index": "576",
+  "Formula for Index": "580",
+  "Index": "580",
   "Primary Source": [
     "237817859.json"
   ],
@@ -8,14 +8,14 @@
     "117044491.json"
   ],
   "conceptId": "735399790",
-  "Question Text": "NORC Payment Chosen",
+  "Question Text- v1": "NORC Payment Chosen",
   "Variable Label": "Payment Chosen",
   "Variable Name": [
     "HDPaym_PaymChosen_v1r0"
   ],
   "Variable Type": "Char",
   "Variable Length": "40",
-  "Format/Value": "example: Starbucks eGift",
+  "Format/Value - r0": "example: Starbucks eGift",
   "Required": "Yes, required for NORC",
   "PII": "No",
   "Notes": "Type of payment chosen/what kind. Repeated measures variable associated with Round. Left as empty string field for now, payment chosen will be sent by NORC. Value will pull from Tango Card Catalog. Payment options change dynamically based on Tango catalog",

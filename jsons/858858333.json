@@ -6,7 +6,7 @@
     "965707586.json"
   ],
   "conceptId": "858858333",
-  "Question Text": "What is the highest SPF number of the sunscreen you use most often?",
+  "Question Text- v1": "What is the highest SPF number of the sunscreen you use most often?",
   "Variable Label": "Highest SPF number used most often",
   "Variable Name": [
     "SrvSAS_SPFHighestNum_v1r0"
@@ -18,24 +18,24 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44523",
+  "Date added or modified": "11/23/21",
   "Formula for Index": [
-    "4519",
-    "4520",
-    "4521",
-    "4522",
     "4523",
-    "4524"
+    "4524",
+    "4525",
+    "4526",
+    "4527",
+    "4528"
   ],
   "Index": [
-    "4519",
-    "4520",
-    "4521",
-    "4522",
     "4523",
-    "4524"
+    "4524",
+    "4525",
+    "4526",
+    "4527",
+    "4528"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "445549128.json": "0",
     "995736452.json": "1",
     "120045322.json": "2",

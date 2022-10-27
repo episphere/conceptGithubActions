@@ -16,7 +16,7 @@
     "LANG"
   ],
   "conceptId": "733789220",
-  "Question Text": "French",
+  "Question Text- v1": "French",
   "Variable Label": "French",
   "Variable Name": [
     "SrvBOH_French_v1r0",
@@ -33,16 +33,16 @@
   "Notes": "Only display if RACEETH = White",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "1015",
-    "1016"
+    "1019",
+    "1020"
   ],
   "Index": [
-    "1015",
-    "1016"
+    "1019",
+    "1020"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   },
-  "Date added or modified": "44453"
+  "Date added or modified": "9/14/21"
 }

@@ -12,7 +12,7 @@
     "RACEETH4"
   ],
   "conceptId": "487027241",
-  "Question Text": "Jamaican",
+  "Question Text- v1": "Jamaican",
   "Variable Label": "Jamaican",
   "Variable Name": [
     "SrvBOH_Jamaican_v1r0"
@@ -27,14 +27,14 @@
   "Notes": "Only display if RACEETH = Black, African American, or African",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "923",
-    "924"
+    "927",
+    "928"
   ],
   "Index": [
-    "923",
-    "924"
+    "927",
+    "928"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

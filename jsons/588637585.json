@@ -12,7 +12,7 @@
     "GRID_HOUSE2"
   ],
   "conceptId": "588637585",
-  "Question Text": "Caring for pets (walking dogs, feeding, playing, grooming) time per day",
+  "Question Text- v1": "Caring for pets (walking dogs, feeding, playing, grooming) time per day",
   "Variable Label": "Caring for pets (walking dogs, feeding, playing, grooming) time per day",
   "Variable Name": [
     "SrvMRE_CaringForPetsTm_v1r0"
@@ -25,26 +25,26 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Grid Question - Only display if HOUSE2C =0 or no response",
-  "Date added or modified": "44620",
+  "Date added or modified": "2/28/22",
   "Formula for Index": [
-    "2927",
-    "2928",
-    "2929",
-    "2930",
     "2931",
     "2932",
-    "2933"
+    "2933",
+    "2934",
+    "2935",
+    "2936",
+    "2937"
   ],
   "Index": [
-    "2927",
-    "2928",
-    "2929",
-    "2930",
     "2931",
     "2932",
-    "2933"
+    "2933",
+    "2934",
+    "2935",
+    "2936",
+    "2937"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "428999623.json": "0",
     "248303092.json": "1",
     "206020811.json": "2",

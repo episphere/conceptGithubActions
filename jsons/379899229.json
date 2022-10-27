@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2201",
-  "Index": "2201",
+  "Formula for Index": "2205",
+  "Index": "2205",
   "Primary Source": [
     "129084651.json"
   ],
@@ -14,7 +14,7 @@
     "ALTADDRESS2"
   ],
   "conceptId": "379899229",
-  "Question Text": "Alternative address zip",
+  "Question Text- v1": "Alternative address zip",
   "Variable Label": "Zip",
   "Variable Name": [
     "SrvBOH_Zip_v1r0"
@@ -24,7 +24,7 @@
   ],
   "Variable Type": "Char",
   "Variable Length": "8",
-  "Format/Value": "N/A",
+  "Format/Value - r0": "N/A",
   "Required": "No",
   "PII": "Yes",
   "Notes": "Populated from Google Addresses",

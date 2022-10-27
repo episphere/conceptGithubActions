@@ -6,7 +6,7 @@
     "726699695.json"
   ],
   "conceptId": "887697329",
-  "Question Text": "Child 1-Thinking of [child initials or nickname/your [oldest/next oldest]child], what biological sex was this child assigned at birth?",
+  "Question Text- v1": "Child 1-Thinking of [child initials or nickname/your [oldest/next oldest]child], what biological sex was this child assigned at birth?",
   "Variable Label": "Child 1 sex at birth",
   "Variable Name": [
     "SrvBOH_Child1Sex_v1r0"
@@ -18,21 +18,21 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44551",
+  "Date added or modified": "12/21/21",
   "Question Type": "Optional Multiple Choice, Loops",
   "Formula for Index": [
-    "1966",
-    "1967",
-    "1968",
-    "1969"
+    "1970",
+    "1971",
+    "1972",
+    "1973"
   ],
   "Index": [
-    "1966",
-    "1967",
-    "1968",
-    "1969"
+    "1970",
+    "1971",
+    "1972",
+    "1973"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "536341288.json": "0",
     "654207589.json": "1",
     "576796184.json": "2",

@@ -6,7 +6,7 @@
     "965707586.json"
   ],
   "conceptId": "859228803",
-  "Question Text": "When was the last time you used electronic marijuana delivery devices that can be vaped?",
+  "Question Text- v1": "When was the last time you used electronic marijuana delivery devices that can be vaped?",
   "Variable Label": "Last used electronic marijuana delivery devices",
   "Variable Name": [
     "SrvSAS_UseEMJDevL_v1r0"
@@ -18,18 +18,18 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44494",
+  "Date added or modified": "10/25/21",
   "Formula for Index": [
-    "4100",
-    "4101",
-    "4102"
+    "4104",
+    "4105",
+    "4106"
   ],
   "Index": [
-    "4100",
-    "4101",
-    "4102"
+    "4104",
+    "4105",
+    "4106"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "317567178.json": "0",
     "484055234.json": "1",
     "802197176.json": "2"

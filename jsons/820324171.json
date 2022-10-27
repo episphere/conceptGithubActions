@@ -6,7 +6,7 @@
     "726699695.json"
   ],
   "conceptId": "820324171",
-  "Question Text": "When you were about 10 years old, compared to average weight, would you describe yourself as",
+  "Question Text- v1": "When you were about 10 years old, compared to average weight, would you describe yourself as",
   "Variable Label": "10 year old weight",
   "Variable Name": [
     "SrvBOH_10YrWeight_v1r0"
@@ -17,19 +17,19 @@
   "Variable Type": "Num",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44467",
+  "Date added or modified": "9/28/21",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "1496",
-    "1497",
-    "1498"
+    "1500",
+    "1501",
+    "1502"
   ],
   "Index": [
-    "1496",
-    "1497",
-    "1498"
+    "1500",
+    "1501",
+    "1502"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "176904165.json": "0",
     "902131456.json": "1",
     "839266527.json": "2"

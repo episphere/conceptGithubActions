@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "164595895",
-  "Question Text": "In just the past 12 months, what was the usual length of your menstrual cycle?",
+  "Question Text- v1": "In just the past 12 months, what was the usual length of your menstrual cycle?",
   "Variable Label": "Days long recent menstrual cycle",
   "Variable Name": [
     "SrvMRE_PeriodLength12M_v1r0"
@@ -18,23 +18,23 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44474",
+  "Date added or modified": "10/5/21",
   "IMS Review Notes": "Changed BOH to MRE in secondary source",
   "Formula for Index": [
-    "2458",
-    "2459",
-    "2460",
-    "2461",
-    "2462"
+    "2462",
+    "2463",
+    "2464",
+    "2465",
+    "2466"
   ],
   "Index": [
-    "2458",
-    "2459",
-    "2460",
-    "2461",
-    "2462"
+    "2462",
+    "2463",
+    "2464",
+    "2465",
+    "2466"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "650420270.json": "0",
     "113064256.json": "1",
     "388370628.json": "2",

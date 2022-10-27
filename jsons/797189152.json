@@ -12,7 +12,7 @@
     "MHGROUP9"
   ],
   "conceptId": "797189152",
-  "Question Text": "Tonsils removed (tonsillectomy)",
+  "Question Text- v1": "Tonsils removed (tonsillectomy)",
   "Variable Label": "Tonsils removed (tonsillectomy)",
   "Variable Name": [
     "SrvBOH_Tonsillectomy_v1r0"
@@ -26,14 +26,14 @@
   "PII": "No",
   "Question Type": "Optional Select All that Apply, Displayif in One or More Responses",
   "Formula for Index": [
-    "1351",
-    "1352"
+    "1355",
+    "1356"
   ],
   "Index": [
-    "1351",
-    "1352"
+    "1355",
+    "1356"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

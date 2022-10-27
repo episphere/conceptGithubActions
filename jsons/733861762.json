@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "733861762",
-  "Question Text": "When was the last time you took Celebrex (celecoxib)?",
+  "Question Text- v1": "When was the last time you took Celebrex (celecoxib)?",
   "Variable Label": "Last time took Celebrex (celecoxib)?",
   "Variable Name": [
     "SrvMRE_CelebrexTime_v1r0"
@@ -20,16 +20,16 @@
   "PII": "No",
   "Notes": "Only display if PAINREL1 = 5",
   "Formula for Index": [
-    "2275",
-    "2276",
-    "2277"
+    "2279",
+    "2280",
+    "2281"
   ],
   "Index": [
-    "2275",
-    "2276",
-    "2277"
+    "2279",
+    "2280",
+    "2281"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "317567178.json": "0",
     "484055234.json": "1",
     "802197176.json": "2"

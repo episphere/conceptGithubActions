@@ -12,7 +12,7 @@
     "ACIDSUP"
   ],
   "conceptId": "449861632",
-  "Question Text": "over-the-counter H2 receptor blockers",
+  "Question Text- v1": "over-the-counter H2 receptor blockers",
   "Variable Label": "over-the-counter H2 receptor blockers",
   "Variable Name": [
     "SrvMRE_H2RecBlockerOC_v1r0"
@@ -25,14 +25,14 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "2411",
-    "2412"
+    "2415",
+    "2416"
   ],
   "Index": [
-    "2411",
-    "2412"
+    "2415",
+    "2416"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

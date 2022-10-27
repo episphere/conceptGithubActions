@@ -12,7 +12,7 @@
     "MHGROUP3"
   ],
   "conceptId": "731115613",
-  "Question Text": "Diverticulitis or Diverticulosis",
+  "Question Text- v1": "Diverticulitis or Diverticulosis",
   "Variable Label": "Diverticulitis or Diverticulosis",
   "Variable Name": [
     "SrvBOH_Divert_v1r0"
@@ -26,14 +26,14 @@
   "PII": "No",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "1194",
-    "1195"
+    "1198",
+    "1199"
   ],
   "Index": [
-    "1194",
-    "1195"
+    "1198",
+    "1199"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

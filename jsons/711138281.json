@@ -16,7 +16,7 @@
     "BSNSSTYP2"
   ],
   "conceptId": "711138281",
-  "Question Text": "Wholesale or distributor",
+  "Question Text- v1": "Wholesale or distributor",
   "Variable Label": "Wholesale or distributor",
   "Variable Name": [
     "SrvBOH_WholesaleC_v1r0",
@@ -30,17 +30,17 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44482",
+  "Date added or modified": "10/13/21",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "2117",
-    "2118"
+    "2121",
+    "2122"
   ],
   "Index": [
-    "2117",
-    "2118"
+    "2121",
+    "2122"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

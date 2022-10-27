@@ -6,7 +6,7 @@
     "726699695.json"
   ],
   "conceptId": "512167179",
-  "Question Text": "Have you ever used prescription medication to treat the severe or ongoing acne?",
+  "Question Text- v1": "Have you ever used prescription medication to treat the severe or ongoing acne?",
   "Variable Label": "Acne med",
   "Variable Name": [
     "SrvBOH_AcneMed_v1r0"
@@ -20,14 +20,14 @@
   "PII": "No",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "1630",
-    "1631"
+    "1634",
+    "1635"
   ],
   "Index": [
-    "1630",
-    "1631"
+    "1634",
+    "1635"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

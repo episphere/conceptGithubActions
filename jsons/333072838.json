@@ -6,7 +6,7 @@
     "965707586.json"
   ],
   "conceptId": "333072838",
-  "Question Text": "Did you ever use e-cigarettes or other vaping devices for nicotine or tobacco every day?",
+  "Question Text- v1": "Did you ever use e-cigarettes or other vaping devices for nicotine or tobacco every day?",
   "Variable Label": "Ever use e-cigarettes or other vaping devices every day",
   "Variable Name": [
     "SrvSAS_ECigEveryDay_v1r0"
@@ -18,16 +18,16 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44494",
+  "Date added or modified": "10/25/21",
   "Formula for Index": [
-    "3556",
-    "3557"
+    "3560",
+    "3561"
   ],
   "Index": [
-    "3556",
-    "3557"
+    "3560",
+    "3561"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

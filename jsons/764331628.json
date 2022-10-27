@@ -12,7 +12,7 @@
     "RACEETH5"
   ],
   "conceptId": "764331628",
-  "Question Text": "Dominican",
+  "Question Text- v1": "Dominican",
   "Variable Label": "Dominican",
   "Variable Name": [
     "SrvBOH_Dominican_v1r0"
@@ -27,14 +27,14 @@
   "Notes": "Only display if RACEETH = Hispanic, Latino, or Spanish",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "942",
-    "943"
+    "946",
+    "947"
   ],
   "Index": [
-    "942",
-    "943"
+    "946",
+    "947"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

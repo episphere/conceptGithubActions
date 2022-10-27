@@ -12,7 +12,7 @@
     "ALCOHOL7"
   ],
   "conceptId": "732465277",
-  "Question Text": "Interactions with medications",
+  "Question Text- v1": "Interactions with medications",
   "Variable Label": "Interactions with medications",
   "Variable Name": [
     "SrvSAS_InteractMeds_v1r0"
@@ -24,16 +24,16 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44489",
+  "Date added or modified": "10/20/21",
   "Formula for Index": [
-    "4275",
-    "4276"
+    "4279",
+    "4280"
   ],
   "Index": [
-    "4275",
-    "4276"
+    "4279",
+    "4280"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

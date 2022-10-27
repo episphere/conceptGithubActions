@@ -12,7 +12,7 @@
     "CURWORKT1"
   ],
   "conceptId": "158795242",
-  "Question Text": "Car, van, or truck (includes carpools or van pools) commute to work",
+  "Question Text- v1": "Car, van, or truck (includes carpools or van pools) commute to work",
   "Variable Label": "Car, van, or truck (includes carpools or van pools) commute to current work",
   "Variable Name": [
     "SrvLAW_CurWorkCar_v1r0"
@@ -24,16 +24,16 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44580",
+  "Date added or modified": "1/19/22",
   "Formula for Index": [
-    "5655",
-    "5656"
+    "5680",
+    "5681"
   ],
   "Index": [
-    "5655",
-    "5656"
+    "5680",
+    "5681"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

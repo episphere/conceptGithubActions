@@ -12,7 +12,7 @@
     "GRID_PREWORKT7"
   ],
   "conceptId": "572209771",
-  "Question Text": "Car, van, or truck (includes carpools or van pools)- Thinking about the one-way trip from [insert address from PREWORK1 - PREWORK3/this address] to your home on a usual workday, about how much time did you usually spend in each type of transportation?",
+  "Question Text- v1": "Car, van, or truck (includes carpools or van pools)- Thinking about the one-way trip from [insert address from PREWORK1 - PREWORK3/this address] to your home on a usual workday, about how much time did you usually spend in each type of transportation?",
   "Variable Label": "Time, Car, van, or truck (includes carpools or van pools) commute from past work",
   "Variable Name": [
     "SrvLAW_PreWorkT7A_v1r0"
@@ -26,20 +26,20 @@
   "PII": "No",
   "Date added or modified": "2/28/22",
   "Formula for Index": [
-    "5915",
-    "5916",
-    "5917",
-    "5918",
-    "5919"
+    "5940",
+    "5941",
+    "5942",
+    "5943",
+    "5944"
   ],
   "Index": [
-    "5915",
-    "5916",
-    "5917",
-    "5918",
-    "5919"
+    "5940",
+    "5941",
+    "5942",
+    "5943",
+    "5944"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "428999623.json": "0",
     "248303092.json": "1",
     "998679771.json": "2",

@@ -12,7 +12,7 @@
     "GRID_SECSM"
   ],
   "conceptId": "359443374",
-  "Question Text": "During each of these age ranges, how many people in your household smoked tobacco (such as cigarettes, cigars, or pipes) in your presence? Please do not include yourself.                      Birth to 5 years of age",
+  "Question Text- v1": "During each of these age ranges, how many people in your household smoked tobacco (such as cigarettes, cigars, or pipes) in your presence? Please do not include yourself.                      Birth to 5 years of age",
   "Variable Label": "Birth to 5 years of age",
   "Variable Name": [
     "SrvSAS_NumSmoke5_v1r0"
@@ -24,26 +24,26 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44627",
+  "Date added or modified": "3/7/22",
   "Formula for Index": [
-    "3925",
-    "3926",
-    "3927",
-    "3928",
     "3929",
     "3930",
-    "3931"
+    "3931",
+    "3932",
+    "3933",
+    "3934",
+    "3935"
   ],
   "Index": [
-    "3925",
-    "3926",
-    "3927",
-    "3928",
     "3929",
     "3930",
-    "3931"
+    "3931",
+    "3932",
+    "3933",
+    "3934",
+    "3935"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "503218834.json": "0",
     "759356722.json": "1",
     "668407984.json": "2",

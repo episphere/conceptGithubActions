@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "690018400",
-  "Question Text": "Fall",
+  "Question Text- v1": "Fall",
   "Variable Label": "Fall",
   "Variable Name": [
     "SrvMRE_Fall_v1r0"
@@ -19,7 +19,7 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if LAWN1=0",
-  "Date added or modified": "44361",
+  "Date added or modified": "6/14/21",
   "Source Question": [
     [
       "442059084.json",
@@ -43,10 +43,6 @@
     ]
   ],
   "Formula for Index": [
-    "3013",
-    "3014",
-    "3015",
-    "3016",
     "3017",
     "3018",
     "3019",
@@ -61,13 +57,13 @@
     "3028",
     "3029",
     "3030",
-    "3031"
+    "3031",
+    "3032",
+    "3033",
+    "3034",
+    "3035"
   ],
   "Index": [
-    "3013",
-    "3014",
-    "3015",
-    "3016",
     "3017",
     "3018",
     "3019",
@@ -82,9 +78,13 @@
     "3028",
     "3029",
     "3030",
-    "3031"
+    "3031",
+    "3032",
+    "3033",
+    "3034",
+    "3035"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   },

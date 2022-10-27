@@ -12,7 +12,7 @@
     "SEX2"
   ],
   "conceptId": "846483618",
-  "Question Text": "Vagina",
+  "Question Text- v1": "Vagina",
   "Variable Label": "Vagina",
   "Variable Name": [
     "SrvBOH_Vagina_v1r0"
@@ -25,17 +25,17 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if SEX=Intersex or other",
-  "Date added or modified": "44456",
+  "Date added or modified": "9/17/21",
   "Question Type": "Required Select All that Apply",
   "Formula for Index": [
-    "1084",
-    "1085"
+    "1088",
+    "1089"
   ],
   "Index": [
-    "1084",
-    "1085"
+    "1088",
+    "1089"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

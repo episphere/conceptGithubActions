@@ -1,26 +1,26 @@
 {
-  "Formula for Index": "499",
-  "Index": "499",
+  "Formula for Index": "503",
+  "Index": "503",
   "Primary Source": [
     "819848608.json"
   ],
   "Secondary Source": [
-    "727286893.json"
+    "664882224.json"
   ],
   "conceptId": "452847912",
-  "Question Text": "Urine Location ID",
+  "Question Text- v1": "Urine Location ID",
   "Variable Label": "Urine Location ID",
   "Variable Name": [
-    "BioShip_BloodLocalID_v1r0"
+    "BioClin_SiteUrLocation_v1r0"
   ],
-  "Variable Type": "TBD",
-  "Variable Length": "TBD",
-  "Format/Value": "N/A",
+  "Variable Type": "Num",
+  "Variable Length": "4",
+  "Format/Value - r0": "N/A",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Format and length TBD Kaiser",
-  "Dictionary": "Biospecimen Shipping",
+  "Notes": "Sent by KP",
+  "Dictionary": "Biospecimen Clinical",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "8/1/22"
+  "Date added or modified": "10/26/22"
 }

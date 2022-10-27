@@ -6,7 +6,7 @@
     "635994596.json"
   ],
   "conceptId": "153713899",
-  "Question Text": "HIPAA revocation signed",
+  "Question Text- v1": "HIPAA revocation signed",
   "Variable Label": "Signed HIPAA revocation form",
   "Variable Name": [
     "HdWd_HIPAArevokesign_v1r0"
@@ -21,14 +21,14 @@
   "Default Variable": "Yes",
   "Date added or modified": "7/19/21",
   "Formula for Index": [
-    "700",
-    "701"
+    "704",
+    "705"
   ],
   "Index": [
-    "700",
-    "701"
+    "704",
+    "705"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

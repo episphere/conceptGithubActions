@@ -12,7 +12,7 @@
     "SrvMw_MWUSE_v1r0"
   ],
   "conceptId": "523660949",
-  "Question Text": "Mouthwash for dry mouth (such as biotène®)",
+  "Question Text- v1": "Mouthwash for dry mouth (such as biotène®)",
   "Variable Label": "Mouthwash for dry mouth",
   "Variable Name": [
     "SrvMw_MWDRY1_v1r0"
@@ -29,14 +29,14 @@
   "Question Type": "Optional Select All that Apply",
   "IMS Review Notes": "GRID ID/Source Variable Name (Column H) needed",
   "Formula for Index": [
-    "6553",
-    "6554"
+    "6579",
+    "6580"
   ],
   "Index": [
-    "6553",
-    "6554"
+    "6579",
+    "6580"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

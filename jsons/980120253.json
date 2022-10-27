@@ -12,7 +12,7 @@
     "GRID_HOUSE"
   ],
   "conceptId": "980120253",
-  "Question Text": "Light household chores (such as cooking, tidying up, laundry, or dusting)",
+  "Question Text- v1": "Light household chores (such as cooking, tidying up, laundry, or dusting)",
   "Variable Label": "Light household chores (such as cooking, tidying up, laundry, or dusting)",
   "Variable Name": [
     "SrvMRE_LightChores_v1r0"
@@ -25,26 +25,26 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Grid Question",
-  "Date added or modified": "44515",
+  "Date added or modified": "11/15/21",
   "Formula for Index": [
-    "2878",
-    "2879",
-    "2880",
-    "2881",
     "2882",
     "2883",
-    "2884"
+    "2884",
+    "2885",
+    "2886",
+    "2887",
+    "2888"
   ],
   "Index": [
-    "2878",
-    "2879",
-    "2880",
-    "2881",
     "2882",
     "2883",
-    "2884"
+    "2884",
+    "2885",
+    "2886",
+    "2887",
+    "2888"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "648960871.json": "44",
     "239152340.json": "1",
     "582006876.json": "2",

@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2200",
-  "Index": "2200",
+  "Formula for Index": "2204",
+  "Index": "2204",
   "Primary Source": [
     "129084651.json"
   ],
@@ -14,7 +14,7 @@
     "ALTADDRESS2"
   ],
   "conceptId": "970839481",
-  "Question Text": "Alternative address state",
+  "Question Text- v1": "Alternative address state",
   "Variable Label": "State",
   "Variable Name": [
     "SrvBOH_State_v1r0"
@@ -24,7 +24,7 @@
   ],
   "Variable Type": "Char",
   "Variable Length": "48",
-  "Format/Value": "N/A",
+  "Format/Value - r0": "N/A",
   "Required": "No",
   "PII": "Yes",
   "Notes": "Populated from Google Addresses",

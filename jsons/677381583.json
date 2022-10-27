@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "6668",
-  "Index": "6668",
+  "Formula for Index": "6694",
+  "Index": "6694",
   "Primary Source": [
     "129084651.json"
   ],
@@ -8,14 +8,14 @@
     "206639461.json"
   ],
   "conceptId": "677381583",
-  "Question Text": "Completed Standalone Surveys - Biospecimen, Menstrual Cycle, DHQ, etc.",
+  "Question Text- v1": "Completed Standalone Surveys - Biospecimen, Menstrual Cycle, DHQ, etc.",
   "Variable Label": "Completed Standalone Surveys",
   "Variable Name": [
     "SrvAll_StndAlSrvCompl_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "3",
-  "Format/Value": "N/A",
+  "Format/Value - r0": "N/A",
   "Required": "Yes",
   "PII": "No",
   "Notes": "Used to populate PWA participant banner with the number of completed standalone surveys. Derived on the back end.",

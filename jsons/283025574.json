@@ -20,7 +20,7 @@
     "CHILDCANC2"
   ],
   "conceptId": "283025574",
-  "Question Text": "Cervical",
+  "Question Text- v1": "Cervical",
   "Variable Label": "Cervical",
   "Variable Name": [
     "SrvBOH_MCervicalCancer_v1r0",
@@ -38,14 +38,14 @@
   "PII": "No",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "1658",
-    "1659"
+    "1662",
+    "1663"
   ],
   "Index": [
-    "1658",
-    "1659"
+    "1662",
+    "1663"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

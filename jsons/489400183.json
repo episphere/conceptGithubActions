@@ -24,7 +24,7 @@
     "CHILDCANC2"
   ],
   "conceptId": "489400183",
-  "Question Text": "Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.)",
+  "Question Text- v1": "Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.)",
   "Variable Label": "Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.)",
   "Variable Name": [
     "SrvBOH_MHeadNeckCancer_v1r0",
@@ -44,14 +44,14 @@
   "PII": "No",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "1664",
-    "1665"
+    "1668",
+    "1669"
   ],
   "Index": [
-    "1664",
-    "1665"
+    "1668",
+    "1669"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

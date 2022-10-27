@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "953510929",
-  "Question Text": "During the season[s] in the past 12 months that you went jogging or running, about how often did you do this activity?",
+  "Question Text- v1": "During the season[s] in the past 12 months that you went jogging or running, about how often did you do this activity?",
   "Variable Label": "During the season[s] in the past 12 months that you went jogging or running, about how often did you do this activity?",
   "Variable Name": [
     "SrvMRE_JogRunOften_v1r0"
@@ -19,24 +19,24 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if EXEREC1=1",
-  "Date added or modified": "44515",
+  "Date added or modified": "11/15/21",
   "Formula for Index": [
-    "3116",
-    "3117",
-    "3118",
-    "3119",
     "3120",
-    "3121"
+    "3121",
+    "3122",
+    "3123",
+    "3124",
+    "3125"
   ],
   "Index": [
-    "3116",
-    "3117",
-    "3118",
-    "3119",
     "3120",
-    "3121"
+    "3121",
+    "3122",
+    "3123",
+    "3124",
+    "3125"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "239152340.json": "0",
     "582006876.json": "1",
     "645894551.json": "2",

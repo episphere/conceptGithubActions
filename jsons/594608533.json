@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "3520",
-  "Index": "3520",
+  "Formula for Index": "3524",
+  "Index": "3524",
   "Primary Source": [
     "129084651.json"
   ],
@@ -8,7 +8,7 @@
     "965707586.json"
   ],
   "conceptId": "594608533",
-  "Question Text": "On days that you smoked when you were age [X] to age [Y / 17], about how many cigarettes did you smoke per day?",
+  "Question Text- v1": "On days that you smoked when you were age [X] to age [Y / 17], about how many cigarettes did you smoke per day?",
   "Variable Label": "How many cigarettes used, Age [X] to age [Y / 17]",
   "Variable Name": [
     "SrvSAS_CigsUsed17_v1r0"
@@ -18,8 +18,8 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Format/Value": "N/A",
+  "Format/Value - r0": "N/A",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44536"
+  "Date added or modified": "12/6/21"
 }

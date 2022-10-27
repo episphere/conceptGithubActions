@@ -12,7 +12,7 @@
     "RACEETH3"
   ],
   "conceptId": "571633051",
-  "Question Text": "Pakistani",
+  "Question Text- v1": "Pakistani",
   "Variable Label": "Pakistani",
   "Variable Name": [
     "SrvBOH_Pakistani_v1r0"
@@ -27,14 +27,14 @@
   "Notes": "Only display if RACEETH = Asian",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "902",
-    "903"
+    "906",
+    "907"
   ],
   "Index": [
-    "902",
-    "903"
+    "906",
+    "907"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

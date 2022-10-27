@@ -6,7 +6,7 @@
     "726699695.json"
   ],
   "conceptId": "418392907",
-  "Question Text": "Child 1- Is [CHILD INITIALS OR NICKNAME/your CHILD] still living?",
+  "Question Text- v1": "Child 1- Is [CHILD INITIALS OR NICKNAME/your CHILD] still living?",
   "Variable Label": "Child 1 living",
   "Variable Name": [
     "SrvBOH_Child1Living_v1r0"
@@ -20,21 +20,21 @@
   "PII": "No",
   "Question Type": "Optional Multiple Choice, Loops",
   "Formula for Index": [
-    "1975",
-    "1976",
-    "1977"
+    "1979",
+    "1980",
+    "1981"
   ],
   "Index": [
-    "1975",
-    "1976",
-    "1977"
+    "1979",
+    "1980",
+    "1981"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1",
     "178420302.json": "77"
   },
   "Date added or modified": [
-    "44371"
+    "6/24/21"
   ]
 }

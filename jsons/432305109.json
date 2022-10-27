@@ -12,7 +12,7 @@
     "RACEETH5"
   ],
   "conceptId": "432305109",
-  "Question Text": "Mexican or Mexican American",
+  "Question Text- v1": "Mexican or Mexican American",
   "Variable Label": "Mexican or Mexican American",
   "Variable Name": [
     "SrvBOH_Mexican_v1r0"
@@ -27,14 +27,14 @@
   "Notes": "Only display if RACEETH = Hispanic, Latino, or Spanish",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "948",
-    "949"
+    "952",
+    "953"
   ],
   "Index": [
-    "948",
-    "949"
+    "952",
+    "953"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

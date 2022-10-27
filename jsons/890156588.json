@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "890156588",
-  "Question Text": "Did you get a COVID-19 vaccination?",
+  "Question Text- v1": "Did you get vaccinated against COVID-19?",
   "Variable Label": "COVID vaccination",
   "Variable Name": [
     "SrvBlU_COV25_v1r0"
@@ -17,18 +17,20 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
+  "Date added or modified": "10/21/22",
   "Question Type": "Optional Multiple Choice",
+  "IMS Review Notes": "Updated Question text",
   "Formula for Index": [
-    "6470",
-    "6471",
-    "6472"
+    "6495",
+    "6496",
+    "6497"
   ],
   "Index": [
-    "6470",
-    "6471",
-    "6472"
+    "6495",
+    "6496",
+    "6497"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1",
     "178420302.json": "77"

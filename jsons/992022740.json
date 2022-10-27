@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "992022740",
-  "Question Text": "During the season[s] in the past 12 months that you did moderate outdoor chores (such as weeding, raking, or mowing the lawn), about how often did you do these chores outside of work?",
+  "Question Text- v1": "During the season[s] in the past 12 months that you did moderate outdoor chores (such as weeding, raking, or mowing the lawn), about how often did you do these chores outside of work?",
   "Variable Label": "How often days moderate outdoor chores (such as weeding, raking, or mowing the lawn)",
   "Variable Name": [
     "SrvMRE_ModChoreOften_v1r0"
@@ -19,24 +19,24 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if LAWN1=0",
-  "Date added or modified": "44515",
+  "Date added or modified": "11/15/21",
   "Formula for Index": [
-    "3032",
-    "3033",
-    "3034",
-    "3035",
     "3036",
-    "3037"
+    "3037",
+    "3038",
+    "3039",
+    "3040",
+    "3041"
   ],
   "Index": [
-    "3032",
-    "3033",
-    "3034",
-    "3035",
     "3036",
-    "3037"
+    "3037",
+    "3038",
+    "3039",
+    "3040",
+    "3041"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "239152340.json": "0",
     "582006876.json": "1",
     "645894551.json": "2",

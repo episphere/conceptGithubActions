@@ -6,7 +6,7 @@
     "726699695.json"
   ],
   "conceptId": "847533056",
-  "Question Text": "Is this your longest-held job?",
+  "Question Text- v1": "Is this your longest-held job?",
   "Variable Label": "Longest held job",
   "Variable Name": [
     "SrvBOH_LongestJob_v1r0"
@@ -20,14 +20,14 @@
   "PII": "No",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "2144",
-    "2145"
+    "2148",
+    "2149"
   ],
   "Index": [
-    "2144",
-    "2145"
+    "2148",
+    "2149"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

@@ -12,7 +12,7 @@
     "MHGROUP3"
   ],
   "conceptId": "545628561",
-  "Question Text": "Gallstones (Biliary Stones)",
+  "Question Text- v1": "Gallstones (Biliary Stones)",
   "Variable Label": "Gallstones (Biliary Stones)",
   "Variable Name": [
     "SrvBOH_Gallstones_v1r0"
@@ -26,14 +26,14 @@
   "PII": "No",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "1202",
-    "1203"
+    "1206",
+    "1207"
   ],
   "Index": [
-    "1202",
-    "1203"
+    "1206",
+    "1207"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

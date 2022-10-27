@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "1550",
-  "Index": "1550",
+  "Formula for Index": "1554",
+  "Index": "1554",
   "Primary Source": [
     "129084651.json"
   ],
@@ -14,7 +14,7 @@
     "WTLOSS2_2535"
   ],
   "conceptId": "899840609",
-  "Question Text": "Other weight loss method between ages 25 and 35: Please describe [text box]",
+  "Question Text- v1": "Other weight loss method between ages 25 and 35: Please describe [text box]",
   "Variable Label": "Other: Please describe [text box]",
   "Variable Name": [
     "SrvBOH_OtherWtLossDes2_v1r0"
@@ -24,10 +24,10 @@
   ],
   "Variable Type": "Char",
   "Variable Length": "300",
-  "Format/Value": "N/A",
+  "Format/Value - r0": "N/A",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if WTLOSS2_2535 = 55",
-  "Date added or modified": "44454",
+  "Date added or modified": "9/15/21",
   "Question Type": "Optional Select All that Apply"
 }

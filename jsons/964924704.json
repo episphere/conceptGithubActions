@@ -16,7 +16,7 @@
     "LANG"
   ],
   "conceptId": "964924704",
-  "Question Text": "Vietnamese",
+  "Question Text- v1": "Vietnamese",
   "Variable Label": "Vietnamese",
   "Variable Name": [
     "SrvBOH_Viete_v1r0",
@@ -31,17 +31,17 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if RACEETH = Asian",
-  "Date added or modified": "44463",
+  "Date added or modified": "9/24/21",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "904",
-    "905"
+    "908",
+    "909"
   ],
   "Index": [
-    "904",
-    "905"
+    "908",
+    "909"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

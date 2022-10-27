@@ -12,7 +12,7 @@
     "SrvMw_HYGIENE_v1r0"
   ],
   "conceptId": "184513726",
-  "Question Text": "Teeth-whiteners (strips, etc.)",
+  "Question Text- v1": "Teeth-whiteners (strips, etc.)",
   "Variable Label": "Teeth-whiteners past month",
   "Variable Name": [
     "SrvMw_WHITE1_v1r0"
@@ -29,14 +29,14 @@
   "Question Type": "Optional Select All that Apply",
   "IMS Review Notes": "GRID ID/Source Variable Name (Column H) needed. Added a space between the period and In in the source questin (column G)",
   "Formula for Index": [
-    "6505",
-    "6506"
+    "6531",
+    "6532"
   ],
   "Index": [
-    "6505",
-    "6506"
+    "6531",
+    "6532"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

@@ -20,7 +20,7 @@
     "CHILDCANC2"
   ],
   "conceptId": "723614811",
-  "Question Text": "Uterine (endometrial)",
+  "Question Text- v1": "Uterine (endometrial)",
   "Variable Label": "Uterine (endometrial)",
   "Variable Name": [
     "SrvBOH_MUterineCancer_v1r0",
@@ -38,14 +38,14 @@
   "PII": "No",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "1690",
-    "1691"
+    "1694",
+    "1695"
   ],
   "Index": [
-    "1690",
-    "1691"
+    "1694",
+    "1695"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

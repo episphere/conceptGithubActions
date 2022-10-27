@@ -6,7 +6,7 @@
     "726699695.json"
   ],
   "conceptId": "946504570",
-  "Question Text": "Which of these best describes the type of testicle removal surgery that you had?",
+  "Question Text- v1": "Which of these best describes the type of testicle removal surgery that you had?",
   "Variable Label": "Testicle removal surgery",
   "Variable Name": [
     "SrvBOH_TestRemSurg_v1r0"
@@ -22,16 +22,16 @@
   "Date added or modified": "9/28/21",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "1450",
-    "1451",
-    "1452"
+    "1454",
+    "1455",
+    "1456"
   ],
   "Index": [
-    "1450",
-    "1451",
-    "1452"
+    "1454",
+    "1455",
+    "1456"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "770550588.json": "0",
     "970716952.json": "1",
     "535003378.json": "88"

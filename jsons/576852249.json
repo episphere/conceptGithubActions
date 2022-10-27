@@ -12,7 +12,7 @@
     "SLPROB2"
   ],
   "conceptId": "576852249",
-  "Question Text": "Throat/Uvula surgery",
+  "Question Text- v1": "Throat/Uvula surgery",
   "Variable Label": "Throat/Uvula surgery",
   "Variable Name": [
     "SrvMRE_ThroatSurgery_v1r0"
@@ -25,14 +25,14 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "3448",
-    "3449"
+    "3452",
+    "3453"
   ],
   "Index": [
-    "3448",
-    "3449"
+    "3452",
+    "3453"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

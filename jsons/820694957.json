@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "820694957",
-  "Question Text": "On non-workdays, do you wake up before the alarm rings?",
+  "Question Text- v1": "On non-workdays, do you wake up before the alarm rings?",
   "Variable Label": "Wake up before alarm clock non-workdays",
   "Variable Name": [
     "SrvMRE_UpBeforeAlarmNW_v1r0"
@@ -19,14 +19,14 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "3327",
-    "3328"
+    "3331",
+    "3332"
   ],
   "Index": [
-    "3327",
-    "3328"
+    "3331",
+    "3332"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

@@ -12,7 +12,7 @@
     "GRID_SRVBLU_COV20A_V1R0"
   ],
   "conceptId": "770190369",
-  "Question Text": "Shortness of breath - How long experienced COV20A",
+  "Question Text- v1": "Shortness of breath - How long experienced COV20A",
   "Variable Label": "Long COVID Shortness of breath duration",
   "Variable Name": [
     "SrvBlU_COV20A9_v1r0"
@@ -25,16 +25,16 @@
   "State Attribute": "No",
   "Question Type": "Grid with Multiple Choice Sub-Questions",
   "Formula for Index": [
-    "6352",
-    "6353",
-    "6354"
+    "6377",
+    "6378",
+    "6379"
   ],
   "Index": [
-    "6352",
-    "6353",
-    "6354"
+    "6377",
+    "6378",
+    "6379"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "232063618.json": "0",
     "948148236.json": "1",
     "692824372.json": "2"

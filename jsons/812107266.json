@@ -12,7 +12,7 @@
     "SrvMw_PERMTTHLOST_v1r0"
   ],
   "conceptId": "812107266",
-  "Question Text": "Yes, from accident or injury",
+  "Question Text- v1": "Yes, from accident or injury",
   "Variable Label": "Permanent teeth lost from accident or injury",
   "Variable Name": [
     "SrvMw_PERMTTHLOST1_v1r0"
@@ -29,14 +29,14 @@
   "Question Type": "Select All That Apply",
   "IMS Review Notes": "GRID ID/Source Variable Name (Column H) needed",
   "Formula for Index": [
-    "6603",
-    "6604"
+    "6629",
+    "6630"
   ],
   "Index": [
-    "6603",
-    "6604"
+    "6629",
+    "6630"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

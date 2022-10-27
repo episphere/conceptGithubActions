@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "798452445",
-  "Question Text": "Are you breastfeeding now?",
+  "Question Text- v1": "Are you breastfeeding now?",
   "Variable Label": "Breastfeeding",
   "Variable Name": [
     "SrvBlU_BRSTFD_v1r0"
@@ -20,14 +20,14 @@
   "Question Type": "Optional Multiple Choice",
   "IMS Review Notes": "Added a comma between: Urine,  and: and, in column E Secondary Source.",
   "Formula for Index": [
-    "6181",
-    "6182"
+    "6206",
+    "6207"
   ],
   "Index": [
-    "6181",
-    "6182"
+    "6206",
+    "6207"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

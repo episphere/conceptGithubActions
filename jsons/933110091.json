@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2035",
-  "Index": "2035",
+  "Formula for Index": "2039",
+  "Index": "2039",
   "Primary Source": [
     "129084651.json"
   ],
@@ -14,7 +14,7 @@
     "CHILDCANC2"
   ],
   "conceptId": "933110091",
-  "Question Text": "Child - another type of cancer: Please describe [text box]",
+  "Question Text- v1": "Child - another type of cancer: Please describe [text box]",
   "Variable Label": "Another type of cancer: Please describe [text box]",
   "Variable Name": [
     "SrvBOH_C1OtherCancDesc_v1r0"
@@ -24,9 +24,9 @@
   ],
   "Variable Type": "Char",
   "Variable Length": "300",
-  "Format/Value": "N/A",
+  "Format/Value - r0": "N/A",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44417",
+  "Date added or modified": "8/9/21",
   "Question Type": "Optional Select All that Apply, Loops"
 }

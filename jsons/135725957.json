@@ -24,7 +24,7 @@
     "CHILDCANC2"
   ],
   "conceptId": "135725957",
-  "Question Text": "Bladder",
+  "Question Text- v1": "Bladder",
   "Variable Label": "Bladder",
   "Variable Name": [
     "SrvBOH_MBladderCancer_v1r0",
@@ -44,14 +44,14 @@
   "PII": "No",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "1652",
-    "1653"
+    "1656",
+    "1657"
   ],
   "Index": [
-    "1652",
-    "1653"
+    "1656",
+    "1657"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

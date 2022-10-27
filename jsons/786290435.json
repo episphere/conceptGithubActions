@@ -12,7 +12,7 @@
     "RACEETH7"
   ],
   "conceptId": "786290435",
-  "Question Text": "Samoan",
+  "Question Text- v1": "Samoan",
   "Variable Label": "Samoan",
   "Variable Name": [
     "SrvBOH_Samoan_v1r0"
@@ -27,14 +27,14 @@
   "Notes": "Only display if RACEETH = Native Hawaiian or other Pacific Islander",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "998",
-    "999"
+    "1002",
+    "1003"
   ],
   "Index": [
-    "998",
-    "999"
+    "1002",
+    "1003"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

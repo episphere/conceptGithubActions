@@ -12,7 +12,7 @@
     "GRID_SRVBLU_COV19B_V1R0"
   ],
   "conceptId": "126794793",
-  "Question Text": "Not able to return to your usual activities - Since your diagnosis",
+  "Question Text- v1": "Not able to return to your usual activities - Since your diagnosis",
   "Variable Label": "Long COVID Return to usual activities",
   "Variable Name": [
     "SrvBlU_COV19B4_v1r0"
@@ -26,16 +26,16 @@
   "Question Type": "Grid with Multiple Choice Sub-Questions",
   "IMS Review Notes": "Updated column G Source Question",
   "Formula for Index": [
-    "6302",
-    "6303",
-    "6304"
+    "6327",
+    "6328",
+    "6329"
   ],
   "Index": [
-    "6302",
-    "6303",
-    "6304"
+    "6327",
+    "6328",
+    "6329"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "244354126.json": "0",
     "724612102.json": "1",
     "178780048.json": "2"

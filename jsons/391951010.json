@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "391951010",
-  "Question Text": "What was the outcome of this pregnancy?",
+  "Question Text- v1": "What was the outcome of this pregnancy?",
   "Variable Label": "Outcome pregnancy",
   "Variable Name": [
     "SrvMRE_PregOutcome_v1r0"
@@ -19,22 +19,22 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "2492",
-    "2493",
-    "2494",
-    "2495",
     "2496",
-    "2497"
+    "2497",
+    "2498",
+    "2499",
+    "2500",
+    "2501"
   ],
   "Index": [
-    "2492",
-    "2493",
-    "2494",
-    "2495",
     "2496",
-    "2497"
+    "2497",
+    "2498",
+    "2499",
+    "2500",
+    "2501"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "223216393.json": "0",
     "628445697.json": "1",
     "419220239.json": "2",
@@ -43,7 +43,7 @@
     "746038746.json": "99"
   },
   "Date added or modified": [
-    "44805",
+    "9/1/22",
     "9/1/22",
     "9/1/22",
     "9/1/22",

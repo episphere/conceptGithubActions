@@ -12,7 +12,7 @@
     "MHGROUP3"
   ],
   "conceptId": "406890409",
-  "Question Text": "Esophageal Acid Reflux (GERD)",
+  "Question Text- v1": "Esophageal Acid Reflux (GERD)",
   "Variable Label": "Esophageal Acid Reflux (GERD)",
   "Variable Name": [
     "SrvBOH_GERD_v1r0"
@@ -26,14 +26,14 @@
   "PII": "No",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "1186",
-    "1187"
+    "1190",
+    "1191"
   ],
   "Index": [
-    "1186",
-    "1187"
+    "1190",
+    "1191"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

@@ -12,7 +12,7 @@
     "PAINREL1"
   ],
   "conceptId": "800410166",
-  "Question Text": "Naproxen (such as Naprosyn, Anaprox, or Aleve)",
+  "Question Text- v1": "Naproxen (such as Naprosyn, Anaprox, or Aleve)",
   "Variable Label": "Naproxen (such as Naprosyn, Anaprox, or Aleve)",
   "Variable Name": [
     "SrvMRE_Naproxen_v1r0"
@@ -25,14 +25,14 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "2217",
-    "2218"
+    "2221",
+    "2222"
   ],
   "Index": [
-    "2217",
-    "2218"
+    "2221",
+    "2222"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

@@ -8,14 +8,14 @@
     "332759827.json"
   ],
   "conceptId": "371067537",
-  "Question Text": "Date of Birth derived from concatenating: RcrtUP_MOB_v1r0, RcrtUP_BD_v1r0, RcrtUP_YOB_v1r0",
+  "Question Text- v1": "Date of Birth derived from concatenating: RcrtUP_MOB_v1r0, RcrtUP_BD_v1r0, RcrtUP_YOB_v1r0",
   "Variable Label": "Date of Birth",
   "Variable Name": [
     "RcrtUP_DOB_v1r0"
   ],
   "Variable Type": "Date",
   "Variable Length": "8",
-  "Format/Value": "yyyymmdd",
+  "Format/Value - r0": "yyyymmdd",
   "Required": "Yes",
   "PII": "Yes",
   "Dictionary": "Recruitment Data Dictionary, Biospecimen Clinical, Biospecimen Research",

@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "642044281",
-  "Question Text": "In the 1 hour before you donated your mouthwash (saliva) sample, did you smoke, vape, or chew any products (including tobacco)?",
+  "Question Text- v1": "In the 1 hour before you donated your mouthwash (saliva) sample, did you smoke, vape, or chew any products (including tobacco)?",
   "Variable Label": "Tobacco Hour Before",
   "Variable Name": [
     "SrvMw_TOBACCOBEFORE_v1r0"
@@ -19,14 +19,14 @@
   "State Attribute": "No",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "6495",
-    "6496"
+    "6521",
+    "6522"
   ],
   "Index": [
-    "6495",
-    "6496"
+    "6521",
+    "6522"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

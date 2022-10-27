@@ -6,7 +6,7 @@
     "209454331.json"
   ],
   "conceptId": "101170406",
-  "Question Text": "Baseline EMR Push",
+  "Question Text- v1": "Baseline EMR Push",
   "Variable Label": "Baseline EMR Push",
   "Variable Name": [
     "EMRBl_Push_v1r0"
@@ -20,14 +20,14 @@
   "Default Variable": "No",
   "Question Type": "For BioSpm_Visit_v1r0, baseline is a format/value. But baseline is also a secondary source here; all given the same concept ID on Brian's end even though they're different in the master dictionary",
   "Formula for Index": [
-    "578",
-    "579"
+    "582",
+    "583"
   ],
   "Index": [
-    "578",
-    "579"
+    "582",
+    "583"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

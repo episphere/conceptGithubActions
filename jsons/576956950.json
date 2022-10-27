@@ -6,7 +6,7 @@
     "716117817.json"
   ],
   "conceptId": "576956950",
-  "Question Text": "1-Seasonal Review 1- In the past 20 years, have you spent a total of 24 months or more in any other seasonal or vacation homes in the U.S.?",
+  "Question Text- v1": "1-Seasonal Review 1- In the past 20 years, have you spent a total of 24 months or more in any other seasonal or vacation homes in the U.S.?",
   "Variable Label": "Another vacation home past 20 years",
   "Variable Name": [
     "SrvLAW_SeasAddOth1_v1r0"
@@ -19,14 +19,14 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "5082",
-    "5083"
+    "5088",
+    "5089"
   ],
   "Index": [
-    "5082",
-    "5083"
+    "5088",
+    "5089"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

@@ -6,7 +6,7 @@
     "232438133.json"
   ],
   "conceptId": "951357171",
-  "Question Text": "Has your menstrual period started?",
+  "Question Text- v1": "Has your menstrual period started?",
   "Variable Label": "Started menstrual period",
   "Variable Name": [
     "SrvBlU_MENS1_v1r0"
@@ -17,17 +17,17 @@
   "PII": "No",
   "Dictionary": "Menstrual Cycle Survey",
   "State Attribute": "No",
-  "Date added or modified": "44685",
+  "Date added or modified": "5/4/22",
   "Question Type": "Required Multiple Choice",
   "Formula for Index": [
-    "6665",
-    "6666"
+    "6691",
+    "6692"
   ],
   "Index": [
-    "6665",
-    "6666"
+    "6691",
+    "6692"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

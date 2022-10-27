@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "727773491",
-  "Question Text": "Menstrual Pain",
+  "Question Text- v1": "Menstrual Pain",
   "Variable Label": "Menstrual Pain",
   "Variable Name": [
     "SrvMRE_MenstrualPain_v1r0"
@@ -18,7 +18,7 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44385",
+  "Date added or modified": "7/8/21",
   "Source Question": [
     [
       "643807999.json",
@@ -31,26 +31,26 @@
     ]
   ],
   "Formula for Index": [
-    "2304",
-    "2305",
-    "2306",
-    "2307",
     "2308",
     "2309",
     "2310",
-    "2311"
+    "2311",
+    "2312",
+    "2313",
+    "2314",
+    "2315"
   ],
   "Index": [
-    "2304",
-    "2305",
-    "2306",
-    "2307",
     "2308",
     "2309",
     "2310",
-    "2311"
+    "2311",
+    "2312",
+    "2313",
+    "2314",
+    "2315"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   },

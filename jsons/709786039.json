@@ -12,7 +12,7 @@
     "MHGROUP3"
   ],
   "conceptId": "709786039",
-  "Question Text": "Liver Cirrhosis",
+  "Question Text- v1": "Liver Cirrhosis",
   "Variable Label": "Liver Cirrhosis",
   "Variable Name": [
     "SrvBOH_Cirrhosis_v1r0"
@@ -26,14 +26,14 @@
   "PII": "No",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "1204",
-    "1205"
+    "1208",
+    "1209"
   ],
   "Index": [
-    "1204",
-    "1205"
+    "1208",
+    "1209"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

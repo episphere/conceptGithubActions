@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "267122668",
-  "Question Text": "During the season[s] in the past 12 months that you walked or hiked for exercise, about how often did you do this activity?",
+  "Question Text- v1": "During the season[s] in the past 12 months that you walked or hiked for exercise, about how often did you do this activity?",
   "Variable Label": "During the season[s] in the past 12 months that you walked or hiked for exercise, about how often did you do this activity?",
   "Variable Name": [
     "SrvMRE_WalkHikeOften_v1r0"
@@ -19,24 +19,24 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if EXEREC1=0",
-  "Date added or modified": "44515",
+  "Date added or modified": "11/15/21",
   "Formula for Index": [
-    "3103",
-    "3104",
-    "3105",
-    "3106",
     "3107",
-    "3108"
+    "3108",
+    "3109",
+    "3110",
+    "3111",
+    "3112"
   ],
   "Index": [
-    "3103",
-    "3104",
-    "3105",
-    "3106",
     "3107",
-    "3108"
+    "3108",
+    "3109",
+    "3110",
+    "3111",
+    "3112"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "239152340.json": "0",
     "582006876.json": "1",
     "645894551.json": "2",

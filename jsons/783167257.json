@@ -6,7 +6,7 @@
     "726699695.json"
   ],
   "conceptId": "783167257",
-  "Question Text": "Are you now married, widowed, divorced, separated, never married, or living with a partner?",
+  "Question Text- v1": "Are you now married, widowed, divorced, separated, never married, or living with a partner?",
   "Variable Label": "Marital status",
   "Variable Name": [
     "SrvBOH_Marital_v1r0"
@@ -20,24 +20,24 @@
   "PII": "No",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "851",
-    "852",
-    "853",
-    "854",
     "855",
     "856",
-    "857"
+    "857",
+    "858",
+    "859",
+    "860",
+    "861"
   ],
   "Index": [
-    "851",
-    "852",
-    "853",
-    "854",
     "855",
     "856",
-    "857"
+    "857",
+    "858",
+    "859",
+    "860",
+    "861"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "514080822.json": "0",
     "522680498.json": "1",
     "288321056.json": "2",

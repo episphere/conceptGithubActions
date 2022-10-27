@@ -12,7 +12,7 @@
     "RACEETH7"
   ],
   "conceptId": "345861266",
-  "Question Text": "Tongan",
+  "Question Text- v1": "Tongan",
   "Variable Label": "Tongan",
   "Variable Name": [
     "SrvBOH_Tongan_v1r0"
@@ -27,14 +27,14 @@
   "Notes": "Only display if RACEETH = Native Hawaiian or other Pacific Islander",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "1002",
-    "1003"
+    "1006",
+    "1007"
   ],
   "Index": [
-    "1002",
-    "1003"
+    "1006",
+    "1007"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

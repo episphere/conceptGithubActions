@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "234714655",
-  "Question Text": "Have you been pregnant in the last 3 months?",
+  "Question Text- v1": "Have you been pregnant in the last 3 months?",
   "Variable Label": "Pregnant in last 3 months",
   "Variable Name": [
     "SrvBlU_PREG3MON_v1r0"
@@ -20,14 +20,14 @@
   "Question Type": "Optional Multiple Choice",
   "IMS Review Notes": "Added a comma between: Urine,  and: and, in column E Secondary Source.",
   "Formula for Index": [
-    "6179",
-    "6180"
+    "6204",
+    "6205"
   ],
   "Index": [
-    "6179",
-    "6180"
+    "6204",
+    "6205"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

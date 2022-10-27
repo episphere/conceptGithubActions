@@ -12,7 +12,7 @@
     "MARIJUANA"
   ],
   "conceptId": "760521319",
-  "Question Text": "Smoking marijuana (such as joints, pipes, bowls, or bongs)",
+  "Question Text- v1": "Smoking marijuana (such as joints, pipes, bowls, or bongs)",
   "Variable Label": "Cigarettes (manufactured or hand-rolled)",
   "Variable Name": [
     "SrvSAS_Marijuana_v1r0"
@@ -24,16 +24,16 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44489",
+  "Date added or modified": "10/20/21",
   "Formula for Index": [
-    "3953",
-    "3954"
+    "3957",
+    "3958"
   ],
   "Index": [
-    "3953",
-    "3954"
+    "3957",
+    "3958"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

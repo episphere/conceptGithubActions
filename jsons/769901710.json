@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "769901710",
-  "Question Text": "Back pain/backache",
+  "Question Text- v1": "Back pain/backache",
   "Variable Label": "Back pain/backache",
   "Variable Name": [
     "SrvMRE_BackPain_v1r0"
@@ -18,7 +18,7 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44397",
+  "Date added or modified": "7/20/21",
   "Source Question": [
     [
       "643807999.json",
@@ -31,26 +31,26 @@
     ]
   ],
   "Formula for Index": [
-    "2296",
-    "2297",
-    "2298",
-    "2299",
     "2300",
     "2301",
     "2302",
-    "2303"
+    "2303",
+    "2304",
+    "2305",
+    "2306",
+    "2307"
   ],
   "Index": [
-    "2296",
-    "2297",
-    "2298",
-    "2299",
     "2300",
     "2301",
     "2302",
-    "2303"
+    "2303",
+    "2304",
+    "2305",
+    "2306",
+    "2307"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   },

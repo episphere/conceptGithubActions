@@ -16,7 +16,7 @@
     "LANG"
   ],
   "conceptId": "240721579",
-  "Question Text": "Korean",
+  "Question Text- v1": "Korean",
   "Variable Label": "Korean",
   "Variable Name": [
     "SrvBOH_Korean_v1r0",
@@ -33,16 +33,16 @@
   "Notes": "Only display if RACEETH = Asian",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "900",
-    "901"
+    "904",
+    "905"
   ],
   "Index": [
-    "900",
-    "901"
+    "904",
+    "905"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   },
-  "Date added or modified": "44453"
+  "Date added or modified": "9/14/21"
 }

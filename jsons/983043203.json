@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "983043203",
-  "Question Text": "Have you ever had a cavity in any of your permanent adult teeth? Please include root caries, which are cavities on the root of the tooth",
+  "Question Text- v1": "Have you ever had a cavity in any of your permanent adult teeth? Please include root caries, which are cavities on the root of the tooth",
   "Variable Label": "Cavity",
   "Variable Name": [
     "SrvMw_CAVITY_v1r0"
@@ -19,16 +19,16 @@
   "State Attribute": "No",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "6649",
-    "6650",
-    "6651"
+    "6675",
+    "6676",
+    "6677"
   ],
   "Index": [
-    "6649",
-    "6650",
-    "6651"
+    "6675",
+    "6676",
+    "6677"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1",
     "178420302.json": "77"

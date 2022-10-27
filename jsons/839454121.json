@@ -6,7 +6,7 @@
     "716117817.json"
   ],
   "conceptId": "839454121",
-  "Question Text": "How many days per week do you usually make the trip from your home to [insert address from CURWORK1 - CURWORK3/this address]?",
+  "Question Text- v1": "How many days per week do you usually make the trip from your home to [insert address from CURWORK1 - CURWORK3/this address]?",
   "Variable Label": "Days commute, commute to current work",
   "Variable Name": [
     "SrvLAW_CurWorkT6_v1r0"
@@ -18,26 +18,26 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44630",
+  "Date added or modified": "3/10/22",
   "Formula for Index": [
-    "5721",
-    "5722",
-    "5723",
-    "5724",
-    "5725",
-    "5726",
-    "5727"
+    "5746",
+    "5747",
+    "5748",
+    "5749",
+    "5750",
+    "5751",
+    "5752"
   ],
   "Index": [
-    "5721",
-    "5722",
-    "5723",
-    "5724",
-    "5725",
-    "5726",
-    "5727"
+    "5746",
+    "5747",
+    "5748",
+    "5749",
+    "5750",
+    "5751",
+    "5752"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "559049897.json": "0",
     "500554958.json": "1",
     "897038099.json": "2",

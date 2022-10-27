@@ -12,7 +12,7 @@
     "CURWORKT1"
   ],
   "conceptId": "177539753",
-  "Question Text": "Bus or streetcar/trolley, light rail/trolley, light rail commute to work",
+  "Question Text- v1": "Bus or streetcar/trolley, light rail/trolley, light rail commute to work",
   "Variable Label": "Bus or streetcar/trolley, light rail/trolley, light rail commute to current work",
   "Variable Name": [
     "SrvLAW_CurWorkBus_v1r0"
@@ -24,16 +24,16 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44580",
+  "Date added or modified": "1/19/22",
   "Formula for Index": [
-    "5661",
-    "5662"
+    "5686",
+    "5687"
   ],
   "Index": [
-    "5661",
-    "5662"
+    "5686",
+    "5687"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

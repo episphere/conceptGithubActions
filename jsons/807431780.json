@@ -6,7 +6,7 @@
     "726699695.json"
   ],
   "conceptId": "807431780",
-  "Question Text": "Sibling 1-You said you were born a twin, triplet, or other multiple. Is this sibling your twin, triplet, or multiple?",
+  "Question Text- v1": "Sibling 1-You said you were born a twin, triplet, or other multiple. Is this sibling your twin, triplet, or multiple?",
   "Variable Label": "Sibling 1 participant twin/multiple",
   "Variable Name": [
     "SrvBOH_Sibling1Mult_v1r0"
@@ -21,14 +21,14 @@
   "Notes": "Connect Format/Values - Only display if MULTBIRTH = 1, 2, 3",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "1848",
-    "1849"
+    "1852",
+    "1853"
   ],
   "Index": [
-    "1848",
-    "1849"
+    "1852",
+    "1853"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

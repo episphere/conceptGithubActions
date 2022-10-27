@@ -12,7 +12,7 @@
     "GRID_CURWORKT10"
   ],
   "conceptId": "100591237",
-  "Question Text": "Commuter rail, subway, metro- Thinking about the one-way trip from [insert address from CURWORK1 - CURWORK3/this address] to your home on a usual workday, about how much time do you usually spend in each type of transportation?",
+  "Question Text- v1": "Commuter rail, subway, metro- Thinking about the one-way trip from [insert address from CURWORK1 - CURWORK3/this address] to your home on a usual workday, about how much time do you usually spend in each type of transportation?",
   "Variable Label": "Time, Commuter rail, subway, metro commute from current work",
   "Variable Name": [
     "SrvLAW_CurWorkT10E_v1r0"
@@ -24,22 +24,22 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44620",
+  "Date added or modified": "2/28/22",
   "Formula for Index": [
-    "5769",
-    "5770",
-    "5771",
-    "5772",
-    "5773"
+    "5794",
+    "5795",
+    "5796",
+    "5797",
+    "5798"
   ],
   "Index": [
-    "5769",
-    "5770",
-    "5771",
-    "5772",
-    "5773"
+    "5794",
+    "5795",
+    "5796",
+    "5797",
+    "5798"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "428999623.json": "0",
     "248303092.json": "1",
     "998679771.json": "2",

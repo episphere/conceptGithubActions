@@ -6,7 +6,7 @@
     "726699695.json"
   ],
   "conceptId": "453252072",
-  "Question Text": "Have you ever had a blood transfusion?",
+  "Question Text- v1": "Have you ever had a blood transfusion?",
   "Variable Label": "Blood transfusion",
   "Variable Name": [
     "SrvBOH_BloodTrans_v1r0"
@@ -19,14 +19,14 @@
   "PII": "No",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "1462",
-    "1463"
+    "1466",
+    "1467"
   ],
   "Index": [
-    "1462",
-    "1463"
+    "1466",
+    "1467"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

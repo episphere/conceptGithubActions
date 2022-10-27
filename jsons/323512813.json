@@ -6,7 +6,7 @@
     "726699695.json"
   ],
   "conceptId": "323512813",
-  "Question Text": "Over the past three months, have you felt any physical pain on most days?",
+  "Question Text- v1": "Over the past three months, have you felt any physical pain on most days?",
   "Variable Label": "Daily pain",
   "Variable Name": [
     "SrvBOH_DailyPain_v1r0"
@@ -19,14 +19,14 @@
   "PII": "No",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "1474",
-    "1475"
+    "1478",
+    "1479"
   ],
   "Index": [
-    "1474",
-    "1475"
+    "1478",
+    "1479"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

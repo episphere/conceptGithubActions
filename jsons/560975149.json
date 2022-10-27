@@ -6,7 +6,7 @@
     "727286893.json"
   ],
   "conceptId": "560975149",
-  "Question Text": "Location ID, site specific",
+  "Question Text- v1": "Location ID, site specific",
   "Variable Label": "Location ID, site specific",
   "Variable Name": [
     "BioShip_LocalID_v1r0"
@@ -19,9 +19,8 @@
   "Dictionary": "Biospecimen Shipping",
   "State Attribute": "No",
   "Default Variable": "No",
+  "Date added or modified": "10/26/22",
   "Formula for Index": [
-    "486",
-    "487",
     "488",
     "489",
     "490",
@@ -31,11 +30,13 @@
     "494",
     "495",
     "496",
-    "497"
+    "497",
+    "498",
+    "499",
+    "500",
+    "501"
   ],
   "Index": [
-    "486",
-    "487",
     "488",
     "489",
     "490",
@@ -45,28 +46,26 @@
     "494",
     "495",
     "496",
-    "497"
+    "497",
+    "498",
+    "499",
+    "500",
+    "501"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "777644826.json": "0",
     "692275326.json": "1",
-    "698283667.json": "2",
-    "834825425.json": "3",
-    "589224449.json": "4",
-    "763273112.json": "5",
-    "531313956.json": "6",
-    "715632875.json": "7",
-    "767775934.json": "8",
-    "752948709.json": "9",
-    "570271641.json": "10",
-    "838480167.json": "11"
-  },
-  "Date added or modified": [
-    "2/3/22",
-    "6/8/22"
-  ],
-  "Question Type": [
-    "BioSpm_Location_v1r0",
-    "BioSpm_Location_v1r0"
-  ]
+    "813701399.json": "2",
+    "698283667.json": "3",
+    "834825425.json": "4",
+    "589224449.json": "5",
+    "763273112.json": "6",
+    "531313956.json": "7",
+    "715632875.json": "8",
+    "767775934.json": "9",
+    "752948709.json": "10",
+    "570271641.json": "11",
+    "838480167.json": "12",
+    "706927479.json": "13"
+  }
 }

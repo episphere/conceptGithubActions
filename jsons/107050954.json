@@ -6,7 +6,7 @@
     "716117817.json"
   ],
   "conceptId": "107050954",
-  "Question Text": "Does your usual one-way trip to [insert address from CURSCH1 - CURSCH3/this address] from your home involve travel on a major city or town roadway? These usually have two or more lanes and stoplights. An example is pictured.",
+  "Question Text- v1": "Does your usual one-way trip to [insert address from CURSCH1 - CURSCH3/this address] from your home involve travel on a major city or town roadway? These usually have two or more lanes and stoplights. An example is pictured.",
   "Variable Label": "Major road, commute to current school",
   "Variable Name": [
     "SrvLAW_CurSchT4_v1r0"
@@ -18,18 +18,18 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44630",
+  "Date added or modified": "3/10/22",
   "Formula for Index": [
-    "6046",
-    "6047",
-    "6048"
+    "6071",
+    "6072",
+    "6073"
   ],
   "Index": [
-    "6046",
-    "6047",
-    "6048"
+    "6071",
+    "6072",
+    "6073"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "614087017.json": "0",
     "746635399.json": "1",
     "419415087.json": "2"

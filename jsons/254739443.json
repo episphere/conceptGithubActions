@@ -6,7 +6,7 @@
     "965707586.json"
   ],
   "conceptId": "254739443",
-  "Question Text": "Over the past 12 months, how often did you have [4/5] or more alcoholic beverages at the same sitting or occasion? (One drink is equal to a 12-ounce beer, a 5-ounce glass of wine, one mixed drink, or a shot of liquor.)",
+  "Question Text- v1": "Over the past 12 months, how often did you have [4/5] or more alcoholic beverages at the same sitting or occasion? (One drink is equal to a 12-ounce beer, a 5-ounce glass of wine, one mixed drink, or a shot of liquor.)",
   "Variable Label": "Often have 4/5 or more alcoholic beverages at same sitting",
   "Variable Name": [
     "SrvSAS_4To5AlcBev_v1r0"
@@ -18,32 +18,32 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44523",
+  "Date added or modified": "11/23/21",
   "Formula for Index": [
-    "4340",
-    "4341",
-    "4342",
-    "4343",
     "4344",
     "4345",
     "4346",
     "4347",
     "4348",
-    "4349"
+    "4349",
+    "4350",
+    "4351",
+    "4352",
+    "4353"
   ],
   "Index": [
-    "4340",
-    "4341",
-    "4342",
-    "4343",
     "4344",
     "4345",
     "4346",
     "4347",
     "4348",
-    "4349"
+    "4349",
+    "4350",
+    "4351",
+    "4352",
+    "4353"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "648960871.json": "44",
     "351028096.json": "1",
     "690077051.json": "2",

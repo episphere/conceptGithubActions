@@ -24,7 +24,7 @@
     "WTLOSS2_4555"
   ],
   "conceptId": "934037640",
-  "Question Text": "Changed diet",
+  "Question Text- v1": "Changed diet",
   "Variable Label": "Changed diet",
   "Variable Name": [
     "SrvBOH_ChangeDiet1_v1r0",
@@ -45,14 +45,14 @@
   "Notes": "Only display if flag for percent weight change 18-25 = yes",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "1519",
-    "1520"
+    "1523",
+    "1524"
   ],
   "Index": [
-    "1519",
-    "1520"
+    "1523",
+    "1524"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

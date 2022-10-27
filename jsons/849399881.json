@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "849399881",
-  "Question Text": "During the season[s] in the past 12 months that you rode a bicycle (including a stationary bike), about how often did you do this activity?",
+  "Question Text- v1": "During the season[s] in the past 12 months that you rode a bicycle (including a stationary bike), about how often did you do this activity?",
   "Variable Label": "During the season[s] in the past 12 months that you rode a bicycle (including a stationary bike), about how often did you do this activity?",
   "Variable Name": [
     "SrvMRE_BikeOften_v1r0"
@@ -19,24 +19,24 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if EXEREC1=5",
-  "Date added or modified": "44515",
+  "Date added or modified": "11/15/21",
   "Formula for Index": [
-    "3168",
-    "3169",
-    "3170",
-    "3171",
     "3172",
-    "3173"
+    "3173",
+    "3174",
+    "3175",
+    "3176",
+    "3177"
   ],
   "Index": [
-    "3168",
-    "3169",
-    "3170",
-    "3171",
     "3172",
-    "3173"
+    "3173",
+    "3174",
+    "3175",
+    "3176",
+    "3177"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "239152340.json": "0",
     "582006876.json": "1",
     "645894551.json": "2",

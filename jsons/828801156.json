@@ -6,7 +6,7 @@
     "716117817.json"
   ],
   "conceptId": "828801156",
-  "Question Text": "In a usual week, how many different workplaces do you commute to? If you commute to multiple locations for the same employer, please count all locations separately",
+  "Question Text- v1": "In a usual week, how many different workplaces do you commute to? If you commute to multiple locations for the same employer, please count all locations separately",
   "Variable Label": "Current job, commute at least once a week",
   "Variable Name": [
     "SrvLAW_NumWork_v1r0"
@@ -18,18 +18,18 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44630",
+  "Date added or modified": "3/10/22",
   "Formula for Index": [
-    "5633",
-    "5634",
-    "5635"
+    "5658",
+    "5659",
+    "5660"
   ],
   "Index": [
-    "5633",
-    "5634",
-    "5635"
+    "5658",
+    "5659",
+    "5660"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "759356722.json": "0",
     "185036360.json": "1",
     "684900118.json": "2"

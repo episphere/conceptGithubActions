@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "111082535",
-  "Question Text": "Have you ever had in vitro fertilization (IVF)?",
+  "Question Text- v1": "Have you ever had in vitro fertilization (IVF)?",
   "Variable Label": "IVF",
   "Variable Name": [
     "SrvMRE_IVF_v1r0"
@@ -19,14 +19,14 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "2574",
-    "2575"
+    "2578",
+    "2579"
   ],
   "Index": [
-    "2574",
-    "2575"
+    "2578",
+    "2579"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

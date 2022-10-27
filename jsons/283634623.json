@@ -6,7 +6,7 @@
     "726699695.json"
   ],
   "conceptId": "283634623",
-  "Question Text": "Have you ever seen a doctor or other health professional for severe or ongoing acne?",
+  "Question Text- v1": "Have you ever seen a doctor or other health professional for severe or ongoing acne?",
   "Variable Label": "Acne saw doctor",
   "Variable Name": [
     "SrvBOH_AcneSawDoc_v1r0"
@@ -20,14 +20,14 @@
   "PII": "No",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "1627",
-    "1628"
+    "1631",
+    "1632"
   ],
   "Index": [
-    "1627",
-    "1628"
+    "1631",
+    "1632"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

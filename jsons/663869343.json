@@ -1,0 +1,35 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "conceptId": "663869343",
+  "Question Text- v1": "Please review the list below and tell us if it includes all of the addresses where you have spent a total of 24 months or more in the past 20 years. 4th Address:",
+  "Variable Label": "Summary vacation homes",
+  "Variable Name": [
+    "SrvLAW_SeasAddSum_4_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "SEASADDSUM_4"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Question Type": "Optional Multiple Choice",
+  "IMS Review Notes": "New addition",
+  "Formula for Index": [
+    "5147",
+    "5148"
+  ],
+  "Index": [
+    "5147",
+    "5148"
+  ],
+  "Format/Value - r0": {
+    "942916188.json": "0",
+    "224381551.json": "1"
+  }
+}

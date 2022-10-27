@@ -64,7 +64,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
     let firstRow = cluster[0]
     let clump = [];
     for(let i = 0; i < firstRow.length; i++){
-        if((firstRow[i] != "" && !nonEmpty.includes(i) && !conceptIdIndices.includes(i)) || (conceptIdIndices.includes(i) && conceptIdObject[i] =="Question Text")){
+        if((firstRow[i] != "" && !nonEmpty.includes(i) && !conceptIdIndices.includes(i)) || (conceptIdIndices.includes(i) && conceptIdObject[i] =="Question Text- v1")){
             firstRowJSON[header[i]] = firstRow[i]
         }
     }
@@ -85,7 +85,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
         }
     }
 
-    firstRow[conceptIdReverseLookup['Question Text']] = firstRowJSON['conceptId']
+    firstRow[conceptIdReverseLookup['Question Text- v1']] = firstRowJSON['conceptId']
 
     //find sources first
     let conceptColNames = Object.keys(conceptIdReverseLookup)
@@ -112,7 +112,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                             }
                             j = sourceJSONS.length;
                         }
-                        else if(currId == '' && currVarName == currJSON['Question Text']){
+                        else if(currId == '' && currVarName == currJSON['Question Text- v1']){
                             found = i;
                             currId = currJSON['conceptId'];
                             if(!currJSON['subcollections'].includes(firstRowJSON['conceptId'] + '.json')){
@@ -128,7 +128,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                         }
                         
                         newJSON['conceptId'] = currId;
-                        newJSON['Question Text'] = currVarName;
+                        newJSON['Question Text- v1'] = currVarName;
                         newJSON['subcollections'] = [firstRowJSON['conceptId'] + '.json']
                         sourceJSONS.push(newJSON)
                     }
@@ -194,8 +194,8 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                             }
                         }
                         if(found == false){
-                            jsonList.push({'conceptId':cid, 'Question Text':val})
-                            fs.writeFileSync('./jsons/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Question Text':val},null, 2))
+                            jsonList.push({'conceptId':cid, 'Question Text- v1':val})
+                            fs.writeFileSync('./jsons/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Question Text- v1':val},null, 2))
                             nameToConcept[val] = cid
                         }
                         if(!conceptIdList.includes(cid)){
@@ -225,8 +225,8 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                             }
                         }
                         if(found == false){
-                            jsonList.push({'conceptId':cid, 'Question Text':currElement})
-                            fs.writeFileSync('./jsons/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Question Text':currElement},null, 2))
+                            jsonList.push({'conceptId':cid, 'Question Text- v1':currElement})
+                            fs.writeFileSync('./jsons/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Question Text- v1':currElement},null, 2))
                             nameToConcept[currElement] = cid
                         }
                         if(!conceptIdList.includes(cid)){
@@ -265,7 +265,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
         let key = parseInt(Object.keys(conceptIdObject)[i]) + 1
         let val = conceptIdObject[key-1]
 
-        if(!(val.includes('Source') || val.includes('Src') || val.includes('Question Text') || val.includes('Connect Value for Select all that apply questions') || nonEmpty.includes(key) || !firstRow[key].match(regexInclude)) && firstRow[key] != ''){
+        if(!(val.includes('Source') || val.includes('Src') || val.includes('Question Text- v1') || val.includes('Connect Value for Select all that apply questions') || nonEmpty.includes(key) || !firstRow[key].match(regexInclude)) && firstRow[key] != ''){
             console.log(val)
             console.log(firstRow[key])
             
@@ -293,8 +293,8 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                 }
             }
             if(found == false){
-                jsonList.push({'conceptId':cid, 'Question Text':currVal})
-                fs.writeFileSync('./jsons/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Question Text':currVal},null, 2))
+                jsonList.push({'conceptId':cid, 'Question Text- v1':currVal})
+                fs.writeFileSync('./jsons/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Question Text- v1':currVal},null, 2))
                 nameToConcept[currVal] = cid
             }
             if(!conceptIdList.includes(cid)){
@@ -311,20 +311,20 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
         }
     }
 
-    if(cluster[0][conceptIdReverseLookup['Question Text']] == ''){
+    if(cluster[0][conceptIdReverseLookup['Question Text- v1']] == ''){
 
         firstRowJSON['conceptId'] = generateRandomUUID(conceptIdList);
         if(nameToConcept.hasOwnProperty(firstRowJSON[header[indexVariableName]])){
             firstRowJSON['conceptId'] = nameToConcept[firstRowJSON[header[indexVariableName]]];
         }
-        cluster[0][conceptIdReverseLookup['Question Text']] = firstRowJSON['conceptId']
+        cluster[0][conceptIdReverseLookup['Question Text- v1']] = firstRowJSON['conceptId']
         nameToConcept[firstRowJSON[header[indexVariableName]]] = firstRowJSON['conceptId']
     }
     else{
-        firstRowJSON['conceptId'] = cluster[0][conceptIdReverseLookup['Question Text']]
+        firstRowJSON['conceptId'] = cluster[0][conceptIdReverseLookup['Question Text- v1']]
         nameToConcept[firstRowJSON[header[indexVariableName]]] = firstRowJSON['conceptId']
     }
-    let firstRowJSONFound = findJSON(jsonList, firstRowJSON['Question Text']);
+    let firstRowJSONFound = findJSON(jsonList, firstRowJSON['Question Text- v1']);
     if(firstRowJSONFound){
         //console.log(firstRowJSONFound)
 
@@ -406,7 +406,7 @@ function findJSON(jsonList, questionText){
     //console.log('finding: ' + questionText)
     for(let i = 0; i < jsonList.length;i++){
         let json = jsonList[i];
-        if(json['Question Text'] == questionText){
+        if(json['Question Text- v1'] == questionText){
             return json;
         }
     }
@@ -499,6 +499,11 @@ async function readFile(fileName){
     let toReplace = fs.readFileSync(fileName,{encoding:'utf8', flag:'r'})
     ////console.log(toReplace)
     toReplace = toReplace.replace(/�/g, "\"")
+    toReplace = toReplace.replace(/¬Æ/g, "®")
+    toReplace = toReplace.replace(/√®/g, "è")
+    toReplace = toReplace.replace(/‚Äú/g, "“") 
+    toReplace = toReplace.replace(/‚Äù/g, "”")
+    toReplace = toReplace.replace(/‚Ä¶/g, "…")
     toReplace = replaceQuotes(toReplace)
     fs.writeFileSync(fileName, toReplace)
     let idIndex = '[]'
@@ -533,7 +538,7 @@ async function readFile(fileName){
             header = arr;
             first = false;
             for(let i = 0; i < arr.length; i++){
-                if(arr[i] == "Question Text"){
+                if(arr[i] == "Question Text- v1"){
                     varLabelIndex = i;
                 }
                 if(arr[i] == "conceptId" && i+1 < arr.length){

@@ -12,7 +12,7 @@
     "ESTROHOR"
   ],
   "conceptId": "854184254",
-  "Question Text": "Patch estrogen-only medication (such as Estraderm, Alora, or Climara)",
+  "Question Text- v1": "Patch estrogen-only medication (such as Estraderm, Alora, or Climara)",
   "Variable Label": "Patch estrogen-only medication (such as Estraderm, Alora, or Climara)",
   "Variable Name": [
     "SrvMRE_PatchEstrogen_v1r0"
@@ -25,14 +25,14 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "2655",
-    "2656"
+    "2659",
+    "2660"
   ],
   "Index": [
-    "2655",
-    "2656"
+    "2659",
+    "2660"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

@@ -12,7 +12,7 @@
     "RACEETH7"
   ],
   "conceptId": "453456270",
-  "Question Text": "Marshallese",
+  "Question Text- v1": "Marshallese",
   "Variable Label": "Marshallese",
   "Variable Name": [
     "SrvBOH_Marshallese_v1r0"
@@ -27,14 +27,14 @@
   "Notes": "Only display if RACEETH = Native Hawaiian or other Pacific Islander",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "992",
-    "993"
+    "996",
+    "997"
   ],
   "Index": [
-    "992",
-    "993"
+    "996",
+    "997"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

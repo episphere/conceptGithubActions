@@ -6,7 +6,7 @@
     "726699695.json"
   ],
   "conceptId": "890637099",
-  "Question Text": "Sibling 1- Is [SIBLING INITIALS OR NICKNAME/your sibling] still living?",
+  "Question Text- v1": "Sibling 1- Is [SIBLING INITIALS OR NICKNAME/your sibling] still living?",
   "Variable Label": "Sibling 1 living",
   "Variable Name": [
     "SrvBOH_Sib1Living_v1r0"
@@ -20,21 +20,21 @@
   "PII": "No",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "1853",
-    "1854",
-    "1855"
+    "1857",
+    "1858",
+    "1859"
   ],
   "Index": [
-    "1853",
-    "1854",
-    "1855"
+    "1857",
+    "1858",
+    "1859"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1",
     "178420302.json": "77"
   },
   "Date added or modified": [
-    "44371"
+    "6/24/21"
   ]
 }

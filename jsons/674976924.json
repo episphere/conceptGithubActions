@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "674976924",
-  "Question Text": "Have you worked as a shift worker? [Informational text: Shift work is work that takes place on a schedule different from the traditional 9:00AM - 5:00PM schedule. Employers that need 24-hour coverage often rely on shift work.]",
+  "Question Text- v1": "Have you worked as a shift worker? [Informational text: Shift work is work that takes place on a schedule different from the traditional 9:00AM - 5:00PM schedule. Employers that need 24-hour coverage often rely on shift work.]",
   "Variable Label": "Shift worker",
   "Variable Name": [
     "SrvMRE_ShiftWorker_v1r0"
@@ -18,18 +18,18 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44516",
+  "Date added or modified": "11/16/21",
   "Formula for Index": [
-    "3455",
-    "3456",
-    "3457"
+    "3459",
+    "3460",
+    "3461"
   ],
   "Index": [
-    "3455",
-    "3456",
-    "3457"
+    "3459",
+    "3460",
+    "3461"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "958538953.json": "1",
     "274062548.json": "2",
     "104430631.json": "0"

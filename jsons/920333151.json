@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "527",
-  "Index": "527",
+  "Formula for Index": "531",
+  "Index": "531",
   "Primary Source": [
     "129084651.json"
   ],
@@ -8,14 +8,14 @@
     "166676176.json"
   ],
   "conceptId": "920333151",
-  "Question Text": "Last 4 digits of Social Security Number",
+  "Question Text- v1": "Last 4 digits of Social Security Number",
   "Variable Label": "SSN last 4 digits",
   "Variable Name": [
     "SrvSS_SSN4d_v1r0"
   ],
   "Variable Type": "SSNsm",
   "Variable Length": "4",
-  "Format/Value": "####",
+  "Format/Value - r0": "####",
   "Required": "No",
   "PII": "Yes",
   "Notes": "Question shown only if full SSN is NOT given.",

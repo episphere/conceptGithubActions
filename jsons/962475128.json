@@ -12,7 +12,7 @@
     "GRID_SRVBLU_COV19B_V1R0"
   ],
   "conceptId": "962475128",
-  "Question Text": "Shortness of breath - Since your diagnosis",
+  "Question Text- v1": "Shortness of breath - Since your diagnosis",
   "Variable Label": "Long COVID Shortness of breath",
   "Variable Name": [
     "SrvBlU_COV19B1_v1r0"
@@ -26,16 +26,16 @@
   "Question Type": "Grid with Multiple Choice Sub-Questions",
   "IMS Review Notes": "Updated column G Source Question",
   "Formula for Index": [
-    "6293",
-    "6294",
-    "6295"
+    "6318",
+    "6319",
+    "6320"
   ],
   "Index": [
-    "6293",
-    "6294",
-    "6295"
+    "6318",
+    "6319",
+    "6320"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "244354126.json": "0",
     "724612102.json": "1",
     "178780048.json": "2"

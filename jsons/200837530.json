@@ -24,7 +24,7 @@
     "CHILDCANC2"
   ],
   "conceptId": "200837530",
-  "Question Text": "Lymphoma",
+  "Question Text- v1": "Lymphoma",
   "Variable Label": "Lymphoma",
   "Variable Name": [
     "SrvBOH_MLymphoma_v1r0",
@@ -44,14 +44,14 @@
   "PII": "No",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "1676",
-    "1677"
+    "1680",
+    "1681"
   ],
   "Index": [
-    "1676",
-    "1677"
+    "1680",
+    "1681"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

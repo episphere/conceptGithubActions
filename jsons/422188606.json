@@ -12,7 +12,7 @@
     "PAINREL1"
   ],
   "conceptId": "422188606",
-  "Question Text": "Ibuprofen (such as Motrin or Advil)",
+  "Question Text- v1": "Ibuprofen (such as Motrin or Advil)",
   "Variable Label": "Ibuprofen (such as Motrin or Advil)",
   "Variable Name": [
     "SrvMRE_Ibuprofen_v1r0"
@@ -25,14 +25,14 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "2213",
-    "2214"
+    "2217",
+    "2218"
   ],
   "Index": [
-    "2213",
-    "2214"
+    "2217",
+    "2218"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

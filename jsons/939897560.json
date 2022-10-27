@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "939897560",
-  "Question Text": "Have you ever tried to get pregnant for more than one year, but did not get pregnant during that time?",
+  "Question Text- v1": "Have you ever tried to get pregnant for more than one year, but did not get pregnant during that time?",
   "Variable Label": "Tried to get pregnant",
   "Variable Name": [
     "SrvMRE_PregTried_v1r0"
@@ -19,14 +19,14 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "2510",
-    "2511"
+    "2514",
+    "2515"
   ],
   "Index": [
-    "2510",
-    "2511"
+    "2514",
+    "2515"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

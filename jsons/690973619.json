@@ -6,7 +6,7 @@
     "716117817.json"
   ],
   "conceptId": "690973619",
-  "Question Text": "Please review the list below and tell us if it includes all of the seasonal or vacation home addresses where you have spent a total of 24 months or more in the past 20 years. Once you move on from this screen, you will <b>not</b> be able to add another address or edit your answers.",
+  "Question Text- v1": "Please review the list below and tell us if it includes all of the seasonal or vacation home addresses where you have spent a total of 24 months or more in the past 20 years. Once you move on from this screen, you will <b>not</b> be able to add another address or edit your answers.",
   "Variable Label": "Seasonal address summary",
   "Variable Name": [
     "SrvLAW_SeaAddSum_v1r0"
@@ -21,34 +21,48 @@
   "Date added or modified": "4/12/22",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "5242",
-    "5243",
-    "5244",
-    "5245",
-    "5246",
-    "5247",
-    "5248",
-    "5249",
-    "5250",
-    "5251",
-    "5252",
-    "5253"
+    "5267",
+    "5268",
+    "5269",
+    "5270",
+    "5271",
+    "5272",
+    "5273",
+    "5274",
+    "5275",
+    "5276",
+    "5277",
+    "5278"
   ],
   "Index": [
-    "5242",
-    "5243",
-    "5244",
-    "5245",
-    "5246",
-    "5247",
-    "5248",
-    "5249",
-    "5250",
-    "5251",
-    "5252",
-    "5253"
+    "5267",
+    "5268",
+    "5269",
+    "5270",
+    "5271",
+    "5272",
+    "5273",
+    "5274",
+    "5275",
+    "5276",
+    "5277",
+    "5278"
   ],
-  "Format/Value": {
+  "Deprecated, New, or Revised": [
+    "Deprecated",
+    "Deprecated",
+    "Deprecated",
+    "Deprecated",
+    "Deprecated",
+    "Deprecated",
+    "Deprecated",
+    "Deprecated",
+    "Deprecated",
+    "Deprecated",
+    "Deprecated",
+    "Deprecated"
+  ],
+  "Format/Value - r0": {
     "180583933.json": "0",
     "448861079.json": "1",
     "427169173.json": "2",
@@ -61,5 +75,19 @@
     "969318635.json": "9",
     "956935470.json": "10",
     "578520343.json": "11"
-  }
+  },
+  "IMS Review Notes": [
+    "10/24/22",
+    "10/24/22",
+    "10/24/22",
+    "10/24/22",
+    "10/24/22",
+    "10/24/22",
+    "10/24/22",
+    "10/24/22",
+    "10/24/22",
+    "10/24/22",
+    "10/24/22",
+    "10/24/22"
+  ]
 }

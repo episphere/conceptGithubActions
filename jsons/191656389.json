@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "191656389",
-  "Question Text": "Muscle or joint pain, joint or bone injuries, sprains, or strains",
+  "Question Text- v1": "Muscle or joint pain, joint or bone injuries, sprains, or strains",
   "Variable Label": "Muscle or joint pain, joint or bone injuries, sprains, or strains",
   "Variable Name": [
     "SrvMRE_MusclePain_v1r0"
@@ -18,7 +18,7 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44385",
+  "Date added or modified": "7/8/21",
   "Source Question": [
     [
       "643807999.json",
@@ -31,26 +31,26 @@
     ]
   ],
   "Formula for Index": [
-    "2336",
-    "2337",
-    "2338",
-    "2339",
     "2340",
     "2341",
     "2342",
-    "2343"
+    "2343",
+    "2344",
+    "2345",
+    "2346",
+    "2347"
   ],
   "Index": [
-    "2336",
-    "2337",
-    "2338",
-    "2339",
     "2340",
     "2341",
     "2342",
-    "2343"
+    "2343",
+    "2344",
+    "2345",
+    "2346",
+    "2347"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   },

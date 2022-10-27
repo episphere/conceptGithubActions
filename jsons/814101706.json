@@ -12,7 +12,7 @@
     "GRID_SRVBLU_COV19C_V1R0"
   ],
   "conceptId": "814101706",
-  "Question Text": "Periods of racing heart rate - Since your diagnosis",
+  "Question Text- v1": "Periods of racing heart rate - Since your diagnosis",
   "Variable Label": "Long COVID Heart racing",
   "Variable Name": [
     "SrvBlU_COV19C2_v1r0"
@@ -26,16 +26,16 @@
   "Question Type": "Grid with Multiple Choice Sub-Questions",
   "IMS Review Notes": "Updated column G Source Question",
   "Formula for Index": [
-    "6311",
-    "6312",
-    "6313"
+    "6336",
+    "6337",
+    "6338"
   ],
   "Index": [
-    "6311",
-    "6312",
-    "6313"
+    "6336",
+    "6337",
+    "6338"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "244354126.json": "0",
     "724612102.json": "1",
     "178780048.json": "2"

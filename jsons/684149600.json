@@ -12,7 +12,7 @@
     "SrvBlU_COV8_v1r0"
   ],
   "conceptId": "684149600",
-  "Question Text": "Diarrhea or watery stool (poop)",
+  "Question Text- v1": "Diarrhea or watery stool (poop)",
   "Variable Label": "Diarrhea",
   "Variable Name": [
     "SrvBlU_COV8N_v1r0"
@@ -29,14 +29,14 @@
   "Question Type": "Optional Select All that Apply, Loops",
   "IMS Review Notes": "Added Source Variable Name (Column H)",
   "Formula for Index": [
-    "6233",
-    "6234"
+    "6258",
+    "6259"
   ],
   "Index": [
-    "6233",
-    "6234"
+    "6258",
+    "6259"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

@@ -6,7 +6,7 @@
     "726699695.json"
   ],
   "conceptId": "873968217",
-  "Question Text": "Child 1- Is [child initials or nickname/your child] …",
+  "Question Text- v1": "Child 1- Is [child initials or nickname/your child] …",
   "Variable Label": "Child 1 full/half",
   "Variable Name": [
     "SrvBOH_Child1FullHalf_v1r0"
@@ -18,19 +18,19 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44467",
+  "Date added or modified": "9/28/21",
   "Question Type": "Optional Multiple Choice, Loops",
   "Formula for Index": [
-    "1972",
-    "1973",
-    "1974"
+    "1976",
+    "1977",
+    "1978"
   ],
   "Index": [
-    "1972",
-    "1973",
-    "1974"
+    "1976",
+    "1977",
+    "1978"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "709650750.json": "0",
     "810290359.json": "1",
     "509607548.json": "2"

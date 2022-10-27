@@ -12,7 +12,7 @@
     "MHGROUP6"
   ],
   "conceptId": "636030086",
-  "Question Text": "Rheumatoid Arthritis",
+  "Question Text- v1": "Rheumatoid Arthritis",
   "Variable Label": "Rheumatoid Arthritis",
   "Variable Name": [
     "SrvBOH_RA_v1r0"
@@ -26,14 +26,14 @@
   "PII": "No",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "1259",
-    "1260"
+    "1263",
+    "1264"
   ],
   "Index": [
-    "1259",
-    "1260"
+    "1263",
+    "1264"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

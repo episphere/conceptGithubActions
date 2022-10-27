@@ -6,7 +6,7 @@
     "965707586.json"
   ],
   "conceptId": "845122623",
-  "Question Text": "When was the last time you smoked a tobacco pipe?",
+  "Question Text- v1": "When was the last time you smoked a tobacco pipe?",
   "Variable Label": "Last use a tobacco pipe",
   "Variable Name": [
     "SrvSAS_TobPipeLast_v1r0"
@@ -18,18 +18,18 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44494",
+  "Date added or modified": "10/25/21",
   "Formula for Index": [
-    "3814",
-    "3815",
-    "3816"
+    "3818",
+    "3819",
+    "3820"
   ],
   "Index": [
-    "3814",
-    "3815",
-    "3816"
+    "3818",
+    "3819",
+    "3820"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "317567178.json": "0",
     "484055234.json": "1",
     "802197176.json": "2"

@@ -12,7 +12,7 @@
     "ACIDSUP"
   ],
   "conceptId": "933374659",
-  "Question Text": "prescription proton pump inhibitors",
+  "Question Text- v1": "prescription proton pump inhibitors",
   "Variable Label": "prescription proton pump inhibitors",
   "Variable Name": [
     "SrvMRE_ProtonPumpPres_v1r0"
@@ -25,14 +25,14 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "2407",
-    "2408"
+    "2411",
+    "2412"
   ],
   "Index": [
-    "2407",
-    "2408"
+    "2411",
+    "2412"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

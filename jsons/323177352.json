@@ -12,7 +12,7 @@
     "SKINCANC2"
   ],
   "conceptId": "323177352",
-  "Question Text": "Squamous cell",
+  "Question Text- v1": "Squamous cell",
   "Variable Label": "Squamous cell",
   "Variable Name": [
     "SrvBOH_Squamous_v1r0"
@@ -27,14 +27,14 @@
   "Notes": "Only display is SKINCANC = 1",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "1120",
-    "1121"
+    "1124",
+    "1125"
   ],
   "Index": [
-    "1120",
-    "1121"
+    "1124",
+    "1125"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

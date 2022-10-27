@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "850536692",
-  "Question Text": "Are you currently using vaginal ring, vaginal cream, or vaginal tablet estrogen-only medication?",
+  "Question Text- v1": "Are you currently using vaginal ring, vaginal cream, or vaginal tablet estrogen-only medication?",
   "Variable Label": "Currently using vaginal ring, vaginal cream, or vaginal tablet estrogen-only medication",
   "Variable Name": [
     "SrvMRE_CurrVagRingE_v1r0"
@@ -20,14 +20,14 @@
   "PII": "No",
   "Notes": "Only display if ESTROHOR=2",
   "Formula for Index": [
-    "2679",
-    "2680"
+    "2683",
+    "2684"
   ],
   "Index": [
-    "2679",
-    "2680"
+    "2683",
+    "2684"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

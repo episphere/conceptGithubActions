@@ -6,7 +6,7 @@
     "726699695.json"
   ],
   "conceptId": "613744428",
-  "Question Text": "Do you currently work for pay (full-time or part-time)?",
+  "Question Text- v1": "Do you currently work for pay (full-time or part-time)?",
   "Variable Label": "Current work",
   "Variable Name": [
     "SrvBOH_CurrentWork_v1r0"
@@ -20,14 +20,14 @@
   "PII": "No",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "2102",
-    "2103"
+    "2106",
+    "2107"
   ],
   "Index": [
-    "2102",
-    "2103"
+    "2106",
+    "2107"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

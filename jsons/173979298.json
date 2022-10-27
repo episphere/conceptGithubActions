@@ -12,7 +12,7 @@
     "GRID_CURSCHT2"
   ],
   "conceptId": "173979298",
-  "Question Text": "Walking- Thinking about the one-way trip from your home to [insert address from CURSCH1 - CURSCH3/this address] on a usual day, about how much time do you usually spend in each type of transportation?",
+  "Question Text- v1": "Walking- Thinking about the one-way trip from your home to [insert address from CURSCH1 - CURSCH3/this address] on a usual day, about how much time do you usually spend in each type of transportation?",
   "Variable Label": "Time, Walking commute to current school",
   "Variable Name": [
     "SrvLAW_CurSchT2G_v1r0"
@@ -24,22 +24,22 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44620",
+  "Date added or modified": "2/28/22",
   "Formula for Index": [
-    "6033",
-    "6034",
-    "6035",
-    "6036",
-    "6037"
+    "6058",
+    "6059",
+    "6060",
+    "6061",
+    "6062"
   ],
   "Index": [
-    "6033",
-    "6034",
-    "6035",
-    "6036",
-    "6037"
+    "6058",
+    "6059",
+    "6060",
+    "6061",
+    "6062"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "428999623.json": "0",
     "248303092.json": "1",
     "998679771.json": "2",

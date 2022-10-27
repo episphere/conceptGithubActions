@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "612068433",
-  "Question Text": "During the season[s] in the past 12 months that you danced, about how often did you do this activity?",
+  "Question Text- v1": "During the season[s] in the past 12 months that you danced, about how often did you do this activity?",
   "Variable Label": "During the season[s] in the past 12 months that you danced, about how often did you do this activity?",
   "Variable Name": [
     "SrvMRE_DanceOften_v1r0"
@@ -19,24 +19,24 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if EXEREC1=9",
-  "Date added or modified": "44515",
+  "Date added or modified": "11/15/21",
   "Formula for Index": [
-    "3220",
-    "3221",
-    "3222",
-    "3223",
     "3224",
-    "3225"
+    "3225",
+    "3226",
+    "3227",
+    "3228",
+    "3229"
   ],
   "Index": [
-    "3220",
-    "3221",
-    "3222",
-    "3223",
     "3224",
-    "3225"
+    "3225",
+    "3226",
+    "3227",
+    "3228",
+    "3229"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "239152340.json": "0",
     "582006876.json": "1",
     "645894551.json": "2",

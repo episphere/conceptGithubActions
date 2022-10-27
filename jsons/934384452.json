@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "934384452",
-  "Question Text": "How long did you experience [piped response from SrvBlU_COV19C6Desc_v1r0/ these other symptoms]",
+  "Question Text- v1": "How long did you experience [piped response from SrvBlU_COV19C6Desc_v1r0/ these other symptoms]",
   "Variable Label": "Other Long COVID Symptom- Duration: Please Describe",
   "Variable Name": [
     "SrvBlU_COV20A17_v1r0"
@@ -21,16 +21,16 @@
   "Question Type": "Optional Multiple Choice, Displayif and Piped text",
   "IMS Review Notes": "Added Primary source concept Id in column B",
   "Formula for Index": [
-    "6376",
-    "6377",
-    "6378"
+    "6401",
+    "6402",
+    "6403"
   ],
   "Index": [
-    "6376",
-    "6377",
-    "6378"
+    "6401",
+    "6402",
+    "6403"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "232063618.json": "0",
     "948148236.json": "1",
     "692824372.json": "2"

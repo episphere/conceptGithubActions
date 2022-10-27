@@ -1,26 +1,26 @@
 {
-  "Formula for Index": "439",
-  "Index": "439",
+  "Formula for Index": "441",
+  "Index": "441",
   "Primary Source": [
     "819848608.json"
   ],
   "Secondary Source": [
     "664882224.json"
   ],
-  "conceptId": "611091485",
-  "Question Text": "Dashboard clinical urine accession ID",
+  "conceptId": "928693120",
+  "Question Text- v1": "Dashboard clinical urine accession ID",
   "Variable Label": "Dashboard clinical Urine Accession ID",
   "Variable Name": [
     "BioClin_DBUrineID_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "30",
-  "Format/Value": "N/A",
+  "Format/Value - r0": "N/A",
   "Required": "Yes for KP sites Only",
   "PII": "No",
   "Notes": "From clinical dashboard.",
   "Dictionary": "Biospecimen Clinical",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "9/27/22"
+  "Date added or modified": "10/26/22"
 }

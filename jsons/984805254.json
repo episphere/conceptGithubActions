@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "4872",
-  "Index": "4872",
+  "Formula for Index": "4876",
+  "Index": "4876",
   "Primary Source": [
     "129084651.json"
   ],
@@ -14,7 +14,7 @@
     "HOMEWTR1_3"
   ],
   "conceptId": "984805254",
-  "Question Text": "Address 3- What [is/was] the source of water to [insert address from HOMEADD1 - HOMEADD3/ current address/the 2nd address you provided/etc.]? Please describe [text box]",
+  "Question Text- v1": "Address 3- What [is/was] the source of water to [insert address from HOMEADD1 - HOMEADD3/ current address/the 2nd address you provided/etc.]? Please describe [text box]",
   "Variable Label": "Other: Please describe",
   "Variable Name": [
     "SrvLAW_HomeWtr1_3_Oth_v1r0"
@@ -24,8 +24,8 @@
   ],
   "Variable Type": "Char",
   "Variable Length": "300",
-  "Format/Value": "N/A",
+  "Format/Value - r0": "N/A",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44630"
+  "Date added or modified": "3/10/22"
 }

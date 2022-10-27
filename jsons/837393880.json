@@ -12,7 +12,7 @@
     "COMBHOR"
   ],
   "conceptId": "837393880",
-  "Question Text": "Combined oral estrogen plus progestin pill (such as Prempro, Activella, Femhrt, or Prefest)",
+  "Question Text- v1": "Combined oral estrogen plus progestin pill (such as Prempro, Activella, Femhrt, or Prefest)",
   "Variable Label": "Combined oral estrogen plus progestin pill (such as Prempro, Activella, Femhrt, or Prefest)",
   "Variable Name": [
     "SrvMRE_CombPill_v1r0"
@@ -25,14 +25,14 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "2725",
-    "2726"
+    "2729",
+    "2730"
   ],
   "Index": [
-    "2725",
-    "2726"
+    "2729",
+    "2730"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

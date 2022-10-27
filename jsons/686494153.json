@@ -12,7 +12,7 @@
     "GRID_PREWORKT7"
   ],
   "conceptId": "686494153",
-  "Question Text": "Walking- Thinking about the one-way trip from [insert address from PREWORK1 - PREWORK3/this address] to your home on a usual workday, about how much time did you usually spend in each type of transportation?",
+  "Question Text- v1": "Walking- Thinking about the one-way trip from [insert address from PREWORK1 - PREWORK3/this address] to your home on a usual workday, about how much time did you usually spend in each type of transportation?",
   "Variable Label": "Time, Walking commute from past work",
   "Variable Name": [
     "SrvLAW_PreWorkT7G_v1r0"
@@ -24,22 +24,22 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44620",
+  "Date added or modified": "2/28/22",
   "Formula for Index": [
-    "5945",
-    "5946",
-    "5947",
-    "5948",
-    "5949"
+    "5970",
+    "5971",
+    "5972",
+    "5973",
+    "5974"
   ],
   "Index": [
-    "5945",
-    "5946",
-    "5947",
-    "5948",
-    "5949"
+    "5970",
+    "5971",
+    "5972",
+    "5973",
+    "5974"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "428999623.json": "0",
     "248303092.json": "1",
     "998679771.json": "2",

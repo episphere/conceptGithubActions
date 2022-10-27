@@ -12,7 +12,7 @@
     "RACEETH5"
   ],
   "conceptId": "248444252",
-  "Question Text": "Cuban",
+  "Question Text- v1": "Cuban",
   "Variable Label": "Cuban",
   "Variable Name": [
     "SrvBOH_Cuban_v1r0"
@@ -27,14 +27,14 @@
   "Notes": "Only display if RACEETH = Hispanic, Latino, or Spanish",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "940",
-    "941"
+    "944",
+    "945"
   ],
   "Index": [
-    "940",
-    "941"
+    "944",
+    "945"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

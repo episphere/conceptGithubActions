@@ -12,7 +12,7 @@
     "RACEETH8"
   ],
   "conceptId": "704661219",
-  "Question Text": "Scottish",
+  "Question Text- v1": "Scottish",
   "Variable Label": "Scottish",
   "Variable Name": [
     "SrvBOH_Scottish_v1r0"
@@ -27,14 +27,14 @@
   "Notes": "Only display if RACEETH = White",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "1027",
-    "1028"
+    "1031",
+    "1032"
   ],
   "Index": [
-    "1027",
-    "1028"
+    "1031",
+    "1032"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

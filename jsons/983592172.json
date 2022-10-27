@@ -6,7 +6,7 @@
     "716117817.json"
   ],
   "conceptId": "983592172",
-  "Question Text": "3-Previous Review 4- Within the past 20 years, have you lived anywhere else for at least two years ?",
+  "Question Text- v1": "3-Previous Review 4- Within the past 20 years, have you lived anywhere else for at least two years ?",
   "Variable Label": "Lived anywhere else at least two years",
   "Variable Name": [
     "SrvLAW_HomeAddOth4_v1r0"
@@ -19,14 +19,14 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "4655",
-    "4656"
+    "4659",
+    "4660"
   ],
   "Index": [
-    "4655",
-    "4656"
+    "4659",
+    "4660"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

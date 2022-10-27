@@ -6,7 +6,7 @@
     "965707586.json"
   ],
   "conceptId": "178665310",
-  "Question Text": "Over the past 12 months, how often did you usually drink wine?",
+  "Question Text- v1": "Over the past 12 months, how often did you usually drink wine?",
   "Variable Label": "Often drink wine, past 12 months",
   "Variable Name": [
     "SrvSAS_WineOften12Mo_v1r0"
@@ -18,26 +18,26 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44523",
+  "Date added or modified": "11/23/21",
   "Formula for Index": [
-    "4314",
-    "4315",
-    "4316",
-    "4317",
     "4318",
     "4319",
-    "4320"
+    "4320",
+    "4321",
+    "4322",
+    "4323",
+    "4324"
   ],
   "Index": [
-    "4314",
-    "4315",
-    "4316",
-    "4317",
     "4318",
     "4319",
-    "4320"
+    "4320",
+    "4321",
+    "4322",
+    "4323",
+    "4324"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "595249233.json": "0",
     "637900673.json": "1",
     "207952166.json": "2",

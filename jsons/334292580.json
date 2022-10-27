@@ -6,7 +6,7 @@
     "965707586.json"
   ],
   "conceptId": "334292580",
-  "Question Text": "On days you were around other people's tobacco smoke in the past year in your home or work, about how many hours per day were you around it?",
+  "Question Text- v1": "On days you were around other people's tobacco smoke in the past year in your home or work, about how many hours per day were you around it?",
   "Variable Label": "Hours around tobacco smoke of others, past year",
   "Variable Name": [
     "SrvSAS_HrsAroundSmoke_v1r0"
@@ -18,24 +18,24 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44494",
+  "Date added or modified": "10/25/21",
   "Formula for Index": [
-    "3847",
-    "3848",
-    "3849",
-    "3850",
     "3851",
-    "3852"
+    "3852",
+    "3853",
+    "3854",
+    "3855",
+    "3856"
   ],
   "Index": [
-    "3847",
-    "3848",
-    "3849",
-    "3850",
     "3851",
-    "3852"
+    "3852",
+    "3853",
+    "3854",
+    "3855",
+    "3856"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "174968750.json": "0",
     "738454194.json": "1",
     "229540444.json": "2",

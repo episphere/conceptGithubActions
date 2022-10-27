@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "6482",
-  "Index": "6482",
+  "Formula for Index": "6508",
+  "Index": "6508",
   "Primary Source": [
     "129084651.json"
   ],
@@ -14,14 +14,14 @@
     "SrvBlU_COV28_v1r0"
   ],
   "conceptId": "395747093",
-  "Question Text": "Which COVID-19 vaccine shot did you get? Please describe [text box]",
+  "Question Text- v1": "Which COVID-19 vaccine shot did you get? Please describe [text box]",
   "Variable Label": "Vaccine Brand - Descriptive",
   "Variable Name": [
     "SrvBlU_COV28Desc_v1r0"
   ],
   "Variable Type": "Char",
   "Variable Length": "300",
-  "Format/Value": "N/A",
+  "Format/Value - r0": "N/A",
   "Required": "No",
   "PII": "No",
   "Dictionary": "Biospecimen Survey",

@@ -12,7 +12,7 @@
     "GRID_ALCLIFE2"
   ],
   "conceptId": "843593800",
-  "Question Text": "During the year(s) you were drinking, when you were between ages 40 and 49, about how often did you drink alcohol?",
+  "Question Text- v1": "During the year(s) you were drinking, when you were between ages 40 and 49, about how often did you drink alcohol?",
   "Variable Label": "How often drink alcohol, Age 40 to Age 49",
   "Variable Name": [
     "SrvSAS_AlcOften4049_v1r0"
@@ -24,30 +24,30 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44627",
+  "Date added or modified": "3/7/22",
   "Formula for Index": [
-    "4386",
-    "4387",
-    "4388",
-    "4389",
     "4390",
     "4391",
     "4392",
     "4393",
-    "4394"
+    "4394",
+    "4395",
+    "4396",
+    "4397",
+    "4398"
   ],
   "Index": [
-    "4386",
-    "4387",
-    "4388",
-    "4389",
     "4390",
     "4391",
     "4392",
     "4393",
-    "4394"
+    "4394",
+    "4395",
+    "4396",
+    "4397",
+    "4398"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "265550580.json": "0",
     "950039557.json": "1",
     "402048066.json": "2",

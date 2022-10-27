@@ -16,7 +16,7 @@
     "LANG"
   ],
   "conceptId": "750168061",
-  "Question Text": "Chinese",
+  "Question Text- v1": "Chinese",
   "Variable Label": "Chinese",
   "Variable Name": [
     "SrvBOH_Chinese_v1r0",
@@ -33,16 +33,16 @@
   "Notes": "Only display if RACEETH = Asian",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "892",
-    "893"
+    "896",
+    "897"
   ],
   "Index": [
-    "892",
-    "893"
+    "896",
+    "897"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   },
-  "Date added or modified": "44453"
+  "Date added or modified": "9/14/21"
 }

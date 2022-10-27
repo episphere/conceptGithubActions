@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "1633",
-  "Index": "1633",
+  "Formula for Index": "1637",
+  "Index": "1637",
   "Primary Source": [
     "129084651.json"
   ],
@@ -8,7 +8,7 @@
     "726699695.json"
   ],
   "conceptId": "967093163",
-  "Question Text": "How old were you when you last used prescription medication to treat the severe or ongoing acne? If you are currently using this prescription medication, enter your current age.",
+  "Question Text- v1": "How old were you when you last used prescription medication to treat the severe or ongoing acne? If you are currently using this prescription medication, enter your current age.",
   "Variable Label": "Last used acne med age",
   "Variable Name": [
     "SrvBOH_AcneMedL_v1r0"
@@ -18,7 +18,7 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Format/Value": "N/A",
+  "Format/Value - r0": "N/A",
   "Required": "No",
   "PII": "No",
   "Question Type": "Text only Response"

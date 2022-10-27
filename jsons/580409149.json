@@ -16,7 +16,7 @@
     "BSNSSTYP2"
   ],
   "conceptId": "580409149",
-  "Question Text": "Fishing",
+  "Question Text- v1": "Fishing",
   "Variable Label": "Fishing",
   "Variable Name": [
     "SrvBOH_FishingC_v1r0",
@@ -30,17 +30,17 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44482",
+  "Date added or modified": "10/13/21",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "2127",
-    "2128"
+    "2131",
+    "2132"
   ],
   "Index": [
-    "2127",
-    "2128"
+    "2131",
+    "2132"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

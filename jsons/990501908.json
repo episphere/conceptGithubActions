@@ -24,7 +24,7 @@
     "WTLOSS2_4555"
   ],
   "conceptId": "990501908",
-  "Question Text": "Exercised",
+  "Question Text- v1": "Exercised",
   "Variable Label": "Exercised",
   "Variable Name": [
     "SrvBOH_Exercised1_v1r0",
@@ -45,14 +45,14 @@
   "Notes": "Only display if flag for percent weight change 18-25 = yes",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "1521",
-    "1522"
+    "1525",
+    "1526"
   ],
   "Index": [
-    "1521",
-    "1522"
+    "1525",
+    "1526"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

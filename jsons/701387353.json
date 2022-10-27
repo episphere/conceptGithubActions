@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "6474",
-  "Index": "6474",
+  "Formula for Index": "6499",
+  "Index": "6499",
   "Primary Source": [
     "129084651.json"
   ],
@@ -13,20 +13,21 @@
   "GridID/Source Question Name": [
     "SrvBlU_COV27_v1r0"
   ],
+  "Deprecated, New, or Revised": "Yes",
   "conceptId": "701387353",
-  "Question Text": "When were you vaccinated? Month",
+  "Question Text- v1": "When were you vaccinated? Month",
   "Variable Label": "Vaccine Date Month",
   "Variable Name": [
     "SrvBlU_COV27_MONTH_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Format/Value": "N/A",
+  "Format/Value - r0": "N/A",
   "Required": "No",
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "44673",
+  "Date added or modified": "4/22/22",
   "Question Type": "Multiple Text Boxes, Loops",
   "IMS Review Notes": "Added Source Variable Name (Column H)"
 }

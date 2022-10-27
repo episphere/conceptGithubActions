@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "877878167",
-  "Question Text": "In the 1 hour before you donated your mouthwash (saliva) sample, did you brush your teeth?",
+  "Question Text- v1": "In the 1 hour before you donated your mouthwash (saliva) sample, did you brush your teeth?",
   "Variable Label": "Mouthwash Hour Before",
   "Variable Name": [
     "SrvMw_MWBEFORE_v1r0"
@@ -19,14 +19,14 @@
   "State Attribute": "No",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "6489",
-    "6490"
+    "6515",
+    "6516"
   ],
   "Index": [
-    "6489",
-    "6490"
+    "6515",
+    "6516"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

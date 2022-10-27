@@ -12,7 +12,7 @@
     "SrvMw_DENTURES_v1r0"
   ],
   "conceptId": "215662651",
-  "Question Text": "Full Denture",
+  "Question Text- v1": "Full Denture",
   "Variable Label": "Full Denture",
   "Variable Name": [
     "SrvMw_FULLDENT_v1r0"
@@ -29,14 +29,14 @@
   "Question Type": "Optional Select All that Apply",
   "IMS Review Notes": "GRID ID/Source Variable Name (Column H) needed",
   "Formula for Index": [
-    "6635",
-    "6636"
+    "6661",
+    "6662"
   ],
   "Index": [
-    "6635",
-    "6636"
+    "6661",
+    "6662"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

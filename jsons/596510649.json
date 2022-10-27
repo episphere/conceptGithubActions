@@ -1,69 +1,27 @@
 {
-  "conceptId": "596510649",
-  "Question Text": "I am worried my information is not secure or there will be a data breach",
-  "Variable Label": "I am worried my information is not secure or there will be a data breach",
+  "Formula for Index": "732",
+  "Index": "732",
   "Primary Source": [
-    [
-      "237817859.json",
-      "237817859.json"
-    ]
+    "237817859.json"
   ],
   "Secondary Source": [
-    [
-      "861315814.json",
-      "861315814.json"
-    ]
+    "861315814.json"
   ],
-  "Formula for Index": [
-    "728",
-    "729",
-    "730"
-  ],
-  "Index": [
-    "728",
-    "729",
-    "730"
-  ],
+  "conceptId": "596510649",
+  "Question Text- v1": "I am worried my information is not secure or there will be a data breach",
+  "Variable Label": "I am worried my information is not secure or there will be a data breach",
   "Variable Name": [
-    [
-      "HdRef_PrivacyE_v1r0",
-      "HdRef_PrivacyF_v1r0"
-    ]
+    "HdRef_PrivacyE_v1r0"
   ],
-  "Variable Type": [
-    "Num",
-    "Num"
-  ],
-  "Variable Length": [
-    "1",
-    "1"
-  ],
-  "Format/Value": {
-    "104430631.json": "0",
-    "353358909.json": "1"
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Format/Value - r0": {
+    "104430631.json": "0"
   },
-  "Required": [
-    "Yes",
-    "Yes"
-  ],
-  "PII": [
-    "No",
-    "No"
-  ],
-  "Dictionary": [
-    "Master Data Dictionary",
-    "Master Data Dictionary"
-  ],
-  "State Attribute": [
-    "No",
-    "No"
-  ],
-  "Default Variable": [
-    "Yes",
-    "Yes"
-  ],
-  "Date added or modified": [
-    "5/25/21",
-    "44341"
-  ]
+  "Required": "Yes",
+  "PII": "No",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "5/25/21"
 }

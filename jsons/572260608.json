@@ -12,7 +12,7 @@
     "ALCOHOL7"
   ],
   "conceptId": "572260608",
-  "Question Text": "Health or medical reasons",
+  "Question Text- v1": "Health or medical reasons",
   "Variable Label": "Health or medical reasons",
   "Variable Name": [
     "SrvSAS_HealthReasons_v1r0"
@@ -24,16 +24,16 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44489",
+  "Date added or modified": "10/20/21",
   "Formula for Index": [
-    "4273",
-    "4274"
+    "4277",
+    "4278"
   ],
   "Index": [
-    "4273",
-    "4274"
+    "4277",
+    "4278"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

@@ -12,7 +12,7 @@
     "RACEETH4"
   ],
   "conceptId": "618222258",
-  "Question Text": "Haitian",
+  "Question Text- v1": "Haitian",
   "Variable Label": "Haitian",
   "Variable Name": [
     "SrvBOH_Haitian_v1r0"
@@ -27,14 +27,14 @@
   "Notes": "Only display if RACEETH = Black, African American, or African",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "921",
-    "922"
+    "925",
+    "926"
   ],
   "Index": [
-    "921",
-    "922"
+    "925",
+    "926"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

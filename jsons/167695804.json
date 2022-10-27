@@ -12,7 +12,7 @@
     "GRID_SRVBLU_COV19A_V1R0"
   ],
   "conceptId": "167695804",
-  "Question Text": "Appetite changes - Since your diagnosis",
+  "Question Text- v1": "Appetite changes - Since your diagnosis",
   "Variable Label": "Long COVID Appetite changes",
   "Variable Name": [
     "SrvBlU_COV19A2_v1r0"
@@ -26,16 +26,16 @@
   "Question Type": "Grid with Multiple Choice Sub-Questions",
   "IMS Review Notes": "Updated column G Source Question",
   "Formula for Index": [
-    "6278",
-    "6279",
-    "6280"
+    "6303",
+    "6304",
+    "6305"
   ],
   "Index": [
-    "6278",
-    "6279",
-    "6280"
+    "6303",
+    "6304",
+    "6305"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "244354126.json": "0",
     "724612102.json": "1",
     "178780048.json": "2"

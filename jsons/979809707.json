@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "1115",
-  "Index": "1115",
+  "Formula for Index": "1119",
+  "Index": "1119",
   "Primary Source": [
     "129084651.json"
   ],
@@ -14,7 +14,7 @@
     "SEXORIENT"
   ],
   "conceptId": "979809707",
-  "Question Text": "Orientation - Do you think of yourself as: [text box]",
+  "Question Text- v1": "Orientation - Do you think of yourself as: [text box]",
   "Variable Label": "Sexual orientation - Descriptive",
   "Variable Name": [
     "SrvBOH_SexOrientDesc_v1r0"
@@ -24,10 +24,10 @@
   ],
   "Variable Type": "Char",
   "Variable Length": "300",
-  "Format/Value": "N/A",
+  "Format/Value - r0": "N/A",
   "Required": "No",
   "PII": "No",
   "Notes": "Option only available if 55 is selected in SEXORIENT",
-  "Date added or modified": "44453",
+  "Date added or modified": "9/14/21",
   "Question Type": "Optional Multiple Choice with Text Box (text in text box)"
 }

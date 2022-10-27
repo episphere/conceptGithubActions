@@ -6,7 +6,7 @@
     "965707586.json"
   ],
   "conceptId": "175995366",
-  "Question Text": "On days that you smoked marijuana when you were age [X / 18] to age [Y / 24], what is the total amount of time you smoked per day?",
+  "Question Text- v1": "On days that you smoked marijuana when you were age [X / 18] to age [Y / 24], what is the total amount of time you smoked per day?",
   "Variable Label": "How much time marijuana  smoked, Age [X / 18] to age [Y / 24]",
   "Variable Name": [
     "SrvSAS_TmSmokeMJ1824_v1r0"
@@ -18,22 +18,22 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44620",
+  "Date added or modified": "2/28/22",
   "Formula for Index": [
-    "4012",
-    "4013",
-    "4014",
-    "4015",
-    "4016"
+    "4016",
+    "4017",
+    "4018",
+    "4019",
+    "4020"
   ],
   "Index": [
-    "4012",
-    "4013",
-    "4014",
-    "4015",
-    "4016"
+    "4016",
+    "4017",
+    "4018",
+    "4019",
+    "4020"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "428999623.json": "0",
     "248303092.json": "1",
     "998679771.json": "2",

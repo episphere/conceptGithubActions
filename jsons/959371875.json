@@ -6,7 +6,7 @@
     "716117817.json"
   ],
   "conceptId": "959371875",
-  "Question Text": "In a usual week, to how many different schools or campuses do you commute to?",
+  "Question Text- v1": "In a usual week, to how many different schools or campuses do you commute to?",
   "Variable Label": "Current school, number of campuses comuted to",
   "Variable Name": [
     "SrvLAW_CurSchCom2_v1r0"
@@ -18,18 +18,18 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44630",
+  "Date added or modified": "3/10/22",
   "Formula for Index": [
-    "5964",
-    "5965",
-    "5966"
+    "5989",
+    "5990",
+    "5991"
   ],
   "Index": [
-    "5964",
-    "5965",
-    "5966"
+    "5989",
+    "5990",
+    "5991"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "759356722.json": "0",
     "185036360.json": "1",
     "684900118.json": "2"

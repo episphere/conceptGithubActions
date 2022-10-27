@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "406846149",
-  "Question Text": "On the days that you rode a bicycle (including a stationary bike), about how much time per day did you spend doing this activity?",
+  "Question Text- v1": "On the days that you rode a bicycle (including a stationary bike), about how much time per day did you spend doing this activity?",
   "Variable Label": "On the days that you rode a bicycle (including a stationary bike), about how much time per day did you spend doing this activity?",
   "Variable Name": [
     "SrvMRE_BikeTime_v1r0"
@@ -19,26 +19,26 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if EXEREC1=5",
-  "Date added or modified": "44620",
+  "Date added or modified": "2/28/22",
   "Formula for Index": [
-    "3174",
-    "3175",
-    "3176",
-    "3177",
     "3178",
     "3179",
-    "3180"
+    "3180",
+    "3181",
+    "3182",
+    "3183",
+    "3184"
   ],
   "Index": [
-    "3174",
-    "3175",
-    "3176",
-    "3177",
     "3178",
     "3179",
-    "3180"
+    "3180",
+    "3181",
+    "3182",
+    "3183",
+    "3184"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "428999623.json": "0",
     "248303092.json": "1",
     "206020811.json": "2",

@@ -5,8 +5,9 @@
   "Secondary Source": [
     "965707586.json"
   ],
+  "Deprecated, New, or Revised": "Yes",
   "conceptId": "115909186",
-  "Question Text": "Month - During that time, did you ever use chewing tobacco, snus, snuff, or dip  every day?",
+  "Question Text- v1": "Month - During that time, did you ever use chewing tobacco, snus, snuff, or dip  every day?",
   "Variable Label": "Use chewing tobacco, snus, snuff, or dip  every day, months",
   "Variable Name": [
     "SrvSAS_UseCTED_v1r0"
@@ -18,16 +19,16 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "10/25/21",
+  "Date added or modified": "10/24/22",
   "Formula for Index": [
-    "3666",
-    "3667"
+    "3670",
+    "3671"
   ],
   "Index": [
-    "3666",
-    "3667"
+    "3670",
+    "3671"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

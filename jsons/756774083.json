@@ -16,7 +16,7 @@
     "SrvBlU_COV8_v1r0"
   ],
   "conceptId": "756774083",
-  "Question Text": "Cough",
+  "Question Text- v1": "Cough",
   "Variable Label": "Cough day",
   "Variable Name": [
     "SrvBio_CoughDay_v1r0",
@@ -34,14 +34,14 @@
   "State Attribute": "No",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "6139",
-    "6140"
+    "6164",
+    "6165"
   ],
   "Index": [
-    "6139",
-    "6140"
+    "6164",
+    "6165"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   },

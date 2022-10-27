@@ -12,7 +12,7 @@
     "SrvMw_MWUSE_v1r0"
   ],
   "conceptId": "762727133",
-  "Question Text": "Alcohol-free mouthwash (such as LISTERINE® Zero)",
+  "Question Text- v1": "Alcohol-free mouthwash (such as LISTERINE® Zero)",
   "Variable Label": "Alcohol-free mouthwash",
   "Variable Name": [
     "SrvMw_MWALCFREE1_v1r0"
@@ -29,14 +29,14 @@
   "Question Type": "Optional Select All that Apply",
   "IMS Review Notes": "GRID ID/Source Variable Name (Column H) needed",
   "Formula for Index": [
-    "6541",
-    "6542"
+    "6567",
+    "6568"
   ],
   "Index": [
-    "6541",
-    "6542"
+    "6567",
+    "6568"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

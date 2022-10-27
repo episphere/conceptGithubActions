@@ -12,7 +12,7 @@
     "GRID_SRVBLU_COV19B_V1R0"
   ],
   "conceptId": "338613869",
-  "Question Text": "Not able to return to work or school - Since your diagnosis",
+  "Question Text- v1": "Not able to return to work or school - Since your diagnosis",
   "Variable Label": "Long COVID Return to work or school",
   "Variable Name": [
     "SrvBlU_COV19B3_v1r0"
@@ -26,16 +26,16 @@
   "Question Type": "Grid with Multiple Choice Sub-Questions",
   "IMS Review Notes": "Updated column G Source Question",
   "Formula for Index": [
-    "6299",
-    "6300",
-    "6301"
+    "6324",
+    "6325",
+    "6326"
   ],
   "Index": [
-    "6299",
-    "6300",
-    "6301"
+    "6324",
+    "6325",
+    "6326"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "244354126.json": "0",
     "724612102.json": "1",
     "178780048.json": "2"

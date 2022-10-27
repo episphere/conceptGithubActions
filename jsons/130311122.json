@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "130311122",
-  "Question Text": "Within the last month, have you used prescription hormone therapy to relieve common symptoms of perimenopause and menopause (for example, hot flashes and vaginal dryness), or to reduce bone loss due to lowering levels of estrogen and progesterone?",
+  "Question Text- v1": "Within the last month, have you used prescription hormone therapy to relieve common symptoms of perimenopause and menopause (for example, hot flashes and vaginal dryness), or to reduce bone loss due to lowering levels of estrogen and progesterone?",
   "Variable Label": "Hormone",
   "Variable Name": [
     "SrvBlU_HORMONE_v1r0"
@@ -20,14 +20,14 @@
   "Question Type": "Optional Multiple Choice",
   "IMS Review Notes": "Added a comma between: Urine,  and: and, in column E Secondary Source.",
   "Formula for Index": [
-    "6187",
-    "6188"
+    "6212",
+    "6213"
   ],
   "Index": [
-    "6187",
-    "6188"
+    "6212",
+    "6213"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

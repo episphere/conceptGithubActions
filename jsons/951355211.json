@@ -6,18 +6,20 @@
     "123496044.json"
   ],
   "conceptId": "951355211",
-  "Question Text": "Collection Location",
+  "Question Text- v1": "Collection Location",
   "Variable Label": "Collection Location",
   "Variable Name": [
     "BioSpm_Location_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
   "Notes": "0 equals Default for UoC, 1 equals Default for Marshfield, 2 equals Alt for Marshfield, 3 equals Default for HealthPartners, 4equals Default for Henry Ford, 5equals Alt for Henry Ford, 6equals Default for Sanford, 7equals Default for MOL, 55equals Other. Sent by KP.",
   "Dictionary": "Biospecimen Research",
   "State Attribute": "No",
   "Default Variable": "Yes",
-  "Date added or modified": "7/18/22",
+  "Date added or modified": "10/26/22",
   "Formula for Index": [
     "416",
     "417",
@@ -26,7 +28,9 @@
     "420",
     "421",
     "422",
-    "423"
+    "423",
+    "424",
+    "425"
   ],
   "Index": [
     "416",
@@ -36,16 +40,20 @@
     "420",
     "421",
     "422",
-    "423"
+    "423",
+    "424",
+    "425"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "777644826.json": "0",
     "692275326.json": "1",
-    "698283667.json": "2",
-    "834825425.json": "3",
-    "736183094.json": "4",
-    "886364332.json": "5",
-    "589224449.json": "6",
+    "813701399.json": "2",
+    "698283667.json": "3",
+    "834825425.json": "4",
+    "736183094.json": "5",
+    "886364332.json": "6",
+    "706927479.json": "7",
+    "589224449.json": "8",
     "807835037.json": "55"
   }
 }

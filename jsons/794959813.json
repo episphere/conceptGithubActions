@@ -12,7 +12,7 @@
     "PREWORKT1"
   ],
   "conceptId": "794959813",
-  "Question Text": "Taxicab (includes Uber, Lyft, or hired car) commute to past work",
+  "Question Text- v1": "Taxicab (includes Uber, Lyft, or hired car) commute to past work",
   "Variable Label": "Taxicab (includes Uber, Lyft, or hired car) commute to past work",
   "Variable Name": [
     "SrvLAW_PreWorkTaxi_v1r0"
@@ -24,16 +24,16 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44630",
+  "Date added or modified": "3/10/22",
   "Formula for Index": [
-    "5832",
-    "5833"
+    "5857",
+    "5858"
   ],
   "Index": [
-    "5832",
-    "5833"
+    "5857",
+    "5858"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

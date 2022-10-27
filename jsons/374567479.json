@@ -12,7 +12,7 @@
     "GRID_SRVBLU_COV20A_V1R0"
   ],
   "conceptId": "374567479",
-  "Question Text": "Loss of taste or smell - How long experienced COV20A",
+  "Question Text- v1": "Loss of taste or smell - How long experienced COV20A",
   "Variable Label": "Long COVID Loss of taste or smell duration",
   "Variable Name": [
     "SrvBlU_COV20A1_v1r0"
@@ -25,16 +25,16 @@
   "State Attribute": "No",
   "Question Type": "Grid with Multiple Choice Sub-Questions",
   "Formula for Index": [
-    "6328",
-    "6329",
-    "6330"
+    "6353",
+    "6354",
+    "6355"
   ],
   "Index": [
-    "6328",
-    "6329",
-    "6330"
+    "6353",
+    "6354",
+    "6355"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "232063618.json": "0",
     "948148236.json": "1",
     "692824372.json": "2"

@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2226",
-  "Index": "2226",
+  "Formula for Index": "2230",
+  "Index": "2230",
   "Primary Source": [
     "129084651.json",
     "129084651.json",
@@ -66,7 +66,7 @@
     "ACIDSUP2_3"
   ],
   "conceptId": "785412329",
-  "Question Text": "Days per month",
+  "Question Text- v1": "Days per month",
   "Variable Label": "Baby or low-dose aspirin (81 mg or less) days per month",
   "Variable Name": [
     "SrvMRE_LAspirinMo_v1r0",
@@ -102,7 +102,7 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Format/Value": "N/A",
+  "Format/Value - r0": "N/A",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if PAINREL1 = 0",

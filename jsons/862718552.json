@@ -12,7 +12,7 @@
     "RACEETH5"
   ],
   "conceptId": "862718552",
-  "Question Text": "Puerto Rican",
+  "Question Text- v1": "Puerto Rican",
   "Variable Label": "Puerto Rican",
   "Variable Name": [
     "SrvBOH_PR_v1r0"
@@ -27,14 +27,14 @@
   "Notes": "Only display if RACEETH = Hispanic, Latino, or Spanish",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "950",
-    "951"
+    "954",
+    "955"
   ],
   "Index": [
-    "950",
-    "951"
+    "954",
+    "955"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

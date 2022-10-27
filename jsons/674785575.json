@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "5326",
-  "Index": "5326",
+  "Formula for Index": "5351",
+  "Index": "5351",
   "Primary Source": [
     "129084651.json"
   ],
@@ -14,7 +14,7 @@
     "SEASWTR1_2"
   ],
   "conceptId": "674785575",
-  "Question Text": "Seasonal Address 2- What [is/was] the source of water to [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided? Please describe [text box]",
+  "Question Text- v1": "Seasonal Address 2- What [is/was] the source of water to [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided? Please describe [text box]",
   "Variable Label": "Other: Please describe",
   "Variable Name": [
     "SrvLAW_SeasWtr1_2_Oth_v1r0"
@@ -24,8 +24,8 @@
   ],
   "Variable Type": "Char",
   "Variable Length": "300",
-  "Format/Value": "N/A",
+  "Format/Value - r0": "N/A",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44630"
+  "Date added or modified": "3/10/22"
 }

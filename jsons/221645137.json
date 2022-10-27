@@ -12,7 +12,7 @@
     "PAINREL1"
   ],
   "conceptId": "221645137",
-  "Question Text": "Celebrex (Celecoxib)",
+  "Question Text- v1": "Celebrex (Celecoxib)",
   "Variable Label": "Celebrex (Celecoxib)",
   "Variable Name": [
     "SrvMRE_Celebrex_v1r0"
@@ -25,14 +25,14 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "2219",
-    "2220"
+    "2223",
+    "2224"
   ],
   "Index": [
-    "2219",
-    "2220"
+    "2223",
+    "2224"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

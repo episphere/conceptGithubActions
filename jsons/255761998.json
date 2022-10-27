@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "255761998",
-  "Question Text": "During the season[s] in the past 12 months that you did Yoga, Pilates, or Tai Chi, about how often did you do this activity?",
+  "Question Text- v1": "During the season[s] in the past 12 months that you did Yoga, Pilates, or Tai Chi, about how often did you do this activity?",
   "Variable Label": "During the season[s] in the past 12 months that you did Yoga, Pilates, or Tai Chi, about how often did you do this activity?",
   "Variable Name": [
     "SrvMRE_YogaOften_v1r0"
@@ -19,24 +19,24 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if EXEREC1=7",
-  "Date added or modified": "44515",
+  "Date added or modified": "11/15/21",
   "Formula for Index": [
-    "3194",
-    "3195",
-    "3196",
-    "3197",
     "3198",
-    "3199"
+    "3199",
+    "3200",
+    "3201",
+    "3202",
+    "3203"
   ],
   "Index": [
-    "3194",
-    "3195",
-    "3196",
-    "3197",
     "3198",
-    "3199"
+    "3199",
+    "3200",
+    "3201",
+    "3202",
+    "3203"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "239152340.json": "0",
     "582006876.json": "1",
     "645894551.json": "2",

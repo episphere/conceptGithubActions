@@ -12,7 +12,7 @@
     "FERT4"
   ],
   "conceptId": "570171052",
-  "Question Text": "Cause of infertility was not looked into",
+  "Question Text- v1": "Cause of infertility was not looked into",
   "Variable Label": "Cause of infertility was not looked into",
   "Variable Name": [
     "SrvMRE_InfertilityNLI_v1r0"
@@ -25,14 +25,14 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "2525",
-    "2526"
+    "2529",
+    "2530"
   ],
   "Index": [
-    "2525",
-    "2526"
+    "2529",
+    "2530"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

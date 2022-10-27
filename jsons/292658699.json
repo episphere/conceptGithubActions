@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "292658699",
-  "Question Text": "When was the last time you took ibuprofen?",
+  "Question Text- v1": "When was the last time you took ibuprofen?",
   "Variable Label": "Last time took ibuprofen?",
   "Variable Name": [
     "SrvMRE_IbuprofenTime_v1r0"
@@ -20,16 +20,16 @@
   "PII": "No",
   "Notes": "Only display if PAINREL1 = 2",
   "Formula for Index": [
-    "2266",
-    "2267",
-    "2268"
+    "2270",
+    "2271",
+    "2272"
   ],
   "Index": [
-    "2266",
-    "2267",
-    "2268"
+    "2270",
+    "2271",
+    "2272"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "317567178.json": "0",
     "484055234.json": "1",
     "802197176.json": "2"

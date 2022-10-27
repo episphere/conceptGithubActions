@@ -12,7 +12,7 @@
     "HORMED1"
   ],
   "conceptId": "817131019",
-  "Question Text": "Hormonal IUD (such as Mirena intrauterine device)",
+  "Question Text- v1": "Hormonal IUD (such as Mirena intrauterine device)",
   "Variable Label": "Hormonal IUD (such as Mirena intrauterine device)",
   "Variable Name": [
     "SrvMRE_HormonalIUD_v1r0"
@@ -24,16 +24,16 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44378",
+  "Date added or modified": "7/1/21",
   "Formula for Index": [
-    "2591",
-    "2592"
+    "2595",
+    "2596"
   ],
   "Index": [
-    "2591",
-    "2592"
+    "2595",
+    "2596"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

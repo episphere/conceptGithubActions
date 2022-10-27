@@ -12,7 +12,7 @@
     "PREWORKT6"
   ],
   "conceptId": "779421821",
-  "Question Text": "Bus or streetcar/trolley, light rail/trolley, light rail commute from past work",
+  "Question Text- v1": "Bus or streetcar/trolley, light rail/trolley, light rail commute from past work",
   "Variable Label": "Bus or streetcar/trolley, light rail/trolley, light rail commute from past work",
   "Variable Name": [
     "SrvLAW_PreWorkBus4_v1r0"
@@ -24,16 +24,16 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44630",
+  "Date added or modified": "3/10/22",
   "Formula for Index": [
-    "5904",
-    "5905"
+    "5929",
+    "5930"
   ],
   "Index": [
-    "5904",
-    "5905"
+    "5929",
+    "5930"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

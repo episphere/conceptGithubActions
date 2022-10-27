@@ -6,7 +6,7 @@
     "716117817.json"
   ],
   "conceptId": "995620555",
-  "Question Text": "In the past 20 years, did you commute from your home to a job at least once a week for at least one year?",
+  "Question Text- v1": "In the past 20 years, did you commute from your home to a job at least once a week for at least one year?",
   "Variable Label": "Longest held occuptation, commute at least once a week",
   "Variable Name": [
     "SrvLAW_PreWorkCom_v1r0"
@@ -18,16 +18,16 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44630",
+  "Date added or modified": "3/10/22",
   "Formula for Index": [
-    "5808",
-    "5809"
+    "5833",
+    "5834"
   ],
   "Index": [
-    "5808",
-    "5809"
+    "5833",
+    "5834"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2110",
-  "Index": "2110",
+  "Formula for Index": "2114",
+  "Index": "2114",
   "Primary Source": [
     "129084651.json"
   ],
@@ -8,7 +8,7 @@
     "726699695.json"
   ],
   "conceptId": "627122657",
-  "Question Text": "What is your current job title? Please be descriptive. For example, high school math teacher, emergency room nurse, automobile painter.",
+  "Question Text- v1": "What is your current job title? Please be descriptive. For example, high school math teacher, emergency room nurse, automobile painter.",
   "Variable Label": "Current job",
   "Variable Name": [
     "SrvBOH_CurrentJob_v1r0"
@@ -18,9 +18,9 @@
   ],
   "Variable Type": "Char",
   "Variable Length": "300",
-  "Format/Value": "N/A",
+  "Format/Value - r0": "N/A",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44467",
+  "Date added or modified": "9/28/21",
   "Question Type": "Text only Response"
 }

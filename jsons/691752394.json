@@ -12,7 +12,7 @@
     "GRID_SRVBLU_COV24A_V1R0"
   ],
   "conceptId": "691752394",
-  "Question Text": "Appetite changes - How long experienced COV24A",
+  "Question Text- v1": "Appetite changes - How long experienced COV24A",
   "Variable Label": "Pandemic Appetite changes duration",
   "Variable Name": [
     "SrvBlU_COV24A2_v1r0"
@@ -26,16 +26,16 @@
   "Question Type": "Grid with Multiple Choice Sub-Questions",
   "IMS Review Notes": "changed = in GRID ID/Source Variable Name to _",
   "Formula for Index": [
-    "6431",
-    "6432",
-    "6433"
+    "6456",
+    "6457",
+    "6458"
   ],
   "Index": [
-    "6431",
-    "6432",
-    "6433"
+    "6456",
+    "6457",
+    "6458"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "232063618.json": "0",
     "948148236.json": "1",
     "692824372.json": "2"

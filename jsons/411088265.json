@@ -6,7 +6,7 @@
     "965707586.json"
   ],
   "conceptId": "411088265",
-  "Question Text": "Over the past 12 months, how often did you usually drink liquor or mixed drinks?",
+  "Question Text- v1": "Over the past 12 months, how often did you usually drink liquor or mixed drinks?",
   "Variable Label": "Often drink liquor or mixed drinks, past 12 months",
   "Variable Name": [
     "SrvSAS_LiquorOften12Mo_v1r0"
@@ -18,26 +18,26 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44523",
+  "Date added or modified": "11/23/21",
   "Formula for Index": [
-    "4301",
-    "4302",
-    "4303",
-    "4304",
     "4305",
     "4306",
-    "4307"
+    "4307",
+    "4308",
+    "4309",
+    "4310",
+    "4311"
   ],
   "Index": [
-    "4301",
-    "4302",
-    "4303",
-    "4304",
     "4305",
     "4306",
-    "4307"
+    "4307",
+    "4308",
+    "4309",
+    "4310",
+    "4311"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "595249233.json": "0",
     "637900673.json": "1",
     "207952166.json": "2",

@@ -1,14 +1,15 @@
 {
-  "Formula for Index": "3668",
-  "Index": "3668",
+  "Formula for Index": "3672",
+  "Index": "3672",
   "Primary Source": [
     "129084651.json"
   ],
   "Secondary Source": [
     "965707586.json"
   ],
+  "Deprecated, New, or Revised": "Yes",
   "conceptId": "319871370",
-  "Question Text": "Month- During that time, how many days (1 to 30) did you use chewing tobacco, snus, snuff, or dip  in a usual month?",
+  "Question Text- v1": "Month- During that time, how many days (1 to 30) did you use chewing tobacco, snus, snuff, or dip  in a usual month?",
   "Variable Label": "How many days used chewing tobacco, snus, snuff, or dip  every day, usual month",
   "Variable Name": [
     "SrvSAS_DaysUsedCTMo_v1r0"
@@ -18,8 +19,8 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Format/Value": "N/A",
+  "Format/Value - r0": "N/A",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44536"
+  "Date added or modified": "10/24/22"
 }

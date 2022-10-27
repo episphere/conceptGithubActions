@@ -16,7 +16,7 @@
     "BSNSSTYP2"
   ],
   "conceptId": "751475124",
-  "Question Text": "Military",
+  "Question Text- v1": "Military",
   "Variable Label": "Military",
   "Variable Name": [
     "SrvBOH_MilitaryC_v1r0",
@@ -30,17 +30,17 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44482",
+  "Date added or modified": "10/13/21",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "2133",
-    "2134"
+    "2137",
+    "2138"
   ],
   "Index": [
-    "2133",
-    "2134"
+    "2137",
+    "2138"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

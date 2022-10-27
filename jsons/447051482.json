@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "523",
-  "Index": "523",
+  "Formula for Index": "527",
+  "Index": "527",
   "Primary Source": [
     "129084651.json"
   ],
@@ -8,14 +8,14 @@
     "166676176.json"
   ],
   "conceptId": "447051482",
-  "Question Text": "Social Security Number",
+  "Question Text- v1": "Social Security Number",
   "Variable Label": "Social Security Number",
   "Variable Name": [
     "SrvSS_SSN_v1r0"
   ],
   "Variable Type": "SSN",
   "Variable Length": "9",
-  "Format/Value": "###-##-####",
+  "Format/Value - r0": "###-##-####",
   "Required": "No",
   "PII": "Yes",
   "Notes": "Type and length are based on a numbers only format, no dashes. Will add additional SSN variables for study managers to add in",

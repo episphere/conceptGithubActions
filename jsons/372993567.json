@@ -16,7 +16,7 @@
     "BSNSSTYP2"
   ],
   "conceptId": "372993567",
-  "Question Text": "Mining",
+  "Question Text- v1": "Mining",
   "Variable Label": "Mining",
   "Variable Name": [
     "SrvBOH_MiningC_v1r0",
@@ -30,17 +30,17 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44482",
+  "Date added or modified": "10/13/21",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "2123",
-    "2124"
+    "2127",
+    "2128"
   ],
   "Index": [
-    "2123",
-    "2124"
+    "2127",
+    "2128"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

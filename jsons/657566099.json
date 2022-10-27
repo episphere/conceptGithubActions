@@ -12,7 +12,7 @@
     "SrvBlU_COV8_v1r0"
   ],
   "conceptId": "657566099",
-  "Question Text": "Rashes or other skin changes",
+  "Question Text- v1": "Rashes or other skin changes",
   "Variable Label": "Rashes or other skin changes",
   "Variable Name": [
     "SrvBlU_COV8Q_v1r0"
@@ -29,14 +29,14 @@
   "Question Type": "Optional Select All that Apply, Loops",
   "IMS Review Notes": "Added Source Variable Name (Column H)",
   "Formula for Index": [
-    "6239",
-    "6240"
+    "6264",
+    "6265"
   ],
   "Index": [
-    "6239",
-    "6240"
+    "6264",
+    "6265"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

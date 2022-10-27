@@ -12,7 +12,7 @@
     "GRID_HOUSE"
   ],
   "conceptId": "151161693",
-  "Question Text": "Walking while shopping or doing errands (Do not count walking for exercise.) during past 12 months",
+  "Question Text- v1": "Walking while shopping or doing errands (Do not count walking for exercise.) during past 12 months",
   "Variable Label": "Walking while shopping or doing errands (Do not count walking for exercise.) during past 12 months",
   "Variable Name": [
     "SrvMRE_WalkingErrands_v1r0"
@@ -25,26 +25,26 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Grid Question",
-  "Date added or modified": "44515",
+  "Date added or modified": "11/15/21",
   "Formula for Index": [
-    "2906",
-    "2907",
-    "2908",
-    "2909",
     "2910",
     "2911",
-    "2912"
+    "2912",
+    "2913",
+    "2914",
+    "2915",
+    "2916"
   ],
   "Index": [
-    "2906",
-    "2907",
-    "2908",
-    "2909",
     "2910",
     "2911",
-    "2912"
+    "2912",
+    "2913",
+    "2914",
+    "2915",
+    "2916"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "648960871.json": "44",
     "239152340.json": "1",
     "582006876.json": "2",

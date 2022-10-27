@@ -12,7 +12,7 @@
     "RACEETH4"
   ],
   "conceptId": "704774349",
-  "Question Text": "African American",
+  "Question Text- v1": "African American",
   "Variable Label": "African American",
   "Variable Name": [
     "SrvBOH_AfricanAm_v1r0"
@@ -27,14 +27,14 @@
   "Notes": "Only display if RACEETH = Black, African American, or African",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "911",
-    "912"
+    "915",
+    "916"
   ],
   "Index": [
-    "911",
-    "912"
+    "915",
+    "916"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

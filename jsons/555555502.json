@@ -12,7 +12,7 @@
     "PAINREL1"
   ],
   "conceptId": "555555502",
-  "Question Text": "Acetaminophen (such as Tylenol)",
+  "Question Text- v1": "Acetaminophen (such as Tylenol)",
   "Variable Label": "Acetaminophen (such as Tylenol)",
   "Variable Name": [
     "SrvMRE_Acetaminophen_v1r0"
@@ -25,14 +25,14 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "2215",
-    "2216"
+    "2219",
+    "2220"
   ],
   "Index": [
-    "2215",
-    "2216"
+    "2219",
+    "2220"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

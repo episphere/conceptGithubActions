@@ -12,7 +12,7 @@
     "RACEETH8"
   ],
   "conceptId": "192776753",
-  "Question Text": "European",
+  "Question Text- v1": "European",
   "Variable Label": "European",
   "Variable Name": [
     "SrvBOH_European_v1r0"
@@ -27,14 +27,14 @@
   "Notes": "Only display if RACEETH = White",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "1013",
-    "1014"
+    "1017",
+    "1018"
   ],
   "Index": [
-    "1013",
-    "1014"
+    "1017",
+    "1018"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

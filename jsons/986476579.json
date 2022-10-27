@@ -12,7 +12,7 @@
     "GRID_HOUSE2"
   ],
   "conceptId": "986476579",
-  "Question Text": "Walking while shopping or doing errands (Do not count walking for exercise.) time per day",
+  "Question Text- v1": "Walking while shopping or doing errands (Do not count walking for exercise.) time per day",
   "Variable Label": "Walking while shopping or doing errands (Do not count walking for exercise.) time per day",
   "Variable Name": [
     "SrvMRE_WalkingErrandTm_v1r0"
@@ -25,26 +25,26 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Grid Question - Only display if HOUSE2E =0 or no response",
-  "Date added or modified": "44620",
+  "Date added or modified": "2/28/22",
   "Formula for Index": [
-    "2941",
-    "2942",
-    "2943",
-    "2944",
     "2945",
     "2946",
-    "2947"
+    "2947",
+    "2948",
+    "2949",
+    "2950",
+    "2951"
   ],
   "Index": [
-    "2941",
-    "2942",
-    "2943",
-    "2944",
     "2945",
     "2946",
-    "2947"
+    "2947",
+    "2948",
+    "2949",
+    "2950",
+    "2951"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "428999623.json": "0",
     "248303092.json": "1",
     "206020811.json": "2",

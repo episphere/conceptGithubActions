@@ -12,7 +12,7 @@
     "MHGROUP9"
   ],
   "conceptId": "733236542",
-  "Question Text": "Prostate removed (prostatectomy)",
+  "Question Text- v1": "Prostate removed (prostatectomy)",
   "Variable Label": "Prostate removed (prostatectomy)",
   "Variable Name": [
     "SrvBOH_Prostatectomy_v1r0"
@@ -26,14 +26,14 @@
   "PII": "No",
   "Question Type": "Optional Select All that Apply, Displayif in One or More Responses",
   "Formula for Index": [
-    "1375",
-    "1376"
+    "1379",
+    "1380"
   ],
   "Index": [
-    "1375",
-    "1376"
+    "1379",
+    "1380"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

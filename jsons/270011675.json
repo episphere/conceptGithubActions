@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "5064",
-  "Index": "5064",
+  "Formula for Index": "5068",
+  "Index": "5068",
   "Primary Source": [
     "129084651.json"
   ],
@@ -14,7 +14,7 @@
     "HOMEWTR3_11"
   ],
   "conceptId": "270011675",
-  "Question Text": "Address 11- What [is/was] the main source of water that you [drink/drank] at [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank]. Please describe [text box]",
+  "Question Text- v1": "Address 11- What [is/was] the main source of water that you [drink/drank] at [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank]. Please describe [text box]",
   "Variable Label": "Other: Please describe",
   "Variable Name": [
     "SrvLAW_HomeWtr3_11_Oth_v1r0"
@@ -24,8 +24,8 @@
   ],
   "Variable Type": "Char",
   "Variable Length": "300",
-  "Format/Value": "N/A",
+  "Format/Value - r0": "N/A",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44630"
+  "Date added or modified": "3/10/22"
 }

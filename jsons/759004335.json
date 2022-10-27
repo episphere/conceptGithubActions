@@ -6,7 +6,7 @@
     "726699695.json"
   ],
   "conceptId": "759004335",
-  "Question Text": "Which of these options best describes your household's total combined family income for the <b>past 12 months</b>? This should include money earned from all places: job wages, rent from properties, investment income, social security, disability and/or veteran's benefits, unemployment benefits, workman's compensation, child support payments, alimony, and so on. Answer with the amount before taxes.",
+  "Question Text- v1": "Which of these options best describes your household's total combined family income for the <b>past 12 months</b>? This should include money earned from all places: job wages, rent from properties, investment income, social security, disability and/or veteran's benefits, unemployment benefits, workman's compensation, child support payments, alimony, and so on. Answer with the amount before taxes.",
   "Variable Label": "Income",
   "Variable Name": [
     "SrvBOH_Income_v1r0"
@@ -20,32 +20,32 @@
   "PII": "No",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "2182",
-    "2183",
-    "2184",
-    "2185",
     "2186",
     "2187",
     "2188",
     "2189",
     "2190",
     "2191",
-    "2192"
+    "2192",
+    "2193",
+    "2194",
+    "2195",
+    "2196"
   ],
   "Index": [
-    "2182",
-    "2183",
-    "2184",
-    "2185",
     "2186",
     "2187",
     "2188",
     "2189",
     "2190",
     "2191",
-    "2192"
+    "2192",
+    "2193",
+    "2194",
+    "2195",
+    "2196"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "374508062.json": "0",
     "976555124.json": "1",
     "745561936.json": "2",
@@ -60,6 +60,6 @@
   },
   "Date added or modified": [
     "9/28/21",
-    "44371"
+    "6/24/21"
   ]
 }

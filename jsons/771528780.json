@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "771528780",
-  "Question Text": "What was the method of delivery?",
+  "Question Text- v1": "What was the method of delivery?",
   "Variable Label": "Delivery method",
   "Variable Name": [
     "SrvMRE_DeliveryMethod_v1r0"
@@ -19,14 +19,14 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "2501",
-    "2502"
+    "2505",
+    "2506"
   ],
   "Index": [
-    "2501",
-    "2502"
+    "2505",
+    "2506"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "660308254.json": "0",
     "936573532.json": "1"
   }

@@ -24,7 +24,7 @@
     "CHILDCANC2"
   ],
   "conceptId": "139822395",
-  "Question Text": "Thyroid",
+  "Question Text- v1": "Thyroid",
   "Variable Label": "Thyroid",
   "Variable Name": [
     "SrvBOH_MThyroidCancer_v1r0",
@@ -44,14 +44,14 @@
   "PII": "No",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "1688",
-    "1689"
+    "1692",
+    "1693"
   ],
   "Index": [
-    "1688",
-    "1689"
+    "1692",
+    "1693"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

@@ -6,7 +6,7 @@
     "726699695.json"
   ],
   "conceptId": "206319592",
-  "Question Text": "Which one of these male figures most closely resembles your hair pattern at age 40?",
+  "Question Text- v1": "Which one of these male figures most closely resembles your hair pattern at age 40?",
   "Variable Label": "Hair male",
   "Variable Name": [
     "SrvBOH_HairMale_v1r0"
@@ -21,10 +21,6 @@
   "Notes": "[DISPLAY IF SEX= 01 and GEN= 01]",
   "Question Type": "Optional Multiple Choice, Figures (with radio button to select one)",
   "Formula for Index": [
-    "1604",
-    "1605",
-    "1606",
-    "1607",
     "1608",
     "1609",
     "1610",
@@ -32,13 +28,13 @@
     "1612",
     "1613",
     "1614",
-    "1615"
+    "1615",
+    "1616",
+    "1617",
+    "1618",
+    "1619"
   ],
   "Index": [
-    "1604",
-    "1605",
-    "1606",
-    "1607",
     "1608",
     "1609",
     "1610",
@@ -46,9 +42,13 @@
     "1612",
     "1613",
     "1614",
-    "1615"
+    "1615",
+    "1616",
+    "1617",
+    "1618",
+    "1619"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "927925620.json": "0",
     "629452816.json": "1",
     "915557297.json": "2",

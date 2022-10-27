@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "908",
-  "Index": "908",
+  "Formula for Index": "912",
+  "Index": "912",
   "Primary Source": [
     "129084651.json"
   ],
@@ -14,7 +14,7 @@
     "RACEETH3"
   ],
   "conceptId": "396618548",
-  "Question Text": "None of these Asian categories fully describe me. Please describe [text box]",
+  "Question Text- v1": "None of these Asian categories fully describe me. Please describe [text box]",
   "Variable Label": "None of these fully describe me. Please describe [text box]",
   "Variable Name": [
     "SrvBOH_NoneDescribeRE3_v1r0"
@@ -24,10 +24,10 @@
   ],
   "Variable Type": "Char",
   "Variable Length": "300",
-  "Format/Value": "N/A",
+  "Format/Value - r0": "N/A",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if RACEETH = Asian",
-  "Date added or modified": "44453",
+  "Date added or modified": "9/14/21",
   "Question Type": "Optional Select All that Apply"
 }

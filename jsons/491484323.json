@@ -12,7 +12,7 @@
     "GRID_HOUSE2"
   ],
   "conceptId": "491484323",
-  "Question Text": "_Moderate to vigorous household chores_(vacuuming, sweeping, etc.) time per day",
+  "Question Text- v1": "_Moderate to vigorous household chores_(vacuuming, sweeping, etc.) time per day",
   "Variable Label": "_Moderate to vigorous household chores_(vacuuming, sweeping, etc.) time per day",
   "Variable Name": [
     "SrvMRE_ModChoresTm_v1r0"
@@ -25,26 +25,26 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Grid Question -Only display if HOUSE2B =0 or no response",
-  "Date added or modified": "44620",
+  "Date added or modified": "2/28/22",
   "Formula for Index": [
-    "2920",
-    "2921",
-    "2922",
-    "2923",
     "2924",
     "2925",
-    "2926"
+    "2926",
+    "2927",
+    "2928",
+    "2929",
+    "2930"
   ],
   "Index": [
-    "2920",
-    "2921",
-    "2922",
-    "2923",
     "2924",
     "2925",
-    "2926"
+    "2926",
+    "2927",
+    "2928",
+    "2929",
+    "2930"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "428999623.json": "0",
     "248303092.json": "1",
     "206020811.json": "2",

@@ -12,7 +12,7 @@
     "SrvMw_MWUSE_v1r0"
   ],
   "conceptId": "886771318",
-  "Question Text": "Fluoride mouthwash (such as ACT®)",
+  "Question Text- v1": "Fluoride mouthwash (such as ACT®)",
   "Variable Label": "Fluoride mouthwash",
   "Variable Name": [
     "SrvMw_MWFLUORIDE1_v1r0"
@@ -29,14 +29,14 @@
   "Question Type": "Optional Select All that Apply",
   "IMS Review Notes": "Updated spelling of fluoride in question text, variable label and variable name",
   "Formula for Index": [
-    "6545",
-    "6546"
+    "6571",
+    "6572"
   ],
   "Index": [
-    "6545",
-    "6546"
+    "6571",
+    "6572"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "168431681",
-  "Question Text": "How many days per week is your sleep schedule determined by your job, school, or other activities?",
+  "Question Text- v1": "How many days per week is your sleep schedule determined by your job, school, or other activities?",
   "Variable Label": "Days per week sleep schedule determined by your job, school, or other activities",
   "Variable Name": [
     "SrvMRE_SleepSchedDays_v1r0"
@@ -18,26 +18,26 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "44477",
+  "Date added or modified": "10/8/21",
   "Formula for Index": [
-    "3300",
-    "3301",
-    "3302",
-    "3303",
     "3304",
     "3305",
-    "3306"
+    "3306",
+    "3307",
+    "3308",
+    "3309",
+    "3310"
   ],
   "Index": [
-    "3300",
-    "3301",
-    "3302",
-    "3303",
     "3304",
     "3305",
-    "3306"
+    "3306",
+    "3307",
+    "3308",
+    "3309",
+    "3310"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "349122068.json": "0",
     "156095877.json": "1",
     "162668459.json": "2",

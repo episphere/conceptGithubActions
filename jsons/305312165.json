@@ -6,7 +6,7 @@
     "745268907.json"
   ],
   "conceptId": "305312165",
-  "Question Text": "On the days that you did high-intensity circuit training (such as P90x or Crossfit), about how much time per day did you spend doing this activity?",
+  "Question Text- v1": "On the days that you did high-intensity circuit training (such as P90x or Crossfit), about how much time per day did you spend doing this activity?",
   "Variable Label": "On the days that you did high-intensity circuit training (such as P90x or Crossfit), about how much time per day did you spend doing this activity?",
   "Variable Name": [
     "SrvMRE_HICTTime_v1r0"
@@ -19,26 +19,26 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if EXEREC1=13",
-  "Date added or modified": "44620",
+  "Date added or modified": "2/28/22",
   "Formula for Index": [
-    "3278",
-    "3279",
-    "3280",
-    "3281",
     "3282",
     "3283",
-    "3284"
+    "3284",
+    "3285",
+    "3286",
+    "3287",
+    "3288"
   ],
   "Index": [
-    "3278",
-    "3279",
-    "3280",
-    "3281",
     "3282",
     "3283",
-    "3284"
+    "3284",
+    "3285",
+    "3286",
+    "3287",
+    "3288"
   ],
-  "Format/Value": {
+  "Format/Value - r0": {
     "428999623.json": "0",
     "248303092.json": "1",
     "206020811.json": "2",
