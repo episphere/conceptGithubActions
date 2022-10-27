@@ -579,6 +579,12 @@
       "SrvBOH_Weight25_v1r0"
     ]
   },
+  "122054737": {
+    "Variable Label": "Home address summary",
+    "Variable Name": [
+      "SrvLAW_HomeAddSum_8_v1r0"
+    ]
+  },
   "122802180": {
     "Variable Name": "Almost all the time"
   },
@@ -957,6 +963,12 @@
       "SrvSAS_AgeUseTobMJF_v1r0"
     ]
   },
+  "141249692": {
+    "Variable Label": "Summary vacation homes",
+    "Variable Name": [
+      "SrvLAW_SeasAddSum_8_v1r0"
+    ]
+  },
   "141251197": {
     "Variable Label": "On the days that you played tennis, squash, or racquetball, about how much time per day did you spend doing this activity?",
     "Variable Name": [
@@ -967,6 +979,12 @@
     "Variable Label": "I am too busy/the study takes too much time",
     "Variable Name": [
       "HdRef_TooMuchTime_v1r0"
+    ]
+  },
+  "141616126": {
+    "Variable Label": "Vaccine Date",
+    "Variable Name": [
+      "SrvBlU_COV27_MY_v1r0"
     ]
   },
   "141874857": {
@@ -1136,6 +1154,12 @@
   },
   "150352141": {
     "Variable Name": "How old were you when you had your uterus removed (hysterectomy)?"
+  },
+  "150560299": {
+    "Variable Label": "Home address summary",
+    "Variable Name": [
+      "SrvLAW_HomeAddSum_7_v1r0"
+    ]
   },
   "150818546": {
     "Variable Label": "I do not trust the government",
@@ -1850,7 +1874,7 @@
   "185243482": {
     "Variable Label": "Blood Location ID",
     "Variable Name": [
-      "BioShip_BloodLocalID_v1r0"
+      "BioClin_SiteBlLocation_v1r0"
     ]
   },
   "185533250": {
@@ -2073,6 +2097,12 @@
     "Variable Label": "Time usual work shift start",
     "Variable Name": [
       "SrvMRE_ShiftStart_v1r0"
+    ]
+  },
+  "195803565": {
+    "Variable Label": "Summary vacation homes",
+    "Variable Name": [
+      "SrvLAW_SeasAddSum_6_v1r0"
     ]
   },
   "195845897": {
@@ -3925,6 +3955,12 @@
   "275770221": {
     "Variable Name": "How old were you when you had one or both testicles removed (orchiectomy or orchidectomy)? If you have had more than one procedure, at what age did you last have this procedure?"
   },
+  "275978701": {
+    "Variable Label": "Summary vacation homes",
+    "Variable Name": [
+      "SrvLAW_SeasAddSum_5_v1r0"
+    ]
+  },
   "276249147": {
     "Variable Label": "Other: Please describe",
     "Variable Name": [
@@ -4028,6 +4064,12 @@
     "Variable Label": "City",
     "Variable Name": [
       "SrvLAW_City9_v1r0"
+    ]
+  },
+  "282326355": {
+    "Variable Label": "Summary vacation homes",
+    "Variable Name": [
+      "SrvLAW_SeasAddSum_7_v1r0"
     ]
   },
   "282355641": {
@@ -4262,6 +4304,12 @@
     "Variable Label": "Do Not Know 7-Seasonal",
     "Variable Name": [
       "SrvLAW_Seas7DontKnow_v1r0"
+    ]
+  },
+  "294308065": {
+    "Variable Label": "Home address summary",
+    "Variable Name": [
+      "SrvLAW_HomeAddSum_4_v1r0"
     ]
   },
   "294629316": {
@@ -5761,6 +5809,12 @@
       "SrvSAS_TobPipeSmokeED_v1r0"
     ]
   },
+  "385583361": {
+    "Variable Label": "Home address summary",
+    "Variable Name": [
+      "SrvLAW_HomeAddSum_5_v1r0"
+    ]
+  },
   "386152189": {
     "Variable Label": "Bleeding after menopause",
     "Variable Name": [
@@ -6712,6 +6766,12 @@
       "RcrtSI_SH_HFHS_Sex_v1r0"
     ]
   },
+  "435482541": {
+    "Variable Label": "Home address summary",
+    "Variable Name": [
+      "SrvLAW_HomeAddSum_1_v1r0"
+    ]
+  },
   "436333358": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or hay fever?"
   },
@@ -7072,7 +7132,7 @@
   "452847912": {
     "Variable Label": "Urine Location ID",
     "Variable Name": [
-      "BioShip_BloodLocalID_v1r0"
+      "BioClin_SiteUrLocation_v1r0"
     ]
   },
   "452942800": {
@@ -7510,6 +7570,9 @@
       "RcrtSI_TypeTime_v1r0"
     ]
   },
+  "472001636": {
+    "Variable Name": "You have entered the maximum number of seasonal or vacation home addresses. You will move on to the next questions."
+  },
   "472007171": {
     "Variable Label": "Use hookah or water pipe  now",
     "Variable Name": [
@@ -7940,6 +8003,12 @@
     "Variable Label": "Primary water source",
     "Variable Name": [
       "SrvLAW_7PrimaryWater2_v1r0"
+    ]
+  },
+  "494968690": {
+    "Variable Label": "Summary vacation homes",
+    "Variable Name": [
+      "SrvLAW_SeasAddSum_9_v1r0"
     ]
   },
   "494982282": {
@@ -8847,6 +8916,12 @@
   },
   "537011756": {
     "Variable Name": "Address 9- What is the full street address of the place you lived before? Please only include addresses where you have lived for at least two years."
+  },
+  "537016132": {
+    "Variable Label": "Summary vacation homes",
+    "Variable Name": [
+      "SrvLAW_SeasAddSum_10_v1r0"
+    ]
   },
   "537137982": {
     "Variable Label": "Sibling 1 age at death",
@@ -10050,10 +10125,7 @@
   "596510649": {
     "Variable Label": "I am worried my information is not secure or there will be a data breach",
     "Variable Name": [
-      [
-        "HdRef_PrivacyE_v1r0",
-        "HdRef_PrivacyF_v1r0"
-      ]
+      "HdRef_PrivacyE_v1r0"
     ]
   },
   "596751155": {
@@ -10253,12 +10325,6 @@
   },
   "610382315": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had brain cancer?"
-  },
-  "611091485": {
-    "Variable Label": "Dashboard clinical Urine Accession ID",
-    "Variable Name": [
-      "BioClin_DBUrineID_v1r0"
-    ]
   },
   "612012325": {
     "Variable Label": "Progesterone-only or progestin-only contraceptive pills, commonly called: the mini-pill",
@@ -11382,6 +11448,12 @@
       "SrvMRE_Gonadotropins_v1r0"
     ]
   },
+  "663869343": {
+    "Variable Label": "Summary vacation homes",
+    "Variable Name": [
+      "SrvLAW_SeasAddSum_4_v1r0"
+    ]
+  },
   "664453818": {
     "Variable Label": "Date requested to revoke HIPAA authorization",
     "Variable Name": [
@@ -12322,6 +12394,9 @@
       "SrvLAW_SeaStrtName6_v1r0"
     ]
   },
+  "706927479": {
+    "Variable Name": "HFH Livonia Research Clinic"
+  },
   "706998638": {
     "Variable Label": "Hispanic, Latino, or Spanish",
     "Variable Name": [
@@ -12940,8 +13015,14 @@
       "SrvMw_GUMDISEASE_v1r0"
     ]
   },
+  "736086261": {
+    "Variable Label": "Home address summary",
+    "Variable Name": [
+      "SrvLAW_HomeAddSum_3_v1r0"
+    ]
+  },
   "736183094": {
-    "Variable Name": "HFHS Research Clinic (Main Campus)"
+    "Variable Name": "HFH K-13 Research Clinic"
   },
   "736251808": {
     "Variable Label": "Last Name",
@@ -13621,6 +13702,12 @@
     "Variable Label": "On the days that you played golf, about how much time per day did you spend doing this activity?",
     "Variable Name": [
       "SrvMRE_GolfTime_v1r0"
+    ]
+  },
+  "768802173": {
+    "Variable Label": "Home address summary",
+    "Variable Name": [
+      "SrvLAW_HomeAddSum_6_v1r0"
     ]
   },
   "768826601": {
@@ -14443,6 +14530,12 @@
       "SrvLAW_CurSchCommute6_v1r0"
     ]
   },
+  "805353966": {
+    "Variable Label": "Home address summary",
+    "Variable Name": [
+      "SrvLAW_HomeAddSum_10_v1r0"
+    ]
+  },
   "805449318": {
     "Variable Name": "11 to 49"
   },
@@ -14645,6 +14738,9 @@
     "Variable Name": [
       "SrvLAW_SeaZip_v1r0"
     ]
+  },
+  "813701399": {
+    "Variable Name": "Weston"
   },
   "813989715": {
     "Variable Name": "Since the beginning of 2020, have you experienced any of the following symptoms? COV23A"
@@ -15258,6 +15354,12 @@
       "SrvLAW_SeaZip2FU_v1r0"
     ]
   },
+  "845483079": {
+    "Variable Label": "Home address summary",
+    "Variable Name": [
+      "SrvLAW_HomeAddSum_2_v1r0"
+    ]
+  },
   "845811202": {
     "Variable Label": "Employer Cross Do Not Know",
     "Variable Name": [
@@ -15756,6 +15858,12 @@
   "866029623": {
     "Variable Name": "Not Active recruit signed in as an Active recruit"
   },
+  "866089092": {
+    "Variable Label": "I am worried about data being given to\"\"my insurance company/effects on insurance (health, life, other)",
+    "Variable Name": [
+      "HdRef_PrivacyF_v1r0"
+    ]
+  },
   "866159532": {
     "Variable Label": "How much time e-cigarettes or other vaping devices used, [X / 70] and older",
     "Variable Name": [
@@ -15815,6 +15923,12 @@
       "SrvBOH_ServiceProdC_v1r0"
     ]
   },
+  "868235662": {
+    "Variable Label": "Home address summary",
+    "Variable Name": [
+      "SrvLAW_HomeAddSum_11_v1r0"
+    ]
+  },
   "868504994": {
     "Variable Name": "My periods stopped after endometrial ablation (removal of the endometrium lining of the uterus)"
   },
@@ -15851,18 +15965,7 @@
   "869829679": {
     "Variable Label": "Home address summary",
     "Variable Name": [
-      "SrvLAW_HomeAddSum_v1r0",
-      "SrvLAW_HomeAddSum_1_v1r0",
-      "SrvLAW_HomeAddSum_2_v1r0",
-      "SrvLAW_HomeAddSum_3_v1r0",
-      "SrvLAW_HomeAddSum_4_v1r0",
-      "SrvLAW_HomeAddSum_5_v1r0",
-      "SrvLAW_HomeAddSum_6_v1r0",
-      "SrvLAW_HomeAddSum_7_v1r0",
-      "SrvLAW_HomeAddSum_8_v1r0",
-      "SrvLAW_HomeAddSum_9_v1r0",
-      "SrvLAW_HomeAddSum_10_v1r0",
-      "SrvLAW_HomeAddSum_11_v1r0"
+      "SrvLAW_HomeAddSum_v1r0"
     ]
   },
   "870456401": {
@@ -16939,6 +17042,12 @@
   "928670216": {
     "Variable Name": "Previous address 5"
   },
+  "928693120": {
+    "Variable Label": "Dashboard clinical Urine Accession ID",
+    "Variable Name": [
+      "BioClin_DBUrineID_v1r0"
+    ]
+  },
   "928803137": {
     "Variable Label": "How many days used cigarettes, usual month",
     "Variable Name": [
@@ -17340,6 +17449,12 @@
       "SrvLAW_FullSt_v1r0"
     ]
   },
+  "945794974": {
+    "Variable Label": "Summary vacation homes",
+    "Variable Name": [
+      "SrvLAW_SeasAddSum_3_v1r0"
+    ]
+  },
   "946211808": {
     "Variable Label": "Age progesterone-only or progestin-only contraceptive pills last use",
     "Variable Name": [
@@ -17374,6 +17489,12 @@
     "Variable Label": "Year moved in",
     "Variable Name": [
       "SrvLAW_ChildAddIn_Yr_v1r0"
+    ]
+  },
+  "948492967": {
+    "Variable Label": "Home address summary",
+    "Variable Name": [
+      "SrvLAW_HomeAddSum_9_v1r0"
     ]
   },
   "948781977": {
@@ -18066,6 +18187,12 @@
     "Variable Label": "Total amount of time used e-cigarettes or other vaping devices per day",
     "Variable Name": [
       "SrvSAS_ECigTotalTm_v1r0"
+    ]
+  },
+  "982650994": {
+    "Variable Label": "Summary vacation homes",
+    "Variable Name": [
+      "SrvLAW_SeasAddSum_2_v1r0"
     ]
   },
   "982885431": {
