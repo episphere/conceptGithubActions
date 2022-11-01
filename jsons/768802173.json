@@ -5,6 +5,7 @@
   "Secondary Source": [
     "716117817.json"
   ],
+  "Deprecated, New, or Revised": "New",
   "conceptId": "768802173",
   "Question Text- v1": "Please review the list below and tell us if it includes all of the addresses where you have lived for at least two years in the last 20 years. Address 6",
   "Variable Label": "Home address summary",
@@ -20,7 +21,7 @@
   "PII": "No",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "4/12/22",
+  "Date added or modified": "10/31/22",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
     "4699",
@@ -31,11 +32,11 @@
     "4700"
   ],
   "Format/Value - r0": {
-    "224381551.json": "0",
-    "942916188.json": "1"
+    "171498611.json": "0",
+    "580377720.json": "1"
   },
   "IMS Review Notes": [
-    "Deleted CID in column L",
+    "Updated response text to reflect qx doc",
     "New line added for HOMEADDSUM"
   ]
 }

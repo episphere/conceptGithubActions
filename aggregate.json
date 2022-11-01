@@ -1546,6 +1546,9 @@
       "SrvSAS_EverUseTobMJED_v1r0"
     ]
   },
+  "171498611": {
+    "Variable Name": "No, I want to add another seasonal or vacation home address"
+  },
   "171937884": {
     "Variable Name": "Address 10- What is the full street address of the place you lived before? Please only include addresses where you have lived for at least two years."
   },
@@ -2859,9 +2862,6 @@
   },
   "224209278": {
     "Variable Name": "In what month and year did you start commuting to [insert address from CURSCH1 - CURSCH3/this address]?"
-  },
-  "224381551": {
-    "Variable Name": "I have another address"
   },
   "224594497": {
     "Variable Label": "Other: Please describe",
@@ -8306,6 +8306,12 @@
     "Variable Label": "Blood Clots (Deep Vein Thrombosis, Pulmonary Embolism)",
     "Variable Name": [
       "SrvBOH_BloodClot_v1r0"
+    ]
+  },
+  "512143997": {
+    "Variable Label": "Summary vacation homes",
+    "Variable Name": [
+      "SrvLAW_SeasAddSum_1_v1r0"
     ]
   },
   "512144428": {
@@ -17359,9 +17365,6 @@
     "Variable Name": [
       "SrvBOH_BreastOtherDes_v1r0"
     ]
-  },
-  "942916188": {
-    "Variable Name": "These are all my addresses"
   },
   "942945860": {
     "Variable Label": "Age first used electronic marijuana delivery devices on a regular basis, Never used",
