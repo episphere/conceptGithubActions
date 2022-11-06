@@ -14,7 +14,7 @@
     "BSNSSTYP1"
   ],
   "conceptId": "923333992",
-  "Question Text- v1": "What type of business was this at your current employer? Other [text box]",
+  "Current Question Text": "What type of business was this at your current employer? Other [text box]",
   "Variable Label": "Other text box",
   "Variable Name": [
     "SrvBOH_OtherBsnDescC_v1r0"
@@ -24,7 +24,7 @@
   ],
   "Variable Type": "Char",
   "Variable Length": "300",
-  "Format/Value - r0": "N/A",
+  "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Notes": "Only fill if other selection for BSNSSTYP1",

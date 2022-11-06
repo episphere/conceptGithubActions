@@ -6,7 +6,7 @@
     "716117817.json"
   ],
   "conceptId": "277745320",
-  "Question Text- v1": "Address 10- About how deep [is/was] your private well?",
+  "Current Question Text": "Address 10- About how deep [is/was] your private well?",
   "Variable Label": "Deep private well",
   "Variable Name": [
     "SrvLAW_DeepPrivWell10_v1r0"
@@ -20,24 +20,24 @@
   "PII": "No",
   "Date added or modified": "3/10/22",
   "Formula for Index": [
+    "5028",
+    "5029",
     "5030",
     "5031",
     "5032",
     "5033",
-    "5034",
-    "5035",
-    "5036"
+    "5034"
   ],
   "Index": [
+    "5028",
+    "5029",
     "5030",
     "5031",
     "5032",
     "5033",
-    "5034",
-    "5035",
-    "5036"
+    "5034"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "724624086.json": "0",
     "310284905.json": "1",
     "317718701.json": "2",

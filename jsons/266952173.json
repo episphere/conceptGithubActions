@@ -8,14 +8,14 @@
     "332759827.json"
   ],
   "conceptId": "266952173",
-  "Question Text- v1": "What type of cancer?",
+  "Current Question Text": "What type of cancer?",
   "Variable Label": "Cancer Type",
   "Variable Name": [
     "RcrtUP_CancerType_v1r0"
   ],
   "Variable Type": "Char",
   "Variable Length": "800",
-  "Format/Value - r0": "N/A",
+  "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Notes": "Only shown if answer to RcrtUP_Cancer_v1r0 equals 1.",

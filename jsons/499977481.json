@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "499977481",
-  "Question Text- v1": "In the last month, how often did you use teeth-whiteners (such as whitening strips)?",
+  "Current Question Text": "In the last month, how often did you use teeth-whiteners (such as whitening strips)?",
   "Variable Label": "Teeth whiteners frequency past month",
   "Variable Name": [
     "SrvMw_WHITE2_v1r0"
@@ -17,22 +17,22 @@
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
   "Formula for Index": [
+    "6554",
+    "6555",
     "6556",
     "6557",
     "6558",
-    "6559",
-    "6560",
-    "6561"
+    "6559"
   ],
   "Index": [
+    "6554",
+    "6555",
     "6556",
     "6557",
     "6558",
-    "6559",
-    "6560",
-    "6561"
+    "6559"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "648960871.json": "44",
     "693256778.json": "0",
     "735330419.json": "1",

@@ -6,7 +6,7 @@
     "716117817.json"
   ],
   "conceptId": "982650994",
-  "Question Text- v1": "Please review the list below and tell us if it includes all of the addresses where you have spent a total of 24 months or more in the past 20 years. 2nd Address:",
+  "Current Question Text": "Please review the list below and tell us if it includes all of the addresses where you have spent a total of 24 months or more in the past 20 years. 2nd Address:",
   "Variable Label": "Summary vacation homes",
   "Variable Name": [
     "SrvLAW_SeasAddSum_2_v1r0"
@@ -22,14 +22,14 @@
   "Question Type": "Optional Multiple Choice",
   "IMS Review Notes": "Updated response text to reflect qx doc",
   "Formula for Index": [
-    "5108",
-    "5109"
+    "5106",
+    "5107"
   ],
   "Index": [
-    "5108",
-    "5109"
+    "5106",
+    "5107"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "171498611.json": "0",
     "580377720.json": "1"
   }

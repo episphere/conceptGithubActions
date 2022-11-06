@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "957305523",
-  "Question Text- v1": "How many teeth have you lost from tooth decay or disease? Do not include wisdom teeth.",
+  "Current Question Text": "How many teeth have you lost from tooth decay or disease? Do not include wisdom teeth.",
   "Variable Label": "Teeth Lost from decay or disease",
   "Variable Name": [
     "SrvMw_TEETHLOSTD_v1r0"
@@ -19,22 +19,22 @@
   "State Attribute": "No",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
+    "6638",
+    "6639",
     "6640",
     "6641",
     "6642",
-    "6643",
-    "6644",
-    "6645"
+    "6643"
   ],
   "Index": [
+    "6638",
+    "6639",
     "6640",
     "6641",
     "6642",
-    "6643",
-    "6644",
-    "6645"
+    "6643"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "349122068.json": "0",
     "194129782.json": "1",
     "922737557.json": "2",

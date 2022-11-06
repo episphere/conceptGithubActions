@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "724589244",
-  "Question Text- v1": "How many teeth have you lost from accident or injury? Do not include wisdom teeth.",
+  "Current Question Text": "How many teeth have you lost from accident or injury? Do not include wisdom teeth.",
   "Variable Label": "Teeth Lost from accident or injury",
   "Variable Name": [
     "SrvMw_TEETHLOSTAI_v1r0"
@@ -19,22 +19,22 @@
   "State Attribute": "No",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
+    "6632",
+    "6633",
     "6634",
     "6635",
     "6636",
-    "6637",
-    "6638",
-    "6639"
+    "6637"
   ],
   "Index": [
+    "6632",
+    "6633",
     "6634",
     "6635",
     "6636",
-    "6637",
-    "6638",
-    "6639"
+    "6637"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "349122068.json": "0",
     "194129782.json": "1",
     "922737557.json": "2",

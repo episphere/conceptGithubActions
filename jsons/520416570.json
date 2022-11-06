@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "520416570",
-  "Question Text- v1": "In the last month, how often did you use chlorhexidine mouthwash (such as PeridexTM, PerioGard®, or Paroex®)?",
+  "Current Question Text": "In the last month, how often did you use chlorhexidine mouthwash (such as PeridexTM, PerioGard®, or Paroex®)?",
   "Variable Label": "chlorhexidine mouthwash  frequency past month",
   "Variable Name": [
     "SrvMw_MWCHLOR_v1r0"
@@ -17,22 +17,22 @@
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
   "Formula for Index": [
+    "6588",
+    "6589",
     "6590",
     "6591",
     "6592",
-    "6593",
-    "6594",
-    "6595"
+    "6593"
   ],
   "Index": [
+    "6588",
+    "6589",
     "6590",
     "6591",
     "6592",
-    "6593",
-    "6594",
-    "6595"
+    "6593"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "648960871.json": "44",
     "693256778.json": "0",
     "735330419.json": "1",

@@ -12,7 +12,7 @@
     "SrvMw_DENTURES_v1r0"
   ],
   "conceptId": "329536041",
-  "Question Text- v1": "Dental Bridge",
+  "Current Question Text": "Dental Bridge",
   "Variable Label": "Dental Bridge",
   "Variable Name": [
     "SrvMw_DENTBRIDGE_v1r0"
@@ -29,14 +29,14 @@
   "Question Type": "Optional Select All that Apply",
   "IMS Review Notes": "GRID ID/Source Variable Name (Column H) needed",
   "Formula for Index": [
-    "6654",
-    "6655"
+    "6652",
+    "6653"
   ],
   "Index": [
-    "6654",
-    "6655"
+    "6652",
+    "6653"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

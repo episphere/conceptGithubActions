@@ -12,7 +12,7 @@
     "GRID_SRVBLU_COV20A_V1R0"
   ],
   "conceptId": "966214244",
-  "Question Text- v1": "Feeling generally more tired than you used to feel - How long experienced COV20A",
+  "Current Question Text": "Feeling generally more tired than you used to feel - How long experienced COV20A",
   "Variable Label": "Long COVID More tired than usual duration",
   "Variable Name": [
     "SrvBlU_COV20A2_v1r0"
@@ -25,16 +25,16 @@
   "State Attribute": "No",
   "Question Type": "Grid with Multiple Choice Sub-Questions",
   "Formula for Index": [
-    "6353",
-    "6354",
-    "6355"
+    "6351",
+    "6352",
+    "6353"
   ],
   "Index": [
-    "6353",
-    "6354",
-    "6355"
+    "6351",
+    "6352",
+    "6353"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "232063618.json": "0",
     "948148236.json": "1",
     "692824372.json": "2"

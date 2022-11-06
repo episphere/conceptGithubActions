@@ -14,7 +14,7 @@
     "WTLOSS2_3545"
   ],
   "conceptId": "660541817",
-  "Question Text- v1": "Other weight loss method between ages 35 and 45: Please describe [text box]",
+  "Current Question Text": "Other weight loss method between ages 35 and 45: Please describe [text box]",
   "Variable Label": "Other: Please describe [text box]",
   "Variable Name": [
     "SrvBOH_OtherWtLossDes3_v1r0"
@@ -24,7 +24,7 @@
   ],
   "Variable Type": "Char",
   "Variable Length": "300",
-  "Format/Value - r0": "N/A",
+  "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if WTLOSS2_3545 = 55",

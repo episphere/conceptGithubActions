@@ -12,7 +12,7 @@
     "SrvBio_SYMPTDAY_v1r0"
   ],
   "conceptId": "235386560",
-  "Question Text- v1": "Diarrhea",
+  "Current Question Text": "Diarrhea",
   "Variable Label": "Diarrhea day",
   "Variable Name": [
     "SrvBio_DiarrDay_v1r0"
@@ -28,14 +28,14 @@
   "State Attribute": "No",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "6163",
-    "6164"
+    "6161",
+    "6162"
   ],
   "Index": [
-    "6163",
-    "6164"
+    "6161",
+    "6162"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   },

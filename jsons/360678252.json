@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "360678252",
-  "Question Text- v1": "How many teeth have you lost for reasons other than tooth decay or disease, or accident or injury? Do not include wisdom teeth.",
+  "Current Question Text": "How many teeth have you lost for reasons other than tooth decay or disease, or accident or injury? Do not include wisdom teeth.",
   "Variable Label": "Teeth Lost from other",
   "Variable Name": [
     "SrvMw_TEETHLOSTOTH_v1r0"
@@ -21,22 +21,22 @@
   "Question Type": "Optional Multiple Choice",
   "IMS Review Notes": "These rows were added rows 6610-6615",
   "Formula for Index": [
+    "6644",
+    "6645",
     "6646",
     "6647",
     "6648",
-    "6649",
-    "6650",
-    "6651"
+    "6649"
   ],
   "Index": [
+    "6644",
+    "6645",
     "6646",
     "6647",
     "6648",
-    "6649",
-    "6650",
-    "6651"
+    "6649"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "349122068.json": "0",
     "194129782.json": "1",
     "922737557.json": "2",

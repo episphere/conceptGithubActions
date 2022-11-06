@@ -12,7 +12,7 @@
     "GRID_PREWORKT2"
   ],
   "conceptId": "861097935",
-  "Question Text- v1": "Commuter rail, subway, metro- Thinking about the one-way trip from your home to [insert address from PREWORK1 - PREWORK3/this address] on a usual workday, about how much time did you usually spend in each type of transportation?",
+  "Current Question Text": "Commuter rail, subway, metro- Thinking about the one-way trip from your home to [insert address from PREWORK1 - PREWORK3/this address] on a usual workday, about how much time did you usually spend in each type of transportation?",
   "Variable Label": "Time, Commuter rail, subway, metro commute to past work",
   "Variable Name": [
     "SrvLAW_PreWorkTmRail_v1r0"
@@ -26,20 +26,20 @@
   "PII": "No",
   "Date added or modified": "3/10/22",
   "Formula for Index": [
+    "5887",
+    "5888",
     "5889",
     "5890",
-    "5891",
-    "5892",
-    "5893"
+    "5891"
   ],
   "Index": [
+    "5887",
+    "5888",
     "5889",
     "5890",
-    "5891",
-    "5892",
-    "5893"
+    "5891"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "428999623.json": "0",
     "248303092.json": "1",
     "998679771.json": "2",

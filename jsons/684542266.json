@@ -6,7 +6,7 @@
     "716117817.json"
   ],
   "conceptId": "684542266",
-  "Question Text- v1": "To get home from [insert address from CURWORK1 - CURWORK3/this address], do you usually use the same type(s) of transportation that you do to get to work from your home?",
+  "Current Question Text": "To get home from [insert address from CURWORK1 - CURWORK3/this address], do you usually use the same type(s) of transportation that you do to get to work from your home?",
   "Variable Label": "Commute to and from current work same",
   "Variable Name": [
     "SrvLAW_CurWorkT7_v1r0"
@@ -19,14 +19,14 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "5750",
-    "5751"
+    "5748",
+    "5749"
   ],
   "Index": [
-    "5750",
-    "5751"
+    "5748",
+    "5749"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

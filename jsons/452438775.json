@@ -12,7 +12,7 @@
     "SrvMw_PERMTTHLOST_v1r0"
   ],
   "conceptId": "452438775",
-  "Question Text- v1": "Yes, from tooth decay or disease",
+  "Current Question Text": "Yes, from tooth decay or disease",
   "Variable Label": "Permanent teeth lost from tooth decay or disease",
   "Variable Name": [
     "SrvMw_PERMTTHLOST2_v1r0"
@@ -29,14 +29,14 @@
   "Question Type": "Select All That Apply",
   "IMS Review Notes": "GRID ID/Source Variable Name (Column H) needed",
   "Formula for Index": [
-    "6628",
-    "6629"
+    "6626",
+    "6627"
   ],
   "Index": [
-    "6628",
-    "6629"
+    "6626",
+    "6627"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

@@ -12,7 +12,7 @@
     "SrvBio_SYMPTDAY_v1r0"
   ],
   "conceptId": "214414872",
-  "Question Text- v1": "No, I had none of these symptoms",
+  "Current Question Text": "No, I had none of these symptoms",
   "Variable Label": "No symptoms day",
   "Variable Name": [
     "SrvBio_NoSymptDay_v1r0"
@@ -29,14 +29,14 @@
   "State Attribute": "No",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "6171",
-    "6172"
+    "6169",
+    "6170"
   ],
   "Index": [
-    "6171",
-    "6172"
+    "6169",
+    "6170"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   },

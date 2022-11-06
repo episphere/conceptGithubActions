@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "526973271",
-  "Question Text- v1": "In the last month, how often did you use peroxide mouthwash (such as Colgate® Peroxyl® Mouth Sore Rinse)",
+  "Current Question Text": "In the last month, how often did you use peroxide mouthwash (such as Colgate® Peroxyl® Mouth Sore Rinse)",
   "Variable Label": "Peroxide mouthwash frequency past month",
   "Variable Name": [
     "SrvMw_MWPEROX_v1r0"
@@ -17,22 +17,22 @@
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
   "Formula for Index": [
+    "6600",
+    "6601",
     "6602",
     "6603",
     "6604",
-    "6605",
-    "6606",
-    "6607"
+    "6605"
   ],
   "Index": [
+    "6600",
+    "6601",
     "6602",
     "6603",
     "6604",
-    "6605",
-    "6606",
-    "6607"
+    "6605"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "648960871.json": "44",
     "693256778.json": "0",
     "735330419.json": "1",

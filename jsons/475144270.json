@@ -6,7 +6,7 @@
     "716117817.json"
   ],
   "conceptId": "475144270",
-  "Question Text- v1": "How many days per week did you usually make the trip back to your home from [insert address from PREWORK1 - PREWORK3/this address]?",
+  "Current Question Text": "How many days per week did you usually make the trip back to your home from [insert address from PREWORK1 - PREWORK3/this address]?",
   "Variable Label": "Days commute, commute from past work",
   "Variable Name": [
     "SrvLAW_PreWorkT8_v1r0"
@@ -20,24 +20,24 @@
   "PII": "No",
   "Date added or modified": "3/10/22",
   "Formula for Index": [
+    "5975",
+    "5976",
     "5977",
     "5978",
     "5979",
     "5980",
-    "5981",
-    "5982",
-    "5983"
+    "5981"
   ],
   "Index": [
+    "5975",
+    "5976",
     "5977",
     "5978",
     "5979",
     "5980",
-    "5981",
-    "5982",
-    "5983"
+    "5981"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "559049897.json": "0",
     "500554958.json": "1",
     "897038099.json": "2",

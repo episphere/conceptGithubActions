@@ -12,7 +12,7 @@
     "GRID_CURSCHT10"
   ],
   "conceptId": "453417964",
-  "Question Text- v1": "Bus or streetcar/trolley, light rail/trolley- Thinking about the one-way trip from [insert address from CURSCH1 - CURSCH3/this address] to your home on a usual day, about how much time do you usually spend in each type of transportation?",
+  "Current Question Text": "Bus or streetcar/trolley, light rail/trolley- Thinking about the one-way trip from [insert address from CURSCH1 - CURSCH3/this address] to your home on a usual day, about how much time do you usually spend in each type of transportation?",
   "Variable Label": "Time, Bus or streetcar/trolley, light rail/trolley commute from current school",
   "Variable Name": [
     "SrvLAW_CurSchT10D_v1r0"
@@ -26,20 +26,20 @@
   "PII": "No",
   "Date added or modified": "2/28/22",
   "Formula for Index": [
+    "6115",
+    "6116",
     "6117",
     "6118",
-    "6119",
-    "6120",
-    "6121"
+    "6119"
   ],
   "Index": [
+    "6115",
+    "6116",
     "6117",
     "6118",
-    "6119",
-    "6120",
-    "6121"
+    "6119"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "428999623.json": "0",
     "248303092.json": "1",
     "998679771.json": "2",

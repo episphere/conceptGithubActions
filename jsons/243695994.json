@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "4814",
-  "Index": "4814",
+  "Formula for Index": "4812",
+  "Index": "4812",
   "Primary Source": [
     "129084651.json"
   ],
@@ -8,7 +8,7 @@
     "716117817.json"
   ],
   "conceptId": "243695994",
-  "Question Text- v1": "Address 8- What year did you move into [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]?",
+  "Current Question Text": "Address 8- What year did you move into [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]?",
   "Variable Label": "Year moved in",
   "Variable Name": [
     "SrvLAW_HomeMoveIn8_v1r0"
@@ -18,7 +18,7 @@
   ],
   "Variable Type": "Year",
   "Variable Length": "4",
-  "Format/Value - r0": "yyyy",
+  "Current Format/Value": "yyyy",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "2/4/22"

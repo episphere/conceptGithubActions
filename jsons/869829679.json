@@ -6,7 +6,8 @@
     "716117817.json"
   ],
   "conceptId": "869829679",
-  "Question Text- v1": "Please review the list below and tell us if it includes all of the addresses where you have lived for at least two years in the last 20 years.",
+  "Current Question Text": "Please review the list below and tell us if it includes all of the addresses where you have lived for at least two years in the last 20 years. Address 1",
+  "V1 Question Text": "Please review the list below and tell us if it includes all of the addresses where you have lived for at least two years in the last 20 years.",
   "Variable Label": "Home address summary",
   "Variable Name": [
     "SrvLAW_HomeAddSum_v1r0"
@@ -53,21 +54,21 @@
     "4601"
   ],
   "Deprecated, New, or Revised": [
+    "Revised",
+    "Revised",
     "Deprecated",
     "Deprecated",
     "Deprecated",
     "Deprecated",
     "Deprecated",
+    "Revised",
     "Deprecated",
-    "Deprecated",
-    "Deprecated",
-    "Deprecated",
-    "Deprecated",
+    "Revised",
     "Deprecated",
     "Deprecated",
     "Deprecated"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "580377720.json": "0",
     "270752953.json": "1",
     "184065355.json": "2",
@@ -81,5 +82,8 @@
     "641104372.json": "10",
     "159625321.json": "11",
     "960288496.json": "12"
-  }
+  },
+  "R0 Format/Value": [
+    "1 = No, I want to enter another address (1st address)"
+  ]
 }

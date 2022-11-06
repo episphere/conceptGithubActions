@@ -6,7 +6,7 @@
     "716117817.json"
   ],
   "conceptId": "230528407",
-  "Question Text- v1": "Does the trip home usually take about the same amount of time as the trip to get to [insert address from CURSCH1 - CURSCH3/this address] from your home?",
+  "Current Question Text": "Does the trip home usually take about the same amount of time as the trip to get to [insert address from CURSCH1 - CURSCH3/this address] from your home?",
   "Variable Label": "Time to and from current school same",
   "Variable Name": [
     "SrvLAW_CurSchT8_v1r0"
@@ -19,14 +19,14 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "6083",
-    "6084"
+    "6081",
+    "6082"
   ],
   "Index": [
-    "6083",
-    "6084"
+    "6081",
+    "6082"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

@@ -12,7 +12,7 @@
     "GRID_SRVBLU_MED1_V1R0"
   ],
   "conceptId": "839329467",
-  "Question Text- v1": "Medications to lower stomach acid [such as Prilosec®, Prevacid®, Protonix®, Aciphex®, Omeprazole, Nexium®, Tagamet®, Zantac®]",
+  "Current Question Text": "Medications to lower stomach acid [such as Prilosec®, Prevacid®, Protonix®, Aciphex®, Omeprazole, Nexium®, Tagamet®, Zantac®]",
   "Variable Label": "Acid Reducers",
   "Variable Name": [
     "SrvBlU_Acid_v1r0"
@@ -26,20 +26,20 @@
   "Question Type": "Grid with Multiple Choice Sub-Questions",
   "IMS Review Notes": "Replaced source question text",
   "Formula for Index": [
+    "6187",
+    "6188",
     "6189",
     "6190",
-    "6191",
-    "6192",
-    "6193"
+    "6191"
   ],
   "Index": [
+    "6187",
+    "6188",
     "6189",
     "6190",
-    "6191",
-    "6192",
-    "6193"
+    "6191"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "104430631.json": "0",
     "974230748.json": "1",
     "936042740.json": "2",

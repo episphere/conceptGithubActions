@@ -12,7 +12,7 @@
     "GRID_CURSCHT2"
   ],
   "conceptId": "980695076",
-  "Question Text- v1": "Taxicab (includes, Uber, Lyft, or hired car)- Thinking about the one-way trip from your home to [insert address from CURSCH1 - CURSCH3/this address] on a usual day, about how much time do you usually spend in each type of transportation?",
+  "Current Question Text": "Taxicab (includes, Uber, Lyft, or hired car)- Thinking about the one-way trip from your home to [insert address from CURSCH1 - CURSCH3/this address] on a usual day, about how much time do you usually spend in each type of transportation?",
   "Variable Label": "Time, Taxicab (includes, Uber, Lyft, or hired car, ) commute to current school",
   "Variable Name": [
     "SrvLAW_CurSchT2B_v1r0"
@@ -26,20 +26,20 @@
   "PII": "No",
   "Date added or modified": "2/28/22",
   "Formula for Index": [
+    "6028",
+    "6029",
     "6030",
     "6031",
-    "6032",
-    "6033",
-    "6034"
+    "6032"
   ],
   "Index": [
+    "6028",
+    "6029",
     "6030",
     "6031",
-    "6032",
-    "6033",
-    "6034"
+    "6032"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "428999623.json": "0",
     "248303092.json": "1",
     "998679771.json": "2",

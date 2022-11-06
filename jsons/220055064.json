@@ -1,6 +1,6 @@
 {
   "conceptId": "220055064",
-  "Question Text- v1": "Which COVID-19 vaccine shot did you get?",
+  "Current Question Text": "Which COVID-19 vaccine shot did you get?",
   "subcollections": [
     "220055064.json",
     "395747093.json"
@@ -30,22 +30,22 @@
   "Question Type": "Optional Multiple Choice with Text Box, Loops",
   "IMS Review Notes": "Added Source Variable Name (Column H)",
   "Formula for Index": [
+    "6497",
+    "6498",
     "6499",
     "6500",
     "6501",
-    "6502",
-    "6503",
-    "6504"
+    "6502"
   ],
   "Index": [
+    "6497",
+    "6498",
     "6499",
     "6500",
     "6501",
-    "6502",
-    "6503",
-    "6504"
+    "6502"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "661871565.json": "0",
     "657978450.json": "1",
     "411943417.json": "2",

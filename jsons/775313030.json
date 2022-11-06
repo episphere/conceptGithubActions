@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "775313030",
-  "Question Text- v1": "During the [first/2nd/3rd/etc.] time you had COVID-19, did you stay in a hospital overnight for any symptoms or illness related to COVID-19?",
+  "Current Question Text": "During the [first/2nd/3rd/etc.] time you had COVID-19, did you stay in a hospital overnight for any symptoms or illness related to COVID-19?",
   "Variable Label": "Hospital stay overnight",
   "Variable Name": [
     "SrvBlU_COV12_v1r0"
@@ -19,16 +19,16 @@
   "State Attribute": "No",
   "Question Type": "Optional Multiple Choice, Loops",
   "Formula for Index": [
-    "6277",
-    "6278",
-    "6279"
+    "6275",
+    "6276",
+    "6277"
   ],
   "Index": [
-    "6277",
-    "6278",
-    "6279"
+    "6275",
+    "6276",
+    "6277"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1",
     "178420302.json": "77"

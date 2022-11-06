@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "498462481",
-  "Question Text- v1": "The [first/2nd/3rd/etc.] time you had COVID-19, did a healthcare provider ever tell you they thought you had COVID-19?",
+  "Current Question Text": "The [first/2nd/3rd/etc.] time you had COVID-19, did a healthcare provider ever tell you they thought you had COVID-19?",
   "Variable Label": "Healthcare Provider",
   "Variable Name": [
     "SrvBlU_COV5_v1r0"
@@ -20,14 +20,14 @@
   "Question Type": "Optional Multiple Choice, Loops",
   "IMS Review Notes": "Added space in Question Text between did and a.",
   "Formula for Index": [
-    "6220",
-    "6221"
+    "6218",
+    "6219"
   ],
   "Index": [
-    "6220",
-    "6221"
+    "6218",
+    "6219"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

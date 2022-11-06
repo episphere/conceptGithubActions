@@ -12,7 +12,7 @@
     "SrvMw_HYGIENE_v1r0"
   ],
   "conceptId": "807884576",
-  "Question Text- v1": "Floss",
+  "Current Question Text": "Floss",
   "Variable Label": "Floss past month",
   "Variable Name": [
     "SrvMw_FLOSS1_v1r0"
@@ -29,14 +29,14 @@
   "Question Type": "Optional Select All that Apply",
   "IMS Review Notes": "GRID ID/Source Variable Name (Column H) needed. Added a space between the period and In in the source questin (column G)",
   "Formula for Index": [
-    "6522",
-    "6523"
+    "6520",
+    "6521"
   ],
   "Index": [
-    "6522",
-    "6523"
+    "6520",
+    "6521"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

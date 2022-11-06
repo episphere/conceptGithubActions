@@ -6,7 +6,7 @@
     "716117817.json"
   ],
   "conceptId": "564557026",
-  "Question Text- v1": "To get home from work, did you usually use the same type(s) of transportation as you did to get to [insert address from PREWORK1 - PREWORK3/this address] from your home?",
+  "Current Question Text": "To get home from work, did you usually use the same type(s) of transportation as you did to get to [insert address from PREWORK1 - PREWORK3/this address] from your home?",
   "Variable Label": "Commute to and from past work same",
   "Variable Name": [
     "SrvLAW_PreWorkT4_v1r0"
@@ -19,14 +19,14 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "5916",
-    "5917"
+    "5914",
+    "5915"
   ],
   "Index": [
-    "5916",
-    "5917"
+    "5914",
+    "5915"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

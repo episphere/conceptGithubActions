@@ -7,7 +7,7 @@
   ],
   "Deprecated, New, or Revised": "New",
   "conceptId": "385583361",
-  "Question Text- v1": "Please review the list below and tell us if it includes all of the addresses where you have lived for at least two years in the last 20 years. Address 5",
+  "Current Question Text": "Please review the list below and tell us if it includes all of the addresses where you have lived for at least two years in the last 20 years. Address 5",
   "Variable Label": "Home address summary",
   "Variable Name": [
     "SrvLAW_HomeAddSum_5_v1r0"
@@ -21,22 +21,22 @@
   "PII": "No",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "10/31/22",
+  "Date added or modified": "11/2/22",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "4680",
-    "4681"
+    "4678",
+    "4679"
   ],
   "Index": [
-    "4680",
-    "4681"
+    "4678",
+    "4679"
   ],
-  "Format/Value - r0": {
-    "171498611.json": "0",
-    "580377720.json": "1"
+  "Current Format/Value": {
+    "580377720.json": "0",
+    "270752953.json": "1"
   },
   "IMS Review Notes": [
-    "Updated response text to reflect qx doc",
-    "New line added for HOMEADDSUM"
+    "Added CID in column T and changed current format value for response",
+    "Added CID in column T and changed current format value for response"
   ]
 }

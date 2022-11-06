@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "318641324",
-  "Question Text- v1": "When did you last take antibiotic medicine?",
+  "Current Question Text": "When did you last take antibiotic medicine?",
   "Variable Label": "Antibiotics time",
   "Variable Name": [
     "SrvMw_ANTIBIOTIME_v1r0"
@@ -19,18 +19,18 @@
   "State Attribute": "No",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
+    "6682",
+    "6683",
     "6684",
-    "6685",
-    "6686",
-    "6687"
+    "6685"
   ],
   "Index": [
+    "6682",
+    "6683",
     "6684",
-    "6685",
-    "6686",
-    "6687"
+    "6685"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "666365344.json": "0",
     "735136116.json": "1",
     "382679079.json": "2",

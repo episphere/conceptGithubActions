@@ -8,14 +8,14 @@
     "635994596.json"
   ],
   "conceptId": "664453818",
-  "Question Text- v1": "Autoset when HdWd_HIPAA revoked_v1r0 selected",
+  "Current Question Text": "Autoset when HdWd_HIPAA revoked_v1r0 selected",
   "Variable Label": "Date requested to revoke HIPAA authorization",
   "Variable Name": [
     "HdRef_DateHIPAArevoked_v1r0"
   ],
   "Variable Type": "ISO",
   "Variable Length": "24",
-  "Format/Value - r0": "example: 2020-07-17T15:21:26.763Z",
+  "Current Format/Value": "example: 2020-07-17T15:21:26.763Z",
   "Required": "No",
   "PII": "No",
   "Notes": "ISO to be converted to SAS format. Will not be populated if the participant also withdrew or requested data destruction on the same date",

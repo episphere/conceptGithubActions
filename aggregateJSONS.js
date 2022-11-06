@@ -14,8 +14,8 @@ function aggregate(){
             if(currJSON.hasOwnProperty('Variable Name')){
                 toAdd['Variable Name'] = currJSON['Variable Name']
             }
-            if(!currJSON.hasOwnProperty('Variable Label') && !currJSON.hasOwnProperty('Variable Name') && currJSON.hasOwnProperty('Question Text- v1')){
-                toAdd['Variable Name'] = currJSON['Question Text- v1']
+            if(!currJSON.hasOwnProperty('Variable Label') && !currJSON.hasOwnProperty('Variable Name') && currJSON.hasOwnProperty('Current Question Text')){
+                toAdd['Variable Name'] = currJSON['Current Question Text']
             }
             if(Object.keys(toAdd).length > 0){
                 aggregate[currJSON['conceptId']] = toAdd;

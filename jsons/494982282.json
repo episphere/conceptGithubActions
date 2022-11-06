@@ -8,14 +8,14 @@
     "332759827.json"
   ],
   "conceptId": "494982282",
-  "Question Text- v1": "Any comments about your cancer diagnosis:",
+  "Current Question Text": "Any comments about your cancer diagnosis:",
   "Variable Label": "Cancer Comments",
   "Variable Name": [
     "RcrtUP_CancerComts_v1r0"
   ],
   "Variable Type": "Char",
   "Variable Length": "800",
-  "Format/Value - r0": "N/A",
+  "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Notes": "Only shown if answer to RcrtUP_Cancer_v1r0 equals 1.",

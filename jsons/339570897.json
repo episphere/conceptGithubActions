@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "339570897",
-  "Question Text- v1": "When did you last have a professional dental cleaning by a dentist or hygienist?",
+  "Current Question Text": "When did you last have a professional dental cleaning by a dentist or hygienist?",
   "Variable Label": "Last Dental Cleaning",
   "Variable Name": [
     "SrvMw_DENTALCLEAN_v1r0"
@@ -19,22 +19,22 @@
   "State Attribute": "No",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
+    "6664",
+    "6665",
     "6666",
     "6667",
     "6668",
-    "6669",
-    "6670",
-    "6671"
+    "6669"
   ],
   "Index": [
+    "6664",
+    "6665",
     "6666",
     "6667",
     "6668",
-    "6669",
-    "6670",
-    "6671"
+    "6669"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "317567178.json": "0",
     "891558680.json": "1",
     "796081734.json": "2",

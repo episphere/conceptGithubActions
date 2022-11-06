@@ -6,7 +6,7 @@
     "716117817.json"
   ],
   "conceptId": "720221117",
-  "Question Text- v1": "Which previously entered address did you live at when you were about 13 years old?",
+  "Current Question Text": "Which previously entered address did you live at when you were about 13 years old?",
   "Variable Label": "Previously listed childhood address",
   "Variable Name": [
     "SrvLAW_ChildAddPre_v1r0"
@@ -20,6 +20,8 @@
   "PII": "Yes",
   "Notes": "Addresses are piped into the response variables from previous answers.  The number of options is limited by the number of address given by the participant. Only there response variabler code (0, 1, 2, etc) is saved on the back end of Quest. Once the concept IDs are assigned to each response option, that's what will be saved as the response in BigQuery.",
   "Formula for Index": [
+    "5541",
+    "5542",
     "5543",
     "5544",
     "5545",
@@ -28,11 +30,11 @@
     "5548",
     "5549",
     "5550",
-    "5551",
-    "5552",
-    "5553"
+    "5551"
   ],
   "Index": [
+    "5541",
+    "5542",
     "5543",
     "5544",
     "5545",
@@ -41,11 +43,9 @@
     "5548",
     "5549",
     "5550",
-    "5551",
-    "5552",
-    "5553"
+    "5551"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "658491312.json": "0",
     "351928156.json": "1",
     "510681016.json": "2",

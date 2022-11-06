@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "921972241",
-  "Question Text- v1": "In the last month, how often did you use fluoride mouthwash (such as ACT®)?",
+  "Current Question Text": "In the last month, how often did you use fluoride mouthwash (such as ACT®)?",
   "Variable Label": "fluoride mouthwash  frequency past month",
   "Variable Name": [
     "SrvMw_MWFLUORIDE_v1r0"
@@ -16,22 +16,22 @@
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
   "Formula for Index": [
+    "6594",
+    "6595",
     "6596",
     "6597",
     "6598",
-    "6599",
-    "6600",
-    "6601"
+    "6599"
   ],
   "Index": [
+    "6594",
+    "6595",
     "6596",
     "6597",
     "6598",
-    "6599",
-    "6600",
-    "6601"
+    "6599"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "648960871.json": "44",
     "693256778.json": "0",
     "735330419.json": "1",

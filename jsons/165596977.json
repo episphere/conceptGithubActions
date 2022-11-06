@@ -12,7 +12,7 @@
     "SrvMw_HYGIENE_v1r0"
   ],
   "conceptId": "165596977",
-  "Question Text- v1": "Water-based flosser or pick/jet",
+  "Current Question Text": "Water-based flosser or pick/jet",
   "Variable Label": "Water-based flosser or pick/jet past month",
   "Variable Name": [
     "SrvMw_WTRPICK1_v1r0"
@@ -29,14 +29,14 @@
   "Question Type": "Optional Select All that Apply",
   "IMS Review Notes": "GRID ID/Source Variable Name (Column H) needed. Added a space between the period and In in the source questin (column G)",
   "Formula for Index": [
-    "6524",
-    "6525"
+    "6522",
+    "6523"
   ],
   "Index": [
-    "6524",
-    "6525"
+    "6522",
+    "6523"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

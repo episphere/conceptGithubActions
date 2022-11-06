@@ -8,14 +8,14 @@
     "166676176.json"
   ],
   "conceptId": "920333151",
-  "Question Text- v1": "Last 4 digits of Social Security Number",
+  "Current Question Text": "Last 4 digits of Social Security Number",
   "Variable Label": "SSN last 4 digits",
   "Variable Name": [
     "SrvSS_SSN4d_v1r0"
   ],
   "Variable Type": "SSNsm",
   "Variable Length": "4",
-  "Format/Value - r0": "####",
+  "Current Format/Value": "####",
   "Required": "No",
   "PII": "Yes",
   "Notes": "Question shown only if full SSN is NOT given.",

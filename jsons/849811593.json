@@ -6,7 +6,7 @@
     "716117817.json"
   ],
   "conceptId": "849811593",
-  "Question Text- v1": "How many days per week do you usually make the trip back to your home from [insert address from CURSCH1 - CURSCH3/this address]?",
+  "Current Question Text": "How many days per week do you usually make the trip back to your home from [insert address from CURSCH1 - CURSCH3/this address]?",
   "Variable Label": "Days commute, commute from current school",
   "Variable Name": [
     "SrvLAW_CurSchT14_v1r0"
@@ -20,24 +20,24 @@
   "PII": "No",
   "Date added or modified": "3/10/22",
   "Formula for Index": [
+    "6149",
+    "6150",
     "6151",
     "6152",
     "6153",
     "6154",
-    "6155",
-    "6156",
-    "6157"
+    "6155"
   ],
   "Index": [
+    "6149",
+    "6150",
     "6151",
     "6152",
     "6153",
     "6154",
-    "6155",
-    "6156",
-    "6157"
+    "6155"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "559049897.json": "0",
     "500554958.json": "1",
     "897038099.json": "2",

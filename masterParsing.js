@@ -1,5 +1,10 @@
 const fs = require('fs');
 
+const allArrayItemsDeprecated = (deprecatedNewRevisedArr) => {
+    console.log("deprecatedNewRevisedArr value", deprecatedNewRevisedArr)
+    deprecatedNewRevisedArr.every(text => text === 'Deprecated')
+}
+
 function parseMasterModule() {
     let masterJSON = {};
     let fileList = [];
@@ -17,8 +22,8 @@ function parseMasterModule() {
     let varNameToConcept = {};
     for (let i = 0; i < keys.length; i++) {
         let currJSON = masterJSON[keys[i]];
-        if (currJSON['conceptId'] && currJSON['Question Text- v1']) {
-            varNameToConcept[currJSON['Question Text- v1']] = currJSON['conceptId'];
+        if (currJSON['conceptId'] && currJSON['Current Question Text']) {
+            varNameToConcept[currJSON['Current Question Text']] = currJSON['conceptId'];
         }
     }
 
@@ -44,12 +49,52 @@ function parseMasterModule() {
                 } 
             }
 
-            if(currJSON['Deprecated, New, or Revised']) { 
-                if(Array.isArray(currJSON['Deprecated, New, or Revised'])) {
-                    currJSON['Deprecated, New, or Revised'] = currJSON['Deprecated, New, or Revised']
+
+            // might make something here to filter out the all the 'Deprecated from being added '
+            // filter the currJSON['Current Format/Value']
+            if (currJSON['Deprecated, New, or Revised']) { 
+                if (Array.isArray(currJSON['Deprecated, New, or Revised'])) { // Array
+                    // add filter here?
+                    // console.log("if array block",Object.keys(currJSON['Current Format/Value']))
+                    // console.log('if array Deprecated, New or Revised', currJSON['Deprecated, New, or Revised'])
+
+                    // const isEveryArrayTextDeprecated = allArrayItemsDeprecated(currJSON['Deprecated, New, or Revised'])
+                    // if (isEveryArrayTextDeprecated) {
+                    //     currJSON['Current Format/Value']
+                    // }
+                    let newCurrentFormatValueObj = {}
+                    let deprecatedNewRevisedArr = currJSON['Deprecated, New, or Revised']
+                    let currFormatValueObj = currJSON['Current Format/Value']
+                    let currFormatValueObjKeys = Object.keys(currFormatValueObj)
+                    let numCount = 0
+                    for (let i = 0; i < deprecatedNewRevisedArr.length; i++ ) {
+                        if (deprecatedNewRevisedArr[i] !== 'Deprecated') {
+                            let currFormatValue = currFormatValueObjKeys[i]
+                            
+                            newCurrentFormatValueObj[currFormatValue] = numCount.toString() // REORDERED  sequential Nums
+                            // newCurrentFormatValueObj[currFormatValue] = currFormatValueObj[currFormatValue] // Maintain Nums
+                            console.log("newCurrentFormatValueObj", newCurrentFormatValueObj)
+                            numCount++
+                        }
+                        console.log(numCount)
+                    }
+
+                    // console.log("newCurrentFormatValueObj", newCurrentFormatValueObj)
+
+                    // currJSON['Deprecated, New, or Revised'] = currJSON['Deprecated, New, or Revised'] // OLD CODE
+                    
+                    // console.log('if Current Format/Value', currJSON['Current Format/Value'])
+                    currJSON['Current Format/Value'] = newCurrentFormatValueObj
+                    // console.log("TEST", currJSON['Current Format/Value'], Object.keys(currJSON['Current Format/Value']).length)
                 }
-                else currJSON['Deprecated, New, or Revised'] = [currJSON['Deprecated, New, or Revised']]
-                console.log("currJSON['Deprecated, New, or Revised']",currJSON['Deprecated, New, or Revised'])
+                else { // not array
+                    // add filter here?
+                    // console.log('else not array Current Format/Value', currJSON['Current Format/Value'])
+                    // console.log('else not array Deprecated, New or Revised', currJSON['Deprecated, New, or Revised'])
+                    // console.log("else block",Object.keys(currJSON['Current Format/Value']))
+                    currJSON['Deprecated, New, or Revised'] = [currJSON['Deprecated, New, or Revised']]
+                }
+                // console.log("currJSON['Deprecated, New, or Revised']",currJSON['Deprecated, New, or Revised'])
             }
 
             for (let sourceIndex = 0; sourceIndex < currJSON['Primary Source'].length; sourceIndex++) {
@@ -64,8 +109,10 @@ function parseMasterModule() {
                     //if(currJSON['Secondary Source'] && ["640213240.json"].includes(currJSON['Secondary Source'])){
                         
                     if (currJSON['Secondary Source'][sourceIndex] && ["745268907.json","965707586.json","898006288.json", "726699695.json", "716117817.json", "131497719.json", "232438133.json", "299215535.json", "166676176.json"].includes(currJSON['Secondary Source'][sourceIndex])) {
-                        if(!currJSON['Deprecated, New, or Revised']?.includes('Deprecated')) { // Filter currJSON with "Deprecated" value
+                        // Filter currJSON with only "Deprecated" value in array, (Remove 'Yes' later on since the values will only be 'Deprecated, New, or Revised')
+                        if(!currJSON['Deprecated, New, or Revised'] || !currJSON['Deprecated, New, or Revised']?.includes('New') || !currJSON['Deprecated, New, or Revised']?.includes('Revised') || !currJSON['Deprecated, New, or Revised']?.includes('Yes')) { 
                             if (currJSON['Connect Value for Select all that apply questions - Surveys Only'] && currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex]) {
+                                // isTB - isTextBox
                                 let isTB = false;
                                 let header = currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex];
                                 let toInsert = {};
@@ -81,7 +128,7 @@ function parseMasterModule() {
                                         if (currJSON['Source Question'] && currJSON['Source Question'][sourceIndex]) {
                                             toReturn[currJSON['GridID/Source Question Name'][sourceIndex]] = {
                                                 'conceptId': currJSON['Source Question'][sourceIndex].substring(0, 9),
-                                                'questionText': masterJSON[currJSON['Source Question'][sourceIndex]]['Question Text- v1']
+                                                'questionText': masterJSON[currJSON['Source Question'][sourceIndex]]['Current Question Text']
                                             }
                                         }
     
@@ -89,11 +136,10 @@ function parseMasterModule() {
                                     }
                                     
                                    
-                                   
-                                    if (currJSON['Format/Value - r0'] && Array.isArray(currJSON['Format/Value - r0'])) {
+                                    
+                                    if (currJSON['Current Format/Value'] && Array.isArray(currJSON['Current Format/Value'])) {
                                         isTB = false;
-                                        let keys = Object.keys(currJSON['Format/Value - r0'])
-    
+                                        let keys = Object.keys(currJSON['Current Format/Value']) // might have to reformat from top stream 
                                         if (toReturn[headerName.toUpperCase()]) {
                                             toInsert = toReturn[headerName.toUpperCase()];
                                         }
@@ -108,15 +154,15 @@ function parseMasterModule() {
                                                 //console.log(keys)
                                                 //console.log(currJSON)
                                             }
-                                            questIds[currJSON['Format/Value - r0'][keys[j]].toUpperCase()] = {
+                                            questIds[currJSON['Current Format/Value'][keys[j]].toUpperCase()] = {
                                                 "conceptId": keys[j].substring(0, 9),
-                                                "concept": masterJSON[keys[j]]['Question Text- v1'] ? masterJSON[objKeys[k]]['Question Text- v1'] : masterJSON[objKeys[k]]['PII']
+                                                "concept": masterJSON[keys[j]]['Current Question Text'] ? masterJSON[objKeys[k]]['Current Question Text'] : masterJSON[objKeys[k]]['PII']
                                             }
                                         }
                                         if (currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex] === undefined) {
                                             //console.log(currJSON)
                                         }
-                                        toInsert['questionText'] = currJSON['Question Text- v1']
+                                        toInsert['questionText'] = currJSON['Current Question Text']
                                         toInsert['conceptId'] = currJSON['conceptId'];
                                         toReturn[currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()] = toInsert;
     
@@ -126,7 +172,7 @@ function parseMasterModule() {
                                             console.log(currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase())
                                         }
                                         
-                                        let val = currJSON['Format/Value - r0']
+                                        let val = currJSON['Current Format/Value']
                                         if (!val) {
                                             if (currJSON['Old Quest Value'] == "Don't know") {
                                                 isTB = false;
@@ -136,20 +182,20 @@ function parseMasterModule() {
                                                         "concept": "Don't know"
                                                     }
                                                 }
-                                                toInsert['questionText'] = currJSON['Question Text- v1']
+                                                toInsert['questionText'] = currJSON['Current Question Text']
                                                 toInsert['conceptId'] = currJSON['conceptId'];
                                                 toReturn[currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()] = toInsert;
                                             }
                                             else {
                                                 if(currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase().includes('GRID_')){
-                                                    toInsert['questionText'] = currJSON['Question Text- v1']
+                                                    toInsert['questionText'] = currJSON['Current Question Text']
                                                     toInsert['conceptId'] = currJSON['conceptId'];
                                                     toReturn[currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()] = toInsert;
                                                 }
                                                 else{
                                                     isTB = true;
                                                     toInsert['isTextBox'] = isTB;
-                                                    toInsert['questionText'] = currJSON['Question Text- v1']
+                                                    toInsert['questionText'] = currJSON['Current Question Text']
                                                     toInsert['conceptId'] = currJSON['conceptId'];
                                                     toReturn[currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()] = toInsert;
                                                 }
@@ -169,12 +215,12 @@ function parseMasterModule() {
                                                         toReturn[name] = {}
                                                     }
                                                     toReturn[name][id] = {
-                                                        'questionText':currJSON['Question Text- v1'],
+                                                        'questionText':currJSON['Current Question Text'],
                                                         'conceptId':currJSON['conceptId'].substring(0, 9)
                                                     }
                                                     // console.log(currJSON)
                                                     toReturn[name]['conceptId'] = currJSON['Source Question'][sourceIndex].substring(0, 9)
-                                                    toReturn[name]['concept'] = masterJSON[currJSON['Source Question'][sourceIndex]]['Question Text- v1']
+                                                    toReturn[name]['concept'] = masterJSON[currJSON['Source Question'][sourceIndex]]['Current Question Text']
                                                 }
                                             }
                                             else{
@@ -183,12 +229,12 @@ function parseMasterModule() {
                                                 for (let k = 0; k < objKeys.length; k++) {
                                                     qIds[val[objKeys[k]].toUpperCase()] = {
                                                         "conceptId": objKeys[k].substring(0, 9),
-                                                        "concept": masterJSON[objKeys[k]]['Question Text- v1'] ? masterJSON[objKeys[k]]['Question Text- v1'] : masterJSON[objKeys[k]]['PII']
+                                                        "concept": masterJSON[objKeys[k]]['Current Question Text'] ? masterJSON[objKeys[k]]['Current Question Text'] : masterJSON[objKeys[k]]['PII']
     
                                                     }
                                                 }
                                                 toInsert['questIds'] = qIds;
-                                                toInsert['questionText'] = currJSON['Question Text- v1']
+                                                toInsert['questionText'] = currJSON['Current Question Text']
                                                 toInsert['conceptId'] = currJSON['conceptId'];
                                                 //console.log(currJSON)
                                                 toReturn[currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()] = toInsert;
@@ -220,7 +266,7 @@ function parseMasterModule() {
                                                     "concept": valNum
                                                 }
                                                 if (!toInsert['questionText']) {
-                                                    toInsert['questionText'] = currJSON['Question Text- v1']
+                                                    toInsert['questionText'] = currJSON['Current Question Text']
                                                 }
                                                 toInsert['conceptId'] = currJSON['conceptId'];
                                                 toReturn[currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()] = toInsert;
@@ -229,7 +275,7 @@ function parseMasterModule() {
                                                 isTB = true;
                                                 toInsert['isTextBox'] = isTB;
                                                 if (!toInsert['questionText']) {
-                                                    toInsert['questionText'] = currJSON['Question Text- v1']
+                                                    toInsert['questionText'] = currJSON['Current Question Text']
                                                 }
                                                 toInsert['conceptId'] = currJSON['conceptId'];
                                                 toReturn[currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()] = toInsert;
@@ -243,12 +289,13 @@ function parseMasterModule() {
                                 }
                                 //check if it is a text response (Connect Value)
                                 else {
-                                    if (currJSON['Format/Value - r0'] && typeof currJSON['Format/Value - r0'] === 'object' && currJSON['Format/Value - r0'] !== null) {
+                                    // console.log("keys",keys)
+                                    if (currJSON['Current Format/Value'] && typeof currJSON['Current Format/Value'] === 'object' && currJSON['Current Format/Value'] !== null) {
                                         isTB = false;
                                     }
                                     else {
                                         isTB = true;
-                                        //console.log(currJSON['Format/Value - r0'])
+                                        //console.log(currJSON['Current Format/Value'])
                                     }
                                     if (currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex] && !isNaN(currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex])) {
                                         //console.log(currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex])
@@ -263,7 +310,7 @@ function parseMasterModule() {
                                             //console.log('EQUALS')
                                             //console.log(headerName);
     
-                                            let val = currJSON['Format/Value - r0']
+                                            let val = currJSON['Current Format/Value']
                                             //console.log(val);
                                             if (val && typeof val == "string" && val.includes('=')) {
                                                 //console.log(val)
@@ -290,7 +337,7 @@ function parseMasterModule() {
                                                     "concept": valNum
                                                 }
                                                 if (!toInsert['Source Question']) {
-                                                    toInsert['questionText'] = masterJSON[currJSON['Source Question'][sourceIndex]]['Question Text- v1'];
+                                                    toInsert['questionText'] = masterJSON[currJSON['Source Question'][sourceIndex]]['Current Question Text'];
                                                 }
                                                 toInsert['conceptId'] = currJSON['Source Question'][sourceIndex].substring(0, 9);
     
@@ -314,10 +361,10 @@ function parseMasterModule() {
     
                                                     toInsert['questIds'][keyNum.toUpperCase()] = {
                                                         "conceptId": valNum.substring(0, 9),
-                                                        "concept": masterJSON[valNum]["Question Text- v1"]
+                                                        "concept": masterJSON[valNum]["Current Question Text"]
                                                     }
                                                     if (!toInsert['Source Question']) {
-                                                        toInsert['questionText'] = masterJSON[currJSON['Source Question'][sourceIndex]]['Question Text- v1'];
+                                                        toInsert['questionText'] = masterJSON[currJSON['Source Question'][sourceIndex]]['Current Question Text'];
                                                     }
                                                     toInsert['conceptId'] = currJSON['Source Question'][sourceIndex].substring(0, 9);
     
@@ -345,7 +392,7 @@ function parseMasterModule() {
                                             // console.log(currJSON)
                                             questIds[currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()] = {
                                                 "conceptId": currJSON['conceptId'],
-                                                "concept": currJSON["Question Text- v1"]
+                                                "concept": currJSON["Current Question Text"]
                                             }
                                             if (isTB) {
                                                
@@ -357,7 +404,7 @@ function parseMasterModule() {
                                                     //console.log(currJSON)
                                                 }
     
-                                                toInsert['questionText'] = masterJSON[currJSON['Source Question'][sourceIndex]]['Question Text- v1'];
+                                                toInsert['questionText'] = masterJSON[currJSON['Source Question'][sourceIndex]]['Current Question Text'];
                                             }
     
                                             toReturn[headerName.toUpperCase()] = toInsert;
@@ -387,7 +434,7 @@ function parseMasterModule() {
                                             //console.log(currJSON['Connect Value for Select all that apply questions - Surveys Only']);
                                             questIds[currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()] = {
                                                 "conceptId": currJSON['conceptId'],
-                                                "concept": currJSON["Question Text- v1"]
+                                                "concept": currJSON["Current Question Text"]
                                             }
                                             if (isTB) {
                                                 questIds[currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()]['isTextBox'] = true;
@@ -395,7 +442,7 @@ function parseMasterModule() {
                                             if (currJSON['Source Question'] && currJSON['Source Question'][sourceIndex]) {
                                                 toInsert['conceptId'] = currJSON['Source Question'][sourceIndex][k].substring(0, 9);
     
-                                                toInsert['questionText'] = masterJSON[currJSON['Source Question'][sourceIndex][k]]['Question Text- v1'];
+                                                toInsert['questionText'] = masterJSON[currJSON['Source Question'][sourceIndex][k]]['Current Question Text'];
                                             }
                                             //console.log(masterJSON[head])
     
@@ -406,7 +453,7 @@ function parseMasterModule() {
                                             /*
                                                                             let converted = masterJSON[headerName[i]];
                                                                             if(converted){
-                                                                                toReturn[converted['Question Text- v1']] = toInsert;
+                                                                                toReturn[converted['Current Question Text']] = toInsert;
                                                                             }
                                                                             else{
                                                                                 console.log('f;sadlkvbsd;vlksabv')
@@ -432,7 +479,7 @@ function parseMasterModule() {
                                       if (currJSON['Source Question'] && currJSON['Source Question'][sourceIndex]) {
                                           toReturn[currJSON['GridID/Source Question Name'][sourceIndex]] = {
                                               'conceptId': currJSON['Source Question'][sourceIndex].substring(0, 9),
-                                              'questionText': masterJSON[currJSON['Source Question'][sourceIndex]]['Question Text- v1']
+                                              'questionText': masterJSON[currJSON['Source Question'][sourceIndex]]['Current Question Text']
                                           }
                                       }
     
@@ -441,9 +488,9 @@ function parseMasterModule() {
                                   
                                  
                                  
-                                  if (currJSON['Format/Value - r0'] && Array.isArray(currJSON['Format/Value - r0'])) {
+                                  if (currJSON['Current Format/Value'] && Array.isArray(currJSON['Current Format/Value'])) {
                                       isTB = false;
-                                      let keys = Object.keys(currJSON['Format/Value - r0'])
+                                      let keys = Object.keys(currJSON['Current Format/Value'])
     
                                       if (toReturn[headerName.toUpperCase()]) {
                                           toInsert = toReturn[headerName.toUpperCase()];
@@ -459,15 +506,15 @@ function parseMasterModule() {
                                               //console.log(keys)
                                               //console.log(currJSON)
                                           }
-                                          questIds[currJSON['Format/Value - r0'][keys[j]].toUpperCase()] = {
+                                          questIds[currJSON['Current Format/Value'][keys[j]].toUpperCase()] = {
                                               "conceptId": keys[j].substring(0, 9),
-                                              "concept": masterJSON[keys[j]]['Question Text- v1'] ? masterJSON[objKeys[k]]['Question Text- v1'] : masterJSON[objKeys[k]]['PII']
+                                              "concept": masterJSON[keys[j]]['Current Question Text'] ? masterJSON[objKeys[k]]['Current Question Text'] : masterJSON[objKeys[k]]['PII']
                                           }
                                       }
                                       if (currJSON['Variable Name'][sourceIndex] === undefined) {
                                           //console.log(currJSON)
                                       }
-                                      toInsert['questionText'] = currJSON['Question Text- v1']
+                                      toInsert['questionText'] = currJSON['Current Question Text']
                                       toInsert['conceptId'] = currJSON['conceptId'];
                                       toReturn[currJSON['Variable Name'][sourceIndex].toUpperCase()] = toInsert;
     
@@ -477,7 +524,7 @@ function parseMasterModule() {
                                           console.log(currJSON['Variable Name'][sourceIndex].toUpperCase())
                                       }
                                       
-                                      let val = currJSON['Format/Value - r0']
+                                      let val = currJSON['Current Format/Value']
                                       if (!val) {
                                           if (currJSON['Old Quest Value'] == "Don't know") {
                                               isTB = false;
@@ -487,20 +534,20 @@ function parseMasterModule() {
                                                       "concept": "Don't know"
                                                   }
                                               }
-                                              toInsert['questionText'] = currJSON['Question Text- v1']
+                                              toInsert['questionText'] = currJSON['Current Question Text']
                                               toInsert['conceptId'] = currJSON['conceptId'];
                                               toReturn[currJSON['Variable Name'][sourceIndex].toUpperCase()] = toInsert;
                                           }
                                           else {
                                               if(currJSON['Variable Name'][sourceIndex].toUpperCase().includes('GRID_')){
-                                                  toInsert['questionText'] = currJSON['Question Text- v1']
+                                                  toInsert['questionText'] = currJSON['Current Question Text']
                                                   toInsert['conceptId'] = currJSON['conceptId'];
                                                   toReturn[currJSON['Variable Name'][sourceIndex].toUpperCase()] = toInsert;
                                               }
                                               else{
                                                   isTB = true;
                                                   toInsert['isTextBox'] = isTB;
-                                                  toInsert['questionText'] = currJSON['Question Text- v1']
+                                                  toInsert['questionText'] = currJSON['Current Question Text']
                                                   toInsert['conceptId'] = currJSON['conceptId'];
                                                   toReturn[currJSON['Variable Name'][sourceIndex].toUpperCase()] = toInsert;
                                               }
@@ -521,12 +568,12 @@ function parseMasterModule() {
                                               //         toReturn[name] = {}
                                               //     }
                                               //     toReturn[name][id] = {
-                                              //         'questionText':currJSON['Question Text- v1'],
+                                              //         'questionText':currJSON['Current Question Text'],
                                               //         'conceptId':currJSON['conceptId'].substring(0, 9)
                                               //     }
                                               //     // console.log(currJSON)
                                               //     toReturn[name]['conceptId'] = currJSON['Source Question'][sourceIndex].substring(0, 9)
-                                              //     toReturn[name]['concept'] = masterJSON[currJSON['Source Question'][sourceIndex]]['Question Text- v1']
+                                              //     toReturn[name]['concept'] = masterJSON[currJSON['Source Question'][sourceIndex]]['Current Question Text']
                                               // }
                                           }
                                           else{
@@ -535,12 +582,12 @@ function parseMasterModule() {
                                               for (let k = 0; k < objKeys.length; k++) {
                                                   qIds[val[objKeys[k]].toUpperCase()] = {
                                                       "conceptId": objKeys[k].substring(0, 9),
-                                                      "concept": masterJSON[objKeys[k]]['Question Text- v1'] ? masterJSON[objKeys[k]]['Question Text- v1'] : masterJSON[objKeys[k]]['PII']
+                                                      "concept": masterJSON[objKeys[k]]['Current Question Text'] ? masterJSON[objKeys[k]]['Current Question Text'] : masterJSON[objKeys[k]]['PII']
     
                                                   }
                                               }
                                               toInsert['questIds'] = qIds;
-                                              toInsert['questionText'] = currJSON['Question Text- v1']
+                                              toInsert['questionText'] = currJSON['Current Question Text']
                                               toInsert['conceptId'] = currJSON['conceptId'];
                                               //console.log(currJSON)
                                               toReturn[currJSON['Variable Name'][sourceIndex].toUpperCase()] = toInsert;
@@ -572,7 +619,7 @@ function parseMasterModule() {
                                                   "concept": valNum
                                               }
                                               if (!toInsert['questionText']) {
-                                                  toInsert['questionText'] = currJSON['Question Text- v1']
+                                                  toInsert['questionText'] = currJSON['Current Question Text']
                                               }
                                               toInsert['conceptId'] = currJSON['conceptId'];
                                               toReturn[currJSON['Variable Name'][sourceIndex].toUpperCase()] = toInsert;
@@ -581,7 +628,7 @@ function parseMasterModule() {
                                               isTB = true;
                                               toInsert['isTextBox'] = isTB;
                                               if (!toInsert['questionText']) {
-                                                  toInsert['questionText'] = currJSON['Question Text- v1']
+                                                  toInsert['questionText'] = currJSON['Current Question Text']
                                               }
                                               toInsert['conceptId'] = currJSON['conceptId'];
                                               toReturn[currJSON['Variable Name'][sourceIndex].toUpperCase()] = toInsert;
@@ -595,12 +642,12 @@ function parseMasterModule() {
                               }
                               //check if it is a text response (Connect Value)
                               else {
-                                  if (currJSON['Format/Value - r0'] && typeof currJSON['Format/Value - r0'] === 'object' && currJSON['Format/Value - r0'] !== null) {
+                                  if (currJSON['Current Format/Value'] && typeof currJSON['Current Format/Value'] === 'object' && currJSON['Current Format/Value'] !== null) {
                                       isTB = false;
                                   }
                                   else {
                                       isTB = true;
-                                      //console.log(currJSON['Format/Value - r0'])
+                                      //console.log(currJSON['Current Format/Value'])
                                   }
                                   if (currJSON['Variable Name'][sourceIndex] && !isNaN(currJSON['Variable Name'][sourceIndex])) {
                                       //console.log(currJSON['Variable Name'][sourceIndex])
@@ -615,7 +662,7 @@ function parseMasterModule() {
                                           //console.log('EQUALS')
                                           //console.log(headerName);
     
-                                          let val = currJSON['Format/Value - r0']
+                                          let val = currJSON['Current Format/Value']
                                           //console.log(val);
                                           if (val && typeof val == "string" && val.includes('=')) {
                                               //console.log(val)
@@ -642,7 +689,7 @@ function parseMasterModule() {
                                                   "concept": valNum
                                               }
                                               if (!toInsert['Source Question']) {
-                                                  toInsert['questionText'] = masterJSON[currJSON['Source Question'][sourceIndex]]['Question Text- v1'];
+                                                  toInsert['questionText'] = masterJSON[currJSON['Source Question'][sourceIndex]]['Current Question Text'];
                                               }
                                               toInsert['conceptId'] = currJSON['Source Question'][sourceIndex].substring(0, 9);
     
@@ -666,10 +713,10 @@ function parseMasterModule() {
     
                                                   toInsert['questIds'][keyNum.toUpperCase()] = {
                                                       "conceptId": valNum.substring(0, 9),
-                                                      "concept": masterJSON[valNum]["Question Text- v1"]
+                                                      "concept": masterJSON[valNum]["Current Question Text"]
                                                   }
                                                   if (!toInsert['Source Question']) {
-                                                      toInsert['questionText'] = masterJSON[currJSON['Source Question'][sourceIndex]]['Question Text- v1'];
+                                                      toInsert['questionText'] = masterJSON[currJSON['Source Question'][sourceIndex]]['Current Question Text'];
                                                   }
                                                   toInsert['conceptId'] = currJSON['Source Question'][sourceIndex].substring(0, 9);
     
@@ -697,7 +744,7 @@ function parseMasterModule() {
                                           // console.log(currJSON)
                                           questIds[currJSON['Variable Name'][sourceIndex].toUpperCase()] = {
                                               "conceptId": currJSON['conceptId'],
-                                              "concept": currJSON["Question Text- v1"]
+                                              "concept": currJSON["Current Question Text"]
                                           }
                                           if (isTB) {
                                              
@@ -709,7 +756,7 @@ function parseMasterModule() {
                                                   //console.log(currJSON)
                                               }
     
-                                              toInsert['questionText'] = masterJSON[currJSON['Source Question'][sourceIndex]]['Question Text- v1'];
+                                              toInsert['questionText'] = masterJSON[currJSON['Source Question'][sourceIndex]]['Current Question Text'];
                                           }
     
                                           toReturn[headerName.toUpperCase()] = toInsert;
@@ -735,7 +782,7 @@ function parseMasterModule() {
                                           //console.log(currJSON['Variable Name']);
                                           questIds[currJSON['Variable Name'][sourceIndex].toUpperCase()] = {
                                               "conceptId": currJSON['conceptId'],
-                                              "concept": currJSON["Question Text- v1"]
+                                              "concept": currJSON["Current Question Text"]
                                           }
                                           if (isTB) {
                                               questIds[currJSON['Variable Name'][sourceIndex].toUpperCase()]['isTextBox'] = true;
@@ -743,7 +790,7 @@ function parseMasterModule() {
                                           if (currJSON['Source Question'] && currJSON['Source Question'][sourceIndex]) {
                                               toInsert['conceptId'] = currJSON['Source Question'][sourceIndex][k].substring(0, 9);
     
-                                              toInsert['questionText'] = masterJSON[currJSON['Source Question'][sourceIndex][k]]['Question Text- v1'];
+                                              toInsert['questionText'] = masterJSON[currJSON['Source Question'][sourceIndex][k]]['Current Question Text'];
                                           }
                                           //console.log(masterJSON[head])
     
@@ -754,7 +801,7 @@ function parseMasterModule() {
                                           /*
                                                                           let converted = masterJSON[headerName[i]];
                                                                           if(converted){
-                                                                              toReturn[converted['Question Text- v1']] = toInsert;
+                                                                              toReturn[converted['Current Question Text']] = toInsert;
                                                                           }
                                                                           else{
                                                                               console.log('f;sadlkvbsd;vlksabv')
@@ -814,8 +861,8 @@ function parseMasterModule() {
         {}
     );
     // let filename = './transformationFiles/Quest-' + timestamp + '_Alphabetized_Transformation.json';
-    fs.writeFileSync(filename, JSON.stringify(ordered, null, 2));
-
+    // fs.writeFileSync(filename, JSON.stringify(ordered, null, 2)); // ADD BACK LATER
+    
 
     //console.log(JSON.stringify(toReturn));
 

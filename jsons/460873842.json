@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "460873842",
-  "Question Text- v1": "In the last month, how often did you use cetylpyridinium chloride mouthwash (such as Crest® Pro-Health)?",
+  "Current Question Text": "In the last month, how often did you use cetylpyridinium chloride mouthwash (such as Crest® Pro-Health)?",
   "Variable Label": "cetylpyridinium chloride mouthwash  frequency past month",
   "Variable Name": [
     "SrvMw_MWCETYL_v1r0"
@@ -16,22 +16,22 @@
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
   "Formula for Index": [
+    "6606",
+    "6607",
     "6608",
     "6609",
     "6610",
-    "6611",
-    "6612",
-    "6613"
+    "6611"
   ],
   "Index": [
+    "6606",
+    "6607",
     "6608",
     "6609",
     "6610",
-    "6611",
-    "6612",
-    "6613"
+    "6611"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "648960871.json": "44",
     "693256778.json": "0",
     "735330419.json": "1",

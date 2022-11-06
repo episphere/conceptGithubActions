@@ -8,7 +8,7 @@
     "745268907.json"
   ],
   "conceptId": "823919522",
-  "Question Text- v1": "What time do you usually go to bed on the nights before non-workdays? Please tell us the time you usually get into your bed, not the time you usually fall asleep. Select your answer using the drop-down options below.",
+  "Current Question Text": "What time do you usually go to bed on the nights before non-workdays? Please tell us the time you usually get into your bed, not the time you usually fall asleep. Select your answer using the drop-down options below.",
   "Variable Label": "Time go to bed before non-workdays",
   "Variable Name": [
     "SrvMRE_NonWorkBed_v1r0"
@@ -18,7 +18,7 @@
   ],
   "Variable Type": "Time",
   "Variable Length": "6",
-  "Format/Value - r0": "HH:MM AM/PM",
+  "Current Format/Value": "HH:MM AM/PM",
   "Required": "No",
   "PII": "No",
   "Notes": "Follows SAS TIMEAMPM format",

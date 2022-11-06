@@ -6,7 +6,7 @@
     "299215535.json"
   ],
   "conceptId": "353467497",
-  "Question Text- v1": "In the last month, how often did you use a water-based flosser or pick/jet?",
+  "Current Question Text": "In the last month, how often did you use a water-based flosser or pick/jet?",
   "Variable Label": "Water-based flosser or pick/jet frequency past month",
   "Variable Name": [
     "SrvMw_WTRPICK2_v1r0"
@@ -17,22 +17,22 @@
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
   "Formula for Index": [
+    "6542",
+    "6543",
     "6544",
     "6545",
     "6546",
-    "6547",
-    "6548",
-    "6549"
+    "6547"
   ],
   "Index": [
+    "6542",
+    "6543",
     "6544",
     "6545",
     "6546",
-    "6547",
-    "6548",
-    "6549"
+    "6547"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "648960871.json": "44",
     "693256778.json": "0",
     "735330419.json": "1",

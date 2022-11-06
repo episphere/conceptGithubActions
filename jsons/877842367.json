@@ -12,7 +12,7 @@
     "SrvMw_MWUSE_v1r0"
   ],
   "conceptId": "877842367",
-  "Question Text- v1": "Chlorhexidine mouthwash (such as PeridexTM, PerioGard®, or Paroex®)",
+  "Current Question Text": "Chlorhexidine mouthwash (such as PeridexTM, PerioGard®, or Paroex®)",
   "Variable Label": "Chlorhexidine mouthwash",
   "Variable Name": [
     "SrvMw_MWCHLOR1_v1r0"
@@ -29,14 +29,14 @@
   "Question Type": "Optional Select All that Apply",
   "IMS Review Notes": "GRID ID/Source Variable Name (Column H) needed",
   "Formula for Index": [
-    "6566",
-    "6567"
+    "6564",
+    "6565"
   ],
   "Index": [
-    "6566",
-    "6567"
+    "6564",
+    "6565"
   ],
-  "Format/Value - r0": {
+  "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   }

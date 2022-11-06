@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "5642",
-  "Index": "5642",
+  "Formula for Index": "5640",
+  "Index": "5640",
   "Primary Source": [
     "129084651.json"
   ],
@@ -14,7 +14,7 @@
     "DRINKSWTR2F"
   ],
   "conceptId": "258501440",
-  "Question Text- v1": "In a usual week, about how often do you use tap water from your home to make [insert response from DRINKSWTR1/other beverages]? Please describe [text box]",
+  "Current Question Text": "In a usual week, about how often do you use tap water from your home to make [insert response from DRINKSWTR1/other beverages]? Please describe [text box]",
   "Variable Label": "Tap water times/day, other",
   "Variable Name": [
     "SrvLAW_DrinksWtr2F_Num_v1r0"
@@ -24,7 +24,7 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "3",
-  "Format/Value - r0": "N/A",
+  "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "Yes"
 }
