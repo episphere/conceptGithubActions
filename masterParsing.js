@@ -1,7 +1,6 @@
 const fs = require('fs');
 
 const allArrayItemsDeprecated = (deprecatedNewRevisedArr) => {
-    // console.log("deprecatedNewRevisedArr value", deprecatedNewRevisedArr)
     return deprecatedNewRevisedArr.every(text => text === 'Deprecated')
 }
 
@@ -50,18 +49,15 @@ function parseMasterModule() {
             }
 
 
-            // might make something here to filter out the all the 'Deprecated from being added '
-            // filter the currJSON['Current Format/Value']
-            if (currJSON['Deprecated, New, or Revised']) { 
+            /*
+            Filter the currJSON['Current Format/Value']
+            Check if currJSON has 'Deprecated, New, or Revised' value
+            If value is an array remove deprecated values from currJSON['Current Format/Value'] object and reorder the sequence key nums
+            Note: This filter only works for 'Connect Value for Select all that apply questions - Surveys Only', NOT TESTED for 'GridID/Source Question Name'
+            TODO: Add if statement for possible GridID/Source Question Name
+            */ 
+            if (currJSON['Deprecated, New, or Revised']) {
                 if (Array.isArray(currJSON['Deprecated, New, or Revised'])) { // Array
-                    // add filter here?
-                    // console.log("if array block",Object.keys(currJSON['Current Format/Value']))
-                    // console.log('if array Deprecated, New or Revised', currJSON['Deprecated, New, or Revised'])
-
-                    // const isEveryArrayTextDeprecated = allArrayItemsDeprecated(currJSON['Deprecated, New, or Revised'])
-                    // if (isEveryArrayTextDeprecated) {
-                    //     currJSON['Current Format/Value']
-                    // }
                     const newCurrentFormatValueObj = {}
                     const deprecatedNewRevisedArr = currJSON['Deprecated, New, or Revised']
                     const currFormatValueObj = currJSON['Current Format/Value']
@@ -72,47 +68,23 @@ function parseMasterModule() {
                             let currFormatValue = currFormatValueObjKeys[i]
                             
                             newCurrentFormatValueObj[currFormatValue] = numCount.toString() // REORDERED  sequential Nums
-                            // newCurrentFormatValueObj[currFormatValue] = currFormatValueObj[currFormatValue] // Maintain Nums
-                            console.log("newCurrentFormatValueObj", newCurrentFormatValueObj)
+                            // console.log("newCurrentFormatValueObj", newCurrentFormatValueObj)
                             numCount++
                         }
-                        // console.log(numCount)
                     }
-
-                    // console.log("newCurrentFormatValueObj", newCurrentFormatValueObj)
-
-                    // currJSON['Deprecated, New, or Revised'] = currJSON['Deprecated, New, or Revised'] // OLD CODE
-                    
-                    // console.log('if Current Format/Value', currJSON['Current Format/Value'])
                     currJSON['Current Format/Value'] = newCurrentFormatValueObj
-                    // console.log("TEST", currJSON['Current Format/Value'], Object.keys(currJSON['Current Format/Value']).length)
                 }
-                else { // not array
-                    // add filter here?
-                    // console.log('else not array Current Format/Value', currJSON['Current Format/Value'])
-                    // console.log('else not array Deprecated, New or Revised', currJSON['Deprecated, New, or Revised'])
-                    // console.log("else block",Object.keys(currJSON['Current Format/Value']))
+                else { // Not Array
                     currJSON['Deprecated, New, or Revised'] = [currJSON['Deprecated, New, or Revised']]
                 }
-                // console.log("currJSON['Deprecated, New, or Revised']",currJSON['Deprecated, New, or Revised'])
             }
-
-            // if(currJSON['Deprecated, New, or Revised'] && Array.isArray(currJSON['Deprecated, New, or Revised'])) { //REMOVE THIS PART
-            //     console.log("TEST THIS HERE",currJSON['Connect Value for Select all that apply questions - Surveys Only'], currJSON['Current Format/Value'], )
-            // }
-
-            let iscurrJsonAllDeprecated = false 
 
             if (currJSON['Deprecated, New, or Revised'] && Array.isArray(currJSON['Deprecated, New, or Revised'])) {
                 const deprecatedNewRevisedCurrJsonArr = currJSON['Deprecated, New, or Revised']
-                // console.log("deprecatedNewRevisedCurrJsonArr", deprecatedNewRevisedCurrJsonArr)
-                // console.log("all items deprecated?",allArrayItemsDeprecated(deprecatedNewRevisedCurrJsonArr))
                 if (allArrayItemsDeprecated(deprecatedNewRevisedCurrJsonArr)) {
-                    iscurrJsonAllDeprecated = true
-                    console.log("currJSON", currJSON)
+                    // console.log("currJSON", currJSON)
                     continue
                 }
-                // console.log("deprecatedNewRevisedCurrJsonArr value", iscurrJsonAllDeprecated, deprecatedNewRevisedCurrJsonArr)
             }
 
             for (let sourceIndex = 0; sourceIndex < currJSON['Primary Source'].length; sourceIndex++) {
@@ -128,19 +100,8 @@ function parseMasterModule() {
                         
                     if (currJSON['Secondary Source'][sourceIndex] && ["745268907.json","965707586.json","898006288.json", "726699695.json", "716117817.json", "131497719.json", "232438133.json", "299215535.json", "166676176.json"].includes(currJSON['Secondary Source'][sourceIndex])) {
 
-                        // console.log("deprecatedNewRevisedCurrJsonArr value", iscurrJsonAllDeprecated,currJSON['Deprecated, New, or Revised'])
-                        // Filter currJSON with only "Deprecated" value in array, (Remove 'Yes' later on since the values will only be 'Deprecated, New, or Revised')
-                        // !currJSON['Deprecated, New, or Revised']?.includes('New') || !currJSON['Deprecated, New, or Revised']?.includes('Revised') || !currJSON['Deprecated, New, or Revised']?.includes('Yes')
-
-                        // if(iscurrJsonAllDeprecated === true && !currJSON['Deprecated, New, or Revised']) {
-                        //     console.log("deprecatedNewRevisedCurrJsonArr value 2", iscurrJsonAllDeprecated,currJSON['Deprecated, New, or Revised'], currJSON['Connect Value for Select all that apply questions - Surveys Only'] )
-                        // }
-                        // iscurrJsonAllDeprecated === false && !currJSON['Deprecated, New, or Revised'] || !currJSON['Deprecated, New, or Revised']?.includes('New') || !currJSON['Deprecated, New, or Revised']?.includes('Revised') || !currJSON['Deprecated, New, or Revised']?.includes('Yes') 
-                        if(currJSON['Connect Value for Select all that apply questions - Surveys Only'] == "HOSEASADDSUM2MEADDSUM") {
-                            currJSON['Connect Value for Select all that apply questions - Surveys Only']
-                        }
+                        // Filter currJSON with only "Deprecated" value in array, (Remove 'Yes' later on since the values will only be 'Deprecated, New, or Revised')                        
                         if(!currJSON['Deprecated, New, or Revised'] || !currJSON['Deprecated, New, or Revised']?.includes('New') || !currJSON['Deprecated, New, or Revised']?.includes('Revised') || !currJSON['Deprecated, New, or Revised']?.includes('Yes') ) { 
-                            // console.log("deprecatedNewRevisedCurrJsonArr value 3", iscurrJsonAllDeprecated,currJSON['Deprecated, New, or Revised'])
                             if (currJSON['Connect Value for Select all that apply questions - Surveys Only'] && currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex]) {
                                 // isTB - isTextBox
                                 let isTB = false;
@@ -169,7 +130,7 @@ function parseMasterModule() {
                                     
                                     if (currJSON['Current Format/Value'] && Array.isArray(currJSON['Current Format/Value'])) {
                                         isTB = false;
-                                        let keys = Object.keys(currJSON['Current Format/Value']) // might have to reformat from top stream 
+                                        let keys = Object.keys(currJSON['Current Format/Value'])
                                         if (toReturn[headerName.toUpperCase()]) {
                                             toInsert = toReturn[headerName.toUpperCase()];
                                         }
