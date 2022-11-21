@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "5092",
-  "Index": "5092",
+  "Formula for Index": "5091",
+  "Index": "5091",
   "Primary Source": [
     "129084651.json"
   ],
@@ -22,9 +22,10 @@
   "Connect Value for Select all that apply questions - Surveys Only": [
     "SEASTNUM2"
   ],
-  "Variable Type": "Num",
+  "Variable Type": "Char",
   "Variable Length": "6",
   "Required": "No",
   "PII": "Yes",
-  "Date added or modified": "2/3/22"
+  "Date added or modified": "11/9/22",
+  "IMS Review Notes": "Changed variable type from Num to Char"
 }
