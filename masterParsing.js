@@ -803,8 +803,9 @@ function parseMasterModule() {
         }, 
         {}
     );
+    console.log(Object.keys(ordered).length)
     // let filename = './transformationFiles/Quest-' + timestamp + '_Alphabetized_Transformation.json';
-    fs.writeFileSync(filename, JSON.stringify(ordered, null, 2));
+    // fs.writeFileSync(filename, JSON.stringify(ordered, null, 2));
 
 
     //console.log(JSON.stringify(toReturn));

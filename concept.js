@@ -197,7 +197,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
     for(let i = 0; i < conceptColNames.length; i++){ 
         // console.log("conceptColNames", i,conceptColNames[i], conceptColNames[i].indexOf('Source'))
         if(conceptColNames[i].indexOf('Source') != -1 && firstRow[conceptIdReverseLookup[conceptColNames[i]] + 1] != ''){
-            console.log("value of concept id", numCounter, i ,conceptColNames[i].indexOf('Source'),firstRow[conceptIdReverseLookup[conceptColNames[i]] + 1])
+            // console.log("value of concept id", numCounter, i ,conceptColNames[i].indexOf('Source'),firstRow[conceptIdReverseLookup[conceptColNames[i]] + 1])
             for(let k = 0; k < cluster.length; k++){
                 if(cluster[k][conceptIdReverseLookup[conceptColNames[i]] + 1] != ""){
                     let currId = cluster[k][conceptIdReverseLookup[conceptColNames[i]]];
@@ -596,7 +596,7 @@ function getConceptIdCols(header){ // pushing object of headers with concept Ids
     for(let i = 0; i < header.length;i++){
         if(header[i] == 'conceptId'){
             // console.log("header conceptId",i,header[i])
-            if(i + 1 < header.length && header[i+1] != 'conceptId'){ // check header after concept Id; concept Id before column header
+            if(i + 1 < header.length && header[i+1] != 'conceptId'){ // check header after concept Id in list; concept Id before column header
                 // console.log("header after", header[i+1])
                 toReturn[i] = header[i+1]; // Ex. {'2': 'Primary Source',}
             }
@@ -606,15 +606,16 @@ function getConceptIdCols(header){ // pushing object of headers with concept Ids
             
         }
     }
-    // console.log(toReturn)
+    // console.log(toReturn) 
+    /* { '2': 'Primary Source','4': 'Secondary Source','6': 'Source Question','9': 'Question Text','16': 'Format/Value'} */
     return toReturn
     
 }
 
 async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ********************************************************************************
-    console.log("fileName",fileName)
+    // console.log("fileName",fileName)
     let jsonList = []
-    let sourceJSONS = []
+    let sourceJSONS = [] // array of each conceptId#.json object
     // fs.readdirSync('./jsons/').forEach(file => {
     //     if(file.match(/[0-9]{9}.json/)){
     //         let currFileContents = fs.readFileSync('./jsons/' + file);
@@ -626,12 +627,13 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
     // });
 
     fs.readdirSync('./jsonsTest/').forEach(file => { // jsonsTest Folder (TEST FILE READ)
-        if(file.match(/[0-9]{9}.json/)){
+        /* NOTE: Might need to change regex with V1 or V2? Will conceptId#'s have v1 or v2 endings? How will this impact the library moving forward? */
+        if(file.match(/[0-9]{9}.json/)){ 
             let currFileContents = fs.readFileSync('./jsons/' + file);
             // console.log("currFileContents", currFileContents)
             let currJSON = JSON.parse(currFileContents)
             // console.log("currJSON",file,currJSON)
-            sourceJSONS.push(currJSON);
+            // sourceJSONS.push(currJSON);
         }
     });
     // console.log('sourceJSONS value', sourceJSONS)
@@ -647,7 +649,7 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
     // console.log("ConceptIndex!!!", typeof ConceptIndex, typeof JSON.parse(ConceptIndex), JSON.parse(ConceptIndex))
     let toReplace = fs.readFileSync(fileName,{encoding:'utf8', flag:'r'})
     
-    // console.log("toReplace",typeof toReplace) // entire string csv file
+    // console.log("toReplace",typeof toReplace, toReplace) // entire string csv file
 
     toReplace = toReplace.replace(/�/g, "\"")
     
@@ -710,14 +712,14 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
     for await(const line of rl){ // handle promise based value --> each line from rl will be read as a single line
         // CSVToArray(',') extra paramater not needed
         // console.log("line",typeof line,line)
-        let arr = CSVToArray(line, ',')
+        let arr = CSVToArray(line, ',') // Each arr --> current line of text items separated by comma 
         /* Current arr row and iteration count */
         // console.log("arr", numCounter, arr) 
 /*------------------------------------------------------------ (CHECKPOINT 2 - Looping through curremt row array, push to cluster array )------------------------------------------------------------ */
         if(first){ // populates header array variable; assigns index val of question text header (first row) to varLabelIndex variable
             conceptIdObject = getConceptIdCols(arr)
             // console.log('abc')
-            console.log("conceptIdObject",conceptIdObject)
+            // console.log("conceptIdObject",conceptIdObject)
             header = arr; // array of string items
             // console.log("header",header)
             first = false; // reassign, only used for top header
