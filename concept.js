@@ -57,10 +57,11 @@ function replaceQuotes(text){
 
 function processCluster(cluster, header, nameToConcept, indexVariableName, conceptIdList, conceptIdObject, sourceJSONS, jsonList, regexInclude, numCounter){
     console.log("conceptIdList", conceptIdList)
-    // console.log('cluster 0',cluster[0])
+    // console.log('cluster 0',cluster[0]) 
     /* Cluster will be length 1 if no, question text rows are proceeded afterwards*/
     console.log("conceptIdObject", conceptIdObject)
     /*
+    num index is conceptId header, value is header to the right of conceptId index
     conceptIdObject --> { '2': 'Primary Source','4': 'Secondary Source','6': 'Source Question','9': 'Question Text','16': 'Format/Value'}
     */
     let nonEmpty = []; // to mark during iterating an array item, known to be NOT empty later in looping process
@@ -627,7 +628,11 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
     // });
 
     fs.readdirSync('./jsonsTest/').forEach(file => { // jsonsTest Folder (TEST FILE READ)
-        /* NOTE: Might need to change regex with V1 or V2? Will conceptId#'s have v1 or v2 endings? How will this impact the library moving forward? */
+        /* 
+        NOTE: Might need to change regex with V1 or V2? Will conceptId#'s have v1 or v2 endings? How will this impact the library moving forward? 
+        [0-9]{9}_v[1-2]
+        */
+        
         if(file.match(/[0-9]{9}.json/)){ 
             let currFileContents = fs.readFileSync('./jsons/' + file);
             // console.log("currFileContents", currFileContents)
@@ -666,13 +671,14 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
     // if(fs.existsSync('./jsons/conceptIds.txt')){
     //     idIndex = fs.readFileSync('./jsons/conceptIds.txt', {encoding:'utf8'}) // Array of concept Ids (string) (Note: purpose of the string array of strings '['...','...',....]'
     // }
-    if(fs.existsSync('./jsonsTest/conceptIdsTest.txt')){
+    /*Might be used for concept Id one to one mapping*/
+    if(fs.existsSync('./jsonsTest/conceptIdsTest.txt')){ 
             idIndex = fs.readFileSync('./jsonsTest/conceptIdsTest.txt', {encoding:'utf8'}) // Array of concept Ids (string) (Note: purpose of the string array of strings '['...','...',....]'
     }
 
 
     let conceptIdList = JSON.parse(idIndex) // Array of concept Ids (list of string concepts)
-    let varLabelIndex = 0; // reassigns to the index location of Question Text
+    let varLabelIndex = 0; // Reassigns to the index location of Question Text
     let cluster = []
 
     /*------------------------------------------------------------ CHECKPOINT 1 ------------------------------------------------------------ */
@@ -699,8 +705,8 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
     let second  = true;
     let currCluster = false;
     let header = [];
-    let conceptCols = []; // concept Columns will be here
-    let conceptIdObject = {};
+    let conceptCols = []; // concept Columns will be here, list of column index numbers
+    let conceptIdObject = {}; // if exists () --> { '2': 'Primary Source','4': 'Secondary Source','6': 'Source Question','9': 'Question Text','16': 'Format/Value'}
     let nameToConcept = JSON.parse(ConceptIndex); // varToConcept Library 
     
 
@@ -724,6 +730,7 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
             // console.log("header",header)
             first = false; // reassign, only used for top header
             for(let i = 0; i < arr.length; i++){
+                // NOTE: Add conditional for columns for v1 and v2 conceptIds???
                 if(arr[i] == "Question Text"){
                     varLabelIndex = i; // reassign varLabelIndex with index of Question Text!
                     // console.log("varLabelIndex" , i)
@@ -732,9 +739,9 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
                     conceptCols.push(i+1) // push all conceptCols
                 }
             }
-            // console.log("conceptCols" , conceptCols)
+            console.log("conceptCols" , conceptCols)
             // console.log("arr",arr)
-            excelOutput.push([arr])
+            excelOutput.push([arr]) // an array within an array geting pushed to an array
             // console.log("excelOutput", excelOutput)
         }
         else if(currCluster){ // conditional for the rows 3 and onwards; third path after 2 rows go through confditional flow
@@ -769,6 +776,7 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
             // console.log("cluster push arr", numCounter,arr)
             cluster.push(arr)
             currCluster = true;
+            // console.log("cluster", cluster)
         }
         numCounter++
         // console.log(cluster)
