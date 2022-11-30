@@ -2,6 +2,7 @@
   "conceptId": "807835037",
   "Current Question Text": "Other |__|",
   "Primary Source": [
+    "692924902.json",
     "129084651.json",
     "129084651.json",
     "129084651.json",
@@ -34,6 +35,7 @@
     "129084651.json"
   ],
   "Secondary Source": [
+    "195399696.json",
     "726699695.json",
     "726699695.json",
     "726699695.json",
@@ -66,6 +68,7 @@
     "299215535.json"
   ],
   "Source Question": [
+    "740819233.json",
     "384191091.json",
     "362270886.json",
     "525535977.json",
@@ -97,7 +100,63 @@
     "789159346.json",
     "705336878.json"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Variable Name": [
+    "RCAOper_OtherCancer_v1r0",
+    "SrvBOH_NoneRE_v1r0",
+    "SrvBOH_NoneRE2_v1r0",
+    "SrvBOH_NoneRE3_v1r0",
+    "SrvBOH_NoneRE4_v1r0",
+    "SrvBOH_NoneRE5_v1r0",
+    "SrvBOH_NoneRE6_v1r0",
+    "SrvBOH_NoneRE7_v1r0",
+    "SrvBOH_NoneRE8_v1r0",
+    "SrvBOH_OtherLang_v1r0",
+    "SrvBOH_BreastOther_v1r0",
+    "SrvBOH_OtherWtLoss1_v1r0",
+    "SrvBOH_OtherWtLoss2_v1r0",
+    "SrvBOH_OtherWtLoss3_v1r0",
+    "SrvBOH_OtherWtLoss4_v1r0",
+    "SrvBOH_OtherHairMed_v1r0",
+    "SrvBOH_MOtherCancer_v1r0",
+    "SrvBOH_DOtherCancer_v1r0",
+    "SrvBOH_S1OtherCancer_v1r0",
+    "SrvBOH_C1OtherCancer_v1r0",
+    "SrvBOH_OtherBusinessC_v1r0",
+    "SrvBOH_OtherBusinessP_v1r0",
+    "SrvMRE_OtherPregIssue_v1r0",
+    "SrvMRE_OtherFertMeds_v1r0",
+    "SrvMRE_OthEstrogenMed_v1r0",
+    "SrvMRE_OtherProg_v1r0",
+    "SrvMRE_AnyCombPill_v1r0",
+    "SrvMRE_OtherSATmt_v1r0",
+    "SrvSAS_OtherCigar_v1r0",
+    "SrvSAS_StopAlcOther_v1r0",
+    "SrvBlU_COV8S_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Operational variable. Nested under cancer occurrence",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "11/25/22",
+  "Formula for Index": [
+    "907",
+    "908"
+  ],
+  "Index": [
+    "907",
+    "908"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  },
   "GridID/Source Question Name": [
+    "",
     "RACEETH",
     "RACEETH2",
     "RACEETH3",
@@ -130,39 +189,8 @@
     "SrvBlU_COV8_v1r0"
   ],
   "Variable Label": "None of these fully describe me. Please describe",
-  "Variable Name": [
-    "SrvBOH_NoneRE_v1r0",
-    "SrvBOH_NoneRE2_v1r0",
-    "SrvBOH_NoneRE3_v1r0",
-    "SrvBOH_NoneRE4_v1r0",
-    "SrvBOH_NoneRE5_v1r0",
-    "SrvBOH_NoneRE6_v1r0",
-    "SrvBOH_NoneRE7_v1r0",
-    "SrvBOH_NoneRE8_v1r0",
-    "SrvBOH_OtherLang_v1r0",
-    "SrvBOH_BreastOther_v1r0",
-    "SrvBOH_OtherWtLoss1_v1r0",
-    "SrvBOH_OtherWtLoss2_v1r0",
-    "SrvBOH_OtherWtLoss3_v1r0",
-    "SrvBOH_OtherWtLoss4_v1r0",
-    "SrvBOH_OtherHairMed_v1r0",
-    "SrvBOH_MOtherCancer_v1r0",
-    "SrvBOH_DOtherCancer_v1r0",
-    "SrvBOH_S1OtherCancer_v1r0",
-    "SrvBOH_C1OtherCancer_v1r0",
-    "SrvBOH_OtherBusinessC_v1r0",
-    "SrvBOH_OtherBusinessP_v1r0",
-    "SrvMRE_OtherPregIssue_v1r0",
-    "SrvMRE_OtherFertMeds_v1r0",
-    "SrvMRE_OthEstrogenMed_v1r0",
-    "SrvMRE_OtherProg_v1r0",
-    "SrvMRE_AnyCombPill_v1r0",
-    "SrvMRE_OtherSATmt_v1r0",
-    "SrvSAS_OtherCigar_v1r0",
-    "SrvSAS_StopAlcOther_v1r0",
-    "SrvBlU_COV8S_v1r0"
-  ],
   "Connect Value for Select all that apply questions - Surveys Only": [
+    "",
     "55",
     "55",
     "55",
@@ -194,26 +222,6 @@
     "55",
     "55"
   ],
-  "Variable Type": "Num",
-  "Variable Length": "1",
-  "Required": "No",
-  "PII": "No",
-  "Date added or modified": "9/23/21",
   "Question Type": "Optional Select All that Apply",
-  "Formula for Index": [
-    "879",
-    "880"
-  ],
-  "Index": [
-    "879",
-    "880"
-  ],
-  "Current Format/Value": {
-    "104430631.json": "0",
-    "353358909.json": "1"
-  },
-  "Notes": "Only display if RACEETH = American Indian or Alaska Native",
-  "Dictionary": "Biospecimen Survey",
-  "State Attribute": "No",
   "IMS Review Notes": "Added Source Variable Name (Column H)"
 }

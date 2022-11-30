@@ -1,59 +1,70 @@
 {
   "Primary Source": [
+    "692924902.json",
     "129084651.json",
     "129084651.json",
     "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
+    "195399696.json",
     "726699695.json",
     "726699695.json",
     "726699695.json",
     "726699695.json"
   ],
   "Source Question": [
+    "740819233.json",
     "814510313.json",
     "173240848.json",
     "578895128.json",
     "812370563.json"
   ],
-  "GridID/Source Question Name": [
-    "MOMCANC2",
-    "DADCANC2",
-    "SIBCANC2",
-    "CHILDCANC2"
-  ],
+  "Deprecated, New, or Revised": "New",
   "conceptId": "482225200",
   "Current Question Text": "Pancreatic",
-  "Variable Label": "Pancreatic",
   "Variable Name": [
+    "RCAOper_PancreaCancer_v1r0",
     "SrvBOH_MPancreaticCanc_v1r0",
     "SrvBOH_DPancreaticCanc_v1r0",
     "SrvBOH_S1PancreatCanc_v1r0",
     "SrvBOH_C1PancreatCanc_v1r0"
   ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "17",
-    "15",
-    "17",
-    "17"
-  ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Required": "No",
+  "Required": "Yes",
   "PII": "No",
-  "Question Type": "Optional Select All that Apply",
+  "Notes": "Operational variable. Nested under cancer occurrence",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "11/25/22",
   "Formula for Index": [
-    "1691",
-    "1692"
+    "895",
+    "896"
   ],
   "Index": [
-    "1691",
-    "1692"
+    "895",
+    "896"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   },
-  "Date added or modified": "6/24/21"
+  "GridID/Source Question Name": [
+    "",
+    "MOMCANC2",
+    "DADCANC2",
+    "SIBCANC2",
+    "CHILDCANC2"
+  ],
+  "Variable Label": "Pancreatic",
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "",
+    "17",
+    "15",
+    "17",
+    "17"
+  ],
+  "Question Type": "Optional Select All that Apply"
 }

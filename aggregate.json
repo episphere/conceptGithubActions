@@ -687,6 +687,12 @@
       "SrvLAW_Apt1_v1r0"
     ]
   },
+  "129461711": {
+    "Variable Label": "ICD code version",
+    "Variable Name": [
+      "RCAOper_ICDCodeVer_v1r0"
+    ]
+  },
   "129677435": {
     "Variable Label": "Use marijuana every day, age last used",
     "Variable Name": [
@@ -725,6 +731,12 @@
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_PrivacyJ",
       "HdRef_PrivacyH_v1r0"
+    ]
+  },
+  "131461026": {
+    "Variable Label": "Number of cancer occurrences",
+    "Variable Name": [
+      "RCAOper_NumCancOcc_v1r0"
     ]
   },
   "131550264": {
@@ -836,6 +848,7 @@
   "135725957": {
     "Variable Label": "Bladder",
     "Variable Name": [
+      "RCAOper_BladderCancer_v1r0",
       "SrvBOH_MBladderCancer_v1r0",
       "SrvBOH_DBladderCancer_v1r0",
       "SrvBOH_S1BladderCanc_v1r0",
@@ -948,6 +961,7 @@
   "139822395": {
     "Variable Label": "Thyroid",
     "Variable Name": [
+      "RCAOper_ThyroidCancer_v1r0",
       "SrvBOH_MThyroidCancer_v1r0",
       "SrvBOH_DThyroidCancer_v1r0",
       "SrvBOH_S1ThyroidCanc_v1r0",
@@ -1705,6 +1719,7 @@
   "178420302": {
     "Variable Label": "Don't know",
     "Variable Name": [
+      "RCAOper_UnknownCancer_v1r0",
       "SrvBOH_UnknownCanc_v1r0",
       "SrvBOH_MCancerUnknown_v1r0",
       "SrvBOH_DCancerUnknown_v1r0",
@@ -2096,6 +2111,9 @@
       "SrvLAW_4PrimaryWater1_v1r0"
     ]
   },
+  "195399696": {
+    "Variable Name": "Operations"
+  },
   "195662769": {
     "Variable Label": "Time usual work shift start",
     "Variable Name": [
@@ -2219,6 +2237,7 @@
   "200837530": {
     "Variable Label": "Lymphoma",
     "Variable Name": [
+      "RCAOper_Lymphoma_v1r0",
       "SrvBOH_MLymphoma_v1r0",
       "SrvBOH_DLymphoma_v1r0",
       "SrvBOH_S1Lymphoma_v1r0",
@@ -3248,6 +3267,7 @@
   "248374037": {
     "Variable Label": "Testicular",
     "Variable Name": [
+      "RCAOper_TesticCancer_v1r0",
       "SrvBOH_DTesticularCanc_v1r0",
       "SrvBOH_S1TesticularCanc_v1r0",
       "SrvBOH_C1TesticCanc_v1r0"
@@ -3327,6 +3347,9 @@
     "Variable Name": [
       "SrvLAW_CurWorkFullSt_v1r0"
     ]
+  },
+  "253857383": {
+    "Variable Name": "ICD-O-3"
   },
   "253883960": {
     "Variable Label": "Flag for blood/urine survey",
@@ -4078,6 +4101,7 @@
   "283025574": {
     "Variable Label": "Cervical",
     "Variable Name": [
+      "RCAOper_CervicalCancer_v1r0",
       "SrvBOH_MCervicalCancer_v1r0",
       "SrvBOH_S1CervicalCanc_v1r0",
       "SrvBOH_C1CervicalCanc_v1r0"
@@ -4249,6 +4273,12 @@
       "SrvBOH_Gender_v1r0"
     ]
   },
+  "289750687": {
+    "Variable Label": "Eligible for menstrual cycle survey flag",
+    "Variable Name": [
+      "SrvMC_MenstSrvElig_v1r0"
+    ]
+  },
   "290010251": {
     "Variable Name": "5 glasses"
   },
@@ -4345,6 +4375,7 @@
   "295976386": {
     "Variable Label": "Prostate",
     "Variable Name": [
+      "RCAOper_ProstateCancer_v1r0",
       "SrvBOH_DProstateCancer_v1r0",
       "SrvBOH_S1ProstateCanc_v1r0",
       "SrvBOH_C1ProstateCanc_v1r0"
@@ -4753,6 +4784,12 @@
       "SrvSAS_DaysUsedCTMo_v1r0"
     ]
   },
+  "320023644": {
+    "Variable Label": "Case Number",
+    "Variable Name": [
+      "HDPaym_CaseNumber_v1r0"
+    ]
+  },
   "320166033": {
     "Variable Name": "Season Address 5- What is the full street address of your seasonal or vacation home?"
   },
@@ -5126,6 +5163,12 @@
     "Variable Label": "How often apply sunscreen",
     "Variable Name": [
       "SrvSAS_SPFOften_v1r0"
+    ]
+  },
+  "345545422": {
+    "Variable Label": "Date of case ID (operational variable for date of dx)",
+    "Variable Name": [
+      "RCAOper_CancerDt_v1r0"
     ]
   },
   "345861266": {
@@ -7258,6 +7301,12 @@
   "456806539": {
     "Variable Name": "Letter with PIN"
   },
+  "457270069": {
+    "Variable Label": "Preliminary cancer stage",
+    "Variable Name": [
+      "RCAOper_PrelimCancStg_v1r0"
+    ]
+  },
   "457290610": {
     "Variable Label": "Months ago last used cigars, cigarillos, or little filtered cigars",
     "Variable Name": [
@@ -7759,6 +7808,7 @@
   "482225200": {
     "Variable Label": "Pancreatic",
     "Variable Name": [
+      "RCAOper_PancreaCancer_v1r0",
       "SrvBOH_MPancreaticCanc_v1r0",
       "SrvBOH_DPancreaticCanc_v1r0",
       "SrvBOH_S1PancreatCanc_v1r0",
@@ -7843,6 +7893,7 @@
   "487917585": {
     "Variable Label": "Non-melanoma skin (basal or squamous)",
     "Variable Name": [
+      "RCAOper_NonMelanoma_v1r0",
       "SrvBOH_MNMSkinCancer_v1r0",
       "SrvBOH_DNMSkinCancer_v1r0",
       "SrvBOH_S1NMSkinCanc_v1r0",
@@ -7879,6 +7930,7 @@
   "489400183": {
     "Variable Label": "Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.)",
     "Variable Name": [
+      "RCAOper_HeadNeckCancer_v1r0",
       "SrvBOH_MHeadNeckCancer_v1r0",
       "SrvBOH_DHNCancer_v1r0",
       "SrvBOH_S1HNCancer_v1r0",
@@ -7964,12 +8016,6 @@
     "Variable Label": "Diabetes type",
     "Variable Name": [
       "SrvBOH_DiabetesType_v1r0"
-    ]
-  },
-  "494220902": {
-    "Variable Label": "Case Number",
-    "Variable Name": [
-      "HDPaym_CaseNumber_v1r0"
     ]
   },
   "494226443": {
@@ -8428,6 +8474,7 @@
   "518416174": {
     "Variable Label": "Brain",
     "Variable Name": [
+      "RCAOper_BrainCancer_v1r0",
       "SrvBOH_MBrainCancer_v1r0",
       "SrvBOH_DBrainCancer_v1r0",
       "SrvBOH_S1BrainCanc_v1r0",
@@ -8644,6 +8691,12 @@
   "525779785": {
     "Variable Name": "Yes, less than once per week"
   },
+  "525972260": {
+    "Variable Label": "Yes/No Cancer Flag",
+    "Variable Name": [
+      "RCAOper_CancerFlag_v1r0"
+    ]
+  },
   "526238862": {
     "Variable Name": "Moderate hair loss on the sides and front of the forehead that are continuous with severe baldness on the top (crown) of the head. There is no clear strip of hair that separates these areas of balding."
   },
@@ -8743,6 +8796,7 @@
   "532172400": {
     "Variable Label": "Liver",
     "Variable Name": [
+      "RCAOper_LiverCancer_v1r0",
       "SrvBOH_MLiverCancer_v1r0",
       "SrvBOH_DLiverCancer_v1r0",
       "SrvBOH_S1LiverCanc_v1r0",
@@ -9550,6 +9604,9 @@
       "SrvLAW_CurWorkT2G_v1r0"
     ]
   },
+  "570098144": {
+    "Variable Name": "ICD 10"
+  },
   "570171052": {
     "Variable Label": "Cause of infertility was not looked into",
     "Variable Name": [
@@ -10104,6 +10161,7 @@
   "596122041": {
     "Variable Label": "Esophageal",
     "Variable Name": [
+      "RCAOper_EsophCancer_v1r0",
       "SrvBOH_MEsophagealCanc_v1r0",
       "SrvBOH_DEsophagealCanc_v1r0",
       "SrvBOH_S1EsophagCanc_v1r0",
@@ -10174,6 +10232,12 @@
       "SrvSAS_EDUseCigarNum_v1r0"
     ]
   },
+  "599128909": {
+    "Variable Label": "Primary cancer site ICD",
+    "Variable Name": [
+      "RCAOper_CancSiteICD_v1r0"
+    ]
+  },
   "599607007": {
     "Variable Label": "Full Street name #2",
     "Variable Name": [
@@ -10225,6 +10289,7 @@
   "603181162": {
     "Variable Label": "Ovarian",
     "Variable Name": [
+      "RCAOper_OvarianCancer_v1r0",
       "SrvBOH_MOvarianCancer_v1r0",
       "SrvBOH_S1OvarianCanc_v1r0",
       "SrvBOH_C1OvarianCanc_v1r0"
@@ -10314,6 +10379,7 @@
   "607793249": {
     "Variable Label": "Leukemia (blood and bone marrow)",
     "Variable Name": [
+      "RCAOper_Leukemia_v1r0",
       "SrvBOH_MLeukemia_v1r0",
       "SrvBOH_DLeukemia_v1r0",
       "SrvBOH_S1Leukemia_v1r0",
@@ -12078,6 +12144,9 @@
   "692910565": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.) cancer?"
   },
+  "692924902": {
+    "Variable Name": "Rapid Case Ascertainment"
+  },
   "693010445": {
     "Variable Name": "Moderate hair loss across the entire forehead, as far back as the middle of the ears."
   },
@@ -12658,6 +12727,7 @@
   "723614811": {
     "Variable Label": "Uterine (endometrial)",
     "Variable Name": [
+      "RCAOper_UterineCancer_v1r0",
       "SrvBOH_MUterineCancer_v1r0",
       "SrvBOH_S1UterineCanc_v1r0",
       "SrvBOH_C1UterineCanc_v1r0"
@@ -13084,6 +13154,9 @@
       "BioClin_AnySpecRRLTm_v1r0"
     ]
   },
+  "740819233": {
+    "Variable Name": "What is the primary site of the cancer diagnosed on 'date of case ID'? (Select all that apply)"
+  },
   "741094625": {
     "Variable Name": "Separated"
   },
@@ -13399,6 +13472,7 @@
   "754745617": {
     "Variable Label": "Lung or bronchial",
     "Variable Name": [
+      "RCAOper_LungCancer_v1r0",
       "SrvBOH_MLungCancer_v1r0",
       "SrvBOH_DLungCancer_v1r0",
       "SrvBOH_S1LungCanc_v1r0",
@@ -13619,6 +13693,7 @@
   "764891959": {
     "Variable Label": "Stomach",
     "Variable Name": [
+      "RCAOper_StomachCancer_v1r0",
       "SrvBOH_MStomachCancer_v1r0",
       "SrvBOH_DStomachCancer_v1r0",
       "SrvBOH_S1StomachCanc_v1r0",
@@ -13807,6 +13882,12 @@
     "Variable Label": "Time, Motorcycle commute from current work",
     "Variable Name": [
       "SrvLAW_CurWorkT10C_v1r0"
+    ]
+  },
+  "772638539": {
+    "Variable Label": "Number of tumors reported – repeated measure over time",
+    "Variable Name": [
+      "RCAOper_TumorNum_v1r0"
     ]
   },
   "773342525": {
@@ -14590,6 +14671,7 @@
   "807835037": {
     "Variable Label": "None of these fully describe me. Please describe",
     "Variable Name": [
+      "RCAOper_OtherCancer_v1r0",
       "SrvBOH_NoneRE_v1r0",
       "SrvBOH_NoneRE2_v1r0",
       "SrvBOH_NoneRE3_v1r0",
@@ -15084,6 +15166,9 @@
   "829751791": {
     "Variable Name": "Seasonal Address 3- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select: I still spend time here."
   },
+  "829764411": {
+    "Variable Name": "ICD 9"
+  },
   "830201925": {
     "Variable Label": "Walking commute from past work",
     "Variable Name": [
@@ -15441,6 +15526,7 @@
   "847945207": {
     "Variable Label": "Breast",
     "Variable Name": [
+      "RCAOper_BreastCancer_v1r0",
       "SrvBOH_MBreastCancer_v1r0",
       "SrvBOH_DBreastCancer_v1r0",
       "SrvBOH_S1BreastCanc_v1r0",
@@ -15779,6 +15865,7 @@
   "863246236": {
     "Variable Label": "Kidney",
     "Variable Name": [
+      "RCAOper_KidneyCancer_v1r0",
       "SrvBOH_MKidneyCancer_v1r0",
       "SrvBOH_DKidneyCancer_v1r0",
       "SrvBOH_S1KidneyCanc_v1r0",
@@ -15915,6 +16002,11 @@
     "Variable Label": "Eat drink before",
     "Variable Name": [
       "SrvBio_EatDrinkBefore_v1r0"
+    ]
+  },
+  "868006655": {
+    "Variable Name": [
+      "RCAOper_OthCancerDesc_v1r0"
     ]
   },
   "868025301": {
@@ -17279,6 +17371,7 @@
   "939782495": {
     "Variable Label": "Anal",
     "Variable Name": [
+      "RCAOper_AnalCancer_v1r0",
       "SrvBOH_MAnalCancer_v1r0",
       "SrvBOH_DAnalCancer_v1r0",
       "SrvBOH_S1AnalCanc_v1r0",
@@ -17366,6 +17459,7 @@
   "942970912": {
     "Variable Label": "Colon/rectal",
     "Variable Name": [
+      "RCAOper_ColonCancer_v1r0",
       "SrvBOH_MColonCancer_v1r0",
       "SrvBOH_DColonCancer_v1r0",
       "SrvBOH_S1ColonCanc_v1r0",
@@ -18366,6 +18460,7 @@
   "990319383": {
     "Variable Label": "Melanoma (skin)",
     "Variable Name": [
+      "RCAOper_Melanoma_v1r0",
       "SrvBOH_MMelanoma_v1r0",
       "SrvBOH_DMelanoma_v1r0",
       "SrvBOH_S1Melanoma_v1r0",

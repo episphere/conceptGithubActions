@@ -1,58 +1,70 @@
 {
   "Primary Source": [
+    "692924902.json",
     "129084651.json",
     "129084651.json",
     "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
+    "195399696.json",
     "726699695.json",
     "726699695.json",
     "726699695.json",
     "726699695.json"
   ],
   "Source Question": [
+    "740819233.json",
     "814510313.json",
     "173240848.json",
     "578895128.json",
     "812370563.json"
   ],
-  "GridID/Source Question Name": [
-    "MOMCANC2",
-    "DADCANC2",
-    "SIBCANC2",
-    "CHILDCANC2"
-  ],
+  "Deprecated, New, or Revised": "New",
   "conceptId": "990319383",
   "Current Question Text": "Melanoma (skin)",
-  "Variable Label": "Melanoma (skin)",
   "Variable Name": [
+    "RCAOper_Melanoma_v1r0",
     "SrvBOH_MMelanoma_v1r0",
     "SrvBOH_DMelanoma_v1r0",
     "SrvBOH_S1Melanoma_v1r0",
     "SrvBOH_C1Melanoma_v1r0"
   ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Operational variable. Nested under cancer occurrence",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "11/25/22",
+  "Formula for Index": [
+    "889",
+    "890"
+  ],
+  "Index": [
+    "889",
+    "890"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  },
+  "GridID/Source Question Name": [
+    "",
+    "MOMCANC2",
+    "DADCANC2",
+    "SIBCANC2",
+    "CHILDCANC2"
+  ],
+  "Variable Label": "Melanoma (skin)",
   "Connect Value for Select all that apply questions - Surveys Only": [
+    "",
     "14",
     "13",
     "14",
     "14"
   ],
-  "Variable Type": "Num",
-  "Variable Length": "1",
-  "Required": "No",
-  "PII": "No",
-  "Question Type": "Optional Select All that Apply",
-  "Formula for Index": [
-    "1685",
-    "1686"
-  ],
-  "Index": [
-    "1685",
-    "1686"
-  ],
-  "Current Format/Value": {
-    "104430631.json": "0",
-    "353358909.json": "1"
-  }
+  "Question Type": "Optional Select All that Apply"
 }

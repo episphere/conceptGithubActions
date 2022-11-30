@@ -18,9 +18,9 @@
   "Current Format/Value": "example: 2020-07-17T15:21:26.763Z",
   "Required": "Yes if BioFin_BaseUrineCol_v1r0 equals 1",
   "PII": "No",
-  "Notes": "ISO to be converted to SAS format and nested under Collection Environment. Set by us for research, sent by KP for Clinical.",
+  "Notes": "ISO to be converted to SAS format. Nested under Collection Environment. Set by us for research, not used for Clinical.",
   "Dictionary": "Biospecimen Research",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "9/27/22"
+  "Date added or modified": "11/25/22"
 }
