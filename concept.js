@@ -96,7 +96,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
     // console.log("cluvster & numCounter", numCounter, cluster)
     for(let i = 1; i < cluster.length; i++){ /* starts at 1 to not include main cluster, but rows without questionText index belonging to current cluster; push to nonEmpty arr*/
         let currArr = cluster[i] 
-        console.log("cluster", cluster)
+        console.log("cluster loop 2", numCounter, cluster)
         console.log('currArr',i, currArr, numCounter) // output proceeding rows belonging to cluster's first row
         for(let j = 0; j < currArr.length; j++){
             // console.log("conceptIdIndices j", j, currArr[j].trim(),currArr[j].trim()!='',!conceptIdIndices.includes(j))
@@ -159,8 +159,8 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
     // firstRowJSON inital value empty {}; no conceptId property or conceptId value empty ''
     THIS IS WHERE concept Id generation occurs 
     */
-    if(!firstRowJSON.hasOwnProperty('conceptId') || firstRowJSON['conceptId'] == ''){ 
-        console.log("PASS HERE", numCounter,[firstRow[indexVariableName]])
+    if(!firstRowJSON.hasOwnProperty('conceptId') || firstRowJSON['conceptId'] == ''){ // TODO: MAKE A TEST WHERE THIS IS RUN
+        console.log("START", numCounter,[firstRow[indexVariableName]])
         /*
          Checks varToConceptJson obj if the current first cluster row has question text
          Found --> append conceptId key with matched question text value to nameToConcept
@@ -169,9 +169,9 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
         */
 
         // check for question text, delete and filter out at the end other concept Ids not in use?
-        if(nameToConcept.hasOwnProperty(firstRow[indexVariableName])){ //firstRow[indexVariableName] --> questionText of first row
+        if(nameToConcept.hasOwnProperty(firstRow[indexVariableName])){ //firstRow[indexVariableName] --> questionText of first row (firstRow = cluster[0])
             // assign question Text
-            firstRowJSON['conceptId'] = nameToConcept[firstRow[indexVariableName]] // "conceptId#": Question Text value
+            firstRowJSON['conceptId'] = nameToConcept[firstRow[indexVariableName]] // "conceptId#.json": Question Text value
             if(!conceptIdList.includes(firstRowJSON['conceptId'])){ // conceptId  NOT FOUND in arr based off of .txt file, push concept Id question text value
                 conceptIdList.push(firstRowJSON['conceptId'])
             }
@@ -192,43 +192,61 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
     //find sources first
     let conceptColNames = Object.keys(conceptIdReverseLookup)
     
-    // console.log("conceptIdReverseLookup", conceptIdReverseLookup)
+    console.log("conceptIdReverseLookup", conceptIdReverseLookup)
     console.log("conceptColNames", conceptColNames)
     /* 
     LOOP 4
     conceptColNames are headers for concept Ids
-    conceptColNames -->   ['Primary Source','Secondary Source','Source Question','Question Text','Format/Value']
+    conceptColNames --> Ex. ['Primary Source','Secondary Source','Source Question','Question Text','Format/Value']
     loop conceptColNames
 
     Search for text "Source" in each column item AND checks first row for concept ID for all indices with Source
+    // conceptIdReverseLookup -->  Ex. {'Primary Source': 2, 'Secondary Source': 4, 'Source Question': 6, 'Question Text': 9, 'Format/Value': 16}
     */ 
-    // console.log("firstRow",firstRow)
+    console.log("firstRow",numCounter, firstRow)
     // console.log("conceptIdReverseLookup",numCounter,conceptIdReverseLookup)
-    for(let i = 0; i < conceptColNames.length; i++){ 
+    // console.log("sourceJSONS", sourceJSONS)
+    console.log("cluster[0]",firstRow)
+    for(let i = 0; i < conceptColNames.length; i++){ // 5 loops,  conceptColNames -> ['Primary Source','Secondary Source','Source Question','Question Text','Format/Value']
         // console.log("conceptColNames", i,conceptColNames[i], conceptColNames[i].indexOf('Source'))
-        if(conceptColNames[i].indexOf('Source') != -1 && firstRow[conceptIdReverseLookup[conceptColNames[i]] + 1] != ''){
+        // +1 because of conceptIdReverseLookup 
+        // conceptIdReverseLookup[conceptColNames[i]] + 1
+        // first if block will be firstRow[3], Primary Source value in firstRow
+        // only Source columns
+        // conceptIdReverseLookup -->  Ex. {'Primary Source': 2, 'Secondary Source': 4, 'Source Question': 6, 'Question Text': 9, 'Format/Value': 16}
+        if(conceptColNames[i].indexOf('Source') != -1 && firstRow[conceptIdReverseLookup[conceptColNames[i]] + 1] != ''){ 
             // console.log("value of concept id", numCounter, i ,conceptColNames[i].indexOf('Source'),firstRow[conceptIdReverseLookup[conceptColNames[i]] + 1])
-            for(let k = 0; k < cluster.length; k++){
-                if(cluster[k][conceptIdReverseLookup[conceptColNames[i]] + 1] != ""){
-                    let currId = cluster[k][conceptIdReverseLookup[conceptColNames[i]]];
-                    let currVarName = cluster[k][[conceptIdReverseLookup[conceptColNames[i]] + 1]]
-                    if(currId == '' && nameToConcept.hasOwnProperty(currVarName)){
+            for(let k = 0; k < cluster.length; k++){ // k is current cluster item in list
+                // console.log("loop 4 nested for loop k", conceptIdReverseLookup[conceptColNames[i]] + 1)
+                // console.log("TEST loop 4 nested for loop k", numCounter ,firstRow[conceptIdReverseLookup[conceptColNames[i]] + 1])
+                // Note: loop over current cluster's source header index value, 3 loops given header Source value text exists 
+                if(cluster[k][conceptIdReverseLookup[conceptColNames[i]] + 1] != ""){ //Source header value text exists
+                    // console.log(`cluster - ${k}, conceptColName idx - ${i}`,numCounter, conceptIdReverseLookup[conceptColNames[i]], cluster[k] ) // REVISIT LATER
+                    let currId = cluster[k][conceptIdReverseLookup[conceptColNames[i]]]; // currId --> conceptId,  (empty if nothing is found in orignal csv or no reference in varToConcept.json)
+                    // console.log("loop 4 currId and currVarName", currId)
+                    let currVarName = cluster[k][[conceptIdReverseLookup[conceptColNames[i]] + 1]] // currVarName --> text value belonging to any source conceptColNames index
+                    // console.log("loop 4 check header cid index", numCounter, currId,currVarName, nameToConcept)
+
+                    if(currId == '' && nameToConcept.hasOwnProperty(currVarName)){ // varToConcept.json KEY CHECK - Primary, Secondary, Source
                         currId = nameToConcept[currVarName]
-                        //console.log('abc: ' + currId)
+                        // console.log('abc: ' + currId)
                     }
-                    //console.log(currId)
+                    // console.log("cluster[k]",cluster[k],currId)
                     let found = -1;
                     //console.log(sourceJSONS.length)
-                    for(let j = 0; j < sourceJSONS.length; j++){
+                    // For loop run given there are conceptId#s in the json folder (initally they are removed)
+                    for(let j = 0; j < sourceJSONS.length; j++){ // loop over sourceJSONS array (array of conceptId# objects)
                         let currJSON = sourceJSONS[j];
-                        if(currId != '' && currJSON['conceptId'] == currId){
+                        // console.log("currId EQUALITY" ,numCounter,currId != "", currJSON['conceptId'], currId)
+                        if(currId != '' && currJSON['conceptId'] == currId){  // conceptId exists and current conceptId#.json matches currId variable (cluster cid)
                             found = i;
-                            if(!currJSON['subcollections'].includes(firstRowJSON['conceptId'] + '.json')){
-                                currJSON['subcollections'].push(firstRowJSON['conceptId'] + '.json')
+                            if(!currJSON['subcollections'].includes(firstRowJSON['conceptId'] + '.json')){ // No subcollection key in current json item
+                                currJSON['subcollections'].push(firstRowJSON['conceptId'] + '.json') // add conceptId from firstRowJSON
                             }
-                            j = sourceJSONS.length;
+                            j = sourceJSONS.length; // ends loop
                         }
-                        else if(currId == '' && currVarName == currJSON['Question Text']){
+                        // NOTE: Might have to change this later since Question Text is used for all columns with cid and text association
+                        else if(currId == '' && currVarName == currJSON['Question Text']){ 
                             found = i;
                             currId = currJSON['conceptId'];
                             if(!currJSON['subcollections'].includes(firstRowJSON['conceptId'] + '.json')){
@@ -237,7 +255,8 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                             j = sourceJSONS.length
                         }
                     }
-                    if(found == -1){
+                    if(found == -1){ // TODO: ADD DIFFERENT KEYS HERE?
+                        //subcollections
                         let newJSON = {}
                         if(currId == '' ){
                             currId = generateRandomUUID(conceptIdList);
@@ -247,13 +266,16 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                         newJSON['Question Text'] = currVarName;
                         newJSON['subcollections'] = [firstRowJSON['conceptId'] + '.json']
                         sourceJSONS.push(newJSON)
+                        // console.log("mewJSON", numCounter,newJSON)
                     }
+                    // add currVarName and currId to nameToConcept
                     nameToConcept[currVarName] = currId
-                    if(!conceptIdList.includes(currId)){
+                    if(!conceptIdList.includes(currId)){ // Check if currId exists in conceptIds.txt
                         conceptIdList.push(currId)
                     }
-                
-                    if(k > 0){
+                    
+                    if(k > 0){ // k is index from cluster iteration, i is current header
+                        // console.log("k > 0", numCounter, firstRowJSON[header[conceptIdReverseLookup[conceptColNames[i]] + 1]])
                         if(!Array.isArray(firstRowJSON[header[conceptIdReverseLookup[conceptColNames[i]] + 1]])){
                             firstRowJSON[header[conceptIdReverseLookup[conceptColNames[i]] + 1]] = [firstRowJSON[header[conceptIdReverseLookup[conceptColNames[i]] + 1]]]
                             firstRowJSON[header[conceptIdReverseLookup[conceptColNames[i]] + 1]].push(currId + '.json')
@@ -264,6 +286,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                         firstRowJSON[header[conceptIdReverseLookup[conceptColNames[i]] + 1]] = currId + '.json'
                     }
                     cluster[k][conceptIdReverseLookup[conceptColNames[i]]] = currId;
+                    // console.log("cluster appending", numCounter,i, cluster[k][conceptIdReverseLookup[conceptColNames[i]]], currId, cluster[k])
                 }
             }
         }
@@ -278,7 +301,18 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
     
 
     let arrays = {};
-    /* LOOP 5*/
+    /* 
+    LOOP 5
+    THIS RUNS WHEN CLUSTER HAS MORE THAN ONE ROW
+
+    Loop over nonEmpty array Ex. nonEmpty -> [ 0, 1, 17 ]
+    nonEmpty with items --> cluster with more than 1 row
+
+    generate cids for extra cluster rows?
+    
+    loops purpose is for clusters rows after main row with only 'Format/Value'
+    */
+    // console.log("nonEmpty checks", numCounter, nonEmpty)
     for(let j = 0; j < nonEmpty.length; j++){
         let currIndex = nonEmpty[j]
         let nonEmptyIndex = currIndex;
@@ -286,12 +320,15 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
         let leafObj = {}
         for(let i = 0; i < cluster.length; i++){
             let currRow = cluster[i];
-            // console.log(currRow)
-            if(currIndex < currRow.length) {
+            console.log("loop 5 ",numCounter,currRow )
+            if(currIndex < currRow.length) { //loop over nonEmpty items
             let currElement = currRow[currIndex].trim();
             if(currElement != ''){
                 //Create conceptIds if this exists
+                // conceptIdObject --> { '2': 'Primary Source','4': 'Secondary Source','6': 'Source Question','9': 'Question Text','16': 'Format/Value'}
+                // for now works only with 'Format/Value'(using test masterFileCopy) --> conceptIdObject[17 - 1]
                 if(conceptIdObject[currIndex - 1]){
+                    // console.log("loop 4 tester",numCounter,conceptIdObject[currIndex - 1])
                     if(currElement.indexOf('=') != -1){
                         let val = currElement.split('=')[1].trim()
                         let key = currElement.split('=')[0].trim()
@@ -636,6 +673,7 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
     //     }
     // });
 
+
     fs.readdirSync('./jsonsTest/').forEach(file => { // jsonsTest Folder (TEST FILE READ)
         /* 
         NOTE: Might need to change regex with V1 or V2? Will conceptId#'s have v1 or v2 endings? How will this impact the library moving forward? 
@@ -643,11 +681,11 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
         */
         
         if(file.match(/[0-9]{9}.json/)){ 
-            let currFileContents = fs.readFileSync('./jsons/' + file);
+            let currFileContents = fs.readFileSync('./jsonsTest/' + file);
             // console.log("currFileContents", currFileContents)
             let currJSON = JSON.parse(currFileContents)
             // console.log("currJSON",file,currJSON)
-            // sourceJSONS.push(currJSON);
+            sourceJSONS.push(currJSON);
         }
     });
     // console.log('sourceJSONS value', sourceJSONS)
@@ -754,13 +792,13 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
             // console.log("excelOutput", excelOutput)
         }
         else if(currCluster){ // conditional for the rows 3 and onwards; third path after 2 rows go through conditional flow
-            console.log("numCounter elseif currCuster", numCounter, currCluster)
-            // console.log("currCluster!, arr, varLabelIndex",currCluster, arr, varLabelIndex))
+            // console.log("numCounter elseif currCuster", numCounter, currCluster)
+            // console.log("currCluster!, arr, varLabelIndex",currCluster, arr, "questionText/ varLabel Index ",varLabelIndex)
             if(arr[varLabelIndex] == ''){ // (empty question text) cell path, push curr row arr 
                 // console.log('numCounter cluster', numCounter,arr) // leave for testing rows
                 // console.log('arr[varLabelIndex]', varLabelIndex, arr[varLabelIndex], numCounter)
                 cluster.push(arr); // appending to cluster the arrays with Qtext value
-                console.log("cluster after arr empty question Text if block", numCounter)
+                // console.log("cluster after arr empty question Text if block",numCounter, cluster)
             }
             else{ // If question Text in current Row from arr (CSVToArray function return) HAS value
                 // console.log("cluster", numCounter, cluster)
@@ -772,8 +810,9 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
                 // console.log("sourceJSONS",typeof sourceJSONS, sourceJSONS )
                 // console.log("jsonList",typeof jsonList, jsonList )
                 // console.log('arr[varLabelIndex]', varLabelIndex, arr[varLabelIndex], numCounter) 
+                // console.log("cluster after arr", numCounter, cluster)
                 /* varLabelIndex is question Text index value (10)  */
-                // next arr has previous cluster as cluster parameter, iteration 5 has cluster of lines 2,3,4 in masterFileCopy
+                // next arr has previous cluster as cluster parameter, iteration 5 has cluster of lines 2,3,4 (Given no question text in lines 3 or 4 ) in masterFileCopy
                 let returned = processCluster(cluster, header, nameToConcept, varLabelIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList, /[0-9]+\s*=/, numCounter)
                 excelOutput.push(returned) // push to excelOutput (Main array of rows)
                 cluster = [arr] // reassign empty array with current row line arr (to be used in processCluster)
