@@ -504,6 +504,14 @@ async function readFile(fileName){
     toReplace = toReplace.replace(/‚Äú/g, "“") 
     toReplace = toReplace.replace(/‚Äù/g, "”")
     toReplace = toReplace.replace(/‚Ä¶/g, "…")
+
+    toReplace = toReplace.replace(/Ã¨/g, "è")
+    toReplace = toReplace.replace(/Â/g, "")
+    toReplace = toReplace.replace(/â€¦/g, "…")
+    toReplace = toReplace.replace(/â€/g, "”")
+    toReplace = toReplace.replace(/â€œ/g, "“")
+
+
     toReplace = replaceQuotes(toReplace)
     fs.writeFileSync(fileName, toReplace)
     let idIndex = '[]'
