@@ -342,28 +342,29 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                             cid = nameToConcept[val]
                         }
                         if(currRow[nonEmptyIndex - 1] != ''){ // Format/value, EXISTS cid index (nonEmptyIndex = 17 - 1), ignore 0,1 (no cids)
-                            cid = currRow[nonEmptyIndex - 1];
+                            cid = currRow[nonEmptyIndex - 1]; // reassigns cid rng value above to current cid in row 
                         }
                         
                         let found = false;
                         for(let k = 0; k < jsonList.length; k++){ // jsonList (json objects) refer to loop 6, loop entire json list of objects
-                            if(jsonList[k].hasOwnProperty('conceptId') && jsonList[k]['conceptId'] == cid){
+                            if(jsonList[k].hasOwnProperty('conceptId') && jsonList[k]['conceptId'] == cid){ // current obj has conceptId key and cid var matches cyrrent obj cid
                                 found = true;
                             }
                         }
-                        if(found == false){
-                            jsonList.push({'conceptId':cid, 'Question Text':val})
+                        if(found == false){ // "Format/Value" not found, add to jsonListupdate cid#.json file
+                            jsonList.push({'conceptId':cid, 'Question Text':val}) // add more keys here
                             // fs.writeFileSync('./jsons/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Question Text':val},null, 2)) // this adds to the jsons folder
                             // fs.writeFileSync('./jsonsTEST/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Question Text':val},null, 2)) // TESTING PURPOSES
                             nameToConcept[val] = cid
                         }
-                        if(!conceptIdList.includes(cid)){
+                        if(!conceptIdList.includes(cid)){ // NOT FOUND  in cids.txt file, add cid to .txt 
                             conceptIdList.push(cid)
                         }
                         if(!leafObj[nonEmptyIndex]){
                             leafObj[nonEmptyIndex] = {}
                         }
                         leafObj[nonEmptyIndex][cid + '.json'] = key;
+                        console.log("leafObj TEST", numCounter, nonEmptyIndex, leafObj[nonEmptyIndex])
                         //leafObj[cid + '.json'] = key
                         currRow[nonEmptyIndex-1] = cid
                     }
