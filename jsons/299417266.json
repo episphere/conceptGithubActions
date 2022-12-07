@@ -2,15 +2,18 @@
   "Formula for Index": "6247",
   "Index": "6247",
   "Primary Source": [
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "299215535.json"
+    "299215535.json",
+    "826163434.json"
   ],
   "conceptId": "299417266",
   "Current Question Text": "What time did you go to sleep on the night before donating your samples? Select your answer from the drop-down list below.",
   "Variable Label": "Last sleep time",
   "Variable Name": [
+    "SrvBio_SleepTime_v1r0",
     "SrvBio_SleepTime_v1r0"
   ],
   "Variable Type": "Time",
@@ -21,5 +24,6 @@
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
   "Question Type": "Special Functions",
-  "IMS Review Notes": "Fixed Special Function format and added a comma between Urine and and in column E Secondary Source."
+  "IMS Review Notes": "Fixed Special Function format and added a comma between Urine and and in column E Secondary Source.",
+  "Date added or modified": "12/7/22"
 }

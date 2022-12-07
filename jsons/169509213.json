@@ -2,15 +2,18 @@
   "Formula for Index": "6366",
   "Index": "6366",
   "Primary Source": [
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "299215535.json"
+    "299215535.json",
+    "826163434.json"
   ],
   "conceptId": "169509213",
   "Current Question Text": "How many days did you receive dialysis treatment when you had COVID-19 for the [first/2nd/3rd/etc.] time?",
   "Variable Label": "Dialysis Days",
   "Variable Name": [
+    "SrvBlU_COV17B_v1r0",
     "SrvBlU_COV17B_v1r0"
   ],
   "Variable Type": "Char",
@@ -21,5 +24,6 @@
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
   "Question Type": "Text Only Response, Loops",
-  "IMS Review Notes": "Added a space between treatment and when"
+  "IMS Review Notes": "Added a space between treatment and when",
+  "Date added or modified": "12/7/22"
 }

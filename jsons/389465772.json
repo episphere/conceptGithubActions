@@ -1,14 +1,17 @@
 {
   "Primary Source": [
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "299215535.json"
+    "299215535.json",
+    "826163434.json"
   ],
   "conceptId": "389465772",
   "Current Question Text": "During the [first/2nd/3rd/etc.] time you had COVID-19, were you diagnosed with blood clots as a complication of COVID-19?",
   "Variable Label": "Blood clots",
   "Variable Name": [
+    "SrvBlU_COV11_v1r0",
     "SrvBlU_COV11_v1r0"
   ],
   "Variable Type": "Num",
@@ -39,5 +42,6 @@
   ],
   "Notes": [
     "Coding is unsure"
-  ]
+  ],
+  "Date added or modified": "12/7/22"
 }

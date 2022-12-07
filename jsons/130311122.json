@@ -1,14 +1,17 @@
 {
   "Primary Source": [
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "299215535.json"
+    "299215535.json",
+    "826163434.json"
   ],
   "conceptId": "130311122",
   "Current Question Text": "Within the last month, have you used prescription hormone therapy to relieve common symptoms of perimenopause and menopause (for example, hot flashes and vaginal dryness), or to reduce bone loss due to lowering levels of estrogen and progesterone?",
   "Variable Label": "Hormone",
   "Variable Name": [
+    "SrvBlU_HORMONE_v1r0",
     "SrvBlU_HORMONE_v1r0"
   ],
   "Variable Type": "Num",
@@ -30,5 +33,6 @@
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  }
+  },
+  "Date added or modified": "12/7/22"
 }

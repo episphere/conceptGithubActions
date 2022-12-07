@@ -2,15 +2,18 @@
   "Formula for Index": "6358",
   "Index": "6358",
   "Primary Source": [
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "299215535.json"
+    "299215535.json",
+    "826163434.json"
   ],
   "conceptId": "430166879",
   "Current Question Text": "How many days were you treated with a breathing tube or ventilator when you had COVID-19 for the [first/2nd/3rd/etc.] time?",
   "Variable Label": "Breathing Tube or Ventilator Days",
   "Variable Name": [
+    "SrvBlU_COV15B_v1r0",
     "SrvBlU_COV15B_v1r0"
   ],
   "Variable Type": "Char",
@@ -20,5 +23,6 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Question Type": "Text Only Response, Loops"
+  "Question Type": "Text Only Response, Loops",
+  "Date added or modified": "12/7/22"
 }

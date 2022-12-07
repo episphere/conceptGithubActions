@@ -2,21 +2,26 @@
   "Formula for Index": "6568",
   "Index": "6568",
   "Primary Source": [
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "299215535.json"
+    "299215535.json",
+    "826163434.json"
   ],
   "Source Question": [
+    "715581797.json",
     "715581797.json"
   ],
   "GridID/Source Question Name": [
+    "SrvBlU_COV27_v1r0",
     "SrvBlU_COV27_v1r0"
   ],
   "conceptId": "141616126",
   "Current Question Text": "When were you vaccinated? MY",
   "Variable Label": "Vaccine Date",
   "Variable Name": [
+    "SrvBlU_COV27_MY_v1r0",
     "SrvBlU_COV27_MY_v1r0"
   ],
   "Variable Type": "Month",
@@ -26,5 +31,6 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Question Type": "Special Function"
+  "Question Type": "Special Function",
+  "Date added or modified": "12/7/22"
 }

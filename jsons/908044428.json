@@ -2,21 +2,26 @@
   "Formula for Index": "6475",
   "Index": "6475",
   "Primary Source": [
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "299215535.json"
+    "299215535.json",
+    "826163434.json"
   ],
   "Source Question": [
+    "959877599.json",
     "959877599.json"
   ],
   "GridID/Source Question Name": [
+    "SrvBlU_COV22_v1r0",
     "SrvBlU_COV22_v1r0"
   ],
   "conceptId": "908044428",
   "Current Question Text": "How long did it take you to recover to your usual state of health from the date you first realized you had COVID-19? Days",
   "Variable Label": "Recovery duration Days",
   "Variable Name": [
+    "SRVBLU_COV22_DAYS_V1R0",
     "SRVBLU_COV22_DAYS_V1R0"
   ],
   "Variable Type": "Num",
@@ -27,5 +32,6 @@
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
   "Question Type": "Text Only Response",
-  "IMS Review Notes": "New line for SSRVBLU_COV22_DAYS_V1R0"
+  "IMS Review Notes": "New line for SSRVBLU_COV22_DAYS_V1R0",
+  "Date added or modified": "12/7/22"
 }

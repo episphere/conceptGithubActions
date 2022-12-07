@@ -2,15 +2,18 @@
   "Formula for Index": "6268",
   "Index": "6268",
   "Primary Source": [
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "299215535.json"
+    "299215535.json",
+    "826163434.json"
   ],
   "conceptId": "644459734",
   "Current Question Text": "When was the start date of your most recent menstrual period (the first day on which you saw menstrual blood)? If you are not sure or do not remember, please make your best guess.",
   "Variable Label": "Menstrual Start Date",
   "Variable Name": [
+    "SrvBlU_MENSTART_v1r0",
     "SrvBlU_MENSTART_v1r0"
   ],
   "Variable Type": "Date",
@@ -20,5 +23,6 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Question Type": "Special Functions"
+  "Question Type": "Special Functions",
+  "Date added or modified": "12/7/22"
 }
