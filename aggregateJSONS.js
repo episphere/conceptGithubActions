@@ -24,7 +24,8 @@ function aggregate(){
         }
     });
     //console.log(JSON.stringify(aggregate));
-    fs.writeFileSync('aggregate.json', JSON.stringify(aggregate,null, 2))
+    // fs.writeFileSync('aggregate.json', JSON.stringify(aggregate,null, 2))
+    fs.writeFileSync('aggregateCopy.json', JSON.stringify(aggregate,null, 2))
 }
 
 module.exports = {
