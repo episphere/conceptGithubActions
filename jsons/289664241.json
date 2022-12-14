@@ -28,7 +28,6 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "9/23/21",
   "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
   "Formula for Index": [
     "1172",
@@ -37,7 +36,8 @@
     "1175",
     "1176",
     "1177",
-    "1178"
+    "1178",
+    "1179"
   ],
   "Index": [
     "1172",
@@ -46,15 +46,50 @@
     "1175",
     "1176",
     "1177",
-    "1178"
+    "1178",
+    "1179"
+  ],
+  "Deprecated, New, or Revised": [
+    "Revised",
+    "Revised",
+    "Revised",
+    "Revised",
+    "Revised",
+    "New",
+    "-",
+    "-"
   ],
   "Current Format/Value": {
-    "536341288.json": "0",
-    "654207589.json": "1",
-    "405267600.json": "2",
-    "873138103.json": "3",
-    "805712793.json": "4",
+    "218837028.json": "0",
+    "983318667.json": "1",
+    "474151444.json": "2",
+    "472548461.json": "3",
+    "823005050.json": "4",
+    "486192236.json": "5",
     "807835037.json": "55",
     "746038746.json": "99"
-  }
+  },
+  "R0 Format/Value": [
+    "0 = Female",
+    "1 = Male",
+    "2 = Transgender Male/Trans Man/Female-to-Male (FTM)",
+    "3 = Transgender Female/Trans Woman/Male-to-Female (MTF)",
+    "4 = Genderqueer, not exclusively male or female"
+  ],
+  "Date added or modified": [
+    "12/12/22",
+    "12/12/22",
+    "12/12/22",
+    "12/12/22",
+    "12/12/22",
+    "12/12/22"
+  ],
+  "IMS Review Notes": [
+    "Updated response value",
+    "Updated response value",
+    "Updated response value",
+    "Updated response value",
+    "Updated response value",
+    "Added a new response value"
+  ]
 }
