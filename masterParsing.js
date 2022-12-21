@@ -23,6 +23,9 @@ function parseMasterModule() {
     }
 
     let toCheckIds = [];
+    // add new secondary source concept Ids here 
+    // const secondarySourceCids = ["745268907.json","965707586.json","898006288.json", "726699695.json", "716117817.json", "131497719.json", "232438133.json", "299215535.json", "166676176.json"] 
+    const secondarySourceCids = ["745268907.json","965707586.json","898006288.json", "726699695.json", "716117817.json", "131497719.json", "232438133.json", "299215535.json", "166676176.json", "826163434.json" ,"506648060.json"] 
 
     // let numString = 0 // Test for Deprecated filter
     // let stringCids = [] //Test for Deprecated filter
@@ -57,7 +60,7 @@ function parseMasterModule() {
             - Multiple items is an array for (D, N, or R)
             */ 
             if (currJSON['Deprecated, New, or Revised']) {
-                // More than one item in conceptid#.json is an array
+                // More than one item in conceptid#.json is an array type (1 item is a string type)
                 if (Array.isArray(currJSON['Deprecated, New, or Revised'])) {
                     const newCurrentFormatValueObj = {}
                     const deprecatedNewRevisedArr = currJSON['Deprecated, New, or Revised'] // current JSONS cell value list
@@ -65,6 +68,7 @@ function parseMasterModule() {
                     const currFormatValueObj = currJSON['Current Format/Value'] // all values from the current Format /Value
                     const currFormatValueObjKeys = Object.keys(currFormatValueObj)
 
+                    // console.log("deprecatedNewRevisedArr", currJSON["conceptId"],deprecatedNewRevisedArr)
                     for (let i = 0; i < deprecatedNewRevisedArr.length; i++ ) {
                         if (deprecatedNewRevisedArr[i] !== 'Deprecated') {
                             const currConceptNumJSON = currFormatValueObjKeys[i] // current conceptId#.json looped from Current Format/Value keys 
@@ -78,7 +82,7 @@ function parseMasterModule() {
                     // reassign new (D,N, or R) array value, array has no Deprecated items
                     currJSON['Deprecated, New, or Revised'] = filterDeprecatedItemsArr
                 }
-                // A single item in conceptid#.json is a string
+                // A single item in conceptid#.json is a string, add single string item to a new arr (Ex. --> ["New"])
                 else if (typeof currJSON['Deprecated, New, or Revised'] === 'string'){
                     currJSON['Deprecated, New, or Revised'] = currJSON['Deprecated, New, or Revised']
                 }
@@ -106,7 +110,7 @@ function parseMasterModule() {
                     //if(currJSON['Secondary Source'] && ["898006288.json", "726699695.json"].includes(currJSON['Secondary Source'])){
                     //if(currJSON['Secondary Source'] && ["640213240.json"].includes(currJSON['Secondary Source'])){
                         
-                    if (currJSON['Secondary Source'][sourceIndex] && ["745268907.json","965707586.json","898006288.json", "726699695.json", "716117817.json", "131497719.json", "232438133.json", "299215535.json", "166676176.json"].includes(currJSON['Secondary Source'][sourceIndex])) {
+                    if (currJSON['Secondary Source'][sourceIndex] && secondarySourceCids.includes(currJSON['Secondary Source'][sourceIndex])) {
                         // Conditional - ('D,N or R') not a key or any item without 'Deprecated' string in array
                         if (!currJSON['Deprecated, New, or Revised'] || !currJSON['Deprecated, New, or Revised']?.includes('Deprecated')) { 
                             if (currJSON['Connect Value for Select all that apply questions - Surveys Only'] && currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex]) {

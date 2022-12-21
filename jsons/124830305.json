@@ -1,0 +1,35 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "506648060.json"
+  ],
+  "conceptId": "124830305",
+  "Current Question Text": "What do you think about the number of communications (emails and text messages) you get from the Connect team? Would you say there are:",
+  "Variable Label": "Number of Connect communications",
+  "Variable Name": [
+    "SrvPES_COMM1_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Participant Experience Survey",
+  "Date added or modified": "12/19/22",
+  "Question Type": "Optional Multiple Choice",
+  "Formula for Index": [
+    "7209",
+    "7210",
+    "7211"
+  ],
+  "Index": [
+    "7209",
+    "7210",
+    "7211"
+  ],
+  "Current Format/Value": {
+    "242016061.json": "0",
+    "185898646.json": "1"
+  }
+}

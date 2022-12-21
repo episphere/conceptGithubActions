@@ -1,0 +1,30 @@
+{
+  "conceptId": "551030285",
+  "Current Question Text": "[Piped response from SrvPES_COMP2OTH_v1r0]",
+  "Variable Label": "Other computer most used",
+  "Variable Name": [
+    "SrvPES_MOSTUSE13_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "13"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Participant Experience Survey",
+  "Date added or modified": "12/19/22",
+  "Question Type": "Optional Select All That Apply, DisplayIf in One or More Responses",
+  "Formula for Index": [
+    "7182",
+    "7183"
+  ],
+  "Index": [
+    "7182",
+    "7183"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

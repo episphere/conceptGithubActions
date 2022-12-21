@@ -1,0 +1,33 @@
+{
+  "Formula for Index": "7278",
+  "Index": "7278",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "506648060.json"
+  ],
+  "Source Question": [
+    "943119849.json"
+  ],
+  "GridID/Source Question Name": [
+    "SrvPES_BIOSURV4_v1r0"
+  ],
+  "conceptId": "314351052",
+  "Current Question Text": "Please choose the reason that fits best to describe why you have not completed the sample survey: Other: Please describe text box",
+  "Variable Label": "Why biospecimen survey not completed - text box",
+  "Variable Name": [
+    "SrvPES_BIOSURV4OTH_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "BIOSURV4OTH"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "300",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Participant Experience Survey",
+  "Date added or modified": "12/19/22",
+  "Question Type": "Optional Multiple Choice with Text Box (text in text box)"
+}

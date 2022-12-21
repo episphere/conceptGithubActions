@@ -1,0 +1,36 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "506648060.json"
+  ],
+  "conceptId": "307813936",
+  "Current Question Text": "Did you complete the sample survey on MyConnect?",
+  "Variable Label": "Biospecimen survey completion",
+  "Variable Name": [
+    "SrvPES_BIOSURV_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Participant Experience Survey",
+  "Date added or modified": "12/19/22",
+  "Question Type": "Optional Multiple Choice",
+  "Formula for Index": [
+    "7256",
+    "7257",
+    "7258"
+  ],
+  "Index": [
+    "7256",
+    "7257",
+    "7258"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1",
+    "178420302.json": "77"
+  }
+}

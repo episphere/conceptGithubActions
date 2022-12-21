@@ -1,0 +1,30 @@
+{
+  "conceptId": "101837333",
+  "Current Question Text": "The National Cancer Institute has a good reputation for research",
+  "Variable Label": "Why Connect - NCI reputation",
+  "Variable Name": [
+    "SrvPES_NCIREP_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "7"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Participant Experience Survey",
+  "Date added or modified": "12/19/22",
+  "Question Type": "Optional Select All That Apply, DisplayIf in One or More Responses",
+  "Formula for Index": [
+    "7304",
+    "7305"
+  ],
+  "Index": [
+    "7304",
+    "7305"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}
