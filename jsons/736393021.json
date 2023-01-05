@@ -1,15 +1,18 @@
 {
   "Primary Source": [
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "299215535.json"
+    "299215535.json",
+    "390351864.json"
   ],
   "conceptId": "736393021",
   "Current Question Text": "In the past two months, have you taken any antibiotic medicine? Common antibiotics include Azithromycin (such as Zithromax®/Z-Paks®), Penicillin (such as Pfizerpen® or Pen-Vee K®), and Amoxicillin (such as Amoxil®) and are generally used to treat infections.",
   "Variable Label": "Antibiotics",
   "Variable Name": [
-    "SrvMw_ANTIBIO_v1r0"
+    "SrvBUM_ANTIBIO_v1r0",
+    "SrvMtW_ANTIBIO_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -17,7 +20,9 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
+  "Date added or modified": "1/5/23",
   "Question Type": "Optional Multiple Choice",
+  "IMS Review Notes": "Updated the Variable name prefix to SrvBUM_",
   "Formula for Index": [
     "6772",
     "6773",

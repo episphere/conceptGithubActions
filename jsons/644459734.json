@@ -13,7 +13,7 @@
   "Current Question Text": "When was the start date of your most recent menstrual period (the first day on which you saw menstrual blood)? If you are not sure or do not remember, please make your best guess.",
   "Variable Label": "Menstrual Start Date",
   "Variable Name": [
-    "SrvBlU_MENSTART_v1r0",
+    "SrvBUM_MENSTART_v1r0",
     "SrvBlU_MENSTART_v1r0"
   ],
   "Variable Type": "Date",
@@ -23,6 +23,7 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
+  "Date added or modified": "1/5/23",
   "Question Type": "Special Functions",
-  "Date added or modified": "12/7/22"
+  "IMS Review Notes": "Updated the Variable name prefix to SrvBUM_"
 }

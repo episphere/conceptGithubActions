@@ -14,7 +14,7 @@
     "715581797.json"
   ],
   "GridID/Source Question Name": [
-    "SrvBlU_COV27_v1r0",
+    "SrvBUM_COV27_v1r0",
     "SrvBlU_COV27_v1r0"
   ],
   "Deprecated, New, or Revised": "Yes",
@@ -22,7 +22,7 @@
   "Current Question Text": "When were you vaccinated? Year",
   "Variable Label": "Vaccine Date Year",
   "Variable Name": [
-    "SrvBlU_COV27_YEAR_v1r0",
+    "SrvBUM_COV27_YEAR_v1r0",
     "SrvBlU_COV27_YEAR_v1r0"
   ],
   "Variable Type": "Num",
@@ -32,7 +32,7 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
+  "Date added or modified": "1/5/23",
   "Question Type": "Multiple Text Boxes, Loops",
-  "IMS Review Notes": "Added Source Variable Name (Column H)",
-  "Date added or modified": "12/7/22"
+  "IMS Review Notes": "Updated the GridID/Source Question Name and Variable name prefix to SrvBUM_"
 }

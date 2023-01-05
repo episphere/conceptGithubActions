@@ -14,14 +14,14 @@
     "715581797.json"
   ],
   "GridID/Source Question Name": [
-    "SrvBlU_COV27_v1r0",
+    "SrvBUM_COV27_v1r0",
     "SrvBlU_COV27_v1r0"
   ],
   "conceptId": "141616126",
   "Current Question Text": "When were you vaccinated? MY",
   "Variable Label": "Vaccine Date",
   "Variable Name": [
-    "SrvBlU_COV27_MY_v1r0",
+    "SrvBUM_COV27_MY_v1r0",
     "SrvBlU_COV27_MY_v1r0"
   ],
   "Variable Type": "Month",
@@ -31,6 +31,7 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
+  "Date added or modified": "1/5/23",
   "Question Type": "Special Function",
-  "Date added or modified": "12/7/22"
+  "IMS Review Notes": "Updated the GridID/Source Question Name and Variable name prefix to SrvBUM_"
 }

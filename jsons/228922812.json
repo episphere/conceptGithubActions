@@ -1,6 +1,12 @@
 {
-  "Formula for Index": "7308",
-  "Index": "7308",
+  "conceptId": "228922812",
+  "Current Question Text": "What can our team do to make your experience as a Connect participant better?",
+  "subcollections": [
+    "587755868.json",
+    "228922812.json"
+  ],
+  "Formula for Index": "7294",
+  "Index": "7294",
   "Primary Source": [
     "129084651.json"
   ],
@@ -8,19 +14,17 @@
     "506648060.json"
   ],
   "Source Question": [
-    "223521147.json"
+    "228922812.json"
   ],
   "GridID/Source Question Name": [
     "SrvPES_EXPERI3_v1r0"
   ],
-  "conceptId": "228922812",
-  "Current Question Text": "What can our team do to make your experience as a Connect participant better? I have no comment",
   "Variable Label": "Participant experience improvement - I have no comment",
   "Variable Name": [
     "SrvPES_EXPERI3_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "EXPERI3"
+    "SrvPES_EXPERI3_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -30,6 +34,7 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "Participant Experience Survey",
-  "Date added or modified": "12/19/22",
-  "Question Type": "Text Box Plus Check Box"
+  "Date added or modified": "1/5/23",
+  "Question Type": "Text Box Plus Check Box",
+  "IMS Review Notes": "Made Question Text the same as Source Question Text and used full Variable Name for the Connect Value."
 }

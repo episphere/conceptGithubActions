@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "7246",
-  "Index": "7246",
+  "Formula for Index": "7232",
+  "Index": "7232",
   "Primary Source": [
     "129084651.json"
   ],
@@ -20,7 +20,7 @@
     "SrvPES_BASELINE2OTH_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "BASELINE2OTH"
+    "SrvPES_BASELINE2OTH_v1r0"
   ],
   "Variable Type": "Char",
   "Variable Length": "300",
@@ -28,6 +28,7 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "Participant Experience Survey",
-  "Date added or modified": "12/19/22",
-  "Question Type": "Optional Multiple Choice with Text Box (text in text box)"
+  "Date added or modified": "1/5/23",
+  "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
+  "IMS Review Notes": "Changed Connect Value to full Variable Name."
 }

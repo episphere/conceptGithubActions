@@ -13,8 +13,8 @@
   "Current Question Text": "At about what time did you last eat or drink anything other than water before donating your samples? Select your answer from the drop-down list below.",
   "Variable Label": "Last eat drink time",
   "Variable Name": [
-    "SrvBio_EatDrinkTime_v1r0",
-    "SrvBio_EatDrinkTime_v1r0"
+    "SrvBUM_EatDrinkTime_v1r0",
+    "SrvBlU_EatDrinkTime_v1r0"
   ],
   "Variable Type": "Time",
   "Variable Length": "6",
@@ -23,7 +23,7 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
+  "Date added or modified": "1/5/23",
   "Question Type": "Special Functions",
-  "IMS Review Notes": "Fixed Special Function format and added a comma between Urine and and in column E Secondary Source.",
-  "Date added or modified": "12/7/22"
+  "IMS Review Notes": "Updated the Variable name prefix to SrvBUM_"
 }

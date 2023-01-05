@@ -1,4 +1,16 @@
 {
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "506648060.json"
+  ],
+  "Source Question": [
+    "145727599.json"
+  ],
+  "GridID/Source Question Name": [
+    "SrvPES_DEVICE_v1r0"
+  ],
   "conceptId": "188067494",
   "Current Question Text": "Laptop or desktop computer",
   "Variable Label": "Computer used",
@@ -13,8 +25,9 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "Participant Experience Survey",
-  "Date added or modified": "12/19/22",
+  "Date added or modified": "1/5/23",
   "Question Type": "Optional Select All that Apply",
+  "IMS Review Notes": "Added Survey Info Columns C through I",
   "Formula for Index": [
     "7136",
     "7137"

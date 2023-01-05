@@ -1,23 +1,29 @@
 {
   "Primary Source": [
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "299215535.json"
+    "299215535.json",
+    "390351864.json"
   ],
   "Source Question": [
+    "899251483.json",
     "899251483.json"
   ],
   "GridID/Source Question Name": [
-    "SrvMw_PERMTTHLOST_v1r0"
+    "SrvBUM_PERMTTHLOST_v1r0",
+    "SrvMtW_PERMTTHLOST_v1r0"
   ],
   "conceptId": "886864375",
   "Current Question Text": "Yes, for some other reason",
   "Variable Label": "Permanent teeth lost from some other reason",
   "Variable Name": [
-    "SrvMw_PERMTTHLOST3_v1r0"
+    "SrvBUM_PERMTTHLOST3_v1r0",
+    "SrvMtW_PERMTTHLOST3_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
+    "3",
     "3"
   ],
   "Variable Type": "Num",
@@ -26,9 +32,9 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "8/22/22",
+  "Date added or modified": "1/5/23",
   "Question Type": "Select All That Apply",
-  "IMS Review Notes": "Updated column N connect Value",
+  "IMS Review Notes": "Updated the GridID/Source Question Name and Variable name prefix to SrvBUM_",
   "Formula for Index": [
     "6721",
     "6722"

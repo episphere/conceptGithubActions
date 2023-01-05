@@ -18,12 +18,12 @@
     "220055064.json"
   ],
   "GridID/Source Question Name": [
-    "SrvBlU_COV28_v1r0",
+    "SrvBUM_COV28_v1r0",
     "SrvBlU_COV28_v1r0"
   ],
   "Variable Label": "Vaccine Brand",
   "Variable Name": [
-    "SrvBlU_COV28_v1r0",
+    "SrvBUM_COV28_v1r0",
     "SrvBlU_COV28_v1r0"
   ],
   "Variable Type": "Num",
@@ -32,8 +32,9 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
+  "Date added or modified": "1/5/23",
   "Question Type": "Optional Multiple Choice with Text Box, Loops",
-  "IMS Review Notes": "Added Source Variable Name (Column H)",
+  "IMS Review Notes": "Updated the GridID/Source Question Name and Variable name prefix to SrvBUM_",
   "Formula for Index": [
     "6590",
     "6591",
@@ -57,6 +58,5 @@
     "113838601.json": "3",
     "807835037.json": "55",
     "178420302.json": "77"
-  },
-  "Date added or modified": "12/7/22"
+  }
 }

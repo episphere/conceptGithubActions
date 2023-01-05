@@ -1,6 +1,12 @@
 {
-  "Formula for Index": "7306",
-  "Index": "7306",
+  "conceptId": "210983898",
+  "Current Question Text": "What has been good about your experience as a participant so far?",
+  "subcollections": [
+    "766069692.json",
+    "210983898.json"
+  ],
+  "Formula for Index": "7292",
+  "Index": "7292",
   "Primary Source": [
     "129084651.json"
   ],
@@ -8,19 +14,17 @@
     "506648060.json"
   ],
   "Source Question": [
-    "380298865.json"
+    "210983898.json"
   ],
   "GridID/Source Question Name": [
     "SrvPES_EXPERI2_v1r0"
   ],
-  "conceptId": "210983898",
-  "Current Question Text": "What has been good about your experience as a participant so far? I have no comment",
   "Variable Label": "Participant experience - I have no comment",
   "Variable Name": [
     "SrvPES_EXPERI2_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "EXPERI2"
+    "SrvPES_EXPERI2_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -30,6 +34,7 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "Participant Experience Survey",
-  "Date added or modified": "12/19/22",
-  "Question Type": "Text Box Plus Check Box"
+  "Date added or modified": "1/5/23",
+  "Question Type": "Text Box Plus Check Box",
+  "IMS Review Notes": "Made Question Text the same as Source Question Text and used full Variable Name for the Connect Value."
 }

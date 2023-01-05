@@ -22,30 +22,31 @@
     "SrvPES_BIOSURV4_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "BIOSURV4"
+    "SrvPES_BIOSURV4_v1r0"
   ],
   "Variable Type": "Num",
-  "Variable Length": "1",
+  "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Dictionary": "Participant Experience Survey",
-  "Date added or modified": "12/19/22",
+  "Date added or modified": "1/5/23",
   "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
+  "IMS Review Notes": "Used full Variable Name for Connect Value and changed Variable Length to 2  to accommodate 55.",
   "Formula for Index": [
-    "7291",
-    "7292",
-    "7293",
-    "7294",
-    "7295",
-    "7296"
+    "7277",
+    "7278",
+    "7279",
+    "7280",
+    "7281",
+    "7282"
   ],
   "Index": [
-    "7291",
-    "7292",
-    "7293",
-    "7294",
-    "7295",
-    "7296"
+    "7277",
+    "7278",
+    "7279",
+    "7280",
+    "7281",
+    "7282"
   ],
   "Current Format/Value": {
     "117258272.json": "0",

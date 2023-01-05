@@ -18,12 +18,12 @@
     "110872086.json"
   ],
   "GridID/Source Question Name": [
-    "SrvBlU_COV19C6A_v1r0",
+    "SrvBUM_COV19C6A_v1r0",
     "SrvBlU_COV19C6A_v1r0"
   ],
   "Variable Label": "Other Long COVID Symptom: Please Describe",
   "Variable Name": [
-    "SrvBlU_COV19C6A_v1r0",
+    "SrvBUM_COV19C6A_v1r0",
     "SrvBlU_COV19C6A_v1r0"
   ],
   "Variable Type": "Num",
@@ -32,9 +32,9 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "3/4/22",
+  "Date added or modified": "1/5/23",
   "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
-  "IMS Review Notes": "Added Source Variable Name (Column H)",
+  "IMS Review Notes": "Updated the GridID/Source Question Name and Variable name prefix to SrvBUM_",
   "Formula for Index": [
     "6436",
     "6437"

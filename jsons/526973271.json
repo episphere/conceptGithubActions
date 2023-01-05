@@ -1,21 +1,25 @@
 {
   "Primary Source": [
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "299215535.json"
+    "299215535.json",
+    "390351864.json"
   ],
   "conceptId": "526973271",
   "Current Question Text": "In the last month, how often did you use peroxide mouthwash (such as Colgate® Peroxyl® Mouth Sore Rinse)",
   "Variable Label": "Peroxide mouthwash frequency past month",
   "Variable Name": [
-    "SrvMw_MWPEROX_v1r0"
+    "SrvBUM_MWPEROX_v1r0",
+    "SrvMtW_MWPEROX_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
+  "Date added or modified": "1/5/23",
   "Formula for Index": [
     "6693",
     "6694",
@@ -47,7 +51,7 @@
     "Optional Multiple Choice"
   ],
   "IMS Review Notes": [
-    "changed column Q to 44 Never",
+    "Updated the Variable name prefix to SrvBUM_",
     "Added Row to add the 44 Never above"
   ]
 }

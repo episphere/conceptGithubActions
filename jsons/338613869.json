@@ -12,14 +12,14 @@
     "136730307.json"
   ],
   "GridID/Source Question Name": [
-    "GRID_SRVBLU_COV19B_V1R0",
+    "GRID_SRVBUM_COV19B_V1R0",
     "GRID_SRVBLU_COV19B_V1R0"
   ],
   "conceptId": "338613869",
   "Current Question Text": "Not able to return to work or school - Since your diagnosis",
   "Variable Label": "Long COVID Return to work or school",
   "Variable Name": [
-    "SrvBlU_COV19B3_v1r0",
+    "SrvBUM_COV19B3_v1r0",
     "SrvBlU_COV19B3_v1r0"
   ],
   "Variable Type": "Num",
@@ -28,8 +28,9 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
+  "Date added or modified": "1/5/23",
   "Question Type": "Grid with Multiple Choice Sub-Questions",
-  "IMS Review Notes": "Updated column G Source Question",
+  "IMS Review Notes": "Updated the GridID/Source Question Name and Variable name prefix to SrvBUM_",
   "Formula for Index": [
     "6412",
     "6413",
@@ -44,6 +45,5 @@
     "244354126.json": "0",
     "724612102.json": "1",
     "178780048.json": "2"
-  },
-  "Date added or modified": "12/7/22"
+  }
 }

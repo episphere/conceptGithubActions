@@ -1,20 +1,25 @@
 {
   "Primary Source": [
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "299215535.json"
+    "299215535.json",
+    "390351864.json"
   ],
   "conceptId": "800752981",
   "Current Question Text": "In the last month, how often did you use mouthwash for dry mouth (such as biotène®)?",
   "Variable Label": "mouthwash for dry mouth frequency past month",
   "Variable Name": [
-    "SrvMw_MWDRY_v1r0"
+    "SrvBUM_MWDRY_v1r0",
+    "SrvMtW_MWDRY_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
+  "Date added or modified": "1/5/23",
+  "IMS Review Notes": "Updated the Variable name prefix to SrvBUM_",
   "Formula for Index": [
     "6711",
     "6712",

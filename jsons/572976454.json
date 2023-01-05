@@ -13,6 +13,7 @@
   ],
   "conceptId": "572976454",
   "Current Question Text": "No, I use a device provided by my healthcare provider at a Connect visit",
+  "Variable Label": "Used provider device",
   "Variable Name": [
     "SrvPES_OWNER3_v1r0"
   ],
@@ -24,15 +25,16 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "Participant Experience Survey",
-  "Date added or modified": "12/19/22",
+  "Date added or modified": "1/5/23",
   "Question Type": "Optional Select All that Apply",
+  "IMS Review Notes": "Added Variable Label",
   "Formula for Index": [
-    "7203",
-    "7204"
+    "7189",
+    "7190"
   ],
   "Index": [
-    "7203",
-    "7204"
+    "7189",
+    "7190"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

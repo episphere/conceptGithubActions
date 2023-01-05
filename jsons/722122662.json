@@ -11,7 +11,7 @@
   "V1 Question Text": "Did you ever smoke marijuana every day?",
   "Variable Label": "Ever use marijuana  every day",
   "Variable Name": [
-    "SrvSAS_EverUseMJED_v1r0"
+    "SrvSAS_EverUseMJED_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "SMMAR9B"
@@ -20,7 +20,8 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "12/20/22",
+  "Date added or modified": "1/5/23",
+  "IMS Review Notes": "Updated Variable name suffix to _v2r0",
   "Formula for Index": [
     "4092",
     "4093"

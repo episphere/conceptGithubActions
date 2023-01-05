@@ -1,6 +1,12 @@
 {
-  "Formula for Index": "7328",
-  "Index": "7328",
+  "conceptId": "674994176",
+  "Current Question Text": "Feel free to share more about these reasons or any other reasons for joining Connect.",
+  "subcollections": [
+    "124300201.json",
+    "674994176.json"
+  ],
+  "Formula for Index": "7314",
+  "Index": "7314",
   "Primary Source": [
     "129084651.json"
   ],
@@ -8,19 +14,17 @@
     "506648060.json"
   ],
   "Source Question": [
-    "496609920.json"
+    "674994176.json"
   ],
   "GridID/Source Question Name": [
     "SrvPES_WHY2_v1r0"
   ],
-  "conceptId": "674994176",
-  "Current Question Text": "Feel free to share more about these reasons or any other reasons for joining Connect. I have no comment",
   "Variable Label": "Why joined Connect - I have no comment",
   "Variable Name": [
     "SrvPES_WHY2_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "WHY2"
+    "SrvPES_WHY2_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -30,6 +34,7 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "Participant Experience Survey",
-  "Date added or modified": "12/19/22",
-  "Question Type": "Text Box Plus Check Box"
+  "Date added or modified": "1/5/23",
+  "Question Type": "Text Box Plus Check Box",
+  "IMS Review Notes": "Made Question Text the same as Source Question. Used for Variable Name for Connect Value."
 }

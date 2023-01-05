@@ -11,7 +11,7 @@
   "Current Question Text": "When you were experiencing your worst COVID-19 symptoms, the [first/2nd/3rd/etc.] time you had COVID-19, did they interfere with or stop you from doing your daily activities?",
   "Variable Label": "Daily activity interference",
   "Variable Name": [
-    "SrvBlU_COV7_v1r0",
+    "SrvBUM_COV7_v1r0",
     "SrvBlU_COV7_v1r0"
   ],
   "Variable Type": "Num",
@@ -20,8 +20,9 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
+  "Date added or modified": "1/5/23",
   "Question Type": "Optional Multiple Choice, Loops",
-  "IMS Review Notes": "Added a space in Question Text between did and they.",
+  "IMS Review Notes": "Updated the Variable name prefix to SrvBUM_",
   "Formula for Index": [
     "6315",
     "6316",
@@ -42,6 +43,5 @@
     "567908725.json": "2",
     "760969884.json": "3",
     "464631026.json": "4"
-  },
-  "Date added or modified": "12/7/22"
+  }
 }

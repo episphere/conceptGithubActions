@@ -11,7 +11,7 @@
   "V1 Question Text": "Did you ever smoke cigarettes every day?",
   "Variable Label": "Ever use cigarettes every day",
   "Variable Name": [
-    "SrvSAS_CigsEveryday_v1r0"
+    "SrvSAS_CigsEveryday_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "CIG9B"
@@ -20,7 +20,8 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "12/20/22",
+  "Date added or modified": "1/5/23",
+  "IMS Review Notes": "Updated Variable name suffix to _v2r0",
   "Formula for Index": [
     "3605",
     "3606"

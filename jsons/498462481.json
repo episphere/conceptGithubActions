@@ -11,7 +11,7 @@
   "Current Question Text": "The [first/2nd/3rd/etc.] time you had COVID-19, did a healthcare provider ever tell you they thought you had COVID-19?",
   "Variable Label": "Healthcare Provider",
   "Variable Name": [
-    "SrvBlU_COV5_v1r0",
+    "SrvBUM_COV5_v1r0",
     "SrvBlU_COV5_v1r0"
   ],
   "Variable Type": "Num",
@@ -20,8 +20,9 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
+  "Date added or modified": "1/5/23",
   "Question Type": "Optional Multiple Choice, Loops",
-  "IMS Review Notes": "Added space in Question Text between did and a.",
+  "IMS Review Notes": "Updated the Variable name prefix to SrvBUM_",
   "Formula for Index": [
     "6311",
     "6312"
@@ -33,6 +34,5 @@
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  },
-  "Date added or modified": "12/7/22"
+  }
 }

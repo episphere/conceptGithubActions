@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "7298",
-  "Index": "7298",
+  "Formula for Index": "7284",
+  "Index": "7284",
   "Primary Source": [
     "129084651.json"
   ],
@@ -8,7 +8,7 @@
     "506648060.json"
   ],
   "Source Question": [
-    "780835772.json"
+    "496748977.json"
   ],
   "GridID/Source Question Name": [
     "SrvPES_BIOSURV5_v1r0"
@@ -20,7 +20,7 @@
     "SrvPES_BIOSURV5TB_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "BIOSURV5TB"
+    "SrvPES_BIOSURV5TB_v1r0"
   ],
   "Variable Type": "Char",
   "Variable Length": "300",
@@ -28,6 +28,7 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "Participant Experience Survey",
-  "Date added or modified": "12/19/22",
-  "Question Type": "Text Box Plus Check Box"
+  "Date added or modified": "1/5/23",
+  "Question Type": "Text Box Plus Check Box",
+  "IMS Review Notes": "Used full Variable Name for Connect Value."
 }

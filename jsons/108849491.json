@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "7220",
-  "Index": "7220",
+  "Formula for Index": "7206",
+  "Index": "7206",
   "Primary Source": [
     "129084651.json"
   ],
@@ -8,7 +8,7 @@
     "506648060.json"
   ],
   "Source Question": [
-    "791144367.json"
+    "575160226.json"
   ],
   "GridID/Source Question Name": [
     "SrvPES_TPROB2_v1r0"
@@ -20,7 +20,7 @@
     "SrvPES_TPROB2TB_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "TPROB2TB"
+    "SrvPES_TPROB2TB_v1r0"
   ],
   "Variable Type": "Char",
   "Variable Length": "300",
@@ -28,6 +28,7 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "Participant Experience Survey",
-  "Date added or modified": "12/19/22",
-  "Question Type": "Text Box Plus Check Box"
+  "Date added or modified": "1/5/23",
+  "Question Type": "Text Box Plus Check Box",
+  "IMS Review Notes": "Changed Connect value to full variable name."
 }

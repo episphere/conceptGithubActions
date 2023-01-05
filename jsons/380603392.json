@@ -11,7 +11,7 @@
   "Current Question Text": "Have you had a menstrual period in the last 12 months?",
   "Variable Label": "Menstrual Period",
   "Variable Name": [
-    "SrvBlU_MENSTPRD_v1r0",
+    "SrvBUM_MENSTPRD_v1r0",
     "SrvBlU_MENSTPRD_v1r0"
   ],
   "Variable Type": "Num",
@@ -20,8 +20,9 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
+  "Date added or modified": "1/5/23",
   "Question Type": "Required Multiple Choice",
-  "IMS Review Notes": "Required changed to Yes. Added: menstrual, to Question Text.  Added a comma between: Urine,  and: and, in column E Secondary Source. Changed question type to required",
+  "IMS Review Notes": "Updated the Variable name prefix to SrvBUM_",
   "Formula for Index": [
     "6285",
     "6286"
@@ -33,6 +34,5 @@
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  },
-  "Date added or modified": "12/7/22"
+  }
 }

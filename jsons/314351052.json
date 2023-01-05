@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "7297",
-  "Index": "7297",
+  "Formula for Index": "7283",
+  "Index": "7283",
   "Primary Source": [
     "129084651.json"
   ],
@@ -15,12 +15,12 @@
   ],
   "conceptId": "314351052",
   "Current Question Text": "Please choose the reason that fits best to describe why you have not completed the sample survey: Other: Please describe text box",
-  "Variable Label": "Why biospecimen survey not completed - text box",
+  "Variable Label": "Why biospecimen survey not completed other text box",
   "Variable Name": [
     "SrvPES_BIOSURV4OTH_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "BIOSURV4OTH"
+    "SrvPES_BIOSURV4OTH_v1r0"
   ],
   "Variable Type": "Char",
   "Variable Length": "300",
@@ -28,6 +28,7 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "Participant Experience Survey",
-  "Date added or modified": "12/19/22",
-  "Question Type": "Optional Multiple Choice with Text Box (text in text box)"
+  "Date added or modified": "1/5/23",
+  "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
+  "IMS Review Notes": "Added Other to the Variale Label and used full Variable Name in Connect Value column."
 }

@@ -12,21 +12,21 @@
     "SrvPES_BIOSURV_v1r0"
   ],
   "Variable Type": "Num",
-  "Variable Length": "1",
+  "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Dictionary": "Participant Experience Survey",
-  "Date added or modified": "12/19/22",
-  "Question Type": "Optional Multiple Choice",
+  "Date added or modified": "1/5/23",
+  "Question Type": "Made Variable Length 2 to accommodate 77.",
   "Formula for Index": [
-    "7275",
-    "7276",
-    "7277"
+    "7261",
+    "7262",
+    "7263"
   ],
   "Index": [
-    "7275",
-    "7276",
-    "7277"
+    "7261",
+    "7262",
+    "7263"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

@@ -11,7 +11,7 @@
   "V1 Question Text": "Did you ever use electronic marijuana delivery devices that can be vaped every day?",
   "Variable Label": "Ever use electronic marijuana delivery devices every day",
   "Variable Name": [
-    "SrvSAS_EMJDevEveryDay_v1r0"
+    "SrvSAS_EMJDevEveryDay_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "ELMAR9B"
@@ -20,7 +20,8 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "12/20/22",
+  "Date added or modified": "1/5/23",
+  "IMS Review Notes": "Updated Variable name suffix to _v2r0",
   "Formula for Index": [
     "4216",
     "4217"

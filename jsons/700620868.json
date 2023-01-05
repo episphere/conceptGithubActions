@@ -14,14 +14,14 @@
     "959877599.json"
   ],
   "GridID/Source Question Name": [
-    "SrvBlU_COV22_v1r0",
+    "SrvBUM_COV22_v1r0",
     "SrvBlU_COV22_v1r0"
   ],
   "conceptId": "700620868",
   "Current Question Text": "How long did it take you to recover to your usual state of health from the date you first realized you had COVID-19? Months",
   "Variable Label": "Recovery duration Months",
   "Variable Name": [
-    "SRVBLU_COV22_MONTHS_V1R0",
+    "SRVBUM_COV22_MONTHS_V1R0",
     "SRVBLU_COV22_MONTHS_V1R0"
   ],
   "Variable Type": "Num",
@@ -31,7 +31,7 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
+  "Date added or modified": "1/5/23",
   "Question Type": "Text Only Response",
-  "IMS Review Notes": "New line for SRVBLU_COV22_MONTHS_V1R0",
-  "Date added or modified": "12/7/22"
+  "IMS Review Notes": "Updated the GridID/Source Question Name and Variable name prefix to SrvBUM_"
 }

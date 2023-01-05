@@ -1,23 +1,29 @@
 {
   "Primary Source": [
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "299215535.json"
+    "299215535.json",
+    "390351864.json"
   ],
   "Source Question": [
+    "542661394.json",
     "542661394.json"
   ],
   "GridID/Source Question Name": [
-    "SrvMw_DENTURES_v1r0"
+    "SrvBUM_DENTURES_v1r0",
+    "SrvMtW_DENTURES_v1r0"
   ],
   "conceptId": "365685000",
   "Current Question Text": "Partial Denture",
   "Variable Label": "Partial Denture",
   "Variable Name": [
-    "SrvMw_PARTDENT_v1r0"
+    "SrvBUM_PARTDENT_v1r0",
+    "SrvMtW_PARTDENT_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
+    "2",
     "2"
   ],
   "Variable Type": "Num",
@@ -26,8 +32,9 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
+  "Date added or modified": "1/5/23",
   "Question Type": "Optional Select All that Apply",
-  "IMS Review Notes": "GRID ID/Source Variable Name (Column H) needed",
+  "IMS Review Notes": "Updated the GridID/Source Question Name and Variable name prefix to SrvBUM_",
   "Formula for Index": [
     "6747",
     "6748"

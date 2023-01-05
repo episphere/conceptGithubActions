@@ -1,6 +1,12 @@
 {
-  "Formula for Index": "7274",
-  "Index": "7274",
+  "conceptId": "355080680",
+  "Current Question Text": "You can share more about your experience with the Connect team when you donated samples here.",
+  "subcollections": [
+    "607064749.json",
+    "355080680.json"
+  ],
+  "Formula for Index": "7260",
+  "Index": "7260",
   "Primary Source": [
     "129084651.json"
   ],
@@ -8,19 +14,17 @@
     "506648060.json"
   ],
   "Source Question": [
-    "459078597.json"
+    "355080680.json"
   ],
   "GridID/Source Question Name": [
     "SrvPES_BIOSAMP5_v1r0"
   ],
-  "conceptId": "355080680",
-  "Current Question Text": "You can share more about your experience with the Connect team when you donated samples here. I have no comment",
   "Variable Label": "Biospecimen donation experience - I have no comment",
   "Variable Name": [
     "SrvPES_BIOSAMP5_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "BIOSAMP5"
+    "SrvPES_BIOSAMP5_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -30,6 +34,6 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "Participant Experience Survey",
-  "Date added or modified": "12/19/22",
-  "Question Type": "Text Box Plus Check Box"
+  "Date added or modified": "1/5/23",
+  "Question Type": "Made Question Text the same as Source Question. Used full Variable Name for Connect Value."
 }

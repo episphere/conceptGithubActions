@@ -1,6 +1,12 @@
 {
-  "Formula for Index": "7251",
-  "Index": "7251",
+  "conceptId": "363878103",
+  "Current Question Text": "Feel free to share anything else you’d like to tell us about your experience with the first Connect survey.",
+  "subcollections": [
+    "177096151.json",
+    "363878103.json"
+  ],
+  "Formula for Index": "7237",
+  "Index": "7237",
   "Primary Source": [
     "129084651.json"
   ],
@@ -8,19 +14,17 @@
     "506648060.json"
   ],
   "Source Question": [
-    "255621962.json"
+    "363878103.json"
   ],
   "GridID/Source Question Name": [
     "SrvPES_BASELINE4_v1r0"
   ],
-  "conceptId": "363878103",
-  "Current Question Text": "Feel free to share anything else you’d like to tell us about your experience with the first Connect survey. I have no comment",
   "Variable Label": "Baseline survey experience - I have no comment",
   "Variable Name": [
     "SrvPES_BASELINE4_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "BASELINE4"
+    "SrvPES_BASELINE4_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -30,6 +34,7 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "Participant Experience Survey",
-  "Date added or modified": "12/19/22",
-  "Question Type": "Text Box Plus Check Box"
+  "Date added or modified": "1/5/23",
+  "Question Type": "Text Box Plus Check Box",
+  "IMS Review Notes": "Updated Current question text. Changed Connect value to full variable name."
 }

@@ -1,6 +1,12 @@
 {
-  "Formula for Index": "7221",
-  "Index": "7221",
+  "conceptId": "575160226",
+  "Current Question Text": "If you would like to share more about the technical problems you have experienced, you can do so here.",
+  "subcollections": [
+    "108849491.json",
+    "575160226.json"
+  ],
+  "Formula for Index": "7207",
+  "Index": "7207",
   "Primary Source": [
     "129084651.json"
   ],
@@ -8,19 +14,17 @@
     "506648060.json"
   ],
   "Source Question": [
-    "791144367.json"
+    "575160226.json"
   ],
   "GridID/Source Question Name": [
     "SrvPES_TPROB2_v1r0"
   ],
-  "conceptId": "575160226",
-  "Current Question Text": "If you would like to share more about the technical problems you have experienced, you can do so here. I have no comment",
   "Variable Label": "MyConnect technical problems - I have no comment",
   "Variable Name": [
     "SrvPES_TPROB2_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "TPROB2TB"
+    "SrvPES_TPROB2_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -30,6 +34,7 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "Participant Experience Survey",
-  "Date added or modified": "12/19/22",
-  "Question Type": "Text Box Plus Check Box"
+  "Date added or modified": "1/5/23",
+  "Question Type": "Text Box Plus Check Box",
+  "IMS Review Notes": "Updated Current question text. Changed Connect value to full variable name."
 }

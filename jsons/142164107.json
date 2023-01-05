@@ -11,7 +11,7 @@
   "V1 Question Text": "Age last used - During that time, did you use electronic marijuana delivery devices every day?",
   "Variable Label": "Use electronic marijuana delivery devices every day, age last used",
   "Variable Name": [
-    "SrvSAS_UseEMJDevEDL_v1r0"
+    "SrvSAS_UseEMJDevEDL_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "ELMAR8C"
@@ -20,7 +20,8 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "12/20/22",
+  "Date added or modified": "1/5/23",
+  "IMS Review Notes": "Updated Variable name suffix to _v2r0",
   "Formula for Index": [
     "4208",
     "4209"

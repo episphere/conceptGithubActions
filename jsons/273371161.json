@@ -11,7 +11,7 @@
   "Current Question Text": "Following your COVID-19 infection in [FILL IN DATES FROM SrvBlU_COV3_v1r0], do you feel that you have fully recovered to your usual state of health?",
   "Variable Label": "Recovery",
   "Variable Name": [
-    "SrvBlU_COV21_v1r0",
+    "SrvBUM_COV21_v1r0",
     "SrvBlU_COV21_v1r0"
   ],
   "Variable Type": "Num",
@@ -20,6 +20,7 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
+  "Date added or modified": "1/5/23",
   "Question Type": "Optional multiple Choice",
   "Formula for Index": [
     "6492",
@@ -35,6 +36,5 @@
     "104430631.json": "0",
     "353358909.json": "1",
     "224099497.json": "2"
-  },
-  "Date added or modified": "12/7/22"
+  }
 }

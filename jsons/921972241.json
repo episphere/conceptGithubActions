@@ -1,20 +1,24 @@
 {
   "Primary Source": [
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "299215535.json"
+    "299215535.json",
+    "390351864.json"
   ],
   "conceptId": "921972241",
   "Current Question Text": "In the last month, how often did you use fluoride mouthwash (such as ACT®)?",
   "Variable Label": "fluoride mouthwash  frequency past month",
   "Variable Name": [
-    "SrvMw_MWFLUORIDE_v1r0"
+    "SrvBUM_MWFLUORIDE_v1r0",
+    "SrvMtW_MWFLUORIDE_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
+  "Date added or modified": "1/5/23",
   "Formula for Index": [
     "6687",
     "6688",
@@ -49,7 +53,7 @@
     "Optional Multiple Choice"
   ],
   "IMS Review Notes": [
-    "Updated spelling of fluoride in variable name",
+    "Updated the Variable name prefix to SrvBUM_",
     "Added Row to add the 44 Never above"
   ]
 }

@@ -1,4 +1,16 @@
 {
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "506648060.json"
+  ],
+  "Source Question": [
+    "960544981.json"
+  ],
+  "GridID/Source Question Name": [
+    "SrvPES_WHY_v1r0"
+  ],
   "conceptId": "393996571",
   "Current Question Text": "I care about cancer research",
   "Variable Label": "Why Connect - care about cancer research",
@@ -13,15 +25,16 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "Participant Experience Survey",
-  "Date added or modified": "12/19/22",
+  "Date added or modified": "1/5/23",
   "Question Type": "Optional Select All That Apply, DisplayIf in One or More Responses",
+  "IMS Review Notes": "Added Survey Data in Columns C-I.",
   "Formula for Index": [
-    "7319",
-    "7320"
+    "7305",
+    "7306"
   ],
   "Index": [
-    "7319",
-    "7320"
+    "7305",
+    "7306"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
