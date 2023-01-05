@@ -73,7 +73,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
         Key(Header  after concept ID), value (concept Id index before header) 
         Ex. {'Primary Source': 2, 'Secondary Source': 4, 'Source Question': 6, 'Question Text': 9, 'Format/Value': 16}
     */ 
-    let conceptIdReverseLookup = {}; 
+    let conceptIdReverseLookup = {};
     /* 
     LOOP 1 - DONE
     populate conceptIdIndices and conceptIdReverseLookup
@@ -96,8 +96,8 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
     // console.log("cluvster & numCounter", numCounter, cluster)
     for(let i = 1; i < cluster.length; i++){ /* starts at 1 to not include main cluster, but rows without questionText index belonging to current cluster; push to nonEmpty arr*/
         let currArr = cluster[i] 
-        console.log("cluster loop 2", numCounter, cluster)
-        console.log('currArr',i, currArr, numCounter) // output proceeding rows belonging to cluster's first row
+        // console.log("cluster loop 2", numCounter, cluster)
+        // console.log('currArr',i, currArr, numCounter) // output proceeding rows belonging to cluster's first row
         for(let j = 0; j < currArr.length; j++){
             // console.log("conceptIdIndices j", j, currArr[j].trim(),currArr[j].trim()!='',!conceptIdIndices.includes(j))
             if(currArr[j].trim()!='' && !conceptIdIndices.includes(j)){ // not empty item, current iteration j not found in array
@@ -119,7 +119,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
     let firstRow = cluster[0] // row with a questionText value
     let clump = []; // NOT USED - DEPRECATED
     // console.log('processCluster firstRow',numCounter, firstRow)
-    console.log('nonEmpty', nonEmpty)
+    // console.log('nonEmpty', nonEmpty)
     
     /* 
     LOOP 3 - DONE
@@ -143,13 +143,13 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
         if((firstRow[i] != "" && !nonEmpty.includes(i) && !conceptIdIndices.includes(i)) || (conceptIdIndices.includes(i) && conceptIdObject[i] =="Question Text")){
             // console.log("header firstRow",typeof header[i],header[i], firstRow[i])
             // REMOVE LATER -- > concept Id key and 
-            if((conceptIdIndices.includes(i) && conceptIdObject[i] =="Question Text")) { console.log("test loop 3 OR cond", i ,conceptIdObject[i])}
+            // if((conceptIdIndices.includes(i) && conceptIdObject[i] =="Question Text")) { console.log("test loop 3 OR cond", i ,conceptIdObject[i])}
             firstRowJSON[header[i]] = firstRow[i]
             // console.log("firstRowJSON loop 3 - ", `numCounter:`,numCounter,`curr i:`, i, firstRowJSON)
         }
     }
-    console.log("firstRowJSON", numCounter, firstRowJSON) // ADD BACK LATER WHEN LOOP 3
-    console.log("nameToConcept",numCounter, nameToConcept)// ADD BACK LATER WHEN for IF
+    // console.log("firstRowJSON", numCounter, firstRowJSON) // ADD BACK LATER WHEN LOOP 3
+    // console.log("nameToConcept",numCounter, nameToConcept)// ADD BACK LATER WHEN for IF
     // console.log("test!!!", numCounter, firstRow[indexVariableName],indexVariableName)
     //Creating concept Id for the cluster
     // firstRowJSON = {}
@@ -192,8 +192,8 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
     //find sources first
     let conceptColNames = Object.keys(conceptIdReverseLookup)
     
-    console.log("conceptIdReverseLookup", conceptIdReverseLookup)
-    console.log("conceptColNames", conceptColNames)
+    // console.log("conceptIdReverseLookup", conceptIdReverseLookup)
+    // console.log("conceptColNames", conceptColNames)
     /* 
     LOOP 4
     conceptColNames are headers for concept Ids
@@ -312,7 +312,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
     
     loops purpose is for clusters rows after main row with only 'Format/Value'
     */
-    // console.log("nonEmpty checks", numCounter, nonEmpty)
+    console.log("nonEmpty checks", numCounter, nonEmpty)
     console.log("jsonList bLoop5",numCounter,jsonList) // NOTE: Refer to Loop 6 where things may get added
     // console.log("nameToConcept", nameToConcept)
     for(let j = 0; j < nonEmpty.length; j++){
@@ -333,7 +333,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                 if(conceptIdObject[currIndex - 1]){
                     // console.log("loop 4 tester",numCounter,conceptIdObject[currIndex - 1])
                     if(currElement.indexOf('=') != -1){ /* ONLY FOR FORMAT/VALUE WITH '=' VALUE */ 
-                        console.log("Format/value with equals", currElement) // Ex. --> '1 = Active'
+                        // console.log("Format/value with equals", currElement) // Ex. --> '1 = Active'
                         let val = currElement.split('=')[1].trim() // gets num value, Ex. --> '1'
                         let key = currElement.split('=')[0].trim() // gets key value, Ex. --> 'Active'
                         let cid = generateRandomUUID(conceptIdList) // conceptIdList is the .txt of cids, this updates .txt file --?fs.writeFileSync('./jsons/conceptIds.txt', JSON.stringify(conceptIdList))
@@ -670,7 +670,8 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
     // console.log("fileName",fileName)
     let jsonList = []
     let sourceJSONS = [] // array of each conceptId#.json object
-    // fs.readdirSync('./jsons/').forEach(file => {
+
+    // fs.readdirSync('./jsons/').forEach(file => { // Main Test for original json Folder
     //     if(file.match(/[0-9]{9}.json/)){
     //         let currFileContents = fs.readFileSync('./jsons/' + file);
     //         // console.log("currFileContents", currFileContents)
@@ -699,7 +700,7 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
 
     let ConceptIndex = '{}' // becomes varToConcept.json list (FOUND), {} (NOT FOUND)
     /* Add back origin varToConcept.json */
-    // if(fs.existsSync('./jsons/varToConcept.json')){                 /*  USES / READS --> VARTOCONCEPT.JSON LIBRARY!!!!!  */
+    // if(fs.existsSync('./jsons/varToConcept.json')){      /*  USES / READS --> VARTOCONCEPT.JSON LIBRARY!!!!!  */
     //     ConceptIndex = fs.readFileSync('./jsons/varToConcept.json', {encoding:'utf8'})
     // }
     if(fs.existsSync('./jsonsTest/varToConceptTest.json')){
@@ -732,7 +733,7 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
 
 
     let conceptIdList = JSON.parse(idIndex) // Array of concept Ids (list of string concepts)
-    let varLabelIndex = 0; // Reassigns to the index location of Question Text
+    let questionTextIndex = 0; // Reassigns to the index location of Question Text (PREVIOUSLY -->  varLabelIndex)
     let cluster = [] // gets reassigned
 
     /*------------------------------------------------------------ CHECKPOINT 1 ------------------------------------------------------------ */
@@ -771,39 +772,39 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
     let numCounter = 0
     for await(const line of rl){ // handle promise based value --> each line from rl will be read as a single line
         // CSVToArray(',') extra paramater not needed
-        // console.log("line",typeof line,line)
+        // console.log("LINE",typeof line,line)
         let arr = CSVToArray(line, ',') // Each arr --> current line of text items separated by comma 
         /* Current arr row and iteration count */
         // console.log("arr", numCounter, arr) 
 /*------------------------------------------------------------ (CHECKPOINT 2 - Looping through curremt row array, push to cluster array )------------------------------------------------------------ */
-        if(first){ // populates header array variable; assigns index val of question text header (first row) to varLabelIndex variable
+        if(first){ // populates header array variable; assigns index val of question text header (first row) to questionTextIndex variable
             conceptIdObject = getConceptIdCols(arr)
             // console.log('abc')
-            // console.log("conceptIdObject",conceptIdObject)
+            console.log("conceptIdObject",conceptIdObject)
             header = arr; // array of string items
             // console.log("header",header)
             first = false; // reassign, only used for top header
             for(let i = 0; i < arr.length; i++){
                 // NOTE: Add conditional for columns for v1 and v2 conceptIds???
                 if(arr[i] == "Question Text"){
-                    varLabelIndex = i; // reassign varLabelIndex with index of Question Text!
-                    // console.log("varLabelIndex" , i)
+                    questionTextIndex = i; // reassign questionTextIndex with index of Question Text!
+                    // console.log("questionTextIndex" , i)
                 }
                 if(arr[i] == "conceptId" && i+1 < arr.length){ // arr loop length control 
                     conceptCols.push(i+1) // push all conceptCols
                 }
             }
-            console.log("conceptCols" , conceptCols)
+            // console.log("conceptCols" , conceptCols)
             // console.log("arr",arr)
             excelOutput.push([arr]) // an array within an array geting pushed to an array
             // console.log("excelOutput", excelOutput)
         }
         else if(currCluster){ // conditional for the rows 3 and onwards; third path after 2 rows go through conditional flow
             // console.log("numCounter elseif currCuster", numCounter, currCluster)
-            // console.log("currCluster!, arr, varLabelIndex",currCluster, arr, "questionText/ varLabel Index ",varLabelIndex)
-            if(arr[varLabelIndex] == ''){ // (empty question text) cell path, push curr row arr 
-                // console.log('numCounter cluster', numCounter,arr) // leave for testing rows
-                // console.log('arr[varLabelIndex]', varLabelIndex, arr[varLabelIndex], numCounter)
+            // console.log("currCluster!, arr, questionTextIndex",currCluster, arr, "questionText/ varLabel Index ",questionTextIndex)
+            if(arr[questionTextIndex] === ''){ // (empty question text) cell path, push curr row arr 
+                console.log('numCounter cluster', numCounter,arr) // leave for testing rows
+                // console.log('arr[questionTextIndex]', questionTextIndex, arr[questionTextIndex], numCounter)
                 cluster.push(arr); // appending to cluster the arrays with Qtext value
                 // console.log("cluster after arr empty question Text if block",numCounter, cluster)
             }
@@ -811,19 +812,20 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
                 // console.log("cluster", numCounter, cluster)
                 // console.log("header", header)
                 // console.log("nameToConcept",typeof nameToConcept, nameToConcept)
-                // console.log("varLabelIndex",typeof varLabelIndex, varLabelIndex)
+                // console.log("questionTextIndex",typeof questionTextIndex, questionTextIndex)
                 // console.log("conceptIdList",typeof conceptIdList, conceptIdList)
                 // console.log("conceptIdObject", typeof conceptIdObject,conceptIdObject )
                 // console.log("sourceJSONS",typeof sourceJSONS, sourceJSONS )
                 // console.log("jsonList",typeof jsonList, jsonList )
-                // console.log('arr[varLabelIndex]', varLabelIndex, arr[varLabelIndex], numCounter) 
+                // console.log('arr[questionTextIndex]', questionTextIndex, arr[questionTextIndex], numCounter) 
                 // console.log("cluster after arr", numCounter, cluster)
-                /* varLabelIndex is question Text index value (10)  */
+                /* questionTextIndex is question Text index value (10)  */
                 // next arr has previous cluster as cluster parameter, iteration 5 has cluster of lines 2,3,4 (Given no question text in lines 3 or 4 ) in masterFileCopy
-                let returned = processCluster(cluster, header, nameToConcept, varLabelIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList, /[0-9]+\s*=/, numCounter)
+                // console.log('numCounter cluster', numCounter,arr) // leave for testing rows
+                let returned = processCluster(cluster, header, nameToConcept, questionTextIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList, /[0-9]+\s*=/, numCounter)
                 excelOutput.push(returned) // push to excelOutput (Main array of rows)
                 cluster = [arr] // reassign empty array with current row line arr (to be used in processCluster)
-                // console.log("cluster after arr", numCounter, cluster)
+                console.log("cluster after arr", numCounter, cluster)
                 currCluster = true;
             }
         }
@@ -832,13 +834,13 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
             // console.log("cluster push arr", numCounter,arr)
             cluster.push(arr)
             currCluster = true;
-            // console.log("cluster", cluster)
+            // console.log("cluster E", numCounter, cluster)
         }
         numCounter++
         // console.log(cluster)
     }
     // // GO TO processCluster
-    // let returned = processCluster(cluster, header, nameToConcept, varLabelIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList,/[0-9]+\s*=/);
+    // let returned = processCluster(cluster, header, nameToConcept, questionTextIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList,/[0-9]+\s*=/);
     // excelOutput.push(returned)
     // //console.log(sourceJSONS)
     // for(let i = 0; i < sourceJSONS.length; i++){
