@@ -9,17 +9,13 @@
   "Current Question Text": "Which device do you use to access MyConnect most of the time?",
   "Variable Label": "Device most used",
   "Variable Name": [
-    "SrvPES_MOSTUSE0_v1r0"
+    "SrvPES_MOSTUSE_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Dictionary": "Participant Experience Survey",
   "Question Type": "Optional Multiple Choice, DisplayIf in One or More Responses",
   "Formula for Index": [
-    "7175",
-    "7176",
-    "7177",
-    "7178",
     "7179",
     "7180",
     "7181",
@@ -29,13 +25,13 @@
     "7185",
     "7186",
     "7187",
-    "7188"
+    "7188",
+    "7189",
+    "7190",
+    "7191",
+    "7192"
   ],
   "Index": [
-    "7175",
-    "7176",
-    "7177",
-    "7178",
     "7179",
     "7180",
     "7181",
@@ -45,7 +41,11 @@
     "7185",
     "7186",
     "7187",
-    "7188"
+    "7188",
+    "7189",
+    "7190",
+    "7191",
+    "7192"
   ],
   "Current Format/Value": {
     "482753957.json": "0",
@@ -64,7 +64,7 @@
     "320254475.json": "13"
   },
   "Date added or modified": [
-    "1/5/23",
+    "1/9/23",
     "1/5/23",
     "1/5/23",
     "1/5/23",
@@ -80,7 +80,7 @@
     "1/5/23"
   ],
   "IMS Review Notes": [
-    "Updated Question Type and related formatting.",
+    "Updated variable name from MOSTUSE0 to MOSTUSE",
     "Updated Question Type and related formatting.",
     "Updated Question Type and related formatting.",
     "Updated Question Type and related formatting.",

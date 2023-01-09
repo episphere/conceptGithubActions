@@ -7,7 +7,7 @@
   ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "400969127",
-  "Current Question Text": "Age last used - During the time that you last smoked cigarettes, did you smoke cigarettes every day?",
+  "Current Question Text": "Age last used - During the time you last smoked cigarettes, did you smoke cigarettes every day?",
   "V1 Question Text": "Age last used - During that time, did you smoke cigarettes every day?",
   "Variable Label": "Use cigarettes every day, age last used",
   "Variable Name": [
@@ -20,15 +20,15 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "1/5/23",
-  "IMS Review Notes": "Updated Variable name suffix to _v2r0",
+  "Date added or modified": "1/9/23",
+  "IMS Review Notes": "Updated the current question text to match the questionaire",
   "Formula for Index": [
-    "3601",
-    "3602"
+    "3605",
+    "3606"
   ],
   "Index": [
-    "3601",
-    "3602"
+    "3605",
+    "3606"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
