@@ -594,7 +594,6 @@
   "121430614": {
     "Variable Label": "I do not have reliable access to the internet/a device",
     "Variable Name": [
-      "RcrtSI_OptOut_v1r0_access",
       "HdRef_NoInternet_v1r0"
     ]
   },
@@ -783,7 +782,6 @@
   "131458944": {
     "Variable Label": "I am worried that my information could be used to discriminate against me/my family",
     "Variable Name": [
-      "RcrtSI_OptOut_v1r0_PrivacyJ",
       "HdRef_PrivacyH_v1r0"
     ]
   },
@@ -1502,6 +1500,12 @@
     "Variable Name": [
       "SrvBOH_English_v1r0",
       "SrvBOH_EnglishLang_v1r0"
+    ]
+  },
+  "163284008": {
+    "Variable Label": "I am worried that my information could be used to discriminate against me/my family",
+    "Variable Name": [
+      "RcrtSI_OptOut_v1r0_PrivacyJ"
     ]
   },
   "163534562": {
@@ -3717,7 +3721,7 @@
   "260186214": {
     "Variable Label": "Device most used",
     "Variable Name": [
-      "SrvPES_MOSTUSE0_v1r0"
+      "SrvPES_MOSTUSE_v1r0"
     ]
   },
   "260703126": {
@@ -4456,6 +4460,12 @@
     "Variable Label": "City",
     "Variable Name": [
       "SrvLAW_City1FollowUp_v1r0"
+    ]
+  },
+  "288972510": {
+    "Variable Label": "Uninvited Recruits",
+    "Variable Name": [
+      "RcrtSI_UninvitedRcts_v1r0"
     ]
   },
   "289302451": {
@@ -5951,7 +5961,6 @@
   "372303208": {
     "Variable Label": "I am worried that my information will be used by others to make a profit",
     "Variable Name": [
-      "RcrtSI_OptOut_v1r0_PrivacyK",
       "HdRef_PrivacyI_v1r0"
     ]
   },
@@ -6230,6 +6239,12 @@
     "Variable Label": "Collection ID Manually Entered",
     "Variable Name": [
       "BioSpm_ColIDEntered_v1r0"
+    ]
+  },
+  "387198193": {
+    "Variable Label": "I am worried that my information will be used by others to make a profit",
+    "Variable Name": [
+      "RcrtSI_OptOut_v1r0_PrivacyK"
     ]
   },
   "387489930": {
@@ -8371,6 +8386,12 @@
   },
   "490796638": {
     "Variable Name": "Not at all flexible"
+  },
+  "491099823": {
+    "Variable Label": "I do not have reliable access to the internet/a device",
+    "Variable Name": [
+      "RcrtSI_OptOut_v1r0_access"
+    ]
   },
   "491337167": {
     "Variable Label": "Deep private well",
@@ -10559,7 +10580,7 @@
     ]
   },
   "589224449": {
-    "Variable Name": "SF Cancer Center LL"
+    "Variable Name": "Sioux Falls Imagenetics"
   },
   "589522790": {
     "Variable Label": "Walking and carrying materials weighing less than 50 pounds (for example, delivering mail, waiting tables, light construction, janitorial work, etc.)",
@@ -11479,6 +11500,12 @@
     "Variable Label": "Time normally in bed workdays/most days",
     "Variable Name": [
       "SrvMRE_Bedtime_v1r0"
+    ]
+  },
+  "637147033": {
+    "Variable Label": "I am concerned about providing information online",
+    "Variable Name": [
+      "HdRef_Concerned_v1r0"
     ]
   },
   "637540387": {
@@ -14551,6 +14578,13 @@
       "SrvLAW_CurSchYr1_Yr_v1r0"
     ]
   },
+  "771146804": {
+    "Variable Label": "I am worried about data being given to my employer/potential employer",
+    "Variable Name": [
+      "RcrtSI_OptOut_v1r0_PrivacyI",
+      "HdRef_PrivacyG_v1r0"
+    ]
+  },
   "771230670": {
     "Variable Name": "61-65"
   },
@@ -14591,7 +14625,7 @@
     ]
   },
   "772638539": {
-    "Variable Label": "Number of tumors reported ÃƒÆ’¢Ãƒ¢Ã¢â‚¬Å¡¬“ repeated measure over time",
+    "Variable Label": "Number of tumors reported ÃƒÆ’Ã†’¢ÃƒÆ’¢Ãƒ¢Ã¢â€š¬Ã…¡¬“ repeated measure over time",
     "Variable Name": [
       "RCAOper_TumorNum_v1r0"
     ]
@@ -19413,13 +19447,6 @@
       "SrvBOH_Exercised2_v1r0",
       "SrvBOH_Exercised3_v1r0",
       "SrvBOH_Exercised4_v1r0"
-    ]
-  },
-  "990579614": {
-    "Variable Label": "I am worried about data being given to my employer/potential employer",
-    "Variable Name": [
-      "RcrtSI_OptOut_v1r0_PrivacyI",
-      "HdRef_PrivacyG_v1r0"
     ]
   },
   "990599372": {
