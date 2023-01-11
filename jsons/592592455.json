@@ -15,12 +15,14 @@
     "BSNSSTYP1",
     "BSNSSTYP2"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "592592455",
-  "Current Question Text": "A retail store",
-  "Variable Label": "A retail store",
+  "Current Question Text": "Retail or wholesale sales",
+  "V1 Question Text": "A retail store",
+  "Variable Label": "Retail or wholesale sales",
   "Variable Name": [
-    "SrvBOH_RetailStoreC_v1r0",
-    "SrvBOH_RetailStoreP_v1r0"
+    "SrvBOH_RetailWholeC_v2r0",
+    "SrvBOH_RetailWhole_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "1",
@@ -30,8 +32,9 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "10/13/21",
+  "Date added or modified": "1/11/23",
   "Question Type": "Optional Select All that Apply",
+  "IMS Review Notes": "Revised question text, updated variable label, variable name and suffix to _v2r0",
   "Formula for Index": [
     "2218",
     "2219"

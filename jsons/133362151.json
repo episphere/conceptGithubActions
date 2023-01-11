@@ -15,12 +15,14 @@
     "BSNSSTYP1",
     "BSNSSTYP2"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "133362151",
-  "Current Question Text": "Construction",
-  "Variable Label": "Construction",
+  "Current Question Text": "Construction or equipment repair",
+  "V1 Question Text": "Construction",
+  "Variable Label": "Construction or equipment repair",
   "Variable Name": [
-    "SrvBOH_ConstructionC_v1r0",
-    "SrvBOH_ConstructionP_v1r0"
+    "SrvBOH_ConstructionC_v2r0",
+    "SrvBOH_ConstructionP_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "4",
@@ -30,15 +32,16 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "10/13/21",
+  "Date added or modified": "1/11/23",
   "Question Type": "Optional Select All that Apply",
+  "IMS Review Notes": "Revised question text, updated variable label, variable name suffix to _v2r0",
   "Formula for Index": [
-    "2224",
-    "2225"
+    "2228",
+    "2229"
   ],
   "Index": [
-    "2224",
-    "2225"
+    "2228",
+    "2229"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

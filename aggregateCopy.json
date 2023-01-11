@@ -843,10 +843,10 @@
     ]
   },
   "133362151": {
-    "Variable Label": "Construction",
+    "Variable Label": "Construction or equipment repair",
     "Variable Name": [
-      "SrvBOH_ConstructionC_v1r0",
-      "SrvBOH_ConstructionP_v1r0"
+      "SrvBOH_ConstructionC_v2r0",
+      "SrvBOH_ConstructionP_v2r0"
     ]
   },
   "133396976": {
@@ -1222,6 +1222,13 @@
     "Variable Label": "City",
     "Variable Name": [
       "SrvLAW_SeaCity3FU_v1r0"
+    ]
+  },
+  "149230791": {
+    "Variable Label": "Transportation, warehousing, and utilities",
+    "Variable Name": [
+      "SrvBOH_TransUtilC_v1r0",
+      "SrvBOH_TransUtilP_v1r0"
     ]
   },
   "149476435": {
@@ -5971,10 +5978,10 @@
     ]
   },
   "372993567": {
-    "Variable Label": "Mining",
+    "Variable Label": "Mining, quarrying, and oil and gas extraction",
     "Variable Name": [
-      "SrvBOH_MiningC_v1r0",
-      "SrvBOH_MiningP_v1r0"
+      "SrvBOH_MiningC_v2r0",
+      "SrvBOH_MiningP_v2r0"
     ]
   },
   "374508062": {
@@ -7250,6 +7257,13 @@
     "Variable Label": "State/Province",
     "Variable Name": [
       "SrvLAW_ChildState_v1r0"
+    ]
+  },
+  "439857718": {
+    "Variable Label": "Professional and business services",
+    "Variable Name": [
+      "SrvBOH_ServicesC_v1r0",
+      "SrvBOH_ServicesP_v1r0"
     ]
   },
   "440093675": {
@@ -9069,7 +9083,7 @@
   "522008539": {
     "Variable Label": "Sex at birth",
     "Variable Name": [
-      "SrvBio_Sex_v1r0",
+      "SrvBUM_SEX_v1r0",
       "SrvBlU_Sex_v1r0"
     ]
   },
@@ -10675,10 +10689,10 @@
     ]
   },
   "592592455": {
-    "Variable Label": "A retail store",
+    "Variable Label": "Retail or wholesale sales",
     "Variable Name": [
-      "SrvBOH_RetailStoreC_v1r0",
-      "SrvBOH_RetailStoreP_v1r0"
+      "SrvBOH_RetailWholeC_v2r0",
+      "SrvBOH_RetailWhole_v2r0"
     ]
   },
   "592957464": {
@@ -13195,6 +13209,13 @@
   "709264633": {
     "Variable Name": "Check-In"
   },
+  "709307391": {
+    "Variable Label": "Accommodation and food services",
+    "Variable Name": [
+      "SrvBOH_AcomFoodC_v1r0",
+      "SrvBOH_AcomFoodP_v1r0"
+    ]
+  },
   "709374950": {
     "Variable Label": "Full Street name",
     "Variable Name": [
@@ -14470,6 +14491,13 @@
     "Variable Name": [
       "SrvBUM_MWALCFREE_v1r0",
       "SrvMtW_MWALCFREE_v1r0"
+    ]
+  },
+  "766533183": {
+    "Variable Label": "Healthcare or social assistance",
+    "Variable Name": [
+      "SrvBOH_HlthcareC_v1r0",
+      "SrvBOH_HlthcareP_v1r0"
     ]
   },
   "766791333": {
@@ -16863,6 +16891,13 @@
   "868504994": {
     "Variable Name": "My periods stopped after endometrial ablation (removal of the endometrium lining of the uterus)"
   },
+  "868510850": {
+    "Variable Label": "Arts, entertainment, and recreation",
+    "Variable Name": [
+      "SrvBOH_ArtsRecC_v1r0",
+      "SrvBOH_ArtsRecP_v1r0"
+    ]
+  },
   "868650023": {
     "Variable Label": "Full Street name #2",
     "Variable Name": [
@@ -17971,6 +18006,13 @@
   "924690260": {
     "Variable Name": "Disagree"
   },
+  "924908599": {
+    "Variable Label": "Education",
+    "Variable Name": [
+      "SrvBOH_EduC_v1r0",
+      "SrvBOH_EduP_v1r0"
+    ]
+  },
   "924926068": {
     "Variable Name": "Every day, less than 2 hours each day"
   },
@@ -18018,6 +18060,13 @@
   },
   "927477599": {
     "Variable Name": "Very Good"
+  },
+  "927863729": {
+    "Variable Label": "Farming, fishing, or forestry",
+    "Variable Name": [
+      "SrvBOH_FarmFishC_v1r0",
+      "SrvBOH_FarmFishP_v1r0"
+    ]
   },
   "927925620": {
     "Variable Name": "Full head of hair with no hair loss."
@@ -18363,6 +18412,13 @@
     "Variable Label": "Other: Please describe[text box]",
     "Variable Name": [
       "SrvBOH_BreastOtherDes_v1r0"
+    ]
+  },
+  "942545134": {
+    "Variable Label": "Military, police, firefighting, security services",
+    "Variable Name": [
+      "SrvBOH_MilPoliceC_v1r0",
+      "SrvBOH_MilPoliceP_v1r0"
     ]
   },
   "942945860": {

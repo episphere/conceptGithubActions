@@ -11,7 +11,7 @@
   "Current Question Text": "What was your biological sex assigned at birth? Biospecimen",
   "Variable Label": "Sex at birth",
   "Variable Name": [
-    "SrvBio_Sex_v1r0",
+    "SrvBUM_SEX_v1r0",
     "SrvBlU_Sex_v1r0"
   ],
   "Variable Type": "Num",
@@ -21,21 +21,21 @@
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
   "Question Type": "Optional Multiple Choice",
+  "IMS Review Notes": "Updated the Variable name prefix to SrvBUM_",
   "Formula for Index": [
-    "6253",
-    "6254",
-    "6255"
+    "6285",
+    "6286",
+    "6287"
   ],
   "Index": [
-    "6253",
-    "6254",
-    "6255"
+    "6285",
+    "6286",
+    "6287"
   ],
   "Current Format/Value": {
     "536341288.json": "0",
     "654207589.json": "1",
     "576796184.json": "2"
   },
-  "Date added or modified": "1/5/23",
-  "IMS Review Notes": "Updated the Variable name prefix to SrvBlU_"
+  "Date added or modified": "1/5/23"
 }
