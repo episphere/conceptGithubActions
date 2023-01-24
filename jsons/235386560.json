@@ -12,15 +12,15 @@
     "470484596.json"
   ],
   "GridID/Source Question Name": [
-    "SrvBUM_SYMPTDAY_v1r0",
-    "SrvBlU_SYMPTDAY_v1r0"
+    "SrvBio_SYMPTDAY_v1r0",
+    "SrvBio_SYMPTDAY_v1r0"
   ],
   "conceptId": "235386560",
   "Current Question Text": "Diarrhea",
   "Variable Label": "Diarrhea day",
   "Variable Name": [
-    "SrvBUM_DiarrDay_v1r0",
-    "SrvBlU_DiarrDay_v1r0"
+    "SrvBio_DiarrDay_v1r0",
+    "SrvBio_DiarrDay_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "1",
@@ -32,7 +32,7 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "1/5/23",
+  "Date added or modified": "1/19/23",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
     "6290",
@@ -47,7 +47,7 @@
     "353358909.json": "1"
   },
   "IMS Review Notes": [
-    "Updated the GridID/Source Question Name and Variable name prefix to SrvBUM_",
+    "Updated the GridID/Source Question Name and Variable name prefix to SrvBio_",
     "Added spaces around ="
   ]
 }

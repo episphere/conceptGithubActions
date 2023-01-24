@@ -9,7 +9,7 @@
   "Current Question Text": "Mouthwash survey completion",
   "Variable Label": "Flag for mouthwash survey",
   "Variable Name": [
-    "SrvMw_BaseComplete_v1r0"
+    "SrvMtW_BaseComplete_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -18,7 +18,8 @@
   "Dictionary": "Biospecimen Research",
   "State Attribute": "No",
   "Default Variable": "Yes",
-  "Date added or modified": "6/25/21",
+  "Date added or modified": "1/20/23",
+  "IMS Review Notes": "Updated Variable name prefix from SrvMw_ to SrvMtW_",
   "Formula for Index": [
     "486",
     "487",

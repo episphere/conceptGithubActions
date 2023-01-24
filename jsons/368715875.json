@@ -11,7 +11,7 @@
   "Current Question Text": "Are you still experiencing [piped response from SrvBlU_COV23B8Desc_v1r0/these other symptoms]?",
   "Variable Label": "Other Pandemic-  Presence: Please describe",
   "Variable Name": [
-    "SrvBUM_COV23B8B_v1r0",
+    "SrvBlU_COV23B8B_v1r0",
     "SrvBlU_COV23B8B_v1r0"
   ],
   "Variable Type": "Num",
@@ -20,9 +20,9 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "1/5/23",
+  "Date added or modified": "1/19/23",
   "Question Type": "Optional Multiple Choice, Displayif and Piped text",
-  "IMS Review Notes": "Updated the Variable name prefix to SrvBUM_",
+  "IMS Review Notes": "Updated the Variable name prefix to SrvBlU_",
   "Formula for Index": [
     "6575",
     "6576"

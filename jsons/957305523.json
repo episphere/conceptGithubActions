@@ -11,7 +11,7 @@
   "Current Question Text": "How many teeth have you lost from tooth decay or disease? Do not include wisdom teeth.",
   "Variable Label": "Teeth Lost from decay or disease",
   "Variable Name": [
-    "SrvBUM_TEETHLOSTD_v1r0",
+    "SrvMtW_TEETHLOSTD_v1r0",
     "SrvMtW_TEETHLOSTD_v1r0"
   ],
   "Variable Type": "Num",
@@ -20,9 +20,9 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "1/5/23",
+  "Date added or modified": "1/19/23",
   "Question Type": "Optional Multiple Choice",
-  "IMS Review Notes": "Updated the Variable name prefix to SrvBUM_",
+  "IMS Review Notes": "Updated the Variable name prefix to SrvMtW_",
   "Formula for Index": [
     "6767",
     "6768",

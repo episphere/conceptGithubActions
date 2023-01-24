@@ -11,7 +11,7 @@
   "Current Question Text": "Duringthe [first/2nd/3rd/etc.] time you had COVID-19, were you diagnosed with pneumonia (a lung or respiratory infection) as a complication of COVID-19?",
   "Variable Label": "Pneumonia",
   "Variable Name": [
-    "SrvBUM_COV10_v1r0",
+    "SrvBlU_COV10_v1r0",
     "SrvBlU_COV10_v1r0"
   ],
   "Variable Type": "Num",
@@ -20,7 +20,7 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "1/5/23",
+  "Date added or modified": "1/19/23",
   "Question Type": "Optional Multiple Choice, Loops",
   "Formula for Index": [
     "6398",
@@ -38,7 +38,7 @@
     "178420302.json": "77"
   },
   "IMS Review Notes": [
-    "Updated the Variable name prefix to SrvBUM_",
+    "Updated the Variable name prefix to SrvBlU_",
     "Column Q added space before the = sign.",
     "removed quotation marks"
   ],

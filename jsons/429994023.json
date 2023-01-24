@@ -11,7 +11,7 @@
   "Current Question Text": "In the last month, how often did you use a tongue cleaner or scraper?",
   "Variable Label": "Tongue Scraper frequency past month",
   "Variable Name": [
-    "SrvBUM_TONGUE2_v1r0",
+    "SrvMtW_TONGUE2_v1r0",
     "SrvMtW_TONGUE2_v1r0"
   ],
   "Variable Type": "Num",
@@ -20,7 +20,7 @@
   "Notes": "Added use between you and a",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "1/5/23",
+  "Date added or modified": "1/19/23",
   "Formula for Index": [
     "6677",
     "6678",
@@ -52,7 +52,7 @@
     "Optional Multiple Choice"
   ],
   "IMS Review Notes": [
-    "Updated the Variable name prefix to SrvBUM_",
+    "Updated the Variable name prefix to SrvMtW_",
     "Added Row to add the 44 Never above"
   ]
 }

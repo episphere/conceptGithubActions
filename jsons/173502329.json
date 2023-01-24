@@ -14,14 +14,14 @@
     "980800222.json"
   ],
   "GridID/Source Question Name": [
-    "SrvBUM_COV3_v1r0",
+    "SrvBlU_COV3_v1r0",
     "SrvBlU_COV3_v1r0"
   ],
   "conceptId": "173502329",
   "Current Question Text": "When was the [first/2nd/3rd/etc.] time you had COVID-19? If you are not sure, please make your best guess. Month",
   "Variable Label": "Infection Date Month",
   "Variable Name": [
-    "SrvBUM_COV3_MONTH_v1r0",
+    "SrvBlU_COV3_MONTH_v1r0",
     "SrvBlU_COV3_MONTH_v1r0"
   ],
   "Variable Type": "Num",
@@ -31,7 +31,7 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "1/5/23",
+  "Date added or modified": "1/19/23",
   "Question Type": "Multiple Text Boxes, Loops",
-  "IMS Review Notes": "Updated the GridID/Source Question Name and Variable name prefix to SrvBUM_"
+  "IMS Review Notes": "Updated the GridID/Source Question Name and Variable name prefix to SrvBlU_"
 }

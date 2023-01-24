@@ -11,7 +11,7 @@
   "Current Question Text": "In the last month, how often did you use mouthwash for sensitive teeth (such as Sensodyne®)?",
   "Variable Label": "mouthwash for sensitive teeth frequency past month",
   "Variable Name": [
-    "SrvBUM_MWSENSITIVE_v1r0",
+    "SrvMtW_MWSENSITIVE_v1r0",
     "SrvMtW_MWSENSITIVE_v1r0"
   ],
   "Variable Type": "Num",
@@ -19,8 +19,8 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "1/5/23",
-  "IMS Review Notes": "Updated the Variable name prefix to SrvBUM_",
+  "Date added or modified": "1/19/23",
+  "IMS Review Notes": "Updated the Variable name prefix to SrvMtW_",
   "Formula for Index": [
     "6741",
     "6742",

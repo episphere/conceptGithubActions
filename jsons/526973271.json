@@ -11,7 +11,7 @@
   "Current Question Text": "In the last month, how often did you use peroxide mouthwash (such as Colgate® Peroxyl® Mouth Sore Rinse)",
   "Variable Label": "Peroxide mouthwash frequency past month",
   "Variable Name": [
-    "SrvBUM_MWPEROX_v1r0",
+    "SrvMtW_MWPEROX_v1r0",
     "SrvMtW_MWPEROX_v1r0"
   ],
   "Variable Type": "Num",
@@ -19,7 +19,7 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "1/5/23",
+  "Date added or modified": "1/19/23",
   "Formula for Index": [
     "6729",
     "6730",
@@ -51,7 +51,7 @@
     "Optional Multiple Choice"
   ],
   "IMS Review Notes": [
-    "Updated the Variable name prefix to SrvBUM_",
+    "Updated the Variable name prefix to SrvMtW_",
     "Added Row to add the 44 Never above"
   ]
 }

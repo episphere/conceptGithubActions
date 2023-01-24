@@ -12,15 +12,15 @@
     "470484596.json"
   ],
   "GridID/Source Question Name": [
-    "SrvBUM_SYMPTDAY_v1r0",
-    "SrvBlU_SYMPTDAY_v1r0"
+    "SrvBio_SYMPTDAY_v1r0",
+    "SrvBio_SYMPTDAY_v1r0"
   ],
   "conceptId": "811126581",
   "Current Question Text": "Feeling sick to your stomach or throwing up",
   "Variable Label": "Feeling sick day",
   "Variable Name": [
-    "SrvBUM_VomitDay_v1r0",
-    "SrvBlU_VomitDay_v1r0"
+    "SrvBio_VomitDay_v1r0",
+    "SrvBio_VomitDay_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "3",
@@ -32,7 +32,7 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "1/5/23",
+  "Date added or modified": "1/19/23",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
     "6294",
@@ -47,7 +47,7 @@
     "353358909.json": "1"
   },
   "IMS Review Notes": [
-    "Updated the GridID/Source Question Name and Variable name prefix to SrvBUM_",
+    "Updated the GridID/Source Question Name and Variable name prefix to SrvBio_",
     "Added spaces around ="
   ]
 }

@@ -11,7 +11,7 @@
   "Current Question Text": "In the 1 hour before you donated your mouthwash (saliva) sample, did you smoke, vape, or chew any products (including tobacco)?",
   "Variable Label": "Tobacco Hour Before",
   "Variable Name": [
-    "SrvBUM_TOBACCOBEFORE_v1r0",
+    "SrvMtW_TOBACCOBEFORE_v1r0",
     "SrvMtW_TOBACCOBEFORE_v1r0"
   ],
   "Variable Type": "Num",
@@ -20,9 +20,9 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "1/5/23",
+  "Date added or modified": "1/19/23",
   "Question Type": "Optional Multiple Choice",
-  "IMS Review Notes": "Updated the Variable name prefix to SrvBUM_",
+  "IMS Review Notes": "Updated the Variable name prefix to SrvMtW_",
   "Formula for Index": [
     "6645",
     "6646"

@@ -11,7 +11,7 @@
   "Current Question Text": "While you were in the hospital the [first/2nd/3rd/etc.] time you had COVID-19, did you receive dialysis treatment? If you are not sure, please make your best guess.",
   "Variable Label": "Dialysis",
   "Variable Name": [
-    "SrvBUM_COV17A_v1r0",
+    "SrvBlU_COV17A_v1r0",
     "SrvBlU_COV17A_v1r0"
   ],
   "Variable Type": "Num",
@@ -20,7 +20,7 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "1/5/23",
+  "Date added or modified": "1/19/23",
   "Question Type": "Optional Multiple Choice, Loops",
   "Formula for Index": [
     "6420",
@@ -38,7 +38,7 @@
     "317811347.json": "77"
   },
   "IMS Review Notes": [
-    "Updated the Variable name prefix to SrvBUM_",
+    "Updated the Variable name prefix to SrvBlU_",
     "Column Q added space before the = sign."
   ]
 }

@@ -14,14 +14,14 @@
     "220055064.json"
   ],
   "GridID/Source Question Name": [
-    "SrvBUM_COV28_v1r0",
+    "SrvBlU_COV28_v1r0",
     "SrvBlU_COV28_v1r0"
   ],
   "conceptId": "395747093",
   "Current Question Text": "Which COVID-19 vaccine shot did you get? Please describe [text box]",
   "Variable Label": "Vaccine Brand - Descriptive",
   "Variable Name": [
-    "SrvBUM_COV28Desc_v1r0",
+    "SrvBlU_COV28Desc_v1r0",
     "SrvBlU_COV28Desc_v1r0"
   ],
   "Variable Type": "Char",
@@ -31,7 +31,7 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "1/5/23",
+  "Date added or modified": "1/19/23",
   "Question Type": "Optional Multiple Choice with Text Box, Loops",
-  "IMS Review Notes": "Updated the GridID/Source Question Name and Variable name prefix to SrvBUM_"
+  "IMS Review Notes": "Updated the GridID/Source Question Name and Variable name prefix to SrvBlU_"
 }

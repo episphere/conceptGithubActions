@@ -11,8 +11,8 @@
   "Current Question Text": "When did you last eat or drink anything other than water before donating your samples?",
   "Variable Label": "Eat drink before",
   "Variable Name": [
-    "SrvBUM_EatDrinkBefore_v1r0",
-    "SrvBlU_EatDrinkBefore_v1r0"
+    "SrvBio_EatDrinkBefore_v1r0",
+    "SrvBioEatDrinkBefore_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -20,9 +20,9 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "1/5/23",
+  "Date added or modified": "1/19/23",
   "Question Type": "Optional Multiple Choice",
-  "IMS Review Notes": "Updated the Variable name prefix to SrvBUM_",
+  "IMS Review Notes": "Updated the Variable name prefix to SrvBio_",
   "Formula for Index": [
     "6300",
     "6301",

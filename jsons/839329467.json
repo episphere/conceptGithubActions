@@ -12,14 +12,14 @@
     "487532606.json"
   ],
   "GridID/Source Question Name": [
-    "GRID_SRVBUM_MED1_V1R0",
+    "GRID_SrvBlU_MED1_V1R0",
     "GRID_SRVBLU_MED1_V1R0"
   ],
   "conceptId": "839329467",
   "Current Question Text": "Medications to lower stomach acid [such as Prilosec®, Prevacid®, Protonix®, Aciphex®, Omeprazole, Nexium®, Tagamet®, Zantac®]",
   "Variable Label": "Acid Reducers",
   "Variable Name": [
-    "SrvBUM_Acid_v1r0",
+    "SrvBlU_Acid_v1r0",
     "SrvBlU_Acid_v1r0"
   ],
   "Variable Type": "Num",
@@ -28,9 +28,9 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "1/5/23",
+  "Date added or modified": "1/19/23",
   "Question Type": "Grid with Multiple Choice Sub-Questions",
-  "IMS Review Notes": "Updated the GridID/Source Question Name and Variable name prefix to SrvBUM_",
+  "IMS Review Notes": "Updated the GridID/Source Question Name and Variable name prefix to SrvBlU_",
   "Formula for Index": [
     "6316",
     "6317",
