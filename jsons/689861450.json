@@ -13,8 +13,8 @@
   "Current Question Text": "What time did you wake up on the day that you donated your samples? Select your answer from the drop-down list below.",
   "Variable Label": "Wake up time",
   "Variable Name": [
-    "SrvBio_WakeTime_v1r0",
-    "SrvBioWakeTime_v1r0"
+    "SRVBIO_WAKETIME_V1R0",
+    "SRVBIO_WAKETIME_V1R0"
   ],
   "Variable Type": "Time",
   "Variable Length": "6",
@@ -23,7 +23,7 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "1/19/23",
+  "Date added or modified": "1/26/23",
   "Question Type": "Special Functions",
-  "IMS Review Notes": "Updated the Variable name prefix to SrvBio_"
+  "IMS Review Notes": "Made variable name all caps"
 }
