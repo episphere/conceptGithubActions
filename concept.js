@@ -667,7 +667,7 @@ function getConceptIdCols(header){ // pushing object of headers with concept Ids
 }
 
 async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ********************************************************************************
-    // console.log("fileName",fileName)
+    console.log("fileName",fileName)
     let jsonList = []
     let sourceJSONS = [] // array of each conceptId#.json object
 
@@ -687,7 +687,7 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
         NOTE: Might need to change regex with V1 or V2? Will conceptId#'s have v1 or v2 endings? How will this impact the library moving forward? 
         [0-9]{9}_v[1-2]
         */
-        
+        /* check for current jsons directory for conceptId.json and push contents to sourceJSONS array */ 
         if(file.match(/[0-9]{9}.json/)){ 
             let currFileContents = fs.readFileSync('./jsonsTest/' + file);
             // console.log("currFileContents", currFileContents)
@@ -706,7 +706,7 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
     if(fs.existsSync('./jsonsTest/varToConceptTest.json')){
         ConceptIndex = fs.readFileSync('./jsonsTest/varToConceptTest.json', {encoding:'utf8'}) // MAKE CHANGES TO LIBRARY FOR TESTING 
     }
-    // console.log("ConceptIndex!!!", typeof ConceptIndex, typeof JSON.parse(ConceptIndex), JSON.parse(ConceptIndex))
+    // console.log("ConceptIndex!!! 🚀", typeof ConceptIndex, typeof JSON.parse(ConceptIndex), JSON.parse(ConceptIndex))
     let toReplace = fs.readFileSync(fileName,{encoding:'utf8', flag:'r'})
     
     // console.log("toReplace",typeof toReplace, toReplace) // entire string csv file
@@ -797,16 +797,15 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
             // console.log("conceptCols" , conceptCols)
             // console.log("arr",arr)
             excelOutput.push([arr]) // an array within an array geting pushed to an array
-            // console.log("excelOutput", excelOutput)
+            // console.log("🚀 ~ file: concept.js:800 ~ forawait ~ excelOutput", excelOutput)   
         }
         else if(currCluster){ // conditional for the rows 3 and onwards; third path after 2 rows go through conditional flow
-            // console.log("numCounter elseif currCuster", numCounter, currCluster)
-            // console.log("currCluster!, arr, questionTextIndex",currCluster, arr, "questionText/ varLabel Index ",questionTextIndex)
+            console.log("🚀 currCluster (true), numCounter, arr, questionTextIndex",currCluster,numCounter, arr, "questionText/ varLabel Index ",questionTextIndex)
             if(arr[questionTextIndex] === ''){ // (empty question text) cell path, push curr row arr 
                 console.log('numCounter cluster', numCounter,arr) // leave for testing rows
                 // console.log('arr[questionTextIndex]', questionTextIndex, arr[questionTextIndex], numCounter)
                 cluster.push(arr); // appending to cluster the arrays with Qtext value
-                // console.log("cluster after arr empty question Text if block",numCounter, cluster)
+                console.log("🎉🎉 cluster after arr empty question Text if block",numCounter, cluster)
             }
             else{ // If question Text in current Row from arr (CSVToArray function return) HAS value
                 // console.log("cluster", numCounter, cluster)
@@ -825,7 +824,7 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
                 let returned = processCluster(cluster, header, nameToConcept, questionTextIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList, /[0-9]+\s*=/, numCounter)
                 excelOutput.push(returned) // push to excelOutput (Main array of rows)
                 cluster = [arr] // reassign empty array with current row line arr (to be used in processCluster)
-                console.log("cluster after arr", numCounter, cluster)
+                console.log("🎉 cluster after arr", numCounter, cluster)
                 currCluster = true;
             }
         }
