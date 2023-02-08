@@ -5742,7 +5742,6 @@
   "360678252": {
     "Variable Label": "Teeth Lost from other",
     "Variable Name": [
-      "SrvMtW_TEETHLOSTOTH_v1r0",
       "SrvMtW_TEETHLOSTOTH_v1r0"
     ]
   },
@@ -6340,7 +6339,7 @@
   "391951010": {
     "Variable Label": "Outcome pregnancy",
     "Variable Name": [
-      "SrvMRE_PregOutcome_v1r0"
+      "SrvMRE_PregOutcome_v1r1"
     ]
   },
   "391972881": {
@@ -6621,7 +6620,7 @@
   "405571048": {
     "Variable Label": "Times pregnant",
     "Variable Name": [
-      "SrvMRE_TimesPreg_v1r0"
+      "SrvMRE_TimesPreg_v2r0"
     ]
   },
   "406011084": {
@@ -7159,6 +7158,9 @@
       "SrvSAS_CigsUsed6069_v1r0"
     ]
   },
+  "434041171": {
+    "Variable Name": "Termination"
+  },
   "434243220": {
     "Variable Label": "Months use combined oral contraceptive pills",
     "Variable Name": [
@@ -7542,6 +7544,12 @@
     "Variable Label": "State/Province",
     "Variable Name": [
       "SrvLAW_ChildStateFU_v1r0"
+    ]
+  },
+  "451953807": {
+    "Variable Label": "Any refusal or withdrawal",
+    "Variable Name": [
+      "HdRef_AnyRefOrWd_v1r0"
     ]
   },
   "451961786": {
@@ -9768,6 +9776,9 @@
       "SrvSAS_ECigNeverReg_v1r0"
     ]
   },
+  "550615107": {
+    "Variable Name": "Ectopic or tubal pregnancy (fertilized egg implants outside of the uterus)"
+  },
   "550646850": {
     "Variable Label": "Time, Commuter rail, subway, metro commute from current school",
     "Variable Name": [
@@ -10698,7 +10709,7 @@
     "Variable Label": "Retail or wholesale sales",
     "Variable Name": [
       "SrvBOH_RetailWholeC_v2r0",
-      "SrvBOH_RetailWhole_v2r0"
+      "SrvBOH_RetailWholeP_v2r0"
     ]
   },
   "592957464": {
@@ -12627,6 +12638,12 @@
       "SrvBlU_COV8N_v1r0"
     ]
   },
+  "684201296": {
+    "Variable Label": "Other medication: please describe text box",
+    "Variable Name": [
+      "SrvMRE_OthHorMedsDes_v1r0"
+    ]
+  },
   "684217044": {
     "Variable Label": "Zip code",
     "Variable Name": [
@@ -13147,7 +13164,7 @@
   "706254326": {
     "Variable Label": "Electronic delivery devices that can be vaped, such as e-cigarettes, Juul, blue, and NJOY. These electronic delivery devices are battery-powered and create vapor.",
     "Variable Name": [
-      "SrvSAS_EDevice_v1r0"
+      "SrvSAS_EDevice_v2r0"
     ]
   },
   "706256705": {
@@ -13484,7 +13501,6 @@
   "724589244": {
     "Variable Label": "Teeth Lost from accident or injury",
     "Variable Name": [
-      "SrvMtW_TEETHLOSTAI_v1r0",
       "SrvMtW_TEETHLOSTAI_v1r0"
     ]
   },
@@ -15517,6 +15533,7 @@
       "SrvBOH_OtherBusinessP_v1r0",
       "SrvMRE_OtherPregIssue_v1r0",
       "SrvMRE_OtherFertMeds_v1r0",
+      "SrvMRE_OtherHorMeds_v1r0",
       "SrvMRE_OthEstrogenMed_v1r0",
       "SrvMRE_OtherProg_v1r0",
       "SrvMRE_AnyCombPill_v1r0",
@@ -15588,7 +15605,7 @@
   "810324917": {
     "Variable Label": "Why consume marijuana in food or drinks",
     "Variable Name": [
-      "SrvSAS_WhyEdibles_v1r0"
+      "SrvSAS_WhyEdibles_v2r0"
     ]
   },
   "810340693": {
@@ -16937,7 +16954,7 @@
   "869829679": {
     "Variable Label": "Home address summary",
     "Variable Name": [
-      "SrvLAW_HomeAddSum_v1r0"
+      "SrvLAW_HomeAddSum_v1r1"
     ]
   },
   "870456401": {
@@ -17090,7 +17107,7 @@
   "877074400": {
     "Variable Label": "# COVID vaccines",
     "Variable Name": [
-      "SrvBlU_COV26_v1r0",
+      "SrvBlU_COV26_v2r0",
       "SrvBlU_COV26_v1r0"
     ]
   },
@@ -17320,7 +17337,7 @@
   "890156588": {
     "Variable Label": "COVID vaccination",
     "Variable Name": [
-      "SrvBlU_COV25_v1r0",
+      "SrvBlU_COV25_v2r0",
       "SrvBlU_COV25_v1r0"
     ]
   },
@@ -17480,7 +17497,7 @@
     ]
   },
   "899251483": {
-    "Variable Name": "Have you lost any of your permanent adult teeth, not including your wisdom teeth? Select all that apply."
+    "Variable Name": "Have you lost any of your permanent adult teeth, not including tooth crowns or your wisdom teeth? Select all that apply."
   },
   "899315984": {
     "Variable Label": "Sample survey used borrowed device",
@@ -18768,7 +18785,6 @@
   "957305523": {
     "Variable Label": "Teeth Lost from decay or disease",
     "Variable Name": [
-      "SrvMtW_TEETHLOSTD_v1r0",
       "SrvMtW_TEETHLOSTD_v1r0"
     ]
   },
