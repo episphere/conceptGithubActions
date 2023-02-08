@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "6622",
-  "Index": "6622",
+  "Formula for Index": "6629",
+  "Index": "6629",
   "Primary Source": [
     "129084651.json",
     "129084651.json"
@@ -9,11 +9,14 @@
     "299215535.json",
     "826163434.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "11/30/22",
   "conceptId": "877074400",
   "Current Question Text": "How many shots of the COVID-19 vaccine did you get? Please include your initial vaccination and any booster shots.",
+  "V1 Question Text": "How many shots of vaccine did you get?",
   "Variable Label": "# COVID vaccines",
   "Variable Name": [
-    "SrvBlU_COV26_v1r0",
+    "SrvBlU_COV26_v2r0",
     "SrvBlU_COV26_v1r0"
   ],
   "Variable Type": "Num",
@@ -23,7 +26,7 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "1/19/23",
+  "Date added or modified": "2/2/23",
   "Question Type": "Text Only Response",
-  "IMS Review Notes": "Updated the Variable name prefix to SrvBlU_"
+  "IMS Review Notes": "Backlog documentation of edits. Denoted question revised, prod push date, V1 question text, updated variable name prefix to _v2r0"
 }

@@ -5,6 +5,8 @@
   "Secondary Source": [
     "716117817.json"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "8/29/22",
   "conceptId": "720221117",
   "Current Question Text": "Which previously entered address did you live at when you were about 13 years old?",
   "Variable Label": "Previously listed childhood address",
@@ -19,31 +21,33 @@
   "Required": "No",
   "PII": "Yes",
   "Notes": "Addresses are piped into the response variables from previous answers.  The number of options is limited by the number of address given by the participant. Only there response variabler code (0, 1, 2, etc) is saved on the back end of Quest. Once the concept IDs are assigned to each response option, that's what will be saved as the response in BigQuery.",
+  "Date added or modified": "2/2/23",
+  "IMS Review Notes": "Denoted variable as New and added date pushed to prod",
   "Formula for Index": [
-    "5670",
-    "5671",
-    "5672",
-    "5673",
-    "5674",
-    "5675",
-    "5676",
     "5677",
     "5678",
     "5679",
-    "5680"
+    "5680",
+    "5681",
+    "5682",
+    "5683",
+    "5684",
+    "5685",
+    "5686",
+    "5687"
   ],
   "Index": [
-    "5670",
-    "5671",
-    "5672",
-    "5673",
-    "5674",
-    "5675",
-    "5676",
     "5677",
     "5678",
     "5679",
-    "5680"
+    "5680",
+    "5681",
+    "5682",
+    "5683",
+    "5684",
+    "5685",
+    "5686",
+    "5687"
   ],
   "Current Format/Value": {
     "658491312.json": "0",

@@ -7,11 +7,14 @@
     "299215535.json",
     "826163434.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "11/30/22",
   "conceptId": "890156588",
   "Current Question Text": "Did you get vaccinated against COVID-19?",
+  "V1 Question Text": "Did you get a COVID-19 vaccination?",
   "Variable Label": "COVID vaccination",
   "Variable Name": [
-    "SrvBlU_COV25_v1r0",
+    "SrvBlU_COV25_v2r0",
     "SrvBlU_COV25_v1r0"
   ],
   "Variable Type": "Num",
@@ -20,18 +23,18 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "1/19/23",
+  "Date added or modified": "2/2/23",
   "Question Type": "Optional Multiple Choice",
-  "IMS Review Notes": "Updated the Variable name prefix to SrvBlU_",
+  "IMS Review Notes": "Backlog documentation of edits. Denoted question revised, prod push date, V1 question text, updated variable name prefix to _v2r0",
   "Formula for Index": [
-    "6619",
-    "6620",
-    "6621"
+    "6626",
+    "6627",
+    "6628"
   ],
   "Index": [
-    "6619",
-    "6620",
-    "6621"
+    "6626",
+    "6627",
+    "6628"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

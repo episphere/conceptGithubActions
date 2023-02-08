@@ -13,18 +13,26 @@
     "390351864.json",
     "390351864.json"
   ],
-  "Source Question": [
+  "Current Source Question": [
     "899251483.json",
     "542661394.json",
     "899251483.json",
     "542661394.json"
   ],
+  "V1 Source Question": [
+    "Have you lost any of your permanent adult teeth, not including your wisdom teeth? Select all that apply.",
+    "",
+    "",
+    ""
+  ],
   "GridID/Source Question Name": [
-    "SrvMtW_PERMTTHLOST_v1r0",
+    "SrvMtW_PERMTTHLOST_v2r0",
     "SrvMtW_DENTURES_v1r0",
     "SrvMtW_PERMTTHLOST_v1r0",
     "SrvMtW_DENTURES_v1r0"
   ],
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "12/2/22",
   "Variable Label": "No permanent teeth lost",
   "Variable Name": [
     "SrvMtW_NOPERMTTHLOST_v1r0",
@@ -44,16 +52,16 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "1/19/23",
+  "Date added or modified": "2/2/23",
   "Question Type": "Select All That Apply",
-  "IMS Review Notes": "Updated the GridID/Source Question Name and Variable name prefix to SrvMtW_",
+  "IMS Review Notes": "Revised Source Question text, GridID/Source Question name to _v2r0, and added prod push date",
   "Formula for Index": [
-    "6759",
-    "6760"
+    "6766",
+    "6767"
   ],
   "Index": [
-    "6759",
-    "6760"
+    "6766",
+    "6767"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

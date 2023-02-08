@@ -1,17 +1,14 @@
 {
   "Primary Source": [
-    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "299215535.json",
     "390351864.json"
   ],
   "conceptId": "724589244",
   "Current Question Text": "How many teeth have you lost from accident or injury? Do not include wisdom teeth.",
   "Variable Label": "Teeth Lost from accident or injury",
   "Variable Name": [
-    "SrvMtW_TEETHLOSTAI_v1r0",
     "SrvMtW_TEETHLOSTAI_v1r0"
   ],
   "Variable Type": "Num",
@@ -20,24 +17,24 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "1/19/23",
+  "Date added or modified": "1/5/23",
   "Question Type": "Optional Multiple Choice",
-  "IMS Review Notes": "Updated the Variable name prefix to SrvMtW_",
+  "IMS Review Notes": "Added Mw Survey variables",
   "Formula for Index": [
-    "6761",
-    "6762",
-    "6763",
-    "6764",
-    "6765",
-    "6766"
+    "7486",
+    "7487",
+    "7488",
+    "7489",
+    "7490",
+    "7491"
   ],
   "Index": [
-    "6761",
-    "6762",
-    "6763",
-    "6764",
-    "6765",
-    "6766"
+    "7486",
+    "7487",
+    "7488",
+    "7489",
+    "7490",
+    "7491"
   ],
   "Current Format/Value": {
     "349122068.json": "0",

@@ -5,17 +5,20 @@
   "Secondary Source": [
     "965707586.json"
   ],
-  "Source Question": [
+  "Current Source Question": [
     "947205597.json"
   ],
   "GridID/Source Question Name": [
     "TOBACCO"
   ],
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "8/29/22",
   "conceptId": "706254326",
-  "Current Question Text": "Electronic delivery devices that can be vaped, such as e-cigarettes, Juul, blue, and NJOY. These electronic delivery devices are battery-powered and create vapor.",
+  "Current Question Text": "Electronic delivery devices that can be vaped, such as e-cigarettes; some of the most popular brands include Juul, blu, and NJOY. These electronic delivery devices are battery-powered and create vapor.",
+  "V1 Question Text": "Electronic delivery devices that can be vaped, such as e-cigarettes, Juul, blue, and NJOY. These electronic delivery devices are battery-powered and create vapor.",
   "Variable Label": "Electronic delivery devices that can be vaped, such as e-cigarettes, Juul, blue, and NJOY. These electronic delivery devices are battery-powered and create vapor.",
   "Variable Name": [
-    "SrvSAS_EDevice_v1r0"
+    "SrvSAS_EDevice_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "1"
@@ -24,14 +27,15 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "10/20/21",
+  "Date added or modified": "2/2/23",
+  "IMS Review Notes": "Backlog documentation  edit. Denoted revised status, V1 question text, variable name suffix _v2r0",
   "Formula for Index": [
-    "3605",
-    "3606"
+    "3612",
+    "3613"
   ],
   "Index": [
-    "3605",
-    "3606"
+    "3612",
+    "3613"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

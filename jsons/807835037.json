@@ -36,6 +36,7 @@
     "129084651.json",
     "129084651.json",
     "129084651.json",
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
@@ -67,6 +68,7 @@
     "745268907.json",
     "745268907.json",
     "745268907.json",
+    "745268907.json",
     "965707586.json",
     "965707586.json",
     "299215535.json",
@@ -75,7 +77,7 @@
     "506648060.json",
     "506648060.json"
   ],
-  "Source Question": [
+  "Current Source Question": [
     "740819233.json",
     "384191091.json",
     "362270886.json",
@@ -100,6 +102,7 @@
     "530742915.json",
     "548355426.json",
     "881200765.json",
+    "543780863.json",
     "668834883.json",
     "800943768.json",
     "263785082.json",
@@ -138,6 +141,7 @@
     "SrvBOH_OtherBusinessP_v1r0",
     "SrvMRE_OtherPregIssue_v1r0",
     "SrvMRE_OtherFertMeds_v1r0",
+    "SrvMRE_OtherHorMeds_v1r0",
     "SrvMRE_OthEstrogenMed_v1r0",
     "SrvMRE_OtherProg_v1r0",
     "SrvMRE_AnyCombPill_v1r0",
@@ -160,12 +164,12 @@
   "Default Variable": "No",
   "Date added or modified": "11/25/22",
   "Formula for Index": [
-    "937",
-    "938"
+    "939",
+    "940"
   ],
   "Index": [
-    "937",
-    "938"
+    "939",
+    "940"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
@@ -196,6 +200,7 @@
     "BSNSSTYP2",
     "FERT4",
     "FERT6",
+    "HORMED1",
     "ESTROHOR",
     "PROGHOR",
     "COMBHOR",
@@ -211,6 +216,7 @@
   "Variable Label": "None of these fully describe me. Please describe",
   "Connect Value for Select all that apply questions - Surveys Only": [
     "",
+    "55",
     "55",
     "55",
     "55",
