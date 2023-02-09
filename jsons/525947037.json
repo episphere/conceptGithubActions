@@ -9,7 +9,7 @@
     "566579639.json"
   ],
   "GridID/Source Question Name": [
-    "SRVCSS_PROV6A_V1R0"
+    "GRID_SRVCSS_PROV6A_V1R0"
   ],
   "conceptId": "525947037",
   "Current Question Text": "I was worried about what a doctor might find.",
@@ -21,8 +21,8 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "1/30/23",
-  "IMS Review Notes": "Updated Source Question and capitalized GridID/Source Question Name",
+  "Date added or modified": "2/8/23",
+  "IMS Review Notes": "Added GRID_ prefix to GridID/Source Question Name",
   "Formula for Index": [
     "7545",
     "7546",
