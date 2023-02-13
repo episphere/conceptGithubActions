@@ -1,17 +1,20 @@
 {
-  "Formula for Index": "2625",
-  "Index": "2625",
+  "Formula for Index": "2627",
+  "Index": "2627",
   "Primary Source": [
     "129084651.json"
   ],
   "Secondary Source": [
     "745268907.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "10/26/22",
   "conceptId": "405571048",
   "Current Question Text": "How many times have you been pregnant? Please include all live births, as well as pregnancies that ended as stillbirths or other pregnancy losses. Twins, triplets, or higher multiples count as one pregnancy.",
+  "V1 Question Text": "How many times have you been pregnant? Please include all live births, as well as pregnancies that ended as stillbirths, miscarriages, ectopics or tubal pregnancies, or termination. Twins, triplets, or higher multiples count as one pregnancy.",
   "Variable Label": "Times pregnant",
   "Variable Name": [
-    "SrvMRE_TimesPreg_v1r0"
+    "SrvMRE_TimesPreg_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "PREG3"
@@ -20,6 +23,6 @@
   "Variable Length": "3",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "9/1/22",
-  "IMS Review Notes": "Updated column K language to reflect content change."
+  "Date added or modified": "2/2/23",
+  "IMS Review Notes": "Backlog documentation of 9/1/2022 edit. Denoted revised status, V1 question text, variable name suffix _v2r0"
 }

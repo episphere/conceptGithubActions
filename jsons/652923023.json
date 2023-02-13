@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "6624",
-  "Index": "6624",
+  "Formula for Index": "6631",
+  "Index": "6631",
   "Primary Source": [
     "129084651.json",
     "129084651.json"
@@ -9,7 +9,7 @@
     "299215535.json",
     "826163434.json"
   ],
-  "Source Question": [
+  "Current Source Question": [
     "715581797.json",
     "715581797.json"
   ],
@@ -18,6 +18,7 @@
     "SrvBlU_COV27_v1r0"
   ],
   "Deprecated, New, or Revised": "Deprecated",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "11/30/22",
   "conceptId": "652923023",
   "Current Question Text": "When were you vaccinated? Year",
   "Variable Label": "Vaccine Date Year",
@@ -32,7 +33,7 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "1/19/23",
+  "Date added or modified": "2/2/23",
   "Question Type": "Multiple Text Boxes, Loops",
-  "IMS Review Notes": "Updated the GridID/Source Question Name and Variable name prefix to SrvBlU_"
+  "IMS Review Notes": "Updated deprecated push to prod date"
 }

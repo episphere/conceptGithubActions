@@ -5,12 +5,13 @@
   "Secondary Source": [
     "716117817.json"
   ],
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "12/14/22",
   "conceptId": "869829679",
   "Current Question Text": "Please review the list below and tell us if it includes all of the addresses where you have lived for at least two years in the last 20 years. Address 1",
   "V1 Question Text": "Please review the list below and tell us if it includes all of the addresses where you have lived for at least two years in the last 20 years.",
   "Variable Label": "Home address summary",
   "Variable Name": [
-    "SrvLAW_HomeAddSum_v1r0"
+    "SrvLAW_HomeAddSum_v1r1"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "HOMEADDSUM"
@@ -21,37 +22,38 @@
   "PII": "No",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "4/12/22",
+  "Date added or modified": "2/7/23",
   "Question Type": "Optional Multiple Choice",
+  "IMS Review Notes": "Added date pushed to prod",
   "Formula for Index": [
-    "4720",
-    "4721",
-    "4722",
-    "4723",
-    "4724",
-    "4725",
-    "4726",
     "4727",
     "4728",
     "4729",
     "4730",
     "4731",
-    "4732"
+    "4732",
+    "4733",
+    "4734",
+    "4735",
+    "4736",
+    "4737",
+    "4738",
+    "4739"
   ],
   "Index": [
-    "4720",
-    "4721",
-    "4722",
-    "4723",
-    "4724",
-    "4725",
-    "4726",
     "4727",
     "4728",
     "4729",
     "4730",
     "4731",
-    "4732"
+    "4732",
+    "4733",
+    "4734",
+    "4735",
+    "4736",
+    "4737",
+    "4738",
+    "4739"
   ],
   "Deprecated, New, or Revised": [
     "Revised",

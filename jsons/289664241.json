@@ -11,12 +11,13 @@
   "Secondary Source": [
     "726699695.json"
   ],
-  "Source Question": [
+  "Current Source Question": [
     "289664241.json"
   ],
   "GridID/Source Question Name": [
     "GEN"
   ],
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/18/23",
   "Variable Label": "Gender",
   "Variable Name": [
     "SrvBOH_Gender_v1r1"
@@ -30,24 +31,24 @@
   "PII": "No",
   "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
   "Formula for Index": [
-    "1195",
-    "1196",
     "1197",
     "1198",
     "1199",
     "1200",
     "1201",
-    "1202"
+    "1202",
+    "1203",
+    "1204"
   ],
   "Index": [
-    "1195",
-    "1196",
     "1197",
     "1198",
     "1199",
     "1200",
     "1201",
-    "1202"
+    "1202",
+    "1203",
+    "1204"
   ],
   "Deprecated, New, or Revised": [
     "Revised",
@@ -77,7 +78,7 @@
     "4 = Genderqueer, not exclusively male or female"
   ],
   "Date added or modified": [
-    "12/12/22",
+    "2/2/23",
     "12/12/22",
     "12/12/22",
     "12/12/22",
@@ -85,7 +86,7 @@
     "12/12/22"
   ],
   "IMS Review Notes": [
-    "Updated response value",
+    "Denoted date revised variable pushed to prod",
     "Updated response value",
     "Updated response value",
     "Updated response value",

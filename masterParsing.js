@@ -1,6 +1,15 @@
 const fs = require('fs');
 const concept = require('./concept');
 
+function isGridIdSourceQuestionNamePrefixMatch (text) {
+    // add grid and custom prefix here for reference
+    // console.log("text", text)
+    const prefixMatches = ["grid_","stack_"]
+    const isMatch = prefixMatches.some(match => text.toLowerCase().includes(match))
+    // console.log("isMatch", isMatch)
+    return isMatch
+}
+
 function parseMasterModule() {
     let masterJSON = {};
     let fileList = [];
@@ -27,7 +36,7 @@ function parseMasterModule() {
     let toCheckIds = [];
     // add new secondary source concept Ids here 
     // const secondarySourceCids = ["745268907.json","965707586.json","898006288.json", "726699695.json", "716117817.json", "131497719.json", "232438133.json", "299215535.json", "166676176.json"] 
-    const secondarySourceCids = ["745268907.json","965707586.json","898006288.json", "726699695.json", "716117817.json", "131497719.json", "232438133.json", "299215535.json", "166676176.json", "826163434.json" ,"506648060.json", "110511396.json"] 
+    const secondarySourceCids = ["745268907.json","965707586.json","898006288.json", "726699695.json", "716117817.json", "131497719.json", "232438133.json", "299215535.json", "166676176.json", "826163434.json" ,"506648060.json", "110511396.json"]
 
     // let numString = 0 // Test for Deprecated filter
     // let stringCids = [] //Test for Deprecated filter
@@ -44,8 +53,8 @@ function parseMasterModule() {
                 if(currJSON['GridID/Source Question Name']){
                     currJSON['GridID/Source Question Name'] = [currJSON['GridID/Source Question Name']];   
                 }
-                if(currJSON['Source Question']){
-                    currJSON['Source Question'] = [currJSON['Source Question']];   
+                if(currJSON['Current Source Question']){
+                    currJSON['Current Source Question'] = [currJSON['Current Source Question']];   
                 }
                 if(currJSON['Connect Value for Select all that apply questions - Surveys Only']){
                     currJSON['Connect Value for Select all that apply questions - Surveys Only'] = [currJSON['Connect Value for Select all that apply questions - Surveys Only']];   
@@ -104,7 +113,7 @@ function parseMasterModule() {
             }
 
             for (let sourceIndex = 0; sourceIndex < currJSON['Primary Source'].length; sourceIndex++) {
-                
+
                 if (currJSON['Primary Source'][sourceIndex] && currJSON['Primary Source'][sourceIndex] === "129084651.json") {
                     //Checks for module name
                     // "898006288.json", "726699695.json"
@@ -123,21 +132,34 @@ function parseMasterModule() {
                                 let toInsert = {}; // Reassigned on every JSON file read
                                 let headerName = currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex];
                                 if (currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex] == "77") {
-                                    //console.log(currJSON)
-                                    //console.log(headerName)
+                                    // console.log(currJSON)
+                                    // console.log(headerName)
                                 }
                                 
                                 // if(currJSON['conceptId'] === '842768118') {console.log('🚀 TEST, 842768118' , currJSON['conceptId'])}
-                                if (!currJSON['GridID/Source Question Name'] || !currJSON['GridID/Source Question Name'][sourceIndex] || (!Array.isArray(currJSON['GridID/Source Question Name'][sourceIndex]) && currJSON['GridID/Source Question Name'][sourceIndex].toLowerCase().includes('grid_'))) { // REVISIT AT THE END ~~~ 
+                                /* TEST ALL CONDITIONALS */
+                                if(currJSON['conceptId'] === '842768118') {
+                                    // Together OR 
+                                    console.log("🧐🧐🧐 !currJSON['GridID/Source Question Name']", !currJSON['GridID/Source Question Name'])
+                                    console.log("🧐🧐🧐 !currJSON['GridID/Source Question Name'][sourceIndex]", !currJSON['GridID/Source Question Name'][sourceIndex])
+
+                                    // Together AND 
+                                    console.log("🧐🧐🧐 (!Array.isArray(currJSON['GridID/Source Question Name'][sourceIndex])", (!Array.isArray(currJSON['GridID/Source Question Name'][sourceIndex])))
+                                    console.log("🧐🧐🧐 currJSON['GridID/Source Question Name'][sourceIndex]", isGridIdSourceQuestionNamePrefixMatch(currJSON['GridID/Source Question Name'][sourceIndex]), currJSON['GridID/Source Question Name'][sourceIndex])
+                                }
+                                    
+                                /* TEST ALL CONDITIONALS */
+                                if (!currJSON['GridID/Source Question Name'] || !currJSON['GridID/Source Question Name'][sourceIndex] || (!Array.isArray(currJSON['GridID/Source Question Name'][sourceIndex]) && isGridIdSourceQuestionNamePrefixMatch(currJSON['GridID/Source Question Name'][sourceIndex]))) { // REVISIT AT THE END ~~~ 
                                     // if(currJSON['conceptId'] === '842768118') {console.log('🚀 TEST, 842768118' , currJSON['conceptId'])}
-                                    if (currJSON['GridID/Source Question Name'] && currJSON['GridID/Source Question Name'][sourceIndex] && currJSON['GridID/Source Question Name'][sourceIndex].toLowerCase().includes('grid_')) { // Adds GRIDS to toReturn (transformation object)
+
+                                    if (currJSON['GridID/Source Question Name'] && currJSON['GridID/Source Question Name'][sourceIndex] && isGridIdSourceQuestionNamePrefixMatch(currJSON['GridID/Source Question Name'][sourceIndex])) { // Adds GRIDS to toReturn (transformation object)
                                         // if(currJSON['conceptId'] === '842768118') {console.log('🚀 TEST, 842768118' , currJSON['GridID/Source Question Name'][sourceIndex])}
-                                        if (currJSON['Source Question'] && currJSON['Source Question'][sourceIndex]) {
-                                            if(currJSON['conceptId'] === '842768118') {console.log("🚀 ~ file: masterParsing.js:136 ~ currJSON['Source Question'][sourceIndex]", currJSON['Source Question'][sourceIndex])}
-                                            // console.log("🚀🚀🚀 toReturn with GRIDS",currJSON['conceptId'], [currJSON['GridID/Source Question Name'][sourceIndex]], {'conceptId': currJSON['Source Question'][sourceIndex].substring(0, 9),'questionText': masterJSON[currJSON['Source Question'][sourceIndex]]['Current Question Text']})
+                                        if (currJSON['Current Source Question'] && currJSON['Current Source Question'][sourceIndex]) {
+                                            if(currJSON['conceptId'] === '842768118') {console.log("🚀 ~ file: masterParsing.js:136 ~ currJSON['Current Source Question'][sourceIndex]", currJSON['Current Source Question'][sourceIndex])}
+                                            // console.log("🚀🚀🚀 toReturn with GRIDS",currJSON['conceptId'], [currJSON['GridID/Source Question Name'][sourceIndex]], {'conceptId': currJSON['Current Source Question'][sourceIndex].substring(0, 9),'questionText': masterJSON[currJSON['Current Source Question'][sourceIndex]]['Current Question Text']})
                                             toReturn[currJSON['GridID/Source Question Name'][sourceIndex]] = {
-                                                'conceptId': currJSON['Source Question'][sourceIndex].substring(0, 9),
-                                                'questionText': masterJSON[currJSON['Source Question'][sourceIndex]]['Current Question Text']
+                                                'conceptId': currJSON['Current Source Question'][sourceIndex].substring(0, 9),
+                                                'questionText': masterJSON[currJSON['Current Source Question'][sourceIndex]]['Current Question Text']
                                             }
                                             // if(currJSON['conceptId'] === '842768118') {console.log("🚀 currJSON['GridID/Source Question Name'][sourceIndex]", currJSON['GridID/Source Question Name'][sourceIndex])}
                                         }
@@ -223,8 +245,8 @@ function parseMasterModule() {
                                                         'conceptId':currJSON['conceptId'].substring(0, 9)
                                                     }
                                                     // console.log(currJSON)
-                                                    toReturn[name]['conceptId'] = currJSON['Source Question'][sourceIndex].substring(0, 9)
-                                                    toReturn[name]['concept'] = masterJSON[currJSON['Source Question'][sourceIndex]]['Current Question Text']
+                                                    toReturn[name]['conceptId'] = currJSON['Current Source Question'][sourceIndex].substring(0, 9)
+                                                    toReturn[name]['concept'] = masterJSON[currJSON['Current Source Question'][sourceIndex]]['Current Question Text']
                                                 }
                                             }
                                             else{
@@ -343,10 +365,10 @@ function parseMasterModule() {
                                                     "conceptId": masterJSON[valNum] ? masterJSON[valNum]['conceptId'] : thisConcept,
                                                     "concept": valNum
                                                 }
-                                                if (!toInsert['Source Question']) {
-                                                    toInsert['questionText'] = masterJSON[currJSON['Source Question'][sourceIndex]]['Current Question Text'];
+                                                if (!toInsert['Current Source Question']) {
+                                                    toInsert['questionText'] = masterJSON[currJSON['Current Source Question'][sourceIndex]]['Current Question Text'];
                                                 }
-                                                toInsert['conceptId'] = currJSON['Source Question'][sourceIndex].substring(0, 9);
+                                                toInsert['conceptId'] = currJSON['Current Source Question'][sourceIndex].substring(0, 9);
     
                                                 toReturn[headerName.toUpperCase()] = toInsert;
     
@@ -370,10 +392,10 @@ function parseMasterModule() {
                                                         "conceptId": valNum.substring(0, 9),
                                                         "concept": masterJSON[valNum]["Current Question Text"]
                                                     }
-                                                    if (!toInsert['Source Question']) {
-                                                        toInsert['questionText'] = masterJSON[currJSON['Source Question'][sourceIndex]]['Current Question Text'];
+                                                    if (!toInsert['Current Source Question']) {
+                                                        toInsert['questionText'] = masterJSON[currJSON['Current Source Question'][sourceIndex]]['Current Question Text'];
                                                     }
-                                                    toInsert['conceptId'] = currJSON['Source Question'][sourceIndex].substring(0, 9);
+                                                    toInsert['conceptId'] = currJSON['Current Source Question'][sourceIndex].substring(0, 9);
     
                                                     toReturn[headerName.toUpperCase()] = toInsert;
                                                 }
@@ -405,13 +427,13 @@ function parseMasterModule() {
                                                
                                                 questIds[currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()]['isTextBox'] = isTB;
                                             }
-                                            if (currJSON['Source Question'] && currJSON['Source Question'][sourceIndex]) {
-                                                toInsert['conceptId'] = currJSON['Source Question'][sourceIndex].substring(0, 9);
-                                                if (!masterJSON[currJSON['Source Question'][sourceIndex]]) {
+                                            if (currJSON['Current Source Question'] && currJSON['Current Source Question'][sourceIndex]) {
+                                                toInsert['conceptId'] = currJSON['Current Source Question'][sourceIndex].substring(0, 9);
+                                                if (!masterJSON[currJSON['Current Source Question'][sourceIndex]]) {
                                                     //console.log(currJSON)
                                                 }
     
-                                                toInsert['questionText'] = masterJSON[currJSON['Source Question'][sourceIndex]]['Current Question Text'];
+                                                toInsert['questionText'] = masterJSON[currJSON['Current Source Question'][sourceIndex]]['Current Question Text'];
                                             }
     
                                             toReturn[headerName.toUpperCase()] = toInsert;
@@ -446,10 +468,10 @@ function parseMasterModule() {
                                             if (isTB) {
                                                 questIds[currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()]['isTextBox'] = true;
                                             }
-                                            if (currJSON['Source Question'] && currJSON['Source Question'][sourceIndex]) {
-                                                toInsert['conceptId'] = currJSON['Source Question'][sourceIndex][k].substring(0, 9);
+                                            if (currJSON['Current Source Question'] && currJSON['Current Source Question'][sourceIndex]) {
+                                                toInsert['conceptId'] = currJSON['Current Source Question'][sourceIndex][k].substring(0, 9);
     
-                                                toInsert['questionText'] = masterJSON[currJSON['Source Question'][sourceIndex][k]]['Current Question Text'];
+                                                toInsert['questionText'] = masterJSON[currJSON['Current Source Question'][sourceIndex][k]]['Current Question Text'];
                                             }
                                             //console.log(masterJSON[head])
     
@@ -481,13 +503,13 @@ function parseMasterModule() {
                               }
                               
                               
-                              if (!currJSON['GridID/Source Question Name'] || !currJSON['GridID/Source Question Name'][sourceIndex] || (!Array.isArray(currJSON['GridID/Source Question Name'][sourceIndex]) && currJSON['GridID/Source Question Name'][sourceIndex].toLowerCase().includes('grid_'))) {
-                                  if (currJSON['GridID/Source Question Name'] && currJSON['GridID/Source Question Name'][sourceIndex] && currJSON['GridID/Source Question Name'][sourceIndex].toLowerCase().includes('grid_')) {
+                              if (!currJSON['GridID/Source Question Name'] || !currJSON['GridID/Source Question Name'][sourceIndex] || (!Array.isArray(currJSON['GridID/Source Question Name'][sourceIndex]) && isGridIdSourceQuestionNamePrefixMatch(currJSON['GridID/Source Question Name'][sourceIndex]))) {
+                                  if (currJSON['GridID/Source Question Name'] && currJSON['GridID/Source Question Name'][sourceIndex] && isGridIdSourceQuestionNamePrefixMatch(currJSON['GridID/Source Question Name'][sourceIndex])) {
                                       
-                                      if (currJSON['Source Question'] && currJSON['Source Question'][sourceIndex]) {
+                                      if (currJSON['Current Source Question'] && currJSON['Current Source Question'][sourceIndex]) {
                                           toReturn[currJSON['GridID/Source Question Name'][sourceIndex]] = {
-                                              'conceptId': currJSON['Source Question'][sourceIndex].substring(0, 9),
-                                              'questionText': masterJSON[currJSON['Source Question'][sourceIndex]]['Current Question Text']
+                                              'conceptId': currJSON['Current Source Question'][sourceIndex].substring(0, 9),
+                                              'questionText': masterJSON[currJSON['Current Source Question'][sourceIndex]]['Current Question Text']
                                           }
                                       }
     
@@ -696,10 +718,10 @@ function parseMasterModule() {
                                                   "conceptId": masterJSON[valNum] ? masterJSON[valNum]['conceptId'] : thisConcept,
                                                   "concept": valNum
                                               }
-                                              if (!toInsert['Source Question']) {
-                                                  toInsert['questionText'] = masterJSON[currJSON['Source Question'][sourceIndex]]['Current Question Text'];
+                                              if (!toInsert['Current Source Question']) {
+                                                  toInsert['questionText'] = masterJSON[currJSON['Current Source Question'][sourceIndex]]['Current Question Text'];
                                               }
-                                              toInsert['conceptId'] = currJSON['Source Question'][sourceIndex].substring(0, 9);
+                                              toInsert['conceptId'] = currJSON['Current Source Question'][sourceIndex].substring(0, 9);
     
                                               toReturn[headerName.toUpperCase()] = toInsert;
     
@@ -723,10 +745,10 @@ function parseMasterModule() {
                                                       "conceptId": valNum.substring(0, 9),
                                                       "concept": masterJSON[valNum]["Current Question Text"]
                                                   }
-                                                  if (!toInsert['Source Question']) {
-                                                      toInsert['questionText'] = masterJSON[currJSON['Source Question'][sourceIndex]]['Current Question Text'];
+                                                  if (!toInsert['Current Source Question']) {
+                                                      toInsert['questionText'] = masterJSON[currJSON['Current Source Question'][sourceIndex]]['Current Question Text'];
                                                   }
-                                                  toInsert['conceptId'] = currJSON['Source Question'][sourceIndex].substring(0, 9);
+                                                  toInsert['conceptId'] = currJSON['Current Source Question'][sourceIndex].substring(0, 9);
     
                                                   toReturn[headerName.toUpperCase()] = toInsert;
                                               }
@@ -758,13 +780,13 @@ function parseMasterModule() {
                                              
                                               questIds[currJSON['Variable Name'][sourceIndex].toUpperCase()]['isTextBox'] = isTB;
                                           }
-                                          if (currJSON['Source Question'] && currJSON['Source Question'][sourceIndex]) {
-                                              toInsert['conceptId'] = currJSON['Source Question'][sourceIndex].substring(0, 9);
-                                              if (!masterJSON[currJSON['Source Question'][sourceIndex]]) {
+                                          if (currJSON['Current Source Question'] && currJSON['Current Source Question'][sourceIndex]) {
+                                              toInsert['conceptId'] = currJSON['Current Source Question'][sourceIndex].substring(0, 9);
+                                              if (!masterJSON[currJSON['Current Source Question'][sourceIndex]]) {
                                                   //console.log(currJSON)
                                               }
     
-                                              toInsert['questionText'] = masterJSON[currJSON['Source Question'][sourceIndex]]['Current Question Text'];
+                                              toInsert['questionText'] = masterJSON[currJSON['Current Source Question'][sourceIndex]]['Current Question Text'];
                                           }
     
                                           toReturn[headerName.toUpperCase()] = toInsert;
@@ -795,10 +817,10 @@ function parseMasterModule() {
                                           if (isTB) {
                                               questIds[currJSON['Variable Name'][sourceIndex].toUpperCase()]['isTextBox'] = true;
                                           }
-                                          if (currJSON['Source Question'] && currJSON['Source Question'][sourceIndex]) {
-                                              toInsert['conceptId'] = currJSON['Source Question'][sourceIndex][k].substring(0, 9);
+                                          if (currJSON['Current Source Question'] && currJSON['Current Source Question'][sourceIndex]) {
+                                              toInsert['conceptId'] = currJSON['Current Source Question'][sourceIndex][k].substring(0, 9);
     
-                                              toInsert['questionText'] = masterJSON[currJSON['Source Question'][sourceIndex][k]]['Current Question Text'];
+                                              toInsert['questionText'] = masterJSON[currJSON['Current Source Question'][sourceIndex][k]]['Current Question Text'];
                                           }
                                           //console.log(masterJSON[head])
     

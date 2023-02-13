@@ -5,11 +5,12 @@
   "Secondary Source": [
     "745268907.json"
   ],
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "10/26/22",
   "conceptId": "391951010",
   "Current Question Text": "What was the outcome of this pregnancy?",
   "Variable Label": "Outcome pregnancy",
   "Variable Name": [
-    "SrvMRE_PregOutcome_v1r0"
+    "SrvMRE_PregOutcome_v1r1"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "PREG5"
@@ -19,20 +20,34 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "2627",
-    "2628",
     "2629",
     "2630",
     "2631",
-    "2632"
+    "2632",
+    "2633",
+    "2634",
+    "2635",
+    "2636"
   ],
   "Index": [
-    "2627",
-    "2628",
     "2629",
     "2630",
     "2631",
-    "2632"
+    "2632",
+    "2633",
+    "2634",
+    "2635",
+    "2636"
+  ],
+  "Deprecated, New, or Revised": [
+    "Keep",
+    "Keep",
+    "Revised",
+    "Revised",
+    "Revised",
+    "Deprecated",
+    "Deprecated",
+    "Keep"
   ],
   "Current Format/Value": {
     "223216393.json": "0",
@@ -40,22 +55,38 @@
     "419220239.json": "2",
     "306890578.json": "3",
     "858244199.json": "4",
+    "434041171.json": "5",
+    "550615107.json": "6",
     "746038746.json": "99"
   },
   "Date added or modified": [
-    "9/1/22",
-    "9/1/22",
-    "9/1/22",
-    "9/1/22",
-    "9/1/22",
-    "9/1/22"
+    "2/2/23",
+    "2/2/23",
+    "2/2/23",
+    "2/2/23",
+    "2/2/23",
+    "2/2/23",
+    "2/2/23",
+    "2/2/23"
   ],
   "IMS Review Notes": [
-    "Added spaces around =",
-    "Added spaces around =",
-    "Updated column R to reflect content change",
-    "Updated column R to reflect content change",
-    "Fixed typo. los changed to loss",
-    "Added spaces around ="
+    "Backlog documentation of 9/1/2022 edit. Denoted response as Keep and updated variable name suffix _v1r1",
+    "Backlog documentation of 9/1/2022 edit. Denoted response as Keep",
+    "Backlog documentation of 9/1/2022 edit. Denoted response as Revised and added R0 text",
+    "Backlog documentation of 9/1/2022 edit. Denoted response as Revised and added R0 text",
+    "Backlog documentation of 9/1/2022 edit. Denoted response as Revised and added R0 text",
+    "Backlog documentation of 9/1/2022 edit. Denoted response as Deprecated",
+    "Backlog documentation of 9/1/2022 edit. Denoted response as Deprecated",
+    "Backlog documentation of 9/1/2022 edit. Denoted response as Keep"
+  ],
+  "R0 Format/Value": [
+    "2 = Stillbirth (pregnancy loss after 20 weeks)",
+    "3 = Live birth and stillbirth (loss of one or more multiples)",
+    "4 = Miscarriage (pregnancy loss before 20 weeks)"
+  ],
+  "Notes": [
+    "Current use of CIDs for revised responses are not harmonized with original responses. Will need to be resolved when the derived hybrid variable is created",
+    "Current use of CIDs for revised responses are not harmonized with original responses. Will need to be resolved when the derived hybrid variable is created",
+    "Current use of CIDs for revised responses are not harmonized with original responses. Will need to be resolved when the derived hybrid variable is created"
   ]
 }

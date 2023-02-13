@@ -13,14 +13,13 @@
   "Variable Name": [
     "HdWd_DeceasedDt_v1r0"
   ],
-  "Variable Type": "ISO",
-  "Variable Length": "24",
-  "Current Format/Value": "example: 2020-07-17T15:21:26.763Z",
+  "Variable Type": "Date",
+  "Variable Length": "8",
+  "Current Format/Value": "yymmdd",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "ISO to be converted to SAS format",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "3/24/21"
+  "Date added or modified": "2/6/23"
 }
