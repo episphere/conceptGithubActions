@@ -1,5 +1,12 @@
 const fs = require('fs');
 
+function isGridIdSourceQuestionNamePrefixMatch (text) {
+    // Add grid and future custom prefix here for reference
+    const prefixMatches = ["grid_","nest_"]
+    const isMatch = prefixMatches.some(match => text.toLowerCase().includes(match))
+    return isMatch
+}
+
 function parseMasterModule() {
     let masterJSON = {};
     let fileList = [];
@@ -24,7 +31,6 @@ function parseMasterModule() {
 
     let toCheckIds = [];
     // add new secondary source concept Ids here 
-    // const secondarySourceCids = ["745268907.json","965707586.json","898006288.json", "726699695.json", "716117817.json", "131497719.json", "232438133.json", "299215535.json", "166676176.json"] 
     const secondarySourceCids = ["745268907.json","965707586.json","898006288.json", "726699695.json", "716117817.json", "131497719.json", "232438133.json", "299215535.json", "166676176.json", "826163434.json" ,"506648060.json", "110511396.json"] 
 
     // let numString = 0 // Test for Deprecated filter
@@ -124,8 +130,8 @@ function parseMasterModule() {
                                     //console.log(headerName)
                                 }
                                 
-                                if (!currJSON['GridID/Source Question Name'] || !currJSON['GridID/Source Question Name'][sourceIndex] || (!Array.isArray(currJSON['GridID/Source Question Name'][sourceIndex]) && currJSON['GridID/Source Question Name'][sourceIndex].toLowerCase().includes('grid_'))) {
-                                    if (currJSON['GridID/Source Question Name'] && currJSON['GridID/Source Question Name'][sourceIndex] && currJSON['GridID/Source Question Name'][sourceIndex].toLowerCase().includes('grid_')) {
+                                if (!currJSON['GridID/Source Question Name'] || !currJSON['GridID/Source Question Name'][sourceIndex] || (!Array.isArray(currJSON['GridID/Source Question Name'][sourceIndex]) && isGridIdSourceQuestionNamePrefixMatch(currJSON['GridID/Source Question Name'][sourceIndex]))) {
+                                    if (currJSON['GridID/Source Question Name'] && currJSON['GridID/Source Question Name'][sourceIndex] && isGridIdSourceQuestionNamePrefixMatch(currJSON['GridID/Source Question Name'][sourceIndex])) {
                                         
                                         if (currJSON['Current Source Question'] && currJSON['Current Source Question'][sourceIndex]) {
                                             toReturn[currJSON['GridID/Source Question Name'][sourceIndex]] = {
@@ -471,8 +477,8 @@ function parseMasterModule() {
                               }
                               
                               
-                              if (!currJSON['GridID/Source Question Name'] || !currJSON['GridID/Source Question Name'][sourceIndex] || (!Array.isArray(currJSON['GridID/Source Question Name'][sourceIndex]) && currJSON['GridID/Source Question Name'][sourceIndex].toLowerCase().includes('grid_'))) {
-                                  if (currJSON['GridID/Source Question Name'] && currJSON['GridID/Source Question Name'][sourceIndex] && currJSON['GridID/Source Question Name'][sourceIndex].toLowerCase().includes('grid_')) {
+                              if (!currJSON['GridID/Source Question Name'] || !currJSON['GridID/Source Question Name'][sourceIndex] || (!Array.isArray(currJSON['GridID/Source Question Name'][sourceIndex]) && isGridIdSourceQuestionNamePrefixMatch(currJSON['GridID/Source Question Name'][sourceIndex]))) {
+                                  if (currJSON['GridID/Source Question Name'] && currJSON['GridID/Source Question Name'][sourceIndex] && isGridIdSourceQuestionNamePrefixMatch(currJSON['GridID/Source Question Name'][sourceIndex])) {
                                       
                                       if (currJSON['Current Source Question'] && currJSON['Current Source Question'][sourceIndex]) {
                                           toReturn[currJSON['GridID/Source Question Name'][sourceIndex]] = {
