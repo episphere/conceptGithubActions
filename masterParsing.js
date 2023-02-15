@@ -20,8 +20,9 @@ function parseMasterModule() {
             masterJSON[file.substring()] = JSON.parse(currJSON);
         }
     });
-    // console.log("masterJSON", Object.keys(masterJSON).length, Object.keys(masterJSON)[0], masterJSON["100181644.json"])
-
+    console.log("masterJSON", Object.keys(masterJSON).length, Object.keys(masterJSON)[0], masterJSON["100181644.json"])
+    console.log("-----")
+    // console.log("Object.keys(masterJSON).length", Object.keys(masterJSON).length)
 
     let keys = Object.keys(masterJSON);
     let toReturn = {};
@@ -32,10 +33,10 @@ function parseMasterModule() {
             varNameToConcept[currJSON['Current Question Text']] = currJSON['conceptId'];
         }
     }
+    console.log("varNameToConcept length", Object.keys(varNameToConcept).length)
 
     let toCheckIds = [];
     // add new secondary source concept Ids here 
-    // const secondarySourceCids = ["745268907.json","965707586.json","898006288.json", "726699695.json", "716117817.json", "131497719.json", "232438133.json", "299215535.json", "166676176.json"] 
     const secondarySourceCids = ["745268907.json","965707586.json","898006288.json", "726699695.json", "716117817.json", "131497719.json", "232438133.json", "299215535.json", "166676176.json", "826163434.json" ,"506648060.json", "110511396.json"]
 
     // let numString = 0 // Test for Deprecated filter
