@@ -666,7 +666,8 @@ function getConceptIdCols(header){ // pushing object of headers with concept Ids
     
 }
 
-async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ********************************************************************************
+// MAIN FUNCTION STARTS HERE ********************************************************************************
+async function readFile(fileName){ 
     console.log("fileName",fileName)
     let jsonList = []
     let sourceJSONS = [] // array of each conceptId#.json object
@@ -692,19 +693,20 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
             let currFileContents = fs.readFileSync('./jsonsTest/' + file);
             // console.log("currFileContents", currFileContents)
             let currJSON = JSON.parse(currFileContents)
-            // console.log("currJSON",file,currJSON)
+            // console.log("currFileContents currJSON",file,currJSON)
             sourceJSONS.push(currJSON);
         }
     });
-    // console.log('sourceJSONS value', sourceJSONS)
+    // console.log('😃 sourceJSONS value', sourceJSONS)
+    // console.log('------')
 
     let ConceptIndex = '{}' // becomes varToConcept.json list (FOUND), {} (NOT FOUND)
     /* Add back origin varToConcept.json */
     // if(fs.existsSync('./jsons/varToConcept.json')){      /*  USES / READS --> VARTOCONCEPT.JSON LIBRARY!!!!!  */
     //     ConceptIndex = fs.readFileSync('./jsons/varToConcept.json', {encoding:'utf8'})
     // }
-    if(fs.existsSync('./jsonsTest/varToConceptTest.json')){
-        ConceptIndex = fs.readFileSync('./jsonsTest/varToConceptTest.json', {encoding:'utf8'}) // MAKE CHANGES TO LIBRARY FOR TESTING 
+    if(fs.existsSync('./jsonsTest/varToConceptTest.json')){ // MAKE CHANGES TO LIBRARY FOR TESTING 
+        ConceptIndex = fs.readFileSync('./jsonsTest/varToConceptTest.json', {encoding:'utf8'})
     }
     // console.log("ConceptIndex!!! 🚀", typeof ConceptIndex, typeof JSON.parse(ConceptIndex), JSON.parse(ConceptIndex))
     let toReplace = fs.readFileSync(fileName,{encoding:'utf8', flag:'r'})
@@ -726,11 +728,11 @@ async function readFile(fileName){ // MAIN FUNCTION STARTS HERE ****************
     // if(fs.existsSync('./jsons/conceptIds.txt')){
     //     idIndex = fs.readFileSync('./jsons/conceptIds.txt', {encoding:'utf8'}) // Array of concept Ids (string) (Note: purpose of the string array of strings '['...','...',....]'
     // }
-    /*Might be used for concept Id one to one mapping*/
+    /* Might be used for concept Id one to one mapping */
     if(fs.existsSync('./jsonsTest/conceptIdsTest.txt')){ 
             idIndex = fs.readFileSync('./jsonsTest/conceptIdsTest.txt', {encoding:'utf8'}) // Array of concept Ids (string) (Note: purpose of the string array of strings '['...','...',....]'
     }
-
+    // console.log("🚀 ~ file: concept.js:734 ~ readFile ~ idIndex", idIndex)
 
     let conceptIdList = JSON.parse(idIndex) // Array of concept Ids (list of string concepts)
     let questionTextIndex = 0; // Reassigns to the index location of Question Text (PREVIOUSLY -->  varLabelIndex)
