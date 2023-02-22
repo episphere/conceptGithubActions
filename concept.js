@@ -777,7 +777,7 @@ async function readFile(fileName){
         // console.log("LINE",typeof line,line)
         let arr = CSVToArray(line, ',') // Each arr --> current line of text items separated by comma 
         /* Current arr row and iteration count */
-        // console.log("arr", numCounter, arr) 
+        // console.log("🚀 numCounter - arr", numCounter, arr)
 /*------------------------------------------------------------ (CHECKPOINT 2 - Looping through curremt row array, push to cluster array )------------------------------------------------------------ */
         if(first){ // populates header array variable; assigns index val of question text header (first row) to questionTextIndex variable
             conceptIdObject = getConceptIdCols(arr)
@@ -790,7 +790,6 @@ async function readFile(fileName){
                 // NOTE: Add conditional for columns for v1 and v2 conceptIds???
                 if(arr[i] == "Question Text"){
                     questionTextIndex = i; // reassign questionTextIndex with index of Question Text!
-                    // console.log("questionTextIndex" , i)
                 }
                 if(arr[i] == "conceptId" && i+1 < arr.length){ // arr loop length control 
                     conceptCols.push(i+1) // push all conceptCols
@@ -799,7 +798,7 @@ async function readFile(fileName){
             // console.log("conceptCols" , conceptCols)
             // console.log("arr",arr)
             excelOutput.push([arr]) // an array within an array geting pushed to an array
-            // console.log("🚀 ~ file: concept.js:800 ~ forawait ~ excelOutput", excelOutput)   
+            // console.log("🚀 ~ file: concept.js:800 ~ forawait ~ excelOutput", excelOutput) 
         }
         else if(currCluster){ // conditional for the rows 3 and onwards; third path after 2 rows go through conditional flow
             console.log("🚀 currCluster (true), numCounter, arr, questionTextIndex",currCluster,numCounter, arr, "questionText/ varLabel Index ",questionTextIndex)
