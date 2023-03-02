@@ -1,6 +1,6 @@
 {
   "conceptId": "138116092",
-  "Current Question Text": "In a usual week, about how often do you use tap water from your home to make a cup of hot tea?",
+  "Current Question Text": "In a usual week, about how often do you use tap water from your home to make a cup of hot tea? We are interested in all tap water, whether or not it has been filtered or treated.",
   "subcollections": [
     "138116092.json",
     "386624051.json"
@@ -14,12 +14,17 @@
   "Current Source Question": [
     "138116092.json"
   ],
+  "V1 Source Question": [
+    "In a usual week, about how often do you use tap water from your home to make a cup of hot tea?"
+  ],
   "GridID/Source Question Name": [
     "DRINKSWTR2C"
   ],
+  "Deprecated, New, or Revised": "Revised",
+  "V1 Question Text": "In a usual week, about how often do you use tap water from your home to make a cup of hot tea?",
   "Variable Label": "Drink tap water, hot tea",
   "Variable Name": [
-    "SrvLAW_TapWaterTea_v1r0"
+    "SrvLAW_TapWaterTea_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "DRINKSWTR2C"
@@ -28,7 +33,8 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "3/10/22",
+  "Date added or modified": "2/24/23",
+  "IMS Review Notes": "Updated source question, question text, variable name suffix, and denoted as revised",
   "Formula for Index": [
     "5749",
     "5750",

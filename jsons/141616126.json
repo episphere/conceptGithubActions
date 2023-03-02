@@ -1,30 +1,23 @@
 {
-  "Formula for Index": "6632",
-  "Index": "6632",
+  "Formula for Index": "7887",
+  "Index": "7887",
   "Primary Source": [
-    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "299215535.json",
-    "826163434.json"
+    "793330426.json"
   ],
   "Current Source Question": [
-    "715581797.json",
     "715581797.json"
   ],
   "GridID/Source Question Name": [
-    "SrvBlU_COV27_v1r0",
-    "SrvBlU_COV27_v1r0"
+    "SrvCov_COV27_v1r0"
   ],
-  "Deprecated, New, or Revised": "New",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "11/30/22",
   "conceptId": "141616126",
-  "Current Question Text": "When were you vaccinated? MY",
+  "Current Question Text": "When did you get vaccinated? MY",
   "Variable Label": "Vaccine Date",
   "Variable Name": [
-    "SrvBlU_COV27_MY_v1r0",
-    "SrvBlU_COV27_MY_v1r0"
+    "SrvCov_COV27_MY_v1r0"
   ],
   "Variable Type": "Month",
   "Variable Length": "7",
@@ -33,7 +26,7 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "2/2/23",
+  "Date added or modified": "2/23/23",
   "Question Type": "Special Function",
-  "IMS Review Notes": "Updated new push to prod date"
+  "IMS Review Notes": "Added COVID-19 Survey variables"
 }

@@ -1,18 +1,22 @@
 {
   "Primary Source": [
     "129084651.json",
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
     "299215535.json",
-    "826163434.json"
+    "826163434.json",
+    "793330426.json"
   ],
+  "Deprecated, New, or Revised": "Deprecated",
   "conceptId": "893966847",
   "Current Question Text": "While you were in the hospital the [first/2nd/3rd/etc.] time you had COVID-19, did you receive dialysis treatment? If you are not sure, please make your best guess.",
   "Variable Label": "Dialysis",
   "Variable Name": [
     "SrvBlU_COV17A_v1r0",
-    "SrvBlU_COV17A_v1r0"
+    "SrvBlU_COV17A_v1r0",
+    "SrvCov_COV17A_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -20,7 +24,7 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "1/19/23",
+  "Date added or modified": "2/23/23",
   "Question Type": "Optional Multiple Choice, Loops",
   "Formula for Index": [
     "6427",
@@ -38,7 +42,7 @@
     "317811347.json": "77"
   },
   "IMS Review Notes": [
-    "Updated the Variable name prefix to SrvBlU_",
+    "Deprecated COVID-19 questions from Blood/Urine/Mouthwash Survey",
     "Column Q added space before the = sign."
   ]
 }

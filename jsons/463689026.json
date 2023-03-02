@@ -1,26 +1,32 @@
 {
   "Primary Source": [
     "129084651.json",
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
     "299215535.json",
-    "826163434.json"
+    "826163434.json",
+    "793330426.json"
   ],
   "Current Source Question": [
+    "749956170.json",
     "749956170.json",
     "749956170.json"
   ],
   "GridID/Source Question Name": [
     "GRID_SRVBLU_COV24A_V1R0",
-    "GRID_SRVBLU_COV24A_V1R0"
+    "GRID_SRVBLU_COV24A_V1R0",
+    "GRID_SRVCOV_COV24A_V1R0"
   ],
+  "Deprecated, New, or Revised": "Deprecated",
   "conceptId": "463689026",
   "Current Question Text": "Muscle Aches - How long experienced COV24A",
   "Variable Label": "Pandemic Muscle Aches duration",
   "Variable Name": [
     "SrvBlU_COV24A13_v1r0",
-    "SrvBlU_COV24A13_v1r0"
+    "SrvBlU_COV24A13_v1r0",
+    "SrvCov_COV24A13_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -28,9 +34,9 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "1/30/23",
+  "Date added or modified": "2/23/23",
   "Question Type": "Grid with Multiple Choice Sub-Questions",
-  "IMS Review Notes": "Capitalized the GridID/Source Question Name",
+  "IMS Review Notes": "Deprecated COVID-19 questions from Blood/Urine/Mouthwash Survey",
   "Formula for Index": [
     "6620",
     "6621",

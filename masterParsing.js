@@ -31,7 +31,7 @@ function parseMasterModule() {
 
     let toCheckIds = [];
     // add new secondary source concept Ids here 
-    const secondarySourceCids = ["745268907.json","965707586.json","898006288.json", "726699695.json", "716117817.json", "131497719.json", "232438133.json", "299215535.json", "166676176.json", "826163434.json" ,"506648060.json", "110511396.json"] 
+    const secondarySourceCids = ["745268907.json","965707586.json","898006288.json", "726699695.json", "716117817.json", "131497719.json", "232438133.json", "299215535.json", "166676176.json", "826163434.json" ,"506648060.json", "110511396.json","793330426.json"] 
 
     // let numString = 0 // Test for Deprecated filter
     // let stringCids = [] //Test for Deprecated filter

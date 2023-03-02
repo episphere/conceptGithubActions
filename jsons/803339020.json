@@ -1,20 +1,17 @@
 {
-  "Formula for Index": "6426",
-  "Index": "6426",
+  "Formula for Index": "7691",
+  "Index": "7691",
   "Primary Source": [
-    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "299215535.json",
-    "826163434.json"
+    "793330426.json"
   ],
   "conceptId": "803339020",
-  "Current Question Text": "How many days were you treated in an “intensive care unit” or with ICU monitoring when you had COVID-19 for the [first/2nd/3rd/etc.] time?",
+  "Current Question Text": "How many days were you treated in an intensive care unit or with ICU monitoring when you had COVID-19 for the [first/2nd/3rd/etc.] time?",
   "Variable Label": "ICU Days",
   "Variable Name": [
-    "SrvBlU_COV16B_v1r0",
-    "SrvBlU_COV16B_v1r0"
+    "SrvCov_COV16B_v1r0"
   ],
   "Variable Type": "Char",
   "Variable Length": "3",
@@ -23,7 +20,7 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "1/19/23",
+  "Date added or modified": "2/23/23",
   "Question Type": "Text Only Response, Loops",
-  "IMS Review Notes": "Updated the Variable name prefix to SrvBlU_"
+  "IMS Review Notes": "Added COVID-19 Survey variables"
 }

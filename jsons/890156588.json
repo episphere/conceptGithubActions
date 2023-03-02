@@ -1,21 +1,23 @@
 {
   "Primary Source": [
     "129084651.json",
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
     "299215535.json",
-    "826163434.json"
+    "826163434.json",
+    "793330426.json"
   ],
-  "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "11/30/22",
+  "Deprecated, New, or Revised": "Deprecated",
   "conceptId": "890156588",
   "Current Question Text": "Did you get vaccinated against COVID-19?",
   "V1 Question Text": "Did you get a COVID-19 vaccination?",
   "Variable Label": "COVID vaccination",
   "Variable Name": [
     "SrvBlU_COV25_v2r0",
-    "SrvBlU_COV25_v1r0"
+    "SrvBlU_COV25_v1r0",
+    "SrvCov_COV25_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -23,9 +25,9 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "2/2/23",
+  "Date added or modified": "2/23/23",
   "Question Type": "Optional Multiple Choice",
-  "IMS Review Notes": "Backlog documentation of edits. Denoted question revised, prod push date, V1 question text, updated variable name prefix to _v2r0",
+  "IMS Review Notes": "Deprecated COVID-19 questions from Blood/Urine/Mouthwash Survey",
   "Formula for Index": [
     "6626",
     "6627",

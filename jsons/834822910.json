@@ -10,9 +10,13 @@
   "Current Source Question": [
     "831438612.json"
   ],
+  "V1 Source Question": [
+    "In a usual week, which of these beverages do you make with tap water from your home? Select all that apply."
+  ],
   "GridID/Source Question Name": [
     "DRINKSWTR1"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "834822910",
   "Current Question Text": "55 = Other |__|",
   "Variable Label": "Other: Please describe [text box]",
@@ -25,5 +29,6 @@
   "Variable Type": "Char",
   "Variable Length": "300",
   "Required": "No",
-  "Date added or modified": "3/10/22"
+  "Date added or modified": "2/24/23",
+  "IMS Review Notes": "Updated source question and denoted as revised"
 }

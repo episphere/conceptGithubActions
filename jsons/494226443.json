@@ -1,18 +1,22 @@
 {
   "Primary Source": [
     "129084651.json",
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
     "299215535.json",
-    "826163434.json"
+    "826163434.json",
+    "793330426.json"
   ],
+  "Deprecated, New, or Revised": "Deprecated",
   "conceptId": "494226443",
   "Current Question Text": "Have you ever had COVID-19?",
   "Variable Label": "COVID Infection",
   "Variable Name": [
     "SrvBlU_COV1_v1r0",
-    "SrvBlU_COV1_v1r0"
+    "SrvBlU_COV1_v1r0",
+    "SrvCov_COV1_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -20,9 +24,9 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "1/19/23",
+  "Date added or modified": "2/23/23",
   "Question Type": "Optional Multiple Choice",
-  "IMS Review Notes": "Updated the Variable name prefix to SrvBlU_",
+  "IMS Review Notes": "Deprecated COVID-19 questions from Blood/Urine/Mouthwash Survey",
   "Formula for Index": [
     "6345",
     "6346",

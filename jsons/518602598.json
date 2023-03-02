@@ -1,35 +1,41 @@
 {
   "Primary Source": [
     "129084651.json",
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
     "299215535.json",
-    "826163434.json"
+    "826163434.json",
+    "793330426.json"
   ],
   "Current Source Question": [
+    "114280729.json",
     "114280729.json",
     "114280729.json"
   ],
   "GridID/Source Question Name": [
     "GRID_SRVBLU_COV20A_V1R0",
-    "GRID_SRVBLU_COV20A_V1R0"
+    "GRID_SRVBLU_COV20A_V1R0",
+    "GRID_SRVCOV_COV20A_V1R0"
   ],
+  "Deprecated, New, or Revised": "Deprecated",
   "conceptId": "518602598",
   "Current Question Text": "Periods of racing heart rate - How long experienced COV20A",
   "Variable Label": "Long COVID Heart racing duration",
   "Variable Name": [
     "SrvBlU_COV20A8_v1r0",
-    "SrvBlU_COV20A8_v1r0"
+    "SrvBlU_COV20A8_v1r0",
+    "SrvCov_COV20A8_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "1/30/23",
+  "Date added or modified": "2/23/23",
   "Question Type": "Grid with Multiple Choice Sub-Questions",
-  "IMS Review Notes": "Capitalized the GridID/Source Question Name",
+  "IMS Review Notes": "Deprecated COVID-19 questions from Blood/Urine/Mouthwash Survey",
   "Formula for Index": [
     "6505",
     "6506",

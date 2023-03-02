@@ -3,25 +3,29 @@
     "129084651.json",
     "129084651.json",
     "129084651.json",
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
     "299215535.json",
     "299215535.json",
     "826163434.json",
-    "826163434.json"
+    "826163434.json",
+    "793330426.json"
   ],
   "Current Source Question": [
     "470484596.json",
     "705336878.json",
     "470484596.json",
+    "705336878.json",
     "705336878.json"
   ],
   "GridID/Source Question Name": [
     "SrvBio_SYMPTDAY_v1r0",
     "SrvBlU_COV8_v1r0",
     "SrvBio_SYMPTDAY_v1r0",
-    "SrvBlU_COV8_v1r0"
+    "SrvBlU_COV8_v1r0",
+    "SrvCov_COV8_v1r0"
   ],
   "conceptId": "406943303",
   "Current Question Text": "Fever",
@@ -30,12 +34,14 @@
     "SrvBio_FeverDay_v1r0",
     "SrvBlU_COV8A_v1r0",
     "SrvBio_FeverDay_v1r0",
-    "SrvBlU_COV8A_v1r0"
+    "SrvBlU_COV8A_v1r0",
+    "SrvCov_COV8A_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "4",
     "0",
     "4",
+    "0",
     "0"
   ],
   "Variable Type": "Num",
@@ -61,5 +67,6 @@
   "IMS Review Notes": [
     "Updated the GridID/Source Question Name and Variable name prefix to SrvBio_",
     "Added spaces around ="
-  ]
+  ],
+  "Deprecated, New, or Revised": "Deprecated"
 }

@@ -10,14 +10,19 @@
   "Current Source Question": [
     "961178879.json"
   ],
+  "V1 Source Question": [
+    "In a usual week, about how often do you use tap water from your home to make a cup of coffee?"
+  ],
   "GridID/Source Question Name": [
     "DRINKSWTR2B"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "193077021",
-  "Current Question Text": "In a usual week, about how often do you use tap water from your home to make a cup of coffee? Please describe [text box]",
+  "Current Question Text": "In a usual week, about how often do you use tap water from your home to make a cup of coffee? We are interested in all tap water, whether or not it has been filtered or treated. Please describe [text box]",
+  "V1 Question Text": "In a usual week, about how often do you use tap water from your home to make a cup of coffee? Please describe [text box]",
   "Variable Label": "Tap water times/day, coffee",
   "Variable Name": [
-    "SrvLAW_DrinksWtr2B_Num_v1r0"
+    "SrvLAW_DrinksWtr2B_Num_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "DRINKSWTR2B_NUM"
@@ -27,5 +32,6 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "Yes",
-  "Date added or modified": "1/12/22"
+  "Date added or modified": "2/24/23",
+  "IMS Review Notes": "Updated source question, question text, variable name suffix, and denoted as revised"
 }

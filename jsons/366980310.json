@@ -1,18 +1,22 @@
 {
   "Primary Source": [
     "129084651.json",
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
     "299215535.json",
-    "826163434.json"
+    "826163434.json",
+    "793330426.json"
   ],
+  "Deprecated, New, or Revised": "Deprecated",
   "conceptId": "366980310",
   "Current Question Text": "The  [first/2nd/3rd/etc.] time you had COVID-19, did you test positive?",
   "Variable Label": "Positive Test",
   "Variable Name": [
     "SrvBlU_COV4_v1r0",
-    "SrvBlU_COV4_v1r0"
+    "SrvBlU_COV4_v1r0",
+    "SrvCov_COV4_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -20,7 +24,7 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "1/19/23",
+  "Date added or modified": "2/23/23",
   "Question Type": "Optional Multiple Choice, Loops",
   "Formula for Index": [
     "6351",
@@ -38,7 +42,7 @@
     "178420302.json": "77"
   },
   "IMS Review Notes": [
-    "Updated the Variable name prefix to SrvBlU_",
+    "Deprecated COVID-19 questions from Blood/Urine/Mouthwash Survey",
     "Column Q added space before the = sign."
   ]
 }

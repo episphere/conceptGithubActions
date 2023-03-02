@@ -38,6 +38,20 @@ function replaceQuotes(text){
     return text;
 }
 
+/**
+ * processCluster - for the current row as a readable streamline file
+ * @param {array} cluster - current row after header row, array of row cell items within an array
+ * @param {array} header - header items of the first row
+ * @param {object} nameToConcept - varToConcept object library mapping --> Ex.{"0":"918573169","1":"349122068","Sanford Health":"657167265", "Menstrual Cycle":"232438133"}
+ * @param {number} indexVariableName - conceptId index location of question Text - should be 10
+ * @param {object} conceptIdList - object type array from conceptIds.txt file
+ * @param {object} conceptIdObject - object mapping of conceptId index value to next header string value --> Ex. { 2: 'Primary Source', 4: 'Secondary Source', 6: 'Source Question', 9: 'Question Text', 16: 'Format/Value'}
+ * @param {array} sourceJSONS - array of objects from each individual concept id json
+ * @param {array} jsonList - empty array []
+ * @param {string} regexInclude - regex string /[0-9]+\s*=/
+ *  
+ */
+
 function processCluster(cluster, header, nameToConcept, indexVariableName, conceptIdList, conceptIdObject, sourceJSONS, jsonList, regexInclude){
     //console.log(cluster[0])
     let nonEmpty = [];
