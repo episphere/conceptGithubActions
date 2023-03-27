@@ -6,6 +6,7 @@
     "883203566.json"
   ],
   "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/30/23",
   "conceptId": "288972510",
   "Current Question Text": "Uninvited recruits that have been added to the data frame or made active by mistake",
   "Variable Label": "Uninvited Recruits",
@@ -16,18 +17,19 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
+  "Notes": "The records sites flag as uninvited will be deleted from our system",
   "Dictionary": "Recruitment Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "1/6/23",
+  "Date added or modified": "3/10/23",
   "GCP Document/Table": "Participants Table",
   "Formula for Index": [
-    "152",
-    "153"
+    "140",
+    "141"
   ],
   "Index": [
-    "152",
-    "153"
+    "140",
+    "141"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

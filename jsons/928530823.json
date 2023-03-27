@@ -6,10 +6,11 @@
     "793330426.json"
   ],
   "conceptId": "928530823",
-  "Current Question Text": "During the [first/2nd/3rd/etc.] time you had COVID-19, didyou have septic shock (a life-threatening condition with symptoms like difficulty breathing, chills, peeing less, and confusion) as a complication of COVID-19?",
+  "Current Question Text": "During the [first/2nd/3rd/etc.] time you had COVID-19, did you have septic shock (a condition with symptoms like difficulty breathing, chills, peeing less, and confusion) as a complication of COVID-19?",
+  "V1 Question Text": "During the [first/2nd/3rd/etc.] time you had COVID-19, didyou have septic shock (a life-threatening condition with symptoms like difficulty breathing, chills, peeing less, and confusion) as a complication of COVID-19?",
   "Variable Label": "Septic Shock",
   "Variable Name": [
-    "SrvCov_COV9_v1r0"
+    "SrvCov_COV9_v2r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -17,18 +18,18 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "2/23/23",
+  "Date added or modified": "3/15/23",
   "Question Type": "Optional Multiple Choice, Loops",
-  "IMS Review Notes": "Added COVID-19 Survey variables",
+  "IMS Review Notes": "\"Added a space between \"\"did you\"\" and Versioned up the Variable Name.\"",
   "Formula for Index": [
-    "7667",
-    "7668",
-    "7669"
+    "7662",
+    "7663",
+    "7664"
   ],
   "Index": [
-    "7667",
-    "7668",
-    "7669"
+    "7662",
+    "7663",
+    "7664"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
