@@ -235,6 +235,9 @@
       "SrvLAW_CurWorkRail_v1r0"
     ]
   },
+  "107714591": {
+    "Variable Name": "5 days"
+  },
   "108025529": {
     "Variable Label": "Fallopian Tubes",
     "Variable Name": [
@@ -1528,6 +1531,9 @@
       "SrvLAW_Apt5_v1r0"
     ]
   },
+  "164282814": {
+    "Variable Name": "7 days"
+  },
   "164595895": {
     "Variable Label": "Days long recent menstrual cycle",
     "Variable Name": [
@@ -1590,6 +1596,12 @@
     "Variable Label": "Chronic Kidney Disease (Also Known as Chronic Kidney Failure)",
     "Variable Name": [
       "SrvBOH_CKD_v1r0"
+    ]
+  },
+  "167336253": {
+    "Variable Label": "No Dentures",
+    "Variable Name": [
+      "SrvMtW_DENTURES2_v1r0"
     ]
   },
   "167695804": {
@@ -1888,6 +1900,8 @@
   "179406442": {
     "Variable Label": "ICU",
     "Variable Name": [
+      "SrvBlU_COV16A_v1r0",
+      "SrvBlU_COV16A_v1r0",
       "SrvCov_COV16A_v1r0"
     ]
   },
@@ -5998,6 +6012,12 @@
       "SrvLAW_PreWorkApt_v1r0"
     ]
   },
+  "371726159": {
+    "Variable Label": "No Dentures",
+    "Variable Name": [
+      "SrvMtW_DENTURES2_v1r0"
+    ]
+  },
   "371748514": {
     "Variable Name": "In which season(s) did you swim laps? Select all that apply."
   },
@@ -9846,6 +9866,13 @@
       "SrvSAS_CTTime70_v1r0"
     ]
   },
+  "551489317": {
+    "Variable Label": "No permanent teeth lost",
+    "Variable Name": [
+      "SrvMtW_NOPERMTTHLOST2_v1r0",
+      "SrvMtW_NOPERMTTHLOST2_v1r0"
+    ]
+  },
   "551525967": {
     "Variable Name": "Yes, full-time student"
   },
@@ -11480,6 +11507,9 @@
       "SrvMRE_OftenSnoring_v1r0"
     ]
   },
+  "632371391": {
+    "Variable Name": "1 day"
+  },
   "632512449": {
     "Variable Name": "1 to 2 times per month"
   },
@@ -12786,6 +12816,9 @@
       "SrvSAS_TobaccoPipe_v1r0"
     ]
   },
+  "686379250": {
+    "Variable Name": "4 days"
+  },
   "686494153": {
     "Variable Label": "Time, Walking commute from past work",
     "Variable Name": [
@@ -12836,6 +12869,9 @@
     "Variable Name": [
       "SrvSAS_PipeFills17_v1r0"
     ]
+  },
+  "689829953": {
+    "Variable Name": "6 days"
   },
   "689861450": {
     "Variable Label": "Wake up time",
@@ -13330,6 +13366,9 @@
     "Variable Name": [
       "SrvBOH_Cirrhosis_v1r0"
     ]
+  },
+  "709969190": {
+    "Variable Name": "2 days"
   },
   "710443293": {
     "Variable Name": "Seasonal Address 7- In general, how many months per year did you spend at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]?"
@@ -15492,6 +15531,8 @@
   "803339020": {
     "Variable Label": "ICU Days",
     "Variable Name": [
+      "SrvBlU_COV16B_v1r0",
+      "SrvBlU_COV16B_v1r0",
       "SrvCov_COV16B_v1r0"
     ]
   },
@@ -16349,6 +16390,12 @@
     "Variable Label": "Contains Orphan Flag",
     "Variable Name": [
       "BioPack_ContainsOrphan_v1r0"
+    ]
+  },
+  "842657297": {
+    "Variable Label": "Days work",
+    "Variable Name": [
+      "SrvBOH_DaysWork_v1r0"
     ]
   },
   "842768118": {
@@ -18213,6 +18260,9 @@
     "Variable Name": [
       "BioClin_DBUrineID_v1r0"
     ]
+  },
+  "928753604": {
+    "Variable Name": "3 days"
   },
   "928803137": {
     "Variable Label": "How many days used cigarettes, usual month",
