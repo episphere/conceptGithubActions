@@ -15,12 +15,13 @@
   "Variable Length": "1",
   "Required": "Yes for HP",
   "PII": "No",
-  "Notes": "Going forward (from 2/21/23) HP will include PINs in all their recruitment letters. This means they won’t be meaningfully using this variable we established for PIN vs No PIN groups from HP going forward.",
+  "Notes": "Going forward (from 2/21/23) HP will include PINs in all their recruitment letters. This means they won't be meaningfully using this variable we established for PIN vs No PIN groups from HP going forward.",
   "Dictionary": "Recruitment Data Dictionary",
   "State Attribute": "Yes",
   "Default Variable": "No",
-  "Date added or modified": "2/21/23",
+  "Date added or modified": "4/13/23",
   "GCP Document/Table": "Participants Table Not nested (d_481139103)",
+  "IMS Review Notes": "Removed Special Characters",
   "Formula for Index": [
     "61",
     "62"

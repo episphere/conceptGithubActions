@@ -17,13 +17,13 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Create New Type for GetParticipants API. The requirement from our sites is that they have a \"\"\"\"type\"\"\"\" within the Get Participants API which would return only participants who have had some kind of refusal or withdrawal.",
-  "Derivation Notes": "HdRef_AnyRefOrWd_v1r0 = 1 IF HdRef_Basesrv_v1r0 = 1 OR  HdRef_Baseblood_v1r0 = 1 OR  HdRef_Baseurine_v1r0 = 1 OR  HdRef_Basesaliva_v1r0 = 1 OR  HdRef_Allsrv_v1r0 = 1 OR  HdRef_Allsample_v1r0 = 1 OR  HdRef_BlSpecSrv_v1r0 = 1 OR  HdWd_Destroydata_v1r0 = 1 OR  HdWd_HIPAArevoked_v1r0 = 1 OR  HdWd_WdConsent_v1r0 = 1 OR  HdWd_Activepart_v1r0 = 1 OR  HdWd_Deceased_v1r0 = 1 OR HdWd_SuspendContact_v1r0 = 1",
+  "Notes": "Create New Type for GetParticipants API. The requirement from our sites is that they have a type within the Get Participants API which would return only participants who have had some kind of refusal or withdrawal.",
+  "Derivation Notes": "HdRef_AnyRefOrWd_v1r0 = 1 IF HdRef_Basesrv_v1r0 = 1 OR HdRef_Baseblood_v1r0 = 1 OR HdRef_Baseurine_v1r0 = 1 OR HdRef_Basesaliva_v1r0 = 1 OR HdRef_Allsrv_v1r0 = 1 OR HdRef_Allsample_v1r0 = 1 OR HdRef_BlSpecSrv_v1r0 = 1 OR HdWd_Destroydata_v1r0 = 1 OR HdWd_HIPAArevoked_v1r0 = 1 OR HdWd_WdConsent_v1r0 = 1 OR HdWd_Activepart_v1r0 = 1 OR HdWd_Deceased_v1r0 = 1 OR HdWd_SuspendContact_v1r0 = 1",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "2/9/23",
-  "IMS Review Notes": "Updated Derivation notes to remove carriage return",
+  "Date added or modified": "4/13/23",
+  "IMS Review Notes": "Removed extra characters",
   "Formula for Index": [
     "784",
     "785"

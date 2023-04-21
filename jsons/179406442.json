@@ -1,14 +1,21 @@
 {
   "Primary Source": [
+    "129084651.json",
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
+    "299215535.json",
+    "826163434.json",
     "793330426.json"
   ],
+  "Deprecated, New, or Revised": "Deprecated",
   "conceptId": "179406442",
   "Current Question Text": "While you were in the hospital the [first/2nd/3rd/etc.] time you had COVID-19, were you treated in an intensive care unit or with ICU monitoring? If you are not sure, please make your best guess.",
   "Variable Label": "ICU",
   "Variable Name": [
+    "SrvBlU_COV16A_v1r0",
+    "SrvBlU_COV16A_v1r0",
     "SrvCov_COV16A_v1r0"
   ],
   "Variable Type": "Num",
@@ -17,24 +24,28 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "2/23/23",
+  "Date added or modified": "4/13/23",
   "Question Type": "Optional Multiple Choice, Loops",
-  "IMS Review Notes": "Added COVID-19 Survey variables",
   "Formula for Index": [
-    "7688",
-    "7689",
-    "7690"
+    "6431",
+    "6432",
+    "6433"
   ],
   "Index": [
-    "7688",
-    "7689",
-    "7690"
+    "6431",
+    "6432",
+    "6433"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1",
     "178420302.json": "77"
   },
+  "IMS Review Notes": [
+    "Removed extra characters",
+    "Column Q added space before the = sign.",
+    "removed quotation marks"
+  ],
   "Notes": [
     "Harmonization - Questionnaire will still say: Don't Know"
   ]

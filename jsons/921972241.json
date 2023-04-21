@@ -18,22 +18,22 @@
   "Variable Length": "2",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "1/19/23",
+  "Date added or modified": "4/13/23",
   "Formula for Index": [
-    "6730",
-    "6731",
-    "6732",
-    "6733",
-    "6734",
-    "6735"
+    "6738",
+    "6739",
+    "6740",
+    "6741",
+    "6742",
+    "6743"
   ],
   "Index": [
-    "6730",
-    "6731",
-    "6732",
-    "6733",
-    "6734",
-    "6735"
+    "6738",
+    "6739",
+    "6740",
+    "6741",
+    "6742",
+    "6743"
   ],
   "Current Format/Value": {
     "648960871.json": "44",
@@ -50,10 +50,11 @@
     "No"
   ],
   "Question Type": [
+    "Optional Multiple Choice",
     "Optional Multiple Choice"
   ],
   "IMS Review Notes": [
-    "Updated the Variable name prefix to SrvMtW_",
+    "Removed special characters",
     "Added Row to add the 44 Never above"
   ]
 }

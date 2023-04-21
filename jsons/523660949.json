@@ -16,7 +16,7 @@
     "SrvMtW_MWUSE_v1r0"
   ],
   "conceptId": "523660949",
-  "Current Question Text": "Mouthwash for dry mouth (such as biotène®)",
+  "Current Question Text": "Mouthwash for dry mouth (such as biotene®)",
   "Variable Label": "Mouthwash for dry mouth",
   "Variable Name": [
     "SrvMtW_MWDRY1_v1r0",
@@ -32,16 +32,16 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "1/19/23",
+  "Date added or modified": "4/13/23",
   "Question Type": "Optional Select All that Apply",
-  "IMS Review Notes": "Updated the GridID/Source Question Name and Variable name prefix to SrvMtW_",
+  "IMS Review Notes": "Removed special characters",
   "Formula for Index": [
-    "6710",
-    "6711"
+    "6718",
+    "6719"
   ],
   "Index": [
-    "6710",
-    "6711"
+    "6718",
+    "6719"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
