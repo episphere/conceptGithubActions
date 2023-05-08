@@ -538,7 +538,6 @@ async function readFile(fileName){
     let cluster = []
     
     const fileStream = fs.createReadStream(fileName);
-    const outFile = 'prelude1Concept1.csv'
     let excelOutput = []
     const rl = readline.createInterface({
         input: fileStream,

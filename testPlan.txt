@@ -1,15 +1,23 @@
 STEPS TO RESOLVE TRANSFORMATION STRUCTURE 🚀
 
-
 *FIND FIRST DATE WHERE THIS OCCURRED* (2/15/2023)✅
-
 
 *TAKE NOTE OF ALL THE MISSING RESPONSES OR VARIABLES* ✅
 
 *Take all 756774083 the concept Ids in Rows and try to get a concept Id without the deprecated block*
 
 -----------------------------------------------------------------
-Document How Existing Code works
+
+Make Copy files to test top level .json changes
+
+csvHistoryCopy
+jsonsCopy
+transformationFilesCopy
+conceptCopy
+runCSVConversionsCopy
+
+-----------------------------------------------------------------
+Document How Existing Code Works
 
 Existing Code:
 
@@ -24,4 +32,7 @@ Note: Causing problems since some format/values are being used as Question Text 
 New Method to Get Rid of Deprecated value --> Root Concept Id Level
 
 
+-----------------------------------------------------------------
 
+
+-----------------------------------------------------------------
