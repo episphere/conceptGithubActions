@@ -1,0 +1,51 @@
+{
+  "conceptId": "850202336",
+  "Current Question Text": "On the days that you took insulin, what concentration did you take?",
+  "subcollections": [
+    "850202336.json",
+    "526448646.json"
+  ],
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "Current Source Question": [
+    "850202336.json"
+  ],
+  "GridID/Source Question Name": [
+    "INSULIN4_1A"
+  ],
+  "Variable Label": "Insulin concentration",
+  "Variable Name": [
+    "SrvMRE_InsulinConc_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "INSULIN4_1A"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "INSULIN= 1",
+  "Date added or modified": "10/5/21",
+  "Formula for Index": [
+    "2542",
+    "2543",
+    "2544",
+    "2545"
+  ],
+  "Index": [
+    "2542",
+    "2543",
+    "2544",
+    "2545"
+  ],
+  "Current Format/Value": {
+    "310201523.json": "0",
+    "290716491.json": "1",
+    "178420302.json": "77",
+    "807835037.json": "55"
+  }
+}

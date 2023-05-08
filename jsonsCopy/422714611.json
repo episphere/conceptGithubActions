@@ -1,0 +1,38 @@
+{
+  "conceptId": "422714611",
+  "Current Question Text": "At what age did your mother die?",
+  "subcollections": [
+    "422714611.json",
+    "807765962.json"
+  ],
+  "Formula for Index": "1749",
+  "Index": "1749",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Current Source Question": [
+    "422714611.json"
+  ],
+  "GridID/Source Question Name": [
+    "MOMDEATH"
+  ],
+  "Variable Label": "Mother age at death",
+  "Variable Name": [
+    "SrvBOH_MomAgeDeath_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "MOMDEATH"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Current Format/Value": {
+    "178420302.json": "77"
+  },
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "8/23/21",
+  "Question Type": "Text Box Plus Check Box"
+}

@@ -1,0 +1,38 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/18/23",
+  "conceptId": "585702271",
+  "Current Question Text": "Age last used - During the time you last smoked a hookah or water pipe, did you smoke every day?",
+  "V1 Question Text": "Age last used - During that time, did you smoke a hookah or water pipe every day?",
+  "Variable Label": "Use hookah or water pipe  every day, age last used",
+  "Variable Name": [
+    "SrvSAS_HookahEDAgeL_v2r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "HOOKAH8C"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "2/2/23",
+  "IMS Review Notes": "Denoted date revised variable pushed to prod",
+  "Formula for Index": [
+    "3897",
+    "3898"
+  ],
+  "Index": [
+    "3897",
+    "3898"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

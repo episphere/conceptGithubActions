@@ -1,0 +1,25 @@
+{
+  "Formula for Index": "2263",
+  "Index": "2263",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "conceptId": "868232409",
+  "Current Question Text": "What products were made, or services provided, by this current employer? If multiple, please provide the product/services related to your work unit. For example: automotive parts, residential home construction, accounting services, pharmaceutical research.",
+  "Variable Label": "Current employers services or prodcuts",
+  "Variable Name": [
+    "SrvBOH_ServiceProdC_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "EMPLYRSRVCE1"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "300",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "Yes",
+  "Question Type": "Text only Response"
+}

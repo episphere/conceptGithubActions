@@ -1,0 +1,33 @@
+{
+  "Formula for Index": "1637",
+  "Index": "1637",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Current Source Question": [
+    "207025341.json"
+  ],
+  "GridID/Source Question Name": [
+    "WTLOSS2_1825"
+  ],
+  "conceptId": "155535868",
+  "Current Question Text": "Other weight loss method between ages 18 and 25: Please describe [text box]",
+  "Variable Label": "Other: Please describe [text box]",
+  "Variable Name": [
+    "SrvBOH_OtherWtLossDes1_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "WTLOSS2_1825_TB"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "300",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if WTLOSS2_1825 = 55",
+  "Date added or modified": "9/15/21",
+  "Question Type": "Optional Select All that Apply"
+}

@@ -1,0 +1,47 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "167966775",
+  "Current Question Text": "During the season[s] in the past 12 months that you did Martial Arts (such as Karate or Judo), about how often did you do this activity?",
+  "Variable Label": "During the season[s] in the past 12 months that you did Martial Arts (such as Karate or Judo), about how often did you do this activity?",
+  "Variable Name": [
+    "SrvMRE_MAOften_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "EXEREC3I"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if EXEREC1=8",
+  "Date added or modified": "11/15/21",
+  "Formula for Index": [
+    "3357",
+    "3358",
+    "3359",
+    "3360",
+    "3361",
+    "3362"
+  ],
+  "Index": [
+    "3357",
+    "3358",
+    "3359",
+    "3360",
+    "3361",
+    "3362"
+  ],
+  "Current Format/Value": {
+    "239152340.json": "0",
+    "582006876.json": "1",
+    "645894551.json": "2",
+    "996315715.json": "3",
+    "671267928.json": "4",
+    "647504893.json": "5"
+  }
+}

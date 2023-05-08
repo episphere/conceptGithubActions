@@ -1,0 +1,34 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "conceptId": "980007418",
+  "Current Question Text": "Thinking of your longest held occupation, did your daily responsibilities involve driving (such as a sales representative, courier, bus driver, or truck driver)?",
+  "Variable Label": "Longest held occupration, job includes driving",
+  "Variable Name": [
+    "SrvLAW_PreWorkDrive_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "PREWORKRES"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "3/10/22",
+  "Formula for Index": [
+    "5970",
+    "5971"
+  ],
+  "Index": [
+    "5970",
+    "5971"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

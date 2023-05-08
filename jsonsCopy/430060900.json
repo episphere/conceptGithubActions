@@ -1,0 +1,55 @@
+{
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "299215535.json",
+    "390351864.json"
+  ],
+  "conceptId": "430060900",
+  "Current Question Text": "In the last month, how often did you use mouthwash for sensitive teeth (such as Sensodyne®)?",
+  "Variable Label": "mouthwash for sensitive teeth frequency past month",
+  "Variable Name": [
+    "SrvMtW_MWSENSITIVE_v1r0",
+    "SrvMtW_MWSENSITIVE_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Date added or modified": "4/13/23",
+  "IMS Review Notes": "Removed special characters",
+  "Formula for Index": [
+    "6756",
+    "6757",
+    "6758",
+    "6759",
+    "6760",
+    "6761"
+  ],
+  "Index": [
+    "6756",
+    "6757",
+    "6758",
+    "6759",
+    "6760",
+    "6761"
+  ],
+  "Current Format/Value": {
+    "648960871.json": "44",
+    "693256778.json": "0",
+    "735330419.json": "1",
+    "138332277.json": "2",
+    "858624942.json": "3",
+    "850675416.json": "4"
+  },
+  "Required": [
+    "No"
+  ],
+  "Question Type": [
+    "Optional Multiple Choice",
+    "Optional Multiple Choice"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "299215535.json",
+    "826163434.json",
+    "793330426.json"
+  ],
+  "Deprecated, New, or Revised": "Deprecated",
+  "conceptId": "451163824",
+  "Current Question Text": "When you were experiencing your worst COVID-19 symptoms, the [first/2nd/3rd/etc.] time you had COVID-19, did they interfere with or stop you from doing your daily activities?",
+  "Variable Label": "Daily activity interference",
+  "Variable Name": [
+    "SrvBlU_COV7_v1r0",
+    "SrvBlU_COV7_v1r0",
+    "SrvCov_COV7_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Date added or modified": "2/23/23",
+  "Question Type": "Optional Multiple Choice, Loops",
+  "IMS Review Notes": "Deprecated COVID-19 questions from Blood/Urine/Mouthwash Survey",
+  "Formula for Index": [
+    "6366",
+    "6367",
+    "6368",
+    "6369",
+    "6370"
+  ],
+  "Index": [
+    "6366",
+    "6367",
+    "6368",
+    "6369",
+    "6370"
+  ],
+  "Current Format/Value": {
+    "111520945.json": "0",
+    "548628123.json": "1",
+    "567908725.json": "2",
+    "760969884.json": "3",
+    "464631026.json": "4"
+  }
+}

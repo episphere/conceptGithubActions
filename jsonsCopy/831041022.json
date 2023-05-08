@@ -1,0 +1,36 @@
+{
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "635994596.json"
+  ],
+  "conceptId": "831041022",
+  "Current Question Text": "Destroy data",
+  "Variable Label": "Wants data destroyed",
+  "Variable Name": [
+    "HdWd_Destroydata_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Set by help desk agent via dashboard. Destroy data also triggers Withdraw Consent and Revoke HIPAA, however: Who requested.. and the time stamp are only populated for the Destroy data variable",
+  "Dictionary": "Withdrawal, Study Manager Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "5/19/22",
+  "IMS Review Notes": "removed quotation marks",
+  "Formula for Index": [
+    "695",
+    "696"
+  ],
+  "Index": [
+    "695",
+    "696"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

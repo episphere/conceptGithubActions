@@ -1,0 +1,62 @@
+{
+  "conceptId": "726654963",
+  "Current Question Text": "Address 3- What [is/was] the main source of water that you [drink/drank] at [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank].",
+  "subcollections": [
+    "726654963.json",
+    "276249147.json"
+  ],
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "726654963.json"
+  ],
+  "GridID/Source Question Name": [
+    "HOMEWTR3_3"
+  ],
+  "Variable Label": "Primary water source",
+  "Variable Name": [
+    "SrvLAW_3PrimaryWater2_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "HOMEWTR3_3"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "3/10/22",
+  "Formula for Index": [
+    "5026",
+    "5027",
+    "5028",
+    "5029",
+    "5030",
+    "5031",
+    "5032",
+    "5033"
+  ],
+  "Index": [
+    "5026",
+    "5027",
+    "5028",
+    "5029",
+    "5030",
+    "5031",
+    "5032",
+    "5033"
+  ],
+  "Current Format/Value": {
+    "123108471.json": "0",
+    "463122075.json": "1",
+    "254061941.json": "2",
+    "404651070.json": "3",
+    "354856090.json": "4",
+    "311981718.json": "5",
+    "807835037.json": "55",
+    "178420302.json": "77"
+  }
+}

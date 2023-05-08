@@ -1,0 +1,25 @@
+{
+  "Formula for Index": "528",
+  "Index": "528",
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "948781977.json"
+  ],
+  "conceptId": "132929440",
+  "Current Question Text": "Box ID",
+  "Variable Label": "Box ID",
+  "Variable Name": [
+    "BioPack_BoxID_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "15",
+  "Current Format/Value": "Example: 264895621569856SITENAME",
+  "Required": "Yes",
+  "PII": "No",
+  "Dictionary": "Biospecimen Shipping",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "GCP Document/Table": "Boxes Table Not nested (d_132929440)"
+}

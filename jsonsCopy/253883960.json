@@ -1,0 +1,36 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "826163434.json"
+  ],
+  "conceptId": "253883960",
+  "Current Question Text": "Blood/urine survey completion",
+  "Variable Label": "Flag for blood/urine survey",
+  "Variable Name": [
+    "SrvBlU_BaseComplete_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Dictionary": "Biospecimen Clinical",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "Formula for Index": [
+    "472",
+    "473",
+    "474"
+  ],
+  "Index": [
+    "472",
+    "473",
+    "474"
+  ],
+  "Current Format/Value": {
+    "972455046.json": "0",
+    "615768760.json": "1",
+    "231311385.json": "2"
+  }
+}

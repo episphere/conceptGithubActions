@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "3609",
+  "Index": "3609",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "214870856",
+  "Current Question Text": "[W/When you were a shift worker, w]hat time [does/did] your usual work shift end?",
+  "Variable Label": "Time usual work shift end",
+  "Variable Name": [
+    "SrvMRE_ShiftEnd_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "SHIFTWORK5"
+  ],
+  "Variable Type": "Time",
+  "Variable Length": "6",
+  "Current Format/Value": "HH:MM AM/PM",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Follows SAS TIMEAMPM format",
+  "Date added or modified": "10/6/21"
+}

@@ -1,0 +1,37 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "861824298",
+  "Current Question Text": "When was the last time you took acetaminophen?",
+  "Variable Label": "Last time took acetaminophen?",
+  "Variable Name": [
+    "SrvMRE_AcetaminophenTm_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "PAINREL5_4"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if PAINREL1 = 3",
+  "Formula for Index": [
+    "2414",
+    "2415",
+    "2416"
+  ],
+  "Index": [
+    "2414",
+    "2415",
+    "2416"
+  ],
+  "Current Format/Value": {
+    "317567178.json": "0",
+    "484055234.json": "1",
+    "802197176.json": "2"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "Formula for Index": "6489",
+  "Index": "6489",
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "299215535.json",
+    "826163434.json",
+    "793330426.json"
+  ],
+  "Current Source Question": [
+    "110872086.json",
+    "110872086.json",
+    "110872086.json"
+  ],
+  "GridID/Source Question Name": [
+    "SrvBlU_COV19C6A_v1r0",
+    "SrvBlU_COV19C6A_v1r0",
+    "SrvCov_COV19C6A_v1r0"
+  ],
+  "Deprecated, New, or Revised": "Deprecated",
+  "conceptId": "637540387",
+  "Current Question Text": "Since your COVID-19 diagnosis, have you experienced any other symptoms? [text box]",
+  "Variable Label": "Other Long COVID Symptom: Please Describe textbox",
+  "Variable Name": [
+    "SrvBlU_COV19C6ADesc_v1r0",
+    "SrvBlU_COV19C6ADesc_v1r0",
+    "SrvCov_COV19C6ADesc_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "300",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Option only available if #55 is selected in COV19C6A",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Date added or modified": "2/23/23",
+  "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
+  "IMS Review Notes": "Deprecated COVID-19 questions from Blood/Urine/Mouthwash Survey"
+}

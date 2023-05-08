@@ -1,0 +1,33 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "591723682",
+  "Current Question Text": "During a usual week, is your sleep schedule determined by your job, school, or other activities?",
+  "Variable Label": "Is sleep schedule determined by your job, school, or other activities",
+  "Variable Name": [
+    "SrvMRE_SleepSched_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "SLEEPSCHA"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Formula for Index": [
+    "3448",
+    "3449"
+  ],
+  "Index": [
+    "3448",
+    "3449"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

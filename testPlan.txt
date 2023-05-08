@@ -1,0 +1,27 @@
+STEPS TO RESOLVE TRANSFORMATION STRUCTURE 🚀
+
+
+*FIND FIRST DATE WHERE THIS OCCURRED* (2/15/2023)✅
+
+
+*TAKE NOTE OF ALL THE MISSING RESPONSES OR VARIABLES* ✅
+
+*Take all 756774083 the concept Ids in Rows and try to get a concept Id without the deprecated block*
+
+-----------------------------------------------------------------
+Document How Existing Code works
+
+Existing Code:
+
+- Reads Concept Ids one by one
+- Concept ID's with [Deprecated, New or Revised] key with Deprecated value are NOT added to Transformation 
+
+Note: Causing problems since some format/values are being used as Question Text (This is causing unwanted removals to Transformation)
+
+
+-----------------------------------------------------------------
+
+New Method to Get Rid of Deprecated value --> Root Concept Id Level
+
+
+

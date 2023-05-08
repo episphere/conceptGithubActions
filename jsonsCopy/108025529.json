@@ -1,0 +1,42 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Current Source Question": [
+    "750420077.json"
+  ],
+  "GridID/Source Question Name": [
+    "SEX2"
+  ],
+  "conceptId": "108025529",
+  "Current Question Text": "Fallopian Tubes",
+  "Variable Label": "Fallopian Tubes",
+  "Variable Name": [
+    "SrvBOH_FallTube_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "7"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if SEX=Intersex or other",
+  "Date added or modified": "9/17/21",
+  "Question Type": "Required Select All that Apply",
+  "Formula for Index": [
+    "1195",
+    "1196"
+  ],
+  "Index": [
+    "1195",
+    "1196"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

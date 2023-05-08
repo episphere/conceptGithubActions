@@ -1,0 +1,39 @@
+{
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "664882224.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/30/23",
+  "conceptId": "526455436",
+  "Current Question Text": "Baseline blood is refused and baseline urine is refused",
+  "Variable Label": "Baseline blood is refused and baseline urine is refused",
+  "Variable Name": [
+    "BioClin_BldAndUrnRef_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Those with BioClin_BldAndUrnRef_v1r0 = No will get the email reminders, and those with BioClin_BldAndUrnRef_v1r0 = Yes will not get the emails",
+  "Derivation Notes": "If HdRef_Baseblood_v1r0 = 1 AND HdRef_Baseurine_v1r0 = 0 THEN BioClin_BldAndUrnRef_v1r0 = 0; If HdRef_Baseblood_v1r0 = 0 AND HdRef_Baseurine_v1r0 = 1 THEN  BioClin_BldAndUrnRef_v1r0 = 0; If HdRef_Baseblood_v1r0 = 0 AND HdRef_Baseurine_v1r0 = 0 THEN BioClin_BldAndUrnRef_v1r0 = 0; If HdRef_Baseblood_v1r0 = 1 AND HdRef_Baseurine_v1r0 = 1 THEN  BioClin_BldAndUrnRef_v1r0 = 1;",
+  "Dictionary": "Biospecimen Clinical",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "12/19/22",
+  "GCP Document/Table": "Participants Table Not nested (d_526455436)",
+  "Formula for Index": [
+    "464",
+    "465"
+  ],
+  "Index": [
+    "464",
+    "465"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

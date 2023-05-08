@@ -1,0 +1,37 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
+  "Deprecated, New, or Revised": "Deprecated",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "44802",
+  "conceptId": "486287398",
+  "Current Question Text": "Month - During that time, did you ever smoke a tobacco pipe every day?",
+  "Variable Label": "Use a tobacco pipe every day, months",
+  "Variable Name": [
+    "SrvSAS_TobPipeED_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "PIPE7B"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "2/2/23",
+  "IMS Review Notes": "Denoted date deprecated in prod",
+  "Formula for Index": [
+    "3969",
+    "3970"
+  ],
+  "Index": [
+    "3969",
+    "3970"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

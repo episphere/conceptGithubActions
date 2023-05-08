@@ -1,0 +1,53 @@
+{
+  "conceptId": "714365367",
+  "Current Question Text": "What was the source of water to [insert address from CHILDADD1 - CHILDADD3/your childhood home]?",
+  "subcollections": [
+    "714365367.json",
+    "158518077.json"
+  ],
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "714365367.json"
+  ],
+  "GridID/Source Question Name": [
+    "CHILDWTR1"
+  ],
+  "Variable Label": "Primary water source",
+  "Variable Name": [
+    "SrvLAW_Chld1PrimWater_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CHILDWTR1"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "3/10/22",
+  "Formula for Index": [
+    "5717",
+    "5718",
+    "5719",
+    "5720",
+    "5721"
+  ],
+  "Index": [
+    "5717",
+    "5718",
+    "5719",
+    "5720",
+    "5721"
+  ],
+  "Current Format/Value": {
+    "901693169.json": "0",
+    "519767819.json": "1",
+    "388690303.json": "2",
+    "807835037.json": "55",
+    "178420302.json": "77"
+  }
+}

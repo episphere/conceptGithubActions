@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "456",
+  "Index": "456",
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "664882224.json"
+  ],
+  "conceptId": "541311218",
+  "Current Question Text": "Clinical DB urine RRL Date/Time received",
+  "Variable Label": "Clinical DB urine RRL Date/Time received",
+  "Variable Name": [
+    "BioClin_DBUrineRRLDt_v1r0"
+  ],
+  "Variable Type": "ISO",
+  "Variable Length": "24",
+  "Current Format/Value": "example: 2020-07-17T15:21:26.763Z",
+  "Required": "Yes if BioClin_DBUrineRRL_v1r0 = 1",
+  "PII": "No",
+  "Notes": "From clinical dashboard, when a clinical site does this is data and time received at the RRL, saved upon specimen link",
+  "Dictionary": "Biospecimen Clinical",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "7/13/22"
+}

@@ -1,0 +1,52 @@
+{
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "299215535.json",
+    "826163434.json",
+    "793330426.json"
+  ],
+  "Deprecated, New, or Revised": "Deprecated",
+  "conceptId": "782396371",
+  "Current Question Text": "While you were in the hospital the [first/2nd/3rd/etc.] time you had COVID-19, did you ever have oxygen (by mask or nose)? If you are not sure, please make your best guess.",
+  "Variable Label": "Oxygen",
+  "Variable Name": [
+    "SrvBlU_COV14A_v1r0",
+    "SrvBlU_COV14A_v1r0",
+    "SrvCov_COV14A_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Date added or modified": "2/23/23",
+  "Question Type": "Optional Multiple Choice, Loops",
+  "Formula for Index": [
+    "6423",
+    "6424",
+    "6425"
+  ],
+  "Index": [
+    "6423",
+    "6424",
+    "6425"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1",
+    "178420302.json": "77"
+  },
+  "IMS Review Notes": [
+    "Deprecated COVID-19 questions from Blood/Urine/Mouthwash Survey",
+    "Column Q added space before the = sign.",
+    "removed quotation marks"
+  ],
+  "Notes": [
+    "Harmonization - Questionnaire will still say: Don't Know"
+  ]
+}

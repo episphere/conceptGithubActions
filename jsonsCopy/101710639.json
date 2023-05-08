@@ -1,0 +1,40 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
+  "conceptId": "101710639",
+  "Current Question Text": "Do you use chewing tobacco, snus, snuff, or dip  now?",
+  "Variable Label": "Use chewing tobacco, snus, snuff, or dip  now",
+  "Variable Name": [
+    "SrvSAS_UseCTNow_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CHEW4"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "11/24/21",
+  "Formula for Index": [
+    "3807",
+    "3808",
+    "3809",
+    "3810"
+  ],
+  "Index": [
+    "3807",
+    "3808",
+    "3809",
+    "3810"
+  ],
+  "Current Format/Value": {
+    "419415087.json": "0",
+    "299561721.json": "1",
+    "716761013.json": "2",
+    "804785430.json": "3"
+  }
+}

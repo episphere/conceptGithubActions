@@ -1,0 +1,37 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
+  "conceptId": "344631681",
+  "Current Question Text": "When was the last time you used chewing tobacco, snus, snuff, or dip?",
+  "Variable Label": "Last used chewing tobacco, snus, snuff, or dip",
+  "Variable Name": [
+    "SrvSAS_LastUsedCT_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CHEW5"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "10/25/21",
+  "Formula for Index": [
+    "3811",
+    "3812",
+    "3813"
+  ],
+  "Index": [
+    "3811",
+    "3812",
+    "3813"
+  ],
+  "Current Format/Value": {
+    "317567178.json": "0",
+    "484055234.json": "1",
+    "802197176.json": "2"
+  }
+}

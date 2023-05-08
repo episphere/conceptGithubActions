@@ -1,0 +1,23 @@
+{
+  "Formula for Index": "350",
+  "Index": "350",
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "360770860.json"
+  ],
+  "conceptId": "787237543",
+  "Current Question Text": "Biohazard Bag scan",
+  "Variable Label": "Biohazard Bag (Blood or Blood/Urine) ID",
+  "Variable Name": [
+    "BioCol_0008_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "14",
+  "Current Format/Value": "Example: CXA000001 0001",
+  "Required": "Yes, for any blood or urine tube where tube collected equals 1",
+  "Dictionary": "Biospecimen Clinical, Biospecimen Research, Biospecimen Shipping",
+  "State Attribute": "No",
+  "Default Variable": "No"
+}

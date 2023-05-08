@@ -1,0 +1,31 @@
+{
+  "Formula for Index": "2086",
+  "Index": "2086",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Current Source Question": [
+    "236590500.json"
+  ],
+  "GridID/Source Question Name": [
+    "CHILDDEATH"
+  ],
+  "conceptId": "182786508",
+  "Current Question Text": "Child 1- How old was [CHILD INITIALS OR NICKNAME/your CHILD] when they died?, Number",
+  "Variable Label": "Child 1 death age, number",
+  "Variable Name": [
+    "SrvBOH_Child1DeathAge_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CHILDDEATH_num"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "9/14/21",
+  "Question Type": "Text Box Plus Check Box, Loops"
+}

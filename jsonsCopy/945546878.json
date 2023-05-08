@@ -1,0 +1,36 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "506648060.json"
+  ],
+  "conceptId": "945546878",
+  "Current Question Text": "What do you think about the length of the first survey? Think about the number of questions and how long it took you to answer each section of the survey. Would you say the first survey is:",
+  "Variable Label": "Baseline survey length",
+  "Variable Name": [
+    "SrvPES_BASELINE3_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Participant Experience Survey",
+  "Date added or modified": "2/13/23",
+  "Question Type": "Optional Multiple Choice",
+  "Formula for Index": [
+    "7288",
+    "7289",
+    "7290"
+  ],
+  "Index": [
+    "7288",
+    "7289",
+    "7290"
+  ],
+  "Current Format/Value": {
+    "948464607.json": "0",
+    "537785073.json": "1",
+    "672312050.json": "2"
+  }
+}

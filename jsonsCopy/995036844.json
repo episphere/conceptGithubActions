@@ -1,0 +1,39 @@
+{
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "705748897.json"
+  ],
+  "conceptId": "995036844",
+  "Current Question Text": "Firebase authentication sign-in mechanism",
+  "Variable Label": "Account Sign-in Mechanism",
+  "Variable Name": [
+    "RcrtPC_Acnt_SignIn_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "Yes",
+  "Notes": "Only populates for those that have signed in and consented (since Connect ID is assigned at consent)",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "5/18/22",
+  "GCP Document/Table": "Participants Table",
+  "Formula for Index": [
+    "219",
+    "220",
+    "221"
+  ],
+  "Index": [
+    "219",
+    "220",
+    "221"
+  ],
+  "Current Format/Value": {
+    "943488874.json": "0",
+    "101178950.json": "1",
+    "804918759.json": "2"
+  }
+}

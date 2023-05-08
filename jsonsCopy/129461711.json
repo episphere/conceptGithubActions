@@ -1,0 +1,42 @@
+{
+  "Primary Source": [
+    "692924902.json"
+  ],
+  "Secondary Source": [
+    "195399696.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "129461711",
+  "Current Question Text": "Which version of ICD coding did you use to report the primary cancer site?",
+  "Variable Label": "ICD code version",
+  "Variable Name": [
+    "RCAOper_ICDCodeVer_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Operational variable. Nested under cancer occurrence",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "11/25/22",
+  "Formula for Index": [
+    "936",
+    "937",
+    "938",
+    "939"
+  ],
+  "Index": [
+    "936",
+    "937",
+    "938",
+    "939"
+  ],
+  "Current Format/Value": {
+    "253857383.json": "0",
+    "570098144.json": "1",
+    "829764411.json": "2",
+    "807835037.json": "55"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "218595434.json"
+  ],
+  "conceptId": "559534463",
+  "Current Question Text": "Verification Variable - Zip code",
+  "Variable Label": "Zip code Match",
+  "Variable Name": [
+    "RcrtV_ZipMatch_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes for some sites",
+  "Notes": "Sent as part of the verification table for HFHS for passive recruits.",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "Yes",
+  "Default Variable": "No",
+  "GCP Document/Table": "Participants Table",
+  "Formula for Index": [
+    "305",
+    "306"
+  ],
+  "Index": [
+    "305",
+    "306"
+  ],
+  "Current Format/Value": {
+    "356674370.json": "0",
+    "219803804.json": "1"
+  }
+}

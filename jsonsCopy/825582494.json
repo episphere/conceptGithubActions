@@ -1,0 +1,25 @@
+{
+  "Formula for Index": "349",
+  "Index": "349",
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "360770860.json"
+  ],
+  "conceptId": "825582494",
+  "Current Question Text": "Object ID",
+  "Variable Label": "Object ID",
+  "Variable Name": [
+    "BioCol_ObjectID_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "14",
+  "Required": "Yes - for any tube or bag/container where BioCol_ObjCollected_v1r0 equals 1",
+  "PII": "No",
+  "Notes": "Holds scanned in ID for any collected tube or bag/container.  Is nested under the CID for for the sample tube or bag/container with Object Collected.",
+  "Dictionary": "Biospecimen Clinical, Biospecimen Research, Biospecimen Shipping",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "5/19/22"
+}

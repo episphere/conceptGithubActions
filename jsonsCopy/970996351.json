@@ -1,0 +1,31 @@
+{
+  "Formula for Index": "6132",
+  "Index": "6132",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "914696832.json"
+  ],
+  "GridID/Source Question Name": [
+    "CURSCH1"
+  ],
+  "conceptId": "970996351",
+  "Current Question Text": "Commute School Street number",
+  "Variable Label": "Street number",
+  "Variable Name": [
+    "SrvLAW_CurSchStNum_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CURSCHSTNUM"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "6",
+  "Required": "No",
+  "PII": "Yes",
+  "Date added or modified": "11/9/22",
+  "IMS Review Notes": "Updated variable type from num to char"
+}
