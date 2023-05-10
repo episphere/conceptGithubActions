@@ -186,6 +186,7 @@ ADD LATER for TESTING (Missing Deprecated, New or Revised values for 1198 and 11
 
 ----------------------------------------------------------------------------------------------------------
 
+LONGER APPROACH THAT WILL INVOLVE MORE WORK FOR DD MODIFIERS
 
 Check if previous array didn't have a concept Id. We can skip the currArr completely
 
@@ -199,3 +200,48 @@ Let's name the variable isMainRowDeprecated =  false
 ***Main Row has --> deprecated value, assign true; 
 
 If the current Arr has deprecated 
+
+
+OR *****
+
+
+WHEN TO ADD "DEPRECATED" VALUE TO "DEPRECATED, NEW OR REVISED" COLUMN
+
+ADD DEPRECATED TO SUBSEQUENT ROWS IF MAIN ROW HAS DEPRECATED 
+
+AVOID INSERTING DEPRECATED IN FIRST ROW UNLESS ITS A SINGLE ROW WITH NO DEPENDENT ROWS BELOW IT OR IF ALL SUBSEQUENT DEPENDENT ROWS THAT FOLLOW SHOULD BE DEPRECATED
+
+"KEEP" might not be needed anymore
+
+
+----------------------------------------------------------------------------------------------------------
+
+transformation json
+
+"SRVBIO_SYMPTDAY_V1R0"
+
+Missing Responses  - Check individual CIDS ✅
+
+Cough - 756774083
+Fever - 406943303
+
+Cough Lines
+
+6305
+6391
+6843
+6929
+7664
+
+
+
+
+      "0": {
+        "conceptId": "756774083",
+        "concept": "Cough"
+      },
+
+            "4": {
+        "conceptId": "406943303",
+        "concept": "Fever"
+      },

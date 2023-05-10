@@ -7,11 +7,11 @@
   ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "759004335",
-  "Current Question Text": "Which of these options best describes your household's total combined family income for the <b>past 12 months</b>? This should include money earned from all places: job wages, rent from properties, investment income, social security, disability and/or veteran's benefits, unemployment benefits, workman's compensation, child support payments, alimony, and so on. Answer with the amount before taxes.",
+  "Current Question Text": "Which of these options best describes your household's total combined family income for the past 12 months? This should include money earned from all places: job wages, rent from properties, investment income, social security, disability and/or veteran's benefits, unemployment benefits, worker's compensation, child support payments, alimony, and so on. Answer with the amount before taxes.",
   "V1 Question Text": "Which of these options best describes your household's total combined family income for the past 12 months? This should include money earned from all places: job wages, rent from properties, investment income, social security, disability and/or veteran's benefits, unemployment benefits, workman's compensation, child support payments, alimony, and so on. Answer with the amount before taxes.",
   "Variable Label": "Income",
   "Variable Name": [
-    "SrvBOH_Income_v1r0"
+    "SrvBOH_Income_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "INCOME"
@@ -23,7 +23,6 @@
   "Question Type": "Optional Multiple Choice",
   "IMS Review Notes": "Added V1 Question text and revised current question text. Updated variable name suffix",
   "Formula for Index": [
-    "2327",
     "2328",
     "2329",
     "2330",
@@ -33,10 +32,10 @@
     "2334",
     "2335",
     "2336",
-    "2337"
+    "2337",
+    "2338"
   ],
   "Index": [
-    "2327",
     "2328",
     "2329",
     "2330",
@@ -46,7 +45,8 @@
     "2334",
     "2335",
     "2336",
-    "2337"
+    "2337",
+    "2338"
   ],
   "Current Format/Value": {
     "374508062.json": "0",
@@ -62,7 +62,7 @@
     "746038746.json": "99"
   },
   "Date added or modified": [
-    "9/28/21",
+    "4/21/23",
     "6/24/21"
   ]
 }

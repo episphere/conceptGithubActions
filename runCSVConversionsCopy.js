@@ -1,7 +1,9 @@
 const fs = require('fs');
 
 const concept = require('./conceptCopy');
-let file='./csvCopy/smallTest.csv' // Points to the csvCopy/masterFile
+// let file='./csvCopy/smallTest.csv' // References to the csvCopy/masterFile 
+
+let file='./csvCopy/coughRunTest.csv' // References to the csvCopy/coughRunTest 
 concept.readFile(file)
 
 /*

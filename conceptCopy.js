@@ -208,7 +208,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                         }
                         if(found == false){
                             jsonList.push({'conceptId':cid, 'Current Question Text':val})
-                            fs.writeFileSync('./jsonsTest/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Current Question Text':val},null, 2))
+                            fs.writeFileSync('./jsonsCopy/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Current Question Text':val},null, 2))
                             nameToConcept[val] = cid
                         }
                         if(!conceptIdList.includes(cid)){
@@ -239,7 +239,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                         }
                         if(found == false){
                             jsonList.push({'conceptId':cid, 'Current Question Text':currElement})
-                            fs.writeFileSync('./jsonsTest/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Current Question Text':currElement},null, 2))
+                            fs.writeFileSync('./jsonsCopy/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Current Question Text':currElement},null, 2))
                             nameToConcept[currElement] = cid
                         }
                         if(!conceptIdList.includes(cid)){
@@ -307,7 +307,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
             }
             if(found == false){
                 jsonList.push({'conceptId':cid, 'Current Question Text':currVal})
-                fs.writeFileSync('./jsonsTest/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Current Question Text':currVal},null, 2))
+                fs.writeFileSync('./jsonsCopy/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Current Question Text':currVal},null, 2))
                 nameToConcept[currVal] = cid
             }
             if(!conceptIdList.includes(cid)){
@@ -410,7 +410,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
         }
     }
     jsonList.push(firstRowJSON);
-    fs.writeFileSync('./jsonsTest/' + firstRowJSON['conceptId'] + '.json', JSON.stringify(firstRowJSON,null, 2))
+    fs.writeFileSync('./jsonsCopy/' + firstRowJSON['conceptId'] + '.json', JSON.stringify(firstRowJSON,null, 2))
     return cluster;
 
 }
@@ -503,7 +503,7 @@ Main Function Here
 async function readFile(fileName){
     let jsonList = []
     let sourceJSONS = []
-    fs.readdirSync('./jsonsTest/').forEach(file => {
+    fs.readdirSync('./jsonsCopy/').forEach(file => {
         if(file.match(/[0-9]{9}.json/)){
             let currFileContents = fs.readFileSync('./jsons/' + file);
             let currJSON = JSON.parse(currFileContents)
@@ -512,8 +512,8 @@ async function readFile(fileName){
     });
 
     let ConceptIndex = '{}'
-    if(fs.existsSync('./jsonsTest/varToConcept.json')){
-        ConceptIndex = fs.readFileSync('./jsonsTest/varToConcept.json', {encoding:'utf8'})
+    if(fs.existsSync('./jsonsCopy/varToConcept.json')){
+        ConceptIndex = fs.readFileSync('./jsonsCopy/varToConcept.json', {encoding:'utf8'})
     }
     let toReplace = fs.readFileSync(fileName,{encoding:'utf8', flag:'r'})
     ////console.log(toReplace)
@@ -535,8 +535,8 @@ async function readFile(fileName){
     toReplace = replaceQuotes(toReplace)
     fs.writeFileSync(fileName, toReplace)
     let idIndex = '[]'
-    if(fs.existsSync('./jsonsTest/conceptIds.txt')){
-        idIndex = fs.readFileSync('./jsonsTest/conceptIds.txt', {encoding:'utf8'})
+    if(fs.existsSync('./jsonsCopy/conceptIds.txt')){
+        idIndex = fs.readFileSync('./jsonsCopy/conceptIds.txt', {encoding:'utf8'})
     }
     let conceptIdList = JSON.parse(idIndex)
 
@@ -581,7 +581,7 @@ async function readFile(fileName){
      * 2 is the index of conceptId and 'Primary Souce' is the next index after conceptId Ex. {'2': 'Primary Source', ...}
     */
     let conceptIdObject = {};
-    let nameToConcept = JSON.parse(ConceptIndex); // entire './jsonsTest/varToConcept.json' object
+    let nameToConcept = JSON.parse(ConceptIndex); // entire './jsonsCopy/varToConcept.json' object
     let counter = 0;
     for await(const line of rl){
         //let arr = line.split(',');
@@ -692,17 +692,43 @@ async function readFile(fileName){
         }   
         if(!found){
             jsonList.push(sourceJSONS[i])
-            fs.writeFileSync('./jsonsTest/' + sourceJSONS[i]['conceptId'] + '.json', JSON.stringify(sourceJSONS[i],null, 2)); // ADD THIS BACK IN
+            fs.writeFileSync('./jsonsCopy/' + sourceJSONS[i]['conceptId'] + '.json', JSON.stringify(sourceJSONS[i],null, 2)); // ADD THIS BACK IN
 
         }
         else{
-            fs.writeFileSync('./jsonsTest/' + sourceJSONS[i]['conceptId'] + '.json', JSON.stringify(result,null, 2)) // ADD THIS BACK IN
+            fs.writeFileSync('./jsonsCopy/' + sourceJSONS[i]['conceptId'] + '.json', JSON.stringify(result,null, 2)) // ADD THIS BACK IN
         }
         
     }
 
     // fs.writeFileSync('./jsonsCopy/varToConcept.json', JSON.stringify(nameToConcept)) // ADD THIS BACK IN
     // fs.writeFileSync('./jsonsCopy/conceptIds.txt', JSON.stringify(conceptIdList)) // ADD THIS BACK IN
+
+    // DELETE "SPECIFIC KEYS FUNCTION CAN BE PLACED HERE"
+    fs.readdirSync('./jsonsCopy/').forEach((file, index) => {
+        if (file.match(/[0-9]{9}.json/)){
+            let currFileContents = fs.readFileSync('./jsonsCopy/' + file);
+            let currFileJSON = JSON.parse(currFileContents);
+
+            // read and parse file is above
+
+            // next is to delete the key
+            if(file == "756774083.json") {
+                if (currFileJSON['Deprecated, New, or Revised']){
+                    console.log("currFileJSON BEFORE deleted version", currFileJSON)
+                    delete currFileJSON['Deprecated, New, or Revised'];
+                    // console.log("------------------")
+                    console.log("currFileJSON AFTER deleted version", currFileJSON)
+                }
+                if(currFileJSON['Date Deprecated, New, or Revised Variable Pushed to Prod']) {
+                    delete currFileJSON['Date Deprecated, New, or Revised Variable Pushed to Prod'];
+                }
+                let updatedJSONString = JSON.stringify(currFileJSON, null, 2);
+                fs.writeFileSync('./jsonsCopy/' + file, updatedJSONString);
+            }
+
+        }   
+    });
 
     rl.close();
     fileStream.close();
