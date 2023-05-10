@@ -308,6 +308,12 @@
   "110092955": {
     "Variable Name": "The same day"
   },
+  "110349197": {
+    "Variable Label": "Polyaccession ID- Urine",
+    "Variable Name": [
+      "BioClin_PolyUrineID_v1r0"
+    ]
+  },
   "110511396": {
     "Variable Name": "Cancer Site Specific Questionnaire DRAFT QUESTION TYPE"
   },
@@ -2970,6 +2976,9 @@
       "SrvCov_COV19B5_v1r0"
     ]
   },
+  "218837028": {
+    "Variable Name": "Woman"
+  },
   "218852075": {
     "Variable Label": "Other: Please describe text box",
     "Variable Name": [
@@ -3025,6 +3034,12 @@
     "Variable Label": "Age Norplant first use",
     "Variable Name": [
       "SrvMRE_AgeNorpUsedF_v1r0"
+    ]
+  },
+  "220186468": {
+    "Variable Label": "Flag for COVID-19 survey",
+    "Variable Name": [
+      "SrvCOV_BaseComplete_v1r0"
     ]
   },
   "220238240": {
@@ -4071,6 +4086,12 @@
     "Variable Name": [
       "SrvBOH_Italian_v1r0",
       "SrvBOH_ItalianLang_v1r0"
+    ]
+  },
+  "268176409": {
+    "Variable Label": "Date/time Status of Start of COVID-19 survey",
+    "Variable Name": [
+      "SrvCOV_TmStart_v1r0"
     ]
   },
   "268240612": {
@@ -6071,6 +6092,9 @@
     "Variable Name": [
       "SrvSAS_THCServing1824_v1r0"
     ]
+  },
+  "375971816": {
+    "Variable Name": "Study staff"
   },
   "376408004": {
     "Variable Name": "Season Address 1- What is the full street address of your seasonal or vacation home?"
@@ -9701,6 +9725,12 @@
       "SrvLaw_StrtName1_v1r0"
     ]
   },
+  "543608829": {
+    "Variable Label": "Polyaccession ID- Blood",
+    "Variable Name": [
+      "BioClin_PolyBloodID_v1r0"
+    ]
+  },
   "543728565": {
     "Variable Name": "Systemic and Other Problems- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply."
   },
@@ -10077,7 +10107,7 @@
   "561005927": {
     "Variable Label": "Deviation- Centrifuge - Improper speed/force setting used (too low)",
     "Variable Name": [
-      "BioCol_SpeedL_v1r0_SpeedL"
+      "BioCol_Dev_v1r0_SpeedL"
     ]
   },
   "561635035": {
@@ -11110,6 +11140,12 @@
   },
   "610382315": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had brain cancer?"
+  },
+  "611005658": {
+    "Variable Label": "Profile Change Requested by",
+    "Variable Name": [
+      "RcrtUP_UPChangeReqBy_v1r0"
+    ]
   },
   "612012325": {
     "Variable Label": "Progesterone-only or progestin-only contraceptive pills, commonly called: the mini-pill",
@@ -15039,6 +15075,12 @@
       "SrvLAW_HomeMoveIn7_v1r0"
     ]
   },
+  "784810139": {
+    "Variable Label": "Date/Time COVID-19 survey completed",
+    "Variable Name": [
+      "SrvCOV_TmComplete_v1r0"
+    ]
+  },
   "784922042": {
     "Variable Name": "Related to me in some other way"
   },
@@ -16373,6 +16415,9 @@
     "Variable Name": [
       "SrvLAW_FullSt2_PreWork_v1r0"
     ]
+  },
+  "840350416": {
+    "Variable Name": "PWA"
   },
   "841390583": {
     "Variable Label": "Orphan tube - shipped flag",
@@ -19516,6 +19561,9 @@
     "Variable Name": [
       "RcrtUP_OtherVM_v1r0"
     ]
+  },
+  "983318667": {
+    "Variable Name": "Man"
   },
   "983592172": {
     "Variable Label": "Lived anywhere else at least two years",
