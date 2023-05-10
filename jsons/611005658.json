@@ -1,0 +1,36 @@
+{
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "332759827.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "611005658",
+  "Current Question Text": "Profile Change Requested by",
+  "Variable Label": "Profile Change Requested by",
+  "Variable Name": [
+    "RcrtUP_UPChangeReqBy_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes - when user profile is updated",
+  "PII": "No",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "5/10/23",
+  "GCP Document/Table": "Participants Table",
+  "Formula for Index": [
+    "270",
+    "271"
+  ],
+  "Index": [
+    "270",
+    "271"
+  ],
+  "Current Format/Value": {
+    "840350416.json": "0",
+    "375971816.json": "1"
+  }
+}

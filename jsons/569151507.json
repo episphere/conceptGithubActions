@@ -1,35 +1,28 @@
 {
+  "Formula for Index": "268",
+  "Index": "268",
   "Primary Source": [
     "192505768.json"
   ],
   "Secondary Source": [
     "332759827.json"
   ],
+  "Deprecated, New, or Revised": "New",
   "conceptId": "569151507",
   "Current Question Text": "User Profile History",
   "Variable Label": "User Profile History",
   "Variable Name": [
     "RcrtUP_UPHistory_v1r0"
   ],
-  "Variable Type": "Num",
-  "Variable Length": "1",
+  "Variable Type": "N/A",
+  "Variable Length": "N/A",
+  "Current Format/Value": "N/A",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "This is a variable under which an array is nested, we'll need to think about how best to indicate this in the dictionary as we are doing other revisions relative to nesting.",
+  "Notes": "This is a hierarchical variable for storing histroical UP data. Data will be stored under this variable.",
   "Dictionary": "Recruitment Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "3/28/23",
-  "Formula for Index": [
-    "268",
-    "269"
-  ],
-  "Index": [
-    "268",
-    "269"
-  ],
-  "Current Format/Value": {
-    "104430631.json": "0",
-    "353358909.json": "1"
-  }
+  "Date added or modified": "5/10/23",
+  "GCP Document/Table": "Participants Table Not nested (d_569151507)"
 }
