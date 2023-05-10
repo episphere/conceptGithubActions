@@ -1,0 +1,41 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Current Source Question": [
+    "308014437.json"
+  ],
+  "GridID/Source Question Name": [
+    "RACEETH5"
+  ],
+  "conceptId": "981774939",
+  "Current Question Text": "Honduran",
+  "Variable Label": "Honduran",
+  "Variable Name": [
+    "SrvBOH_Honduran_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "4"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if RACEETH = Hispanic, Latino, or Spanish",
+  "Question Type": "Optional Select All that Apply",
+  "Formula for Index": [
+    "1050",
+    "1051"
+  ],
+  "Index": [
+    "1050",
+    "1051"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

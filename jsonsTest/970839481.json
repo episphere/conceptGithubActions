@@ -1,0 +1,33 @@
+{
+  "Formula for Index": "2346",
+  "Index": "2346",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Current Source Question": [
+    "857915436.json"
+  ],
+  "GridID/Source Question Name": [
+    "ALTADDRESS2"
+  ],
+  "conceptId": "970839481",
+  "Current Question Text": "Alternative address state",
+  "Variable Label": "State",
+  "Variable Name": [
+    "SrvBOH_State_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "ALTADDRESS2_STATE"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "48",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "Yes",
+  "Notes": "Populated from Google Addresses",
+  "Date added or modified": "12/27/21",
+  "Question Type": "Multiple Text Boxes"
+}

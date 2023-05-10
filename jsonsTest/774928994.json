@@ -1,0 +1,33 @@
+{
+  "Formula for Index": "1137",
+  "Index": "1137",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Current Source Question": [
+    "797626610.json"
+  ],
+  "GridID/Source Question Name": [
+    "RACEETH8"
+  ],
+  "conceptId": "774928994",
+  "Current Question Text": "None of these White categories fully describe me. Please describe [text box]",
+  "Variable Label": "None of these fully describe me. Please describe [text box]",
+  "Variable Name": [
+    "SrvBOH_NoneDescribeRE8_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "RACEETH8_TB"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "300",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if RACEETH = White",
+  "Date added or modified": "9/14/21",
+  "Question Type": "Optional Select All that Apply"
+}

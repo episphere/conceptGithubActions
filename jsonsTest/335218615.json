@@ -1,0 +1,49 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "conceptId": "335218615",
+  "Current Question Text": "How many days per week did you usually make the trip from your home to [insert address from PREWORK1 - PREWORK3/this address]?",
+  "Variable Label": "Days commute, commute to past work",
+  "Variable Name": [
+    "SrvLAW_PreWorkT3_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "PREWORKT3"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "3/10/22",
+  "Formula for Index": [
+    "6052",
+    "6053",
+    "6054",
+    "6055",
+    "6056",
+    "6057",
+    "6058"
+  ],
+  "Index": [
+    "6052",
+    "6053",
+    "6054",
+    "6055",
+    "6056",
+    "6057",
+    "6058"
+  ],
+  "Current Format/Value": {
+    "559049897.json": "0",
+    "500554958.json": "1",
+    "897038099.json": "2",
+    "103409401.json": "3",
+    "334390252.json": "4",
+    "300863887.json": "5",
+    "252853790.json": "6"
+  }
+}

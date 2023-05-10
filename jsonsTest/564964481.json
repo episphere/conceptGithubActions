@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "233",
+  "Index": "233",
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "332759827.json"
+  ],
+  "conceptId": "564964481",
+  "Current Question Text": "Birth Month",
+  "Variable Label": "Birth Month",
+  "Variable Name": [
+    "RcrtUP_MOB_v1r0"
+  ],
+  "Variable Type": "Month",
+  "Variable Length": "2",
+  "Current Format/Value": "mm",
+  "Required": "Yes",
+  "PII": "Yes",
+  "Notes": "Variable will be populated by a drop down menu with values from 1 to 12",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "GCP Document/Table": "Participants Table"
+}

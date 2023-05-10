@@ -1,0 +1,23 @@
+{
+  "Formula for Index": "6150",
+  "Index": "6150",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "conceptId": "659744749",
+  "Current Question Text": "How many of the past 12 months did you commute to [insert address from CURSCH1 - CURSCH3/this address] from your home?",
+  "Variable Label": "Months commute to address",
+  "Variable Name": [
+    "SrvLAW_CurSchMos_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CURSCHMOS"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No"
+}

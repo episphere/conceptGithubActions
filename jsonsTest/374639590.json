@@ -1,0 +1,34 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "conceptId": "374639590",
+  "Current Question Text": "Did your daily tasks include driving (such as a sales representative, courier, bus driver, or truck driver)?",
+  "Variable Label": "Current job, job includes driving",
+  "Variable Name": [
+    "SrvLAW_WorkRes_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "WORKRES"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "1/12/22",
+  "Formula for Index": [
+    "5796",
+    "5797"
+  ],
+  "Index": [
+    "5796",
+    "5797"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "conceptId": "614145455",
+  "Current Question Text": "Please pick the option that best describes why you have not had a menstrual period in the past 12 months:",
+  "subcollections": [
+    "614145455.json",
+    "672810476.json"
+  ],
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "Current Source Question": [
+    "614145455.json"
+  ],
+  "GridID/Source Question Name": [
+    "MENSHIS7"
+  ],
+  "Variable Label": "Why not have menstrual period last 12 months",
+  "Variable Name": [
+    "SrvMRE_NoPeriodReason_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "MENSHIS7"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "10/5/21",
+  "Formula for Index": [
+    "2610",
+    "2611",
+    "2612",
+    "2613",
+    "2614",
+    "2615",
+    "2616",
+    "2617"
+  ],
+  "Index": [
+    "2610",
+    "2611",
+    "2612",
+    "2613",
+    "2614",
+    "2615",
+    "2616",
+    "2617"
+  ],
+  "Current Format/Value": {
+    "582425113.json": "0",
+    "330745988.json": "1",
+    "909774794.json": "2",
+    "868504994.json": "3",
+    "655309065.json": "4",
+    "757609794.json": "5",
+    "585076356.json": "6",
+    "807835037.json": "55"
+  }
+}

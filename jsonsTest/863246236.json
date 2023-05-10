@@ -1,0 +1,70 @@
+{
+  "Primary Source": [
+    "692924902.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "195399696.json",
+    "726699695.json",
+    "726699695.json",
+    "726699695.json",
+    "726699695.json"
+  ],
+  "Current Source Question": [
+    "740819233.json",
+    "814510313.json",
+    "173240848.json",
+    "578895128.json",
+    "812370563.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "863246236",
+  "Current Question Text": "Kidney",
+  "Variable Name": [
+    "RCAOper_KidneyCancer_v1r0",
+    "SrvBOH_MKidneyCancer_v1r0",
+    "SrvBOH_DKidneyCancer_v1r0",
+    "SrvBOH_S1KidneyCanc_v1r0",
+    "SrvBOH_C1KidneyCanc_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Operational variable. Nested under cancer occurrence",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "11/25/22",
+  "Formula for Index": [
+    "901",
+    "902"
+  ],
+  "Index": [
+    "901",
+    "902"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  },
+  "GridID/Source Question Name": [
+    "",
+    "MOMCANC2",
+    "DADCANC2",
+    "SIBCANC2",
+    "CHILDCANC2"
+  ],
+  "Variable Label": "Kidney",
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "",
+    "8",
+    "7",
+    "8",
+    "8"
+  ],
+  "Question Type": "Optional Select All that Apply"
+}

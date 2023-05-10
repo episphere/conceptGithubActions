@@ -1,0 +1,55 @@
+{
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "299215535.json",
+    "826163434.json",
+    "793330426.json"
+  ],
+  "Current Source Question": [
+    "847578001.json",
+    "847578001.json",
+    "847578001.json"
+  ],
+  "GridID/Source Question Name": [
+    "GRID_SRVBLU_COV19A_V1R0",
+    "GRID_SRVBLU_COV19A_V1R0",
+    "GRID_SRVCOV_COV19A_V1R0"
+  ],
+  "Deprecated, New, or Revised": "Deprecated",
+  "conceptId": "167695804",
+  "Current Question Text": "Appetite changes - Since your diagnosis",
+  "Variable Label": "Long COVID Appetite changes",
+  "Variable Name": [
+    "SrvBlU_COV19A2_v1r0",
+    "SrvBlU_COV19A2_v1r0",
+    "SrvCov_COV19A2_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Date added or modified": "2/23/23",
+  "Question Type": "Grid with Multiple Choice Sub-Questions",
+  "IMS Review Notes": "Deprecated COVID-19 questions from Blood/Urine/Mouthwash Survey",
+  "Formula for Index": [
+    "6443",
+    "6444",
+    "6445"
+  ],
+  "Index": [
+    "6443",
+    "6444",
+    "6445"
+  ],
+  "Current Format/Value": {
+    "244354126.json": "0",
+    "724612102.json": "1",
+    "178780048.json": "2"
+  }
+}

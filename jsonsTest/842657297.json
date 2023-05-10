@@ -1,0 +1,56 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Deprecated, New, or Revised": "Deprecated",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "6/10/22",
+  "conceptId": "842657297",
+  "Current Question Text": "During the past 12 months, about how many days per week did you typically work for pay?",
+  "Variable Label": "Days work",
+  "Variable Name": [
+    "SrvBOH_DaysWork_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "DAYSWORK"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "Notes": "DAYSWORK deprecated from Module 1 and was added New to Module 4.",
+  "Date added or modified": "4/13/23",
+  "Question Type": "Optional Multiple Choice",
+  "IMS Review Notes": "Added previously deleted variable for record purposes",
+  "Formula for Index": [
+    "2320",
+    "2321",
+    "2322",
+    "2323",
+    "2324",
+    "2325",
+    "2326",
+    "2327"
+  ],
+  "Index": [
+    "2320",
+    "2321",
+    "2322",
+    "2323",
+    "2324",
+    "2325",
+    "2326",
+    "2327"
+  ],
+  "Current Format/Value": {
+    "503218834.json": "0",
+    "632371391.json": "1",
+    "709969190.json": "2",
+    "928753604.json": "3",
+    "686379250.json": "4",
+    "107714591.json": "5",
+    "689829953.json": "6",
+    "164282814.json": "7"
+  }
+}

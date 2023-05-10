@@ -1,0 +1,42 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Current Source Question": [
+    "517307064.json"
+  ],
+  "GridID/Source Question Name": [
+    "BREASTSUR"
+  ],
+  "conceptId": "955881350",
+  "Current Question Text": "Breast reduction",
+  "Variable Label": "Breast reduction",
+  "Variable Name": [
+    "SrvBOH_BreastRed_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "3"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if MHGROUP9 = breast surgery",
+  "Date added or modified": "8/9/21",
+  "Question Type": "Optional Select All that Apply",
+  "Formula for Index": [
+    "1502",
+    "1503"
+  ],
+  "Index": [
+    "1502",
+    "1503"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "299215535.json",
+    "299215535.json"
+  ],
+  "Current Source Question": [
+    "899251483.json",
+    "899251483.json"
+  ],
+  "V1 Source Question": [
+    "Have you lost any of your permanent adult teeth, not including your wisdom teeth? Select all that apply.",
+    "Have you lost any of your permanent adult teeth, not including your wisdom teeth? Select all that apply."
+  ],
+  "GridID/Source Question Name": [
+    "SrvMtW_PERMTTHLOST_v2r0",
+    "SrvMtW_PERMTTHLOST_v2r0"
+  ],
+  "conceptId": "551489317",
+  "Current Question Text": "No, I haven't lost any teeth",
+  "Variable Label": "No permanent teeth lost",
+  "Variable Name": [
+    "SrvMtW_NOPERMTTHLOST2_v1r0",
+    "SrvMtW_NOPERMTTHLOST2_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "0",
+    "0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Question Type": "Optional Select All That Apply",
+  "IMS Review Notes": "Added new question.",
+  "Formula for Index": [
+    "6777",
+    "6778"
+  ],
+  "Index": [
+    "6777",
+    "6778"
+  ],
+  "Deprecated, New, or Revised": [
+    "New",
+    "New"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  },
+  "Date added or modified": [
+    "4/10/23",
+    "4/10/23"
+  ]
+}

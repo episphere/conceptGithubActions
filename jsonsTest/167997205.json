@@ -1,0 +1,50 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "167997205",
+  "Current Question Text": "How long after your first menstrual period did your periods become regular? By regular, we mean that you could predict the start of your next period within a few days.",
+  "Variable Label": "Long until periods regular",
+  "Variable Name": [
+    "SrvMRE_PeriodRegTime_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "MENSHIS2_1"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "4/13/22",
+  "IMS Review Notes": "Changed BOH to MRE in secondary source",
+  "Formula for Index": [
+    "2593",
+    "2594",
+    "2595",
+    "2596",
+    "2597",
+    "2598",
+    "2599"
+  ],
+  "Index": [
+    "2593",
+    "2594",
+    "2595",
+    "2596",
+    "2597",
+    "2598",
+    "2599"
+  ],
+  "Current Format/Value": {
+    "648960871.json": "44",
+    "868025301.json": "0",
+    "939110313.json": "1",
+    "410083265.json": "2",
+    "718537646.json": "3",
+    "801142243.json": "4",
+    "178420302.json": "77"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "724",
+  "Index": "724",
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "635994596.json"
+  ],
+  "conceptId": "161366008",
+  "Current Question Text": "Date of the start of suspend all contact",
+  "Variable Label": "Date of the start of suspend all contact",
+  "Variable Name": [
+    "HdWd_SuspendDt_v1r0"
+  ],
+  "Variable Type": "ISO",
+  "Variable Length": "24",
+  "Current Format/Value": "example: 2020-07-17T15:21:26.763Z",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "ISO to be converted to SAS format. Autoset to the date the suspension was entered by the help desk agent",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "4/9/21"
+}

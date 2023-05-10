@@ -1,0 +1,65 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "conceptId": "206319592",
+  "Current Question Text": "Which one of these male figures most closely resembles your hair pattern at age 40?",
+  "Variable Label": "Hair male",
+  "Variable Name": [
+    "SrvBOH_HairMale_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "HAIRMALE"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "[DISPLAY IF SEX= 01 and GEN= 01]",
+  "Question Type": "Optional Multiple Choice, Figures (with radio button to select one)",
+  "Formula for Index": [
+    "1709",
+    "1710",
+    "1711",
+    "1712",
+    "1713",
+    "1714",
+    "1715",
+    "1716",
+    "1717",
+    "1718",
+    "1719",
+    "1720"
+  ],
+  "Index": [
+    "1709",
+    "1710",
+    "1711",
+    "1712",
+    "1713",
+    "1714",
+    "1715",
+    "1716",
+    "1717",
+    "1718",
+    "1719",
+    "1720"
+  ],
+  "Current Format/Value": {
+    "927925620.json": "0",
+    "629452816.json": "1",
+    "915557297.json": "2",
+    "103565678.json": "3",
+    "381878591.json": "4",
+    "446794016.json": "5",
+    "526238862.json": "6",
+    "173625583.json": "7",
+    "782282163.json": "8",
+    "693010445.json": "9",
+    "732008197.json": "10",
+    "734998477.json": "11"
+  }
+}

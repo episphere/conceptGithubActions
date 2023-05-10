@@ -1,0 +1,40 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
+  "conceptId": "639684251",
+  "Current Question Text": "Do you smoke cigarettes now?",
+  "Variable Label": "Use cigarettes now",
+  "Variable Name": [
+    "SrvSAS_UseCigsNow_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CIG4"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "11/24/21",
+  "Formula for Index": [
+    "3640",
+    "3641",
+    "3642",
+    "3643"
+  ],
+  "Index": [
+    "3640",
+    "3641",
+    "3642",
+    "3643"
+  ],
+  "Current Format/Value": {
+    "419415087.json": "0",
+    "299561721.json": "1",
+    "716761013.json": "2",
+    "804785430.json": "3"
+  }
+}

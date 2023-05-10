@@ -53,7 +53,6 @@ function replaceQuotes(text){
  */
 
 function processCluster(cluster, header, nameToConcept, indexVariableName, conceptIdList, conceptIdObject, sourceJSONS, jsonList, regexInclude){
-    //console.log(cluster[0])
     let nonEmpty = [];
     let conceptIdObjectKeys =Object.keys(conceptIdObject)
     let conceptIdIndices = [];
@@ -184,7 +183,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
         let leafObj = {}
         for(let i = 0; i < cluster.length; i++){
             let currRow = cluster[i];
-            console.log(currRow)
+            // console.log(currRow) // Add back later
             if(currIndex < currRow.length) {
             let currElement = currRow[currIndex].trim();
             if(currElement != ''){
@@ -209,7 +208,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                         }
                         if(found == false){
                             jsonList.push({'conceptId':cid, 'Current Question Text':val})
-                            fs.writeFileSync('./jsonsCopy/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Current Question Text':val},null, 2))
+                            fs.writeFileSync('./jsonsTest/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Current Question Text':val},null, 2))
                             nameToConcept[val] = cid
                         }
                         if(!conceptIdList.includes(cid)){
@@ -240,7 +239,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                         }
                         if(found == false){
                             jsonList.push({'conceptId':cid, 'Current Question Text':currElement})
-                            fs.writeFileSync('./jsonsCopy/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Current Question Text':currElement},null, 2))
+                            fs.writeFileSync('./jsonsTest/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Current Question Text':currElement},null, 2))
                             nameToConcept[currElement] = cid
                         }
                         if(!conceptIdList.includes(cid)){
@@ -280,8 +279,8 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
         let val = conceptIdObject[key-1]
 
         if(!(val.includes('Source') || val.includes('Src') || val.includes('Current Question Text') || val.includes('Connect Value for Select all that apply questions') || nonEmpty.includes(key) || !firstRow[key].match(regexInclude)) && firstRow[key] != ''){
-            console.log(val)
-            console.log(firstRow[key])
+            // console.log(val) // Add back later
+            // console.log(firstRow[key]) // Add back later
             
             let currVal = firstRow[key]
             let elementNumber = -1;
@@ -308,7 +307,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
             }
             if(found == false){
                 jsonList.push({'conceptId':cid, 'Current Question Text':currVal})
-                fs.writeFileSync('./jsonsCopy/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Current Question Text':currVal},null, 2))
+                fs.writeFileSync('./jsonsTest/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Current Question Text':currVal},null, 2))
                 nameToConcept[currVal] = cid
             }
             if(!conceptIdList.includes(cid)){
@@ -411,7 +410,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
         }
     }
     jsonList.push(firstRowJSON);
-    fs.writeFileSync('./jsonsCopy/' + firstRowJSON['conceptId'] + '.json', JSON.stringify(firstRowJSON,null, 2))
+    fs.writeFileSync('./jsonsTest/' + firstRowJSON['conceptId'] + '.json', JSON.stringify(firstRowJSON,null, 2))
     return cluster;
 
 }
@@ -496,19 +495,25 @@ function getConceptIdCols(header){
     
 }
 
+/* 
+Main Function Here
+// fileName --> './csvCopy/masterFileCopy.csv'
+*/ 
+
 async function readFile(fileName){
     let jsonList = []
     let sourceJSONS = []
-    fs.readdirSync('./jsonsCopy/').forEach(file => {
-        /*if(file.match(/[0-9]{9}.json/)){
+    fs.readdirSync('./jsonsTest/').forEach(file => {
+        if(file.match(/[0-9]{9}.json/)){
             let currFileContents = fs.readFileSync('./jsons/' + file);
             let currJSON = JSON.parse(currFileContents)
             sourceJSONS.push(currJSON);
-        }*/
+        }
     });
+
     let ConceptIndex = '{}'
-    if(fs.existsSync('./jsonsCopy/varToConcept.json')){
-        ConceptIndex = fs.readFileSync('./jsonsCopy/varToConcept.json', {encoding:'utf8'})
+    if(fs.existsSync('./jsonsTest/varToConcept.json')){
+        ConceptIndex = fs.readFileSync('./jsonsTest/varToConcept.json', {encoding:'utf8'})
     }
     let toReplace = fs.readFileSync(fileName,{encoding:'utf8', flag:'r'})
     ////console.log(toReplace)
@@ -530,14 +535,28 @@ async function readFile(fileName){
     toReplace = replaceQuotes(toReplace)
     fs.writeFileSync(fileName, toReplace)
     let idIndex = '[]'
-    if(fs.existsSync('./jsonsCopy/conceptIds.txt')){
-        idIndex = fs.readFileSync('./jsonsCopy/conceptIds.txt', {encoding:'utf8'})
+    if(fs.existsSync('./jsonsTest/conceptIds.txt')){
+        idIndex = fs.readFileSync('./jsonsTest/conceptIds.txt', {encoding:'utf8'})
     }
     let conceptIdList = JSON.parse(idIndex)
-    let varLabelIndex = 0;
+
+    /**
+     * Current Question Text's conceptId index - 13 (current)
+     */
+    let currQuestionTextIndex = 0;
+
+    /**
+     * cluster
+     * for await (const line of rl) looping, arr line pushed in else block
+     * 
+    */
     let cluster = []
     
     const fileStream = fs.createReadStream(fileName);
+
+    /**
+     * excelOutput is an array of arrays. Each array is a row in the excel sheet
+    */
     let excelOutput = []
     const rl = readline.createInterface({
         input: fileStream,
@@ -545,49 +564,103 @@ async function readFile(fileName){
     })
     let first = true;
     let second  = true;
-    let currCluster = false;
+    let currCluster = false; // switches to true on else statement code block
     let header = [];
+    /**
+     * deprecatedNewRevisedIndex (new variable) - index 10 
+    */
+    let deprecatedNewRevisedIndex;
+
+    /** 
+     * conceptCols is an array of conceptId indices to the right of cidIndex Ex. [3, 5, 7, ...]
+     * 3 is the index of conceptId and 'Primary Souce' is the next index after conceptId
+    */
     let conceptCols = [];
+    /** 
+     * object of concepId index and concept name value to the left of it. 
+     * 2 is the index of conceptId and 'Primary Souce' is the next index after conceptId Ex. {'2': 'Primary Source', ...}
+    */
     let conceptIdObject = {};
-    let nameToConcept = JSON.parse(ConceptIndex);
+    let nameToConcept = JSON.parse(ConceptIndex); // entire './jsonsTest/varToConcept.json' object
+    let counter = 0;
     for await(const line of rl){
         //let arr = line.split(',');
         let arr = CSVToArray(line, ',')
+        // console.log("arr", arr) // line by line
         if(first){
             conceptIdObject = getConceptIdCols(arr)
-            console.log('abc')
-            console.log(conceptIdObject)
+            // console.log('abc') // Add Back Later
+            // console.log(conceptIdObject) // Add Back Later
             header = arr;
             first = false;
             for(let i = 0; i < arr.length; i++){
                 if(arr[i] == "Current Question Text"){
-                    varLabelIndex = i;
+                    currQuestionTextIndex = i;
                 }
                 if(arr[i] == "conceptId" && i+1 < arr.length){
                     conceptCols.push(i+1)
                 }
+                if( arr[i] == "Deprecated, New, or Revised") {
+                    deprecatedNewRevisedIndex = i;
+                    console.log("🚀 ~ file: conceptCopy.js:603 ~ forawait ~ deprecatedNewRevisedIndex:", deprecatedNewRevisedIndex)
+                }
             }
+            console.log("currQuestionTextIndex", currQuestionTextIndex)
             excelOutput.push([arr])
+            counter++;
         }
-        else if(currCluster){
-            if(arr[varLabelIndex] == ''){
+        else if(currCluster){ // gets run after 2nd line and onwards...
+            // console.log("current currQuestionTextIndex", currQuestionTextIndex, arr[currQuestionTextIndex])
+            // Note: Possible to add deprecated value checker here?
+            if(arr[currQuestionTextIndex] == ''){
+                if(arr[deprecatedNewRevisedIndex] === 'Deprecated'){
+                    console.log("TEST else if SKIPPED EXTRA ROWS", arr[deprecatedNewRevisedIndex], `counter: ${counter}`);
+                    counter++
+                    continue
+                }
+                console.log("else if counter", counter)
+                console.log("------------------")
+                console.log("cluster BEFORE ARR added to CLUSTER", counter,cluster)
                 cluster.push(arr);
+                console.log("🚀 ~ file: conceptCopy.js:625 ~ forawait ~ cluster:",cluster, cluster.length)
+                counter++;
             }
             else{
-                let returned = processCluster(cluster, header, nameToConcept, varLabelIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList, /[0-9]+\s*=/)
+                if(arr[deprecatedNewRevisedIndex] === 'Deprecated'){
+                    console.log("TEST else if SKIPPED FIRST ROW AND ALL", arr[deprecatedNewRevisedIndex], `counter:` , counter);
+                    counter++
+                    continue
+                }
+                let returned = processCluster(cluster, header, nameToConcept, currQuestionTextIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList, /[0-9]+\s*=/)
                 excelOutput.push(returned)
+                console.log("else if counter", counter)
                 cluster = [arr]
+                console.log("🚀 ~ file: conceptCopy.js:635 ~ forawait ~ cluster:", cluster)
                 currCluster = true;
+                counter++;
             }
+            console.log("else if counter", counter)
         }
-        else{
+        else{ // adds first row after header to cluster
+            // Note: Possible to add deprecated value checker here?
+            // if(arr[deprecatedNewRevisedIndex] === 'Deprecated'){
+            //     console.log("TEST", arr[deprecatedNewRevisedIndex])
+            //     continue;
+            // }
             cluster.push(arr)
             currCluster = true;
+            // console.log("counter else After the Headers are added", counter)
+            console.log("counter and cluster", counter, cluster)
+            counter++;
         }
     }
-    let returned = processCluster(cluster, header, nameToConcept, varLabelIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList,/[0-9]+\s*=/);
+    console.log("FOR LOOP ENDS HERE ------------------")
+
+    let returned = processCluster(cluster, header, nameToConcept, currQuestionTextIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList,/[0-9]+\s*=/);
+    // console.log("🚀 ~ file: conceptCopy.js:640 ~ readFile ~ returned:", returned)
+    // console.log("cluster END", cluster)
     excelOutput.push(returned)
-    //console.log(sourceJSONS)
+    
     for(let i = 0; i < sourceJSONS.length; i++){
         let found = false;
         let result = {};
@@ -619,16 +692,18 @@ async function readFile(fileName){
         }   
         if(!found){
             jsonList.push(sourceJSONS[i])
-            fs.writeFileSync('./jsonsCopy/' + sourceJSONS[i]['conceptId'] + '.json', JSON.stringify(sourceJSONS[i],null, 2));
+            fs.writeFileSync('./jsonsTest/' + sourceJSONS[i]['conceptId'] + '.json', JSON.stringify(sourceJSONS[i],null, 2)); // ADD THIS BACK IN
 
         }
         else{
-            fs.writeFileSync('./jsonsCopy/' + sourceJSONS[i]['conceptId'] + '.json', JSON.stringify(result,null, 2))
+            fs.writeFileSync('./jsonsTest/' + sourceJSONS[i]['conceptId'] + '.json', JSON.stringify(result,null, 2)) // ADD THIS BACK IN
         }
         
     }
-    fs.writeFileSync('./jsonsCopy/varToConcept.json', JSON.stringify(nameToConcept))
-    fs.writeFileSync('./jsonsCopy/conceptIds.txt', JSON.stringify(conceptIdList))
+
+    // fs.writeFileSync('./jsonsCopy/varToConcept.json', JSON.stringify(nameToConcept)) // ADD THIS BACK IN
+    // fs.writeFileSync('./jsonsCopy/conceptIds.txt', JSON.stringify(conceptIdList)) // ADD THIS BACK IN
+
     rl.close();
     fileStream.close();
     let toPrint = '';
@@ -649,12 +724,14 @@ async function readFile(fileName){
             }
         }
     }
-    fs.writeFileSync(fileName, toPrint)
-    let timestamp = new Date().toISOString().split('.')[0].replace(/:/g, '-').replace('T', '-');
-    let filenameOutside = './csvHistoryCopy/Quest-' + timestamp + '_Concept_Id_Dict.csv';
-    let filenameVarGen = './csvHistoryCopy/Quest-' + timestamp + '_Concept_ID_Gen.json'
-    fs.writeFileSync(filenameVarGen,JSON.stringify(nameToConcept,null, 2))
-    fs.writeFileSync(filenameOutside,toPrint)
+
+    /* ADD THIS BACK IN */
+    // fs.writeFileSync(fileName, toPrint) 
+    // let timestamp = new Date().toISOString().split('.')[0].replace(/:/g, '-').replace('T', '-');
+    // let filenameOutside = './csvHistoryCopy/Quest-' + timestamp + '_Concept_Id_Dict.csv';
+    // let filenameVarGen = './csvHistoryCopy/Quest-' + timestamp + '_Concept_ID_Gen.json'
+    // fs.writeFileSync(filenameVarGen,JSON.stringify(nameToConcept,null, 2))
+    // fs.writeFileSync(filenameOutside,toPrint)
     
 }
 

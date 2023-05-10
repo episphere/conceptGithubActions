@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "201",
+  "Index": "201",
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "273437590.json"
+  ],
+  "conceptId": "471168198",
+  "Current Question Text": "First Name extracted from consent form",
+  "Variable Label": "First Name",
+  "Variable Name": [
+    "RcrtCS_Fname_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "50",
+  "Current Format/Value": "N/A",
+  "Required": "Yes",
+  "PII": "Yes",
+  "Notes": "Legal first name for all non-KP sites. For KP sites it is their ID card name.",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "GCP Document/Table": "Participants Table"
+}

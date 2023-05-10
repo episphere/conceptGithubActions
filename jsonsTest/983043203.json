@@ -1,0 +1,44 @@
+{
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "299215535.json",
+    "390351864.json"
+  ],
+  "conceptId": "983043203",
+  "Current Question Text": "Have you ever had a cavity in any of your permanent adult teeth? Please include root caries, which are cavities on the root of the tooth",
+  "Variable Label": "Cavity",
+  "Variable Name": [
+    "SrvMtW_CAVITY_v1r0",
+    "SrvMtW_CAVITY_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Date added or modified": "1/19/23",
+  "Question Type": "Optional Multiple Choice",
+  "IMS Review Notes": "Updated the Variable name prefix to SrvMtW_",
+  "Formula for Index": [
+    "6819",
+    "6820",
+    "6821"
+  ],
+  "Index": [
+    "6819",
+    "6820",
+    "6821"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1",
+    "178420302.json": "77"
+  },
+  "Notes": [
+    "Harmonization - Questionnaire will still say Don't Know"
+  ]
+}

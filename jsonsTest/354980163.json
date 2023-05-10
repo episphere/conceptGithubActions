@@ -1,0 +1,33 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "354980163",
+  "Current Question Text": "On [workdays/most days], do you wake up before the alarm rings?",
+  "Variable Label": "Wake up before alarm clock workdays/most days",
+  "Variable Name": [
+    "SrvMRE_WakeBeforeAlarm_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "SLEEP1L"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Formula for Index": [
+    "3466",
+    "3467"
+  ],
+  "Index": [
+    "3466",
+    "3467"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

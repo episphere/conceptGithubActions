@@ -1,0 +1,39 @@
+{
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "775188224.json"
+  ],
+  "Current Source Question": [
+    "238268405.json"
+  ],
+  "conceptId": "909529446",
+  "Current Question Text": "Cold Packs - insufficient",
+  "Variable Label": "Cold Packs - insufficient",
+  "Variable Name": [
+    "BioBPTL_ColdPackIns_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Derivation Notes": "Default to No upon package receipt ('Shipment Received - Site Shipment'= Yes) if this condition is not selected",
+  "Dictionary": "BPTL",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "10/6/21",
+  "GCP Document/Table": "Boxes Table Nested structure: d_238268405_d_909529446",
+  "Formula for Index": [
+    "796",
+    "797"
+  ],
+  "Index": [
+    "796",
+    "797"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

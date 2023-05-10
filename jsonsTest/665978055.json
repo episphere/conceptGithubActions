@@ -1,0 +1,53 @@
+{
+  "conceptId": "665978055",
+  "Current Question Text": "Address 6- What [is/was] the source of water to [insert address from HOMEADD1 - HOMEADD3/ current address/the 2nd address you provided/etc.]?",
+  "subcollections": [
+    "665978055.json",
+    "513925041.json"
+  ],
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "665978055.json"
+  ],
+  "GridID/Source Question Name": [
+    "HOMEWTR1_6"
+  ],
+  "Variable Label": "Primary water source",
+  "Variable Name": [
+    "SrvLAW_6PrimaryWater1_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "HOMEWTR1_6"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "3/10/22",
+  "Formula for Index": [
+    "5080",
+    "5081",
+    "5082",
+    "5083",
+    "5084"
+  ],
+  "Index": [
+    "5080",
+    "5081",
+    "5082",
+    "5083",
+    "5084"
+  ],
+  "Current Format/Value": {
+    "901693169.json": "0",
+    "519767819.json": "1",
+    "388690303.json": "2",
+    "807835037.json": "55",
+    "178420302.json": "77"
+  }
+}

@@ -17,6 +17,37 @@ conceptCopy
 runCSVConversionsCopy
 
 -----------------------------------------------------------------
+
+ABOUT THE DEPRECATED, NEW OR REVISED Column
+
+Rules to follow for DD:
+
+Only allow deprecate value for first row 
+- if row with concept Id for current question text is the only one (no subsequent rows)
+- if there are following rows and subsequent rows have no "revised" or "keep" values
+
+
+Possiblity of excluding the Deprecated, New, or Revised fields from getting added to the actual conceptId#.json???
+
+
+
+Create new function to remove any deprecated columns
+Check for "deprecated" value and ignore the row or 
+
+*DANGER*
+
+(ConceptId to test -->  869829679.json)
+
+Finding deprecated row as first column may work?
+
+If current row is deprecated ignore the current row and conceptId.json from being updated or created
+
+The subsequent row can take a similar approach where the row will be skipped
+
+For now keep Columns "Deprecated, New or Revised columns
+
+-----------------------------------------------------------------
+
 Document How Existing Code Works
 
 Existing Code:
@@ -31,8 +62,11 @@ Note: Causing problems since some format/values are being used as Question Text 
 
 New Method to Get Rid of Deprecated value --> Root Concept Id Level
 
-
+--> Find location in the code that is pushing column names 
+--> Get rid of deprecated columns from being added 
 -----------------------------------------------------------------
+
+
 
 
 -----------------------------------------------------------------

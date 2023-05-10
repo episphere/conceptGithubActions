@@ -1,0 +1,37 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
+  "Deprecated, New, or Revised": "Deprecated",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "8/29/22",
+  "conceptId": "147028925",
+  "Current Question Text": "Month - During that time, did you ever use e-cigarettes or other vaping devices for nicotine or tobacco every day?",
+  "Variable Label": "Use e-cigarettes or other vaping devices every day, months",
+  "Variable Name": [
+    "SrvSAS_ECigUseDaysMo_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "ECIG7B"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "2/2/23",
+  "IMS Review Notes": "Denoted date deprecated in prod",
+  "Formula for Index": [
+    "3695",
+    "3696"
+  ],
+  "Index": [
+    "3695",
+    "3696"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

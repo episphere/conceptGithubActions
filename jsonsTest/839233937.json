@@ -1,0 +1,33 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "conceptId": "839233937",
+  "Current Question Text": "Did the trip home usually take about the same amount of time as the trip to get to [insert address from PREWORK1 - PREWORK3/this address] from your home?",
+  "Variable Label": "Time to and from past work same",
+  "Variable Name": [
+    "SrvLAW_PreWorkT5_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "PREWORKT5"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Formula for Index": [
+    "6061",
+    "6062"
+  ],
+  "Index": [
+    "6061",
+    "6062"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}
