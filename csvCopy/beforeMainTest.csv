@@ -1,0 +1,11 @@
+Formula for Index,Index,conceptId,Primary Source,conceptId,Secondary Source,conceptId,Current Source Question,V1 Source Question,GridID/Source Question Name,"Deprecated, New, or Revised","Date Deprecated, New, or Revised Variable Pushed to Prod",conceptId,Current Question Text,V1 Question Text,Variable Label,Variable Name,Connect Value for Select all that apply questions - Surveys Only,Variable Type,Variable Length,conceptId,Current Format/Value,R0 Format/Value,Required,PII,Notes,Derivation Notes,Dictionary,State Attribute,Default Variable,Date added or modified,GCP Document/Table,Question Type,IMS Review Notes
+2218,2218,129084651,Survey,726699695,Background and Overall Health,700374192,What type of business was this at your current employer? [Select all that apply.],,BSNSSTYP1,Keep,,641572847,Manufacturing,,Manufacturing,SrvBOH_ManufacturingC_v1r0,0,Num,1,104430631,0=No,,No,No,,,,,,1/11/23,,Optional Select All that Apply,Denoted as Keep in Column J
+2219,2219,,,,,,,,,Deprecated,,,,,,,,,,353358909,1=Yes,,,,,,,,,,,,
+2319,2319,129084651,Survey,726699695,Background and Overall Health,,,,,Revised,6/10/22,842657297,"During the past 12 months, about how many days per week did you typically work for pay?",,Days work,SrvBOH_DaysWork_v1r0,DAYSWORK,Num,2,503218834,0= None,,No,,DAYSWORK deprecated from Module 1 and was added New to Module 4. ,,,,,4/13/23,,Optional Multiple Choice,Added previously deleted variable for record purposes
+2320,2320,,,,,,,,,Revised,,,,,,,,,,632371391,1= 1 day,,,,,,,,,,,,
+2321,2321,,,,,,,,,Deprecated,,,,,,,,,,709969190,2= 2 days,,,,,,,,,,,,
+2322,2322,,,,,,,,,Deprecated,,,,,,,,,,928753604,3= 3 days,,,,,,,,,,,,
+2323,2323,,,,,,,,,Deprecated,,,,,,,,,,686379250,4= 4 days,,,,,,,,,,,,
+2324,2324,,,,,,,,,Deprecated,,,,,,,,,,107714591,5= 5 days,,,,,,,,,,,,
+2325,2325,,,,,,,,,Deprecated,,,,,,,,,,689829953,6= 6 days,,,,,,,,,,,,
+2326,2326,,,,,,,,,Deprecated,,,,,,,,,,164282814,7= 7 days,,,,,,,,,,,,

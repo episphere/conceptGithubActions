@@ -654,8 +654,9 @@ async function readFile(fileName){
             counter++;
         }
     }
-    console.log("FOR LOOP ENDS HERE ------------------")
-
+    // console.log("FOR LOOP ENDS HERE ------------------")
+    // console.log("excelOutput", excelOutput)
+    // return
     let returned = processCluster(cluster, header, nameToConcept, currQuestionTextIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList,/[0-9]+\s*=/);
     // console.log("🚀 ~ file: conceptCopy.js:640 ~ readFile ~ returned:", returned)
     // console.log("cluster END", cluster)
@@ -701,8 +702,8 @@ async function readFile(fileName){
         
     }
 
-    // fs.writeFileSync('./jsonsCopy/varToConcept.json', JSON.stringify(nameToConcept)) // ADD THIS BACK IN
-    // fs.writeFileSync('./jsonsCopy/conceptIds.txt', JSON.stringify(conceptIdList)) // ADD THIS BACK IN
+    fs.writeFileSync('./jsonsCopy/varToConcept.json', JSON.stringify(nameToConcept)) // ADD THIS BACK IN
+    fs.writeFileSync('./jsonsCopy/conceptIds.txt', JSON.stringify(conceptIdList)) // ADD THIS BACK IN
 
     // DELETE "SPECIFIC KEYS FUNCTION CAN BE PLACED HERE"
     fs.readdirSync('./jsonsCopy/').forEach((file, index) => {
@@ -713,7 +714,7 @@ async function readFile(fileName){
             // read and parse file is above
 
             // next is to delete the key
-            if(file == "756774083.json") {
+            // if(file == "288972510.json") {
                 if (currFileJSON['Deprecated, New, or Revised']){
                     console.log("currFileJSON BEFORE deleted version", currFileJSON)
                     delete currFileJSON['Deprecated, New, or Revised'];
@@ -725,7 +726,7 @@ async function readFile(fileName){
                 }
                 let updatedJSONString = JSON.stringify(currFileJSON, null, 2);
                 fs.writeFileSync('./jsonsCopy/' + file, updatedJSONString);
-            }
+            // }
 
         }   
     });
@@ -752,12 +753,12 @@ async function readFile(fileName){
     }
 
     /* ADD THIS BACK IN */
-    // fs.writeFileSync(fileName, toPrint) 
-    // let timestamp = new Date().toISOString().split('.')[0].replace(/:/g, '-').replace('T', '-');
-    // let filenameOutside = './csvHistoryCopy/Quest-' + timestamp + '_Concept_Id_Dict.csv';
-    // let filenameVarGen = './csvHistoryCopy/Quest-' + timestamp + '_Concept_ID_Gen.json'
-    // fs.writeFileSync(filenameVarGen,JSON.stringify(nameToConcept,null, 2))
-    // fs.writeFileSync(filenameOutside,toPrint)
+    fs.writeFileSync(fileName, toPrint) 
+    let timestamp = new Date().toISOString().split('.')[0].replace(/:/g, '-').replace('T', '-');
+    let filenameOutside = './csvHistoryCopy/Quest-' + timestamp + '_Concept_Id_Dict.csv';
+    let filenameVarGen = './csvHistoryCopy/Quest-' + timestamp + '_Concept_ID_Gen.json'
+    fs.writeFileSync(filenameVarGen,JSON.stringify(nameToConcept,null, 2))
+    fs.writeFileSync(filenameOutside,toPrint)
     
 }
 

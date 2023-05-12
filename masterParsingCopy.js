@@ -10,10 +10,10 @@ function isGridIdSourceQuestionNamePrefixMatch (text) {
 function parseMasterModule() {
     let masterJSON = {};
     let fileList = [];
-    files = fs.readdirSync('./jsons');
+    files = fs.readdirSync('./jsonsCopy/');
     files.forEach(function (file) {
         if (file.match(/[0-9]{9}.json/) != null) {
-            let currJSON = fs.readFileSync('./jsons/' + file, { encoding: 'utf8' });
+            let currJSON = fs.readFileSync('./jsonsCopy/' + file, { encoding: 'utf8' });
             masterJSON[file.substring()] = JSON.parse(currJSON);
         }
     });

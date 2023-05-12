@@ -245,3 +245,105 @@ Cough Lines
         "conceptId": "406943303",
         "concept": "Fever"
       },
+
+
+----------------------------------------------------------------------------------------------------------
+Cough and Fever were added back to Transformation 
+
+
+Unwanted Deprecated format/value (responses) were added back to transformation
+
+Possible Reasons
+
+- JSONS were not deleted previously in jsonsCopy directory
+
+Steps
+
+- Delete all cid#.jsons before running runCSVConversionsCopy
+- This will add cid#.jsons and to the array based on deprecated values
+
+
+Compare previous or if the deprecated get added
+
+Do a small test with Cough test file or BSNSSTYP1 (GRID/Source Question Name")
+
+Wil these get added correctly (???)
+
+700374192 - "What type of business was this at your current employer? [Select all that apply.]"
+
+711138281 - "Wholesale or distributor" (deprecated)
+
+592592455 - "Retail or wholesale sales"
+
+596792238 - "A service provider (deprecated)
+
+
+
+
+TEST scenario where the first line after header is deprecated
+
+
+
+
+----------------------
+
+Added firstRowJSON ✅
+
+firstRowJSON {
+  'Primary Source': 'Survey',
+  'Secondary Source': 'Background and Overall Health',
+  'Current Source Question': 'What type of business was this at your current employer? [Select all that apply.]',
+  'GridID/Source Question Name': 'BSNSSTYP1',
+  conceptId: '641572847',
+  'Current Question Text': 'Manufacturing',
+  'Variable Label': 'Manufacturing',
+  'Variable Name': 'SrvBOH_ManufacturingC_v1r0',
+  'Connect Value for Select all that apply questions - Surveys Only': '0',
+  'Variable Type': 'Num',
+  'Variable Length': '1',
+  Required: 'No',
+  PII: 'No',
+  'Date added or modified': '1/11/23',
+  'Question Type': 'Optional Select All that Apply',
+  'IMS Review Notes': 'Denoted as Keep in Column J'
+}
+
+
+firstRowJSON {
+  conceptId: '104430631',
+  'Primary Source': 'Survey',
+  'Secondary Source': 'Background and Overall Health',
+  'Current Source Question': 'What type of business was this at your current employer? [Select all that apply.]',
+  'GridID/Source Question Name': 'BSNSSTYP1',
+  'Current Question Text': 'Manufacturing',
+  'Variable Label': 'Manufacturing',
+  'Variable Name': 'SrvBOH_ManufacturingC_v1r0',
+  'Connect Value for Select all that apply questions - Surveys Only': '0',
+  'Variable Type': 'Num',
+  'Variable Length': '1',
+  Required: 'No',
+  PII: 'No',
+  'Date added or modified': '1/11/23',
+  'Question Type': 'Optional Select All that Apply',
+  'IMS Review Notes': 'Denoted as Keep in Column J'
+}
+
+firstRowJSON {
+  conceptId: '104430631',
+  'Primary Source': 'Survey',
+  'Secondary Source': 'Background and Overall Health',
+  'Current Source Question': 'What type of business was this at your current employer? [Select all that apply.]',
+  'GridID/Source Question Name': 'BSNSSTYP1',
+  'Deprecated, New, or Revised': 'Keep',
+  'Current Question Text': 'Manufacturing',
+  'Variable Label': 'Manufacturing',
+  'Variable Name': 'SrvBOH_ManufacturingC_v1r0',
+  'Connect Value for Select all that apply questions - Surveys Only': '0',
+  'Variable Type': 'Num',
+  'Variable Length': '1',
+  Required: 'No',
+  PII: 'No',
+  'Date added or modified': '1/11/23',
+  'Question Type': 'Optional Select All that Apply',
+  'IMS Review Notes': 'Denoted as Keep in Column J'
+}

@@ -6,3 +6,10 @@ rm -r ./jsons/[0-9]*.json
 node runCSVConversions.js 
 node masterParsing.js 
 node aggregateJSONS.js
+
+
+
+
+rm -r ./jsonsCopyTEST/[0-9]*.json 
+node runCSVConversionsCopyTEST.js 
+node masterParsingCopyTEST.js 
