@@ -1,0 +1,25 @@
+{
+  "Formula for Index": "2836",
+  "Index": "2836",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "779165920",
+  "Current Question Text": "How old were you when you last used patch estrogen-only medication?",
+  "Variable Label": "Age patch estrogen-only medication last use",
+  "Variable Name": [
+    "SrvMRE_AgePatchEUsedL_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "ESTROHOR4_2"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if ESTROHOR=1",
+  "Date added or modified": "10/6/21"
+}

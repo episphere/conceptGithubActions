@@ -1,0 +1,33 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "conceptId": "449752653",
+  "Current Question Text": "Do you commute from your home to your current school at least once a week?",
+  "Variable Label": "Current school, commute at least once a week",
+  "Variable Name": [
+    "SrvLAW_CurSchCom_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CURSCHCOM"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Formula for Index": [
+    "6137",
+    "6138"
+  ],
+  "Index": [
+    "6137",
+    "6138"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

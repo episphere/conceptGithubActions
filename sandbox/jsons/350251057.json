@@ -1,0 +1,50 @@
+{
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "299215535.json",
+    "390351864.json"
+  ],
+  "conceptId": "350251057",
+  "Current Question Text": "Overall, how would you rate the health of your teeth and gums?",
+  "Variable Label": "Oral Health",
+  "Variable Name": [
+    "SrvMtW_ORALHLTH_v1r0",
+    "SrvMtW_ORALHLTH_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Date added or modified": "1/19/23",
+  "Question Type": "Optional Multiple Choice",
+  "IMS Review Notes": "Updated the Variable name prefix to SrvMtW_",
+  "Formula for Index": [
+    "6659",
+    "6660",
+    "6661",
+    "6662",
+    "6663",
+    "6664"
+  ],
+  "Index": [
+    "6659",
+    "6660",
+    "6661",
+    "6662",
+    "6663",
+    "6664"
+  ],
+  "Current Format/Value": {
+    "670680466.json": "0",
+    "927477599.json": "1",
+    "719933364.json": "2",
+    "131550264.json": "3",
+    "138752522.json": "4",
+    "178420302.json": "77"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "conceptId": "641651634",
+  "Current Question Text": "How many people currently live in your household? Please include yourself in the total number. (Include students living away at school, deployed military, etc.)",
+  "subcollections": [
+    "173508724.json",
+    "641651634.json"
+  ],
+  "Formula for Index": "2350",
+  "Index": "2350",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Current Source Question": [
+    "641651634.json"
+  ],
+  "GridID/Source Question Name": [
+    "PPLHOUSE"
+  ],
+  "Variable Label": "People in house prefer not to answer",
+  "Variable Name": [
+    "SrvBOH_PplHouseNoAns_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "PPLHOUSE"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Current Format/Value": {
+    "746038746.json": "99"
+  },
+  "Required": "No",
+  "PII": "Yes",
+  "Date added or modified": "9/14/21",
+  "Question Type": "Text Box Plus Check Box"
+}

@@ -1,0 +1,37 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
+  "conceptId": "976570371",
+  "Current Question Text": "Baseline Survey Status- Module Smoking, Alcohol, and Sun Exposure",
+  "Variable Label": "Flag for Baseline Module Smoking, Alcohol, and Sun Exposure",
+  "Variable Name": [
+    "SrvSAS_BaseStatus_v1r0"
+  ],
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "For display at check-in and check out.  Currently, place holders, but will maintain the Concept IDs when variables are created.",
+  "Dictionary": "Biospecimen Research, Study Manager Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "6/25/21",
+  "GCP Document/Table": "Participants Table Not nested (d_976570371)",
+  "Formula for Index": [
+    "580",
+    "581",
+    "582"
+  ],
+  "Index": [
+    "580",
+    "581",
+    "582"
+  ],
+  "Current Format/Value": {
+    "972455046.json": "0",
+    "615768760.json": "1",
+    "231311385.json": "2"
+  }
+}

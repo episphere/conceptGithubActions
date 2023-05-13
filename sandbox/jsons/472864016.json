@@ -1,0 +1,38 @@
+{
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "360770860.json"
+  ],
+  "Current Source Question": [
+    "248868659.json"
+  ],
+  "conceptId": "472864016",
+  "Current Question Text": "Deviation- Broken",
+  "Variable Label": "Deviation- Broken",
+  "Variable Name": [
+    "BioCol_Dev_v1r0_Broken"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes if yes to deviation for a specimen and no other deviation selected",
+  "PII": "No",
+  "Notes": "Default no",
+  "Dictionary": "Biospecimen Clinical, Biospecimen Research",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "GCP Document/Table": "Biospecimen Table Nesed structure: d_Tube/Bag/Object_d_248868659_d_472864016",
+  "Formula for Index": [
+    "361",
+    "362"
+  ],
+  "Index": [
+    "361",
+    "362"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

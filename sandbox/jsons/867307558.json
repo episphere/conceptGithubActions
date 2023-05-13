@@ -1,0 +1,41 @@
+{
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "299215535.json",
+    "826163434.json"
+  ],
+  "conceptId": "867307558",
+  "Current Question Text": "When did you last eat or drink anything other than water before donating your samples?",
+  "Variable Label": "Eat drink before",
+  "Variable Name": [
+    "SRVBIO_EATDRINKBEFORE_V1R0",
+    "SRVBIO_EATDRINKBEFORE_V1R0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Date added or modified": "1/26/23",
+  "Question Type": "Optional Multiple Choice",
+  "IMS Review Notes": "Made variable name all caps",
+  "Formula for Index": [
+    "6326",
+    "6327",
+    "6328"
+  ],
+  "Index": [
+    "6326",
+    "6327",
+    "6328"
+  ],
+  "Current Format/Value": {
+    "110092955.json": "0",
+    "952212668.json": "1",
+    "330461666.json": "2"
+  }
+}

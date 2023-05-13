@@ -1,0 +1,38 @@
+{
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "299215535.json",
+    "390351864.json"
+  ],
+  "conceptId": "877878167",
+  "Current Question Text": "In the 1 hour before you donated your mouthwash (saliva) sample, did you brush your teeth?",
+  "Variable Label": "Mouthwash Hour Before",
+  "Variable Name": [
+    "SrvMtW_MWBEFORE_v1r0",
+    "SrvMtW_MWBEFORE_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Date added or modified": "1/19/23",
+  "Question Type": "Optional Multiple Choice",
+  "IMS Review Notes": "Updated the Variable name prefix to SrvMtW_",
+  "Formula for Index": [
+    "6665",
+    "6666"
+  ],
+  "Index": [
+    "6665",
+    "6666"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

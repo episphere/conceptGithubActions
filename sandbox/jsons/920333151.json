@@ -1,0 +1,27 @@
+{
+  "Formula for Index": "564",
+  "Index": "564",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "166676176.json"
+  ],
+  "conceptId": "920333151",
+  "Current Question Text": "Last 4 digits of Social Security Number",
+  "Variable Label": "SSN last 4 digits",
+  "Variable Name": [
+    "SrvSS_SSN4d_v1r0"
+  ],
+  "Variable Type": "SSNsm",
+  "Variable Length": "4",
+  "Current Format/Value": "####",
+  "Required": "No",
+  "PII": "Yes",
+  "Notes": "Question shown only if full SSN is NOT given.",
+  "Dictionary": "Study Manager Data Dictionary, BIospecimen Research",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "8/19/22",
+  "GCP Document/Table": "Not yet in Flattened Tables (Should be in Participants Table)"
+}

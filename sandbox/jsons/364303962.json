@@ -1,0 +1,62 @@
+{
+  "conceptId": "364303962",
+  "Current Question Text": "In a usual week, about how often do you use tap water from your home to make any other beverages or soup? We are interested in all tap water, whether or not it has been filtered or treated.",
+  "subcollections": [
+    "364303962.json",
+    "130500844.json"
+  ],
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "364303962.json"
+  ],
+  "V1 Source Question": [
+    "In a usual week, about how often do you use tap water from your home to make any other beverages or soup?"
+  ],
+  "GridID/Source Question Name": [
+    "DRINKSWTR2E"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "V1 Question Text": "In a usual week, about how often do you use tap water from your home to make any other beverages or soup?",
+  "Variable Label": "Drink tap water, other beverages or soup",
+  "Variable Name": [
+    "SrvLAW_TapWaterSoup_v2r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "DRINKSWTR2E"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "2/24/23",
+  "IMS Review Notes": "Updated source question, question text, variable name suffix, and denoted as revised",
+  "Formula for Index": [
+    "5782",
+    "5783",
+    "5784",
+    "5785",
+    "5786",
+    "5787"
+  ],
+  "Index": [
+    "5782",
+    "5783",
+    "5784",
+    "5785",
+    "5786",
+    "5787"
+  ],
+  "Current Format/Value": {
+    "706062016.json": "0",
+    "594557208.json": "1",
+    "471294296.json": "2",
+    "198347104.json": "3",
+    "693256778.json": "4",
+    "703370365.json": "5"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "243",
+  "Index": "243",
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "332759827.json"
+  ],
+  "conceptId": "438643922",
+  "Current Question Text": "Home phone",
+  "Variable Label": "Home phone",
+  "Variable Name": [
+    "RcrtUP_Home_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "10",
+  "Current Format/Value": "N/A",
+  "Required": "Yes, if no other phone number given",
+  "PII": "Yes",
+  "Notes": "Type and length are based on a numbers only format, no dashes",
+  "Dictionary": "Recruitment Data Dictionary, Biospecimen Research",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "GCP Document/Table": "Participants Table Not nested (d_438643922)"
+}

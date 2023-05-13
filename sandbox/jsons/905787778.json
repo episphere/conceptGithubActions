@@ -1,0 +1,29 @@
+{
+  "Formula for Index": "689",
+  "Index": "689",
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "635994596.json"
+  ],
+  "Current Source Question": [
+    "175506524.json"
+  ],
+  "conceptId": "905787778",
+  "Current Question Text": "Who requested HIPAA revocation- Other (specify):",
+  "Variable Label": "Who requested HIPAA revocation- Other (specify):",
+  "Variable Name": [
+    "HdWd_ReqHIPAArevoke_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "800",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Other may be a family member or other individual who makes the request on behalf of the participant and these are required to be vetted by the CCC before NORC enters them into the dashboard",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "1/31/22",
+  "GCP Document/Table": "Participants Table Nested structure: d_175506524_d_905787778"
+}

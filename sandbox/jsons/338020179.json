@@ -1,0 +1,32 @@
+{
+  "Formula for Index": "1974",
+  "Index": "1974",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Current Source Question": [
+    "537137982.json"
+  ],
+  "GridID/Source Question Name": [
+    "SIBDEATH"
+  ],
+  "conceptId": "338020179",
+  "Current Question Text": "Sibling 1- How old was [SIBLING INITIALS OR NICKNAME/your sibling] when they died?, Number",
+  "Variable Label": "Sibling 1 age at death, number",
+  "Variable Name": [
+    "SrvBOH_Sib1AgeDeathNum_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "SIBDEATH_num"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Current Format/Value": "N/A",
+  "Required": "Yes",
+  "PII": "Yes",
+  "Date added or modified": "9/14/21",
+  "Question Type": "Text Box Plus Check Box, Loops"
+}

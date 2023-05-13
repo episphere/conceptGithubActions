@@ -1,0 +1,27 @@
+{
+  "Formula for Index": "445",
+  "Index": "445",
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "664882224.json"
+  ],
+  "conceptId": "646899796",
+  "Current Question Text": "Dashboard clinical blood accession ID",
+  "Variable Label": "Dashboard clinical Blood Accession ID",
+  "Variable Name": [
+    "BioClin_DBBloodID_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "30",
+  "Current Format/Value": "N/A",
+  "Required": "Yes for KP sites Only",
+  "PII": "No",
+  "Notes": "From clinical dashboard.",
+  "Dictionary": "Biospecimen Clinical",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "9/27/22",
+  "GCP Document/Table": "Biospecimen Table Not nested (d_646899796)"
+}

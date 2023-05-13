@@ -1,0 +1,30 @@
+{
+  "Formula for Index": "941",
+  "Index": "941",
+  "Primary Source": [
+    "692924902.json"
+  ],
+  "Secondary Source": [
+    "195399696.json"
+  ],
+  "Current Source Question": [
+    "740819233.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "868006655",
+  "Current Question Text": "Primary Cancer Site- Another type of cancer: Please describe [text box]",
+  "Variable Name": [
+    "RCAOper_OthCancerDesc_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "800",
+  "Current Format/Value": "N/A",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Operational variable. Nested under cancer occurrence",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "11/25/22",
+  "GCP Document/Table": "Not yet in Flattened Tables"
+}

@@ -1,0 +1,28 @@
+{
+  "Formula for Index": "950",
+  "Index": "950",
+  "Primary Source": [
+    "692924902.json"
+  ],
+  "Secondary Source": [
+    "195399696.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "772638539",
+  "Current Question Text": "How many tumors were reported for the cancer diagnosed on 'date of case ID'?",
+  "Variable Label": "Number of tumors reported- repeated measure over time",
+  "Variable Name": [
+    "RCAOper_TumorNum_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "3",
+  "Current Format/Value": "N/A",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Operational variable. Nested under cancer occurrence",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "11/25/22",
+  "GCP Document/Table": "Not yet in Flattened Tables"
+}

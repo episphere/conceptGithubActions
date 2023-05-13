@@ -1,0 +1,59 @@
+{
+  "conceptId": "943119849",
+  "Current Question Text": "Please choose the reason that fits best to describe why you have not completed the sample survey:",
+  "subcollections": [
+    "943119849.json",
+    "314351052.json"
+  ],
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "506648060.json"
+  ],
+  "Current Source Question": [
+    "943119849.json"
+  ],
+  "GridID/Source Question Name": [
+    "SrvPES_BIOSURV4_v1r0"
+  ],
+  "Variable Label": "Why biospecimen survey not completed",
+  "Variable Name": [
+    "SrvPES_BIOSURV4_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "SrvPES_BIOSURV4_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Participant Experience Survey",
+  "Date added or modified": "1/5/23",
+  "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
+  "IMS Review Notes": "Used full Variable Name for Connect Value and changed Variable Length to 2  to accommodate 55.",
+  "Formula for Index": [
+    "7343",
+    "7344",
+    "7345",
+    "7346",
+    "7347",
+    "7348"
+  ],
+  "Index": [
+    "7343",
+    "7344",
+    "7345",
+    "7346",
+    "7347",
+    "7348"
+  ],
+  "Current Format/Value": {
+    "117258272.json": "0",
+    "773860876.json": "1",
+    "551201830.json": "2",
+    "205790732.json": "3",
+    "701389038.json": "4",
+    "807835037.json": "55"
+  }
+}

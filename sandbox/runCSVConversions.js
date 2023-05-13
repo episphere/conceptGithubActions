@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 const concept = require('./concept');
-let file='./csv/checkTest.csv'
+let file='./csv/masterFile.csv'
 concept.readFile(file)
 
 /*

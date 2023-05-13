@@ -1,0 +1,43 @@
+{
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "635994596.json"
+  ],
+  "conceptId": "577794331",
+  "Current Question Text": "HIPAA Revocation Categorical",
+  "Variable Label": "HIPAA Revocation Categorical",
+  "Variable Name": [
+    "HdWd_HIPAARevokedCat_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "6/7/21",
+  "GCP Document/Table": "Participants Table Not nested (d_577794331)",
+  "Formula for Index": [
+    "645",
+    "646",
+    "647"
+  ],
+  "Index": [
+    "645",
+    "646",
+    "647"
+  ],
+  "Current Format/Value": {
+    "104053459.json": "0",
+    "567590935.json": "1",
+    "121454001.json": "2"
+  },
+  "Derivation Notes": [
+    "Not Revoked: (HdWD_HIPAArevoked_v1r0 equals 0",
+    "Revoked but not signed: (HdWd_HIPAArevoked_v1r0 equals 1 and HdWd_HIPAArevokesign_v1r0 equals 0)",
+    "Revoked and signed: (HdWd_HIPAArevoked_v1r0 equals 1 and HdWd_HIPAArevokesign_v1r0 equals 1)"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "722",
+  "Index": "722",
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "635994596.json"
+  ],
+  "conceptId": "123868967",
+  "Current Question Text": "Date Participant Deceased",
+  "Variable Label": "Date Participant Deceased",
+  "Variable Name": [
+    "HdWd_DeceasedDt_v1r0"
+  ],
+  "Variable Type": "Date",
+  "Variable Length": "8",
+  "Current Format/Value": "yymmdd",
+  "Required": "Yes",
+  "PII": "No",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "2/6/23",
+  "GCP Document/Table": "Participants Table Not nested (d_123868967)"
+}

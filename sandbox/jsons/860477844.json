@@ -1,0 +1,36 @@
+{
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "664882224.json"
+  ],
+  "conceptId": "860477844",
+  "Current Question Text": "Urine Order Placed",
+  "Variable Label": "Urine Order Placed",
+  "Variable Name": [
+    "BioClin_UrnOrderPlaced_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Sent by KP",
+  "Dictionary": "Biospecimen Clinical",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "8/1/22",
+  "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_860477844 (2nd CID may change based on BL/F-U1,2,3)",
+  "Formula for Index": [
+    "439",
+    "440"
+  ],
+  "Index": [
+    "439",
+    "440"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

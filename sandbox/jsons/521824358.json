@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "255",
+  "Index": "255",
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "332759827.json"
+  ],
+  "conceptId": "521824358",
+  "Current Question Text": "Address line 1",
+  "Variable Label": "Address line 1",
+  "Variable Name": [
+    "RcrtUP_AddressLn1_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "70",
+  "Current Format/Value": "N/A",
+  "Required": "Yes",
+  "PII": "Yes",
+  "Notes": "Populated from Google Addresses",
+  "Dictionary": "Recruitment Data Dictionary, Biospecimen Clinical, Biospecimen Research",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "GCP Document/Table": "Participants Table Not nested (d_521824358)"
+}

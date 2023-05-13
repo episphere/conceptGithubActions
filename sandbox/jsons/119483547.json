@@ -1,0 +1,31 @@
+{
+  "Formula for Index": "5264",
+  "Index": "5264",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "143927994.json"
+  ],
+  "GridID/Source Question Name": [
+    "SEASADD1_3"
+  ],
+  "conceptId": "119483547",
+  "Current Question Text": "3-Seasonal Street number",
+  "Variable Label": "Street number",
+  "Variable Name": [
+    "SrvLAW_SeaStNum3_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "SEASTNUM3"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "6",
+  "Required": "No",
+  "PII": "Yes",
+  "Date added or modified": "11/9/22",
+  "IMS Review Notes": "Changed variable type from Num to Char"
+}

@@ -1,0 +1,25 @@
+{
+  "Formula for Index": "2526",
+  "Index": "2526",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "163057677",
+  "Current Question Text": "About how many years did you take statins/cholesterol or lipid lowering drugs?",
+  "Variable Label": "# Years took statins/cholesterol or lipid lowering drugs",
+  "Variable Name": [
+    "SrvMRE_StatinsYr_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CHOLHTN4_1"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if CHOLHTN = 0",
+  "Date added or modified": "11/10/21"
+}

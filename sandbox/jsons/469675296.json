@@ -1,0 +1,44 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "793330426.json"
+  ],
+  "Current Source Question": [
+    "847578001.json"
+  ],
+  "GridID/Source Question Name": [
+    "GRID_SRVCOV_COV19A_V1R0"
+  ],
+  "conceptId": "469675296",
+  "Current Question Text": "Trouble thinking or making decisions - Since your diagnosis",
+  "Variable Label": "Long COVID Trouble thinking or making decisions",
+  "Variable Name": [
+    "SrvCov_COV19A6_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Date added or modified": "2/23/23",
+  "Question Type": "Grid with Multiple Choice Sub-Questions",
+  "IMS Review Notes": "Added COVID-19 Survey variables",
+  "Formula for Index": [
+    "7738",
+    "7739",
+    "7740"
+  ],
+  "Index": [
+    "7738",
+    "7739",
+    "7740"
+  ],
+  "Current Format/Value": {
+    "244354126.json": "0",
+    "724612102.json": "1",
+    "178780048.json": "2"
+  }
+}

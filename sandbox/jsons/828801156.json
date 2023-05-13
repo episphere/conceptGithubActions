@@ -1,0 +1,37 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "conceptId": "828801156",
+  "Current Question Text": "In a usual week, how many different workplaces do you commute to? If you commute to multiple locations for the same employer, please count all locations separately",
+  "Variable Label": "Current job, commute at least once a week",
+  "Variable Name": [
+    "SrvLAW_NumWork_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "NUMWORK"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "3/10/22",
+  "Formula for Index": [
+    "5808",
+    "5809",
+    "5810"
+  ],
+  "Index": [
+    "5808",
+    "5809",
+    "5810"
+  ],
+  "Current Format/Value": {
+    "759356722.json": "0",
+    "185036360.json": "1",
+    "684900118.json": "2"
+  }
+}

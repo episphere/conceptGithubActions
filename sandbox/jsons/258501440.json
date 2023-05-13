@@ -1,0 +1,37 @@
+{
+  "Formula for Index": "5795",
+  "Index": "5795",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "944517297.json"
+  ],
+  "V1 Source Question": [
+    "In a usual week, about how often do you use tap water from your home to make [insert response from DRINKSWTR1/other beverages]?"
+  ],
+  "GridID/Source Question Name": [
+    "DRINKSWTR2F"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "258501440",
+  "Current Question Text": "In a usual week, about how often do you use tap water from your home to make [insert response from DRINKSWTR1/other beverages]? We are interested in all tap water, whether or not it has been filtered or treated. Please describe [text box]",
+  "V1 Question Text": "In a usual week, about how often do you use tap water from your home to make [insert response from DRINKSWTR1/other beverages]? Please describe [text box]",
+  "Variable Label": "Tap water times/day, other",
+  "Variable Name": [
+    "SrvLAW_DrinksWtr2F_Num_v2r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "DRINKSWTR2F_NUM"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "3",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "Yes",
+  "Date added or modified": "2/24/23",
+  "IMS Review Notes": "Updated source question, question text, variable name suffix, and denoted as revised"
+}

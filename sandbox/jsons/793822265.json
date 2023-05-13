@@ -1,0 +1,42 @@
+{
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "218595434.json"
+  ],
+  "conceptId": "793822265",
+  "Current Question Text": "Update recruit type",
+  "Variable Label": "Update recruit type",
+  "Variable Name": [
+    "RcrtV_UpdateRecType_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Sent as part of the verification table from the IHCS.",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "Yes",
+  "Default Variable": "No",
+  "Date added or modified": "11/22/21",
+  "GCP Document/Table": "Participants Table Not nested (state_d_793822265)",
+  "Formula for Index": [
+    "292",
+    "293",
+    "294",
+    "295"
+  ],
+  "Index": [
+    "292",
+    "293",
+    "294",
+    "295"
+  ],
+  "Current Format/Value": {
+    "132080040.json": "0",
+    "604663208.json": "1",
+    "854903954.json": "2",
+    "965707001.json": "3"
+  }
+}

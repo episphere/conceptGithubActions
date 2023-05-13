@@ -1,0 +1,35 @@
+{
+  "Formula for Index": "2325",
+  "Index": "2325",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Current Source Question": [
+    "530742915.json"
+  ],
+  "GridID/Source Question Name": [
+    "BSNSSTYP2"
+  ],
+  "Deprecated, New, or Revised": "Keep",
+  "conceptId": "739237614",
+  "Current Question Text": "What type of business was this at your longest held job? Other [text box]",
+  "Variable Label": "Other text box",
+  "Variable Name": [
+    "SrvBOH_OtherBsnDescP_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "BSNSSTYP2_TB"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "300",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only fill if other selection for BSNSSTYP2",
+  "Date added or modified": "1/11/23",
+  "Question Type": "Optional Select All that Apply",
+  "IMS Review Notes": "Denoted as Keep in Column J"
+}

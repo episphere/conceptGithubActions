@@ -1,0 +1,36 @@
+{
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "360770860.json"
+  ],
+  "conceptId": "762124027",
+  "Current Question Text": "Discard Flag",
+  "Variable Label": "Discard flag",
+  "Variable Name": [
+    "BioCol_Discard_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Autoflag as yes if Deviation-broken equals YES",
+  "PII": "No",
+  "Notes": "Default is no, Autoflag as yes if CID 472864016, 956345366, 810960823, OR 684617815 = YES",
+  "Dictionary": "Biospecimen Clinical, Biospecimen Research",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "5/18/22",
+  "GCP Document/Table": "Biospecimen Table Nested structure: d_Tube/Bag/Object_d_762124027",
+  "Formula for Index": [
+    "391",
+    "392"
+  ],
+  "Index": [
+    "391",
+    "392"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

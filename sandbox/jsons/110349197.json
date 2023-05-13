@@ -1,0 +1,28 @@
+{
+  "Formula for Index": "448",
+  "Index": "448",
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "664882224.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "110349197",
+  "Current Question Text": "Polyaccession ID- Urine",
+  "Variable Label": "Polyaccession ID- Urine",
+  "Variable Name": [
+    "BioClin_PolyUrineID_v1r0"
+  ],
+  "Variable Type": "Array",
+  "Variable Length": "Array",
+  "Current Format/Value": "example: [N12312323,N4234234,N...]",
+  "Required": "Yes for HFH and Hybrid Collections",
+  "PII": "No",
+  "Notes": "This will be unpacked into a string for analytics",
+  "Dictionary": "Biospecimen Clinical",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "5/10/23",
+  "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_110349197 (2nd CID may change based on BL/F-U1,2,3)"
+}

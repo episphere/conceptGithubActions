@@ -1,0 +1,38 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "8/29/22",
+  "conceptId": "291959537",
+  "Current Question Text": "Is your current job the longest job you have had in the past 20 years?",
+  "Variable Label": "Current job is also longest held job in past 20 years",
+  "Variable Name": [
+    "SrvLAW_LongestCurJob_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "PREWORK1A"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "2/2/23",
+  "Question Type": "Optional Multiple Choice",
+  "IMS Review Notes": "Backlog documentation of 7/25/2022 edit. Denoted new variable status and date pushed to prod",
+  "Formula for Index": [
+    "5985",
+    "5986"
+  ],
+  "Index": [
+    "5985",
+    "5986"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

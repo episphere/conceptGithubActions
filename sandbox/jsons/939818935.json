@@ -1,0 +1,33 @@
+{
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "664882224.json"
+  ],
+  "conceptId": "939818935",
+  "Current Question Text": "Date/Time Urine Order Placed",
+  "Variable Label": "Date/Time Urine Order Placed",
+  "Variable Name": [
+    "BioClin_UrnOrderPlacdDt_v1r0"
+  ],
+  "Variable Type": "ISO",
+  "Variable Length": "24",
+  "Current Format/Value": "example: 2020-07-17T15:21:26.763Z",
+  "Required": "Yes if BioClin_UrnOrderPlaced_v1r0 =1",
+  "PII": "No",
+  "Notes": "ISO to be converted to SAS format. Sent by KP",
+  "Dictionary": "Biospecimen Clinical",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "8/1/22",
+  "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_939818935 (2nd CID may change based on BL/F-U1,2,3)",
+  "Formula for Index": [
+    "441",
+    "442"
+  ],
+  "Index": [
+    "441",
+    "442"
+  ]
+}

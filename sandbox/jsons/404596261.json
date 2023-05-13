@@ -1,0 +1,25 @@
+{
+  "Formula for Index": "2800",
+  "Index": "2800",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "404596261",
+  "Current Question Text": "How old were you when you first used hormonal IUD?",
+  "Variable Label": "Age hormonal IUD first use",
+  "Variable Name": [
+    "SrvMRE_AgeHorIUDUsedF_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "HORMED2_8"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if HORMED= 6",
+  "Date added or modified": "10/6/21"
+}

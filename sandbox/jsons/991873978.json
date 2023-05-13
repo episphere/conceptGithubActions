@@ -1,0 +1,37 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "991873978",
+  "Current Question Text": "When was the last time you took metformin?",
+  "Variable Label": "Last took metformin",
+  "Variable Name": [
+    "SrvMRE_MetforminTime_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "METFOR5_1"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "METFOR= 1",
+  "Formula for Index": [
+    "2543",
+    "2544",
+    "2545"
+  ],
+  "Index": [
+    "2543",
+    "2544",
+    "2545"
+  ],
+  "Current Format/Value": {
+    "317567178.json": "0",
+    "484055234.json": "1",
+    "802197176.json": "2"
+  }
+}

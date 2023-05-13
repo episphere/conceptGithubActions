@@ -1,0 +1,25 @@
+{
+  "Formula for Index": "2767",
+  "Index": "2767",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "946211808",
+  "Current Question Text": "How old were you when you last used progesterone-only or progestin-only contraceptive pills?",
+  "Variable Label": "Age progesterone-only or progestin-only contraceptive pills last use",
+  "Variable Name": [
+    "SrvMRE_AgeProgPillL_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "HORMED4_2"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if HORMED= 0",
+  "Date added or modified": "10/6/21"
+}

@@ -1,0 +1,31 @@
+{
+  "Formula for Index": "4799",
+  "Index": "4799",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "680046149.json"
+  ],
+  "GridID/Source Question Name": [
+    "HOMEADD1_4"
+  ],
+  "conceptId": "130174162",
+  "Current Question Text": "3-Previous Street number",
+  "Variable Label": "Street number",
+  "Variable Name": [
+    "SrvLAW_StNum3_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "STNUM3"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "6",
+  "Required": "No",
+  "PII": "Yes",
+  "Date added or modified": "11/9/22",
+  "IMS Review Notes": "Changed variable type from Num to Char"
+}

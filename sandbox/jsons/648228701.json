@@ -1,0 +1,36 @@
+{
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "117044491.json"
+  ],
+  "conceptId": "648228701",
+  "Current Question Text": "Payment Refused",
+  "Variable Label": "Payment refused",
+  "Variable Name": [
+    "HDPaym_PaymRefused_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "The payment refusal will come from NORC returning info to DCEG. Variable is set as a default and is nested under SMPaym_Round_v1r0",
+  "Dictionary": "Study Manager Data Dictionary, Biospecimen Research",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "1/18/21",
+  "GCP Document/Table": "Participants Table Nested structure: d_130371375_d_266600170_d_648228701 OR d_130371375_d_303552867_d_648228701 OR d_130371375_d_496823485_d_648228701 OR d_130371375_d_650465111_d_648228701",
+  "Formula for Index": [
+    "610",
+    "611"
+  ],
+  "Index": [
+    "610",
+    "611"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

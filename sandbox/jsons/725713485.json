@@ -1,0 +1,50 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "725713485",
+  "Current Question Text": "On the days that you did strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups), about how much time per day did you spend doing this activity?",
+  "Variable Label": "On the days that you did strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups), about how much time per day did you spend doing this activity?",
+  "Variable Name": [
+    "SrvMRE_StrengthTime_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "EXEREC4G"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if EXEREC1=6",
+  "Date added or modified": "2/28/22",
+  "Formula for Index": [
+    "3348",
+    "3349",
+    "3350",
+    "3351",
+    "3352",
+    "3353",
+    "3354"
+  ],
+  "Index": [
+    "3348",
+    "3349",
+    "3350",
+    "3351",
+    "3352",
+    "3353",
+    "3354"
+  ],
+  "Current Format/Value": {
+    "428999623.json": "0",
+    "248303092.json": "1",
+    "206020811.json": "2",
+    "264163865.json": "3",
+    "638092100.json": "4",
+    "628177728.json": "5",
+    "805918496.json": "6"
+  }
+}

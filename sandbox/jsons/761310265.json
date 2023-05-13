@@ -1,0 +1,25 @@
+{
+  "Formula for Index": "2227",
+  "Index": "2227",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "conceptId": "761310265",
+  "Current Question Text": "Please identify the occupation category that best describes this current job.",
+  "Variable Label": "Current occupation category",
+  "Variable Name": [
+    "SrvBOH_OccupationCat_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "OCCUPTN1"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "17",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "9/14/21",
+  "Question Type": "Self Populates Outside of Quest"
+}

@@ -1,0 +1,25 @@
+{
+  "Formula for Index": "2527",
+  "Index": "2527",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "147792229",
+  "Current Question Text": "About how many years did you take anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)?",
+  "Variable Label": "# Years took anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)",
+  "Variable Name": [
+    "SrvMRE_AntiHypYr_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CHOLHTN4_2"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if CHOLHTN = 1",
+  "Date added or modified": "11/10/21"
+}

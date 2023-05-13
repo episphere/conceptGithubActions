@@ -1,0 +1,31 @@
+{
+  "Formula for Index": "5707",
+  "Index": "5707",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "632533534.json"
+  ],
+  "GridID/Source Question Name": [
+    "CHILDADD1"
+  ],
+  "conceptId": "284547539",
+  "Current Question Text": "Childhood street number",
+  "Variable Label": "Street number",
+  "Variable Name": [
+    "SrvLAW_ChildStNum_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CHILDSTNUM"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "6",
+  "Required": "No",
+  "PII": "Yes",
+  "Date added or modified": "11/9/22",
+  "IMS Review Notes": "Changed variable type from Num to Char"
+}

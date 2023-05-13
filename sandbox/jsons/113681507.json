@@ -1,0 +1,25 @@
+{
+  "Formula for Index": "2409",
+  "Index": "2409",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "113681507",
+  "Current Question Text": "About how many years did you take baby or low-dose aspirin (81 mg or less)?",
+  "Variable Label": "# Years took baby or low-dose aspirin (81 mg or less)",
+  "Variable Name": [
+    "SrvMRE_LAspirinYr_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "PAINREL4_1"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if PAINREL1 = 0",
+  "Date added or modified": "11/10/21"
+}

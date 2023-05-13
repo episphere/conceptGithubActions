@@ -1,0 +1,52 @@
+{
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "332759827.json"
+  ],
+  "conceptId": "506826178",
+  "Current Question Text": "Suffix- User Profile",
+  "Variable Label": "Suffix",
+  "Variable Name": [
+    "RcrtUP_Suffix_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Populated from RcrtCS_Suffix_v1r0. Additional options may be added later.",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "2/11/22",
+  "GCP Document/Table": "Participants Table Not nested (d_506826178)",
+  "Question Type": "Question text same as RcrtCS_Suffix_v1r0",
+  "Formula for Index": [
+    "225",
+    "226",
+    "227",
+    "228",
+    "229",
+    "230",
+    "231"
+  ],
+  "Index": [
+    "225",
+    "226",
+    "227",
+    "228",
+    "229",
+    "230",
+    "231"
+  ],
+  "Current Format/Value": {
+    "612166858.json": "0",
+    "255907182.json": "1",
+    "226924545.json": "2",
+    "270793412.json": "3",
+    "959021713.json": "4",
+    "643664527.json": "5",
+    "537892528.json": "6"
+  }
+}

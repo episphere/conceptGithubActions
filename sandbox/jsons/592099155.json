@@ -1,0 +1,40 @@
+{
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "123496044.json"
+  ],
+  "conceptId": "592099155",
+  "Current Question Text": "Blood Collection Setting",
+  "Variable Label": "Blood Collection Setting",
+  "Variable Name": [
+    "BioSpm_BloodSetting_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Derived variable nested under BipSpm_CollEnvNest_v1r0. From clinical dashboard.",
+  "Derivation Notes": "BioCol_TubeCollected_v1r0 for any tube is 1 except tubes BioCol_0006_v1r0 and BioCol_0007v1r0 and set to BioSpm_Setting_v1r0 for that visit",
+  "Dictionary": "Biospecimen Clinical , Biospecimen Research",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "7/13/22",
+  "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_592099155 (2nd CID will change based on BL/F-U1,2,3)",
+  "Formula for Index": [
+    "317",
+    "318",
+    "319"
+  ],
+  "Index": [
+    "317",
+    "318",
+    "319"
+  ],
+  "Current Format/Value": {
+    "534621077.json": "0",
+    "664882224.json": "1",
+    "103209024.json": "2"
+  }
+}

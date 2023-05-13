@@ -1,0 +1,25 @@
+{
+  "Formula for Index": "236",
+  "Index": "236",
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "332759827.json"
+  ],
+  "conceptId": "371067537",
+  "Current Question Text": "Date of Birth derived from concatenating: RcrtUP_MOB_v1r0, RcrtUP_BD_v1r0, RcrtUP_YOB_v1r0",
+  "Variable Label": "Date of Birth",
+  "Variable Name": [
+    "RcrtUP_DOB_v1r0"
+  ],
+  "Variable Type": "Date",
+  "Variable Length": "8",
+  "Current Format/Value": "yyyymmdd",
+  "Required": "Yes",
+  "PII": "Yes",
+  "Dictionary": "Recruitment Data Dictionary, Biospecimen Clinical, Biospecimen Research",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "GCP Document/Table": "Participants Table Not nested (d_371067537)"
+}

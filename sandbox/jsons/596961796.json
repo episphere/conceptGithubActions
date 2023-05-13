@@ -1,0 +1,38 @@
+{
+  "conceptId": "596961796",
+  "Current Question Text": "Pills per day baby or low-dose aspirin (81 mg or less)",
+  "subcollections": [
+    "101310722.json",
+    "596961796.json"
+  ],
+  "Formula for Index": "2396",
+  "Index": "2396",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "Current Source Question": [
+    "596961796.json"
+  ],
+  "GridID/Source Question Name": [
+    "PAINREL3_1"
+  ],
+  "Variable Label": "Pills per day baby or low-dose aspirin (81 mg or less), don't know",
+  "Variable Name": [
+    "SrvMRE_LAspirinPillDK_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "PAINREL3_1"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Current Format/Value": {
+    "178420302.json": "77"
+  },
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if PAINREL1 = 0",
+  "Date added or modified": "10/6/21"
+}

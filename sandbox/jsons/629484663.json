@@ -1,0 +1,35 @@
+{
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "218595434.json"
+  ],
+  "conceptId": "629484663",
+  "Current Question Text": "Eligibility Variable - Age",
+  "Variable Label": "Age Match",
+  "Variable Name": [
+    "RcrtV_AgeMatch_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Sent as part of the verification table from the IHCS.",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "Yes",
+  "Default Variable": "No",
+  "GCP Document/Table": "Participants Table Not nested (state_d_629484663)",
+  "Formula for Index": [
+    "310",
+    "311"
+  ],
+  "Index": [
+    "310",
+    "311"
+  ],
+  "Current Format/Value": {
+    "539025306.json": "0",
+    "427405444.json": "1"
+  }
+}

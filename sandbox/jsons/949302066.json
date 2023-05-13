@@ -1,0 +1,39 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "conceptId": "949302066",
+  "Current Question Text": "Baseline Survey Status - Module Background and Overall Health",
+  "Variable Label": "Flag for Baseline Module Background and Overall Health",
+  "Variable Name": [
+    "SrvBOH_BaseStatus_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "For display at check-in and check out.  Currently, place holders, but will maintain the Concept IDs when variables are created.",
+  "Dictionary": "Biospecimen Research, Study Manager Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "6/25/21",
+  "GCP Document/Table": "Participants Table Not nested (d_949302066)",
+  "Formula for Index": [
+    "569",
+    "570",
+    "571"
+  ],
+  "Index": [
+    "569",
+    "570",
+    "571"
+  ],
+  "Current Format/Value": {
+    "972455046.json": "0",
+    "615768760.json": "1",
+    "231311385.json": "2"
+  }
+}
