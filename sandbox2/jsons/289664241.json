@@ -1,0 +1,99 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Current Source Question": [
+    "289664241.json"
+  ],
+  "GridID/Source Question Name": [
+    "GEN"
+  ],
+  "conceptId": "289664241",
+  "Current Question Text": "Gender - Do you think of yourself as:",
+  "Variable Label": "Gender",
+  "Variable Name": [
+    "SrvBOH_Gender_v1r1"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "GEN"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
+  "Formula for Index": [
+    "1206",
+    "1208",
+    "1210",
+    "1211",
+    "1212",
+    "1213",
+    "1214",
+    "1215"
+  ],
+  "Index": [
+    "1206",
+    "1208",
+    "1210",
+    "1211",
+    "1212",
+    "1213",
+    "1214",
+    "1215"
+  ],
+  "Deprecated, New, or Revised": [
+    "New",
+    "New",
+    "Revised",
+    "Revised",
+    "Revised",
+    "New",
+    "Keep",
+    "Keep"
+  ],
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": [
+    "1/18/23",
+    "1/18/23",
+    "1/18/23",
+    "1/18/23",
+    "1/18/23",
+    "1/18/23",
+    "1/18/23",
+    "1/18/23"
+  ],
+  "Current Format/Value": {
+    "218837028.json": "0",
+    "983318667.json": "1",
+    "405267600.json": "2",
+    "873138103.json": "3",
+    "805712793.json": "4",
+    "486192236.json": "5",
+    "807835037.json": "55",
+    "746038746.json": "99"
+  },
+  "Date added or modified": [
+    "5/10/23",
+    "5/10/23",
+    "12/12/22",
+    "12/12/22",
+    "12/12/22",
+    "12/12/22"
+  ],
+  "IMS Review Notes": [
+    "Denoted response as new",
+    "Denoted response as new",
+    "Updated response value",
+    "Updated response value",
+    "Updated response value",
+    "Added a new response value"
+  ],
+  "R0 Format/Value": [
+    "2 = Transgender Male/Trans Man/Female-to-Male (FTM)",
+    "3 = Transgender Female/Trans Woman/Male-to-Female (MTF)",
+    "4 = Genderqueer, not exclusively male or female"
+  ]
+}
