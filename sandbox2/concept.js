@@ -539,7 +539,7 @@ async function readFile(fileName){
     
     const fileStream = fs.createReadStream(fileName);
     const outFile = 'prelude1Concept1.csv'
-    let excelOutput = []
+    let excelOutput = [] // for the .csv file output
     const rl = readline.createInterface({
         input: fileStream,
         crlfDelay: Infinity
@@ -556,13 +556,14 @@ async function readFile(fileName){
     for await(const line of rl){
         //let arr = line.split(',');
         let arr = CSVToArray(line, ',')
-
         if(first){
             conceptIdObject = getConceptIdCols(arr)
             // console.log('abc')
             // console.log(conceptIdObject)
             header = arr;
             first = false;
+
+
             for(let i = 0; i < arr.length; i++){
                 if(arr[i] == "Current Question Text"){
                     currQuestionTextIndex = i;
@@ -576,8 +577,10 @@ async function readFile(fileName){
                 }
             }
             excelOutput.push([arr])
-            counter++;
+            // counter++;
+            console.log("counter",counter)
         }
+         
         else if(currCluster){
             if(arr[currQuestionTextIndex] == ''){
 
@@ -586,8 +589,11 @@ async function readFile(fileName){
                     counter++
                     continue
                 }
+                if (counter === 1) {
+                    console.log("counter 1 curr cluster", cluster, counter)
+                }
                 cluster.push(arr);
-
+                counter++
             }
             else{
                 if(arr[deprecatedNewRevisedIndex] === 'Deprecated'){
@@ -595,6 +601,12 @@ async function readFile(fileName){
                     counter++
                     continue
                 }
+
+                // if (counter === 1) {
+                //     // console.log("counter 1 curr cluster", cluster)
+                //     // console.log("-----")
+                //     console.log("counter 2 arr ", arr)
+                // }
 
                 let returned = processCluster(cluster, header, nameToConcept, currQuestionTextIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList, /[0-9]+\s*=/)
                 excelOutput.push(returned)
@@ -604,16 +616,19 @@ async function readFile(fileName){
             }
         }
         else{
+            // arr goes into cluster
+            // console.log("line after header", cluster) 
             cluster.push(arr)
             currCluster = true;
             counter++
+            console.log("counter",counter, cluster)
         }
     }
     let returned = processCluster(cluster, header, nameToConcept, currQuestionTextIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList,/[0-9]+\s*=/);
     excelOutput.push(returned)
-    console.log("🚀 ~ file: concept.js:615 ~ readFile ~ excelOutput:", excelOutput)
+    // console.log("🚀 ~ file: concept.js:615 ~ readFile ~ excelOutput:", excelOutput) // IMPORTANT CONSOLE LOG 
 
-    return
+    return // REMOVE THIS LATER 
     
     //console.log(sourceJSONS)
     for(let i = 0; i < sourceJSONS.length; i++){
