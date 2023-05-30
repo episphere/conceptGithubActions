@@ -1,0 +1,48 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "369168474.json"
+  ],
+  "conceptId": "860253133",
+  "Current Question Text": "How many times have you been screened for oral cancer?",
+  "Variable Label": "Number of times screened for oral cancer",
+  "Variable Name": [
+    "SrvScr_ORSCREEN2_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "ORSCREEN2"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "State Attribute": "No",
+  "Date added or modified": "5/12/23",
+  "Question Type": "Multiple Choice",
+  "Formula for Index": [
+    "7931",
+    "7932",
+    "7933",
+    "7934",
+    "7935",
+    "7936"
+  ],
+  "Index": [
+    "7931",
+    "7932",
+    "7933",
+    "7934",
+    "7935",
+    "7936"
+  ],
+  "Current Format/Value": {
+    "236949684.json": "0",
+    "506053626.json": "1",
+    "119809731.json": "2",
+    "282580702.json": "3",
+    "934779560.json": "4",
+    "178420302.json": "77"
+  }
+}

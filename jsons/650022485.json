@@ -1,0 +1,27 @@
+{
+  "conceptId": "650022485",
+  "Current Question Text": "Endometrial Biopsy. A healthcare provider used a plastic or metal instrument called a speculum to open your vagina, and inserted a very thin, flexible tube into your uterus. Then, using a suction, the provider took a small amount of tissue through the tube. The suctioning took about a minute or less and was likely done in your provider’s office. The tissue is then looked at under a microscope to check for cancer or other problems.",
+  "Variable Label": "Endometrial Biopsy",
+  "Variable Name": [
+    "SrvScr_ENDOBIOP_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "2"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Formula for Index": [
+    "8420",
+    "8421"
+  ],
+  "Index": [
+    "8420",
+    "8421"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

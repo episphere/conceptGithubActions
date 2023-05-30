@@ -1,0 +1,39 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "369168474.json"
+  ],
+  "conceptId": "991871399",
+  "Current Question Text": "Have you ever had an upper endoscopy to check for cancer or other conditions? During an upper endoscopy, a thin, tube-like instrument called an endoscope is passed through your mouth and down your throat to look inside your esophagus, stomach, and duodenum (first part of the small intestine).",
+  "Variable Label": "Ever had upper endoscopy",
+  "Variable Name": [
+    "SrvScr_UPENDO_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "UPENDO"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "State Attribute": "No",
+  "Date added or modified": "5/12/23",
+  "Question Type": "Multiple Choice",
+  "Formula for Index": [
+    "8145",
+    "8146",
+    "8147"
+  ],
+  "Index": [
+    "8145",
+    "8146",
+    "8147"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1",
+    "178420302.json": "77"
+  }
+}

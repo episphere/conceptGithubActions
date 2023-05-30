@@ -1,0 +1,48 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "369168474.json"
+  ],
+  "conceptId": "884856351",
+  "Current Question Text": "When did you first have a CT colonoscopy?",
+  "Variable Label": "First CT colonoscopy",
+  "Variable Name": [
+    "SrvScr_CTCOL1_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CTCOL1"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "State Attribute": "No",
+  "Date added or modified": "5/12/23",
+  "Question Type": "Multiple Choice",
+  "Formula for Index": [
+    "7992",
+    "7993",
+    "7994",
+    "7995",
+    "7996",
+    "7997"
+  ],
+  "Index": [
+    "7992",
+    "7993",
+    "7994",
+    "7995",
+    "7996",
+    "7997"
+  ],
+  "Current Format/Value": {
+    "461386928.json": "0",
+    "729845236.json": "1",
+    "669023414.json": "2",
+    "786431761.json": "3",
+    "640520411.json": "4",
+    "178420302.json": "77"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "369168474.json"
+  ],
+  "conceptId": "802157786",
+  "Current Question Text": "Have you ever had an oral cancer screening by a dentist or healthcare professional to check for signs of cancer in your mouth?",
+  "Variable Label": "Ever screened for oral cancer",
+  "Variable Name": [
+    "SrvScr_ORSCREEN_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "ORSCREEN"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "State Attribute": "No",
+  "Date added or modified": "5/12/23",
+  "Question Type": "Multiple Choice",
+  "Formula for Index": [
+    "7922",
+    "7923",
+    "7924"
+  ],
+  "Index": [
+    "7922",
+    "7923",
+    "7924"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1",
+    "178420302.json": "77"
+  }
+}

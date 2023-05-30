@@ -1,0 +1,48 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "369168474.json"
+  ],
+  "conceptId": "650508014",
+  "Current Question Text": "How many times have you had a PSA blood test?",
+  "Variable Label": "Number of PSA blood tests",
+  "Variable Name": [
+    "SrvScr_PSA2_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "PSA2"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "State Attribute": "No",
+  "Date added or modified": "5/12/23",
+  "Question Type": "Multiple Choice",
+  "Formula for Index": [
+    "8196",
+    "8197",
+    "8198",
+    "8199",
+    "8200",
+    "8201"
+  ],
+  "Index": [
+    "8196",
+    "8197",
+    "8198",
+    "8199",
+    "8200",
+    "8201"
+  ],
+  "Current Format/Value": {
+    "236949684.json": "0",
+    "506053626.json": "1",
+    "119809731.json": "2",
+    "282580702.json": "3",
+    "934779560.json": "4",
+    "178420302.json": "77"
+  }
+}

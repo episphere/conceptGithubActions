@@ -5,8 +5,6 @@
   "Secondary Source": [
     "726699695.json"
   ],
-  "Deprecated, New, or Revised": "Deprecated",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "6/10/22",
   "conceptId": "842657297",
   "Current Question Text": "During the past 12 months, about how many days per week did you typically work for pay?",
   "Variable Label": "Days work",
@@ -20,9 +18,7 @@
   "Variable Length": "2",
   "Required": "No",
   "Notes": "DAYSWORK deprecated from Module 1 and was added New to Module 4.",
-  "Date added or modified": "4/13/23",
   "Question Type": "Optional Multiple Choice",
-  "IMS Review Notes": "Added previously deleted variable for record purposes",
   "Formula for Index": [
     "2330",
     "2331",
@@ -43,6 +39,26 @@
     "2336",
     "2337"
   ],
+  "Deprecated, New, or Revised": [
+    "Deprecated",
+    "Deprecated",
+    "Deprecated",
+    "Deprecated",
+    "Deprecated",
+    "Deprecated",
+    "Deprecated",
+    "Deprecated"
+  ],
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": [
+    "6/10/22",
+    "6/10/22",
+    "6/10/22",
+    "6/10/22",
+    "6/10/22",
+    "6/10/22",
+    "6/10/22",
+    "6/10/22"
+  ],
   "Current Format/Value": {
     "503218834.json": "0",
     "632371391.json": "1",
@@ -52,5 +68,25 @@
     "107714591.json": "5",
     "689829953.json": "6",
     "164282814.json": "7"
-  }
+  },
+  "Date added or modified": [
+    "4/13/23",
+    "5/25/23",
+    "5/25/23",
+    "5/25/23",
+    "5/25/23",
+    "5/25/23",
+    "5/25/23",
+    "5/25/23"
+  ],
+  "IMS Review Notes": [
+    "Added previously deleted variable for record purposes",
+    "denoted as deprecated because question is deprecated",
+    "denoted as deprecated because question is deprecated",
+    "denoted as deprecated because question is deprecated",
+    "denoted as deprecated because question is deprecated",
+    "denoted as deprecated because question is deprecated",
+    "denoted as deprecated because question is deprecated",
+    "denoted as deprecated because question is deprecated"
+  ]
 }

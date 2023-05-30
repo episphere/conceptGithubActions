@@ -1,0 +1,52 @@
+{
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "369168474.json",
+    "369168474.json"
+  ],
+  "conceptId": "227617345",
+  "Current Question Text": "How many times have you had a transvaginal ultrasound?",
+  "Variable Label": "Number of transvaginal ultrasounds",
+  "Variable Name": [
+    "SrvScr_OTVULTRA2_v1r0",
+    "SrvScr_ETVULTRA2_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "OTVULTRA2",
+    "ETVULTRA2"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "State Attribute": "No",
+  "Date added or modified": "5/12/23",
+  "Question Type": "Multiple Choice",
+  "Formula for Index": [
+    "8342",
+    "8343",
+    "8344",
+    "8345",
+    "8346",
+    "8347"
+  ],
+  "Index": [
+    "8342",
+    "8343",
+    "8344",
+    "8345",
+    "8346",
+    "8347"
+  ],
+  "Current Format/Value": {
+    "236949684.json": "0",
+    "506053626.json": "1",
+    "119809731.json": "2",
+    "282580702.json": "3",
+    "934779560.json": "4",
+    "178420302.json": "77"
+  }
+}

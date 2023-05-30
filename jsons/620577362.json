@@ -15,7 +15,6 @@
     "BSNSSTYP1",
     "BSNSSTYP2"
   ],
-  "Deprecated, New, or Revised": "Deprecated",
   "conceptId": "620577362",
   "Current Question Text": "Farming",
   "Variable Label": "Farming",
@@ -31,9 +30,7 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "1/11/23",
   "Question Type": "Optional Select All that Apply",
-  "IMS Review Notes": "Deprecated question text",
   "Formula for Index": [
     "2245",
     "2246"
@@ -42,8 +39,20 @@
     "2245",
     "2246"
   ],
+  "Deprecated, New, or Revised": [
+    "Deprecated",
+    "Deprecated"
+  ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  }
+  },
+  "Date added or modified": [
+    "1/11/23",
+    "5/25/23"
+  ],
+  "IMS Review Notes": [
+    "Deprecated question text",
+    "Denoted as deprecated because question is deprecated."
+  ]
 }
