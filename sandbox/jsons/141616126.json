@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "7914",
-  "Index": "7914",
+  "Formula for Index": "7913",
+  "Index": "7913",
   "Primary Source": [
     "129084651.json"
   ],
@@ -17,7 +17,7 @@
   "Current Question Text": "When did you get vaccinated? MY",
   "Variable Label": "Vaccine Date",
   "Variable Name": [
-    "SrvCov_COV27_MY_v1r0"
+    "SrvCov_COV27_MY_v2r0"
   ],
   "Variable Type": "Month",
   "Variable Length": "7",
@@ -26,7 +26,7 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "2/23/23",
+  "Date added or modified": "5/24/23",
   "Question Type": "Special Function",
-  "IMS Review Notes": "Added COVID-19 Survey variables"
+  "IMS Review Notes": "Updated variable name from v1 to v2."
 }

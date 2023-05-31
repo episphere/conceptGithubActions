@@ -1,0 +1,48 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "369168474.json"
+  ],
+  "conceptId": "903059223",
+  "Current Question Text": "When did you last have a PSA blood test?",
+  "Variable Label": "Last PSA blood test",
+  "Variable Name": [
+    "SrvScr_PSA3_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "PSA3"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "State Attribute": "No",
+  "Date added or modified": "5/12/23",
+  "Question Type": "Multiple Choice",
+  "Formula for Index": [
+    "8202",
+    "8203",
+    "8204",
+    "8205",
+    "8206",
+    "8207"
+  ],
+  "Index": [
+    "8202",
+    "8203",
+    "8204",
+    "8205",
+    "8206",
+    "8207"
+  ],
+  "Current Format/Value": {
+    "461386928.json": "0",
+    "729845236.json": "1",
+    "669023414.json": "2",
+    "786431761.json": "3",
+    "640520411.json": "4",
+    "178420302.json": "77"
+  }
+}

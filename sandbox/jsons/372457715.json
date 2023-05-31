@@ -1,0 +1,39 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "369168474.json"
+  ],
+  "conceptId": "372457715",
+  "Current Question Text": "When you last had a mammogram, what type of mammogram did you have?",
+  "Variable Label": "Mammogram type",
+  "Variable Name": [
+    "SrvScr_MAMMO3B_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "MAMMO3B"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "State Attribute": "No",
+  "Date added or modified": "5/12/23",
+  "Question Type": "Multiple Choice",
+  "Formula for Index": [
+    "8255",
+    "8256",
+    "8257"
+  ],
+  "Index": [
+    "8255",
+    "8256",
+    "8257"
+  ],
+  "Current Format/Value": {
+    "441766026.json": "0",
+    "510907305.json": "1",
+    "178420302.json": "77"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "369168474.json"
+  ],
+  "conceptId": "766549014",
+  "Current Question Text": "When did you last have a hysteroscopy?",
+  "Variable Label": "Last hysteroscopy",
+  "Variable Name": [
+    "SrvScr_HYSTERO3_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "HYSTERO3"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "State Attribute": "No",
+  "Date added or modified": "5/12/23",
+  "Question Type": "Multiple Choice",
+  "Formula for Index": [
+    "8456",
+    "8457",
+    "8458",
+    "8459",
+    "8460",
+    "8461"
+  ],
+  "Index": [
+    "8456",
+    "8457",
+    "8458",
+    "8459",
+    "8460",
+    "8461"
+  ],
+  "Current Format/Value": {
+    "461386928.json": "0",
+    "729845236.json": "1",
+    "669023414.json": "2",
+    "786431761.json": "3",
+    "640520411.json": "4",
+    "178420302.json": "77"
+  }
+}

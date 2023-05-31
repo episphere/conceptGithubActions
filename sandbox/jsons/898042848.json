@@ -1,0 +1,27 @@
+{
+  "conceptId": "898042848",
+  "Current Question Text": "Breast Biopsy. Small amounts of the breast are removed with a biopsy needle or during surgery. The breast tissue or cells are then looked at under a microscope to check for cancer or other problems.",
+  "Variable Label": "Breast Biopsy",
+  "Variable Name": [
+    "SrvScr_BRSTBIOP_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "3"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Formula for Index": [
+    "8230",
+    "8231"
+  ],
+  "Index": [
+    "8230",
+    "8231"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}
