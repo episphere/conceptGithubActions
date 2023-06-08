@@ -267,7 +267,6 @@
   "108417657": {
     "Variable Label": "Number of proctoscopies",
     "Variable Name": [
-      "SrvScr_PROCT2_v1r0",
       "SrvScr_PROCT2_v1r0"
     ]
   },
@@ -440,6 +439,12 @@
   },
   "113930886": {
     "Variable Name": "Address 6- What is the full street address of the place you lived before? Please only include addresses where you have lived for at least two years."
+  },
+  "114084967": {
+    "Variable Label": "Completed All Partic Study Activity RR among Invited",
+    "Variable Name": [
+      "SMMet_StudyActRRInvit_v1r0"
+    ]
   },
   "114280729": {
     "Variable Name": "How long did you experience the following symptoms?"
@@ -1406,6 +1411,12 @@
       "SrvLAW_10PrimaryWater1_v1r0"
     ]
   },
+  "154193084": {
+    "Variable Label": "Data Destruction among Verified",
+    "Variable Name": [
+      "SMMet_DDVerified_v1r0"
+    ]
+  },
   "154229258": {
     "Variable Label": "Time, [OTHER FROM CURSCHT1]",
     "Variable Name": [
@@ -1547,6 +1558,12 @@
       "HdWd_SuspendDt_v1r0"
     ]
   },
+  "161579135": {
+    "Variable Label": "Any Base Spec among Verified",
+    "Variable Name": [
+      "SMMet_SpecRRVerified_v1r0"
+    ]
+  },
   "162167690": {
     "Variable Label": "Sore throat",
     "Variable Name": [
@@ -1594,18 +1611,6 @@
   },
   "164282814": {
     "Variable Name": "7 days"
-  },
-  "164527683": {
-    "Variable Label": "None of these screening tests",
-    "Variable Name": [
-      "SrvScr_NOSCREEN_v1r0",
-      "SrvScr_NOSCREEN_v1r0",
-      "SrvScr_NOSCREEN_v1r0",
-      "SrvScr_NOSCREEN_v1r0",
-      "SrvScr_NOSCREEN_v1r0",
-      "SrvScr_NOSCREEN_v1r0",
-      "SrvScr_NOSCREEN_v1r0"
-    ]
   },
   "164595895": {
     "Variable Label": "Days long recent menstrual cycle",
@@ -1934,7 +1939,7 @@
     "Variable Name": "How old were you when you had your gallbladder removed (cholecystectomy)?"
   },
   "178420302": {
-    "Variable Label": "Don't know",
+    "Variable Label": "Unavailable/Unknown",
     "Variable Name": [
       "RCAOper_UnknownCancer_v1r0",
       "SrvBOH_UnknownCanc_v1r0",
@@ -2193,6 +2198,12 @@
   },
   "189414295": {
     "Variable Name": "Dark"
+  },
+  "189714466": {
+    "Variable Label": "Cumul Withdrawn",
+    "Variable Name": [
+      "SMMet_CumulWithdrawal_v1r0"
+    ]
   },
   "190125431": {
     "Variable Name": "36 to 50"
@@ -2856,6 +2867,12 @@
       "SrvSAS_ECigTm4049_v1r0"
     ]
   },
+  "208787653": {
+    "Variable Label": "Cumul Any Base Spec",
+    "Variable Name": [
+      "SMMet_CumulSpecimen_v1r0"
+    ]
+  },
   "209454331": {
     "Variable Name": "Baseline Push"
   },
@@ -2953,13 +2970,6 @@
     "Variable Label": "First prostate biopsy",
     "Variable Name": [
       "SrvScr_PROBIOP1_v1r0"
-    ]
-  },
-  "214414872": {
-    "Variable Label": "No symptoms day",
-    "Variable Name": [
-      "SrvBio_NoSymptDay_v1r0",
-      "SrvBio_NoSymptDay_v1r0"
     ]
   },
   "214456996": {
@@ -4275,6 +4285,12 @@
       "HdRef_DateDatadestroy_v1r0"
     ]
   },
+  "269135515": {
+    "Variable Label": "All Base Survey Complete/ Wk",
+    "Variable Name": [
+      "SMMet_SrvComplPerWk_v1r0"
+    ]
+  },
   "270011675": {
     "Variable Label": "Other: Please describe",
     "Variable Name": [
@@ -4335,8 +4351,6 @@
   "273371161": {
     "Variable Label": "Recovery",
     "Variable Name": [
-      "SrvBlU_COV21_v1r0",
-      "SrvBlU_COV21_v1r0",
       "SrvCov_COV21_v1r0"
     ]
   },
@@ -5230,6 +5244,12 @@
       "SrvScr_ENDOBIOP3_v1r0"
     ]
   },
+  "315971997": {
+    "Variable Label": "Cumul All Base Surveys",
+    "Variable Name": [
+      "SMMet_CumulativeBLSrv_v1r0"
+    ]
+  },
   "315987564": {
     "Variable Name": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had Lung or bronchial cancer?"
   },
@@ -5621,7 +5641,7 @@
     ]
   },
   "339142996": {
-    "Variable Label": "Ever have oral biopsy",
+    "Variable Label": "Ever had oral biopsy",
     "Variable Name": [
       "SrvScr_ORSCREEN4_v1r0"
     ]
@@ -5813,6 +5833,12 @@
     "Variable Label": "Full Street name #1",
     "Variable Name": [
       "SrvLAW_SeaStrName1_v1r0"
+    ]
+  },
+  "351360037": {
+    "Variable Label": "Verified/ Wk",
+    "Variable Name": [
+      "SMMet_VerifPerWk_v1r0"
     ]
   },
   "351559015": {
@@ -6046,6 +6072,12 @@
       "SrvLAW_TapWaterSoup_v2r0"
     ]
   },
+  "364983714": {
+    "Variable Label": "RR = Verfied/ Invited",
+    "Variable Name": [
+      "SMMet_ResponseRatio_v1r0"
+    ]
+  },
   "365148290": {
     "Variable Name": "Have you ever had any of these tests or procedures for colorectal cancer or other medical conditions? Select all that apply."
   },
@@ -6229,6 +6261,12 @@
       "RcrtUP_UPUpdateTm_v1r0"
     ]
   },
+  "371456538": {
+    "Variable Label": "Invited/ Wk",
+    "Variable Name": [
+      "SMMet_InvitationPerWk_v1r0"
+    ]
+  },
   "371531887": {
     "Variable Label": "Surf or bodyboard",
     "Variable Name": [
@@ -6315,6 +6353,12 @@
   },
   "375971816": {
     "Variable Name": "Study staff"
+  },
+  "376309404": {
+    "Variable Label": "Cumul Invited",
+    "Variable Name": [
+      "SMMet_CumulInivit_v1r0"
+    ]
   },
   "376408004": {
     "Variable Name": "Season Address 1- What is the full street address of your seasonal or vacation home?"
@@ -6488,6 +6532,12 @@
   },
   "385246065": {
     "Variable Name": "Medium"
+  },
+  "385385861": {
+    "Variable Label": "Cumul Completed All Partic Study Activities",
+    "Variable Name": [
+      "SMMet_CumulComplSA_v1r0"
+    ]
   },
   "385490512": {
     "Variable Label": "Ever use a tobacco pipe every day",
@@ -7572,8 +7622,20 @@
       "RcrtSI_SH_HFHS_Sex_v1r0"
     ]
   },
+  "435636852": {
+    "Variable Label": "Cumul Data Destruction",
+    "Variable Name": [
+      "SMMet_CumulativeDD_v1r0"
+    ]
+  },
   "436333358": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or hay fever?"
+  },
+  "436503027": {
+    "Variable Label": "Any Base Spec/ Wk",
+    "Variable Name": [
+      "SMMet_SpecimenPerWk_v1r0"
+    ]
   },
   "436680969": {
     "Variable Label": "Middle Name",
@@ -7979,6 +8041,12 @@
   },
   "453017582": {
     "Variable Name": "Completion Time"
+  },
+  "453019049": {
+    "Variable Label": "All Base Surveys among Verified",
+    "Variable Name": [
+      "SMMet_SrvRRVerified_v1r0"
+    ]
   },
   "453071098": {
     "Variable Label": "Did you take prescription or over-the-counter sleeping pills to help you sleep?",
@@ -8674,10 +8742,22 @@
   "484055234": {
     "Variable Name": "More than a month ago, but in the past year"
   },
+  "484173165": {
+    "Variable Label": "Withdrawn among Verfied",
+    "Variable Name": [
+      "SMMet_WithdrawalVer_v1r0"
+    ]
+  },
   "484550481": {
     "Variable Label": "Another vacation home past 20 years",
     "Variable Name": [
       "SrvLAW_SeasAddOth6_v1r0"
+    ]
+  },
+  "484832642": {
+    "Variable Label": "Incentive Eligible among Invited",
+    "Variable Name": [
+      "SMMet_IncentEligRRInv_v1r0"
     ]
   },
   "485011582": {
@@ -9483,6 +9563,12 @@
       "SrvBOH_BreastAbsc_v1r0"
     ]
   },
+  "520462703": {
+    "Variable Label": "Cumul Incentive Eligible",
+    "Variable Name": [
+      "SMMet_CumulIncentElig_v1r0"
+    ]
+  },
   "520630754": {
     "Variable Label": "Full Street name #1",
     "Variable Name": [
@@ -9899,7 +9985,16 @@
       "SrvMRE_NoSleepCond_v1r0",
       "SrvMRE_NoSATmt_v1r0",
       "SrvSAS_NoTobacco_v1r0",
-      "SrvSAS_NoTobaccoPdt_v1r0"
+      "SrvSAS_NoTobaccoPdt_v1r0",
+      "SrvBio_NoSymptDay_v1r0",
+      "SrvBio_NoSymptDay_v1r0",
+      "SrvScr_NOSCREEN_v1r0",
+      "SrvScr_NOSCREEN_v1r0",
+      "SrvScr_NOSCREEN_v1r0",
+      "SrvScr_NOSCREEN_v1r0",
+      "SrvScr_NOSCREEN_v1r0",
+      "SrvScr_NOSCREEN_v1r0",
+      "SrvScr_NOSCREEN_v1r0"
     ]
   },
   "535386940": {
@@ -10432,6 +10527,12 @@
     "Variable Label": "How much time chewing tobacco, snus, snuff, or dip  used, [X / 40] to age [Y / 49 / current age]",
     "Variable Name": [
       "SrvSAS_CTTime4049_v1r0"
+    ]
+  },
+  "558917383": {
+    "Variable Label": "Follow-up Eligible",
+    "Variable Name": [
+      "SMMet_AvailForFollowUp_v1r0"
     ]
   },
   "558929585": {
@@ -11224,8 +11325,6 @@
   "591826144": {
     "Variable Label": "Other Long COVID Symptom- Presence: Please Describe",
     "Variable Name": [
-      "SrvBlU_COV19C6B_v1r0",
-      "SrvBlU_COV19C6B_v1r0",
       "SrvCov_COV19C6B_v1r0"
     ]
   },
@@ -11993,6 +12092,12 @@
       "SrvMRE_OftenSnoring_v1r0"
     ]
   },
+  "631412891": {
+    "Variable Label": "Any Base Spec among Invited",
+    "Variable Name": [
+      "SMMet_SpecRRInvited_v1r0"
+    ]
+  },
   "632371391": {
     "Variable Name": "1 day"
   },
@@ -12117,6 +12222,12 @@
     "Variable Label": "I am concerned about providing information online",
     "Variable Name": [
       "HdRef_Concerned_v1r0"
+    ]
+  },
+  "637153953": {
+    "Variable Label": "Occurrence",
+    "Variable Name": [
+      "RCAOper_Occurrence_v1r0"
     ]
   },
   "637540387": {
@@ -12396,6 +12507,12 @@
       "SrvLAW_City2FollowUp_v1r0"
     ]
   },
+  "648550593": {
+    "Variable Label": "Analysis Eligible",
+    "Variable Name": [
+      "SMMet_AvailForAnalysis_v1r0"
+    ]
+  },
   "648665281": {
     "Variable Name": "1 beer"
   },
@@ -12408,7 +12525,7 @@
   "648936790": {
     "Variable Label": "Payment issued",
     "Variable Name": [
-      "HDPaym_PaymIssued_v1r0"
+      "HDPaym_PaymIssued_v1r1"
     ]
   },
   "648960871": {
@@ -13244,7 +13361,7 @@
     "Variable Name": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had Ovarian cancer?"
   },
   "682916147": {
-    "Variable Name": "Post-screening appointment"
+    "Variable Name": "Post-Screening Selection"
   },
   "683306241": {
     "Variable Label": "Motorcycle commute to past work",
@@ -13407,7 +13524,6 @@
   "689280509": {
     "Variable Label": "First proctoscopy",
     "Variable Name": [
-      "SrvScr_PROCT1_v1r0",
       "SrvScr_PROCT1_v1r0"
     ]
   },
@@ -14149,6 +14265,12 @@
       "SrvSAS_HookahUseED_v2r0"
     ]
   },
+  "720773598": {
+    "Variable Label": "Data Destruction/ Wk",
+    "Variable Name": [
+      "SMMet_DDPerWk_v1r0"
+    ]
+  },
   "722122662": {
     "Variable Label": "Ever use marijuana  every day",
     "Variable Name": [
@@ -14598,6 +14720,12 @@
   "738284740": {
     "Variable Name": "Yes, part-time student"
   },
+  "738422725": {
+    "Variable Label": "Incentive Eligible among Verified",
+    "Variable Name": [
+      "SMMet_IncentEligRRVer_v1r0"
+    ]
+  },
   "738454194": {
     "Variable Name": "1 to 2 hours per day"
   },
@@ -14844,6 +14972,12 @@
     "Variable Label": "Age oral progestin-only medication last use",
     "Variable Name": [
       "SrvMRE_AgeProgUsedL_v1r0"
+    ]
+  },
+  "747647081": {
+    "Variable Label": "Autogenerated date/time for refused follow-up blood collection",
+    "Variable Name": [
+      "HdRef_FUBloodCollDt_v1r0"
     ]
   },
   "747787163": {
@@ -15237,6 +15371,12 @@
     "Variable Label": "Participant experience - share more",
     "Variable Name": [
       "SrvPES_EXPERI2TB_v1r0"
+    ]
+  },
+  "766328380": {
+    "Variable Label": "Cumul Verified",
+    "Variable Name": [
+      "SMMet_CumulVerPt_v1r0"
     ]
   },
   "766370065": {
@@ -15918,6 +16058,12 @@
       "RcrtV_UpdateRecType_v1r0"
     ]
   },
+  "794376648": {
+    "Variable Label": "Incentive Eligible/ Wk",
+    "Variable Name": [
+      "SMMet_IncentEligPerWk_v1r0"
+    ]
+  },
   "794613585": {
     "Variable Label": "GitHub/Survey Version for BOH",
     "Variable Name": [
@@ -16288,7 +16434,7 @@
     ]
   },
   "807835037": {
-    "Variable Label": "None of these fully describe me. Please describe",
+    "Variable Label": "Other |__|",
     "Variable Name": [
       "RCAOper_OtherCancer_v1r0",
       "SrvBOH_NoneRE_v1r0",
@@ -16470,6 +16616,12 @@
     "Variable Label": "Zip code",
     "Variable Name": [
       "SrvLAW_SeaZip_v1r0"
+    ]
+  },
+  "812454203": {
+    "Variable Label": "Completed all Participant Study Activities/ Wk",
+    "Variable Name": [
+      "SMMet_ComplSAPerWk_v1r0"
     ]
   },
   "813701399": {
@@ -16693,7 +16845,6 @@
   "822995885": {
     "Variable Label": "Last proctoscopy",
     "Variable Name": [
-      "SrvScr_PROCT3_v1r0",
       "SrvScr_PROCT3_v1r0"
     ]
   },
@@ -17768,6 +17919,7 @@
     ]
   },
   "868006655": {
+    "Variable Label": "Primary Cancer Site- Another type of cancer: Please describe [text box]",
     "Variable Name": [
       "RCAOper_OthCancerDesc_v1r0"
     ]
@@ -17849,6 +18001,12 @@
     "Variable Label": "Age the other type of estrogen-only medication first use",
     "Variable Name": [
       "SrvMRE_AgeOthEstUseF_v1r0"
+    ]
+  },
+  "872519186": {
+    "Variable Label": "Completed All Partic Study Activity among Verified",
+    "Variable Name": [
+      "SMMet_StudyActRRVer_v1r0"
     ]
   },
   "872527709": {
@@ -18954,6 +19112,12 @@
       "SrvSAS_CigsUsed1824_v1r0"
     ]
   },
+  "923760192": {
+    "Variable Label": "Withdrawals/ Wk",
+    "Variable Name": [
+      "SMMet_WithdrawalPerWk_v1r0"
+    ]
+  },
   "924583345": {
     "Variable Label": "Country",
     "Variable Name": [
@@ -19201,8 +19365,6 @@
   "934384452": {
     "Variable Label": "Other Long COVID Symptom- Duration: Please Describe",
     "Variable Name": [
-      "SrvBlU_COV20A17_v1r0",
-      "SrvBlU_COV20A17_v1r0",
       "SrvCov_COV20A17_v1r0"
     ]
   },
@@ -19396,6 +19558,12 @@
       "SrvSAS_HookahED_v1r0"
     ]
   },
+  "941963821": {
+    "Variable Label": "Refused follow-up blood collection",
+    "Variable Name": [
+      "HdRef_FUBloodColl_v1r0"
+    ]
+  },
   "942255248": {
     "Variable Label": "Letter or brochure in mail",
     "Variable Name": [
@@ -19469,6 +19637,12 @@
       "SrvLAW_ChildAddOut_Yr_v1r0"
     ]
   },
+  "943911102": {
+    "Variable Label": "Cumul Passive",
+    "Variable Name": [
+      "SMMet_CumulPasRcrt_v1r0"
+    ]
+  },
   "943996164": {
     "Variable Label": "Months cycles gonadotropins",
     "Variable Name": [
@@ -19523,7 +19697,7 @@
   "945795905": {
     "Variable Label": "Payment Chosen",
     "Variable Name": [
-      "HDPaym_PaymChosen_v1r0"
+      "HDPaym_PaymChosen_v2r0"
     ]
   },
   "946211808": {
@@ -19705,6 +19879,12 @@
     "Variable Label": "Pain affect work",
     "Variable Name": [
       "SrvBOH_PainAffectWork_v1r0"
+    ]
+  },
+  "953443435": {
+    "Variable Label": "All Base Surveys among Invited",
+    "Variable Name": [
+      "SMMet_SrvRRInvited_v1r0"
     ]
   },
   "953510929": {
