@@ -1,20 +1,14 @@
 {
   "Primary Source": [
-    "129084651.json",
-    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "299215535.json",
-    "826163434.json",
     "793330426.json"
   ],
   "conceptId": "591826144",
-  "Current Question Text": "Are you still experiencing [piped response from SrvBlU_COV19C6Desc_v1r0/ these other symptoms]",
+  "Current Question Text": "Are you still experiencing [piped response from SrvCov_COV19C6Desc_v1r0/ these other symptoms]",
   "Variable Label": "Other Long COVID Symptom- Presence: Please Describe",
   "Variable Name": [
-    "SrvBlU_COV19C6B_v1r0",
-    "SrvBlU_COV19C6B_v1r0",
     "SrvCov_COV19C6B_v1r0"
   ],
   "Variable Type": "Num",
@@ -23,20 +17,16 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "2/23/23",
+  "Date added or modified": "6/2/23",
   "Question Type": "Optional Multiple Choice",
-  "IMS Review Notes": "Deprecated COVID-19 questions from Blood/Urine/Mouthwash Survey",
+  "IMS Review Notes": "Changed the SrvBlU prefix reference in the question text to SrvCov",
   "Formula for Index": [
-    "6501",
-    "6502"
+    "7807",
+    "7808"
   ],
   "Index": [
-    "6501",
-    "6502"
-  ],
-  "Deprecated, New, or Revised": [
-    "Deprecated",
-    "Deprecated"
+    "7807",
+    "7808"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

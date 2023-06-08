@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "889",
-  "Index": "889",
+  "Formula for Index": "892",
+  "Index": "892",
   "Primary Source": [
     "692924902.json"
   ],
@@ -14,15 +14,14 @@
   "Variable Name": [
     "RCAOper_NumCancOcc_v1r0"
   ],
-  "Variable Type": "Num",
-  "Variable Length": "2",
+  "Variable Type": "N/A",
   "Current Format/Value": "N/A",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Varibles nested under each occurrence: cancer flag, date of case ID, primary cancer site, primary cancer site ICD, ICD code version, preliminary cancer stage, number of tumors",
+  "Notes": "Varibles nested under each occurrence: cancer flag, date of case ID, primary cancer site, primary cancer site ICD, ICD code version, preliminary cancer stage, number of tumors. This variable has the other RCA variables nested under it.  We'd like for this variable to be a repeated measure.",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "11/25/22",
+  "Date added or modified": "6/6/23",
   "GCP Document/Table": "Not yet in Flattened Tables"
 }

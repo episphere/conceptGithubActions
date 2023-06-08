@@ -1,0 +1,28 @@
+{
+  "Formula for Index": "988",
+  "Index": "988",
+  "Primary Source": [
+    "332961895.json"
+  ],
+  "Secondary Source": [
+    "581036703.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "923760192",
+  "Current Question Text": "Number of Withdrawn Participants per Week",
+  "Variable Label": "Withdrawals/ Wk",
+  "Variable Name": [
+    "SMMet_WithdrawalPerWk_v1r0"
+  ],
+  "Variable Type": "Numeric",
+  "Variable Length": "6",
+  "Current Format/Value": "N/A",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "sum(d_747006172 == 353358909 & d_831041022 == 104430631) per week",
+  "Dictionary": "Study Manager",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "6/6/23",
+  "GCP Document/Table": "Not yet in Flattened Tables but will be in Participants Table"
+}

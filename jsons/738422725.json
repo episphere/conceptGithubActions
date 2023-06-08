@@ -1,0 +1,28 @@
+{
+  "Formula for Index": "980",
+  "Index": "980",
+  "Primary Source": [
+    "332961895.json"
+  ],
+  "Secondary Source": [
+    "581036703.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "738422725",
+  "Current Question Text": "Proportion of Incentive Eligible Participants among Verified",
+  "Variable Label": "Incentive Eligible among Verified",
+  "Variable Name": [
+    "SMMet_IncentEligRRVer_v1r0"
+  ],
+  "Variable Type": "Numeric",
+  "Variable Length": "6",
+  "Current Format/Value": "N/A",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "sum(!is.na( veri_resp$d_130371375_d_266600170_d_787567527) or d_130371375_d_266600170_d_731498909= Yes) /cumalative d_8212447024 verified",
+  "Dictionary": "Study Manager",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "6/6/23",
+  "GCP Document/Table": "Not yet in Flattened Tables but will be in Participants Table"
+}

@@ -1,4 +1,16 @@
 {
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "369168474.json"
+  ],
+  "Current Source Question": [
+    "365148290.json"
+  ],
+  "GridID/Source Question Name": [
+    "SrvScr_COLSCREEN_v1r0"
+  ],
   "conceptId": "928432579",
   "Current Question Text": "Stool (fecal) test. A test for blood or abnormal DNA in your stool. This test is sometimes called a fecal occult blood test (a FOBT), or a fecal immunochemical test (FIT), a Stool DNA Test (Cologuard®). These tests should be done at home and the sample is mailed in.",
   "Variable Label": "Stool (fecal) test",
@@ -12,13 +24,16 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
+  "Date added or modified": "6/6/23",
+  "Question Type": "Select All That Apply",
+  "IMS Review Notes": "Added spaces before and after the equal sign. Populated col C,D,F,H,J,M, and AG",
   "Formula for Index": [
-    "7972",
-    "7973"
+    "8006",
+    "8007"
   ],
   "Index": [
-    "7972",
-    "7973"
+    "8006",
+    "8007"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

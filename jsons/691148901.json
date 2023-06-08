@@ -1,4 +1,16 @@
 {
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "369168474.json"
+  ],
+  "Current Source Question": [
+    "365148290.json"
+  ],
+  "GridID/Source Question Name": [
+    "SrvScr_COLSCREEN_v1r0"
+  ],
   "conceptId": "691148901",
   "Current Question Text": "Proctoscopy. Also known as a rigid sigmoidoscopy. You were awake and not given medicine to make you sleepy. A healthcare provider used a thin, tube-like instrument with a light and a lens to examine the inside of your rectum and check for cancer or other problems. You were probably able to drive yourself home. This test is rarely used now and was more commonly used in the past.",
   "Variable Label": "Proctoscopy",
@@ -12,13 +24,16 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
+  "Date added or modified": "6/6/23",
+  "Question Type": "Select All That Apply",
+  "IMS Review Notes": "Added spaces before and after the equal sign. Populated col C,D,F,H,J,M, and AG",
   "Formula for Index": [
-    "7970",
-    "7971"
+    "8004",
+    "8005"
   ],
   "Index": [
-    "7970",
-    "7971"
+    "8004",
+    "8005"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
