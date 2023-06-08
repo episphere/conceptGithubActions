@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "7692",
-  "Index": "7692",
+  "Formula for Index": "7726",
+  "Index": "7726",
   "Primary Source": [
     "129084651.json"
   ],
@@ -20,7 +20,7 @@
     "SrvCov_COV8S_OTH_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "COV8S_OTH"
+    "SrvCov_COV8S_OTH_v1r0"
   ],
   "Variable Type": "Char",
   "Variable Length": "300",
@@ -28,6 +28,6 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "5/19/23",
-  "IMS Review Notes": "Updated Connect value."
+  "Date added or modified": "6/8/23",
+  "IMS Review Notes": "Turn colomn R into a Variable Name"
 }

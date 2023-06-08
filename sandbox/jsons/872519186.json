@@ -1,0 +1,28 @@
+{
+  "Formula for Index": "984",
+  "Index": "984",
+  "Primary Source": [
+    "332961895.json"
+  ],
+  "Secondary Source": [
+    "581036703.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "872519186",
+  "Current Question Text": "Proportion of Participants Completed All Participant Study Activities among Verified",
+  "Variable Label": "Completed All Partic Study Activity among Verified",
+  "Variable Name": [
+    "SMMet_StudyActRRVer_v1r0"
+  ],
+  "Variable Type": "Numeric",
+  "Variable Length": "6",
+  "Current Format/Value": "N/A",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "sum(d_100767870 ==353358909)/Cumulative d_821247024= verified",
+  "Dictionary": "Study Manager",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "6/6/23",
+  "GCP Document/Table": "Not yet in Flattened Tables but will be in Participants Table"
+}

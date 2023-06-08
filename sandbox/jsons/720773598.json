@@ -1,0 +1,28 @@
+{
+  "Formula for Index": "991",
+  "Index": "991",
+  "Primary Source": [
+    "332961895.json"
+  ],
+  "Secondary Source": [
+    "581036703.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "720773598",
+  "Current Question Text": "Number of Data Destructions per Week",
+  "Variable Label": "Data Destruction/ Wk",
+  "Variable Name": [
+    "SMMet_DDPerWk_v1r0"
+  ],
+  "Variable Type": "Numeric",
+  "Variable Length": "6",
+  "Current Format/Value": "N/A",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "sum(d_831041022 == 353358909) per week",
+  "Dictionary": "Study Manager",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "6/6/23",
+  "GCP Document/Table": "Not yet in Flattened Tables but will be in Participants Table"
+}

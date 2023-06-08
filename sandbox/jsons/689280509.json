@@ -1,45 +1,39 @@
 {
   "Primary Source": [
-    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "369168474.json",
     "369168474.json"
   ],
   "conceptId": "689280509",
   "Current Question Text": "When did you first have a proctoscopy?",
   "Variable Label": "First proctoscopy",
   "Variable Name": [
-    "SrvScr_PROCT1_v1r0",
     "SrvScr_PROCT1_v1r0"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "PROCT1",
-    "PROCT1"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "State Attribute": "No",
-  "Date added or modified": "5/12/23",
+  "Date added or modified": "6/6/23",
   "Question Type": "Multiple Choice",
+  "IMS Review Notes": "Removed Connect value in col R",
   "Formula for Index": [
-    "8024",
-    "8025",
-    "8026",
-    "8027",
-    "8028",
-    "8029"
+    "8058",
+    "8059",
+    "8060",
+    "8061",
+    "8062",
+    "8063"
   ],
   "Index": [
-    "8024",
-    "8025",
-    "8026",
-    "8027",
-    "8028",
-    "8029"
+    "8058",
+    "8059",
+    "8060",
+    "8061",
+    "8062",
+    "8063"
   ],
   "Current Format/Value": {
     "461386928.json": "0",

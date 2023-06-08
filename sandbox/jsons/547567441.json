@@ -1,4 +1,16 @@
 {
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "369168474.json"
+  ],
+  "Current Source Question": [
+    "124071431.json"
+  ],
+  "GridID/Source Question Name": [
+    "SrvScr_SKIN1_v1r0"
+  ],
   "conceptId": "547567441",
   "Current Question Text": "I have had part of my body screened for skin cancer",
   "Variable Label": "Part of my body screened for skin cancer",
@@ -12,13 +24,16 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
+  "Date added or modified": "6/6/23",
+  "Question Type": "Select All That Apply",
+  "IMS Review Notes": "Added spaces before and after the equal sign. Populated col C,D,F,H, J, and AG",
   "Formula for Index": [
-    "8121",
-    "8122"
+    "8137",
+    "8138"
   ],
   "Index": [
-    "8121",
-    "8122"
+    "8137",
+    "8138"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

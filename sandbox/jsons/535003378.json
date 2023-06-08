@@ -24,6 +24,15 @@
     "129084651.json",
     "129084651.json",
     "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
@@ -51,7 +60,16 @@
     "745268907.json",
     "745268907.json",
     "965707586.json",
-    "965707586.json"
+    "965707586.json",
+    "299215535.json",
+    "826163434.json",
+    "369168474.json",
+    "369168474.json",
+    "369168474.json",
+    "369168474.json",
+    "369168474.json",
+    "369168474.json",
+    "369168474.json"
   ],
   "Current Source Question": [
     "167101091.json",
@@ -78,7 +96,16 @@
     "479628567.json",
     "629010195.json",
     "947205597.json",
-    "830608495.json"
+    "830608495.json",
+    "470484596.json",
+    "470484596.json",
+    "365148290.json",
+    "465056475.json",
+    "961267001.json",
+    "957875649.json",
+    "229764995.json",
+    "356470898.json",
+    "219076879.json"
   ],
   "GridID/Source Question Name": [
     "MHGROUP1",
@@ -105,7 +132,16 @@
     "SLPROB1",
     "SLPROB2",
     "TOBACCO",
-    "MARIJUANA"
+    "MARIJUANA",
+    "SrvBio_SYMPTDAY_v1r0",
+    "SrvBio_SYMPTDAY_v1r0",
+    "SrvScr_COLSCREEN_v1r0",
+    "SrvScr_PROSCREEN_v1r0",
+    "SrvScr_BRSTSCREEN_v1r0",
+    "SrvScr_OVSCREEN_v1r0",
+    "SrvScr_CERVSCREEN_v1r0",
+    "SrvScr_ENDOSCREEN_v1r0",
+    "SrvScr_MULTISCREEN_v1r0"
   ],
   "conceptId": "535003378",
   "Current Question Text": "None of the above",
@@ -135,9 +171,27 @@
     "SrvMRE_NoSleepCond_v1r0",
     "SrvMRE_NoSATmt_v1r0",
     "SrvSAS_NoTobacco_v1r0",
-    "SrvSAS_NoTobaccoPdt_v1r0"
+    "SrvSAS_NoTobaccoPdt_v1r0",
+    "SrvBio_NoSymptDay_v1r0",
+    "SrvBio_NoSymptDay_v1r0",
+    "SrvScr_NOSCREEN_v1r0",
+    "SrvScr_NOSCREEN_v1r0",
+    "SrvScr_NOSCREEN_v1r0",
+    "SrvScr_NOSCREEN_v1r0",
+    "SrvScr_NOSCREEN_v1r0",
+    "SrvScr_NOSCREEN_v1r0",
+    "SrvScr_NOSCREEN_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
+    "88",
+    "88",
+    "88",
+    "88",
+    "88",
+    "88",
+    "88",
+    "88",
+    "88",
     "88",
     "88",
     "88",
@@ -172,15 +226,21 @@
   "Date added or modified": "9/23/21",
   "Question Type": "Optional Select All that Apply, Displayif in One or More Responses",
   "Formula for Index": [
-    "1263",
-    "1264"
+    "1297",
+    "1298"
   ],
   "Index": [
-    "1263",
-    "1264"
+    "1297",
+    "1298"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  }
+  },
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "IMS Review Notes": [
+    "Updated CID in col M and text in col H to match CID for 88 none of the above",
+    "Added spaces around ="
+  ]
 }

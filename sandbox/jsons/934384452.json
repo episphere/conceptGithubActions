@@ -6,7 +6,7 @@
     "793330426.json"
   ],
   "conceptId": "934384452",
-  "Current Question Text": "How long did you experience [piped response from SrvBlU_COV19C6Desc_v1r0/ these other symptoms]",
+  "Current Question Text": "How long did you experience [piped response from SrvCov_COV19C6Desc_v1r0/ these other symptoms]",
   "Variable Label": "Other Long COVID Symptom- Duration: Please Describe",
   "Variable Name": [
     "SrvCov_COV20A17_v1r0"
@@ -18,18 +18,18 @@
   "Notes": "Option only available if #55 is selected in COV19C6A",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "2/23/23",
+  "Date added or modified": "6/2/23",
   "Question Type": "Optional Multiple Choice, Displayif and Piped text",
-  "IMS Review Notes": "Added COVID-19 Survey variables",
+  "IMS Review Notes": "Changed the SrvBlU prefix reference in the question text to SrvCov",
   "Formula for Index": [
-    "7823",
-    "7824",
-    "7825"
+    "7857",
+    "7858",
+    "7859"
   ],
   "Index": [
-    "7823",
-    "7824",
-    "7825"
+    "7857",
+    "7858",
+    "7859"
   ],
   "Current Format/Value": {
     "232063618.json": "0",
