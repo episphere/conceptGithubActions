@@ -5,11 +5,13 @@
   "Secondary Source": [
     "745268907.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "167997205",
-  "Current Question Text": "How long after your first menstrual period did your periods become regular? By regular, we mean that you could predict the start of your next period within a few days.",
+  "Current Question Text": "How long after your first menstrual period did your periods become regular? By regular, we mean that you could predict the start of your next period within a few days. If you had to take hormonal medication or device for your periods to become regular, please select “Never became regular”.",
+  "V1 Question Text": "How long after your first menstrual period did your periods become regular? By regular, we mean that you could predict the start of your next period within a few days.",
   "Variable Label": "Long until periods regular",
   "Variable Name": [
-    "SrvMRE_PeriodRegTime_v1r0"
+    "SrvMRE_PeriodRegTime_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "MENSHIS2_1"
@@ -18,8 +20,8 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "4/13/22",
-  "IMS Review Notes": "Changed BOH to MRE in secondary source",
+  "Date added or modified": "6/29/23",
+  "IMS Review Notes": "Denoted as revised, Revised Current Question Text, moved V1 text to V1 Question Text, and changed Variable Name suffix from _v1r0 to _v2r0",
   "Formula for Index": [
     "2637",
     "2638",

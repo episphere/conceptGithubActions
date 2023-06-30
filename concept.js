@@ -525,6 +525,8 @@ async function readFile(fileName){
     toReplace = toReplace.replace(/â€/g, "”")
     toReplace = toReplace.replace(/â€œ/g, "“")
     toReplace = toReplace.replace(/â€™/g,"’")
+    toReplace = toReplace.replace(/â€”/g,"—")
+    toReplace = toReplace.replace(/â„¢/g,"™")
 
 
     toReplace = replaceQuotes(toReplace)

@@ -6,10 +6,11 @@
     "745268907.json"
   ],
   "conceptId": "164595895",
-  "Current Question Text": "In just the past 12 months, what was the usual length of your menstrual cycle?",
+  "Current Question Text": "In just the past 12 months, what was the usual length of your menstrual cycle? Please do not consider breakthrough bleeding (also known as spotting) as part of the menstrual cycle.",
+  "V1 Question Text": "In just the past 12 months, what was the usual length of your menstrual cycle?",
   "Variable Label": "Days long recent menstrual cycle",
   "Variable Name": [
-    "SrvMRE_PeriodLength12M_v1r0"
+    "SrvMRE_PeriodLength12M_v2r1"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "MENSHIS5"
@@ -18,8 +19,8 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "10/5/21",
-  "IMS Review Notes": "Changed BOH to MRE in secondary source",
+  "Date added or modified": "6/29/23",
+  "IMS Review Notes": "Denoted question as revised, Revised Current Question Text, moved V1 text to V1 Question Text, deprecated response = 2, added 2 new responses, changed Variable Name suffix from _v1r0 to _v2r1",
   "Formula for Index": [
     "2648",
     "2649",
@@ -34,11 +35,22 @@
     "2651",
     "2652"
   ],
+  "Deprecated, New, or Revised": [
+    "Revised",
+    "Keep",
+    "Deprecated",
+    "New",
+    "Keep",
+    "Keep",
+    "New"
+  ],
   "Current Format/Value": {
     "650420270.json": "0",
     "113064256.json": "1",
     "388370628.json": "2",
+    "548167685.json": "2",
     "859025516.json": "3",
-    "471375042.json": "4"
+    "471375042.json": "4",
+    "178420302.json": "77"
   }
 }
