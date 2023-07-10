@@ -1,0 +1,65 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "793330426.json"
+  ],
+  "Current Source Question": [
+    "220055064.json"
+  ],
+  "GridID/Source Question Name": [
+    "SrvCov_COV28_v1r1"
+  ],
+  "conceptId": "288316575",
+  "Current Question Text": "Which COVID-19 vaccine shot did you get? [Brand]",
+  "Variable Label": "Vaccine Brand",
+  "Variable Name": [
+    "SrvCov_COV28_v1r1"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Question Type": "Optional Multiple Choice with Text Box, Loops",
+  "Formula for Index": [
+    "7950",
+    "7951",
+    "7952",
+    "7953",
+    "7954",
+    "7955",
+    "7956"
+  ],
+  "Index": [
+    "7950",
+    "7951",
+    "7952",
+    "7953",
+    "7954",
+    "7955",
+    "7956"
+  ],
+  "Current Format/Value": {
+    "661871565.json": "0",
+    "657978450.json": "1",
+    "411943417.json": "2",
+    "113838601.json": "3",
+    "503154121.json": "4",
+    "807835037.json": "55",
+    "178420302.json": "77"
+  },
+  "Deprecated, New, or Revised": [
+    "New"
+  ],
+  "Date added or modified": [
+    "6/15/23",
+    "6/15/23"
+  ],
+  "IMS Review Notes": [
+    "Updated source question suffix to reflect new response",
+    "Denoted as New response"
+  ]
+}

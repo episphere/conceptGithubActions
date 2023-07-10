@@ -309,7 +309,7 @@ function parseMasterModule() {
                                                         toInsert['questIds'] = {}
                                                     }
                                                     //toInsert['questIds'] = {}
-                                                    //console.log(masterJSON[valNum])
+                                                    // console.log(masterJSON[valNum])
     
                                                     toInsert['questIds'][keyNum.toUpperCase()] = {
                                                         "conceptId": valNum.substring(0, 9),
@@ -610,7 +610,7 @@ function parseMasterModule() {
                                   headerName = currJSON['GridID/Source Question Name'][sourceIndex];
                                   if (!Array.isArray(headerName)) {
     
-                                      if (headerName == currJSON['Variable Name'][sourceIndex]) {
+                                      if (headerName == currJSON['Variable Name'][sourceIndex]) { // if the header name is the same as the variable name 
                                           //console.log('EQUALS')
                                           //console.log(headerName);
     
@@ -676,8 +676,8 @@ function parseMasterModule() {
                                               }
                                           }
                                       }
-                                      else {
-                                          //isTB = true;
+                                      else { 
+                                        //   isTB = true;
                                           if (toReturn[headerName.toUpperCase()]) {
                                               toInsert = toReturn[headerName.toUpperCase()];
                                           }
