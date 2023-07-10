@@ -23,13 +23,13 @@
   "GridID/Source Question Name": [
     "SrvBlU_COV28_v1r0",
     "SrvBlU_COV28_v1r0",
-    "SrvCov_COV28_v1r1"
+    "SrvCov_COV28_v1r0"
   ],
   "Variable Label": "Vaccine Brand",
   "Variable Name": [
     "SrvBlU_COV28_v1r0",
     "SrvBlU_COV28_v1r0",
-    "SrvCov_COV28_v1r0"
+    "SrvCov_COV28_v1r1"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -41,20 +41,20 @@
   "Question Type": "Optional Multiple Choice with Text Box, Loops",
   "IMS Review Notes": "Deprecated COVID-19 questions from Blood/Urine/Mouthwash Survey",
   "Formula for Index": [
-    "6688",
-    "6689",
     "6690",
     "6691",
     "6692",
-    "6693"
+    "6693",
+    "6694",
+    "6695"
   ],
   "Index": [
-    "6688",
-    "6689",
     "6690",
     "6691",
     "6692",
-    "6693"
+    "6693",
+    "6694",
+    "6695"
   ],
   "Deprecated, New, or Revised": [
     "Deprecated",
