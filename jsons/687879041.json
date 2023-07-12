@@ -6,34 +6,35 @@
     "369168474.json"
   ],
   "Current Source Question": [
-    "957875649.json"
+    "356470898.json"
   ],
   "GridID/Source Question Name": [
-    "SrvScr_OVSCREEN_v1r0"
+    "SrvScr_ENDOSCREEN_v1r0"
   ],
-  "conceptId": "474921307",
-  "Current Question Text": "Transvaginal Ultrasound. Also known as a pelvic ultrasound, pelvic ultrasonography, gynecologic ultrasound, or endovaginal ultrasound. A healthcare provider inserted a wand-like device called a transducer into your vagina to make the images of your tissues and organs. OT",
+  "conceptId": "687879041",
+  "Current Question Text": "Transvaginal Ultrasound. Also known as a pelvic ultrasound, pelvic ultrasonography, gynecologic ultrasound, or endovaginal ultrasound. A healthcare provider inserted a wand-like device called a transducer into your vagina to make the images of your tissues and organs. ET",
   "Variable Label": "Transvaginal Ultrasound",
   "Variable Name": [
-    "SrvScr_OTVULTRA_v1r0"
+    "SrvScr_ETVULTRA_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "1"
+    "0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
+  "State Attribute": "No",
   "Date added or modified": "7/12/23",
   "Question Type": "Select All That Apply",
-  "IMS Review Notes": "Added OT to end of question text.",
+  "IMS Review Notes": "Added ET to end of question text.",
   "Formula for Index": [
-    "8334",
-    "8335"
+    "8436",
+    "8437"
   ],
   "Index": [
-    "8334",
-    "8335"
+    "8436",
+    "8437"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
