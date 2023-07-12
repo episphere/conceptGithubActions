@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "736",
-  "Index": "736",
+  "Formula for Index": "738",
+  "Index": "738",
   "Primary Source": [
     "237817859.json"
   ],
@@ -18,10 +18,10 @@
   "Current Format/Value": "example: 2020-07-17T15:21:26.763Z",
   "Required": "No",
   "PII": "No",
-  "Notes": "ISO to be converted to SAS format. The date of revocation won't be stored if withdrawal is also requested. Date withdrew consent will not be populated if the participant also requested data destruction on the same date.",
+  "Notes": "ISO to be converted to SAS format. The date of revocation won't be stored if withdrawal is also requested. Date withdrew consent will not be populated if the participant also requested data destruction on the same date. Default variable (default is an empty string).",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
-  "Default Variable": "No",
-  "Date added or modified": "10/21/21",
+  "Default Variable": "Yes",
+  "Date added or modified": "6/21/23",
   "GCP Document/Table": "Participants Table Not nested (d_659990606)"
 }

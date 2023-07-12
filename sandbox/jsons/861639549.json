@@ -1,0 +1,37 @@
+{
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "635994596.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "861639549",
+  "Current Question Text": "Data Has Been Destroyed",
+  "Variable Label": "Data Has Been Destroyed",
+  "Variable Name": [
+    "HdWd_DataHasBnDestroyed_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "This variable will be set to 'Yes' by a nightly NCI program run that checks if a data detruction request meets the critieria for the unpublished data to be destroyed and stub record retained. Criteria are the (1) The data destruction request form has been signed by the ppt or (2) if not signed, 60 days after date of data destruction request.",
+  "Dictionary": "Study Manager",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "7/10/23",
+  "GCP Document/Table": "Participants Table Not nested",
+  "Formula for Index": [
+    "712",
+    "713"
+  ],
+  "Index": [
+    "712",
+    "713"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}
