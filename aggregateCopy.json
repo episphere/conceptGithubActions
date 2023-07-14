@@ -3279,8 +3279,7 @@
   "227617345": {
     "Variable Label": "Number of transvaginal ultrasounds",
     "Variable Name": [
-      "SrvScr_OTVULTRA2_v1r0",
-      "SrvScr_ETVULTRA2_v1r0"
+      "SrvScr_OTVULTRA2_v1r0"
     ]
   },
   "227784207": {
@@ -4378,8 +4377,7 @@
   "274709835": {
     "Variable Label": "Last transvaginal ultrasound",
     "Variable Name": [
-      "SrvScr_OTVULTRA3_v1r0",
-      "SrvScr_ETVULTRA3_v1r0"
+      "SrvScr_OTVULTRA3_v1r0"
     ]
   },
   "274780951": {
@@ -4863,9 +4861,9 @@
     ]
   },
   "297147359": {
-    "Variable Label": "Who requested the Refusal/Withdrawal",
+    "Variable Label": "Who requested the Refusal",
     "Variable Name": [
-      "HdWd_WhoRequestedRefWd_v1r0"
+      "HdWd_WhoRequestedRef_v1r0"
     ]
   },
   "297462035": {
@@ -8542,8 +8540,7 @@
   "475018570": {
     "Variable Label": "First transvaginal ultrasound",
     "Variable Name": [
-      "SrvScr_OTVULTRA1_v1r0",
-      "SrvScr_ETVULTRA1_v1r0"
+      "SrvScr_OTVULTRA1_v1r0"
     ]
   },
   "475144270": {
@@ -18577,6 +18574,12 @@
       "SrvScr_BRSTBIOP_v1r0"
     ]
   },
+  "898341670": {
+    "Variable Label": "Number of transvaginal ultrasounds",
+    "Variable Name": [
+      "SrvScr_ETVULTRA2_v1r0"
+    ]
+  },
   "899251483": {
     "Variable Name": "Have you lost any of your permanent adult teeth, not including tooth crowns or your wisdom teeth? Select all that apply."
   },
@@ -18893,6 +18896,12 @@
   },
   "912857732": {
     "Variable Name": "How much did you weigh when you were:"
+  },
+  "913107034": {
+    "Variable Label": "Last transvaginal ultrasound",
+    "Variable Name": [
+      "SrvScr_ETVULTRA3_v1r0"
+    ]
   },
   "913602274": {
     "Variable Name": "$150,000-$199,999/year"
@@ -19734,6 +19743,12 @@
   },
   "947205597": {
     "Variable Name": "Have you ever used any of these tobacco products, even once? Select all that apply."
+  },
+  "947994136": {
+    "Variable Label": "First transvaginal ultrasound",
+    "Variable Name": [
+      "SrvScr_ETVULTRA1_v1r0"
+    ]
   },
   "948148236": {
     "Variable Name": "Between 1 and 3 months"
