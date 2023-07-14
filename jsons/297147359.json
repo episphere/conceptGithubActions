@@ -1,6 +1,6 @@
 {
   "conceptId": "297147359",
-  "Current Question Text": "Who requested the Refusal/Withdrawal",
+  "Current Question Text": "Who requested the Refusal",
   "subcollections": [
     "297147359.json",
     "366295286.json"
@@ -14,9 +14,9 @@
   "Current Source Question": [
     "297147359.json"
   ],
-  "Variable Label": "Who requested the Refusal/Withdrawal",
+  "Variable Label": "Who requested the Refusal",
   "Variable Name": [
-    "HdWd_WhoRequestedRefWd_v1r0"
+    "HdWd_WhoRequestedRef_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -25,7 +25,7 @@
   "Notes": "This is a select one variable (not select all that apply). (Other may be a family member or other individual who makes the request on behalf of the participant and these are required to be vetted by the CCC before NORC enters them into the dashboard).",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
-  "Date added or modified": "1/31/22",
+  "Date added or modified": "7/13/23",
   "GCP Document/Table": "Participants Table Nested structure: d_297147359_d_297147359 OR d_297147359_d_366295286",
   "Formula for Index": [
     "665",
