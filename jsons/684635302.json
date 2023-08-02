@@ -14,20 +14,20 @@
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "Yes",
-  "Notes": "For display at check-in and check out.  Currently, place holders, but will maintain the Concept IDs when variables are created. These will be derived from other variables in the biospecimen dictionary",
-  "Derivation Notes": "BioCol_TubeCollected_v1r0 equals 1 for tube BioCol_0007v1r0 and BioSpm_Visit_v1r0 equals 0 then BioFin_BaseMouthCol_v1r0 equals 1.",
+  "Notes": "For display at check-in and check out. These will be derived from other variables in the biospecimen dictionary.",
+  "Derivation Notes": "IF BioSpm_Visit_v1r0 = 0  AND MWTube1_BioCol_TubeCollected_v1r0 = 1, THEN BioFin_BaseMouthCol_v1r0=1",
   "Dictionary": "Biospecimen Research",
   "State Attribute": "No",
   "Default Variable": "Yes",
-  "Date added or modified": "4/14/22",
+  "Date added or modified": "7/28/23",
   "GCP Document/Table": "Participants Table Not nested (d_684635302)",
   "Formula for Index": [
-    "401",
-    "402"
+    "402",
+    "403"
   ],
   "Index": [
-    "401",
-    "402"
+    "402",
+    "403"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

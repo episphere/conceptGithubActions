@@ -15,20 +15,20 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Applies to both Clinical and Research samples although the information re: clinical samples will come from Epic with up to a 48 hour delay. Derived from variables populated in dashboard",
-  "Derivation Notes": "If BioSpm_Setting_v1r0 is 0 or 1 and BioCol_TubeCollected_v1r0 for any tube is 1 except tubes BioCol_0006_v1r0 and BioCol_0007v1r0 and BioSpm_Visit_v1r0 is 0 then BioFin_BaseBloodCol_v1r0 is 1",
+  "Notes": "Applies to both Clinical and Research samples although the information re: clinical samples will come from Epic with up to a 48 hour delay. For clinical collections, these derivations are only looking at entries from the dashboard.",
+  "Derivation Notes": "IF BioSpm_Visit_v1r0 = 0  AND (SSTube1_BioCol_TubeCollected_v1r0, SSTube2_BioCol_TubeCollected_v1r0, SSTube3_BioCol_TubeCollected_v1r0, SSTube4_BioCol_TubeCollected_v1r0, SSTube5_BioCol_TubeCollected_v1r0, HepainTube1_BioCol_TubeCollected_v1r0, HepainTube2_BioCol_TubeCollected_v1r0, EDTATube1_BioCol_TubeCollected_v1r0, EDTATube2_BioCol_TubeCollected_v1r0, EDTATube3_BioCol_TubeCollected_v1r0 = 1, ACDTube1_BioCol_TubeCollected_v1r0, OR MCDTube1BioCol_TubeCollected_v1r0 = 1), THEN BioFin_BaseBloodCol_v1r0=1",
   "Dictionary": "Biospecimen Clinical, Biospecimen Research, Study Manager Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "Yes",
-  "Date added or modified": "7/13/22",
+  "Date added or modified": "7/28/23",
   "GCP Document/Table": "Participants Table Not nested (d_878865966)",
   "Formula for Index": [
-    "594",
-    "595"
+    "595",
+    "596"
   ],
   "Index": [
-    "594",
-    "595"
+    "595",
+    "596"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
