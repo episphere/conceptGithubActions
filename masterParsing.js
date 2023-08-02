@@ -729,7 +729,7 @@ function parseMasterModule() {
                                           }
                                       }
                                       else {
-                                          //isTB = true;
+                                          isTB = true;
                                           if (toReturn[headerName.toUpperCase()]) {
                                               toInsert = toReturn[headerName.toUpperCase()];
                                           }
