@@ -1,4 +1,6 @@
 {
+  "Formula for Index": "273",
+  "Index": "273",
   "Primary Source": [
     "192505768.json"
   ],
@@ -12,25 +14,15 @@
   "Variable Name": [
     "RcrtUP_UPChangeReqBy_v1r0"
   ],
-  "Variable Type": "Num",
-  "Variable Length": "1",
+  "Variable Type": "Char",
+  "Variable Length": "320",
+  "Current Format/Value": "example: example@gmail.com",
   "Required": "Yes - when user profile is updated",
   "PII": "No",
+  "Notes": "This will be an email address",
   "Dictionary": "Recruitment Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "5/10/23",
-  "GCP Document/Table": "Participants Table",
-  "Formula for Index": [
-    "271",
-    "272"
-  ],
-  "Index": [
-    "271",
-    "272"
-  ],
-  "Current Format/Value": {
-    "840350416.json": "0",
-    "375971816.json": "1"
-  }
+  "Date added or modified": "8/4/23",
+  "GCP Document/Table": "Participants Table"
 }
