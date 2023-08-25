@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2573",
-  "Index": "2573",
+  "Formula for Index": "2577",
+  "Index": "2577",
   "Primary Source": [
     "129084651.json"
   ],
@@ -20,6 +20,7 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if CHOLHTN = 1",
-  "Date added or modified": "11/10/21"
+  "Notes": "Only display if CHOLHTN = 1. Range check min = 1 and max = age.",
+  "Date added or modified": "8/24/23",
+  "IMS Review Notes": "Added range check to Notes."
 }

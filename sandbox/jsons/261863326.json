@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "1278",
-  "Index": "1278",
+  "Formula for Index": "1280",
+  "Index": "1280",
   "Primary Source": [
     "129084651.json",
     "129084651.json",
@@ -897,7 +897,8 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display is SKINCANC = 1",
-  "Date added or modified": "9/28/21",
-  "Question Type": "Or (xor=) Question (either/or text boxes without radio button)"
+  "Notes": "Only display is SKINCANC = 1. Range check min = (current year - age) and max = current year",
+  "Date added or modified": "8/24/23",
+  "Question Type": "Or (xor=) Question (either/or text boxes without radio button)",
+  "IMS Review Notes": "Added range check to Notes."
 }

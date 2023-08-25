@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "1655",
-  "Index": "1655",
+  "Formula for Index": "1657",
+  "Index": "1657",
   "Primary Source": [
     "129084651.json"
   ],
@@ -27,6 +27,8 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "9/14/21",
-  "Question Type": "Multiple Text Boxes, Display if in One or More Responses"
+  "Notes": "Range check min = 0 and max = 999.",
+  "Date added or modified": "8/24/23",
+  "Question Type": "Multiple Text Boxes, Display if in One or More Responses",
+  "IMS Review Notes": "Added range check to Notes."
 }

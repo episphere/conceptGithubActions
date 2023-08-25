@@ -19,7 +19,7 @@
   ],
   "Variable Label": "Why not have menstrual period last 12 months",
   "Variable Name": [
-    "SrvMRE_NoPeriodReason_v1r0"
+    "SrvMRE_NoPeriodReason_v1r1"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "MENSHIS7"
@@ -28,26 +28,27 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "10/5/21",
   "Formula for Index": [
-    "2660",
-    "2661",
-    "2662",
-    "2663",
     "2664",
     "2665",
     "2666",
-    "2667"
+    "2667",
+    "2668",
+    "2669",
+    "2670",
+    "2671",
+    "2672"
   ],
   "Index": [
-    "2660",
-    "2661",
-    "2662",
-    "2663",
     "2664",
     "2665",
     "2666",
-    "2667"
+    "2667",
+    "2668",
+    "2669",
+    "2670",
+    "2671",
+    "2672"
   ],
   "Current Format/Value": {
     "582425113.json": "0",
@@ -57,6 +58,22 @@
     "655309065.json": "4",
     "757609794.json": "5",
     "585076356.json": "6",
+    "351584248.json": "7",
     "807835037.json": "55"
-  }
+  },
+  "Deprecated, New, or Revised": [
+    "Revised",
+    "New"
+  ],
+  "Notes": [
+    "Response is only displayed to participants whose gender does not equal 0."
+  ],
+  "Date added or modified": [
+    "8/22/23",
+    "8/22/23"
+  ],
+  "IMS Review Notes": [
+    "Revised suffix to _v1r1 to reflect new response 7 added",
+    "Added new response"
+  ]
 }

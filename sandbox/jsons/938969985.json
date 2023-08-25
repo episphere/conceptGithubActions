@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2816",
-  "Index": "2816",
+  "Formula for Index": "2821",
+  "Index": "2821",
   "Primary Source": [
     "129084651.json"
   ],
@@ -20,6 +20,7 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if HORMED= 2",
-  "Date added or modified": "10/6/21"
+  "Notes": "Only display if HORMED= 3. Range check min = 0 and max = age",
+  "Date added or modified": "8/24/23",
+  "IMS Review Notes": "Added range check to Notes."
 }

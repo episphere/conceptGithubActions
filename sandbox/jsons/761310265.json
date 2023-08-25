@@ -1,17 +1,18 @@
 {
-  "Formula for Index": "2265",
-  "Index": "2265",
+  "Formula for Index": "2268",
+  "Index": "2268",
   "Primary Source": [
     "129084651.json"
   ],
   "Secondary Source": [
     "726699695.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "761310265",
   "Current Question Text": "Please identify the occupation category that best describes this current job.",
   "Variable Label": "Current occupation category",
   "Variable Name": [
-    "SrvBOH_OccupationCat_v1r0"
+    "SrvBOH_OccupationCat_v1r1"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "OCCUPTN1"
@@ -20,6 +21,8 @@
   "Variable Length": "17",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "9/14/21",
-  "Question Type": "Self Populates Outside of Quest"
+  "Notes": "Before Jan 2024, 4 responses were piped in from SOCcer. Revised so that 6 responses are piped in.",
+  "Date added or modified": "8/22/23",
+  "Question Type": "Self Populates Outside of Quest",
+  "IMS Review Notes": "Denoted as revised, changed suffix to _v1r1, and added notes on number of responses piped in."
 }
