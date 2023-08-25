@@ -554,6 +554,9 @@
       "SrvBOH_PastJobTitle_v1r0"
     ]
   },
+  "118191655": {
+    "Variable Name": "Didn’t smoke a hookah or water pipe during this time"
+  },
   "118237712": {
     "Variable Label": "Age Depo-Provera last use",
     "Variable Name": [
@@ -751,7 +754,7 @@
   "127038003": {
     "Variable Label": "How many pipe fills of tobacco per day, [X / 70] and older",
     "Variable Name": [
-      "SrvSAS_PipeFills70_v1r0"
+      "SrvSAS_PipeFills70_v1r1"
     ]
   },
   "127257956": {
@@ -909,7 +912,7 @@
   "133396976": {
     "Variable Label": "How much time chewing tobacco, snus, snuff, or dip  used, [X / 25] to age [Y / 29]",
     "Variable Name": [
-      "SrvSAS_CTTime_2529_v1r0"
+      "SrvSAS_CTTime_2529_v1r1"
     ]
   },
   "133566757": {
@@ -1876,7 +1879,7 @@
   "175995366": {
     "Variable Label": "How much time marijuana  smoked, Age [X / 18] to age [Y / 24]",
     "Variable Name": [
-      "SrvSAS_TmSmokeMJ1824_v1r0"
+      "SrvSAS_TmSmokeMJ1824_v1r1"
     ]
   },
   "176453768": {
@@ -1924,7 +1927,7 @@
   "178242940": {
     "Variable Label": "How many pipe fills of tobacco per day, [X / 25] to age [Y / 29]",
     "Variable Name": [
-      "SrvSAS_PipeFills2529_v1r0"
+      "SrvSAS_PipeFills2529_v1r1"
     ]
   },
   "178318661": {
@@ -1942,6 +1945,7 @@
     "Variable Label": "Unavailable/Unknown",
     "Variable Name": [
       "RCAOper_UnknownCancer_v1r0",
+      "SrvBOH_DontKnowRE_v1r0",
       "SrvBOH_UnknownCanc_v1r0",
       "SrvBOH_MCancerUnknown_v1r0",
       "SrvBOH_DCancerUnknown_v1r0",
@@ -2419,7 +2423,7 @@
   "197309242": {
     "Variable Label": "How many pipe fills of tobacco per day, [X / 40] to age [Y / 49 / current age]",
     "Variable Name": [
-      "SrvSAS_PipeFills4049_v1r0"
+      "SrvSAS_PipeFills4049_v1r1"
     ]
   },
   "197316935": {
@@ -2482,7 +2486,7 @@
   "199612020": {
     "Variable Label": "How many times marijana with tobacco used, [X / 40] to age [Y / 49 / current age]",
     "Variable Name": [
-      "SrvSAS_TmUseTobMJ4049_v1r0"
+      "SrvSAS_TmUseTobMJ4049_v1r1"
     ]
   },
   "199704727": {
@@ -2864,7 +2868,7 @@
   "208578552": {
     "Variable Label": "How much time e-cigarettes or other vaping devices used, [X / 40] to age [Y / 49 / current age]",
     "Variable Name": [
-      "SrvSAS_ECigTm4049_v1r0"
+      "SrvSAS_ECigTm4049_v1r1"
     ]
   },
   "208787653": {
@@ -3288,7 +3292,7 @@
   "227784207": {
     "Variable Label": "How many servings THC concentrates via dabbing used, [X / 70] and older",
     "Variable Name": [
-      "SrvSAS_THCServing70_v1r0"
+      "SrvSAS_THCServing70_v1r1"
     ]
   },
   "227848247": {
@@ -3467,7 +3471,7 @@
   "237415094": {
     "Variable Label": "How many cigars, cigarillos, or little filtered cigars used, [X / 25] to age [Y / 29]",
     "Variable Name": [
-      "SrvSAS_Cigar2529_v1r0"
+      "SrvSAS_Cigar2529_v1r1"
     ]
   },
   "237817859": {
@@ -3523,7 +3527,7 @@
   "240089798": {
     "Variable Label": "How much time e-cigarettes or other vaping devices used, Age [X] to age [Y / 17]",
     "Variable Name": [
-      "SrvSAS_ECigTm17_v1r0"
+      "SrvSAS_ECigTm17_v1r1"
     ]
   },
   "240721579": {
@@ -3601,7 +3605,7 @@
   "243519559": {
     "Variable Label": "How many cigars, cigarillos, or little filtered cigars used, [X / 40] to age [Y / 49 / current age]",
     "Variable Name": [
-      "SrvSAS_Cigar4049_v1r0"
+      "SrvSAS_Cigar4049_v1r1"
     ]
   },
   "243596698": {
@@ -3783,7 +3787,7 @@
   "254689566": {
     "Variable Label": "How many cigars, cigarillos, or little filtered cigars used, Age [X] to age [Y / 17]",
     "Variable Name": [
-      "SrvSAS_Cigar17_v1r0"
+      "SrvSAS_Cigar17_v1r1"
     ]
   },
   "254739443": {
@@ -3879,7 +3883,7 @@
   "258291510": {
     "Variable Label": "How much time marijuana  smoked, Age [X] to age [Y / 17]",
     "Variable Name": [
-      "SrvSAS_TmSmokeMJ17_v1r0"
+      "SrvSAS_TmSmokeMJ17_v1r1"
     ]
   },
   "258501440": {
@@ -4443,7 +4447,7 @@
   "277284423": {
     "Variable Label": "How many pipe fills of tobacco per day, [X / 60] to age [Y / 69 / current age]",
     "Variable Name": [
-      "SrvSAS_PipeFills6069_v1r0"
+      "SrvSAS_PipeFills6069_v1r1"
     ]
   },
   "277312204": {
@@ -4500,7 +4504,7 @@
   "279637054": {
     "Variable Label": "Past occupation category",
     "Variable Name": [
-      "SrvBOH_PastOccupCat_v1r0"
+      "SrvBOH_PastOccupCat_v1r1"
     ]
   },
   "280877371": {
@@ -5309,7 +5313,7 @@
   "319252189": {
     "Variable Label": "How much time electronic marijuana delivery devices used, Age [X / 18] to age [Y / 24]",
     "Variable Name": [
-      "SrvSAS_EMJDevTm1824_v1r0"
+      "SrvSAS_EMJDevTm1824_v1r1"
     ]
   },
   "319397722": {
@@ -5571,7 +5575,7 @@
   "336810811": {
     "Variable Label": "How many servings consumed marijuana in food or drinks used, Age [X / 18] to age [Y / 24]",
     "Variable Name": [
-      "SrvSAS_EdiblesServ1824_v1r0"
+      "SrvSAS_EdiblesServ1824_v1r1"
     ]
   },
   "336856410": {
@@ -5765,6 +5769,9 @@
       "SrvBOH_Depression_v1r0"
     ]
   },
+  "347968905": {
+    "Variable Name": "Didn’t smoke marijuana during this time"
+  },
   "348049244": {
     "Variable Label": "State/Province",
     "Variable Name": [
@@ -5798,7 +5805,7 @@
   "349510816": {
     "Variable Label": "How many servings THC concentrates via dabbing used, Age [X] to age [Y / 17]",
     "Variable Name": [
-      "SrvSAS_THCServing17_v1r0"
+      "SrvSAS_THCServing17_v1r1"
     ]
   },
   "349659426": {
@@ -5860,11 +5867,17 @@
       "SrvLAW_City8_v1r0"
     ]
   },
+  "351584248": {
+    "Variable Name": "My periods stopped because I began taking gender affirming hormones"
+  },
   "351657815": {
     "Variable Name": "Middle Eastern or North African- Which categories describe you? Select all that apply. Note, you may select more than one group."
   },
   "351928156": {
     "Variable Name": "Previous address 1"
+  },
+  "352316035": {
+    "Variable Name": "Didn’t use electronic marijuana delivery devices during this time"
   },
   "352531133": {
     "Variable Label": "How often days home repairs (such as painting, plumbing, or replacing carpeting)",
@@ -6094,7 +6107,7 @@
   "365370279": {
     "Variable Label": "How many cigars, cigarillos, or little filtered cigars used, [X / 50] to age [Y / 59 / current age]",
     "Variable Name": [
-      "SrvSAS_Cigar5059_v1r0"
+      "SrvSAS_Cigar5059_v1r1"
     ]
   },
   "365685000": {
@@ -6220,7 +6233,7 @@
   "370253256": {
     "Variable Label": "How much time hookah or water pipe  used, [X / 50] to age [Y / 59 / current age]",
     "Variable Name": [
-      "SrvSAS_HookahTm5059_v1r0"
+      "SrvSAS_HookahTm5059_v1r1"
     ]
   },
   "370352501": {
@@ -6349,7 +6362,7 @@
   "375227733": {
     "Variable Label": "How many servings THC concentrates via dabbing used, Age [X / 18] to age [Y / 24]",
     "Variable Name": [
-      "SrvSAS_THCServing1824_v1r0"
+      "SrvSAS_THCServing1824_v1r1"
     ]
   },
   "375662706": {
@@ -6476,7 +6489,7 @@
   "381268397": {
     "Variable Label": "How many times marijana with tobacco used, Age [X] to age [Y / 17]",
     "Variable Name": [
-      "SrvSAS_TmUseTobMJ17_v1r0"
+      "SrvSAS_TmUseTobMJ17_v1r1"
     ]
   },
   "381509125": {
@@ -6513,7 +6526,7 @@
   "383748300": {
     "Variable Label": "How many times marijana with tobacco used, [X / 30] to age [Y / 39 / current age]",
     "Variable Name": [
-      "SrvSAS_TmUseTobMJ3039_v1r0"
+      "SrvSAS_TmUseTobMJ3039_v1r1"
     ]
   },
   "384191091": {
@@ -6594,7 +6607,7 @@
   "386950237": {
     "Variable Label": "How much time marijuana  smoked, [X / 40] to age [Y / 49 / current age]",
     "Variable Name": [
-      "SrvSAS_TmSmokeMJ4049_v1r0"
+      "SrvSAS_TmSmokeMJ4049_v1r1"
     ]
   },
   "387077376": {
@@ -6618,7 +6631,7 @@
   "387489930": {
     "Variable Label": "How many cigarettes used, [X / 30] to age [Y / 39 / current age]",
     "Variable Name": [
-      "SrvSAS_CigsUsed3039_v1r0"
+      "SrvSAS_CigsUsed3039_v1r1"
     ]
   },
   "387564837": {
@@ -6899,7 +6912,7 @@
   "402300898": {
     "Variable Label": "How many servings consumed marijuana in food or drinks used, [X / 30] to age [Y / 39 / current age]",
     "Variable Name": [
-      "SrvSAS_EdiblesServ3039_v1r0"
+      "SrvSAS_EdiblesServ3039_v1r1"
     ]
   },
   "402335383": {
@@ -6907,6 +6920,9 @@
   },
   "402548942": {
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had breast cancer?"
+  },
+  "402752509": {
+    "Variable Name": "Didn’t use e-cigarettes or other vaping devices during this time"
   },
   "403155173": {
     "Variable Label": "Sitting and reading",
@@ -7225,7 +7241,7 @@
   "417552256": {
     "Variable Label": "How many servings THC concentrates via dabbing used, [X / 30] to age [Y / 39 / current age]",
     "Variable Name": [
-      "SrvSAS_THCServing3039_v1r0"
+      "SrvSAS_THCServing3039_v1r1"
     ]
   },
   "417633823": {
@@ -7553,7 +7569,14 @@
   "432310123": {
     "Variable Label": "How many servings consumed marijuana in food or drinks used, [X / 70] and older",
     "Variable Name": [
-      "SrvSAS_EdiblesServ70_v1r0"
+      "SrvSAS_EdiblesServ70_v1r1"
+    ]
+  },
+  "432433345": {
+    "Variable Label": "Current job tasks",
+    "Variable Name": [
+      "SrvBOH_CurrentJobTask_v1r0",
+      "SrvBOH_PastJobTask_v1r0"
     ]
   },
   "432722256": {
@@ -7565,7 +7588,7 @@
   "434034366": {
     "Variable Label": "How many cigarettes used, [X / 60] to age [Y / 69 / current age]",
     "Variable Name": [
-      "SrvSAS_CigsUsed6069_v1r0"
+      "SrvSAS_CigsUsed6069_v1r1"
     ]
   },
   "434041171": {
@@ -7714,7 +7737,7 @@
   "440364083": {
     "Variable Label": "How many cigars, cigarillos, or little filtered cigars used, [X / 70] and older",
     "Variable Name": [
-      "SrvSAS_Cigar70_v1r0"
+      "SrvSAS_Cigar70_v1r1"
     ]
   },
   "440597740": {
@@ -7761,7 +7784,7 @@
   "442002787": {
     "Variable Label": "How much time e-cigarettes or other vaping devices used, [X / 30] to age [Y / 39 / current age]",
     "Variable Name": [
-      "SrvSAS_ECigTm3039_v1r0"
+      "SrvSAS_ECigTm3039_v1r1"
     ]
   },
   "442059084": {
@@ -7818,7 +7841,7 @@
   "445537380": {
     "Variable Label": "How many cigarettes used, [X / 25] to age [Y / 29]",
     "Variable Name": [
-      "SrvSAS_CigsUsed2529_v1r0"
+      "SrvSAS_CigsUsed2529_v1r1"
     ]
   },
   "445549128": {
@@ -7833,7 +7856,7 @@
   "445712879": {
     "Variable Label": "How much time hookah or water pipe  used, Age [X] to age [Y / 17]",
     "Variable Name": [
-      "SrvSAS_HookahTm17_v1r0"
+      "SrvSAS_HookahTm17_v1r1"
     ]
   },
   "445867902": {
@@ -7845,7 +7868,7 @@
   "446121108": {
     "Variable Label": "How much time electronic marijuana delivery devices used, Age [X] to age [Y / 17]",
     "Variable Name": [
-      "SrvSAS_EMJDevTm17_v1r0"
+      "SrvSAS_EMJDevTm17_v1r1"
     ]
   },
   "446794016": {
@@ -8199,7 +8222,7 @@
   "459096272": {
     "Variable Label": "How much time electronic marijuana delivery devices used, [X / 60] to age [Y / 69 / current age]",
     "Variable Name": [
-      "SrvSAS_EMJDev6069_v1r0"
+      "SrvSAS_EMJDev6069_v1r1"
     ]
   },
   "459098666": {
@@ -8456,7 +8479,7 @@
   "470096941": {
     "Variable Label": "How much time hookah or water pipe  used, [X / 60] to age [Y / 69 / current age]",
     "Variable Name": [
-      "SrvSAS_HookahTm6069_v1r0"
+      "SrvSAS_HookahTm6069_v1r1"
     ]
   },
   "470484596": {
@@ -8645,13 +8668,13 @@
   "480155628": {
     "Variable Label": "How much time e-cigarettes or other vaping devices used, [X / 50] to age [Y / 59 / current age]",
     "Variable Name": [
-      "SrvSAS_ECigTm5059_v1r0"
+      "SrvSAS_ECigTm5059_v1r1"
     ]
   },
   "480217113": {
     "Variable Label": "How much time marijuana  smoked, [X / 50] to age [Y / 59 / current age]",
     "Variable Name": [
-      "SrvSAS_TmSmokeMJ5059_v1r0"
+      "SrvSAS_TmSmokeMJ5059_v1r1"
     ]
   },
   "480305327": {
@@ -8970,7 +8993,7 @@
   "493642768": {
     "Variable Label": "How many cigarettes used, [X / 40] to age [Y / 49 / current age]",
     "Variable Name": [
-      "SrvSAS_CigsUsed4049_v1r0"
+      "SrvSAS_CigsUsed4049_v1r1"
     ]
   },
   "493984171": {
@@ -9056,7 +9079,7 @@
   "495592561": {
     "Variable Label": "How much time chewing tobacco, snus, snuff, or dip  used, Age [X] to age [Y / 17]",
     "Variable Name": [
-      "SrvSAS_CTTime17_v1r0"
+      "SrvSAS_CTTime17_v1r1"
     ]
   },
   "495970180": {
@@ -9180,7 +9203,7 @@
   "501545129": {
     "Variable Label": "How many pipe fills of tobacco per day, [X / 30] to age [Y / 39 / current age]",
     "Variable Name": [
-      "SrvSAS_PipeFills3039_v1r0"
+      "SrvSAS_PipeFills3039_v1r1"
     ]
   },
   "502004518": {
@@ -9357,7 +9380,7 @@
   "511145980": {
     "Variable Label": "How many servings THC concentrates via dabbing used, [X / 60] to age [Y / 69 / current age]",
     "Variable Name": [
-      "SrvSAS_THCServing6069_v1r0"
+      "SrvSAS_THCServing6069_v1r1"
     ]
   },
   "511873578": {
@@ -10029,7 +10052,7 @@
   "536216847": {
     "Variable Label": "How much time e-cigarettes or other vaping devices used, Age [X / 18] to age [Y / 24]",
     "Variable Name": [
-      "SrvSAS_ECigTm1824_v1r0"
+      "SrvSAS_ECigTm1824_v1r1"
     ]
   },
   "536341288": {
@@ -10215,7 +10238,7 @@
   "544356746": {
     "Variable Label": "How much time hookah or water pipe  used, [X / 70] and older",
     "Variable Name": [
-      "SrvSAS_HookahTm70_v1r0"
+      "SrvSAS_HookahTm70_v1r1"
     ]
   },
   "544692849": {
@@ -10362,7 +10385,7 @@
   "550850568": {
     "Variable Label": "How many pipe fills of tobacco per day, [X / 50] to age [Y / 59 / current age]",
     "Variable Name": [
-      "SrvSAS_PipeFills5059_v1r0"
+      "SrvSAS_PipeFills5059_v1r1"
     ]
   },
   "551201830": {
@@ -10371,7 +10394,7 @@
   "551301510": {
     "Variable Label": "How much time chewing tobacco, snus, snuff, or dip  used, [X / 70] and older",
     "Variable Name": [
-      "SrvSAS_CTTime70_v1r0"
+      "SrvSAS_CTTime70_v1r1"
     ]
   },
   "551489317": {
@@ -10531,7 +10554,7 @@
   "558707243": {
     "Variable Label": "How much time chewing tobacco, snus, snuff, or dip  used, [X / 40] to age [Y / 49 / current age]",
     "Variable Name": [
-      "SrvSAS_CTTime4049_v1r0"
+      "SrvSAS_CTTime4049_v1r1"
     ]
   },
   "558917383": {
@@ -11135,7 +11158,7 @@
   "584608368": {
     "Variable Label": "How much time hookah or water pipe  used, [X / 30] to age [Y / 39 / current age]",
     "Variable Name": [
-      "SrvSAS_HookahTm3039_v1r0"
+      "SrvSAS_HookahTm3039_v1r1"
     ]
   },
   "585076356": {
@@ -11186,7 +11209,7 @@
   "586306068": {
     "Variable Label": "How much time electronic marijuana delivery devices used, [X / 70] and older",
     "Variable Name": [
-      "SrvSAS_EMJDev70_v1r0"
+      "SrvSAS_EMJDev70_v1r1"
     ]
   },
   "586825330": {
@@ -11397,7 +11420,7 @@
   "594608533": {
     "Variable Label": "How many cigarettes used, Age [X] to age [Y / 17]",
     "Variable Name": [
-      "SrvSAS_CigsUsed17_v1r0"
+      "SrvSAS_CigsUsed17_v1r1"
     ]
   },
   "595249233": {
@@ -11412,7 +11435,7 @@
   "596004621": {
     "Variable Label": "How much time electronic marijuana delivery devices used, [X / 50] to age [Y / 59 / current age]",
     "Variable Name": [
-      "SrvSAS_EMJDev5059_v1r0"
+      "SrvSAS_EMJDev5059_v1r1"
     ]
   },
   "596122041": {
@@ -11722,7 +11745,7 @@
   "614145455": {
     "Variable Label": "Why not have menstrual period last 12 months",
     "Variable Name": [
-      "SrvMRE_NoPeriodReason_v1r0"
+      "SrvMRE_NoPeriodReason_v1r1"
     ]
   },
   "614264509": {
@@ -11828,7 +11851,7 @@
   "620425840": {
     "Variable Label": "How much time hookah or water pipe  used, Age [X / 18] to age [Y / 24]",
     "Variable Name": [
-      "SrvSAS_HookahTm1824_v1r0"
+      "SrvSAS_HookahTm1824_v1r1"
     ]
   },
   "620577362": {
@@ -11877,7 +11900,7 @@
   "622394149": {
     "Variable Label": "How much time e-cigarettes or other vaping devices used, [X / 25] to age [Y / 29]",
     "Variable Name": [
-      "SrvSAS_ECigTm2529_v1r0"
+      "SrvSAS_ECigTm2529_v1r1"
     ]
   },
   "622843252": {
@@ -12028,7 +12051,7 @@
   "628770824": {
     "Variable Label": "How much time chewing tobacco, snus, snuff, or dip  used, [X / 30] to age [Y / 39 / current age]",
     "Variable Name": [
-      "SrvSAS_CTTime3039_v1r0"
+      "SrvSAS_CTTime3039_v1r1"
     ]
   },
   "628818510": {
@@ -12314,7 +12337,7 @@
   "640944113": {
     "Variable Label": "How much time e-cigarettes or other vaping devices used, [X / 60] to age [Y / 69 / current age]",
     "Variable Name": [
-      "SrvSAS_ECigTm6069"
+      "SrvSAS_ECigTm6069_v1r1"
     ]
   },
   "641104372": {
@@ -12361,7 +12384,7 @@
   "643099118": {
     "Variable Label": "How much time marijuana  smoked, [X / 25] to age [Y / 29]",
     "Variable Name": [
-      "SrvSAS_TmSmokeMJ2529_v1r0"
+      "SrvSAS_TmSmokeMJ2529_v1r1"
     ]
   },
   "643361372": {
@@ -12410,7 +12433,7 @@
   "645361463": {
     "Variable Label": "How much time marijuana  smoked, [X / 60] to age [Y / 69 / current age]",
     "Variable Name": [
-      "SrvSAS_TmSmokeMJ6069"
+      "SrvSAS_TmSmokeMJ6069_v1r1"
     ]
   },
   "645589113": {
@@ -12422,7 +12445,7 @@
   "645681293": {
     "Variable Label": "How many cigars, cigarillos, or little filtered cigars used, [X / 60] to age [Y / 69 / current age]",
     "Variable Name": [
-      "SrvSAS_Cigar6069_v1r0"
+      "SrvSAS_Cigar6069_v1r1"
     ]
   },
   "645894551": {
@@ -13255,7 +13278,7 @@
   "677733128": {
     "Variable Label": "How many servings consumed marijuana in food or drinks used, [X / 40] to age [Y / 49 / current age]",
     "Variable Name": [
-      "SrvSAS_EdiblesServ4049_v1r0"
+      "SrvSAS_EdiblesServ4049_v1r1"
     ]
   },
   "677739650": {
@@ -13332,7 +13355,7 @@
   "680697711": {
     "Variable Label": "How many times marijana with tobacco used, [X / 70] and older",
     "Variable Name": [
-      "SrvSAS_TmUseTobMJ70_v1r0"
+      "SrvSAS_TmUseTobMJ70_v1r1"
     ]
   },
   "680730257": {
@@ -13454,7 +13477,7 @@
   "685659661": {
     "Variable Label": "How many servings THC concentrates via dabbing used, [X / 50] to age [Y / 59 / current age]",
     "Variable Name": [
-      "SrvSAS_THCServing5059_v1r0"
+      "SrvSAS_THCServing5059_v1r1"
     ]
   },
   "685735916": {
@@ -13541,7 +13564,7 @@
   "689339933": {
     "Variable Label": "How many pipe fills of tobacco per day, Age [X] to age [Y / 17]",
     "Variable Name": [
-      "SrvSAS_PipeFills17_v1r0"
+      "SrvSAS_PipeFills17_v1r1"
     ]
   },
   "689829953": {
@@ -13883,7 +13906,7 @@
   "702729897": {
     "Variable Label": "How many servings consumed marijuana in food or drinks used, [X / 50] to age [Y / 59 / current age]",
     "Variable Name": [
-      "SrvSAS_EdiblesServ5059_v1r0"
+      "SrvSAS_EdiblesServ5059_v1r1"
     ]
   },
   "702905707": {
@@ -13945,7 +13968,7 @@
   "705282587": {
     "Variable Label": "How much time chewing tobacco, snus, snuff, or dip  used, Age [X / 18] to age [Y / 24]",
     "Variable Name": [
-      "SrvSAS_CTTime1824_v1r0"
+      "SrvSAS_CTTime1824_v1r1"
     ]
   },
   "705336878": {
@@ -14306,7 +14329,7 @@
   "723763329": {
     "Variable Label": "How many times marijana with tobacco used, Age [X / 18] to age [Y / 24]",
     "Variable Name": [
-      "SrvSAS_TmUseTobMJ1824_v1r0"
+      "SrvSAS_TmUseTobMJ1824_v1r1"
     ]
   },
   "723960145": {
@@ -14348,7 +14371,7 @@
   "724990284": {
     "Variable Label": "How many times marijana with tobacco used, [X / 25] to age [Y / 29]",
     "Variable Name": [
-      "SrvSAS_TmUseTobMJ2529_v1r0"
+      "SrvSAS_TmUseTobMJ2529_v1r1"
     ]
   },
   "725408440": {
@@ -15071,7 +15094,7 @@
   "752795304": {
     "Variable Label": "How many servings THC concentrates via dabbing used, [X / 25] to age [Y / 29]",
     "Variable Name": [
-      "SrvSAS_THCServing2529_v1r0"
+      "SrvSAS_THCServing2529_v1r1"
     ]
   },
   "752948709": {
@@ -15114,7 +15137,7 @@
   "755298453": {
     "Variable Label": "How many times marijana with tobacco used, [X / 50] to age [Y / 59 / current age]",
     "Variable Name": [
-      "SrvSAS_TmUseTobMJ5059_v1r0"
+      "SrvSAS_TmUseTobMJ5059_v1r1"
     ]
   },
   "755545718": {
@@ -15264,7 +15287,7 @@
   "761310265": {
     "Variable Label": "Current occupation category",
     "Variable Name": [
-      "SrvBOH_OccupationCat_v1r0"
+      "SrvBOH_OccupationCat_v1r1"
     ]
   },
   "761822652": {
@@ -15711,7 +15734,7 @@
   "777877159": {
     "Variable Label": "How many times marijana with tobacco used, [X / 60] to age [Y / 69 / current age]",
     "Variable Name": [
-      "SrvSAS_TmUseTobMJ6069_v1r0"
+      "SrvSAS_TmUseTobMJ6069_v1r1"
     ]
   },
   "778052314": {
@@ -16099,7 +16122,7 @@
   "795265404": {
     "Variable Label": "How many servings consumed marijuana in food or drinks used, [X / 60] to age [Y / 69 / current age]",
     "Variable Name": [
-      "SrvSAS_EdiblesServ6069_v1r0"
+      "SrvSAS_EdiblesServ6069_v1r1"
     ]
   },
   "795761911": {
@@ -16175,7 +16198,7 @@
   "798627028": {
     "Variable Label": "How much time hookah or water pipe  used, [X / 25] to age [Y / 29]",
     "Variable Name": [
-      "SrvSAS_HookahTm2529_v1r0"
+      "SrvSAS_HookahTm2529_v1r1"
     ]
   },
   "798682161": {
@@ -16620,7 +16643,7 @@
   "812430894": {
     "Variable Label": "How many pipe fills of tobacco per day, Age [X / 18] to age [Y / 24]",
     "Variable Name": [
-      "SrvSAS_PipeFills1824_v1r0"
+      "SrvSAS_PipeFills1824_v1r1"
     ]
   },
   "812433386": {
@@ -16814,7 +16837,7 @@
   "821629868": {
     "Variable Label": "How many cigarettes used, [X / 50] to age [Y / 59 / current age]",
     "Variable Name": [
-      "SrvSAS_CigsUsed5059_v1r0"
+      "SrvSAS_CigsUsed5059_v1r1"
     ]
   },
   "821930940": {
@@ -16850,7 +16873,7 @@
   "822964046": {
     "Variable Label": "How much time electronic marijuana delivery devices used, [X / 25] to age [Y / 29]",
     "Variable Name": [
-      "SrvSAS_EMJDevTm2529_v1r0"
+      "SrvSAS_EMJDevTm2529_v1r1"
     ]
   },
   "822995885": {
@@ -17237,7 +17260,7 @@
   "842088582": {
     "Variable Label": "How many cigarettes used, [X / 70] and older",
     "Variable Name": [
-      "SrvSAS_CigsUsed70_v1r0"
+      "SrvSAS_CigsUsed70_v1r1"
     ]
   },
   "842171722": {
@@ -17845,7 +17868,7 @@
   "864290328": {
     "Variable Label": "How much time marijuana  smoked, [X / 30] to age [Y / 39 / current age]",
     "Variable Name": [
-      "SrvSAS_TmSmokeMJ3039_v1r0"
+      "SrvSAS_TmSmokeMJ3039_v1r1"
     ]
   },
   "864981804": {
@@ -17884,7 +17907,7 @@
   "866159532": {
     "Variable Label": "How much time e-cigarettes or other vaping devices used, [X / 70] and older",
     "Variable Name": [
-      "SrvSAS_ECigTm70_v1r0"
+      "SrvSAS_ECigTm70_v1r1"
     ]
   },
   "867096017": {
@@ -17972,7 +17995,7 @@
   "868868325": {
     "Variable Label": "How many cigars, cigarillos, or little filtered cigars used, [X / 30] to age [Y / 39 / current age]",
     "Variable Name": [
-      "SrvSAS_Cigar3039_v1r0"
+      "SrvSAS_Cigar3039_v1r1"
     ]
   },
   "869387390": {
@@ -18191,7 +18214,7 @@
   "878281875": {
     "Variable Label": "How much time electronic marijuana delivery devices used, [X / 30] to age [Y / 39 / current age]",
     "Variable Name": [
-      "SrvSAS_EMJDev3039_v1r0"
+      "SrvSAS_EMJDev3039_v1r1"
     ]
   },
   "878286618": {
@@ -18260,7 +18283,7 @@
   "882838859": {
     "Variable Label": "How much time marijuana  smoked, [X / 70] and older",
     "Variable Name": [
-      "SrvSAS_TmSmokeMJ70_v1r0"
+      "SrvSAS_TmSmokeMJ70_v1r1"
     ]
   },
   "883203566": {
@@ -19068,7 +19091,7 @@
   "921623945": {
     "Variable Label": "How much time hookah or water pipe  used, [X / 40] to age [Y / 49 / current age]",
     "Variable Name": [
-      "SrvSAS_HookahTm4049_v1r0"
+      "SrvSAS_HookahTm4049_v1r1"
     ]
   },
   "921663542": {
@@ -19108,7 +19131,7 @@
   "922708844": {
     "Variable Label": "How many servings consumed marijuana in food or drinks used, Age [X] to age [Y / 17]",
     "Variable Name": [
-      "SrvSAS_EdiblesServ17_v1r0"
+      "SrvSAS_EdiblesServ17_v1r1"
     ]
   },
   "922737557": {
@@ -19135,7 +19158,7 @@
   "923371868": {
     "Variable Label": "How many cigarettes used, Age [X / 18] to age [Y / 24]",
     "Variable Name": [
-      "SrvSAS_CigsUsed1824_v1r0"
+      "SrvSAS_CigsUsed1824_v1r1"
     ]
   },
   "923760192": {
@@ -19169,7 +19192,7 @@
   "925215135": {
     "Variable Label": "How many servings consumed marijuana in food or drinks used, [X / 25] to age [Y / 29]",
     "Variable Name": [
-      "SrvSAS_EdiblesServ2529_v1r0"
+      "SrvSAS_EdiblesServ2529_v1r1"
     ]
   },
   "925516907": {
@@ -19266,7 +19289,7 @@
   "929034795": {
     "Variable Label": "How much time chewing tobacco, snus, snuff, or dip  used, [X / 50] to age [Y / 59 / current age]",
     "Variable Name": [
-      "SrvSAS_CTTime5059_v1r0"
+      "SrvSAS_CTTime5059_v1r1"
     ]
   },
   "929148006": {
@@ -19865,7 +19888,7 @@
   "951151270": {
     "Variable Label": "How many cigars, cigarillos, or little filtered cigars used, Age [X / 18] to age [Y / 24]",
     "Variable Name": [
-      "SrvSAS_Cigar1824_v1r0"
+      "SrvSAS_Cigar1824_v1r1"
     ]
   },
   "951355211": {
@@ -20155,7 +20178,7 @@
   "963040791": {
     "Variable Label": "How many servings THC concentrates via dabbing used, [X / 40] to age [Y / 49 / current age]",
     "Variable Name": [
-      "SrvSAS_THCServing4049_v1r0"
+      "SrvSAS_THCServing4049_v1r1"
     ]
   },
   "963284259": {
@@ -20329,6 +20352,9 @@
     "Variable Name": [
       "SrvLAW_SeasWtr3_2_Oth_v1r0"
     ]
+  },
+  "971933131": {
+    "Variable Name": "Didn’t use chewing tobacco, snus, snuff, or dip during this time"
   },
   "972332937": {
     "Variable Label": "Zip code",
@@ -20727,7 +20753,7 @@
   "989594002": {
     "Variable Label": "How much time electronic marijuana delivery devices used, [X / 40] to age [Y / 49 / current age]",
     "Variable Name": [
-      "SrvSAS_EMJDev4049_v1r0"
+      "SrvSAS_EMJDev4049_v1r1"
     ]
   },
   "990114799": {
@@ -20871,7 +20897,7 @@
   "995220236": {
     "Variable Label": "How much time chewing tobacco, snus, snuff, or dip  used, [X / 60] to age [Y / 69 / current age]",
     "Variable Name": [
-      "SrvSAS_CTTime6069_v1r0"
+      "SrvSAS_CTTime6069_v1r1"
     ]
   },
   "995620555": {
