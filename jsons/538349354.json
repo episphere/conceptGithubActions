@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2769",
-  "Index": "2769",
+  "Formula for Index": "2774",
+  "Index": "2774",
   "Primary Source": [
     "129084651.json"
   ],
@@ -20,6 +20,7 @@
   "Variable Length": "3",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if FERT17= 9",
-  "Date added or modified": "11/10/21"
+  "Notes": "Only display if FERT17= 9. Range check min = 0, no max value.",
+  "Date added or modified": "8/24/23",
+  "IMS Review Notes": "Added range check to Notes."
 }

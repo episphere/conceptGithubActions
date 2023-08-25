@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "1534",
-  "Index": "1534",
+  "Formula for Index": "1536",
+  "Index": "1536",
   "Primary Source": [
     "129084651.json",
     "129084651.json",
@@ -159,10 +159,10 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if MHGROUP9 = tonsillectomy",
-  "Date added or modified": "12/6/22",
+  "Notes": "Only display if MHGROUP9 = tonsillectomy. Range check min = 0 and max = age.",
+  "Date added or modified": "8/24/23",
   "Question Type": "Or (xor=) Question (either/or text boxes without radio button)",
-  "IMS Review Notes": "Replaced diagnosis with surgery in question text",
+  "IMS Review Notes": "Added range check to Notes.",
   "Deprecated, New, or Revised": "New",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "6/10/22",
   "V1 Source Question": [

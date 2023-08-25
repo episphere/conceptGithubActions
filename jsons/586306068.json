@@ -9,7 +9,7 @@
   "Current Question Text": "On days that you used electronic marijuana delivery devices or tobacco when you were age [X / 70] and older, what is the total amount of time you used them per day?",
   "Variable Label": "How much time electronic marijuana delivery devices used, [X / 70] and older",
   "Variable Name": [
-    "SrvSAS_EMJDev70_v1r0"
+    "SrvSAS_EMJDev70_v1r1"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "ELMARLIFEH"
@@ -18,26 +18,40 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "2/28/22",
   "Formula for Index": [
-    "4367",
-    "4368",
-    "4369",
-    "4370",
-    "4371"
+    "4411",
+    "4412",
+    "4413",
+    "4414",
+    "4415",
+    "4416"
   ],
   "Index": [
-    "4367",
-    "4368",
-    "4369",
-    "4370",
-    "4371"
+    "4411",
+    "4412",
+    "4413",
+    "4414",
+    "4415",
+    "4416"
   ],
   "Current Format/Value": {
     "428999623.json": "0",
     "248303092.json": "1",
     "998679771.json": "2",
     "638092100.json": "3",
-    "127455035.json": "4"
-  }
+    "127455035.json": "4",
+    "352316035.json": "5"
+  },
+  "Deprecated, New, or Revised": [
+    "Revised",
+    "New"
+  ],
+  "Date added or modified": [
+    "8/22/23",
+    "8/22/23"
+  ],
+  "IMS Review Notes": [
+    "Denoted as revised and updated suffix to _v1r1",
+    "Added New response"
+  ]
 }

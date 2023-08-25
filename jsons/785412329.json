@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2420",
-  "Index": "2420",
+  "Formula for Index": "2424",
+  "Index": "2424",
   "Primary Source": [
     "129084651.json",
     "129084651.json",
@@ -105,6 +105,7 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if PAINREL1 = 0",
-  "Date added or modified": "10/8/21"
+  "Notes": "Only display if PAINREL1 = 0. Range check min = 1 and max = 31.",
+  "Date added or modified": "8/24/23",
+  "IMS Review Notes": "Added range check to Notes."
 }

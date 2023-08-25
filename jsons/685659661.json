@@ -1,17 +1,18 @@
 {
-  "Formula for Index": "4457",
-  "Index": "4457",
+  "Formula for Index": "4502",
+  "Index": "4502",
   "Primary Source": [
     "129084651.json"
   ],
   "Secondary Source": [
     "965707586.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "685659661",
   "Current Question Text": "On days that you used THC concentrates via dabbing  when you were age [X / 50] to age [Y / 59 / current age], about how many servings did you have per day?",
   "Variable Label": "How many servings THC concentrates via dabbing used, [X / 50] to age [Y / 59 / current age]",
   "Variable Name": [
-    "SrvSAS_THCServing5059_v1r0"
+    "SrvSAS_THCServing5059_v1r1"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "THMARLIFEF"
@@ -21,5 +22,7 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "12/6/21"
+  "Notes": "Range min = 0 (was previously 1 before Jan 2024 prod push) and max= 99.",
+  "Date added or modified": "8/22/23",
+  "IMS Review Notes": "Denoted as revised, updated preffix to _v1r1, added range check to Notes column, and revised min value from 1 to 0."
 }
