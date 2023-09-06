@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "5859",
-  "Index": "5859",
+  "Formula for Index": "5863",
+  "Index": "5863",
   "Primary Source": [
     "129084651.json"
   ],
@@ -33,6 +33,7 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "Yes",
-  "Date added or modified": "2/24/23",
-  "IMS Review Notes": "Updated source question, question text, variable name suffix, and denoted as revised"
+  "Notes": "Range check min=0 max=999",
+  "Date added or modified": "8/29/23",
+  "IMS Review Notes": "Added range check to Notes"
 }

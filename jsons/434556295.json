@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "1622",
-  "Index": "1622",
+  "Formula for Index": "1626",
+  "Index": "1626",
   "Primary Source": [
     "129084651.json"
   ],
@@ -27,8 +27,8 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if BLDTRANS=YES. Range check min = 0 and max = age.",
-  "Date added or modified": "8/24/23",
+  "Notes": "Only display if BLDTRANS=YES. Range check min=valueOrDefault(\"\"D_380275309\"\",0) max=valueOrDefault(\"\"D_150344905\"\",\"\"age\"\",100)",
+  "Date added or modified": "8/28/23",
   "Question Type": "Or (xor=) Question (either/or text boxes without radio button)",
   "IMS Review Notes": "Added range check to Notes."
 }

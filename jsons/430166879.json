@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "6526",
-  "Index": "6526",
+  "Formula for Index": "6530",
+  "Index": "6530",
   "Primary Source": [
     "129084651.json",
     "129084651.json",
@@ -30,5 +30,6 @@
   "State Attribute": "No",
   "Date added or modified": "2/23/23",
   "Question Type": "Text Only Response, Loops",
-  "IMS Review Notes": "Deprecated COVID-19 questions from Blood/Urine/Mouthwash Survey"
+  "IMS Review Notes": "Deprecated COVID-19 questions from Blood/Urine/Mouthwash Survey",
+  "Notes": "Range check min=0 max=valueOrDefault(\"\"D_744230001\"\",0)"
 }

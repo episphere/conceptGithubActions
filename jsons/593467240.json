@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "6932",
-  "Index": "6932",
+  "Formula for Index": "6936",
+  "Index": "6936",
   "Primary Source": [
     "129084651.json"
   ],
@@ -18,9 +18,10 @@
   "Current Format/Value": "MM/DD/YYYY",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Required",
+  "Notes": "Required. Range check min=#today-60 max=#today",
   "Dictionary": "Menstrual Cycle Survey",
   "State Attribute": "No",
-  "Date added or modified": "5/4/22",
-  "Question Type": "Special Functions"
+  "Date added or modified": "8/29/23",
+  "Question Type": "Special Functions",
+  "IMS Review Notes": "Added range check to Notes"
 }

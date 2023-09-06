@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "4290",
-  "Index": "4290",
+  "Formula for Index": "4294",
+  "Index": "4294",
   "Primary Source": [
     "129084651.json"
   ],
@@ -27,6 +27,7 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "6/2/22",
-  "IMS Review Notes": "Deleted concept ID in column J"
+  "Notes": "Range check min=isDefined(D_140848765,0) max=sum(isDefined(D_150344905,age),1)",
+  "Date added or modified": "8/29/23",
+  "IMS Review Notes": "Added range check to Notes"
 }

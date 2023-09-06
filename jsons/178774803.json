@@ -5,8 +5,8 @@
     "178774803.json",
     "334956961.json"
   ],
-  "Formula for Index": "1901",
-  "Index": "1901",
+  "Formula for Index": "1905",
+  "Index": "1905",
   "Primary Source": [
     "129084651.json"
   ],
@@ -33,8 +33,8 @@
   },
   "Required": "No",
   "PII": "No",
-  "Notes": "Range check max = 125",
-  "Date added or modified": "8/24/23",
+  "Notes": "Range check minval=max(isDefined(D_150344905,age),5) max=125",
+  "Date added or modified": "8/28/23",
   "Question Type": "Text Box Plus Check Box",
   "IMS Review Notes": "Added range check to Notes"
 }

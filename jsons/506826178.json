@@ -15,11 +15,11 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Notes": "Populated from RcrtCS_Suffix_v1r0. Additional options may be added later.",
+  "Notes": "Populated from RcrtCS_Suffix_v1r0. Additional options may be added later. 398561594 is allowable code but is not present on the dropdown as a visible choice; it is back end coded only in the instance where the UP is edited and a previously entered suffix is removed.",
   "Dictionary": "Recruitment Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "2/11/22",
+  "Date added or modified": "9/6/23",
   "GCP Document/Table": "Participants Table Not nested (d_506826178)",
   "Question Type": "Question text same as RcrtCS_Suffix_v1r0",
   "Formula for Index": [
