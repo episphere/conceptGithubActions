@@ -555,7 +555,7 @@
     ]
   },
   "118191655": {
-    "Variable Name": "Didn’t smoke a hookah or water pipe during this time"
+    "Variable Name": "Didn't smoke a hookah or water pipe during this time"
   },
   "118237712": {
     "Variable Label": "Age Depo-Provera last use",
@@ -5328,6 +5328,9 @@
       "SrvCSS_PROV6A1_v1r0"
     ]
   },
+  "319518299": {
+    "Variable Name": "UCM Pop-Up"
+  },
   "319570637": {
     "Variable Name": "Not Hispanic or Latino"
   },
@@ -5770,7 +5773,7 @@
     ]
   },
   "347968905": {
-    "Variable Name": "Didn’t smoke marijuana during this time"
+    "Variable Name": "Didn't smoke marijuana during this time"
   },
   "348049244": {
     "Variable Label": "State/Province",
@@ -5877,7 +5880,7 @@
     "Variable Name": "Previous address 1"
   },
   "352316035": {
-    "Variable Name": "Didn’t use electronic marijuana delivery devices during this time"
+    "Variable Name": "Didn't use electronic marijuana delivery devices during this time"
   },
   "352531133": {
     "Variable Label": "How often days home repairs (such as painting, plumbing, or replacing carpeting)",
@@ -6922,7 +6925,7 @@
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had breast cancer?"
   },
   "402752509": {
-    "Variable Name": "Didn’t use e-cigarettes or other vaping devices during this time"
+    "Variable Name": "Didn't use e-cigarettes or other vaping devices during this time"
   },
   "403155173": {
     "Variable Label": "Sitting and reading",
@@ -7570,13 +7573,6 @@
     "Variable Label": "How many servings consumed marijuana in food or drinks used, [X / 70] and older",
     "Variable Name": [
       "SrvSAS_EdiblesServ70_v1r1"
-    ]
-  },
-  "432433345": {
-    "Variable Label": "Current job tasks",
-    "Variable Name": [
-      "SrvBOH_CurrentJobTask_v1r0",
-      "SrvBOH_PastJobTask_v1r0"
     ]
   },
   "432722256": {
@@ -9261,7 +9257,7 @@
     ]
   },
   "505347689": {
-    "Variable Label": "MCD Tube 1",
+    "Variable Label": "STRECK Tube 1",
     "Variable Name": [
       "BioCol_0060_v1r0"
     ]
@@ -9522,6 +9518,12 @@
   },
   "517976064": {
     "Variable Name": "During the past 12 months, did you do any of these exercise or recreational activities? Select all that apply."
+  },
+  "518387017": {
+    "Variable Label": "Past job tasks",
+    "Variable Name": [
+      "SrvBOH_PastJobTask_v1r0"
+    ]
   },
   "518416174": {
     "Variable Label": "Brain",
@@ -10773,6 +10775,9 @@
   },
   "567908725": {
     "Variable Name": "Somewhat"
+  },
+  "567969985": {
+    "Variable Name": "MF Pop-Up"
   },
   "568113091": {
     "Variable Label": "Age stopped using chewing tobacco, snus, snuff, or dip  every day",
@@ -16152,6 +16157,12 @@
       "SrvBOH_Shingles_v1r0"
     ]
   },
+  "796828094": {
+    "Variable Label": "Current job tasks",
+    "Variable Name": [
+      "SrvBOH_CurrentJobTask_v1r0"
+    ]
+  },
   "797076693": {
     "Variable Label": "How old were you when you first used testosterone therapy?",
     "Variable Name": [
@@ -19562,6 +19573,9 @@
       "SrvLAW_SeasWtr1_8_Oth_v1r0"
     ]
   },
+  "940329442": {
+    "Variable Name": "Orland Park"
+  },
   "940387701": {
     "Variable Label": "Education Please describe [text box]",
     "Variable Name": [
@@ -20354,7 +20368,7 @@
     ]
   },
   "971933131": {
-    "Variable Name": "Didn’t use chewing tobacco, snus, snuff, or dip during this time"
+    "Variable Name": "Didn't use chewing tobacco, snus, snuff, or dip during this time"
   },
   "972332937": {
     "Variable Label": "Zip code",
