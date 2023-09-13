@@ -2913,6 +2913,9 @@
   "210325948": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Melanoma (skin) cancer?"
   },
+  "210720511": {
+    "Variable Name": "Boxed"
+  },
   "210921343": {
     "Variable Label": "Clinical DB Urine RRL received",
     "Variable Name": [
@@ -7728,6 +7731,12 @@
     "Variable Label": "None of these fully describe me. Please describe [text box]",
     "Variable Name": [
       "SrvBOH_NoneDescribeRE5_v1r0"
+    ]
+  },
+  "440351122": {
+    "Variable Label": "Too many technical problems with MyConnect",
+    "Variable Name": [
+      "HdRef_TechPrblms_v1r0"
     ]
   },
   "440364083": {
@@ -12793,6 +12802,9 @@
       "HdRef_BlSpecSrvDt_v1r0"
     ]
   },
+  "657483796": {
+    "Variable Name": "Not boxed"
+  },
   "657566099": {
     "Variable Label": "Rashes or other skin changes",
     "Variable Name": [
@@ -14825,6 +14837,12 @@
       "SrvLAW_City4_v1r0"
     ]
   },
+  "742186726": {
+    "Variable Label": "Stray tubes list",
+    "Variable Name": [
+      "BioCol_StrayTubesList_v1r0"
+    ]
+  },
   "742254559": {
     "Variable Label": "Age first use THC concentrates via dabbing on a regular basis, Never used",
     "Variable Name": [
@@ -15585,6 +15603,12 @@
       "SrvMRE_DeliveryMethod_v1r0"
     ]
   },
+  "771580890": {
+    "Variable Label": "Collection boxed status",
+    "Variable Name": [
+      "BioCol_CollBoxedStatus_v1r0"
+    ]
+  },
   "772143730": {
     "Variable Label": "How often drink alcohol, Age 60 to Age 69",
     "Variable Name": [
@@ -15699,6 +15723,9 @@
     "Variable Name": [
       "SrvMRE_HICTOften_v1r0"
     ]
+  },
+  "775512390": {
+    "Variable Name": "Partially boxed"
   },
   "776406200": {
     "Variable Label": "Lived anywhere else at least two years",
