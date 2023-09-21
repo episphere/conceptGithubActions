@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "1798",
-  "Index": "1798",
+  "Formula for Index": "1803",
+  "Index": "1803",
   "Primary Source": [
     "129084651.json"
   ],
@@ -11,7 +11,7 @@
   "Current Question Text": "How old were you when you last used prescription medication to treat the severe or ongoing acne? If you are currently using this prescription medication, enter your current age.",
   "Variable Label": "Last used acne med age",
   "Variable Name": [
-    "SrvBOH_AcneMedL_v1r0"
+    "SrvBOH_AcneMedL_v1r1"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "ACNEMED3"
@@ -21,8 +21,8 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Range check min=0 max=isDefined(D_150344905,age)",
-  "Date added or modified": "8/28/23",
-  "Question Type": "Text only Response",
-  "IMS Review Notes": "Added range check to Notes."
+  "Notes": "Range check (max previously was age)",
+  "Date added or modified": "9/14/23",
+  "Question Type": "Or (xor=) Question (either/or text boxes without radio button)",
+  "IMS Review Notes": "Updated Variable name suffix to _v1r1 to reflect range check update from age to age+1. Deleted range check from Notes until markdown is updated"
 }

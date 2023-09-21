@@ -7,7 +7,7 @@
   ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "167997205",
-  "Current Question Text": "How long after your first menstrual period did your periods become regular? By regular, we mean that you could predict the start of your next period within a few days. If you had to take hormonal medication or device for your periods to become regular, please select “Never became regular”.",
+  "Current Question Text": "How long after your first menstrual period did your periods become regular? By regular, we mean that you could predict the start of your next period within a few days. If you had to take hormonal medication or device for your periods to become regular, please select Never became regular.",
   "V1 Question Text": "How long after your first menstrual period did your periods become regular? By regular, we mean that you could predict the start of your next period within a few days.",
   "Variable Label": "Long until periods regular",
   "Variable Name": [
@@ -20,25 +20,25 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "6/29/23",
-  "IMS Review Notes": "Denoted as revised, Revised Current Question Text, moved V1 text to V1 Question Text, and changed Variable Name suffix from _v1r0 to _v2r0",
+  "Date added or modified": "9/13/23",
+  "IMS Review Notes": "Removed special characters from current question text",
   "Formula for Index": [
-    "2655",
-    "2656",
-    "2657",
-    "2658",
-    "2659",
     "2660",
-    "2661"
+    "2661",
+    "2662",
+    "2663",
+    "2664",
+    "2665",
+    "2666"
   ],
   "Index": [
-    "2655",
-    "2656",
-    "2657",
-    "2658",
-    "2659",
     "2660",
-    "2661"
+    "2661",
+    "2662",
+    "2663",
+    "2664",
+    "2665",
+    "2666"
   ],
   "Current Format/Value": {
     "648960871.json": "44",
