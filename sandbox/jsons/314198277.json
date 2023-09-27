@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "5498",
-  "Index": "5498",
+  "Formula for Index": "5513",
+  "Index": "5513",
   "Primary Source": [
     "129084651.json",
     "129084651.json",
@@ -81,6 +81,7 @@
   "Current Format/Value": "yyyy",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "2/4/22",
-  "IMS Review Notes": "removed quotation marks"
+  "Notes": "Range check min=valueOrDefault(\"\"D_379754686\"\",#currentYear-1-valueOrDefault(\"\"D_150344905\"\",\"\"age\"\",100)) max=#currentYear",
+  "Date added or modified": "8/29/23",
+  "IMS Review Notes": "Added range check to Notes"
 }

@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2955",
-  "Index": "2955",
+  "Formula for Index": "2970",
+  "Index": "2970",
   "Primary Source": [
     "129084651.json"
   ],
@@ -20,7 +20,7 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if COMBHOR=55. Range check min = 0 and max = age.",
-  "Date added or modified": "8/24/23",
+  "Notes": "Only display if COMBHOR=55. min=0 max=sum(isDefined(D_150344905,age),1)",
+  "Date added or modified": "8/28/23",
   "IMS Review Notes": "Added range check to Notes."
 }

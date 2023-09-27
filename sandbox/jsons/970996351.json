@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "6228",
-  "Index": "6228",
+  "Formula for Index": "6243",
+  "Index": "6243",
   "Primary Source": [
     "129084651.json"
   ],
@@ -26,6 +26,7 @@
   "Variable Length": "6",
   "Required": "No",
   "PII": "Yes",
-  "Date added or modified": "11/9/22",
-  "IMS Review Notes": "Updated variable type from num to char"
+  "Notes": "Range check min=0 max=999999",
+  "Date added or modified": "8/29/23",
+  "IMS Review Notes": "Added range check to Notes"
 }

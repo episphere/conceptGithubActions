@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "7790",
-  "Index": "7790",
+  "Formula for Index": "7805",
+  "Index": "7805",
   "Primary Source": [
     "129084651.json"
   ],
@@ -18,9 +18,10 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
+  "Notes": "Range check min=1",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "2/23/23",
+  "Date added or modified": "8/29/23",
   "Question Type": "Text Only Response, loops",
-  "IMS Review Notes": "Added COVID-19 Survey variables"
+  "IMS Review Notes": "Added range check to Notes"
 }

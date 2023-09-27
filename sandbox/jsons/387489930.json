@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "3729",
-  "Index": "3729",
+  "Formula for Index": "3744",
+  "Index": "3744",
   "Primary Source": [
     "129084651.json"
   ],
@@ -22,7 +22,7 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Range min = 0 (was previously 1 before Jan 2024 prod push) and max= 99.",
+  "Notes": "Range check min=0 and max=999. (Min=1 before January 2024 prod push)",
   "Date added or modified": "8/22/23",
   "IMS Review Notes": "Denoted as revised, updated preffix to _v1r1, added range check to Notes column, and revised min value from 1 to 0."
 }

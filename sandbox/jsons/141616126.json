@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "7998",
-  "Index": "7998",
+  "Formula for Index": "8013",
+  "Index": "8013",
   "Primary Source": [
     "129084651.json"
   ],
@@ -24,9 +24,10 @@
   "Current Format/Value": "YYYY-MM",
   "Required": "No",
   "PII": "No",
+  "Notes": "Range check min=valueOrDefault(\"\"D_141616126#prev\"\",\"\"2020-03\"\") max=#currentYear-#currentMonth",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "7/28/23",
+  "Date added or modified": "8/29/23",
   "Question Type": "Special Function",
-  "IMS Review Notes": "Corrected source question and Question text variable name from v1 to v2."
+  "IMS Review Notes": "Added range check to Notes"
 }
