@@ -5,7 +5,7 @@
     "192505768.json"
   ],
   "Secondary Source": [
-    "332759827.json"
+    "569151507.json"
   ],
   "conceptId": "869588347",
   "Current Question Text": "Preferred Email",
@@ -16,10 +16,11 @@
   "Variable Type": "Char",
   "Variable Length": "120",
   "Current Format/Value": "N/A",
-  "Required": "Yes",
   "PII": "Yes",
   "Dictionary": "Recruitment Data Dictionary, Biospecimen Research",
   "State Attribute": "No",
   "Default Variable": "No",
-  "GCP Document/Table": "Participants Table Not nested (d_869588347)"
+  "Date added or modified": "9/7/23",
+  "GCP Document/Table": "Participants Table Not nested (d_869588347) OR Nested structure: (d_569151507_d_869588347)",
+  "IMS Review Notes": "Updated Secondary Source to User Profile History"
 }

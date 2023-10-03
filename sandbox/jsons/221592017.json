@@ -1,0 +1,46 @@
+{
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "377669767.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "221592017",
+  "Current Question Text": "Kit Status",
+  "Variable Label": "Kit Status",
+  "Variable Name": [
+    "BioKit_KitStatus_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Needs to be updateable like the check in/check out variable. As the status changes, the variable needs to update. Default to \"\"pending\"\" status",
+  "Dictionary": "Biospecimen Kit",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "9/27/23",
+  "GCP Document/Table": "Kit Table Not nested (TBD Participants Table Nested structure: d_173836415_d_266600170_d_TBD (2nd CID may change based on BL/F1/F2/F3)",
+  "Formula for Index": [
+    "1086",
+    "1087",
+    "1088",
+    "1089",
+    "1090"
+  ],
+  "Index": [
+    "1086",
+    "1087",
+    "1088",
+    "1089",
+    "1090"
+  ],
+  "Current Format/Value": {
+    "517216441.json": "0",
+    "849527480.json": "1",
+    "241974920.json": "2",
+    "277438316.json": "3",
+    "375535639.json": "4"
+  }
+}

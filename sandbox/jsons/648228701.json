@@ -1,15 +1,30 @@
 {
   "Primary Source": [
+    "237817859.json",
+    "237817859.json",
+    "237817859.json",
     "237817859.json"
   ],
   "Secondary Source": [
-    "117044491.json"
+    "130371375.json",
+    "130371375.json",
+    "130371375.json",
+    "130371375.json"
+  ],
+  "Current Source Question": [
+    "266600170.json",
+    "496823485.json",
+    "650465111.json",
+    "303552867.json"
   ],
   "conceptId": "648228701",
   "Current Question Text": "Payment Refused",
   "Variable Label": "Payment refused",
   "Variable Name": [
-    "HDPaym_PaymRefused_v1r0"
+    "HDPaym_PaymRefusedBL_v1r0",
+    "HDPaym_PaymRefusedF1_v1r0",
+    "HDPaym_PaymRefusedF2_v1r0",
+    "HDPaym_PaymRefusedF3_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -19,15 +34,16 @@
   "Dictionary": "Study Manager Data Dictionary, Biospecimen Research",
   "State Attribute": "No",
   "Default Variable": "Yes",
-  "Date added or modified": "6/2/23",
+  "Date added or modified": "9/7/23",
   "GCP Document/Table": "Participants Table Nested structure: d_130371375_d_266600170_d_648228701 OR d_130371375_d_303552867_d_648228701 OR d_130371375_d_496823485_d_648228701 OR d_130371375_d_650465111_d_648228701",
+  "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name HDPaym_PaymRefused_v1r0 with HDPaym_PaymRefusedBL_v1r0",
   "Formula for Index": [
-    "625",
-    "626"
+    "1173",
+    "1174"
   ],
   "Index": [
-    "625",
-    "626"
+    "1173",
+    "1174"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

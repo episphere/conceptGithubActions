@@ -3,7 +3,7 @@
     "192505768.json"
   ],
   "Secondary Source": [
-    "332759827.json"
+    "569151507.json"
   ],
   "conceptId": "983278853",
   "Current Question Text": "Can we leave voicemail at this number?- Other",
@@ -13,14 +13,13 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Required": "No",
   "PII": "No",
   "Dictionary": "Recruitment Data Dictionary, Biospecimen Research",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "1/31/22",
-  "GCP Document/Table": "Participants Table Not nested (d_983278853)",
-  "Question Type": "Question text also for RcrtUP_HomeVM_v1r0 and RcrtUP_MobileVM_V1r0",
+  "Date added or modified": "9/7/23",
+  "GCP Document/Table": "Participants Table Not nested (d_983278853) OR Nested structure: (d_569151507_d_983278853)",
+  "IMS Review Notes": "Updated Secondary Source to User Profile History",
   "Formula for Index": [
     "255",
     "256"

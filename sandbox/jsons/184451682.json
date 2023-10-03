@@ -1,11 +1,23 @@
 {
-  "Formula for Index": "486",
-  "Index": "486",
+  "Formula for Index": "967",
+  "Index": "967",
   "Primary Source": [
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
     "819848608.json"
   ],
   "Secondary Source": [
-    "664882224.json"
+    "173836415.json",
+    "173836415.json",
+    "173836415.json",
+    "173836415.json"
+  ],
+  "Current Source Question": [
+    "266600170.json",
+    "496823485.json",
+    "650465111.json",
+    "303552867.json"
   ],
   "Deprecated, New, or Revised": "New",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/30/23",
@@ -13,7 +25,10 @@
   "Current Question Text": "Date/Time first baseline blood order placed or baseline urine order placed",
   "Variable Label": "Date/Time first baseline blood order placed or baseline urine order placed",
   "Variable Name": [
-    "BioClin_BldUrnPlacedTm_v1r0"
+    "BioClin_BldUrnPlcdTmBL_v1r0",
+    "BioClin_BldUrnPlcdTmF1_v1r0",
+    "BioClin_BldUrnPlcdTmF2_v1r0",
+    "BioClin_BldUrnPlcdTmF3_v1r0"
   ],
   "Variable Type": "ISO",
   "Variable Length": "24",
@@ -24,6 +39,7 @@
   "Dictionary": "Biospecimen Clinical",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "12/1/22",
-  "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_184451682"
+  "Date added or modified": "9/7/23",
+  "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_184451682  (2nd CID may change based on BL/F-U1,2,3)",
+  "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable Name from BioClin_BldUrnPlacedTm_v1r0 to BioClin_BldUrnPlcdTmBL_v1r0"
 }

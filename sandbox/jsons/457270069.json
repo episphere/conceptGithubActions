@@ -1,18 +1,18 @@
 {
-  "Formula for Index": "972",
-  "Index": "972",
+  "Formula for Index": "1704",
+  "Index": "1704",
   "Primary Source": [
     "692924902.json"
   ],
   "Secondary Source": [
-    "195399696.json"
+    "637153953.json"
   ],
   "Deprecated, New, or Revised": "New",
   "conceptId": "457270069",
   "Current Question Text": "What is the preliminary stage information for the cancer diagnosed on 'date of case ID'?",
   "Variable Label": "Preliminary cancer stage",
   "Variable Name": [
-    "RCAOper_PrelimCancStg_v1r0"
+    "RCAOcc_PrelimCancStg_v1r0"
   ],
   "Variable Type": "Char",
   "Variable Length": "800",
@@ -23,6 +23,6 @@
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "11/25/22",
+  "Date added or modified": "9/29/23",
   "GCP Document/Table": "Not yet in Flattened Tables"
 }

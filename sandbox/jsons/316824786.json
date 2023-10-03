@@ -1,34 +1,49 @@
 {
   "Primary Source": [
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
     "819848608.json"
   ],
   "Secondary Source": [
-    "664882224.json"
+    "173836415.json",
+    "173836415.json",
+    "173836415.json",
+    "173836415.json"
+  ],
+  "Current Source Question": [
+    "266600170.json",
+    "496823485.json",
+    "650465111.json",
+    "303552867.json"
   ],
   "conceptId": "316824786",
   "Current Question Text": "Any specimen collected at RRL",
   "Variable Label": "Any specimen collected at RRL",
   "Variable Name": [
-    "BioClin_AnySpecRRL_v1r0"
+    "BioClin_AnySpecRRLBL_v1r0",
+    "BioClin_AnySpecRRLF1_v1r0",
+    "BioClin_AnySpecRRLF2_v1r0",
+    "BioClin_AnySpecRRLF3_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "Yes if 534041351 = Yes or 210921343 = Yes",
   "PII": "No",
   "Notes": "Stored in participant table under Collection Settings -> Baseline",
-  "Derivation Notes": "Yes if 534041351 = Yes or 210921343 = Yes",
   "Dictionary": "Biosepcimen Clinical",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "11/2/22",
+  "Date added or modified": "9/7/23",
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_316824786 (2nd CID may change based on BL/F-U1,2,3)",
+  "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_AnySpecRRL_v1r0 with BioClin_AnySpecRRLBL_v1r0",
   "Formula for Index": [
-    "479",
-    "480"
+    "945",
+    "946"
   ],
   "Index": [
-    "479",
-    "480"
+    "945",
+    "946"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

@@ -1,18 +1,34 @@
 {
-  "Formula for Index": "462",
-  "Index": "462",
+  "Formula for Index": "877",
+  "Index": "877",
   "Primary Source": [
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
     "819848608.json"
   ],
   "Secondary Source": [
-    "664882224.json"
+    "173836415.json",
+    "173836415.json",
+    "173836415.json",
+    "173836415.json"
+  ],
+  "Current Source Question": [
+    "266600170.json",
+    "496823485.json",
+    "650465111.json",
+    "303552867.json"
   ],
   "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "5/10/23",
   "conceptId": "110349197",
   "Current Question Text": "Polyaccession ID- Urine",
   "Variable Label": "Polyaccession ID- Urine",
   "Variable Name": [
-    "BioClin_PolyUrineID_v1r0"
+    "BioClin_PolyUrineIDBL_v1r0",
+    "BioClin_PolyUrineIDF1_v1r0",
+    "BioClin_PolyUrineIDF2_v1r0",
+    "BioClin_PolyUrineIDF3_v1r0"
   ],
   "Variable Type": "Array",
   "Variable Length": "Array",
@@ -23,6 +39,7 @@
   "Dictionary": "Biospecimen Clinical",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "5/10/23",
-  "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_110349197 (2nd CID may change based on BL/F-U1,2,3)"
+  "Date added or modified": "9/7/23",
+  "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_110349197 (2nd CID may change based on BL/F-U1,2,3)",
+  "IMS Review Notes": "Updated Secondary Source to Collection Details and updated Variable Name from BioClin_PolyUrineI_v1r0 to BioClin_PolyUrineIDBL_v1r0,"
 }
