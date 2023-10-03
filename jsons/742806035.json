@@ -3,32 +3,32 @@
     "819848608.json"
   ],
   "Secondary Source": [
-    "360770860.json"
+    "143615646.json"
   ],
   "Current Source Question": [
     "248868659.json"
   ],
   "conceptId": "742806035",
   "Current Question Text": "Deviation - Participant used mouthwash less than 30 seconds",
-  "Variable Label": "Deviation - Participant used mouthwash less than 30 seconds",
+  "Variable Label": "MWT1 Deviation - Participant used mouthwash less than 30 seconds",
   "Variable Name": [
-    "BioCol_Dev_v1r0_MWUnder30s"
+    "BioCol_Dev_v1r0_MWUnd30sMWT1"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Required": "Yes",
-  "PII": "No",
+  "PII": "Yes",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "Yes",
-  "Date added or modified": "2/10/22",
+  "Date added or modified": "9/7/23",
+  "IMS Review Notes": "Updated Secondary Source to Mouthwash Tube 1 and updated Variable Name from BioCol_Dev_v1r0_MWUnder30s to BioCol_Dev_v1r0_MWUnd30sMWT1.",
   "Formula for Index": [
-    "870",
-    "871"
+    "1599",
+    "1600"
   ],
   "Index": [
-    "870",
-    "871"
+    "1599",
+    "1600"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

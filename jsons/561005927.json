@@ -1,18 +1,34 @@
 {
   "Primary Source": [
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
     "819848608.json"
   ],
   "Secondary Source": [
-    "360770860.json"
+    "299553921.json",
+    "703954371.json",
+    "376960806.json",
+    "232343615.json",
+    "589588440.json"
   ],
   "Current Source Question": [
+    "248868659.json",
+    "248868659.json",
+    "248868659.json",
+    "248868659.json",
     "248868659.json"
   ],
   "conceptId": "561005927",
   "Current Question Text": "Deviation- Centrifuge - Improper speed/force setting used (too low)",
-  "Variable Label": "Deviation- Centrifuge - Improper speed/force setting used (too low)",
+  "Variable Label": "SST1 Deviation- Centrifuge - Improper speed/force setting used (too low)",
   "Variable Name": [
-    "BioCol_Dev_v1r0_SpeedL"
+    "BioCol_Dev_v1r0_SpeedLSST1",
+    "BioCol_Dev_v1r0_SpeedLSST2",
+    "BioCol_Dev_v1r0_SpeedLSST3",
+    "BioCol_Dev_v1r0_SpeedLSST4",
+    "BioCol_Dev_v1r0_SpeedLSST5"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -22,14 +38,16 @@
   "Dictionary": "Biospecimen Clinical, Biospecimen Research",
   "State Attribute": "No",
   "Default Variable": "Yes",
+  "Date added or modified": "9/7/23",
   "GCP Document/Table": "Biospecimen Table Nesed structure: d_Tube/Bag/Object_d_248868659_d_561005927",
+  "IMS Review Notes": "Updated Variable Name from BioCol_Dev_v1r0_SpeedL to BioCol_Dev_v1r0_SpeedLSST1. Updated Variable Label, Secondary Source and CID.",
   "Formula for Index": [
-    "376",
-    "377"
+    "549",
+    "550"
   ],
   "Index": [
-    "376",
-    "377"
+    "549",
+    "550"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

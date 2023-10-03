@@ -1,15 +1,30 @@
 {
   "Primary Source": [
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
     "819848608.json"
   ],
   "Secondary Source": [
-    "664882224.json"
+    "173836415.json",
+    "173836415.json",
+    "173836415.json",
+    "173836415.json"
+  ],
+  "Current Source Question": [
+    "266600170.json",
+    "496823485.json",
+    "650465111.json",
+    "303552867.json"
   ],
   "conceptId": "530173840",
   "Current Question Text": "Blood Order Placed",
   "Variable Label": "Blood Order Placed",
   "Variable Name": [
-    "BioClin_BldOrderPlaced_v1r0"
+    "BioClin_BldOrderPlcdBL_v1r0",
+    "BioClin_BldOrderPlcdF1_v1r0",
+    "BioClin_BldOrderPlcdF2_v1r0",
+    "BioClin_BldOrderPlcdF3_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -19,15 +34,16 @@
   "Dictionary": "Biospecimen Clinical",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "8/1/22",
+  "Date added or modified": "9/7/23",
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_530173840 (2nd CID may change based on BL/F-U1,2,3)",
+  "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_BldOrderPlaced_v1r0 with  BioClin_BldOrderPlcdBL_v1r0",
   "Formula for Index": [
-    "450",
-    "451"
+    "835",
+    "836"
   ],
   "Index": [
-    "450",
-    "451"
+    "835",
+    "836"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

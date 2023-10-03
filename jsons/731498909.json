@@ -1,15 +1,30 @@
 {
   "Primary Source": [
+    "332961895.json",
+    "332961895.json",
+    "332961895.json",
     "332961895.json"
   ],
   "Secondary Source": [
-    "117044491.json"
+    "130371375.json",
+    "130371375.json",
+    "130371375.json",
+    "130371375.json"
+  ],
+  "Current Source Question": [
+    "266600170.json",
+    "496823485.json",
+    "650465111.json",
+    "303552867.json"
   ],
   "conceptId": "731498909",
   "Current Question Text": "Eligible for Payment",
   "Variable Label": "Eligible for Payment",
   "Variable Name": [
-    "SMPaym_PaymElig_v1r0"
+    "SMPaym_PaymEligBL_v1r0",
+    "SMPaym_PaymEligF1_v1r0",
+    "SMPaym_PaymEligF2_v1r0",
+    "SMPaym_PaymEligF3_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -20,16 +35,16 @@
   "Dictionary": "Study Manager Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "Yes",
-  "Date added or modified": "4/13/23",
+  "Date added or modified": "9/7/23",
   "GCP Document/Table": "Participants Table Nested structure: d_130371375_d_266600170_d_731498909 OR d_130371375_d_303552867_d_731498909 OR d_130371375_d_496823485_d_731498909 OR d_130371375_d_650465111_d_731498909",
-  "IMS Review Notes": "Removed extra characters",
+  "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name SMPaym_PaymElig_v1r0 with SMPaym_PaymEligBL_v1r0",
   "Formula for Index": [
-    "617",
-    "618"
+    "1141",
+    "1142"
   ],
   "Index": [
-    "617",
-    "618"
+    "1141",
+    "1142"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

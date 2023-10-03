@@ -1,17 +1,35 @@
 {
-  "Formula for Index": "400",
-  "Index": "400",
+  "Formula for Index": "737",
+  "Index": "737",
   "Primary Source": [
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
     "819848608.json"
   ],
   "Secondary Source": [
-    "360770860.json"
+    "299553921.json",
+    "703954371.json",
+    "376960806.json",
+    "652357376.json",
+    "505347689.json",
+    "973670172.json",
+    "143615646.json"
   ],
   "conceptId": "338286049",
   "Current Question Text": "Not Collected - Details (Optional)",
-  "Variable Label": "Not Collected Details (Optional)",
+  "Variable Label": "SST1 Not Collected Details (Optional)",
   "Variable Name": [
-    "BioCol_NotCollNotes_v1r0"
+    "BioCol_NotColNotes_v1r0_SST1",
+    "BioCol_NotColNotes_v1r0_SST2",
+    "BioCol_NotColNotes_v1r0_SST3",
+    "BioCol_NCNotes_v1r0_ACDT1",
+    "BioCol_NCNotes_v1r0_MCDT1",
+    "BioCol_NotCollNotes_v1r0_UT1",
+    "BioCol_NotColNotes_v1r0_MWT1"
   ],
   "Variable Type": "Char",
   "Variable Length": "800",
@@ -22,5 +40,7 @@
   "Dictionary": "Biospecimen Clinical, Biospecimen Research",
   "State Attribute": "No",
   "Default Variable": "No",
-  "GCP Document/Table": "Biospecimen Table Nested structure: d_Tube/Bag/Object_d_338286049"
+  "Date added or modified": "9/7/23",
+  "GCP Document/Table": "Biospecimen Table Nested structure: d_Tube/Bag/Object_d_338286049",
+  "IMS Review Notes": "Updated Variable Name from BioCol_NotCollNotes_v1r0 to BioCol_NotCollNotes_v1r0_SST1. Updated Variable Label, Secondary Source and CID."
 }
