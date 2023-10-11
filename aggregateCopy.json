@@ -18,7 +18,7 @@
     ]
   },
   "100767870": {
-    "Variable Label": "All baseline surveys completed",
+    "Variable Label": "All Base Surv Complete",
     "Variable Name": [
       "SMMet_BaseSrvCompl_v1r0"
     ]
@@ -39,7 +39,7 @@
     ]
   },
   "101170406": {
-    "Variable Label": "Baseline EMR Push",
+    "Variable Label": "Base EMR Push",
     "Variable Name": [
       "EMRBl_Push_v1r0"
     ]
@@ -100,7 +100,7 @@
     "Variable Name": "1 to 9 times"
   },
   "102695484": {
-    "Variable Label": "SST1 Deviation- Centrifuge -  did not clot at least 30 minutes",
+    "Variable Label": "SST1 Dev - Centrifuge - Didn't Clot 30 Min",
     "Variable Name": [
       "BioCol_Dev_v1r0_ClotSSST1",
       "BioCol_Dev_v1r0_ClotSSST2",
@@ -198,7 +198,7 @@
     "Variable Name": "Three (triplets)"
   },
   "105891443": {
-    "Variable Label": "Temperature probe in box?",
+    "Variable Label": "Temp Probe In Box",
     "Variable Name": [
       "BioPack_TempProbe_v1r0"
     ]
@@ -325,7 +325,7 @@
     "Variable Name": "The same day"
   },
   "110349197": {
-    "Variable Label": "Polyaccession ID- Urine",
+    "Variable Label": "BL Polyacc ID - Ur",
     "Variable Name": [
       "BioClin_PolyUrineIDBL_v1r0",
       "BioClin_PolyUrineIDF1_v1r0",
@@ -430,7 +430,7 @@
     ]
   },
   "113579866": {
-    "Variable Label": "Suspend all contact on case until DATE: MM/DD/YYYY",
+    "Variable Label": "Suspend Contact until DATE: MM/DD/YYYY",
     "Variable Name": [
       "HdWd_Suspend_v1r0"
     ]
@@ -448,7 +448,7 @@
     "Variable Name": "Address 6- What is the full street address of the place you lived before? Please only include addresses where you have lived for at least two years."
   },
   "114084967": {
-    "Variable Label": "Completed All Partic Study Activity RR among Invited",
+    "Variable Label": "RR Completed All Activities Among Invited",
     "Variable Name": [
       "SMMet_StudyActRRInvit_v1r0"
     ]
@@ -535,7 +535,7 @@
     "Variable Name": "Payment"
   },
   "117249500": {
-    "Variable Label": "User Profile derived age",
+    "Variable Label": "Derived Age",
     "Variable Name": [
       "RcrtUP_Age_v1r0"
     ]
@@ -595,7 +595,7 @@
     ]
   },
   "119449326": {
-    "Variable Label": "Date data destruction request signed",
+    "Variable Label": "Date Data Dest Signed",
     "Variable Name": [
       "HdWd_DateDatadestsign_v1r0"
     ]
@@ -613,7 +613,7 @@
     ]
   },
   "119643471": {
-    "Variable Label": "Sanford Health Reported Race",
+    "Variable Label": "SF Race",
     "Variable Name": [
       "RcrtSI_SHRace_v1r0"
     ]
@@ -652,7 +652,7 @@
     ]
   },
   "121430614": {
-    "Variable Label": "I do not have reliable access to the internet/a device",
+    "Variable Label": "Unreliable Internet/Device",
     "Variable Name": [
       "HdRef_NoInternet_v1r0"
     ]
@@ -697,7 +697,7 @@
     "Variable Name": "Specimen Link"
   },
   "123868967": {
-    "Variable Label": "Date Participant Deceased",
+    "Variable Label": "Date Part Deceased",
     "Variable Name": [
       "HdWd_DeceasedDt_v1r0"
     ]
@@ -739,13 +739,13 @@
     "Variable Name": "7"
   },
   "125739724": {
-    "Variable Label": "Bag/Container/Thing 16",
+    "Variable Label": "Bag 16",
     "Variable Name": [
       "BioPack_Bag16_v1r0"
     ]
   },
   "126331570": {
-    "Variable Label": "SSN Survey",
+    "Variable Label": "SSN Surv",
     "Variable Name": [
       "SrvSS_SSNSurvey_v1r0"
     ]
@@ -816,7 +816,7 @@
     ]
   },
   "129461711": {
-    "Variable Label": "ICD code version",
+    "Variable Label": "ICD Vers",
     "Variable Name": [
       "RCAOcc_ICDCodeVer_v1r0"
     ]
@@ -856,7 +856,7 @@
     ]
   },
   "131458944": {
-    "Variable Label": "I am worried that my information could be used to discriminate against me/my family",
+    "Variable Label": "Worried About Discrimination From Data",
     "Variable Name": [
       "HdRef_PrivacyH_v1r0"
     ]
@@ -965,7 +965,7 @@
     "Variable Name": "Thinking about the one-way trip from your home to [insert address from CURSCH1 - CURSCH3/this address] on a usual day, about how much time do you usually spend in each type of transportation?"
   },
   "135591601": {
-    "Variable Label": "Check-In Complete",
+    "Variable Label": "BL Check-In Done",
     "Variable Name": [
       "BioChk_CompleteBL_v1r0",
       "BioChk_CompleteF1_v1r0",
@@ -984,7 +984,7 @@
     ]
   },
   "136341211": {
-    "Variable Label": "Bag/Container/Thing 2",
+    "Variable Label": "Bag 2",
     "Variable Name": [
       "BioPack_Bag2_v1r0"
     ]
@@ -1014,13 +1014,13 @@
     "Variable Name": "As loud as talking"
   },
   "137286816": {
-    "Variable Label": "Bag/Container/Thing 19",
+    "Variable Label": "Bag 19",
     "Variable Name": [
       "BioPack_Bag19_v1r0"
     ]
   },
   "137401245": {
-    "Variable Label": "Flag to indicate if the participant returned the collection card",
+    "Variable Label": "Coll Card Ret Flag",
     "Variable Name": [
       "BioKit_CollCardRet_v1r0"
     ]
@@ -1075,7 +1075,7 @@
     ]
   },
   "139245758": {
-    "Variable Label": "Date/time Clinical Urine Collected",
+    "Variable Label": "BL D/T Clin Ur Collected",
     "Variable Name": [
       "BioClin_ClinicalUrnTmBL_v1r0",
       "BioClin_ClinicalUrnTmF1_v1r0",
@@ -1087,7 +1087,7 @@
     "Variable Name": "In total, how many months or years have you used the other hormonal medications or devices?"
   },
   "139603724": {
-    "Variable Label": "Verification status month",
+    "Variable Label": "Verif Month",
     "Variable Name": [
       "RcrtV_VerificationMo_v1r0"
     ]
@@ -1133,7 +1133,7 @@
     ]
   },
   "141450621": {
-    "Variable Label": "I am too busy/the study takes too much time",
+    "Variable Label": "Too Busy",
     "Variable Name": [
       "HdRef_TooMuchTime_v1r0"
     ]
@@ -1186,13 +1186,13 @@
     ]
   },
   "143523420": {
-    "Variable Label": "Date/Time when Baseline EMR was pushed",
+    "Variable Label": "D/T Base EMR Push",
     "Variable Name": [
       "EMRBl_PushDt_v1r0"
     ]
   },
   "143615646": {
-    "Variable Label": "Mouthwash",
+    "Variable Label": "MW",
     "Variable Name": [
       "BioCol_0007_v1r0"
     ]
@@ -1296,7 +1296,7 @@
     ]
   },
   "148197146": {
-    "Variable Label": "Duplicate type",
+    "Variable Label": "Dup Type",
     "Variable Name": [
       "RcrtV_DuplicateType_v1r0"
     ]
@@ -1348,7 +1348,7 @@
     ]
   },
   "150818546": {
-    "Variable Label": "I do not trust the government",
+    "Variable Label": "Don't Trust Gov",
     "Variable Name": [
       "HdRef_PrivacyB_v1r0"
     ]
@@ -1401,7 +1401,7 @@
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had esophageal cancer?"
   },
   "153211406": {
-    "Variable Label": "Preferred Name",
+    "Variable Label": "Pref Name",
     "Variable Name": [
       "RcrtUP_PrefName_v1r0"
     ]
@@ -1416,7 +1416,7 @@
     "Variable Name": "Technology adapters"
   },
   "153713899": {
-    "Variable Label": "Signed HIPAA revocation form",
+    "Variable Label": "Signed HIPAA Rev",
     "Variable Name": [
       "HdWd_HIPAArevokesign_v1r0"
     ]
@@ -1440,7 +1440,7 @@
     ]
   },
   "154193084": {
-    "Variable Label": "Data Destruction among Verified",
+    "Variable Label": "Data Dest Among Verif",
     "Variable Name": [
       "SMMet_DDVerified_v1r0"
     ]
@@ -1479,9 +1479,8 @@
     "Variable Name": "2"
   },
   "156605577": {
-    "Variable Label": "Any clinical blood or urine sample received",
+    "Variable Label": "BL Any Clin Blood/Ur Rec",
     "Variable Name": [
-      "BioClin_AnyBldUrineRec_v1r0",
       "BioClin_AnyBldUrnRecBL_v1r0",
       "BioClin_AnyBldUrnRecF1_v1r0",
       "BioClin_AnyBldUrnRecF2_v1r0",
@@ -1585,13 +1584,13 @@
     ]
   },
   "161366008": {
-    "Variable Label": "Date of the start of suspend all contact",
+    "Variable Label": "Suspend Contact Start Date",
     "Variable Name": [
       "HdWd_SuspendDt_v1r0"
     ]
   },
   "161579135": {
-    "Variable Label": "Any Base Spec among Verified",
+    "Variable Label": "Any Base Spec Among Verified",
     "Variable Name": [
       "SMMet_SpecRRVerified_v1r0"
     ]
@@ -1624,13 +1623,13 @@
     ]
   },
   "163284008": {
-    "Variable Label": "I am worried that my information could be used to discriminate against me/my family",
+    "Variable Label": "Worried About Discrimination From Data",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_PrivacyJ"
     ]
   },
   "163534562": {
-    "Variable Label": "Worried the study might find something concerning about them",
+    "Variable Label": "Concerned Study Will Find Something Bad",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_concern"
     ]
@@ -1723,7 +1722,7 @@
     ]
   },
   "167958071": {
-    "Variable Label": "Baseline Urine Collected",
+    "Variable Label": "Base Ur Collected",
     "Variable Name": [
       "BioFin_BaseUrineCol_v1r0"
     ]
@@ -1867,7 +1866,7 @@
     ]
   },
   "174264982": {
-    "Variable Label": "Bag/Container/Thing 7",
+    "Variable Label": "Bag 7",
     "Variable Name": [
       "BioPack_Bag7_v1r0"
     ]
@@ -1888,7 +1887,7 @@
     ]
   },
   "175506524": {
-    "Variable Label": "Who requested HIPAA revocation",
+    "Variable Label": "HIPAA Rev Who Req",
     "Variable Name": [
       "HdWd_WhoHIPAARevoke_v1r0"
     ]
@@ -1900,7 +1899,7 @@
     ]
   },
   "175732191": {
-    "Variable Label": "Concerned about privacy",
+    "Variable Label": "Privacy Concerns",
     "Variable Name": [
       "HdRef_Privacy_v1r0"
     ]
@@ -1936,7 +1935,7 @@
     ]
   },
   "177402915": {
-    "Variable Label": "Connect research staff at my health care system",
+    "Variable Label": "Connect Staff at IHCS",
     "Variable Name": [
       "RcrtES_Aware_v1r0_Staff"
     ]
@@ -1971,7 +1970,7 @@
     "Variable Name": "How old were you when you had your gallbladder removed (cholecystectomy)?"
   },
   "178420302": {
-    "Variable Label": "Unavailable/Unknown",
+    "Variable Label": "Unavailable",
     "Variable Name": [
       "RCAOcc_UnknownCancer_v1r0",
       "SrvBOH_DontKnowRE_v1r0",
@@ -2028,7 +2027,7 @@
     ]
   },
   "180097038": {
-    "Variable Label": "GitHub/Survey Version for LAW",
+    "Variable Label": "LAW Surv Vers",
     "Variable Name": [
       "SrvLAW_SrvVersionLAW_v1r0"
     ]
@@ -2131,7 +2130,7 @@
     ]
   },
   "184451682": {
-    "Variable Label": "Date/Time first baseline blood order placed or baseline urine order placed",
+    "Variable Label": "BL D/T Base Blood/Ur Order",
     "Variable Name": [
       "BioClin_BldUrnPlcdTmBL_v1r0",
       "BioClin_BldUrnPlcdTmF1_v1r0",
@@ -2168,7 +2167,7 @@
     ]
   },
   "185243482": {
-    "Variable Label": "Blood Location ID",
+    "Variable Label": "BL Blood Location ID",
     "Variable Name": [
       "BioClin_SiteBldLocBL_v1r0",
       "BioClin_SiteBldLocF1_v1r0",
@@ -2218,7 +2217,7 @@
     "Variable Name": "In which season(s) did you downhill skiing or snowboarding? Select all that apply."
   },
   "187894482": {
-    "Variable Label": "Home voicemail",
+    "Variable Label": "Home VM",
     "Variable Name": [
       "RcrtUP_HomeVM_v1r0"
     ]
@@ -2230,7 +2229,7 @@
     ]
   },
   "188797763": {
-    "Variable Label": "Outreach required for Verification",
+    "Variable Label": "Outreach Required for Verif",
     "Variable Name": [
       "RcrtV_Outreach_v1r0"
     ]
@@ -2363,7 +2362,7 @@
     ]
   },
   "194410742": {
-    "Variable Label": "Refused baseline blood sample",
+    "Variable Label": "Ref Base Blood",
     "Variable Name": [
       "HdRef_Baseblood_v1r0"
     ]
@@ -2399,7 +2398,7 @@
     ]
   },
   "195145666": {
-    "Variable Label": "Date/Time mouthwash survey completed",
+    "Variable Label": "D/T MW Surv Sub",
     "Variable Name": [
       "SrvMtW_TmComplete_v1r0"
     ]
@@ -2441,13 +2440,13 @@
     ]
   },
   "196038514": {
-    "Variable Label": "Not interested",
+    "Variable Label": "Not Interested",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_inter"
     ]
   },
   "196856782": {
-    "Variable Label": "Physician or other health care staff",
+    "Variable Label": "Dr/Staff",
     "Variable Name": [
       "RcrtES_Aware_v1r0_Phys"
     ]
@@ -2486,7 +2485,7 @@
     ]
   },
   "198261154": {
-    "Variable Label": "Sent Clinical Urine accession ID",
+    "Variable Label": "BL Clin Ur Acc ID",
     "Variable Name": [
       "BioClin_SntUrineAccIDBL_v1r0",
       "BioClin_SntUrineAccIDF1_v1r0",
@@ -2546,7 +2545,7 @@
     ]
   },
   "200183516": {
-    "Variable Label": "Vials - Incorrect Material Type",
+    "Variable Label": "Vials - Incorrect Material",
     "Variable Name": [
       "BioBPTL_VialsIMT_v1r0"
     ]
@@ -2656,7 +2655,7 @@
     ]
   },
   "204002618": {
-    "Variable Label": "Time from consent to user profile",
+    "Variable Label": "Time Consent - UP",
     "Variable Name": [
       "RcrtCT_Cnst_UP_v1r0"
     ]
@@ -2692,7 +2691,7 @@
     ]
   },
   "205553981": {
-    "Variable Label": "Date/time Status of Start of Background and Overall Health",
+    "Variable Label": "D/T BOH Start",
     "Variable Name": [
       "SrvBOH_TmStart_v1r0"
     ]
@@ -2871,7 +2870,7 @@
     "Variable Name": "All"
   },
   "206879104": {
-    "Variable Label": "Connect website on Cancer.gov",
+    "Variable Label": "Connect Web",
     "Variable Name": [
       "RcrtES_Aware_v1r0_Web"
     ]
@@ -2901,7 +2900,7 @@
     "Variable Name": "2 to 3 times per month"
   },
   "208102461": {
-    "Variable Label": "I do not want my information shared with other researchers",
+    "Variable Label": "Don't Want Info Given To Other Rsrchrs",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_PrivacyF"
     ]
@@ -2928,7 +2927,7 @@
     "Variable Name": "Baseline Push"
   },
   "209509101": {
-    "Variable Label": "I think the study takes too much time/asks for too much",
+    "Variable Label": "Too Much Time/Asks For Too Much",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_time"
     ]
@@ -2961,7 +2960,7 @@
     "Variable Name": "Boxed"
   },
   "210921343": {
-    "Variable Label": "Clinical DB Urine RRL received",
+    "Variable Label": "BL Clin DB Ur RRL Rec",
     "Variable Name": [
       "BioClin_DBUrineRRLBL_v1r0",
       "BioClin_DBUrineRRLF1_v1r0",
@@ -2976,7 +2975,7 @@
     ]
   },
   "211023960": {
-    "Variable Label": "Does not want to be in a long-term study",
+    "Variable Label": "Not Interested In Long-Term Study",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_term"
     ]
@@ -3099,13 +3098,13 @@
     ]
   },
   "217367618": {
-    "Variable Label": "Baseline specimen surveys",
+    "Variable Label": "Base Spec Surv",
     "Variable Name": [
       "HdRef_BlSpecSrv_v1r0"
     ]
   },
   "217640691": {
-    "Variable Label": "Date/Time menstrual cycle survey completed",
+    "Variable Label": "D/T Mens Surv Sub",
     "Variable Name": [
       "SrvMC_TmComplete_v1r0"
     ]
@@ -3197,7 +3196,7 @@
     ]
   },
   "220186468": {
-    "Variable Label": "Flag for COVID-19 survey",
+    "Variable Label": "Flag COV Surv",
     "Variable Name": [
       "SrvCOV_BaseComplete_v1r0"
     ]
@@ -3209,7 +3208,7 @@
     ]
   },
   "220355297": {
-    "Variable Label": "GitHub/Survey Version for Biospecimen Clinical",
+    "Variable Label": "Biospec Clin Surv Vers",
     "Variable Name": [
       "SrvBio_SrvVersionBioC_v1r0"
     ]
@@ -3248,13 +3247,13 @@
     "Variable Name": "In which season(s) did you jog or run? Select all that apply."
   },
   "222161762": {
-    "Variable Label": "Date/Time blood/urine/mouthwash research survey completed",
+    "Variable Label": "D/T Sub B/U/MW Rsrch Surv",
     "Variable Name": [
       "SrvBLM_TmComplete_v1r0"
     ]
   },
   "222373868": {
-    "Variable Label": "NORC Payment Eligibility",
+    "Variable Label": "BL NORC Payment Elig",
     "Variable Name": [
       "SMPaym_NORCPaymEligBL_v1r0",
       "SMPaym_NORCPaymEligF1_v1r0",
@@ -3277,7 +3276,7 @@
     "Variable Name": "Some sun exposed areas"
   },
   "223999569": {
-    "Variable Label": "Biohazard Bag (mouthwash) ID",
+    "Variable Label": "Biohaz Bag (MW) ID",
     "Variable Name": [
       "BioCol_0009_v1r0"
     ]
@@ -3298,7 +3297,7 @@
     ]
   },
   "224596428": {
-    "Variable Label": "Clinical Site Urine RRL Date / Time Received",
+    "Variable Label": "BL Clin Site Ur RRL D/T Rec",
     "Variable Name": [
       "BioClin_SiteUrnRRLDtBL_v1r0",
       "BioClin_SiteUrnRRLDtF1_v1r0",
@@ -3358,7 +3357,7 @@
     ]
   },
   "227848247": {
-    "Variable Label": "GitHub/Survey Version for Biospecimen Research",
+    "Variable Label": "Biospec Rsrch Surv Vers",
     "Variable Name": [
       "SrvBio_SrvVersionBioR_v1r0"
     ]
@@ -3394,7 +3393,7 @@
     ]
   },
   "230663853": {
-    "Variable Label": "Signed-in",
+    "Variable Label": "Signed-In",
     "Variable Name": [
       "RcrtSI_SignedIn_v1r0"
     ]
@@ -3430,7 +3429,7 @@
     "Variable Name": "African American/Black"
   },
   "232343615": {
-    "Variable Label": "Serum Separator Tube 4",
+    "Variable Label": "Serum Sep T4",
     "Variable Name": [
       "BioCol_0012_v1r0"
     ]
@@ -3499,6 +3498,12 @@
   },
   "235613392": {
     "Variable Name": "Rarely"
+  },
+  "235683703": {
+    "Variable Label": "Bag 28",
+    "Variable Name": [
+      "BioPack_Bag28_v1r0"
+    ]
   },
   "235762633": {
     "Variable Name": "No, I want to enter another address (8th address)"
@@ -3609,7 +3614,7 @@
     "Variable Name": "Destroyed data"
   },
   "241590841": {
-    "Variable Label": "Health care system website",
+    "Variable Label": "IHCS Web",
     "Variable Name": [
       "RcrtES_Aware_v1r0_HCSite"
     ]
@@ -3639,7 +3644,7 @@
     ]
   },
   "242307474": {
-    "Variable Label": "SST1 Deviation- Hemolyzed",
+    "Variable Label": "SST1 Dev - Hemolyzed",
     "Variable Name": [
       "BioCol_Dev_v1r0_HemoSST1",
       "BioCol_Dev_v1r0_HemoSST2",
@@ -3652,7 +3657,7 @@
       "BioCol_Dev_v1r0_HemoEDTAT2",
       "BioCol_Dev_v1r0_HemoEDTAT3",
       "BioCol_Dev_v1r0_HemoACDT1",
-      "BioCol_Dev_v1r0_HemoMCDT1"
+      "BioCol_Dev_v1r0_HemoSTRT1"
     ]
   },
   "242761203": {
@@ -3843,7 +3848,7 @@
     "Variable Name": "ICD-O-3"
   },
   "253883960": {
-    "Variable Label": "Flag for blood/urine survey",
+    "Variable Label": "Flag Blood/Ur Surv",
     "Variable Name": [
       "SrvBlU_BaseComplete_v1r0"
     ]
@@ -3855,7 +3860,7 @@
     "Variable Name": "Water that was filtered using a filter like Brita or PUR in a pitcher or on a faucet"
   },
   "254109640": {
-    "Variable Label": "All baseline samples collected",
+    "Variable Label": "All Base Samp Collected",
     "Variable Name": [
       "SMMet_BLSamplesColl_v1r0"
     ]
@@ -3891,7 +3896,7 @@
     ]
   },
   "255283733": {
-    "Variable Label": "Orphan Bag/Container/Thing Flag",
+    "Variable Label": "Orphan Bag",
     "Variable Name": [
       "BioPack_OrphanBag_v1r0"
     ]
@@ -3981,7 +3986,7 @@
     ]
   },
   "258745303": {
-    "Variable Label": "Orphan tube- report missing",
+    "Variable Label": "Orphan Tube - Missing",
     "Variable Name": [
       "BioPack_OMissing_v1r0"
     ]
@@ -4015,7 +4020,7 @@
     ]
   },
   "260133861": {
-    "Variable Label": "Additional Notes (Optional)",
+    "Variable Label": "Addtl Notes",
     "Variable Name": [
       "BioRec_NoteOpt_v1r0"
     ]
@@ -4027,7 +4032,7 @@
     ]
   },
   "260703126": {
-    "Variable Label": "Refused MyChart Invitation",
+    "Variable Label": "Ref MyChart Invite",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_MyChart"
     ]
@@ -4205,13 +4210,13 @@
     "Variable Name": "In which season(s) you surf or bodyboard? Select all that apply."
   },
   "262357957": {
-    "Variable Label": "Date/time refused baseline saliva sample",
+    "Variable Label": "D/T Ref Base MW",
     "Variable Name": [
       "HdRef_DateBasesaliva_v1r0"
     ]
   },
   "262613359": {
-    "Variable Label": "Date/Time of HIPAA Authorization",
+    "Variable Label": "D/T HIPAA Auth",
     "Variable Name": [
       "RcrtCS_HIPAAAuthDt_v1r0"
     ]
@@ -4241,7 +4246,7 @@
     "Variable Name": "45 to 59 minutes"
   },
   "264644252": {
-    "Variable Label": "Date/time of Completion of Where You Live and Work",
+    "Variable Label": "D/T Base Mod LAW Sub",
     "Variable Name": [
       "SrvLAW_TmComplete_v1r0"
     ]
@@ -4259,7 +4264,7 @@
     ]
   },
   "265193023": {
-    "Variable Label": "Blood/urine/mouthwash combined research survey",
+    "Variable Label": "B/U/MW Rsrch Surv",
     "Variable Name": [
       "SrvBLM_ResSrvCompl_v1r0"
     ]
@@ -4298,7 +4303,7 @@
     ]
   },
   "266952173": {
-    "Variable Label": "Cancer Type",
+    "Variable Label": "Cx Type",
     "Variable Name": [
       "RcrtUP_CancerType_v1r0"
     ]
@@ -4332,7 +4337,7 @@
     ]
   },
   "268176409": {
-    "Variable Label": "Date/time Status of Start of COVID-19 survey",
+    "Variable Label": "D/T COV Surv Start",
     "Variable Name": [
       "SrvCOV_TmStart_v1r0"
     ]
@@ -4371,13 +4376,13 @@
     ]
   },
   "269050420": {
-    "Variable Label": "Date requested data destroyed",
+    "Variable Label": "Date Data Dest Req",
     "Variable Name": [
       "HdRef_DateDatadestroy_v1r0"
     ]
   },
   "269135515": {
-    "Variable Label": "All Base Survey Complete/ Wk",
+    "Variable Label": "All Base Surv/Wk",
     "Variable Name": [
       "SMMet_SrvComplPerWk_v1r0"
     ]
@@ -4419,7 +4424,7 @@
     "Variable Name": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Melanoma (skin) cancer?"
   },
   "271757434": {
-    "Variable Label": "Mobile voicemail",
+    "Variable Label": "Mobile VM",
     "Variable Name": [
       "RcrtUP_MobileVM_V1R0"
     ]
@@ -4548,7 +4553,7 @@
     "Variable Name": "Shipped"
   },
   "277479354": {
-    "Variable Label": "Refused baseline saliva sample",
+    "Variable Label": "Ref Base MW",
     "Variable Name": [
       "HdRef_Basesaliva_v1r0"
     ]
@@ -4681,7 +4686,7 @@
     ]
   },
   "283900611": {
-    "Variable Label": "SST1 Deviation - Mislabeled- Resolved",
+    "Variable Label": "SST1 Dev - Mislabeled - Resolved",
     "Variable Name": [
       "BioCol_Dev_v1r0_MislabRSST1",
       "BioCol_Dev_v1r0_MislabRSST2",
@@ -4694,7 +4699,7 @@
       "BioCol_Dev_v1r0_MislREDTAT2",
       "BioCol_Dev_v1r0_MislREDTAT3",
       "BioCol_Dev_v1r0_MislabRACDT1",
-      "BioCol_Dev_v1r0_MislabRMCDT1",
+      "BioCol_Dev_v1r0_MislabRSTRT1",
       "BioCol_Dev_v1r0_MislabelRUT1",
       "BioCol_Dev_v1r0_MislabRMWT1"
     ]
@@ -4721,7 +4726,7 @@
     ]
   },
   "285488731": {
-    "Variable Label": "I do not want my information shared with other researchers",
+    "Variable Label": "Don't Want Info Shared Wirh Rsrchrs",
     "Variable Name": [
       "HdRef_PrivacyD_v1r0"
     ]
@@ -4754,7 +4759,7 @@
     ]
   },
   "286191859": {
-    "Variable Label": "Date/time Status of Start of mouthwash survey",
+    "Variable Label": "D/T MW Surv Start",
     "Variable Name": [
       "SrvMtW_TmStart_v1r0"
     ]
@@ -4802,6 +4807,12 @@
   "288321056": {
     "Variable Name": "Married"
   },
+  "288387838": {
+    "Variable Label": "Bag 26",
+    "Variable Name": [
+      "BioPack_Bag26_v1r0"
+    ]
+  },
   "288498031": {
     "Variable Label": "City",
     "Variable Name": [
@@ -4821,7 +4832,7 @@
     ]
   },
   "289322354": {
-    "Variable Label": "Material Thawed",
+    "Variable Label": "Thawed",
     "Variable Name": [
       "BioBPTL_MaterialThaw_v1r0"
     ]
@@ -4833,7 +4844,7 @@
     ]
   },
   "289750687": {
-    "Variable Label": "Eligible for menstrual cycle survey flag",
+    "Variable Label": "Elig Mens Surv Flag",
     "Variable Name": [
       "SrvMC_MenstSrvElig_v1r0"
     ]
@@ -4972,13 +4983,13 @@
     ]
   },
   "297147359": {
-    "Variable Label": "Who requested the Refusal",
+    "Variable Label": "Ref/Wd Who Req",
     "Variable Name": [
       "HdWd_WhoRequestedRef_v1r0"
     ]
   },
   "297462035": {
-    "Variable Label": "Date/Time payment given to participant",
+    "Variable Label": "BL D/T Payment Issued",
     "Variable Name": [
       "HDPaym_TmPaymBL_v1r0",
       "HDPaym_TmPaymF1_v1r0",
@@ -5002,7 +5013,7 @@
     "Variable Name": "Blood/Urine/Mouthwash"
   },
   "299274441": {
-    "Variable Label": "Who withdrew consent",
+    "Variable Label": "Withdraw Consent - Who",
     "Variable Name": [
       "HdWd_WhoWdrewConsent_v1r0"
     ]
@@ -5021,7 +5032,7 @@
     ]
   },
   "299553921": {
-    "Variable Label": "Serum Separator Tube 1",
+    "Variable Label": "Serum Sep T1",
     "Variable Name": [
       "BioCol_0001_v1r0"
     ]
@@ -5077,6 +5088,12 @@
   "301414575": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had clinical depression?"
   },
+  "301569492": {
+    "Variable Label": "Bag 39",
+    "Variable Name": [
+      "BioPack_Bag39_v1r0"
+    ]
+  },
   "301679110": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Diabetes?"
   },
@@ -5122,7 +5139,7 @@
     ]
   },
   "304438543": {
-    "Variable Label": "Data Destruction Form Version",
+    "Variable Label": "Data Dest Vers",
     "Variable Name": [
       "HdWd_DestroyDataVer_v1r0"
     ]
@@ -5203,7 +5220,7 @@
     ]
   },
   "308012361": {
-    "Variable Label": "Box tracking number manually typed (one for each box)",
+    "Variable Label": "Tracking N Typed",
     "Variable Name": [
       "BioPack_TrackEnter1_v1r0"
     ]
@@ -5231,7 +5248,7 @@
     "Variable Name": "Neutral"
   },
   "309413330": {
-    "Variable Label": "Bag/Container/Thing 12",
+    "Variable Label": "Bag 12",
     "Variable Name": [
       "BioPack_Bag12_v1r0"
     ]
@@ -5267,7 +5284,7 @@
     ]
   },
   "311580100": {
-    "Variable Label": "Full Social Security Number Given",
+    "Variable Label": "Full SSN",
     "Variable Name": [
       "SrvSS_SSN_Given_v1r0"
     ]
@@ -5291,7 +5308,7 @@
     "Variable Name": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had cancer?"
   },
   "313097539": {
-    "Variable Label": "SST1 Deviation - Outside of tube  contaminated",
+    "Variable Label": "SST1 Dev - Outside of Tube  Contaminated",
     "Variable Name": [
       "BioCol_Dev_v1r0_OutContSST1",
       "BioCol_Dev_v1r0_OutContSST2",
@@ -5304,13 +5321,13 @@
       "BioCol_Dev_v1r0_OutConEDTAT2",
       "BioCol_Dev_v1r0_OutConEDTAT3",
       "BioCol_Dev_v1r0_OutContACDT1",
-      "BioCol_Dev_v1r0_OutContMCDT1",
+      "BioCol_Dev_v1r0_OutContSTRT1",
       "BioCol_Dev_v1r0_OutContamUT1",
       "BioCol_Dev_v1r0_OutContMWT1"
     ]
   },
   "313341808": {
-    "Variable Label": "Bag/Container/Thing 4",
+    "Variable Label": "Bag 4",
     "Variable Name": [
       "BioPack_Bag4_v1r0"
     ]
@@ -5352,7 +5369,7 @@
     "Variable Name": "More than 2 years ago"
   },
   "315032037": {
-    "Variable Label": "Date/Time SSN Survey completed",
+    "Variable Label": "D/T Sub SSN Surv",
     "Variable Name": [
       "SrvSS_TmComplete_v1r0"
     ]
@@ -5370,7 +5387,7 @@
     ]
   },
   "315971997": {
-    "Variable Label": "Cumul All Base Surveys",
+    "Variable Label": "Cumul All Base Surv",
     "Variable Name": [
       "SMMet_CumulativeBLSrv_v1r0"
     ]
@@ -5379,7 +5396,7 @@
     "Variable Name": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had Lung or bronchial cancer?"
   },
   "316824786": {
-    "Variable Label": "Any specimen collected at RRL",
+    "Variable Label": "BL Any Spec Coll RRL",
     "Variable Name": [
       "BioClin_AnySpecRRLBL_v1r0",
       "BioClin_AnySpecRRLF1_v1r0",
@@ -5458,7 +5475,7 @@
     ]
   },
   "320023644": {
-    "Variable Label": "Case Number",
+    "Variable Label": "BL Case N",
     "Variable Name": [
       "HDPaym_CaseNumberBL_v1r0",
       "HDPaym_CaseNumberF1_v1r0",
@@ -5551,7 +5568,7 @@
     ]
   },
   "326825649": {
-    "Variable Label": "Another Connect participant",
+    "Variable Label": "Another Participant",
     "Variable Name": [
       "RcrtES_Aware_v1r0_Member"
     ]
@@ -5594,7 +5611,7 @@
     "Variable Name": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Liver cancer?"
   },
   "331787113": {
-    "Variable Label": "I do not want to provide information online",
+    "Variable Label": "Against Giving Info Online",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_PrivacyA"
     ]
@@ -5621,7 +5638,7 @@
     ]
   },
   "333524031": {
-    "Variable Label": "Shipment Received - Site Shipment",
+    "Variable Label": "Shipment Rec",
     "Variable Name": [
       "BioBPTL_ShipRec_v1r0"
     ]
@@ -5659,6 +5676,12 @@
       "SrvBOH_DadAgeNum_v1r0"
     ]
   },
+  "335054951": {
+    "Variable Label": "Bag 27",
+    "Variable Name": [
+      "BioPack_Bag27_v1r0"
+    ]
+  },
   "335218615": {
     "Variable Label": "Days commute, commute to past work",
     "Variable Name": [
@@ -5678,7 +5701,7 @@
     ]
   },
   "335767902": {
-    "Variable Label": "Time first sign-in occurred",
+    "Variable Label": "Time First Sign-In",
     "Variable Name": [
       "RcrtSI_SignTime_v1r0"
     ]
@@ -5737,13 +5760,13 @@
     ]
   },
   "338286049": {
-    "Variable Label": "SST1 Not Collected Details (Optional)",
+    "Variable Label": "SST1 Not Collected Details",
     "Variable Name": [
       "BioCol_NotColNotes_v1r0_SST1",
       "BioCol_NotColNotes_v1r0_SST2",
       "BioCol_NotColNotes_v1r0_SST3",
       "BioCol_NCNotes_v1r0_ACDT1",
-      "BioCol_NCNotes_v1r0_MCDT1",
+      "BioCol_NCNotes_v1r0_STRT1",
       "BioCol_NotCollNotes_v1r0_UT1",
       "BioCol_NotColNotes_v1r0_MWT1"
     ]
@@ -5806,7 +5829,7 @@
     ]
   },
   "341570479": {
-    "Variable Label": "Sent Clinical Blood accession ID",
+    "Variable Label": "BL Clin Blood Acc ID",
     "Variable Name": [
       "BioClin_SntBloodAccIDBL_v1r0",
       "BioClin_SntBloodAccIDF1_v1r0",
@@ -5815,7 +5838,7 @@
     ]
   },
   "341636034": {
-    "Variable Label": "Autogenerated date/time kit requested",
+    "Variable Label": "D/T kit requested",
     "Variable Name": [
       "BioKit_KitDatePend_v1r0"
     ]
@@ -5836,7 +5859,7 @@
     ]
   },
   "343048998": {
-    "Variable Label": "Time check out complete",
+    "Variable Label": "BL Time Check Out Done",
     "Variable Name": [
       "BioFin_CheckOutTmBL_v1r0",
       "BioFin_CheckOutTmF1_v1r0",
@@ -5881,7 +5904,7 @@
     ]
   },
   "345545422": {
-    "Variable Label": "Date of case ID (operational variable for date of dx)",
+    "Variable Label": "Cancer Date",
     "Variable Name": [
       "RCAOcc_CancerDt_v1r0"
     ]
@@ -5899,7 +5922,7 @@
     ]
   },
   "347614743": {
-    "Variable Label": "Too many contacts from the study",
+    "Variable Label": "Too Many Contacts",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_contacts"
     ]
@@ -5923,7 +5946,7 @@
     "Variable Name": "Screening appointment"
   },
   "348474836": {
-    "Variable Label": "Account phone",
+    "Variable Label": "Phone",
     "Variable Name": [
       "phoneNumber"
     ]
@@ -5991,7 +6014,7 @@
     ]
   },
   "351360037": {
-    "Variable Label": "Verified/ Wk",
+    "Variable Label": "Verif/wk",
     "Variable Name": [
       "SMMet_VerifPerWk_v1r0"
     ]
@@ -6027,7 +6050,7 @@
     ]
   },
   "352891568": {
-    "Variable Label": "I do not like to do things online",
+    "Variable Label": "Don't Like Things Online",
     "Variable Name": [
       "HdRef_DislikeOnline_v1r0"
     ]
@@ -6039,7 +6062,7 @@
     ]
   },
   "352996056": {
-    "Variable Label": "Refused all future samples",
+    "Variable Label": "Ref All Fut Samp",
     "Variable Name": [
       "HdRef_Allsample_v1r0"
     ]
@@ -6142,7 +6165,7 @@
     "Variable Name": "Email"
   },
   "357218702": {
-    "Variable Label": "Bag/Container/Thing 13",
+    "Variable Label": "Bag 13",
     "Variable Name": [
       "BioPack_Bag13_v1r0"
     ]
@@ -6177,7 +6200,7 @@
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Testicular cancer?"
   },
   "359404406": {
-    "Variable Label": "Signed data destruction request",
+    "Variable Label": "Signed Data Dest Req",
     "Variable Name": [
       "HdWd_Datadestroysign_v1r0"
     ]
@@ -6207,7 +6230,7 @@
     "Variable Name": "American Indian or Alaska Native- Which categories describe you? Select all that apply. Note, you may select more than one group."
   },
   "363026564": {
-    "Variable Label": "Does not want to give biospecimen samples",
+    "Variable Label": "Not Interested In Giving Samples",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_samples"
     ]
@@ -6234,7 +6257,7 @@
     ]
   },
   "364983714": {
-    "Variable Label": "RR = Verfied/ Invited",
+    "Variable Label": "RR Verif/Invited",
     "Variable Name": [
       "SMMet_ResponseRatio_v1r0"
     ]
@@ -6271,7 +6294,7 @@
     ]
   },
   "366295286": {
-    "Variable Label": "Who Requested the Refusal/Withdrawal- Other (specify):",
+    "Variable Label": "Ref/Wd Who Req - Oth",
     "Variable Name": [
       "HdWd_RequestedRefWdOth_v1r0"
     ]
@@ -6402,7 +6425,7 @@
     ]
   },
   "371067537": {
-    "Variable Label": "Date of Birth",
+    "Variable Label": "DOB",
     "Variable Name": [
       "RcrtUP_DOB_v1r0"
     ]
@@ -6417,13 +6440,13 @@
     "Variable Name": "Very Easy"
   },
   "371303487": {
-    "Variable Label": "Update User Profile Time Stamp",
+    "Variable Label": "Update UP Time",
     "Variable Name": [
       "RcrtUP_UPUpdateTm_v1r0"
     ]
   },
   "371456538": {
-    "Variable Label": "Invited/ Wk",
+    "Variable Label": "Invited/Wk",
     "Variable Name": [
       "SMMet_InvitationPerWk_v1r0"
     ]
@@ -6456,7 +6479,7 @@
     ]
   },
   "372303208": {
-    "Variable Label": "I am worried that my information will be used by others to make a profit",
+    "Variable Label": "Worried Others Will Profit From My Data",
     "Variable Name": [
       "HdRef_PrivacyI_v1r0"
     ]
@@ -6516,7 +6539,7 @@
     ]
   },
   "376309404": {
-    "Variable Label": "Cumul Invited",
+    "Variable Label": "Cumul Invite",
     "Variable Name": [
       "SMMet_CumulInivit_v1r0"
     ]
@@ -6531,7 +6554,7 @@
     ]
   },
   "376960806": {
-    "Variable Label": "Serum Separator Tube 3",
+    "Variable Label": "Serum Sep T3",
     "Variable Name": [
       "BioCol_0011_v1r0"
     ]
@@ -6543,7 +6566,7 @@
     ]
   },
   "377633816": {
-    "Variable Label": "Does not want to participate in research",
+    "Variable Label": "Not Interested In Rsch",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_partic"
     ]
@@ -6582,7 +6605,7 @@
     ]
   },
   "379080287": {
-    "Variable Label": "PIN entered",
+    "Variable Label": "Pin Entered",
     "Variable Name": [
       "RcrtES_PIN_v1r0"
     ]
@@ -6646,7 +6669,7 @@
     ]
   },
   "381509125": {
-    "Variable Label": "I do not want to provide access to medical history information or diagnoses",
+    "Variable Label": "Against Giving Med Hx Info or Dx",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_PrivacyC"
     ]
@@ -6704,7 +6727,7 @@
     "Variable Name": "Medium"
   },
   "385385861": {
-    "Variable Label": "Cumul Completed All Partic Study Activities",
+    "Variable Label": "Cumul Completed All Activities",
     "Variable Name": [
       "SMMet_CumulComplSA_v1r0"
     ]
@@ -6740,7 +6763,7 @@
     ]
   },
   "386488297": {
-    "Variable Label": "Date/time Status of Start of Smoking, Alcohol, and Sun Exposure",
+    "Variable Label": "D/T Base Mod SAS Start",
     "Variable Name": [
       "SrvSAS_TmStart_v1r0"
     ]
@@ -6770,13 +6793,13 @@
     ]
   },
   "387108065": {
-    "Variable Label": "Collection ID Manually Entered",
+    "Variable Label": "Collection ID Manual Entry",
     "Variable Name": [
       "BioSpm_ColIDEntered_v1r0"
     ]
   },
   "387198193": {
-    "Variable Label": "I am worried that my information will be used by others to make a profit",
+    "Variable Label": "Worried Others Will Profit From My Data",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_PrivacyK"
     ]
@@ -6815,7 +6838,7 @@
     "Variable Name": "Private well or spring"
   },
   "388711124": {
-    "Variable Label": "Mobile phone",
+    "Variable Label": "Mobile Phone",
     "Variable Name": [
       "RcrtUP_Mobile_v1r0"
     ]
@@ -6838,7 +6861,7 @@
     ]
   },
   "390198398": {
-    "Variable Label": "Date/time refused baseline blood sample",
+    "Variable Label": "D/T Base Blood",
     "Variable Name": [
       "HdRef_DateBaseblood_v1r0"
     ]
@@ -6854,6 +6877,12 @@
     "Variable Label": "State/Province",
     "Variable Name": [
       "SrvLAW_State6_v1r0"
+    ]
+  },
+  "390934489": {
+    "Variable Label": "Bag 29",
+    "Variable Name": [
+      "BioPack_Bag29_v1r0"
     ]
   },
   "390941579": {
@@ -6997,7 +7026,7 @@
     ]
   },
   "398645039": {
-    "Variable Label": "Clinical DB blood RRL Date/Time Received",
+    "Variable Label": "BL Clin DB Blood RRL D/T Rec",
     "Variable Name": [
       "BioClin_DBBloodRRLDtBL_v1r0",
       "BioClin_DBBloodRRLDtF1_v1r0",
@@ -7045,7 +7074,7 @@
     "Variable Name": "No, I want to enter another address (4th address)"
   },
   "400259098": {
-    "Variable Label": "I am concerned about COVID-19",
+    "Variable Label": "COV Concerns",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_Covid"
     ]
@@ -7117,7 +7146,7 @@
     ]
   },
   "404289911": {
-    "Variable Label": "Participant is incarcerated",
+    "Variable Label": "Part Incarcerated",
     "Variable Name": [
       "HdRef_Incarcerated_v1r0"
     ]
@@ -7157,13 +7186,13 @@
     "Variable Name": "Transgender Man"
   },
   "405352246": {
-    "Variable Label": "Compensation to participate is not high enough",
+    "Variable Label": "Compensation Too Low",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_comp"
     ]
   },
   "405513630": {
-    "Variable Label": "Cold Packs - none",
+    "Variable Label": "Cold Packs - None",
     "Variable Name": [
       "BioBPTL_ColdPackNone_v1r0"
     ]
@@ -7248,7 +7277,7 @@
     ]
   },
   "407743866": {
-    "Variable Label": "HIPAA Revocation Version",
+    "Variable Label": "HIPAA Rev Vers",
     "Variable Name": [
       "HdWd_HIPAArevokedver_v1r0"
     ]
@@ -7269,7 +7298,7 @@
     "Variable Name": "More than 2 years to 3 years"
   },
   "410912345": {
-    "Variable Label": "Collection Entry Finalized",
+    "Variable Label": "Collection Entry Final",
     "Variable Name": [
       "BioRec_CollectFinal_v1r0"
     ]
@@ -7311,7 +7340,7 @@
     ]
   },
   "412000022": {
-    "Variable Label": "HIPAA Version",
+    "Variable Label": "HIPAA Vers",
     "Variable Name": [
       "RcrtCS_HIPAAVer_v1r0"
     ]
@@ -7400,6 +7429,12 @@
       "SrvSAS_THCServing3039_v1r1"
     ]
   },
+  "417623038": {
+    "Variable Label": "Bag 34",
+    "Variable Name": [
+      "BioPack_Bag34_v1r0"
+    ]
+  },
   "417633823": {
     "Variable Name": "Easy"
   },
@@ -7480,7 +7515,7 @@
     ]
   },
   "421823980": {
-    "Variable Label": "Account Email",
+    "Variable Label": "Email",
     "Variable Name": [
       "email"
     ]
@@ -7554,7 +7589,7 @@
     ]
   },
   "424306855": {
-    "Variable Label": "Participant is fully enrolled",
+    "Variable Label": "Part Fully Enrolled",
     "Variable Name": [
       "SMMet_FullyEnrolled_v1r0"
     ]
@@ -7679,7 +7714,7 @@
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Pancreatitis?"
   },
   "430551721": {
-    "Variable Label": "Time User Profile submitted",
+    "Variable Label": "Time UP Sub",
     "Variable Name": [
       "RcrtUP_SubmitTime_v1r0"
     ]
@@ -7693,7 +7728,7 @@
     ]
   },
   "431428747": {
-    "Variable Label": "I am too sick/my health is too poor to participate",
+    "Variable Label": "Too Sick",
     "Variable Name": [
       "HdRef_Sick_v1r0"
     ]
@@ -7799,13 +7834,13 @@
     ]
   },
   "435027713": {
-    "Variable Label": "Sanford and Henry Ford reported sex",
+    "Variable Label": "SF/HFH Sex",
     "Variable Name": [
       "RcrtSI_SH_HFHS_Sex_v1r0"
     ]
   },
   "435636852": {
-    "Variable Label": "Cumul Data Destruction",
+    "Variable Label": "Cumul Data Dest",
     "Variable Name": [
       "SMMet_CumulativeDD_v1r0"
     ]
@@ -7814,7 +7849,7 @@
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or hay fever?"
   },
   "436503027": {
-    "Variable Label": "Any Base Spec/ Wk",
+    "Variable Label": "Any Base Spec/Wk",
     "Variable Name": [
       "SMMet_SpecimenPerWk_v1r0"
     ]
@@ -7844,7 +7879,7 @@
     ]
   },
   "438636757": {
-    "Variable Label": "Date/Time payment refused",
+    "Variable Label": "BL D/T Payment Ref",
     "Variable Name": [
       "HDPaym_TmRefusedBL_v1r0",
       "HDPaym_TmRefusedF1_v1r0",
@@ -7853,7 +7888,7 @@
     ]
   },
   "438643922": {
-    "Variable Label": "Home phone",
+    "Variable Label": "Home Phone",
     "Variable Name": [
       "RcrtUP_Home_v1r0"
     ]
@@ -7893,7 +7928,7 @@
     ]
   },
   "440351122": {
-    "Variable Label": "Too many technical problems with MyConnect",
+    "Variable Label": "Technical Problems",
     "Variable Name": [
       "HdRef_TechPrblms_v1r0"
     ]
@@ -7955,7 +7990,7 @@
     "Variable Name": "In which season(s) did you do these moderate outdoor chores (such as weeding, raking, or mowing the lawn)? Select all that apply."
   },
   "442166669": {
-    "Variable Label": "Address line 2",
+    "Variable Label": "Address Line 2",
     "Variable Name": [
       "RcrtUP_AddressLn2_v1r0"
     ]
@@ -7985,7 +8020,7 @@
     ]
   },
   "444699761": {
-    "Variable Label": "Automated verification",
+    "Variable Label": "Auto Verif",
     "Variable Name": [
       "RcrtV_Automated_v1r0"
     ]
@@ -8039,7 +8074,7 @@
     "Variable Name": "Moderate hair loss on the sides of the forehead, as far back as the middle of the ears. Also, moderate baldness on the top (crown) of the head. The two areas of hair loss are separated by a thin strip of hair that goes across the top of the head."
   },
   "446995300": {
-    "Variable Label": "Bag/Container/Thing 18",
+    "Variable Label": "Bag 18",
     "Variable Name": [
       "BioPack_Bag18_v1r0"
     ]
@@ -8051,7 +8086,7 @@
     ]
   },
   "447051482": {
-    "Variable Label": "Social Security Number",
+    "Variable Label": "SSN",
     "Variable Name": [
       "SrvSS_SSN_v1r0"
     ]
@@ -8078,7 +8113,7 @@
     ]
   },
   "448660695": {
-    "Variable Label": "Date/time Mouthwash Collected",
+    "Variable Label": "BL D/T MW Collected",
     "Variable Name": [
       "BioFin_BMTimeBL_v1r0",
       "BioFin_BMTimeF1_v1r0",
@@ -8176,7 +8211,7 @@
     ]
   },
   "451953807": {
-    "Variable Label": "Any refusal or withdrawal",
+    "Variable Label": "Any Ref/Wd",
     "Variable Name": [
       "HdRef_AnyRefOrWd_v1r0"
     ]
@@ -8197,7 +8232,7 @@
     ]
   },
   "452166062": {
-    "Variable Label": "Previous Cancer",
+    "Variable Label": "Prev Cx",
     "Variable Name": [
       "RcrtUP_Cancer_v1r0"
     ]
@@ -8213,7 +8248,7 @@
     ]
   },
   "452847912": {
-    "Variable Label": "Urine Location ID",
+    "Variable Label": "BL Ur Location ID",
     "Variable Name": [
       "BioClin_SiteUrLocatBL_v1r0",
       "BioClin_SiteUrLocatF1_v1r0",
@@ -8222,7 +8257,7 @@
     ]
   },
   "452942800": {
-    "Variable Label": "Date/time Status of Start of Where You Live and Work",
+    "Variable Label": "D/T Base Mod LAW Start",
     "Variable Name": [
       "SrvLAW_TmStart_v1r0"
     ]
@@ -8246,7 +8281,7 @@
     "Variable Name": "Completion Time"
   },
   "453019049": {
-    "Variable Label": "All Base Surveys among Verified",
+    "Variable Label": "All Base Surv Among Verif",
     "Variable Name": [
       "SMMet_SrvRRVerified_v1r0"
     ]
@@ -8264,13 +8299,15 @@
     ]
   },
   "453343022": {
-    "Variable Label": "SST1 Deviation- Other",
+    "Variable Label": "SST1 Dev - Oth",
     "Variable Name": [
       "BioCol_Dev_v1r0_OtherSST1",
       "BioCol_Dev_v1r0_OtherSST2",
       "BioCol_Dev_v1r0_OtherSST3",
+      "BioCol_Dev_v1r0_OtherSST4",
+      "BioCol_Dev_v1r0_OtherSST5",
       "BioCol_Dev_v1r0_OtherACDT1",
-      "BioCol_Dev_v1r0_OtherMCDT1",
+      "BioCol_Dev_v1r0_OtherSTRT1",
       "BioCol_Dev_v1r0_OtherUT1",
       "BioCol_Dev_v1r0_OtherMWT1"
     ]
@@ -8282,7 +8319,7 @@
     ]
   },
   "453452655": {
-    "Variable Label": "Clinical Site Urine RRL Received",
+    "Variable Label": "BL Clin Site Ur RRL Rec",
     "Variable Name": [
       "BioClin_SiteUrineRRLBL_v1r0",
       "BioClin_SiteUrineRRLF1_v1r0",
@@ -8309,25 +8346,25 @@
     ]
   },
   "454067894": {
-    "Variable Label": "Date/Time Full Social Security number submitted",
+    "Variable Label": "D/T Full SSN Sub",
     "Variable Name": [
       "SrvSS_SSNTime_v1r0"
     ]
   },
   "454205108": {
-    "Variable Label": "Consent Version",
+    "Variable Label": "Consent Vers",
     "Variable Name": [
       "RcrtCS_Version_v1r0"
     ]
   },
   "454445267": {
-    "Variable Label": "Time consent submitted",
+    "Variable Label": "Consent Sub Time",
     "Variable Name": [
       "RcrtCS_ConsentSumit_v1r0"
     ]
   },
   "454453939": {
-    "Variable Label": "EDTA Tube 1",
+    "Variable Label": "EDTA T1",
     "Variable Name": [
       "BioCol_0004_v1r0"
     ]
@@ -8356,11 +8393,17 @@
       "SrvLAW_Zip3_v1r0"
     ]
   },
+  "456471969": {
+    "Variable Label": "Bag 25",
+    "Variable Name": [
+      "BioPack_Bag25_v1r0"
+    ]
+  },
   "456806539": {
     "Variable Name": "Letter with PIN"
   },
   "457270069": {
-    "Variable Label": "Preliminary cancer stage",
+    "Variable Label": "Prelim Cx Stage",
     "Variable Name": [
       "RCAOcc_PrelimCancStg_v1r0"
     ]
@@ -8372,7 +8415,7 @@
     ]
   },
   "457532784": {
-    "Variable Label": "Who withdrew consent- Other (specify):",
+    "Variable Label": "Withdraw Consent - Oth",
     "Variable Name": [
       "HdWd_ReqWdrewConsent_v1r0"
     ]
@@ -8411,7 +8454,7 @@
     ]
   },
   "459098666": {
-    "Variable Label": "Flag for menstrual cycle survey",
+    "Variable Label": "Flag Mens Surv",
     "Variable Name": [
       "SrvMC_BaseComplete_v1r0"
     ]
@@ -8445,7 +8488,7 @@
     "Variable Name": "Less than 1 year ago"
   },
   "461488577": {
-    "Variable Label": "Email or text invitation",
+    "Variable Label": "Email/Text Invite",
     "Variable Name": [
       "RcrtES_Aware_v1r0_Email"
     ]
@@ -8457,7 +8500,7 @@
     ]
   },
   "462314689": {
-    "Variable Label": "Other",
+    "Variable Label": "Oth",
     "Variable Name": [
       "RcrtES_Aware_v1r0_Other"
     ]
@@ -8499,7 +8542,7 @@
     ]
   },
   "463625040": {
-    "Variable Label": "Time from account to social security",
+    "Variable Label": "Time Acct - SSN",
     "Variable Name": [
       "SrvSS_Acct_SSN_v1r0"
     ]
@@ -8704,7 +8747,7 @@
     ]
   },
   "471593703": {
-    "Variable Label": "Time recruitment type assigned",
+    "Variable Label": "Time Recruit Type Assigned",
     "Variable Name": [
       "RcrtSI_TypeTime_v1r0"
     ]
@@ -8722,7 +8765,7 @@
     ]
   },
   "472864016": {
-    "Variable Label": "SST1 Deviation- Broken",
+    "Variable Label": "SST1 Dev- Broken",
     "Variable Name": [
       "BioCol_Dev_v1r0_BrokenSST1",
       "BioCol_Dev_v1r0_BrokenSST2",
@@ -8735,7 +8778,7 @@
       "BioCol_Dev_v1r0_BrokenEDTAT2",
       "BioCol_Dev_v1r0_BrokenEDTAT3",
       "BioCol_Dev_v1r0_BrokenACDT1",
-      "BioCol_Dev_v1r0_BrokenMCDT1",
+      "BioCol_Dev_v1r0_BrokenSTRT1",
       "BioCol_Dev_v1r0_BrokenUT1",
       "BioCol_Dev_v1r0_BrokenMWT1"
     ]
@@ -8801,7 +8844,7 @@
     ]
   },
   "477091792": {
-    "Variable Label": "IHCS Membership Status",
+    "Variable Label": "IHCS Member Status",
     "Variable Name": [
       "RcrtSI_MemberStat_v1r0"
     ]
@@ -8966,7 +9009,7 @@
     "Variable Name": "More than a month ago, but in the past year"
   },
   "484173165": {
-    "Variable Label": "Withdrawn among Verfied",
+    "Variable Label": "Withdrawn Among Verif",
     "Variable Name": [
       "SMMet_WithdrawalVer_v1r0"
     ]
@@ -8978,7 +9021,7 @@
     ]
   },
   "484832642": {
-    "Variable Label": "Incentive Eligible among Invited",
+    "Variable Label": "Incentive Elig Among Invited",
     "Variable Name": [
       "SMMet_IncentEligRRInv_v1r0"
     ]
@@ -9050,7 +9093,7 @@
     "Variable Name": "Have you taken any of these medications in the past month? If so, please share the last time you took each type of medication before donating your samples. If you are not sure of an answer, please make your best guess"
   },
   "487917585": {
-    "Variable Label": "Non-melanoma skin (basal or squamous)",
+    "Variable Label": "Non-melanoma Skin",
     "Variable Name": [
       "RCAOcc_NonMelanoma_v1r0",
       "SrvBOH_MNMSkinCancer_v1r0",
@@ -9092,7 +9135,7 @@
     "Variable Name": "River East"
   },
   "489400183": {
-    "Variable Label": "Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.)",
+    "Variable Label": "Head/Neck",
     "Variable Name": [
       "RCAOcc_HeadNeckCancer_v1r0",
       "SrvBOH_MHeadNeckCancer_v1r0",
@@ -9123,7 +9166,7 @@
     "Variable Name": "Not at all flexible"
   },
   "491099823": {
-    "Variable Label": "I do not have reliable access to the internet/a device",
+    "Variable Label": "Unreliable Internet/Device",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_access"
     ]
@@ -9165,7 +9208,7 @@
     ]
   },
   "492881559": {
-    "Variable Label": "Bag/Container/Thing 10",
+    "Variable Label": "Bag 10",
     "Variable Name": [
       "BioPack_Bag10_v1r0"
     ]
@@ -9183,7 +9226,7 @@
     ]
   },
   "492983562": {
-    "Variable Label": "Account UserID",
+    "Variable Label": "UserID",
     "Variable Name": [
       "uid"
     ]
@@ -9245,7 +9288,7 @@
     ]
   },
   "494982282": {
-    "Variable Label": "Cancer Comments",
+    "Variable Label": "Cx Comments",
     "Variable Name": [
       "RcrtUP_CancerComts_v1r0"
     ]
@@ -9320,7 +9363,7 @@
     "Variable Name": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had prostate cancer?"
   },
   "496935183": {
-    "Variable Label": "Too sick/poor health to join",
+    "Variable Label": "Too Sick",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_health"
     ]
@@ -9338,7 +9381,7 @@
     "Variable Name": "Receipt Summary/Finalize Collection Data Entry"
   },
   "497530905": {
-    "Variable Label": "I do not trust the government",
+    "Variable Label": "Don't Trust Gov",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_PrivacyD"
     ]
@@ -9417,7 +9460,7 @@
     ]
   },
   "503046679": {
-    "Variable Label": "Bag/Container/Thing 3",
+    "Variable Label": "Bag 3",
     "Variable Name": [
       "BioPack_Bag3_v1r0"
     ]
@@ -9459,7 +9502,7 @@
     ]
   },
   "505347689": {
-    "Variable Label": "STRECK Tube 1",
+    "Variable Label": "STRECK T2",
     "Variable Name": [
       "BioCol_0060_v1r0"
     ]
@@ -9615,7 +9658,7 @@
     "Variable Name": "Non-Member IHCS Patient"
   },
   "512820379": {
-    "Variable Label": "Recruitment type",
+    "Variable Label": "Recruit Type",
     "Variable Name": [
       "RcrtSI_RecruitType_v1r0"
     ]
@@ -9689,7 +9732,7 @@
     ]
   },
   "517101990": {
-    "Variable Label": "Concerned about Privacy",
+    "Variable Label": "Privacy Concerns",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_priv"
     ]
@@ -9701,7 +9744,7 @@
     "Variable Name": "Which of these breast surgeries have you had? Please do not include a biopsy. Select all that apply."
   },
   "517311251": {
-    "Variable Label": "Date/time Status of Completion of Background and Overall Health",
+    "Variable Label": "D/T BOH Sub",
     "Variable Name": [
       "SrvBOH_TmComplete_v1r0"
     ]
@@ -9777,7 +9820,7 @@
     ]
   },
   "520301146": {
-    "Variable Label": "Local news, television, or radio station",
+    "Variable Label": "Local News/TV/Radio",
     "Variable Name": [
       "RcrtES_Aware_v1r0_TV"
     ]
@@ -9796,7 +9839,7 @@
     ]
   },
   "520462703": {
-    "Variable Label": "Cumul Incentive Eligible",
+    "Variable Label": "Cumul Incentive Elig",
     "Variable Name": [
       "SMMet_CumulIncentElig_v1r0"
     ]
@@ -9818,7 +9861,7 @@
     "Variable Name": "Shipping - Feedback"
   },
   "521025370": {
-    "Variable Label": "Time Stamp for when study ID is submitted by the site",
+    "Variable Label": "Time Study ID Sumbitted",
     "Variable Name": [
       "RcrtSI_TimeStamp_v1r0"
     ]
@@ -9833,7 +9876,7 @@
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Ovarian cancer?"
   },
   "521824358": {
-    "Variable Label": "Address line 1",
+    "Variable Label": "Address Line 1",
     "Variable Name": [
       "RcrtUP_AddressLn1_v1r0"
     ]
@@ -9852,7 +9895,7 @@
     ]
   },
   "522094118": {
-    "Variable Label": "Orphan Bag/Container Scan",
+    "Variable Label": "Orphan Bag Scan",
     "Variable Name": [
       "BioPack_BagScan_v1r0"
     ]
@@ -9886,7 +9929,7 @@
     ]
   },
   "523768810": {
-    "Variable Label": "Worried about receiving results from the study",
+    "Variable Label": "Worried About Study Results",
     "Variable Name": [
       "HdRef_WorriedResults_v1r0"
     ]
@@ -9917,13 +9960,13 @@
     ]
   },
   "524352591": {
-    "Variable Label": "Who requested data destruction",
+    "Variable Label": "Data Dest Who Req",
     "Variable Name": [
       "HdWd_WhoDataDestruct_v1r0"
     ]
   },
   "524461170": {
-    "Variable Label": "Preferred contact method",
+    "Variable Label": "Pref Contact",
     "Variable Name": [
       "RcrtUP_PrefMethod_v1r0"
     ]
@@ -9977,7 +10020,7 @@
     ]
   },
   "525972260": {
-    "Variable Label": "Yes/No Cancer Flag",
+    "Variable Label": "Cancer Diagnosis",
     "Variable Name": [
       "RCAOper_CancerFlag_v1r0"
     ]
@@ -9992,7 +10035,7 @@
     ]
   },
   "526455436": {
-    "Variable Label": "Baseline blood is refused and baseline urine is refused",
+    "Variable Label": "BL Blood/Ur Ref",
     "Variable Name": [
       "BioClin_BldAndUrnRef_v1r0"
     ]
@@ -10026,7 +10069,7 @@
     ]
   },
   "527823810": {
-    "Variable Label": "Henry Ford Health System Reported Ethnicity",
+    "Variable Label": "HFH Eth",
     "Variable Name": [
       "RcrtSI_HFHSEthnicity_v1r0"
     ]
@@ -10061,7 +10104,7 @@
     ]
   },
   "530173840": {
-    "Variable Label": "Blood Order Placed",
+    "Variable Label": "BL Blood Order",
     "Variable Name": [
       "BioClin_BldOrderPlcdBL_v1r0",
       "BioClin_BldOrderPlcdF1_v1r0",
@@ -10106,7 +10149,7 @@
     ]
   },
   "531858099": {
-    "Variable Label": "Supply Kit USPS/FedEx Tracking Number for outbound mouthwash supply kit",
+    "Variable Label": "Supply Kit Tracking Number",
     "Variable Name": [
       "BioKit_SupplyKitTrack_v1r0"
     ]
@@ -10173,7 +10216,7 @@
     "Variable Name": "How old were you when you had one or both ovaries removed (oophorectomy)? If you have had more than one procedure, at what age did you last have this procedure?"
   },
   "534041351": {
-    "Variable Label": "Clinical DB Blood RRL Received",
+    "Variable Label": "BL Clin DB Blood RRL Rec",
     "Variable Name": [
       "BioClin_DBBloodRRLBL_v1r0",
       "BioClin_DBBloodRRLF1_v1r0",
@@ -10191,7 +10234,7 @@
     "Variable Name": "Research"
   },
   "534669573": {
-    "Variable Label": "Date/time Status of Start of blood/urine survey",
+    "Variable Label": "D/T Blood/Ur Survey Start",
     "Variable Name": [
       "SrvBlU_TmStart_v1r0"
     ]
@@ -10257,7 +10300,7 @@
     ]
   },
   "535928798": {
-    "Variable Label": "Not able to complete study activities online",
+    "Variable Label": "Unable To Do Activites Online",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_able"
     ]
@@ -10284,25 +10327,25 @@
     ]
   },
   "536710547": {
-    "Variable Label": "SST1 Deviation Details",
+    "Variable Label": "SST1 Dev Details",
     "Variable Name": [
       "BioCol_DevNotes_v1r0_SST1",
       "BioCol_DevNotes_v1r0_SST2",
       "BioCol_DevNotes_v1r0_SST3",
       "BioCol_DevNotes_v1r0_ACDT1",
-      "BioCol_DevNotes_v1r0_MCDT1",
+      "BioCol_DevNotes_v1r0_STRT1",
       "BioCol_DevNotes_v1r0_UT1",
       "BioCol_DevNotes_v1r0_MWT1"
     ]
   },
   "536728814": {
-    "Variable Label": "Bag/Container/Thing 11",
+    "Variable Label": "Bag 11",
     "Variable Name": [
       "BioPack_Bag11_v1r0"
     ]
   },
   "536735468": {
-    "Variable Label": "Flag for Baseline Module Medications, Reproductive Health, Exercise and Sleep",
+    "Variable Label": "Flag Base Mod Meds, Repro, Health, Exer, and Sleep",
     "Variable Name": [
       "SrvMRE_BaseStatus_v1r0"
     ]
@@ -10344,7 +10387,7 @@
     ]
   },
   "538553381": {
-    "Variable Label": "Sanford Health Reported Ethnicity",
+    "Variable Label": "SF Eth",
     "Variable Name": [
       "RcrtSI_SHEthnicity_v1r0"
     ]
@@ -10386,7 +10429,7 @@
     "Variable Name": "Mostly feminine"
   },
   "541311218": {
-    "Variable Label": "Clinical DB urine RRL Date/Time received",
+    "Variable Label": "BL Clin DB Ur RRL D/T Rec",
     "Variable Name": [
       "BioClin_DBUrineRRLDtBL_v1r0",
       "BioClin_DBUrineRRLDtF1_v1r0",
@@ -10407,7 +10450,7 @@
     ]
   },
   "541836531": {
-    "Variable Label": "Date/time Status of Start of Medications, Reproductive Health, Exercise, and Sleep",
+    "Variable Label": "D/T Base Mod MRE Start",
     "Variable Name": [
       "SrvMRE_TmStart_v1r0"
     ]
@@ -10440,7 +10483,7 @@
     ]
   },
   "543608829": {
-    "Variable Label": "Polyaccession ID- Blood",
+    "Variable Label": "BL Polyacc ID - Blood",
     "Variable Name": [
       "BioClin_PolyBloodIDBL_v1r0",
       "BioClin_PolyBloodIDBLF1_v1r0",
@@ -10455,7 +10498,7 @@
     "Variable Name": "Have you ever used any of these hormonal medications or devices? Select all that apply."
   },
   "544150384": {
-    "Variable Label": "Birth Year",
+    "Variable Label": "DOB Yr",
     "Variable Name": [
       "RcrtUP_YOB_v1r0"
     ]
@@ -10500,7 +10543,7 @@
     ]
   },
   "547363263": {
-    "Variable Label": "Flag for mouthwash survey",
+    "Variable Label": "Flag MW Surv",
     "Variable Name": [
       "SrvMtW_BaseComplete_v1r0"
     ]
@@ -10515,7 +10558,7 @@
     "Variable Name": "In the past 12 months have you experienced any of the following? Check all that apply."
   },
   "547895941": {
-    "Variable Label": "Cancer Status Match",
+    "Variable Label": "Cx Status Match",
     "Variable Name": [
       "RcrtV_CStatusMatch_v1r0"
     ]
@@ -10563,7 +10606,7 @@
     "Variable Name": "2 glasses"
   },
   "549687190": {
-    "Variable Label": "Family or friend",
+    "Variable Label": "Family/Friend",
     "Variable Name": [
       "RcrtES_Aware_v1r0_Family"
     ]
@@ -10575,7 +10618,7 @@
     ]
   },
   "550020510": {
-    "Variable Label": "Bag/Container/Thing 8",
+    "Variable Label": "Ba 8",
     "Variable Name": [
       "BioPack_Bag8_v1r0"
     ]
@@ -10584,7 +10627,7 @@
     "Variable Name": "How old were you when you had your appendix removed (appendectomy)?"
   },
   "550088682": {
-    "Variable Label": "SST1 Deviation-Improper temperature - too low/frozen",
+    "Variable Label": "SST1 Dev - Temp Too Low",
     "Variable Name": [
       "BioCol_Dev_v1r0_TempLSST1",
       "BioCol_Dev_v1r0_TempLSST2",
@@ -10597,7 +10640,7 @@
       "BioCol_Dev_v1r0_TempLEDTAT2",
       "BioCol_Dev_v1r0_TempLEDTAT3",
       "BioCol_Dev_v1r0_TempLACDT1",
-      "BioCol_Dev_v1r0_TempLMCDT1",
+      "BioCol_Dev_v1r0_TempLSTRT1",
       "BioCol_Dev_v1r0_TempLUT1"
     ]
   },
@@ -10720,7 +10763,7 @@
     ]
   },
   "555611076": {
-    "Variable Label": "Autogenerated date/time when box last modified (bag added or removed)",
+    "Variable Label": "D/T Box Added/Removed",
     "Variable Name": [
       "BioPack_ModifiedTime_v1r0"
     ]
@@ -10747,7 +10790,7 @@
     ]
   },
   "556788178": {
-    "Variable Label": "Date/Time Collection Entry Finalized",
+    "Variable Label": "D/T Collection Entry Final",
     "Variable Name": [
       "BioRec_CollectFinalTime_v1r0"
     ]
@@ -10783,7 +10826,7 @@
     ]
   },
   "558435199": {
-    "Variable Label": "HIPAA Authorization",
+    "Variable Label": "HIPAA Auth",
     "Variable Name": [
       "RcrtCS_HIPAAAuth_v1r0"
     ]
@@ -10801,7 +10844,7 @@
     ]
   },
   "558917383": {
-    "Variable Label": "Follow-up Eligible",
+    "Variable Label": "F/U Elig",
     "Variable Name": [
       "SMMet_AvailForFollowUp_v1r0"
     ]
@@ -10831,7 +10874,7 @@
     ]
   },
   "559534463": {
-    "Variable Label": "Zip code Match",
+    "Variable Label": "Zip Match",
     "Variable Name": [
       "RcrtV_ZipMatch_v1r0"
     ]
@@ -10861,13 +10904,13 @@
     ]
   },
   "560975149": {
-    "Variable Label": "Location ID, site specific",
+    "Variable Label": "Site Location ID",
     "Variable Name": [
       "BioShip_LocalID_v1r0"
     ]
   },
   "561005927": {
-    "Variable Label": "SST1 Deviation- Centrifuge - Improper speed/force setting used (too low)",
+    "Variable Label": "SST1 Dev - Centrifuge - Speed Too Low",
     "Variable Name": [
       "BioCol_Dev_v1r0_SpeedLSST1",
       "BioCol_Dev_v1r0_SpeedLSST2",
@@ -10883,7 +10926,7 @@
     ]
   },
   "561681068": {
-    "Variable Label": "Date/time Research Blood Collected",
+    "Variable Label": "BL D/T Rsrch Blood Collected",
     "Variable Name": [
       "BioFin_ResearchBldTmBL_v1r0",
       "BioFin_ResearchBldTmF1_v1r0",
@@ -10910,6 +10953,12 @@
     "Variable Label": "Total amount of time used electronic marijuana delivery devices per day when daily user",
     "Variable Name": [
       "SrvSAS_TotTmEMJDaily_v1r0"
+    ]
+  },
+  "563435337": {
+    "Variable Label": "Bag 21",
+    "Variable Name": [
+      "BioPack_Bag21_v1r0"
     ]
   },
   "563539159": {
@@ -10971,7 +11020,7 @@
     ]
   },
   "564964481": {
-    "Variable Label": "Birth Month",
+    "Variable Label": "DOB Month",
     "Variable Name": [
       "RcrtUP_MOB_v1r0"
     ]
@@ -10992,13 +11041,13 @@
     "Variable Name": "Very good"
   },
   "566047367": {
-    "Variable Label": "I have other privacy concerns",
+    "Variable Label": "Oth Privacy Concerns",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_PrivacyL"
     ]
   },
   "566565527": {
-    "Variable Label": "Avaiable Survey Count",
+    "Variable Label": "Avail Survey Count",
     "Variable Name": [
       "SrvAll_SurveyCt_v1r0"
     ]
@@ -11034,7 +11083,7 @@
     ]
   },
   "569151507": {
-    "Variable Label": "User Profile History",
+    "Variable Label": "UP Hx",
     "Variable Name": [
       "RcrtUP_UPHistory_v1r0"
     ]
@@ -11175,7 +11224,7 @@
     "Variable Name": "Too little time"
   },
   "576083042": {
-    "Variable Label": "I think the payment or benefit to participant is not great enough",
+    "Variable Label": "Incentive Too Low",
     "Variable Name": [
       "HdRef_Payment_v1r0"
     ]
@@ -11220,7 +11269,7 @@
     ]
   },
   "577794331": {
-    "Variable Label": "HIPAA Revocation Categorical",
+    "Variable Label": "HIPAA Rev Category",
     "Variable Name": [
       "HdWd_HIPAARevokedCat_v1r0"
     ]
@@ -11277,7 +11326,7 @@
     ]
   },
   "579618065": {
-    "Variable Label": "I am worried my information will not be secure or there will be a data breach",
+    "Variable Label": "Worried Info Not Secure",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_PrivacyG"
     ]
@@ -11536,7 +11585,7 @@
     ]
   },
   "589588440": {
-    "Variable Label": "Serum Separator Tube 5",
+    "Variable Label": "Serum Sep T5",
     "Variable Name": [
       "BioCol_0021_v1r0"
     ]
@@ -11610,7 +11659,7 @@
     ]
   },
   "592099155": {
-    "Variable Label": "Blood Collection Setting",
+    "Variable Label": "Blood Collection Setting BL",
     "Variable Name": [
       "BioSpm_BloodSettingBL_v1r0",
       "BioSpm_BloodSettingF1_v1r0",
@@ -11665,7 +11714,7 @@
       "BioCol_ObjCollect_v1r0_SST2",
       "BioCol_ObjCollect_v1r0_SST3",
       "BioCol_ObjCollect_v1r0_ACDT1",
-      "BioCol_ObjCollect_v1r0_MCDT1",
+      "BioCol_ObjCollect_v1r0_STRT1",
       "BioCol_ObjCollected_v1r0_UT1",
       "BioCol_ObjCollect_v1r0_MWT1",
       "BioCol_ObjCollect_v1r0_BioMW",
@@ -11691,7 +11740,7 @@
     "Variable Name": "Less than once per month"
   },
   "595987358": {
-    "Variable Label": "Cold Packs - warm",
+    "Variable Label": "Cold Packs - Warm",
     "Variable Name": [
       "BioBPTL_ColdPackWarm_v1r0"
     ]
@@ -11722,7 +11771,7 @@
     "Variable Name": "What is the name and the street address of the workplace that you commute to most often?"
   },
   "596510649": {
-    "Variable Label": "I am worried my information is not secure or there will be a data breach",
+    "Variable Label": "Worried Info Not Secure",
     "Variable Name": [
       "HdRef_PrivacyE_v1r0"
     ]
@@ -11765,7 +11814,7 @@
     ]
   },
   "598680838": {
-    "Variable Label": "Date/Time Partial Social Security number submitted",
+    "Variable Label": "D/T Part SSN Sub",
     "Variable Name": [
       "SrvSS_SSN4dTime_v1r0"
     ]
@@ -11777,7 +11826,7 @@
     ]
   },
   "599128909": {
-    "Variable Label": "Primary cancer site ICD",
+    "Variable Label": "Primary Cx ICD",
     "Variable Name": [
       "RCAOcc_CancSiteICD_v1r0"
     ]
@@ -11848,7 +11897,7 @@
     ]
   },
   "603278289": {
-    "Variable Label": "Who requested refusal of all future activities",
+    "Variable Label": "Ref All Fut Activities Who Req",
     "Variable Name": [
       "HdWd_WhoAllActivity_v1r0"
     ]
@@ -11922,7 +11971,7 @@
     ]
   },
   "607081902": {
-    "Variable Label": "Invitation through my patient portal (such as MyChart)",
+    "Variable Label": "Patient Portal Invite",
     "Variable Name": [
       "RcrtES_Aware_v1r0_Invite"
     ]
@@ -11940,7 +11989,7 @@
     ]
   },
   "607793249": {
-    "Variable Label": "Leukemia (blood and bone marrow)",
+    "Variable Label": "Leukemia",
     "Variable Name": [
       "RCAOcc_Leukemia_v1r0",
       "SrvBOH_MLeukemia_v1r0",
@@ -11953,7 +12002,7 @@
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had brain cancer?"
   },
   "611005658": {
-    "Variable Label": "Profile Change Requested by",
+    "Variable Label": "Who Req Prof Change",
     "Variable Name": [
       "RcrtUP_UPChangeReqBy_v1r0"
     ]
@@ -11989,7 +12038,7 @@
     "Variable Name": "Seasonal Address 8- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select: I still spend time here."
   },
   "613641698": {
-    "Variable Label": "Date HIPAA revocation signed",
+    "Variable Label": "Date HIPAA Rev Signed",
     "Variable Name": [
       "HdWd_DateHIPAArevsign_v1r0"
     ]
@@ -12013,7 +12062,7 @@
     ]
   },
   "614264509": {
-    "Variable Label": "Date refused all future participation",
+    "Variable Label": "Date Ref All Fut Participation",
     "Variable Name": [
       "HdWd_DateActivepart_v1r0"
     ]
@@ -12126,7 +12175,7 @@
     ]
   },
   "620696506": {
-    "Variable Label": "I am not able to complete the study activities online",
+    "Variable Label": "Unable to Complete Online Activities",
     "Variable Name": [
       "HdRef_Online_v1r0"
     ]
@@ -12232,7 +12281,7 @@
     "Variable Name": "In total, how many months or years have you used oral estrogen-only medication?"
   },
   "624030581": {
-    "Variable Label": "I do not trust research/researchers",
+    "Variable Label": "Don't Trust Rsrchrs",
     "Variable Name": [
       "HdRef_PrivacyC_v1r0"
     ]
@@ -12286,7 +12335,7 @@
     ]
   },
   "627995442": {
-    "Variable Label": "I do not trust research/researchers",
+    "Variable Label": "Don't Trust Rsrch",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_PrivacyE"
     ]
@@ -12325,7 +12374,7 @@
     ]
   },
   "628939958": {
-    "Variable Label": "GitHub/Survey Version for SSN",
+    "Variable Label": "SSN Surv Vers",
     "Variable Name": [
       "SrvSS_SrvVersionSSN_v1r0"
     ]
@@ -12372,6 +12421,9 @@
       "SrvScr_BLDOV3_v1r0"
     ]
   },
+  "631272782": {
+    "Variable Name": "35-39"
+  },
   "631290535": {
     "Variable Label": "Vials - Empty",
     "Variable Name": [
@@ -12385,7 +12437,7 @@
     ]
   },
   "631412891": {
-    "Variable Label": "Any Base Spec among Invited",
+    "Variable Label": "Any Base Spec Among Invited",
     "Variable Name": [
       "SMMet_SpecRRInvited_v1r0"
     ]
@@ -12446,7 +12498,7 @@
     ]
   },
   "635101039": {
-    "Variable Label": "Additional email 2",
+    "Variable Label": "Addtl Email 2",
     "Variable Name": [
       "RcrtUP_Email2_v1r0"
     ]
@@ -12461,7 +12513,7 @@
     "Variable Name": "In which season(s) did you play golf? Select all that apply."
   },
   "635875253": {
-    "Variable Label": "SST1 Deviation- Failed/broken gel layer",
+    "Variable Label": "SST1 Dev - Broken Gel",
     "Variable Name": [
       "BioCol_Dev_v1r0_GelSST1",
       "BioCol_Dev_v1r0_GelSST2",
@@ -12515,7 +12567,7 @@
     ]
   },
   "637147033": {
-    "Variable Label": "I am concerned about providing information online",
+    "Variable Label": "Concerned About Info Online",
     "Variable Name": [
       "HdRef_Concerned_v1r0"
     ]
@@ -12561,7 +12613,7 @@
     ]
   },
   "639172801": {
-    "Variable Label": "I am worried the study might find something concerning about me",
+    "Variable Label": "Worried Study Will Find Something Bad",
     "Variable Name": [
       "HdRef_Worried_v1r0"
     ]
@@ -12573,7 +12625,7 @@
     ]
   },
   "639721694": {
-    "Variable Label": "Phone call invitation",
+    "Variable Label": "Phone Invite",
     "Variable Name": [
       "RcrtES_Aware_v1r0_Phone"
     ]
@@ -12641,7 +12693,7 @@
     ]
   },
   "642287621": {
-    "Variable Label": "Social media post (on Facebook, Twitter, Instagram, or other channels)",
+    "Variable Label": "Social Media Post",
     "Variable Name": [
       "RcrtES_Aware_v1r0_Social"
     ]
@@ -12753,7 +12805,7 @@
     ]
   },
   "646899796": {
-    "Variable Label": "Dashboard clinical Blood Accession ID",
+    "Variable Label": "Dsbd Clin Blood Acc ID",
     "Variable Name": [
       "BioClin_DBBloodID_v1r0"
     ]
@@ -12789,7 +12841,7 @@
     "Variable Name": "Variant B"
   },
   "648228701": {
-    "Variable Label": "Payment refused",
+    "Variable Label": "BL Payment Ref",
     "Variable Name": [
       "HDPaym_PaymRefusedBL_v1r0",
       "HDPaym_PaymRefusedF1_v1r0",
@@ -12807,7 +12859,7 @@
     ]
   },
   "648550593": {
-    "Variable Label": "Analysis Eligible",
+    "Variable Label": "Analysis Elig",
     "Variable Name": [
       "SMMet_AvailForAnalysis_v1r0"
     ]
@@ -12822,7 +12874,7 @@
     ]
   },
   "648936790": {
-    "Variable Label": "Payment issued",
+    "Variable Label": "BL Payment issued",
     "Variable Name": [
       "HDPaym_PaymIssuedBL_v1r1",
       "HDPaym_PaymIssuedF1_v1r1",
@@ -12870,7 +12922,7 @@
     ]
   },
   "650224161": {
-    "Variable Label": "Bag/Container/Thing 1",
+    "Variable Label": "Bag 1",
     "Variable Name": [
       "BioPack_Bag1_v1r0"
     ]
@@ -12906,13 +12958,13 @@
     ]
   },
   "650597106": {
-    "Variable Label": "Cancer Year",
+    "Variable Label": "Cx Yr",
     "Variable Name": [
       "RcrtUP_CancerYr_v1r0"
     ]
   },
   "651014336": {
-    "Variable Label": "Baseline survey not complete",
+    "Variable Label": "Base Surv Incomplete",
     "Variable Name": [
       "SrvMsg_AnyLeft_v1r0"
     ]
@@ -12930,7 +12982,7 @@
     ]
   },
   "652357376": {
-    "Variable Label": "ACD Tube 1",
+    "Variable Label": "ACD T2",
     "Variable Name": [
       "BioCol_0005_v1r0"
     ]
@@ -12978,7 +13030,7 @@
     "Variable Name": "On [the nights before workdays/most nights], how long does it usually take you to fall asleep?"
   },
   "654002184": {
-    "Variable Label": "SST1 Deviation- Centrifuge - improper time of spinning (too long)",
+    "Variable Label": "SST1 Dev - Centrifuge - Spin Too Long",
     "Variable Name": [
       "BioCol_Dev_v1r0_TimeLSST1",
       "BioCol_Dev_v1r0_TimeLSST2",
@@ -13043,7 +13095,7 @@
     ]
   },
   "656548982": {
-    "Variable Label": "Autogenerated date/time stamp for submit shipment time",
+    "Variable Label": "D/T Submit Shipment",
     "Variable Name": [
       "BioShip_ShipTime_v1r0"
     ]
@@ -13061,7 +13113,7 @@
     "Variable Name": "Sanford Health"
   },
   "657475009": {
-    "Variable Label": "Autogenerated date/time for refused baseline specimen surveys",
+    "Variable Label": "D/T Ref Base Spec Surv",
     "Variable Name": [
       "HdRef_BlSpecSrvDt_v1r0"
     ]
@@ -13144,7 +13196,7 @@
     ]
   },
   "659990606": {
-    "Variable Label": "Date withdrew consent",
+    "Variable Label": "Date Withdrew Consent",
     "Variable Name": [
       "HdWd_WdConsentDt_v1r0"
     ]
@@ -13189,7 +13241,7 @@
     "Variable Name": "Moderna"
   },
   "661940160": {
-    "Variable Label": "Autogenerated date/time kit shipped",
+    "Variable Label": "D/T kit shipped",
     "Variable Name": [
       "BioKit_KitShipTm_v1r0"
     ]
@@ -13220,7 +13272,7 @@
     ]
   },
   "663265240": {
-    "Variable Label": "Flag for Baseline Module Where You Live and Work",
+    "Variable Label": "Flag Base Mod LAW",
     "Variable Name": [
       "SrvLAW_BaseStatus_v1r0"
     ]
@@ -13247,7 +13299,7 @@
     ]
   },
   "664453818": {
-    "Variable Label": "Date requested to revoke HIPAA authorization",
+    "Variable Label": "Date HIPAA Rev Req",
     "Variable Name": [
       "HdRef_DateHIPAArevoked_v1r0"
     ]
@@ -13271,7 +13323,7 @@
     "Variable Name": "Clinical"
   },
   "665036297": {
-    "Variable Label": "Non-Hodgkin's lymphoma",
+    "Variable Label": "Non-Hodgkin's Lymphoma",
     "Variable Name": [
       "RCAOcc_NHLymphoma_v1r0",
       "SrvBOH_MNHLymphoma_v1r0",
@@ -13332,7 +13384,7 @@
     "Variable Name": "A few days per year"
   },
   "667474224": {
-    "Variable Label": "Campaign Type",
+    "Variable Label": "Campaign",
     "Variable Name": [
       "RcrtSI_CampaignType_v1r0"
     ]
@@ -13347,7 +13399,7 @@
     "Variable Name": "Two"
   },
   "668816010": {
-    "Variable Label": "Bag/Container/Thing 5",
+    "Variable Label": "Bag 5",
     "Variable Name": [
       "BioPack_Bag5_v1r0"
     ]
@@ -13374,6 +13426,12 @@
     "Variable Label": "Commuter rail, subway, metro commute from current work",
     "Variable Name": [
       "SrvLAW_CurWorkMetro2_v1r0"
+    ]
+  },
+  "669598671": {
+    "Variable Label": "Bag 31",
+    "Variable Name": [
+      "BioPack_Bag31_v1r0"
     ]
   },
   "669977999": {
@@ -13428,7 +13486,7 @@
     "Variable Name": "Not long enough - I want to answer more questions"
   },
   "672401635": {
-    "Variable Label": "Date/time stamp upon date entry of the form when the deceased date data was submitted",
+    "Variable Label": "D/T Deceased Data Sub",
     "Variable Name": [
       "HdWd_DeceasedDtEntry_v1r0"
     ]
@@ -13440,7 +13498,7 @@
     ]
   },
   "672863981": {
-    "Variable Label": "Autogenerated date/time when first bag added to box",
+    "Variable Label": "D/T 1st Bag to Box",
     "Variable Name": [
       "BioPack_BoxStrtTime_v1r0"
     ]
@@ -13452,7 +13510,7 @@
     ]
   },
   "673090642": {
-    "Variable Label": "Bag/Container/Thing 9",
+    "Variable Label": "Bag 9",
     "Variable Name": [
       "BioPack_Bag9_v1r0"
     ]
@@ -13551,7 +13609,7 @@
     ]
   },
   "677469051": {
-    "Variable Label": "EDTA Tube 2",
+    "Variable Label": "EDTA T2",
     "Variable Name": [
       "BioCol_0014_v1r0"
     ]
@@ -13581,13 +13639,13 @@
     ]
   },
   "678166505": {
-    "Variable Label": "Collection Date/Time",
+    "Variable Label": "Collection D/T",
     "Variable Name": [
       "BioCol_ColTime_v1r0"
     ]
   },
   "678483571": {
-    "Variable Label": "Damaged Container (outer and/or inner)",
+    "Variable Label": "Damaged Container",
     "Variable Name": [
       "BioBPTL_DamagedCont_v1r0"
     ]
@@ -13596,13 +13654,13 @@
     "Variable Name": "I still live here"
   },
   "678857215": {
-    "Variable Label": "SST1 Deviation",
+    "Variable Label": "SST1 Dev",
     "Variable Name": [
       "BioCol_Deviation_v1r0_SST1",
       "BioCol_Deviation_v1r0_SST2",
       "BioCol_Deviation_v1r0_SST3",
       "BioCol_Deviation_v1r0_ACDT1",
-      "BioCol_Deviation_v1r0_MCDT1",
+      "BioCol_Deviation_v1r0_STRT1",
       "BioCol_Deviation_v1r0_UT1",
       "BioCol_Deviation_v1r0_MWT1"
     ]
@@ -13625,7 +13683,7 @@
     "Variable Name": "Thinking about the one-way trip from [insert address from PREWORK1 - PREWORK3/this address] to your home on a usual workday, about how much time did you usually spend in each type of transportation?"
   },
   "679749262": {
-    "Variable Label": "Package in good condition",
+    "Variable Label": "Package in Good Condition",
     "Variable Name": [
       "BioBPTL_PkgGoodCond_v1r0"
     ]
@@ -13694,7 +13752,7 @@
     "Variable Name": "More than 15 hours per day"
   },
   "683613884": {
-    "Variable Label": "EDTA Tube 3",
+    "Variable Label": "EDTA T3",
     "Variable Name": [
       "BioCol_0024_v1r0"
     ]
@@ -13729,7 +13787,7 @@
     ]
   },
   "684617815": {
-    "Variable Label": "SST1 Deviation - Mislabeled- discard",
+    "Variable Label": "SST1 Dev - Mislabeled - Discard",
     "Variable Name": [
       "BioCol_Dev_v1r0_MislabDSST1",
       "BioCol_Dev_v1r0_MislabDSST2",
@@ -13742,13 +13800,13 @@
       "BioCol_Dev_v1r0_MislDEDTAT2",
       "BioCol_Dev_v1r0_MislDEDTAT3",
       "BioCol_Dev_v1r0_MislabDACDT1",
-      "BioCol_Dev_v1r0_MislabDMCDT1",
+      "BioCol_Dev_v1r0_MislabDSTRT1",
       "BioCol_Dev_v1r0_MislabelDUT1",
       "BioCol_Dev_v1r0_MislabDMWT1"
     ]
   },
   "684635302": {
-    "Variable Label": "Baseline Mouthwash Collected",
+    "Variable Label": "Base MW Collected",
     "Variable Name": [
       "BioFin_BaseMouthCol_v1r0"
     ]
@@ -13757,7 +13815,7 @@
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Head and neck (Including cancers of the mouth, sinuses, nose, or throat. Not including brain or skin cancers.) cancer?"
   },
   "684726272": {
-    "Variable Label": "Health care system newsletter",
+    "Variable Label": "IHCS Newsletter",
     "Variable Name": [
       "RcrtES_Aware_v1r0_HCNews"
     ]
@@ -13766,7 +13824,7 @@
     "Variable Name": "I do not commute to work"
   },
   "684926335": {
-    "Variable Label": "Henry Ford Health System Reported Race",
+    "Variable Label": "HFH Race",
     "Variable Name": [
       "RcrtSI_HFHSRace_v1r0"
     ]
@@ -13788,6 +13846,12 @@
   },
   "685735916": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Gonorrhea?"
+  },
+  "685888031": {
+    "Variable Label": "Bag 40",
+    "Variable Name": [
+      "BioPack_Bag40_v1r0"
+    ]
   },
   "686172464": {
     "Variable Label": "Years past job",
@@ -13838,7 +13902,7 @@
     "Variable Name": "Yes, I completed some of the sections, but not all sections"
   },
   "687158491": {
-    "Variable Label": "Unique Kit Assembled ID",
+    "Variable Label": "Kit Assembled ID",
     "Variable Name": [
       "BioKit_KitAssembledID_v1r0"
     ]
@@ -13911,7 +13975,7 @@
     ]
   },
   "690540566": {
-    "Variable Label": "SST1 Deviation- Improper temperature - too high",
+    "Variable Label": "SST1 Dev - Temp Too High",
     "Variable Name": [
       "BioCol_Dev_v1r0_TempHSST1",
       "BioCol_Dev_v1r0_TempHSST2",
@@ -13924,7 +13988,7 @@
       "BioCol_Dev_v1r0_TempHEDTAT2",
       "BioCol_Dev_v1r0_TempHEDTAT3",
       "BioCol_Dev_v1r0_TempHACDT1",
-      "BioCol_Dev_v1r0_TempHMCDT1",
+      "BioCol_Dev_v1r0_TempHSTRT1",
       "BioCol_Dev_v1r0_TempHUT1"
     ]
   },
@@ -14009,7 +14073,7 @@
     "Variable Name": "Less than once per week"
   },
   "693370086": {
-    "Variable Label": "Clinical Site Blood Collected",
+    "Variable Label": "BL Clin Site Blood Coll",
     "Variable Name": [
       "BioClin_SiteBloodCollBL_v1r0",
       "BioClin_SiteBloodCollF1_v1r0",
@@ -14095,7 +14159,7 @@
     ]
   },
   "697256759": {
-    "Variable Label": "Date/time for pre-consent opt-out",
+    "Variable Label": "D/T Pre-consent Opt-out",
     "Variable Name": [
       "RcrtSI_OptOutTm_v1r0"
     ]
@@ -14156,9 +14220,15 @@
     ]
   },
   "699625233": {
-    "Variable Label": "User Profile submitted",
+    "Variable Label": "UP Sub",
     "Variable Name": [
       "RcrtUP_Submitted_v1r0"
+    ]
+  },
+  "699864022": {
+    "Variable Label": "Bag 32",
+    "Variable Name": [
+      "BioPack_Bag32_v1r0"
     ]
   },
   "700080862": {
@@ -14225,7 +14295,7 @@
     "Variable Name": "Seasonal Address 10- In general, how many months per year did you spend at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]?"
   },
   "702433259": {
-    "Variable Label": "I am worried about data being given to my insurance company/effects on insurance (health, life, other)",
+    "Variable Label": "Worried Ins Will Get Data",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_PrivacyH"
     ]
@@ -14272,7 +14342,7 @@
     ]
   },
   "703954371": {
-    "Variable Label": "Serum Separator Tube 2",
+    "Variable Label": "Serum Sep T2",
     "Variable Name": [
       "BioCol_0002_v1r0"
     ]
@@ -14314,7 +14384,7 @@
     ]
   },
   "705732561": {
-    "Variable Label": "I do not want to complete surveys",
+    "Variable Label": "Don't Want To Do Suvryes",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_PrivacyB"
     ]
@@ -14332,7 +14402,7 @@
     ]
   },
   "706256705": {
-    "Variable Label": "Site reported sex",
+    "Variable Label": "Site Sex",
     "Variable Name": [
       "RcrtSI_Sex_v1r0"
     ]
@@ -14444,7 +14514,7 @@
     ]
   },
   "711256590": {
-    "Variable Label": "Date/time refused all future samples",
+    "Variable Label": "D/T Ref All Fut Samp",
     "Variable Name": [
       "HdRef_DateAllsample_v1r0"
     ]
@@ -14488,6 +14558,9 @@
       "SrvSAS_ChewingTobacco_v1r0"
     ]
   },
+  "713781738": {
+    "Variable Name": "30-34"
+  },
   "714001034": {
     "Variable Label": "Child 1 name",
     "Variable Name": [
@@ -14501,7 +14574,7 @@
     ]
   },
   "714419972": {
-    "Variable Label": "Additional email 3",
+    "Variable Label": "Addtl Email 3",
     "Variable Name": [
       "RcrtUP_Email3_v1r0"
     ]
@@ -14513,7 +14586,7 @@
     ]
   },
   "715390138": {
-    "Variable Label": "Other reasons (specify)",
+    "Variable Label": "Oth Reasons (Specify)",
     "Variable Name": [
       "HdRef_Other_v1r0"
     ]
@@ -14564,7 +14637,7 @@
     ]
   },
   "718172863": {
-    "Variable Label": "Urine Collection Setting",
+    "Variable Label": "Urine Collection Setting BL",
     "Variable Name": [
       "BioSpm_UrineSettingBL_v1r0",
       "BioSpm_UrineSettingF1_v1r0",
@@ -14585,7 +14658,7 @@
     ]
   },
   "719222792": {
-    "Variable Label": "Who requested the Suspended Contact",
+    "Variable Label": "Suspend Contact Who Req",
     "Variable Name": [
       "HdWd_WhoRequestSuspend_v1r0"
     ]
@@ -14597,13 +14670,13 @@
     ]
   },
   "719427591": {
-    "Variable Label": "Collection Phlebotomist Initials",
+    "Variable Label": "Phleb Initials",
     "Variable Name": [
       "BioCol_PhlebInitials_v1r0"
     ]
   },
   "719451909": {
-    "Variable Label": "I do not think the research topic is important/I am not interested in the topic",
+    "Variable Label": "Rsrch Topic Unimportant/Not Interested in Topic",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_impt"
     ]
@@ -14636,7 +14709,7 @@
     ]
   },
   "720773598": {
-    "Variable Label": "Data Destruction/ Wk",
+    "Variable Label": "Data Dest/Wk",
     "Variable Name": [
       "SMMet_DDPerWk_v1r0"
     ]
@@ -14647,6 +14720,9 @@
       "SrvSAS_EverUseMJED_v2r0"
     ]
   },
+  "722846087": {
+    "Variable Name": "66-70"
+  },
   "723108194": {
     "Variable Label": "Country",
     "Variable Name": [
@@ -14654,7 +14730,7 @@
     ]
   },
   "723614811": {
-    "Variable Label": "Uterine (endometrial)",
+    "Variable Label": "Uterine",
     "Variable Name": [
       "RCAOcc_UterineCancer_v1r0",
       "SrvBOH_MUterineCancer_v1r0",
@@ -14731,6 +14807,12 @@
       "SrvMRE_StrengthTime_v1r0"
     ]
   },
+  "725915890": {
+    "Variable Label": "Bag 35",
+    "Variable Name": [
+      "BioPack_Bag35_v1r0"
+    ]
+  },
   "725929722": {
     "Variable Label": "DOB Match",
     "Variable Name": [
@@ -14744,7 +14826,7 @@
     ]
   },
   "726389747": {
-    "Variable Label": "Contact has been suspended",
+    "Variable Label": "Contact Suspended",
     "Variable Name": [
       "HdWd_SuspendContact_v1r0"
     ]
@@ -14807,13 +14889,15 @@
     ]
   },
   "728366619": {
-    "Variable Label": "SST1 Deviation- Low volume - (tube/container partially filled but still usable)",
+    "Variable Label": "SST1 Dev - Vol Low But Usable",
     "Variable Name": [
       "BioCol_Dev_v1r0_LowVolSST1",
       "BioCol_Dev_v1r0_LowVolSST2",
       "BioCol_Dev_v1r0_LowVolSST3",
+      "BioCol_Dev_v1r0_LowVolSST4",
+      "BioCol_Dev_v1r0_LowVolSST5",
       "BioCol_Dev_v1r0_LowVolACDT1",
-      "BioCol_Dev_v1r0_LowVolMCDT1",
+      "BioCol_Dev_v1r0_LowVolSTRT1",
       "BioCol_Dev_v1r0_LowVolUT1",
       "BioCol_Dev_v1r0_LowVolMWT1"
     ]
@@ -14831,7 +14915,7 @@
     ]
   },
   "728696253": {
-    "Variable Label": "Clinical_Site Blood RRL Received",
+    "Variable Label": "BL Clin - Site Blood RRL Rec",
     "Variable Name": [
       "BioClin_SiteBloodRRLBL_v1r0",
       "BioClin_SiteBloodRRLF1_v1r0",
@@ -14899,7 +14983,7 @@
     "Variable Name": "Yes, in the past week"
   },
   "731498909": {
-    "Variable Label": "Eligible for Payment",
+    "Variable Label": "BL Elig For Payment",
     "Variable Name": [
       "SMPaym_PaymEligBL_v1r0",
       "SMPaym_PaymEligF1_v1r0",
@@ -15011,7 +15095,7 @@
     ]
   },
   "734828170": {
-    "Variable Label": "Other reasons",
+    "Variable Label": "Oth Reasons",
     "Variable Name": [
       "HdRef_OthRsn_v1r0"
     ]
@@ -15103,7 +15187,7 @@
     "Variable Name": "Yes, part-time student"
   },
   "738422725": {
-    "Variable Label": "Incentive Eligible among Verified",
+    "Variable Label": "Incentive Elig Among Verif",
     "Variable Name": [
       "SMMet_IncentEligRRVer_v1r0"
     ]
@@ -15130,7 +15214,7 @@
     ]
   },
   "740582332": {
-    "Variable Label": "Autogenerated date/time stamp for Any specimen collected at RRL",
+    "Variable Label": "BL D/T Any Spec Coll RRL",
     "Variable Name": [
       "BioClin_AnySpecRRLTmBL_v1r0",
       "BioClin_AnySpecRRLTmF1_v1r0",
@@ -15151,7 +15235,7 @@
     ]
   },
   "741697447": {
-    "Variable Label": "Bag/Container/Thing 15",
+    "Variable Label": "Bag 15",
     "Variable Name": [
       "BioPack_Bag15_v1r0"
     ]
@@ -15196,7 +15280,7 @@
     ]
   },
   "742806035": {
-    "Variable Label": "MWT1 Deviation - Participant used mouthwash less than 30 seconds",
+    "Variable Label": "MWT1 Dev - Part Used MW Under 30 Sec",
     "Variable Name": [
       "BioCol_Dev_v1r0_MWUnd30sMWT1"
     ]
@@ -15220,7 +15304,7 @@
     ]
   },
   "744197145": {
-    "Variable Label": "Person is unable to participate or deceased",
+    "Variable Label": "Unable/Dead",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_unable"
     ]
@@ -15366,7 +15450,7 @@
     ]
   },
   "747647081": {
-    "Variable Label": "Autogenerated date/time for refused follow-up blood collection",
+    "Variable Label": "D/T Ref F/U Blood",
     "Variable Name": [
       "HdRef_FUBloodCollDt_v1r0"
     ]
@@ -15378,7 +15462,7 @@
     ]
   },
   "749475364": {
-    "Variable Label": "Eligibility algorithm version",
+    "Variable Label": "Elig Algorithm Vers",
     "Variable Name": [
       "RcrtSI_EligibilityVer_v1r0"
     ]
@@ -15475,14 +15559,20 @@
       "SrvMRE_PPPresPillDK_v1r0"
     ]
   },
+  "753716110": {
+    "Variable Label": "Bag 30",
+    "Variable Name": [
+      "BioPack_Bag30_v1r0"
+    ]
+  },
   "754614551": {
-    "Variable Label": "Bag/Container/Thing 6",
+    "Variable Label": "Bag 6",
     "Variable Name": [
       "BioPack_Bag6_v1r0"
     ]
   },
   "754745617": {
-    "Variable Label": "Lung or bronchial",
+    "Variable Label": "Lung/Bronchial",
     "Variable Name": [
       "RCAOcc_LungCancer_v1r0",
       "SrvBOH_MLungCancer_v1r0",
@@ -15498,7 +15588,7 @@
     ]
   },
   "755545718": {
-    "Variable Label": "Does not think they are eligible",
+    "Variable Label": "Think Not Eligible",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_eligible"
     ]
@@ -15553,7 +15643,7 @@
     ]
   },
   "756862764": {
-    "Variable Label": "Account Name",
+    "Variable Label": "Acct Name",
     "Variable Name": [
       "displayName"
     ]
@@ -15562,7 +15652,7 @@
     "Variable Name": "Unable to work (diabled)"
   },
   "757246707": {
-    "Variable Label": "SST1 Deviation- Leaked/spilled",
+    "Variable Label": "SST1 Dev - Spilled",
     "Variable Name": [
       "BioCol_Dev_v1r0_LeakSST1",
       "BioCol_Dev_v1r0_LeakSST2",
@@ -15575,7 +15665,7 @@
       "BioCol_Dev_v1r0_LeakEDTAT2",
       "BioCol_Dev_v1r0_LeakEDTAT3",
       "BioCol_Dev_v1r0_LeakACDT1",
-      "BioCol_Dev_v1r0_LeakMCDT1",
+      "BioCol_Dev_v1r0_LeakSTRT1",
       "BioCol_Dev_v1r0_LeakUT1",
       "BioCol_Dev_v1r0_LeakMWT1"
     ]
@@ -15679,7 +15769,7 @@
       "BioCol_Discard_v1r0_SST2",
       "BioCol_Discard_v1r0_SST3",
       "BioCol_Discard_v1r0_ACDT1",
-      "BioCol_Discard_v1r0_MCDT1",
+      "BioCol_Discard_v1r0_STRT1",
       "BioCol_Discard_v1r0_UT1",
       "BioCol_Discard_v1r0_MWT1"
     ]
@@ -15719,7 +15809,7 @@
     ]
   },
   "764403541": {
-    "Variable Label": "Source of Deceased Report",
+    "Variable Label": "Source Deceased Report",
     "Variable Name": [
       "HdWd_SourceofReport_v1r0"
     ]
@@ -15728,7 +15818,7 @@
     "Variable Name": "Very flexible"
   },
   "764863765": {
-    "Variable Label": "Date/Time blood/urine survey completed",
+    "Variable Label": "D/T Blood/Ur Survey Sub",
     "Variable Name": [
       "SrvBlU_TmComplete_v1r0"
     ]
@@ -15772,7 +15862,7 @@
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Lymphoma cancer?"
   },
   "765924958": {
-    "Variable Label": "Time from account to consent",
+    "Variable Label": "Time Acct - Consent",
     "Variable Name": [
       "RcrtCT_Acct_Cnst_v1r0"
     ]
@@ -15784,7 +15874,7 @@
     ]
   },
   "766328380": {
-    "Variable Label": "Cumul Verified",
+    "Variable Label": "Cumul Verif",
     "Variable Name": [
       "SMMet_CumulVerPt_v1r0"
     ]
@@ -15861,7 +15951,7 @@
     "Variable Name": "White, Non-Hispanic"
   },
   "769615780": {
-    "Variable Label": "Date/Time Blood Order Placed",
+    "Variable Label": "BL D/T Blood Order",
     "Variable Name": [
       "BioClin_BldOrdPlacdDtBL_v1r0",
       "BioClin_BldOrdPlacdDtF1_v1r0",
@@ -15905,7 +15995,7 @@
     "Variable Name": "No, I never experienced this"
   },
   "770257102": {
-    "Variable Label": "Date/time of Completion of Smoking, Alcohol, and Sun Exposure",
+    "Variable Label": "D/T Base Mod SAS Sub",
     "Variable Name": [
       "SrvSAS_TmComplete_v1r0"
     ]
@@ -15926,7 +16016,7 @@
     ]
   },
   "771146804": {
-    "Variable Label": "I am worried about data being given to my employer/potential employer",
+    "Variable Label": "Worried Job Will Get Data",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_PrivacyI",
       "HdRef_PrivacyG_v1r0"
@@ -15978,7 +16068,7 @@
     ]
   },
   "772638539": {
-    "Variable Label": "Number of tumors reported- repeated measure over time",
+    "Variable Label": "N Tumors",
     "Variable Name": [
       "RCAOcc_TumorNum_v1r0"
     ]
@@ -16099,7 +16189,7 @@
     "Variable Name": "Too much time"
   },
   "777486216": {
-    "Variable Label": "SST1 Deviation - Unexpected  tube size or type",
+    "Variable Label": "SST1 Dev - Unexpected Tube Size/Type",
     "Variable Name": [
       "BioCol_Dev_v1r0_TubeSzSST1",
       "BioCol_Dev_v1r0_TubeSzSST2",
@@ -16112,7 +16202,7 @@
       "BioCol_Dev_v1r0_TubeSzEDTAT2",
       "BioCol_Dev_v1r0_TubeSzEDTAT3",
       "BioCol_Dev_v1r0_TubeSzACDT1",
-      "BioCol_Dev_v1r0_TubeSzMCDT1",
+      "BioCol_Dev_v1r0_TubeSzSTRT1",
       "BioCol_Dev_v1r0_TubeSzUT1"
     ]
   },
@@ -16120,7 +16210,7 @@
     "Variable Name": "UC-DCAM"
   },
   "777719027": {
-    "Variable Label": "I have other privacy concerns",
+    "Variable Label": "Oth Privacy Concerns",
     "Variable Name": [
       "HdRef_PrivacyJ_v1r0"
     ]
@@ -16248,7 +16338,7 @@
     ]
   },
   "784810139": {
-    "Variable Label": "Date/Time COVID-19 survey completed",
+    "Variable Label": "D/T COV Surv Sub",
     "Variable Name": [
       "SrvCOV_TmComplete_v1r0"
     ]
@@ -16339,7 +16429,7 @@
     "Variable Name": "Site PI listed on the site-specific consent form"
   },
   "786930107": {
-    "Variable Label": "Clinical_Site Urine Collected",
+    "Variable Label": "BL Clin Site Ur Coll",
     "Variable Name": [
       "BioClin_SiteUrineCollBL_v1r0",
       "BioClin_SiteUrineCollF1_v1r0",
@@ -16372,7 +16462,7 @@
     ]
   },
   "787237543": {
-    "Variable Label": "Biohazard Bag (Blood or Blood/Urine) ID",
+    "Variable Label": "Biohaz Bag ID",
     "Variable Name": [
       "BioCol_0008_v1r0"
     ]
@@ -16384,7 +16474,7 @@
     ]
   },
   "787567527": {
-    "Variable Label": "Time Payment Eligible for Round",
+    "Variable Label": "BL Time Payment Elig For Round",
     "Variable Name": [
       "SMPaym_TmPaymEligBL_v1r0",
       "SMPaym_TmPaymEligF1_v1r0",
@@ -16462,7 +16552,7 @@
     ]
   },
   "791389099": {
-    "Variable Label": "News article or press release about Connect",
+    "Variable Label": "Connect in News",
     "Variable Name": [
       "RcrtES_Aware_v1r0_News"
     ]
@@ -16487,7 +16577,7 @@
     ]
   },
   "793072415": {
-    "Variable Label": "Other phone",
+    "Variable Label": "Oth Phone",
     "Variable Name": [
       "RcrtUP_OtherPhone_v1r0"
     ]
@@ -16499,19 +16589,19 @@
     "Variable Name": "COVID-19"
   },
   "793822265": {
-    "Variable Label": "Update recruit type",
+    "Variable Label": "Update Recruit Type",
     "Variable Name": [
       "RcrtV_UpdateRecType_v1r0"
     ]
   },
   "794376648": {
-    "Variable Label": "Incentive Eligible/ Wk",
+    "Variable Label": "Incentive Elig/Wk",
     "Variable Name": [
       "SMMet_IncentEligPerWk_v1r0"
     ]
   },
   "794613585": {
-    "Variable Label": "GitHub/Survey Version for BOH",
+    "Variable Label": "BOH Surv Vers",
     "Variable Name": [
       "SrvBOH_SrvVersionBOH_v1r0"
     ]
@@ -16544,7 +16634,7 @@
     ]
   },
   "795827569": {
-    "Variable Label": "Birth Day",
+    "Variable Label": "DOB Day",
     "Variable Name": [
       "RcrtUP_BD_v1r0"
     ]
@@ -16879,6 +16969,12 @@
       "SrvBOH_Sibling1Mult_v1r0"
     ]
   },
+  "807530964": {
+    "Variable Label": "Bag 22",
+    "Variable Name": [
+      "BioPack_Bag22_v1r0"
+    ]
+  },
   "807574160": {
     "Variable Name": "Very easy"
   },
@@ -16889,7 +16985,7 @@
     ]
   },
   "807835037": {
-    "Variable Label": "Other |__|",
+    "Variable Label": "Oth Cx",
     "Variable Name": [
       "RCAOcc_OtherCancer_v1r0",
       "SrvBOH_NoneRE_v1r0",
@@ -16947,7 +17043,7 @@
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Leukemia (blood and bone marrow) cancer?"
   },
   "808663245": {
-    "Variable Label": "Date/time refused baseline urine sample",
+    "Variable Label": "D/T Ref Base Ur",
     "Variable Name": [
       "HdRef_DateBaseurine_v1r0"
     ]
@@ -17030,7 +17126,7 @@
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or hay Graves' Disease?"
   },
   "810960823": {
-    "Variable Label": "SST1 Deviation - Discard",
+    "Variable Label": "SST1 Dev - Discard",
     "Variable Name": [
       "BioCol_Dev_v1r0_DiscardSST1",
       "BioCol_Dev_v1r0_DiscardSST2",
@@ -17043,7 +17139,7 @@
       "BioCol_Dev_v1r0_DiscEDTAT2",
       "BioCol_Dev_v1r0_DiscEDTAT3",
       "BioCol_Dev_v1r0_DiscardACDT1",
-      "BioCol_Dev_v1r0_DiscardMCDT1",
+      "BioCol_Dev_v1r0_DiscardSTRT1",
       "BioCol_Dev_v1r0_DiscardUT1",
       "BioCol_Dev_v1r0_DiscardMWT1"
     ]
@@ -17093,7 +17189,7 @@
     ]
   },
   "812454203": {
-    "Variable Label": "Completed all Participant Study Activities/ Wk",
+    "Variable Label": "Completed All Activities/ Wk",
     "Variable Name": [
       "SMMet_ComplSAPerWk_v1r0"
     ]
@@ -17212,7 +17308,7 @@
     ]
   },
   "819377306": {
-    "Variable Label": "Poster, flyer, or sign at my health care system",
+    "Variable Label": "Poster at IHCS",
     "Variable Name": [
       "RcrtES_Aware_v1r0_Poster"
     ]
@@ -17263,7 +17359,7 @@
     ]
   },
   "821247024": {
-    "Variable Label": "Verification status",
+    "Variable Label": "Verif Status",
     "Variable Name": [
       "RcrtV_Verification_v1r0"
     ]
@@ -17281,7 +17377,7 @@
     ]
   },
   "821930940": {
-    "Variable Label": "Who requested refusal of all future activities- Other (specify):",
+    "Variable Label": "Ref All Fut Activities Who Req - Oth",
     "Variable Name": [
       "HdWd_ReqOtherAllActivity_v1r0"
     ]
@@ -17293,7 +17389,7 @@
     ]
   },
   "822274939": {
-    "Variable Label": "Clinical Site Blood RRL Date / Time Received",
+    "Variable Label": "BL Clin Site Blood RRL D/T Rec",
     "Variable Name": [
       "BioClin_SiteBldRRLDtBL_v1r0",
       "BioClin_SiteBldRRLDtF1_v1r0",
@@ -17302,7 +17398,7 @@
     ]
   },
   "822499427": {
-    "Variable Label": "Date/time Status of Start of blood/urine/mouthwash research survey",
+    "Variable Label": "D/T Start B/U/MW Rsrch Surv",
     "Variable Name": [
       "SrvBLM_TmStart_v1r0"
     ]
@@ -17402,7 +17498,7 @@
       "BioCol_ObjectID_v1r0_EDTAT2",
       "BioCol_ObjectID_v1r0_EDTAT3",
       "BioCol_ObjectID_v1r0_ACDT1",
-      "BioCol_ObjectID_v1r0_MCDT1",
+      "BioCol_ObjectID_v1r0_STRT1",
       "BioCol_ObjectID_v1r0_UT1",
       "BioCol_ObjectID_v1r0_MWT1",
       "BioCol_ObjectID_v1r0_BioMW",
@@ -17425,7 +17521,7 @@
     ]
   },
   "826941471": {
-    "Variable Label": "Date/Time Kit Received",
+    "Variable Label": "D/T Kit Received",
     "Variable Name": [
       "BioKit_KitRecdTm_v1r0"
     ]
@@ -17470,7 +17566,7 @@
     ]
   },
   "829269606": {
-    "Variable Label": "Connect table at public event",
+    "Variable Label": "Table at Event",
     "Variable Name": [
       "RcrtES_Aware_v1r0_Table"
     ]
@@ -17514,7 +17610,7 @@
     "Variable Name": "More than 4 weeks ago"
   },
   "831041022": {
-    "Variable Label": "Wants data destroyed",
+    "Variable Label": "Data Dest",
     "Variable Name": [
       "HdWd_Destroydata_v1r0"
     ]
@@ -17526,7 +17622,7 @@
     ]
   },
   "831137710": {
-    "Variable Label": "I am opposed to genetic testing",
+    "Variable Label": "Opposed To Gen Testing",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_GenTest"
     ]
@@ -17547,13 +17643,19 @@
     ]
   },
   "832139544": {
-    "Variable Label": "Date/time Status of Completion of Medications, Reproductive Health, Exercise, and Sleep",
+    "Variable Label": "D/T Base Mod MRE Sub",
     "Variable Name": [
       "SrvMRE_TmComplete_v1r0"
     ]
   },
   "832322940": {
     "Variable Name": "Don't know"
+  },
+  "832614280": {
+    "Variable Label": "Bag 38",
+    "Variable Name": [
+      "BioPack_Bag38_v1r0"
+    ]
   },
   "833553697": {
     "Variable Label": "Last sigmoidoscopy",
@@ -17619,7 +17721,7 @@
     ]
   },
   "836460125": {
-    "Variable Label": "Does not like to do things online",
+    "Variable Label": "Dislike Online Activities",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_online"
     ]
@@ -17661,7 +17763,7 @@
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Thyroid cancer?"
   },
   "838567176": {
-    "Variable Label": "Heparin Tube 1",
+    "Variable Label": "Heparin T1",
     "Variable Name": [
       "BioCol_0003_v1r0"
     ]
@@ -17704,7 +17806,7 @@
     ]
   },
   "840048338": {
-    "Variable Label": "Date/Time Check-In Complete",
+    "Variable Label": "BL D/T Check-In Done",
     "Variable Name": [
       "BioChk_TimeBL_v1r0",
       "BioChk_TimeF1_v1r0",
@@ -17719,7 +17821,7 @@
     ]
   },
   "841390583": {
-    "Variable Label": "Orphan tube - shipped flag",
+    "Variable Label": "Orphan Tube - Shipped",
     "Variable Name": [
       "BioPack_OShipFlag_v1r0"
     ]
@@ -17779,7 +17881,7 @@
     ]
   },
   "844088537": {
-    "Variable Label": "Date/time Status of Start of menstrual cycle survey",
+    "Variable Label": "D/T Mens Surv Start",
     "Variable Name": [
       "SrvMC_TmStart_v1r0"
     ]
@@ -17851,7 +17953,7 @@
     "Variable Name": "Chair of the Site IRB"
   },
   "847159717": {
-    "Variable Label": "Date/time Research Urine Collected",
+    "Variable Label": "BL D/T Rsrch Ur Collected",
     "Variable Name": [
       "BioFin_ResearchUrnTmBL_v1r0",
       "BioFin_ResearchUrnTmF1_v1r0",
@@ -17935,7 +18037,7 @@
     ]
   },
   "849518448": {
-    "Variable Label": "Site reported race/ethnicity",
+    "Variable Label": "Site Race/Eth",
     "Variable Name": [
       "RcrtSI_Race_v1r0"
     ]
@@ -17944,7 +18046,7 @@
     "Variable Name": "Address printed"
   },
   "849786503": {
-    "Variable Label": "Additional email 1",
+    "Variable Label": "Addtl Email 1",
     "Variable Name": [
       "RcrtUP_Email1_v1r0"
     ]
@@ -18033,7 +18135,7 @@
     ]
   },
   "853876696": {
-    "Variable Label": "Manifest - not provided",
+    "Variable Label": "Manifest - Not Provided",
     "Variable Name": [
       "BioBPTL_ManifestNP_v1r0"
     ]
@@ -18190,7 +18292,7 @@
     ]
   },
   "860477844": {
-    "Variable Label": "Urine Order Placed",
+    "Variable Label": "BL Ur Order",
     "Variable Name": [
       "BioClin_UrnOrdPlacedBL_v1r0",
       "BioClin_UrnOrdPlacedF1_v1r0",
@@ -18214,7 +18316,7 @@
     ]
   },
   "861162895": {
-    "Variable Label": "SST1 Deviation- Centrifuge - Improper speed/force setting used (too high)",
+    "Variable Label": "SST1 Dev - Centrifuge - Speed Too High",
     "Variable Name": [
       "BioCol_Dev_v1r0_SpeedHSST1",
       "BioCol_Dev_v1r0_SpeedHSST2",
@@ -18233,7 +18335,7 @@
     ]
   },
   "861639549": {
-    "Variable Label": "Data Has Been Destroyed",
+    "Variable Label": "Data Has Been Dest",
     "Variable Name": [
       "HdWd_DataHasBnDestroyed_v1r0"
     ]
@@ -18379,7 +18481,7 @@
     "Variable Name": "Not Active recruit signed in as an Active recruit"
   },
   "866089092": {
-    "Variable Label": "I am worried about data being given to\"\"my insurance company/effects on insurance (health, life, other)",
+    "Variable Label": "Worried Ins Will Get Data",
     "Variable Name": [
       "HdRef_PrivacyF_v1r0"
     ]
@@ -18388,6 +18490,12 @@
     "Variable Label": "How much time e-cigarettes or other vaping devices used, [X / 70] and older",
     "Variable Name": [
       "SrvSAS_ECigTm70_v1r1"
+    ]
+  },
+  "866824332": {
+    "Variable Label": "Bag 24",
+    "Variable Name": [
+      "BioPack_Bag24_v1r0"
     ]
   },
   "867096017": {
@@ -18400,7 +18508,7 @@
     ]
   },
   "867203506": {
-    "Variable Label": "Refused all future surveys",
+    "Variable Label": "Ref All Fut Surv",
     "Variable Name": [
       "HdRef_Allsrv_v1r0"
     ]
@@ -18436,7 +18544,7 @@
     ]
   },
   "868006655": {
-    "Variable Label": "Primary Cancer Site- Another type of cancer: Please describe [text box]",
+    "Variable Label": "Primary Cancer Site",
     "Variable Name": [
       "RCAOcc_OthCancerDesc_v1r0"
     ]
@@ -18485,7 +18593,7 @@
     ]
   },
   "869588347": {
-    "Variable Label": "Preferred email",
+    "Variable Label": "Pref Email",
     "Variable Name": [
       "RcrtUP_PreEmail_v1r0"
     ]
@@ -18503,7 +18611,7 @@
     ]
   },
   "870456401": {
-    "Variable Label": "Comments - Site Shipment",
+    "Variable Label": "Shipment Comments",
     "Variable Name": [
       "BioBPTL_ShipComments_v1r0"
     ]
@@ -18521,7 +18629,7 @@
     ]
   },
   "872519186": {
-    "Variable Label": "Completed All Partic Study Activity among Verified",
+    "Variable Label": "RR Completed All Activities Among Verif",
     "Variable Name": [
       "SMMet_StudyActRRVer_v1r0"
     ]
@@ -18542,7 +18650,7 @@
     "Variable Name": "Transgender Woman"
   },
   "873405723": {
-    "Variable Label": "Too busy/stressed to join",
+    "Variable Label": "Too busy/Stressed",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_busy"
     ]
@@ -18585,7 +18693,7 @@
     "Variable Name": "Not yet verified"
   },
   "875010152": {
-    "Variable Label": "Participant is now unable to participate",
+    "Variable Label": "Part Now Unable to Participate",
     "Variable Name": [
       "HdRef_Unable_v1r0"
     ]
@@ -18628,7 +18736,7 @@
     ]
   },
   "875549268": {
-    "Variable Label": "Max number of contacts reached for cycle",
+    "Variable Label": "Reached Max Contact N",
     "Variable Name": [
       "RcrtSI_MaxContcts_v1r0"
     ]
@@ -18710,7 +18818,7 @@
     ]
   },
   "878865966": {
-    "Variable Label": "Baseline blood sample collected",
+    "Variable Label": "Base Blood Collected",
     "Variable Name": [
       "BioFin_BaseBloodCol_v1r0"
     ]
@@ -18734,7 +18842,7 @@
     ]
   },
   "880794013": {
-    "Variable Label": "Baseline blood order placed or baseline urine order placed",
+    "Variable Label": "BL Blood/Ur Order",
     "Variable Name": [
       "BioClin_BldOrUrnPlcdBL_v1r0",
       "BioClin_BldOrUrnPlcdF1_v1r0",
@@ -18776,7 +18884,7 @@
     "Variable Name": "Previous address 10"
   },
   "883668444": {
-    "Variable Label": "Destroy Data Categorical",
+    "Variable Label": "Data Dest Category",
     "Variable Name": [
       "HdWd_DestroyDataCat_v1r0"
     ]
@@ -18795,7 +18903,7 @@
       "BioCol_NotCol_v1r0_EDTAT2",
       "BioCol_NotCol_v1r0_EDTAT3",
       "BioCol_NotCol_v1r0_ACDT1",
-      "BioCol_NotCol_v1r0_MCDT1",
+      "BioCol_NotCol_v1r0_STRT1",
       "BioCol_NotCol_v1r0_UT1",
       "BioCol_NotCol_v1r0_MWT1"
     ]
@@ -19079,7 +19187,7 @@
     "Variable Name": "3 days per week"
   },
   "897366187": {
-    "Variable Label": "Other reason(s)",
+    "Variable Label": "Oth",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_other"
     ]
@@ -19097,6 +19205,12 @@
     "Variable Label": "Breast Biopsy",
     "Variable Name": [
       "SrvScr_BRSTBIOP_v1r0"
+    ]
+  },
+  "898078094": {
+    "Variable Label": "Bag 23",
+    "Variable Name": [
+      "BioPack_Bag23_v1r0"
     ]
   },
   "898341670": {
@@ -19175,7 +19289,7 @@
     ]
   },
   "901199566": {
-    "Variable Label": "GitHub/Survey Version for Menstrual Cycle",
+    "Variable Label": "Mens Surv Vers",
     "Variable Name": [
       "SrvMC_SrvVersionMC_v1r0"
     ]
@@ -19223,7 +19337,7 @@
     ]
   },
   "902332801": {
-    "Variable Label": "Who requested data destruction- Other (specify):",
+    "Variable Label": "Data Dest Who Req - Oth",
     "Variable Name": [
       "HdWd_RequDataDestruct_v1r0"
     ]
@@ -19301,7 +19415,7 @@
     "Variable Name": "4 servings"
   },
   "905787778": {
-    "Variable Label": "Who requested HIPAA revocation- Other (specify):",
+    "Variable Label": "HIPAA Rev Who Req - Oth",
     "Variable Name": [
       "HdWd_ReqHIPAArevoke_v1r0"
     ]
@@ -19319,7 +19433,7 @@
     ]
   },
   "906417725": {
-    "Variable Label": "Refusing all future activities",
+    "Variable Label": "Ref All Fut Activities",
     "Variable Name": [
       "HdWd_Activepart_v1r0"
     ]
@@ -19363,7 +19477,7 @@
     ]
   },
   "909529446": {
-    "Variable Label": "Cold Packs - insufficient",
+    "Variable Label": "Cold Packs - Insufficient",
     "Variable Name": [
       "BioBPTL_ColdPackIns_v1r0"
     ]
@@ -19396,7 +19510,7 @@
     ]
   },
   "912088602": {
-    "Variable Label": "SST1 Deviation- Centrifuge -  clotted for longer than 2 hours",
+    "Variable Label": "SST1 Dev - Centrifuge - Clot Over 2 Hrs",
     "Variable Name": [
       "BioCol_Dev_v1r0_ClotLSST1",
       "BioCol_Dev_v1r0_ClotLSST2",
@@ -19436,7 +19550,7 @@
     "Variable Name": "$150,000-$199,999/year"
   },
   "913974510": {
-    "Variable Label": "Date Available",
+    "Variable Label": "Date Avail",
     "Variable Name": [
       "SrvBOH_DtAvail_v1r0"
     ]
@@ -19448,13 +19562,13 @@
     "Variable Name": "Seasonal Address 4- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select: I still spend time here."
   },
   "914594314": {
-    "Variable Label": "Verification status time",
+    "Variable Label": "Verif Time",
     "Variable Name": [
       "RcrtV_VerificationTm_V1R0"
     ]
   },
   "914639140": {
-    "Variable Label": "Partial Social Security Number Given",
+    "Variable Label": "Part SSN",
     "Variable Name": [
       "SrvSS_SSN4d_Given_v1r0"
     ]
@@ -19463,7 +19577,7 @@
     "Variable Name": "What is the name and the street address of the school that you commute to most often?"
   },
   "915179629": {
-    "Variable Label": "Mouthwash Collection Setting",
+    "Variable Label": "Mouthwash Collection Setting BL",
     "Variable Name": [
       "BioSpm_MWSettingBL_v1r0",
       "BioSpm_MWSettingF1_v1r0",
@@ -19499,7 +19613,7 @@
     "Variable Name": "Moderate hair loss at the sides of the forehead as far back as the ears, and mild loss from the center of the forehead."
   },
   "915838974": {
-    "Variable Label": "Date/Time scanned at Regional  Lab",
+    "Variable Label": "D/T Scanned",
     "Variable Name": [
       "BioReg_ArRegTime_v1r0"
     ]
@@ -19550,13 +19664,13 @@
     ]
   },
   "919254129": {
-    "Variable Label": "Consent submitted",
+    "Variable Label": "Consent Sub",
     "Variable Name": [
       "RcrtCS_Consented_v1r0"
     ]
   },
   "919699172": {
-    "Variable Label": "I am no longer interested in the study",
+    "Variable Label": "No Longer Interested",
     "Variable Name": [
       "HdRef_NotInterested_v1r0"
     ]
@@ -19565,7 +19679,7 @@
     "Variable Name": "3 to 4 hours"
   },
   "920333151": {
-    "Variable Label": "SSN last 4 digits",
+    "Variable Label": "Last 4 SSN",
     "Variable Name": [
       "SrvSS_SSN4d_v1r0"
     ]
@@ -19650,7 +19764,7 @@
     ]
   },
   "922995819": {
-    "Variable Label": "Manifest/Paperwork/Vial information do not match",
+    "Variable Label": "Manifest/Paperwork/Vial Info Don't Match",
     "Variable Name": [
       "BioBPTL_ManifestDNM_v1r0"
     ]
@@ -19668,7 +19782,7 @@
     ]
   },
   "923760192": {
-    "Variable Label": "Withdrawals/ Wk",
+    "Variable Label": "Withdrawals/Wk",
     "Variable Name": [
       "SMMet_WithdrawalPerWk_v1r0"
     ]
@@ -19691,6 +19805,12 @@
   },
   "924926068": {
     "Variable Name": "Every day, less than 2 hours each day"
+  },
+  "925165180": {
+    "Variable Label": "Bag 37",
+    "Variable Name": [
+      "BioPack_Bag37_v1r0"
+    ]
   },
   "925196539": {
     "Variable Name": "Login"
@@ -19729,7 +19849,7 @@
     "Variable Name": "Random"
   },
   "926457119": {
-    "Variable Label": "SST1 Date Received - Site Shipment",
+    "Variable Label": "SST1 Date Shipment Rec",
     "Variable Name": [
       "BioBPTL_DateRec_v1r0_SST1",
       "BioBPTL_DateRec_v1r0_SST2",
@@ -19742,7 +19862,7 @@
       "BioBPTL_DateRec_v1r0_EDTAT2",
       "BioBPTL_DateRec_v1r0_EDTAT3",
       "BioBPTL_DateRec_v1r0_ACDT1",
-      "BioBPTL_DateRec_v1r0_MCDT1",
+      "BioBPTL_DateRec_v1r0_STRT1",
       "BioBPTL_DateRec_v1r0_UT1"
     ]
   },
@@ -19790,7 +19910,7 @@
     "Variable Name": "Previous address 5"
   },
   "928693120": {
-    "Variable Label": "Dashboard clinical Urine Accession ID",
+    "Variable Label": "Dsbd Rsrch Acc ID",
     "Variable Name": [
       "BioClin_DBUrineID_v1r0"
     ]
@@ -19837,7 +19957,7 @@
     ]
   },
   "931332817": {
-    "Variable Label": "GitHub/Survey Version for COVID-19",
+    "Variable Label": "COV Surv Vers",
     "Variable Name": [
       "SrvCov_SrvVersionCov_v1r0"
     ]
@@ -19855,7 +19975,7 @@
     ]
   },
   "932127832": {
-    "Variable Label": "GitHub/Survey Version for MRE",
+    "Variable Label": "MRE Surv Vers",
     "Variable Name": [
       "SrvMRE_SrvVersionMRE_v1r0"
     ]
@@ -19903,7 +20023,7 @@
     ]
   },
   "933646000": {
-    "Variable Label": "Other",
+    "Variable Label": "Oth",
     "Variable Name": [
       "BioBPTL_Other_v1r0"
     ]
@@ -19924,7 +20044,7 @@
     ]
   },
   "934298480": {
-    "Variable Label": "Site reported age at recruitment",
+    "Variable Label": "Site Age at Recruitment",
     "Variable Name": [
       "RcrtSI_Age_v1r0"
     ]
@@ -20011,7 +20131,7 @@
     ]
   },
   "937362785": {
-    "Variable Label": "SST1 Deviation- Centrifuge - improper time of spinning (too short)",
+    "Variable Label": "SST1 Dev - Centrifuge - Spin Too Short",
     "Variable Name": [
       "BioCol_Dev_v1r0_TimeSSST1",
       "BioCol_Dev_v1r0_TimeSSST2",
@@ -20067,7 +20187,7 @@
     ]
   },
   "939818935": {
-    "Variable Label": "Date/Time Urine Order Placed",
+    "Variable Label": "BL D/T Ur Order",
     "Variable Name": [
       "BioClin_UrnOrdPlcdDtBL_v1r0",
       "BioClin_UrnOrdPlcdDtF1_v1r0",
@@ -20136,13 +20256,13 @@
     ]
   },
   "941963821": {
-    "Variable Label": "Refused follow-up blood collection",
+    "Variable Label": "Ref F/U Blood",
     "Variable Name": [
       "HdRef_FUBloodColl_v1r0"
     ]
   },
   "942255248": {
-    "Variable Label": "Letter or brochure in mail",
+    "Variable Label": "Mailed Letter",
     "Variable Name": [
       "RcrtES_Aware_v1r0_Mail"
     ]
@@ -20189,7 +20309,7 @@
     ]
   },
   "943232079": {
-    "Variable Label": "Date/time Status of Start of SSN Survey",
+    "Variable Label": "D/T Start SSN Surv",
     "Variable Name": [
       "SrvSS_TmStart_v1r0"
     ]
@@ -20248,7 +20368,7 @@
     ]
   },
   "945294744": {
-    "Variable Label": "Bag/Container/Thing 14",
+    "Variable Label": "Bag 14",
     "Variable Name": [
       "BioPack_Bag14_v1r0"
     ]
@@ -20275,7 +20395,7 @@
     ]
   },
   "945795905": {
-    "Variable Label": "Payment Chosen",
+    "Variable Label": "BL Payment Chosen",
     "Variable Name": [
       "HDPaym_PaymChosenBL_v2r0",
       "HDPaym_PaymChosenF1_v2r0",
@@ -20314,7 +20434,7 @@
     "Variable Name": "Between 1 and 3 months"
   },
   "948195369": {
-    "Variable Label": "PIN match",
+    "Variable Label": "PIN Match",
     "Variable Name": [
       "RcrtES_PINmatch_v1r0"
     ]
@@ -20344,7 +20464,7 @@
     ]
   },
   "949302066": {
-    "Variable Label": "Flag for Baseline Module Background and Overall Health",
+    "Variable Label": "Flag Base Mod BOH",
     "Variable Name": [
       "SrvBOH_BaseStatus_v1r0"
     ]
@@ -20356,7 +20476,7 @@
     ]
   },
   "949501163": {
-    "Variable Label": "Refused baseline urine sample",
+    "Variable Label": "Ref Base Ur",
     "Variable Name": [
       "HdRef_Baseurine_v1r0"
     ]
@@ -20386,7 +20506,7 @@
     "Variable Name": "A few times per year"
   },
   "950040334": {
-    "Variable Label": "Reason not given",
+    "Variable Label": "Reason Not Given",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_none"
     ]
@@ -20438,7 +20558,7 @@
     ]
   },
   "951528844": {
-    "Variable Label": "GitHub/Survey Version for SAS",
+    "Variable Label": "SAS Surv Vers",
     "Variable Name": [
       "SrvSAS_SrvVersionSAS_v1r0"
     ]
@@ -20471,7 +20591,7 @@
     ]
   },
   "953443435": {
-    "Variable Label": "All Base Surveys among Invited",
+    "Variable Label": "All Base Surv Among Invited",
     "Variable Name": [
       "SMMet_SrvRRInvited_v1r0"
     ]
@@ -20483,7 +20603,7 @@
     ]
   },
   "953614051": {
-    "Variable Label": "Manual verification",
+    "Variable Label": "Manual Verif",
     "Variable Name": [
       "RcrtV_Mannual_v1r0"
     ]
@@ -20526,9 +20646,15 @@
     ]
   },
   "956345366": {
-    "Variable Label": "UT1 Deviation- Insufficient volume",
+    "Variable Label": "UT1 Dev - Vol Too Low",
     "Variable Name": [
       "BioCol_Dev_v1r0_UrVolUT1"
+    ]
+  },
+  "956354350": {
+    "Variable Label": "Bag 36",
+    "Variable Name": [
+      "BioPack_Bag36_v1r0"
     ]
   },
   "956625094": {
@@ -20592,13 +20718,13 @@
     "Variable Name": "Yes, in the past 3 months"
   },
   "958588520": {
-    "Variable Label": "I am concerned about COVID-19",
+    "Variable Label": "COV Concerns",
     "Variable Name": [
       "HdRef_COVID_v1r0"
     ]
   },
   "958646668": {
-    "Variable Label": "Heparin Tube 2",
+    "Variable Label": "Heparin T2",
     "Variable Name": [
       "BioCol_0013_v1r0"
     ]
@@ -20631,7 +20757,7 @@
     ]
   },
   "959708259": {
-    "Variable Label": "Box tracking number scan (one for each box)",
+    "Variable Label": "Tracking N Scan",
     "Variable Name": [
       "BioPack_TrackScan1_v1r0"
     ]
@@ -20788,7 +20914,7 @@
     ]
   },
   "967372009": {
-    "Variable Label": "Recorded message",
+    "Variable Label": "Recorded Message",
     "Variable Name": [
       "RcrtES_Aware_v1r0_Hold"
     ]
@@ -20918,13 +21044,13 @@
     ]
   },
   "973670172": {
-    "Variable Label": "Urine",
+    "Variable Label": "Ur",
     "Variable Name": [
       "BioCol_0006_v1r0"
     ]
   },
   "974100830": {
-    "Variable Label": "Date/time refused all future surveys",
+    "Variable Label": "D/T Ref All Fut Surv",
     "Variable Name": [
       "HdRef_DateAllsrv_v1r0"
     ]
@@ -20951,7 +21077,7 @@
     "Variable Name": "$10,000-$24,999/year"
   },
   "976570371": {
-    "Variable Label": "Flag for Baseline Module Smoking, Alcohol, and Sun Exposure",
+    "Variable Label": "Flag Base Mod SAS",
     "Variable Name": [
       "SrvSAS_BaseStatus_v1r0"
     ]
@@ -20978,7 +21104,7 @@
     ]
   },
   "977670846": {
-    "Variable Label": "Bag/Container/Thing 20",
+    "Variable Label": "Bag 20",
     "Variable Name": [
       "BioPack_Bag20_v1r0"
     ]
@@ -21065,13 +21191,13 @@
     ]
   },
   "982105411": {
-    "Variable Label": "Date/time refused baseline surveys",
+    "Variable Label": "D/T Ref Base Surv",
     "Variable Name": [
       "HdRef_DateBasesrv_v1r0"
     ]
   },
   "982213346": {
-    "Variable Label": "Date/time Clinical Blood Collected",
+    "Variable Label": "BL D/T Clin Blood Collection",
     "Variable Name": [
       "BioClin_ClinBloodTmBL_v1r0",
       "BioClin_ClinBloodTmF1_v1r0",
@@ -21080,7 +21206,7 @@
     ]
   },
   "982402227": {
-    "Variable Label": "Participant Consent Date",
+    "Variable Label": "Consent Date",
     "Variable Name": [
       "RcrtCS_Pdate_v1r0"
     ]
@@ -21104,7 +21230,7 @@
     ]
   },
   "982885431": {
-    "Variable Label": "SST1 Deviation - Not Found",
+    "Variable Label": "SST1 Dev - Not Found",
     "Variable Name": [
       "BioCol_Dev_v1r0_NotFoundSST1",
       "BioCol_Dev_v1r0_NotFoundSST2",
@@ -21117,7 +21243,7 @@
       "BioCol_Dev_v1r0_NFEDTAT2",
       "BioCol_Dev_v1r0_NFEDTAT3",
       "BioCol_Dev_v1r0_NotFndACDT1",
-      "BioCol_Dev_v1r0_NotFndMCDT1",
+      "BioCol_Dev_v1r0_NotFndSTRT1",
       "BioCol_Dev_v1r0_NotFoundUT1",
       "BioCol_Dev_v1r0_NotFoundMWT1"
     ]
@@ -21136,7 +21262,7 @@
     ]
   },
   "983278853": {
-    "Variable Label": "Other voicemail",
+    "Variable Label": "Oth VM",
     "Variable Name": [
       "RcrtUP_OtherVM_v1r0"
     ]
@@ -21232,6 +21358,12 @@
       "SrvBOH_Chrons_v1r0"
     ]
   },
+  "986589527": {
+    "Variable Label": "Bag 33",
+    "Variable Name": [
+      "BioPack_Bag33_v1r0"
+    ]
+  },
   "986613440": {
     "Variable Name": "How old were you when you first had bariatric surgery ?"
   },
@@ -21299,7 +21431,7 @@
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Kidney Stones?"
   },
   "989380048": {
-    "Variable Label": "Bag/Container/Thing 17",
+    "Variable Label": "Bag 17",
     "Variable Name": [
       "BioPack_Bag17_v1r0"
     ]
@@ -21328,7 +21460,7 @@
     ]
   },
   "990319383": {
-    "Variable Label": "Melanoma (skin)",
+    "Variable Label": "Melanoma",
     "Variable Name": [
       "RCAOcc_Melanoma_v1r0",
       "SrvBOH_MMelanoma_v1r0",
@@ -21419,13 +21551,13 @@
     ]
   },
   "993855378": {
-    "Variable Label": "Who requested the Suspended Contact- Other (specify):",
+    "Variable Label": "Suspend Contact Who Req - Oth",
     "Variable Name": [
       "HdWd_RequestSuspendOth_v1r0"
     ]
   },
   "994064239": {
-    "Variable Label": "Refused baseline surveys",
+    "Variable Label": "Ref Base Survs",
     "Variable Name": [
       "HdRef_Basesrv_v1r0"
     ]
@@ -21451,7 +21583,7 @@
     ]
   },
   "995036844": {
-    "Variable Label": "Account Sign-in Mechanism",
+    "Variable Label": "Sign-In Mech",
     "Variable Name": [
       "RcrtPC_Acnt_SignIn_v1r0"
     ]
