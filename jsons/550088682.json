@@ -46,7 +46,7 @@
   ],
   "conceptId": "550088682",
   "Current Question Text": "Deviation-Improper temperature - too low/frozen (record time and temperature Deviation in the comments)",
-  "Variable Label": "SST1 Deviation-Improper temperature - too low/frozen",
+  "Variable Label": "SST1 Dev - Temp Too Low",
   "Variable Name": [
     "BioCol_Dev_v1r0_TempLSST1",
     "BioCol_Dev_v1r0_TempLSST2",
@@ -59,7 +59,7 @@
     "BioCol_Dev_v1r0_TempLEDTAT2",
     "BioCol_Dev_v1r0_TempLEDTAT3",
     "BioCol_Dev_v1r0_TempLACDT1",
-    "BioCol_Dev_v1r0_TempLMCDT1",
+    "BioCol_Dev_v1r0_TempLSTRT1",
     "BioCol_Dev_v1r0_TempLUT1"
   ],
   "Variable Type": "Num",
@@ -74,12 +74,12 @@
   "GCP Document/Table": "Biospecimen Table Nesed structure: d_Tube/Bag/Object_d_248868659_d_550088682",
   "IMS Review Notes": "Updated Variable Name from BioCol_Dev_v1r0_TempL to BioCol_Dev_v1r0_TempLSST1. Updated Variable Label, Secondary Source and CID.",
   "Formula for Index": [
-    "613",
-    "614"
+    "616",
+    "617"
   ],
   "Index": [
-    "613",
-    "614"
+    "616",
+    "617"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

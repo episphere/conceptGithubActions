@@ -49,7 +49,7 @@
   ],
   "conceptId": "472864016",
   "Current Question Text": "Deviation- Broken",
-  "Variable Label": "SST1 Deviation- Broken",
+  "Variable Label": "SST1 Dev- Broken",
   "Variable Name": [
     "BioCol_Dev_v1r0_BrokenSST1",
     "BioCol_Dev_v1r0_BrokenSST2",
@@ -62,7 +62,7 @@
     "BioCol_Dev_v1r0_BrokenEDTAT2",
     "BioCol_Dev_v1r0_BrokenEDTAT3",
     "BioCol_Dev_v1r0_BrokenACDT1",
-    "BioCol_Dev_v1r0_BrokenMCDT1",
+    "BioCol_Dev_v1r0_BrokenSTRT1",
     "BioCol_Dev_v1r0_BrokenUT1",
     "BioCol_Dev_v1r0_BrokenMWT1"
   ],
@@ -78,12 +78,12 @@
   "GCP Document/Table": "Biospecimen Table Nesed structure: d_Tube/Bag/Object_d_248868659_d_472864016",
   "IMS Review Notes": "Updated Variable Name from BioCol_Dev_v1r0_Broken to BioCol_Dev_v1r0_BrokenSST1. Updated Variable Label, Secondary Source and CID.",
   "Formula for Index": [
-    "491",
-    "492"
+    "494",
+    "495"
   ],
   "Index": [
-    "491",
-    "492"
+    "494",
+    "495"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

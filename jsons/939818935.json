@@ -19,7 +19,7 @@
   ],
   "conceptId": "939818935",
   "Current Question Text": "Date/Time Urine Order Placed",
-  "Variable Label": "Date/Time Urine Order Placed",
+  "Variable Label": "BL D/T Ur Order",
   "Variable Name": [
     "BioClin_UrnOrdPlcdDtBL_v1r0",
     "BioClin_UrnOrdPlcdDtF1_v1r0",
@@ -39,11 +39,11 @@
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_939818935 (2nd CID may change based on BL/F-U1,2,3)",
   "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_UrnOrderPlacdDt_v1r0 with BioClin_UrnOrdPlcdDtBL_v1r0",
   "Formula for Index": [
-    "855",
-    "856"
+    "866",
+    "867"
   ],
   "Index": [
-    "855",
-    "856"
+    "866",
+    "867"
   ]
 }

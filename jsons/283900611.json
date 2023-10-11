@@ -49,7 +49,7 @@
   ],
   "conceptId": "283900611",
   "Current Question Text": "Deviation - Mislabeled- Resolved",
-  "Variable Label": "SST1 Deviation - Mislabeled- Resolved",
+  "Variable Label": "SST1 Dev - Mislabeled - Resolved",
   "Variable Name": [
     "BioCol_Dev_v1r0_MislabRSST1",
     "BioCol_Dev_v1r0_MislabRSST2",
@@ -62,7 +62,7 @@
     "BioCol_Dev_v1r0_MislREDTAT2",
     "BioCol_Dev_v1r0_MislREDTAT3",
     "BioCol_Dev_v1r0_MislabRACDT1",
-    "BioCol_Dev_v1r0_MislabRMCDT1",
+    "BioCol_Dev_v1r0_MislabRSTRT1",
     "BioCol_Dev_v1r0_MislabelRUT1",
     "BioCol_Dev_v1r0_MislabRMWT1"
   ],
@@ -76,12 +76,12 @@
   "Date added or modified": "9/7/23",
   "IMS Review Notes": "Updated Variable Name from BioCol_Dev_v1r0_MislabelR to BioCol_Dev_v1r0_MislabRSST1. Updated Variable Label, Secondary Source and CID.",
   "Formula for Index": [
-    "1515",
-    "1516"
+    "1524",
+    "1525"
   ],
   "Index": [
-    "1515",
-    "1516"
+    "1524",
+    "1525"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

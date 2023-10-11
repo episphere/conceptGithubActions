@@ -19,7 +19,7 @@
   ],
   "conceptId": "693370086",
   "Current Question Text": "Clinical Site Blood Collected",
-  "Variable Label": "Clinical Site Blood Collected",
+  "Variable Label": "BL Clin Site Blood Coll",
   "Variable Name": [
     "BioClin_SiteBloodCollBL_v1r0",
     "BioClin_SiteBloodCollF1_v1r0",
@@ -38,12 +38,12 @@
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_693370086 (2nd CID may change based on BL/F-U1,2,3)",
   "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_SiteBloodColl_v1r0 with BioClin_SiteBloodCollBL_v1r0",
   "Formula for Index": [
-    "929",
-    "930"
+    "940",
+    "941"
   ],
   "Index": [
-    "929",
-    "930"
+    "940",
+    "941"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

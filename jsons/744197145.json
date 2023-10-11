@@ -10,7 +10,7 @@
   ],
   "conceptId": "744197145",
   "Current Question Text": "Person is unable to participate or deceased",
-  "Variable Label": "Person is unable to participate or deceased",
+  "Variable Label": "Unable/Dead",
   "Variable Name": [
     "RcrtSI_OptOut_v1r0_unable"
   ],
@@ -25,12 +25,12 @@
   "Date added or modified": "10/21/21",
   "GCP Document/Table": "Participants Table Nested structure: state_d_706283025_d_744197145",
   "Formula for Index": [
-    "133",
-    "134"
+    "136",
+    "137"
   ],
   "Index": [
-    "133",
-    "134"
+    "136",
+    "137"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

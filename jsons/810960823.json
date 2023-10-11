@@ -49,7 +49,7 @@
   ],
   "conceptId": "810960823",
   "Current Question Text": "Deviation - Discard",
-  "Variable Label": "SST1 Deviation - Discard",
+  "Variable Label": "SST1 Dev - Discard",
   "Variable Name": [
     "BioCol_Dev_v1r0_DiscardSST1",
     "BioCol_Dev_v1r0_DiscardSST2",
@@ -62,7 +62,7 @@
     "BioCol_Dev_v1r0_DiscEDTAT2",
     "BioCol_Dev_v1r0_DiscEDTAT3",
     "BioCol_Dev_v1r0_DiscardACDT1",
-    "BioCol_Dev_v1r0_DiscardMCDT1",
+    "BioCol_Dev_v1r0_DiscardSTRT1",
     "BioCol_Dev_v1r0_DiscardUT1",
     "BioCol_Dev_v1r0_DiscardMWT1"
   ],
@@ -76,12 +76,12 @@
   "Date added or modified": "9/7/23",
   "IMS Review Notes": "Updated Variable Name from BioCol_Dev_v1r0_Discard to BioCol_Dev_v1r0_DiscardSST1. Updated Variable Label, Secondary Source and CID.",
   "Formula for Index": [
-    "1433",
-    "1434"
+    "1442",
+    "1443"
   ],
   "Index": [
-    "1433",
-    "1434"
+    "1442",
+    "1443"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

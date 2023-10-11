@@ -3,23 +3,26 @@
     "819848608.json",
     "819848608.json",
     "819848608.json",
-    "819848608.json",
     "819848608.json"
   ],
   "Secondary Source": [
-    "664882224.json",
     "173836415.json",
     "173836415.json",
     "173836415.json",
     "173836415.json"
   ],
+  "Current Source Question": [
+    "266600170.json",
+    "496823485.json",
+    "650465111.json",
+    "303552867.json"
+  ],
   "Deprecated, New, or Revised": "New",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/30/23",
   "conceptId": "156605577",
   "Current Question Text": "Any clinical blood or urine sample received",
-  "Variable Label": "Any clinical blood or urine sample received",
+  "Variable Label": "BL Any Clin Blood/Ur Rec",
   "Variable Name": [
-    "BioClin_AnyBldUrineRec_v1r0",
     "BioClin_AnyBldUrnRecBL_v1r0",
     "BioClin_AnyBldUrnRecF1_v1r0",
     "BioClin_AnyBldUrnRecF2_v1r0",
@@ -34,26 +37,19 @@
   "Dictionary": "Biospecimen Clinical",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "12/1/22",
-  "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_156605577",
+  "Date added or modified": "9/7/23",
+  "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_156605577 (2nd CID may change based on BL/F-U1,2,3)",
+  "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable Name from BioClin_AnyBldUrineRec_v1r0 to BioClin_AnyBldUrnRecBL_v1r0",
   "Formula for Index": [
-    "971",
-    "972"
+    "982",
+    "983"
   ],
   "Index": [
-    "971",
-    "972"
+    "982",
+    "983"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  },
-  "Current Source Question": [
-    "",
-    "266600170.json",
-    "496823485.json",
-    "650465111.json",
-    "303552867.json"
-  ],
-  "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable Name from BioClin_AnyBldUrineRec_v1r0 to BioClin_AnyBldUrnRecBL_v1r0"
+  }
 }

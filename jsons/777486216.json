@@ -46,7 +46,7 @@
   ],
   "conceptId": "777486216",
   "Current Question Text": "Deviation - Unexpected  tube size or type",
-  "Variable Label": "SST1 Deviation - Unexpected  tube size or type",
+  "Variable Label": "SST1 Dev - Unexpected Tube Size/Type",
   "Variable Name": [
     "BioCol_Dev_v1r0_TubeSzSST1",
     "BioCol_Dev_v1r0_TubeSzSST2",
@@ -59,7 +59,7 @@
     "BioCol_Dev_v1r0_TubeSzEDTAT2",
     "BioCol_Dev_v1r0_TubeSzEDTAT3",
     "BioCol_Dev_v1r0_TubeSzACDT1",
-    "BioCol_Dev_v1r0_TubeSzMCDT1",
+    "BioCol_Dev_v1r0_TubeSzSTRT1",
     "BioCol_Dev_v1r0_TubeSzUT1"
   ],
   "Variable Type": "Num",
@@ -72,12 +72,12 @@
   "Date added or modified": "9/7/23",
   "IMS Review Notes": "Updated Variable Name from BioCol_Dev_v1r0_TubeSz to BioCol_Dev_v1r0_TubeSzSST1. Updated Variable Label, Secondary Source and CID.",
   "Formula for Index": [
-    "1461",
-    "1462"
+    "1470",
+    "1471"
   ],
   "Index": [
-    "1461",
-    "1462"
+    "1470",
+    "1471"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

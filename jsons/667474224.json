@@ -9,7 +9,7 @@
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "8/21/23",
   "conceptId": "667474224",
   "Current Question Text": "Campaign Type",
-  "Variable Label": "Campaign Type",
+  "Variable Label": "Campaign",
   "Variable Name": [
     "RcrtSI_CampaignType_v1r0"
   ],
@@ -23,9 +23,6 @@
   "Date added or modified": "8/21/23",
   "GCP Document/Table": "Participants Table Not nested (state_d_667474224)",
   "Formula for Index": [
-    "50",
-    "51",
-    "52",
     "53",
     "54",
     "55",
@@ -35,12 +32,12 @@
     "59",
     "60",
     "61",
-    "62"
+    "62",
+    "63",
+    "64",
+    "65"
   ],
   "Index": [
-    "50",
-    "51",
-    "52",
     "53",
     "54",
     "55",
@@ -50,7 +47,10 @@
     "59",
     "60",
     "61",
-    "62"
+    "62",
+    "63",
+    "64",
+    "65"
   ],
   "Current Format/Value": {
     "926338735.json": "0",

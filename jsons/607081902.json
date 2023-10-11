@@ -10,7 +10,7 @@
   ],
   "conceptId": "607081902",
   "Current Question Text": "Invitation through my patient portal (such as MyChart)",
-  "Variable Label": "Invitation through my patient portal (such as MyChart)",
+  "Variable Label": "Patient Portal Invite",
   "Variable Name": [
     "RcrtES_Aware_v1r0_Invite"
   ],
@@ -23,12 +23,12 @@
   "Default Variable": "No",
   "GCP Document/Table": "Participants Table Nested structure: d_142654897_d_607081902",
   "Formula for Index": [
-    "164",
-    "165"
+    "167",
+    "168"
   ],
   "Index": [
-    "164",
-    "165"
+    "167",
+    "168"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
