@@ -43,7 +43,7 @@
   ],
   "conceptId": "242307474",
   "Current Question Text": "Deviation- Hemolyzed",
-  "Variable Label": "SST1 Deviation- Hemolyzed",
+  "Variable Label": "SST1 Dev - Hemolyzed",
   "Variable Name": [
     "BioCol_Dev_v1r0_HemoSST1",
     "BioCol_Dev_v1r0_HemoSST2",
@@ -56,7 +56,7 @@
     "BioCol_Dev_v1r0_HemoEDTAT2",
     "BioCol_Dev_v1r0_HemoEDTAT3",
     "BioCol_Dev_v1r0_HemoACDT1",
-    "BioCol_Dev_v1r0_HemoMCDT1"
+    "BioCol_Dev_v1r0_HemoSTRT1"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -70,12 +70,12 @@
   "GCP Document/Table": "Biospecimen Table Nesed structure: d_Tube/Bag/Object_d_248868659_d_242307474",
   "IMS Review Notes": "Updated Variable Name from BioCol_Dev_v1r0_Hemo to BioCol_Dev_v1r0_HemoSST1. Updated Variable Label, Secondary Source and CID.",
   "Formula for Index": [
-    "589",
-    "590"
+    "592",
+    "593"
   ],
   "Index": [
-    "589",
-    "590"
+    "592",
+    "593"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

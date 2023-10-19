@@ -5,9 +5,10 @@
   "Secondary Source": [
     "883203566.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "934298480",
   "Current Question Text": "Site reported age at recruitment",
-  "Variable Label": "Site reported age at recruitment",
+  "Variable Label": "Site Age at Recruitment",
   "Variable Name": [
     "RcrtSI_Age_v1r0"
   ],
@@ -19,26 +20,36 @@
   "Dictionary": "Recruitment Data Dictionary",
   "State Attribute": "Yes",
   "Default Variable": "No",
+  "Date added or modified": "10/11/23",
   "GCP Document/Table": "Participants Table Not Nested (state_d_934298480)",
   "Formula for Index": [
     "6",
     "7",
     "8",
     "9",
-    "10"
+    "10",
+    "11",
+    "12",
+    "13"
   ],
   "Index": [
     "6",
     "7",
     "8",
     "9",
-    "10"
+    "10",
+    "11",
+    "12",
+    "13"
   ],
   "Current Format/Value": {
-    "124276120.json": "0",
-    "450985724.json": "1",
-    "363147933.json": "2",
-    "636706443.json": "3",
-    "771230670.json": "4"
+    "713781738.json": "0",
+    "631272782.json": "1",
+    "124276120.json": "2",
+    "450985724.json": "3",
+    "363147933.json": "4",
+    "636706443.json": "5",
+    "771230670.json": "6",
+    "722846087.json": "7"
   }
 }

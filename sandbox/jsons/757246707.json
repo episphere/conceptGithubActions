@@ -49,7 +49,7 @@
   ],
   "conceptId": "757246707",
   "Current Question Text": "Deviation- Leaked/spilled",
-  "Variable Label": "SST1 Deviation- Leaked/spilled",
+  "Variable Label": "SST1 Dev - Spilled",
   "Variable Name": [
     "BioCol_Dev_v1r0_LeakSST1",
     "BioCol_Dev_v1r0_LeakSST2",
@@ -62,7 +62,7 @@
     "BioCol_Dev_v1r0_LeakEDTAT2",
     "BioCol_Dev_v1r0_LeakEDTAT3",
     "BioCol_Dev_v1r0_LeakACDT1",
-    "BioCol_Dev_v1r0_LeakMCDT1",
+    "BioCol_Dev_v1r0_LeakSTRT1",
     "BioCol_Dev_v1r0_LeakUT1",
     "BioCol_Dev_v1r0_LeakMWT1"
   ],
@@ -78,12 +78,12 @@
   "GCP Document/Table": "Biospecimen Table Nesed structure: d_Tube/Bag/Object_d_248868659_d_757246707",
   "IMS Review Notes": "Updated Variable Name from BioCol_Dev_v1r0_Leak to BioCol_Dev_v1r0_LeakSST1. Updated Variable Label, Secondary Source and CID.",
   "Formula for Index": [
-    "667",
-    "668"
+    "670",
+    "671"
   ],
   "Index": [
-    "667",
-    "668"
+    "670",
+    "671"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

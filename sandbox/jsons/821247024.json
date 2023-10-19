@@ -7,7 +7,7 @@
   ],
   "conceptId": "821247024",
   "Current Question Text": "Indicator of match verification after creation of user profile - updated by sites",
-  "Variable Label": "Verification status",
+  "Variable Label": "Verif Status",
   "Variable Name": [
     "RcrtV_Verification_v1r0"
   ],
@@ -21,18 +21,18 @@
   "Default Variable": "Yes",
   "GCP Document/Table": "Participants Table Not nested (d_821247024)",
   "Formula for Index": [
-    "281",
-    "282",
-    "283",
     "284",
-    "285"
+    "285",
+    "286",
+    "287",
+    "288"
   ],
   "Index": [
-    "281",
-    "282",
-    "283",
     "284",
-    "285"
+    "285",
+    "286",
+    "287",
+    "288"
   ],
   "Current Format/Value": {
     "875007964.json": "0",

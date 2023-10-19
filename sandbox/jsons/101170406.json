@@ -7,7 +7,7 @@
   ],
   "conceptId": "101170406",
   "Current Question Text": "Baseline EMR Push",
-  "Variable Label": "Baseline EMR Push",
+  "Variable Label": "Base EMR Push",
   "Variable Name": [
     "EMRBl_Push_v1r0"
   ],
@@ -21,12 +21,12 @@
   "GCP Document/Table": "Not yet in Flattened Tables",
   "Question Type": "For BioSpm_Visit_v1r0, baseline is a format/value. But baseline is also a secondary source here; all given the same concept ID on Brian's end even though they're different in the master dictionary",
   "Formula for Index": [
-    "1193",
-    "1194"
+    "1202",
+    "1203"
   ],
   "Index": [
-    "1193",
-    "1194"
+    "1202",
+    "1203"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

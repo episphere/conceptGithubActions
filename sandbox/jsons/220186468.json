@@ -9,7 +9,7 @@
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "5/10/23",
   "conceptId": "220186468",
   "Current Question Text": "COVID-19 survey completion",
-  "Variable Label": "Flag for COVID-19 survey",
+  "Variable Label": "Flag COV Surv",
   "Variable Name": [
     "SrvCOV_BaseComplete_v1r0"
   ],
@@ -23,14 +23,14 @@
   "Date added or modified": "5/10/23",
   "GCP Document/Table": "Participants Table",
   "Formula for Index": [
-    "1001",
-    "1002",
-    "1003"
+    "1010",
+    "1011",
+    "1012"
   ],
   "Index": [
-    "1001",
-    "1002",
-    "1003"
+    "1010",
+    "1011",
+    "1012"
   ],
   "Current Format/Value": {
     "972455046.json": "0",

@@ -46,7 +46,7 @@
   ],
   "conceptId": "690540566",
   "Current Question Text": "Deviation- Improper temperature - too high (record time and temperature Deviation in the comments)",
-  "Variable Label": "SST1 Deviation- Improper temperature - too high",
+  "Variable Label": "SST1 Dev - Temp Too High",
   "Variable Name": [
     "BioCol_Dev_v1r0_TempHSST1",
     "BioCol_Dev_v1r0_TempHSST2",
@@ -59,7 +59,7 @@
     "BioCol_Dev_v1r0_TempHEDTAT2",
     "BioCol_Dev_v1r0_TempHEDTAT3",
     "BioCol_Dev_v1r0_TempHACDT1",
-    "BioCol_Dev_v1r0_TempHMCDT1",
+    "BioCol_Dev_v1r0_TempHSTRT1",
     "BioCol_Dev_v1r0_TempHUT1"
   ],
   "Variable Type": "Num",
@@ -74,12 +74,12 @@
   "GCP Document/Table": "Biospecimen Table Nesed structure: d_Tube/Bag/Object_d_248868659_d_690540566",
   "IMS Review Notes": "Updated Variable Name from BioCol_Dev_v1r0_TempH to BioCol_Dev_v1r0_TempHSST1. Updated Variable Label, Secondary Source and CID.",
   "Formula for Index": [
-    "639",
-    "640"
+    "642",
+    "643"
   ],
   "Index": [
-    "639",
-    "640"
+    "642",
+    "643"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

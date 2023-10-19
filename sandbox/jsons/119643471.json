@@ -7,7 +7,7 @@
   ],
   "conceptId": "119643471",
   "Current Question Text": "Sanford Health Reported Race",
-  "Variable Label": "Sanford Health Reported Race",
+  "Variable Label": "SF Race",
   "Variable Name": [
     "RcrtSI_SHRace_v1r0"
   ],
@@ -20,9 +20,6 @@
   "Default Variable": "No",
   "GCP Document/Table": "Participants Table Not nested (state_d_119643471)",
   "Formula for Index": [
-    "14",
-    "15",
-    "16",
     "17",
     "18",
     "19",
@@ -32,12 +29,12 @@
     "23",
     "24",
     "25",
-    "26"
+    "26",
+    "27",
+    "28",
+    "29"
   ],
   "Index": [
-    "14",
-    "15",
-    "16",
     "17",
     "18",
     "19",
@@ -47,7 +44,10 @@
     "23",
     "24",
     "25",
-    "26"
+    "26",
+    "27",
+    "28",
+    "29"
   ],
   "Current Format/Value": {
     "232334767.json": "0",

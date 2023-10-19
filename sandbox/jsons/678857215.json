@@ -19,13 +19,13 @@
   ],
   "conceptId": "678857215",
   "Current Question Text": "Deviation",
-  "Variable Label": "SST1 Deviation",
+  "Variable Label": "SST1 Dev",
   "Variable Name": [
     "BioCol_Deviation_v1r0_SST1",
     "BioCol_Deviation_v1r0_SST2",
     "BioCol_Deviation_v1r0_SST3",
     "BioCol_Deviation_v1r0_ACDT1",
-    "BioCol_Deviation_v1r0_MCDT1",
+    "BioCol_Deviation_v1r0_STRT1",
     "BioCol_Deviation_v1r0_UT1",
     "BioCol_Deviation_v1r0_MWT1"
   ],
@@ -41,12 +41,12 @@
   "GCP Document/Table": "Biospecimen Table Nested structure: d_Tube/Bag/Object_d_652357376",
   "IMS Review Notes": "Updated Variable Name from BioCol_Deviation_v1r0 to BioCol_Deviation_v1r0_SST1. Updated Variable Label, Secondary Source and CID.",
   "Formula for Index": [
-    "819",
-    "820"
+    "830",
+    "831"
   ],
   "Index": [
-    "819",
-    "820"
+    "830",
+    "831"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
