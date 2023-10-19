@@ -25,7 +25,7 @@
   ],
   "conceptId": "448594163",
   "Current Question Text": "Started to smoke or began to smoke again",
-  "Variable Label": "Started to smoke or began to smoke again",
+  "Variable Label": "Started To Smoke",
   "Variable Name": [
     "SrvBOH_Smoking1_v1r0",
     "SrvBOH_Smoking2_v1r0",
@@ -45,12 +45,8 @@
   "Notes": "Only display if flag for percent weight change 18-25 = yes",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "2460",
-    "2461"
-  ],
-  "Index": [
-    "2460",
-    "2461"
+    "2462",
+    "2463"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

@@ -7,7 +7,7 @@
   ],
   "conceptId": "206319592",
   "Current Question Text": "Which one of these male figures most closely resembles your hair pattern at age 40?",
-  "Variable Label": "Hair male",
+  "Variable Label": "Hair Male",
   "Variable Name": [
     "SrvBOH_HairMale_v1r0"
   ],
@@ -21,8 +21,6 @@
   "Notes": "[DISPLAY IF SEX= 01 and GEN= 01]",
   "Question Type": "Optional Multiple Choice, Figures (with radio button to select one)",
   "Formula for Index": [
-    "2535",
-    "2536",
     "2537",
     "2538",
     "2539",
@@ -32,21 +30,9 @@
     "2543",
     "2544",
     "2545",
-    "2546"
-  ],
-  "Index": [
-    "2535",
-    "2536",
-    "2537",
-    "2538",
-    "2539",
-    "2540",
-    "2541",
-    "2542",
-    "2543",
-    "2544",
-    "2545",
-    "2546"
+    "2546",
+    "2547",
+    "2548"
   ],
   "Current Format/Value": {
     "927925620.json": "0",

@@ -7,7 +7,7 @@
   ],
   "conceptId": "494032093",
   "Current Question Text": "Which type of diabetes did a doctor or other health professional tell you that you have or had?",
-  "Variable Label": "Diabetes type",
+  "Variable Label": "Diabetes Type",
   "Variable Name": [
     "SrvBOH_DiabetesType_v1r0"
   ],
@@ -21,14 +21,9 @@
   "Notes": "Only display if MHGROUP4 = diabetes",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "2173",
-    "2174",
-    "2175"
-  ],
-  "Index": [
-    "2173",
-    "2174",
-    "2175"
+    "2175",
+    "2176",
+    "2177"
   ],
   "Current Format/Value": {
     "146477090.json": "0",

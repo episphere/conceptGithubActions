@@ -7,7 +7,7 @@
   ],
   "conceptId": "537153788",
   "Current Question Text": "Has a doctor or other health professional ever told you that you have or had non-melanoma skin cancer?",
-  "Variable Label": "Skin cancer diagnosis",
+  "Variable Label": "Skin Cx Dx",
   "Variable Name": [
     "SrvBOH_SkinCancer_v1r0"
   ],
@@ -20,12 +20,8 @@
   "PII": "No",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "2047",
-    "2048"
-  ],
-  "Index": [
-    "2047",
-    "2048"
+    "2049",
+    "2050"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
