@@ -13,7 +13,7 @@
   ],
   "conceptId": "532603425",
   "Current Question Text": "Removal of one or both testicles (orchiectomy or orchidectomy)",
-  "Variable Label": "Removal of one or both testicles (orchiectomy or orchidectomy)",
+  "Variable Label": "Removal One/Both Testicles",
   "Variable Name": [
     "SrvBOH_Orchiectomy_v1r0"
   ],
@@ -26,12 +26,8 @@
   "PII": "No",
   "Question Type": "Optional Select All that Apply, Displayif in One or More Responses",
   "Formula for Index": [
-    "2304",
-    "2305"
-  ],
-  "Index": [
-    "2304",
-    "2305"
+    "2306",
+    "2307"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

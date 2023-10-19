@@ -13,7 +13,7 @@
   ],
   "conceptId": "492902023",
   "Current Question Text": "Removal of a part of my breast tissue (breast-conserving surgery (BCS), lumpectomy, partial mastectomy, or segmental mastectomy)",
-  "Variable Label": "Removal of a part of my breast tissue (breast-conserving surgery (BCS), lumpectomy, partial mastectomy, or segmental mastectomy)",
+  "Variable Label": "Breast Part Removal",
   "Variable Name": [
     "SrvBOH_BreastPartRem_v1r0"
   ],
@@ -27,12 +27,8 @@
   "Notes": "Only display if MHGROUP9 = breast surgery",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "2330",
-    "2331"
-  ],
-  "Index": [
-    "2330",
-    "2331"
+    "2332",
+    "2333"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

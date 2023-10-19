@@ -13,7 +13,7 @@
   ],
   "conceptId": "698944820",
   "Current Question Text": "B-12 Deficiency (Pernicious Anemia)",
-  "Variable Label": "B-12 Deficiency (Pernicious Anemia)",
+  "Variable Label": "B-12 Deficiency",
   "Variable Name": [
     "SrvBOH_B12Defic_v1r0"
   ],
@@ -26,12 +26,8 @@
   "PII": "No",
   "Question Type": "Optional Select All that Apply, Displayif in One or More Responses",
   "Formula for Index": [
-    "2057",
-    "2058"
-  ],
-  "Index": [
-    "2057",
-    "2058"
+    "2059",
+    "2060"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

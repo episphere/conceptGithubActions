@@ -7,7 +7,7 @@
   ],
   "conceptId": "783167257",
   "Current Question Text": "Are you now married, widowed, divorced, separated, never married, or living with a partner?",
-  "Variable Label": "Marital status",
+  "Variable Label": "Marital Status",
   "Variable Name": [
     "SrvBOH_Marital_v1r0"
   ],
@@ -20,22 +20,13 @@
   "PII": "No",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "1777",
-    "1778",
     "1779",
     "1780",
     "1781",
     "1782",
-    "1783"
-  ],
-  "Index": [
-    "1777",
-    "1778",
-    "1779",
-    "1780",
-    "1781",
-    "1782",
-    "1783"
+    "1783",
+    "1784",
+    "1785"
   ],
   "Current Format/Value": {
     "514080822.json": "0",

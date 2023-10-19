@@ -25,7 +25,7 @@
   ],
   "conceptId": "862170896",
   "Current Question Text": "Used diet pills/medications",
-  "Variable Label": "Used diet pills/medications",
+  "Variable Label": "Diet Pills/Medications",
   "Variable Name": [
     "SrvBOH_Meds1_v1r0",
     "SrvBOH_Meds2_v1r0",
@@ -45,12 +45,8 @@
   "Notes": "Only display if flag for percent weight change 18-25 = yes",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "2458",
-    "2459"
-  ],
-  "Index": [
-    "2458",
-    "2459"
+    "2460",
+    "2461"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
