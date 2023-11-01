@@ -8,7 +8,7 @@
   "conceptId": "164595895",
   "Current Question Text": "In just the past 12 months, what was the usual length of your menstrual cycle? Please do not consider breakthrough bleeding (also known as spotting) as part of the menstrual cycle.",
   "V1 Question Text": "In just the past 12 months, what was the usual length of your menstrual cycle?",
-  "Variable Label": "Days long recent menstrual cycle",
+  "Variable Label": "Days Long Recent Mens Cycle",
   "Variable Name": [
     "SrvMRE_PeriodLength12M_v2r1"
   ],
@@ -22,22 +22,22 @@
   "Date added or modified": "6/29/23",
   "IMS Review Notes": "Denoted question as revised, Revised Current Question Text, moved V1 text to V1 Question Text, deprecated response = 2, added 2 new responses, changed Variable Name suffix from _v1r0 to _v2r1",
   "Formula for Index": [
+    "3460",
     "3461",
     "3462",
     "3463",
     "3464",
     "3465",
-    "3466",
-    "3467"
+    "3466"
   ],
   "Index": [
+    "3460",
     "3461",
     "3462",
     "3463",
     "3464",
     "3465",
-    "3466",
-    "3467"
+    "3466"
   ],
   "Deprecated, New, or Revised": [
     "Revised",

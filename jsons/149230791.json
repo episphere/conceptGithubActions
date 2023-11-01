@@ -19,7 +19,7 @@
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "7/5/23",
   "conceptId": "149230791",
   "Current Question Text": "Transportation, warehousing, and utilities (e.g., water, sanitation, electric)",
-  "Variable Label": "Transportation, warehousing, and utilities",
+  "Variable Label": "Transportation/Warehousing/Utilities",
   "Variable Name": [
     "SrvBOH_TransUtilC_v1r0",
     "SrvBOH_TransUtilP_v1r0"
@@ -36,12 +36,12 @@
   "Question Type": "Optional Select All that Apply",
   "IMS Review Notes": "Added new question (aka reponse 2)",
   "Formula for Index": [
-    "3081",
-    "3082"
+    "3080",
+    "3081"
   ],
   "Index": [
-    "3081",
-    "3082"
+    "3080",
+    "3081"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

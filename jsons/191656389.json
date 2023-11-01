@@ -7,7 +7,7 @@
   ],
   "conceptId": "191656389",
   "Current Question Text": "Muscle or joint pain, joint or bone injuries, sprains, or strains",
-  "Variable Label": "Muscle or joint pain, joint or bone injuries, sprains, or strains",
+  "Variable Label": "Muscle/Joint/Bone Pain",
   "Variable Name": [
     "SrvMRE_MusclePain_v1r0"
   ],
@@ -31,24 +31,24 @@
     ]
   ],
   "Formula for Index": [
+    "3338",
     "3339",
     "3340",
     "3341",
     "3342",
     "3343",
     "3344",
-    "3345",
-    "3346"
+    "3345"
   ],
   "Index": [
+    "3338",
     "3339",
     "3340",
     "3341",
     "3342",
     "3343",
     "3344",
-    "3345",
-    "3346"
+    "3345"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

@@ -7,7 +7,7 @@
   ],
   "conceptId": "846978339",
   "Current Question Text": "When was the last time you took over-the-counter proton pump inhibitors?",
-  "Variable Label": "Last time took over-the-counter proton pump inhibitors",
+  "Variable Label": "Last Time OTC Proton Pump Inhibitors",
   "Variable Name": [
     "SrvMRE_ProtPumpOCTime_v1r0"
   ],
@@ -20,14 +20,14 @@
   "PII": "No",
   "Notes": "Only display if ACIDSUP = 1",
   "Formula for Index": [
+    "3435",
     "3436",
-    "3437",
-    "3438"
+    "3437"
   ],
   "Index": [
+    "3435",
     "3436",
-    "3437",
-    "3438"
+    "3437"
   ],
   "Current Format/Value": {
     "317567178.json": "0",

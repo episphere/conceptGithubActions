@@ -7,7 +7,7 @@
   ],
   "conceptId": "225047594",
   "Current Question Text": "When was the last time you took statins/cholesterol or lipid lowering drugs?",
-  "Variable Label": "Last time took statins/cholesterol or lipid lowering drugs",
+  "Variable Label": "Last Time Statins",
   "Variable Name": [
     "SrvMRE_StatinsTime_v1r0"
   ],
@@ -20,14 +20,14 @@
   "PII": "No",
   "Notes": "Only display if CHOLHTN = 0",
   "Formula for Index": [
+    "3374",
     "3375",
-    "3376",
-    "3377"
+    "3376"
   ],
   "Index": [
+    "3374",
     "3375",
-    "3376",
-    "3377"
+    "3376"
   ],
   "Current Format/Value": {
     "317567178.json": "0",

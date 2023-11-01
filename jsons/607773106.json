@@ -7,7 +7,7 @@
   ],
   "conceptId": "607773106",
   "Current Question Text": "Sibling 1- [If SIB4=01] Has a doctor or other health professional ever told [SIBLING INITIALS OR NICKNAME/your sibling] that they have or had any type of cancer? [If SIB4=00, 77, NON-RESPONSE] Did a doctor or other health professional ever tell [sibling initials or nickname/your sibling] that they had any type of cancer?",
-  "Variable Label": "Sibling 1 cancer",
+  "Variable Label": "Sib 1 Cx",
   "Variable Name": [
     "SrvBOH_Sibling1Cancer_v1r0"
   ],
@@ -20,14 +20,14 @@
   "PII": "No",
   "Question Type": "Optional Multiple Choice, Loops",
   "Formula for Index": [
+    "2819",
     "2820",
-    "2821",
-    "2822"
+    "2821"
   ],
   "Index": [
+    "2819",
     "2820",
-    "2821",
-    "2822"
+    "2821"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

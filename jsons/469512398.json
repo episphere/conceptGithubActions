@@ -13,7 +13,7 @@
   ],
   "conceptId": "469512398",
   "Current Question Text": "Baby or low-dose aspirin (81 mg or less)",
-  "Variable Label": "Baby or low-dose aspirin (81 mg or less)",
+  "Variable Label": "Baby/Low-Dose Aspirin",
   "Variable Name": [
     "SrvMRE_LAspirin_v1r0"
   ],
@@ -25,12 +25,12 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "3212",
-    "3213"
+    "3211",
+    "3212"
   ],
   "Index": [
-    "3212",
-    "3213"
+    "3211",
+    "3212"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

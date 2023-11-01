@@ -7,7 +7,7 @@
   ],
   "conceptId": "378892977",
   "Current Question Text": "Which of these best describes the type of ovary removal surgery that you had?",
-  "Variable Label": "Ovary Surgery",
+  "Variable Label": "Ovary Surg",
   "Variable Name": [
     "SrvBOH_OvarySurg_v1r0"
   ],
@@ -22,14 +22,14 @@
   "Date added or modified": "9/14/21",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
+    "2397",
     "2398",
-    "2399",
-    "2400"
+    "2399"
   ],
   "Index": [
+    "2397",
     "2398",
-    "2399",
-    "2400"
+    "2399"
   ],
   "Current Format/Value": {
     "333647143.json": "0",

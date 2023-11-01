@@ -33,28 +33,5 @@
     "129461711.json",
     "457270069.json",
     "772638539.json"
-  ],
-  "Formula for Index": "1695",
-  "Index": "1695",
-  "Primary Source": [
-    "692924902.json"
-  ],
-  "Secondary Source": [
-    "195399696.json"
-  ],
-  "Deprecated, New, or Revised": "New",
-  "Variable Label": "Occurrence",
-  "Variable Name": [
-    "RCAOper_Occurrence_v1r0"
-  ],
-  "Variable Type": "N/A",
-  "Current Format/Value": "N/A",
-  "Required": "Yes",
-  "PII": "No",
-  "Notes": "New variable, Occurrence, to be nested under 692924902, Rapid Case Ascertainment, 195399696, Operations. Will contain information (as individul variable which have already been created) on each occurance of cancer as determined by the RCA algorithm.",
-  "Dictionary": "Master Data Dictionary",
-  "State Attribute": "No",
-  "Default Variable": "No",
-  "Date added or modified": "11/25/22",
-  "GCP Document/Table": "Not yet in Flattened Tables, will be nested under 692924902, Rapid Case Ascertainment, 195399696 Operations"
+  ]
 }

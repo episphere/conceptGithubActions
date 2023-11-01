@@ -19,7 +19,7 @@
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "7/5/23",
   "conceptId": "766533183",
   "Current Question Text": "Healthcare or social assistance",
-  "Variable Label": "Healthcare or social assistance",
+  "Variable Label": "Healthcare/Social Asst",
   "Variable Name": [
     "SrvBOH_HlthcareC_v1r0",
     "SrvBOH_HlthcareP_v1r0"
@@ -36,12 +36,12 @@
   "Question Type": "Optional Select All that Apply",
   "IMS Review Notes": "Added new question (aka reponse 8)",
   "Formula for Index": [
-    "3101",
-    "3102"
+    "3100",
+    "3101"
   ],
   "Index": [
-    "3101",
-    "3102"
+    "3100",
+    "3101"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

@@ -7,7 +7,7 @@
   ],
   "conceptId": "367374606",
   "Current Question Text": "Is your biological father still living?",
-  "Variable Label": "Dad living",
+  "Variable Label": "Dad Living",
   "Variable Name": [
     "SrvBOH_DadLiving_v1r0"
   ],
@@ -20,14 +20,14 @@
   "PII": "No",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
+    "2702",
     "2703",
-    "2704",
-    "2705"
+    "2704"
   ],
   "Index": [
+    "2702",
     "2703",
-    "2704",
-    "2705"
+    "2704"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
