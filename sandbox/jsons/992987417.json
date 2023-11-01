@@ -7,7 +7,7 @@
   ],
   "conceptId": "992987417",
   "Current Question Text": "Were you born a twin, triplet, or other multiple?",
-  "Variable Label": "Twin, multiple",
+  "Variable Label": "Twin/Multiple",
   "Variable Name": [
     "SrvBOH_Multbirth_v1r0"
   ],
@@ -20,16 +20,16 @@
   "PII": "No",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
+    "2595",
     "2596",
     "2597",
-    "2598",
-    "2599"
+    "2598"
   ],
   "Index": [
+    "2595",
     "2596",
     "2597",
-    "2598",
-    "2599"
+    "2598"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

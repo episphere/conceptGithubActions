@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "5985",
-  "Index": "5985",
+  "Formula for Index": "5984",
+  "Index": "5984",
   "Primary Source": [
     "129084651.json"
   ],
@@ -22,9 +22,11 @@
   "Connect Value for Select all that apply questions - Surveys Only": [
     "HOMEWTR1_6_OTH"
   ],
+  "Variable Type": "Char",
   "Variable Length": "300",
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "3/10/22"
+  "Date added or modified": "10/31/23",
+  "IMS Review Notes": "Added Char to Variable Type"
 }

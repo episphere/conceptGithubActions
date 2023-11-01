@@ -7,7 +7,7 @@
   ],
   "conceptId": "824287808",
   "Current Question Text": "When was the last time you took prescription proton pump inhibitors?",
-  "Variable Label": "Last time took prescription proton pump inhibitors",
+  "Variable Label": "Last Time Rx Proton Pump Inhibitors",
   "Variable Name": [
     "SrvMRE_ProtPumpPresTm_v1r0"
   ],
@@ -20,14 +20,14 @@
   "PII": "No",
   "Notes": "Only display if ACIDSUP = 0",
   "Formula for Index": [
+    "3432",
     "3433",
-    "3434",
-    "3435"
+    "3434"
   ],
   "Index": [
+    "3432",
     "3433",
-    "3434",
-    "3435"
+    "3434"
   ],
   "Current Format/Value": {
     "317567178.json": "0",

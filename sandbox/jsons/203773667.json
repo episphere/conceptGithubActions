@@ -25,7 +25,7 @@
   ],
   "conceptId": "203773667",
   "Current Question Text": "Surgery",
-  "Variable Label": "Surgery",
+  "Variable Label": "Surg",
   "Variable Name": [
     "SrvBOH_Surgery1_v1r0",
     "SrvBOH_Surgery2_v1r0",
@@ -45,12 +45,12 @@
   "Notes": "Only display if flag for percent weight change 18-25 = yes",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "2485",
-    "2486"
+    "2484",
+    "2485"
   ],
   "Index": [
-    "2485",
-    "2486"
+    "2484",
+    "2485"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

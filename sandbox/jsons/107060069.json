@@ -7,7 +7,7 @@
   ],
   "conceptId": "107060069",
   "Current Question Text": "Which of these best describes the type of prostate removal surgery that you had?",
-  "Variable Label": "Prostate Removal Surgery",
+  "Variable Label": "Prostate Removal Surg",
   "Variable Name": [
     "SrvBOH_ProsRemSurg_v1r0"
   ],
@@ -22,14 +22,14 @@
   "Date added or modified": "9/14/21",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
+    "2414",
     "2415",
-    "2416",
-    "2417"
+    "2416"
   ],
   "Index": [
+    "2414",
     "2415",
-    "2416",
-    "2417"
+    "2416"
   ],
   "Current Format/Value": {
     "524029283.json": "0",

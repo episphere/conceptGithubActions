@@ -7,7 +7,7 @@
   ],
   "conceptId": "418392907",
   "Current Question Text": "Child 1- Is [CHILD INITIALS OR NICKNAME/your CHILD] still living?",
-  "Variable Label": "Child 1 living",
+  "Variable Label": "Child 1 Living",
   "Variable Name": [
     "SrvBOH_Child1Living_v1r0"
   ],
@@ -20,14 +20,14 @@
   "PII": "No",
   "Question Type": "Optional Multiple Choice, Loops",
   "Formula for Index": [
+    "2935",
     "2936",
-    "2937",
-    "2938"
+    "2937"
   ],
   "Index": [
+    "2935",
     "2936",
-    "2937",
-    "2938"
+    "2937"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

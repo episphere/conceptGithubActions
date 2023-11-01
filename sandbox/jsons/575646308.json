@@ -7,7 +7,7 @@
   ],
   "conceptId": "575646308",
   "Current Question Text": "When was the last time you took naproxen?",
-  "Variable Label": "Last time took naproxen?",
+  "Variable Label": "Last Time Naproxen",
   "Variable Name": [
     "SrvMRE_NaproxenTime_V1r0"
   ],
@@ -20,14 +20,14 @@
   "PII": "No",
   "Notes": "Only display if PAINREL1 = 4",
   "Formula for Index": [
+    "3274",
     "3275",
-    "3276",
-    "3277"
+    "3276"
   ],
   "Index": [
+    "3274",
     "3275",
-    "3276",
-    "3277"
+    "3276"
   ],
   "Current Format/Value": {
     "317567178.json": "0",

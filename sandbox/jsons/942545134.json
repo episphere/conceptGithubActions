@@ -19,7 +19,7 @@
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "7/5/23",
   "conceptId": "942545134",
   "Current Question Text": "Military, police, firefighting, security services",
-  "Variable Label": "Military, police, firefighting, security services",
+  "Variable Label": "Military/Police/Firefighting/Security",
   "Variable Name": [
     "SrvBOH_MilPoliceC_v1r0",
     "SrvBOH_MilPoliceP_v1r0"
@@ -36,12 +36,12 @@
   "Question Type": "Optional Select All that Apply",
   "IMS Review Notes": "Added new question (aka reponse 10)",
   "Formula for Index": [
-    "3107",
-    "3108"
+    "3106",
+    "3107"
   ],
   "Index": [
-    "3107",
-    "3108"
+    "3106",
+    "3107"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

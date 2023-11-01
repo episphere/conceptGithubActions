@@ -7,7 +7,7 @@
   ],
   "conceptId": "414005872",
   "Current Question Text": "Did you ever use prescription pain relievers that contain opioids in any way not directed by a doctor? This might include using them without a prescription, using more than directed, or using them more often or for a longer time than directed. Please remember that we protect your privacy. We remove information that can identify you from your survey answers before we share them with researchers",
-  "Variable Label": "Ever use prescriptoin pain not directed by doctor",
+  "Variable Label": "Ever Use Rx Pain Reliever - No Dr",
   "Variable Name": [
     "SrvMRE_OpioidMisuse_v1r0"
   ],
@@ -20,16 +20,16 @@
   "PII": "No",
   "Date added or modified": "11/15/21",
   "Formula for Index": [
+    "3354",
     "3355",
     "3356",
-    "3357",
-    "3358"
+    "3357"
   ],
   "Index": [
+    "3354",
     "3355",
     "3356",
-    "3357",
-    "3358"
+    "3357"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
