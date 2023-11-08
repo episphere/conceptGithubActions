@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "1342",
+  "Index": "1342",
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "635994596.json"
+  ],
+  "conceptId": "772354119",
+  "Current Question Text": "EMR participant deceased date/time",
+  "Variable Label": "EMR participant deceased D/T",
+  "Variable Name": [
+    "HdWd_EMRPartDecTm_v1r0"
+  ],
+  "Variable Type": "ISO",
+  "Variable Length": "24",
+  "Current Format/Value": "example: 2020-07-17T15:21:26.763Z",
+  "Required": "Yes if HdWd_EMRPartDec_v1r0 = 1",
+  "PII": "No",
+  "Notes": "Sent to us from the sites",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "11/7/23"
+}
