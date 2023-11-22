@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2086",
-  "Index": "2086",
+  "Formula for Index": "2191",
+  "Index": "2191",
   "Primary Source": [
     "129084651.json",
     "129084651.json",
@@ -593,6 +593,7 @@
     "CHILDCANC3X",
     "CHILDCANC3Y"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "206625031",
   "Current Question Text": "Age at diagnosis",
   "Variable Label": "Skin Cx Dx Age",
@@ -897,8 +898,8 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display is SKINCANC = 1. Range check",
-  "Date added or modified": "9/13/23",
+  "Notes": "Only display is SKINCANC = 1. Range check min=0 max=sum(isDefined(D_150344905,age),1)",
+  "Date added or modified": "11/16/23",
   "Question Type": "Or (xor=) Question (either/or text boxes without radio button)",
-  "IMS Review Notes": "Updated Variable name suffix to _v1r1 to reflect range check update from age to age+1. Deleted range check from Notes until markdown is updated"
+  "IMS Review Notes": "Denoted as revised and added range check to Notes."
 }
