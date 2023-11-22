@@ -1,23 +1,29 @@
 {
   "Primary Source": [
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "299215535.json"
+    "299215535.json",
+    "390351864.json"
   ],
   "Current Source Question": [
+    "542661394.json",
     "542661394.json"
   ],
   "GridID/Source Question Name": [
+    "SrvMtW_DENTURES_v1r0",
     "SrvMtW_DENTURES_v1r0"
   ],
   "conceptId": "167336253",
   "Current Question Text": "No, I have no dentures or dental appliances.",
   "Variable Label": "No Dentures",
   "Variable Name": [
+    "SrvMtW_DENTURES2_v1r0",
     "SrvMtW_DENTURES2_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
+    "0",
     "0"
   ],
   "Variable Type": "Num",
@@ -26,12 +32,12 @@
   "State Attribute": "No",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "7701",
-    "7702"
+    "7806",
+    "7807"
   ],
   "Index": [
-    "7701",
-    "7702"
+    "7806",
+    "7807"
   ],
   "Deprecated, New, or Revised": [
     "New",
@@ -48,5 +54,7 @@
   "IMS Review Notes": [
     "Added non-harmonized 'No'",
     "Added non-harmonized 'No'"
-  ]
+  ],
+  "Required": "No",
+  "PII": "No"
 }

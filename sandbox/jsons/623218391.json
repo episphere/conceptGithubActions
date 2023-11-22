@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2343",
-  "Index": "2343",
+  "Formula for Index": "2448",
+  "Index": "2448",
   "Primary Source": [
     "129084651.json",
     "129084651.json",
@@ -101,6 +101,7 @@
     "PROSREM2",
     "PENREM"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "623218391",
   "Current Question Text": "Age at surgery",
   "Variable Label": "Tonsillectomy Age",
@@ -159,12 +160,10 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if MHGROUP9 = tonsillectomy. Range check (max previously was age)",
-  "Date added or modified": "9/14/23",
+  "Notes": "Only display if MHGROUP9 = tonsillectomy. Range check (max previously was age): min=0 max=sum(isDefined(D_150344905,age),1)",
+  "Date added or modified": "11/16/23",
   "Question Type": "Or (xor=) Question (either/or text boxes without radio button)",
-  "IMS Review Notes": "Updated Variable name suffix to _v1r1 to reflect range check update from age to age+1. Deleted range check from Notes until markdown is updated",
-  "Deprecated, New, or Revised": "New",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "6/10/22",
+  "IMS Review Notes": "Denoted as revised and added range check to Notes.",
   "V1 Source Question": [
     "",
     "",
