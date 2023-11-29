@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "1900",
-  "Index": "1900",
+  "Formula for Index": "1901",
+  "Index": "1901",
   "Primary Source": [
     "332961895.json"
   ],
@@ -10,20 +10,22 @@
   "Deprecated, New, or Revised": "New",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "6/6/23",
   "conceptId": "648550593",
-  "Current Question Text": "Cumulative Number of Analysis Eligible, i.e. Verified - Data Destruction",
-  "Variable Label": "Analysis Elig",
+  "Current Question Text": "Cumulative Number of Analysis Eligible\"",
+  "V1 Question Text": "i.e. Verified - Data Destruction\"\"",
   "Variable Name": [
+    "Analysis Elig"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
     "SMMet_AvailForAnalysis_v1r0"
   ],
-  "Variable Type": "Numeric",
-  "Variable Length": "6",
-  "Current Format/Value": "N/A",
-  "Required": "Yes",
-  "PII": "No",
-  "Notes": "total d_821247024 verified)-sum(d_831041022 == 353358909)",
-  "Dictionary": "Study Manager",
-  "State Attribute": "No",
+  "Variable Length": "Numeric",
+  "R0 Format/Value": "N/A",
+  "PII": "Yes",
+  "Notes": "No",
+  "Derivation Notes": "total d_821247024 verified)-sum(d_831041022 == 353358909)",
+  "State Attribute": "Study Manager",
   "Default Variable": "No",
-  "Date added or modified": "6/6/23",
-  "GCP Document/Table": "Not yet in Flattened Tables but will be in Participants Table"
+  "Date added or modified": "No",
+  "GCP Document/Table": "6/6/23",
+  "Question Type": "Not yet in Flattened Tables but will be in Participants Table"
 }
