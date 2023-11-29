@@ -7,10 +7,10 @@
   ],
   "Deprecated, New, or Revised": "New",
   "conceptId": "137401245",
-  "Current Question Text": "Flag to indicate if the participant returned the collection card with collection information on it",
-  "Variable Label": "Coll Card Ret Flag",
+  "Current Question Text": "Flag to indicate if the collection card is missing",
+  "Variable Label": "Coll Card Miss Flag",
   "Variable Name": [
-    "BioKit_CollCardRet_v1r0"
+    "BioKit_CollCardMissing_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -20,7 +20,7 @@
   "Dictionary": "Biospecimen Kit",
   "State Attribute": "No",
   "Default Variable": "Yes",
-  "Date added or modified": "9/27/23",
+  "Date added or modified": "11/29/23",
   "GCP Document/Table": "Kit Table Not nested (TBD)",
   "Formula for Index": [
     "1224",
