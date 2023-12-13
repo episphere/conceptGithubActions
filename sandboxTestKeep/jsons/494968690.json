@@ -1,0 +1,38 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "12/14/22",
+  "conceptId": "494968690",
+  "Current Question Text": "Please review the list below and tell us if it includes all of the addresses where you have spent a total of 24 months or more in the past 20 years. 9th Address:",
+  "Variable Label": "Summary vacation homes",
+  "Variable Name": [
+    "SrvLAW_SeasAddSum_9_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "SEASADDSUM_9"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "2/2/23",
+  "Question Type": "Optional Multiple Choice",
+  "IMS Review Notes": "Updated Push to Prod date for new variable",
+  "Formula for Index": [
+    "6374",
+    "6375"
+  ],
+  "Index": [
+    "6374",
+    "6375"
+  ],
+  "Current Format/Value": {
+    "171498611.json": "0",
+    "580377720.json": "1"
+  }
+}

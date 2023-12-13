@@ -1,0 +1,29 @@
+{
+  "Formula for Index": "3265",
+  "Index": "3265",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "686172464",
+  "Current Question Text": "How many years have you worked in that longest held job?",
+  "Variable Label": "Past Job Yrs",
+  "Variable Name": [
+    "SrvBOH_YearsPastJob_v1r1"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "WORK8"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "Yes",
+  "Notes": "Range check (max previously was age): min=0 max=sum(isDefined(D_150344905,age),1)",
+  "Date added or modified": "11/16/23",
+  "Question Type": "Or (xor=) Question (either/or text boxes without radio button)",
+  "IMS Review Notes": "Denoted as revised and added range check to Notes."
+}

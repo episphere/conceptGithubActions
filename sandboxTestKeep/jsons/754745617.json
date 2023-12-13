@@ -1,0 +1,71 @@
+{
+  "Primary Source": [
+    "692924902.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "637153953.json",
+    "726699695.json",
+    "726699695.json",
+    "726699695.json",
+    "726699695.json"
+  ],
+  "Current Source Question": [
+    "740819233.json",
+    "814510313.json",
+    "173240848.json",
+    "578895128.json",
+    "812370563.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "754745617",
+  "Current Question Text": "Lung or bronchial",
+  "Variable Label": "Lung/Bronchial",
+  "Variable Name": [
+    "RCAOcc_LungCancer_v1r0",
+    "SrvBOH_MLungCancer_v1r0",
+    "SrvBOH_DLungCancer_v1r0",
+    "SrvBOH_S1LungCanc_v1r0",
+    "SrvBOH_C1LungCanc_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Operational variable. Nested under cancer occurrence",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "9/29/23",
+  "GCP Document/Table": "Nested (d_637153953_d_740819233_d_754745617)",
+  "Formula for Index": [
+    "1827",
+    "1828"
+  ],
+  "Index": [
+    "1827",
+    "1828"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  },
+  "GridID/Source Question Name": [
+    "",
+    "MOMCANC2",
+    "DADCANC2",
+    "SIBCANC2",
+    "CHILDCANC2"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "",
+    "11",
+    "10",
+    "11",
+    "11"
+  ],
+  "Question Type": "Optional Select All that Apply"
+}

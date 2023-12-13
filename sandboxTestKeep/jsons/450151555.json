@@ -1,0 +1,27 @@
+{
+  "Formula for Index": "4931",
+  "Index": "4931",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
+  "conceptId": "450151555",
+  "Current Question Text": "How old were you when you first smoked a tobacco pipe?",
+  "Variable Label": "Age first used a tobacco pipe",
+  "Variable Name": [
+    "SrvSAS_TobPipeAgeF_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "PIPE2"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Range check min=0 max=sum(isDefined(D_150344905,age),1)",
+  "Date added or modified": "8/29/23",
+  "IMS Review Notes": "Added range check to Notes"
+}

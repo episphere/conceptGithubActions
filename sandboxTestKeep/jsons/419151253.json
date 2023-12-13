@@ -1,0 +1,49 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "786253125.json"
+  ],
+  "GridID/Source Question Name": [
+    "GRID_CURWORKT10"
+  ],
+  "conceptId": "419151253",
+  "Current Question Text": "[OTHER FROM CURSCHT9 or CURSCHT1]- Thinking about the one-way trip from [insert address from CURWORK1 - CURWORK3/this address] to your home on a usual workday, about how much time do you usually spend in each type of transportation?",
+  "Variable Label": "Time, [OTHER FROM CURWORKT9 or CURWORKT2]",
+  "Variable Name": [
+    "SrvLAW_CurWorkT10H_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CURWORKT10H"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "2/28/22",
+  "Formula for Index": [
+    "6938",
+    "6939",
+    "6940",
+    "6941",
+    "6942"
+  ],
+  "Index": [
+    "6938",
+    "6939",
+    "6940",
+    "6941",
+    "6942"
+  ],
+  "Current Format/Value": {
+    "428999623.json": "0",
+    "248303092.json": "1",
+    "998679771.json": "2",
+    "638092100.json": "3",
+    "127455035.json": "4"
+  }
+}

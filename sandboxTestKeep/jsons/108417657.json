@@ -1,0 +1,40 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "369168474.json"
+  ],
+  "conceptId": "108417657",
+  "Current Question Text": "How many times have you had a proctoscopy?",
+  "Variable Label": "Number of proctoscopies",
+  "Variable Name": [
+    "SrvScr_PROCT2_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "State Attribute": "No",
+  "Date added or modified": "6/6/23",
+  "Question Type": "Multiple Choice",
+  "IMS Review Notes": "Removed Connect value in col R",
+  "Formula for Index": [
+    "9009",
+    "9010",
+    "9011",
+    "9012"
+  ],
+  "Index": [
+    "9009",
+    "9010",
+    "9011",
+    "9012"
+  ],
+  "Current Format/Value": {
+    "236949684.json": "0",
+    "506053626.json": "1",
+    "462661976.json": "2",
+    "178420302.json": "77"
+  }
+}

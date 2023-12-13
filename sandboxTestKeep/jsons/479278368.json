@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "1363",
+  "Index": "1363",
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "635994596.json"
+  ],
+  "conceptId": "479278368",
+  "Current Question Text": "Last Name extracted from HIPAA revocation form",
+  "Variable Label": "Last Name",
+  "Variable Name": [
+    "HdWd_Lname_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "50",
+  "Current Format/Value": "N/A",
+  "Required": "Yes",
+  "PII": "Yes",
+  "Notes": "Legal last name for all non-KP sites. For KP sites it is their ID card name.",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "GCP Document/Table": "Participants Table Not nested (d_479278368)"
+}

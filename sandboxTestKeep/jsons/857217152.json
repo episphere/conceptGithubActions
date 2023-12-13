@@ -1,0 +1,35 @@
+{
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "635994596.json"
+  ],
+  "conceptId": "857217152",
+  "Current Question Text": "EMR participant deceased",
+  "Variable Label": "EMR participant deceased",
+  "Variable Name": [
+    "HdWd_EMRPartDec_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Sent to us from the sites via API",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "11/7/23",
+  "Formula for Index": [
+    "1444",
+    "1445"
+  ],
+  "Index": [
+    "1444",
+    "1445"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

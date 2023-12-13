@@ -1,0 +1,42 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "369168474.json"
+  ],
+  "Current Source Question": [
+    "961267001.json"
+  ],
+  "GridID/Source Question Name": [
+    "SrvScr_BRSTSCREEN_v1r0"
+  ],
+  "conceptId": "419571068",
+  "Current Question Text": "Breast MRI. An MRI (Magnetic Resonance Imaging) of the breast. Detailed pictures of the inside of your breast are taken while you were laying down in an MRI machine. Usually requires getting a dye through a needle in your arm.",
+  "Variable Label": "Breast MRI",
+  "Variable Name": [
+    "SrvScr_BRSTMRI_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "1"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "6/6/23",
+  "Question Type": "Select All That Apply",
+  "IMS Review Notes": "Added spaces before and after the equal sign. Populated col C,D,F,H, J, and AG",
+  "Formula for Index": [
+    "9187",
+    "9188"
+  ],
+  "Index": [
+    "9187",
+    "9188"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

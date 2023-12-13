@@ -1,0 +1,53 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "conceptId": "987107433",
+  "Current Question Text": "A person's appearance, style, dress, or mannerisms (the way they walk or talk) may affect the way people think of them. On average, how do you think people would describe your appearance, style, dress, or mannerisms?",
+  "Variable Label": "Appearance/Style/Dress/Mannerisms",
+  "Variable Name": [
+    "SrvBOH_Appearance_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "STYLE"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "8/18/21",
+  "Question Type": "Optional Multiple Choice",
+  "Formula for Index": [
+    "2143",
+    "2144",
+    "2145",
+    "2146",
+    "2147",
+    "2148",
+    "2149",
+    "2150"
+  ],
+  "Index": [
+    "2143",
+    "2144",
+    "2145",
+    "2146",
+    "2147",
+    "2148",
+    "2149",
+    "2150"
+  ],
+  "Current Format/Value": {
+    "220083334.json": "0",
+    "541300533.json": "1",
+    "878286618.json": "2",
+    "910745276.json": "3",
+    "510148951.json": "4",
+    "265452386.json": "5",
+    "915528806.json": "6",
+    "746038746.json": "99"
+  }
+}

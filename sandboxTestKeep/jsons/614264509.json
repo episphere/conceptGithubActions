@@ -1,0 +1,27 @@
+{
+  "Formula for Index": "1452",
+  "Index": "1452",
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "635994596.json"
+  ],
+  "conceptId": "614264509",
+  "Current Question Text": "Autoset when  HdWd_Activeparticipation_v1 selected",
+  "Variable Label": "Date Ref All Fut Participation",
+  "Variable Name": [
+    "HdWd_DateActivepart_v1r0"
+  ],
+  "Variable Type": "ISO",
+  "Variable Length": "24",
+  "Current Format/Value": "example: 2020-07-17T15:21:26.763Z",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "ISO to be converted to SAS format",
+  "Dictionary": "Withdrawal, Study Manager Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "4/9/21",
+  "GCP Document/Table": "Participants Table Not nested (d_614264509)"
+}

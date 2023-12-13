@@ -1,0 +1,28 @@
+{
+  "Formula for Index": "243",
+  "Index": "243",
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "569151507.json"
+  ],
+  "conceptId": "153211406",
+  "Current Question Text": "What is your preferred first name?",
+  "Variable Label": "Pref Name",
+  "Variable Name": [
+    "RcrtUP_PrefName_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "50",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "Yes",
+  "Notes": "Collected in user profile.  Displayed on check-in screens for Biospecimens.",
+  "Dictionary": "Recruitment Data Dictionary, Biospecimen Clinical, Biospecimen Research",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "9/7/23",
+  "GCP Document/Table": "Participants Table Not nested (d_153211406) OR Nested structure: (d_569151507_d_153211406)",
+  "IMS Review Notes": "Updated Secondary Source to User Profile History"
+}

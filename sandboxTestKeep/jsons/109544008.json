@@ -1,0 +1,29 @@
+{
+  "Formula for Index": "2674",
+  "Index": "2674",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "109544008",
+  "Current Question Text": "How old were you when you first used medication to treat thinning hair or hair loss?",
+  "Variable Label": "First Used Hair Med Age",
+  "Variable Name": [
+    "SrvBOH_HairMedAgeF_v1r1"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "HRMED3"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Range check (max previously was age): min=0 max=sum(isDefined(D_150344905,age),1)",
+  "Date added or modified": "11/16/23",
+  "Question Type": "Or (xor=) Question (either/or text boxes without radio button)",
+  "IMS Review Notes": "Denoted as revised and added range check to Notes."
+}

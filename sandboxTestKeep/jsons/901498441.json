@@ -1,0 +1,38 @@
+{
+  "conceptId": "901498441",
+  "Current Question Text": "Pills per day anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)",
+  "subcollections": [
+    "101310722.json",
+    "901498441.json"
+  ],
+  "Formula for Index": "3461",
+  "Index": "3461",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "Current Source Question": [
+    "901498441.json"
+  ],
+  "GridID/Source Question Name": [
+    "CHOLHTN3_2"
+  ],
+  "Variable Label": "Pills/Day Anti-Hypertensive Meds, Don't Know",
+  "Variable Name": [
+    "SrvMRE_AntiHypPillsDK_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CHOLHTN3_2"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Current Format/Value": {
+    "178420302.json": "77"
+  },
+  "Required": "N/A",
+  "PII": "No",
+  "Notes": "Only display if CHOLHTN = 1",
+  "Date added or modified": "10/5/21"
+}

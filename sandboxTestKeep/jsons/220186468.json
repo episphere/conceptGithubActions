@@ -1,0 +1,40 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "793330426.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "5/10/23",
+  "conceptId": "220186468",
+  "Current Question Text": "COVID-19 survey completion",
+  "Variable Label": "Flag COV Surv",
+  "Variable Name": [
+    "SrvCOV_BaseComplete_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Dictionary": "COVID Survey",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "5/10/23",
+  "GCP Document/Table": "Participants Table",
+  "Formula for Index": [
+    "1086",
+    "1087",
+    "1088"
+  ],
+  "Index": [
+    "1086",
+    "1087",
+    "1088"
+  ],
+  "Current Format/Value": {
+    "972455046.json": "0",
+    "615768760.json": "1",
+    "231311385.json": "2"
+  }
+}

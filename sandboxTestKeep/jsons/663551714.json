@@ -1,0 +1,33 @@
+{
+  "Formula for Index": "4932",
+  "Index": "4932",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
+  "Current Source Question": [
+    "546410473.json"
+  ],
+  "GridID/Source Question Name": [
+    "PIPE3"
+  ],
+  "conceptId": "663551714",
+  "Current Question Text": "Age first used a tobacco pipe on a regular basis number",
+  "Variable Label": "Age first used a tobacco pipe on a regular basis",
+  "Variable Name": [
+    "SrvSAS_TobPipeAgeReg_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "PIPE3_AGE"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Range check min=isDefined(D_450151555,0) max=sum(isDefined(D_150344905,age),1)",
+  "Date added or modified": "8/29/23",
+  "IMS Review Notes": "Added range check to Notes"
+}

@@ -1,0 +1,28 @@
+{
+  "Formula for Index": "2538",
+  "Index": "2538",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "conceptId": "746012894",
+  "Current Question Text": "How much do you weigh without clothes or shoes on? [DISPLAY ADDITIONAL TEXT IF SEX=02 or 03:] [If you are pregnant, how much did you weigh before your pregnancy?]",
+  "Variable Label": "Current Weight",
+  "Variable Name": [
+    "SrvBOH_CurrentWeight_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "WEIGHT"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "3",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Range check min=0 max=999",
+  "Date added or modified": "8/28/23",
+  "Question Type": "Text only Response",
+  "IMS Review Notes": "Added range check to Notes."
+}

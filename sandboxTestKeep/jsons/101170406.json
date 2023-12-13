@@ -1,0 +1,35 @@
+{
+  "Primary Source": [
+    "825323676.json"
+  ],
+  "Secondary Source": [
+    "209454331.json"
+  ],
+  "conceptId": "101170406",
+  "Current Question Text": "Baseline EMR Push",
+  "Variable Label": "Base EMR Push",
+  "Variable Name": [
+    "EMRBl_Push_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Dictionary": "Study Manager Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "GCP Document/Table": "Not yet in Flattened Tables",
+  "Question Type": "For BioSpm_Visit_v1r0, baseline is a format/value. But baseline is also a secondary source here; all given the same concept ID on Brian's end even though they're different in the master dictionary",
+  "Formula for Index": [
+    "1325",
+    "1326"
+  ],
+  "Index": [
+    "1325",
+    "1326"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

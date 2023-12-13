@@ -1,0 +1,49 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "conceptId": "849811593",
+  "Current Question Text": "How many days per week do you usually make the trip back to your home from [insert address from CURSCH1 - CURSCH3/this address]?",
+  "Variable Label": "Days commute, commute from current school",
+  "Variable Name": [
+    "SrvLAW_CurSchT14_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CURSCHT14"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "3/10/22",
+  "Formula for Index": [
+    "7283",
+    "7284",
+    "7285",
+    "7286",
+    "7287",
+    "7288",
+    "7289"
+  ],
+  "Index": [
+    "7283",
+    "7284",
+    "7285",
+    "7286",
+    "7287",
+    "7288",
+    "7289"
+  ],
+  "Current Format/Value": {
+    "559049897.json": "0",
+    "500554958.json": "1",
+    "897038099.json": "2",
+    "103409401.json": "3",
+    "334390252.json": "4",
+    "300863887.json": "5",
+    "252853790.json": "6"
+  }
+}

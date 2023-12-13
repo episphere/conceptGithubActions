@@ -1,0 +1,39 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "conceptId": "107060069",
+  "Current Question Text": "Which of these best describes the type of prostate removal surgery that you had?",
+  "Variable Label": "Prostate Removal Surg",
+  "Variable Name": [
+    "SrvBOH_ProsRemSurg_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "PROSREM"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if MHGROUP9 = prostate remvoal surgery",
+  "Date added or modified": "9/14/21",
+  "Question Type": "Optional Multiple Choice",
+  "Formula for Index": [
+    "2504",
+    "2505",
+    "2506"
+  ],
+  "Index": [
+    "2504",
+    "2505",
+    "2506"
+  ],
+  "Current Format/Value": {
+    "524029283.json": "0",
+    "500023550.json": "1",
+    "535003378.json": "88"
+  }
+}

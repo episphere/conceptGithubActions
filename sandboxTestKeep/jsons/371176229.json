@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "3482",
+  "Index": "3482",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "371176229",
+  "Current Question Text": "How many years ago did you last take metformin?",
+  "Variable Label": "Last Took Metformin",
+  "Variable Name": [
+    "SrvMRE_MetforminYA_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "METFOR6_1"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "METFOR= 1. Range check min=1 max=sum(isDefined(D_150344905,age),1)",
+  "Date added or modified": "8/28/23",
+  "IMS Review Notes": "Added range check to Notes."
+}

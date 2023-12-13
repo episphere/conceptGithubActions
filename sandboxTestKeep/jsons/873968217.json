@@ -1,0 +1,52 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/18/23",
+  "conceptId": "873968217",
+  "Current Question Text": "Child 1- Is [child initials or nickname/your child]",
+  "Variable Label": "Child 1 Full/Half",
+  "Variable Name": [
+    "SrvBOH_Child1FullHalf_v1r1"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CHILD3"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Question Type": "Optional Multiple Choice, Loops",
+  "Formula for Index": [
+    "3021",
+    "3022",
+    "3023",
+    "3024"
+  ],
+  "Index": [
+    "3021",
+    "3022",
+    "3023",
+    "3024"
+  ],
+  "Current Format/Value": {
+    "709650750.json": "0",
+    "810290359.json": "1",
+    "509607548.json": "2",
+    "784922042.json": "3"
+  },
+  "Deprecated, New, or Revised": [
+    "New"
+  ],
+  "Date added or modified": [
+    "2/2/23",
+    "12/12/22"
+  ],
+  "IMS Review Notes": [
+    "Denoted date  variable pushed to prod",
+    "Added a 4th option"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "112024853",
+  "Current Question Text": "Have you ever taken metformin (such as Glucophage, Glumetza, Riomet, Fortamet, or Glucophage XR) at least 4 times a month for 6 months or longer?",
+  "Variable Label": "Ever Took Metformin",
+  "Variable Name": [
+    "SrvMRE_Metformin_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "METFOR"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Formula for Index": [
+    "3472",
+    "3473"
+  ],
+  "Index": [
+    "3472",
+    "3473"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "563663099",
+  "Current Question Text": "How many days per cycle did you use this oral progestin-only hormone?",
+  "Variable Label": "Days oral progestin-only cycle use",
+  "Variable Name": [
+    "SrvMRE_ProgCycleDays_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "PROGHOR6_1"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "11/15/21",
+  "Formula for Index": [
+    "3815",
+    "3816",
+    "3817",
+    "3818",
+    "3819"
+  ],
+  "Index": [
+    "3815",
+    "3816",
+    "3817",
+    "3818",
+    "3819"
+  ],
+  "Current Format/Value": {
+    "862918284.json": "0",
+    "275059825.json": "1",
+    "481217808.json": "2",
+    "565450397.json": "3",
+    "647504893.json": "4"
+  }
+}

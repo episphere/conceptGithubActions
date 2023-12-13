@@ -1,0 +1,38 @@
+{
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "143615646.json"
+  ],
+  "Current Source Question": [
+    "248868659.json"
+  ],
+  "conceptId": "742806035",
+  "Current Question Text": "Deviation - Participant used mouthwash less than 30 seconds",
+  "Variable Label": "MWT1 Dev - Part Used MW Under 30 Sec",
+  "Variable Name": [
+    "BioCol_Dev_v1r0_MWUnd30sMWT1"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "9/7/23",
+  "IMS Review Notes": "Updated Secondary Source to Mouthwash Tube 1 and updated Variable Name from BioCol_Dev_v1r0_MWUnder30s to BioCol_Dev_v1r0_MWUnd30sMWT1.",
+  "Formula for Index": [
+    "1736",
+    "1737"
+  ],
+  "Index": [
+    "1736",
+    "1737"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

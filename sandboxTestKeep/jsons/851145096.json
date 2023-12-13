@@ -1,0 +1,33 @@
+{
+  "Formula for Index": "4718",
+  "Index": "4718",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
+  "Current Source Question": [
+    "814115676.json"
+  ],
+  "GridID/Source Question Name": [
+    "CIGAR3"
+  ],
+  "conceptId": "851145096",
+  "Current Question Text": "Age first used cigars, cigarillos, or little filtered cigars on a regular basis number",
+  "Variable Label": "Age first used cigars, cigarillos, or little filtered cigars on a regular basis",
+  "Variable Name": [
+    "SrvSAS_AgeCigarUseFReg_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "REGCIGAR_AGE"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Range check min=isDefined(D_241771440,0) max=sum(isDefined(D_150344905,age),1)",
+  "Date added or modified": "8/28/23",
+  "IMS Review Notes": "Deleted concept ID in column J"
+}

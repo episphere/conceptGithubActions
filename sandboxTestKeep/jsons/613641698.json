@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "1457",
+  "Index": "1457",
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "635994596.json"
+  ],
+  "conceptId": "613641698",
+  "Current Question Text": "Autoset when HdWd_HIPAArevocationsigned_v1r0 selected",
+  "Variable Label": "Date HIPAA Rev Signed",
+  "Variable Name": [
+    "HdWd_DateHIPAArevsign_v1r0"
+  ],
+  "Variable Type": "ISO",
+  "Variable Length": "24",
+  "Current Format/Value": "example: 2020-07-17T15:21:26.763Z",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "ISO to be converted to SAS format",
+  "Dictionary": "Withdrawal, Study Manager Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "GCP Document/Table": "Participants Table Not nested (d_613641698)"
+}

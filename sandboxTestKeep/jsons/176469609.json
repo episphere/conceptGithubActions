@@ -1,0 +1,42 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "506648060.json"
+  ],
+  "conceptId": "176469609",
+  "Current Question Text": "How would you rate your overall experience as a Connect participant?",
+  "Variable Label": "Participant experience",
+  "Variable Name": [
+    "SrvPES_EXPERI_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Participant Experience Survey",
+  "Date added or modified": "12/19/22",
+  "Question Type": "Optional Multiple Choice",
+  "Formula for Index": [
+    "8331",
+    "8332",
+    "8333",
+    "8334",
+    "8335"
+  ],
+  "Index": [
+    "8331",
+    "8332",
+    "8333",
+    "8334",
+    "8335"
+  ],
+  "Current Format/Value": {
+    "565881164.json": "0",
+    "719933364.json": "1",
+    "308765753.json": "2",
+    "138752522.json": "3",
+    "878535894.json": "4"
+  }
+}

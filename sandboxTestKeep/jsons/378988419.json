@@ -1,0 +1,34 @@
+{
+  "Formula for Index": "2692",
+  "Index": "2692",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Current Source Question": [
+    "354326265.json"
+  ],
+  "GridID/Source Question Name": [
+    "MOMAGE"
+  ],
+  "conceptId": "378988419",
+  "Current Question Text": "How old is your mother today?, Number",
+  "Variable Label": "Mom Age, Num",
+  "Variable Name": [
+    "SrvBOH_MotherAgeNum_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "MOM_AGE"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "3",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Range check minval=max(isDefined(D_150344905,age),5) max=125",
+  "Date added or modified": "8/28/23",
+  "Question Type": "Text Box Plus Check Box",
+  "IMS Review Notes": "Added range check to Notes."
+}

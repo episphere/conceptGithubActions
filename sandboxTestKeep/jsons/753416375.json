@@ -1,0 +1,38 @@
+{
+  "conceptId": "753416375",
+  "Current Question Text": "Pills per day ibuprofen",
+  "subcollections": [
+    "101310722.json",
+    "753416375.json"
+  ],
+  "Formula for Index": "3336",
+  "Index": "3336",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "Current Source Question": [
+    "753416375.json"
+  ],
+  "GridID/Source Question Name": [
+    "PAINREL3_3"
+  ],
+  "Variable Label": "Pills/Day Ibuprofen, Don't Know",
+  "Variable Name": [
+    "SrvMRE_IbuprofenPillDK_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "PAINREL3_3"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "3",
+  "Current Format/Value": {
+    "178420302.json": "77"
+  },
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if PAINREL1 = 2",
+  "Date added or modified": "10/6/21"
+}

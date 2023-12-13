@@ -1,0 +1,44 @@
+{
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "635994596.json"
+  ],
+  "conceptId": "764403541",
+  "Current Question Text": "Source of Deceased Report",
+  "Variable Label": "Source Deceased Report",
+  "Variable Name": [
+    "HdWd_SourceofReport_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "6/27/22",
+  "GCP Document/Table": "Participants Table Not nested (d_764403541)",
+  "Formula for Index": [
+    "1439",
+    "1440",
+    "1441",
+    "1442",
+    "1443"
+  ],
+  "Index": [
+    "1439",
+    "1440",
+    "1441",
+    "1442",
+    "1443"
+  ],
+  "Current Format/Value": {
+    "817514412.json": "0",
+    "597175457.json": "1",
+    "341709648.json": "2",
+    "890182396.json": "3",
+    "181769837.json": "55"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "conceptId": "684542266",
+  "Current Question Text": "To get home from [insert address from CURWORK1 - CURWORK3/this address], do you usually use the same type(s) of transportation that you do to get to work from your home?",
+  "Variable Label": "Commute to and from current work same",
+  "Variable Name": [
+    "SrvLAW_CurWorkT7_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CURWORKT7"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Formula for Index": [
+    "6882",
+    "6883"
+  ],
+  "Index": [
+    "6882",
+    "6883"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

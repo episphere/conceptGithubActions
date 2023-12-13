@@ -1,0 +1,46 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "369168474.json"
+  ],
+  "conceptId": "811848389",
+  "Current Question Text": "When did you last have a breast biopsy?",
+  "Variable Label": "Last breast biopsy",
+  "Variable Name": [
+    "SrvScr_BRSTBIOP3_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "State Attribute": "No",
+  "Date added or modified": "6/6/23",
+  "Question Type": "Multiple Choice",
+  "IMS Review Notes": "Removed Connect value in col R",
+  "Formula for Index": [
+    "9267",
+    "9268",
+    "9269",
+    "9270",
+    "9271",
+    "9272"
+  ],
+  "Index": [
+    "9267",
+    "9268",
+    "9269",
+    "9270",
+    "9271",
+    "9272"
+  ],
+  "Current Format/Value": {
+    "461386928.json": "0",
+    "729845236.json": "1",
+    "669023414.json": "2",
+    "786431761.json": "3",
+    "640520411.json": "4",
+    "178420302.json": "77"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "Formula for Index": "3549",
+  "Index": "3549",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "791830593",
+  "Current Question Text": "About how many days long was your usual menstrual cycle?",
+  "V1 Question Text": "About how many days long is your usual menstrual cycle?",
+  "Variable Label": "Days Long Reg Mens Cycle",
+  "Variable Name": [
+    "SrvMRE_PeriodDays_v2r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "MENSHIS4"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Range check min = 21 and max = 99.",
+  "Date added or modified": "8/24/23",
+  "IMS Review Notes": "Denoted as revised, Revised Current Question Text, moved V1 text to V1 Question Text, and changed Variable Name suffix from _v1r0 to _v2r0. Added range check to Notes."
+}

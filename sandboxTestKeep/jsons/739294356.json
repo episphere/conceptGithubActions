@@ -1,0 +1,28 @@
+{
+  "Formula for Index": "3210",
+  "Index": "3210",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "conceptId": "739294356",
+  "Current Question Text": "How many years have you worked in that current job?",
+  "Variable Label": "Curr Job Yrs",
+  "Variable Name": [
+    "SrvBOH_CurrentJobYr_v1r1"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "WORK4"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "Yes",
+  "Notes": "Range check (max previously was age)",
+  "Date added or modified": "9/14/23",
+  "Question Type": "Or (xor=) Question (either/or text boxes without radio button)",
+  "IMS Review Notes": "Updated Variable name suffix to _v1r1 to reflect range check update from age to age+1. Deleted range check from Notes until markdown is updated"
+}

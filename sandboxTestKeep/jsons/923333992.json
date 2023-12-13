@@ -1,0 +1,35 @@
+{
+  "Formula for Index": "3206",
+  "Index": "3206",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Current Source Question": [
+    "700374192.json"
+  ],
+  "GridID/Source Question Name": [
+    "BSNSSTYP1"
+  ],
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "7/5/23",
+  "conceptId": "923333992",
+  "Current Question Text": "What type of business was this at your current employer? Other [text box]",
+  "Variable Label": "Oth - Free Text",
+  "Variable Name": [
+    "SrvBOH_OtherBsnDescC_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "BSNSSTYP1_TB"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "300",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only fill if other selection for BSNSSTYP1",
+  "Date added or modified": "1/11/23",
+  "Question Type": "Optional Select All that Apply",
+  "IMS Review Notes": "Denoted as  in Column J"
+}

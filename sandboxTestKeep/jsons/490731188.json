@@ -1,0 +1,43 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "506648060.json"
+  ],
+  "Current Source Question": [
+    "960544981.json"
+  ],
+  "GridID/Source Question Name": [
+    "SrvPES_WHY_v1r0"
+  ],
+  "conceptId": "490731188",
+  "Current Question Text": "My healthcare system has a good reputation for research",
+  "Variable Label": "Why Connect - healthcare system reputation",
+  "Variable Name": [
+    "SrvPES_SITEREP_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "8"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Participant Experience Survey",
+  "Date added or modified": "1/5/23",
+  "Question Type": "Optional Select All That Apply, DisplayIf in One or More Responses",
+  "IMS Review Notes": "Added survey data for Columns C - I and fixed typo in question text: My healthcare system has a good reputation for research",
+  "Formula for Index": [
+    "8356",
+    "8357"
+  ],
+  "Index": [
+    "8356",
+    "8357"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

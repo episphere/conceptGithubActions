@@ -1,0 +1,50 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "390351864.json"
+  ],
+  "conceptId": "360678252",
+  "Current Question Text": "How many teeth have you lost for reasons other than tooth decay or disease, or accident or injury? Do not include wisdom teeth.",
+  "Variable Label": "Teeth Lost from other",
+  "Variable Name": [
+    "SrvMtW_TEETHLOSTOTH_v2r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Date added or modified": "3/9/23",
+  "Question Type": "Optional Multiple Choice",
+  "IMS Review Notes": "Updated version number",
+  "Formula for Index": [
+    "8502",
+    "8503",
+    "8504",
+    "8505",
+    "8506",
+    "8507"
+  ],
+  "Index": [
+    "8502",
+    "8503",
+    "8504",
+    "8505",
+    "8506",
+    "8507"
+  ],
+  "Current Format/Value": {
+    "349122068.json": "0",
+    "194129782.json": "1",
+    "922737557.json": "2",
+    "945387130.json": "3",
+    "383505459.json": "4",
+    "178420302.json": "77"
+  },
+  "Notes": [
+    "Harmonization - Questionnaire will still say Don't Know"
+  ]
+}

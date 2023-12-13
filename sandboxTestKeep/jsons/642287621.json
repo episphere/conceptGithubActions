@@ -1,0 +1,37 @@
+{
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "214456996.json"
+  ],
+  "Current Source Question": [
+    "142654897.json"
+  ],
+  "conceptId": "642287621",
+  "Current Question Text": "Social media post (on Facebook, Twitter, Instagram, or other channels)",
+  "Variable Label": "Social Media Post",
+  "Variable Name": [
+    "RcrtES_Aware_v1r0_Social"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "GCP Document/Table": "Participants Table Nested structure: d_142654897_d_642287621",
+  "Formula for Index": [
+    "183",
+    "184"
+  ],
+  "Index": [
+    "183",
+    "184"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

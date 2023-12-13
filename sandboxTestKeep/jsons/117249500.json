@@ -1,0 +1,25 @@
+{
+  "Formula for Index": "248",
+  "Index": "248",
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "332759827.json"
+  ],
+  "conceptId": "117249500",
+  "Current Question Text": "Age derived from DOB at time of user profile completion.",
+  "Variable Label": "Derived Age",
+  "Variable Name": [
+    "RcrtUP_Age_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "3",
+  "Current Format/Value": "N/A",
+  "Required": "Yes",
+  "PII": "No",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "GCP Document/Table": "Participants Table Not nested (d_117249500)"
+}

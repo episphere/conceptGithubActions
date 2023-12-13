@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "3531",
+  "Index": "3531",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "889053435",
+  "Current Question Text": "How many years ago did you last take prescription proton pump inhibitors?",
+  "Variable Label": "Yrs Ago Rx Proton Pump Inhibitors",
+  "Variable Name": [
+    "SrvMRE_ProtPumpPresYA_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "ACIDSUP6_1"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if ACIDSUP = 0. Range check max=sum(isDefined(D_150344905,age),1)",
+  "Date added or modified": "8/28/23",
+  "IMS Review Notes": "Added range check to Notes."
+}

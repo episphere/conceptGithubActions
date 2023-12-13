@@ -1,0 +1,40 @@
+{
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "883203566.json"
+  ],
+  "conceptId": "684926335",
+  "Current Question Text": "Henry Ford Health System Reported Race",
+  "Variable Label": "HFH Race",
+  "Variable Name": [
+    "RcrtSI_HFHSRace_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "For Henry Ford HS",
+  "PII": "No",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "Yes",
+  "Default Variable": "No",
+  "GCP Document/Table": "Participants Table Not nested (state_d_684926335)",
+  "Formula for Index": [
+    "35",
+    "36",
+    "37",
+    "38"
+  ],
+  "Index": [
+    "35",
+    "36",
+    "37",
+    "38"
+  ],
+  "Current Format/Value": {
+    "232334767.json": "0",
+    "635279662.json": "1",
+    "401335456.json": "2",
+    "178420302.json": "77"
+  }
+}

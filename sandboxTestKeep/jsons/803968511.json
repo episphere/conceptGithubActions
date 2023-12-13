@@ -1,0 +1,38 @@
+{
+  "conceptId": "803968511",
+  "Current Question Text": "Pills per day over-the-counter proton pump inhibitors",
+  "subcollections": [
+    "101310722.json",
+    "803968511.json"
+  ],
+  "Formula for Index": "3516",
+  "Index": "3516",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "Current Source Question": [
+    "803968511.json"
+  ],
+  "GridID/Source Question Name": [
+    "ACIDSUP3_2"
+  ],
+  "Variable Label": "Pills/Day OTC Proton Pump Inhibitors, Don't Know",
+  "Variable Name": [
+    "SrvMRE_PPOCPillDK_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "ACIDSUP3_2"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Current Format/Value": {
+    "178420302.json": "77"
+  },
+  "Required": "N/A",
+  "PII": "No",
+  "Notes": "Only display if ACIDSUP = 1",
+  "Date added or modified": "10/5/21"
+}

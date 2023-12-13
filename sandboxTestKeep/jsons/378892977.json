@@ -1,0 +1,39 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "conceptId": "378892977",
+  "Current Question Text": "Which of these best describes the type of ovary removal surgery that you had?",
+  "Variable Label": "Ovary Surg",
+  "Variable Name": [
+    "SrvBOH_OvarySurg_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "OVARYREM"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if MHGROUP9 = oophorectomy",
+  "Date added or modified": "9/14/21",
+  "Question Type": "Optional Multiple Choice",
+  "Formula for Index": [
+    "2487",
+    "2488",
+    "2489"
+  ],
+  "Index": [
+    "2487",
+    "2488",
+    "2489"
+  ],
+  "Current Format/Value": {
+    "333647143.json": "0",
+    "109972911.json": "1",
+    "535003378.json": "88"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "Formula for Index": "3216",
+  "Index": "3216",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "518387017",
+  "Current Question Text": "What are your main tasks and activities in this job? Please be descriptive. For example, constructed residential homes, drove patients from home to medical visits, provided assistance to elementary school students with special needs. WORK7B",
+  "Variable Label": "Past Job Tasks",
+  "Variable Name": [
+    "SrvBOH_PastJobTask_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "WORK7B"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "300",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "8/28/23",
+  "Question Type": "Text only Response",
+  "IMS Review Notes": "Added question text to differentiate WORK3B from WORK7B"
+}

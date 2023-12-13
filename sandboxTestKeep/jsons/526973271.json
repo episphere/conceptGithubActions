@@ -1,0 +1,58 @@
+{
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "299215535.json",
+    "390351864.json"
+  ],
+  "conceptId": "526973271",
+  "Current Question Text": "In the last month, how often did you use peroxide mouthwash (such as Colgate® Peroxyl® Mouth Sore Rinse)",
+  "Variable Label": "Peroxide mouthwash frequency past month",
+  "Variable Name": [
+    "SrvMtW_MWPEROX_v1r0",
+    "SrvMtW_MWPEROX_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Date added or modified": "4/13/23",
+  "Formula for Index": [
+    "7734",
+    "7735",
+    "7736",
+    "7737",
+    "7738",
+    "7739"
+  ],
+  "Index": [
+    "7734",
+    "7735",
+    "7736",
+    "7737",
+    "7738",
+    "7739"
+  ],
+  "Current Format/Value": {
+    "648960871.json": "44",
+    "693256778.json": "0",
+    "735330419.json": "1",
+    "138332277.json": "2",
+    "858624942.json": "3",
+    "850675416.json": "4"
+  },
+  "Required": [
+    "No"
+  ],
+  "Question Type": [
+    "Optional Multiple Choice",
+    "Optional Multiple Choice"
+  ],
+  "IMS Review Notes": [
+    "Removed special characters",
+    "Added Row to add the 44 Never above"
+  ]
+}

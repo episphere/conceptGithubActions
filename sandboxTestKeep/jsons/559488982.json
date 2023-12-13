@@ -1,0 +1,37 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "conceptId": "559488982",
+  "Current Question Text": "Does your usual one-way trip to [insert address from CURSCH1 - CURSCH3/this address] from your home involve travel on a local or neighborhood roadway? These usually have only one lane in each direction. An example is pictured.",
+  "Variable Label": "Local road, commute to current school",
+  "Variable Name": [
+    "SrvLAW_CurSchT5_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CURSCHT5"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "3/10/22",
+  "Formula for Index": [
+    "7203",
+    "7204",
+    "7205"
+  ],
+  "Index": [
+    "7203",
+    "7204",
+    "7205"
+  ],
+  "Current Format/Value": {
+    "614087017.json": "0",
+    "746635399.json": "1",
+    "419415087.json": "2"
+  }
+}

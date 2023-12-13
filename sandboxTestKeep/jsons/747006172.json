@@ -1,0 +1,38 @@
+{
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "635994596.json"
+  ],
+  "conceptId": "747006172",
+  "Current Question Text": "Withdraw consent",
+  "Variable Label": "Withdraw consent",
+  "Variable Name": [
+    "HdWd_WdConsent_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Automatically flipped to yes if data destruction is selected, however, time of selection and who requested will only be populated when Withdraw Consent alone is seleted. Withdraw Consent also triggers Revoke HIPAA",
+  "Dictionary": "Withdrawal, Study Manager Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "5/19/22",
+  "GCP Document/Table": "Participants Table Not nested (d_747006172)",
+  "Formula for Index": [
+    "1372",
+    "1373",
+    "1374"
+  ],
+  "Index": [
+    "1372",
+    "1373",
+    "1374"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}
