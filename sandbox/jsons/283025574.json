@@ -1,65 +1,48 @@
 {
+  "conceptId": "283025574",
+  "Current Question Text": "Cervical",
   "Primary Source": [
-    "692924902.json",
     "129084651.json",
     "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "637153953.json",
     "726699695.json",
     "726699695.json",
     "726699695.json"
   ],
   "Current Source Question": [
-    "740819233.json",
     "814510313.json",
     "578895128.json",
     "812370563.json"
   ],
-  "Deprecated, New, or Revised": "New",
-  "conceptId": "283025574",
-  "Current Question Text": "Cervical",
-  "Variable Label": "Cervical",
-  "Variable Name": [
-    "RCAOcc_CervicalCancer_v1r0",
-    "SrvBOH_MCervicalCancer_v1r0",
-    "SrvBOH_S1CervicalCanc_v1r0",
-    "SrvBOH_C1CervicalCanc_v1r0"
-  ],
-  "Variable Type": "Num",
-  "Variable Length": "1",
-  "Required": "Yes",
-  "PII": "No",
-  "Notes": "Operational variable. Nested under cancer occurrence",
-  "Dictionary": "Master Data Dictionary",
-  "State Attribute": "No",
-  "Default Variable": "No",
-  "Date added or modified": "9/29/23",
-  "GCP Document/Table": "Nested (d_637153953_d_740819233_d_283025574)",
-  "Formula for Index": [
-    "1817",
-    "1818"
-  ],
-  "Index": [
-    "1817",
-    "1818"
-  ],
-  "Current Format/Value": {
-    "104430631.json": "0",
-    "353358909.json": "1"
-  },
   "GridID/Source Question Name": [
-    "",
     "MOMCANC2",
     "SIBCANC2",
     "CHILDCANC2"
   ],
+  "Variable Label": "Cervical",
+  "Variable Name": [
+    "SrvBOH_MCervicalCancer_v1r0",
+    "SrvBOH_S1CervicalCanc_v1r0",
+    "SrvBOH_C1CervicalCanc_v1r0"
+  ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "",
     "4",
     "4",
     "4"
   ],
-  "Question Type": "Optional Select All that Apply"
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Question Type": "Optional Select All that Apply",
+  "Formula for Index": [
+    "2740",
+    "2741"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
 }

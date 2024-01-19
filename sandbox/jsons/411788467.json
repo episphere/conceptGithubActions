@@ -7,7 +7,7 @@
   ],
   "conceptId": "411788467",
   "Current Question Text": "During the season[s] in the past 12 months that you played tennis, squash, or racquetball, about how often did you do this activity?",
-  "Variable Label": "During the season[s] in the past 12 months that you played tennis, squash, or racquetball, about how often did you do this activity?",
+  "Variable Label": "Last 12 Mons - Tennis/Squash/Racquetball",
   "Variable Name": [
     "SrvMRE_TennisOften_v1r0"
   ],
@@ -21,20 +21,12 @@
   "Notes": "Only display if EXEREC1=2",
   "Date added or modified": "11/15/21",
   "Formula for Index": [
-    "4233",
-    "4234",
-    "4235",
-    "4236",
-    "4237",
-    "4238"
-  ],
-  "Index": [
-    "4233",
-    "4234",
-    "4235",
-    "4236",
-    "4237",
-    "4238"
+    "4262",
+    "4263",
+    "4264",
+    "4265",
+    "4266",
+    "4267"
   ],
   "Current Format/Value": {
     "239152340.json": "0",

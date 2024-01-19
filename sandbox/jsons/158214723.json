@@ -13,7 +13,7 @@
   ],
   "conceptId": "158214723",
   "Current Question Text": "Gum or inner cheek patch",
-  "Variable Label": "Gum or inner cheek patch",
+  "Variable Label": "Gum/Cheek Patch",
   "Variable Name": [
     "SrvMRE_TTGumPatch_v1r0"
   ],
@@ -25,12 +25,8 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "3881",
-    "3882"
-  ],
-  "Index": [
-    "3881",
-    "3882"
+    "3910",
+    "3911"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

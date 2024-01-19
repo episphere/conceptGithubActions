@@ -13,7 +13,7 @@
   ],
   "conceptId": "500744195",
   "Current Question Text": "Vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)",
-  "Variable Label": "Vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)",
+  "Variable Label": "Vigorous Outdoor Chores",
   "Variable Name": [
     "SrvMRE_VigOutChores_v1r0"
   ],
@@ -25,12 +25,8 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "4054",
-    "4055"
-  ],
-  "Index": [
-    "4054",
-    "4055"
+    "4083",
+    "4084"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

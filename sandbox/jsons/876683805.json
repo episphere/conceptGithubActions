@@ -7,7 +7,7 @@
   ],
   "conceptId": "876683805",
   "Current Question Text": "Are you currently using Depo-Provera?",
-  "Variable Label": "Currently using Depo-Provera",
+  "Variable Label": "Current Use - Depo-Provera",
   "Variable Name": [
     "SrvMRE_CurrDepoProv_v1r0"
   ],
@@ -20,12 +20,8 @@
   "PII": "No",
   "Notes": "Only display if HORMED= 3",
   "Formula for Index": [
-    "3720",
-    "3721"
-  ],
-  "Index": [
-    "3720",
-    "3721"
+    "3749",
+    "3750"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

@@ -7,7 +7,7 @@
   ],
   "conceptId": "484006644",
   "Current Question Text": "Are you currently using vaginal ring?",
-  "Variable Label": "Currently using vaginal ring",
+  "Variable Label": "Current Use - Vaginal Ring",
   "Variable Name": [
     "SrvMRE_CurrVagRing_v1r0"
   ],
@@ -20,12 +20,8 @@
   "PII": "No",
   "Notes": "Only display if HORMED= 4",
   "Formula for Index": [
-    "3726",
-    "3727"
-  ],
-  "Index": [
-    "3726",
-    "3727"
+    "3755",
+    "3756"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

@@ -7,7 +7,7 @@
   ],
   "conceptId": "167966775",
   "Current Question Text": "During the season[s] in the past 12 months that you did Martial Arts (such as Karate or Judo), about how often did you do this activity?",
-  "Variable Label": "During the season[s] in the past 12 months that you did Martial Arts (such as Karate or Judo), about how often did you do this activity?",
+  "Variable Label": "Last 12 Mons - Martial Arts",
   "Variable Name": [
     "SrvMRE_MAOften_v1r0"
   ],
@@ -21,20 +21,12 @@
   "Notes": "Only display if EXEREC1=8",
   "Date added or modified": "11/15/21",
   "Formula for Index": [
-    "4311",
-    "4312",
-    "4313",
-    "4314",
-    "4315",
-    "4316"
-  ],
-  "Index": [
-    "4311",
-    "4312",
-    "4313",
-    "4314",
-    "4315",
-    "4316"
+    "4340",
+    "4341",
+    "4342",
+    "4343",
+    "4344",
+    "4345"
   ],
   "Current Format/Value": {
     "239152340.json": "0",

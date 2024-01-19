@@ -7,7 +7,7 @@
   ],
   "conceptId": "820694957",
   "Current Question Text": "On non-workdays, do you wake up before the alarm rings?",
-  "Variable Label": "Wake up before alarm clock non-workdays",
+  "Variable Label": "Wake Before Alarm Clock Non-Workdays",
   "Variable Name": [
     "SrvMRE_UpBeforeAlarmNW_v1r0"
   ],
@@ -19,12 +19,8 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "4431",
-    "4432"
-  ],
-  "Index": [
-    "4431",
-    "4432"
+    "4460",
+    "4461"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

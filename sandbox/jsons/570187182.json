@@ -7,7 +7,7 @@
   ],
   "conceptId": "570187182",
   "Current Question Text": "Have you ever taken any other type of prescription hormones?",
-  "Variable Label": "Have you ever taken any other type of prescription hormones?",
+  "Variable Label": "Oth Rx Hormones",
   "Variable Name": [
     "SrvMRE_OthPresHorm_v1r0"
   ],
@@ -19,12 +19,8 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "3893",
-    "3894"
-  ],
-  "Index": [
-    "3893",
-    "3894"
+    "3922",
+    "3923"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

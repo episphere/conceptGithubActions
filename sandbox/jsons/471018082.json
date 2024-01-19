@@ -7,7 +7,7 @@
   ],
   "conceptId": "471018082",
   "Current Question Text": "Have you ever dozed off or fallen asleep while driving a vehicle?",
-  "Variable Label": "Dozed off or fallen asleep while driving",
+  "Variable Label": "Dozed Off/Fell Asleep While Driving",
   "Variable Name": [
     "SrvMRE_Driving_v1r0"
   ],
@@ -19,12 +19,8 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "4513",
-    "4514"
-  ],
-  "Index": [
-    "4513",
-    "4514"
+    "4542",
+    "4543"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

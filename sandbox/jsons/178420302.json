@@ -2,7 +2,6 @@
   "conceptId": "178420302",
   "Current Question Text": "Unavailable/Unknown",
   "Primary Source": [
-    "692924902.json",
     "129084651.json",
     "129084651.json",
     "129084651.json",
@@ -18,7 +17,6 @@
     "129084651.json"
   ],
   "Secondary Source": [
-    "637153953.json",
     "726699695.json",
     "726699695.json",
     "726699695.json",
@@ -34,7 +32,6 @@
     "390351864.json"
   ],
   "Current Source Question": [
-    "740819233.json",
     "384191091.json",
     "508846529.json",
     "814510313.json",
@@ -49,48 +46,7 @@
     "403175318.json",
     "542661394.json"
   ],
-  "Deprecated, New, or Revised": "New",
-  "Variable Label": "Unavailable",
-  "Variable Name": [
-    "RCAOcc_UnknownCancer_v1r0",
-    "SrvBOH_DontKnowRE_v1r0",
-    "SrvBOH_UnknownCanc_v1r0",
-    "SrvBOH_MCancerUnknown_v1r0",
-    "SrvBOH_DCancerUnknown_v1r0",
-    "SrvBOH_S1CancerUnk_v1r0",
-    "SrvBOH_C1CancerUnk_v1r0",
-    "SrvBOH_BsnUnknownC_v1r0",
-    "SrvBOH_BsnUnknownP_v1r0",
-    "SrvMtW_DENTURESDK_v1r0",
-    "SrvPES_PHONE2D_v1r0",
-    "SrvPES_TABLET2H_v1r0",
-    "SrvPES_COMP2E_v1r0",
-    "SrvMtW_DENTURESDK_v1r0"
-  ],
-  "Variable Type": "Num",
-  "Variable Length": "1",
-  "Required": "Yes",
-  "PII": "No",
-  "Notes": "Operational variable. Nested under cancer occurrence",
-  "Dictionary": "Master Data Dictionary",
-  "State Attribute": "No",
-  "Default Variable": "No",
-  "Date added or modified": "9/29/23",
-  "GCP Document/Table": "Nested (d_637153953_d_740819233_d_178420302)",
-  "Formula for Index": [
-    "1858",
-    "1859"
-  ],
-  "Index": [
-    "1858",
-    "1859"
-  ],
-  "Current Format/Value": {
-    "104430631.json": "0",
-    "353358909.json": "1"
-  },
   "GridID/Source Question Name": [
-    "",
     "RACEETH",
     "SKINCANC2",
     "MOMCANC2",
@@ -105,9 +61,25 @@
     "SrvPES_COMP2_v1r0",
     "SrvMtW_DENTURES_v1r0"
   ],
+  "Deprecated, New, or Revised": "New",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "8/22/23",
+  "Variable Label": "Don't Know",
+  "Variable Name": [
+    "SrvBOH_DontKnowRE_v1r0",
+    "SrvBOH_UnknownCanc_v1r0",
+    "SrvBOH_MCancerUnknown_v1r0",
+    "SrvBOH_DCancerUnknown_v1r0",
+    "SrvBOH_S1CancerUnk_v1r0",
+    "SrvBOH_C1CancerUnk_v1r0",
+    "SrvBOH_BsnUnknownC_v1r0",
+    "SrvBOH_BsnUnknownP_v1r0",
+    "SrvMtW_DENTURESDK_v1r0",
+    "SrvPES_PHONE2D_v1r0",
+    "SrvPES_TABLET2H_v1r0",
+    "SrvPES_COMP2E_v1r0",
+    "SrvMtW_DENTURESDK_v1r0"
+  ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "",
     "77",
     "77",
     "77",
@@ -122,6 +94,22 @@
     "77",
     "77"
   ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "8/22/23",
   "Question Type": "Optional Select All that Apply",
-  "IMS Review Notes": "Added new response"
+  "IMS Review Notes": "Added new response",
+  "Formula for Index": [
+    "1946",
+    "1947"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  },
+  "Notes": "Only display is SKINCANC = 1",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No"
 }

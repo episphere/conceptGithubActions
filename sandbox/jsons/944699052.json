@@ -7,7 +7,7 @@
   ],
   "conceptId": "944699052",
   "Current Question Text": "During the season[s] in the past 12 months that you swam laps, about how often did you do this activity?",
-  "Variable Label": "During the season[s] in the past 12 months that you swam laps, about how often did you do this activity?",
+  "Variable Label": "Last 12 Mons - Swam Laps",
   "Variable Name": [
     "SrvMRE_SwimLapsOften_v1r0"
   ],
@@ -21,20 +21,12 @@
   "Notes": "Only display if EXEREC1=4",
   "Date added or modified": "11/15/21",
   "Formula for Index": [
-    "4259",
-    "4260",
-    "4261",
-    "4262",
-    "4263",
-    "4264"
-  ],
-  "Index": [
-    "4259",
-    "4260",
-    "4261",
-    "4262",
-    "4263",
-    "4264"
+    "4288",
+    "4289",
+    "4290",
+    "4291",
+    "4292",
+    "4293"
   ],
   "Current Format/Value": {
     "239152340.json": "0",

@@ -13,7 +13,7 @@
   ],
   "conceptId": "797221287",
   "Current Question Text": "Moderate outdoor chores (such as weeding, raking, or mowing the lawn)",
-  "Variable Label": "Moderate outdoor chores (such as weeding, raking, or mowing the lawn)",
+  "Variable Label": "Mod Outdoor Chores",
   "Variable Name": [
     "SrvMRE_ModOutChores_v1r0"
   ],
@@ -25,12 +25,8 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "4052",
-    "4053"
-  ],
-  "Index": [
-    "4052",
-    "4053"
+    "4081",
+    "4082"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

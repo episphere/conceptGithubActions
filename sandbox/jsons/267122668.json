@@ -7,7 +7,7 @@
   ],
   "conceptId": "267122668",
   "Current Question Text": "During the season[s] in the past 12 months that you walked or hiked for exercise, about how often did you do this activity?",
-  "Variable Label": "During the season[s] in the past 12 months that you walked or hiked for exercise, about how often did you do this activity?",
+  "Variable Label": "Last 12 Mons - Walk/Hike",
   "Variable Name": [
     "SrvMRE_WalkHikeOften_v1r0"
   ],
@@ -21,20 +21,12 @@
   "Notes": "Only display if EXEREC1=0",
   "Date added or modified": "11/15/21",
   "Formula for Index": [
-    "4207",
-    "4208",
-    "4209",
-    "4210",
-    "4211",
-    "4212"
-  ],
-  "Index": [
-    "4207",
-    "4208",
-    "4209",
-    "4210",
-    "4211",
-    "4212"
+    "4236",
+    "4237",
+    "4238",
+    "4239",
+    "4240",
+    "4241"
   ],
   "Current Format/Value": {
     "239152340.json": "0",

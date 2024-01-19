@@ -7,7 +7,7 @@
   ],
   "conceptId": "689956879",
   "Current Question Text": "During the season[s] in the past 12 months that you did strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups), about how often did you do this activity?",
-  "Variable Label": "During the season[s] in the past 12 months that you did strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups), about how often did you do this activity?",
+  "Variable Label": "Last 12 Mons - Strength Exercises/Calisthenics",
   "Variable Name": [
     "SrvMRE_StrengthOften_v1r0"
   ],
@@ -21,20 +21,12 @@
   "Notes": "Only display if EXEREC1=6",
   "Date added or modified": "11/15/21",
   "Formula for Index": [
-    "4285",
-    "4286",
-    "4287",
-    "4288",
-    "4289",
-    "4290"
-  ],
-  "Index": [
-    "4285",
-    "4286",
-    "4287",
-    "4288",
-    "4289",
-    "4290"
+    "4314",
+    "4315",
+    "4316",
+    "4317",
+    "4318",
+    "4319"
   ],
   "Current Format/Value": {
     "239152340.json": "0",

@@ -7,7 +7,7 @@
   ],
   "conceptId": "963284259",
   "Current Question Text": "Are you currently using two separate pills?",
-  "Variable Label": "Currently using oral progestin-only medication two pills",
+  "Variable Label": "Current Use - 2 Pills, 1 Estrogen & 1 Progestin",
   "Variable Name": [
     "SrvMRE_CurrProgMeds_v1r0"
   ],
@@ -20,12 +20,8 @@
   "PII": "No",
   "Notes": "Only display if COMBHOR=1",
   "Formula for Index": [
-    "3845",
-    "3846"
-  ],
-  "Index": [
-    "3845",
-    "3846"
+    "3874",
+    "3875"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

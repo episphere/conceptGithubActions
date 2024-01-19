@@ -7,7 +7,7 @@
   ],
   "conceptId": "981509686",
   "Current Question Text": "During the season[s] in the past 12 months that you did cross-country skiing, about how often did you do this activity?",
-  "Variable Label": "During the season[s] in the past 12 months that you did cross-country skiing, about how often did you do this activity?",
+  "Variable Label": "Last 12 Mons - Cross-country Skiing",
   "Variable Name": [
     "SrvMRE_CCSkiOften_v1r0"
   ],
@@ -21,20 +21,12 @@
   "Notes": "Only display if EXEREC1=11",
   "Date added or modified": "11/15/21",
   "Formula for Index": [
-    "4350",
-    "4351",
-    "4352",
-    "4353",
-    "4354",
-    "4355"
-  ],
-  "Index": [
-    "4350",
-    "4351",
-    "4352",
-    "4353",
-    "4354",
-    "4355"
+    "4379",
+    "4380",
+    "4381",
+    "4382",
+    "4383",
+    "4384"
   ],
   "Current Format/Value": {
     "239152340.json": "0",
