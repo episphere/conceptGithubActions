@@ -18,7 +18,7 @@
     ]
   },
   "100752105": {
-    "Variable Label": "Norplant (inserted under the skin of your upper arm, lasts several years)",
+    "Variable Label": "Norplant Arm Insert",
     "Variable Name": [
       "SrvMRE_Norplant_v1r0"
     ]
@@ -30,7 +30,7 @@
     ]
   },
   "100937200": {
-    "Variable Label": "Currently using copper IUD",
+    "Variable Label": "Current Use - Copper IUD",
     "Variable Name": [
       "SrvMRE_CurrCopperIUD_v1r0"
     ]
@@ -260,6 +260,12 @@
       "SrvBOH_FallTube_v1r0"
     ]
   },
+  "108082847": {
+    "Variable Label": "Recipient Unsub From Email List - Status",
+    "Variable Name": [
+      "CTSG_UnsubStatus_v1r0"
+    ]
+  },
   "108104748": {
     "Variable Label": "Injection",
     "Variable Name": [
@@ -278,6 +284,12 @@
     "Variable Label": "Number of proctoscopies",
     "Variable Name": [
       "SrvScr_PROCT2_v1r0"
+    ]
+  },
+  "108427288": {
+    "Variable Label": "Status of Msg Received & Prep for SG Delivery",
+    "Variable Name": [
+      "CTSG_ProcessedStat_v1r0"
     ]
   },
   "108530997": {
@@ -372,13 +384,13 @@
     ]
   },
   "111235606": {
-    "Variable Label": "Have you ever used testosterone therapy (e.g., Depo-Testosterone, Androgel, Testim, Fortesta, Axiron, Androderm, Striant)?",
+    "Variable Label": "Testosterone Therapy",
     "Variable Name": [
       "SrvMRE_TestosTherapy_v1r0"
     ]
   },
   "111271067": {
-    "Variable Label": "How old were you when you last used other progestin-only medication?",
+    "Variable Label": "Age Last Use - Oth Progestin/Progesterone-Only Med",
     "Variable Name": [
       "SrvMRE_AgeOthProgL_v1r0"
     ]
@@ -442,7 +454,7 @@
     ]
   },
   "113681507": {
-    "Variable Label": "# Yrs Baby/Low-Dose Aspirin",
+    "Variable Label": "# Yrs Baby/L-D Aspirin",
     "Variable Name": [
       "SrvMRE_LAspirinYr_v1r0"
     ]
@@ -472,7 +484,7 @@
     ]
   },
   "115422925": {
-    "Variable Label": "Caring for children or adults (pushing stroller or wheelchair, lifting, bathing) during past 12 months",
+    "Variable Label": "Last 12 Mons - Caring For Kids/Adults",
     "Variable Name": [
       "SrvMRE_CaringForOthers_v1r0"
     ]
@@ -565,7 +577,7 @@
     "Variable Name": "Didn't smoke a hookah or water pipe during this time"
   },
   "118237712": {
-    "Variable Label": "Age Depo-Provera last use",
+    "Variable Label": "Age Last Use - Depo-Provera",
     "Variable Name": [
       "SrvMRE_AgeDepoUsedL_v1r0"
     ]
@@ -622,7 +634,7 @@
     "Variable Name": "3 to 5 times"
   },
   "120016082": {
-    "Variable Label": "Irregular periods in which cycle length varies by more than 7-9 days",
+    "Variable Label": "Irregular Pds (Cycle Varies > 7-9 Days)",
     "Variable Name": [
       "SrvMRE_IrregPeriod_v1r0"
     ]
@@ -634,7 +646,7 @@
     "Variable Name": "South Loop"
   },
   "120485458": {
-    "Variable Label": "Year last shift work",
+    "Variable Label": "Yr Last Worked Shift Work",
     "Variable Name": [
       "SrvMRE_ShiftLastYear_v1r0"
     ]
@@ -643,6 +655,12 @@
     "Variable Label": "Deep private well",
     "Variable Name": [
       "SrvLAW_SeaAdd4DPWell_v1r0"
+    ]
+  },
+  "121031661": {
+    "Variable Label": "D/T Recipient Unsub From Email List",
+    "Variable Name": [
+      "CTSG_UnsubDT_v1r0"
     ]
   },
   "121149986": {
@@ -904,7 +922,7 @@
     ]
   },
   "133297530": {
-    "Variable Label": "Eclampsia or pre-eclampsia",
+    "Variable Label": "Eclampsia/Pre-eclampsia",
     "Variable Name": [
       "SrvMRE_Eclampsia_v1r0"
     ]
@@ -976,7 +994,6 @@
   "135725957": {
     "Variable Label": "Bladder",
     "Variable Name": [
-      "RCAOcc_BladderCancer_v1r0",
       "SrvBOH_MBladderCancer_v1r0",
       "SrvBOH_DBladderCancer_v1r0",
       "SrvBOH_S1BladderCanc_v1r0",
@@ -1039,7 +1056,7 @@
     ]
   },
   "138097322": {
-    "Variable Label": "Login last name",
+    "Variable Label": "Login Last Name",
     "Variable Name": [
       "BioShip_LogLname_v1r0"
     ]
@@ -1063,7 +1080,7 @@
     "Variable Name": "Poor"
   },
   "138836502": {
-    "Variable Label": "How many days per cycle did you use two separate pills, one estrogen and one progestin?",
+    "Variable Label": "Days/Cycle - 2 Pills, 1 Estrogen & 1 Progestin",
     "Variable Name": [
       "SrvMRE_SepPillCycle_v1r0"
     ]
@@ -1096,7 +1113,7 @@
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Thyroid Disorder?"
   },
   "139673389": {
-    "Variable Label": "Months cycles Clomid",
+    "Variable Label": "Months/Cycles Clomid",
     "Variable Name": [
       "SrvMRE_ClomidMo_v1r0"
     ]
@@ -1104,7 +1121,6 @@
   "139822395": {
     "Variable Label": "Thyroid",
     "Variable Name": [
-      "RCAOcc_ThyroidCancer_v1r0",
       "SrvBOH_MThyroidCancer_v1r0",
       "SrvBOH_DThyroidCancer_v1r0",
       "SrvBOH_S1ThyroidCanc_v1r0",
@@ -1127,7 +1143,7 @@
     ]
   },
   "141251197": {
-    "Variable Label": "On the days that you played tennis, squash, or racquetball, about how much time per day did you spend doing this activity?",
+    "Variable Label": "Time/Day - Tennis/Squash/Racquetball",
     "Variable Name": [
       "SrvMRE_TennisTime_v1r0"
     ]
@@ -1206,6 +1222,12 @@
       "SrvBOH_Israeli_v1r0"
     ]
   },
+  "144538509": {
+    "Variable Label": "Email Opened Status",
+    "Variable Name": [
+      "CTSG_OpenStatus_v1r0"
+    ]
+  },
   "144819886": {
     "Variable Label": "Pandemic Feeling  after exercise duration",
     "Variable Name": [
@@ -1230,7 +1252,7 @@
     "Variable Name": "How old were you when you had breast reconstruction surgery?"
   },
   "145971562": {
-    "Variable Label": "Submit shipment flag",
+    "Variable Label": "Submit Shipment Flag",
     "Variable Name": [
       "BioShip_ShipSubmit_v1r0"
     ]
@@ -1307,6 +1329,12 @@
       "SrvLAW_SeaCity3FU_v1r0"
     ]
   },
+  "149205077": {
+    "Variable Label": "Primary Site of Cancer",
+    "Variable Name": [
+      "RCAOcc_PrimCancSite_v1r0"
+    ]
+  },
   "149230791": {
     "Variable Label": "Transportation/Warehousing/Utilities",
     "Variable Name": [
@@ -1357,13 +1385,13 @@
     "Variable Name": "251 to 500 feet"
   },
   "151006826": {
-    "Variable Label": "Did you wake up several times a night?",
+    "Variable Label": "Wake Up Several Times/Night",
     "Variable Name": [
       "SrvMRE_WakeUpMultTimes_v1r0"
     ]
   },
   "151161693": {
-    "Variable Label": "Walking while shopping or doing errands (Do not count walking for exercise.) during past 12 months",
+    "Variable Label": "Last 12 Mons - Walking While Shopping",
     "Variable Name": [
       "SrvMRE_WalkingErrands_v1r0"
     ]
@@ -1397,8 +1425,20 @@
       "SrvMRE_Spring_v1r0"
     ]
   },
+  "152833378": {
+    "Variable Label": "Notification Specifications ID",
+    "Variable Name": [
+      "CTN_NotifSpecID_v1r0"
+    ]
+  },
   "152885579": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had esophageal cancer?"
+  },
+  "153004469": {
+    "Variable Label": "Reason Msg Dropped",
+    "Variable Name": [
+      "CTSG_DroppedReason_v1r0"
+    ]
   },
   "153211406": {
     "Variable Label": "Pref Name",
@@ -1501,7 +1541,7 @@
     ]
   },
   "158214723": {
-    "Variable Label": "Gum or inner cheek patch",
+    "Variable Label": "Gum/Cheek Patch",
     "Variable Name": [
       "SrvMRE_TTGumPatch_v1r0"
     ]
@@ -1687,7 +1727,7 @@
     "Variable Name": "Cardiovascular Disease- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply."
   },
   "167207966": {
-    "Variable Label": "Months cycles Pergonal",
+    "Variable Label": "Month/Cycles Pergonal",
     "Variable Name": [
       "SrvMRE_PergonalMo_v1r0"
     ]
@@ -1723,7 +1763,7 @@
     ]
   },
   "167966775": {
-    "Variable Label": "During the season[s] in the past 12 months that you did Martial Arts (such as Karate or Judo), about how often did you do this activity?",
+    "Variable Label": "Last 12 Mons - Martial Arts",
     "Variable Name": [
       "SrvMRE_MAOften_v1r0"
     ]
@@ -1747,7 +1787,7 @@
     ]
   },
   "168431681": {
-    "Variable Label": "Days per week sleep schedule determined by your job, school, or other activities",
+    "Variable Label": "DaysWk - Sleep Sched Determined by Job/School/Oth Activities",
     "Variable Name": [
       "SrvMRE_SleepSchedDays_v1r0"
     ]
@@ -1936,7 +1976,7 @@
     ]
   },
   "177526169": {
-    "Variable Label": "Last Time Baby/Low-Dose Aspirin",
+    "Variable Label": "Last Time Baby/L-D Aspirin",
     "Variable Name": [
       "SrvMRE_LaspirinTime_v1r0"
     ]
@@ -1965,9 +2005,8 @@
     "Variable Name": "How old were you when you had your gallbladder removed (cholecystectomy)?"
   },
   "178420302": {
-    "Variable Label": "Unavailable",
+    "Variable Label": "Don't Know",
     "Variable Name": [
-      "RCAOcc_UnknownCancer_v1r0",
       "SrvBOH_DontKnowRE_v1r0",
       "SrvBOH_UnknownCanc_v1r0",
       "SrvBOH_MCancerUnknown_v1r0",
@@ -2016,7 +2055,7 @@
     ]
   },
   "179705366": {
-    "Variable Label": "In a car, while you are stopped for a few minutes in traffic",
+    "Variable Label": "Stopped In Traffic",
     "Variable Name": [
       "SrvMRE_SittingTraffic_v1r0"
     ]
@@ -2055,13 +2094,13 @@
     ]
   },
   "181458564": {
-    "Variable Label": "Outgoing shipments comments",
+    "Variable Label": "Outgoing Shipments Comments",
     "Variable Name": [
       "BioFB_ShipNote_v1r0"
     ]
   },
   "181769837": {
-    "Variable Label": "Other hormonal medications",
+    "Variable Label": "Oth",
     "Variable Name": [
       "SrvMRE_OtherHorMed_v1r0",
       "SrvMRE_OtherExercise_v1r0",
@@ -2092,7 +2131,7 @@
     ]
   },
   "182827107": {
-    "Variable Label": "Downhill ski or snowboard",
+    "Variable Label": "Downhill Ski/Snowboard",
     "Variable Name": [
       "SrvMRE_DownhillSki_v1r0"
     ]
@@ -2119,7 +2158,7 @@
     "Variable Name": "No, I want to enter another address (2nd address)"
   },
   "184448791": {
-    "Variable Label": "During the season[s] in the past 12 months that you played golf, about how often did you do this activity?",
+    "Variable Label": "Last 12 Mons - Golf",
     "Variable Name": [
       "SrvMRE_GolfOften_v1r0"
     ]
@@ -2147,7 +2186,7 @@
     ]
   },
   "184692605": {
-    "Variable Label": "Age the other hormonal medications or devices last use",
+    "Variable Label": "Age Last Use - Other Hormonal Meds/Devices",
     "Variable Name": [
       "SrvMRE_AgeOthHMedUseL_v1r0"
     ]
@@ -2183,7 +2222,7 @@
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Liver cancer?"
   },
   "186488870": {
-    "Variable Label": "Riding as a passenger in a car for an hour without stopping",
+    "Variable Label": "Passenger In Car For Hr W/O Stopping",
     "Variable Name": [
       "SrvMRE_Passenger_v1r0"
     ]
@@ -2257,7 +2296,7 @@
     ]
   },
   "190721176": {
-    "Variable Label": "Age vaginal ring last use",
+    "Variable Label": "Age Last Use - Vaginal Ring",
     "Variable Name": [
       "SrvMRE_AgeVagRingUsedL_v1r0"
     ]
@@ -2411,7 +2450,7 @@
     "Variable Name": "Operations"
   },
   "195662769": {
-    "Variable Label": "Time usual work shift start",
+    "Variable Label": "Shift Start Time",
     "Variable Name": [
       "SrvMRE_ShiftStart_v1r0"
     ]
@@ -2492,7 +2531,7 @@
     "Variable Name": "Half sibling, same father"
   },
   "198719822": {
-    "Variable Label": "Months cycles Danocrine",
+    "Variable Label": "Month/Cycles Danocrine",
     "Variable Name": [
       "SrvMRE_DanocrineMo_v1r0"
     ]
@@ -2504,7 +2543,7 @@
     ]
   },
   "199039940": {
-    "Variable Label": "Caring for children or adults (pushing stroller or wheelchair, lifting, bathing) time per day",
+    "Variable Label": "Times/Day - Caring For Kids/Adults",
     "Variable Name": [
       "SrvMRE_CaringForOthTm_v1r0"
     ]
@@ -2548,7 +2587,6 @@
   "200837530": {
     "Variable Label": "Lymphoma",
     "Variable Name": [
-      "RCAOcc_Lymphoma_v1r0",
       "SrvBOH_MLymphoma_v1r0",
       "SrvBOH_DLymphoma_v1r0",
       "SrvBOH_S1Lymphoma_v1r0",
@@ -2568,7 +2606,7 @@
     "Variable Name": "9 hours or more"
   },
   "201434907": {
-    "Variable Label": "Spouse/partner's infertility",
+    "Variable Label": "Partner's Infertility",
     "Variable Name": [
       "SrvMRE_Infertility_v1r0"
     ]
@@ -2595,7 +2633,7 @@
     ]
   },
   "202355614": {
-    "Variable Label": "Cervical mucous factor",
+    "Variable Label": "Cervical Mucous Factor",
     "Variable Name": [
       "SrvMRE_CervicalMucous_v1r0"
     ]
@@ -2607,7 +2645,7 @@
     ]
   },
   "203192394": {
-    "Variable Label": "Play tennis, squash, or racquetball",
+    "Variable Label": "Tennis/Squash/Racquetball",
     "Variable Name": [
       "SrvMRE_Tennis_v1r0"
     ]
@@ -2622,6 +2660,12 @@
     "Variable Label": "Too busy to go",
     "Variable Name": [
       "SrvCSS_PROV6B2_v1r0"
+    ]
+  },
+  "203748661": {
+    "Variable Label": "Notification ID",
+    "Variable Name": [
+      "CTN_ID_v1r0"
     ]
   },
   "203773667": {
@@ -2671,7 +2715,7 @@
     ]
   },
   "205223932": {
-    "Variable Label": "Copper IUD (such as Paraguard intrauterine device)",
+    "Variable Label": "Copper IUD",
     "Variable Name": [
       "SrvMRE_CopperIUD_v1r0"
     ]
@@ -2889,7 +2933,7 @@
     ]
   },
   "207913198": {
-    "Variable Label": "Depo-provera (birth control shot given once every three months)",
+    "Variable Label": "Depo-provera",
     "Variable Name": [
       "SrvMRE_Depoprovera_v1r0"
     ]
@@ -2956,6 +3000,12 @@
   },
   "210720511": {
     "Variable Name": "Boxed"
+  },
+  "210884245": {
+    "Variable Label": "SG Message ID",
+    "Variable Name": [
+      "CTSG_MsgID_v1r0"
+    ]
   },
   "210894509": {
     "Variable Name": "No labels"
@@ -3033,13 +3083,13 @@
     "Variable Name": "Eligibility Screener"
   },
   "214750556": {
-    "Variable Label": "During the season[s] in the past 12 months that you did surfing or bodyboarding, about how often did you do this activity?",
+    "Variable Label": "Last 12 Mons - Surfing/Bodyboarding",
     "Variable Name": [
       "SrvMRE_SurfOften_v1r0"
     ]
   },
   "214870856": {
-    "Variable Label": "Time usual work shift end",
+    "Variable Label": "Shift End Time",
     "Variable Name": [
       "SrvMRE_ShiftEnd_v1r0"
     ]
@@ -3159,7 +3209,7 @@
     ]
   },
   "219538082": {
-    "Variable Label": "How old were you when you first used the other combined estrogen plus progestin prescription hormone?",
+    "Variable Label": "Age First Use - Oth Combo Estrogen & Progestin Rx Hormones",
     "Variable Name": [
       "SrvMRE_OthCombAgeF_v1r0"
     ]
@@ -3191,7 +3241,7 @@
     "Variable Name": "Very feminine"
   },
   "220105997": {
-    "Variable Label": "Age Norplant first use",
+    "Variable Label": "Age First Use - Norplant",
     "Variable Name": [
       "SrvMRE_AgeNorpUsedF_v1r0"
     ]
@@ -3203,7 +3253,7 @@
     ]
   },
   "220238240": {
-    "Variable Label": "Did you have trouble falling asleep?",
+    "Variable Label": "Trouble Falling Asleep",
     "Variable Name": [
       "SrvMRE_TrblFallAsleep_v1r0"
     ]
@@ -3310,7 +3360,7 @@
     ]
   },
   "224681201": {
-    "Variable Label": "Use fertility medications",
+    "Variable Label": "Ever Use - Fertility Med",
     "Variable Name": [
       "SrvMRE_FertilityMeds_v1r0"
     ]
@@ -3495,7 +3545,7 @@
     ]
   },
   "235516216": {
-    "Variable Label": "Other progestin/progesterone-only medication: please describe text box",
+    "Variable Label": "Oth Progestin/Progesterone-Only Med - Free Text",
     "Variable Name": [
       "SrvMRE_OtherProgDesc_v1r0"
     ]
@@ -3584,7 +3634,7 @@
     "Variable Name": "Season Address 9- What is the full street address of your seasonal or vacation home?"
   },
   "239572239": {
-    "Variable Label": "Walking and heavy manual work often working with materials weighing over 50 pounds (for example, digging and shoveling, chopping wood, laying bricks, stacking hay, or other heavy manual labor, etc.)",
+    "Variable Label": "Walking & Heavy Manual Work",
     "Variable Name": [
       "SrvMRE_HeavyWork_v1r0"
     ]
@@ -3730,7 +3780,7 @@
     ]
   },
   "246843973": {
-    "Variable Label": "Oral estrogen-only medication (such as Cenestin, Estrace, Femtrace, Menest, Ogen, or Premarin)",
+    "Variable Label": "Oral Estrogen-only Med",
     "Variable Name": [
       "SrvMRE_OralEstrogen_v1r0"
     ]
@@ -3761,7 +3811,6 @@
   "248374037": {
     "Variable Label": "Testicular",
     "Variable Name": [
-      "RCAOcc_TesticCancer_v1r0",
       "SrvBOH_DTesticularCanc_v1r0",
       "SrvBOH_S1TesticularCanc_v1r0",
       "SrvBOH_C1TesticCanc_v1r0"
@@ -3912,7 +3961,7 @@
     ]
   },
   "255761998": {
-    "Variable Label": "During the season[s] in the past 12 months that you did Yoga, Pilates, or Tai Chi, about how often did you do this activity?",
+    "Variable Label": "Last 12 Mons - Yoga/Pilates/Tai Chi",
     "Variable Name": [
       "SrvMRE_YogaOften_v1r0"
     ]
@@ -3945,7 +3994,7 @@
     ]
   },
   "257137378": {
-    "Variable Label": "Did you feel very tired during the day?",
+    "Variable Label": "Feel Tired During The Day",
     "Variable Name": [
       "SrvMRE_TiredDuringDay_v1r0"
     ]
@@ -4048,7 +4097,7 @@
     ]
   },
   "261267696": {
-    "Variable Label": "Play golf",
+    "Variable Label": "Golf",
     "Variable Name": [
       "SrvMRE_PlayGolf_v1r0"
     ]
@@ -4226,13 +4275,13 @@
     ]
   },
   "263114971": {
-    "Variable Label": "Days long recent menstrual cycle specific",
+    "Variable Label": "Num Days Usual Mens Cycle",
     "Variable Name": [
       "SrvMRE_PeriodDays12M_v2r0"
     ]
   },
   "263483736": {
-    "Variable Label": "Sitting and watching television shows, movies, or other video content on a television, tablet, phone, or computer",
+    "Variable Label": "Sitting & Watching TV/Oth Content",
     "Variable Name": [
       "SrvMRE_SittingTV_v1r0"
     ]
@@ -4322,13 +4371,13 @@
     "Variable Name": "Mild hair loss on the top of the head along the middle of the head."
   },
   "267122668": {
-    "Variable Label": "During the season[s] in the past 12 months that you walked or hiked for exercise, about how often did you do this activity?",
+    "Variable Label": "Last 12 Mons - Walk/Hike",
     "Variable Name": [
       "SrvMRE_WalkHikeOften_v1r0"
     ]
   },
   "267261558": {
-    "Variable Label": "Time per day spent doing home repairs (such as painting, plumbing, or replacing carpeting)",
+    "Variable Label": "Time/Day - Home Repairs",
     "Variable Name": [
       "SrvMRE_HRepairHome_v1r0"
     ]
@@ -4415,6 +4464,12 @@
   "270793412": {
     "Variable Name": "II"
   },
+  "270884875": {
+    "Variable Label": "D/T of Delivery",
+    "Variable Name": [
+      "CTSG_DeliveredTm_v1r0"
+    ]
+  },
   "270994579": {
     "Variable Name": "Yes, 5 or more times per week"
   },
@@ -4431,7 +4486,7 @@
     "Variable Name": "Straight or heterosexual"
   },
   "272119228": {
-    "Variable Label": "On the days that you did other exercise, about how much time per day did you spend doing this activity?",
+    "Variable Label": "Time/Day - Oth Exercise",
     "Variable Name": [
       "SrvMRE_ExerciseTime_v1r0"
     ]
@@ -4575,7 +4630,7 @@
     ]
   },
   "278277373": {
-    "Variable Label": "Months breastfed",
+    "Variable Label": "Mo Breastfed",
     "Variable Name": [
       "SrvMRE_BreastfeedMo_v1r0"
     ]
@@ -4608,7 +4663,7 @@
     ]
   },
   "281494550": {
-    "Variable Label": "Multiples",
+    "Variable Label": "Num Infants",
     "Variable Name": [
       "SrvMRE_PregMultiples_v1r0"
     ]
@@ -4634,7 +4689,6 @@
   "283025574": {
     "Variable Label": "Cervical",
     "Variable Name": [
-      "RCAOcc_CervicalCancer_v1r0",
       "SrvBOH_MCervicalCancer_v1r0",
       "SrvBOH_S1CervicalCanc_v1r0",
       "SrvBOH_C1CervicalCanc_v1r0"
@@ -4857,7 +4911,7 @@
     "Variable Name": "5 glasses"
   },
   "290126991": {
-    "Variable Label": "How many days per cycle did you use this other type of combined estrogen plus progestin prescription hormones?",
+    "Variable Label": "Days/Cycle - Oth Combo Estrogen & Progestin Rx Hormones",
     "Variable Name": [
       "SrvMRE_SepPillCycle2_v1r0"
     ]
@@ -4870,6 +4924,9 @@
   },
   "290716491": {
     "Variable Name": "500 unit per ml"
+  },
+  "290739590": {
+    "Variable Name": "Communications Tracking"
   },
   "290969423": {
     "Variable Label": "Lived anywhere else at least two years",
@@ -4884,7 +4941,7 @@
     ]
   },
   "291707744": {
-    "Variable Label": "Age estrogen-only skin gel, cream, or spray-on medication first use",
+    "Variable Label": "Age First Use - Estrogen-only Skin Gel/Cream/Spray-on Med",
     "Variable Name": [
       "SrvMRE_AgeEstGelUseF_v1r0"
     ]
@@ -4939,7 +4996,7 @@
     ]
   },
   "295472931": {
-    "Variable Label": "Currently using oral progestin-only medication",
+    "Variable Label": "Current Use - Combo Oral Estrogen & Progestin Pill",
     "Variable Name": [
       "SrvMRE_CurrProgMed_v1r0"
     ]
@@ -4953,7 +5010,6 @@
   "295976386": {
     "Variable Label": "Prostate",
     "Variable Name": [
-      "RCAOcc_ProstateCancer_v1r0",
       "SrvBOH_DProstateCancer_v1r0",
       "SrvBOH_S1ProstateCanc_v1r0",
       "SrvBOH_C1ProstateCanc_v1r0"
@@ -5084,7 +5140,7 @@
     ]
   },
   "301052397": {
-    "Variable Label": "Currently using combined oral contraceptive pills",
+    "Variable Label": "Currently Using - Combo Oral Contraceptive Pills",
     "Variable Name": [
       "SrvMRE_CurrCombPill_v1r0"
     ]
@@ -5167,7 +5223,7 @@
     ]
   },
   "304927036": {
-    "Variable Label": "Nolvadex (tamoxifen)",
+    "Variable Label": "Nolvadex",
     "Variable Name": [
       "SrvMRE_Nolvadex_v1r0"
     ]
@@ -5179,7 +5235,7 @@
     "Variable Name": "During the time(s) that you were taking anti-hypertensive medication/drugs used to treat hypertension (high blood pressure), about how many days per week OR per month did you take it? Please choose whichever makes the most sense for you."
   },
   "305312165": {
-    "Variable Label": "On the days that you did high-intensity circuit training (such as P90x or Crossfit), about how much time per day did you spend doing this activity?",
+    "Variable Label": "Time/Day - High-Intensity Circuit Training",
     "Variable Name": [
       "SrvMRE_HICTTime_v1r0"
     ]
@@ -5212,7 +5268,7 @@
     "Variable Name": "Pregnancy loss before 20 weeks"
   },
   "307736999": {
-    "Variable Label": "How old were you when you last used the other type of prescription hormone?",
+    "Variable Label": "Age Last Use - Oth Rx Hormones",
     "Variable Name": [
       "SrvMRE_OthHormAgeL_v1r0"
     ]
@@ -5264,7 +5320,7 @@
     ]
   },
   "309710463": {
-    "Variable Label": "Months cycles Nolvadex",
+    "Variable Label": "Month/Cycles Nolvadex",
     "Variable Name": [
       "SrvMRE_NolvadexMo_v1r0"
     ]
@@ -5843,7 +5899,7 @@
     ]
   },
   "341636034": {
-    "Variable Label": "D/T kit requested",
+    "Variable Label": "D/T kit Requested",
     "Variable Name": [
       "BioKit_KitDatePend_v1r0"
     ]
@@ -5858,7 +5914,7 @@
     ]
   },
   "342735868": {
-    "Variable Label": "Tubal blockage",
+    "Variable Label": "Tubal Blockage",
     "Variable Name": [
       "SrvMRE_TubalBlockage_v1r0"
     ]
@@ -5879,7 +5935,7 @@
     ]
   },
   "344573484": {
-    "Variable Label": "Currently using birth control patch",
+    "Variable Label": "Current Use - BC Patch",
     "Variable Name": [
       "SrvMRE_CurrBCPatch_v1r0"
     ]
@@ -5921,7 +5977,7 @@
     ]
   },
   "345916806": {
-    "Variable Label": "Martial Arts (such as Karate or Judo)",
+    "Variable Label": "Martial Arts",
     "Variable Name": [
       "SrvMRE_MartialArts_v1r0"
     ]
@@ -6049,7 +6105,7 @@
     "Variable Name": "Didn't use electronic marijuana delivery devices during this time"
   },
   "352531133": {
-    "Variable Label": "How often days home repairs (such as painting, plumbing, or replacing carpeting)",
+    "Variable Label": "# Days - Home Repairs",
     "Variable Name": [
       "SrvMRE_HRepairOften_v1r0"
     ]
@@ -6104,7 +6160,7 @@
     ]
   },
   "354550061": {
-    "Variable Label": "Sitting quietly after a lunch that did not include alcohol",
+    "Variable Label": "Sitting A Lunch W/O Alcohol",
     "Variable Name": [
       "SrvMRE_SittingLunch_v1r0"
     ]
@@ -6119,7 +6175,7 @@
     "Variable Name": "Water that was filtered with another type of filter (under sink or whole house)"
   },
   "354980163": {
-    "Variable Label": "Wake up before alarm clock workdays/most days",
+    "Variable Label": "Wake Up Before Alarm Clock Workdays/Most Days",
     "Variable Name": [
       "SrvMRE_WakeBeforeAlarm_v1r0"
     ]
@@ -6161,7 +6217,7 @@
     "Variable Name": "Not matched"
   },
   "356969766": {
-    "Variable Label": "How old were you when you first used other progestin-only medication?",
+    "Variable Label": "Age First Use - Oth Progestin/Progesterone-Only Med",
     "Variable Name": [
       "SrvMRE_AgeOthProgF_v1r0"
     ]
@@ -6412,7 +6468,7 @@
     ]
   },
   "370798456": {
-    "Variable Label": "Age hormonal IUD last use",
+    "Variable Label": "Age Last Use - Hormonal IUD",
     "Variable Name": [
       "SrvMRE_AgeHorIUDUsedL_v1r0"
     ]
@@ -6424,7 +6480,7 @@
     ]
   },
   "370923702": {
-    "Variable Label": "Sleep apnea (or Obstructive Sleep Apnea, OSA)",
+    "Variable Label": "Sleep Apnea",
     "Variable Name": [
       "SrvMRE_SleepApnea_v1r0"
     ]
@@ -6457,7 +6513,7 @@
     ]
   },
   "371531887": {
-    "Variable Label": "Surf or bodyboard",
+    "Variable Label": "Surf/Bodyboard",
     "Variable Name": [
       "SrvMRE_Surf_v1r0"
     ]
@@ -6595,7 +6651,7 @@
     ]
   },
   "378921620": {
-    "Variable Label": "Currently using the other type of estrogen-only medication",
+    "Variable Label": "Current Use - Oth Estrogen-only Med",
     "Variable Name": [
       "SrvMRE_CurrOtherEstUse_v1r0"
     ]
@@ -6693,7 +6749,7 @@
     "Variable Name": "More than 1 week ago, but in the past 4 weeks"
   },
   "383015037": {
-    "Variable Label": "Home repair (such as painting, plumbing, or replacing carpeting)",
+    "Variable Label": "Home Repair",
     "Variable Name": [
       "SrvMRE_HomeRepair_v1r0"
     ]
@@ -6744,7 +6800,7 @@
     ]
   },
   "386152189": {
-    "Variable Label": "Bleeding after menopause",
+    "Variable Label": "Bleeding After Meno",
     "Variable Name": [
       "SrvMRE_BleedAftMeno_v1r0"
     ]
@@ -6897,7 +6953,7 @@
     ]
   },
   "391951010": {
-    "Variable Label": "Outcome pregnancy",
+    "Variable Label": "Preg Outcome",
     "Variable Name": [
       "SrvMRE_PregOutcome_v1r1"
     ]
@@ -6912,7 +6968,7 @@
     ]
   },
   "392629868": {
-    "Variable Label": "Use alarm clock workdays/most days",
+    "Variable Label": "Alarm Clock Use Workdays/Most Days",
     "Variable Name": [
       "SrvMRE_AlarmClock_v1r0"
     ]
@@ -6921,7 +6977,7 @@
     "Variable Name": "Typical time spent per WORKDAY"
   },
   "392874924": {
-    "Variable Label": "Years shift worker",
+    "Variable Label": "Yrs Shift Worker",
     "Variable Name": [
       "SrvMRE_ShiftYears_v1r0"
     ]
@@ -6998,7 +7054,7 @@
     "Variable Name": "Could you say if any of these reasons might have caused you to delay going to see a doctor or healthcare provider for your symptoms? Select an answer for each statement. PROV6B"
   },
   "396649512": {
-    "Variable Label": "Other sitting outside of work (such as for reading, crafts, and hobbies)",
+    "Variable Label": "Oth Sitting Outside Work",
     "Variable Name": [
       "SrvMRE_SittingOut_v1r0"
     ]
@@ -7040,7 +7096,7 @@
     ]
   },
   "399078599": {
-    "Variable Label": "Months cycles Milophene",
+    "Variable Label": "Month/Cycles Milophene",
     "Variable Name": [
       "SrvMRE_MilopheneMo_v1r0"
     ]
@@ -7109,7 +7165,7 @@
     "Variable Name": "Didn't use e-cigarettes or other vaping devices during this time"
   },
   "403155173": {
-    "Variable Label": "Sitting and reading",
+    "Variable Label": "Sitting/Reading",
     "Variable Name": [
       "SrvMRE_DozeReading_v1r0"
     ]
@@ -7127,6 +7183,12 @@
     "Variable Label": "Ever Worked",
     "Variable Name": [
       "SrvBOH_EverWork_v1r0"
+    ]
+  },
+  "403401964": {
+    "Variable Label": "SG Dropped Email - Status",
+    "Variable Name": [
+      "CTSG_DroppedStatus_v1r0"
     ]
   },
   "403679963": {
@@ -7161,7 +7223,7 @@
     "Variable Name": "High school graduate or GED"
   },
   "404596261": {
-    "Variable Label": "Age hormonal IUD first use",
+    "Variable Label": "Age First Use - Hormonal IUD",
     "Variable Name": [
       "SrvMRE_AgeHorIUDUsedF_v1r0"
     ]
@@ -7197,7 +7259,7 @@
     ]
   },
   "405571048": {
-    "Variable Label": "Times pregnant",
+    "Variable Label": "Num Pregnancies",
     "Variable Name": [
       "SrvMRE_TimesPreg_v2r0"
     ]
@@ -7218,7 +7280,7 @@
     ]
   },
   "406137786": {
-    "Variable Label": "Describe snoring",
+    "Variable Label": "Describe Snoring",
     "Variable Name": [
       "SrvMRE_SnoreDescribe_v1r0"
     ]
@@ -7236,7 +7298,7 @@
     "Variable Name": "8"
   },
   "406846149": {
-    "Variable Label": "On the days that you rode a bicycle (including a stationary bike), about how much time per day did you spend doing this activity?",
+    "Variable Label": "Time/Day - Bike Riding",
     "Variable Name": [
       "SrvMRE_BikeTime_v1r0"
     ]
@@ -7321,7 +7383,7 @@
     ]
   },
   "411788467": {
-    "Variable Label": "During the season[s] in the past 12 months that you played tennis, squash, or racquetball, about how often did you do this activity?",
+    "Variable Label": "Last 12 Mons - Tennis/Squash/Racquetball",
     "Variable Name": [
       "SrvMRE_TennisOften_v1r0"
     ]
@@ -7384,7 +7446,7 @@
     ]
   },
   "414663452": {
-    "Variable Label": "How old were you when you last used testosterone therapy?",
+    "Variable Label": "Age Last Use - Testosterone Therapy",
     "Variable Name": [
       "SrvMRE_TTAgeL_v1r0"
     ]
@@ -7417,7 +7479,7 @@
     "Variable Name": "During the time(s) that you were taking over-the-counter proton pump inhibitors, about how many days per week OR per month did you take it? Please choose whichever makes the most sense for you."
   },
   "417201414": {
-    "Variable Label": "CPAP or BIPAP machine",
+    "Variable Label": "CPAP/BIPAP",
     "Variable Name": [
       "SrvMRE_CPAP_v1r0"
     ]
@@ -7493,7 +7555,7 @@
     ]
   },
   "420058896": {
-    "Variable Label": "Ride a bicycle (including a stationary bike",
+    "Variable Label": "Bike Riding",
     "Variable Name": [
       "SrvMRE_BikeRide_v1r0"
     ]
@@ -7532,7 +7594,7 @@
     ]
   },
   "422260069": {
-    "Variable Label": "On the days that you went jogging or running, about how much time per day did you spend doing this activity?",
+    "Variable Label": "Time/Day - Jog/Run",
     "Variable Name": [
       "SrvMRE_JogRunTime_v1r0"
     ]
@@ -7561,7 +7623,7 @@
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had endometriosis?"
   },
   "423631576": {
-    "Variable Label": "High-intensity circuit training (such P90x or Crossfit)",
+    "Variable Label": "High-intensity Circuit Training",
     "Variable Name": [
       "SrvMRE_HICT_v1r0"
     ]
@@ -7573,7 +7635,7 @@
     ]
   },
   "424047361": {
-    "Variable Label": "Seek medical advice to get pregnant",
+    "Variable Label": "Med Advice To Get Preg",
     "Variable Name": [
       "SrvMRE_PregMedAdvice_v1r0"
     ]
@@ -7651,6 +7713,12 @@
       "SrvBOH_HayFever_v1r0"
     ]
   },
+  "427337935": {
+    "Variable Label": "Title of notification",
+    "Variable Name": [
+      "CTN_NotifTitle_v1r0"
+    ]
+  },
   "427405444": {
     "Variable Name": "Criterium met"
   },
@@ -7685,7 +7753,7 @@
     ]
   },
   "429531329": {
-    "Variable Label": "Time per day spent doing moderate outdoor chores (such as weeding, raking, or mowing the lawn)",
+    "Variable Label": "Time/Day - Mod Outdoor Chores",
     "Variable Name": [
       "SrvMRE_ModChoreTime_v1r0"
     ]
@@ -7725,6 +7793,12 @@
     "Variable Label": "Time UP Sub",
     "Variable Name": [
       "RcrtUP_SubmitTime_v1r0"
+    ]
+  },
+  "431016617": {
+    "Variable Label": "D/T Msg Opened",
+    "Variable Name": [
+      "CTSG_OpenTm_v1r0"
     ]
   },
   "431203595": {
@@ -7793,7 +7867,7 @@
     "Variable Name": "Termination"
   },
   "434243220": {
-    "Variable Label": "Months use combined oral contraceptive pills",
+    "Variable Label": "Mons Used - Combo Oral Contraceptive Pills",
     "Variable Name": [
       "SrvMRE_CombPillMoUsed_v1r0",
       "SrvMRE_ProgPillMoUsed_v1r0",
@@ -7968,7 +8042,7 @@
     ]
   },
   "441493408": {
-    "Variable Label": "Combined oral contraceptive pills, commonly called: the pill (combined means the pill includes both estrogen and progesterone/progestin)",
+    "Variable Label": "Combo Oral Contraceptive Pills",
     "Variable Name": [
       "SrvMRE_CombinedPill_v1r0"
     ]
@@ -8267,7 +8341,7 @@
     "Variable Name": "Moderate hair loss on the sides of the head at the forehead and moderate-to-severe hair loss on the top of the head."
   },
   "452984435": {
-    "Variable Label": "Age copper IUD last use",
+    "Variable Label": "Age Last Use - Copper IUD",
     "Variable Name": [
       "SrvMRE_AgeCoppIUDUSedL_v1r0"
     ]
@@ -8282,7 +8356,7 @@
     "Variable Name": "Completion Time"
   },
   "453071098": {
-    "Variable Label": "Did you take prescription or over-the-counter sleeping pills to help you sleep?",
+    "Variable Label": "Rx Or OTC Sleeping Pills",
     "Variable Name": [
       "SrvMRE_SleepPrescrip_v1r0"
     ]
@@ -8340,7 +8414,7 @@
     ]
   },
   "453820991": {
-    "Variable Label": "Currently using progestin-only medication",
+    "Variable Label": "Current Use - Oth Progestin/Progesterone-Only Med",
     "Variable Name": [
       "SrvMRE_CurrProgUse_v1r0"
     ]
@@ -8460,7 +8534,7 @@
     ]
   },
   "459188493": {
-    "Variable Label": "Lupron depot",
+    "Variable Label": "Lupron Depot",
     "Variable Name": [
       "SrvMRE_LupronDepot_v1r0"
     ]
@@ -8567,6 +8641,12 @@
       "SrvLAW_SeasAddOth2_v1r0"
     ]
   },
+  "464044428": {
+    "Variable Label": "Time Msg Received & Prep for SG Delivery",
+    "Variable Name": [
+      "CTSG_ProcessedTm_v1r0"
+    ]
+  },
   "464169461": {
     "Variable Name": "10 to 15 hours per day"
   },
@@ -8577,7 +8657,7 @@
     "Variable Name": "Less than 30 minutes"
   },
   "465017353": {
-    "Variable Label": "Currently using hormonal IUD",
+    "Variable Label": "Current Use - Hormonal IUD",
     "Variable Name": [
       "SrvMRE_CurrHorIUD_v1r0"
     ]
@@ -8604,7 +8684,7 @@
     ]
   },
   "466346054": {
-    "Variable Label": "Months cycles other fertility medication",
+    "Variable Label": "Month/Cycles Oth Fertility Meds",
     "Variable Name": [
       "SrvMRE_OthFertMedsMo_v1r0"
     ]
@@ -8616,7 +8696,7 @@
     ]
   },
   "466727144": {
-    "Variable Label": "Are you currently using the the other type of prescription hormone?",
+    "Variable Label": "Current Use - Oth Rx Hormones",
     "Variable Name": [
       "SrvMRE_OthHormCurr_v1r0"
     ]
@@ -8655,7 +8735,7 @@
     "Variable Name": "Black"
   },
   "469512398": {
-    "Variable Label": "Baby/Low-Dose Aspirin",
+    "Variable Label": "Baby/L-D Aspirin",
     "Variable Name": [
       "SrvMRE_LAspirin_v1r0"
     ]
@@ -8717,7 +8797,7 @@
     "Variable Name": "What type(s) of alcoholic beverages did you usually drink?"
   },
   "471018082": {
-    "Variable Label": "Dozed off or fallen asleep while driving",
+    "Variable Label": "Dozed Off/Fell Asleep While Driving",
     "Variable Name": [
       "SrvMRE_Driving_v1r0"
     ]
@@ -8886,7 +8966,7 @@
     ]
   },
   "479353866": {
-    "Variable Label": "Age confirm",
+    "Variable Label": "Age Confirm",
     "Variable Name": [
       "SrvBOH_AgeCon_v1r0"
     ]
@@ -8980,7 +9060,6 @@
   "482225200": {
     "Variable Label": "Pancreatic",
     "Variable Name": [
-      "RCAOcc_PancreaCancer_v1r0",
       "SrvBOH_MPancreaticCanc_v1r0",
       "SrvBOH_DPancreaticCanc_v1r0",
       "SrvBOH_S1PancreatCanc_v1r0",
@@ -9000,7 +9079,7 @@
     "Variable Name": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had bladder cancer?"
   },
   "484006644": {
-    "Variable Label": "Currently using vaginal ring",
+    "Variable Label": "Current Use - Vaginal Ring",
     "Variable Name": [
       "SrvMRE_CurrVagRing_v1r0"
     ]
@@ -9080,10 +9159,12 @@
   "487532606": {
     "Variable Name": "Have you taken any of these medications in the past month? If so, please share the last time you took each type of medication before donating your samples. If you are not sure of an answer, please make your best guess"
   },
+  "487649453": {
+    "Variable Name": "Notification"
+  },
   "487917585": {
     "Variable Label": "Non-melanoma Skin",
     "Variable Name": [
-      "RCAOcc_NonMelanoma_v1r0",
       "SrvBOH_MNMSkinCancer_v1r0",
       "SrvBOH_DNMSkinCancer_v1r0",
       "SrvBOH_S1NMSkinCanc_v1r0",
@@ -9125,7 +9206,6 @@
   "489400183": {
     "Variable Label": "Head/Neck",
     "Variable Name": [
-      "RCAOcc_HeadNeckCancer_v1r0",
       "SrvBOH_MHeadNeckCancer_v1r0",
       "SrvBOH_DHNCancer_v1r0",
       "SrvBOH_S1HNCancer_v1r0",
@@ -9166,7 +9246,7 @@
     ]
   },
   "491484323": {
-    "Variable Label": "_Moderate to vigorous household chores_(vacuuming, sweeping, etc.) time per day",
+    "Variable Label": "Times/Day - Mod to Vigorous House Chores",
     "Variable Name": [
       "SrvMRE_ModChoresTm_v1r0"
     ]
@@ -9190,7 +9270,7 @@
     ]
   },
   "492822047": {
-    "Variable Label": "How old were you when you first used the other type of prescription hormone?",
+    "Variable Label": "Age First Use - Oth Rx Hormones",
     "Variable Name": [
       "SrvMRE_OthHormAgeF_v1r0"
     ]
@@ -9389,7 +9469,7 @@
     ]
   },
   "498799217": {
-    "Variable Label": "No cause was found",
+    "Variable Label": "No Cause Found",
     "Variable Name": [
       "SrvMRE_NoPregIssCause_v1r0"
     ]
@@ -9424,7 +9504,7 @@
     "Variable Name": "2 days per week"
   },
   "500744195": {
-    "Variable Label": "Vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)",
+    "Variable Label": "Vigorous Outdoor Chores",
     "Variable Name": [
       "SrvMRE_VigOutChores_v1r0"
     ]
@@ -9472,7 +9552,7 @@
     "Variable Name": "None"
   },
   "503760666": {
-    "Variable Label": "Heavy bleeding during your period",
+    "Variable Label": "Heavy Bleeding During Pd",
     "Variable Name": [
       "SrvMRE_HeavyBleeding_v1r0"
     ]
@@ -9652,7 +9732,7 @@
     ]
   },
   "513065503": {
-    "Variable Label": "Did you have sleep problems that made you irritable (easily annoyed)?",
+    "Variable Label": "Sleep Probs That Made You Irritable",
     "Variable Name": [
       "SrvMRE_SleepProbIrrit_v1r0"
     ]
@@ -9688,7 +9768,7 @@
     ]
   },
   "515434780": {
-    "Variable Label": "Vaginal ring (Femring), vaginal cream (Estrace), or vaginal tablet (Vagifem) estrogen-only medication",
+    "Variable Label": "Vaginal Ring/Cream/Tablet Estrogen-only Med",
     "Variable Name": [
       "SrvMRE_VaginalRingE_v1r0"
     ]
@@ -9764,7 +9844,6 @@
   "518416174": {
     "Variable Label": "Brain",
     "Variable Name": [
-      "RCAOcc_BrainCancer_v1r0",
       "SrvBOH_MBrainCancer_v1r0",
       "SrvBOH_DBrainCancer_v1r0",
       "SrvBOH_S1BrainCanc_v1r0",
@@ -9895,7 +9974,7 @@
     "Variable Name": "Not married but living with partner"
   },
   "522949496": {
-    "Variable Label": "During the season[s] in the past 12 months that you did other exercise, about how often did you do this activity?",
+    "Variable Label": "Last 12 Mons - Oth Exercise",
     "Variable Name": [
       "SrvMRE_ExerciseOften_v1r0"
     ]
@@ -10139,7 +10218,6 @@
   "532172400": {
     "Variable Label": "Liver",
     "Variable Name": [
-      "RCAOcc_LiverCancer_v1r0",
       "SrvBOH_MLiverCancer_v1r0",
       "SrvBOH_DLiverCancer_v1r0",
       "SrvBOH_S1LiverCanc_v1r0",
@@ -10222,7 +10300,7 @@
     ]
   },
   "534920374": {
-    "Variable Label": "Age last menstrual period",
+    "Variable Label": "Age Last Mens Pd",
     "Variable Name": [
       "SrvMRE_AgeLastPeriod_v1r0"
     ]
@@ -10370,7 +10448,7 @@
     "Variable Name": "3rd"
   },
   "538349354": {
-    "Variable Label": "Months cycles Serophene",
+    "Variable Label": "Month/Cycles Serophene",
     "Variable Name": [
       "SrvMRE_SeropheneMo_v1r0"
     ]
@@ -10457,7 +10535,7 @@
     ]
   },
   "542108835": {
-    "Variable Label": "Any other type of combined estrogen plus progestin prescription hormones (such as the patch (Climara-Pro), other pills, or creams): Please describe text box",
+    "Variable Label": "Oth Comb Estrogen & Progestin Rx Hormones - Free Text",
     "Variable Name": [
       "SrvMRE_AnyCombPillDesc_v1r0"
     ]
@@ -10815,7 +10893,7 @@
     ]
   },
   "557526470": {
-    "Variable Label": "What other type of prescription hormones did you take?",
+    "Variable Label": "Type Oth Rx Hormones",
     "Variable Name": [
       "SrvMRE_OthPresHormDesc_v1r0"
     ]
@@ -10893,13 +10971,13 @@
     ]
   },
   "560711355": {
-    "Variable Label": "Months cycles Lupron depot",
+    "Variable Label": "Month/Cycles Lupron Depot",
     "Variable Name": [
       "SrvMRE_LupronMo_v1r0"
     ]
   },
   "560845692": {
-    "Variable Label": "Currently using patch estrogen-only medication",
+    "Variable Label": "Current Use - Patch Estrogen-only Med",
     "Variable Name": [
       "SrvMRE_CurrPatchE_v1r0"
     ]
@@ -10970,7 +11048,7 @@
     ]
   },
   "563663099": {
-    "Variable Label": "Days oral progestin-only cycle use",
+    "Variable Label": "Days/Cycle Used - Oral Progestin-only Med",
     "Variable Name": [
       "SrvMRE_ProgCycleDays_v1r0"
     ]
@@ -10988,7 +11066,7 @@
     ]
   },
   "564185028": {
-    "Variable Label": "Age patch estrogen-only medication first use",
+    "Variable Label": "Age First Use - Patch Estrogen-only Med",
     "Variable Name": [
       "SrvMRE_AgePatchEUsedF_v1r0"
     ]
@@ -11111,13 +11189,13 @@
     "Variable Name": "ICD 10"
   },
   "570171052": {
-    "Variable Label": "Cause of infertility was not looked into",
+    "Variable Label": "Cause of Infertility - Not Looked Into",
     "Variable Name": [
       "SrvMRE_InfertilityNLI_v1r0"
     ]
   },
   "570187182": {
-    "Variable Label": "Have you ever taken any other type of prescription hormones?",
+    "Variable Label": "Oth Rx Hormones",
     "Variable Name": [
       "SrvMRE_OthPresHorm_v1r0"
     ]
@@ -11141,7 +11219,7 @@
     ]
   },
   "571361258": {
-    "Variable Label": "On the days that you did Yoga, Pilates, or Tai Chi, about how much time per day did you spend doing this activity?",
+    "Variable Label": "Time/Day - Yoga/Pilates/Tai Chi",
     "Variable Name": [
       "SrvMRE_YogaTime_v1r0"
     ]
@@ -11243,7 +11321,7 @@
     ]
   },
   "576621769": {
-    "Variable Label": "Watching television",
+    "Variable Label": "Watching TV",
     "Variable Name": [
       "SrvMRE_DozeWatchingTV_v1r0"
     ]
@@ -11258,7 +11336,7 @@
     "Variable Name": "Intersex or other"
   },
   "576852249": {
-    "Variable Label": "Throat/Uvula surgery",
+    "Variable Label": "Throat/Uvula Surgery",
     "Variable Name": [
       "SrvMRE_ThroatSurgery_v1r0"
     ]
@@ -11351,7 +11429,7 @@
     ]
   },
   "580367946": {
-    "Variable Label": "Time usually wake up workdays/most days",
+    "Variable Label": "Time Wake up Workdays/Most Days",
     "Variable Name": [
       "SrvMRE_Wakeup_v1r0"
     ]
@@ -11417,13 +11495,13 @@
     ]
   },
   "583012139": {
-    "Variable Label": "Age the other hormonal medications or devices first use",
+    "Variable Label": "Age First Use - Other Hormonal Meds/Devices",
     "Variable Name": [
       "SrvMRE_AgeOthHMedUseF_v1r0"
     ]
   },
   "583111732": {
-    "Variable Label": "Are you currently using the other combined estrogen plus progestin prescription hormone?",
+    "Variable Label": "Current Use - Oth Combo Estrogen & Progestin Rx Hormones",
     "Variable Name": [
       "SrvMRE_OthCombPillCurr_v1r0"
     ]
@@ -11552,7 +11630,7 @@
     ]
   },
   "588637585": {
-    "Variable Label": "Caring for pets (walking dogs, feeding, playing, grooming) time per day",
+    "Variable Label": "Times/Day - Caring For Pets",
     "Variable Name": [
       "SrvMRE_CaringForPetsTm_v1r0"
     ]
@@ -11569,6 +11647,12 @@
       "SrvScr_UPENDO2_v1r0"
     ]
   },
+  "588865165": {
+    "Variable Label": "Time notification was sent",
+    "Variable Name": [
+      "CTN_NotifTime_v1r0"
+    ]
+  },
   "589004291": {
     "Variable Label": "Other Pandemic Symptom- Duration: Please describe",
     "Variable Name": [
@@ -11580,7 +11664,7 @@
     "Variable Name": "Sioux Falls Imagenetics"
   },
   "589522790": {
-    "Variable Label": "Walking and carrying materials weighing less than 50 pounds (for example, delivering mail, waiting tables, light construction, janitorial work, etc.)",
+    "Variable Label": "Walking & Carrying Materials < 50 lbs",
     "Variable Name": [
       "SrvMRE_WalkAndCarry_v1r0"
     ]
@@ -11625,7 +11709,7 @@
     ]
   },
   "590329439": {
-    "Variable Label": "How old were you when you first used oral progestin-only medication?",
+    "Variable Label": "Age First Use - Oral Progestin-only Med",
     "Variable Name": [
       "SrvMRE_AgeProgUsedF_v1r0"
     ]
@@ -11648,7 +11732,7 @@
     "Variable Name": "Yes, in the past month"
   },
   "591723682": {
-    "Variable Label": "Is sleep schedule determined by your job, school, or other activities",
+    "Variable Label": "Sleep Sched Determined by Job/School/Oth Activities",
     "Variable Name": [
       "SrvMRE_SleepSched_v1r0"
     ]
@@ -11762,7 +11846,6 @@
   "596122041": {
     "Variable Label": "Esophageal",
     "Variable Name": [
-      "RCAOcc_EsophCancer_v1r0",
       "SrvBOH_MEsophagealCanc_v1r0",
       "SrvBOH_DEsophagealCanc_v1r0",
       "SrvBOH_S1EsophagCanc_v1r0",
@@ -11834,10 +11917,7 @@
     ]
   },
   "599128909": {
-    "Variable Label": "Primary Cx ICD",
-    "Variable Name": [
-      "RCAOcc_CancSiteICD_v1r0"
-    ]
+    "Variable Label": "Primary Cx ICD"
   },
   "599607007": {
     "Variable Label": "Full Street name #2",
@@ -11892,14 +11972,13 @@
   "603181162": {
     "Variable Label": "Ovarian",
     "Variable Name": [
-      "RCAOcc_OvarianCancer_v1r0",
       "SrvBOH_MOvarianCancer_v1r0",
       "SrvBOH_S1OvarianCanc_v1r0",
       "SrvBOH_C1OvarianCanc_v1r0"
     ]
   },
   "603209609": {
-    "Variable Label": "How old were you when you last used the other combined estrogen plus progestin prescription hormone?",
+    "Variable Label": "Age Last Use - Oth Combo Estrogen & Progestin Rx Hormones",
     "Variable Name": [
       "SrvMRE_OthCombAgeL_v1r0"
     ]
@@ -11991,7 +12070,7 @@
     ]
   },
   "607323377": {
-    "Variable Label": "Light household chores_(cooking, tidying up, laundry, dusting, etc.) time per day",
+    "Variable Label": "Times/Day - Light House Chores",
     "Variable Name": [
       "SrvMRE_LightChoresTm_v1r0"
     ]
@@ -12005,11 +12084,16 @@
   "607793249": {
     "Variable Label": "Leukemia",
     "Variable Name": [
-      "RCAOcc_Leukemia_v1r0",
       "SrvBOH_MLeukemia_v1r0",
       "SrvBOH_DLeukemia_v1r0",
       "SrvBOH_S1Leukemia_v1r0",
       "SrvBOH_C1Leukemia_v1r0"
+    ]
+  },
+  "609097744": {
+    "Variable Label": "Date Msg Received & Prep for SG Delivery",
+    "Variable Name": [
+      "CTSG_ProcessedDt_v1r0"
     ]
   },
   "610382315": {
@@ -12022,13 +12106,13 @@
     ]
   },
   "612012325": {
-    "Variable Label": "Progesterone-only or progestin-only contraceptive pills, commonly called: the mini-pill",
+    "Variable Label": "Progesterone/Progestin-only Contraceptive Pills",
     "Variable Name": [
       "SrvMRE_ProgOnlyPill_v1r0"
     ]
   },
   "612068433": {
-    "Variable Label": "During the season[s] in the past 12 months that you danced, about how often did you do this activity?",
+    "Variable Label": "Last 12 Mons - Dance",
     "Variable Name": [
       "SrvMRE_DanceOften_v1r0"
     ]
@@ -12070,7 +12154,7 @@
     "Variable Name": "Cholesterol and Blood Pressure (Hypertension) Medications- Have you ever taken any of these medications at least 4 times a month for 6 months or longer? Select all that apply."
   },
   "614145455": {
-    "Variable Label": "Why not have menstrual period last 12 months",
+    "Variable Label": "No Mens Pd in 12 Mo - Why",
     "Variable Name": [
       "SrvMRE_NoPeriodReason_v1r1"
     ]
@@ -12091,7 +12175,7 @@
     "Variable Name": "Started"
   },
   "615905904": {
-    "Variable Label": "How old were you when you last used two separate pills?",
+    "Variable Label": "Age Last Use - 2 Pills, 1 Estrogen & 1 Progestin",
     "Variable Name": [
       "SrvMRE_SepPillUseL_v1r0"
     ]
@@ -12148,7 +12232,7 @@
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Fibrocystic Breast, or other Benign Breast Disease ?"
   },
   "619501806": {
-    "Variable Label": "Jog or run",
+    "Variable Label": "Jog/Run",
     "Variable Name": [
       "SrvMRE_JogRun_v1r0"
     ]
@@ -12161,7 +12245,7 @@
     ]
   },
   "619799524": {
-    "Variable Label": "Clomid (clomiphene)",
+    "Variable Label": "Clomid",
     "Variable Name": [
       "SrvMRE_Clomid_v1r0"
     ]
@@ -12179,6 +12263,12 @@
     "Variable Label": "How much time hookah or water pipe  used, Age [X / 18] to age [Y / 24]",
     "Variable Name": [
       "SrvSAS_HookahTm1824_v1r1"
+    ]
+  },
+  "620451066": {
+    "Variable Label": "Contact Attempt",
+    "Variable Name": [
+      "CTN_Attempt_v1r0"
     ]
   },
   "620577362": {
@@ -12204,13 +12294,13 @@
     ]
   },
   "621744463": {
-    "Variable Label": "Used a hormone prescribed by a doctor or other health professional",
+    "Variable Label": "Hormone Rx By Dr",
     "Variable Name": [
       "SrvMRE_HormoneDoc_v1r0"
     ]
   },
   "621878019": {
-    "Variable Label": "On the days that you did surfing or bodyboarding, about how much time per day did you spend doing this activity?",
+    "Variable Label": "Time/Day - Surfing/Bodyboarding",
     "Variable Name": [
       "SrvMRE_SurfTime_v1r0"
     ]
@@ -12315,6 +12405,12 @@
       "SrvLAW_SeaZip10_v1r0"
     ]
   },
+  "624384052": {
+    "Variable Label": "SendGrid Event ID",
+    "Variable Name": [
+      "CTSG_EventID_v1r0"
+    ]
+  },
   "624479779": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have had a heart attack (myocardial infarction)?"
   },
@@ -12361,7 +12457,7 @@
     ]
   },
   "628137243": {
-    "Variable Label": "Months cycles hCG",
+    "Variable Label": "Month/Cycles hCG",
     "Variable Name": [
       "SrvMRE_hCGMo_v1r0"
     ]
@@ -12445,7 +12541,7 @@
     ]
   },
   "631303960": {
-    "Variable Label": "Often snoring",
+    "Variable Label": "Freq Snoring",
     "Variable Name": [
       "SrvMRE_OftenSnoring_v1r0"
     ]
@@ -12581,7 +12677,7 @@
     ]
   },
   "636757313": {
-    "Variable Label": "Time normally in bed workdays/most days",
+    "Variable Label": "Time Go To Bed Workdays/Most Days",
     "Variable Name": [
       "SrvMRE_Bedtime_v1r0"
     ]
@@ -12601,6 +12697,12 @@
       "SrvBlU_COV19C6ADesc_v1r0",
       "SrvBlU_COV19C6ADesc_v1r0",
       "SrvCov_COV19C6ADesc_v1r0"
+    ]
+  },
+  "637711912": {
+    "Variable Label": "Date SG Dropped Email",
+    "Variable Name": [
+      "CTSG_DroppedDt_v1r0"
     ]
   },
   "637900673": {
@@ -12666,7 +12768,7 @@
     "Variable Name": "Over 10 years ago"
   },
   "640559281": {
-    "Variable Label": "Other medication: please describe text box",
+    "Variable Label": "Oth Estrogen-only Med - Free Text",
     "Variable Name": [
       "SrvMRE_OthEstrMedDesc_v1r0"
     ]
@@ -12724,6 +12826,12 @@
       "SrvSAS_TmSmokeMJ2529_v1r1"
     ]
   },
+  "643126196": {
+    "Variable Label": "Notification Category",
+    "Variable Name": [
+      "CTN_Category_v1r0"
+    ]
+  },
   "643361372": {
     "Variable Name": "Acid Suppressive Drugs- Have you ever taken any of these medications at least 4 times a month for 6 months or longer? Select all that apply."
   },
@@ -12743,7 +12851,7 @@
     "Variable Name": "Why did you take baby or low-dose aspirin (81 mg or less)? Select all that apply."
   },
   "644018981": {
-    "Variable Label": "Time per day spent doing vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)",
+    "Variable Label": "Time/Day - Vigorous Outdoor Chores",
     "Variable Name": [
       "SrvMRE_VigChoreTime_v1r0"
     ]
@@ -12882,7 +12990,7 @@
     "Variable Name": "1 beer"
   },
   "648678282": {
-    "Variable Label": "Age vaginal ring, vaginal cream, or vaginal tablet estrogen-only medication first use",
+    "Variable Label": "Age First Use - Vaginal Ring/Cream/Tablet Estrogen-only Med",
     "Variable Name": [
       "SrvMRE_AgeVagRingEFUse_v1r0"
     ]
@@ -12941,6 +13049,12 @@
       "BioPack_Bag1_v1r0"
     ]
   },
+  "650318908": {
+    "Variable Label": "Notification ID",
+    "Variable Name": [
+      "CTSG_NotifID_v1r0"
+    ]
+  },
   "650399623": {
     "Variable Label": "Age 10 Height",
     "Variable Name": [
@@ -12948,7 +13062,7 @@
     ]
   },
   "650405110": {
-    "Variable Label": "On the days that you danced, about how much time per day did you spend doing this activity?",
+    "Variable Label": "Time/Day - Dance",
     "Variable Name": [
       "SrvMRE_DanceTime_v1r0"
     ]
@@ -13008,7 +13122,7 @@
     ]
   },
   "652561589": {
-    "Variable Label": "Standing with some walking (for example, as a store clerk, filing, making copies, walking to/from meetings, working on an assembly line, etc.)",
+    "Variable Label": "Standing With Some Walking",
     "Variable Name": [
       "SrvMRE_LightWalking_v1r0"
     ]
@@ -13043,6 +13157,12 @@
   "653906464": {
     "Variable Name": "On [the nights before workdays/most nights], how long does it usually take you to fall asleep?"
   },
+  "653907367": {
+    "Variable Label": "D/T SG Dropped Email",
+    "Variable Name": [
+      "CTSG_DroppedDT_v1r0"
+    ]
+  },
   "654002184": {
     "Variable Label": "SST1 Dev - Centrifuge - Spin Too Long",
     "Variable Name": [
@@ -13057,7 +13177,7 @@
     "Variable Name": "Male"
   },
   "654253676": {
-    "Variable Label": "Other: Please describe text box",
+    "Variable Label": "Oth - Free Text",
     "Variable Name": [
       "SrvMRE_OtherSATmtDesc_v1r0"
     ]
@@ -13066,7 +13186,7 @@
     "Variable Name": "In total, how many months or years have you used progesterone-only or progestin-only contraceptive pills?"
   },
   "654385712": {
-    "Variable Label": "Driving or sitting in a car, bus or train. [This includes commuting to and from work.]",
+    "Variable Label": "Driving/Sitting in Vehicle",
     "Variable Name": [
       "SrvMRE_SitInTransport_v1r0"
     ]
@@ -13153,7 +13273,7 @@
     ]
   },
   "658018390": {
-    "Variable Label": "On the days that you swam laps, about how much time per day did you spend doing this activity?",
+    "Variable Label": "Time/Day - Swam Laps",
     "Variable Name": [
       "SrvMRE_SwimLapsTime_v1r0"
     ]
@@ -13165,7 +13285,7 @@
     "Variable Name": "The Connect Principal Investigator (or designate)"
   },
   "658810736": {
-    "Variable Label": "Slow release implant (testosterone pellets)",
+    "Variable Label": "Slow Release Implant/Pellets",
     "Variable Name": [
       "SrvMRE_TTTestosPellets_v1r0"
     ]
@@ -13255,7 +13375,7 @@
     "Variable Name": "Moderna"
   },
   "661940160": {
-    "Variable Label": "D/T kit shipped",
+    "Variable Label": "D/T Kit Shipped",
     "Variable Name": [
       "BioKit_KitShipTmBL_v1r0",
       "BioKit_KitShipTmF1_v1r0",
@@ -13304,7 +13424,7 @@
     "Variable Name": "Low-income/health professional shortage areas"
   },
   "663814928": {
-    "Variable Label": "Gonadotropins, which are commonly referred to as injectables or injectable hormones (such as Follistim, Menopur, Bravelle, or Gonal-F)",
+    "Variable Label": "Gonadotropins",
     "Variable Name": [
       "SrvMRE_Gonadotropins_v1r0"
     ]
@@ -13342,7 +13462,6 @@
   "665036297": {
     "Variable Label": "Non-Hodgkin's Lymphoma",
     "Variable Name": [
-      "RCAOcc_NHLymphoma_v1r0",
       "SrvBOH_MNHLymphoma_v1r0",
       "SrvBOH_DNHLymphoma_v1r0",
       "SrvBOH_S1NHLympoma_v1r0",
@@ -13509,7 +13628,7 @@
     ]
   },
   "672810476": {
-    "Variable Label": "Why not have menstrual period last 12 months - Descriptive",
+    "Variable Label": "No Mens Pd in 12 Mo - Free Text",
     "Variable Name": [
       "SrvMRE_NoPeriodReasOth_v1r0"
     ]
@@ -13557,7 +13676,7 @@
     ]
   },
   "674148137": {
-    "Variable Label": "Estrogen-only skin gel, cream, or spray-on medication (such as Divigel, Elestrin, or Estrogel)",
+    "Variable Label": "Estrogen-only Skin Gel/Cream/Spray-on Med",
     "Variable Name": [
       "SrvMRE_EstrogenGel_Pv1r0"
     ]
@@ -13575,7 +13694,7 @@
     ]
   },
   "674976924": {
-    "Variable Label": "Shift worker",
+    "Variable Label": "Shift Worker",
     "Variable Name": [
       "SrvMRE_ShiftWorker_v1r0"
     ]
@@ -13689,6 +13808,12 @@
       "BioCol_Deviation_v1r0_HT2"
     ]
   },
+  "679176350": {
+    "Variable Label": "Contents of notification",
+    "Variable Name": [
+      "CTN_NotifBody_v1r0"
+    ]
+  },
   "679300202": {
     "Variable Label": "Days used a tobacco pipe past 30 days",
     "Variable Name": [
@@ -13734,7 +13859,7 @@
     ]
   },
   "680730257": {
-    "Variable Label": "Flexible work shift",
+    "Variable Label": "Flexible Work Shift",
     "Variable Name": [
       "SrvMRE_FlexibleShift_v1r0"
     ]
@@ -13793,7 +13918,7 @@
     ]
   },
   "684201296": {
-    "Variable Label": "Other medication: please describe text box",
+    "Variable Label": "Oth Hormonal Meds: Free Text",
     "Variable Name": [
       "SrvMRE_OthHorMedsDes_v1r0"
     ]
@@ -13917,7 +14042,7 @@
     ]
   },
   "687050279": {
-    "Variable Label": "Oral progestin-only medication (such as Provera or Prometrium)",
+    "Variable Label": "Oral Progestin-only Med",
     "Variable Name": [
       "SrvMRE_OralProg_v1r0"
     ]
@@ -13981,7 +14106,7 @@
     ]
   },
   "689956879": {
-    "Variable Label": "During the season[s] in the past 12 months that you did strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups), about how often did you do this activity?",
+    "Variable Label": "Last 12 Mons - Strength Exercises/Calisthenics",
     "Variable Name": [
       "SrvMRE_StrengthOften_v1r0"
     ]
@@ -14216,7 +14341,7 @@
     ]
   },
   "698673038": {
-    "Variable Label": "Time wake up non-workdays",
+    "Variable Label": "Time Wake Up Non-Workdays",
     "Variable Name": [
       "SrvMRE_NonWorkTimeUp_v1r0"
     ]
@@ -14235,7 +14360,7 @@
     ]
   },
   "699101535": {
-    "Variable Label": "Sitting with small arm movements (for example, desk or computer work, light assembly, driving, etc.)",
+    "Variable Label": "Sitting With Small Arm Movements",
     "Variable Name": [
       "SrvMRE_SmallArmMove_v1r0"
     ]
@@ -14468,7 +14593,7 @@
     "Variable Name": "Yes |_|"
   },
   "707805344": {
-    "Variable Label": "Hours take to fall asleep, before workdays",
+    "Variable Label": "Hours To Fall Asleep On Workdays",
     "Variable Name": [
       "SrvMRE_FallAsleepHours_v1r0",
       "SrvMRE_LayInBedHrs_v1r0",
@@ -14485,10 +14610,13 @@
     ]
   },
   "708921303": {
-    "Variable Label": "Age birth control patch last use",
+    "Variable Label": "Age Last Use - BC Patch",
     "Variable Name": [
       "SrvMRE_AgePatchUsedL_v1r0"
     ]
+  },
+  "708990554": {
+    "Variable Name": "SendGrid"
   },
   "709088568": {
     "Variable Label": "Last mammogram",
@@ -14652,7 +14780,7 @@
     "Variable Name": "Yes, but some days"
   },
   "717308596": {
-    "Variable Label": "Skin patch",
+    "Variable Label": "Skin Patch",
     "Variable Name": [
       "SrvMRE_TTSkinPatch_v1r0"
     ]
@@ -14753,7 +14881,6 @@
   "723614811": {
     "Variable Label": "Uterine",
     "Variable Name": [
-      "RCAOcc_UterineCancer_v1r0",
       "SrvBOH_MUterineCancer_v1r0",
       "SrvBOH_S1UterineCanc_v1r0",
       "SrvBOH_C1UterineCanc_v1r0"
@@ -14823,7 +14950,7 @@
     "Variable Name": "Urinary and Reproductive System Problems- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply."
   },
   "725713485": {
-    "Variable Label": "On the days that you did strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups), about how much time per day did you spend doing this activity?",
+    "Variable Label": "Time/Day - Strength Exercises/Calisthenics",
     "Variable Name": [
       "SrvMRE_StrengthTime_v1r0"
     ]
@@ -14932,13 +15059,13 @@
     ]
   },
   "728393970": {
-    "Variable Label": "Restless legs",
+    "Variable Label": "Restless Legs",
     "Variable Name": [
       "SrvMRE_RestlessLegs_v1r0"
     ]
   },
   "728437398": {
-    "Variable Label": "How old were you when you last used combined oral estrogen plus progestin pill?",
+    "Variable Label": "Age Last Use - Combo Oral Estrogen & Progestin Pill",
     "Variable Name": [
       "SrVMRE_CombPillAgeL_v1r0"
     ]
@@ -14980,7 +15107,7 @@
     "Variable Name": "More than 1 year ago, but less than 2 years ago"
   },
   "729863969": {
-    "Variable Label": "Gel/cream",
+    "Variable Label": "Gel/Cream",
     "Variable Name": [
       "SrvMRE_TTGel_v1r0"
     ]
@@ -15130,13 +15257,13 @@
     ]
   },
   "734836192": {
-    "Variable Label": "Age combined oral contraceptive pills last use",
+    "Variable Label": "Age Last Use - Combo Oral Contraceptive Pills",
     "Variable Name": [
       "SrvMRE_AgeCombPillL_v1r0"
     ]
   },
   "734860227": {
-    "Variable Label": "Cross-country ski",
+    "Variable Label": "Cross-country Ski",
     "Variable Name": [
       "SrvMRE_CrossCountry_v1r0"
     ]
@@ -15246,7 +15373,7 @@
     ]
   },
   "740819233": {
-    "Variable Name": "What is the primary site of the cancer diagnosed on 'date of case ID'? (Select all that apply)"
+    "Variable Name": "What is the primary site of the cancer diagnosed on 'date of case ID'?"
   },
   "741094625": {
     "Variable Name": "Separated"
@@ -15315,7 +15442,7 @@
     ]
   },
   "743731422": {
-    "Variable Label": "Synarel nasal solution",
+    "Variable Label": "Synarel Nasal Solution",
     "Variable Name": [
       "SrvMRE_Synarel_v1r0"
     ]
@@ -15467,7 +15594,7 @@
     ]
   },
   "747629521": {
-    "Variable Label": "Age oral progestin-only medication last use",
+    "Variable Label": "Age Last Use - Oral Progestin-only Med",
     "Variable Name": [
       "SrvMRE_AgeProgUsedL_v1r0"
     ]
@@ -15595,9 +15722,8 @@
     ]
   },
   "754745617": {
-    "Variable Label": "Lung/Bronchial",
+    "Variable Label": "Lung/Bronch",
     "Variable Name": [
-      "RCAOcc_LungCancer_v1r0",
       "SrvBOH_MLungCancer_v1r0",
       "SrvBOH_DLungCancer_v1r0",
       "SrvBOH_S1LungCanc_v1r0",
@@ -15605,7 +15731,7 @@
     ]
   },
   "755095663": {
-    "Variable Label": "Comments for for home collection kits receipt",
+    "Variable Label": "Home Collection Kits Receipt - Comments",
     "Variable Name": [
       "BioKit_MWKitComments_v1r0"
     ]
@@ -15650,7 +15776,7 @@
     "Variable Name": "A few times per month (1 to 4 days per month)"
   },
   "756521698": {
-    "Variable Label": "Often stop breathing",
+    "Variable Label": "Freq Stop Breathing",
     "Variable Name": [
       "SrvMRE_StopBreathing_v1r0"
     ]
@@ -15741,7 +15867,7 @@
     "Variable Name": "Strongly agree"
   },
   "760484278": {
-    "Variable Label": "Yoga, Pilates, or Tai Chi",
+    "Variable Label": "Yoga/Pilates/Tai Chi",
     "Variable Name": [
       "SrvMRE_Yoga_v1r0"
     ]
@@ -15753,13 +15879,13 @@
     ]
   },
   "760686611": {
-    "Variable Label": "Sitting and talking to someone",
+    "Variable Label": "Sitting & Talking",
     "Variable Name": [
       "SrvMRE_SittingTalking_v1r0"
     ]
   },
   "760801131": {
-    "Variable Label": "Tried to get pregnant age",
+    "Variable Label": "Age Ever Tried > 1 Yr To Get Preg",
     "Variable Name": [
       "SrvMRE_PregTriedAge_v1r0"
     ]
@@ -15811,7 +15937,7 @@
     ]
   },
   "762700622": {
-    "Variable Label": "Other medication: please describe text box",
+    "Variable Label": "Oth Med - Free Text",
     "Variable Name": [
       "SrvMRE_OthFertMedsDesc_v1r0"
     ]
@@ -15862,7 +15988,6 @@
   "764891959": {
     "Variable Label": "Stomach",
     "Variable Name": [
-      "RCAOcc_StomachCancer_v1r0",
       "SrvBOH_MStomachCancer_v1r0",
       "SrvBOH_DStomachCancer_v1r0",
       "SrvBOH_S1StomachCanc_v1r0",
@@ -15876,7 +16001,7 @@
     ]
   },
   "765748316": {
-    "Variable Label": "Baby/Low-Dose Aspirin Days/Wk",
+    "Variable Label": "Baby/L-D Aspirin Days/Wk",
     "Variable Name": [
       "SrvMRE_LAspirinWk_v1r0",
       "SrvMRE_ReAspirinWk_v1r0",
@@ -15960,7 +16085,7 @@
     "Variable Name": "KPGA RRL"
   },
   "767785846": {
-    "Variable Label": "Months cycles Synarel nasal solution",
+    "Variable Label": "Month/Cycles Synarel Nasal Solution",
     "Variable Name": [
       "SrvMRE_SynarelMo_v1r0"
     ]
@@ -15972,7 +16097,7 @@
     ]
   },
   "768302347": {
-    "Variable Label": "On the days that you played golf, about how much time per day did you spend doing this activity?",
+    "Variable Label": "Time/Day - Golf",
     "Variable Name": [
       "SrvMRE_GolfTime_v1r0"
     ]
@@ -16080,7 +16205,7 @@
     ]
   },
   "771528780": {
-    "Variable Label": "Delivery method",
+    "Variable Label": "Delivery Method",
     "Variable Name": [
       "SrvMRE_DeliveryMethod_v1r0"
     ]
@@ -16184,7 +16309,7 @@
     ]
   },
   "774992239": {
-    "Variable Label": "Age vaginal ring, vaginal cream, or vaginal tablet estrogen-only medication last use",
+    "Variable Label": "Age Last Use - Vaginal Ring/Cream/Tablet Estrogen-only Med",
     "Variable Name": [
       "SrvMRE_CurrVagRingEL_v1r0"
     ]
@@ -16207,7 +16332,7 @@
     ]
   },
   "775324618": {
-    "Variable Label": "During the season[s] in the past 12 months that you did high-intensity circuit training (such as P90x or Crossfit), about how often did you do this activity?",
+    "Variable Label": "Last 12 Mons - High-Intensity Circuit Training",
     "Variable Name": [
       "SrvMRE_HICTOften_v1r0"
     ]
@@ -16291,13 +16416,13 @@
     ]
   },
   "779052408": {
-    "Variable Label": "Gestational diabetes",
+    "Variable Label": "Gestational DM",
     "Variable Name": [
       "SrvMRE_GestDiab_v1r0"
     ]
   },
   "779165920": {
-    "Variable Label": "Age patch estrogen-only medication last use",
+    "Variable Label": "Age Last Use - Patch Estrogen-only Med",
     "Variable Name": [
       "SrvMRE_AgePatchEUsedL_v1r0"
     ]
@@ -16339,7 +16464,7 @@
     ]
   },
   "781115321": {
-    "Variable Label": "Did you have trouble getting back to sleep after you woke up earlier than you planned to?",
+    "Variable Label": "Trouble Falling Asleep After Waking Earlier Than Planned",
     "Variable Name": [
       "SrvMRE_TrblSleeping_v1r0"
     ]
@@ -16404,7 +16529,7 @@
     ]
   },
   "785412329": {
-    "Variable Label": "Baby/Low-Dose Aspirin Days/Mo",
+    "Variable Label": "Baby/L-D Aspirin Days/Mo",
     "Variable Name": [
       "SrvMRE_LAspirinMo_v1r0",
       "SrvMRE_REAspirinMo_v1r0",
@@ -16492,7 +16617,7 @@
     ]
   },
   "787142499": {
-    "Variable Label": "Birth control patch (such as Ortho Evra, applied to the skin)",
+    "Variable Label": "BC Patch",
     "Variable Name": [
       "SrvMRE_BCPatch_v1r0"
     ]
@@ -16613,7 +16738,7 @@
     ]
   },
   "792792066": {
-    "Variable Label": "Currently using estrogen-only skin gel, cream, or spray-on medication",
+    "Variable Label": "Current Use - Estrogen-only Skin Gel/Cream/Spray-on Med",
     "Variable Name": [
       "SrvMRE_CurrEstGelUse_v1r0"
     ]
@@ -16646,6 +16771,12 @@
     "Variable Label": "BOH Surv Vers",
     "Variable Name": [
       "SrvBOH_SrvVersionBOH_v1r0"
+    ]
+  },
+  "794681594": {
+    "Variable Label": "Notification Type",
+    "Variable Name": [
+      "CTN_NotifType_v1r0"
     ]
   },
   "794959813": {
@@ -16703,7 +16834,7 @@
     ]
   },
   "797076693": {
-    "Variable Label": "How old were you when you first used testosterone therapy?",
+    "Variable Label": "Age First Use - Testosterone Therapy",
     "Variable Name": [
       "SrvMRE_TTAgeF_v1r0"
     ]
@@ -16715,7 +16846,7 @@
     ]
   },
   "797221287": {
-    "Variable Label": "Moderate outdoor chores (such as weeding, raking, or mowing the lawn)",
+    "Variable Label": "Mod Outdoor Chores",
     "Variable Name": [
       "SrvMRE_ModOutChores_v1r0"
     ]
@@ -16773,7 +16904,7 @@
     ]
   },
   "799382711": {
-    "Variable Label": "Age oral estrogen-only medication last use",
+    "Variable Label": "Age Last Use - Oral Estrogen-only Med",
     "Variable Name": [
       "SrvMRE_AgeOralEstrL_v1r0"
     ]
@@ -16838,7 +16969,7 @@
     "Variable Name": "More than 4 years"
   },
   "801183888": {
-    "Variable Label": "Bleeding or spotting in between periods",
+    "Variable Label": "Bleeding/Spotting Btwn Pds",
     "Variable Name": [
       "SrvMRE_BleedingBtwn_v1r0"
     ]
@@ -16850,7 +16981,7 @@
     ]
   },
   "801749224": {
-    "Variable Label": "Currently using oral estrogen-only medication",
+    "Variable Label": "Current Use - Oral Estrogen-only Med",
     "Variable Name": [
       "SrvMRE_CurrOralEstr_v1r0"
     ]
@@ -16973,7 +17104,7 @@
     "Variable Name": "3 hours or more"
   },
   "806253825": {
-    "Variable Label": "Currently using Norplant",
+    "Variable Label": "Current Use - Norplant",
     "Variable Name": [
       "SrvMRE_CurrNorplant_v1r0"
     ]
@@ -16982,7 +17113,7 @@
     "Variable Name": "Seasonal Address 7- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select: I still spend time here."
   },
   "806746224": {
-    "Variable Label": "Sitting and browsing the internet, playing video games, using social media, or using any other apps or programs on a tablet, phone, computer, or television",
+    "Variable Label": "Sitting & Browsing Internet/Video Games/Social Media/Oth Apps",
     "Variable Name": [
       "SrvMRE_SittingInternet_v1r0"
     ]
@@ -17000,7 +17131,7 @@
     ]
   },
   "807214881": {
-    "Variable Label": "Age birth control patch first use",
+    "Variable Label": "Age First Use - BC Patch",
     "Variable Name": [
       "SrvMRE_AgePatchUsedF_v1r0"
     ]
@@ -17027,9 +17158,8 @@
     ]
   },
   "807835037": {
-    "Variable Label": "Oth Cx",
+    "Variable Label": "None Fully Describe Me",
     "Variable Name": [
-      "RCAOcc_OtherCancer_v1r0",
       "SrvBOH_NoneRE_v1r0",
       "SrvBOH_NoneRE2_v1r0",
       "SrvBOH_NoneRE3_v1r0",
@@ -17127,7 +17257,7 @@
     "Variable Name": "Address 7- What is the full street address of the place you lived before? Please only include addresses where you have lived for at least two years."
   },
   "809735528": {
-    "Variable Label": "Age progesterone-only or progestin-only contraceptive pills first use",
+    "Variable Label": "Age First Use - Progesterone/Progestin-only Contraceptive Pills",
     "Variable Name": [
       "SrvMRE_AgeProgPillF_v1r0"
     ]
@@ -17299,7 +17429,7 @@
     ]
   },
   "817131019": {
-    "Variable Label": "Hormonal IUD (such as Mirena intrauterine device)",
+    "Variable Label": "Hormonal IUD",
     "Variable Name": [
       "SrvMRE_HormonalIUD_v1r0"
     ]
@@ -17365,7 +17495,7 @@
     "Variable Name": "Biospecimen"
   },
   "819957363": {
-    "Variable Label": "Age Norplant last use",
+    "Variable Label": "Age Last Use - Norplant",
     "Variable Name": [
       "SrvMRE_AgeNorpUsedL_v1r0"
     ]
@@ -17389,7 +17519,7 @@
     ]
   },
   "820694957": {
-    "Variable Label": "Wake up before alarm clock non-workdays",
+    "Variable Label": "Wake Before Alarm Clock Non-Workdays",
     "Variable Name": [
       "SrvMRE_UpBeforeAlarmNW_v1r0"
     ]
@@ -17470,13 +17600,13 @@
     ]
   },
   "823541843": {
-    "Variable Label": "Non-workday, choose time to sleep and wake-up",
+    "Variable Label": "Able to Choose Sleep/Wake Time Non-Workdays",
     "Variable Name": [
       "SrvMRE_NWChooseSleepTm_v1r0"
     ]
   },
   "823919522": {
-    "Variable Label": "Time go to bed before non-workdays",
+    "Variable Label": "Time Go To Bed On Non-Workdays",
     "Variable Name": [
       "SrvMRE_NonWorkBed_v1r0"
     ]
@@ -17488,7 +17618,7 @@
     ]
   },
   "824165133": {
-    "Variable Label": "First used combined oral estrogen plus progestin pill",
+    "Variable Label": "Age First Use - Combo Oral Estrogen & Progestin Pill",
     "Variable Name": [
       "SrvMRE_CombPillAgeF_v1r0"
     ]
@@ -17542,7 +17672,7 @@
     ]
   },
   "825584471": {
-    "Variable Label": "Bleeding or spotting after sex",
+    "Variable Label": "Bleeding/Spotting After Sex",
     "Variable Name": [
       "SrvMRE_SpottingAftSex_v1r0"
     ]
@@ -17670,7 +17800,7 @@
     "Variable Name": "In a usual week, which of these beverages do you make with tap water from your home? We are interested in all tap water, whether or not it has been filtered or treated. Select all that apply."
   },
   "831643763": {
-    "Variable Label": "On the days that you did downhill skiing or snowboarding, about how much time per day did you spend doing this activity?",
+    "Variable Label": "Time/Day - Downhill Ski/Snowboard",
     "Variable Name": [
       "SrvMRE_SkiTime_v1r0"
     ]
@@ -17709,13 +17839,13 @@
     ]
   },
   "833653379": {
-    "Variable Label": "Login first name",
+    "Variable Label": "Login First Name",
     "Variable Name": [
       "BioShip_LogFname_v1r0"
     ]
   },
   "833755477": {
-    "Variable Label": "Other reason: please describe text box",
+    "Variable Label": "Oth - Free Text",
     "Variable Name": [
       "SrvMRE_OthPregIssueDes_v1r0"
     ]
@@ -17778,7 +17908,7 @@
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had high cholesterol?"
   },
   "837393880": {
-    "Variable Label": "Combined oral estrogen plus progestin pill (such as Prempro, Activella, Femhrt, or Prefest)",
+    "Variable Label": "Combo Oral Estrogen & Progestin Pill",
     "Variable Name": [
       "SrvMRE_CombPill_v1r0"
     ]
@@ -18050,7 +18180,6 @@
   "847945207": {
     "Variable Label": "Breast",
     "Variable Name": [
-      "RCAOcc_BreastCancer_v1r0",
       "SrvBOH_MBreastCancer_v1r0",
       "SrvBOH_DBreastCancer_v1r0",
       "SrvBOH_S1BreastCanc_v1r0",
@@ -18076,7 +18205,7 @@
     "Variable Name": "Address 4- What year did you move out of [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]?"
   },
   "849399881": {
-    "Variable Label": "During the season[s] in the past 12 months that you rode a bicycle (including a stationary bike), about how often did you do this activity?",
+    "Variable Label": "Last 12 Mons - Bike Riding",
     "Variable Name": [
       "SrvMRE_BikeOften_v1r0"
     ]
@@ -18103,7 +18232,7 @@
     ]
   },
   "849945160": {
-    "Variable Label": "Current pregnant",
+    "Variable Label": "Currently Preg",
     "Variable Name": [
       "SrvMRE_CurrPreg_v1r0"
     ]
@@ -18118,7 +18247,7 @@
     ]
   },
   "850393641": {
-    "Variable Label": "Minutes take to fall asleep, before workdays",
+    "Variable Label": "Mins To Fall Asleep On Workdays",
     "Variable Name": [
       "SrvMRE_FallAsleepMin_v1r0",
       "SrvMRE_LayInBedMin_v1r0",
@@ -18129,7 +18258,7 @@
     ]
   },
   "850536692": {
-    "Variable Label": "Currently using vaginal ring, vaginal cream, or vaginal tablet estrogen-only medication",
+    "Variable Label": "Current Use - Vaginal Ring/Cream/Tablet Estrogen-only Med",
     "Variable Name": [
       "SrvMRE_CurrVagRingE_v1r0"
     ]
@@ -18201,13 +18330,13 @@
     "Variable Name": "Withdrew consent"
   },
   "854078473": {
-    "Variable Label": "Age the other type of estrogen-only medication last use",
+    "Variable Label": "Age Last Use - Oth Estrogen-only Med",
     "Variable Name": [
       "SrvMRE_AgeOthEstUseL_v1r0"
     ]
   },
   "854184254": {
-    "Variable Label": "Patch estrogen-only medication (such as Estraderm, Alora, or Climara)",
+    "Variable Label": "Patch Estrogen-only Med",
     "Variable Name": [
       "SrvMRE_PatchEstrogen_v1r0"
     ]
@@ -18240,7 +18369,7 @@
     ]
   },
   "856627601": {
-    "Variable Label": "Age oral estrogen-only medication first use",
+    "Variable Label": "Age First Use - Oral Estrogen-only Med",
     "Variable Name": [
       "SrvMRE_AgeOralEstrF_v1r0"
     ]
@@ -18443,7 +18572,7 @@
     "Variable Name": "Less than 10 days per month"
   },
   "863007380": {
-    "Variable Label": "Age last shift work",
+    "Variable Label": "Age Last Worked Shift Work",
     "Variable Name": [
       "SrvMRE_ShiftLastAge_v1r0"
     ]
@@ -18457,7 +18586,6 @@
   "863246236": {
     "Variable Label": "Kidney",
     "Variable Name": [
-      "RCAOcc_KidneyCancer_v1r0",
       "SrvBOH_MKidneyCancer_v1r0",
       "SrvBOH_DKidneyCancer_v1r0",
       "SrvBOH_S1KidneyCanc_v1r0",
@@ -18490,7 +18618,7 @@
     ]
   },
   "863920008": {
-    "Variable Label": "Vaginal ring (such as Nuva Ring, inserted vaginally each month)",
+    "Variable Label": "Vaginal Ring",
     "Variable Name": [
       "SrvMRE_VaginalRing_v1r0"
     ]
@@ -18520,7 +18648,7 @@
     "Variable Name": "One day per month"
   },
   "865200503": {
-    "Variable Label": "During the season[s] in the past 12 months that you did downhill skiing or snowboarding, about how often did you do this activity?",
+    "Variable Label": "Last 12 Mons - Downhill Ski/Snowboard",
     "Variable Name": [
       "SrvMRE_SkiOften_v1r0"
     ]
@@ -18604,7 +18732,7 @@
     ]
   },
   "868006655": {
-    "Variable Label": "Primary Cancer Site",
+    "Variable Label": "Primary Cancer Site- Other Describe",
     "Variable Name": [
       "RCAOcc_OthCancerDesc_v1r0"
     ]
@@ -18635,7 +18763,7 @@
     ]
   },
   "868685663": {
-    "Variable Label": "Strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups)",
+    "Variable Label": "Strength Exercises/Calisthenics",
     "Variable Name": [
       "SrvMRE_Strengthening_v1r0"
     ]
@@ -18683,7 +18811,7 @@
     "Variable Name": "Revoked HIPAA only"
   },
   "872509317": {
-    "Variable Label": "Age the other type of estrogen-only medication first use",
+    "Variable Label": "Age First Use - Oth Estrogen-only Med",
     "Variable Name": [
       "SrvMRE_AgeOthEstUseF_v1r0"
     ]
@@ -18735,7 +18863,7 @@
     ]
   },
   "874262904": {
-    "Variable Label": "Use alarm clock non-workdays",
+    "Variable Label": "Use Of Alarm Clock Non-Workdays",
     "Variable Name": [
       "SrvMRE_AlarmClockNW_v1r0"
     ]
@@ -18759,7 +18887,7 @@
     ]
   },
   "875135634": {
-    "Variable Label": "Months cycles IVF",
+    "Variable Label": "Month/Cycles IVF",
     "Variable Name": [
       "SrvMRE_IVFMo_v1r0"
     ]
@@ -18817,13 +18945,13 @@
     ]
   },
   "876683805": {
-    "Variable Label": "Currently using Depo-Provera",
+    "Variable Label": "Current Use - Depo-Provera",
     "Variable Name": [
       "SrvMRE_CurrDepoProv_v1r0"
     ]
   },
   "876846761": {
-    "Variable Label": "Snoring bother people",
+    "Variable Label": "Snoring Bother Others",
     "Variable Name": [
       "SrvMRE_SnoringBother_v1r0"
     ]
@@ -18893,7 +19021,7 @@
     ]
   },
   "880331901": {
-    "Variable Label": "Age combined oral contraceptive pills first use",
+    "Variable Label": "Age First Use - Combo Oral Contraceptive Pills",
     "Variable Name": [
       "SrvMRE_AgeCombPillF_v1r0"
     ]
@@ -18915,6 +19043,12 @@
   },
   "881200765": {
     "Variable Name": "Have you ever used any of these fertility medications? Select all that apply."
+  },
+  "881254965": {
+    "Variable Label": "Unique ID",
+    "Variable Name": [
+      "CTN_UID_v1r0"
+    ]
   },
   "882152987": {
     "Variable Name": "How old were you when you had part or all of your prostate removed (prostatectomy)? If you have had more than one procedure, at what age did you last have this procedure?"
@@ -19037,7 +19171,7 @@
     ]
   },
   "888313306": {
-    "Variable Label": "How often days vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)",
+    "Variable Label": "# Days - Vigorous Outdoor Chores",
     "Variable Name": [
       "SrvMRE_VigChoreOften_v1r0"
     ]
@@ -19206,13 +19340,19 @@
     "Variable Name": "Respiratory Problems- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply."
   },
   "894363067": {
-    "Variable Label": "Age estrogen-only skin gel, cream, or spray-on medication last use",
+    "Variable Label": "Age Last Use - Estrogen-only Skin Gel/Cream/Spray-on Med",
     "Variable Name": [
       "SrvMRE_AgeEstGelUseL_v1r0"
     ]
   },
   "894610280": {
     "Variable Name": "In which season(s) did you walk or hike for exercise? Select all that apply."
+  },
+  "895690836": {
+    "Variable Label": "Date Msg Opened",
+    "Variable Name": [
+      "CTSG_OpenDt_v1r0"
+    ]
   },
   "895826652": {
     "Variable Label": "Personal Choice",
@@ -19340,7 +19480,7 @@
     ]
   },
   "901154649": {
-    "Variable Label": "Age copper IUD first use",
+    "Variable Label": "Age First Use - Copper IUD",
     "Variable Name": [
       "SrvMRE_AgeCoppIUDUsedF_v1r0"
     ]
@@ -19370,7 +19510,7 @@
     "Variable Name": "Face/Head only"
   },
   "901660173": {
-    "Variable Label": "On the days that you walked or hiked for exercise, about how much time per day did you spend doing this activity?",
+    "Variable Label": "Time/Day - Walk/Hike",
     "Variable Name": [
       "SrvMRE_WalkHikeTime_v1r0"
     ]
@@ -19403,7 +19543,7 @@
     "Variable Name": "Previous address 4"
   },
   "902999015": {
-    "Variable Label": "Age vaginal ring first use",
+    "Variable Label": "Age First Use - Vaginal Ring",
     "Variable Name": [
       "SrvMRE_AgeVagRingUsedF_v1r0"
     ]
@@ -19445,13 +19585,13 @@
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had skin cancer?"
   },
   "904844824": {
-    "Variable Label": "On the days that you did Martial Arts (such as Karate or Judo), about how much time per day did you spend doing this activity?",
+    "Variable Label": "Time/Day - Martial Arts",
     "Variable Name": [
       "SrvMRE_MATime_v1r0"
     ]
   },
   "904954920": {
-    "Variable Label": "Walk or hike for exercise",
+    "Variable Label": "Walk/Hike",
     "Variable Name": [
       "SrvMRE_WalkHike_v1r0"
     ]
@@ -19496,7 +19636,7 @@
     ]
   },
   "906459952": {
-    "Variable Label": "Currently using oral progestin-only medication",
+    "Variable Label": "Current Use - Oral Progestin-only Med",
     "Variable Name": [
       "SrvMRE_CurrProgMedUse_v1r0"
     ]
@@ -19555,7 +19695,7 @@
     "Variable Name": "Equally feminine and masculine"
   },
   "910856756": {
-    "Variable Label": "How was sleep last 4 weeks",
+    "Variable Label": "Sleep Quality Last 4 Weeks",
     "Variable Name": [
       "SrvMRE_SleepLast4Wk_v1r0"
     ]
@@ -19589,7 +19729,7 @@
     "Variable Name": "What type(s) of alcoholic beverages did you usually drink when you were up to age 17?"
   },
   "912818075": {
-    "Variable Label": "How many days per cycle did you use a combined oral estrogen plus progestin pill?",
+    "Variable Label": "Days/Cycle - Combo Oral Estrogen & Progestin Pill",
     "Variable Name": [
       "SrvMRE_CombPillCyc_v1r0"
     ]
@@ -19735,6 +19875,12 @@
   "919739344": {
     "Variable Name": "3 to 4 hours"
   },
+  "919936693": {
+    "Variable Label": "Read Status",
+    "Variable Name": [
+      "CTN_ReadStatus_v1r0"
+    ]
+  },
   "920333151": {
     "Variable Label": "Last 4 SSN",
     "Variable Name": [
@@ -19760,7 +19906,7 @@
     ]
   },
   "921220809": {
-    "Variable Label": "On the days that you did cross-country skiing, about how much time per day did you spend doing this activity?",
+    "Variable Label": "Time/Day - Cross-country Skiing",
     "Variable Name": [
       "SrvMRE_CCSkiTime_v1r0"
     ]
@@ -19791,7 +19937,7 @@
     ]
   },
   "922388461": {
-    "Variable Label": "Lying down to rest in the afternoon",
+    "Variable Label": "Resting In The Afternoon",
     "Variable Name": [
       "SrvMRE_LyingDown_v1r0"
     ]
@@ -19815,7 +19961,7 @@
     "Variable Name": "5 to 9"
   },
   "922903688": {
-    "Variable Label": "How old were you when you first used two separate pills?",
+    "Variable Label": "Age First Use - 2 Pills, 1 Estrogen & 1 Progestin",
     "Variable Name": [
       "SrvMRE_TwoSepPillAge_v1r0"
     ]
@@ -19920,7 +20066,7 @@
     ]
   },
   "926584500": {
-    "Variable Label": "Swim laps",
+    "Variable Label": "Swim Laps",
     "Variable Name": [
       "SrvMRE_SwimLaps_v1r0"
     ]
@@ -20221,7 +20367,7 @@
     ]
   },
   "938969985": {
-    "Variable Label": "Age Depo-Provera first use",
+    "Variable Label": "Age First Use - Depo-Provera",
     "Variable Name": [
       "SrvMRE_AgeDepoUsedF_v1r0"
     ]
@@ -20238,7 +20384,6 @@
   "939782495": {
     "Variable Label": "Anal",
     "Variable Name": [
-      "RCAOcc_AnalCancer_v1r0",
       "SrvBOH_MAnalCancer_v1r0",
       "SrvBOH_DAnalCancer_v1r0",
       "SrvBOH_S1AnalCanc_v1r0",
@@ -20255,7 +20400,7 @@
     ]
   },
   "939897560": {
-    "Variable Label": "Tried to get pregnant",
+    "Variable Label": "Ever Tried > 1 Yr To Get Preg",
     "Variable Name": [
       "SrvMRE_PregTried_v1r0"
     ]
@@ -20294,7 +20439,7 @@
     ]
   },
   "940733450": {
-    "Variable Label": "Do you snore?",
+    "Variable Label": "Snore",
     "Variable Name": [
       "SrvMRE_Snore_v1r0"
     ]
@@ -20346,9 +20491,8 @@
     ]
   },
   "942970912": {
-    "Variable Label": "Colon/rectal",
+    "Variable Label": "Colon/Rectal",
     "Variable Name": [
-      "RCAOcc_ColonCancer_v1r0",
       "SrvBOH_MColonCancer_v1r0",
       "SrvBOH_DColonCancer_v1r0",
       "SrvBOH_S1ColonCanc_v1r0",
@@ -20403,7 +20547,7 @@
     ]
   },
   "943996164": {
-    "Variable Label": "Months cycles gonadotropins",
+    "Variable Label": "Months/Cycles Gonadotropins",
     "Variable Name": [
       "SrvMRE_GonadotropinsMo_v1r0"
     ]
@@ -20415,13 +20559,13 @@
     ]
   },
   "944699052": {
-    "Variable Label": "During the season[s] in the past 12 months that you swam laps, about how often did you do this activity?",
+    "Variable Label": "Last 12 Mons - Swam Laps",
     "Variable Name": [
       "SrvMRE_SwimLapsOften_v1r0"
     ]
   },
   "944874693": {
-    "Variable Label": "Two separate pills, one estrogen and one progestin pill",
+    "Variable Label": "2 Pills 1 Estrogen & 1 Progestin Pill",
     "Variable Name": [
       "SrvMRE_TwoSepPills_v1r0"
     ]
@@ -20463,7 +20607,7 @@
     ]
   },
   "946211808": {
-    "Variable Label": "Age progesterone-only or progestin-only contraceptive pills last use",
+    "Variable Label": "Age Last Use - Progesterone/Progestin-only Contraceptive Pills",
     "Variable Name": [
       "SrvMRE_AgeProgPillL_v1r0"
     ]
@@ -20517,7 +20661,7 @@
     "Variable Name": "Shipping - Pack box"
   },
   "948887825": {
-    "Variable Label": "Shipper email",
+    "Variable Label": "Shipper Email",
     "Variable Name": [
       "BioShip_SignEmail_v1r0"
     ]
@@ -20550,7 +20694,7 @@
     "Variable Name": "7 to 8 hours"
   },
   "949663397": {
-    "Variable Label": "Days progestin-only cycle use",
+    "Variable Label": "Days/Cycle Used -  Oth Progestin/Progesterone-Only Med",
     "Variable Name": [
       "SrvMRE_ProgCycleDays2_v1r0"
     ]
@@ -20656,7 +20800,7 @@
     ]
   },
   "953510929": {
-    "Variable Label": "During the season[s] in the past 12 months that you went jogging or running, about how often did you do this activity?",
+    "Variable Label": "Last 12 Mons - Jog/Run",
     "Variable Name": [
       "SrvMRE_JogRunOften_v1r0"
     ]
@@ -20690,7 +20834,7 @@
     ]
   },
   "955609858": {
-    "Variable Label": "At the dinner table",
+    "Variable Label": "At The Dinner Table",
     "Variable Name": [
       "SrvMRE_Dinner_v1r0"
     ]
@@ -20731,6 +20875,12 @@
   "956935470": {
     "Variable Name": "No, I want to add another seasonal or vacation home address (10th address)"
   },
+  "957066681": {
+    "Variable Label": "Date of Delivery",
+    "Variable Name": [
+      "CTSG_DeliveredDt_v1r0"
+    ]
+  },
   "957305523": {
     "Variable Label": "Teeth Lost from decay or disease",
     "Variable Name": [
@@ -20759,7 +20909,7 @@
     ]
   },
   "958009220": {
-    "Variable Label": "Currently using progesterone-only or progestin-only contraceptive pills",
+    "Variable Label": "Current Use -  Progesterone/Progestin-only Contraceptive Pills",
     "Variable Name": [
       "SrvMRE_CurrProgPill_v1r0"
     ]
@@ -20810,7 +20960,7 @@
     ]
   },
   "959572576": {
-    "Variable Label": "Dental (oral) device",
+    "Variable Label": "Dental Device",
     "Variable Name": [
       "SrvMRE_DentalDevice_v1r0"
     ]
@@ -20868,6 +21018,12 @@
   "961267001": {
     "Variable Name": "Have you ever had any of these procedures to check for breast cancer or other conditions? Select all that apply."
   },
+  "961542949": {
+    "Variable Label": "Status of Delivery",
+    "Variable Name": [
+      "CTSG_DeliveredStatus_v1r0"
+    ]
+  },
   "961572487": {
     "Variable Label": "Do Not Know 2-Previous Cross",
     "Variable Name": [
@@ -20901,7 +21057,7 @@
     ]
   },
   "963284259": {
-    "Variable Label": "Currently using oral progestin-only medication two pills",
+    "Variable Label": "Current Use - 2 Pills, 1 Estrogen & 1 Progestin",
     "Variable Name": [
       "SrvMRE_CurrProgMeds_v1r0"
     ]
@@ -20941,7 +21097,7 @@
     ]
   },
   "965290070": {
-    "Variable Label": "Did you wake up earlier than you planned to?",
+    "Variable Label": "Wake Earlier Than Planned",
     "Variable Name": [
       "SrvMRE_WakeUpEarlier_v1r0"
     ]
@@ -20988,7 +21144,7 @@
     "Variable Name": "Thinking about the one-way trip from your home to [insert address from PREWORK1 - PREWORK3/this address] on a usual workday, about how much time did you usually spend in each type of transportation?"
   },
   "968816827": {
-    "Variable Label": "Age pregnant",
+    "Variable Label": "Age at Preg",
     "Variable Name": [
       "SrvMRE_AgePreg_v1r0"
     ]
@@ -21027,7 +21183,7 @@
     ]
   },
   "970604592": {
-    "Variable Label": "Years use combined oral contraceptive pills",
+    "Variable Label": "Yrs Use - Combo Oral Aontraceptive Pills",
     "Variable Name": [
       "SrvMRE_CombPillYrUsed_v1r0",
       "SrvMRE_ProgPillYrUsed_v1r0",
@@ -21202,13 +21358,13 @@
     ]
   },
   "980120253": {
-    "Variable Label": "Light household chores (such as cooking, tidying up, laundry, or dusting)",
+    "Variable Label": "Last 12 Mons - Light House Chores",
     "Variable Name": [
       "SrvMRE_LightChores_v1r0"
     ]
   },
   "980196073": {
-    "Variable Label": "Caring for pets (walking dogs, feeding, playing, grooming) during past 12 months",
+    "Variable Label": "Last 12 Mons - Caring For Pets",
     "Variable Name": [
       "SrvMRE_CaringForPets_v1r0"
     ]
@@ -21235,7 +21391,7 @@
     "Variable Name": "What is the chance that you would doze off or fall asleep (not just: feel tired) in each of these situations? If you are never or rarely in the situation, please make your best guess for what would happen."
   },
   "981509686": {
-    "Variable Label": "During the season[s] in the past 12 months that you did cross-country skiing, about how often did you do this activity?",
+    "Variable Label": "Last 12 Mons - Cross-country Skiing",
     "Variable Name": [
       "SrvMRE_CCSkiOften_v1r0"
     ]
@@ -21362,7 +21518,7 @@
     ]
   },
   "984514646": {
-    "Variable Label": "How often did you or do you currently use testosterone therapy?",
+    "Variable Label": "Current Use - Testosterone Therapy",
     "Variable Name": [
       "SrvMRE_TTOften_v1r0"
     ]
@@ -21415,7 +21571,7 @@
     "Variable Name": "Blank"
   },
   "986476579": {
-    "Variable Label": "Walking while shopping or doing errands (Do not count walking for exercise.) time per day",
+    "Variable Label": "Times/Day - Walking While Shopping",
     "Variable Name": [
       "SrvMRE_WalkingErrandTm_v1r0"
     ]
@@ -21466,7 +21622,7 @@
     ]
   },
   "988508028": {
-    "Variable Label": "Sitting inactive in a public place (such as a theater or a meeting)",
+    "Variable Label": "Sitting In A Public Place",
     "Variable Name": [
       "SrvMRE_DozeSitting_v1r0"
     ]
@@ -21530,7 +21686,6 @@
   "990319383": {
     "Variable Label": "Melanoma",
     "Variable Name": [
-      "RCAOcc_Melanoma_v1r0",
       "SrvBOH_MMelanoma_v1r0",
       "SrvBOH_DMelanoma_v1r0",
       "SrvBOH_S1Melanoma_v1r0",
@@ -21547,7 +21702,7 @@
     ]
   },
   "990599372": {
-    "Variable Label": "Ovary or hormone problem",
+    "Variable Label": "Ovary/Hormone Prob",
     "Variable Name": [
       "SrvMRE_HormoneProb_v1r0"
     ]
@@ -21556,7 +21711,7 @@
     "Variable Name": "No, I want to add a seasonal or vacation home address"
   },
   "991330361": {
-    "Variable Label": "Currently using the other hormonal medications or devices",
+    "Variable Label": "Current Use - Other Hormonal Meds/Devices",
     "Variable Name": [
       "SrvMRE_CurOthHorMed_v1r0"
     ]
@@ -21586,7 +21741,7 @@
     ]
   },
   "992022740": {
-    "Variable Label": "How often days moderate outdoor chores (such as weeding, raking, or mowing the lawn)",
+    "Variable Label": "# Days - Mod Outdoor Chores",
     "Variable Name": [
       "SrvMRE_ModChoreOften_v1r0"
     ]
@@ -21613,7 +21768,7 @@
     ]
   },
   "993029890": {
-    "Variable Label": "Moderate to vigorous household chores_(vacuuming, sweeping, etc.) during past 12 months",
+    "Variable Label": "Last 12 Mons - Mod to Vigorous House Chores",
     "Variable Name": [
       "SrvMRE_ModerateChores_v1r0"
     ]
@@ -21651,7 +21806,7 @@
     ]
   },
   "994899398": {
-    "Variable Label": "Months cycles Danazol",
+    "Variable Label": "Month/Cycles Danazol",
     "Variable Name": [
       "SrvMRE_DanazolMo_v1r0"
     ]
@@ -21690,7 +21845,7 @@
     ]
   },
   "996243083": {
-    "Variable Label": "Ever pregnant",
+    "Variable Label": "Ever Preg",
     "Variable Name": [
       "SrvMRE_EverPreg_v1r0"
     ]
@@ -21730,6 +21885,12 @@
   },
   "998679771": {
     "Variable Name": "31 to 59 minutes"
+  },
+  "999062114": {
+    "Variable Label": "Date Recipient Unsub From Email List",
+    "Variable Name": [
+      "CTSG_UnsubDt_v1r0"
+    ]
   },
   "999694720": {
     "Variable Name": "Address 3- What year did you move out of [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]?"
