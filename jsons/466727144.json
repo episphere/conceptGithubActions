@@ -7,7 +7,7 @@
   ],
   "conceptId": "466727144",
   "Current Question Text": "Are you currently using the other type of prescription hormone?",
-  "Variable Label": "Are you currently using the the other type of prescription hormone?",
+  "Variable Label": "Current Use - Oth Rx Hormones",
   "Variable Name": [
     "SrvMRE_OthHormCurr_v1r0"
   ],
@@ -19,12 +19,8 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "3897",
-    "3898"
-  ],
-  "Index": [
-    "3897",
-    "3898"
+    "3926",
+    "3927"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

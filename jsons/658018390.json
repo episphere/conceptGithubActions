@@ -7,7 +7,7 @@
   ],
   "conceptId": "658018390",
   "Current Question Text": "On the days that you swam laps, about how much time per day did you spend doing this activity?",
-  "Variable Label": "On the days that you swam laps, about how much time per day did you spend doing this activity?",
+  "Variable Label": "Time/Day - Swam Laps",
   "Variable Name": [
     "SrvMRE_SwimLapsTime_v1r0"
   ],
@@ -21,22 +21,13 @@
   "Notes": "Only display if EXEREC1=4",
   "Date added or modified": "2/28/22",
   "Formula for Index": [
-    "4265",
-    "4266",
-    "4267",
-    "4268",
-    "4269",
-    "4270",
-    "4271"
-  ],
-  "Index": [
-    "4265",
-    "4266",
-    "4267",
-    "4268",
-    "4269",
-    "4270",
-    "4271"
+    "4294",
+    "4295",
+    "4296",
+    "4297",
+    "4298",
+    "4299",
+    "4300"
   ],
   "Current Format/Value": {
     "428999623.json": "0",

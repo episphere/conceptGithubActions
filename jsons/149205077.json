@@ -1,0 +1,82 @@
+{
+  "Primary Source": [
+    "692924902.json"
+  ],
+  "Secondary Source": [
+    "637153953.json"
+  ],
+  "Current Source Question": [
+    "740819233.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "149205077",
+  "Current Question Text": "What is the primary site of the cancer diagnosed on 'date of case ID'? Categorical",
+  "Variable Label": "Primary Site of Cancer",
+  "Variable Name": [
+    "RCAOcc_PrimCancSite_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Operational variable. Nested under cancer occurrence (637153953) and source question (740819233)",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "1/18/24",
+  "GCP Document/Table": "Nested (d_637153953_d_740819233_d_TBD)",
+  "Formula for Index": [
+    "1809",
+    "1810",
+    "1811",
+    "1812",
+    "1813",
+    "1814",
+    "1815",
+    "1816",
+    "1817",
+    "1818",
+    "1819",
+    "1820",
+    "1821",
+    "1822",
+    "1823",
+    "1824",
+    "1825",
+    "1826",
+    "1827",
+    "1828",
+    "1829",
+    "1830",
+    "1831",
+    "1832",
+    "1833"
+  ],
+  "Current Format/Value": {
+    "939782495.json": "0",
+    "135725957.json": "1",
+    "518416174.json": "2",
+    "847945207.json": "3",
+    "283025574.json": "4",
+    "942970912.json": "5",
+    "596122041.json": "6",
+    "489400183.json": "7",
+    "863246236.json": "8",
+    "607793249.json": "9",
+    "532172400.json": "10",
+    "754745617.json": "11",
+    "665036297.json": "12",
+    "200837530.json": "13",
+    "990319383.json": "14",
+    "487917585.json": "15",
+    "603181162.json": "16",
+    "482225200.json": "17",
+    "295976386.json": "18",
+    "764891959.json": "19",
+    "248374037.json": "20",
+    "139822395.json": "21",
+    "723614811.json": "22",
+    "807835037.json": "23",
+    "178420302.json": "77"
+  }
+}

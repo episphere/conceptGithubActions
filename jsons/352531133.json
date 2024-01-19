@@ -7,7 +7,7 @@
   ],
   "conceptId": "352531133",
   "Current Question Text": "During the season[s] in the past 12 months that you did home repairs (such as painting, plumbing, or replacing carpeting), about how often did you do these chores outside of work?",
-  "Variable Label": "How often days home repairs (such as painting, plumbing, or replacing carpeting)",
+  "Variable Label": "# Days - Home Repairs",
   "Variable Name": [
     "SrvMRE_HRepairOften_v1r0"
   ],
@@ -21,20 +21,12 @@
   "Notes": "Only display if LAWN1=2",
   "Date added or modified": "11/15/21",
   "Formula for Index": [
-    "4162",
-    "4163",
-    "4164",
-    "4165",
-    "4166",
-    "4167"
-  ],
-  "Index": [
-    "4162",
-    "4163",
-    "4164",
-    "4165",
-    "4166",
-    "4167"
+    "4191",
+    "4192",
+    "4193",
+    "4194",
+    "4195",
+    "4196"
   ],
   "Current Format/Value": {
     "239152340.json": "0",

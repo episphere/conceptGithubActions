@@ -1,6 +1,4 @@
 {
-  "Formula for Index": "1857",
-  "Index": "1857",
   "Primary Source": [
     "692924902.json"
   ],
@@ -12,20 +10,72 @@
   ],
   "Deprecated, New, or Revised": "New",
   "conceptId": "868006655",
-  "Current Question Text": "Primary Cancer Site- Another type of cancer: Please describe [text box]",
-  "Variable Label": "Primary Cancer Site",
+  "Current Question Text": "What is the primary site of the cancer diagnosed on 'date of case ID'? Text",
+  "Variable Label": "Primary Cancer Site- Other Describe",
   "Variable Name": [
     "RCAOcc_OthCancerDesc_v1r0"
   ],
   "Variable Type": "Char",
   "Variable Length": "800",
   "Current Format/Value": "N/A",
-  "Required": "Yes",
-  "PII": "No",
-  "Notes": "Operational variable. Nested under cancer occurrence",
-  "Dictionary": "Master Data Dictionary",
-  "State Attribute": "No",
-  "Default Variable": "No",
-  "Date added or modified": "9/29/23",
-  "GCP Document/Table": "Nested (d_637153953_d_740819233_d_868006655)"
+  "Formula for Index": [
+    "1834",
+    "1835",
+    "1836",
+    "1837",
+    "1838",
+    "1839",
+    "1840",
+    "1841",
+    "1842",
+    "1843",
+    "1844",
+    "1845",
+    "1846",
+    "1847",
+    "1848",
+    "1849",
+    "1850",
+    "1851",
+    "1852",
+    "1853",
+    "1854",
+    "1855",
+    "1856",
+    "1857",
+    "1858",
+    "1859"
+  ],
+  "Required": [
+    "Yes",
+    "Yes"
+  ],
+  "PII": [
+    "No",
+    "No"
+  ],
+  "Notes": [
+    "Operational variable. Nested under cancer occurrence (637153953) and the source question (740819233). Only the cancer type should be entered (ex: Gallbladder Cancer) to minimize extraneous verbiage for the response.",
+    "Operational variable. Nested under cancer occurrence"
+  ],
+  "Dictionary": [
+    "Master Data Dictionary",
+    "Master Data Dictionary"
+  ],
+  "State Attribute": [
+    "No",
+    "No"
+  ],
+  "Default Variable": [
+    "No",
+    "No"
+  ],
+  "Date added or modified": [
+    "1/18/24",
+    "9/29/23"
+  ],
+  "GCP Document/Table": [
+    "Nested (d_637153953_d_740819233_d_868006655)",
+    "Nested (d_637153953_d_740819233_d_178420302)"
+  ]
 }

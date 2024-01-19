@@ -8,7 +8,7 @@
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "10/26/22",
   "conceptId": "391951010",
   "Current Question Text": "What was the outcome of this pregnancy?",
-  "Variable Label": "Outcome pregnancy",
+  "Variable Label": "Preg Outcome",
   "Variable Name": [
     "SrvMRE_PregOutcome_v1r1"
   ],
@@ -20,24 +20,14 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "3591",
-    "3592",
-    "3593",
-    "3594",
-    "3595",
-    "3596",
-    "3597",
-    "3598"
-  ],
-  "Index": [
-    "3591",
-    "3592",
-    "3593",
-    "3594",
-    "3595",
-    "3596",
-    "3597",
-    "3598"
+    "3620",
+    "3621",
+    "3622",
+    "3623",
+    "3624",
+    "3625",
+    "3626",
+    "3627"
   ],
   "Deprecated, New, or Revised": [
     "Keep",

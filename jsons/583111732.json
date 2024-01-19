@@ -7,7 +7,7 @@
   ],
   "conceptId": "583111732",
   "Current Question Text": "Are you currently using the other combined estrogen plus progestin prescription hormone?",
-  "Variable Label": "Are you currently using the other combined estrogen plus progestin prescription hormone?",
+  "Variable Label": "Current Use - Oth Combo Estrogen & Progestin Rx Hormones",
   "Variable Name": [
     "SrvMRE_OthCombPillCurr_v1r0"
   ],
@@ -20,12 +20,8 @@
   "PII": "No",
   "Notes": "Only display if COMBHOR=55",
   "Formula for Index": [
-    "3851",
-    "3852"
-  ],
-  "Index": [
-    "3851",
-    "3852"
+    "3880",
+    "3881"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

@@ -7,7 +7,7 @@
   ],
   "conceptId": "392629868",
   "Current Question Text": "Do you use an alarm clock to wake up on [workdays/most days]?",
-  "Variable Label": "Use alarm clock workdays/most days",
+  "Variable Label": "Alarm Clock Use Workdays/Most Days",
   "Variable Name": [
     "SrvMRE_AlarmClock_v1r0"
   ],
@@ -19,12 +19,8 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "4417",
-    "4418"
-  ],
-  "Index": [
-    "4417",
-    "4418"
+    "4446",
+    "4447"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

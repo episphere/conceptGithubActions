@@ -7,7 +7,7 @@
   ],
   "conceptId": "214750556",
   "Current Question Text": "During the season[s] in the past 12 months that you did surfing or bodyboarding, about how often did you do this activity?",
-  "Variable Label": "During the season[s] in the past 12 months that you did surfing or bodyboarding, about how often did you do this activity?",
+  "Variable Label": "Last 12 Mons - Surfing/Bodyboarding",
   "Variable Name": [
     "SrvMRE_SurfOften_v1r0"
   ],
@@ -21,20 +21,12 @@
   "Notes": "Only display if EXEREC1=12",
   "Date added or modified": "11/15/21",
   "Formula for Index": [
-    "4363",
-    "4364",
-    "4365",
-    "4366",
-    "4367",
-    "4368"
-  ],
-  "Index": [
-    "4363",
-    "4364",
-    "4365",
-    "4366",
-    "4367",
-    "4368"
+    "4392",
+    "4393",
+    "4394",
+    "4395",
+    "4396",
+    "4397"
   ],
   "Current Format/Value": {
     "239152340.json": "0",

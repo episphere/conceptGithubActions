@@ -7,7 +7,7 @@
   ],
   "conceptId": "865200503",
   "Current Question Text": "During the season[s] in the past 12 months that you did downhill skiing or snowboarding, about how often did you do this activity?",
-  "Variable Label": "During the season[s] in the past 12 months that you did downhill skiing or snowboarding, about how often did you do this activity?",
+  "Variable Label": "Last 12 Mons - Downhill Ski/Snowboard",
   "Variable Name": [
     "SrvMRE_SkiOften_v1r0"
   ],
@@ -21,20 +21,12 @@
   "Notes": "Only display if EXEREC1=10",
   "Date added or modified": "11/15/21",
   "Formula for Index": [
-    "4337",
-    "4338",
-    "4339",
-    "4340",
-    "4341",
-    "4342"
-  ],
-  "Index": [
-    "4337",
-    "4338",
-    "4339",
-    "4340",
-    "4341",
-    "4342"
+    "4366",
+    "4367",
+    "4368",
+    "4369",
+    "4370",
+    "4371"
   ],
   "Current Format/Value": {
     "239152340.json": "0",

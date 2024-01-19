@@ -7,7 +7,7 @@
   ],
   "conceptId": "906459952",
   "Current Question Text": "Are you currently using oral progestin-only medication?",
-  "Variable Label": "Currently using oral progestin-only medication",
+  "Variable Label": "Current Use - Oral Progestin-only Med",
   "Variable Name": [
     "SrvMRE_CurrProgMedUse_v1r0"
   ],
@@ -20,12 +20,8 @@
   "PII": "No",
   "Notes": "Only display if PROGHOR=0",
   "Formula for Index": [
-    "3808",
-    "3809"
-  ],
-  "Index": [
-    "3808",
-    "3809"
+    "3837",
+    "3838"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
