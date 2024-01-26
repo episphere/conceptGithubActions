@@ -833,12 +833,6 @@
       "SrvLAW_Apt1_v1r0"
     ]
   },
-  "129461711": {
-    "Variable Label": "ICD Vers",
-    "Variable Name": [
-      "RCAOcc_ICDCodeVer_v1r0"
-    ]
-  },
   "129677435": {
     "Variable Label": "Use marijuana every day, age last used",
     "Variable Name": [
@@ -3896,9 +3890,6 @@
     "Variable Name": [
       "SrvLAW_CurWorkFullSt_v1r0"
     ]
-  },
-  "253857383": {
-    "Variable Name": "ICD-O-3"
   },
   "253883960": {
     "Variable Label": "Flag Blood/Ur Surv",
@@ -11185,9 +11176,6 @@
       "SrvLAW_CurWorkT2G_v1r0"
     ]
   },
-  "570098144": {
-    "Variable Name": "ICD 10"
-  },
   "570171052": {
     "Variable Label": "Cause of Infertility - Not Looked Into",
     "Variable Name": [
@@ -11915,9 +11903,6 @@
     "Variable Name": [
       "SrvSAS_EDUseCigarNum_v1r0"
     ]
-  },
-  "599128909": {
-    "Variable Label": "Primary Cx ICD"
   },
   "599607007": {
     "Variable Label": "Full Street name #2",
@@ -16234,12 +16219,6 @@
       "SrvLAW_CurWorkT10C_v1r0"
     ]
   },
-  "772638539": {
-    "Variable Label": "N Tumors",
-    "Variable Name": [
-      "RCAOcc_TumorNum_v1r0"
-    ]
-  },
   "772645761": {
     "Variable Label": "First PSA blood test",
     "Variable Name": [
@@ -17749,9 +17728,6 @@
   "829751791": {
     "Variable Name": "Seasonal Address 3- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select: I still spend time here."
   },
-  "829764411": {
-    "Variable Name": "ICD 9"
-  },
   "830201925": {
     "Variable Label": "Walking commute from past work",
     "Variable Name": [
@@ -19098,6 +19074,9 @@
       "BioCol_NotCol_v1r0_UT1",
       "BioCol_NotCol_v1r0_MWT1"
     ]
+  },
+  "884452262": {
+    "Variable Name": "Data destroyed"
   },
   "884494489": {
     "Variable Label": "Zip code",
