@@ -1,5 +1,6 @@
 {
-  "Formula for Index": "3294",
+  "Formula for Index": "3264",
+  "Index": "3264",
   "Primary Source": [
     "129084651.json"
   ],
@@ -12,8 +13,6 @@
   "GridID/Source Question Name": [
     "BSNSSTYP2"
   ],
-  "Deprecated, New, or Revised": "Keep",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "7/5/23",
   "conceptId": "739237614",
   "Current Question Text": "What type of business was this at your longest held job? Other [text box]",
   "Variable Label": "Oth Business - Free Text",
@@ -29,7 +28,7 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only fill if other selection for BSNSSTYP2",
-  "Date added or modified": "1/11/23",
+  "Date added or modified": "1/26/24",
   "Question Type": "Optional Select All that Apply",
-  "IMS Review Notes": "Denoted as Keep in Column J"
+  "IMS Review Notes": "Removed Keep from Deprecated, New, or Revised Column and removed prod push date."
 }

@@ -5,7 +5,6 @@
   "Secondary Source": [
     "726699695.json"
   ],
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/18/23",
   "conceptId": "873968217",
   "Current Question Text": "Child 1- Is [child initials or nickname/your child]",
   "Variable Label": "Child 1 Full/Half",
@@ -21,16 +20,16 @@
   "PII": "No",
   "Question Type": "Optional Multiple Choice, Loops",
   "Formula for Index": [
-    "3054",
-    "3055",
-    "3056",
-    "3057"
+    "3024",
+    "3025",
+    "3026",
+    "3027"
   ],
-  "Deprecated, New, or Revised": [
-    "Keep",
-    "Keep",
-    "Keep",
-    "New"
+  "Index": [
+    "3024",
+    "3025",
+    "3026",
+    "3027"
   ],
   "Current Format/Value": {
     "709650750.json": "0",
@@ -39,11 +38,18 @@
     "784922042.json": "3"
   },
   "Date added or modified": [
-    "2/2/23",
+    "1/26/24",
+    "1/26/24",
+    "1/26/24",
     "12/12/22"
   ],
   "IMS Review Notes": [
-    "Denoted date Keep variable pushed to prod",
+    "Removed Keep from Deprecated, New, or Revised Column and removed prod push date.",
+    "Removed Keep from Deprecated, New, or Revised Column.",
+    "Removed Keep from Deprecated, New, or Revised Column.",
     "Added a 4th option"
+  ],
+  "Deprecated, New, or Revised": [
+    "New"
   ]
 }

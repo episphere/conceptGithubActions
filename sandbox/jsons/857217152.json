@@ -16,12 +16,16 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Sent to us from the sites via API",
+  "Notes": "Sent to us from the sites via API. This is for verified pts and not withdrawn pts only",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "11/7/23",
+  "Date added or modified": "1/19/24",
   "Formula for Index": [
+    "1444",
+    "1445"
+  ],
+  "Index": [
     "1444",
     "1445"
   ],

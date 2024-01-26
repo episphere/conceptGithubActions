@@ -15,8 +15,6 @@
     "BSNSSTYP1",
     "BSNSSTYP2"
   ],
-  "Deprecated, New, or Revised": "Keep",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "7/5/23",
   "conceptId": "641572847",
   "Current Question Text": "Manufacturing",
   "Variable Label": "Manufacturing",
@@ -32,12 +30,16 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "1/11/23",
+  "Date added or modified": "1/26/24",
   "Question Type": "Optional Select All that Apply",
-  "IMS Review Notes": "Denoted as Keep in Column J",
+  "IMS Review Notes": "Removed Keep from Deprecated, New, or Revised Column and removed prod push date.",
   "Formula for Index": [
-    "3197",
-    "3198"
+    "3167",
+    "3168"
+  ],
+  "Index": [
+    "3167",
+    "3168"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
