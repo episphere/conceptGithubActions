@@ -30,16 +30,28 @@
   "PII": "No",
   "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
   "Formula for Index": [
-    "2165",
-    "2166",
-    "2167",
-    "2168",
-    "2169",
-    "2170",
-    "2171",
-    "2172",
-    "2173",
-    "2174"
+    "2135",
+    "2136",
+    "2137",
+    "2138",
+    "2139",
+    "2140",
+    "2141",
+    "2142",
+    "2143",
+    "2144"
+  ],
+  "Index": [
+    "2135",
+    "2136",
+    "2137",
+    "2138",
+    "2139",
+    "2140",
+    "2141",
+    "2142",
+    "2143",
+    "2144"
   ],
   "Deprecated, New, or Revised": [
     "New",
@@ -49,13 +61,9 @@
     "Revised",
     "Revised",
     "Revised",
-    "New",
-    "Keep",
-    "Keep"
+    "New"
   ],
   "Date Deprecated, New, or Revised Variable Pushed to Prod": [
-    "1/18/23",
-    "1/18/23",
     "1/18/23",
     "1/18/23",
     "1/18/23",
@@ -85,7 +93,9 @@
     "12/12/22",
     "12/12/22",
     "12/12/22",
-    "12/12/22"
+    "12/12/22",
+    "1/26/24",
+    "1/26/24"
   ],
   "IMS Review Notes": [
     "Switched order of responses so deprecated response is not on same row as question",
@@ -94,7 +104,9 @@
     "Updated response value",
     "Updated response value",
     "Updated response value",
-    "Added a new response value"
+    "Added a new response value",
+    "Removed Keep from Deprecated, New, or Revised Column and removed prod push date.",
+    "Removed Keep from Deprecated, New, or Revised Column and removed prod push date."
   ],
   "R0 Format/Value": [
     "2 = Transgender Male/Trans Man/Female-to-Male (FTM)",

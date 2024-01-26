@@ -1,5 +1,6 @@
 {
-  "Formula for Index": "1808",
+  "Formula for Index": "1809",
+  "Index": "1809",
   "Primary Source": [
     "692924902.json"
   ],
@@ -18,10 +19,10 @@
   "Current Format/Value": "example: 2020-07-17T15:21:26.763Z",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Operational variable. Nested under cancer occurrence",
+  "Notes": "Operational variable. Nested under cancer occurrence. Should be for consented, verified, and not withdrawn participants only",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "9/29/23",
+  "Date added or modified": "1/19/24",
   "GCP Document/Table": "Nested (d_637153953_d_345545422)"
 }

@@ -19,25 +19,23 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "6/29/23",
-  "IMS Review Notes": "Denoted question as revised, Revised Current Question Text, moved V1 text to V1 Question Text, deprecated response = 2, added 2 new responses, changed Variable Name suffix from _v1r0 to _v2r1",
   "Formula for Index": [
-    "3583",
-    "3584",
-    "3585",
-    "3586",
-    "3587",
-    "3588",
-    "3589"
+    "3553",
+    "3554",
+    "3555",
+    "3556",
+    "3557",
+    "3558",
+    "3559"
   ],
-  "Deprecated, New, or Revised": [
-    "Revised",
-    "Keep",
-    "Deprecated",
-    "New",
-    "Keep",
-    "Keep",
-    "New"
+  "Index": [
+    "3553",
+    "3554",
+    "3555",
+    "3556",
+    "3557",
+    "3558",
+    "3559"
   ],
   "Current Format/Value": {
     "650420270.json": "0",
@@ -47,5 +45,23 @@
     "859025516.json": "3",
     "471375042.json": "4",
     "178420302.json": "77"
-  }
+  },
+  "Date added or modified": [
+    "6/29/23",
+    "1/26/24",
+    "1/26/24",
+    "1/26/24"
+  ],
+  "IMS Review Notes": [
+    "Denoted question as revised, Revised Current Question Text, moved V1 text to V1 Question Text, deprecated response = 2, added 2 new responses, changed Variable Name suffix from _v1r0 to _v2r1",
+    "Removed Keep from Deprecated, New, or Revised Column.",
+    "Removed Keep from Deprecated, New, or Revised Column.",
+    "Removed Keep from Deprecated, New, or Revised Column."
+  ],
+  "Deprecated, New, or Revised": [
+    "Revised",
+    "Deprecated",
+    "New",
+    "New"
+  ]
 }

@@ -237,17 +237,27 @@
   "Date added or modified": "9/23/21",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "1941",
-    "1942"
+    "1911",
+    "1912"
+  ],
+  "Index": [
+    "1911",
+    "1912"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   },
   "Notes": "Only display if RACEETH = American Indian or Alaska Native",
-  "Deprecated, New, or Revised": "Keep",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "7/5/23",
-  "IMS Review Notes": "Denoted as Keep in Column J",
+  "IMS Review Notes": "Removed Keep from Deprecated, New, or Revised Column and removed prod push date.",
+  "Deprecated, New, or Revised": [
+    "Deprecated",
+    "Deprecated"
+  ],
   "Dictionary": "Biospecimen Survey",
-  "State Attribute": "No"
+  "State Attribute": "No",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": [
+    "7/5/23",
+    "7/5/23"
+  ]
 }

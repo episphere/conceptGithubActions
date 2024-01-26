@@ -20,24 +20,24 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "3620",
-    "3621",
-    "3622",
-    "3623",
-    "3624",
-    "3625",
-    "3626",
-    "3627"
+    "3590",
+    "3591",
+    "3592",
+    "3593",
+    "3594",
+    "3595",
+    "3596",
+    "3597"
   ],
-  "Deprecated, New, or Revised": [
-    "Keep",
-    "Keep",
-    "Revised",
-    "Revised",
-    "Revised",
-    "Deprecated",
-    "Deprecated",
-    "Keep"
+  "Index": [
+    "3590",
+    "3591",
+    "3592",
+    "3593",
+    "3594",
+    "3595",
+    "3596",
+    "3597"
   ],
   "Current Format/Value": {
     "223216393.json": "0",
@@ -50,24 +50,31 @@
     "746038746.json": "99"
   },
   "Date added or modified": [
+    "1/26/24",
+    "1/26/24",
     "2/2/23",
     "2/2/23",
     "2/2/23",
     "2/2/23",
     "2/2/23",
-    "2/2/23",
-    "2/2/23",
-    "2/2/23"
+    "1/26/24"
   ],
   "IMS Review Notes": [
-    "Backlog documentation of 9/1/2022 edit. Denoted response as Keep and updated variable name suffix _v1r1",
-    "Backlog documentation of 9/1/2022 edit. Denoted response as Keep",
+    "Removed Keep from Deprecated, New, or Revised Column.",
+    "Removed Keep from Deprecated, New, or Revised Column.",
     "Backlog documentation of 9/1/2022 edit. Denoted response as Revised and added R0 text",
     "Backlog documentation of 9/1/2022 edit. Denoted response as Revised and added R0 text",
     "Backlog documentation of 9/1/2022 edit. Denoted response as Revised and added R0 text",
     "Backlog documentation of 9/1/2022 edit. Denoted response as Deprecated",
     "Backlog documentation of 9/1/2022 edit. Denoted response as Deprecated",
-    "Backlog documentation of 9/1/2022 edit. Denoted response as Keep"
+    "Removed Keep from Deprecated, New, or Revised Column."
+  ],
+  "Deprecated, New, or Revised": [
+    "Revised",
+    "Revised",
+    "Revised",
+    "Deprecated",
+    "Deprecated"
   ],
   "R0 Format/Value": [
     "2 = Stillbirth (pregnancy loss after 20 weeks)",

@@ -30,33 +30,34 @@
   "PII": "No",
   "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
   "Formula for Index": [
-    "2184",
-    "2185",
-    "2186",
-    "2187",
-    "2188",
-    "2189",
-    "2190",
-    "2191",
-    "2192",
-    "2193",
-    "2194",
-    "2195",
-    "2196"
+    "2154",
+    "2155",
+    "2156",
+    "2157",
+    "2158",
+    "2159",
+    "2160",
+    "2161",
+    "2162",
+    "2163",
+    "2164",
+    "2165",
+    "2166"
   ],
-  "Deprecated, New, or Revised": [
-    "Keep",
-    "Keep",
-    "Keep",
-    "New",
-    "New",
-    "New",
-    "New",
-    "New",
-    "New",
-    "New",
-    "Keep",
-    "New"
+  "Index": [
+    "2154",
+    "2155",
+    "2156",
+    "2157",
+    "2158",
+    "2159",
+    "2160",
+    "2161",
+    "2162",
+    "2163",
+    "2164",
+    "2165",
+    "2166"
   ],
   "Current Format/Value": {
     "271882746.json": "0",
@@ -74,6 +75,9 @@
     "746038746.json": "99"
   },
   "Date added or modified": [
+    "1/26/24",
+    "1/26/24",
+    "1/26/24",
     "10/26/23",
     "10/26/23",
     "10/26/23",
@@ -81,12 +85,13 @@
     "10/26/23",
     "10/26/23",
     "10/26/23",
-    "10/26/23",
-    "10/26/23",
+    "1/26/24",
     "10/26/23"
   ],
   "IMS Review Notes": [
-    "Updated suffix from _v1r0 to _v1r1 to reflect new responses",
+    "Removed Keep from Deprecated, New, or Revised Column.",
+    "Removed Keep from Deprecated, New, or Revised Column.",
+    "Removed Keep from Deprecated, New, or Revised Column.",
     "Added new response",
     "Added new response",
     "Added new response",
@@ -94,7 +99,17 @@
     "Added new response",
     "Added new response",
     "Added new response",
-    "Added new response",
+    "Removed Keep from Deprecated, New, or Revised Column.",
     "Added new response"
+  ],
+  "Deprecated, New, or Revised": [
+    "New",
+    "New",
+    "New",
+    "New",
+    "New",
+    "New",
+    "New",
+    "New"
   ]
 }
