@@ -1,0 +1,33 @@
+{
+  "Formula for Index": "8251",
+  "Index": "8251",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "506648060.json"
+  ],
+  "Current Source Question": [
+    "403175318.json"
+  ],
+  "GridID/Source Question Name": [
+    "SrvPES_COMP2_v1r0"
+  ],
+  "conceptId": "507471937",
+  "Current Question Text": "Other computer: Please describe [text box]",
+  "Variable Label": "Other computer: Please describe [text box]",
+  "Variable Name": [
+    "SrvPES_COMP2OTH_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "SrvPES_COMP2OTH_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "300",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Participant Experience Survey",
+  "Date added or modified": "1/5/23",
+  "Question Type": "Optional Select All that Apply",
+  "IMS Review Notes": "Added Survey Info Columns C through I and used full Variable Name for Connect Value."
+}

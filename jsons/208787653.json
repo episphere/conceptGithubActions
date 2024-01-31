@@ -1,0 +1,29 @@
+{
+  "Formula for Index": "1884",
+  "Index": "1884",
+  "Primary Source": [
+    "332961895.json"
+  ],
+  "Secondary Source": [
+    "581036703.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "6/6/23",
+  "conceptId": "208787653",
+  "Current Question Text": "Cumulative Number of Participants with Any Baseline Specimens",
+  "Variable Label": "Cumul Any Base Spec",
+  "Variable Name": [
+    "SMMet_CumulSpecimen_v1r0"
+  ],
+  "Variable Type": "Numeric",
+  "Variable Length": "6",
+  "Current Format/Value": "N/A",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "sum(d_173836415_d_266600170_d_592099155==534621077 & biospeDonation)",
+  "Dictionary": "Study Manager",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "6/6/23",
+  "GCP Document/Table": "Not yet in Flattened Tables but will be in Participants Table"
+}

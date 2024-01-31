@@ -1,0 +1,54 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
+  "Current Source Question": [
+    "252017075.json"
+  ],
+  "GridID/Source Question Name": [
+    "GRID_SECSM"
+  ],
+  "conceptId": "257564920",
+  "Current Question Text": "During each of these age ranges, how many people in your household smoked tobacco (such as cigarettes, cigars, or pipes) in your presence? Please do not include yourself.                      Ages 6 to 10",
+  "Variable Label": "Ages 6 to 10",
+  "Variable Name": [
+    "SrvSAS_NumSmoke0610_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "SECSMB"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "3/7/22",
+  "Formula for Index": [
+    "5090",
+    "5091",
+    "5092",
+    "5093",
+    "5094",
+    "5095",
+    "5096"
+  ],
+  "Index": [
+    "5090",
+    "5091",
+    "5092",
+    "5093",
+    "5094",
+    "5095",
+    "5096"
+  ],
+  "Current Format/Value": {
+    "503218834.json": "0",
+    "759356722.json": "1",
+    "668407984.json": "2",
+    "448069154.json": "3",
+    "485163252.json": "4",
+    "160036380.json": "5"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "369168474.json"
+  ],
+  "Current Source Question": [
+    "365148290.json"
+  ],
+  "GridID/Source Question Name": [
+    "SrvScr_COLSCREEN_v1r0"
+  ],
+  "conceptId": "219088015",
+  "Current Question Text": "CT Colonoscopy. Also known as a “virtual” colonoscopy or CT colonography, a special CAT scan of the lower part of your colon that made detailed pictures of your colon to see if there were colon polyps or cancer. Your body passed through a large tunnel-shaped X-ray machine.",
+  "Variable Label": "CT Colonoscopy",
+  "Variable Name": [
+    "SrvScr_CTCOL_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "1"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "6/6/23",
+  "Question Type": "Select All That Apply",
+  "IMS Review Notes": "Added spaces before and after the equal sign. Populated col C,D,F,H,J,M, and AG",
+  "Formula for Index": [
+    "8979",
+    "8980"
+  ],
+  "Index": [
+    "8979",
+    "8980"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

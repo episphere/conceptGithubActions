@@ -1,0 +1,54 @@
+{
+  "conceptId": "130371375",
+  "Current Question Text": "Payment Round",
+  "subcollections": [
+    "731498909.json",
+    "787567527.json",
+    "222373868.json",
+    "648936790.json",
+    "297462035.json",
+    "648228701.json",
+    "438636757.json",
+    "945795905.json",
+    "320023644.json"
+  ],
+  "Primary Source": [
+    "332961895.json"
+  ],
+  "Secondary Source": [
+    "117044491.json"
+  ],
+  "Variable Label": "Payment Round",
+  "Variable Name": [
+    "SMPaym_Round_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Payment attributes are nested under the responses for this variable and are defaulted to No when we receive the studyId for active recruits or when a passive recruit signs in.  UoC will send payment variables through the updateParticipantData API, NORC will send them through the NORC API",
+  "Dictionary": "Study Manager Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "4/13/22",
+  "GCP Document/Table": "Participants Table Nested structure: d_130371375_d_BL/F-U1,2,3_d_PaymentVar",
+  "IMS Review Notes": "removed quotation marks",
+  "Formula for Index": [
+    "1299",
+    "1300",
+    "1301",
+    "1302"
+  ],
+  "Index": [
+    "1299",
+    "1300",
+    "1301",
+    "1302"
+  ],
+  "Current Format/Value": {
+    "266600170.json": "0",
+    "496823485.json": "1",
+    "650465111.json": "2",
+    "303552867.json": "3"
+  }
+}

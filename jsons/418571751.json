@@ -1,0 +1,44 @@
+{
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "377669767.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "11/20/23",
+  "conceptId": "418571751",
+  "Current Question Text": "Collection Round; to indicate BL, F1, F2, F3",
+  "Variable Label": "Collection Round",
+  "Variable Name": [
+    "BioKit_CollRound_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Default to baseline",
+  "Dictionary": "Biospecimen Kit",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "9/27/23",
+  "GCP Document/Table": "Kit Table Not nested (TBD)",
+  "Formula for Index": [
+    "1256",
+    "1257",
+    "1258",
+    "1259"
+  ],
+  "Index": [
+    "1256",
+    "1257",
+    "1258",
+    "1259"
+  ],
+  "Current Format/Value": {
+    "266600170.json": "0",
+    "496823485.json": "1",
+    "650465111.json": "2",
+    "303552867.json": "3"
+  }
+}

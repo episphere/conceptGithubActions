@@ -1,4 +1,84 @@
 {
   "conceptId": "746038746",
-  "Current Question Text": "Declined"
+  "Current Question Text": "Declined",
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json",
+    "726699695.json",
+    "726699695.json",
+    "726699695.json",
+    "726699695.json",
+    "726699695.json",
+    "726699695.json",
+    "726699695.json"
+  ],
+  "Current Source Question": [
+    "384191091.json",
+    "362270886.json",
+    "525535977.json",
+    "976808005.json",
+    "308014437.json",
+    "351657815.json",
+    "115616118.json",
+    "797626610.json"
+  ],
+  "GridID/Source Question Name": [
+    "RACEETH",
+    "RACEETH2",
+    "RACEETH3",
+    "RACEETH4",
+    "RACEETH5",
+    "RACEETH6",
+    "RACEETH7",
+    "RACEETH8"
+  ],
+  "Variable Label": "Prefer Not To Ans",
+  "Variable Name": [
+    "SrvBOH_PrefNoAnsRE_v1r0",
+    "SrvBOH_PrefNoAnsRE2_v1r0",
+    "SrvBOH_PrefNoAnsRE3_v1r0",
+    "SrvBOH_PrefNoAnsRE4_v1r0",
+    "SrvBOH_PrefNoAnsRE5_v1r0",
+    "SrvBOH_PrefNoAnsRE6_v1r0",
+    "SrvBOH_PrefNoAnsRE7_v1r0",
+    "SrvBOH_PrefNoAnsRE8_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "99",
+    "99",
+    "99",
+    "99",
+    "99",
+    "99",
+    "99",
+    "99"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "9/23/21",
+  "Question Type": "Optional Select All that Apply",
+  "Formula for Index": [
+    "1945",
+    "1946"
+  ],
+  "Index": [
+    "1945",
+    "1946"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  },
+  "Notes": "Only display if RACEETH = American Indian or Alaska Native"
 }

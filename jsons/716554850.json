@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "4676",
+  "Index": "4676",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
+  "conceptId": "716554850",
+  "Current Question Text": "On how many of the past 30 days have you used e-cigarettes or other vaping devices for nicotine or tobacco?",
+  "Variable Label": "Days used e-cigarettes or other vaping devices past 30 days",
+  "Variable Name": [
+    "SrvSAS_ECiguseDays30_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "ECIG6"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Range check min=1 max=30",
+  "Date added or modified": "8/28/23"
+}

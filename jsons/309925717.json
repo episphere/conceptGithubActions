@@ -1,0 +1,42 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "369168474.json"
+  ],
+  "Current Source Question": [
+    "219076879.json"
+  ],
+  "GridID/Source Question Name": [
+    "SrvScr_MULTISCREEN_v1r0"
+  ],
+  "conceptId": "309925717",
+  "Current Question Text": "Full body MRI or CT. An MRI (Magnetic Resonance Imaging) or CT (CAT scan) of your body. Detailed pictures of the inside of your body were taken while you were laying down in an MRI or CT machine.",
+  "Variable Label": "Full body MRI or CT",
+  "Variable Name": [
+    "SrvScr_FBODMRI_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "1"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "6/6/23",
+  "Question Type": "Select All That Apply",
+  "IMS Review Notes": "Added spaces before and after the equal sign. Populated col C,D,F,H, J, and AG",
+  "Formula for Index": [
+    "9495",
+    "9496"
+  ],
+  "Index": [
+    "9495",
+    "9496"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

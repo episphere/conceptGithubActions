@@ -1,0 +1,41 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Current Source Question": [
+    "517307064.json"
+  ],
+  "GridID/Source Question Name": [
+    "BREASTSUR"
+  ],
+  "conceptId": "256196714",
+  "Current Question Text": "Removal of one breast (mastectomy)",
+  "Variable Label": "One Breast Removed",
+  "Variable Name": [
+    "SrvBOH_Mastectomy_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "5"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if MHGROUP9 = breast surgery",
+  "Question Type": "Optional Select All that Apply",
+  "Formula for Index": [
+    "2484",
+    "2485"
+  ],
+  "Index": [
+    "2484",
+    "2485"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

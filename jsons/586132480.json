@@ -1,0 +1,45 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "506648060.json"
+  ],
+  "conceptId": "586132480",
+  "Current Question Text": "Have you completed the first survey for Connect?",
+  "Variable Label": "Baseline survey completion",
+  "Variable Name": [
+    "SrvPES_BASELINE_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Participant Experience Survey",
+  "Question Type": "Optional Multiple Choice",
+  "Formula for Index": [
+    "8301",
+    "8302",
+    "8303",
+    "8304"
+  ],
+  "Index": [
+    "8301",
+    "8302",
+    "8303",
+    "8304"
+  ],
+  "Current Format/Value": {
+    "333628672.json": "0",
+    "198030665.json": "1",
+    "687057737.json": "2",
+    "178420302.json": "77"
+  },
+  "Date added or modified": [
+    "12/19/22",
+    "2/8/23"
+  ],
+  "IMS Review Notes": [
+    "Changed dash to equal sign in current format/value"
+  ]
+}

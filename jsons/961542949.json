@@ -1,0 +1,27 @@
+{
+  "Formula for Index": "1899",
+  "Index": "1899",
+  "Primary Source": [
+    "290739590.json"
+  ],
+  "Secondary Source": [
+    "708990554.json"
+  ],
+  "conceptId": "961542949",
+  "Current Question Text": "delivered_status: Status of delivery (when an email has been accepted at the receiving server)",
+  "Variable Label": "Status of Delivery",
+  "Variable Name": [
+    "CTSG_DeliveredStatus_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "4",
+  "Current Format/Value": "example: TRUE",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "FALSE is null",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "1/3/24",
+  "GCP Document/Table": "SendGrid Table"
+}

@@ -1,0 +1,47 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "992022740",
+  "Current Question Text": "During the season[s] in the past 12 months that you did moderate outdoor chores (such as weeding, raking, or mowing the lawn), about how often did you do these chores outside of work?",
+  "Variable Label": "# Days - Mod Outdoor Chores",
+  "Variable Name": [
+    "SrvMRE_ModChoreOften_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "LAWN3A"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if LAWN1=0",
+  "Date added or modified": "11/15/21",
+  "Formula for Index": [
+    "4166",
+    "4167",
+    "4168",
+    "4169",
+    "4170",
+    "4171"
+  ],
+  "Index": [
+    "4166",
+    "4167",
+    "4168",
+    "4169",
+    "4170",
+    "4171"
+  ],
+  "Current Format/Value": {
+    "239152340.json": "0",
+    "582006876.json": "1",
+    "645894551.json": "2",
+    "996315715.json": "3",
+    "671267928.json": "4",
+    "647504893.json": "5"
+  }
+}

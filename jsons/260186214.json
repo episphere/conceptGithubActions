@@ -1,0 +1,103 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "506648060.json"
+  ],
+  "conceptId": "260186214",
+  "Current Question Text": "Which device do you use to access MyConnect most of the time?",
+  "Variable Label": "Device most used",
+  "Variable Name": [
+    "SrvPES_MOSTUSE_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Dictionary": "Participant Experience Survey",
+  "Question Type": "Optional Multiple Choice, DisplayIf in One or More Responses",
+  "Formula for Index": [
+    "8254",
+    "8255",
+    "8256",
+    "8257",
+    "8258",
+    "8259",
+    "8260",
+    "8261",
+    "8262",
+    "8263",
+    "8264",
+    "8265",
+    "8266",
+    "8267"
+  ],
+  "Index": [
+    "8254",
+    "8255",
+    "8256",
+    "8257",
+    "8258",
+    "8259",
+    "8260",
+    "8261",
+    "8262",
+    "8263",
+    "8264",
+    "8265",
+    "8266",
+    "8267"
+  ],
+  "Current Format/Value": {
+    "482753957.json": "0",
+    "358413399.json": "1",
+    "793072415.json": "2",
+    "515798638.json": "3",
+    "132115595.json": "4",
+    "299722216.json": "5",
+    "115959973.json": "6",
+    "238237869.json": "7",
+    "985034149.json": "8",
+    "401230883.json": "9",
+    "798682161.json": "10",
+    "554920493.json": "11",
+    "200962909.json": "12",
+    "320254475.json": "13"
+  },
+  "Date added or modified": [
+    "1/9/23",
+    "1/5/23",
+    "1/5/23",
+    "1/5/23",
+    "1/5/23",
+    "1/5/23",
+    "1/5/23",
+    "1/5/23",
+    "1/5/23",
+    "1/5/23",
+    "1/5/23",
+    "1/5/23",
+    "1/5/23",
+    "1/5/23"
+  ],
+  "IMS Review Notes": [
+    "Updated variable name from MOSTUSE0 to MOSTUSE",
+    "Updated Question Type and related formatting.",
+    "Updated Question Type and related formatting.",
+    "Updated Question Type and related formatting.",
+    "Updated Question Type and related formatting.",
+    "Updated Question Type and related formatting.",
+    "Updated Question Type and related formatting.",
+    "Updated Question Type and related formatting.",
+    "Updated Question Type and related formatting.",
+    "Updated Question Type and related formatting.",
+    "Updated Question Type and related formatting.",
+    "Updated Question Type and related formatting.",
+    "Updated Question Type and related formatting.",
+    "Updated Question Type and related formatting."
+  ],
+  "Notes": [
+    "Other phone is piped from SrvPES_PHONE2OTH_v1r0",
+    "Other tablet is piped from  SrvPES_TABLET2OTH_v1r0",
+    "Other computer is piped from SrvPES_COMP2OTH_v1r0"
+  ]
+}

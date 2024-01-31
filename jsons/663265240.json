@@ -1,0 +1,39 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "conceptId": "663265240",
+  "Current Question Text": "Baseline Survey Status- Module Where You Live and Work",
+  "Variable Label": "Flag Base Mod LAW",
+  "Variable Name": [
+    "SrvLAW_BaseStatus_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "For display at check-in and check out.  Currently, place holders, but will maintain the Concept IDs when variables are created.",
+  "Dictionary": "Biospecimen Research, Study Manager Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "6/25/21",
+  "GCP Document/Table": "Participants Table Not nested (d_663265240)",
+  "Formula for Index": [
+    "1286",
+    "1287",
+    "1288"
+  ],
+  "Index": [
+    "1286",
+    "1287",
+    "1288"
+  ],
+  "Current Format/Value": {
+    "972455046.json": "0",
+    "615768760.json": "1",
+    "231311385.json": "2"
+  }
+}

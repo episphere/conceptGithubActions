@@ -1,0 +1,49 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "679430807.json"
+  ],
+  "GridID/Source Question Name": [
+    "GRID_PREWORKT7"
+  ],
+  "conceptId": "702555988",
+  "Current Question Text": "Bicycle- Thinking about the one-way trip from [insert address from PREWORK1 - PREWORK3/this address] to your home on a usual workday, about how much time did you usually spend in each type of transportation?",
+  "Variable Label": "Time, Bicycle commute from past work",
+  "Variable Name": [
+    "SrvLAW_PreWorkT7F_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "PREWORKT7F"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "2/28/22",
+  "Formula for Index": [
+    "7128",
+    "7129",
+    "7130",
+    "7131",
+    "7132"
+  ],
+  "Index": [
+    "7128",
+    "7129",
+    "7130",
+    "7131",
+    "7132"
+  ],
+  "Current Format/Value": {
+    "428999623.json": "0",
+    "248303092.json": "1",
+    "998679771.json": "2",
+    "638092100.json": "3",
+    "127455035.json": "4"
+  }
+}

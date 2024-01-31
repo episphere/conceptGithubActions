@@ -1,0 +1,61 @@
+{
+  "Formula for Index": "4443",
+  "Index": "4443",
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json",
+    "745268907.json",
+    "745268907.json",
+    "745268907.json",
+    "745268907.json",
+    "745268907.json"
+  ],
+  "Current Source Question": [
+    "653906464.json",
+    "358259099.json",
+    "424807655.json",
+    "532767229.json",
+    "711365027.json",
+    "825227968.json"
+  ],
+  "GridID/Source Question Name": [
+    "SLEEP1D",
+    "SLEEP1I",
+    "SLEEP1M",
+    "SLEEP2D",
+    "SLEEP2I",
+    "SLEEP2N"
+  ],
+  "conceptId": "850393641",
+  "Current Question Text": "# of Minutes",
+  "Variable Label": "Mins To Fall Asleep On Workdays",
+  "Variable Name": [
+    "SrvMRE_FallAsleepMin_v1r0",
+    "SrvMRE_LayInBedMin_v1r0",
+    "SrvMRE_SunlightMin_v1r0",
+    "SrvMRE_NonWorkAsleepM_v1r0",
+    "SrvMRE_LayInBedMinNW_v1r0",
+    "SrvMRE_SunlightMinNW_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "FallAsleepMin",
+    "LayInBedMin",
+    "OutsideMin",
+    "NonWorkFallAsleepMin",
+    "NonWorkAwakeBeforeUpMin",
+    "WorkdayOutsideMin"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "12/6/22",
+  "IMS Review Notes": "Deleted last sentence in question text"
+}

@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "1834",
+  "Index": "1834",
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "948781977.json"
+  ],
+  "conceptId": "234868461",
+  "Current Question Text": "Samples Within",
+  "Variable Label": "Samples Within",
+  "Variable Name": [
+    "BioPack_SamplesWithin_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Current Format/Value": "N/A",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Variable repurposed from a binary flag.  Current variable contains an array/list of all of the sample tubes included in the bag/container.",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "5/19/22"
+}

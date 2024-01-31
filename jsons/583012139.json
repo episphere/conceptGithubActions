@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "3779",
+  "Index": "3779",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "583012139",
+  "Current Question Text": "How old were you when you first used the other hormonal medications or devices?",
+  "Variable Label": "Age First Use - Other Hormonal Meds/Devices",
+  "Variable Name": [
+    "SrvMRE_AgeOthHMedUseF_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "HORMED2_9"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if HORMED= 55. min=0 max=sum(isDefined(D_150344905,age),1)",
+  "Date added or modified": "8/28/23",
+  "IMS Review Notes": "Added range check to Notes."
+}

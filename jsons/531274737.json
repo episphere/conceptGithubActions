@@ -1,0 +1,42 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "369168474.json"
+  ],
+  "Current Source Question": [
+    "356470898.json"
+  ],
+  "GridID/Source Question Name": [
+    "SrvScr_ENDOSCREEN_v1r0"
+  ],
+  "conceptId": "531274737",
+  "Current Question Text": "Hysteroscopy. A healthcare provider inserted a thin, flexible tube through your vagina to look inside your uterus and check for cancer or other problems. It is likely that you were awake and may have had numbing medicine, but were able to drive yourself home. Your provider could also have given you a sedative to relax you, in which case someone else needed to drive you home.",
+  "Variable Label": "Hysteroscopy",
+  "Variable Name": [
+    "SrvScr_HYSTERO_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "1"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "6/6/23",
+  "Question Type": "Select All That Apply",
+  "IMS Review Notes": "Added spaces before and after the equal sign. Populated col C,D,F,H,J,M, and AG",
+  "Formula for Index": [
+    "9413",
+    "9414"
+  ],
+  "Index": [
+    "9413",
+    "9414"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "conceptId": "799338907",
+  "Current Question Text": "Pills per day naproxen",
+  "subcollections": [
+    "101310722.json",
+    "799338907.json"
+  ],
+  "Formula for Index": "3374",
+  "Index": "3374",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "Current Source Question": [
+    "799338907.json"
+  ],
+  "GridID/Source Question Name": [
+    "PAINREL3_5"
+  ],
+  "Variable Label": "Pills/Day Naproxen, Don't Know",
+  "Variable Name": [
+    "SrvMRE_NaproxenPillDK_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "PAINREL3_5"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "3",
+  "Current Format/Value": {
+    "178420302.json": "77"
+  },
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if PAINREL1 = 4",
+  "Date added or modified": "10/6/21"
+}

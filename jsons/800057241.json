@@ -1,0 +1,37 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "506648060.json"
+  ],
+  "conceptId": "800057241",
+  "Current Question Text": "Did you complete the sample survey at your Connect visit?",
+  "Variable Label": "Biospecimen survey completion location",
+  "Variable Name": [
+    "SrvPES_BIOSURV2_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Participant Experience Survey",
+  "Date added or modified": "1/5/23",
+  "Question Type": "Optional Multiple Choice",
+  "IMS Review Notes": "Made Variable Length 2 to accommodate 77.",
+  "Formula for Index": [
+    "8343",
+    "8344",
+    "8345"
+  ],
+  "Index": [
+    "8343",
+    "8344",
+    "8345"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1",
+    "178420302.json": "77"
+  }
+}

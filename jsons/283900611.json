@@ -1,0 +1,90 @@
+{
+  "Primary Source": [
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "299553921.json",
+    "703954371.json",
+    "376960806.json",
+    "232343615.json",
+    "589588440.json",
+    "838567176.json",
+    "958646668.json",
+    "454453939.json",
+    "677469051.json",
+    "683613884.json",
+    "652357376.json",
+    "505347689.json",
+    "973670172.json",
+    "143615646.json"
+  ],
+  "Current Source Question": [
+    "248868659.json",
+    "248868659.json",
+    "248868659.json",
+    "248868659.json",
+    "248868659.json",
+    "248868659.json",
+    "248868659.json",
+    "248868659.json",
+    "248868659.json",
+    "248868659.json",
+    "248868659.json",
+    "248868659.json",
+    "248868659.json",
+    "248868659.json"
+  ],
+  "conceptId": "283900611",
+  "Current Question Text": "Deviation - Mislabeled- Resolved",
+  "Variable Label": "SST1 Dev - Mislabeled - Resolved",
+  "Variable Name": [
+    "BioCol_Dev_v1r0_MislabRSST1",
+    "BioCol_Dev_v1r0_MislabRSST2",
+    "BioCol_Dev_v1r0_MislabRSST3",
+    "BioCol_Dev_v1r0_MislabRSST4",
+    "BioCol_Dev_v1r0_MislabRSST5",
+    "BioCol_Dev_v1r0_MislabelRHT1",
+    "BioCol_Dev_v1r0_MislabelRHT2",
+    "BioCol_Dev_v1r0_MislREDTAT1",
+    "BioCol_Dev_v1r0_MislREDTAT2",
+    "BioCol_Dev_v1r0_MislREDTAT3",
+    "BioCol_Dev_v1r0_MislabRACDT1",
+    "BioCol_Dev_v1r0_MislabRSTRT1",
+    "BioCol_Dev_v1r0_MislabelRUT1",
+    "BioCol_Dev_v1r0_MislabRMWT1"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "9/7/23",
+  "IMS Review Notes": "Updated Variable Name from BioCol_Dev_v1r0_MislabelR to BioCol_Dev_v1r0_MislabRSST1. Updated Variable Label, Secondary Source and CID.",
+  "Formula for Index": [
+    "1683",
+    "1684"
+  ],
+  "Index": [
+    "1683",
+    "1684"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

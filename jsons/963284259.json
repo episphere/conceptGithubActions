@@ -1,0 +1,34 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "963284259",
+  "Current Question Text": "Are you currently using two separate pills?",
+  "Variable Label": "Current Use - 2 Pills, 1 Estrogen & 1 Progestin",
+  "Variable Name": [
+    "SrvMRE_CurrProgMeds_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "COMBHOR3_2"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if COMBHOR=1",
+  "Formula for Index": [
+    "3875",
+    "3876"
+  ],
+  "Index": [
+    "3875",
+    "3876"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

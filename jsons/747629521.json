@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "3840",
+  "Index": "3840",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "747629521",
+  "Current Question Text": "How old were you when you last used oral progestin-only medication?",
+  "Variable Label": "Age Last Use - Oral Progestin-only Med",
+  "Variable Name": [
+    "SrvMRE_AgeProgUsedL_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "PROGHOR4_1"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if PROGHOR=0. min=0 max=sum(isDefined(D_150344905,age),1)",
+  "Date added or modified": "8/28/23",
+  "IMS Review Notes": "Added range check to Notes."
+}

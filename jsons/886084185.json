@@ -1,0 +1,59 @@
+{
+  "conceptId": "886084185",
+  "Current Question Text": "Please choose the reason that best describes why you have not completed all the sections in the first survey:",
+  "subcollections": [
+    "886084185.json",
+    "126388230.json"
+  ],
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "506648060.json"
+  ],
+  "Current Source Question": [
+    "886084185.json"
+  ],
+  "GridID/Source Question Name": [
+    "SrvPES_BASELINE2_v1r0"
+  ],
+  "Variable Label": "Why baseline survey not completed",
+  "Variable Name": [
+    "SrvPES_BASELINE2_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "SrvPES_BASELINE2_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Participant Experience Survey",
+  "Date added or modified": "1/5/23",
+  "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
+  "IMS Review Notes": "Changed Connect Value to full Variable Name.",
+  "Formula for Index": [
+    "8305",
+    "8306",
+    "8307",
+    "8308",
+    "8309",
+    "8310"
+  ],
+  "Index": [
+    "8305",
+    "8306",
+    "8307",
+    "8308",
+    "8309",
+    "8310"
+  ],
+  "Current Format/Value": {
+    "117258272.json": "0",
+    "773860876.json": "1",
+    "551201830.json": "2",
+    "205790732.json": "3",
+    "701389038.json": "4",
+    "807835037.json": "55"
+  }
+}

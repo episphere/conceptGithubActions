@@ -1,0 +1,42 @@
+{
+  "Formula for Index": "1351",
+  "Index": "1351",
+  "Primary Source": [
+    "237817859.json",
+    "237817859.json",
+    "237817859.json",
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "130371375.json",
+    "130371375.json",
+    "130371375.json",
+    "130371375.json"
+  ],
+  "Current Source Question": [
+    "266600170.json",
+    "496823485.json",
+    "650465111.json",
+    "303552867.json"
+  ],
+  "conceptId": "320023644",
+  "Current Question Text": "NORC Case Number",
+  "Variable Label": "BL Case N",
+  "Variable Name": [
+    "HDPaym_CaseNumberBL_v1r0",
+    "HDPaym_CaseNumberF1_v1r0",
+    "HDPaym_CaseNumberF2_v1r0",
+    "HDPaym_CaseNumberF3_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "9",
+  "Required": "Yes, required for NORC",
+  "PII": "No",
+  "Notes": "Case number associated with each participant for each Round will be send by NORC (e.g. repeated measure associated with Round).  NORC API requires caseNumber to sent in the call.",
+  "Dictionary": "Study Manager Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "9/7/23",
+  "GCP Document/Table": "Participants Table Nested structure: d_130371375_d_266600170_d_320023644 OR d_130371375_d_303552867_d_320023644 OR d_130371375_d_496823485_d_320023644 OR d_130371375_d_650465111_d_320023644",
+  "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name HDPaym_CaseNumber_v1r0 with HDPaym_CaseNumberBL_v1r0"
+}

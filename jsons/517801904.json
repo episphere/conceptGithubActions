@@ -1,0 +1,33 @@
+{
+  "Formula for Index": "4667",
+  "Index": "4667",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
+  "Current Source Question": [
+    "550244580.json"
+  ],
+  "GridID/Source Question Name": [
+    "ECIG3"
+  ],
+  "conceptId": "517801904",
+  "Current Question Text": "Age first used e-cigarettes or other vaping devices on a regular basis number",
+  "Variable Label": "Age first used e-cigarettes or other vaping devices on a regular basis",
+  "Variable Name": [
+    "SrvSAS_ECigAgeUseRegF_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "REGVAPE_AGE"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Range check min=isDefined(D_761037053,0) max=sum(isDefined(D_150344905,age),1)",
+  "Date added or modified": "8/28/23",
+  "IMS Review Notes": "Added range check to Notes."
+}

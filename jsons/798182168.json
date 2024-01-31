@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "3411",
+  "Index": "3411",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "798182168",
+  "Current Question Text": "About how many years ago did you take naproxen?",
+  "Variable Label": "Yrs Ago Naproxen",
+  "Variable Name": [
+    "SrvMRE_NaproxenYA_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "PAINREL6_5"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if PAINREL1 = 4. Range check min=1 max=sum(isDefined(D_150344905,age),1)",
+  "Date added or modified": "8/28/23",
+  "IMS Review Notes": "Added range check to Notes."
+}

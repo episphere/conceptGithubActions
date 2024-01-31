@@ -1,0 +1,39 @@
+{
+  "Formula for Index": "6794",
+  "Index": "6794",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "393682471.json"
+  ],
+  "V1 Source Question": [
+    "In a usual week, about how often do you use tap water from your home to make a glass of iced tea?"
+  ],
+  "GridID/Source Question Name": [
+    "DRINKSWTR2D"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "7/5/23",
+  "conceptId": "165923738",
+  "Current Question Text": "In a usual week, about how often do you use tap water from your home to make a glass of iced tea? We are interested in all tap water, whether or not it has been filtered or treated. Please describe [text box]",
+  "V1 Question Text": "In a usual week, about how often do you use tap water from your home to make a glass of iced tea? Please describe [text box]",
+  "Variable Label": "Tap water times/day, iced tea",
+  "Variable Name": [
+    "SrvLAW_DrinksWtr2D_Num_v2r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "DRINKSWTR2D_NUM"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "3",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "Yes",
+  "Notes": "Range check min=0 max=999",
+  "Date added or modified": "8/29/23",
+  "IMS Review Notes": "Added range check to Notes"
+}

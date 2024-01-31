@@ -1,0 +1,46 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "984514646",
+  "Current Question Text": "How often did you use testosterone therapy? If you currently use testosterone therapy, how often do you use it?",
+  "Variable Label": "Current Use - Testosterone Therapy",
+  "Variable Name": [
+    "SrvMRE_TTOften_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "TESTTHER4"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "11/15/21",
+  "Formula for Index": [
+    "3916",
+    "3917",
+    "3918",
+    "3919",
+    "3920",
+    "3921"
+  ],
+  "Index": [
+    "3916",
+    "3917",
+    "3918",
+    "3919",
+    "3920",
+    "3921"
+  ],
+  "Current Format/Value": {
+    "729363341.json": "0",
+    "181786871.json": "1",
+    "626911538.json": "2",
+    "522395860.json": "3",
+    "814242010.json": "4",
+    "235613392.json": "5"
+  }
+}

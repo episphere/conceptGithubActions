@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "4599",
+  "Index": "4599",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "392874924",
+  "Current Question Text": "How many total years [did/have] you work as a shift worker?",
+  "Variable Label": "Yrs Shift Worker",
+  "Variable Name": [
+    "SrvMRE_ShiftYears_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "SHIFTWORK9"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Range check min=0 max=sum(isDefined(D_150344905,age),1)",
+  "Date added or modified": "8/28/23",
+  "IMS Review Notes": "Added range check to Notes."
+}

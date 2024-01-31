@@ -1,0 +1,46 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "369168474.json"
+  ],
+  "conceptId": "702922820",
+  "Current Question Text": "When were you first screened for anal cancer?",
+  "Variable Label": "First time screened for anal cancer",
+  "Variable Name": [
+    "SrvScr_ANALSCREEN1_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "State Attribute": "No",
+  "Date added or modified": "6/6/23",
+  "Question Type": "Multiple Choice",
+  "IMS Review Notes": "Removed Connect value in col R",
+  "Formula for Index": [
+    "9074",
+    "9075",
+    "9076",
+    "9077",
+    "9078",
+    "9079"
+  ],
+  "Index": [
+    "9074",
+    "9075",
+    "9076",
+    "9077",
+    "9078",
+    "9079"
+  ],
+  "Current Format/Value": {
+    "461386928.json": "0",
+    "729845236.json": "1",
+    "669023414.json": "2",
+    "786431761.json": "3",
+    "640520411.json": "4",
+    "178420302.json": "77"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "conceptId": "992987417",
+  "Current Question Text": "Were you born a twin, triplet, or other multiple?",
+  "Variable Label": "Twin/Multiple",
+  "Variable Name": [
+    "SrvBOH_Multbirth_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "MULTBIRTH"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Question Type": "Optional Multiple Choice",
+  "Formula for Index": [
+    "2719",
+    "2720",
+    "2721",
+    "2722"
+  ],
+  "Index": [
+    "2719",
+    "2720",
+    "2721",
+    "2722"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1",
+    "288105839.json": "2",
+    "626558982.json": "3"
+  }
+}

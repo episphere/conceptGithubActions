@@ -1,0 +1,28 @@
+{
+  "Formula for Index": "1476",
+  "Index": "1476",
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "635994596.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/19/24",
+  "conceptId": "772354119",
+  "Current Question Text": "EMR participant deceased date/time pushed to us from the site via API",
+  "Variable Label": "EMR participant deceased D/T",
+  "Variable Name": [
+    "HdWd_EMRPartDecTm_v1r0"
+  ],
+  "Variable Type": "ISO",
+  "Variable Length": "24",
+  "Current Format/Value": "example: 2020-07-17T15:21:26.763Z",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Sent to us from the sites via API",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "1/19/24"
+}

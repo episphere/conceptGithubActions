@@ -1,0 +1,49 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
+  "conceptId": "175568583",
+  "Current Question Text": "Month - During that time, did you ever smoke a combination of marijuana with tobacco every day?",
+  "Variable Label": "Use marijana with tobacco every day, months",
+  "Variable Name": [
+    "SrvSAS_TobMJEDUseMo_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "TOMAR7B"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Formula for Index": [
+    "5229",
+    "5230"
+  ],
+  "Index": [
+    "5229",
+    "5230"
+  ],
+  "Deprecated, New, or Revised": [
+    "Deprecated",
+    "Deprecated"
+  ],
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": [
+    "8/29/22",
+    "8/29/22"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  },
+  "Date added or modified": [
+    "2/2/23",
+    "5/25/23"
+  ],
+  "IMS Review Notes": [
+    "Denoted date deprecated in prod",
+    "Denoted as deprecated"
+  ]
+}

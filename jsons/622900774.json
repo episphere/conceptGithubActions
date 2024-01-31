@@ -1,0 +1,35 @@
+{
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "948781977.json"
+  ],
+  "conceptId": "622900774",
+  "Current Question Text": "Tube not in bag",
+  "Variable Label": "Tube not in bag",
+  "Variable Name": [
+    "BioPack_TubeNotBag_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Default no",
+  "Dictionary": "Biospecimen Shipping",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "GCP Document/Table": "Not yet in Flattened Tables",
+  "Formula for Index": [
+    "1174",
+    "1175"
+  ],
+  "Index": [
+    "1174",
+    "1175"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

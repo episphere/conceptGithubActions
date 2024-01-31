@@ -1,0 +1,39 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "166676176.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "605870562",
+  "Current Question Text": "SSN Quality Check Status",
+  "Variable Label": "SSN Qual Chk Stat",
+  "Variable Name": [
+    "SrvSS_QualChkStat_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Default is No Check Ran",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "12/18/23",
+  "Formula for Index": [
+    "1787",
+    "1788",
+    "1789"
+  ],
+  "Index": [
+    "1787",
+    "1788",
+    "1789"
+  ],
+  "Current Format/Value": {
+    "875207881.json": "0",
+    "631498205.json": "1",
+    "376136630.json": "2"
+  }
+}

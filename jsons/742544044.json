@@ -1,0 +1,40 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
+  "conceptId": "742544044",
+  "Current Question Text": "Do you consume marijuana in food or drinks now?",
+  "Variable Label": "Consume marijuana in food or drinks now",
+  "Variable Name": [
+    "SrvSAS_EdiblesNow_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "EAMAR4"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "11/24/21",
+  "Formula for Index": [
+    "5352",
+    "5353",
+    "5354",
+    "5355"
+  ],
+  "Index": [
+    "5352",
+    "5353",
+    "5354",
+    "5355"
+  ],
+  "Current Format/Value": {
+    "419415087.json": "0",
+    "299561721.json": "1",
+    "716761013.json": "2",
+    "804785430.json": "3"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "Formula for Index": "1865",
+  "Index": "1865",
+  "Primary Source": [
+    "692924902.json"
+  ],
+  "Secondary Source": [
+    "637153953.json"
+  ],
+  "Current Source Question": [
+    "740819233.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "868006655",
+  "Current Question Text": "What is the primary site of the cancer diagnosed on 'date of case ID'? Text",
+  "Variable Label": "Primary Cancer Site- Other Describe",
+  "Variable Name": [
+    "RCAOcc_OthCancerDesc_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "800",
+  "Current Format/Value": "N/A",
+  "Required": "Yes if RCAOcc_PrimCancSite_v1r0 (d_637153953_d_740819233_d_149205077) = 807835037",
+  "PII": "No",
+  "Notes": "Operational variable. Nested under cancer occurrence (637153953) and the source question (740819233). Only the cancer type should be entered (ex: Gallbladder Cancer) to minimize extraneous verbiage for the response. Should be for consented, verified, and not withdrawn participants only.",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "1/19/24",
+  "GCP Document/Table": "Nested (d_637153953_d_740819233_d_868006655)"
+}

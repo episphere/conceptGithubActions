@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "3504",
+  "Index": "3504",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "297084062",
+  "Current Question Text": "About how many years ago did you last take statins/cholesterol or lipid lowering drugs?",
+  "Variable Label": "Yrs Ago Statins",
+  "Variable Name": [
+    "SrvMRE_StatinsYL_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CHOLHTN6_1"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if CHOLHTN = 0. Range check min=1 max=sum(isDefined(D_150344905,age),1)",
+  "Date added or modified": "8/28/23",
+  "IMS Review Notes": "Added range check to Notes."
+}

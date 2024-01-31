@@ -1,0 +1,35 @@
+{
+  "Primary Source": [
+    "332961895.json"
+  ],
+  "Secondary Source": [
+    "581036703.json"
+  ],
+  "conceptId": "254109640",
+  "Current Question Text": "All baseline samples collected",
+  "Variable Label": "All Base Samp Collected",
+  "Variable Name": [
+    "SMMet_BLSamplesColl_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Derivation Notes": "SMMet_BLSamplesColl_v1r0 equals 1 if BioFin_BaseBloodCol_v1r0 equals 1 AND BioFin_BaseUrineCol_v1r0 equals 1 AND BioFin_BaseMouthCol_v1r0 equals 1",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "GCP Document/Table": "Participants Table Not nested (d_254109640)",
+  "Formula for Index": [
+    "1297",
+    "1298"
+  ],
+  "Index": [
+    "1297",
+    "1298"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}
