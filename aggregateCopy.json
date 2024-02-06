@@ -845,6 +845,12 @@
       "SrvLAW_Apt1_v1r0"
     ]
   },
+  "129337253": {
+    "Variable Label": "Sleep - refreshing",
+    "Variable Name": [
+      "SrvQoL_Sleep7D2_v1r0"
+    ]
+  },
   "129677435": {
     "Variable Label": "Use marijuana every day, age last used",
     "Variable Name": [
@@ -1588,6 +1594,12 @@
       "SrvLAW_PreWorkOthCommute4_v1r0"
     ]
   },
+  "158709737": {
+    "Variable Label": "Social Isolation - feel isolated",
+    "Variable Name": [
+      "SrvQoL_SocialIsolatn3_v1r0"
+    ]
+  },
   "158795242": {
     "Variable Label": "Car, van, or truck (includes carpools or van pools) commute to current work",
     "Variable Name": [
@@ -1831,6 +1843,12 @@
       "SrvBlU_COV17B_v1r0",
       "SrvBlU_COV17B_v1r0",
       "SrvCov_COV17B_v1r0"
+    ]
+  },
+  "169818619": {
+    "Variable Label": "Anxiety - overwhelmed with worry",
+    "Variable Name": [
+      "SrvQoL_Anxiety7D3_v1r0"
     ]
   },
   "170035952": {
@@ -2078,6 +2096,12 @@
       "SrvMRE_SittingTraffic_v1r0"
     ]
   },
+  "179708390": {
+    "Variable Label": "Physical function - chores",
+    "Variable Name": [
+      "SrvQoL_PhysFnct1_v1r0"
+    ]
+  },
   "180097038": {
     "Variable Label": "LAW Surv Vers",
     "Variable Name": [
@@ -2095,6 +2119,12 @@
   },
   "180583933": {
     "Variable Name": "Not active"
+  },
+  "180809826": {
+    "Variable Label": "Social - family activities",
+    "Variable Name": [
+      "SrvQoL_Social2_v1r0"
+    ]
   },
   "180961306": {
     "Variable Name": "Digestive System Problems- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply."
@@ -2231,6 +2261,12 @@
     "Variable Label": "Time, Bus or streetcar/trolley, light rail/trolley commute to current school",
     "Variable Name": [
       "SrvLAW_CurSchT2D_v1r0"
+    ]
+  },
+  "185616242": {
+    "Variable Label": "Social Satisfaction - perform daily routines",
+    "Variable Name": [
+      "SrvQoL_SatisfySocial4_v1r0"
     ]
   },
   "185898646": {
@@ -2949,6 +2985,9 @@
     "Variable Name": [
       "SrvBOH_ShorterIn_v1r0"
     ]
+  },
+  "207494608": {
+    "Variable Name": "Usually"
   },
   "207913198": {
     "Variable Label": "Depo-provera",
@@ -4819,6 +4858,9 @@
   "285718391": {
     "Variable Name": "How can we reach this person?"
   },
+  "285882990": {
+    "Variable Name": "Quality of Life"
+  },
   "285968511": {
     "Variable Label": "Other: Please describe",
     "Variable Name": [
@@ -4966,6 +5008,9 @@
     "Variable Name": [
       "SrvLAW_CurSchT10C_v1r0"
     ]
+  },
+  "291643467": {
+    "Variable Name": "Without any difficulty"
   },
   "291707744": {
     "Variable Label": "Age First Use - Estrogen-only Skin Gel/Cream/Spray-on Med",
@@ -5375,6 +5420,12 @@
   },
   "310284905": {
     "Variable Name": "50 to 100 feet"
+  },
+  "310824303": {
+    "Variable Label": "Social - leisure activities",
+    "Variable Name": [
+      "SrvQoL_Social1_v1r0"
+    ]
   },
   "311569789": {
     "Variable Label": "Use a tobacco pipe every day, age last used",
@@ -5912,7 +5963,8 @@
   "338924834": {
     "Variable Label": "Pain Rank",
     "Variable Name": [
-      "SrvBOH_PainRank_v1r0"
+      "SrvBOH_PainRank_v1r0",
+      "SrvQoL_PainRank_v1r0"
     ]
   },
   "339142996": {
@@ -5926,6 +5978,12 @@
     "Variable Name": [
       "SrvMtW_DENTALCLEAN_v1r0",
       "SrvMtW_DENTALCLEAN_v1r0"
+    ]
+  },
+  "340201015": {
+    "Variable Label": "Social Satisfaction - do things for family",
+    "Variable Name": [
+      "SrvQoL_SatisfySocial1_v1r0"
     ]
   },
   "340854069": {
@@ -6061,6 +6119,12 @@
     "Variable Label": "Phone",
     "Variable Name": [
       "phoneNumber"
+    ]
+  },
+  "348495811": {
+    "Variable Label": "Sleep - problems",
+    "Variable Name": [
+      "SrvQoL_Sleep7D3_v1r0"
     ]
   },
   "348817644": {
@@ -7093,6 +7157,12 @@
       "SrvSAS_SkinColor_v1r0"
     ]
   },
+  "395364164": {
+    "Variable Label": "Sleep - quality",
+    "Variable Name": [
+      "SrvQoL_Sleep7D1_v1r0"
+    ]
+  },
   "395480458": {
     "Variable Label": "Use cigars, cigarillos, or little filtered cigars every day, age last used",
     "Variable Name": [
@@ -7332,6 +7402,9 @@
     "Variable Name": [
       "SrvScr_CHRHPV_v1r0"
     ]
+  },
+  "405700450": {
+    "Variable Name": "With a little difficulty"
   },
   "406011084": {
     "Variable Name": "How old were you when you had your first blood transfusion?"
@@ -8004,6 +8077,12 @@
   },
   "436333358": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or hay fever?"
+  },
+  "436368783": {
+    "Variable Label": "Sleep - difficulty",
+    "Variable Name": [
+      "SrvQoL_Sleep7D4_v1r0"
+    ]
   },
   "436503027": {
     "Variable Label": "Any Base Spec/Wk",
@@ -8965,6 +9044,12 @@
   "473673527": {
     "Variable Name": "4 glasses"
   },
+  "474402187": {
+    "Variable Label": "Social -activities with friends",
+    "Variable Name": [
+      "SrvQoL_Social4_v1r0"
+    ]
+  },
   "474541595": {
     "Variable Label": "Full Street name #2",
     "Variable Name": [
@@ -9032,6 +9117,12 @@
     "Variable Label": "How many days use THC concentrates via dabbing, usual month",
     "Variable Name": [
       "SrvSAS_THCDaysMo_v1r0"
+    ]
+  },
+  "478340418": {
+    "Variable Label": "Fatigue -  how fatigued",
+    "Variable Name": [
+      "SrvQoL_Fatigue7D4_v1r0"
     ]
   },
   "478513687": {
@@ -9160,6 +9251,12 @@
     "Variable Label": "iPhone used",
     "Variable Name": [
       "SrvPES_PHONE2A_v1r0"
+    ]
+  },
+  "483029386": {
+    "Variable Label": "Depression - felt depressed",
+    "Variable Name": [
+      "SrvQoL_Depress7D3_v1r0"
     ]
   },
   "483735587": {
@@ -11257,6 +11354,12 @@
       "SrvSAS_AgeStopUseCT_v1r0"
     ]
   },
+  "569149794": {
+    "Variable Label": "Physical function - errands",
+    "Variable Name": [
+      "SrvQoL_PhysFnct4_v1r0"
+    ]
+  },
   "569151507": {
     "Variable Label": "UP Hx",
     "Variable Name": [
@@ -11380,6 +11483,12 @@
       "SrvSAS_AroundSmoke1824_v1r0"
     ]
   },
+  "575271323": {
+    "Variable Label": "Cognitive function - trouble shifting between activities that require thinking",
+    "Variable Name": [
+      "SrvQoL_CogFunctn7D4_v1r0"
+    ]
+  },
   "575646308": {
     "Variable Label": "Last Time Naproxen",
     "Variable Name": [
@@ -11450,6 +11559,12 @@
     "Variable Label": "Mammogram",
     "Variable Name": [
       "SrvScr_MAMMO_v1r0"
+    ]
+  },
+  "578089175": {
+    "Variable Label": "Social Satisfaction - do things for friends",
+    "Variable Name": [
+      "SrvQoL_SatisfySocial3_v1r0"
     ]
   },
   "578176688": {
@@ -11891,6 +12006,12 @@
       "SrvBlU_MENS2_v1r0"
     ]
   },
+  "593519553": {
+    "Variable Label": "Social Satisfaction - do things for others",
+    "Variable Name": [
+      "SrvQoL_SatisfySocial2_v1r0"
+    ]
+  },
   "593843561": {
     "Variable Label": "SST1 Object Collected",
     "Variable Name": [
@@ -11987,6 +12108,12 @@
   },
   "597175457": {
     "Variable Name": "Child"
+  },
+  "597449934": {
+    "Variable Label": "Fatigue - feel fatiuged",
+    "Variable Name": [
+      "SrvQoL_Fatigue7D1_v1r0"
+    ]
   },
   "597477164": {
     "Variable Name": "A lot"
@@ -12225,6 +12352,12 @@
   "612166858": {
     "Variable Name": "Jr."
   },
+  "612516577": {
+    "Variable Label": "Social - doing work",
+    "Variable Name": [
+      "SrvQoL_Social3_v1r0"
+    ]
+  },
   "612617245": {
     "Variable Label": "State/Province",
     "Variable Name": [
@@ -12275,6 +12408,12 @@
   },
   "614446276": {
     "Variable Name": "During the time(s) that you were taking Acetaminophen, about how many days per week OR per month did you take it? Please choose whichever makes the most sense for you."
+  },
+  "615241360": {
+    "Variable Label": "Social Isolation - feel left out",
+    "Variable Name": [
+      "SrvQoL_SocialIsolatn1_v1r0"
+    ]
   },
   "615768760": {
     "Variable Name": "Started"
@@ -12799,6 +12938,12 @@
       "SrvMRE_Bedtime_v1r0"
     ]
   },
+  "636899822": {
+    "Variable Label": "Anxiety - focus on anxiety",
+    "Variable Name": [
+      "SrvQoL_Anxiety7D2_v1r0"
+    ]
+  },
   "637147033": {
     "Variable Label": "Concerned About Info Online",
     "Variable Name": [
@@ -12837,6 +12982,12 @@
       "SrvBlU_COV23B6_v1r0",
       "SrvBlU_COV23B6_v1r0",
       "SrvCov_COV23B6_v1r0"
+    ]
+  },
+  "638471439": {
+    "Variable Label": "Physical function - stairs",
+    "Variable Name": [
+      "SrvQoL_PhysFnct2_v1r0"
     ]
   },
   "638833327": {
@@ -12898,6 +13049,12 @@
   },
   "641104372": {
     "Variable Name": "No, I want to enter another address (10th address)"
+  },
+  "641556395": {
+    "Variable Label": "Anxiety - feeling fearful",
+    "Variable Name": [
+      "SrvQoL_Anxiety7D1_v1r0"
+    ]
   },
   "641572847": {
     "Variable Label": "Manufacturing",
@@ -13129,6 +13286,9 @@
   },
   "649352910": {
     "Variable Name": "Typical time spent SITTING per day"
+  },
+  "649362575": {
+    "Variable Name": "Unable to do"
   },
   "649436542": {
     "Variable Name": "Divorced"
@@ -14261,6 +14421,12 @@
       "BioCol_Dev_v1r0_TempHUT1"
     ]
   },
+  "690908306": {
+    "Variable Label": "Fatigue - feeling run-down",
+    "Variable Name": [
+      "SrvQoL_Fatigue7D3_v1r0"
+    ]
+  },
   "690918725": {
     "Variable Name": "What type(s) of alcoholic beverages did you usually drink when you were between age 40 and age 49?"
   },
@@ -14380,6 +14546,12 @@
       "SrvBOH_SiblingNum_v1r0"
     ]
   },
+  "694270645": {
+    "Variable Label": "Physical function - walk",
+    "Variable Name": [
+      "SrvQoL_PhysFnct3_v1r0"
+    ]
+  },
   "694503437": {
     "Variable Label": "Symptoms",
     "Variable Name": [
@@ -14414,6 +14586,12 @@
   },
   "696181630": {
     "Variable Name": "Hazel"
+  },
+  "696676520": {
+    "Variable Label": "Social Isolation - feel people barely know me",
+    "Variable Name": [
+      "SrvQoL_SocialIsolatn2_v1r0"
+    ]
   },
   "696874548": {
     "Variable Label": "Full Street name",
@@ -14542,6 +14720,12 @@
     "Variable Label": "Heart Attack",
     "Variable Name": [
       "SrvBOH_MI_v1r0"
+    ]
+  },
+  "700825230": {
+    "Variable Label": "Pain - daily activities",
+    "Variable Name": [
+      "SrvQoL_PainIntrf7D1_v1r0"
     ]
   },
   "700889863": {
@@ -14935,6 +15119,12 @@
       "SrvBOH_Child1Cancer_v1r0"
     ]
   },
+  "718913873": {
+    "Variable Label": "Depression - felt worthless",
+    "Variable Name": [
+      "SrvQoL_Depress7D1_v1r0"
+    ]
+  },
   "719222792": {
     "Variable Label": "Suspend Contact Who Req",
     "Variable Name": [
@@ -15120,6 +15310,12 @@
   "726699695": {
     "Variable Name": "Background and Overall Health"
   },
+  "726711383": {
+    "Variable Label": "Fatigue - tired",
+    "Variable Name": [
+      "SrvQoL_Fatigue7D2_v1r0"
+    ]
+  },
   "726739712": {
     "Variable Label": "City",
     "Variable Name": [
@@ -15241,6 +15437,12 @@
       "SrvBlU_COV19A3_v1r0",
       "SrvBlU_COV19A3_v1r0",
       "SrvCov_COV19A3_v1r0"
+    ]
+  },
+  "730552675": {
+    "Variable Label": "Cognitive function - work harder to keep track of activities",
+    "Variable Name": [
+      "SrvQoL_CogFunctn7D3_v1r0"
     ]
   },
   "730666903": {
@@ -15435,6 +15637,9 @@
       "SrvMtW_ANTIBIO_v1r0"
     ]
   },
+  "736763647": {
+    "Variable Name": "With much difficulty"
+  },
   "736981982": {
     "Variable Label": "Bus or streetcar/trolley, light rail/trolley, light rail commute to current school",
     "Variable Name": [
@@ -15468,6 +15673,9 @@
   "738454194": {
     "Variable Name": "1 to 2 hours per day"
   },
+  "738848800": {
+    "Variable Name": "With some difficulty"
+  },
   "739237614": {
     "Variable Label": "Oth Business - Free Text",
     "Variable Name": [
@@ -15497,6 +15705,12 @@
   },
   "740819233": {
     "Variable Name": "What is the primary site of the cancer diagnosed on 'date of case ID'?"
+  },
+  "740936560": {
+    "Variable Label": "Social Isolation - loneliness",
+    "Variable Name": [
+      "SrvQoL_SocialIsolatn4_v1r0"
+    ]
   },
   "741094625": {
     "Variable Name": "Separated"
@@ -16005,6 +16219,12 @@
     "Variable Label": "Cigarettes (manufactured or hand-rolled)",
     "Variable Name": [
       "SrvSAS_Marijuana_v1r0"
+    ]
+  },
+  "760568214": {
+    "Variable Label": "Depression - felt hopeless",
+    "Variable Name": [
+      "SrvQoL_Depress7D4_v1r0"
     ]
   },
   "760686611": {
@@ -17495,6 +17715,12 @@
       "SrvLAW_SeaZip_v1r0"
     ]
   },
+  "812809006": {
+    "Variable Label": "Pain - social activities",
+    "Variable Name": [
+      "SrvQoL_PainIntrf7D3_v1r0"
+    ]
+  },
   "813701399": {
     "Variable Name": "Weston"
   },
@@ -17698,6 +17924,12 @@
       "BioClin_SiteBldRRLDtF3_v1r0"
     ]
   },
+  "822479649": {
+    "Variable Label": "Cognitive function - brain not working as usual",
+    "Variable Name": [
+      "SrvQoL_CogFunctn7D2_v1r0"
+    ]
+  },
   "822499427": {
     "Variable Label": "D/T Start B/U/MW Rsrch Surv",
     "Variable Name": [
@@ -17883,6 +18115,12 @@
   },
   "829751791": {
     "Variable Name": "Seasonal Address 3- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select: I still spend time here."
+  },
+  "830012468": {
+    "Variable Label": "Pain - household chores",
+    "Variable Name": [
+      "SrvQoL_PainIntrf7D4_v1r0"
+    ]
   },
   "830201925": {
     "Variable Label": "Walking commute from past work",
@@ -18308,6 +18546,9 @@
   },
   "847578001": {
     "Variable Name": "Since your COVID-19 diagnosis, have you experienced any of the following symptoms? COV19A"
+  },
+  "847602954": {
+    "Variable Name": "Very often"
   },
   "847753225": {
     "Variable Label": "Why Connect - want payment",
@@ -18784,6 +19025,12 @@
   },
   "865134801": {
     "Variable Name": "One day per month"
+  },
+  "865184485": {
+    "Variable Label": "Cognitive function - slow thinking",
+    "Variable Name": [
+      "SrvQoL_CogFunctn7D1_v1r0"
+    ]
   },
   "865200503": {
     "Variable Label": "Last 12 Mons - Downhill Ski/Snowboard",
@@ -19288,6 +19535,12 @@
   "886364332": {
     "Variable Name": "HFH Cancer Pavilion Research Clinic"
   },
+  "886583238": {
+    "Variable Label": "Anxiety - felt uneasy",
+    "Variable Name": [
+      "SrvQoL_Anxiety7D4_v1r0"
+    ]
+  },
   "886771318": {
     "Variable Label": "Fluoride mouthwash",
     "Variable Name": [
@@ -19726,6 +19979,12 @@
     "Variable Label": "Street number",
     "Variable Name": [
       "SrvLAW_PreWorkStNum_v1r0"
+    ]
+  },
+  "904462042": {
+    "Variable Label": "Pain - work around the home",
+    "Variable Name": [
+      "SrvQoL_PainIntrf7D2_v1r0"
     ]
   },
   "904550680": {
@@ -20281,6 +20540,12 @@
   },
   "929240175": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had coronary artery/coronary heart disease?"
+  },
+  "930035696": {
+    "Variable Label": "Depression - felt helpless",
+    "Variable Name": [
+      "SrvQoL_Depress7D2_v1r0"
+    ]
   },
   "930208825": {
     "Variable Label": "How many days used  marijuana, age last used",
