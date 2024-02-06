@@ -1,0 +1,41 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "285882990.json"
+  ],
+  "conceptId": "179708390",
+  "Current Question Text": "Are you able to do chores such as vacuuming or yard work?",
+  "Variable Label": "Physical function - chores",
+  "Variable Name": [
+    "SrvQoL_PhysFnct1_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Question Type": "Multiple Choice",
+  "IMS Review Notes": "New Quality of Life Survey",
+  "Formula for Index": [
+    "9535",
+    "9536",
+    "9537",
+    "9538",
+    "9539"
+  ],
+  "Index": [
+    "9535",
+    "9536",
+    "9537",
+    "9538",
+    "9539"
+  ],
+  "Current Format/Value": {
+    "291643467.json": "4",
+    "405700450.json": "3",
+    "738848800.json": "2",
+    "736763647.json": "1",
+    "649362575.json": "0"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "285882990.json"
+  ],
+  "conceptId": "726711383",
+  "Current Question Text": "During the past 7 days, I have trouble starting things because I am tired",
+  "Variable Label": "Fatigue - tired",
+  "Variable Name": [
+    "SrvQoL_Fatigue7D2_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Question Type": "Multiple Choice",
+  "IMS Review Notes": "New Quality of Life Survey",
+  "Formula for Index": [
+    "9600",
+    "9601",
+    "9602",
+    "9603",
+    "9604"
+  ],
+  "Index": [
+    "9600",
+    "9601",
+    "9602",
+    "9603",
+    "9604"
+  ],
+  "Current Format/Value": {
+    "111520945.json": "0",
+    "548628123.json": "1",
+    "567908725.json": "2",
+    "760969884.json": "3",
+    "464631026.json": "4"
+  }
+}
