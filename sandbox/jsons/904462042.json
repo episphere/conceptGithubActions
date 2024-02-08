@@ -1,0 +1,41 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "285882990.json"
+  ],
+  "conceptId": "904462042",
+  "Current Question Text": "In the past 7 days, how much did pain interfere with work around the home?",
+  "Variable Label": "Pain - work around the home",
+  "Variable Name": [
+    "SrvQoL_PainIntrf7D2_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Question Type": "Multiple Choice",
+  "IMS Review Notes": "New Quality of Life Survey",
+  "Formula for Index": [
+    "9660",
+    "9661",
+    "9662",
+    "9663",
+    "9664"
+  ],
+  "Index": [
+    "9660",
+    "9661",
+    "9662",
+    "9663",
+    "9664"
+  ],
+  "Current Format/Value": {
+    "111520945.json": "0",
+    "548628123.json": "1",
+    "567908725.json": "2",
+    "760969884.json": "3",
+    "464631026.json": "4"
+  }
+}

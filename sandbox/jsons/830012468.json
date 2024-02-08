@@ -1,0 +1,41 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "285882990.json"
+  ],
+  "conceptId": "830012468",
+  "Current Question Text": "In the past 7 days, how much did pain interfere with your household chores?",
+  "Variable Label": "Pain - household chores",
+  "Variable Name": [
+    "SrvQoL_PainIntrf7D4_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Question Type": "Multiple Choice",
+  "IMS Review Notes": "New Quality of Life Survey",
+  "Formula for Index": [
+    "9670",
+    "9671",
+    "9672",
+    "9673",
+    "9674"
+  ],
+  "Index": [
+    "9670",
+    "9671",
+    "9672",
+    "9673",
+    "9674"
+  ],
+  "Current Format/Value": {
+    "111520945.json": "0",
+    "548628123.json": "1",
+    "567908725.json": "2",
+    "760969884.json": "3",
+    "464631026.json": "4"
+  }
+}
