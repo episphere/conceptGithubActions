@@ -3,7 +3,13 @@
     "129084651.json"
   ],
   "Secondary Source": [
-    "285882990.json"
+    "601305072.json"
+  ],
+  "Current Source Question": [
+    "899081270.json"
+  ],
+  "GridID/Source Question Name": [
+    "NEST_SRVQOL_PHYSFNCTINTRO_V1R0"
   ],
   "conceptId": "569149794",
   "Current Question Text": "Are you able to run errands and shop?",
@@ -15,21 +21,21 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Question Type": "Multiple Choice",
+  "Question Type": "Nested",
   "IMS Review Notes": "New Quality of Life Survey",
   "Formula for Index": [
-    "9550",
-    "9551",
-    "9552",
-    "9553",
-    "9554"
+    "9557",
+    "9558",
+    "9559",
+    "9560",
+    "9561"
   ],
   "Index": [
-    "9550",
-    "9551",
-    "9552",
-    "9553",
-    "9554"
+    "9557",
+    "9558",
+    "9559",
+    "9560",
+    "9561"
   ],
   "Current Format/Value": {
     "291643467.json": "4",

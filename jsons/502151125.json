@@ -1,0 +1,47 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "601305072.json"
+  ],
+  "Current Source Question": [
+    "670651391.json"
+  ],
+  "GridID/Source Question Name": [
+    "NEST_SRVQOL_SLEEPINTRO_V1R0"
+  ],
+  "conceptId": "502151125",
+  "Current Question Text": "My sleep quality was",
+  "Variable Label": "Sleep - quality",
+  "Variable Name": [
+    "SrvQoL_Sleep7D1_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Question Type": "Nested",
+  "IMS Review Notes": "New Quality of Life Survey",
+  "Formula for Index": [
+    "9622",
+    "9623",
+    "9624",
+    "9625",
+    "9626"
+  ],
+  "Index": [
+    "9622",
+    "9623",
+    "9624",
+    "9625",
+    "9626"
+  ],
+  "Current Format/Value": {
+    "878535894.json": "4",
+    "138752522.json": "3",
+    "131550264.json": "2",
+    "719933364.json": "1",
+    "565881164.json": "0"
+  }
+}

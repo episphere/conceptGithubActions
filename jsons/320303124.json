@@ -5,7 +5,7 @@
   "Secondary Source": [
     "601305072.json"
   ],
-  "Deprecated, New, or Revised": "New",
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "320303124",
   "Current Question Text": "3-month Quality of Life (PROMIS) survey completion",
   "Variable Label": "Flag PROMIS Surv",
@@ -16,24 +16,28 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
+  "Notes": "Default will be Not Yet Eligible. This new status only applies to the QoL survey for now. The 3-mo PROMIS survey will trigger based on the first notification (email) being sent, so the date/time of that email in the Notifications table will serve at the date/time the survey was sent.",
   "Dictionary": "PROMIS Survey",
   "State Attribute": "No",
-  "Default Variable": "No",
-  "Date added or modified": "1/29/24",
+  "Default Variable": "Yes",
+  "Date added or modified": "2/8/24",
   "GCP Document/Table": "Participants Table",
   "Formula for Index": [
     "1092",
     "1093",
-    "1094"
+    "1094",
+    "1095"
   ],
   "Index": [
     "1092",
     "1093",
-    "1094"
+    "1094",
+    "1095"
   ],
   "Current Format/Value": {
     "972455046.json": "0",
     "615768760.json": "1",
-    "231311385.json": "2"
+    "231311385.json": "2",
+    "789467219.json": "3"
   }
 }
