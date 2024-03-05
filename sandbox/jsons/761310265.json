@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "3203",
-  "Index": "3203",
+  "Formula for Index": "3213",
+  "Index": "3213",
   "Primary Source": [
     "129084651.json"
   ],
@@ -8,6 +8,7 @@
     "726699695.json"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/1/24",
   "conceptId": "761310265",
   "Current Question Text": "Please identify the occupation category that best describes this current job.",
   "Variable Label": "Curr Occ Category",
@@ -22,7 +23,7 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Before Jan 2024, 4 responses were piped in from SOCcer. Revised so that 6 responses are piped in.",
-  "Date added or modified": "8/22/23",
+  "Date added or modified": "2/28/24",
   "Question Type": "Self Populates Outside of Quest",
-  "IMS Review Notes": "Denoted as revised, changed suffix to _v1r1, and added notes on number of responses piped in."
+  "IMS Review Notes": "Added Prod Push Date"
 }

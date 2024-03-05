@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "3598",
-  "Index": "3598",
+  "Formula for Index": "3608",
+  "Index": "3608",
   "Primary Source": [
     "129084651.json"
   ],
@@ -8,6 +8,7 @@
     "745268907.json"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/1/24",
   "conceptId": "263114971",
   "Current Question Text": "In the past 12 months, about how many days long was your usual menstrual cycle? Breakthrough bleeding is not part of the menstrual cycle.",
   "V1 Question Text": "In the past 12 months, about how many days long was your usual menstrual cycle?",
@@ -23,6 +24,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min = 21 and max = 99.",
-  "Date added or modified": "8/24/23",
-  "IMS Review Notes": "Denoted as revised, Revised Current Question Text, moved V1 text to V1 Question Text, and changed Variable Name suffix from _v1r0 to _v2r0. Added range check to Notes."
+  "Date added or modified": "2/28/24",
+  "IMS Review Notes": "Added Prod Push Date"
 }
