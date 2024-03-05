@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "1934",
+  "Index": "1934",
+  "Primary Source": [
+    "290739590.json"
+  ],
+  "Secondary Source": [
+    "708990554.json"
+  ],
+  "conceptId": "493632215",
+  "Current Question Text": "failedDate: the date Twilio has received a delivery receipt indicating that the message was failed",
+  "Variable Label": "failedDate",
+  "Variable Name": [
+    "CTSG_failedDate_v1r0"
+  ],
+  "Variable Type": "ISO",
+  "Variable Length": "24",
+  "Current Format/Value": "example: 2023-12-06T20:00:12.000Z",
+  "Required": "Yes",
+  "PII": "No",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "2/29/24",
+  "GCP Document/Table": "SendGrid Table"
+}

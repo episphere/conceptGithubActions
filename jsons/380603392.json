@@ -8,6 +8,7 @@
     "826163434.json"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/1/24",
   "conceptId": "380603392",
   "Current Question Text": "Have you had a menstrual period in the last 12 months? Please do not consider breakthrough bleeding (also known as spotting) as part of the menstrual period.",
   "V1 Question Text": "Have you had a menstrual period in the last 12 months?",
@@ -22,16 +23,16 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "10/26/23",
+  "Date added or modified": "2/28/24",
   "Question Type": "Required Multiple Choice",
-  "IMS Review Notes": "Revised Current Question Text. Added text to V1 Question text. Updated Variable name suffix to _v2r0",
+  "IMS Review Notes": "Added prod push date",
   "Formula for Index": [
-    "7367",
-    "7368"
+    "7377",
+    "7378"
   ],
   "Index": [
-    "7367",
-    "7368"
+    "7377",
+    "7378"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

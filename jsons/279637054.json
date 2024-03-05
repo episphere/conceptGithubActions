@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "3258",
-  "Index": "3258",
+  "Formula for Index": "3268",
+  "Index": "3268",
   "Primary Source": [
     "129084651.json"
   ],
@@ -8,6 +8,7 @@
     "726699695.json"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/1/24",
   "conceptId": "279637054",
   "Current Question Text": "Please identify the occupation category that best describes this longest held job.",
   "Variable Label": "Past Occ Category",
@@ -22,7 +23,7 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Before Jan 2024, 4 responses were piped in from SOCcer. Revised so that 6 responses are piped in.",
-  "Date added or modified": "8/22/23",
+  "Date added or modified": "2/28/24",
   "Question Type": "Self Populates Outside of Quest",
-  "IMS Review Notes": "Denoted as revised, changed suffix to _v1r1, and added notes on number of responses piped in."
+  "IMS Review Notes": "Added prod push date"
 }

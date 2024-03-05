@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2555",
-  "Index": "2555",
+  "Formula for Index": "2565",
+  "Index": "2565",
   "Primary Source": [
     "129084651.json"
   ],
@@ -14,6 +14,7 @@
     "BLDTRANS3"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/1/24",
   "conceptId": "380275309",
   "Current Question Text": "First blood transfusion age",
   "Variable Label": "First Blood Transfusion Age",
@@ -29,7 +30,7 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if BLDTRANS=YES. Range check (max previously was age): min=0 max=sum(isDefined(D_150344905,age),1)",
-  "Date added or modified": "11/16/23",
+  "Date added or modified": "2/28/24",
   "Question Type": "Or (xor=) Question (either/or text boxes without radio button)",
-  "IMS Review Notes": "Denoted as revised and added range check to Notes."
+  "IMS Review Notes": "Added prod push date"
 }

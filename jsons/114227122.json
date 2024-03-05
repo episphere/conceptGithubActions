@@ -1,0 +1,35 @@
+{
+  "Primary Source": [
+    "692924902.json"
+  ],
+  "Secondary Source": [
+    "637153953.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "114227122",
+  "Current Question Text": "Has the participant's vital status been confirmed 'alive' at the time of RCA data transfer?",
+  "Variable Label": "RCA vital status",
+  "Variable Name": [
+    "RCAOcc_ManualVitalStat_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "2/29/24",
+  "Formula for Index": [
+    "1876",
+    "1877"
+  ],
+  "Index": [
+    "1876",
+    "1877"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

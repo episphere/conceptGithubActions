@@ -15,7 +15,6 @@ const invalidKeyValueObjectsArray = []
 for (let i = 0; i < varToConceptArray.length; i++) {
     const [key, value] = varToConceptArray[i];
     
-    const trimmedValue = value.trim();
   if (value.trim().length !== 9) {
     console.log(key);
     console.log(value);

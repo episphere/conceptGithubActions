@@ -15,13 +15,14 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Required": "Yes if SrvBLM_ResSrvCompl_v1r0 (299215535.265193023) = submitted (231311385) AND SrvBlU_MENST60_v1r0 (112151599) = yes (353358909 OR if SrvBlU_BaseComplete_v1r0 (826163434.253883960) = submitted (231311385) AND SrvBlU_MENST60_v1r0 (112151599) = yes",
+  "Required": "Yes if SrvBLM_ResSrvCompl_v1r0 (299215535.265193023) = submitted (231311385) AND SrvBlU_MENST60_v2r0 (112151599) = yes (353358909 OR if SrvBlU_BaseComplete_v1r0 (826163434.253883960) = submitted (231311385) AND SrvBlU_MENST60_v2r0 (112151599) = yes",
   "PII": "No",
   "Dictionary": "Master Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "11/25/22",
+  "Date added or modified": "2/28/24",
   "GCP Document/Table": "Participants Table Not nested (d_289750687)",
+  "IMS Review Notes": "Revised MENST60 variable name suffix in Required column",
   "Formula for Index": [
     "1085",
     "1086"

@@ -1,17 +1,19 @@
 {
-  "Formula for Index": "1927",
-  "Index": "1927",
+  "Formula for Index": "1937",
+  "Index": "1937",
   "Primary Source": [
     "129084651.json"
   ],
   "Secondary Source": [
     "726699695.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/1/24",
   "conceptId": "150344905",
   "Current Question Text": "How old are you today?",
   "Variable Label": "Age",
   "Variable Name": [
-    "SrvBOH_Age_v1r0"
+    "SrvBOH_Age_v1r1"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "AGE"
@@ -21,8 +23,8 @@
   "Current Format/Value": "N/A",
   "Required": "Yes",
   "PII": "Yes",
-  "Notes": "Range check min=40 max=70",
-  "Date added or modified": "8/28/23",
+  "Notes": "Range check min=30 max=75. (Previously was min=40 max=70)",
+  "Date added or modified": "2/28/24",
   "Question Type": "Text only Response",
-  "IMS Review Notes": "Added range check to Notes"
+  "IMS Review Notes": "Added prod push date and updated range check."
 }
