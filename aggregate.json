@@ -477,6 +477,12 @@
   "113930886": {
     "Variable Name": "Address 6- What is the full street address of the place you lived before? Please only include addresses where you have lived for at least two years."
   },
+  "114227122": {
+    "Variable Label": "RCA vital status",
+    "Variable Name": [
+      "RCAOcc_ManualVitalStat_v1r0"
+    ]
+  },
   "114280729": {
     "Variable Name": "How long did you experience the following symptoms?"
   },
@@ -1287,6 +1293,12 @@
       "BioShip_ShipSubmit_v1r0"
     ]
   },
+  "146163703": {
+    "Variable Label": "undeliveredDate",
+    "Variable Name": [
+      "CTSG_undeliveredDate_v1r0"
+    ]
+  },
   "146307133": {
     "Variable Label": "Time, Bus or streetcar/trolley, light rail/trolley commute from current work",
     "Variable Name": [
@@ -1393,7 +1405,7 @@
   "150344905": {
     "Variable Label": "Age",
     "Variable Name": [
-      "SrvBOH_Age_v1r0"
+      "SrvBOH_Age_v1r1"
     ]
   },
   "150352141": {
@@ -3524,6 +3536,12 @@
   "230748315": {
     "Variable Name": "Blond"
   },
+  "231015835": {
+    "Variable Label": "status",
+    "Variable Name": [
+      "CTSG_status_v1r0"
+    ]
+  },
   "231311385": {
     "Variable Name": "Submitted"
   },
@@ -3546,6 +3564,12 @@
       "SrvLAW_Under1MoAdd8_v1r0",
       "SrvLAW_Under1MoAdd9_v1r0",
       "SrvLAW_Under1MoAdd10_v1r0"
+    ]
+  },
+  "232281856": {
+    "Variable Label": "errorCode",
+    "Variable Name": [
+      "CTSG_errorCode_v1r0"
     ]
   },
   "232334767": {
@@ -5638,6 +5662,9 @@
     "Variable Name": [
       "SrvSAS_DaysUsedCTMo_v1r0"
     ]
+  },
+  "319972665": {
+    "Variable Name": "BioKit_Mouthwash"
   },
   "320023644": {
     "Variable Label": "BL Case N",
@@ -8451,6 +8478,12 @@
   "450154625": {
     "Variable Name": "Address 9- What year did you move out of [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]?"
   },
+  "450319180": {
+    "Variable Label": "errorMessage",
+    "Variable Name": [
+      "CTSG_errorMessage_v1r0"
+    ]
+  },
   "450433102": {
     "Variable Label": "City",
     "Variable Name": [
@@ -9540,6 +9573,12 @@
     "Variable Label": "UserID",
     "Variable Name": [
       "uid"
+    ]
+  },
+  "493632215": {
+    "Variable Label": "failedDate",
+    "Variable Name": [
+      "CTSG_failedDate_v1r0"
     ]
   },
   "493642768": {
@@ -17607,6 +17646,12 @@
       "SrvLAW_PreWorkWalk3_v1r0"
     ]
   },
+  "808042990": {
+    "Variable Label": "deliveredDate",
+    "Variable Name": [
+      "CTSG_deliveredDate_v1r0"
+    ]
+  },
   "808655074": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Leukemia (blood and bone marrow) cancer?"
   },
@@ -18470,6 +18515,12 @@
     "Variable Label": "D/T Mens Surv Start",
     "Variable Name": [
       "SrvMC_TmStart_v1r0"
+    ]
+  },
+  "844209241": {
+    "Variable Label": "Confirm Dx and Part Aware of Dx",
+    "Variable Name": [
+      "RCAOcc_ConfirmPartAware_v1r0"
     ]
   },
   "845122623": {
@@ -22360,7 +22411,7 @@
   "999062114": {
     "Variable Label": "Date Recipient Unsub From Email List",
     "Variable Name": [
-      "CTSG_UnsubDt_v1r0"
+      "CTSG_UnsubDtTm_v1r0"
     ]
   },
   "999694720": {
@@ -22368,8 +22419,5 @@
   },
   "999994434": {
     "Variable Name": "Bisexual"
-  },
-  "8583443674": {
-    "Variable Name": "BioKit_Mouthwash"
   }
 }
