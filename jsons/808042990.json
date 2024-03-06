@@ -1,17 +1,17 @@
 {
-  "Formula for Index": "1933",
-  "Index": "1933",
+  "Formula for Index": "1938",
+  "Index": "1938",
   "Primary Source": [
     "290739590.json"
   ],
   "Secondary Source": [
-    "708990554.json"
+    "666892582.json"
   ],
   "conceptId": "808042990",
   "Current Question Text": "deliveredDate: The date Twilio has received the confirmation of message delivery from the carrier",
   "Variable Label": "deliveredDate",
   "Variable Name": [
-    "CTSG_deliveredDate_v1r0"
+    "CTTwil_deliveredDate_v1r0"
   ],
   "Variable Type": "ISO",
   "Variable Length": "24",
@@ -21,6 +21,5 @@
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "2/29/24",
-  "GCP Document/Table": "SendGrid Table"
+  "Date added or modified": "2/29/24"
 }

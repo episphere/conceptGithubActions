@@ -1,17 +1,17 @@
 {
-  "Formula for Index": "1929",
-  "Index": "1929",
+  "Formula for Index": "1934",
+  "Index": "1934",
   "Primary Source": [
     "290739590.json"
   ],
   "Secondary Source": [
-    "708990554.json"
+    "666892582.json"
   ],
   "conceptId": "231015835",
   "Current Question Text": "status: a status value which described the current state of the outbound message",
   "Variable Label": "status",
   "Variable Name": [
-    "CTSG_status_v1r0"
+    "CTTwil_status_v1r0"
   ],
   "Variable Type": "Char",
   "Variable Length": "12",
@@ -21,6 +21,5 @@
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "2/29/24",
-  "GCP Document/Table": "SendGrid Table"
+  "Date added or modified": "2/29/24"
 }
