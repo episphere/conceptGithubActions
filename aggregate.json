@@ -459,6 +459,12 @@
       "SrvLAW_DeepPrivWell6_v1r0"
     ]
   },
+  "113579866": {
+    "Variable Label": "Suspend Contact Until D/T",
+    "Variable Name": [
+      "HdWd_Suspend_v1r0"
+    ]
+  },
   "113681507": {
     "Variable Label": "# Yrs Baby/L-D Aspirin",
     "Variable Name": [
@@ -625,7 +631,7 @@
     ]
   },
   "119449326": {
-    "Variable Label": "Date Data Dest Signed",
+    "Variable Label": "D/T Data Dest Signed",
     "Variable Name": [
       "HdWd_DateDatadestsign_v1r0"
     ]
@@ -643,7 +649,7 @@
     ]
   },
   "119643471": {
-    "Variable Label": "SF Race",
+    "Variable Label": "SF Reported Race",
     "Variable Name": [
       "RcrtSI_SHRace_v1r0"
     ]
@@ -731,6 +737,12 @@
   },
   "123496044": {
     "Variable Name": "Specimen Link"
+  },
+  "123868967": {
+    "Variable Label": "Date Part Deceased",
+    "Variable Name": [
+      "HdWd_DeceasedDt_v1r0"
+    ]
   },
   "123926260": {
     "Variable Label": "Cigar",
@@ -2308,7 +2320,7 @@
     ]
   },
   "188797763": {
-    "Variable Label": "Outreach Required for Verif",
+    "Variable Label": "Outreach Required",
     "Variable Name": [
       "RcrtV_Outreach_v1r0"
     ]
@@ -3203,7 +3215,7 @@
     ]
   },
   "217367618": {
-    "Variable Label": "Base Spec Surv",
+    "Variable Label": "Ref Base Spec Surv",
     "Variable Name": [
       "HdRef_BlSpecSrv_v1r0"
     ]
@@ -4519,7 +4531,7 @@
     ]
   },
   "269050420": {
-    "Variable Label": "Date Data Dest Req",
+    "Variable Label": "D/T Data Dest Req",
     "Variable Name": [
       "HdRef_DateDatadestroy_v1r0"
     ]
@@ -5905,7 +5917,7 @@
     ]
   },
   "335767902": {
-    "Variable Label": "Time First Sign-In",
+    "Variable Label": "D/T First Sign-In",
     "Variable Name": [
       "RcrtSI_SignTime_v1r0"
     ]
@@ -6057,6 +6069,9 @@
       "BioKit_KitDatePend_v1r0"
     ]
   },
+  "341709648": {
+    "Variable Name": "Other relative or proxy"
+  },
   "342677547": {
     "Variable Label": "Vacation home",
     "Variable Name": [
@@ -6157,7 +6172,7 @@
     "Variable Name": "Screening appointment"
   },
   "348474836": {
-    "Variable Label": "Phone",
+    "Variable Label": "Phone Login",
     "Variable Name": [
       "phoneNumber"
     ]
@@ -7786,7 +7801,7 @@
     ]
   },
   "421823980": {
-    "Variable Label": "Email",
+    "Variable Label": "Email Login",
     "Variable Name": [
       "email"
     ]
@@ -8015,7 +8030,7 @@
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Pancreatitis?"
   },
   "430551721": {
-    "Variable Label": "Time UP Sub",
+    "Variable Label": "D/T UP Sub",
     "Variable Name": [
       "RcrtUP_SubmitTime_v1r0"
     ]
@@ -8141,7 +8156,7 @@
     ]
   },
   "435027713": {
-    "Variable Label": "SF/HFH Sex",
+    "Variable Label": "SF/HFH Reported Sex",
     "Variable Name": [
       "RcrtSI_SH_HFHS_Sex_v1r0"
     ]
@@ -8669,7 +8684,7 @@
     ]
   },
   "454445267": {
-    "Variable Label": "Consent Sub Time",
+    "Variable Label": "D/T Consent Sub",
     "Variable Name": [
       "RcrtCS_ConsentSumit_v1r0"
     ]
@@ -9082,7 +9097,7 @@
     ]
   },
   "471593703": {
-    "Variable Label": "Time Recruit Type Assigned",
+    "Variable Label": "D/T Recruit Type Assigned",
     "Variable Name": [
       "RcrtSI_TypeTime_v1r0"
     ]
@@ -10198,7 +10213,7 @@
     "Variable Name": "Shipping - Feedback"
   },
   "521025370": {
-    "Variable Label": "Time Study ID Submitted",
+    "Variable Label": "D/T Study ID Sub",
     "Variable Name": [
       "RcrtSI_TimeStamp_v1r0"
     ]
@@ -10412,7 +10427,7 @@
     ]
   },
   "527823810": {
-    "Variable Label": "HFH Eth",
+    "Variable Label": "HFH Reported Eth",
     "Variable Name": [
       "RcrtSI_HFHSEthnicity_v1r0"
     ]
@@ -10694,7 +10709,7 @@
     ]
   },
   "536735468": {
-    "Variable Label": "Flag Base Mod Meds, Repro, Health, Exer, and Sleep",
+    "Variable Label": "Flag Base Mod MRE",
     "Variable Name": [
       "SrvMRE_BaseStatus_v1r0"
     ]
@@ -10736,7 +10751,7 @@
     ]
   },
   "538553381": {
-    "Variable Label": "SF Eth",
+    "Variable Label": "SF Reported Eth",
     "Variable Name": [
       "RcrtSI_SHEthnicity_v1r0"
     ]
@@ -12186,6 +12201,9 @@
       "SrvMRE_LAspirinPillDK_v1r0"
     ]
   },
+  "597175457": {
+    "Variable Name": "Child"
+  },
   "597477164": {
     "Variable Name": "A lot"
   },
@@ -12445,7 +12463,7 @@
     "Variable Name": "Seasonal Address 8- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select: I still spend time here."
   },
   "613641698": {
-    "Variable Label": "Date HIPAA Rev Signed",
+    "Variable Label": "D/T HIPAA Rev Signed",
     "Variable Name": [
       "HdWd_DateHIPAArevsign_v1r0"
     ]
@@ -13675,7 +13693,7 @@
     ]
   },
   "659990606": {
-    "Variable Label": "Date Withdrew Consent",
+    "Variable Label": "D/T Withdrew Consent",
     "Variable Name": [
       "HdWd_WdConsentDt_v1r0"
     ]
@@ -13781,7 +13799,7 @@
     ]
   },
   "664453818": {
-    "Variable Label": "Date HIPAA Rev Req",
+    "Variable Label": "D/T HIPAA Rev Req",
     "Variable Name": [
       "HdRef_DateHIPAArevoked_v1r0"
     ]
@@ -13974,6 +13992,12 @@
   },
   "672312050": {
     "Variable Name": "Not long enough - I want to answer more questions"
+  },
+  "672401635": {
+    "Variable Label": "D/T Deceased Data Sub",
+    "Variable Name": [
+      "HdWd_DeceasedDtEntry_v1r0"
+    ]
   },
   "672810476": {
     "Variable Label": "No Mens Pd in 12 Mo - Free Text",
@@ -14321,7 +14345,7 @@
     "Variable Name": "I do not commute to work"
   },
   "684926335": {
-    "Variable Label": "HFH Race",
+    "Variable Label": "HFH Reported Race",
     "Variable Name": [
       "RcrtSI_HFHSRace_v1r0"
     ]
@@ -14920,7 +14944,7 @@
     ]
   },
   "706256705": {
-    "Variable Label": "Site Sex",
+    "Variable Label": "Site Reported Sex",
     "Variable Name": [
       "RcrtSI_Sex_v1r0"
     ]
@@ -15340,6 +15364,12 @@
     "Variable Label": "Breast Ultrasound",
     "Variable Name": [
       "SrvScr_BRSTULTRA_v1r0"
+    ]
+  },
+  "726389747": {
+    "Variable Label": "Contact Suspended",
+    "Variable Name": [
+      "HdWd_SuspendContact_v1r0"
     ]
   },
   "726451917": {
@@ -16357,6 +16387,12 @@
       "SrvBOH_Dominican_v1r0"
     ]
   },
+  "764403541": {
+    "Variable Label": "Source Deceased Report",
+    "Variable Name": [
+      "HdWd_SourceofReport_v1r0"
+    ]
+  },
   "764708931": {
     "Variable Name": "Very flexible"
   },
@@ -16607,6 +16643,12 @@
     "Variable Label": "How often drink alcohol, Age 60 to Age 69",
     "Variable Name": [
       "SrvSAS_AlcOften6069_v1r0"
+    ]
+  },
+  "772354119": {
+    "Variable Label": "EMR participant deceased D/T",
+    "Variable Name": [
+      "HdWd_EMRPartDecTm_v1r0"
     ]
   },
   "772382520": {
@@ -17854,6 +17896,9 @@
       "SrvSAS_ChewTob_v1r0"
     ]
   },
+  "817514412": {
+    "Variable Name": "Spouse/partner"
+  },
   "817839081": {
     "Variable Label": "Apartment, suite, unit, building, etc.",
     "Variable Name": [
@@ -18643,7 +18688,7 @@
     ]
   },
   "849518448": {
-    "Variable Label": "Site Race/Eth",
+    "Variable Label": "Site Reported Race/Eth",
     "Variable Name": [
       "RcrtSI_Race_v1r0"
     ]
@@ -18814,6 +18859,12 @@
   },
   "857165713": {
     "Variable Name": "Since the beginning of 2020, have you experienced any of the following symptoms? COV23B"
+  },
+  "857217152": {
+    "Variable Label": "EMR participant deceased",
+    "Variable Name": [
+      "HdWd_EMRPartDec_v1r0"
+    ]
   },
   "857219333": {
     "Variable Label": "Natural color eyes",
@@ -19664,6 +19715,9 @@
       "SrvCov_COV25_v1r0"
     ]
   },
+  "890182396": {
+    "Variable Name": "IHCS Staff"
+  },
   "890637099": {
     "Variable Label": "Sib 1 Living",
     "Variable Name": [
@@ -20200,7 +20254,7 @@
     "Variable Name": "Seasonal Address 4- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select: I still spend time here."
   },
   "914594314": {
-    "Variable Label": "Verif Time",
+    "Variable Label": "D/T Verif",
     "Variable Name": [
       "RcrtV_VerificationTm_V1R0"
     ]
@@ -20690,7 +20744,7 @@
     ]
   },
   "934298480": {
-    "Variable Label": "Site Age at Recruitment",
+    "Variable Label": "Site Reported Age",
     "Variable Name": [
       "RcrtSI_Age_v1r0"
     ]
