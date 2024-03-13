@@ -1,0 +1,37 @@
+{
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "635994596.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/19/24",
+  "conceptId": "857217152",
+  "Current Question Text": "EMR participant deceased",
+  "Variable Label": "EMR participant deceased",
+  "Variable Name": [
+    "HdWd_EMRPartDec_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Sent to us from the sites via API. This is for verified pts and not withdrawn pts only",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "1/19/24",
+  "Formula for Index": [
+    "1487",
+    "1488"
+  ],
+  "Index": [
+    "1487",
+    "1488"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}
