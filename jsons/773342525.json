@@ -1,4 +1,6 @@
 {
+  "conceptId": "773342525",
+  "Current Question Text": "Spanish",
   "Primary Source": [
     "129084651.json",
     "129084651.json",
@@ -19,8 +21,6 @@
     "RACEETH8",
     "LANG"
   ],
-  "conceptId": "773342525",
-  "Current Question Text": "Spanish",
   "Variable Label": "Spanish",
   "Variable Name": [
     "SrvBOH_Spanish_v1r0",
@@ -39,12 +39,12 @@
   "Notes": "Only display if RACEETH = Hispanic, Latino, or Spanish",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "2049",
-    "2050"
+    "2075",
+    "2076"
   ],
   "Index": [
-    "2049",
-    "2050"
+    "2075",
+    "2076"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

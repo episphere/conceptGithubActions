@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "1169",
-  "Index": "1169",
+  "Formula for Index": "1181",
+  "Index": "1181",
   "Primary Source": [
     "819848608.json",
     "819848608.json",
@@ -33,11 +33,11 @@
   "Current Format/Value": "N/A",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Sent by KP",
+  "Notes": "from site EMR, sent to NCI via API",
   "Dictionary": "Biospecimen Clinical",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "9/7/23",
+  "Date added or modified": "3/21/24",
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_185243482 (2nd CID may change based on BL/F-U1,2,3)",
   "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable Name from BioClin_SiteBlLocation_v1r0 to BioClin_SiteBldLocBL_v1r0"
 }

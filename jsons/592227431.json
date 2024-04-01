@@ -5,6 +5,7 @@
   "Secondary Source": [
     "635994596.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "592227431",
   "Current Question Text": "Suffix- Data Destruction",
   "Variable Label": "Suffix",
@@ -12,33 +13,43 @@
     "HdWd_SuffixDD_v1r0"
   ],
   "Variable Type": "Num",
-  "Variable Length": "1",
+  "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Notes": "Additional options may be added later.",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "2/11/22",
+  "Date added or modified": "4/1/24",
   "GCP Document/Table": "Participants Table Not nested (d_592227431)",
   "Question Type": "Same question text as RcrtCS_Suffix_v1r0, RcrtUP_Suffix_v1r0 and HdWd_Suffix_v1r0",
   "Formula for Index": [
-    "1471",
-    "1472",
-    "1473",
-    "1474",
-    "1475",
-    "1476",
-    "1477"
+    "1488",
+    "1489",
+    "1490",
+    "1491",
+    "1492",
+    "1493",
+    "1494",
+    "1495",
+    "1496",
+    "1497",
+    "1498",
+    "1499"
   ],
   "Index": [
-    "1471",
-    "1472",
-    "1473",
-    "1474",
-    "1475",
-    "1476",
-    "1477"
+    "1488",
+    "1489",
+    "1490",
+    "1491",
+    "1492",
+    "1493",
+    "1494",
+    "1495",
+    "1496",
+    "1497",
+    "1498",
+    "1499"
   ],
   "Current Format/Value": {
     "612166858.json": "0",
@@ -46,7 +57,12 @@
     "226924545.json": "2",
     "270793412.json": "3",
     "959021713.json": "4",
-    "643664527.json": "5",
-    "537892528.json": "6"
+    "611945488.json": "5",
+    "773963342.json": "6",
+    "911299066.json": "7",
+    "528373182.json": "8",
+    "233284019.json": "9",
+    "643664527.json": "10",
+    "537892528.json": "11"
   }
 }

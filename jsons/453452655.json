@@ -30,20 +30,20 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Sent by KP",
+  "Notes": "from site EMR, sent to NCI via API",
   "Dictionary": "Biospecimen Clinical",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "9/7/23",
+  "Date added or modified": "3/21/24",
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_453452655 (2nd CID may change based on BL/F-U1,2,3)",
   "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_SiteUrineRRL_v1r0 with BioClin_SiteUrineRRLBL_v1r0",
   "Formula for Index": [
-    "987",
-    "988"
+    "999",
+    "1000"
   ],
   "Index": [
-    "987",
-    "988"
+    "999",
+    "1000"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

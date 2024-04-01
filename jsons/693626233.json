@@ -5,6 +5,7 @@
   "Secondary Source": [
     "635994596.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "693626233",
   "Current Question Text": "Suffix- HIPAA Revocation",
   "Variable Label": "Suffix",
@@ -12,33 +13,43 @@
     "HdWd_Suffix_v1r0"
   ],
   "Variable Type": "Num",
-  "Variable Length": "1",
+  "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Notes": "Additional options may be added later.",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "2/11/22",
+  "Date added or modified": "4/1/24",
   "GCP Document/Table": "Participants Table Not nested (d_693626233)",
   "Question Type": "Same Question text as RcrtCS_Suffix_v1r0 and RcrtUP_Suffix_v1r0",
   "Formula for Index": [
-    "1408",
-    "1409",
-    "1410",
-    "1411",
-    "1412",
-    "1413",
-    "1414"
+    "1420",
+    "1421",
+    "1422",
+    "1423",
+    "1424",
+    "1425",
+    "1426",
+    "1427",
+    "1428",
+    "1429",
+    "1430",
+    "1431"
   ],
   "Index": [
-    "1408",
-    "1409",
-    "1410",
-    "1411",
-    "1412",
-    "1413",
-    "1414"
+    "1420",
+    "1421",
+    "1422",
+    "1423",
+    "1424",
+    "1425",
+    "1426",
+    "1427",
+    "1428",
+    "1429",
+    "1430",
+    "1431"
   ],
   "Current Format/Value": {
     "612166858.json": "0",
@@ -46,7 +57,12 @@
     "226924545.json": "2",
     "270793412.json": "3",
     "959021713.json": "4",
-    "643664527.json": "5",
-    "537892528.json": "6"
+    "611945488.json": "5",
+    "773963342.json": "6",
+    "911299066.json": "7",
+    "528373182.json": "8",
+    "233284019.json": "9",
+    "643664527.json": "10",
+    "537892528.json": "11"
   }
 }
