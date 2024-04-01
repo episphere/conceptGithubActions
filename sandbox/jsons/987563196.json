@@ -1,6 +1,4 @@
 {
-  "Formula for Index": "1478",
-  "Index": "1478",
   "Primary Source": [
     "237817859.json"
   ],
@@ -15,15 +13,24 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Current Format/Value": {
-    "104430631.json": "0"
-  },
   "Required": "Yes",
   "PII": "No",
-  "Notes": "This is set either from the NORC dashboard or if HdWd_EMRPartDec_v1r0 is set to",
+  "Notes": "This is set either from the NORC dashboard or if HdWd_EMRPartDec_v1r0 is set to Yes by the sites",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
-  "Default Variable": "No",
-  "Date added or modified": "44295",
-  "GCP Document/Table": "Participants Table Not nested (d_113579866)"
+  "Default Variable": "Yes",
+  "Date added or modified": "11/7/23",
+  "GCP Document/Table": "Participants Table Not nested (d_987563196)",
+  "Formula for Index": [
+    "1500",
+    "1501"
+  ],
+  "Index": [
+    "1500",
+    "1501"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
 }

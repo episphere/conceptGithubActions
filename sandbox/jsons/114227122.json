@@ -7,7 +7,7 @@
   ],
   "Deprecated, New, or Revised": "New",
   "conceptId": "114227122",
-  "Current Question Text": "Has the participant's vital status been confirmed 'alive' at the time of RCA data transfer?",
+  "Current Question Text": "Has the participant been confirmed alive by manual review of the participant’s chart at the time of RCA data transfer?",
   "Variable Label": "RCA vital status",
   "Variable Name": [
     "RCAOcc_ManualVitalStat_v1r0"
@@ -19,14 +19,14 @@
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "2/29/24",
+  "Date added or modified": "4/1/24",
   "Formula for Index": [
-    "1868",
-    "1869"
+    "1904",
+    "1905"
   ],
   "Index": [
-    "1868",
-    "1869"
+    "1904",
+    "1905"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

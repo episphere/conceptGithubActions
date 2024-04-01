@@ -7,7 +7,7 @@
   ],
   "Deprecated, New, or Revised": "New",
   "conceptId": "844209241",
-  "Current Question Text": "Has the participant's chart been manually reviewed to confirm the cancer diagnosis and the participant's awareness of their diagnosis?",
+  "Current Question Text": "Has the cancer diagnosis been confirmed and the participant's awareness of their diagnosis been confirmed by manual review of the participant’s chart at the time of RCA data transfer?",
   "Variable Label": "Confirm Dx and Part Aware of Dx",
   "Variable Name": [
     "RCAOcc_ConfirmPartAware_v1r0"
@@ -19,14 +19,14 @@
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "2/29/24",
+  "Date added or modified": "4/1/24",
   "Formula for Index": [
-    "1866",
-    "1867"
+    "1902",
+    "1903"
   ],
   "Index": [
-    "1866",
-    "1867"
+    "1902",
+    "1903"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

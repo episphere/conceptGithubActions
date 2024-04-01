@@ -1,0 +1,27 @@
+{
+  "Formula for Index": "1502",
+  "Index": "1502",
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "635994596.json"
+  ],
+  "conceptId": "123868967",
+  "Current Question Text": "Date Participant Deceased as reported to the CSC",
+  "Variable Label": "Date Part Deceased",
+  "Variable Name": [
+    "HdWd_DeceasedDt_v1r0"
+  ],
+  "Variable Type": "Date",
+  "Variable Length": "8",
+  "Current Format/Value": "yymmdd",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "as reported to the CSC",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "1/19/24",
+  "GCP Document/Table": "Participants Table Not nested (d_123868967)"
+}

@@ -6,18 +6,19 @@
     "883203566.json"
   ],
   "conceptId": "435027713",
-  "Current Question Text": "Sanford and Henry Ford reported sex",
-  "Variable Label": "SF/HFH Sex",
+  "Current Question Text": "Henry Ford reported sex",
+  "Variable Label": "HFH Reported Sex",
   "Variable Name": [
-    "RcrtSI_SH_HFHS_Sex_v1r0"
+    "RcrtSI_HFHS_Sex_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Required": "For SH and HFHS",
+  "Required": "For HFHS",
   "PII": "No",
   "Dictionary": "Recruitment Data Dictionary",
   "State Attribute": "Yes",
   "Default Variable": "No",
+  "Date added or modified": "3/21/24",
   "GCP Document/Table": "Participants Table Not nested (state_d_435027713)",
   "Formula for Index": [
     "46",
