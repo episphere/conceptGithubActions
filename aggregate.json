@@ -2461,6 +2461,12 @@
       "SrvMRE_REAspirin_v1r0"
     ]
   },
+  "194486780": {
+    "Variable Label": "Birthday Card Version",
+    "Variable Name": [
+      "NORCBC_CardVersion_v1r0"
+    ]
+  },
   "194557808": {
     "Variable Label": "Age first used cigarettes",
     "Variable Name": [
@@ -3232,6 +3238,9 @@
       "SrvLAW_City5FollowUp_v1r0"
     ]
   },
+  "218382402": {
+    "Variable Name": "NORC"
+  },
   "218595434": {
     "Variable Name": "Verification"
   },
@@ -3596,6 +3605,9 @@
       "SrvBOH_ServiceProdP_v1r0"
     ]
   },
+  "233284019": {
+    "Variable Name": "VIII"
+  },
   "233764880": {
     "Variable Name": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had esophageal cancer?"
   },
@@ -3761,7 +3773,7 @@
     ]
   },
   "241236037": {
-    "Variable Name": "Destroyed data"
+    "Variable Name": "Data Destruction Requested"
   },
   "241590841": {
     "Variable Label": "IHCS Web",
@@ -4030,6 +4042,12 @@
     "Variable Label": "PSA Blood Test",
     "Variable Name": [
       "SrvScr_PSA_v1r0"
+    ]
+  },
+  "255077064": {
+    "Variable Label": "Preferred Language",
+    "Variable Name": [
+      "RcrtCS_PrefLang_v1r0"
     ]
   },
   "255112983": {
@@ -6425,6 +6443,9 @@
   "359291056": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Testicular cancer?"
   },
+  "359309143": {
+    "Variable Name": "birthdayCard- This is an object that holds the birthday card data for API submission."
+  },
   "359404406": {
     "Variable Label": "Signed Data Dest Req",
     "Variable Name": [
@@ -8156,9 +8177,9 @@
     ]
   },
   "435027713": {
-    "Variable Label": "SF/HFH Reported Sex",
+    "Variable Label": "HFH Reported Sex",
     "Variable Name": [
-      "RcrtSI_SH_HFHS_Sex_v1r0"
+      "RcrtSI_HFHS_Sex_v1r0"
     ]
   },
   "436333358": {
@@ -10440,6 +10461,9 @@
       "SrvCov_COV24A1_v1r0"
     ]
   },
+  "528373182": {
+    "Variable Name": "VII"
+  },
   "528753070": {
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had bladder cancer?"
   },
@@ -12431,6 +12455,9 @@
     "Variable Name": [
       "RcrtUP_UPChangeReqBy_v1r0"
     ]
+  },
+  "611945488": {
+    "Variable Name": "IV"
   },
   "612012325": {
     "Variable Label": "Progesterone/Progestin-only Contraceptive Pills",
@@ -16525,6 +16552,12 @@
       "SrvMRE_GolfTime_v1r0"
     ]
   },
+  "768313785": {
+    "Variable Label": "Birthday Card Mailing Date",
+    "Variable Name": [
+      "NORCBC_CardMailingDt_v1r0"
+    ]
+  },
   "768802173": {
     "Variable Label": "Home address summary",
     "Variable Name": [
@@ -16691,6 +16724,9 @@
   },
   "773860876": {
     "Variable Name": "I am having technical issues or glitches, like problems with the survey loading, answers saving, and/or submitting"
+  },
+  "773963342": {
+    "Variable Name": "V"
   },
   "773974223": {
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Melanoma (skin) cancer?"
@@ -20016,6 +20052,12 @@
       "SrvLAW_CurWorkOthComm_v1r0"
     ]
   },
+  "902078073": {
+    "Variable Label": "Birthday Card Return Date",
+    "Variable Name": [
+      "NORCBC_CardReturnDt_v1r0"
+    ]
+  },
   "902131456": {
     "Variable Name": "About average build"
   },
@@ -20195,6 +20237,9 @@
       "SrvMRE_SleepLast4Wk_v1r0"
     ]
   },
+  "911299066": {
+    "Variable Name": "VI"
+  },
   "911964974": {
     "Variable Label": "Apartment, suite, unit, building, etc.",
     "Variable Name": [
@@ -20314,6 +20359,12 @@
     "Variable Label": "State/Province",
     "Variable Name": [
       "SrvLAW_SeaStateFU_v1r0"
+    ]
+  },
+  "916186376": {
+    "Variable Label": "Birthday Card Disposition Code",
+    "Variable Name": [
+      "NORCBC_CardDispCode_v1r0"
     ]
   },
   "916319911": {
@@ -21911,6 +21962,9 @@
   },
   "980800222": {
     "Variable Name": "When was the [first/2nd/3rd/etc.] time you had COVID-19? If you are not sure, please make your best guess."
+  },
+  "981001113": {
+    "Variable Name": "Birthday Card Data Return"
   },
   "981441822": {
     "Variable Name": "What is the chance that you would doze off or fall asleep (not just: feel tired) in each of these situations? If you are never or rarely in the situation, please make your best guess for what would happen."
