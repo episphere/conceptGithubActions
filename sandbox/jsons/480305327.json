@@ -16,11 +16,11 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Notes": "Additional options may be added later.",
+  "Notes": "Additional options may be added later. The CIDs for the 2nd and the 3rd are deprecated.  After leads discussion on 4.1.24 and a review of the counts for each of the suffix responses, it was decided that Roman numeral and #th responses would be combined.",
   "Dictionary": "Recruitment Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "4/1/24",
+  "Date added or modified": "4/4/24",
   "GCP Document/Table": "Participants Table Not nested (d_480305327) OR Nested structure: (d_569151507_d_480305327)",
   "IMS Review Notes": "Updated Secondary Source to User Profile History",
   "Formula for Index": [
@@ -33,9 +33,7 @@
     "221",
     "222",
     "223",
-    "224",
-    "225",
-    "226"
+    "224"
   ],
   "Index": [
     "215",
@@ -47,9 +45,7 @@
     "221",
     "222",
     "223",
-    "224",
-    "225",
-    "226"
+    "224"
   ],
   "Current Format/Value": {
     "612166858.json": "0",
@@ -61,8 +57,6 @@
     "773963342.json": "6",
     "911299066.json": "7",
     "528373182.json": "8",
-    "233284019.json": "9",
-    "643664527.json": "10",
-    "537892528.json": "11"
+    "233284019.json": "9"
   }
 }
