@@ -5,7 +5,6 @@
   "Secondary Source": [
     "635994596.json"
   ],
-  "Deprecated, New, or Revised": "Revised",
   "conceptId": "693626233",
   "Current Question Text": "Suffix- HIPAA Revocation",
   "Variable Label": "Suffix",
@@ -16,11 +15,10 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Notes": "Additional options may be added later.",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "4/1/24",
+  "Date added or modified": "4/4/24",
   "GCP Document/Table": "Participants Table Not nested (d_693626233)",
   "Question Type": "Same Question text as RcrtCS_Suffix_v1r0 and RcrtUP_Suffix_v1r0",
   "Formula for Index": [
@@ -64,5 +62,15 @@
     "233284019.json": "9",
     "643664527.json": "10",
     "537892528.json": "11"
-  }
+  },
+  "Deprecated, New, or Revised": [
+    "Revised",
+    "Deprecated",
+    "Deprecated"
+  ],
+  "Notes": [
+    "Additional options may be added later. After leads discussion on 4.1.24 and a review of the counts for each of the suffix responses, it was decided that Roman numeral and #th responses would be combined.",
+    "The CIDs for the 2nd and the 3rd are deprecated",
+    "The CIDs for the 2nd and the 3rd are deprecated"
+  ]
 }

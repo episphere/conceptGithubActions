@@ -7,20 +7,21 @@
   ],
   "Deprecated, New, or Revised": "New",
   "conceptId": "255077064",
-  "Current Question Text": "Preferred Language",
-  "Variable Label": "Preferred Language",
+  "Current Question Text": "Consent and Notification Language",
+  "Variable Label": "Consent and Notification Language",
   "Variable Name": [
-    "RcrtCS_PrefLang_v1r0"
+    "RcrtCS_ConNotLang_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "It will be derived based on the version of the consent form the participant signs. So if they sign an English consent form it would populate their preferred language as English. If they signed a Spanish consent form, it would populate as Spanish. While it will initially be derived based on the version of the cosnent form they sign, the participant will be able to change it in their user profile",
+  "Notes": "Set when the consent language is selected and is used to set the lanugage for all future notifications. Tony will have to set this variable to English for all those completing consent before this variable is launched.",
+  "Derivation Notes": "It will be derived based on the version of the consent form the participant signs. So if they sign an English consent form it would populate their preferred language as English. If they signed a Spanish consent form, it would populate as Spanish. While it will initially be derived based on the version of the cosnent form they sign, the participant will be able to change it in their user profile",
   "Dictionary": "Recruitment Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "4/1/24",
+  "Date added or modified": "4/4/24",
   "Formula for Index": [
     "231",
     "232"
