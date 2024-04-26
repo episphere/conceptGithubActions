@@ -1383,7 +1383,8 @@
   "149205077": {
     "Variable Label": "Primary Site of Cancer",
     "Variable Name": [
-      "RCAOcc_PrimCancSite_v1r0"
+      "RCAOcc_PrimCancSite_v1r0",
+      "RCAOcc_OthCancerDesc_v1r0"
     ]
   },
   "149230791": {
@@ -1628,9 +1629,9 @@
     ]
   },
   "158841370": {
-    "Variable Label": "Electronic delivery devices that can be vaped, such as e-cigarettes, Juul, blue, and NJOY. These electronic delivery devices are battery-powered and create vapor.",
+    "Variable Label": "Smoking a combination of cannabis with tobacco (such as blunts or spliffs)",
     "Variable Name": [
-      "SrvSAS_EDevices_v1r0"
+      "SrvSAS_SmokingTobCan_v1r0"
     ]
   },
   "159625321": {
@@ -6208,9 +6209,9 @@
     ]
   },
   "349034127": {
-    "Variable Label": "Cigars, cigarillos, or little filtered cigars; some of the most popular brands include Macanudo, Romeo y Julieta, Black and Mild, Swisher Sweets, Prime Time, and Cheyenne. Please do not include blunts as we will be asking about marijuana use in a later section.",
+    "Variable Label": "Vaping an electronic delivery devices (such as vape pens or pod-mods)",
     "Variable Name": [
-      "SrvSAS_Cigarillos_v1r0"
+      "SrvSAS_VapeCannabis_v1r0"
     ]
   },
   "349122068": {
@@ -7839,6 +7840,12 @@
   "420560514": {
     "Variable Name": "In the past 7 days - Pain"
   },
+  "421730068": {
+    "Variable Label": "RCA Path Accession Num",
+    "Variable Name": [
+      "RCAOcc_PathologyAcc_v1r0"
+    ]
+  },
   "421779583": {
     "Variable Label": "Zip code",
     "Variable Name": [
@@ -8772,12 +8779,6 @@
   },
   "456806539": {
     "Variable Name": "Letter with PIN"
-  },
-  "457270069": {
-    "Variable Label": "Prelim Cx Stage",
-    "Variable Name": [
-      "RCAOcc_PrelimCancStg_v1r0"
-    ]
   },
   "457290610": {
     "Variable Label": "Months ago last used cigars, cigarillos, or little filtered cigars",
@@ -10677,7 +10678,7 @@
       "SrvMRE_NoSleepCond_v1r0",
       "SrvMRE_NoSATmt_v1r0",
       "SrvSAS_NoTobacco_v1r0",
-      "SrvSAS_NoTobaccoPdt_v1r0",
+      "SrvSAS_NoCannabisPdt_v1r0",
       "SrvBio_NoSymptDay_v1r0",
       "SrvBio_NoSymptDay_v1r0",
       "SrvScr_NOSCREEN_v1r0",
@@ -14135,9 +14136,9 @@
     ]
   },
   "675129470": {
-    "Variable Label": "Hookah or water pipe",
+    "Variable Label": "Dabbing THC concentrates (such as wax, shatter, or rosin)",
     "Variable Name": [
-      "SrvSAS_WaterPipe_v1r0"
+      "SrvSAS_DabbingThcCon_v1r0"
     ]
   },
   "675539614": {
@@ -15161,9 +15162,9 @@
     ]
   },
   "713594719": {
-    "Variable Label": "Chewing tobacco, snus, snuff, or dip; some of the most popular brands are Red Man, Levi Garrett, BEECH-NUT, Skoal, and Copenhagen.",
+    "Variable Label": "Consuming edibles, drinks, or capsules",
     "Variable Name": [
-      "SrvSAS_ChewingTobacco_v1r0"
+      "SrvSAS_CannabisEdibles_v1r0"
     ]
   },
   "713781738": {
@@ -16353,9 +16354,9 @@
     ]
   },
   "760521319": {
-    "Variable Label": "Cigarettes (manufactured or hand-rolled)",
+    "Variable Label": "Smoking cannabis (such as joints, pipes, bowls, or bongs)",
     "Variable Name": [
-      "SrvSAS_Marijuana_v1r0"
+      "SrvSAS_SmokingCannabis_v1r0"
     ]
   },
   "760686611": {
@@ -19290,12 +19291,6 @@
     "Variable Name": [
       "SRVBIO_EATDRINKBEFORE_V1R0",
       "SRVBIO_EATDRINKBEFORE_V1R0"
-    ]
-  },
-  "868006655": {
-    "Variable Label": "Primary Cancer Site- Other Describe",
-    "Variable Name": [
-      "RCAOcc_OthCancerDesc_v1r0"
     ]
   },
   "868025301": {
