@@ -13,9 +13,9 @@
   ],
   "conceptId": "349034127",
   "Current Question Text": "Using electronic delivery devices that can be vaped, such as a vape pen or pod-mods. These electronic delivery devices are battery-powered and create vapor.",
-  "Variable Label": "Cigars, cigarillos, or little filtered cigars; some of the most popular brands include Macanudo, Romeo y Julieta, Black and Mild, Swisher Sweets, Prime Time, and Cheyenne. Please do not include blunts as we will be asking about marijuana use in a later section.",
+  "Variable Label": "Vaping an electronic delivery devices (such as vape pens or pod-mods)",
   "Variable Name": [
-    "SrvSAS_Cigarillos_v1r0"
+    "SrvSAS_VapeCannabis_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "2"
@@ -24,14 +24,15 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "10/20/21",
+  "Date added or modified": "4/25/24",
+  "IMS Review Notes": "Updated variable name from SrvSAS_Cigarillos_v1r0 to SrvSAS_VapeCannabis_v1r0. Updated Variable Label to reflect Question Text",
   "Formula for Index": [
-    "5186",
-    "5187"
+    "5188",
+    "5189"
   ],
   "Index": [
-    "5186",
-    "5187"
+    "5188",
+    "5189"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

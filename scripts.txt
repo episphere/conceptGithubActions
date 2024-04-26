@@ -4,10 +4,10 @@ Run in sequential order
 
 rm -r ./jsons/[0-9]*.json 
 node runCSVConversions.js 
-node masterParsing.js (IMPORTANT - ADD new secondary source concept Ids if not added, this will affect the transformation.json output)
+node masterParsing.js 
 node aggregateJSONS.js
 
-
+(IMPORTANT - ADD new secondary source concept Ids if not added before "node masterParsing.js" is run, this will affect the transformation.json output)
 
 
 rm -r ./jsonsCopyTEST/[0-9]*.json 
