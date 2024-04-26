@@ -1,19 +1,23 @@
 {
   "Primary Source": [
+    "692924902.json",
     "692924902.json"
   ],
   "Secondary Source": [
+    "637153953.json",
     "637153953.json"
   ],
   "Current Source Question": [
+    "740819233.json",
     "740819233.json"
   ],
-  "Deprecated, New, or Revised": "New",
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "149205077",
-  "Current Question Text": "What is the primary site of the cancer diagnosed on 'date of case ID'? Categorical",
+  "Current Question Text": "What is the primary cancer site identified through RCA?",
   "Variable Label": "Primary Site of Cancer",
   "Variable Name": [
-    "RCAOcc_PrimCancSite_v1r0"
+    "RCAOcc_PrimCancSite_v1r0",
+    "RCAOcc_OthCancerDesc_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -23,7 +27,7 @@
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "1/19/24",
+  "Date added or modified": "4/26/24",
   "GCP Document/Table": "Nested (d_637153953_d_740819233_d_149205077)",
   "Formula for Index": [
     "1875",
