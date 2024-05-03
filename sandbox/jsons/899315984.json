@@ -15,26 +15,26 @@
   "Current Question Text": "No, I borrowed a device from a friend, family member, or someone else",
   "Variable Label": "Sample survey used borrowed device",
   "Variable Name": [
-    "SrvPES_BIOSURV3B_v1r0"
+    "SrvPES_BIOSURV3D_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "1"
+    "3"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
   "Dictionary": "Participant Experience Survey",
-  "Date added or modified": "1/5/23",
+  "Date added or modified": "4/30/24",
   "Question Type": "Optional Select All that Apply",
-  "IMS Review Notes": "Added Variable Label and values for columns C - I.",
+  "IMS Review Notes": "Updated Variable Name and Connect Value to reflect Qx doc.",
   "Formula for Index": [
-    "8421",
-    "8422"
+    "8437",
+    "8438"
   ],
   "Index": [
-    "8421",
-    "8422"
+    "8437",
+    "8438"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

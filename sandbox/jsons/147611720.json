@@ -15,7 +15,7 @@
   "Current Question Text": "No, I used a device provided by the Connect team at my healthcare system when I donated samples",
   "Variable Label": "Sample survey used  provider device",
   "Variable Name": [
-    "SrvPES_BIOSURV3A_v1r0"
+    "SrvPES_BIOSURV3C_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "0"
@@ -25,16 +25,16 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "Participant Experience Survey",
-  "Date added or modified": "1/5/23",
+  "Date added or modified": "4/30/24",
   "Question Type": "Optional Select All that Apply",
-  "IMS Review Notes": "Added Variable Label",
+  "IMS Review Notes": "Updated Variable Name to reflect Qx doc.",
   "Formula for Index": [
-    "8419",
-    "8420"
+    "8431",
+    "8432"
   ],
   "Index": [
-    "8419",
-    "8420"
+    "8431",
+    "8432"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

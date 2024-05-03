@@ -15,26 +15,26 @@
   "Current Question Text": "Yes, I used my own device provided by my employer",
   "Variable Label": "Sample survey used employer's device",
   "Variable Name": [
-    "SrvPES_BIOSURV3E_v1r0"
+    "SrvPES_BIOSURV3B_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "4"
+    "2"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
   "Dictionary": "Participant Experience Survey",
-  "Date added or modified": "1/5/23",
+  "Date added or modified": "4/30/24",
   "Question Type": "Optional Select All that Apply",
-  "IMS Review Notes": "Added Variable Label and values for columns C - I.",
+  "IMS Review Notes": "Updated Variable Name and Connect Value to reflect Qx doc.",
   "Formula for Index": [
-    "8427",
-    "8428"
+    "8435",
+    "8436"
   ],
   "Index": [
-    "8427",
-    "8428"
+    "8435",
+    "8436"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
