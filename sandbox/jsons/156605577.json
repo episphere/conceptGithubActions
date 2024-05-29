@@ -33,7 +33,7 @@
   "Required": "Yes",
   "PII": "No",
   "Notes": "Nested under Collection Details, Baseline",
-  "Derivation Notes": "If BioClin_SiteBloodColl_v1r0 = 1 OR BioClin_SiteUrineColl_v1r0 = 1 OR BioClin_DBBloodRRL_v1r0 = 1 OR BioClin_DBUrineRRL_v1r0 = 1 THEN BioClin_AnyBldUrineRec_v1r0 = 1",
+  "Derivation Notes": "IF 173836415.266600170.693370086 = YES OR IF 173836415.266600170.786930107  = YES OR IF 173836415.266600170.728696253 = YES OR IF 173836415.266600170.453452655  = YES OR IF 173836415.266600170.534041351 = YES OR IF 173836415.266600170.210921343 = YES THEN BioClin_AnyBldUrnRecBL_v1r0 = YES",
   "Dictionary": "Biospecimen Clinical",
   "State Attribute": "No",
   "Default Variable": "No",
@@ -41,12 +41,12 @@
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_156605577 (2nd CID may change based on BL/F-U1,2,3)",
   "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable Name from BioClin_AnyBldUrineRec_v1r0 to BioClin_AnyBldUrnRecBL_v1r0",
   "Formula for Index": [
-    "1079",
-    "1080"
+    "1088",
+    "1089"
   ],
   "Index": [
-    "1079",
-    "1080"
+    "1088",
+    "1089"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
