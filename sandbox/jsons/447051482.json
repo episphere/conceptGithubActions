@@ -8,20 +8,23 @@
     "166676176.json"
   ],
   "conceptId": "447051482",
-  "Current Question Text": "Social Security Number",
+  "Current Question Text": "To provide all 9 digits of your Social Security Number, please enter them here. If you prefer to provide only the last 4 digits or no digits, select the ‘Next’ button. Please enter your Social Security Number:",
+  "V2 Question Text": "Please enter your Social Security Number.",
+  "V1 Question Text": "Please enter your Social Security Number. This will be used for identification purposes only. Please remember that we protect your privacy. We remove information that can identify you, including your Social Security Number, from your survey answers before we share them with researchers.",
   "Variable Label": "SSN",
   "Variable Name": [
-    "SrvSS_SSN_v1r0"
+    "SrvSS_SSN_v3r1"
   ],
   "Variable Type": "SSN",
   "Variable Length": "9",
   "Current Format/Value": "###-##-####",
   "Required": "No",
   "PII": "Yes",
-  "Notes": "Type and length are based on a numbers only format, no dashes. Will add additional SSN variables for study managers to add in",
+  "Notes": "Response versioned to r1 when double entry response was added in V0.02 PWA Prod Push 1/2024.",
   "Dictionary": "Study Manager Data Dictionary, BIospecimen Research",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "8/19/22",
-  "GCP Document/Table": "Not yet in Flattened Tables (Should be in Participants Table)"
+  "Date added or modified": "5/9/24",
+  "GCP Document/Table": "Not yet in Flattened Tables (Should be in Participants Table)",
+  "IMS Review Notes": "Added and updated V1 question text (to reflect actual V1 text), added V2 question text, updated Current Question text. Versioned Variable name suffix. Added Notes on r1 edit."
 }
