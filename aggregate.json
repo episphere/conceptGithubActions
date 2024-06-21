@@ -1003,12 +1003,6 @@
       "SrvBOH_BreastBiopsy_v1r0"
     ]
   },
-  "134988376": {
-    "Variable Label": "MRE Survey Language",
-    "Variable Name": [
-      "SrvMRE_Language_v1r0"
-    ]
-  },
   "135207939": {
     "Variable Label": "Lived anywhere else at least two years",
     "Variable Name": [
@@ -3453,9 +3447,6 @@
       "BioClin_SiteUrnRRLDtF3_v1r0"
     ]
   },
-  "224620837": {
-    "Variable Name": "West Bloomfield"
-  },
   "224681201": {
     "Variable Label": "Ever Use - Fertility Med",
     "Variable Name": [
@@ -4045,9 +4036,6 @@
       "SMMet_BLSamplesColl_v1r0"
     ]
   },
-  "254162297": {
-    "Variable Name": "Fairlane"
-  },
   "254689566": {
     "Variable Label": "How many cigars, cigarillos, or little filtered cigars used, Age [X] to age [Y / 17]",
     "Variable Name": [
@@ -4067,7 +4055,7 @@
     ]
   },
   "255077064": {
-    "Variable Label": "Consent and Notification Language",
+    "Variable Label": "Preferred Language",
     "Variable Name": [
       "RcrtCS_ConNotLang_v1r0"
     ]
@@ -4484,9 +4472,6 @@
   },
   "265550580": {
     "Variable Name": "Didn't drink during this time"
-  },
-  "266227719": {
-    "Variable Name": "Royal Oak"
   },
   "266600170": {
     "Variable Name": "Baseline"
@@ -5442,9 +5427,6 @@
   "306890578": {
     "Variable Name": "Pregnancy loss before 20 weeks"
   },
-  "307084441": {
-    "Variable Name": "Non-Oahu Clinics"
-  },
   "307736999": {
     "Variable Label": "Age Last Use - Oth Rx Hormones",
     "Variable Name": [
@@ -5661,7 +5643,10 @@
     "Variable Name": "101 to 150 feet"
   },
   "317811347": {
-    "Variable Name": "Do not know"
+    "Variable Label": "Don't know how much body was screened",
+    "Variable Name": [
+      "SrvScr_SKIN1DK_v1r0"
+    ]
   },
   "318130543": {
     "Variable Label": "Alt Contact Home Phone",
@@ -6151,9 +6136,6 @@
       "SrvLAW_PreWorkTmTaxi_v1r0"
     ]
   },
-  "343937541": {
-    "Variable Name": "NCO"
-  },
   "344573484": {
     "Variable Label": "Current Use - BC Patch",
     "Variable Name": [
@@ -6189,12 +6171,6 @@
     "Variable Name": [
       "RCAOcc_CancerDt_v1r0"
     ]
-  },
-  "345606919": {
-    "Variable Name": "Plymouth"
-  },
-  "345618064": {
-    "Variable Name": "Taylor"
   },
   "345861266": {
     "Variable Label": "Tongan",
@@ -6569,9 +6545,6 @@
     "Variable Name": [
       "SrvSAS_Cigar5059_v1r1"
     ]
-  },
-  "365394668": {
-    "Variable Name": "Columbus"
   },
   "365685000": {
     "Variable Label": "Partial Denture",
@@ -7000,12 +6973,6 @@
   },
   "382679079": {
     "Variable Name": "More than 1 week ago, but in the past 4 weeks"
-  },
-  "382925022": {
-    "Variable Label": "COVID-19 Survey Language",
-    "Variable Name": [
-      "SrvCOV_Language_v1r0"
-    ]
   },
   "383015037": {
     "Variable Label": "Home Repair",
@@ -7577,12 +7544,6 @@
       "SrvScr_BLDOV1_v1r0"
     ]
   },
-  "406541160": {
-    "Variable Label": "Menstrual Cycle Survey Language",
-    "Variable Name": [
-      "SrvMC_Language_v1r0"
-    ]
-  },
   "406650257": {
     "Variable Name": "8"
   },
@@ -7640,12 +7601,6 @@
   },
   "409324592": {
     "Variable Name": "In which season(s) you do high-intensity circuit training (such as P90x or Crossfit)? Select all that apply."
-  },
-  "409556261": {
-    "Variable Label": "SAS Survey Language",
-    "Variable Name": [
-      "SrvSAS_Language_v1r0"
-    ]
   },
   "409622468": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Barrett's Esophagus?"
@@ -7756,12 +7711,6 @@
     "Variable Label": "Please specify __________",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_specify"
-    ]
-  },
-  "416177304": {
-    "Variable Label": "Don't know how much body was screened",
-    "Variable Name": [
-      "SrvScr_SKIN1DK_v1r0"
     ]
   },
   "416620941": {
@@ -9945,9 +9894,6 @@
       "SrvLAW_SeasAddYrs1_5_v1r0"
     ]
   },
-  "505072220": {
-    "Variable Name": "Livonia"
-  },
   "505282171": {
     "Variable Label": "Cervix",
     "Variable Name": [
@@ -10366,9 +10312,6 @@
   },
   "523188839": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had HIV/AIDS?"
-  },
-  "523585037": {
-    "Variable Name": "Chanhassen"
   },
   "523660949": {
     "Variable Label": "Mouthwash for dry mouth",
@@ -13684,12 +13627,6 @@
   "655309065": {
     "Variable Name": "I am currently using a hormonal medication or device (such as an intrauterine device (IUD)) to prevent pregnancy, manage my menstrual cycle symptoms, and/or manage conditions like endometriosis or polycystic ovarian syndrome (PCOS)"
   },
-  "656036065": {
-    "Variable Label": "Blood, Urine Survey Language",
-    "Variable Name": [
-      "SrvBlU_Language_v1r0"
-    ]
-  },
   "656067463": {
     "Variable Label": "Other: Please describe, text box commute from current school",
     "Variable Name": [
@@ -14304,9 +14241,6 @@
       "CTN_NotifBody_v1r0"
     ]
   },
-  "679235966": {
-    "Variable Name": "Elk River"
-  },
   "679300202": {
     "Variable Label": "Days used a tobacco pipe past 30 days",
     "Variable Name": [
@@ -14650,12 +14584,6 @@
     "Variable Label": "Seasonal address summary",
     "Variable Name": [
       "SrvLAW_SeaAddSum_v1r0"
-    ]
-  },
-  "691019739": {
-    "Variable Label": "Blood, Urine, MW Survey Language",
-    "Variable Name": [
-      "SrvBLM_Language_v1r0"
     ]
   },
   "691148901": {
@@ -16205,9 +16133,6 @@
   "751569137": {
     "Variable Name": "Not listed here"
   },
-  "751747843": {
-    "Variable Name": "Macomb"
-  },
   "752015272": {
     "Variable Name": "What year did you move out of [insert address from CHILDADD1 - CHILDADD3/your childhood home]?"
   },
@@ -16237,9 +16162,6 @@
     "Variable Name": [
       "SrvBOH_BreastImplant_v1r0"
     ]
-  },
-  "753153538": {
-    "Variable Name": "Troy"
   },
   "753416375": {
     "Variable Label": "Pills/Day Ibuprofen, Don't Know",
@@ -16411,9 +16333,6 @@
       "SrvLAW_StrtName11_v1r0"
     ]
   },
-  "760221163": {
-    "Variable Name": "NSC"
-  },
   "760243464": {
     "Variable Label": "Body chills",
     "Variable Name": [
@@ -16521,12 +16440,6 @@
     "Variable Label": "Do Not Know 5-Seasonal Cross",
     "Variable Name": [
       "SrvLAW_Seas5CrDontKnow_v1r0"
-    ]
-  },
-  "764035821": {
-    "Variable Label": "Social Security Survey Language",
-    "Variable Name": [
-      "SrvSSN_Language_v1r0"
     ]
   },
   "764331628": {
@@ -16714,9 +16627,6 @@
     "Variable Name": [
       "SrvBOH_CHF_v1r0"
     ]
-  },
-  "769881060": {
-    "Variable Name": "Wyandotte"
   },
   "769901710": {
     "Variable Label": "Backache",
@@ -17093,13 +17003,20 @@
       "SrvLAW_HomeMoveIn7_v1r0"
     ]
   },
-  "783878061": {
-    "Variable Name": "Oahu Clinics"
-  },
   "784119588": {
     "Variable Label": "BOH Survey Language",
     "Variable Name": [
-      "SrvBOH_Language_v1r0"
+      "SrvBOH_Language_v1r0",
+      "SrvMRE_Language_v1r0",
+      "SrvLAW_Language_v1r0",
+      "SrvSAS_Language_v1r0",
+      "SrvBLM_Language_v1r0",
+      "SrvBlU_Language_v1r0",
+      "SrvCOV_Language_v1r0",
+      "SrvQOL_Language_v1r0",
+      "SrvMC_Language_v1r0",
+      "SrvSSN_Language_v1r0",
+      "SrvMW_Language_v1r0"
     ]
   },
   "784810139": {
@@ -17107,9 +17024,6 @@
     "Variable Name": [
       "SrvCOV_TmComplete_v1r0"
     ]
-  },
-  "784911565": {
-    "Variable Name": "K1 HFH Main"
   },
   "784922042": {
     "Variable Name": "Related to me in some other way"
@@ -17460,9 +17374,6 @@
     "Variable Name": [
       "SrvMRE_ModOutChores_v1r0"
     ]
-  },
-  "797498403": {
-    "Variable Name": "Sterling Heights"
   },
   "797626610": {
     "Variable Name": "White- Which categories describe you? Select all that apply. Note, you may select more than one group."
@@ -19623,12 +19534,6 @@
       "SrvBlU_COV26_v2r0",
       "SrvBlU_COV26_v1r0",
       "SrvCov_COV26_v1r0"
-    ]
-  },
-  "877334769": {
-    "Variable Label": "MW Survey Language",
-    "Variable Name": [
-      "SrvMW_Language_v1r0"
     ]
   },
   "877842367": {
@@ -21792,12 +21697,6 @@
       "SrvBOH_OtherWtLossDes4_v1r0"
     ]
   },
-  "963994270": {
-    "Variable Label": "LAW Survey Language",
-    "Variable Name": [
-      "SrvLAW_Language_v1r0"
-    ]
-  },
   "964154290": {
     "Variable Label": "Number of marijana with tobacco per day",
     "Variable Name": [
@@ -22242,12 +22141,6 @@
       "SrvBlU_COV15A_v1r0",
       "SrvBlU_COV15A_v1r0",
       "SrvCov_COV15A_v1r0"
-    ]
-  },
-  "984470525": {
-    "Variable Label": "QOL Survey Language",
-    "Variable Name": [
-      "SrvQOL_Language_v1r0"
     ]
   },
   "984479578": {
