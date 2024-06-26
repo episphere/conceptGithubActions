@@ -4057,7 +4057,7 @@
   "255077064": {
     "Variable Label": "Preferred Language",
     "Variable Name": [
-      "RcrtCS_ConNotLang_v1r0"
+      "RcrtCS_PrefLang_v1r0"
     ]
   },
   "255112983": {
@@ -5643,10 +5643,7 @@
     "Variable Name": "101 to 150 feet"
   },
   "317811347": {
-    "Variable Label": "Don't know how much body was screened",
-    "Variable Name": [
-      "SrvScr_SKIN1DK_v1r0"
-    ]
+    "Variable Name": "Do not know"
   },
   "318130543": {
     "Variable Label": "Alt Contact Home Phone",
@@ -18378,7 +18375,10 @@
     ]
   },
   "832322940": {
-    "Variable Name": "Don't know"
+    "Variable Label": "Don't know how much body was screened",
+    "Variable Name": [
+      "SrvScr_SKIN1DK_v1r0"
+    ]
   },
   "832614280": {
     "Variable Label": "Bag 38",
