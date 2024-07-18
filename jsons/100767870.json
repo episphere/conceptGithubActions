@@ -1,0 +1,35 @@
+{
+  "Primary Source": [
+    "332961895.json"
+  ],
+  "Secondary Source": [
+    "581036703.json"
+  ],
+  "conceptId": "100767870",
+  "Current Question Text": "All baseline surveys completed",
+  "Variable Label": "All baseline surveys completed",
+  "Variable Name": [
+    "SMMet_BaseSrvCompl_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Derivation Notes": "SmMet_BaseSrvCompl_v1r0 equals 1 if SrvBOH_BaseStatus_v1r0 equals 2 AND SrvMRE_BaseStatus_v1r0 equals 2 AND SrvSAS_BaseStatus_v1r0 equals 2 AND SrvLAW_BaseStatus_v1r0 equals 2",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "4/19/22",
+  "Formula for Index": [
+    "584",
+    "585"
+  ],
+  "Index": [
+    "584",
+    "585"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

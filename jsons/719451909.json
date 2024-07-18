@@ -1,0 +1,39 @@
+{
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "883203566.json"
+  ],
+  "Current Source Question": [
+    "706283025.json"
+  ],
+  "conceptId": "719451909",
+  "Current Question Text": "I do not think the research topic is important/I am not interested in the topic",
+  "Variable Label": "I do not think the research topic is important/I am not interested in the topic",
+  "Variable Name": [
+    "RcrtSI_OptOut_v1r0_impt"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "Yes",
+  "Default Variable": "Yes",
+  "Date added or modified": "10/21/21",
+  "GCP Document/Table": "Participants Table Nested structure: state_d_706283025_d_719451909",
+  "Formula for Index": [
+    "79",
+    "80"
+  ],
+  "Index": [
+    "79",
+    "80"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

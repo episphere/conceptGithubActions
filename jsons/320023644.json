@@ -1,0 +1,25 @@
+{
+  "Formula for Index": "606",
+  "Index": "606",
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "117044491.json"
+  ],
+  "conceptId": "320023644",
+  "Current Question Text": "NORC Case Number",
+  "Variable Label": "Case Number",
+  "Variable Name": [
+    "HDPaym_CaseNumber_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "9",
+  "Required": "Yes, required for NORC",
+  "PII": "No",
+  "Notes": "Case number associated with each participant for each Round will be send by NORC (e.g. repeated measure associated with Round).  NORC API requires caseNumber to sent in the call.",
+  "Dictionary": "Study Manager Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "11/25/22"
+}

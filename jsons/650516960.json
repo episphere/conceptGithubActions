@@ -1,0 +1,38 @@
+{
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "123496044.json"
+  ],
+  "conceptId": "650516960",
+  "Current Question Text": "Collection Setting",
+  "Variable Label": "Collection Setting",
+  "Variable Name": [
+    "BioSpm_Setting_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Populated based on dashboard to input collection information.",
+  "Dictionary": "Biospecimen Clinical , Biospecimen Research",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "4/19/22",
+  "Formula for Index": [
+    "313",
+    "314",
+    "315"
+  ],
+  "Index": [
+    "313",
+    "314",
+    "315"
+  ],
+  "Current Format/Value": {
+    "534621077.json": "0",
+    "664882224.json": "1",
+    "103209024.json": "2"
+  }
+}

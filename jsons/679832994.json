@@ -1,0 +1,36 @@
+{
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "218595434.json"
+  ],
+  "conceptId": "679832994",
+  "Current Question Text": "Verification Variable - Token",
+  "Variable Label": "Token Match",
+  "Variable Name": [
+    "RcrtV_TokenMatch_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes for some sites",
+  "PII": "No",
+  "Notes": "Sent as part of the verification table for HP, HFHS and KP.",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "Yes",
+  "Default Variable": "No",
+  "Date added or modified": "8/13/21",
+  "GCP Document/Table": "Participants Table",
+  "Formula for Index": [
+    "303",
+    "304"
+  ],
+  "Index": [
+    "303",
+    "304"
+  ],
+  "Current Format/Value": {
+    "356674370.json": "0",
+    "219803804.json": "1"
+  }
+}
