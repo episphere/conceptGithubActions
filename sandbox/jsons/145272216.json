@@ -1,0 +1,35 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "390351864.json"
+  ],
+  "conceptId": "145272216",
+  "Current Question Text": "Survey Language - MW",
+  "Variable Label": "MW Survey Language",
+  "Variable Name": [
+    "SrvMW_Language_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "7/2/24",
+  "IMS Review Notes": "Removed data from column K and L since spanish is not in prod yet. Removed CID in column M. Revised Current Question text to unharmonize.",
+  "Formula for Index": [
+    "1960",
+    "1961"
+  ],
+  "Index": [
+    "1960",
+    "1961"
+  ],
+  "Current Format/Value": {
+    "163149180.json": "0",
+    "773342525.json": "1"
+  }
+}
