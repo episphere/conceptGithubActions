@@ -3,6 +3,6 @@ Run in sequential order
 
 
 rm -r ./jsons/[0-9]*.json
-node runCSVConversions.js 
+node runCSVConversions.js
 node masterParsing.js 
 node aggregateJSONS.js
