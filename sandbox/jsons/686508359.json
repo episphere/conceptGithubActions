@@ -10,14 +10,19 @@
   "Current Source Question": [
     "980800222.json"
   ],
-  "GridID/Source Question Name": [
-    "SrvCov_COV3_v2r0"
+  "V1 Source Question": [
+    "When was the [first/2nd/3rd/etc.] time you had COVID-19? If you are not sure, please make your best guess."
   ],
+  "GridID/Source Question Name": [
+    "SrvCov_COV3_v3r0"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "686508359",
-  "Current Question Text": "When was the [first/2nd/3rd/etc.] time you had COVID-19? If you are not sure, please make your best guess. MY",
+  "Current Question Text": "When was the [first/2nd/3rd/etc.] time you had COVID-19? If you are not sure, please make your best guess.  If you are using a phone or tablet, please tap the gray box to enter your response.",
+  "V1 Question Text": "When was the [first/2nd/3rd/etc.] time you had COVID-19? If you are not sure, please make your best guess. MY",
   "Variable Label": "Infection Date",
   "Variable Name": [
-    "SrvCov_COV3_MY_v2r0"
+    "SrvCov_COV3_MY_v3r1"
   ],
   "Variable Type": "Month",
   "Variable Length": "7",
