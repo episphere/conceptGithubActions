@@ -6,6 +6,7 @@
     "601305072.json"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "8/28/24",
   "conceptId": "320303124",
   "Current Question Text": "3-month Quality of Life (PROMIS) survey completion",
   "Variable Label": "Flag PROMIS Surv",
@@ -16,11 +17,11 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Default will be Not Yet Eligible. This new status only applies to the QoL survey for now. The 3-mo PROMIS survey will trigger based on the first notification (email) being sent, so the date/time of that email in the Notifications table will serve at the date/time the survey was sent.",
+  "Notes": "Default will be Not Started. The Not Yet Eligible status only applies to the QoL survey for now. The 3-mo PROMIS survey trigger will be based on the participant logging into PWA and being verified at least 90 days",
   "Dictionary": "PROMIS Survey",
   "State Attribute": "No",
   "Default Variable": "Yes",
-  "Date added or modified": "2/8/24",
+  "Date added or modified": "8/28/24",
   "GCP Document/Table": "Participants Table",
   "Formula for Index": [
     "1122",
