@@ -526,7 +526,7 @@
     ]
   },
   "115616118": {
-    "Variable Name": "Native Hawaiian or other Pacific Islander - Which categories describe you? Select all that apply. Note, you may select more than one group."
+    "Variable Name": "Native Hawaiian or other Pacific Islander - Which of these describes you best? Select all that apply."
   },
   "115909186": {
     "Variable Label": "Use chewing tobacco, snus, snuff, or dip  every day, months",
@@ -600,7 +600,7 @@
   "118061122": {
     "Variable Label": "Past Job Title",
     "Variable Name": [
-      "SrvBOH_PastJobTitle_v1r0"
+      "SrvBOH_PastJobTitle_v2r0"
     ]
   },
   "118191655": {
@@ -1772,6 +1772,12 @@
   "166676176": {
     "Variable Name": "Social Security"
   },
+  "166839817": {
+    "Variable Label": "Birth Place Country",
+    "Variable Name": [
+      "SrvBOH_BirthPlCountry_v1r0"
+    ]
+  },
   "167028305": {
     "Variable Label": "Tahitian",
     "Variable Name": [
@@ -2069,6 +2075,13 @@
     "Variable Label": "Don't Know",
     "Variable Name": [
       "SrvBOH_DontKnowRE_v1r0",
+      "SrvBOH_UnknownRE2_v1r0",
+      "SrvBOH_UnknownRE3_v1r0",
+      "SrvBOH_UnknownRE4_v1r0",
+      "SrvBOH_UnknownRE5_v1r0",
+      "SrvBOH_UnknownRE6_v1r0",
+      "SrvBOH_UnknownRE7_v1r0",
+      "SrvBOH_UnknownRE8_v1r0",
       "SrvBOH_UnknownCanc_v1r0",
       "SrvBOH_MCancerUnknown_v1r0",
       "SrvBOH_DCancerUnknown_v1r0",
@@ -3114,10 +3127,7 @@
     ]
   },
   "210983898": {
-    "Variable Label": "Participant experience - I have no comment",
-    "Variable Name": [
-      "SrvPES_EXPERI2_v1r0"
-    ]
+    "Variable Name": "What has been good about your experience as a participant so far? - SOURCE"
   },
   "211023960": {
     "Variable Label": "Not Interested In Long-Term Study",
@@ -3528,6 +3538,12 @@
       "SrvBio_SrvVersionBioR_v1r0"
     ]
   },
+  "227856891": {
+    "Variable Label": "MyConnect improvement - I have no comment",
+    "Variable Name": [
+      "SrvPES_IMPROVE_v1r0"
+    ]
+  },
   "228752045": {
     "Variable Label": "Often drink other alcoholic beverages, past 12 months",
     "Variable Name": [
@@ -3535,10 +3551,7 @@
     ]
   },
   "228922812": {
-    "Variable Label": "Participant experience improvement - I have no comment",
-    "Variable Name": [
-      "SrvPES_EXPERI3_v1r0"
-    ]
+    "Variable Name": "What can our team do to make your experience as a Connect participant better? - SOURCE"
   },
   "229540444": {
     "Variable Name": "3 to 5 hours per day"
@@ -4813,7 +4826,7 @@
   "279637054": {
     "Variable Label": "Past Occ Category",
     "Variable Name": [
-      "SrvBOH_PastOccupCat_v1r1"
+      "SrvBOH_PastOccupCat_v2r1"
     ]
   },
   "280877371": {
@@ -5476,7 +5489,7 @@
     ]
   },
   "308014437": {
-    "Variable Name": "Hispanic, Latino, or Spanish- Which categories describe you? Select all that apply. Note, you may select more than one group."
+    "Variable Name": "Hispanic, Latino, or Spanish- Which of these describes you best? Select all that apply."
   },
   "308286913": {
     "Variable Label": "Shipyard",
@@ -5793,6 +5806,12 @@
       "SrvBOH_DailyPain_v1r0"
     ]
   },
+  "324416332": {
+    "Variable Label": "Guatemalan",
+    "Variable Name": [
+      "SrvBOH_Guatemalan_v1r0"
+    ]
+  },
   "324692899": {
     "Variable Name": "Non-screening appointment"
   },
@@ -5848,6 +5867,12 @@
     "Variable Label": "Use marijuana  every day, months",
     "Variable Name": [
       "SrvSAS_UseMJED_v1r0"
+    ]
+  },
+  "327316968": {
+    "Variable Label": "Connect communications - No",
+    "Variable Name": [
+      "SrvPES_COMM3_v1r0"
     ]
   },
   "327912200": {
@@ -6106,6 +6131,12 @@
       "SrvMtW_DENTALCLEAN_v1r0"
     ]
   },
+  "340090391": {
+    "Variable Label": "Birth Place State",
+    "Variable Name": [
+      "SrvBOH_BirthPlState_v1r0"
+    ]
+  },
   "340854069": {
     "Variable Label": "Height Ft",
     "Variable Name": [
@@ -6325,7 +6356,7 @@
     "Variable Name": "My periods stopped because I began taking gender affirming hormones"
   },
   "351657815": {
-    "Variable Name": "Middle Eastern or North African- Which categories describe you? Select all that apply. Note, you may select more than one group."
+    "Variable Name": "Middle Eastern or North African- Which of these describes you best? Select all that apply."
   },
   "351928156": {
     "Variable Name": "Previous address 1"
@@ -6410,10 +6441,7 @@
     ]
   },
   "355080680": {
-    "Variable Label": "Biospecimen donation experience - I have no comment",
-    "Variable Name": [
-      "SrvPES_BIOSAMP5_v1r0"
-    ]
+    "Variable Name": "You can share more about your experience with the Connect team when you donated samples here. - SOURCE"
   },
   "355179190": {
     "Variable Label": "Do Not Know 6-Seasonal Cross",
@@ -6428,6 +6456,12 @@
     "Variable Label": "Days use THC concentrates via dabbing in life",
     "Variable Name": [
       "SrvSAS_THCDays_v1r0"
+    ]
+  },
+  "355907072": {
+    "Variable Label": "Finding everything on MyConnect - I have no comment",
+    "Variable Name": [
+      "SrvPES_FIND2_v1r0"
     ]
   },
   "356133766": {
@@ -6526,7 +6560,7 @@
     ]
   },
   "362270886": {
-    "Variable Name": "American Indian or Alaska Native- Which categories describe you? Select all that apply. Note, you may select more than one group."
+    "Variable Name": "American Indian or Alaska Native- Which of these describes you best? Select all that apply."
   },
   "363026564": {
     "Variable Label": "Not Interested In Giving Samples",
@@ -6544,10 +6578,7 @@
     ]
   },
   "363878103": {
-    "Variable Label": "Baseline survey experience - I have no comment",
-    "Variable Name": [
-      "SrvPES_BASELINE4_v1r0"
-    ]
+    "Variable Name": "Feel free to share anything else you'd like to tell us about your experience with the first Connect survey. - SOURCE"
   },
   "364303962": {
     "Variable Label": "Drink tap water, other beverages or soup",
@@ -6995,6 +7026,9 @@
       "SrvBOH_PolishLang_v1r0"
     ]
   },
+  "381875176": {
+    "Variable Name": "Where were you born?"
+  },
   "381878591": {
     "Variable Name": "Moderate hair loss on the sides of the forehead as far back as the front of the ears, and moderate loss from the center of the forehead. Also, mild baldness on the top (crown) of the head. The two areas of hair loss are separated by a section of hair that goes across the top of the head."
   },
@@ -7020,7 +7054,7 @@
     ]
   },
   "384191091": {
-    "Variable Name": "Which categories describe you? Select all that apply. Note, you may select more than one group."
+    "Variable Name": "Which of these describes you best? Select all that apply. Note, you may select more than one group."
   },
   "384403974": {
     "Variable Label": "City",
@@ -7220,6 +7254,12 @@
   "391972881": {
     "Variable Name": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had Lymphoma cancer?"
   },
+  "392282961": {
+    "Variable Label": "Participant experience - I have no comment",
+    "Variable Name": [
+      "SrvPES_EXPERI2_v1r0"
+    ]
+  },
   "392301875": {
     "Variable Label": "Around tobacco smoke of others, Age 30 to Age 39",
     "Variable Name": [
@@ -7284,10 +7324,7 @@
     ]
   },
   "394328384": {
-    "Variable Label": "Connect communications - No",
-    "Variable Name": [
-      "SrvPES_COMM3_v1r0"
-    ]
+    "Variable Name": "Is there anything missing from our study communications that we should add? Please share here. - SOURCE"
   },
   "394410256": {
     "Variable Label": "Natural skin color",
@@ -7732,6 +7769,12 @@
     "Variable Label": "Age Last Use - Testosterone Therapy",
     "Variable Name": [
       "SrvMRE_TTAgeL_v1r0"
+    ]
+  },
+  "415367957": {
+    "Variable Label": "Birth Place City",
+    "Variable Name": [
+      "SrvBOH_BirthPlCity_v1r0"
     ]
   },
   "415693436": {
@@ -8201,7 +8244,7 @@
   "434316600": {
     "Variable Label": "Curr Job Employer",
     "Variable Name": [
-      "SrvBOH_EmployerC_v1r0"
+      "SrvBOH_EmployerC_v2r0"
     ]
   },
   "434556295": {
@@ -9777,10 +9820,7 @@
     ]
   },
   "496748977": {
-    "Variable Label": "Biospecimen survey improvement - No",
-    "Variable Name": [
-      "SrvPES_BIOSURV5_v1r0"
-    ]
+    "Variable Name": "Is there anything that the Connect team could have done to make your experience donating samples better or easier? - SOURCE"
   },
   "496801729": {
     "Variable Label": "Commute to and from current school same",
@@ -10202,7 +10242,7 @@
   "518387017": {
     "Variable Label": "Past Job Tasks",
     "Variable Name": [
-      "SrvBOH_PastJobTask_v1r0"
+      "SrvBOH_PastJobTask_v2r0"
     ]
   },
   "518416174": {
@@ -10346,6 +10386,12 @@
   "523188839": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had HIV/AIDS?"
   },
+  "523552092": {
+    "Variable Label": "Why biospecimen survey not completed",
+    "Variable Name": [
+      "SrvPES_BIOSURV4_v1r0"
+    ]
+  },
   "523660949": {
     "Variable Label": "Mouthwash for dry mouth",
     "Variable Name": [
@@ -10433,7 +10479,10 @@
     ]
   },
   "525535977": {
-    "Variable Name": "Asian- Which categories describe you? Select all that apply. Note, you may select more than one group."
+    "Variable Name": "Asian- Which of these describes you best? Select all that apply."
+  },
+  "525535978": {
+    "Variable Name": "Asian- Which of these describes you best? Select all that apply."
   },
   "525778327": {
     "Variable Label": "Country",
@@ -10643,6 +10692,12 @@
     "Variable Label": "Breast Surg",
     "Variable Name": [
       "SrvBOH_BreastSurgery_v1r0"
+    ]
+  },
+  "533527231": {
+    "Variable Label": "Swedish",
+    "Variable Name": [
+      "SrvBOH_Swedish_v1r0"
     ]
   },
   "533776046": {
@@ -10979,6 +11034,12 @@
       "SrvLAW_State2_v1r0"
     ]
   },
+  "544845551": {
+    "Variable Label": "Why joined Connect - I have no comment",
+    "Variable Name": [
+      "SrvPES_WHY2_v1r0"
+    ]
+  },
   "545319575": {
     "Variable Label": "Package Crushed - HC",
     "Variable Name": [
@@ -11076,10 +11137,7 @@
     ]
   },
   "549970786": {
-    "Variable Label": "MyConnect improvement - I have no comment",
-    "Variable Name": [
-      "SrvPES_IMPROVE_v1r0"
-    ]
+    "Variable Name": "What do you think could make MyConnect better or easier to use? - SOURCE"
   },
   "550020510": {
     "Variable Label": "Ba 8",
@@ -11670,10 +11728,7 @@
     "Variable Name": "Address 2- What is the full street address of the place you lived before? Please only include addresses where you have lived for at least two years."
   },
   "575160226": {
-    "Variable Label": "MyConnect technical problems - I have no comment",
-    "Variable Name": [
-      "SrvPES_TPROB2_v1r0"
-    ]
+    "Variable Name": "If you would like to share more about the technical problems you have experienced, you can do so here. - SOURCE"
   },
   "575237218": {
     "Variable Label": "Around tobacco smoke of others, Age 18 to Age 24",
@@ -11811,10 +11866,7 @@
     ]
   },
   "579939641": {
-    "Variable Label": "Finding everything on MyConnect - I have no comment",
-    "Variable Name": [
-      "SrvPES_FIND2_v1r0"
-    ]
+    "Variable Name": "If you would like to share more about why you aren't able to find everything you are looking for on MyConnect, you can do so here. - SOURCE"
   },
   "580185896": {
     "Variable Label": "Full Street name #1",
@@ -12444,6 +12496,12 @@
     "Variable Label": "State/Province",
     "Variable Name": [
       "SrvLAW_State6FollowUp_v1r0"
+    ]
+  },
+  "605479624": {
+    "Variable Label": "Unknown Birth Place",
+    "Variable Name": [
+      "SrvBOH_BirthPlUnk_v1r0"
     ]
   },
   "605818246": {
@@ -14172,15 +14230,18 @@
     ]
   },
   "674994176": {
-    "Variable Label": "Why joined Connect - I have no comment",
-    "Variable Name": [
-      "SrvPES_WHY2_v1r0"
-    ]
+    "Variable Name": "Feel free to share more about these reasons or any other reasons for joining Connect. - SOURCE"
   },
   "675129470": {
     "Variable Label": "Dabbing THC concentrates (such as wax, shatter, or rosin)",
     "Variable Name": [
       "SrvSAS_DabbingThcCon_v1r0"
+    ]
+  },
+  "675210992": {
+    "Variable Label": "Participant experience improvement - I have no comment",
+    "Variable Name": [
+      "SrvPES_EXPERI3_v1r0"
     ]
   },
   "675539614": {
@@ -14477,7 +14538,7 @@
   "686172464": {
     "Variable Label": "Past Job Yrs",
     "Variable Name": [
-      "SrvBOH_YearsPastJob_v1r1"
+      "SrvBOH_YearsPastJob_v2r1"
     ]
   },
   "686310465": {
@@ -14895,7 +14956,7 @@
     ]
   },
   "700374192": {
-    "Variable Name": "What type of business was this at your current employer? [Select all that apply.]"
+    "Variable Name": "Current employer - What type of business is this? [Select all that apply.]"
   },
   "700542944": {
     "Variable Label": "Difficult to get an appointment",
@@ -15302,6 +15363,12 @@
   "718537646": {
     "Variable Name": "More than 3 years to 4 years"
   },
+  "718633706": {
+    "Variable Label": "MyConnect technical problems - I have no comment",
+    "Variable Name": [
+      "SrvPES_TPROB2_v1r0"
+    ]
+  },
   "718687985": {
     "Variable Name": "Almost every day"
   },
@@ -15500,6 +15567,9 @@
     ]
   },
   "726699695": {
+    "Variable Name": "Background and Overall Health"
+  },
+  "726699696": {
     "Variable Name": "Background and Overall Health"
   },
   "726739712": {
@@ -15871,7 +15941,7 @@
   "739294356": {
     "Variable Label": "Curr Job Yrs",
     "Variable Name": [
-      "SrvBOH_CurrentJobYr_v1r1"
+      "SrvBOH_CurrentJobYr_v2r1"
     ]
   },
   "740535024": {
@@ -16429,7 +16499,7 @@
   "761310265": {
     "Variable Label": "Curr Occ Category",
     "Variable Name": [
-      "SrvBOH_OccupationCat_v1r1"
+      "SrvBOH_OccupationCat_v2r1"
     ]
   },
   "761822652": {
@@ -16818,6 +16888,12 @@
     "Variable Label": "Days per week paid",
     "Variable Name": [
       "SrvLAW_DaysPWPaid_v1r0"
+    ]
+  },
+  "774398441": {
+    "Variable Label": "Biospecimen donation experience - I have no comment",
+    "Variable Name": [
+      "SrvPES_BIOSAMP5_v1r0"
     ]
   },
   "774439579": {
@@ -17403,7 +17479,7 @@
   "796828094": {
     "Variable Label": "Curr Job Tasks",
     "Variable Name": [
-      "SrvBOH_CurrentJobTask_v1r0"
+      "SrvBOH_CurrentJobTask_v2r0"
     ]
   },
   "797076693": {
@@ -17425,7 +17501,7 @@
     ]
   },
   "797626610": {
-    "Variable Name": "White- Which categories describe you? Select all that apply. Note, you may select more than one group."
+    "Variable Name": "White- Which of these describes you best? Select all that apply."
   },
   "797736697": {
     "Variable Name": "A few days per week"
@@ -18004,6 +18080,12 @@
   "814664694": {
     "Variable Name": "What medication did you use to treat thinning hair or hair loss? Select all that apply."
   },
+  "814873539": {
+    "Variable Label": "Why baseline survey not completed",
+    "Variable Name": [
+      "SrvPES_BASELINE2_v1r0"
+    ]
+  },
   "815229596": {
     "Variable Name": "In which season(s) you cross-country ski? Select all that apply."
   },
@@ -18206,6 +18288,12 @@
     "Variable Label": "Time Go To Bed On Non-Workdays",
     "Variable Name": [
       "SrvMRE_NonWorkBed_v1r0"
+    ]
+  },
+  "824000895": {
+    "Variable Label": "Biospecimen survey improvement - No",
+    "Variable Name": [
+      "SrvPES_BIOSURV5_v1r0"
     ]
   },
   "824151724": {
@@ -18786,7 +18874,7 @@
   "847533056": {
     "Variable Label": "Longest Held Job",
     "Variable Name": [
-      "SrvBOH_LongestJob_v1r0"
+      "SrvBOH_LongestJob_v2r0"
     ]
   },
   "847578001": {
@@ -19361,7 +19449,7 @@
   "868232409": {
     "Variable Label": "Curr Employer Services/Products",
     "Variable Name": [
-      "SrvBOH_ServiceProdC_v1r0"
+      "SrvBOH_ServiceProdC_v2r0"
     ]
   },
   "868504994": {
@@ -19748,10 +19836,7 @@
     ]
   },
   "886084185": {
-    "Variable Label": "Why baseline survey not completed",
-    "Variable Name": [
-      "SrvPES_BASELINE2_v1r0"
-    ]
+    "Variable Name": "Please choose the reason that best describes why you have not completed all the sections in the first survey: - SOURCE"
   },
   "886203785": {
     "Variable Label": "Other: Please describe, text box commute to past work",
@@ -20632,7 +20717,7 @@
   "923333992": {
     "Variable Label": "Oth - Free Text",
     "Variable Name": [
-      "SrvBOH_OtherBsnDescC_v1r0"
+      "SrvBOH_OtherBsnDescC_v2r0"
     ]
   },
   "923371868": {
@@ -21169,10 +21254,7 @@
     ]
   },
   "943119849": {
-    "Variable Label": "Why biospecimen survey not completed",
-    "Variable Name": [
-      "SrvPES_BIOSURV4_v1r0"
-    ]
+    "Variable Name": "Please choose the reason that fits best to describe why you have not completed the sample survey: - SOURCE"
   },
   "943232079": {
     "Variable Label": "D/T Start SSN Surv",
@@ -21539,6 +21621,12 @@
     "Variable Label": "Biospecimen donation - ease",
     "Variable Name": [
       "SrvPES_BIOSAMP3B_v1r0"
+    ]
+  },
+  "956649519": {
+    "Variable Label": "Baseline survey experience - I have no comment",
+    "Variable Name": [
+      "SrvPES_BASELINE4_v1r0"
     ]
   },
   "956827502": {
@@ -22003,7 +22091,7 @@
     ]
   },
   "976808005": {
-    "Variable Name": "Black, African American, or African- Which categories describe you? Select all that apply. Note, you may select more than one group."
+    "Variable Name": "Black, African American, or African- Which of these describes you best? Select all that apply."
   },
   "976863738": {
     "Variable Label": "Around tobacco smoke of others, Age 25 to Age 29",
