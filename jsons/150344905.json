@@ -7,8 +7,7 @@
   "Secondary Source": [
     "726699695.json"
   ],
-  "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/1/24",
+  "Deprecated, New, or Revised": "Deprecated",
   "conceptId": "150344905",
   "Current Question Text": "How old are you today?",
   "Variable Label": "Age",
@@ -23,8 +22,8 @@
   "Current Format/Value": "N/A",
   "Required": "Yes",
   "PII": "Yes",
-  "Notes": "Range check min=30 max=75. (Previously was min=40 max=70)",
-  "Date added or modified": "2/28/24",
+  "Notes": "Range check min=30 max=75. (Previously was min=40 max=70). Revision pushed to production on 2/1/2024",
+  "Date added or modified": "9/13/24",
   "Question Type": "Text only Response",
   "IMS Review Notes": "Added prod push date and updated range check."
 }

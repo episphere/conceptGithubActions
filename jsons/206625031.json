@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2314",
-  "Index": "2314",
+  "Formula for Index": "2332",
+  "Index": "2332",
   "Primary Source": [
     "129084651.json",
     "129084651.json",
@@ -899,8 +899,8 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display is SKINCANC = 1. Range check min=0 max=sum(isDefined(D_150344905,age),1)",
-  "Date added or modified": "2/28/24",
+  "Notes": "Only display is SKINCANC = 1. Range check min=0 max=sum(isDefined(D_150344905,age),1). Updated range check min=0 max=age.",
+  "Date added or modified": "2/28/2024; 9/13/2024",
   "Question Type": "Or (xor=) Question (either/or text boxes without radio button)",
   "IMS Review Notes": "Added prod push date"
 }

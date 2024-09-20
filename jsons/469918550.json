@@ -8,9 +8,13 @@
   "Current Source Question": [
     "525535977.json"
   ],
+  "V1 Source Question": [
+    "Asian- Which categories describe you? Select all that apply. Note, you may select more than one group."
+  ],
   "GridID/Source Question Name": [
     "RACEETH3"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "469918550",
   "Current Question Text": "Hmong",
   "Variable Label": "Hmong",
@@ -25,14 +29,15 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if RACEETH = Asian",
+  "Date added or modified": "9/13/24",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "2075",
-    "2076"
+    "2077",
+    "2078"
   ],
   "Index": [
-    "2075",
-    "2076"
+    "2077",
+    "2078"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

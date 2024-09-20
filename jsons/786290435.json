@@ -8,9 +8,13 @@
   "Current Source Question": [
     "115616118.json"
   ],
+  "V1 Source Question": [
+    "Native Hawaiian or other Pacific Islander - Which categories describe you? Select all that apply. Note, you may select more than one group."
+  ],
   "GridID/Source Question Name": [
     "RACEETH7"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "786290435",
   "Current Question Text": "Samoan",
   "Variable Label": "Samoan",
@@ -25,14 +29,15 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if RACEETH = Native Hawaiian or other Pacific Islander",
+  "Date added or modified": "9/13/24",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "2177",
-    "2178"
+    "2189",
+    "2190"
   ],
   "Index": [
-    "2177",
-    "2178"
+    "2189",
+    "2190"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

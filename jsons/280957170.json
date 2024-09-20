@@ -8,9 +8,13 @@
   "Current Source Question": [
     "976808005.json"
   ],
+  "V1 Source Question": [
+    "Black, African American, or African- Which categories describe you? Select all that apply. Note, you may select more than one group."
+  ],
   "GridID/Source Question Name": [
     "RACEETH4"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "280957170",
   "Current Question Text": "Caribbean",
   "Variable Label": "Caribbean",
@@ -25,14 +29,15 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if RACEETH = Black, African American, or African",
+  "Date added or modified": "9/13/24",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "2094",
-    "2095"
+    "2098",
+    "2099"
   ],
   "Index": [
-    "2094",
-    "2095"
+    "2098",
+    "2099"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

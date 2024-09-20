@@ -11,10 +11,15 @@
     "797626610.json",
     "588212264.json"
   ],
+  "V1 Source Question": [
+    "White- Which categories describe you? Select all that apply. Note, you may select more than one group.",
+    ""
+  ],
   "GridID/Source Question Name": [
     "RACEETH8",
     "LANG"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "267472307",
   "Current Question Text": "Italian",
   "Variable Label": "Italian",
@@ -31,18 +36,18 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if RACEETH = White",
+  "Date added or modified": "9/13/24",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "2200",
-    "2201"
+    "2214",
+    "2215"
   ],
   "Index": [
-    "2200",
-    "2201"
+    "2214",
+    "2215"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  },
-  "Date added or modified": "9/14/21"
+  }
 }

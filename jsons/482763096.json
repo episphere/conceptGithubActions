@@ -16,27 +16,30 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "Participant Experience Survey",
-  "Date added or modified": "8/23/24",
   "Question Type": "Mulitple Choice",
-  "IMS Review Notes": "Question added for Sept 2024 Prod Push",
   "Formula for Index": [
-    "8472",
-    "8473",
-    "8474"
+    "8494",
+    "8495",
+    "8496"
   ],
   "Index": [
-    "8472",
-    "8473",
-    "8474"
-  ],
-  "Deprecated, New, or Revised": [
-    "New",
-    "New",
-    "New"
+    "8494",
+    "8495",
+    "8496"
   ],
   "Current Format/Value": {
     "588529567.json": "0",
     "628115953.json": "1",
     "267441074.json": "2"
-  }
+  },
+  "Date added or modified": [
+    "8/23/2024, 9/20/2024",
+    "9/20/24",
+    "9/20/24"
+  ],
+  "IMS Review Notes": [
+    "Question added for Sept 2024 Prod Push.  Question added for Sept 2024 Prod Push. Removed New from the Deprecated, New, or Revised column because survey has not gone to production.",
+    "Question added for Sept 2024 Prod Push. Removed New from the Deprecated, New, or Revised column because survey has not gone to production.",
+    "Question added for Sept 2024 Prod Push. Removed New from the Deprecated, New, or Revised column because survey has not gone to production."
+  ]
 }

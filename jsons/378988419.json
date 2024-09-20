@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2833",
-  "Index": "2833",
+  "Formula for Index": "2855",
+  "Index": "2855",
   "Primary Source": [
     "129084651.json"
   ],
@@ -27,8 +27,8 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Range check minval=max(isDefined(D_150344905,age),5) max=125",
-  "Date added or modified": "8/28/23",
+  "Notes": "Range check minval=max(isDefined(D_150344905,age),5) max=125. Updated min range check min=age+5",
+  "Date added or modified": "8/28/2023; 9/13/2024",
   "Question Type": "Text Box Plus Check Box",
   "IMS Review Notes": "Added range check to Notes."
 }

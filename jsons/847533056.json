@@ -5,11 +5,13 @@
   "Secondary Source": [
     "726699695.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "847533056",
-  "Current Question Text": "Is this your longest-held job?",
+  "Current Question Text": "Is your current job your longest-held job?",
+  "V1 Question Text": "Is this your longest-held job?",
   "Variable Label": "Longest Held Job",
   "Variable Name": [
-    "SrvBOH_LongestJob_v1r0"
+    "SrvBOH_LongestJob_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "WORK5"
@@ -18,14 +20,15 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
+  "Date added or modified": "9/13/24",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "3352",
-    "3353"
+    "3374",
+    "3375"
   ],
   "Index": [
-    "3352",
-    "3353"
+    "3374",
+    "3375"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

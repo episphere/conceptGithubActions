@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2658",
-  "Index": "2658",
+  "Formula for Index": "2676",
+  "Index": "2676",
   "Primary Source": [
     "129084651.json"
   ],
@@ -27,8 +27,8 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if BLDTRANS=YES. Range check min=valueOrDefault(\"\"D_197994844\"\",#currentYear-valueOrDefault(\"\"D_150344905\"\",\"\"age\"\",100)-1) max=#currentYear",
-  "Date added or modified": "8/28/23",
+  "Notes": "Only display if BLDTRANS=YES. Range check min=valueOrDefault(\"\"D_197994844\"\",#currentYear-valueOrDefault(\"\"D_150344905\"\",\"\"age\"\",100)-1) max=#currentYear. Updated min range check min=RcrtUP_YOB_v1r0-1",
+  "Date added or modified": "8/28/2023; 9/13/2024",
   "Question Type": "Or (xor=) Question (either/or text boxes without radio button)",
   "IMS Review Notes": "Added range check to Notes."
 }

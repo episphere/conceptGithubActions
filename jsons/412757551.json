@@ -8,9 +8,13 @@
   "Current Source Question": [
     "308014437.json"
   ],
+  "V1 Source Question": [
+    "Hispanic, Latino, or Spanish- Which categories describe you? Select all that apply. Note, you may select more than one group."
+  ],
   "GridID/Source Question Name": [
     "RACEETH5"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "412757551",
   "Current Question Text": "Ecuadorian",
   "Variable Label": "Ecuadorian",
@@ -25,14 +29,15 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if RACEETH = Hispanic, Latino, or Spanish",
+  "Date added or modified": "9/13/24",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "2123",
-    "2124"
+    "2129",
+    "2130"
   ],
   "Index": [
-    "2123",
-    "2124"
+    "2129",
+    "2130"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
