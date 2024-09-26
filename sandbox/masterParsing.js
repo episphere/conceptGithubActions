@@ -17,11 +17,11 @@ function parseMasterModule() {
             masterJSON[file.substring()] = JSON.parse(currJSON);
         }
     });
-
+    console.log("masterJSON", masterJSON);
 
     let keys = Object.keys(masterJSON);
     let toReturn = {};
-    let varNameToConcept = {};
+    let varNameToConcept = {}; // current question text to concept id
     for (let i = 0; i < keys.length; i++) {
         let currJSON = masterJSON[keys[i]];
         if (currJSON['conceptId'] && currJSON['Current Question Text']) {
@@ -38,7 +38,7 @@ function parseMasterModule() {
     for (let i = 0; i < keys.length; i++) {
 
         let currJSON = masterJSON[keys[i]];
-
+        // skip to "126388230" for testing
         if (currJSON['Primary Source']) {
             if (!Array.isArray(currJSON['Primary Source'])) {
                 currJSON['Primary Source'] = [currJSON['Primary Source']];
@@ -56,16 +56,16 @@ function parseMasterModule() {
                 } 
             }
 
-            for (let sourceIndex = 0; sourceIndex < currJSON['Primary Source'].length; sourceIndex++) {
+            for (let sourceIndex = 0; sourceIndex < currJSON['Primary Source'].length; sourceIndex++) { // iterate through currJOSNS array of primary sources
                 
-                if (currJSON['Primary Source'][sourceIndex] && currJSON['Primary Source'][sourceIndex] === "129084651.json") {
+                if (currJSON['Primary Source'][sourceIndex] && currJSON['Primary Source'][sourceIndex] === "129084651.json") { // logic to check if primary source is a SURVEY
                     //Checks for module name
                     // "898006288.json", "726699695.json"
                     //if(currJSON['Secondary Source'] && ["745268907.json","965707586.json","898006288.json", "726699695.json"].includes(currJSON['Secondary Source'])){
                     //if(currJSON['Secondary Source'] && ["898006288.json", "726699695.json"].includes(currJSON['Secondary Source'])){
                     //if(currJSON['Secondary Source'] && ["640213240.json"].includes(currJSON['Secondary Source'])){
                         
-                    if (currJSON['Secondary Source'][sourceIndex] && secondarySourceCids.includes(currJSON['Secondary Source'][sourceIndex])) {
+                    if (currJSON['Secondary Source'][sourceIndex] && secondarySourceCids.includes(currJSON['Secondary Source'][sourceIndex])) { // checks if secondary source exists from array
                         
                             if (currJSON['Connect Value for Select all that apply questions - Surveys Only'] && currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex]) {
                                 // isTB - isTextBox
@@ -78,7 +78,7 @@ function parseMasterModule() {
                                     //console.log(headerName)
                                 }
                                 
-                                if (!currJSON['GridID/Source Question Name'] || !currJSON['GridID/Source Question Name'][sourceIndex] || (!Array.isArray(currJSON['GridID/Source Question Name'][sourceIndex]) && isGridIdSourceQuestionNamePrefixMatch(currJSON['GridID/Source Question Name'][sourceIndex]))) {
+                                if (!currJSON['GridID/Source Question Name'] || !currJSON['GridID/Source Question Name'][sourceIndex] || (!Array.isArray(currJSON['GridID/Source Question Name'][sourceIndex]) && isGridIdSourceQuestionNamePrefixMatch(currJSON['GridID/Source Question Name'][sourceIndex]))) { // Match for case insensitive "grid_" or "nest_" prefix
                                     if (currJSON['GridID/Source Question Name'] && currJSON['GridID/Source Question Name'][sourceIndex] && isGridIdSourceQuestionNamePrefixMatch(currJSON['GridID/Source Question Name'][sourceIndex])) {
                                         
                                         if (currJSON['Current Source Question'] && currJSON['Current Source Question'][sourceIndex]) {
@@ -239,38 +239,38 @@ function parseMasterModule() {
     
     
                                 }
-                                //check if it is a text response (Connect Value)
+                                //check if it is a text response (Connect Value)*
                                 else {
                                     // console.log("keys",keys)
-                                    if (currJSON['Current Format/Value'] && typeof currJSON['Current Format/Value'] === 'object' && currJSON['Current Format/Value'] !== null) {
+                                    if (currJSON['Current Format/Value'] && typeof currJSON['Current Format/Value'] === 'object' && currJSON['Current Format/Value'] !== null) { // determines TextBox, repsonses are object
                                         isTB = false;
                                     }
                                     else {
                                         isTB = true;
                                         //console.log(currJSON['Current Format/Value'])
                                     }
-                                    if (currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex] && !isNaN(currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex])) {
+                                    if (currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex] && !isNaN(currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex])) { // number val condition
                                         //console.log(currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex])
                                         //console.log(headerName)
                                         isTB = false;
                                     }
     
-                                    headerName = currJSON['GridID/Source Question Name'][sourceIndex];
-                                    if (!Array.isArray(headerName)) {
+                                    headerName = currJSON['GridID/Source Question Name'][sourceIndex]; // Reassignment from Connect Value to GridID/Source Question Name, [possible area to add logic ]*
+                                    if (!Array.isArray(headerName)) { // if not an array*
     
-                                        if (headerName == currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex]) {
+                                        if (headerName == currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex]) { // if the header name is the same as the variable name ~SOURCE OF THE PROBLEM~
                                             //console.log('EQUALS')
                                             //console.log(headerName);
     
-                                            let val = currJSON['Current Format/Value']
+                                            let val = currJSON['Current Format/Value'] // adding is here
                                             //console.log(val);
                                             if (val && typeof val == "string" && val.includes('=')) {
-                                                //console.log(val)
+                                                // console.log("EQUALS VALUE WITH MATCHING GRID ID AND CONNECT VALUE")
+                                                // console.log(val)
                                                 let keyNum = val.split('=')[0].trim();
                                                 let valNum = val.split('=')[1].trim();
                                                 let thisConcept = '';
                                                 if (varNameToConcept[valNum]) {
-    
                                                     thisConcept = varNameToConcept[valNum]
                                                 }
                                                 else {
@@ -325,8 +325,8 @@ function parseMasterModule() {
                                             }
                                         }
                                         else {
-                                            //isTB = true;
-                                            if (toReturn[headerName.toUpperCase()]) {
+                                            //isTB = true; // Delete this line
+                                            if (toReturn[headerName.toUpperCase()]) { // header name exists already, add to existing header
                                                 toInsert = toReturn[headerName.toUpperCase()];
                                             }
                                             else {
@@ -342,20 +342,43 @@ function parseMasterModule() {
                                             //console.log(questIds)
                                             //console.log(currJSON['Connect Value for Select all that apply questions - Surveys Only'])
                                             // console.log(currJSON)
-                                            questIds[currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()] = {
+                                            questIds[currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()] = { // insert connect value
                                                 "conceptId": currJSON['conceptId'],
                                                 "concept": currJSON["Current Question Text"]
                                             }
                                             if (isTB) {
-                                               
+
                                                 questIds[currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()]['isTextBox'] = isTB;
                                             }
                                             if (currJSON['Current Source Question'] && currJSON['Current Source Question'][sourceIndex]) {
-                                                toInsert['conceptId'] = currJSON['Current Source Question'][sourceIndex].substring(0, 9);
+                                                toInsert['conceptId'] = currJSON['Current Source Question'][sourceIndex].substring(0, 9); // questionText level cid reassigned to source questoion cid
                                                 if (!masterJSON[currJSON['Current Source Question'][sourceIndex]]) {
                                                     //console.log(currJSON)
                                                 }
-    
+                                                // condition for SRC GRIDID/Source Question Name 
+                                                 if (headerName && headerName.split('_').length === 3 
+                                                    && headerName.split('_')[1].slice(-3).toUpperCase() === "SRC" 
+                                                    && isTB === false && currJSON['Current Format/Value'] 
+                                                    && typeof currJSON['Current Format/Value'] === 'object') {
+                                                    // get all the current Format/Value numbers
+                                                    const currJSONFormatValueArrayOfKeys = Object.keys(currJSON['Current Format/Value']) // ["104430631.json", "353358909.json"]
+                                                    // get value of keys
+                                                    // loop through keys
+                                                    const testOutput = {}
+                                                    
+                                                    for (const currJSONKey of currJSONFormatValueArrayOfKeys) { 
+                                                        testOutput[currJSON['Current Format/Value'][currJSONKey]] = { // grabs the value of the key
+                                                            "conceptId": currJSONKey.substring(0, 9), // grabs the key and slices it to 9 remove .json
+                                                            "concept": masterJSON[currJSONKey]['Current Question Text']
+                                                        }
+                                                        questIds[currJSON['Current Format/Value'][currJSONKey]] = { // grabs the value of the key
+                                                            "conceptId": currJSONKey.substring(0, 9), // grabs the key and slices it to 9 remove .json
+                                                            "concept": masterJSON[currJSONKey]['Current Question Text'] 
+                                                        }
+                                                    }
+
+                                                    console.log("🚀 ~ testOutput:", testOutput);
+                                                 }
                                                 toInsert['questionText'] = masterJSON[currJSON['Current Source Question'][sourceIndex]]['Current Question Text'];
                                             }
     
@@ -368,7 +391,7 @@ function parseMasterModule() {
                                             let head = headerName[k];
                                             //console.log(currJSON)
                                             //console.log(masterJSON[head])
-                                            if(currJSON['conceptId'] == 283652434){
+                                            if(currJSON['conceptId'] == 283652434){ // ignore*
                                                 console.log('efg')
                                                 console.log(masterJSON[head])
                                             }
@@ -414,7 +437,7 @@ function parseMasterModule() {
                                     }
                                 }
                             }
-                            else if (currJSON['Variable Name'] && currJSON['Variable Name'][sourceIndex]) {
+                            else if (currJSON['Variable Name'] && currJSON['Variable Name'][sourceIndex]) { // variable Name usage
                               let isTB = false;
                               let header = currJSON['Variable Name'][sourceIndex];
                               let toInsert = {};
