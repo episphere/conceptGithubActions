@@ -5,11 +5,12 @@
   "Secondary Source": [
     "745268907.json"
   ],
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "Revised",
   "conceptId": "910856756",
   "Current Question Text": "Overall, how was your sleep on a usual night sleep during the past 4 weeks?",
   "Variable Label": "Sleep Quality Last 4 Weeks",
   "Variable Name": [
-    "SrvMRE_SleepLast4Wk_v1r0"
+    "SrvMRE_SleepLast4Wk_v1r1"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "SLHABIT2"
@@ -38,5 +39,11 @@
     "838403733.json": "2",
     "522143286.json": "3",
     "621370621.json": "4"
-  }
+  },
+  "Date added or modified": [
+    "9/24/24"
+  ],
+  "IMS Review Notes": [
+    "Updated response from sound and restful to sound or restful and versioned to r1"
+  ]
 }
