@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2816",
-  "Index": "2816",
+  "Formula for Index": "2838",
+  "Index": "2838",
   "Primary Source": [
     "129084651.json"
   ],
@@ -21,8 +21,8 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Range check (max previously was age)",
-  "Date added or modified": "9/14/23",
+  "Notes": "Range check (max previously was age). Updated range check max=age",
+  "Date added or modified": "9/14/2023; 9/13/2024",
   "Question Type": "Or (xor=) Question (either/or text boxes without radio button)",
   "IMS Review Notes": "Updated Variable name suffix to _v1r1 to reflect range check update from age to age+1. Deleted range check from Notes until markdown is updated"
 }

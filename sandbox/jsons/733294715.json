@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "8398",
-  "Index": "8398",
+  "Formula for Index": "8424",
+  "Index": "8424",
   "Primary Source": [
     "129084651.json"
   ],
@@ -11,7 +11,7 @@
     "549970786.json"
   ],
   "GridID/Source Question Name": [
-    "SrvPES_IMPROVE_v1r0"
+    "SrvPES_IMPROVESRC_v1r0"
   ],
   "conceptId": "733294715",
   "Current Question Text": "What do you think could make MyConnect better or easier to use? [text box]",
@@ -28,7 +28,7 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "Participant Experience Survey",
-  "Date added or modified": "1/5/23",
+  "Date added or modified": "1/5/2023, 9/20/2024",
   "Question Type": "Text Box Plus Check Box",
-  "IMS Review Notes": "Changed Connect value to full variable name."
+  "IMS Review Notes": "Changed Connect value to full variable name.  Added SOURCE to unharmonized source Q from question text. Added SRC to GridID/Source Question Name"
 }

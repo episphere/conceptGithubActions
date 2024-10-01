@@ -8,9 +8,13 @@
   "Current Source Question": [
     "384191091.json"
   ],
+  "V1 Source Question": [
+    "Which categories describe you? Select all that apply. Note, you may select more than one group."
+  ],
   "GridID/Source Question Name": [
     "RACEETH"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "458435048",
   "Current Question Text": "Black, African American, or African",
   "Variable Label": "Black/AA/African",
@@ -24,14 +28,15 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
+  "Date added or modified": "9/13/24",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "2039",
-    "2040"
+    "2043",
+    "2044"
   ],
   "Index": [
-    "2039",
-    "2040"
+    "2043",
+    "2044"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

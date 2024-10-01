@@ -8,9 +8,13 @@
   "Current Source Question": [
     "797626610.json"
   ],
+  "V1 Source Question": [
+    "White- Which categories describe you? Select all that apply. Note, you may select more than one group."
+  ],
   "GridID/Source Question Name": [
     "RACEETH8"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "859329001",
   "Current Question Text": "Irish",
   "Variable Label": "Irish",
@@ -25,14 +29,15 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if RACEETH = White",
+  "Date added or modified": "9/13/24",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "2198",
-    "2199"
+    "2216",
+    "2217"
   ],
   "Index": [
-    "2198",
-    "2199"
+    "2216",
+    "2217"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

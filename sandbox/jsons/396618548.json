@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2087",
-  "Index": "2087",
+  "Formula for Index": "2093",
+  "Index": "2093",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,9 +10,13 @@
   "Current Source Question": [
     "525535977.json"
   ],
+  "V1 Source Question": [
+    "Asian- Which categories describe you? Select all that apply. Note, you may select more than one group."
+  ],
   "GridID/Source Question Name": [
     "RACEETH3"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "396618548",
   "Current Question Text": "None of these Asian categories fully describe me. Please describe [text box]",
   "Variable Label": "None Fully Describe Me - Free Text",
@@ -28,6 +32,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if RACEETH = Asian",
-  "Date added or modified": "9/14/21",
+  "Date added or modified": "9/14/2021; 9/13/2024",
   "Question Type": "Optional Select All that Apply"
 }

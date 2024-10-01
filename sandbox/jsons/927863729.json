@@ -11,12 +11,15 @@
     "700374192.json",
     "530742915.json"
   ],
+  "V1 Source Question": [
+    "What type of business was this at your current employer? [Select all that apply.]",
+    ""
+  ],
   "GridID/Source Question Name": [
     "BSNSSTYP1",
     "BSNSSTYP2"
   ],
-  "Deprecated, New, or Revised": "New",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "7/5/23",
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "927863729",
   "Current Question Text": "Farming, fishing, or forestry",
   "Variable Label": "Farming/Fishing/Forestry",
@@ -32,19 +35,21 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "1/11/23",
+  "Notes": "New question pushed to prod on 7/5/23.",
+  "Date added or modified": "1/11/2023; 9/13/2024",
   "Question Type": "Optional Select All that Apply",
   "IMS Review Notes": "Added new question (aka reponse 6)",
   "Formula for Index": [
-    "3323",
-    "3324"
+    "3349",
+    "3350"
   ],
   "Index": [
-    "3323",
-    "3324"
+    "3349",
+    "3350"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  }
+  },
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "7/5/23"
 }

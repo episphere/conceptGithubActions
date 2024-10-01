@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "8422",
-  "Index": "8422",
+  "Formula for Index": "8448",
+  "Index": "8448",
   "Primary Source": [
     "129084651.json"
   ],
@@ -11,7 +11,7 @@
     "363878103.json"
   ],
   "GridID/Source Question Name": [
-    "SrvPES_BASELINE4_v1r0"
+    "SrvPES_BASELINE4SRC_v1r0"
   ],
   "conceptId": "177096151",
   "Current Question Text": "Feel free to share anything else you'd like to tell us about your experience with the first Connect survey. [text box]",
@@ -28,7 +28,7 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "Participant Experience Survey",
-  "Date added or modified": "1/5/23",
+  "Date added or modified": "1/5/2023, 9/20/2024",
   "Question Type": "Text Box Plus Check Box",
-  "IMS Review Notes": "Changed Connect value to full variable name."
+  "IMS Review Notes": "Changed Connect value to full variable name.  Added SOURCE to unharmonized source Q from question text. Added SRC to GridID/Source Question Name"
 }

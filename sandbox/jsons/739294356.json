@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "3351",
-  "Index": "3351",
+  "Formula for Index": "3377",
+  "Index": "3377",
   "Primary Source": [
     "129084651.json"
   ],
@@ -8,12 +8,12 @@
     "726699695.json"
   ],
   "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/1/24",
   "conceptId": "739294356",
-  "Current Question Text": "How many years have you worked in that current job?",
+  "Current Question Text": "How many years have you worked in your current job?",
+  "V1 Question Text": "How many years have you worked in that current job?",
   "Variable Label": "Curr Job Yrs",
   "Variable Name": [
-    "SrvBOH_CurrentJobYr_v1r1"
+    "SrvBOH_CurrentJobYr_v2r1"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "WORK4"
@@ -23,8 +23,8 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "Yes",
-  "Notes": "Range check (max previously was age). min=0 max=sum(isDefined(D_150344905,age),1)",
-  "Date added or modified": "2/28/24",
+  "Notes": "Range check (max previously was age). min=0 max=sum(isDefined(D_150344905,age),1). R1 revision pushed to production on 2/1/2024. Updated max range check max=age.",
+  "Date added or modified": "2/28/2024; 9/13/2024",
   "Question Type": "Or (xor=) Question (either/or text boxes without radio button)",
   "IMS Review Notes": "Updated range check and added prod push date."
 }

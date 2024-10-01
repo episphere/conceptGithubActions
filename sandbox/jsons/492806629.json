@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "8470",
-  "Index": "8470",
+  "Formula for Index": "8496",
+  "Index": "8496",
   "Primary Source": [
     "129084651.json"
   ],
@@ -11,7 +11,7 @@
     "496748977.json"
   ],
   "GridID/Source Question Name": [
-    "SrvPES_BIOSURV5_v1r0"
+    "SrvPES_BIOSURV5SRC_v1r0"
   ],
   "conceptId": "492806629",
   "Current Question Text": "Is there anything that the Connect team could have done to make your experience donating samples better or easier? [text box]",
@@ -28,7 +28,7 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "Participant Experience Survey",
-  "Date added or modified": "1/5/23",
+  "Date added or modified": "1/5/2023, 9/20/2024",
   "Question Type": "Text Box Plus Check Box",
-  "IMS Review Notes": "Used full Variable Name for Connect Value."
+  "IMS Review Notes": "Used full Variable Name for Connect Value.  Added SOURCE to unharmonized source Q from question text. Added SRC to GridID/Source Question Name"
 }

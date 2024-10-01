@@ -16,11 +16,17 @@
     "797626610.json",
     "588212264.json"
   ],
+  "V1 Source Question": [
+    "Hispanic, Latino, or Spanish- Which categories describe you? Select all that apply. Note, you may select more than one group.",
+    "White- Which categories describe you? Select all that apply. Note, you may select more than one group.",
+    ""
+  ],
   "GridID/Source Question Name": [
     "RACEETH5",
     "RACEETH8",
     "LANG"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "Variable Label": "Spanish",
   "Variable Name": [
     "SrvBOH_Spanish_v1r0",
@@ -37,18 +43,18 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if RACEETH = Hispanic, Latino, or Spanish",
+  "Date added or modified": "9/13/24",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "2133",
-    "2134"
+    "2145",
+    "2146"
   ],
   "Index": [
-    "2133",
-    "2134"
+    "2145",
+    "2146"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  },
-  "Date added or modified": "9/14/21"
+  }
 }

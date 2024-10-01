@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "3303",
-  "Index": "3303",
+  "Formula for Index": "3329",
+  "Index": "3329",
   "Primary Source": [
     "129084651.json"
   ],
@@ -8,12 +8,12 @@
     "726699695.json"
   ],
   "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/1/24",
   "conceptId": "761310265",
-  "Current Question Text": "Please identify the occupation category that best describes this current job.",
+  "Current Question Text": "Please identify the occupation category that best describes your current job.",
+  "V1 Question Text": "Please identify the occupation category that best describes this current job.",
   "Variable Label": "Curr Occ Category",
   "Variable Name": [
-    "SrvBOH_OccupationCat_v1r1"
+    "SrvBOH_OccupationCat_v2r1"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "OCCUPTN1"
@@ -22,8 +22,8 @@
   "Variable Length": "17",
   "Required": "No",
   "PII": "No",
-  "Notes": "Before Jan 2024, 4 responses were piped in from SOCcer. Revised so that 6 responses are piped in.",
-  "Date added or modified": "2/28/24",
+  "Notes": "Before Jan 2024, 4 responses were piped in from SOCcer. Revised so that 6 responses are piped in.  r1 revision pushed to production on 2/1/2024.",
+  "Date added or modified": "2/28/2024; 9/13/2024",
   "Question Type": "Self Populates Outside of Quest",
   "IMS Review Notes": "Added Prod Push Date"
 }

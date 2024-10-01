@@ -11,10 +11,15 @@
     "700374192.json",
     "530742915.json"
   ],
+  "V1 Source Question": [
+    "What type of business was this at your current employer? [Select all that apply.]",
+    ""
+  ],
   "GridID/Source Question Name": [
     "BSNSSTYP1",
     "BSNSSTYP2"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "641572847",
   "Current Question Text": "Manufacturing",
   "Variable Label": "Manufacturing",
@@ -34,12 +39,12 @@
   "Question Type": "Optional Select All that Apply",
   "IMS Review Notes": "Removed Keep from Deprecated, New, or Revised Column and removed prod push date.",
   "Formula for Index": [
-    "3305",
-    "3306"
+    "3331",
+    "3332"
   ],
   "Index": [
-    "3305",
-    "3306"
+    "3331",
+    "3332"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

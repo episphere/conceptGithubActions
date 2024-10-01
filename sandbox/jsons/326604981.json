@@ -8,9 +8,13 @@
   "Current Source Question": [
     "525535977.json"
   ],
+  "V1 Source Question": [
+    "Asian- Which categories describe you? Select all that apply. Note, you may select more than one group."
+  ],
   "GridID/Source Question Name": [
     "RACEETH3"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "326604981",
   "Current Question Text": "Filipino",
   "Variable Label": "Filipino",
@@ -25,14 +29,15 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if RACEETH = Asian",
+  "Date added or modified": "9/13/24",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "2073",
-    "2074"
+    "2079",
+    "2080"
   ],
   "Index": [
-    "2073",
-    "2074"
+    "2079",
+    "2080"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

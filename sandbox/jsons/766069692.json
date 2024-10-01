@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "8480",
-  "Index": "8480",
+  "Formula for Index": "8506",
+  "Index": "8506",
   "Primary Source": [
     "129084651.json"
   ],
@@ -11,7 +11,7 @@
     "210983898.json"
   ],
   "GridID/Source Question Name": [
-    "SrvPES_EXPERI2_v1r0"
+    "SrvPES_EXPERI2SRC_v1r0"
   ],
   "conceptId": "766069692",
   "Current Question Text": "What has been good about your experience as a participant so far? [text box]",
@@ -28,7 +28,7 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "Participant Experience Survey",
-  "Date added or modified": "1/5/23",
+  "Date added or modified": "1/5/2023, 9/20/2024",
   "Question Type": "Text Box Plus Check Box",
-  "IMS Review Notes": "Used full Variable Name for Connect Value."
+  "IMS Review Notes": "Used full Variable Name for Connect Value.  Added SOURCE to unharmonized source Q from question text. Added SRC to GridID/Source Question Name"
 }

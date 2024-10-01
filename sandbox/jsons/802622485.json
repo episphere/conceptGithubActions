@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2572",
-  "Index": "2572",
+  "Formula for Index": "2594",
+  "Index": "2594",
   "Primary Source": [
     "129084651.json",
     "129084651.json",
@@ -159,8 +159,8 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if MHGROUP9 = tonsillectomy. Range check minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear",
-  "Date added or modified": "8/28/23",
+  "Notes": "Only display if MHGROUP9 = tonsillectomy. Range check minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear. Updated min range check min=RcrtUP_YOB_v1r0-1",
+  "Date added or modified": "8/28/2023; 9/13/2024",
   "Question Type": "Or (xor=) Question (either/or text boxes without radio button)",
   "IMS Review Notes": "Added range check to Notes.",
   "Deprecated, New, or Revised": "New",

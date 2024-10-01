@@ -11,12 +11,15 @@
     "700374192.json",
     "530742915.json"
   ],
+  "V1 Source Question": [
+    "What type of business was this at your current employer? [Select all that apply.]",
+    ""
+  ],
   "GridID/Source Question Name": [
     "BSNSSTYP1",
     "BSNSSTYP2"
   ],
-  "Deprecated, New, or Revised": "New",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "7/5/23",
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "439857718",
   "Current Question Text": "Professional and business services (e.g., real estate, technical and scientific services, finance, insurance)",
   "Variable Label": "Professional/Business",
@@ -32,19 +35,21 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "1/11/23",
+  "Notes": "New question pushed to prod on 7/5/23.",
+  "Date added or modified": "1/11/2023; 9/13/2024",
   "Question Type": "Optional Select All that Apply",
   "IMS Review Notes": "Added new question (aka reponse 3)",
   "Formula for Index": [
-    "3315",
-    "3316"
+    "3341",
+    "3342"
   ],
   "Index": [
-    "3315",
-    "3316"
+    "3341",
+    "3342"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  }
+  },
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "7/5/23"
 }

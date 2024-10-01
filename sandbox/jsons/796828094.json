@@ -1,19 +1,19 @@
 {
-  "Formula for Index": "3302",
-  "Index": "3302",
+  "Formula for Index": "3328",
+  "Index": "3328",
   "Primary Source": [
     "129084651.json"
   ],
   "Secondary Source": [
     "726699695.json"
   ],
-  "Deprecated, New, or Revised": "New",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/1/24",
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "796828094",
-  "Current Question Text": "What are your main tasks and activities in this job? Please be descriptive. For example, constructed residential homes, drove patients from home to medical visits, provided assistance to elementary school students with special needs. WORK3B",
+  "Current Question Text": "What are your main tasks and activities in your current job? Please be descriptive. For example, constructed residential homes, drove patients from home to medical visits, provided assistance to elementary school students with special needs. WORK3B",
+  "V1 Question Text": "What are your main tasks and activities in this job? Please be descriptive. For example, constructed residential homes, drove patients from home to medical visits, provided assistance to elementary school students with special needs. WORK3B",
   "Variable Label": "Curr Job Tasks",
   "Variable Name": [
-    "SrvBOH_CurrentJobTask_v1r0"
+    "SrvBOH_CurrentJobTask_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "WORK3B"
@@ -23,7 +23,8 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "2/28/24",
+  "Notes": "New question pushed to production on 2/1/2024.",
+  "Date added or modified": "2/28/2024; 9/13/2024",
   "Question Type": "Text only Response",
   "IMS Review Notes": "Added Prod Push Date"
 }

@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "8469",
-  "Index": "8469",
+  "Formula for Index": "8495",
+  "Index": "8495",
   "Primary Source": [
     "129084651.json"
   ],
@@ -11,7 +11,7 @@
     "943119849.json"
   ],
   "GridID/Source Question Name": [
-    "SrvPES_BIOSURV4_v1r0"
+    "SrvPES_BIOSURV4SRC_v1r0"
   ],
   "conceptId": "314351052",
   "Current Question Text": "Please choose the reason that fits best to describe why you have not completed the sample survey: Other: Please describe text box",
@@ -28,7 +28,7 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "Participant Experience Survey",
-  "Date added or modified": "1/5/23",
+  "Date added or modified": "1/5/2023, 9/20/2024",
   "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
-  "IMS Review Notes": "Added Other to the Variale Label and used full Variable Name in Connect Value column."
+  "IMS Review Notes": "Added Other to the Variale Label and used full Variable Name in Connect Value column.  Added SOURCE to unharmonized source Q from question text. Added SRC to GridID/Source Question Name"
 }
