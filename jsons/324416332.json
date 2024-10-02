@@ -11,7 +11,6 @@
   "GridID/Source Question Name": [
     "RACEETH5"
   ],
-  "Deprecated, New, or Revised": "New",
   "conceptId": "324416332",
   "Current Question Text": "Guatemalan",
   "Variable Label": "Guatemalan",
@@ -26,7 +25,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if RACEETH = Hispanic, Latino, or Spanish",
-  "Date added or modified": "9/13/24",
   "Formula for Index": [
     "2135",
     "2136"
@@ -35,8 +33,20 @@
     "2135",
     "2136"
   ],
+  "Deprecated, New, or Revised": [
+    "New",
+    "New"
+  ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  }
+  },
+  "Date added or modified": [
+    "9/13/24",
+    "9/26/24"
+  ],
+  "IMS Review Notes": [
+    "Source question updated",
+    "Added New to the Deprecated, New, or Revised column"
+  ]
 }

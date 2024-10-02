@@ -10,6 +10,9 @@
   "Current Source Question": [
     "715581797.json"
   ],
+  "V2 Source Question": [
+    "When did you get vaccinated?  If you are using a phone or tablet, please tap the gray box to enter your response."
+  ],
   "V1 Source Question": [
     "When were you vaccinated?"
   ],
@@ -19,6 +22,7 @@
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "141616126",
   "Current Question Text": "When did you get vaccinated?  If you are using a phone or tablet, please tap the gray box to enter your response.",
+  "V2 Question Text": "When did you get vaccinated?  If you are using a phone or tablet, please tap the gray box to enter your response. Also question text diverged from source question.",
   "V1 Question Text": "When did you get vaccinated? MY",
   "Variable Label": "Vaccine Date",
   "Variable Name": [
@@ -32,7 +36,7 @@
   "Notes": "Range check min=valueOrDefault(\"\"D_141616126#prev\"\",\"\"2020-03\"\") max=#currentYear-#currentMonth",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "8/29/23",
+  "Date added or modified": "8/29/2023; 10/1/2024",
   "Question Type": "Special Function",
-  "IMS Review Notes": "Added range check to Notes"
+  "IMS Review Notes": "Added range check to Notes.  Updated the source question to match consistency of other variables although this was not harmonized."
 }

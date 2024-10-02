@@ -23,13 +23,13 @@
   "GridID/Source Question Name": [
     "SrvBlU_COV28_v1r0",
     "SrvBlU_COV28_v1r0",
-    "SrvCov_COV28_v1r0"
+    "SrvCov_COV28SRC_v2r0"
   ],
   "Variable Label": "Vaccine Brand",
   "Variable Name": [
     "SrvBlU_COV28_v1r0",
     "SrvBlU_COV28_v1r0",
-    "SrvCov_COV28_v1r0"
+    "SrvCov_COV28_v2r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -79,5 +79,11 @@
     "113838601.json": "3",
     "807835037.json": "55",
     "178420302.json": "77"
-  }
+  },
+  "V1 Source Question": [
+    "",
+    "",
+    "Which COVID-19 vaccine shot did you get?"
+  ],
+  "V1 Question Text": "Which COVID-19 vaccine shot did you get?  Question text diverged from source question"
 }

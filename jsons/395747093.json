@@ -19,7 +19,7 @@
   "GridID/Source Question Name": [
     "SrvBlU_COV28_v1r0",
     "SrvBlU_COV28_v1r0",
-    "SrvCov_COV28_v1r0"
+    "SrvCov_COV28SRC_v2r0"
   ],
   "Deprecated, New, or Revised": "Deprecated",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "7/5/23",
@@ -40,5 +40,10 @@
   "State Attribute": "No",
   "Date added or modified": "2/23/23",
   "Question Type": "Optional Multiple Choice with Text Box, Loops",
-  "IMS Review Notes": "Updated the GridID/Source Question Name and Variable name prefix to SrvBlU_"
+  "IMS Review Notes": "Updated the GridID/Source Question Name and Variable name prefix to SrvBlU_",
+  "V1 Source Question": [
+    "",
+    "",
+    "Which COVID-19 vaccine shot did you get?"
+  ]
 }
