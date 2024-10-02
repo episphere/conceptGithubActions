@@ -1,6 +1,8 @@
 Scripts that are run locally or on github actions
 Run in sequential order
 
+change directory to sandbox/
+cd sandbox/
 
 rm -r ./jsons/[0-9]*.json 
 node runCSVConversions.js 
