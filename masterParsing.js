@@ -361,7 +361,7 @@ function parseMasterModule() {
                                                         toInsert['questIds'] = {}
                                                     }
                                                     //toInsert['questIds'] = {}
-                                                    //console.log(masterJSON[valNum])
+                                                    console.log("masterJSON[valNum]","-----",masterJSON[valNum])
     
                                                     toInsert['questIds'][keyNum.toUpperCase()] = {
                                                         "conceptId": valNum.substring(0, 9),
