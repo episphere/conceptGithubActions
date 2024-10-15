@@ -5,11 +5,13 @@
   "Secondary Source": [
     "965707586.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "492742957",
-  "Current Question Text": "When you were a daily smoker of marijuana, what is the total amount of time you smoked per day?",
+  "Current Question Text": "When you were a daily smoker of cannabis, what is the total amount of time you smoked per day?",
+  "V1 Question Text": "When you were a daily smoker of marijuana, what is the total amount of time you smoked per day?",
   "Variable Label": "Total amount of time used marijuana  per day when daily user",
   "Variable Name": [
-    "SrvSAS_TotTmMJUseED_v1r0"
+    "SrvSAS_TotTmMJUseED_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "SMMAR9C"
@@ -18,7 +20,8 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "2/28/22",
+  "Date added or modified": "2/28/2022; 10/4/2024",
+  "IMS Review Notes": "Updated question text",
   "Formula for Index": [
     "5287",
     "5288",

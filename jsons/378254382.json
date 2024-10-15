@@ -1,6 +1,6 @@
 {
   "conceptId": "378254382",
-  "Current Question Text": "Age first used marijana with tobacco on a regular basis",
+  "Current Question Text": "Age first used cannabis with tobacco on a regular basis",
   "subcollections": [
     "628818510.json",
     "378254382.json"
@@ -16,12 +16,17 @@
   "Current Source Question": [
     "378254382.json"
   ],
+  "V1 Source Question": [
+    "Age first used marijana with tobacco on a regular basis"
+  ],
   "GridID/Source Question Name": [
     "TOMAR3"
   ],
+  "Deprecated, New, or Revised": "Revised",
+  "V1 Question Text": "Age first used marijana with tobacco on a regular basis",
   "Variable Label": "Age first used marijana with tobacco on a regular basis, Never used",
   "Variable Name": [
-    "SrvSAS_NeverSmokeReg_v1r0"
+    "SrvSAS_NeverSmokeReg_v2r1"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "TOMAR3"
@@ -31,5 +36,6 @@
   "Current Format/Value": {
     "648960871.json": "44"
   },
-  "Date added or modified": "11/23/21"
+  "Date added or modified": "11/23/2021; 10/4/2024",
+  "IMS Review Notes": "Updated question and response text"
 }

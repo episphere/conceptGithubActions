@@ -1,0 +1,39 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "conceptId": "871276836",
+  "Current Question Text": "Do your daily tasks at work include driving (such as sales representative, courier, bus driver, or truck driver)?",
+  "Variable Label": "Work Res Post Pan",
+  "Variable Name": [
+    "SrvLAW_WkResPstPan_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "WORKRESPOSTPAN"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "10/8/24",
+  "IMS Review Notes": "Added new question",
+  "Formula for Index": [
+    "6963",
+    "6964"
+  ],
+  "Index": [
+    "6963",
+    "6964"
+  ],
+  "Deprecated, New, or Revised": [
+    "New",
+    "New"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

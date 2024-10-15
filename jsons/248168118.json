@@ -8,9 +8,13 @@
   "Current Source Question": [
     "635467479.json"
   ],
+  "V1 Source Question": [
+    "What type(s) of transportation do you use to get to [insert address from CURWORK1 - CURWORK3/this address] from home? Select all that apply."
+  ],
   "GridID/Source Question Name": [
     "CURWORKT1"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "248168118",
   "Current Question Text": "Walking commute to work",
   "Variable Label": "Walking commute to current work",
@@ -24,14 +28,15 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "1/19/22",
+  "Date added or modified": "1/19/2022; 10/8/2024",
+  "IMS Review Notes": "Updated tense in source question to reflect past job rather than current job.",
   "Formula for Index": [
-    "6988",
-    "6989"
+    "7181",
+    "7182"
   ],
   "Index": [
-    "6988",
-    "6989"
+    "7181",
+    "7182"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

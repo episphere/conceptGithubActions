@@ -5,8 +5,7 @@
   "Secondary Source": [
     "716117817.json"
   ],
-  "Deprecated, New, or Revised": "New",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "8/29/22",
+  "Deprecated, New, or Revised": "Deprecated",
   "conceptId": "291959537",
   "Current Question Text": "Is your current job the longest job you have had in the past 20 years?",
   "Variable Label": "Current job is also longest held job in past 20 years",
@@ -20,16 +19,17 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "2/2/23",
+  "Notes": "New question pushed to prodcution on 8/29/2022",
+  "Date added or modified": "2/2/2023; 10/8/2024",
   "Question Type": "Optional Multiple Choice",
-  "IMS Review Notes": "Backlog documentation of 7/25/2022 edit. Denoted new variable status and date pushed to prod",
+  "IMS Review Notes": "Backlog documentation of 7/25/2022 edit. Denoted new variable status and date pushed to prod. Deprecating this question due to new commuting section.",
   "Formula for Index": [
-    "7131",
-    "7132"
+    "7324",
+    "7325"
   ],
   "Index": [
-    "7131",
-    "7132"
+    "7324",
+    "7325"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

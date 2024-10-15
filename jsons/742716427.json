@@ -2,25 +2,37 @@
   "Formula for Index": "5393",
   "Index": "5393",
   "Primary Source": [
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
+    "965707586.json",
     "965707586.json"
   ],
   "Current Source Question": [
+    "942945860.json",
     "942945860.json"
   ],
+  "V1 Source Question": [
+    "Age first used electronic marijuana delivery devices on a regular basis",
+    "Age first used electronic marijuana delivery devices on a regular basis"
+  ],
   "GridID/Source Question Name": [
+    "ELMAR3",
     "ELMAR3"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "742716427",
-  "Current Question Text": "Age first used electronic marijuana delivery devices on a regular basis number",
+  "Current Question Text": "Age started vaping cannabis on a regular basis number",
+  "V1 Question Text": "Age first used electronic marijuana delivery devices on a regular basis number",
   "Variable Label": "Age first used electronic marijuana delivery devices on a regular basis",
   "Variable Name": [
-    "SrvSAS_AgeEMJDevReg_v1r0"
+    "SrvSAS_AgeEMJDevReg_v2r1",
+    "SrvSAS_NeverEMJDev_v2r1"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "REGELMAR_AGE"
+    "REGELMAR_AGE",
+    "ELMAR3"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -28,6 +40,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=isDefined(D_116510981,0) max=sum(isDefined(D_150344905,age),1)",
-  "Date added or modified": "8/29/23",
-  "IMS Review Notes": "Added range check to Notes"
+  "Date added or modified": "8/29/2023; 10/4/2024",
+  "IMS Review Notes": "Added range check to Notes. Updated question and response text."
 }

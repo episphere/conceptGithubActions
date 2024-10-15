@@ -8,11 +8,12 @@
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/18/23",
   "conceptId": "142164107",
-  "Current Question Text": "Age last used - During the time you last used electronic marijuana delivery devices that can be vaped, did you use them every day?",
+  "Current Question Text": "Age last used - During the time you last vaped cannabis, did you use it every day?",
+  "V2 Question Text": "Age last used - During the time you last used electronic marijuana delivery devices that can be vaped, did you use them every day?",
   "V1 Question Text": "Age last used - During that time, did you use electronic marijuana delivery devices every day?",
   "Variable Label": "Use electronic marijuana delivery devices every day, age last used",
   "Variable Name": [
-    "SrvSAS_UseEMJDevEDL_v2r0"
+    "SrvSAS_UseEMJDevEDL_v3r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "ELMAR8C"
@@ -21,8 +22,9 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "2/2/23",
-  "IMS Review Notes": "Denoted date revised variable pushed to prod",
+  "Notes": "v2 revision pushed to production on 1/18/2024",
+  "Date added or modified": "2/2/2023; 10/4/2024",
+  "IMS Review Notes": "Denoted date revised variable pushed to prod. Updated question text",
   "Formula for Index": [
     "5408",
     "5409"

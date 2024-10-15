@@ -1,6 +1,6 @@
 {
   "conceptId": "742254559",
-  "Current Question Text": "Age first use THC concentrates via dabbing on a regular basis",
+  "Current Question Text": "Age started dabbing THC concentrates on a regular basis number - never",
   "subcollections": [
     "185168695.json",
     "742254559.json"
@@ -16,12 +16,17 @@
   "Current Source Question": [
     "742254559.json"
   ],
+  "V1 Source Question": [
+    "Age first use THC concentrates via dabbing on a regular basis"
+  ],
   "GridID/Source Question Name": [
     "THMAR3"
   ],
+  "Deprecated, New, or Revised": "Revised",
+  "V1 Question Text": "Age first use THC concentrates via dabbing on a regular basis",
   "Variable Label": "Age first use THC concentrates via dabbing on a regular basis, Never used",
   "Variable Name": [
-    "SrvSAS_NeverTHC_v1r0"
+    "SrvSAS_NeverTHC_v2r1"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "THMAR3"
@@ -31,5 +36,6 @@
   "Current Format/Value": {
     "648960871.json": "44"
   },
-  "Date added or modified": "11/23/21"
+  "Date added or modified": "11/23/2021; 10/4/2024",
+  "IMS Review Notes": "Updated source question and question text"
 }

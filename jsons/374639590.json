@@ -5,11 +5,13 @@
   "Secondary Source": [
     "716117817.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "374639590",
-  "Current Question Text": "Did your daily tasks include driving (such as a sales representative, courier, bus driver, or truck driver)?",
+  "Current Question Text": "Thinking of your job in 2019, did your daily tasks include driving (such as a sales representative, courier, bus driver, or truck driver)?",
+  "V1 Question Text": "Did your daily tasks include driving (such as a sales representative, courier, bus driver, or truck driver)?",
   "Variable Label": "Current job, job includes driving",
   "Variable Name": [
-    "SrvLAW_WorkRes_v1r0"
+    "SrvLAW_WorkRes_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "WORKRES"
@@ -18,14 +20,15 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "1/12/22",
+  "Date added or modified": "1/12/2022; 10/8/2024",
+  "IMS Review Notes": "Updated question text to ask about job in 2019.",
   "Formula for Index": [
-    "6952",
-    "6953"
+    "7139",
+    "7140"
   ],
   "Index": [
-    "6952",
-    "6953"
+    "7139",
+    "7140"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

@@ -7,11 +7,13 @@
   "Secondary Source": [
     "965707586.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "210016366",
-  "Current Question Text": "How old were you when you first smoked marijuana?",
+  "Current Question Text": "How old were you when you first smoked cannabis?",
+  "V1 Question Text": "How old were you when you first smoked marijuana?",
   "Variable Label": "Age first used marijuana",
   "Variable Name": [
-    "SrvSAS_AgeUseMJF_v1r0"
+    "SrvSAS_AgeUseMJF_v2r1"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "SMMAR2"
@@ -22,6 +24,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=0 max=sum(isDefined(D_150344905,age),1)",
-  "Date added or modified": "8/29/23",
-  "IMS Review Notes": "Added range check to Notes"
+  "Date added or modified": "8/29/2023; 10/4/2024",
+  "IMS Review Notes": "Added range check to Notes. Updated question text and response text in word doc."
 }

@@ -8,11 +8,12 @@
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/18/23",
   "conceptId": "722122662",
-  "Current Question Text": "Now thinking about your entire life, did you ever smoke marijuana every day?",
+  "Current Question Text": "Now thinking about your entire life, did you ever smoke cannabis every day?",
+  "V2 Question Text": "Now thinking about your entire life, did you ever smoke marijuana every day?",
   "V1 Question Text": "Did you ever smoke marijuana every day?",
   "Variable Label": "Ever use marijuana  every day",
   "Variable Name": [
-    "SrvSAS_EverUseMJED_v2r0"
+    "SrvSAS_EverUseMJED_v3r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "SMMAR9B"
@@ -21,8 +22,9 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "2/2/23",
-  "IMS Review Notes": "Denoted date revised variable pushed to prod",
+  "Notes": "v2 revision pushed to production on 1/18/2024",
+  "Date added or modified": "2/2/2023; 10/4/2024",
+  "IMS Review Notes": "Denoted date revised variable pushed to prod. Updated question text.",
   "Formula for Index": [
     "5284",
     "5285"

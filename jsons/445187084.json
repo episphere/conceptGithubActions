@@ -7,11 +7,13 @@
   "Secondary Source": [
     "965707586.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "445187084",
-  "Current Question Text": "How old were you when you last used electronic marijuana delivery devices that can be vaped?",
+  "Current Question Text": "How old were you when you last vaped cannabis?",
+  "V1 Question Text": "How old were you when you last used electronic marijuana delivery devices that can be vaped?",
   "Variable Label": "Age last used electronic marijuana delivery devices",
   "Variable Name": [
-    "SrvSAS_AgeUseEMJDevL_v1r0"
+    "SrvSAS_AgeUseEMJDevL_v2r1"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "ELMAR8"
@@ -22,6 +24,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=isDefined(isDefined(D_742716427,D_116510981),0) max=sum(isDefined(D_150344905,age),1)",
-  "Date added or modified": "8/29/23",
-  "IMS Review Notes": "Added range check to Notes"
+  "Date added or modified": "8/29/2023; 10/4/2024",
+  "IMS Review Notes": "Added range check to Notes. Updated question and response text."
 }

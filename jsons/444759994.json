@@ -5,11 +5,13 @@
   "Secondary Source": [
     "965707586.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "444759994",
-  "Current Question Text": "When was the last time you smoked a combination of marijuana with tobacco?",
+  "Current Question Text": "When was the last time you smoked a combination of cannabis with tobacco?",
+  "V1 Question Text": "When was the last time you smoked a combination of marijuana with tobacco?",
   "Variable Label": "Last use marijana with tobacco",
   "Variable Name": [
-    "SrvSAS_LastUseTobMJ_v1r0"
+    "SrvSAS_LastUseTobMJ_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "TOMAR5"
@@ -18,7 +20,8 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "10/25/21",
+  "Date added or modified": "10/25/2021; 10/4/2024",
+  "IMS Review Notes": "Updated question text",
   "Formula for Index": [
     "5357",
     "5358",

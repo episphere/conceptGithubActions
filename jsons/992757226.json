@@ -7,11 +7,13 @@
   "Secondary Source": [
     "965707586.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "992757226",
-  "Current Question Text": "How many months ago did you last smoke a combination of marijuana with tobacco?",
+  "Current Question Text": "How many months ago did you last smoke a combination of cannabis with tobacco?",
+  "V1 Question Text": "How many months ago did you last smoke a combination of marijuana with tobacco?",
   "Variable Label": "Months ago last used marijana with tobacco",
   "Variable Name": [
-    "SrvSAS_TobMJUseMo_v1r0"
+    "SrvSAS_TobMJUseMo_v2r1"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "TOMAR7A"
@@ -22,6 +24,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=1 max=11",
-  "Date added or modified": "8/29/23",
-  "IMS Review Notes": "Added range check to Notes"
+  "Date added or modified": "8/29/2023; 10/4/2024",
+  "IMS Review Notes": "Updated question and response text"
 }

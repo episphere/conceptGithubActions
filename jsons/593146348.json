@@ -5,11 +5,13 @@
   "Secondary Source": [
     "716117817.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "593146348",
-  "Current Question Text": "2-Previous Review 3- Within the past 20 years, have you lived anywhere else for at least two years ?",
+  "Current Question Text": "2 - Previous Review 3 - Within the past 20 years (that is, since [insert number calculated from CURRENT YEAR - 20]), have you lived anywhere else for at least two years ?",
+  "V1 Question Text": "2-Previous Review 3- Within the past 20 years, have you lived anywhere else for at least two years ?",
   "Variable Label": "Lived anywhere else at least two years",
   "Variable Name": [
-    "SrvLAW_HomeAddOth3_v1r0"
+    "SrvLAW_HomeAddOth3_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "HOMEADDOTH3"
@@ -18,6 +20,8 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
+  "Date added or modified": "10/8/24",
+  "IMS Review Notes": "Updated question text to display 20-yr calculation",
   "Formula for Index": [
     "5941",
     "5942"

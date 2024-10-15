@@ -12,7 +12,7 @@
     "GRID_CURWORKT2"
   ],
   "conceptId": "593010802",
-  "Current Question Text": "Car, van, or truck (includes carpools or van pools)- Thinking about the one-way trip from your home to [insert address from CURWORK1 - CURWORK3/this address] on a usual workday, about how much time do you usually spend in each type of transportation?",
+  "Current Question Text": "Car, van, or truck (includes carpools or van pools)- Thinking about the one-way trip from your home to [insert address from CURWORK1 - CURWORK3/this address] on a usual workday, about how much time did you usually spend in each type of transportation?",
   "Variable Label": "Time, Car, van, or truck (includes carpools or van pools) commute to current work",
   "Variable Name": [
     "SrvLAW_CurWorkTmCar_v1r0"
@@ -24,20 +24,21 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "2/28/22",
+  "Date added or modified": "2/28/2022; 10/8/2024",
+  "IMS Review Notes": "Updated source question and question text to match the tense in the qx doc and mark up, but did not version.",
   "Formula for Index": [
-    "6993",
-    "6994",
-    "6995",
-    "6996",
-    "6997"
+    "7186",
+    "7187",
+    "7188",
+    "7189",
+    "7190"
   ],
   "Index": [
-    "6993",
-    "6994",
-    "6995",
-    "6996",
-    "6997"
+    "7186",
+    "7187",
+    "7188",
+    "7189",
+    "7190"
   ],
   "Current Format/Value": {
     "428999623.json": "0",

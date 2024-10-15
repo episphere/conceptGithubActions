@@ -12,7 +12,7 @@
     "GRID_CURWORKT2"
   ],
   "conceptId": "242761203",
-  "Current Question Text": "Commuter rail, subway, metro- Thinking about the one-way trip from your home to [insert address from CURWORK1 - CURWORK3/this address] on a usual workday, about how much time do you usually spend in each type of transportation?",
+  "Current Question Text": "Commuter rail, subway, metro- Thinking about the one-way trip from your home to [insert address from CURWORK1 - CURWORK3/this address] on a usual workday, about how much time did you usually spend in each type of transportation?",
   "Variable Label": "Time, Commuter rail, subway, metro commute to current work",
   "Variable Name": [
     "SrvLAW_CurWorkTmRail_v1r0"
@@ -24,20 +24,21 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "2/28/22",
+  "Date added or modified": "2/28/2022; 10/8/2024",
+  "IMS Review Notes": "Updated source question and question text to match the tense in the qx doc and mark up, but did not version.",
   "Formula for Index": [
-    "7013",
-    "7014",
-    "7015",
-    "7016",
-    "7017"
+    "7206",
+    "7207",
+    "7208",
+    "7209",
+    "7210"
   ],
   "Index": [
-    "7013",
-    "7014",
-    "7015",
-    "7016",
-    "7017"
+    "7206",
+    "7207",
+    "7208",
+    "7209",
+    "7210"
   ],
   "Current Format/Value": {
     "428999623.json": "0",

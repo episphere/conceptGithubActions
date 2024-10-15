@@ -5,11 +5,13 @@
   "Secondary Source": [
     "716117817.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "980007418",
-  "Current Question Text": "Thinking of your longest held occupation, did your daily responsibilities involve driving (such as a sales representative, courier, bus driver, or truck driver)?",
+  "Current Question Text": "Thinking of your longest held job, did your daily responsibilities involve driving (such as a sales representative, courier, bus driver, or truck driver)?",
+  "V1 Question Text": "Thinking of your longest held occupation, did your daily responsibilities involve driving (such as a sales representative, courier, bus driver, or truck driver)?",
   "Variable Label": "Longest held occupration, job includes driving",
   "Variable Name": [
-    "SrvLAW_PreWorkDrive_v1r0"
+    "SrvLAW_PreWorkDrive_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "PREWORKRES"
@@ -18,14 +20,15 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "3/10/22",
+  "Date added or modified": "3/10/2022; 10/8/2024",
+  "IMS Review Notes": "Updated question text for plain language.",
   "Formula for Index": [
-    "7127",
-    "7128"
+    "7320",
+    "7321"
   ],
   "Index": [
-    "7127",
-    "7128"
+    "7320",
+    "7321"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

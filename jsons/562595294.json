@@ -5,11 +5,13 @@
   "Secondary Source": [
     "965707586.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "562595294",
-  "Current Question Text": "When you were a daily user of electronic marijuana delivery devices that can be vaped, what is the total amount of time you vaped per day?",
+  "Current Question Text": "When you were vaping cannabis daily, what is the total amount of time you vaped per day?",
+  "V1 Question Text": "When you were a daily user of electronic marijuana delivery devices that can be vaped, what is the total amount of time you vaped per day?",
   "Variable Label": "Total amount of time used electronic marijuana delivery devices per day when daily user",
   "Variable Name": [
-    "SrvSAS_TotTmEMJDaily_v1r0"
+    "SrvSAS_TotTmEMJDaily_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "ELMAR9C"
@@ -18,7 +20,8 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "2/28/22",
+  "Date added or modified": "2/28/2022; 10/4/2024",
+  "IMS Review Notes": "Updated question text",
   "Formula for Index": [
     "5419",
     "5420",

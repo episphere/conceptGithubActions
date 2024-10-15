@@ -6,7 +6,7 @@
     "716117817.json"
   ],
   "conceptId": "333362587",
-  "Current Question Text": "Does your usual one-way trip to [insert address from CURWORK1 - CURWORK3/this address] from your home involve travel on a local or neighborhood roadway? These usually have only one lane in each direction. An example is pictured.",
+  "Current Question Text": "Did your usual one-way trip to [insert address from CURWORK1 - CURWORK3/this address] from your home involve travel on a local or neighborhood roadway? These usually have only one lane in each direction. An example is pictured.",
   "Variable Label": "Local road, current work commute to current work",
   "Variable Name": [
     "SrvLAW_CurWorkT5_v1r0"
@@ -18,16 +18,17 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "1/20/22",
+  "Date added or modified": "1/20/2022; 10/8/2024",
+  "IMS Review Notes": "Updated question text to match the tense in the qx doc and mark up, but did not version.",
   "Formula for Index": [
-    "7039",
-    "7040",
-    "7041"
+    "7232",
+    "7233",
+    "7234"
   ],
   "Index": [
-    "7039",
-    "7040",
-    "7041"
+    "7232",
+    "7233",
+    "7234"
   ],
   "Current Format/Value": {
     "614087017.json": "0",

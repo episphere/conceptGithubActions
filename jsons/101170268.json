@@ -5,11 +5,13 @@
   "Secondary Source": [
     "965707586.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "101170268",
-  "Current Question Text": "How many days have you consumed marijuana in food or drinks in your  life?",
+  "Current Question Text": "How many days have you consumed cannabis edibles, drinks, or capsules in your life?",
+  "V1 Question Text": "How many days have you consumed marijuana in food or drinks in your  life?",
   "Variable Label": "Days consumed marijuana in food or drinks in life",
   "Variable Name": [
-    "SrvSAS_EdiblesDays_v1r0"
+    "SrvSAS_EdiblesDays_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "EAMAR1"
@@ -18,7 +20,8 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "11/23/21",
+  "Date added or modified": "11/23/2021; 10/4/2024",
+  "IMS Review Notes": "Updated question text",
   "Formula for Index": [
     "5478",
     "5479",

@@ -6,10 +6,11 @@
     "965707586.json"
   ],
   "conceptId": "742544044",
-  "Current Question Text": "Do you consume marijuana in food or drinks now?",
+  "Current Question Text": "Do you consume cannabis edibles, drinks, or capsules now?",
+  "V1 Question Text": "Do you consume marijuana in food or drinks now?",
   "Variable Label": "Consume marijuana in food or drinks now",
   "Variable Name": [
-    "SrvSAS_EdiblesNow_v1r0"
+    "SrvSAS_EdiblesNow_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "EAMAR4"
@@ -18,7 +19,8 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "11/24/21",
+  "Date added or modified": "11/24/2021; 10/4/2024",
+  "IMS Review Notes": "Updated question text",
   "Formula for Index": [
     "5485",
     "5486",

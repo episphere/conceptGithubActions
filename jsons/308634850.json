@@ -1,0 +1,36 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "conceptId": "308634850",
+  "Current Question Text": "Does your trip home usually take about the same amount of time as your trip to get to  [insert address from CURWORKPOSTPAN1 - CURWORKPOSTPAN3/this address]?",
+  "Variable Label": "Same Commute Tm Cur Work Post Pan",
+  "Variable Name": [
+    "SrvLAW_WkPstPanSmTm_V1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "10/8/24",
+  "IMS Review Notes": "Added new question",
+  "Formula for Index": [
+    "7062",
+    "7063"
+  ],
+  "Index": [
+    "7062",
+    "7063"
+  ],
+  "Deprecated, New, or Revised": [
+    "New",
+    "New"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

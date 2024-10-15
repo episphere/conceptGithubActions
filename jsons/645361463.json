@@ -6,10 +6,11 @@
     "965707586.json"
   ],
   "conceptId": "645361463",
-  "Current Question Text": "On days that you smoked marijuana when you were age [X / 60] to age [Y / 69 / current age], what is the total amount of time you smoked per day?",
+  "Current Question Text": "On days that you smoked cannabis when you were age [X / 60] to age [Y / 69 / current age], what is the total amount of time you smoked per day?",
+  "V1 Question Text": "On days that you smoked marijuana when you were age [X / 60] to age [Y / 69 / current age], what is the total amount of time you smoked per day?",
   "Variable Label": "How much time marijuana  smoked, [X / 60] to age [Y / 69 / current age]",
   "Variable Name": [
-    "SrvSAS_TmSmokeMJ6069_v1r1"
+    "SrvSAS_TmSmokeMJ6069_v2r2"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "SMMARLIFEG"
@@ -44,18 +45,21 @@
   },
   "Deprecated, New, or Revised": [
     "Revised",
-    "New"
+    "Revised"
   ],
   "Date Deprecated, New, or Revised Variable Pushed to Prod": [
     "2/2/24",
     "2/2/24"
   ],
+  "Notes": [
+    "New variable pushed to production on 2/2/24"
+  ],
   "Date added or modified": [
-    "2/28/24",
-    "2/28/24"
+    "2/28/2024; 10/4/2024",
+    "2/28/2024; 10/4/2024"
   ],
   "IMS Review Notes": [
-    "Added Prod Push Date",
-    "Added Prod Push Date"
+    "Added Prod Push Date.  Updates question text and response 5.",
+    "Added Prod Push Date.  Updates question text and response 5."
   ]
 }
