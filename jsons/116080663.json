@@ -1,8 +1,41 @@
 {
   "conceptId": "116080663",
-  "Current Question Text": "How old were you when you started smoking cannabis on a regular basis?",
+  "Current Question Text": "Age started smoking cannabis on a regular basis",
   "subcollections": [
     "889949861.json",
     "116080663.json"
-  ]
+  ],
+  "Formula for Index": "5263",
+  "Index": "5263",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
+  "Current Source Question": [
+    "116080663.json"
+  ],
+  "V1 Source Question": [
+    "Age first smoked marijuana on a regular basis"
+  ],
+  "GridID/Source Question Name": [
+    "SMMAR3"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "V1 Question Text": "Age first smoked marijuana on a regular basis",
+  "Variable Label": "Age first smoked marijuana on a regular basis, Never smoked",
+  "Variable Name": [
+    "SrvSAS_NeverSmokeMJ_v2r1"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "SMMAR3"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Current Format/Value": {
+    "648960871.json": "44"
+  },
+  "Date added or modified": "11/23/2021; 10/4/2024; 10/16/24",
+  "IMS Review Notes": "Updated source question and question text.  Updated the question text to remove the word number which was added in error.  Updated the source question to remain consistent."
 }

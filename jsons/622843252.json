@@ -1,24 +1,19 @@
 {
-  "Formula for Index": "5483",
-  "Index": "5483",
+  "Formula for Index": "5484",
+  "Index": "5484",
   "Primary Source": [
-    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "965707586.json",
     "965707586.json"
   ],
   "Current Source Question": [
-    "653198444.json",
     "653198444.json"
   ],
   "V1 Source Question": [
-    "Age first consumed marijuana in food or drinks on a regular basis",
     "Age first consumed marijuana in food or drinks on a regular basis"
   ],
   "GridID/Source Question Name": [
-    "EAMAR3",
     "EAMAR3"
   ],
   "Deprecated, New, or Revised": "Revised",
@@ -27,12 +22,10 @@
   "V1 Question Text": "Age first consumed marijuana in food or drinks on a regular basis number",
   "Variable Label": "Age first consumed marijuana in food or drinks on a regular basis",
   "Variable Name": [
-    "SrvSAS_EdiblesAgeReg_v2r1",
-    "SrvSAS_EdiblesNever_v2r1"
+    "SrvSAS_EdiblesAgeReg_v2r1"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "REGEAMAR_AGE",
-    "EAMAR3"
+    "REGEAMAR_AGE"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -40,6 +33,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=isDefined(D_908399883,0) max=sum(isDefined(D_150344905,age),1)",
-  "Date added or modified": "8/29/2023; 10/4/2024",
-  "IMS Review Notes": "Added range check to Notes. Updated source question and question text"
+  "Date added or modified": "8/29/2023; 10/4/2024; 10/16/24",
+  "IMS Review Notes": "Added range check to Notes. Updated source question and question text. Updated the source question text to remain consistent."
 }
