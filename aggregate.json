@@ -41,7 +41,7 @@
   "101170268": {
     "Variable Label": "Days consumed marijuana in food or drinks in life",
     "Variable Name": [
-      "SrvSAS_EdiblesDays_v1r0"
+      "SrvSAS_EdiblesDays_v2r0"
     ]
   },
   "101170406": {
@@ -106,6 +106,12 @@
     "Variable Label": "Why Connect - NCI reputation",
     "Variable Name": [
       "SrvPES_NCIREP_v1r0"
+    ]
+  },
+  "101850740": {
+    "Variable Label": "Bus Time Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanBusT_v1r0"
     ]
   },
   "101862879": {
@@ -543,7 +549,7 @@
   "116014097": {
     "Variable Label": "Age stopped using electronic marijuana delivery devices every day",
     "Variable Name": [
-      "SrvSAS_AgeStopEMJDev_v1r0"
+      "SrvSAS_AgeStopEMJDev_v2r1"
     ]
   },
   "116065851": {
@@ -552,7 +558,7 @@
   "116080663": {
     "Variable Label": "Age first smoked marijuana on a regular basis, Never smoked",
     "Variable Name": [
-      "SrvSAS_NeverSmokeMJ_v1r0"
+      "SrvSAS_NeverSmokeMJ_v2r1"
     ]
   },
   "116442173": {
@@ -564,7 +570,7 @@
   "116510981": {
     "Variable Label": "Age first used electronic marijuana delivery devices",
     "Variable Name": [
-      "SrvSAS_AgeUseEMJDevF_v1r0"
+      "SrvSAS_AgeUseEMJDevF_v2r1"
     ]
   },
   "116882225": {
@@ -627,7 +633,7 @@
   "119257304": {
     "Variable Label": "How many days use THC concentrates via dabbing, age last used",
     "Variable Name": [
-      "SrvSAS_AgeLastTHCDays_v1r0"
+      "SrvSAS_AgeLastTHCDays_v2r1"
     ]
   },
   "119378795": {
@@ -771,7 +777,7 @@
   "124320444": {
     "Variable Label": "Lived anywhere else at least two years",
     "Variable Name": [
-      "SrvLAW_HomeAddOth10_v1r0"
+      "SrvLAW_HomeAddOth10_v2r0"
     ]
   },
   "124830305": {
@@ -875,7 +881,7 @@
   "129677435": {
     "Variable Label": "Use marijuana every day, age last used",
     "Variable Name": [
-      "SrvSAS_MJUseEDLastUsed_v2r0"
+      "SrvSAS_MJUseEDLastUsed_v3r0"
     ]
   },
   "129924389": {
@@ -1012,7 +1018,7 @@
   "135207939": {
     "Variable Label": "Lived anywhere else at least two years",
     "Variable Name": [
-      "SrvLAW_HomeAddOth6_v1r0"
+      "SrvLAW_HomeAddOth6_v2r0"
     ]
   },
   "135519371": {
@@ -1172,7 +1178,7 @@
   "140848765": {
     "Variable Label": "Age first used marijana with tobacco",
     "Variable Name": [
-      "SrvSAS_AgeUseTobMJF_v1r0"
+      "SrvSAS_AgeUseTobMJF_v2r1"
     ]
   },
   "141249692": {
@@ -1208,7 +1214,7 @@
   "142164107": {
     "Variable Label": "Use electronic marijuana delivery devices every day, age last used",
     "Variable Name": [
-      "SrvSAS_UseEMJDevEDL_v2r0"
+      "SrvSAS_UseEMJDevEDL_v3r0"
     ]
   },
   "142318726": {
@@ -1462,6 +1468,12 @@
   "151488193": {
     "Variable Name": "10 or less"
   },
+  "151757360": {
+    "Variable Label": "Bus Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanBus_v1r0"
+    ]
+  },
   "151821009": {
     "Variable Label": "So African",
     "Variable Name": [
@@ -1634,7 +1646,7 @@
   "158841370": {
     "Variable Label": "Smoking a combination of cannabis with tobacco (such as blunts or spliffs)",
     "Variable Name": [
-      "SrvSAS_SmokingTobCan_v1r0"
+      "SrvSAS_SmokingTobCan_v2r0"
     ]
   },
   "159625321": {
@@ -1778,6 +1790,12 @@
       "SrvBOH_BirthPlCountry_v1r0"
     ]
   },
+  "166943843": {
+    "Variable Label": "Highway Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanHwy_v1r0"
+    ]
+  },
   "167028305": {
     "Variable Label": "Tahitian",
     "Variable Name": [
@@ -1897,7 +1915,7 @@
   "171050898": {
     "Variable Label": "Ever use marijana with tobacco every day",
     "Variable Name": [
-      "SrvSAS_EverUseTobMJED_v2r0"
+      "SrvSAS_EverUseTobMJED_v3r0"
     ]
   },
   "171498611": {
@@ -1923,6 +1941,12 @@
   },
   "173101988": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Rheumatoid Arthritis ?"
+  },
+  "173155090": {
+    "Variable Label": "Maj Road Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanMjRd_v1r0"
+    ]
   },
   "173240848": {
     "Variable Name": "Father- Which type(s) of cancer? Select all that apply."
@@ -1976,6 +2000,12 @@
   "174968750": {
     "Variable Name": "Less than 1 hour per day"
   },
+  "175003260": {
+    "Variable Label": "Bicycle Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanBkeHm_v1r0"
+    ]
+  },
   "175293001": {
     "Variable Label": "Other: Please describe",
     "Variable Name": [
@@ -1986,6 +2016,12 @@
     "Variable Label": "How often drink alcohol, Age 50 to Age 59",
     "Variable Name": [
       "SrvSAS_AlcOften5059_v1r0"
+    ]
+  },
+  "175502589": {
+    "Variable Label": "Walk Time Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanWalkT_v1r0"
     ]
   },
   "175506524": {
@@ -2009,7 +2045,7 @@
   "175995366": {
     "Variable Label": "How much time marijuana  smoked, Age [X / 18] to age [Y / 24]",
     "Variable Name": [
-      "SrvSAS_TmSmokeMJ1824_v1r1"
+      "SrvSAS_TmSmokeMJ1824_v2r2"
     ]
   },
   "176453768": {
@@ -2033,7 +2069,7 @@
   "177252178": {
     "Variable Label": "Ever use electronic marijuana delivery devices every day",
     "Variable Name": [
-      "SrvSAS_EMJDevEveryDay_v2r0"
+      "SrvSAS_EMJDevEveryDay_v3r0"
     ]
   },
   "177402915": {
@@ -2125,7 +2161,7 @@
   "179510070": {
     "Variable Label": "Months ago last consumed marijuana in food or drinks",
     "Variable Name": [
-      "SrvSAS_EdiblesMoAgo_v1r0"
+      "SrvSAS_EdiblesMoAgo_v2r0"
     ]
   },
   "179665441": {
@@ -2152,7 +2188,7 @@
   "180308733": {
     "Variable Label": "Last used marijuana",
     "Variable Name": [
-      "SrvSAS_LastUsedMJ_v1r0"
+      "SrvSAS_LastUsedMJ_v2r0"
     ]
   },
   "180583933": {
@@ -2283,7 +2319,7 @@
   "185168695": {
     "Variable Label": "Age first use THC concentrates via dabbing on a regular basis",
     "Variable Name": [
-      "SrvSAS_AgeUseTHCReg_v1r0"
+      "SrvSAS_AgeUseTHCReg_v2r1"
     ]
   },
   "185243482": {
@@ -2611,9 +2647,9 @@
     "Variable Name": "Yes, I completed all four sections"
   },
   "198133418": {
-    "Variable Label": "Cigars, cigarillos, or little filtered cigars; some of the most popular brands include Macanudo, Romeo y Julieta, Black and Mild, Swisher Sweets, Prime Time, and Cheyenne. Please do not include blunts as we will be asking about marijuana use in a later section.",
+    "Variable Label": "Cigars/Cigarillos/Little Filtered Cigars",
     "Variable Name": [
-      "SrvSAS_Cigar_v1r0"
+      "SrvSAS_Cigar_v2r0"
     ]
   },
   "198261154": {
@@ -2623,6 +2659,13 @@
       "BioClin_SntUrineAccIDF1_v1r0",
       "BioClin_SntUrineAccIDF2_v1r0",
       "BioClin_SntUrineAccIDF3_v1r0"
+    ]
+  },
+  "198325058": {
+    "Variable Label": "Cur Work Zip Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkZipPstPan1_v1r0",
+      "SrvLAW_WkZipPstPan2_v1r0"
     ]
   },
   "198347104": {
@@ -2667,7 +2710,7 @@
   "199612020": {
     "Variable Label": "How many times marijana with tobacco used, [X / 40] to age [Y / 49 / current age]",
     "Variable Name": [
-      "SrvSAS_TmUseTobMJ4049_v1r1"
+      "SrvSAS_TmUseTobMJ4049_v2r1"
     ]
   },
   "199704727": {
@@ -2794,7 +2837,7 @@
   "203943120": {
     "Variable Label": "Time to and from current work same",
     "Variable Name": [
-      "SrvLAW_CurWorkT8_v1r0"
+      "SrvLAW_CurWorkT8_v2r0"
     ]
   },
   "204002618": {
@@ -3096,7 +3139,7 @@
   "210016366": {
     "Variable Label": "Age first used marijuana",
     "Variable Name": [
-      "SrvSAS_AgeUseMJF_v1r0"
+      "SrvSAS_AgeUseMJF_v2r1"
     ]
   },
   "210120853": {
@@ -3144,6 +3187,12 @@
       "SrvLAW_CurSchCommute5_v1r0"
     ]
   },
+  "211472150": {
+    "Variable Label": "Cur Work Commute Most Often",
+    "Variable Name": [
+      "SrvLAW_CurWork0_v1r0"
+    ]
+  },
   "211590917": {
     "Variable Name": "Often"
   },
@@ -3160,6 +3209,12 @@
     "Variable Label": "Do Not Know 4-Previous",
     "Variable Name": [
       "SrvLAW_Prev4DontKnow_v1r0"
+    ]
+  },
+  "213152981": {
+    "Variable Label": "Days Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_DaysWkPstPan_v1r0"
     ]
   },
   "213545903": {
@@ -3529,7 +3584,7 @@
   "227784207": {
     "Variable Label": "How many servings THC concentrates via dabbing used, [X / 70] and older",
     "Variable Name": [
-      "SrvSAS_THCServing70_v1r1"
+      "SrvSAS_THCServing70_v2r1"
     ]
   },
   "227848247": {
@@ -3628,6 +3683,13 @@
       "BioCol_0012_v1r0"
     ]
   },
+  "232404519": {
+    "Variable Label": "Cur Work State Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkStPstPan1_v1r0",
+      "SrvLAW_WkStPstPan2_v1r0"
+    ]
+  },
   "232438133": {
     "Variable Name": "Menstrual Cycle"
   },
@@ -3650,6 +3712,12 @@
     "Variable Label": "Street number",
     "Variable Name": [
       "SrvLAW_SeatsNum_v1r0"
+    ]
+  },
+  "234136107": {
+    "Variable Label": "Local Road Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanLcRd_v1r0"
     ]
   },
   "234139565": {
@@ -3767,7 +3835,7 @@
   "238953261": {
     "Variable Label": "Age stopped consumed marijuana in food or drinks every day",
     "Variable Name": [
-      "SrvSAS_AgeStopEdibles_v1r0"
+      "SrvSAS_AgeStopEdibles_v2r1"
     ]
   },
   "239152340": {
@@ -3833,6 +3901,12 @@
   },
   "242016061": {
     "Variable Name": "Too many - I get far too many emails and/or text messages"
+  },
+  "242268237": {
+    "Variable Label": "Highway Home Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanHwyHm_v1r0"
+    ]
   },
   "242276545": {
     "Variable Label": "Use e-cigarettes or other vaping devices every day, age last used",
@@ -4172,7 +4246,7 @@
   "258291510": {
     "Variable Label": "How much time marijuana  smoked, Age [X] to age [Y / 17]",
     "Variable Name": [
-      "SrvSAS_TmSmokeMJ17_v1r1"
+      "SrvSAS_TmSmokeMJ17_v2r2"
     ]
   },
   "258501440": {
@@ -4190,7 +4264,7 @@
   "258703325": {
     "Variable Label": "Age stopped use THC concentrates via dabbing every day",
     "Variable Name": [
-      "SrvSAS_AgeStopTHC_v1r0"
+      "SrvSAS_AgeStopTHC_v2r1"
     ]
   },
   "258745303": {
@@ -4211,7 +4285,7 @@
   "259481608": {
     "Variable Label": "Consumed marijuana in food or drinks every day, age last used",
     "Variable Name": [
-      "SrvSAS_EdiblesEDAgeL_v2r0"
+      "SrvSAS_EdiblesEDAgeL_v3r0"
     ]
   },
   "259744087": {
@@ -4505,7 +4579,7 @@
     "Variable Name": "Mostly masculine"
   },
   "265469878": {
-    "Variable Name": "Why [do/did] you use use THC concentrates via dabbing?"
+    "Variable Name": "Why [do/did] you dab THC concentrates?"
   },
   "265550580": {
     "Variable Name": "Didn't drink during this time"
@@ -4568,7 +4642,7 @@
   "268240612": {
     "Variable Label": "Why use electronic marijuana delivery devices that can be vaped",
     "Variable Name": [
-      "SrvSAS_WhyUseEMJDev_v1r0"
+      "SrvSAS_WhyUseEMJDev_v2r0"
     ]
   },
   "268372217": {
@@ -4794,6 +4868,12 @@
     "Variable Label": "Deep private well",
     "Variable Name": [
       "SrvLAW_DeepPrivWell10_v1r0"
+    ]
+  },
+  "277953784": {
+    "Variable Label": "Local Road Home Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanLocRdHm_v1r0"
     ]
   },
   "278139969": {
@@ -5122,7 +5202,7 @@
   "290969423": {
     "Variable Label": "Lived anywhere else at least two years",
     "Variable Name": [
-      "SrvLAW_HomeAddOth_v1r0"
+      "SrvLAW_HomeAddOth_v2r0"
     ]
   },
   "291458877": {
@@ -5366,6 +5446,12 @@
       "SrvLAW_NumBaths_v1r0"
     ]
   },
+  "303089793": {
+    "Variable Label": "Rail Time Home Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanRailTmHm_v1r0"
+    ]
+  },
   "303095574": {
     "Variable Name": "Sound or restful"
   },
@@ -5461,6 +5547,12 @@
       "SrvSAS_ChewTobDays_v1r0"
     ]
   },
+  "306356124": {
+    "Variable Label": "Taxi Time Home Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanTaxiTmHm_v1r0"
+    ]
+  },
   "306805272": {
     "Variable Label": "Street number",
     "Variable Name": [
@@ -5500,6 +5592,12 @@
   },
   "308427446": {
     "Variable Name": "Asian"
+  },
+  "308634850": {
+    "Variable Label": "Same Commute Tm Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanSmTm_V1r0"
+    ]
   },
   "308645635": {
     "Variable Label": "Inflammatory Bowel Disease",
@@ -5661,6 +5759,12 @@
       "SrvScr_ENDOBIOP3_v1r0"
     ]
   },
+  "315356220": {
+    "Variable Label": "Motorcycle Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanMotHm_v1r0"
+    ]
+  },
   "315987564": {
     "Variable Name": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had Lung or bronchial cancer?"
   },
@@ -5675,6 +5779,12 @@
   },
   "317093647": {
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had esophageal cancer?"
+  },
+  "317194063": {
+    "Variable Label": "Rail Time Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanRailT_v1r0"
+    ]
   },
   "317312221": {
     "Variable Name": "Blue"
@@ -5716,11 +5826,11 @@
   "319252189": {
     "Variable Label": "How much time electronic marijuana delivery devices used, Age [X / 18] to age [Y / 24]",
     "Variable Name": [
-      "SrvSAS_EMJDevTm1824_v1r1"
+      "SrvSAS_EMJDevTm1824_v2r2"
     ]
   },
   "319397722": {
-    "Variable Label": "How many days used marijuana",
+    "Variable Label": "Days Used Cannabis",
     "Variable Name": [
       "SrvSAS_DaysUsedMJ_v1r0"
     ]
@@ -5818,7 +5928,7 @@
   "325229459": {
     "Variable Label": "How many days used electronic marijuana delivery devices used in life",
     "Variable Name": [
-      "SrvSAS_DaysUseEMJDev_v1r0"
+      "SrvSAS_DaysUseEMJDev_v2r0"
     ]
   },
   "325478778": {
@@ -6026,7 +6136,7 @@
   "336810811": {
     "Variable Label": "How many servings consumed marijuana in food or drinks used, Age [X / 18] to age [Y / 24]",
     "Variable Name": [
-      "SrvSAS_EdiblesServ1824_v1r1"
+      "SrvSAS_EdiblesServ1824_v2r1"
     ]
   },
   "336856410": {
@@ -6131,6 +6241,12 @@
       "SrvMtW_DENTALCLEAN_v1r0"
     ]
   },
+  "339946103": {
+    "Variable Label": "Car Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanCarHm_v1r0"
+    ]
+  },
   "340090391": {
     "Variable Label": "Birth State",
     "Variable Name": [
@@ -6170,7 +6286,7 @@
   "342677547": {
     "Variable Label": "Vacation home",
     "Variable Name": [
-      "SrvLAW_SeasHome_v1r0"
+      "SrvLAW_SeasHome_v2r0"
     ]
   },
   "342735868": {
@@ -6255,7 +6371,7 @@
     ]
   },
   "347968905": {
-    "Variable Name": "Didn't smoke marijuana during this time"
+    "Variable Name": "Didn't smoke cannabis during this time"
   },
   "348049244": {
     "Variable Label": "State/Province",
@@ -6275,13 +6391,13 @@
   "348817644": {
     "Variable Label": "Another vacation home past 20 years",
     "Variable Name": [
-      "SrvLAW_SeasAddOth8_v1r0"
+      "SrvLAW_SeasAddOth8_v2r0"
     ]
   },
   "349034127": {
     "Variable Label": "Vaping an electronic delivery devices (such as vape pens or pod-mods)",
     "Variable Name": [
-      "SrvSAS_VapeCannabis_v1r0"
+      "SrvSAS_VapeCannabis_v2r0"
     ]
   },
   "349122068": {
@@ -6290,7 +6406,7 @@
   "349510816": {
     "Variable Label": "How many servings THC concentrates via dabbing used, Age [X] to age [Y / 17]",
     "Variable Name": [
-      "SrvSAS_THCServing17_v1r1"
+      "SrvSAS_THCServing17_v2r1"
     ]
   },
   "349659426": {
@@ -6362,7 +6478,7 @@
     "Variable Name": "Previous address 1"
   },
   "352316035": {
-    "Variable Name": "Didn't use electronic marijuana delivery devices during this time"
+    "Variable Name": "Didn't vape cannabis during this time"
   },
   "352531133": {
     "Variable Label": "# Days - Home Repairs",
@@ -6455,7 +6571,7 @@
   "355689185": {
     "Variable Label": "Days use THC concentrates via dabbing in life",
     "Variable Name": [
-      "SrvSAS_THCDays_v1r0"
+      "SrvSAS_THCDays_v2r0"
     ]
   },
   "355907072": {
@@ -6568,13 +6684,25 @@
       "RcrtSI_OptOut_v1r0_samples"
     ]
   },
+  "363036517": {
+    "Variable Label": "Bus Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanBusHm_v1r0"
+    ]
+  },
   "363147933": {
     "Variable Name": "51-55"
   },
   "363377579": {
     "Variable Label": "How many days used marijana with tobacco, age last used",
     "Variable Name": [
-      "SrvSAS_NumDaysTobMJUse_v1r0"
+      "SrvSAS_NumDaysTobMJUse_v1r1"
+    ]
+  },
+  "363747463": {
+    "Variable Label": "Rail Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanRail_v1r0"
     ]
   },
   "363878103": {
@@ -6584,6 +6712,12 @@
     "Variable Label": "Drink tap water, other beverages or soup",
     "Variable Name": [
       "SrvLAW_TapWaterSoup_v2r0"
+    ]
+  },
+  "364857371": {
+    "Variable Label": "Taxi Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanTxiHm_v1r0"
     ]
   },
   "364983714": {
@@ -6742,7 +6876,7 @@
   "370352501": {
     "Variable Label": "Months ago last use THC concentrates via dabbing",
     "Variable Name": [
-      "SrvSAS_THCMoAgo_v1r0"
+      "SrvSAS_THCMoAgo_v2r1"
     ]
   },
   "370798456": {
@@ -6850,7 +6984,7 @@
   "374639590": {
     "Variable Label": "Current job, job includes driving",
     "Variable Name": [
-      "SrvLAW_WorkRes_v1r0"
+      "SrvLAW_WorkRes_v2r0"
     ]
   },
   "374697037": {
@@ -6859,7 +6993,7 @@
   "375227733": {
     "Variable Label": "How many servings THC concentrates via dabbing used, Age [X / 18] to age [Y / 24]",
     "Variable Name": [
-      "SrvSAS_THCServing1824_v1r1"
+      "SrvSAS_THCServing1824_v2r1"
     ]
   },
   "375535639": {
@@ -6898,7 +7032,7 @@
   "377064836": {
     "Variable Label": "Why smoke marijuana",
     "Variable Name": [
-      "SrvSAS_WhySmokeMJ_v1r0"
+      "SrvSAS_WhySmokeMJ_v2r0"
     ]
   },
   "377633816": {
@@ -6913,7 +7047,7 @@
   "378254382": {
     "Variable Label": "Age first used marijana with tobacco on a regular basis, Never used",
     "Variable Name": [
-      "SrvSAS_NeverSmokeReg_v1r0"
+      "SrvSAS_NeverSmokeReg_v2r1"
     ]
   },
   "378572291": {
@@ -7010,7 +7144,7 @@
   "381268397": {
     "Variable Label": "How many times marijana with tobacco used, Age [X] to age [Y / 17]",
     "Variable Name": [
-      "SrvSAS_TmUseTobMJ17_v1r1"
+      "SrvSAS_TmUseTobMJ17_v2r1"
     ]
   },
   "381509125": {
@@ -7050,7 +7184,7 @@
   "383748300": {
     "Variable Label": "How many times marijana with tobacco used, [X / 30] to age [Y / 39 / current age]",
     "Variable Name": [
-      "SrvSAS_TmUseTobMJ3039_v1r1"
+      "SrvSAS_TmUseTobMJ3039_v2r1"
     ]
   },
   "384191091": {
@@ -7084,6 +7218,12 @@
     "Variable Label": "Home address summary",
     "Variable Name": [
       "SrvLAW_HomeAddSum_5_v1r0"
+    ]
+  },
+  "385609081": {
+    "Variable Label": "Taxi Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanTaxi_v1r0"
     ]
   },
   "386152189": {
@@ -7125,7 +7265,7 @@
   "386950237": {
     "Variable Label": "How much time marijuana  smoked, [X / 40] to age [Y / 49 / current age]",
     "Variable Name": [
-      "SrvSAS_TmSmokeMJ4049_v1r1"
+      "SrvSAS_TmSmokeMJ4049_v2r2"
     ]
   },
   "387077376": {
@@ -7457,7 +7597,7 @@
   "402300898": {
     "Variable Label": "How many servings consumed marijuana in food or drinks used, [X / 30] to age [Y / 39 / current age]",
     "Variable Name": [
-      "SrvSAS_EdiblesServ3039_v1r1"
+      "SrvSAS_EdiblesServ3039_v2r1"
     ]
   },
   "402335383": {
@@ -7537,7 +7677,7 @@
     "Variable Name": "Water that was filtered using reverse osmosis (under sink or whole house)"
   },
   "404697804": {
-    "Variable Name": "What type(s) of transportation do you use to get from [insert address from CURWORK1 - CURWORK3/this address] back home? Select all that apply."
+    "Variable Name": "What type(s) of transportation did you use to get from [insert address from CURWORK1 - CURWORK3/this address] back home? Select all that apply."
   },
   "404863614": {
     "Variable Name": "What type(s) of transportation do you use to get from your home to [insert address from CURSCH1 - CURSCH3/this address]? Select all that apply."
@@ -7548,7 +7688,7 @@
   "405178123": {
     "Variable Label": "Age last used marijana with tobacco",
     "Variable Name": [
-      "SrvSAS_AgeLastUseTobMJ_v1r0"
+      "SrvSAS_AgeLastUseTobMJ_v2r1"
     ]
   },
   "405267600": {
@@ -7709,8 +7849,9 @@
     ]
   },
   "411791779": {
-    "Variable Label": "Employer name",
+    "Variable Label": "Cur Work Co Post Pan",
     "Variable Name": [
+      "SrvLAW_WkPstPan1_v1r0",
       "SrvLAW_CurWorkEmp_v1r0"
     ]
   },
@@ -7720,7 +7861,7 @@
   "411960217": {
     "Variable Label": "When daily user, number of marijana with tobacco per day",
     "Variable Name": [
-      "SrvSAS_NumTobMJPerDay_v1r0"
+      "SrvSAS_NumTobMJPerDay_v2r1"
     ]
   },
   "412000022": {
@@ -7810,7 +7951,7 @@
   "417552256": {
     "Variable Label": "How many servings THC concentrates via dabbing used, [X / 30] to age [Y / 39 / current age]",
     "Variable Name": [
-      "SrvSAS_THCServing3039_v1r1"
+      "SrvSAS_THCServing3039_v2r1"
     ]
   },
   "417623038": {
@@ -7886,7 +8027,7 @@
   "420155119": {
     "Variable Label": "Use THC concentrates via dabbing now",
     "Variable Name": [
-      "SrvSAS_THCNow_v1r0"
+      "SrvSAS_THCNow_v2r0"
     ]
   },
   "420392309": {
@@ -7897,6 +8038,9 @@
   },
   "420560514": {
     "Variable Name": "In the past 7 days - Pain"
+  },
+  "421586693": {
+    "Variable Name": "What type(s) of transportation do you use to get to [insert address from CURWORKPOSTPAN1 - CURWORKPOSTPAN3/this address] from home? Select all that apply."
   },
   "421730068": {
     "Variable Label": "RCA Path Accession Num",
@@ -7981,7 +8125,7 @@
   "424272506": {
     "Variable Label": "Another vacation home past 20 years",
     "Variable Name": [
-      "SrvLAW_SeasAddOth5_v1r0"
+      "SrvLAW_SeasAddOth5_v2r0"
     ]
   },
   "424306855": {
@@ -8083,6 +8227,12 @@
   },
   "428999623": {
     "Variable Name": "15 minutes or less"
+  },
+  "429077998": {
+    "Variable Label": "Cur Work Post Pan Cross St 2",
+    "Variable Name": [
+      "SrvLAW_WkPstPanCrossSt2_v1r0"
+    ]
   },
   "429200007": {
     "Variable Label": "Country",
@@ -8198,7 +8348,7 @@
   "432310123": {
     "Variable Label": "How many servings consumed marijuana in food or drinks used, [X / 70] and older",
     "Variable Name": [
-      "SrvSAS_EdiblesServ70_v1r1"
+      "SrvSAS_EdiblesServ70_v2r1"
     ]
   },
   "432722256": {
@@ -8354,7 +8504,7 @@
     ]
   },
   "440093675": {
-    "Variable Name": "Thinking about the one-way trip from your home to [insert address from CURWORK1 - CURWORK3/this address] on a usual workday, about how much time do you usually spend in each type of transportation?"
+    "Variable Name": "Thinking about the one-way trip from your home to [insert address from CURWORK1 - CURWORK3/this address] on a usual workday, about how much time did you usually spend in each type of transportation?"
   },
   "440307926": {
     "Variable Label": "None Fully Describe Me - Free Text",
@@ -8463,13 +8613,13 @@
   "444759994": {
     "Variable Label": "Last use marijana with tobacco",
     "Variable Name": [
-      "SrvSAS_LastUseTobMJ_v1r0"
+      "SrvSAS_LastUseTobMJ_v2r0"
     ]
   },
   "445187084": {
     "Variable Label": "Age last used electronic marijuana delivery devices",
     "Variable Name": [
-      "SrvSAS_AgeUseEMJDevL_v1r0"
+      "SrvSAS_AgeUseEMJDevL_v2r1"
     ]
   },
   "445537380": {
@@ -8502,7 +8652,7 @@
   "446121108": {
     "Variable Label": "How much time electronic marijuana delivery devices used, Age [X] to age [Y / 17]",
     "Variable Name": [
-      "SrvSAS_EMJDevTm17_v1r1"
+      "SrvSAS_EMJDevTm17_v2r2"
     ]
   },
   "446794016": {
@@ -8865,9 +9015,6 @@
       "SrvSAS_TobPipeNow_v1r0"
     ]
   },
-  "458415612": {
-    "Variable Name": "2024 Connect Experience Survey"
-  },
   "458435048": {
     "Variable Label": "Black/AA/African",
     "Variable Name": [
@@ -8880,13 +9027,13 @@
   "459020144": {
     "Variable Label": "Why [do/did] you smoke a combination of marijuana with tobacco - Descriptive",
     "Variable Name": [
-      "SrvSAS_WhyTobMJOth_v1r0"
+      "SrvSAS_WhyTobMJOth_v2r0"
     ]
   },
   "459096272": {
     "Variable Label": "How much time electronic marijuana delivery devices used, [X / 60] to age [Y / 69 / current age]",
     "Variable Name": [
-      "SrvSAS_EMJDev6069_v1r1"
+      "SrvSAS_EMJDev6069_v2r2"
     ]
   },
   "459098666": {
@@ -9006,7 +9153,7 @@
   "463952618": {
     "Variable Label": "Another vacation home past 20 years",
     "Variable Name": [
-      "SrvLAW_SeasAddOth2_v1r0"
+      "SrvLAW_SeasAddOth2_v2r0"
     ]
   },
   "464044428": {
@@ -9049,6 +9196,12 @@
     "Variable Label": "Last Took Insulin",
     "Variable Name": [
       "SrvMRE_InsulinTime_v1r0"
+    ]
+  },
+  "466212511": {
+    "Variable Label": "Other Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanOth_v1r0"
     ]
   },
   "466346054": {
@@ -9360,7 +9513,7 @@
   "479400169": {
     "Variable Label": "Why [do/did] you consume marijuana in food or drinks - Descriptive",
     "Variable Name": [
-      "SrvSAS_WhyEdiblesOth_v1r0"
+      "SrvSAS_WhyEdiblesOth_v2r0"
     ]
   },
   "479628567": {
@@ -9387,7 +9540,7 @@
   "480217113": {
     "Variable Label": "How much time marijuana  smoked, [X / 50] to age [Y / 59 / current age]",
     "Variable Name": [
-      "SrvSAS_TmSmokeMJ5059_v1r1"
+      "SrvSAS_TmSmokeMJ5059_v2r2"
     ]
   },
   "480305327": {
@@ -9488,7 +9641,7 @@
   "484550481": {
     "Variable Label": "Another vacation home past 20 years",
     "Variable Name": [
-      "SrvLAW_SeasAddOth6_v1r0"
+      "SrvLAW_SeasAddOth6_v2r0"
     ]
   },
   "485011582": {
@@ -9664,7 +9817,7 @@
   "492742957": {
     "Variable Label": "Total amount of time used marijuana  per day when daily user",
     "Variable Name": [
-      "SrvSAS_TotTmMJUseED_v1r0"
+      "SrvSAS_TotTmMJUseED_v2r0"
     ]
   },
   "492806629": {
@@ -9934,6 +10087,12 @@
       "SrvLAW_SeaState5FU_v1r0"
     ]
   },
+  "502946054": {
+    "Variable Label": "Motorcycle Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanMoto_v1r0"
+    ]
+  },
   "503046679": {
     "Variable Label": "Bag 3",
     "Variable Name": [
@@ -9943,7 +10102,7 @@
   "503058092": {
     "Variable Label": "Use marijuana  now",
     "Variable Name": [
-      "SrvSAS_UseMJNow_v1r0"
+      "SrvSAS_UseMJNow_v2r0"
     ]
   },
   "503154121": {
@@ -10090,13 +10249,19 @@
   "510681016": {
     "Variable Name": "Previous address 2"
   },
+  "510872569": {
+    "Variable Label": "Days Commute from Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanDayComHm_v1r0"
+    ]
+  },
   "510907305": {
     "Variable Name": "3D Mammogram. Also known as digital breast tomosynthesis. Multiple images are taken of the breast from different angles. A computer combines the images to create a 3D picture of the breast, which may give doctors a clearer view of the breast tissue."
   },
   "511145980": {
     "Variable Label": "How many servings THC concentrates via dabbing used, [X / 60] to age [Y / 69 / current age]",
     "Variable Name": [
-      "SrvSAS_THCServing6069_v1r1"
+      "SrvSAS_THCServing6069_v2r1"
     ]
   },
   "511873578": {
@@ -10337,7 +10502,7 @@
   "521073718": {
     "Variable Label": "Use electronic marijuana delivery devices now",
     "Variable Name": [
-      "SrvSAS_UseEMJDevNow_v1r0"
+      "SrvSAS_UseEMJDevNow_v2r0"
     ]
   },
   "521369040": {
@@ -10448,7 +10613,7 @@
   "524914900": {
     "Variable Label": "How many marijana with tobacco prodcuts used in life",
     "Variable Name": [
-      "SrvSAS_TotTobaccoLife_v1r0"
+      "SrvSAS_TotTobaccoLife_v2r0"
     ]
   },
   "524918714": {
@@ -10625,7 +10790,7 @@
   "531654334": {
     "Variable Label": "Why [do/did] you use electronic marijuana delivery devices that can be vaped - Descriptive",
     "Variable Name": [
-      "SrvSAS_WhyUseEMJDevOth_v1r0"
+      "SrvSAS_WhyUseEMJDevOth_v2r0"
     ]
   },
   "531671855": {
@@ -10655,6 +10820,9 @@
       "SrvBOH_C1LiverCanc_v1r0"
     ]
   },
+  "532260562": {
+    "Variable Name": "Thinking about the one-way trip from [insert address from CURWORKPOSTPAN1 - CURWORKPOSTPAN3/this address] to your home on a usual workday, about how much time do you usually spend in each type of transportation?"
+  },
   "532603425": {
     "Variable Label": "Removal One/Both Testicles",
     "Variable Name": [
@@ -10670,7 +10838,7 @@
   "532755074": {
     "Variable Label": "Last use THC concentrates via dabbing",
     "Variable Name": [
-      "SrvSAS_THCLast_v1r0"
+      "SrvSAS_THCLast_v2r0"
     ]
   },
   "532767229": {
@@ -10682,7 +10850,7 @@
   "532944666": {
     "Variable Label": "Lived anywhere else at least two years",
     "Variable Name": [
-      "SrvLAW_HomeAddOth8_v1r0"
+      "SrvLAW_HomeAddOth8_v2r0"
     ]
   },
   "533003859": {
@@ -10769,7 +10937,7 @@
       "SrvMRE_NoSleepCond_v1r0",
       "SrvMRE_NoSATmt_v1r0",
       "SrvSAS_NoTobacco_v1r0",
-      "SrvSAS_NoCannabisPdt_v1r0",
+      "SrvSAS_NoCannabisPdt_v2r0",
       "SrvBio_NoSymptDay_v1r0",
       "SrvBio_NoSymptDay_v1r0",
       "SrvScr_NOSCREEN_v1r0",
@@ -10805,7 +10973,7 @@
   "536166591": {
     "Variable Label": "Use THC concentrates via dabbing, age last used",
     "Variable Name": [
-      "SrvSAS_AgeLastTHCED_v2r0"
+      "SrvSAS_AgeLastTHCED_v3r0"
     ]
   },
   "536216847": {
@@ -11013,6 +11181,12 @@
   "543780863": {
     "Variable Name": "Have you ever used any of these hormonal medications or devices? Select all that apply."
   },
+  "543804307": {
+    "Variable Label": "Walk Time Home Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanWalkTmHm_v1r0"
+    ]
+  },
   "544150384": {
     "Variable Label": "DOB Yr",
     "Variable Name": [
@@ -11112,7 +11286,7 @@
   "548863580": {
     "Variable Label": "Lived anywhere else at least two years",
     "Variable Name": [
-      "SrvLAW_HomeAddOth9_v1r0"
+      "SrvLAW_HomeAddOth9_v2r0"
     ]
   },
   "549031911": {
@@ -11329,7 +11503,7 @@
   "556963634": {
     "Variable Label": "Age stopped using marijuana  every day",
     "Variable Name": [
-      "SrvSAS_AgeStopMJED_v1r0"
+      "SrvSAS_AgeStopMJED_v2r1"
     ]
   },
   "557461333": {
@@ -11483,7 +11657,7 @@
   "562595294": {
     "Variable Label": "Total amount of time used electronic marijuana delivery devices per day when daily user",
     "Variable Name": [
-      "SrvSAS_TotTmEMJDaily_v1r0"
+      "SrvSAS_TotTmEMJDaily_v2r0"
     ]
   },
   "563435337": {
@@ -11613,6 +11787,12 @@
       "SrvSAS_AgeStopUseCT_v1r0"
     ]
   },
+  "568581510": {
+    "Variable Label": "Maj Road Home Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanMjRdHm_v1r0"
+    ]
+  },
   "569151507": {
     "Variable Label": "UP Hx",
     "Variable Name": [
@@ -11665,6 +11845,12 @@
     "Variable Label": "Site Match",
     "Variable Name": [
       "RcrtV_SiteMatch_v1r0"
+    ]
+  },
+  "570556451": {
+    "Variable Label": "Bus Time Home Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanBusTmHm_v1r0"
     ]
   },
   "571361258": {
@@ -11772,6 +11958,12 @@
       "SrvSAS_AroundSmoke4049_v1r0"
     ]
   },
+  "576417612": {
+    "Variable Label": "Same Job Pre Pan",
+    "Variable Name": [
+      "SrvLAW_SameJobPrePan_v1r0"
+    ]
+  },
   "576621769": {
     "Variable Label": "Watching TV",
     "Variable Name": [
@@ -11796,7 +11988,7 @@
   "576956950": {
     "Variable Label": "Another vacation home past 20 years",
     "Variable Name": [
-      "SrvLAW_SeasAddOth1_v1r0"
+      "SrvLAW_SeasAddOth1_v2r0"
     ]
   },
   "577794331": {
@@ -11928,6 +12120,12 @@
   "582006876": {
     "Variable Name": "2 to 3 days per month"
   },
+  "582387098": {
+    "Variable Label": "Cur Work Apt Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkApPstPan1_v1r0"
+    ]
+  },
   "582425113": {
     "Variable Name": "My periods stopped naturally due to menopause"
   },
@@ -11963,6 +12161,12 @@
   },
   "583113200": {
     "Variable Name": "Previous address 7"
+  },
+  "583216333": {
+    "Variable Label": "Car Time Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanCarT_v1r0"
+    ]
   },
   "583500714": {
     "Variable Label": "City",
@@ -12030,7 +12234,7 @@
   "585819411": {
     "Variable Label": "When daily user, number of servings use THC concentrates via dabbing, don't know",
     "Variable Name": [
-      "SrvSAS_THCServingNumDK_v1r0"
+      "SrvSAS_THCServingNumDK_v2r0"
     ]
   },
   "586132480": {
@@ -12045,7 +12249,7 @@
   "586306068": {
     "Variable Label": "How much time electronic marijuana delivery devices used, [X / 70] and older",
     "Variable Name": [
-      "SrvSAS_EMJDev70_v1r1"
+      "SrvSAS_EMJDev70_v2r2"
     ]
   },
   "586825330": {
@@ -12154,7 +12358,7 @@
   "589885595": {
     "Variable Label": "Days used electronic marijuana delivery devices past 30 days",
     "Variable Name": [
-      "SrvSAS_UseEMJDev30_v1r0"
+      "SrvSAS_UseEMJDev30_v2r1"
     ]
   },
   "589959753": {
@@ -12241,7 +12445,13 @@
   "593146348": {
     "Variable Label": "Lived anywhere else at least two years",
     "Variable Name": [
-      "SrvLAW_HomeAddOth3_v1r0"
+      "SrvLAW_HomeAddOth3_v2r0"
+    ]
+  },
+  "593151742": {
+    "Variable Label": "Cur Work St Name Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkStrPstPan1_v1r0"
     ]
   },
   "593467240": {
@@ -12274,11 +12484,17 @@
   "594280517": {
     "Variable Label": "Months ago last used marijuana",
     "Variable Name": [
-      "SrvSAS_LastUsedMJMo_v1r0"
+      "SrvSAS_LastUsedMJMo_v2r1"
     ]
   },
   "594557208": {
     "Variable Name": "5 to 6 times per week"
+  },
+  "594558885": {
+    "Variable Label": "Yr Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanYr_v1r0"
+    ]
   },
   "594608533": {
     "Variable Label": "How many cigarettes used, Age [X] to age [Y / 17]",
@@ -12298,7 +12514,7 @@
   "596004621": {
     "Variable Label": "How much time electronic marijuana delivery devices used, [X / 50] to age [Y / 59 / current age]",
     "Variable Name": [
-      "SrvSAS_EMJDev5059_v1r1"
+      "SrvSAS_EMJDev5059_v2r2"
     ]
   },
   "596122041": {
@@ -12524,7 +12740,7 @@
   "606675249": {
     "Variable Label": "Age stopped using marijana with tobacco every day",
     "Variable Name": [
-      "SrvSAS_AgeStopTobMJED_v1r0"
+      "SrvSAS_AgeStopTobMJED_v2r1"
     ]
   },
   "607064749": {
@@ -12641,6 +12857,12 @@
       "SrvMRE_NoPeriodReason_v1r1"
     ]
   },
+  "614208066": {
+    "Variable Label": "Same Commute Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanSmCm_V1r0"
+    ]
+  },
   "614264509": {
     "Variable Label": "Date Ref All Fut Participation",
     "Variable Name": [
@@ -12649,6 +12871,12 @@
   },
   "614395648": {
     "Variable Name": "Yes, this is correct"
+  },
+  "614443767": {
+    "Variable Label": "Other Time Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanOthT_v1r0"
+    ]
   },
   "614446276": {
     "Variable Name": "During the time(s) that you were taking Acetaminophen, about how many days per week OR per month did you take it? Please choose whichever makes the most sense for you."
@@ -12787,6 +13015,12 @@
       "SrvMRE_SurfTime_v1r0"
     ]
   },
+  "621948602": {
+    "Variable Label": "Bicycle Time Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanBikeT_v1r0"
+    ]
+  },
   "622008261": {
     "Variable Name": "Refused some activities"
   },
@@ -12805,7 +13039,7 @@
   "622843252": {
     "Variable Label": "Age first consumed marijuana in food or drinks on a regular basis",
     "Variable Name": [
-      "SrvSAS_EdiblesAgeReg_v1r0"
+      "SrvSAS_EdiblesAgeReg_v2r1"
     ]
   },
   "622900774": {
@@ -12914,6 +13148,12 @@
   "625249910": {
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Stomach cancer?"
   },
+  "626380300": {
+    "Variable Label": "Bicycle Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanBike_v1r0"
+    ]
+  },
   "626558982": {
     "Variable Name": "Yes, triplets or higher multiple birth"
   },
@@ -12971,7 +13211,7 @@
   "628818510": {
     "Variable Label": "Age first used marijana with tobacco on a regular basis",
     "Variable Name": [
-      "SrvSAS_AgeUseTobMJReg_v1r0"
+      "SrvSAS_AgeUseTobMJReg_v2r1"
     ]
   },
   "628939958": {
@@ -13126,7 +13366,13 @@
     "Variable Name": "Caucasian/White"
   },
   "635467479": {
-    "Variable Name": "What type(s) of transportation do you use to get to [insert address from CURWORK1 - CURWORK3/this address] from home? Select all that apply."
+    "Variable Name": "What type(s) of transportation did you use to get to [insert address from CURWORK1 - CURWORK3/this address] from home? Select all that apply."
+  },
+  "635780118": {
+    "Variable Label": "Longest Job",
+    "Variable Name": [
+      "SrvLAW_LongestJob_v1r0"
+    ]
   },
   "635874413": {
     "Variable Name": "In which season(s) did you play golf? Select all that apply."
@@ -13326,7 +13572,7 @@
   "643099118": {
     "Variable Label": "How much time marijuana  smoked, [X / 25] to age [Y / 29]",
     "Variable Name": [
-      "SrvSAS_TmSmokeMJ2529_v1r1"
+      "SrvSAS_TmSmokeMJ2529_v2r2"
     ]
   },
   "643126196": {
@@ -13387,7 +13633,7 @@
   "645361463": {
     "Variable Label": "How much time marijuana  smoked, [X / 60] to age [Y / 69 / current age]",
     "Variable Name": [
-      "SrvSAS_TmSmokeMJ6069_v1r1"
+      "SrvSAS_TmSmokeMJ6069_v2r2"
     ]
   },
   "645589113": {
@@ -13468,7 +13714,13 @@
   "647612167": {
     "Variable Label": "Lived anywhere else at least two years",
     "Variable Name": [
-      "SrvLAW_HomeAddOth7_v1r0"
+      "SrvLAW_HomeAddOth7_v2r0"
+    ]
+  },
+  "648051649": {
+    "Variable Label": "Walk Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanWlkHm_v1r0"
     ]
   },
   "648216681": {
@@ -13661,7 +13913,7 @@
   "653198444": {
     "Variable Label": "Age first consumed marijuana in food or drinks on a regular basis, Never consumed",
     "Variable Name": [
-      "SrvSAS_EdiblesNever_v1r0"
+      "SrvSAS_EdiblesNever_v2r1"
     ]
   },
   "653630699": {
@@ -13689,6 +13941,12 @@
       "BioCol_Dev_v1r0_TimeLSST3",
       "BioCol_Dev_v1r0_TimeLSST4",
       "BioCol_Dev_v1r0_TimeLSST5"
+    ]
+  },
+  "654108399": {
+    "Variable Label": "Other Time Home Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanOthTmHm_v1r0"
     ]
   },
   "654207589": {
@@ -13823,7 +14081,7 @@
   "659140794": {
     "Variable Label": "Months ago last used electronic marijuana delivery devices",
     "Variable Name": [
-      "SrvSAS_UseEMJDevMo_v1r0"
+      "SrvSAS_UseEMJDevMo_v2r1"
     ]
   },
   "659457234": {
@@ -13863,6 +14121,12 @@
     "Variable Label": "State/Province",
     "Variable Name": [
       "SrvLAW_CurSchState_v1r0"
+    ]
+  },
+  "660218333": {
+    "Variable Label": "Num Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_NumWkPstPan_v1r0"
     ]
   },
   "660308254": {
@@ -14028,6 +14292,12 @@
       "BioPack_Courier_v1r0"
     ]
   },
+  "666629067": {
+    "Variable Label": "Days Commute to Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanDayCm_v1r0"
+    ]
+  },
   "666840938": {
     "Variable Label": "Around tobacco smoke of others, up to Age 17",
     "Variable Name": [
@@ -14101,6 +14371,12 @@
     "Variable Label": "Bag 31",
     "Variable Name": [
       "BioPack_Bag31_v1r0"
+    ]
+  },
+  "669966323": {
+    "Variable Label": "Other Text Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanTxt_v1r0"
     ]
   },
   "669977999": {
@@ -14238,7 +14514,7 @@
   "675129470": {
     "Variable Label": "Dabbing THC concentrates (such as wax, shatter, or rosin)",
     "Variable Name": [
-      "SrvSAS_DabbingThcCon_v1r0"
+      "SrvSAS_DabbingThcCon_v2r0"
     ]
   },
   "675210992": {
@@ -14295,7 +14571,7 @@
   "677733128": {
     "Variable Label": "How many servings consumed marijuana in food or drinks used, [X / 40] to age [Y / 49 / current age]",
     "Variable Name": [
-      "SrvSAS_EdiblesServ4049_v1r1"
+      "SrvSAS_EdiblesServ4049_v2r1"
     ]
   },
   "677739650": {
@@ -14391,7 +14667,7 @@
   "680697711": {
     "Variable Label": "How many times marijana with tobacco used, [X / 70] and older",
     "Variable Name": [
-      "SrvSAS_TmUseTobMJ70_v1r1"
+      "SrvSAS_TmUseTobMJ70_v2r1"
     ]
   },
   "680730257": {
@@ -14406,7 +14682,7 @@
   "681586194": {
     "Variable Label": "Days use THC concentrates via dabbing past 30 days",
     "Variable Name": [
-      "SrvSAS_THCDays30_v1r0"
+      "SrvSAS_THCDays30_v2r1"
     ]
   },
   "681745422": {
@@ -14468,7 +14744,7 @@
   "684542266": {
     "Variable Label": "Commute to and from current work same",
     "Variable Name": [
-      "SrvLAW_CurWorkT7_v1r0"
+      "SrvLAW_CurWorkT7_v2r0"
     ]
   },
   "684617815": {
@@ -14526,7 +14802,7 @@
   "685659661": {
     "Variable Label": "How many servings THC concentrates via dabbing used, [X / 50] to age [Y / 59 / current age]",
     "Variable Name": [
-      "SrvSAS_THCServing5059_v1r1"
+      "SrvSAS_THCServing5059_v2r1"
     ]
   },
   "685735916": {
@@ -14802,7 +15078,7 @@
   "694113343": {
     "Variable Label": "Worked in 2019",
     "Variable Name": [
-      "SrvLAW_WorkedIn2019_v1r0"
+      "SrvLAW_WorkedIn2019_v1r1"
     ]
   },
   "694261722": {
@@ -14834,7 +15110,7 @@
   "695423703": {
     "Variable Label": "How many days used  electronic marijuana delivery devices, age last used",
     "Variable Name": [
-      "SrvSAS_UseEMJDevDayNum_v1r0"
+      "SrvSAS_UseEMJDevDayNum_v2r1"
     ]
   },
   "695772621": {
@@ -14846,7 +15122,7 @@
   "696017690": {
     "Variable Label": "Another vacation home past 20 years",
     "Variable Name": [
-      "SrvLAW_SeasAddOth4_v1r0"
+      "SrvLAW_SeasAddOth4_v2r0"
     ]
   },
   "696181630": {
@@ -14897,7 +15173,7 @@
   "698314386": {
     "Variable Label": "Use marijana with tobacco every day, age last used",
     "Variable Name": [
-      "SrvSAS_UseTobMJED_v2r0"
+      "SrvSAS_UseTobMJED_v3r0"
     ]
   },
   "698673038": {
@@ -14943,6 +15219,12 @@
       "BioPack_Bag32_v1r0"
     ]
   },
+  "699873889": {
+    "Variable Label": "Current Job",
+    "Variable Name": [
+      "SrvLAW_Wk2019PstPan_v1r0"
+    ]
+  },
   "700080862": {
     "Variable Name": "9"
   },
@@ -14955,7 +15237,7 @@
   "700173707": {
     "Variable Label": "Age last consumed marijuana in food or drinks",
     "Variable Name": [
-      "SrvSAS_AgeEdiblesLast_v1r0"
+      "SrvSAS_AgeEdiblesLast_v2r0"
     ]
   },
   "700374192": {
@@ -15021,7 +15303,7 @@
   "702729897": {
     "Variable Label": "How many servings consumed marijuana in food or drinks used, [X / 50] to age [Y / 59 / current age]",
     "Variable Name": [
-      "SrvSAS_EdiblesServ5059_v1r1"
+      "SrvSAS_EdiblesServ5059_v2r1"
     ]
   },
   "702905707": {
@@ -15044,7 +15326,9 @@
   "703385619": {
     "Variable Label": "City",
     "Variable Name": [
-      "RcrtUP_City_v1r0"
+      "RcrtUP_City_v1r0",
+      "SrvLAW_WkCtyPstPan1_v1r0",
+      "SrvLAW_WkCtyPstPan2_v1r0"
     ]
   },
   "703944664": {
@@ -15215,6 +15499,12 @@
       "SrvBOH_Cirrhosis_v1r0"
     ]
   },
+  "709908768": {
+    "Variable Label": "Cur Work St Num Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkNoPstPan1_v1r0"
+    ]
+  },
   "709969190": {
     "Variable Name": "2 days"
   },
@@ -15276,7 +15566,7 @@
   "713594719": {
     "Variable Label": "Consuming edibles, drinks, or capsules",
     "Variable Name": [
-      "SrvSAS_CannabisEdibles_v1r0"
+      "SrvSAS_CannabisEdibles_v2r0"
     ]
   },
   "713781738": {
@@ -15396,7 +15686,7 @@
   "719293094": {
     "Variable Label": "Total amount of time used marijuana  per day",
     "Variable Name": [
-      "SrvSAS_TotTmMJUse_v1r0"
+      "SrvSAS_TotTmMJUse_v2r0"
     ]
   },
   "719427591": {
@@ -15441,7 +15731,7 @@
   "722122662": {
     "Variable Label": "Ever use marijuana  every day",
     "Variable Name": [
-      "SrvSAS_EverUseMJED_v2r0"
+      "SrvSAS_EverUseMJED_v3r0"
     ]
   },
   "722846087": {
@@ -15467,7 +15757,7 @@
   "723763329": {
     "Variable Label": "How many times marijana with tobacco used, Age [X / 18] to age [Y / 24]",
     "Variable Name": [
-      "SrvSAS_TmUseTobMJ1824_v1r1"
+      "SrvSAS_TmUseTobMJ1824_v2r1"
     ]
   },
   "723775357": {
@@ -15512,7 +15802,7 @@
   "724990284": {
     "Variable Label": "How many times marijana with tobacco used, [X / 25] to age [Y / 29]",
     "Variable Name": [
-      "SrvSAS_TmUseTobMJ2529_v1r1"
+      "SrvSAS_TmUseTobMJ2529_v2r1"
     ]
   },
   "725408440": {
@@ -15622,6 +15912,9 @@
     "Variable Name": [
       "SrvLAW_SeaAdd7PrWater_v1r0"
     ]
+  },
+  "728267588": {
+    "Variable Name": "Initalized"
   },
   "728366619": {
     "Variable Label": "SST1 Dev - Vol Low But Usable",
@@ -15793,6 +16086,9 @@
     "Variable Name": [
       "SrvLAW_SeaCity4_v1r0"
     ]
+  },
+  "733638576": {
+    "Variable Name": "Thinking about the one-way trip from your home to [insert address from CURWORKPOSTPAN1 - CURWORKPOSTPAN3/this address] on a usual workday, about how much time do you usually spend in each type of transportation?"
   },
   "733789220": {
     "Variable Label": "French",
@@ -16010,19 +16306,19 @@
   "742254559": {
     "Variable Label": "Age first use THC concentrates via dabbing on a regular basis, Never used",
     "Variable Name": [
-      "SrvSAS_NeverTHC_v1r0"
+      "SrvSAS_NeverTHC_v2r1"
     ]
   },
   "742544044": {
     "Variable Label": "Consume marijuana in food or drinks now",
     "Variable Name": [
-      "SrvSAS_EdiblesNow_v1r0"
+      "SrvSAS_EdiblesNow_v2r0"
     ]
   },
   "742716427": {
     "Variable Label": "Age first used electronic marijuana delivery devices on a regular basis",
     "Variable Name": [
-      "SrvSAS_AgeEMJDevReg_v1r0"
+      "SrvSAS_AgeEMJDevReg_v2r1"
     ]
   },
   "742806035": {
@@ -16161,7 +16457,7 @@
   "746817928": {
     "Variable Label": "Days used marijana with tobacco past 30 days",
     "Variable Name": [
-      "SrvSAS_DaysUseTobMJ_v1r0"
+      "SrvSAS_DaysUseTobMJ_v2r1"
     ]
   },
   "747006172": {
@@ -16279,7 +16575,7 @@
   "752795304": {
     "Variable Label": "How many servings THC concentrates via dabbing used, [X / 25] to age [Y / 29]",
     "Variable Name": [
-      "SrvSAS_THCServing2529_v1r1"
+      "SrvSAS_THCServing2529_v2r1"
     ]
   },
   "752948709": {
@@ -16345,7 +16641,7 @@
   "755298453": {
     "Variable Label": "How many times marijana with tobacco used, [X / 50] to age [Y / 59 / current age]",
     "Variable Name": [
-      "SrvSAS_TmUseTobMJ5059_v1r1"
+      "SrvSAS_TmUseTobMJ5059_v2r1"
     ]
   },
   "755545718": {
@@ -16360,7 +16656,7 @@
   "755923078": {
     "Variable Label": "Why smoke marijuana",
     "Variable Name": [
-      "SrvSAS_WhySmokeTobMJ_v1r0"
+      "SrvSAS_WhySmokeTobMJ_v2r0"
     ]
   },
   "756061540": {
@@ -16481,7 +16777,7 @@
   "760521319": {
     "Variable Label": "Smoking cannabis (such as joints, pipes, bowls, or bongs)",
     "Variable Name": [
-      "SrvSAS_SmokingCannabis_v1r0"
+      "SrvSAS_SmokingCannabis_v2r0"
     ]
   },
   "760686611": {
@@ -16669,7 +16965,7 @@
   "766791333": {
     "Variable Label": "Age first use THC concentrates via dabbing",
     "Variable Name": [
-      "SrvSAS_AgeUseTHCF_v1r0"
+      "SrvSAS_AgeUseTHCF_v2r1"
     ]
   },
   "766964355": {
@@ -16691,6 +16987,12 @@
     "Variable Label": "Around tobacco smoke of others, Age 50 to Age 59",
     "Variable Name": [
       "SrvSAS_AroundSmoke5059_v1r0"
+    ]
+  },
+  "767755239": {
+    "Variable Label": "Car Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanCar_v1r0"
     ]
   },
   "767775934": {
@@ -16869,7 +17171,7 @@
   "773680071": {
     "Variable Label": "Another vacation home past 20 years",
     "Variable Name": [
-      "SrvLAW_SeasAddOth7_v1r0"
+      "SrvLAW_SeasAddOth7_v2r0"
     ]
   },
   "773707518": {
@@ -16896,7 +17198,7 @@
   "774087638": {
     "Variable Label": "Days per week paid",
     "Variable Name": [
-      "SrvLAW_DaysPWPaid_v1r0"
+      "SrvLAW_DaysPWPaid_v2r0"
     ]
   },
   "774398441": {
@@ -16964,7 +17266,7 @@
   "776406200": {
     "Variable Label": "Lived anywhere else at least two years",
     "Variable Name": [
-      "SrvLAW_HomeAddOth5_v1r0"
+      "SrvLAW_HomeAddOth5_v2r0"
     ]
   },
   "776580384": {
@@ -17012,7 +17314,7 @@
   "777877159": {
     "Variable Label": "How many times marijana with tobacco used, [X / 60] to age [Y / 69 / current age]",
     "Variable Name": [
-      "SrvSAS_TmUseTobMJ6069_v1r1"
+      "SrvSAS_TmUseTobMJ6069_v2r1"
     ]
   },
   "778052314": {
@@ -17057,7 +17359,7 @@
   "779642303": {
     "Variable Label": "Why [do/did] you smoke marijuana - Descriptive",
     "Variable Name": [
-      "SrvSAS_WhySmokeMJOth_v1r0"
+      "SrvSAS_WhySmokeMJOth_v2r0"
     ]
   },
   "780298998": {
@@ -17099,7 +17401,7 @@
   "781650542": {
     "Variable Label": "Why [do/did] you use use THC concentrates via dabbing - Descriptive",
     "Variable Name": [
-      "SrvSAS_WhyTHCOther_v1r0"
+      "SrvSAS_WhyTHCOther_v2r0"
     ]
   },
   "782113721": {
@@ -17213,7 +17515,7 @@
     ]
   },
   "786253125": {
-    "Variable Name": "Thinking about the one-way trip from [insert address from CURWORK1 - CURWORK3/this address] to your home on a usual workday, about how much time do you usually spend in each type of transportation?"
+    "Variable Name": "Thinking about the one-way trip from [insert address from CURWORK1 - CURWORK3/this address] to your home on a usual workday, about how much time did you usually spend in each type of transportation?"
   },
   "786290435": {
     "Variable Label": "Samoan",
@@ -17233,7 +17535,7 @@
   "786517174": {
     "Variable Label": "How many days consumed marijuana in food or drinks, age last used",
     "Variable Name": [
-      "SrvSAS_DaysNumEdibles_v1r0"
+      "SrvSAS_DaysNumEdibles_v2r1"
     ]
   },
   "786749210": {
@@ -17307,6 +17609,12 @@
   },
   "787591805": {
     "Variable Name": "In which season(s) did you do strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups)? Select all that apply."
+  },
+  "788065155": {
+    "Variable Label": "Mos Commute to Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanMoCom_v1r0"
+    ]
   },
   "789159346": {
     "Variable Name": "Why did you stop drinking alcohol? Select all that apply."
@@ -17456,7 +17764,7 @@
   "795265404": {
     "Variable Label": "How many servings consumed marijuana in food or drinks used, [X / 60] to age [Y / 69 / current age]",
     "Variable Name": [
-      "SrvSAS_EdiblesServ6069_v1r1"
+      "SrvSAS_EdiblesServ6069_v2r1"
     ]
   },
   "795761911": {
@@ -17574,6 +17882,9 @@
       "SrvLAW_HomeWtr1Oth_v1r0"
     ]
   },
+  "799598595": {
+    "Variable Name": "What type(s) of transportation do you use to get from [insert address from CURWORKPOSTPAN1 - CURWORKPOSTPAN3/this address] back to your home? Select all that apply."
+  },
   "799903478": {
     "Variable Label": "# Yrs Insulin",
     "Variable Name": [
@@ -17592,7 +17903,7 @@
   "800194290": {
     "Variable Label": "Another vacation home past 20 years",
     "Variable Name": [
-      "SrvLAW_SeasAddOth9_v1r0"
+      "SrvLAW_SeasAddOth9_v2r0"
     ]
   },
   "800410166": {
@@ -17951,7 +18262,7 @@
   "810324917": {
     "Variable Label": "Why consume marijuana in food or drinks",
     "Variable Name": [
-      "SrvSAS_WhyEdibles_v2r0"
+      "SrvSAS_WhyEdibles_v3r0"
     ]
   },
   "810340693": {
@@ -18114,7 +18425,7 @@
   "816891201": {
     "Variable Label": "Total amount of time used electronic marijuana delivery devices per day",
     "Variable Name": [
-      "SrvSAS_TotTmUsedEMJDev_v1r0"
+      "SrvSAS_TotTmUsedEMJDev_v2r0"
     ]
   },
   "817131019": {
@@ -18138,6 +18449,12 @@
       "SrvLAW_Apt3_v1r0"
     ]
   },
+  "817932069": {
+    "Variable Label": "Walk Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanWalk_v1r0"
+    ]
+  },
   "818310825": {
     "Variable Label": "How often drink alcohol, Age 30 to Age 39",
     "Variable Name": [
@@ -18147,7 +18464,7 @@
   "818380721": {
     "Variable Label": "Days consumed marijuana in food or drinks past 30 days",
     "Variable Name": [
-      "SrvSAS_Edibles30Days_v1r0"
+      "SrvSAS_Edibles30Days_v2r0"
     ]
   },
   "819018322": {
@@ -18267,7 +18584,7 @@
   "822964046": {
     "Variable Label": "How much time electronic marijuana delivery devices used, [X / 25] to age [Y / 29]",
     "Variable Name": [
-      "SrvSAS_EMJDevTm2529_v1r1"
+      "SrvSAS_EMJDevTm2529_v2r2"
     ]
   },
   "822995885": {
@@ -18399,6 +18716,12 @@
   "827393644": {
     "Variable Name": "How did you lose weight between ages 25 and 35?"
   },
+  "827461454": {
+    "Variable Label": "Car Time Home Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanCarTmHm_v1r0"
+    ]
+  },
   "827542780": {
     "Variable Label": "Kidney Stones",
     "Variable Name": [
@@ -18432,7 +18755,7 @@
   "828801156": {
     "Variable Label": "Current job, commute at least once a week",
     "Variable Name": [
-      "SrvLAW_NumWork_v1r0"
+      "SrvLAW_NumWork_v2r0"
     ]
   },
   "829269606": {
@@ -18477,7 +18800,7 @@
     ]
   },
   "830608495": {
-    "Variable Name": "Have you ever used any of these marijuana products, even once? Select all that apply."
+    "Variable Name": "Have you ever used any of these cannabis (marijuana) products, even once? Select all that apply."
   },
   "830677489": {
     "Variable Name": "More than 4 weeks ago"
@@ -18503,6 +18826,13 @@
   "831438612": {
     "Variable Name": "In a usual week, which of these beverages do you make with tap water from your home? We are interested in all tap water, whether or not it has been filtered or treated. Select all that apply."
   },
+  "831524426": {
+    "Variable Label": "Cur Work Country Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkCntryPstPan1_v1r0",
+      "SrvLAW_WkCntryPstPan2_v1r0"
+    ]
+  },
   "831643763": {
     "Variable Label": "Time/Day - Downhill Ski/Snowboard",
     "Variable Name": [
@@ -18512,7 +18842,7 @@
   "831873859": {
     "Variable Label": "Days used marijuana past 30 days",
     "Variable Name": [
-      "SrvSAS_MJUseLast30D_v1r0"
+      "SrvSAS_MJUseLast30D_v2r1"
     ]
   },
   "831942158": {
@@ -18668,7 +18998,7 @@
   "839233937": {
     "Variable Label": "Time to and from past work same",
     "Variable Name": [
-      "SrvLAW_PreWorkT5_v1r0"
+      "SrvLAW_PreWorkT5_v2r0"
     ]
   },
   "839266527": {
@@ -18736,6 +19066,12 @@
     "Variable Label": "Not confident talking to doctor",
     "Variable Name": [
       "SrvCSS_PROV6B5_v1r0"
+    ]
+  },
+  "843066684": {
+    "Variable Label": "Motorcycle Time Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanMotoT_v1r0"
     ]
   },
   "843508307": {
@@ -18884,7 +19220,8 @@
   "847533056": {
     "Variable Label": "Longest Held Job",
     "Variable Name": [
-      "SrvBOH_LongestJob_v2r0"
+      "SrvBOH_LongestJob_v2r0",
+      "SrvLAW_LongestJbPstPan_v1r0"
     ]
   },
   "847578001": {
@@ -18914,10 +19251,22 @@
       "SrvLAW_Apt4_v1r0"
     ]
   },
+  "848543458": {
+    "Variable Label": "Bicycle Time Home Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanBikeTmHm_v1r0"
+    ]
+  },
   "848580651": {
     "Variable Label": "Shorter Than 20s",
     "Variable Name": [
       "SrvBOH_ShorterNow_v1r0"
+    ]
+  },
+  "849047549": {
+    "Variable Label": "Cur Work Post Pan Cross St 1",
+    "Variable Name": [
+      "SrvLAW_WkPstPanCrossSt1_v1r0"
     ]
   },
   "849066624": {
@@ -19165,7 +19514,7 @@
   "859228803": {
     "Variable Label": "Last used electronic marijuana delivery devices",
     "Variable Name": [
-      "SrvSAS_UseEMJDevL_v1r0"
+      "SrvSAS_UseEMJDevL_v2r0"
     ]
   },
   "859329001": {
@@ -19266,7 +19615,7 @@
   "862052821": {
     "Variable Label": "Lived anywhere else at least two years",
     "Variable Name": [
-      "SrvLAW_HomeAddOth2_v1r0"
+      "SrvLAW_HomeAddOth2_v2r0"
     ]
   },
   "862170896": {
@@ -19330,7 +19679,7 @@
   "863664828": {
     "Variable Label": "Age last used marijuana",
     "Variable Name": [
-      "SrvSAS_AgeLastUsedMJ_v1r0"
+      "SrvSAS_AgeLastUsedMJ_v2r1"
     ]
   },
   "863839736": {
@@ -19360,7 +19709,7 @@
   "864290328": {
     "Variable Label": "How much time marijuana  smoked, [X / 30] to age [Y / 39 / current age]",
     "Variable Name": [
-      "SrvSAS_TmSmokeMJ3039_v1r1"
+      "SrvSAS_TmSmokeMJ3039_v2r2"
     ]
   },
   "864981804": {
@@ -19524,6 +19873,15 @@
     "Variable Label": "D/T PROMIS Surv Start",
     "Variable Name": [
       "SrvQOL_3moTmStart_v1r0"
+    ]
+  },
+  "870675371": {
+    "Variable Name": "In what month and year did you start commuting to [insert address from CURWORKPOSTPAN1 - CURWORKPOSTPAN3/this address]?"
+  },
+  "871276836": {
+    "Variable Label": "Work Res Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkResPstPan_v1r0"
     ]
   },
   "871673221": {
@@ -19709,7 +20067,7 @@
   "878281875": {
     "Variable Label": "How much time electronic marijuana delivery devices used, [X / 30] to age [Y / 39 / current age]",
     "Variable Name": [
-      "SrvSAS_EMJDev3039_v1r1"
+      "SrvSAS_EMJDev3039_v2r2"
     ]
   },
   "878286618": {
@@ -19787,7 +20145,7 @@
   "882838859": {
     "Variable Label": "How much time marijuana  smoked, [X / 70] and older",
     "Variable Name": [
-      "SrvSAS_TmSmokeMJ70_v1r1"
+      "SrvSAS_TmSmokeMJ70_v2r2"
     ]
   },
   "883203566": {
@@ -19828,6 +20186,12 @@
     "Variable Label": "Zip code",
     "Variable Name": [
       "SrvLAW_CurSchZip_v1r0"
+    ]
+  },
+  "884514292": {
+    "Variable Label": "Motorcycle Time Home Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanMotoTmHm_v1r0"
     ]
   },
   "884793537": {
@@ -19934,7 +20298,7 @@
   "889949861": {
     "Variable Label": "Age first smoked marijuana on a regular basis",
     "Variable Name": [
-      "SrvSAS_AgeSmokeMJReg_v1r0"
+      "SrvSAS_AgeSmokeMJReg_v2r1"
     ]
   },
   "890134757": {
@@ -20014,7 +20378,7 @@
   "891825638": {
     "Variable Label": "Use marijana with tobacco now",
     "Variable Name": [
-      "SrvSAS_UseTobMJNow_v1r0"
+      "SrvSAS_UseTobMJNow_v2r0"
     ]
   },
   "891925519": {
@@ -20023,7 +20387,7 @@
   "891996278": {
     "Variable Label": "Ever consumed marijuana in food or drinks every day",
     "Variable Name": [
-      "SrvSAS_EdiblesEveryDay_v2r0"
+      "SrvSAS_EdiblesEveryDay_v3r0"
     ]
   },
   "892050548": {
@@ -20184,6 +20548,12 @@
     "Variable Label": "Number of CT colonoscopies",
     "Variable Name": [
       "SrvScr_CTCOL2_v1r0"
+    ]
+  },
+  "900611792": {
+    "Variable Label": "Mo Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanMo_v1r0"
     ]
   },
   "900838463": {
@@ -20413,7 +20783,7 @@
   "908399883": {
     "Variable Label": "Age first consumed marijuana in food or drinks",
     "Variable Name": [
-      "SrvSAS_EdiblesAgeF_v1r0"
+      "SrvSAS_EdiblesAgeF_v2r1"
     ]
   },
   "909529446": {
@@ -20657,6 +21027,12 @@
       "SrvLAW_CurDontKnow_v1r0"
     ]
   },
+  "920653797": {
+    "Variable Label": "Taxi Time Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanTaxiT_v1r0"
+    ]
+  },
   "921090200": {
     "Variable Label": "First spent time at this address, year",
     "Variable Name": [
@@ -20678,7 +21054,7 @@
   "921663542": {
     "Variable Label": "Last consume marijuana in food or drinks",
     "Variable Name": [
-      "SrvSAS_EdiblesLast_v1r0"
+      "SrvSAS_EdiblesLast_v2r0"
     ]
   },
   "921972241": {
@@ -20712,7 +21088,7 @@
   "922708844": {
     "Variable Label": "How many servings consumed marijuana in food or drinks used, Age [X] to age [Y / 17]",
     "Variable Name": [
-      "SrvSAS_EdiblesServ17_v1r1"
+      "SrvSAS_EdiblesServ17_v2r1"
     ]
   },
   "922737557": {
@@ -20773,7 +21149,7 @@
   "925215135": {
     "Variable Label": "How many servings consumed marijuana in food or drinks used, [X / 25] to age [Y / 29]",
     "Variable Name": [
-      "SrvSAS_EdiblesServ2529_v1r1"
+      "SrvSAS_EdiblesServ2529_v2r1"
     ]
   },
   "925516907": {
@@ -20893,10 +21269,17 @@
   "929240175": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had coronary artery/coronary heart disease?"
   },
+  "930208632": {
+    "Variable Label": "Cur Work Post Pan Follow Up Unknown",
+    "Variable Name": [
+      "SrvLAW_WkPstPanUnk2_v1r0",
+      "SrvLAW_WkPstPanStUnk_v1r0"
+    ]
+  },
   "930208825": {
     "Variable Label": "How many days used  marijuana, age last used",
     "Variable Name": [
-      "SrvSAS_MJUseDaysNum_v1r0"
+      "SrvSAS_MJUseDaysNum_v2r0"
     ]
   },
   "930511603": {
@@ -20976,7 +21359,7 @@
   "933417196": {
     "Variable Label": "Number of servings use/used THC concentrates, servings per day, do not know",
     "Variable Name": [
-      "SrvSAS_THCServingsDK_v1r0"
+      "SrvSAS_THCServingsDK_v2r1"
     ]
   },
   "933646000": {
@@ -21106,7 +21489,7 @@
   "937550939": {
     "Variable Label": "Ever use THC concentrates via dabbing every day",
     "Variable Name": [
-      "SrvSAS_THCUseED_v2r0"
+      "SrvSAS_THCUseED_v3r0"
     ]
   },
   "938150507": {
@@ -21251,7 +21634,7 @@
   "942945860": {
     "Variable Label": "Age first used electronic marijuana delivery devices on a regular basis, Never used",
     "Variable Name": [
-      "SrvSAS_NeverEMJDev_v1r0"
+      "SrvSAS_NeverEMJDev_v2r1"
     ]
   },
   "942970912": {
@@ -21654,6 +22037,12 @@
   "956935470": {
     "Variable Name": "No, I want to add another seasonal or vacation home address (10th address)"
   },
+  "957052257": {
+    "Variable Label": "Other Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanOthHm_v1r0"
+    ]
+  },
   "957066681": {
     "Variable Label": "Date of Delivery",
     "Variable Name": [
@@ -21729,7 +22118,7 @@
   "959488634": {
     "Variable Label": "Another vacation home past 20 years",
     "Variable Name": [
-      "SrvLAW_SeasAddOth3_v1r0"
+      "SrvLAW_SeasAddOth3_v2r0"
     ]
   },
   "959535900": {
@@ -21838,7 +22227,7 @@
   "963040791": {
     "Variable Label": "How many servings THC concentrates via dabbing used, [X / 40] to age [Y / 49 / current age]",
     "Variable Name": [
-      "SrvSAS_THCServing4049_v1r1"
+      "SrvSAS_THCServing4049_v2r1"
     ]
   },
   "963284259": {
@@ -21862,7 +22251,7 @@
   "964154290": {
     "Variable Label": "Number of marijana with tobacco per day",
     "Variable Name": [
-      "SrvSAS_NumTobMJ_v1r0"
+      "SrvSAS_NumTobMJ_v1r1"
     ]
   },
   "964437163": {
@@ -21928,6 +22317,12 @@
   "968388901": {
     "Variable Name": "Thinking about the one-way trip from your home to [insert address from PREWORK1 - PREWORK3/this address] on a usual workday, about how much time did you usually spend in each type of transportation?"
   },
+  "968445508": {
+    "Variable Label": "Other Text Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanTxtHm_v1r0"
+    ]
+  },
   "968816827": {
     "Variable Label": "Age at Preg",
     "Variable Name": [
@@ -21955,6 +22350,12 @@
       "SrvLAW_ZipFollowUp_v1r0"
     ]
   },
+  "970148613": {
+    "Variable Label": "Commute Different from Pre Pan",
+    "Variable Name": [
+      "SrvLAW_ComDiffPrePan_v1r0"
+    ]
+  },
   "970217879": {
     "Variable Label": "Zip code",
     "Variable Name": [
@@ -21964,7 +22365,7 @@
   "970325871": {
     "Variable Label": "Age last use THC concentrates via dabbing",
     "Variable Name": [
-      "SrvSAS_AgeLastUseTHC_v1r0"
+      "SrvSAS_AgeLastUseTHC_v2r1"
     ]
   },
   "970604592": {
@@ -22130,6 +22531,12 @@
   "978204320": {
     "Variable Name": "Grade school grades 1-8"
   },
+  "978362655": {
+    "Variable Label": "Rail Cur Work Post Pan",
+    "Variable Name": [
+      "SrvLAW_WkPstPanRalHm_v1r0"
+    ]
+  },
   "978485677": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had HPV?"
   },
@@ -22145,7 +22552,7 @@
   "980007418": {
     "Variable Label": "Longest held occupration, job includes driving",
     "Variable Name": [
-      "SrvLAW_PreWorkDrive_v1r0"
+      "SrvLAW_PreWorkDrive_v2r0"
     ]
   },
   "980120253": {
@@ -22291,7 +22698,7 @@
   "983592172": {
     "Variable Label": "Lived anywhere else at least two years",
     "Variable Name": [
-      "SrvLAW_HomeAddOth4_v1r0"
+      "SrvLAW_HomeAddOth4_v2r0"
     ]
   },
   "983848564": {
@@ -22465,7 +22872,7 @@
   "989594002": {
     "Variable Label": "How much time electronic marijuana delivery devices used, [X / 40] to age [Y / 49 / current age]",
     "Variable Name": [
-      "SrvSAS_EMJDev4049_v1r1"
+      "SrvSAS_EMJDev4049_v2r2"
     ]
   },
   "990114799": {
@@ -22564,7 +22971,7 @@
   "992757226": {
     "Variable Label": "Months ago last used marijana with tobacco",
     "Variable Name": [
-      "SrvSAS_TobMJUseMo_v1r0"
+      "SrvSAS_TobMJUseMo_v2r1"
     ]
   },
   "992987417": {
@@ -22632,7 +23039,7 @@
   "995620555": {
     "Variable Label": "Longest held occuptation, commute at least once a week",
     "Variable Name": [
-      "SrvLAW_PreWorkCom_v1r0"
+      "SrvLAW_PreWorkCom_v2r0"
     ]
   },
   "995736452": {
@@ -22680,7 +23087,7 @@
   "997708616": {
     "Variable Label": "Why use THC concentrates via dabbing",
     "Variable Name": [
-      "SrvSAS_WhyTHC_v1r0"
+      "SrvSAS_WhyTHC_v2r0"
     ]
   },
   "997984387": {
