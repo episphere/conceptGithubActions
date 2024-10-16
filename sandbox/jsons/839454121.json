@@ -6,7 +6,7 @@
     "716117817.json"
   ],
   "conceptId": "839454121",
-  "Current Question Text": "How many days per week do you usually make the trip from your home to [insert address from CURWORK1 - CURWORK3/this address]?",
+  "Current Question Text": "How many days per week did you usually make the trip from your home to [insert address from CURWORK1 - CURWORK3/this address]?",
   "Variable Label": "Days commute, commute to current work",
   "Variable Name": [
     "SrvLAW_CurWorkT6_v1r0"
@@ -18,24 +18,25 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "3/10/22",
+  "Date added or modified": "3/10/2022; 10/8/2024",
+  "IMS Review Notes": "Updated question text to match the tense in the qx doc and mark up, but did not version.",
   "Formula for Index": [
-    "7042",
-    "7043",
-    "7044",
-    "7045",
-    "7046",
-    "7047",
-    "7048"
+    "7236",
+    "7237",
+    "7238",
+    "7239",
+    "7240",
+    "7241",
+    "7242"
   ],
   "Index": [
-    "7042",
-    "7043",
-    "7044",
-    "7045",
-    "7046",
-    "7047",
-    "7048"
+    "7236",
+    "7237",
+    "7238",
+    "7239",
+    "7240",
+    "7241",
+    "7242"
   ],
   "Current Format/Value": {
     "559049897.json": "0",

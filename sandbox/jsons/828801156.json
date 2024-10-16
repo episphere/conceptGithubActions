@@ -5,11 +5,13 @@
   "Secondary Source": [
     "716117817.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "828801156",
-  "Current Question Text": "In a usual week, how many different workplaces do you commute to? If you commute to multiple locations for the same employer, please count all locations separately",
+  "Current Question Text": "In a usual week [FILL IF SAMEJOBPREPAN=1 (before the COVID-19 Pandemic)], how many different workplaces do you commute to? If you commute to multiple locations for the same employer, please count all locations separately",
+  "V1 Question Text": "In a usual week, how many different workplaces do you commute to? If you commute to multiple locations for the same employer, please count all locations separately",
   "Variable Label": "Current job, commute at least once a week",
   "Variable Name": [
-    "SrvLAW_NumWork_v1r0"
+    "SrvLAW_NumWork_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "NUMWORK"
@@ -18,16 +20,17 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "3/10/22",
+  "Date added or modified": "3/10/2022; 10/8/2024",
+  "IMS Review Notes": "Revised question text to display fill text when applicable.",
   "Formula for Index": [
-    "6954",
-    "6955",
-    "6956"
+    "7146",
+    "7147",
+    "7148"
   ],
   "Index": [
-    "6954",
-    "6955",
-    "6956"
+    "7146",
+    "7147",
+    "7148"
   ],
   "Current Format/Value": {
     "759356722.json": "0",

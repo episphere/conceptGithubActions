@@ -5,11 +5,13 @@
   "Secondary Source": [
     "965707586.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "180308733",
-  "Current Question Text": "When was the last time you smoked marijuana?",
+  "Current Question Text": "When was the last time you smoked cannabis?",
+  "V1 Question Text": "When was the last time you smoked marijuana?",
   "Variable Label": "Last used marijuana",
   "Variable Name": [
-    "SrvSAS_LastUsedMJ_v1r0"
+    "SrvSAS_LastUsedMJ_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "SMMAR5"
@@ -18,16 +20,17 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "10/25/21",
+  "Date added or modified": "10/25/2021; 10/4/2024",
+  "IMS Review Notes": "Updated question text.",
   "Formula for Index": [
-    "5267",
     "5268",
-    "5269"
+    "5269",
+    "5270"
   ],
   "Index": [
-    "5267",
     "5268",
-    "5269"
+    "5269",
+    "5270"
   ],
   "Current Format/Value": {
     "317567178.json": "0",

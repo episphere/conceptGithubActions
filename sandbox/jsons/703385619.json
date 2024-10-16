@@ -2,16 +2,22 @@
   "Formula for Index": "290",
   "Index": "290",
   "Primary Source": [
-    "192505768.json"
+    "192505768.json",
+    "129084651.json",
+    "129084651.json"
   ],
   "Secondary Source": [
-    "569151507.json"
+    "569151507.json",
+    "716117817.json",
+    "716117817.json"
   ],
   "conceptId": "703385619",
   "Current Question Text": "City",
   "Variable Label": "City",
   "Variable Name": [
-    "RcrtUP_City_v1r0"
+    "RcrtUP_City_v1r0",
+    "SrvLAW_WkCtyPstPan1_v1r0",
+    "SrvLAW_WkCtyPstPan2_v1r0"
   ],
   "Variable Type": "Char",
   "Variable Length": "45",
@@ -24,5 +30,21 @@
   "Default Variable": "No",
   "Date added or modified": "9/7/23",
   "GCP Document/Table": "Participants Table Not nested (d_703385619) OR Nested structure: (d_569151507_d_703385619)",
-  "IMS Review Notes": "Updated Secondary Source to User Profile History"
+  "IMS Review Notes": "Updated Secondary Source to User Profile History",
+  "Current Source Question": [
+    "",
+    "596318751.json",
+    "596318751.json"
+  ],
+  "GridID/Source Question Name": [
+    "",
+    "CURWORKPOSTPAN1",
+    "CURWORKPOSTPAN2"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "",
+    "CURWORKPOSTPANCITY",
+    "CURWORKPOSTPANCITY_FOLLOWUP"
+  ]
 }

@@ -1,4 +1,6 @@
 {
+  "Formula for Index": "2029",
+  "Index": "2029",
   "Primary Source": [
     "218382402.json"
   ],
@@ -17,22 +19,12 @@
   ],
   "Variable Type": "ISO",
   "Variable Length": "24",
+  "Current Format/Value": "example: 2023-12-06T20:00:12.000Z",
   "Required": "Yes",
   "PII": "No",
   "Notes": "birthdayCard- This is an object that holds the birthday card data for API submission. It is not written to the database because each object goes into a separate document. This is the source question.",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "4/1/24",
-  "Formula for Index": [
-    "2028",
-    "2030"
-  ],
-  "Index": [
-    "2028",
-    "2030"
-  ],
-  "Current Format/Value": {
-    "353358909.json": "1"
-  }
+  "Date added or modified": "4/1/24"
 }

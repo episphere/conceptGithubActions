@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "9070",
-  "Index": "9070",
+  "Formula for Index": "9264",
+  "Index": "9264",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,9 +10,13 @@
   "Current Source Question": [
     "220055064.json"
   ],
-  "GridID/Source Question Name": [
-    "SrvCov_COV28_v1r0"
+  "V1 Source Question": [
+    "Which COVID-19 vaccine shot did you get?"
   ],
+  "GridID/Source Question Name": [
+    "SrvCov_COV28SRC_v2r0"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "395747093",
   "Current Question Text": "Which COVID-19 vaccine shot did you get? Please describe [text box]",
   "Variable Label": "Vaccine Brand - Descriptive",
@@ -26,7 +30,7 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "7/5/23",
+  "Date added or modified": "7/5/2023; 10/1/2024",
   "Question Type": "Optional Multiple Choice with Text Box, Loops",
-  "IMS Review Notes": "Reverted source question variable name back to _v1r0"
+  "IMS Review Notes": "Reverted source question variable name back to _v1r0. Versioned the source question to unharmonize."
 }

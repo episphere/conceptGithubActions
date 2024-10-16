@@ -8,11 +8,12 @@
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/18/23",
   "conceptId": "129677435",
-  "Current Question Text": "Age last used - During the time you last smoked marijuana, did you smoke every day?",
+  "Current Question Text": "Age last used - During the time you last smoked cannabis, did you smoke every day?",
+  "V2 Question Text": "Age last used - During the time you last smoked marijuana, did you smoke every day?",
   "V1 Question Text": "Age last used - During that time, did you smoke marijuana every day?",
   "Variable Label": "Use marijuana every day, age last used",
   "Variable Name": [
-    "SrvSAS_MJUseEDLastUsed_v2r0"
+    "SrvSAS_MJUseEDLastUsed_v3r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "SMMAR8C"
@@ -21,15 +22,16 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "2/2/23",
-  "IMS Review Notes": "Denoted date revised variable pushed to prod",
+  "Notes": "v2 revision pushed to production on 1/18/2023",
+  "Date added or modified": "2/2/2023; 10/4/2024",
+  "IMS Review Notes": "Denoted date revised variable pushed to prod. Updated question text.",
   "Formula for Index": [
-    "5276",
-    "5277"
+    "5277",
+    "5278"
   ],
   "Index": [
-    "5276",
-    "5277"
+    "5277",
+    "5278"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

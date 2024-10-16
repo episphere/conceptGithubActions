@@ -1,17 +1,19 @@
 {
-  "Formula for Index": "5500",
-  "Index": "5500",
+  "Formula for Index": "5501",
+  "Index": "5501",
   "Primary Source": [
     "129084651.json"
   ],
   "Secondary Source": [
     "965707586.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "786517174",
-  "Current Question Text": "Age last used- During that time, how many days (1 to 30) did you use consume marijuana in food or drinks in a usual month?",
+  "Current Question Text": "Age last used- During that time, how many days (1 to 30) did you use consume cannabis edibles, drinks, or capsules in a usual month?",
+  "V1 Question Text": "Age last used- During that time, how many days (1 to 30) did you use consume marijuana in food or drinks in a usual month?",
   "Variable Label": "How many days consumed marijuana in food or drinks, age last used",
   "Variable Name": [
-    "SrvSAS_DaysNumEdibles_v1r0"
+    "SrvSAS_DaysNumEdibles_v2r1"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "EAMAR8D"
@@ -22,6 +24,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=1 max=30",
-  "Date added or modified": "8/29/23",
-  "IMS Review Notes": "Added range check to Notes"
+  "Date added or modified": "8/29/2023; 10/4/2024",
+  "IMS Review Notes": "Added range check to Notes. Updated the question and response text"
 }

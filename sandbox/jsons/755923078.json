@@ -1,6 +1,6 @@
 {
   "conceptId": "755923078",
-  "Current Question Text": "Why [do/did] you smoke a combination of marijuana with tobacco?",
+  "Current Question Text": "Why [do/did] you smoke a combination of cannabis with tobacco?",
   "subcollections": [
     "755923078.json",
     "459020144.json"
@@ -14,12 +14,17 @@
   "Current Source Question": [
     "755923078.json"
   ],
+  "V1 Source Question": [
+    "Why [do/did] you smoke a combination of marijuana with tobacco?"
+  ],
   "GridID/Source Question Name": [
     "TOMAR10"
   ],
+  "Deprecated, New, or Revised": "Revised",
+  "V1 Question Text": "Why [do/did] you smoke a combination of marijuana with tobacco?",
   "Variable Label": "Why smoke marijuana",
   "Variable Name": [
-    "SrvSAS_WhySmokeTobMJ_v1r0"
+    "SrvSAS_WhySmokeTobMJ_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "TOMAR10"
@@ -28,20 +33,21 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "11/23/21",
+  "Date added or modified": "11/23/2021; 10/4/2024",
+  "IMS Review Notes": "Updated question text.",
   "Formula for Index": [
-    "5374",
     "5375",
     "5376",
     "5377",
-    "5378"
+    "5378",
+    "5379"
   ],
   "Index": [
-    "5374",
     "5375",
     "5376",
     "5377",
-    "5378"
+    "5378",
+    "5379"
   ],
   "Current Format/Value": {
     "437269318.json": "0",

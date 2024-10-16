@@ -8,11 +8,12 @@
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/18/23",
   "conceptId": "536166591",
-  "Current Question Text": "Age last used - During the time you last used THC concentrates via dabbing, did you use them every day?",
+  "Current Question Text": "Age last used - During the time you last dabbed THC concentrates, did you dab every day?",
+  "V2 Question Text": "Age last used - During the time you last used THC concentrates via dabbing, did you use them every day?",
   "V1 Question Text": "Age last used - During that time, did you use THC concentrates via dabbing every day?",
   "Variable Label": "Use THC concentrates via dabbing, age last used",
   "Variable Name": [
-    "SrvSAS_AgeLastTHCED_v2r0"
+    "SrvSAS_AgeLastTHCED_v3r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "THMAR8C"
@@ -21,15 +22,16 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "2/2/23",
-  "IMS Review Notes": "Denoted date revised variable pushed to prod",
+  "Notes": "v2 revision pushed to production on 1/18/2023.",
+  "Date added or modified": "2/2/2023; 10/4/2024",
+  "IMS Review Notes": "Denoted date revised variable pushed to prod. Updated question text.",
   "Formula for Index": [
-    "5542",
-    "5543"
+    "5543",
+    "5544"
   ],
   "Index": [
-    "5542",
-    "5543"
+    "5543",
+    "5544"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

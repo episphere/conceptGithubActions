@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "5557",
-  "Index": "5557",
+  "Formula for Index": "5558",
+  "Index": "5558",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,14 +10,19 @@
   "Current Source Question": [
     "265469878.json"
   ],
+  "V1 Source Question": [
+    "Why [do/did] you use use THC concentrates via dabbing?"
+  ],
   "GridID/Source Question Name": [
     "THMAR10"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "781650542",
-  "Current Question Text": "Why [do/did] you use use THC concentrates via dabbing? Other: Please describe text box",
+  "Current Question Text": "Why [do/did] you dab THC concentrates? Other: Please describe text box",
+  "V1 Question Text": "Why [do/did] you use use THC concentrates via dabbing? Other: Please describe text box",
   "Variable Label": "Why [do/did] you use use THC concentrates via dabbing - Descriptive",
   "Variable Name": [
-    "SrvSAS_WhyTHCOther_v1r0"
+    "SrvSAS_WhyTHCOther_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "THMAR10OTH"
@@ -26,5 +31,6 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "11/23/21"
+  "Date added or modified": "11/23/2021; 10/4/2024",
+  "IMS Review Notes": "Updated source question and question text."
 }

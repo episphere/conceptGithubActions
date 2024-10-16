@@ -1,12 +1,12 @@
 {
   "conceptId": "653198444",
-  "Current Question Text": "Age first consumed marijuana in food or drinks on a regular basis",
+  "Current Question Text": "Age first consumed cannabis edibles, drinks, or capsules on a regular basis",
   "subcollections": [
     "622843252.json",
     "653198444.json"
   ],
-  "Formula for Index": "5484",
-  "Index": "5484",
+  "Formula for Index": "5485",
+  "Index": "5485",
   "Primary Source": [
     "129084651.json"
   ],
@@ -16,12 +16,17 @@
   "Current Source Question": [
     "653198444.json"
   ],
+  "V1 Source Question": [
+    "Age first consumed marijuana in food or drinks on a regular basis"
+  ],
   "GridID/Source Question Name": [
     "EAMAR3"
   ],
+  "Deprecated, New, or Revised": "Revised",
+  "V1 Question Text": "Age first consumed marijuana in food or drinks on a regular basis",
   "Variable Label": "Age first consumed marijuana in food or drinks on a regular basis, Never consumed",
   "Variable Name": [
-    "SrvSAS_EdiblesNever_v1r0"
+    "SrvSAS_EdiblesNever_v2r1"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "EAMAR3"
@@ -31,5 +36,6 @@
   "Current Format/Value": {
     "648960871.json": "44"
   },
-  "Date added or modified": "11/23/21"
+  "Date added or modified": "11/23/2021; 10/4/2024; 10/16/24",
+  "IMS Review Notes": "Updated source question and question text.  Removed the word number in the question text which was added in error.  Updated the source question text to remain consistent."
 }

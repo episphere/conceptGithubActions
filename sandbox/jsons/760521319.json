@@ -8,14 +8,19 @@
   "Current Source Question": [
     "830608495.json"
   ],
+  "V1 Source Question": [
+    "Have you ever used any of these marijuana products, even once? Select all that apply."
+  ],
   "GridID/Source Question Name": [
     "MARIJUANA"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "760521319",
-  "Current Question Text": "Smoking marijuana (such as joints, pipes, bowls, or bongs)",
+  "Current Question Text": "Smoking cannabis (such as joints, pipes, bowls, or bongs)",
+  "V1 Question Text": "Smoking marijuana (such as joints, pipes, bowls, or bongs)",
   "Variable Label": "Smoking cannabis (such as joints, pipes, bowls, or bongs)",
   "Variable Name": [
-    "SrvSAS_SmokingCannabis_v1r0"
+    "SrvSAS_SmokingCannabis_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "0"
@@ -24,15 +29,15 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "4/25/24",
-  "IMS Review Notes": "Updated variable name from SrvSAS_Marijuana_v1r0 to SrvSAS_SmokingCannabis_v1r0. Updated Variable Label to reflect Question Text",
+  "Date added or modified": "4/25/2024; 10/4/2024",
+  "IMS Review Notes": "Updated variable name from SrvSAS_Marijuana_v1r0 to SrvSAS_SmokingCannabis_v1r0. Updated Variable Label to reflect Question Text. Updated marijuana to cannabis and question text phrasing.",
   "Formula for Index": [
-    "5244",
-    "5245"
+    "5245",
+    "5246"
   ],
   "Index": [
-    "5244",
-    "5245"
+    "5245",
+    "5246"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

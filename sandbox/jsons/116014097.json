@@ -1,17 +1,19 @@
 {
-  "Formula for Index": "5418",
-  "Index": "5418",
+  "Formula for Index": "5419",
+  "Index": "5419",
   "Primary Source": [
     "129084651.json"
   ],
   "Secondary Source": [
     "965707586.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "116014097",
-  "Current Question Text": "How old were you when you stopped using electronic marijuana delivery devices that be vaped every day?",
+  "Current Question Text": "How old were you when you stopped vaping cannabis every day?",
+  "V1 Question Text": "How old were you when you stopped using electronic marijuana delivery devices that be vaped every day?",
   "Variable Label": "Age stopped using electronic marijuana delivery devices every day",
   "Variable Name": [
-    "SrvSAS_AgeStopEMJDev_v1r0"
+    "SrvSAS_AgeStopEMJDev_v2r1"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "ELMAR9D"
@@ -22,6 +24,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=isDefined(isDefined(D_742716427,D_116510981),0) max=sum(isDefined(D_150344905,age),1)",
-  "Date added or modified": "8/29/23",
-  "IMS Review Notes": "Added range check to Notes"
+  "Date added or modified": "8/29/2023; 10/4/2024",
+  "IMS Review Notes": "Added range check to Notes. Updated question and response text."
 }

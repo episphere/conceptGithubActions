@@ -1,6 +1,6 @@
 {
   "conceptId": "377064836",
-  "Current Question Text": "Why [do/did] you smoke marijuana?",
+  "Current Question Text": "Why [do/did] you smoke cannabis?",
   "subcollections": [
     "377064836.json",
     "779642303.json"
@@ -14,12 +14,17 @@
   "Current Source Question": [
     "377064836.json"
   ],
+  "V2 Source Question": [
+    "Why [do/did] you smoke marijuana?"
+  ],
   "GridID/Source Question Name": [
     "SMMAR10"
   ],
+  "Deprecated, New, or Revised": "Revised",
+  "V1 Question Text": "Why [do/did] you smoke marijuana?",
   "Variable Label": "Why smoke marijuana",
   "Variable Name": [
-    "SrvSAS_WhySmokeMJ_v1r0"
+    "SrvSAS_WhySmokeMJ_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "SMMAR10"
@@ -28,20 +33,21 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "11/23/21",
+  "Date added or modified": "11/23/2021; 10/4/2024",
+  "IMS Review Notes": "Updated source question and question text.",
   "Formula for Index": [
-    "5292",
     "5293",
     "5294",
     "5295",
-    "5296"
+    "5296",
+    "5297"
   ],
   "Index": [
-    "5292",
     "5293",
     "5294",
     "5295",
-    "5296"
+    "5296",
+    "5297"
   ],
   "Current Format/Value": {
     "437269318.json": "0",

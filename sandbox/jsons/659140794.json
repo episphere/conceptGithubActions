@@ -1,17 +1,19 @@
 {
-  "Formula for Index": "5403",
-  "Index": "5403",
+  "Formula for Index": "5404",
+  "Index": "5404",
   "Primary Source": [
     "129084651.json"
   ],
   "Secondary Source": [
     "965707586.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "659140794",
-  "Current Question Text": "How many months ago did you last use electronic marijuana delivery devices that can be vaped?",
+  "Current Question Text": "How many months ago did you last vape cannabis?",
+  "V1 Question Text": "How many months ago did you last use electronic marijuana delivery devices that can be vaped?",
   "Variable Label": "Months ago last used electronic marijuana delivery devices",
   "Variable Name": [
-    "SrvSAS_UseEMJDevMo_v1r0"
+    "SrvSAS_UseEMJDevMo_v2r1"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "ELMAR7A"
@@ -22,6 +24,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=1 max=11",
-  "Date added or modified": "8/29/23",
-  "IMS Review Notes": "Added range check to Notes"
+  "Date added or modified": "8/29/2023; 10/4/2024",
+  "IMS Review Notes": "Added range check to Notes. Updated question and response text."
 }

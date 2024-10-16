@@ -1,12 +1,12 @@
 {
   "conceptId": "276575533",
-  "Current Question Text": "Number of servings consumed  marijuana in food or drinks, servings per day",
+  "Current Question Text": "Number of servings - don't know",
   "subcollections": [
     "810608313.json",
     "276575533.json"
   ],
-  "Formula for Index": "5502",
-  "Index": "5502",
+  "Formula for Index": "5503",
+  "Index": "5503",
   "Primary Source": [
     "129084651.json"
   ],
@@ -16,9 +16,13 @@
   "Current Source Question": [
     "276575533.json"
   ],
+  "V1 Source Question": [
+    "Number of servings consumed  marijuana in food or drinks, servings per day"
+  ],
   "GridID/Source Question Name": [
     "EAMAR9A"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "Variable Label": "Number of servings consumed  marijuana in food or drinks, servings per day don't know",
   "Variable Name": [
     "SrvSAS_EdiblesServingsDK_v1r0"
@@ -33,5 +37,6 @@
   },
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "11/23/21"
+  "Date added or modified": "11/23/2021; 10/4/2024",
+  "IMS Review Notes": "Updated source question. Updated question text to match qx doc, but did not version."
 }

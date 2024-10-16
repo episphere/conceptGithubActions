@@ -1,0 +1,48 @@
+{
+  "Current Source Question": [
+    "421586693.json"
+  ],
+  "GridID/Source Question Name": [
+    "CURWORKPOSTPANT1"
+  ],
+  "conceptId": "385609081",
+  "Current Question Text": "Taxicab (includes Uber, Lyft, or hired car) commute to work post pan",
+  "Variable Label": "Taxi Cur Work Post Pan",
+  "Variable Name": [
+    "SrvLAW_WkPstPanTaxi_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "10/8/24",
+  "IMS Review Notes": "Added new question",
+  "Primary Source": [
+    [
+      "129084651.json",
+      "129084651.json"
+    ]
+  ],
+  "Secondary Source": [
+    [
+      "716117817.json",
+      "716117817.json"
+    ]
+  ],
+  "Formula for Index": [
+    "6990",
+    "6991"
+  ],
+  "Index": [
+    "6990",
+    "6991"
+  ],
+  "Deprecated, New, or Revised": [
+    "New",
+    "New"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

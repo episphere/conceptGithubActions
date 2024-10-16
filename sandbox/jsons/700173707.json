@@ -1,17 +1,19 @@
 {
-  "Formula for Index": "5497",
-  "Index": "5497",
+  "Formula for Index": "5498",
+  "Index": "5498",
   "Primary Source": [
     "129084651.json"
   ],
   "Secondary Source": [
     "965707586.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "700173707",
   "Current Question Text": "How old were you when you last consumed marijuana in food or drinks?",
+  "V1 Question Text": "How old were you when you last consumed marijuana in food or drinks?",
   "Variable Label": "Age last consumed marijuana in food or drinks",
   "Variable Name": [
-    "SrvSAS_AgeEdiblesLast_v1r0"
+    "SrvSAS_AgeEdiblesLast_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "EAMAR8"
@@ -22,6 +24,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=isDefined(isDefined(D_622843252,D_908399883),0) max=sum(isDefined(D_150344905,age),1)",
-  "Date added or modified": "8/29/23",
-  "IMS Review Notes": "Added range check to Notes"
+  "Date added or modified": "8/29/2023; 10/4/2024",
+  "IMS Review Notes": "Added range check to Notes. Updated question text"
 }

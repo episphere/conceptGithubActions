@@ -11,11 +11,13 @@
   "GridID/Source Question Name": [
     "TOBACCO"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "198133418",
-  "Current Question Text": "Cigars, cigarillos, or little filtered cigars; some of the most popular brands include Macanudo, Romeo y Julieta, Black and Mild, Swisher Sweets, Prime Time, and Cheyenne. Please do not include blunts as we will be asking about marijuana use in a later section.",
-  "Variable Label": "Cigars, cigarillos, or little filtered cigars; some of the most popular brands include Macanudo, Romeo y Julieta, Black and Mild, Swisher Sweets, Prime Time, and Cheyenne. Please do not include blunts as we will be asking about marijuana use in a later section.",
+  "Current Question Text": "Cigars, cigarillos, or little filtered cigars; some of the most popular brands include Macanudo, Romeo y Julieta, Black and Mild, Swisher Sweets, Prime Time, and Cheyenne. Please do not include blunts as we will be asking about cannabis (marijuana) use in a later section.",
+  "V1 Question Text": "Cigars, cigarillos, or little filtered cigars; some of the most popular brands include Macanudo, Romeo y Julieta, Black and Mild, Swisher Sweets, Prime Time, and Cheyenne. Please do not include blunts as we will be asking about marijuana use in a later section.",
+  "Variable Label": "Cigars/Cigarillos/Little Filtered Cigars",
   "Variable Name": [
-    "SrvSAS_Cigar_v1r0"
+    "SrvSAS_Cigar_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "2"
@@ -24,14 +26,15 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "10/20/21",
+  "Date added or modified": "10/20/2021; 10/4/2024",
+  "IMS Review Notes": "Added cannabis to the question text.",
   "Formula for Index": [
-    "4739",
-    "4740"
+    "4740",
+    "4741"
   ],
   "Index": [
-    "4739",
-    "4740"
+    "4740",
+    "4741"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

@@ -5,11 +5,13 @@
   "Secondary Source": [
     "965707586.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "521073718",
-  "Current Question Text": "Do you use electronic marijuana delivery devices for vaping now?",
+  "Current Question Text": "Do you vape cannabis now?",
+  "V1 Question Text": "Do you use electronic marijuana delivery devices for vaping now?",
   "Variable Label": "Use electronic marijuana delivery devices now",
   "Variable Name": [
-    "SrvSAS_UseEMJDevNow_v1r0"
+    "SrvSAS_UseEMJDevNow_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "ELMAR4"
@@ -18,18 +20,19 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "11/24/21",
+  "Date added or modified": "11/24/2021; 10/4/2024",
+  "IMS Review Notes": "Updated question and response text.",
   "Formula for Index": [
-    "5395",
     "5396",
     "5397",
-    "5398"
+    "5398",
+    "5399"
   ],
   "Index": [
-    "5395",
     "5396",
     "5397",
-    "5398"
+    "5398",
+    "5399"
   ],
   "Current Format/Value": {
     "419415087.json": "0",

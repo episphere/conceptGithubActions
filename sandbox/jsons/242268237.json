@@ -1,0 +1,43 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "conceptId": "242268237",
+  "Current Question Text": "Does your usual one-way trip from [insert address from CURWORKPOSTPAN1 - CURWORKPOSTPAN3/this address] to your home involve travel on a highway, parkway, freeway, or toll road? An example is pictured.",
+  "Variable Label": "Highway Home Cur Work Post Pan",
+  "Variable Name": [
+    "SrvLAW_WkPstPanHwyHm_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CURWORKPOSTPANT11"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "10/8/24",
+  "IMS Review Notes": "Added new question",
+  "Formula for Index": [
+    "7122",
+    "7123",
+    "7124"
+  ],
+  "Index": [
+    "7122",
+    "7123",
+    "7124"
+  ],
+  "Deprecated, New, or Revised": [
+    "New",
+    "New",
+    "New"
+  ],
+  "Current Format/Value": {
+    "614087017.json": "0",
+    "746635399.json": "1",
+    "419415087.json": "2"
+  }
+}

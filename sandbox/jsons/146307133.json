@@ -12,7 +12,7 @@
     "GRID_CURWORKT10"
   ],
   "conceptId": "146307133",
-  "Current Question Text": "Bus or streetcar/trolley, light rail/trolley- Thinking about the one-way trip from [insert address from CURWORK1 - CURWORK3/this address] to your home on a usual workday, about how much time do you usually spend in each type of transportation?",
+  "Current Question Text": "Bus or streetcar/trolley, light rail/trolley- Thinking about the one-way trip from [insert address from CURWORK1 - CURWORK3/this address] to your home on a usual workday, about how much time did you usually spend in each type of transportation?",
   "Variable Label": "Time, Bus or streetcar/trolley, light rail/trolley commute from current work",
   "Variable Name": [
     "SrvLAW_CurWorkT10D_v1r0"
@@ -24,20 +24,21 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "2/28/22",
+  "Date added or modified": "2/28/2022; 10/8/2024",
+  "IMS Review Notes": "Updated source question to match the tense in the qx doc and mark up, but did not version.",
   "Formula for Index": [
-    "7085",
-    "7086",
-    "7087",
-    "7088",
-    "7089"
+    "7279",
+    "7280",
+    "7281",
+    "7282",
+    "7283"
   ],
   "Index": [
-    "7085",
-    "7086",
-    "7087",
-    "7088",
-    "7089"
+    "7279",
+    "7280",
+    "7281",
+    "7282",
+    "7283"
   ],
   "Current Format/Value": {
     "428999623.json": "0",

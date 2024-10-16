@@ -5,11 +5,13 @@
   "Secondary Source": [
     "716117817.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "839233937",
-  "Current Question Text": "Did the trip home usually take about the same amount of time as the trip to get to [insert address from PREWORK1 - PREWORK3/this address] from your home?",
+  "Current Question Text": "Did your trip home usually take about the same amount of time as the trip to get to [insert address from PREWORK1 - PREWORK3/this address] from your home?",
+  "V1 Question Text": "Did the trip home usually take about the same amount of time as the trip to get to [insert address from PREWORK1 - PREWORK3/this address] from your home?",
   "Variable Label": "Time to and from past work same",
   "Variable Name": [
-    "SrvLAW_PreWorkT5_v1r0"
+    "SrvLAW_PreWorkT5_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "PREWORKT5"
@@ -18,13 +20,15 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
+  "Date added or modified": "10/8/24",
+  "IMS Review Notes": "Updated question text.",
   "Formula for Index": [
-    "7217",
-    "7218"
+    "7411",
+    "7412"
   ],
   "Index": [
-    "7217",
-    "7218"
+    "7411",
+    "7412"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

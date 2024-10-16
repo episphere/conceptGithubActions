@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "8790",
-  "Index": "8790",
+  "Formula for Index": "8984",
+  "Index": "8984",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,15 +10,19 @@
   "Current Source Question": [
     "980800222.json"
   ],
+  "V2 Source Question": [
+    "When was the [first/2nd/3rd/etc.] time you had COVID-19? If you are not sure, please make your best guess.  If you are using a phone or tablet, please tap the gray box to enter your response."
+  ],
   "V1 Source Question": [
     "When was the [first/2nd/3rd/etc.] time you had COVID-19? If you are not sure, please make your best guess."
   ],
   "GridID/Source Question Name": [
-    "SrvCov_COV3_v3r0"
+    "SrvCov_COV3SRC_v3r0"
   ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "686508359",
   "Current Question Text": "When was the [first/2nd/3rd/etc.] time you had COVID-19? If you are not sure, please make your best guess.  If you are using a phone or tablet, please tap the gray box to enter your response.",
+  "V2 Question Text": "When was the [first/2nd/3rd/etc.] time you had COVID-19? If you are not sure, please make your best guess.  If you are using a phone or tablet, please tap the gray box to enter your response.  Also question text diverged from source question.",
   "V1 Question Text": "When was the [first/2nd/3rd/etc.] time you had COVID-19? If you are not sure, please make your best guess. MY",
   "Variable Label": "Infection Date",
   "Variable Name": [
@@ -32,7 +36,7 @@
   "Notes": "Range check min=valueOrDefault(\"\"D_686508359#prev\"\",\"\"2020-03\"\") max=#currentYear-#currentMonth",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "8/29/23",
+  "Date added or modified": "8/29/2023; 10/1/2024",
   "Question Type": "Special Function",
-  "IMS Review Notes": "Added range check to Notes"
+  "IMS Review Notes": "Added range check to Notes. Question text diverged from source question, changes made to be consistent with other questions."
 }

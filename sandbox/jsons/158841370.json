@@ -8,14 +8,19 @@
   "Current Source Question": [
     "830608495.json"
   ],
+  "V1 Source Question": [
+    "Have you ever used any of these marijuana products, even once? Select all that apply."
+  ],
   "GridID/Source Question Name": [
     "MARIJUANA"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "158841370",
-  "Current Question Text": "Smoking a combination of marijuana with tobacco (such as blunts, spliffs, or hollowed out cigars or cigarillos filled with marijuana)",
+  "Current Question Text": "Smoking a combination of cannabis with tobacco (such as blunts or spliffs)",
+  "V1 Question Text": "Smoking a combination of marijuana with tobacco (such as blunts, spliffs, or hollowed out cigars or cigarillos filled with marijuana)",
   "Variable Label": "Smoking a combination of cannabis with tobacco (such as blunts or spliffs)",
   "Variable Name": [
-    "SrvSAS_SmokingTobCan_v1r0"
+    "SrvSAS_SmokingTobCan_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "1"
@@ -24,15 +29,15 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "4/25/24",
-  "IMS Review Notes": "Updated variable name from SrvSAS_EDevices_v1r0 to SrvSAS_SmokingTobCan_v1r0. Updated Variable Label to reflect Question Text",
+  "Date added or modified": "4/25/2024; 10/4/2024",
+  "IMS Review Notes": "Updated variable name from SrvSAS_EDevices_v1r0 to SrvSAS_SmokingTobCan_v1r0. Updated Variable Label to reflect Question Text. Updated marijuana to cannabis and question text phrasing.",
   "Formula for Index": [
-    "5246",
-    "5247"
+    "5247",
+    "5248"
   ],
   "Index": [
-    "5246",
-    "5247"
+    "5247",
+    "5248"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
