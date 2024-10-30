@@ -12,6 +12,32 @@ function isGridIdSourceQuestionNamePrefixMatch (text) {
     return isMatch
 }
 
+/**
+ * isValidSrcHeader
+ * @params {string} sourceGridId - GridID/Source Question Name
+ * @params {boolean} isTB - isTextBox
+ * @params {object} currJSONFormatValue - Current Format/Value
+ * Checks for old src format from GridID/Source Question Name (Ex. SrvCov_COV3SRC_v3r0)
+ * Checks for new src format from GridID/Source Question Name (Ex. grid_COV3_SRC_v3r0)
+ * @returns {boolean}
+*/
+function isValidSourceGridFormat (sourceGridId, isTB, currJSONFormatValue) {
+    sourceGridId = sourceGridId.toUpperCase();
+
+    if (sourceGridId && sourceGridId.split('_').length === 3 
+        && sourceGridId.split('_')[1].slice(-3).toUpperCase() === "SRC"
+        && isTB === false && currJSONFormatValue 
+        && typeof currJSONFormatValue === 'object') {
+            return true;
+        } else if (
+            sourceGridId && sourceGridId.split('_').includes("SRC")
+            && isTB === false && currJSONFormatValue
+            && typeof currJSONFormatValue === 'object') {
+                return true;
+        } 
+    return false;
+}
+
 function parseMasterModule() {
     let masterJSON = {};
     let fileList = [];
@@ -34,6 +60,7 @@ function parseMasterModule() {
             varNameToConcept[currJSON['Current Question Text']] = currJSON['conceptId'];
         }
     }
+
 
     let toCheckIds = [];
     // add new secondary source concept Ids here 
@@ -364,11 +391,11 @@ function parseMasterModule() {
                                                     //console.log(currJSON)
                                                 }
                                                 // condition for SRC GRIDID/Source Question Name 
-                                                
-                                                if (headerName && headerName.split('_').length === 3 
-                                                    && headerName.split('_')[1].slice(-3).toUpperCase() === "SRC" 
-                                                    && isTB === false && currJSON['Current Format/Value'] 
-                                                    && typeof currJSON['Current Format/Value'] === 'object') {
+                                                const sourceGridId = headerName // GridID/Source Question Name
+                                                const currJSONFormatValue = currJSON['Current Format/Value']
+                                                const hasSourceGridFormat = isValidSourceGridFormat(sourceGridId, isTB, currJSONFormatValue)
+                                                console.log("🚀 ~ parseMasterModule ~ hasSourceGridFormat:", hasSourceGridFormat)
+                                                if (hasSourceGridFormat) {
                                                     // get all the current Format/Value numbers
                                                     const currJSONFormatValueArrayOfKeys = Object.keys(currJSON['Current Format/Value']) // ["104430631.json", "353358909.json"]
                                                     // get value of keys
@@ -741,17 +768,17 @@ function parseMasterModule() {
                                             questIds[currJSON['Variable Name'][sourceIndex].toUpperCase()]['isTextBox'] = isTB;
                                         }
 
-
+                                        // TODO: REFACTOR INTO A FUNCTION
                                         if (currJSON['Current Source Question'] && currJSON['Current Source Question'][sourceIndex]) { // Adds 'Current Source Question' value "conceptid#.json"
                                             toInsert['conceptId'] = currJSON['Current Source Question'][sourceIndex].substring(0, 9);
                                             if (!masterJSON[currJSON['Current Source Question'][sourceIndex]]) {
                                                 //console.log(currJSON)
                                             }
-                                            // TODO: Make conditional into a function
-                                            if (headerName && headerName.split('_').length === 3 
-                                                && headerName.split('_')[1].slice(-3).toUpperCase() === "SRC" 
-                                                && isTB === false && currJSON['Current Format/Value'] 
-                                                && typeof currJSON['Current Format/Value'] === 'object') {
+                                            // condition for SRC GRIDID/Source Question Name 
+                                            const sourceGridId = headerName // GridID/Source Question Name
+                                            const hasSourceGridFormat = isValidSourceGridFormat(sourceGridId)
+                                            console.log("🚀 ~ parseMasterModule ~ hasSourceGridFormat:", hasSourceGridFormat)
+                                            if (hasSourceGridFormat) {
                                                 // get all the current Format/Value numbers
                                                 const currJSONFormatValueArrayOfKeys = Object.keys(currJSON['Current Format/Value']) // ["104430631.json", "353358909.json"]
                                                 // get value of keys
