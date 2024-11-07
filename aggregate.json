@@ -260,7 +260,8 @@
   "107060069": {
     "Variable Label": "Prostate Removal Surg",
     "Variable Name": [
-      "SrvBOH_ProsRemSurg_v1r0"
+      "SrvBOH_ProsRemSurg_v1r0",
+      "SrvScr_ProsRemSurg_v1r0"
     ]
   },
   "107428524": {
@@ -281,7 +282,8 @@
   "108025529": {
     "Variable Label": "Fallopian Tubes",
     "Variable Name": [
-      "SrvBOH_FallTube_v1r0"
+      "SrvBOH_FallTube_v1r0",
+      "SrvScr_FallTube_v1r0"
     ]
   },
   "108082847": {
@@ -483,6 +485,9 @@
       "SrvMRE_LAspirinYr_v1r0"
     ]
   },
+  "113771607": {
+    "Variable Name": "I had surgery to remove one kidney"
+  },
   "113838601": {
     "Variable Name": "AstraZeneca"
   },
@@ -627,7 +632,8 @@
   "118789503": {
     "Variable Label": "Liposuction",
     "Variable Name": [
-      "SrvBOH_Liposuction_v1r0"
+      "SrvBOH_Liposuction_v1r0",
+      "SrvScr_Liposuction_v1r0"
     ]
   },
   "119257304": {
@@ -3115,6 +3121,13 @@
   "208952854": {
     "Variable Name": "Research Registry"
   },
+  "209101810": {
+    "Variable Label": "Splenectomy",
+    "Variable Name": [
+      "SrvBOH_Splenectomy_v1r0",
+      "SrvScr_Splenectomy_v1r0"
+    ]
+  },
   "209454331": {
     "Variable Name": "Baseline Push"
   },
@@ -3268,6 +3281,13 @@
   "215455305": {
     "Variable Name": "In total, how many months or years have you used combined oral contraceptive pills?"
   },
+  "215525943": {
+    "Variable Label": "Nephrectomy",
+    "Variable Name": [
+      "SrvBOH_Nephrectomy_v1r0",
+      "SrvScr_Nephrectomy_v1r0"
+    ]
+  },
   "215662651": {
     "Variable Label": "Full Denture",
     "Variable Name": [
@@ -3291,6 +3311,9 @@
   },
   "216450786": {
     "Variable Name": "Almost never"
+  },
+  "216506024": {
+    "Variable Name": "How old were you when you had one or both kidneys removed (nephrectomy)? If you had more than one procedure, at what age did you last have this procedure?"
   },
   "216840563": {
     "Variable Name": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had Thyroid cancer?"
@@ -3435,7 +3458,8 @@
   "220755749": {
     "Variable Label": "Hysterectomy",
     "Variable Name": [
-      "SrvBOH_Hysterectomy_v1r0"
+      "SrvBOH_Hysterectomy_v1r0",
+      "SrvScr_Hysterectomy_v1r0"
     ]
   },
   "221189280": {
@@ -3539,7 +3563,8 @@
   "224791140": {
     "Variable Label": "Fallopian Tube Surg",
     "Variable Name": [
-      "SrvBOH_FallTubeSurg_v1r0"
+      "SrvBOH_FallTubeSurg_v1r0",
+      "SrvScr_FallTubeSurg_v1r0"
     ]
   },
   "225047594": {
@@ -4213,7 +4238,8 @@
   "256196714": {
     "Variable Label": "One Breast Removed",
     "Variable Name": [
-      "SrvBOH_Mastectomy_v1r0"
+      "SrvBOH_Mastectomy_v1r0",
+      "SrvScr_Mastectomy_v1r0"
     ]
   },
   "256790385": {
@@ -5937,7 +5963,8 @@
   "325506683": {
     "Variable Label": "Breast Lift",
     "Variable Name": [
-      "SrvBOH_Mastopexy_v1r0"
+      "SrvBOH_Mastopexy_v1r0",
+      "SrvScr_Mastopexy_v1r0"
     ]
   },
   "325825550": {
@@ -6109,7 +6136,8 @@
   "335563082": {
     "Variable Label": "Breast Reconstruction",
     "Variable Name": [
-      "SrvBOH_BreastReconst_v1r0"
+      "SrvBOH_BreastReconst_v1r0",
+      "SrvScr_BreastReconst_v1r0"
     ]
   },
   "335767902": {
@@ -7059,7 +7087,8 @@
   "378892977": {
     "Variable Label": "Ovary Surg",
     "Variable Name": [
-      "SrvBOH_OvarySurg_v1r0"
+      "SrvBOH_OvarySurg_v1r0",
+      "SrvScr_OvarySurg_v1r0"
     ]
   },
   "378921620": {
@@ -7900,6 +7929,13 @@
   "413536735": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Lymphoma cancer?"
   },
+  "413734739": {
+    "Variable Label": "Thyroidectomy",
+    "Variable Name": [
+      "SrvBOH_Thyroidectomy_v1r0",
+      "SrvScr_Thyroidectomy_v1r0"
+    ]
+  },
   "414005872": {
     "Variable Label": "Ever Use Rx Pain Reliever - No Dr",
     "Variable Name": [
@@ -8406,7 +8442,8 @@
   "434651539": {
     "Variable Label": "Ovaries",
     "Variable Name": [
-      "SrvBOH_Ovaries_v1r0"
+      "SrvBOH_Ovaries_v1r0",
+      "SrvScr_Ovaries_v1r0"
     ]
   },
   "434993234": {
@@ -8494,6 +8531,12 @@
     "Variable Label": "State/Province",
     "Variable Name": [
       "SrvLAW_ChildState_v1r0"
+    ]
+  },
+  "439736294": {
+    "Variable Label": "Kidney Surg Type",
+    "Variable Name": [
+      "SrvBOH_KidneySurgType_v1r0"
     ]
   },
   "439857718": {
@@ -9189,7 +9232,8 @@
   "465318416": {
     "Variable Label": "Tubes Tied",
     "Variable Name": [
-      "SrvBOH_TubesTied_v1r0"
+      "SrvBOH_TubesTied_v1r0",
+      "SrvScr_TubesTied_v1r0"
     ]
   },
   "465635548": {
@@ -9841,7 +9885,8 @@
   "492902023": {
     "Variable Label": "Part Breast Removed",
     "Variable Name": [
-      "SrvBOH_BreastPartRem_v1r0"
+      "SrvBOH_BreastPartRem_v1r0",
+      "SrvScr_BreastPartRem_v1r0"
     ]
   },
   "492921091": {
@@ -10132,7 +10177,8 @@
   "505282171": {
     "Variable Label": "Cervix",
     "Variable Name": [
-      "SrvBOH_Cervix_v1r0"
+      "SrvBOH_Cervix_v1r0",
+      "SrvScr_Cervix_v1r0"
     ]
   },
   "505347689": {
@@ -10474,7 +10520,8 @@
   "520432394": {
     "Variable Label": "Surg For Breast Abscess",
     "Variable Name": [
-      "SrvBOH_BreastAbsc_v1r0"
+      "SrvBOH_BreastAbsc_v1r0",
+      "SrvScr_BreastAbsc_v1r0"
     ]
   },
   "520630754": {
@@ -10647,9 +10694,6 @@
     ]
   },
   "525535977": {
-    "Variable Name": "Asian- Which of these describes you best? Select all that apply."
-  },
-  "525535978": {
     "Variable Name": "Asian- Which of these describes you best? Select all that apply."
   },
   "525778327": {
@@ -10826,7 +10870,8 @@
   "532603425": {
     "Variable Label": "Removal One/Both Testicles",
     "Variable Name": [
-      "SrvBOH_Orchiectomy_v1r0"
+      "SrvBOH_Orchiectomy_v1r0",
+      "SrvScr_Orchiectomy_v1r0"
     ]
   },
   "532607252": {
@@ -10862,7 +10907,8 @@
   "533491176": {
     "Variable Label": "Breast Surg",
     "Variable Name": [
-      "SrvBOH_BreastSurgery_v1r0"
+      "SrvBOH_BreastSurgery_v1r0",
+      "SrvScr_BreastSurgery_v1r0"
     ]
   },
   "533527231": {
@@ -10940,6 +10986,8 @@
       "SrvSAS_NoCannabisPdt_v2r0",
       "SrvBio_NoSymptDay_v1r0",
       "SrvBio_NoSymptDay_v1r0",
+      "SrvScr_NoSurgery_v1r0",
+      "SrvScr_BreastSurgNone_v1r0",
       "SrvScr_NOSCREEN_v1r0",
       "SrvScr_NOSCREEN_v1r0",
       "SrvScr_NOSCREEN_v1r0",
@@ -11409,6 +11457,9 @@
     "Variable Name": [
       "SrvLAW_CurWorkT10B_v1r0"
     ]
+  },
+  "552788665": {
+    "Variable Name": "How old were you when you had your thyroid removed (thyroidectomy)?"
   },
   "553034408": {
     "Variable Label": "First full body MRI",
@@ -12016,7 +12067,8 @@
   "578416151": {
     "Variable Label": "Uterus",
     "Variable Name": [
-      "SrvBOH_Uterus_v1r0"
+      "SrvBOH_Uterus_v2r0",
+      "SrvScr_Uterus_v2r0"
     ]
   },
   "578520343": {
@@ -12138,7 +12190,8 @@
   "582784267": {
     "Variable Label": "Penis",
     "Variable Name": [
-      "SrvBOH_Penis_v1r0"
+      "SrvBOH_Penis_v2r0",
+      "SrvScr_Penis_v2r0"
     ]
   },
   "582985641": {
@@ -12382,6 +12435,12 @@
       "SrvBlU_COV20A12_v1r0",
       "SrvBlU_COV20A12_v1r0",
       "SrvCov_COV20A12_v1r0"
+    ]
+  },
+  "590891714": {
+    "Variable Label": "Screening Srv - Kidney Surg Type",
+    "Variable Name": [
+      "SrvScr_KidneySurgType_v1r0"
     ]
   },
   "591438156": {
@@ -13060,6 +13119,9 @@
       "SrvBOH_TonsilsAge_v1r1",
       "SrvBOH_CholecAge_v1r1",
       "SrvBOH_AppendecAge_v1r1",
+      "SrvBOH_SplenectomyAge_v1r0",
+      "SrvBOH_ThyroidectomyAge_v1r0",
+      "SrvBOH_NephrectomyAge_v1r0",
       "SrvBOH_LiposuctAge_v1r1",
       "SrvBOH_BarSurgAge_v1r1",
       "SrvBOH_BreastImplAge_v1r1",
@@ -13079,7 +13141,33 @@
       "SrvBOH_VasectomyAge_v1r1",
       "SrvBOH_TestRemSurgAge_v1r1",
       "SrvBOH_ProsRemSurgAge_v1r1",
-      "SrvBOH_PenRemAge_v1r1"
+      "SrvBOH_PenRemAge_v1r1",
+      "SrvScr_TonsilsAge_v1r1",
+      "SrvScr_CholecAge_v1r1",
+      "SrvScr_AppendecAge_v1r1",
+      "SrvScr_SplenectomyAge_v1r0",
+      "SrvScr_ThyroidectomyAge_v1r0",
+      "SrvScr_NephrectomyAge_v1r0",
+      "SrvScr_LiposuctAge_v1r1",
+      "SrvScr_BarSurgAge_v1r1",
+      "SrvScr_BreastImplAge_v1r1",
+      "SrvScr_BreastLiftAge_v1r1",
+      "SrvScr_BreastReconAge_v1r1",
+      "SrvScr_BreastRedAge_v1r1",
+      "SrvScr_BreastPtRemAge_v1r1",
+      "SrvScr_BreastRemAge_v1r1",
+      "SrvScr_BreastDblRemAge_v1r1",
+      "SrvScr_BreastAbscAge_v1r1",
+      "SrvScr_BreastLacRemAge_v1r1",
+      "SrvScr_BreastOthAge_v1r1",
+      "SrvScr_HysterAge_v1r1",
+      "SrvScr_TubLigAge_v1r1",
+      "SrvScr_OophorecAge_v1r1",
+      "SrvScr_SalpingecAge_v1r1",
+      "SrvScr_VasectomyAge_v1r1",
+      "SrvScr_TestRemSurgAge_v1r1",
+      "SrvScr_ProsRemSurgAge_v1r1",
+      "SrvScr_PenRemAge_v1r1"
     ]
   },
   "623310018": {
@@ -13241,7 +13329,8 @@
   "630100221": {
     "Variable Label": "Removal One/Both Ovaries",
     "Variable Name": [
-      "SrvBOH_Oophroectomy_v1r0"
+      "SrvBOH_Oophroectomy_v1r0",
+      "SrvScr_Oophroectomy_v1r0"
     ]
   },
   "630231395": {
@@ -13312,7 +13401,8 @@
   "633546100": {
     "Variable Label": "Gallbladder Removed",
     "Variable Name": [
-      "SrvBOH_Cholecystectomy_v1r0"
+      "SrvBOH_Cholecystectomy_v1r0",
+      "SrvScr_Cholecystectomy_v1r0"
     ]
   },
   "633553324": {
@@ -13970,7 +14060,8 @@
   "654450030": {
     "Variable Label": "Vasectomy",
     "Variable Name": [
-      "SrvBOH_Vasectomy_v1r0"
+      "SrvBOH_Vasectomy_v1r0",
+      "SrvScr_Vasectomy_v1r0"
     ]
   },
   "654558118": {
@@ -14325,7 +14416,8 @@
   "667901971": {
     "Variable Label": "Removal Of Milk Duct",
     "Variable Name": [
-      "SrvBOH_Microdochectomy_v1r0"
+      "SrvBOH_Microdochectomy_v1r0",
+      "SrvScr_Microdochectomy_v1r0"
     ]
   },
   "667960135": {
@@ -14333,6 +14425,9 @@
     "Variable Name": [
       "HdRef_3moQOLsurvDt_v1r0"
     ]
+  },
+  "668256654": {
+    "Variable Name": "I had surgery to remove both kidneys"
   },
   "668407984": {
     "Variable Name": "Two"
@@ -15033,7 +15128,8 @@
   "692881833": {
     "Variable Label": "Removal One/Both Fallopian Tubes",
     "Variable Name": [
-      "SrvBOH_Salpingectomy_v1r0"
+      "SrvBOH_Salpingectomy_v1r0",
+      "SrvScr_Salpingectomy_v1r0"
     ]
   },
   "692910565": {
@@ -15231,7 +15327,8 @@
   "700100953": {
     "Variable Label": "Prostate",
     "Variable Name": [
-      "SrvBOH_Prostate_v1r0"
+      "SrvBOH_Prostate_v1r0",
+      "SrvScr_Prostate_v1r0"
     ]
   },
   "700173707": {
@@ -15608,7 +15705,8 @@
   "715563991": {
     "Variable Label": "Bariatric Surg",
     "Variable Name": [
-      "SrvBOH_BariatricSurg_v1r0"
+      "SrvBOH_BariatricSurg_v1r0",
+      "SrvScr_BariatricSurg_v1r0"
     ]
   },
   "715581797": {
@@ -15690,9 +15788,9 @@
     ]
   },
   "719427591": {
-    "Variable Label": "Phleb Initials",
+    "Variable Label": "Phleb and Team Member Initials",
     "Variable Name": [
-      "BioCol_PhlebInitials_v1r0"
+      "BioCol_PhlebTMInitials_v1r0"
     ]
   },
   "719451909": {
@@ -16054,7 +16152,8 @@
   "733236542": {
     "Variable Label": "Prostate Removed",
     "Variable Name": [
-      "SrvBOH_Prostatectomy_v1r0"
+      "SrvBOH_Prostatectomy_v1r0",
+      "SrvScr_Prostatectomy_v1r0"
     ]
   },
   "733294715": {
@@ -16527,7 +16626,7 @@
     ]
   },
   "750420077": {
-    "Variable Name": "Please select the body parts that you were born with."
+    "Variable Name": "Please select the body parts that you were born with. Select all that apply."
   },
   "750994269": {
     "Variable Name": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had Pancreatic cancer?"
@@ -16544,7 +16643,8 @@
   "751402477": {
     "Variable Label": "Testes",
     "Variable Name": [
-      "SrvBOH_Testes_v1r0"
+      "SrvBOH_Testes_v2r0",
+      "SrvScr_Testes_v2r0"
     ]
   },
   "751475124": {
@@ -16584,7 +16684,8 @@
   "752953170": {
     "Variable Label": "Breast Implants",
     "Variable Name": [
-      "SrvBOH_BreastImplant_v1r0"
+      "SrvBOH_BreastImplant_v1r0",
+      "SrvScr_BreastImplant_v1r0"
     ]
   },
   "753416375": {
@@ -17809,7 +17910,8 @@
   "797189152": {
     "Variable Label": "Tonsillectomy",
     "Variable Name": [
-      "SrvBOH_Tonsillectomy_v1r0"
+      "SrvBOH_Tonsillectomy_v1r0",
+      "SrvScr_Tonsillectomy_v1r0"
     ]
   },
   "797221287": {
@@ -17983,6 +18085,9 @@
       "SrvBOH_TonsilsYear_v1r0",
       "SrvBOH_CholecYear_v1r0",
       "SrvBOH_AppendecYear_v1r0",
+      "SrvBOH_SplenectomyYr_v1r0",
+      "SrvBOH_ThyroidectomyYr_v1r0",
+      "SrvBOH_NephrectomyYr_v1r0",
       "SrvBOH_LiposuctYear_v1r0",
       "SrvBOH_BarSurgYear_v1r0",
       "SrvBOH_BreastImplYr_v1r0",
@@ -18002,13 +18107,40 @@
       "SrvBOH_VasectomyYr_v1r0",
       "SrvBOH_TestRemSurgYr_v1r0",
       "SrvBOH_ProsRemSurgYr_v1r0",
-      "SrvBOH_PenRemYear_v1r0"
+      "SrvBOH_PenRemYear_v1r0",
+      "SrvScr_TonsilsYear_v1r0",
+      "SrvScr_CholecYear_v1r0",
+      "SrvScr_AppendecYear_v1r0",
+      "SrvScr_SplenectomyYr_v1r0",
+      "SrvScr_ThyroidectomyYr_v1r0",
+      "SrvScr_NephrectomyYr_v1r0",
+      "SrvScr_LiposuctYear_v1r0",
+      "SrvScr_BarSurgYear_v1r0",
+      "SrvScr_BreastImplYr_v1r0",
+      "SrvScr_BreastLiftYr_v1r0",
+      "SrvScr_BreastReconYr_v1r0",
+      "SrvScr_BreastRedYr_v1r0",
+      "SrvScr_BreastPtRemYr_v1r0",
+      "SrvScr_BreastRemYr_v1r0",
+      "SrvScr_BreastDblRemYr_v1r0",
+      "SrvScr_BreastAbscYr_v1r0",
+      "SrvScr_BreastLacRemYr_v1r0",
+      "SrvScr_BreastOthYr_v1r0",
+      "SrvScr_HystYear_v1r0",
+      "SrvScr_TubLigYear_v1r0",
+      "SrvScr_OophorecYr_v1r0",
+      "SrvScr_SalpingecYr_v1r0",
+      "SrvScr_VasectomyYr_v1r0",
+      "SrvScr_TestRemSurgYr_v1r0",
+      "SrvScr_ProsRemSurgYr_v1r0",
+      "SrvScr_PenRemYear_v1r0"
     ]
   },
   "802859122": {
     "Variable Label": "Both Breasts Removed",
     "Variable Name": [
-      "SrvBOH_DoubleMast_v1r0"
+      "SrvBOH_DoubleMast_v1r0",
+      "SrvScr_DoubleMast_v1r0"
     ]
   },
   "803129396": {
@@ -18180,7 +18312,8 @@
       "SrvPES_PHONE2C_v1r0",
       "SrvPES_TABLET2G_v1r0",
       "SrvPES_COMP2D_v1r0",
-      "SrvCov_COV8S_v1r0"
+      "SrvCov_COV8S_v1r0",
+      "SrvScr_BreastOther_v1r0"
     ]
   },
   "807884576": {
@@ -19161,7 +19294,8 @@
   "846483618": {
     "Variable Label": "Vagina",
     "Variable Name": [
-      "SrvBOH_Vagina_v1r0"
+      "SrvBOH_Vagina_v2r0",
+      "SrvScr_Vagina_v2r0"
     ]
   },
   "846786840": {
@@ -19733,7 +19867,8 @@
   "866002271": {
     "Variable Label": "Appendectomy",
     "Variable Name": [
-      "SrvBOH_Appendectomy_v1r0"
+      "SrvBOH_Appendectomy_v1r0",
+      "SrvScr_Appendectomy_v1r0"
     ]
   },
   "866029623": {
@@ -21208,6 +21343,9 @@
   "927477599": {
     "Variable Name": "Very Good"
   },
+  "927516732": {
+    "Variable Name": "How old were you when you had your spleen removed (splenectomy)?"
+  },
   "927863729": {
     "Variable Label": "Farming/Fishing/Forestry",
     "Variable Name": [
@@ -21621,7 +21759,8 @@
   "942347130": {
     "Variable Label": "Oth - Free Text",
     "Variable Name": [
-      "SrvBOH_BreastOtherDes_v1r0"
+      "SrvBOH_BreastOtherDes_v1r0",
+      "SrvScr_BreastOtherDes_v1r0"
     ]
   },
   "942545134": {
@@ -21759,7 +21898,8 @@
   "946504570": {
     "Variable Label": "Testicle Removal Surg",
     "Variable Name": [
-      "SrvBOH_TestRemSurg_v1r0"
+      "SrvBOH_TestRemSurg_v1r0",
+      "SrvScr_TestRemSurg_v1r0"
     ]
   },
   "946710366": {
@@ -21995,7 +22135,8 @@
   "955881350": {
     "Variable Label": "Breast Reduction",
     "Variable Name": [
-      "SrvBOH_BreastRed_v1r0"
+      "SrvBOH_BreastRed_v1r0",
+      "SrvScr_BreastRed_v1r0"
     ]
   },
   "956345366": {
@@ -22207,7 +22348,8 @@
   "961987554": {
     "Variable Label": "Penis Removed",
     "Variable Name": [
-      "SrvBOH_PenisRemoved_v1r0"
+      "SrvBOH_PenisRemoved_v1r0",
+      "SrvScr_PenisRemoved_v1r0"
     ]
   },
   "962475128": {
