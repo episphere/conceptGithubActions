@@ -1,23 +1,29 @@
 {
   "Primary Source": [
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "726699695.json"
+    "726699695.json",
+    "369168474.json"
   ],
   "Current Source Question": [
+    "624179836.json",
     "624179836.json"
   ],
   "GridID/Source Question Name": [
-    "MHGROUP9"
+    "MHGROUP9",
+    "SrvScr_MHGROUP9_v1r1"
   ],
   "conceptId": "633546100",
   "Current Question Text": "Gallbladder removed (cholecystectomy)",
   "Variable Label": "Gallbladder Removed",
   "Variable Name": [
-    "SrvBOH_Cholecystectomy_v1r0"
+    "SrvBOH_Cholecystectomy_v1r0",
+    "SrvScr_Cholecystectomy_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
+    "1",
     "1"
   ],
   "Variable Type": "Num",
@@ -36,5 +42,7 @@
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  }
+  },
+  "Notes": "Keeping the versioning of the source question from BOH survey to harmonize variables.",
+  "Date added or modified": "11/7/24"
 }

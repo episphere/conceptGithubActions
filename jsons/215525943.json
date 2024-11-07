@@ -1,0 +1,52 @@
+{
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json",
+    "369168474.json"
+  ],
+  "Current Source Question": [
+    "624179836.json",
+    "624179836.json"
+  ],
+  "GridID/Source Question Name": [
+    "MHGROUP9",
+    "SrvScr_MHGROUP9_v1r1"
+  ],
+  "conceptId": "215525943",
+  "Current Question Text": "Removal of one or both kidneys (nephrectomy)",
+  "Variable Label": "Nephrectomy",
+  "Variable Name": [
+    "SrvBOH_Nephrectomy_v1r0",
+    "SrvScr_Nephrectomy_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "16",
+    "16"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "11/7/24",
+  "IMS Review Notes": "Added in additional surgery option to match Cancer Screening History Survey.",
+  "Formula for Index": [
+    "2574",
+    "2575"
+  ],
+  "Index": [
+    "2574",
+    "2575"
+  ],
+  "Deprecated, New, or Revised": [
+    "New",
+    "New"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  },
+  "Notes": "Keeping the versioning of the source question from BOH survey to harmonize variables."
+}

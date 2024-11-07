@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "5498",
-  "Index": "5498",
+  "Formula for Index": "5513",
+  "Index": "5513",
   "Primary Source": [
     "129084651.json"
   ],
@@ -9,7 +9,7 @@
   ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "700173707",
-  "Current Question Text": "How old were you when you last consumed marijuana in food or drinks?",
+  "Current Question Text": "How old were you when you last consumed cannabis edibles, drinks, or capsules?",
   "V1 Question Text": "How old were you when you last consumed marijuana in food or drinks?",
   "Variable Label": "Age last consumed marijuana in food or drinks",
   "Variable Name": [
@@ -24,6 +24,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=isDefined(isDefined(D_622843252,D_908399883),0) max=sum(isDefined(D_150344905,age),1)",
-  "Date added or modified": "8/29/2023; 10/4/2024",
+  "Date added or modified": "8/29/2023; 11/5/2024",
   "IMS Review Notes": "Added range check to Notes. Updated question text"
 }

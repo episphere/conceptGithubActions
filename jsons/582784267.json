@@ -1,32 +1,45 @@
 {
   "Primary Source": [
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "726699695.json"
+    "726699695.json",
+    "369168474.json"
   ],
   "Current Source Question": [
+    "750420077.json",
     "750420077.json"
   ],
-  "GridID/Source Question Name": [
-    "SEX2"
+  "V1 Source Question": [
+    "Please select the body parts that you were born with.",
+    "Please select the body parts you were born with."
   ],
+  "GridID/Source Question Name": [
+    "SEX2",
+    "SrvScr_SEX2_v2r1"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "582784267",
-  "Current Question Text": "Penis",
+  "Current Question Text": "Penis (Phallus)",
+  "V1 Question Text": "Penis",
   "Variable Label": "Penis",
   "Variable Name": [
-    "SrvBOH_Penis_v1r0"
+    "SrvBOH_Penis_v2r0",
+    "SrvScr_Penis_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "0"
+    "0",
+    ""
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if SEX=Intersex or other",
-  "Date added or modified": "9/17/21",
+  "Notes": "Only display if SEX=Intersex or other.",
+  "Date added or modified": "9/17/2021; 11/7/2024",
   "Question Type": "Required Select All that Apply",
+  "IMS Review Notes": "Updating question text and versioning to harmonize with Cancer Screening History Survey.",
   "Formula for Index": [
     "2280",
     "2281"

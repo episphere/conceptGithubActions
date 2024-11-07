@@ -10,20 +10,19 @@
   "Deprecated, New, or Revised": "New",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "12/23/22",
   "conceptId": "719427591",
-  "Current Question Text": "Collection Phlebotomist Initials",
-  "Variable Label": "Phleb Initials",
+  "Current Question Text": "Initials of Research Collection Phlebotomist/Team Member Completing Clincial Collection Data Entry",
+  "Variable Label": "Phleb and Team Member Initials",
   "Variable Name": [
-    "BioCol_PhlebInitials_v1r0"
+    "BioCol_PhlebTMInitials_v1r0"
   ],
   "Variable Type": "Char",
   "Variable Length": "800",
   "Current Format/Value": "N/A",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "A free-text box section will be added to the Collection Data Entry page, under the participant information and above the collection data on the research biospecimen dashboard. This free-text box needs to be a required field to continue to the review page.",
+  "Notes": "For Research Collections, initials of the individual who completed blood collection are entered. For Clincal Collections, initials of the team member completing the collection entry into the Biospecimen Dashboard are entered. This free-text box is a required field to continue to the review page for both Research and Clinical collections",
   "Dictionary": "Biospecimen Research",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "12/23/22",
-  "GCP Document/Table": "Not yet in Flattened Tables"
+  "Date added or modified": "10/30/24"
 }
