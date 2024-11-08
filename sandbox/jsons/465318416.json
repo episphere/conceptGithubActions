@@ -1,23 +1,29 @@
 {
   "Primary Source": [
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "726699695.json"
+    "726699695.json",
+    "369168474.json"
   ],
   "Current Source Question": [
+    "624179836.json",
     "624179836.json"
   ],
   "GridID/Source Question Name": [
-    "MHGROUP9"
+    "MHGROUP9",
+    "SrvScr_MHGROUP9_v1r1"
   ],
   "conceptId": "465318416",
   "Current Question Text": "Tubes tied (tubal ligation)",
   "Variable Label": "Tubes Tied",
   "Variable Name": [
-    "SrvBOH_TubesTied_v1r0"
+    "SrvBOH_TubesTied_v1r0",
+    "SrvScr_TubesTied_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
+    "7",
     "7"
   ],
   "Variable Type": "Num",
@@ -26,15 +32,17 @@
   "PII": "No",
   "Question Type": "Optional Select All that Apply, Displayif in One or More Responses",
   "Formula for Index": [
-    "2578",
-    "2579"
+    "2584",
+    "2585"
   ],
   "Index": [
-    "2578",
-    "2579"
+    "2584",
+    "2585"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  }
+  },
+  "Notes": "Keeping the versioning of the source question from BOH survey to harmonize variables.",
+  "Date added or modified": "11/7/24"
 }
