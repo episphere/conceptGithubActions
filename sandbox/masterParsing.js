@@ -21,18 +21,16 @@ function isGridIdSourceQuestionNamePrefixMatch (text) {
  * Checks for new src format from GridID/Source Question Name (Ex. grid_COV3_SRC_v3r0)
  * @returns {boolean}
 */
-function isValidSourceGridFormat (sourceGridId, isTB, currJSONFormatValue) {
+function isValidSourceGridFormat (sourceGridId, isTB = false, currJSONFormatValue) {
     sourceGridId = sourceGridId.toUpperCase();
 
     if (sourceGridId && sourceGridId.split('_').length === 3 
         && sourceGridId.split('_')[1].slice(-3).toUpperCase() === "SRC"
-        && isTB === false && currJSONFormatValue 
-        && typeof currJSONFormatValue === 'object') {
+        && isTB === false) {
             return true;
         } else if (
             sourceGridId && sourceGridId.split('_').includes("SRC")
-            && isTB === false && currJSONFormatValue
-            && typeof currJSONFormatValue === 'object') {
+            && isTB === false) {
                 return true;
         } 
     return false;
@@ -394,13 +392,14 @@ function parseMasterModule() {
                                                 const sourceGridId = headerName // GridID/Source Question Name
                                                 const currJSONFormatValue = currJSON['Current Format/Value']
                                                 const hasSourceGridFormat = isValidSourceGridFormat(sourceGridId, isTB, currJSONFormatValue)
-                                                console.log("🚀 ~ parseMasterModule ~ hasSourceGridFormat:", hasSourceGridFormat)
-                                                if (hasSourceGridFormat) {
+                                                // console.log("🚀 ~ parseMasterModule ~ hasSourceGridFormat:", hasSourceGridFormat)
+                                                if (hasSourceGridFormat && typeof currJSON['Current Format/Value'] === 'object') {
                                                     // get all the current Format/Value numbers
-                                                    const currJSONFormatValueArrayOfKeys = Object.keys(currJSON['Current Format/Value']) // ["104430631.json", "353358909.json"]
+
                                                     // get value of keys
                                                     // loop through keys
                                                     
+                                                    const currJSONFormatValueArrayOfKeys = Object.keys(currJSON['Current Format/Value']) // ["104430631.json", "353358909.json"]
                                                     for (const currJSONKey of currJSONFormatValueArrayOfKeys) { 
                                                         questIds[currJSON['Current Format/Value'][currJSONKey]] = { // grabs the value of the key
                                                             "conceptId": currJSONKey.substring(0, 9), // grabs the key and slices it to 9 remove .json
@@ -777,13 +776,14 @@ function parseMasterModule() {
                                             // condition for SRC GRIDID/Source Question Name 
                                             const sourceGridId = headerName // GridID/Source Question Name
                                             const hasSourceGridFormat = isValidSourceGridFormat(sourceGridId)
-                                            console.log("🚀 ~ parseMasterModule ~ hasSourceGridFormat:", hasSourceGridFormat)
-                                            if (hasSourceGridFormat) {
+                                            // console.log("🚀 ~ parseMasterModule ~ hasSourceGridFormat:", hasSourceGridFormat)
+                                            if (hasSourceGridFormat && typeof currJSON['Current Format/Value'] === 'object') {
                                                 // get all the current Format/Value numbers
-                                                const currJSONFormatValueArrayOfKeys = Object.keys(currJSON['Current Format/Value']) // ["104430631.json", "353358909.json"]
+                                                
                                                 // get value of keys
                                                 // loop through keys
                                                 
+                                                const currJSONFormatValueArrayOfKeys = Object.keys(currJSON['Current Format/Value']) // ["104430631.json", "353358909.json"]
                                                 for (const currJSONKey of currJSONFormatValueArrayOfKeys) { 
                                                     questIds[currJSON['Current Format/Value'][currJSONKey]] = { // grabs the value of the key
                                                         "conceptId": currJSONKey.substring(0, 9), // grabs the key and slices it to 9 remove .json
