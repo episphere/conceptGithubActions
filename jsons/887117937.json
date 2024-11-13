@@ -11,7 +11,7 @@
     "394328384.json"
   ],
   "GridID/Source Question Name": [
-    "SrvPES_COMM3SRC_v1r0"
+    "SrvPES_COMM3_SRC_v1r0"
   ],
   "conceptId": "887117937",
   "Current Question Text": "Is there anything missing from our study communications that we should add? Please share here. [text box]",
@@ -28,7 +28,7 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "2024 Connect Experience Survey",
-  "Date added or modified": "1/5/2023, 9/20/2024",
+  "Date added or modified": "1/5/2023, 9/20/2024; 11/12/2024",
   "Question Type": "Text Box Plus Check Box",
-  "IMS Review Notes": "Changed Connect value to full variable name.  Added SOURCE to unharmonized source Q from question text. Added SRC to GridID/Source Question Name"
+  "IMS Review Notes": "Changed Connect value to full variable name.  Added SOURCE to unharmonized source Q from question text. Added SRC to GridID/Source Question Name. Added underscore before SRC in the source question name"
 }

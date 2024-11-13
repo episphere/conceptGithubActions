@@ -10,9 +10,13 @@
   "Current Source Question": [
     "289664241.json"
   ],
-  "GridID/Source Question Name": [
-    "GEN"
+  "V1 Source Question": [
+    "Gender - Do you think of yourself as:"
   ],
+  "GridID/Source Question Name": [
+    "GEN_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "918409306",
   "Current Question Text": "Gender - Do you think of yourself as: [text box]",
   "Variable Label": "Gender - Free Text",
@@ -28,6 +32,7 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Option only available if 55 is selected in GEN",
-  "Date added or modified": "9/14/21",
-  "Question Type": "Optional Multiple Choice with Text Box (text in text box)"
+  "Date added or modified": "9/14/2021; 11/12/2024",
+  "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
+  "IMS Review Notes": "Unharmonized source question and question text."
 }

@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2981",
-  "Index": "2981",
+  "Formula for Index": "2980",
+  "Index": "2980",
   "Primary Source": [
     "129084651.json"
   ],
@@ -17,22 +17,24 @@
     "DADDEATH_SRC"
   ],
   "Deprecated, New, or Revised": "Revised",
-  "conceptId": "517670352",
-  "Current Question Text": "At what age did your father die?, Number",
-  "Variable Label": "Dad Age at Death, Num",
+  "conceptId": "703689804",
+  "Current Question Text": "At what age did your father die?",
+  "V1 Question Text": "Question text diverged from source question",
+  "Variable Label": "Dad Age at Death",
   "Variable Name": [
-    "SrvBOH_DadAgeDeathNum_v1r0"
+    "SrvBOH_DadAgeDeath_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "DADDEATH_num"
+    "DADDEATH"
   ],
   "Variable Type": "Num",
-  "Variable Length": "3",
-  "Current Format/Value": "N/A",
+  "Variable Length": "2",
+  "Current Format/Value": {
+    "178420302.json": "77"
+  },
   "Required": "No",
   "PII": "No",
-  "Notes": "Range check min=5 max=125",
-  "Date added or modified": "8/28/2023; 11/12/2024",
+  "Date added or modified": "8/23/2021; 11/12/2024",
   "Question Type": "Text Box Plus Check Box",
-  "IMS Review Notes": "Added range check to Notes. Unharmonized source question from question text."
+  "IMS Review Notes": "Unharmonized source question from question text and versioned up variable name."
 }

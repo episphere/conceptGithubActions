@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2875",
-  "Index": "2875",
+  "Formula for Index": "2978",
+  "Index": "2978",
   "Primary Source": [
     "129084651.json"
   ],
@@ -8,31 +8,34 @@
     "726699695.json"
   ],
   "Current Source Question": [
-    "354326265.json"
+    "178774803.json"
   ],
   "V1 Source Question": [
-    "How old is your mother today?"
+    "How old is your father today?"
   ],
   "GridID/Source Question Name": [
-    "MOMAGE_SRC"
+    "DADAGE_SRC"
   ],
   "Deprecated, New, or Revised": "Revised",
-  "conceptId": "378988419",
-  "Current Question Text": "How old is your mother today?, Number",
-  "Variable Label": "Mom Age, Num",
+  "conceptId": "751147694",
+  "Current Question Text": "How old is your father today?",
+  "V1 Question Text": "Question text diverged from source question",
+  "Variable Label": "Dad Age",
   "Variable Name": [
-    "SrvBOH_MotherAgeNum_v1r0"
+    "SrvBOH_DadAge_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "MOM_AGE"
+    "DADAGE"
   ],
   "Variable Type": "Num",
-  "Variable Length": "3",
-  "Current Format/Value": "N/A",
+  "Variable Length": "2",
+  "Current Format/Value": {
+    "178420302.json": "77"
+  },
   "Required": "No",
   "PII": "No",
   "Notes": "Range check minval=max(isDefined(D_150344905,age),5) max=125. Updated min range check min=age+5",
   "Date added or modified": "8/28/2023; 9/13/2024; 11/12/2024",
   "Question Type": "Text Box Plus Check Box",
-  "IMS Review Notes": "Added range check to Notes. Unharmonized source question and question text."
+  "IMS Review Notes": "Added range check to Notes. Unharmonized source question from question text and versioned up variable name."
 }

@@ -11,7 +11,7 @@
     "496748977.json"
   ],
   "GridID/Source Question Name": [
-    "SrvPES_BIOSURV5SRC_v1r0"
+    "SrvPES_BIOSURV5_SRC_v1r0"
   ],
   "conceptId": "824000895",
   "Current Question Text": "Is there anything that the Connect team could have done to make your experience donating samples better or easier?",
@@ -30,7 +30,7 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "2024 Connect Experience Survey",
-  "Date added or modified": "1/5/2023, 9/20/2024",
+  "Date added or modified": "1/5/2023, 9/20/2024; 11/12/2024",
   "Question Type": "Text Box Plus Check Box",
-  "IMS Review Notes": "Made Question Text the same as Source Question Text and used full Variable Name for the Connect Value.  Added  SOURCE to source question.. Added SRC to GridID/Source Question Name. Removed current question text conceptID"
+  "IMS Review Notes": "Made Question Text the same as Source Question Text and used full Variable Name for the Connect Value.  Added  SOURCE to source question.. Added SRC to GridID/Source Question Name. Removed current question text conceptID. Added underscore before SRC in the source question name"
 }

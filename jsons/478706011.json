@@ -10,9 +10,13 @@
   "Current Source Question": [
     "869387390.json"
   ],
-  "GridID/Source Question Name": [
-    "SIBAGE"
+  "V1 Source Question": [
+    "Sibling 1- How old is [SIBLING INITIALS OR NICKNAME/your sibling] today?"
   ],
+  "GridID/Source Question Name": [
+    "SIBAGE_AGE"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "478706011",
   "Current Question Text": "Sibling 1- How old is [SIBLING INITIALS OR NICKNAME/your sibling] today?, Number",
   "Variable Label": "Sib 1 Age, Num",
@@ -28,7 +32,7 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=0 max=125",
-  "Date added or modified": "8/28/23",
+  "Date added or modified": "8/28/2023; 11/12/2024",
   "Question Type": "Text Box Plus Check Box, Loops",
-  "IMS Review Notes": "Added range check in Notes."
+  "IMS Review Notes": "Added range check in Notes. Unharmonized source Q and question text."
 }

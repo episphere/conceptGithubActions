@@ -11,7 +11,7 @@
     "210983898.json"
   ],
   "GridID/Source Question Name": [
-    "SrvPES_EXPERI2SRC_v1r0"
+    "SrvPES_EXPERI2_SRC_v1r0"
   ],
   "conceptId": "766069692",
   "Current Question Text": "What has been good about your experience as a participant so far? [text box]",
@@ -28,7 +28,7 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "2024 Connect Experience Survey",
-  "Date added or modified": "1/5/2023, 9/20/2024",
+  "Date added or modified": "1/5/2023, 9/20/2024; 11/12/2024",
   "Question Type": "Text Box Plus Check Box",
-  "IMS Review Notes": "Used full Variable Name for Connect Value.  Added SOURCE to unharmonized source Q from question text. Added SRC to GridID/Source Question Name"
+  "IMS Review Notes": "Used full Variable Name for Connect Value.  Added SOURCE to unharmonized source Q from question text. Added SRC to GridID/Source Question Name. Added underscore before SRC in the source question name"
 }

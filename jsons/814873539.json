@@ -9,7 +9,7 @@
     "886084185.json"
   ],
   "GridID/Source Question Name": [
-    "SrvPES_BASELINE2SRC_v1r0"
+    "SrvPES_BASELINE2_SRC_v1r0"
   ],
   "conceptId": "814873539",
   "Current Question Text": "Please choose the reason that best describes why you have not completed all the sections in the first survey:",
@@ -25,9 +25,9 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "2024 Connect Experience Survey",
-  "Date added or modified": "1/5/2023, 9/20/2024",
+  "Date added or modified": "1/5/2023, 9/20/2024; 11/12/2024",
   "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
-  "IMS Review Notes": "Changed Connect Value to full Variable Name.  Added  SOURCE to source question.. Added SRC to GridID/Source Question Name. Removed current question text conceptID",
+  "IMS Review Notes": "Changed Connect Value to full Variable Name.  Added  SOURCE to source question.. Added SRC to GridID/Source Question Name. Removed current question text conceptID. Added underscore before SRC in the source question name",
   "Formula for Index": [
     "8647",
     "8648",

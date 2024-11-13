@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "3091",
-  "Index": "3091",
+  "Formula for Index": "3090",
+  "Index": "3090",
   "Primary Source": [
     "129084651.json"
   ],
@@ -17,22 +17,24 @@
     "SIBDEATH_SRC"
   ],
   "Deprecated, New, or Revised": "Revised",
-  "conceptId": "338020179",
-  "Current Question Text": "Sibling 1- How old was [SIBLING INITIALS OR NICKNAME/your sibling] when they died?, Number",
-  "Variable Label": "Sib 1 Age at Death, Num",
+  "conceptId": "580393969",
+  "Current Question Text": "Sibling 1- How old was [SIBLING INITIALS OR NICKNAME/your sibling] when they died?",
+  "V1 Question Text": "Question text diverged from source question",
+  "Variable Label": "Sib 1 Age at Death",
   "Variable Name": [
-    "SrvBOH_Sib1AgeDeathNum_v1r0"
+    "SrvBOH_Sib1AgeDeath_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "SIBDEATH_num"
+    "SIBDEATH"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Current Format/Value": "N/A",
-  "Required": "Yes",
-  "PII": "Yes",
-  "Notes": "Range check min=0 max=125",
-  "Date added or modified": "8/28/2023; 11/12/2024",
+  "Current Format/Value": {
+    "178420302.json": "77"
+  },
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "9/28/2021; 11/12/2024",
   "Question Type": "Text Box Plus Check Box, Loops",
-  "IMS Review Notes": "Added range check in Notes. Unharmonized source Q and question text."
+  "IMS Review Notes": "Unharmonized source Q and question text. Versioned up variable name."
 }
