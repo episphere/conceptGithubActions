@@ -25,7 +25,7 @@ for(let i = 0; i < files.length; i++){
             }
         })
         concept.readFile(file).then(() => {
-          parse.parseMasterModule()
+        //   parse.parseMasterModule()
           aggregate.aggregate()
         }).catch(error => {console.log(error)})
         // changed = true;
