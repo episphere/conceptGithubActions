@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2328",
-  "Index": "2328",
+  "Formula for Index": "2350",
+  "Index": "2350",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,9 +10,13 @@
   "Current Source Question": [
     "555481393.json"
   ],
-  "GridID/Source Question Name": [
-    "SEXORIENT"
+  "V1 Source Question": [
+    "Orientation - Do you think of yourself as:"
   ],
+  "GridID/Source Question Name": [
+    "SEXORIENT_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "979809707",
   "Current Question Text": "Orientation - Do you think of yourself as: [text box]",
   "Variable Label": "Sexual Orientation - Free Text",
@@ -28,6 +32,7 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Option only available if 55 is selected in SEXORIENT",
-  "Date added or modified": "9/14/21",
-  "Question Type": "Optional Multiple Choice with Text Box (text in text box)"
+  "Date added or modified": "9/14/2021; 11/12/2024",
+  "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
+  "IMS Review Notes": "Unharmonized source question and question text."
 }

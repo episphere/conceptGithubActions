@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "8653",
-  "Index": "8653",
+  "Formula for Index": "8674",
+  "Index": "8674",
   "Primary Source": [
     "129084651.json"
   ],
@@ -11,8 +11,9 @@
     "886084185.json"
   ],
   "GridID/Source Question Name": [
-    "SrvPES_BASELINE2SRC_v1r0"
+    "SrvPES_BASELINE2_SRC_v2r0"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "126388230",
   "Current Question Text": "Please choose the reason that best describes why you have not completed all the sections in the first survey: Other: Please describe text box",
   "Variable Label": "Why baseline survey not completed - text box",
@@ -28,7 +29,7 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "2024 Connect Experience Survey",
-  "Date added or modified": "1/5/2023, 9/20/2024",
+  "Date added or modified": "1/5/2023, 9/20/2024; 11/13/2024",
   "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
-  "IMS Review Notes": "Changed Connect Value to full Variable Name.  Added SOURCE to unharmonized source Q from question text. Added SRC to GridID/Source Question Name"
+  "IMS Review Notes": "Changed Connect Value to full Variable Name.  Added SOURCE to unharmonized source Q from question text. Added SRC to GridID/Source Question Name. Added underscore before SRC in the source question name"
 }

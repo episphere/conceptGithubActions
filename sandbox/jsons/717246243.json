@@ -1,0 +1,40 @@
+{
+  "Formula for Index": "2898",
+  "Index": "2898",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Current Source Question": [
+    "354326265.json"
+  ],
+  "V1 Source Question": [
+    "How old is your mother today?"
+  ],
+  "GridID/Source Question Name": [
+    "MOMAGE_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "717246243",
+  "Current Question Text": "How old is your mother today?",
+  "V1 Question Text": "Question text diverged from source question",
+  "Variable Label": "Mom Age",
+  "Variable Name": [
+    "SrvBOH_MotherAge_v2r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "MOMAGE"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Current Format/Value": {
+    "178420302.json": "77"
+  },
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "8/23/2021; 11/12/2024",
+  "Question Type": "Text Box Plus Check Box",
+  "IMS Review Notes": "Unharmonized source question and question text and versioned up variable name"
+}

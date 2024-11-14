@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "8627",
-  "Index": "8627",
+  "Formula for Index": "8648",
+  "Index": "8648",
   "Primary Source": [
     "129084651.json"
   ],
@@ -11,8 +11,9 @@
     "575160226.json"
   ],
   "GridID/Source Question Name": [
-    "SrvPES_TPROB2SRC_v1r0"
+    "SrvPES_TPROB2_SRC_v2r0"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "108849491",
   "Current Question Text": "If you would like to share more about the technical problems you have experienced, you can do so here. [text box]",
   "Variable Label": "MyConnect technical problems - share more",
@@ -28,7 +29,7 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "2024 Connect Experience Survey",
-  "Date added or modified": "1/5/2023, 9/20/2024",
+  "Date added or modified": "1/5/2023, 9/20/2024; 11/13/2024",
   "Question Type": "Text Box Plus Check Box",
-  "IMS Review Notes": "Changed Connect value to full variable name.  Added SOURCE to unharmonized source Q from question text. Added SRC to GridID/Source Question Name"
+  "IMS Review Notes": "Changed Connect value to full variable name.  Added SOURCE to unharmonized source Q from question text. Added SRC to GridID/Source Question Name. Added underscore before SRC in the source question name"
 }

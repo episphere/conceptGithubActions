@@ -1,40 +1,8 @@
 {
   "conceptId": "178774803",
-  "Current Question Text": "How old is your father today?",
+  "Current Question Text": "How old is your father today? - SOURCE",
   "subcollections": [
-    "178774803.json",
+    "751147694.json",
     "334956961.json"
-  ],
-  "Formula for Index": "2978",
-  "Index": "2978",
-  "Primary Source": [
-    "129084651.json"
-  ],
-  "Secondary Source": [
-    "726699695.json"
-  ],
-  "Current Source Question": [
-    "178774803.json"
-  ],
-  "GridID/Source Question Name": [
-    "DADAGE"
-  ],
-  "Variable Label": "Dad Age",
-  "Variable Name": [
-    "SrvBOH_DadAge_v1r0"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "DADAGE"
-  ],
-  "Variable Type": "Num",
-  "Variable Length": "2",
-  "Current Format/Value": {
-    "178420302.json": "77"
-  },
-  "Required": "No",
-  "PII": "No",
-  "Notes": "Range check minval=max(isDefined(D_150344905,age),5) max=125. Updated min range check min=age+5",
-  "Date added or modified": "8/28/2023; 9/13/2024",
-  "Question Type": "Text Box Plus Check Box",
-  "IMS Review Notes": "Added range check to Notes"
+  ]
 }

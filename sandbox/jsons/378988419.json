@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2875",
-  "Index": "2875",
+  "Formula for Index": "2897",
+  "Index": "2897",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,9 +10,13 @@
   "Current Source Question": [
     "354326265.json"
   ],
-  "GridID/Source Question Name": [
-    "MOMAGE"
+  "V1 Source Question": [
+    "How old is your mother today?"
   ],
+  "GridID/Source Question Name": [
+    "MOMAGE_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "378988419",
   "Current Question Text": "How old is your mother today?, Number",
   "Variable Label": "Mom Age, Num",
@@ -28,7 +32,7 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Range check minval=max(isDefined(D_150344905,age),5) max=125. Updated min range check min=age+5",
-  "Date added or modified": "8/28/2023; 9/13/2024",
+  "Date added or modified": "8/28/2023; 9/13/2024; 11/12/2024",
   "Question Type": "Text Box Plus Check Box",
-  "IMS Review Notes": "Added range check to Notes."
+  "IMS Review Notes": "Added range check to Notes. Unharmonized source question and question text."
 }

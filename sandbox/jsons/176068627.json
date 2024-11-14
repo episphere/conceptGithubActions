@@ -1,0 +1,39 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "369168474.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "176068627",
+  "Current Question Text": "Cancer Screening History Survey Status",
+  "Variable Label": "Flag Canc Screening Hist",
+  "Variable Name": [
+    "SrvScr_CancScrnStatus_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Not Started response will be set at time of survey release for those already verified and meet eligibility criteria. After that, Not Started response will be set at time of verification (even if not yet eligible for survey). Participants that are not yet verified will have a null response.",
+  "Dictionary": "Cancer Screening History Survey",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "11/14/24",
+  "Formula for Index": [
+    "1167",
+    "1168",
+    "1169"
+  ],
+  "Index": [
+    "1167",
+    "1168",
+    "1169"
+  ],
+  "Current Format/Value": {
+    "972455046.json": "0",
+    "615768760.json": "1",
+    "231311385.json": "2"
+  }
+}

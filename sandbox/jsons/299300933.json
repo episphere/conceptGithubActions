@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "3211",
-  "Index": "3211",
+  "Formula for Index": "3233",
+  "Index": "3233",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,9 +10,13 @@
   "Current Source Question": [
     "640010727.json"
   ],
-  "GridID/Source Question Name": [
-    "CHILDAGE"
+  "V1 Source Question": [
+    "Child 1- How old is [CHILD INITIALS OR NICKNAME/your CHILD] today?"
   ],
+  "GridID/Source Question Name": [
+    "CHILDAGE_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "299300933",
   "Current Question Text": "Child 1- How old is [CHILD INITIALS OR NICKNAME/your CHILD] today?, Number",
   "Variable Label": "Child 1 Age, Num",
@@ -28,7 +32,7 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=1 max=125",
-  "Date added or modified": "8/28/23",
+  "Date added or modified": "8/28/2023; 11/12/2024",
   "Question Type": "Text Box Plus Check Box, Loops",
-  "IMS Review Notes": "Added range check to Notes"
+  "IMS Review Notes": "Added range check to Notes. Unharmonized source question and question text."
 }

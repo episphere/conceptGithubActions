@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "3468",
-  "Index": "3468",
+  "Formula for Index": "3490",
+  "Index": "3490",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,9 +10,13 @@
   "Current Source Question": [
     "641651634.json"
   ],
-  "GridID/Source Question Name": [
-    "PPLHOUSE"
+  "V1 Source Question": [
+    "How many people currently live in your household? Please include yourself in the total number. (Include students living away at school, deployed military, etc.)"
   ],
+  "GridID/Source Question Name": [
+    "PPLHOUSE_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "173508724",
   "Current Question Text": "People in house number",
   "Variable Label": "Num People in House",
@@ -28,7 +32,7 @@
   "Required": "No",
   "PII": "Yes",
   "Notes": "Range check min=1 max=99",
-  "Date added or modified": "8/28/23",
+  "Date added or modified": "8/28/2023; 11/12/2024",
   "Question Type": "Text Box Plus Check Box",
-  "IMS Review Notes": "Added range check to Notes."
+  "IMS Review Notes": "Added range check to Notes. Unharmonized source question and question text."
 }

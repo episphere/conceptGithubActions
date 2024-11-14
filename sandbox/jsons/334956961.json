@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2979",
-  "Index": "2979",
+  "Formula for Index": "3001",
+  "Index": "3001",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,9 +10,13 @@
   "Current Source Question": [
     "178774803.json"
   ],
-  "GridID/Source Question Name": [
-    "DADAGE"
+  "V1 Source Question": [
+    "How old is your father today?"
   ],
+  "GridID/Source Question Name": [
+    "DADAGE_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "334956961",
   "Current Question Text": "How old is your father today?, Number",
   "Variable Label": "Dad Age, Num",
@@ -27,6 +31,7 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "9/14/21",
-  "Question Type": "Text Box Plus Check Box"
+  "Date added or modified": "9/14/2021; 11/12/2024",
+  "Question Type": "Text Box Plus Check Box",
+  "IMS Review Notes": "Unharmonized source question from question text."
 }

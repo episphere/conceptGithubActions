@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "9279",
-  "Index": "9279",
+  "Formula for Index": "9300",
+  "Index": "9300",
   "Primary Source": [
     "129084651.json"
   ],
@@ -14,7 +14,7 @@
     "Which COVID-19 vaccine shot did you get?"
   ],
   "GridID/Source Question Name": [
-    "SrvCov_COV28SRC_v2r0"
+    "SrvCov_COV28_SRC_v2r0"
   ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "395747093",
@@ -30,7 +30,7 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "7/5/2023; 10/1/2024",
+  "Date added or modified": "7/5/2023; 10/1/2024; 11/12/2024",
   "Question Type": "Optional Multiple Choice with Text Box, Loops",
-  "IMS Review Notes": "Reverted source question variable name back to _v1r0. Versioned the source question to unharmonize."
+  "IMS Review Notes": "Reverted source question variable name back to _v1r0. Versioned the source question to unharmonize. Added an underscore before SRC in the source question."
 }

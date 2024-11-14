@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "3331",
-  "Index": "3331",
+  "Formula for Index": "3353",
+  "Index": "3353",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,9 +10,13 @@
   "Current Source Question": [
     "367803647.json"
   ],
-  "GridID/Source Question Name": [
-    "EDU"
+  "V1 Source Question": [
+    "What is the highest level of school that you have completed?"
   ],
+  "GridID/Source Question Name": [
+    "EDU_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "940387701",
   "Current Question Text": "What is the highest level of school that you have completed? [text box]",
   "Variable Label": "Ed - Describe",
@@ -28,6 +32,7 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Option only available if EDU = 55 Other",
-  "Date added or modified": "9/14/21",
-  "Question Type": "Optional Multiple Choice with Text Box (text in text box)"
+  "Date added or modified": "9/14/2021; 11/12/2024",
+  "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
+  "IMS Review Notes": "Unharmonized source question and question text."
 }

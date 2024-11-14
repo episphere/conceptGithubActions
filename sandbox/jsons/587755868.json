@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "8717",
-  "Index": "8717",
+  "Formula for Index": "8738",
+  "Index": "8738",
   "Primary Source": [
     "129084651.json"
   ],
@@ -11,8 +11,9 @@
     "228922812.json"
   ],
   "GridID/Source Question Name": [
-    "SrvPES_EXPERI3SRC_v1r0"
+    "SrvPES_EXPERI3_SRC_v2r0"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "587755868",
   "Current Question Text": "What can our team do to make your experience as a Connect participant better? [text box]",
   "Variable Label": "Participant experience improvement - share more",
@@ -28,7 +29,7 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "2024 Connect Experience Survey",
-  "Date added or modified": "1/5/2023, 9/20/2024",
+  "Date added or modified": "1/5/2023, 9/20/2024; 11/13/2024",
   "Question Type": "Text Box Plus Check Box",
-  "IMS Review Notes": "Used full Variable Name for Connect Value.  Added SOURCE to unharmonized source Q from question text. Added SRC to GridID/Source Question Name"
+  "IMS Review Notes": "Used full Variable Name for Connect Value.  Added SOURCE to unharmonized source Q from question text. Added SRC to GridID/Source Question Name. Added underscore before SRC in the source question name"
 }

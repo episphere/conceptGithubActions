@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2981",
-  "Index": "2981",
+  "Formula for Index": "3003",
+  "Index": "3003",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,9 +10,13 @@
   "Current Source Question": [
     "628078826.json"
   ],
-  "GridID/Source Question Name": [
-    "DADDEATH"
+  "V1 Source Question": [
+    "At what age did your father die?"
   ],
+  "GridID/Source Question Name": [
+    "DADDEATH_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "517670352",
   "Current Question Text": "At what age did your father die?, Number",
   "Variable Label": "Dad Age at Death, Num",
@@ -28,7 +32,7 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=5 max=125",
-  "Date added or modified": "8/28/23",
+  "Date added or modified": "8/28/2023; 11/12/2024",
   "Question Type": "Text Box Plus Check Box",
-  "IMS Review Notes": "Added range check to Notes"
+  "IMS Review Notes": "Added range check to Notes. Unharmonized source question from question text."
 }

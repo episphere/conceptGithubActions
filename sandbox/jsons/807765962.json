@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2878",
-  "Index": "2878",
+  "Formula for Index": "2900",
+  "Index": "2900",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,9 +10,13 @@
   "Current Source Question": [
     "422714611.json"
   ],
-  "GridID/Source Question Name": [
-    "MOMDEATH"
+  "V1 Source Question": [
+    "At what age did your mother die?"
   ],
+  "GridID/Source Question Name": [
+    "MOMDEATH_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "807765962",
   "Current Question Text": "At what age did your mother die?, Number",
   "Variable Label": "Mom Age At Death, Num",
@@ -28,7 +32,7 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=5 max=125",
-  "Date added or modified": "8/28/23",
+  "Date added or modified": "8/28/2023; 11/12/2024",
   "Question Type": "Text Box Plus Check Box",
-  "IMS Review Notes": "Added range check to Notes."
+  "IMS Review Notes": "Added range check to Notes. Unharmonized source question and question text."
 }

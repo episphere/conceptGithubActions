@@ -12,7 +12,7 @@
     "Since your COVID-19 diagnosis, have you experienced any other symptoms?"
   ],
   "GridID/Source Question Name": [
-    "SrvCov_COV19C6ASRC_v2r0"
+    "SrvCov_COV19C6A_SRC_v2r0"
   ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "677034604",
@@ -28,16 +28,16 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "2/23/2023; 10/1/2024",
+  "Date added or modified": "2/23/2023; 10/1/2024; 11/12/2024",
   "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
-  "IMS Review Notes": "Added COVID-19 Survey variables. Versioned source question and question text to unharmonize which requires and updated concept ID for the question text.",
+  "IMS Review Notes": "Added COVID-19 Survey variables. Versioned source question and question text to unharmonize which requires and updated concept ID for the question text.  Added an underscore before SRC in the source question.",
   "Formula for Index": [
-    "9128",
-    "9129"
+    "9149",
+    "9150"
   ],
   "Index": [
-    "9128",
-    "9129"
+    "9149",
+    "9150"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
