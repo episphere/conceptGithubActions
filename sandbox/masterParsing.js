@@ -342,6 +342,14 @@ function parseMasterModule() {
                                                     }
                                                     //toInsert['questIds'] = {}
                                                     // console.log(masterJSON[valNum])
+
+                                                    // Debugging!
+                                                    // console.log("-----")
+                                                    // console.log(masterJSON[currJSON['Current Source Question']])
+                                                    // console.log("concept" ,masterJSON[valNum])
+                                                    
+                                                    // console.log("conceptId --> " ,valNum.substring(0, 9))
+                                                    // console.log("-----")
     
                                                     toInsert['questIds'][keyNum.toUpperCase()] = {
                                                         "conceptId": valNum.substring(0, 9),
@@ -420,7 +428,7 @@ function parseMasterModule() {
                                             //console.log(currJSON)
                                             //console.log(masterJSON[head])
                                             if(currJSON['conceptId'] == 283652434){ // ignore*
-                                                console.log('efg')
+                                                // console.log('efg')
                                                 console.log(masterJSON[head])
                                             }
                                             //console.log(toReturn)
