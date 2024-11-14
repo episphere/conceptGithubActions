@@ -7,11 +7,13 @@
   "Secondary Source": [
     "569151507.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "11/14/24",
   "conceptId": "442166669",
-  "Current Question Text": "Address line 2",
-  "Variable Label": "Address Line 2",
+  "Current Question Text": "Mailing Address- Address line 2",
+  "Variable Label": "Mailing Address Address Line 2",
   "Variable Name": [
-    "RcrtUP_AddressLn2_v1r0"
+    "RcrtUP_MailAddressLn2_v1r0"
   ],
   "Variable Type": "Char",
   "Variable Length": "70",
@@ -22,7 +24,7 @@
   "Dictionary": "Recruitment Data Dictionary, Biospecimen Clinical, Biospecimen Research",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "9/7/23",
+  "Date added or modified": "11/14/24",
   "GCP Document/Table": "Participants Table Not nested (d_442166669) OR Nested structure: (d_569151507_d_442166669)",
   "IMS Review Notes": "Updated Secondary Source to User Profile History"
 }

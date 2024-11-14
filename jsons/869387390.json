@@ -1,44 +1,8 @@
 {
   "conceptId": "869387390",
-  "Current Question Text": "Sibling 1- How old is [SIBLING INITIALS OR NICKNAME/your sibling] today?",
+  "Current Question Text": "Sibling 1- How old is [SIBLING INITIALS OR NICKNAME/your sibling] today? - SOURCE",
   "subcollections": [
-    "869387390.json",
+    "462619941.json",
     "478706011.json"
-  ],
-  "Formula for Index": "3088",
-  "Index": "3088",
-  "Primary Source": [
-    "129084651.json"
-  ],
-  "Secondary Source": [
-    "726699695.json"
-  ],
-  "Current Source Question": [
-    "869387390.json"
-  ],
-  "V1 Source Question": [
-    "Sibling 1- How old is [SIBLING INITIALS OR NICKNAME/your sibling] today?"
-  ],
-  "GridID/Source Question Name": [
-    "SIBAGE_AGE"
-  ],
-  "Deprecated, New, or Revised": "Revised",
-  "V1 Question Text": "Question text diverged from source question",
-  "Variable Label": "Sib 1 Age",
-  "Variable Name": [
-    "SrvBOH_Sib1Age_v2r0"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "SIBAGE"
-  ],
-  "Variable Type": "Num",
-  "Variable Length": "2",
-  "Current Format/Value": {
-    "178420302.json": "77"
-  },
-  "Required": "No",
-  "PII": "No",
-  "Date added or modified": "9/28/2021; 11/12/2024",
-  "Question Type": "Text Box Plus Check Box, Loops",
-  "IMS Review Notes": "Unharmonized source Q and question text. Versioned up variable name."
+  ]
 }
