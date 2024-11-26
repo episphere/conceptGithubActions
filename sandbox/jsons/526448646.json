@@ -10,9 +10,13 @@
   "Current Source Question": [
     "850202336.json"
   ],
-  "GridID/Source Question Name": [
-    "INSULIN4_1A"
+  "V1 Source Question": [
+    "On the days that you took insulin, what concentration did you take?"
   ],
+  "GridID/Source Question Name": [
+    "INSULIN4_1A_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "526448646",
   "Current Question Text": "On the days that you took insulin, what concentration did you take: [text box]",
   "Variable Label": "Insulin Conc - Free Text",
@@ -25,5 +29,6 @@
   "Variable Type": "Char",
   "Variable Length": "300",
   "Required": "No",
-  "Date added or modified": "10/8/21"
+  "Date added or modified": "10/8/2021; 11/19/2024",
+  "IMS Review Notes": "Unharmonized source question from question text."
 }

@@ -1,0 +1,55 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
+  "Current Source Question": [
+    "377064836.json"
+  ],
+  "V2 Source Question": [
+    "Why [do/did] you smoke marijuana?"
+  ],
+  "GridID/Source Question Name": [
+    "SMMAR10_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "781288845",
+  "Current Question Text": "Why [do/did] you smoke cannabis?",
+  "V1 Question Text": "Why [do/did] you smoke marijuana? Question text diverged from source question.",
+  "Variable Label": "Why smoke marijuana",
+  "Variable Name": [
+    "SrvSAS_WhySmokeMJ_v2r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "SMMAR10"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "11/23/2021; 10/4/2024; 11/19/2024",
+  "IMS Review Notes": "Updated source question and question text. Unharmonized source question from question text.",
+  "Formula for Index": [
+    "5329",
+    "5330",
+    "5331",
+    "5332",
+    "5333"
+  ],
+  "Index": [
+    "5329",
+    "5330",
+    "5331",
+    "5332",
+    "5333"
+  ],
+  "Current Format/Value": {
+    "437269318.json": "0",
+    "838317013.json": "1",
+    "585672584.json": "2",
+    "807835037.json": "55",
+    "746038746.json": "99"
+  }
+}

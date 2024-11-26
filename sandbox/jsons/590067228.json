@@ -1,0 +1,42 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "369168474.json"
+  ],
+  "conceptId": "590067228",
+  "Current Question Text": "Which of these best describes the type of ovary removal surgery that you had? - CSH",
+  "Variable Label": "Screening Srv - Ovary Surg",
+  "Variable Name": [
+    "SrvScr_OvarySurg_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "SrvScr_OvarySurg_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Maintaining versioning from BOH survey to harmonize variables. Only display if SrvScr_MHGROUP9_v2r1 = removal of one or both ovaries",
+  "Formula for Index": [
+    "9426",
+    "9427",
+    "9428"
+  ],
+  "Index": [
+    "9426",
+    "9427",
+    "9428"
+  ],
+  "Current Format/Value": {
+    "333647143.json": "0",
+    "109972911.json": "1",
+    "535003378.json": "88"
+  },
+  "Date added or modified": [
+    "11/7/24",
+    "11/7/24",
+    "11/7/24"
+  ]
+}

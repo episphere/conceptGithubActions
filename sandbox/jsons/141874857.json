@@ -10,11 +10,16 @@
   "Current Source Question": [
     "556837046.json"
   ],
-  "GridID/Source Question Name": [
-    "ALCOHOL4"
+  "V1 Source Question": [
+    "Age drank alcohol on regular basis"
   ],
+  "GridID/Source Question Name": [
+    "ALCOHOL4_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "141874857",
   "Current Question Text": "Age drank alcohol on regular basis number",
+  "V1 Question Text": "Question text diverged from source question",
   "Variable Label": "Age drank alcohol on regular basis",
   "Variable Name": [
     "SrvSAS_AgeAlcReg_v1r0"
@@ -28,6 +33,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=isDefined(D_250456537,0) max=sum(isDefined(D_150344905,age),1)",
-  "Date added or modified": "8/29/23",
-  "IMS Review Notes": "Added range check to Notes"
+  "Date added or modified": "8/29/2023; 11/19/2024",
+  "IMS Review Notes": "Added range check to Notes. Unharmonized source question from question text."
 }

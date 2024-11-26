@@ -49,22 +49,39 @@
     "803968511.json",
     "618427836.json"
   ],
-  "GridID/Source Question Name": [
-    "PAINREL3_1",
-    "PAINREL3_2",
-    "PAINREL3_3",
-    "PAINREL3_4",
-    "PAINREL3_5",
-    "PAINREL3_6",
-    "PAINREL3_7",
-    "CHOLHTN3_1",
-    "CHOLHTN3_2",
-    "METFOR3_1",
-    "INSULIN3_1",
-    "ACIDSUP3_1",
-    "ACIDSUP3_2",
-    "ACIDSUP3_3"
+  "V1 Source Question": [
+    "Pills per day baby or low-dose aspirin (81 mg or less)",
+    "Pills per day regular or extra strength aspirin",
+    "Pills per day ibuprofen",
+    "Pills per day acetaminophen",
+    "Pills per day naproxen",
+    "Pills per day Celebrex (celecoxib)",
+    "Pills per day prescription pain relievers containing opioids",
+    "Pills per day statins/cholesterol or lipid lowering drugs",
+    "Pills per day anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)",
+    "Metformin milligrams",
+    "On the days that you took insulin, about how many units did you take per day, on most days?",
+    "Pills per day prescription proton pump inhibitors",
+    "Pills per day over-the-counter proton pump inhibitors",
+    "Pills per day over-the-counter H2 receptor blockers"
   ],
+  "GridID/Source Question Name": [
+    "PAINREL3_1_SRC",
+    "PAINREL3_2_SRC",
+    "PAINREL3_3_SRC",
+    "PAINREL3_4_SRC",
+    "PAINREL3_5_SRC",
+    "PAINREL3_6_SRC",
+    "PAINREL3_7_SRC",
+    "CHOLHTN3_1_SRC",
+    "CHOLHTN3_2_SRC",
+    "METFOR3_1_SRC",
+    "INSULIN3_1_SRC",
+    "ACIDSUP3_1_SRC",
+    "ACIDSUP3_2_SRC",
+    "ACIDSUP3_3_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "101310722",
   "Current Question Text": "# Pills per day",
   "Variable Label": "Pills/Day Baby/Low-Dose Aspirin",
@@ -105,6 +122,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if PAINREL1 = 0. Range check min = 1 and max = 99.",
-  "Date added or modified": "8/24/23",
-  "IMS Review Notes": "Added range check to Notes."
+  "Date added or modified": "8/24/2023; 11/19/2024",
+  "IMS Review Notes": "Added range check to Notes. Unharmonized source question from question text."
 }

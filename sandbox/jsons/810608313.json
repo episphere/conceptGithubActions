@@ -26,11 +26,12 @@
     "When you were a daily user of THC concentrates via dabbing, how many servings did you have per day?"
   ],
   "GridID/Source Question Name": [
-    "EAMAR9A",
-    "EAMAR9C",
-    "THMAR9A",
-    "THMAR9C"
+    "EAMAR9A_SRC",
+    "EAMAR9C_SRC",
+    "THMAR9A_SRC",
+    "THMAR9C_SRC"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "810608313",
   "Current Question Text": "# Servings per day",
   "Variable Label": "Number of servings consumed  marijuana in food or drinks, servings per day",
@@ -52,7 +53,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=1 max=999",
-  "Date added or modified": "8/29/2023; 10/4/2024",
-  "IMS Review Notes": "Added range check to Notes. Updated the source question.",
-  "Deprecated, New, or Revised": "Revised"
+  "Date added or modified": "8/29/2023; 10/4/2024; 11/19/2024",
+  "IMS Review Notes": "Added range check to Notes. Updated the source question. Unharmonized source question from question text."
 }

@@ -10,9 +10,13 @@
   "Current Source Question": [
     "154603497.json"
   ],
-  "GridID/Source Question Name": [
-    "HOOKAH3"
+  "V1 Source Question": [
+    "Age started smoking hookah or water pipe on a regular basis"
   ],
+  "GridID/Source Question Name": [
+    "HOOKAH3_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "234430294",
   "Current Question Text": "Age started smoking hookah or water pipe on a regular basis number",
   "Variable Label": "Age started smoking hookah or water pipe on a regular basis",
@@ -28,6 +32,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=isDefined(D_127871793,0) max=sum(isDefined(D_150344905,age),1)",
-  "Date added or modified": "8/29/23",
-  "IMS Review Notes": "Added range check to Notes"
+  "Date added or modified": "8/29/2023; 11/19/2024",
+  "IMS Review Notes": "Added range check to Notes. Unharmonized source question from question text."
 }

@@ -1,0 +1,40 @@
+{
+  "Formula for Index": "3719",
+  "Index": "3719",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "Current Source Question": [
+    "753610471.json"
+  ],
+  "V1 Source Question": [
+    "Pills per day prescription proton pump inhibitors"
+  ],
+  "GridID/Source Question Name": [
+    "ACIDSUP3_1_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "374953179",
+  "Current Question Text": "Pills per day prescription proton pump inhibitors",
+  "V1 Question Text": "Question text diverged from source question.",
+  "Variable Label": "Pills/Day Rx Proton Pump Inhibitors, Don't Know",
+  "Variable Name": [
+    "SrvMRE_PPPresPillDK_v2r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "ACIDSUP3_1"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Current Format/Value": {
+    "178420302.json": "77"
+  },
+  "Required": "N/A",
+  "PII": "No",
+  "Notes": "Only display if ACIDSUP = 0",
+  "Date added or modified": "10/5/2021; 11/19/2024",
+  "IMS Review Notes": "Unharmonized source question from question text and versioned up variable name."
+}
