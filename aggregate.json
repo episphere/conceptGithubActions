@@ -169,6 +169,12 @@
   "104053459": {
     "Variable Name": "Not Revoked"
   },
+  "104107327": {
+    "Variable Label": "Age first consumed marijuana in food or drinks on a regular basis, Never consumed",
+    "Variable Name": [
+      "SrvSAS_EdiblesNever_v2r1"
+    ]
+  },
   "104278817": {
     "Variable Label": "First Name",
     "Variable Name": [
@@ -260,8 +266,7 @@
   "107060069": {
     "Variable Label": "Prostate Removal Surg",
     "Variable Name": [
-      "SrvBOH_ProsRemSurg_v1r0",
-      "SrvScr_ProsRemSurg_v1r0"
+      "SrvBOH_ProsRemSurg_v1r0"
     ]
   },
   "107428524": {
@@ -354,6 +359,12 @@
     "Variable Label": "First Used Hair Med Age",
     "Variable Name": [
       "SrvBOH_HairMedAgeF_v1r1"
+    ]
+  },
+  "109876967": {
+    "Variable Label": "Metformin Mg, Don't Know",
+    "Variable Name": [
+      "SrvMRE_MetforminMgDK_v2r0"
     ]
   },
   "109972911": {
@@ -561,10 +572,7 @@
     "Variable Name": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Uterine (endometrial) cancer?"
   },
   "116080663": {
-    "Variable Label": "Age first smoked marijuana on a regular basis, Never smoked",
-    "Variable Name": [
-      "SrvSAS_NeverSmokeMJ_v2r1"
-    ]
+    "Variable Name": "Age started smoking cannabis on a regular basis - SOURCE"
   },
   "116442173": {
     "Variable Label": "Bus or streetcar/trolley, light rail/trolley, light rail commute to past work",
@@ -577,6 +585,9 @@
     "Variable Name": [
       "SrvSAS_AgeUseEMJDevF_v2r1"
     ]
+  },
+  "116546181": {
+    "Variable Name": "How old were you when you had the first surgery for removal of one breast? - CSH"
   },
   "116882225": {
     "Variable Label": "Time, Motorcycle commute to past work",
@@ -786,6 +797,12 @@
       "SrvLAW_HomeAddOth10_v2r0"
     ]
   },
+  "124391414": {
+    "Variable Label": "Age started using chewing tobacco, snus, snuff, or dip on a regular basis, Never used",
+    "Variable Name": [
+      "SrvSAS_NeverUseCTReg_v2r0"
+    ]
+  },
   "124830305": {
     "Variable Label": "Number of Connect communications",
     "Variable Name": [
@@ -882,6 +899,12 @@
     "Variable Label": "Apartment, suite, unit, building, etc.",
     "Variable Name": [
       "SrvLAW_Apt1_v1r0"
+    ]
+  },
+  "129284742": {
+    "Variable Label": "Insulin Conc",
+    "Variable Name": [
+      "SrvMRE_InsulinConc_v2r0"
     ]
   },
   "129677435": {
@@ -1302,6 +1325,15 @@
   "145191545": {
     "Variable Name": "Ingalls Harvey"
   },
+  "145235510": {
+    "Variable Name": "Yes, because of puberty or hormones already in my body"
+  },
+  "145533284": {
+    "Variable Label": "Age first used marijana with tobacco on a regular basis, Never used",
+    "Variable Name": [
+      "SrvSAS_NeverSmokeReg_v2r1"
+    ]
+  },
   "145727599": {
     "Variable Name": "Which types of devices do you use for MyConnect? Select all that apply."
   },
@@ -1559,10 +1591,7 @@
     ]
   },
   "154603497": {
-    "Variable Label": "Age started smoking hookah or water pipe on a regular basis, Never smoked",
-    "Variable Name": [
-      "SrvSAS_NeverHookah_v1r0"
-    ]
+    "Variable Name": "Age started smoking hookah or water pipe on a regular basis - SOURCE"
   },
   "155199731": {
     "Variable Label": "Highway, current work commute to current work",
@@ -1781,11 +1810,20 @@
       "SrvMtW_WTRPICK1_v1r0"
     ]
   },
+  "165860865": {
+    "Variable Label": "Age first used cigars, cigarillos, or little filtered cigars on a regular basis, Never smoked",
+    "Variable Name": [
+      "SrvSAS_NeverSmoked_v2r0"
+    ]
+  },
   "165923738": {
     "Variable Label": "Tap water times/day, iced tea",
     "Variable Name": [
       "SrvLAW_DrinksWtr2D_Num_v2r0"
     ]
+  },
+  "166524009": {
+    "Variable Name": "How old were you when you had surgery for a breast abscess (such as incision and draining)? - CSH"
   },
   "166676176": {
     "Variable Name": "Social Security"
@@ -2821,6 +2859,9 @@
       "SrvScr_COL_v1r0"
     ]
   },
+  "203366781": {
+    "Variable Name": "How old were you when you had your penis removed (penectomy)? - CSH"
+  },
   "203400623": {
     "Variable Label": "Too busy to go",
     "Variable Name": [
@@ -3590,8 +3631,7 @@
   "224791140": {
     "Variable Label": "Fallopian Tube Surg",
     "Variable Name": [
-      "SrvBOH_FallTubeSurg_v1r0",
-      "SrvScr_FallTubeSurg_v1r0"
+      "SrvBOH_FallTubeSurg_v1r0"
     ]
   },
   "225047594": {
@@ -3756,6 +3796,12 @@
   },
   "233284019": {
     "Variable Name": "VIII, 8th"
+  },
+  "233510215": {
+    "Variable Label": "Why smoke marijuana",
+    "Variable Name": [
+      "SrvSAS_WhySmokeTobMJ_v2r0"
+    ]
   },
   "233764880": {
     "Variable Name": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had esophageal cancer?"
@@ -3924,6 +3970,12 @@
       "SrvBOH_Barbadian_v1r0"
     ]
   },
+  "241113372": {
+    "Variable Label": "Pills/Day Ibuprofen, Don't Know",
+    "Variable Name": [
+      "SrvMRE_IbuprofenPillDK_v2r0"
+    ]
+  },
   "241236037": {
     "Variable Name": "Data Destruction Requested"
   },
@@ -3984,6 +4036,12 @@
     "Variable Label": "Time, Commuter rail, subway, metro commute to current work",
     "Variable Name": [
       "SrvLAW_CurWorkTmRail_v1r0"
+    ]
+  },
+  "242864844": {
+    "Variable Label": "Age first used a tobacco pipe on a regular basis, Never used",
+    "Variable Name": [
+      "SrvSAS_TobPipeNever_v2r0"
     ]
   },
   "242987943": {
@@ -4136,11 +4194,17 @@
       "SrvScr_DILCUR1_v1r0"
     ]
   },
+  "250003172": {
+    "Variable Name": "How old were you when you had your gallbladder removed (cholecystectomy)? - CSH"
+  },
   "250235523": {
     "Variable Label": "PO Box Flag",
     "Variable Name": [
       "RcrtUP_POBox_v1r0"
     ]
+  },
+  "250353250": {
+    "Variable Name": "How old were you when you had removal of both breasts (double or bilateral mastectomy)? - CSH"
   },
   "250456537": {
     "Variable Label": "Age first drank alcohol",
@@ -4189,6 +4253,12 @@
   },
   "254061941": {
     "Variable Name": "Water that was filtered using a filter like Brita or PUR in a pitcher or on a faucet"
+  },
+  "254093792": {
+    "Variable Label": "Pills/Day Naproxen, Don't Know",
+    "Variable Name": [
+      "SrvMRE_NaproxenPillDK_v2r0"
+    ]
   },
   "254109640": {
     "Variable Label": "All Base Samp Collected",
@@ -4285,10 +4355,7 @@
     ]
   },
   "257300783": {
-    "Variable Label": "Age started using chewing tobacco, snus, snuff, or dip on a regular basis, Never used",
-    "Variable Name": [
-      "SrvSAS_NeverUseCTReg_v1r0"
-    ]
+    "Variable Name": "Age started using chewing tobacco, snus, snuff, or dip on a regular basis - SOURCE"
   },
   "257564920": {
     "Variable Label": "Ages 6 to 10",
@@ -4635,7 +4702,7 @@
     "Variable Name": "Mostly masculine"
   },
   "265469878": {
-    "Variable Name": "Why [do/did] you dab THC concentrates?"
+    "Variable Name": "Why [do/did] you dab THC concentrates? - SOURCE"
   },
   "265550580": {
     "Variable Name": "Didn't drink during this time"
@@ -4696,10 +4763,7 @@
     ]
   },
   "268240612": {
-    "Variable Label": "Why use electronic marijuana delivery devices that can be vaped",
-    "Variable Name": [
-      "SrvSAS_WhyUseEMJDev_v2r0"
-    ]
+    "Variable Name": "Why [do/did] you vape cannabis? - SOURCE"
   },
   "268372217": {
     "Variable Name": "In total, how many months or years have you used the other type of estrogen-only medication?"
@@ -4798,10 +4862,7 @@
     ]
   },
   "273218182": {
-    "Variable Label": "Insulin Units, Don't Know",
-    "Variable Name": [
-      "SrvMRE_InsulinUnitsDK_v1r0"
-    ]
+    "Variable Name": "On the days that you took insulin, about how many units did you take per day, on most days? - SOURCE"
   },
   "273371161": {
     "Variable Label": "Recovery",
@@ -4885,10 +4946,7 @@
     ]
   },
   "276575533": {
-    "Variable Label": "Number of servings consumed  marijuana in food or drinks, servings per day don't know",
-    "Variable Name": [
-      "SrvSAS_EdiblesServingsDK_v1r0"
-    ]
+    "Variable Name": "On the days that you [consume/consumed] cannabis edibles, drinks, or capsules, how many servings [do/did] you have per day? - SOURCE"
   },
   "277284423": {
     "Variable Label": "How many pipe fills of tobacco per day, [X / 60] to age [Y / 69 / current age]",
@@ -4925,6 +4983,9 @@
     "Variable Name": [
       "SrvLAW_DeepPrivWell10_v1r0"
     ]
+  },
+  "277890744": {
+    "Variable Name": "How old were you when you had breast reduction surgery (reduction mammaplasty)? - CSH"
   },
   "277953784": {
     "Variable Label": "Local Road Home Cur Work Post Pan",
@@ -4963,6 +5024,12 @@
     "Variable Label": "Past Occ Category",
     "Variable Name": [
       "SrvBOH_PastOccupCat_v2r1"
+    ]
+  },
+  "279843490": {
+    "Variable Label": "Pills/Day Baby/Low-Dose Aspirin, Don't Know",
+    "Variable Name": [
+      "SrvMRE_LAspirinPillDK_v2r0"
     ]
   },
   "280877371": {
@@ -5279,6 +5346,12 @@
       "SrvLAW_LongestCurJob_v1r0"
     ]
   },
+  "292314539": {
+    "Variable Label": "Screening Srv - Prostate Removal Surg",
+    "Variable Name": [
+      "SrvScr_ProsRemSurg_v1r0"
+    ]
+  },
   "292658699": {
     "Variable Label": "Last Time Ibuprofen",
     "Variable Name": [
@@ -5370,6 +5443,12 @@
     "Variable Label": "Depression t-score, PROMIS-29",
     "Variable Name": [
       "SrvQOL_3moTDepression_v1r0"
+    ]
+  },
+  "297016426": {
+    "Variable Label": "Pills/Day Reg/Extra Strength Aspirin, Don't Know",
+    "Variable Name": [
+      "SrvMRE_REAspirinPillDK_v2r0"
     ]
   },
   "297084062": {
@@ -5646,6 +5725,9 @@
   "308427446": {
     "Variable Name": "Asian"
   },
+  "308633554": {
+    "Variable Name": "I had both breasts removed during one surgery"
+  },
   "308634850": {
     "Variable Label": "Same Commute Tm Cur Work Post Pan",
     "Variable Name": [
@@ -5784,6 +5866,9 @@
       "SrvLAW_SeasAddYrs2_9Yr_v1r0",
       "SrvLAW_SeaAddYrs2_10Yr_v1r0"
     ]
+  },
+  "314345103": {
+    "Variable Name": "How old were you when you had one or both testicles removed (orchiectomy or orchidectomy)? If you have had more than one procedure, at what age did you last have this procedure? - CSH"
   },
   "314351052": {
     "Variable Label": "Why biospecimen survey not completed other text box",
@@ -6326,6 +6411,9 @@
       "SrvLAW_SeaAdd6DPWell_v1r0"
     ]
   },
+  "341080024": {
+    "Variable Name": "How old were you when you had your appendix removed (appendectomy)? - CSH"
+  },
   "341570479": {
     "Variable Label": "BL Clin Blood Acc ID",
     "Variable Name": [
@@ -6370,6 +6458,9 @@
     "Variable Name": [
       "SrvLAW_PreWorkTmTaxi_v1r0"
     ]
+  },
+  "343990595": {
+    "Variable Name": "How old were you when you had part or all of your prostate removed (prostatectomy)? If you have had more than one procedure, at what age did you last have this procedure? - CSH"
   },
   "344573484": {
     "Variable Label": "Current Use - BC Patch",
@@ -6476,6 +6567,9 @@
       "SrvMtW_MWALC_v1r0",
       "SrvMtW_MWALC_v1r0"
     ]
+  },
+  "350184001": {
+    "Variable Name": "How old were you when you had your uterus removed (hysterectomy)? - CSH"
   },
   "350251057": {
     "Variable Label": "Oral Health",
@@ -6700,6 +6794,12 @@
       "SrvBOH_CLD_v1r0"
     ]
   },
+  "359066098": {
+    "Variable Label": "Why use electronic marijuana delivery devices that can be vaped",
+    "Variable Name": [
+      "SrvSAS_WhyUseEMJDev_v2r0"
+    ]
+  },
   "359291056": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Testicular cancer?"
   },
@@ -6873,6 +6973,9 @@
   },
   "367884741": {
     "Variable Name": "How old were you when you had your tonsils removed (tonsillectomy)?"
+  },
+  "367942006": {
+    "Variable Name": "How old were you when you had removal of a lactiferous or milk duct (microdochectomy)? - CSH"
   },
   "367964536": {
     "Variable Name": "Without any difficulty"
@@ -7057,6 +7160,12 @@
   "374697037": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Diverticulitis or Diverticulosis?"
   },
+  "374953179": {
+    "Variable Label": "Pills/Day Rx Proton Pump Inhibitors, Don't Know",
+    "Variable Name": [
+      "SrvMRE_PPPresPillDK_v2r0"
+    ]
+  },
   "375227733": {
     "Variable Label": "How many servings THC concentrates via dabbing used, Age [X / 18] to age [Y / 24]",
     "Variable Name": [
@@ -7097,10 +7206,7 @@
     ]
   },
   "377064836": {
-    "Variable Label": "Why smoke marijuana",
-    "Variable Name": [
-      "SrvSAS_WhySmokeMJ_v2r0"
-    ]
+    "Variable Name": "Why [do/did] you smoke cannabis? - SOURCE"
   },
   "377633816": {
     "Variable Label": "Not Interested In Rsch",
@@ -7112,10 +7218,7 @@
     "Variable Name": "Kit"
   },
   "378254382": {
-    "Variable Label": "Age first used marijana with tobacco on a regular basis, Never used",
-    "Variable Name": [
-      "SrvSAS_NeverSmokeReg_v2r1"
-    ]
+    "Variable Name": "How old were you when you started smoking a combination of cannabis with tobacco on a regular basis? - SOURCE"
   },
   "378572291": {
     "Variable Label": "# Yrs OTC Proton Pump Inhibitors",
@@ -7126,8 +7229,7 @@
   "378892977": {
     "Variable Label": "Ovary Surg",
     "Variable Name": [
-      "SrvBOH_OvarySurg_v1r0",
-      "SrvScr_OvarySurg_v1r0"
+      "SrvBOH_OvarySurg_v1r0"
     ]
   },
   "378921620": {
@@ -7260,6 +7362,12 @@
   },
   "384191091": {
     "Variable Name": "Which of these describes you best? Select all that apply. Note, you may select more than one group."
+  },
+  "384247618": {
+    "Variable Label": "No Mens Pd in 12 Mo - Why",
+    "Variable Name": [
+      "SrvMRE_NoPeriodReason_v2r1"
+    ]
   },
   "384344201": {
     "Variable Label": "Child 1 Age at Death, Oth",
@@ -7590,6 +7698,12 @@
       "SrvMRE_SittingOut_v1r0"
     ]
   },
+  "396924473": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_1PrimaryWater1_v2r0"
+    ]
+  },
   "397748152": {
     "Variable Label": "Last MCED test",
     "Variable Name": [
@@ -7679,6 +7793,12 @@
   },
   "401335456": {
     "Variable Name": "Other (Hispanic, Asian, American Indian/Alaskan Native, Native Hawaiian or Pacific Islander)"
+  },
+  "401396910": {
+    "Variable Label": "Pills/Day OTC H2 Receptor Blockers, Don't Know",
+    "Variable Name": [
+      "SrvMRE_H2RecBlOCPillDK_v2r0"
+    ]
   },
   "402048066": {
     "Variable Name": "A few times permonth"
@@ -7894,6 +8014,12 @@
   },
   "409324592": {
     "Variable Name": "In which season(s) you do high-intensity circuit training (such as P90x or Crossfit)? Select all that apply."
+  },
+  "409356583": {
+    "Variable Label": "Why consume marijuana in food or drinks",
+    "Variable Name": [
+      "SrvSAS_WhyEdibles_v3r0"
+    ]
   },
   "409622468": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Barrett's Esophagus?"
@@ -8333,6 +8459,12 @@
       "SrvLAW_WkPstPanCrossSt2_v1r0"
     ]
   },
+  "429157727": {
+    "Variable Label": "Screening Srv - Testicle Removal Surg",
+    "Variable Name": [
+      "SrvScr_TestRemSurg_v1r0"
+    ]
+  },
   "429200007": {
     "Variable Label": "Country",
     "Variable Name": [
@@ -8576,10 +8708,7 @@
     ]
   },
   "438682764": {
-    "Variable Label": "Pills/Day Rx Pain Reliever With Opioids, Don't Know",
-    "Variable Name": [
-      "SrvMRE_OpioidsPillDK_v1r0"
-    ]
+    "Variable Name": "Pills per day prescription pain relievers containing opioids - SOURCE"
   },
   "439072744": {
     "Variable Label": "# Yrs Celebrex",
@@ -8598,6 +8727,9 @@
     "Variable Name": [
       "SrvBOH_KidneySurgType_v1r0"
     ]
+  },
+  "439760665": {
+    "Variable Name": "How old were you when you had breast implants (augmentation surgery)? - CSH"
   },
   "439857718": {
     "Variable Label": "Professional/Business",
@@ -9182,6 +9314,12 @@
       "SrvMtW_MWCETYL_v1r0"
     ]
   },
+  "460929447": {
+    "Variable Label": "Age first use THC concentrates via dabbing on a regular basis, Never used",
+    "Variable Name": [
+      "SrvSAS_NeverTHC_v2r1"
+    ]
+  },
   "461386928": {
     "Variable Name": "Less than 1 year ago"
   },
@@ -9545,6 +9683,12 @@
       "SrvScr_OTVULTRA_v1r0"
     ]
   },
+  "474942972": {
+    "Variable Label": "Age First Period, Never",
+    "Variable Name": [
+      "SrvMRE_FirstPeriAgeNH_v2r0"
+    ]
+  },
   "475018570": {
     "Variable Label": "First transvaginal ultrasound",
     "Variable Name": [
@@ -9888,6 +10032,12 @@
   "489402657": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Prostate cancer?"
   },
+  "490043229": {
+    "Variable Label": "When daily user, number of servings consumed marijuana in food or drinks don't know",
+    "Variable Name": [
+      "SrvSAS_EdiblesServNumDK_v2r0"
+    ]
+  },
   "490327747": {
     "Variable Label": "PROMIS Surv Vers",
     "Variable Name": [
@@ -10077,6 +10227,18 @@
       "SrvSAS_CTTime17_v1r1"
     ]
   },
+  "495828312": {
+    "Variable Label": "Age first used electronic marijuana delivery devices on a regular basis, Never used",
+    "Variable Name": [
+      "SrvSAS_NeverEMJDev_v2r1"
+    ]
+  },
+  "495962646": {
+    "Variable Label": "When daily user, number of servings use THC concentrates via dabbing, don't know",
+    "Variable Name": [
+      "SrvSAS_THCServingNumDK_v2r0"
+    ]
+  },
   "495970180": {
     "Variable Name": "151 to 250 feet"
   },
@@ -10087,10 +10249,7 @@
     ]
   },
   "496539718": {
-    "Variable Label": "Age First Period, Never",
-    "Variable Name": [
-      "SrvMRE_FirstPeriAgeNH_v1r0"
-    ]
+    "Variable Name": "Age first menstrual period - SOURCE"
   },
   "496588916": {
     "Variable Label": "First endometrial biopsy",
@@ -10112,6 +10271,9 @@
   },
   "496917282": {
     "Variable Name": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had prostate cancer?"
+  },
+  "496928179": {
+    "Variable Name": "How old were you when you had the second surgery for removal of one breast? - CSH"
   },
   "496935183": {
     "Variable Label": "Too Sick",
@@ -10273,6 +10435,9 @@
   },
   "506053626": {
     "Variable Name": "Twice"
+  },
+  "506456253": {
+    "Variable Name": "Which of these breast surgeries have you had? Please do not include a biopsy. Select all that apply. - CSH"
   },
   "506482920": {
     "Variable Label": "Last full body skin examination",
@@ -10490,10 +10655,7 @@
     ]
   },
   "517100968": {
-    "Variable Label": "When daily user, number of servings consumed marijuana in food or drinks don't know",
-    "Variable Name": [
-      "SrvSAS_EdiblesServNumDK_v1r0"
-    ]
+    "Variable Name": "When you were a daily consumer of cannabis edibles, drinks, or capsules, how many servings did you have per day? - SOURCE"
   },
   "517101990": {
     "Variable Label": "Privacy Concerns",
@@ -10521,6 +10683,12 @@
   },
   "517700004": {
     "Variable Name": "National Cancer Institute"
+  },
+  "517713720": {
+    "Variable Label": "Do Not Know Current",
+    "Variable Name": [
+      "SrvLAW_CurDontKnow_v2r0"
+    ]
   },
   "517801904": {
     "Variable Label": "Age first used e-cigarettes or other vaping devices on a regular basis",
@@ -10661,11 +10829,20 @@
   "522143286": {
     "Variable Name": "Restless"
   },
+  "522284678": {
+    "Variable Label": "Pills/Day Statins, Don't Know",
+    "Variable Name": [
+      "SrvMRE_StatinsPillsDK_v2r0"
+    ]
+  },
   "522395860": {
     "Variable Name": "Once per week"
   },
   "522464057": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had kidney cancer?"
+  },
+  "522645663": {
+    "Variable Name": "How old were you when you had your tubes tied (tubal ligation)? - CSH"
   },
   "522680498": {
     "Variable Name": "Not married but living with partner"
@@ -11268,6 +11445,12 @@
       "SrvMRE_AnyCombPillDesc_v1r0"
     ]
   },
+  "542110560": {
+    "Variable Label": "Do Not Know Current Cross",
+    "Variable Name": [
+      "SrvLAW_CurCrosDontKnow_v2r0"
+    ]
+  },
   "542492755": {
     "Variable Label": "Social Satisfaction - perform daily routines",
     "Variable Name": [
@@ -11356,10 +11539,7 @@
     "Variable Name": "2 servings"
   },
   "546410473": {
-    "Variable Label": "Age first used a tobacco pipe on a regular basis, Never used",
-    "Variable Name": [
-      "SrvSAS_TobPipeNever_v1r0"
-    ]
+    "Variable Name": "Age first used a tobacco pipe on a regular basis - SOURCE"
   },
   "546570171": {
     "Variable Label": "Time, Bus or streetcar/trolley, light rail/trolley commute to current work",
@@ -11467,16 +11647,10 @@
     ]
   },
   "550092533": {
-    "Variable Label": "Pills/Day Statins, Don't Know",
-    "Variable Name": [
-      "SrvMRE_StatinsPillsDK_v1r0"
-    ]
+    "Variable Name": "Pills per day statins/cholesterol or lipid lowering drugs - SOURCE"
   },
   "550244580": {
-    "Variable Label": "Age first used e-cigarettes or other vaping devices on a regular basis, Never used",
-    "Variable Name": [
-      "SrvSAS_ECigNeverReg_v1r0"
-    ]
+    "Variable Name": "Age first used e-cigarettes or other vaping devices on a regular basis - SOURCE"
   },
   "550615107": {
     "Variable Name": "Ectopic or tubal pregnancy (fertilized egg implants outside of the uterus)"
@@ -11618,10 +11792,7 @@
     ]
   },
   "556837046": {
-    "Variable Label": "Age drank alcohol on regular basis, Never drank",
-    "Variable Name": [
-      "SrvSAS_NeverAlcReg_v1r0"
-    ]
+    "Variable Name": "Age drank alcohol on regular basis - SOURCE"
   },
   "556963634": {
     "Variable Label": "Age stopped using marijuana  every day",
@@ -12369,10 +12540,7 @@
     ]
   },
   "585819411": {
-    "Variable Label": "When daily user, number of servings use THC concentrates via dabbing, don't know",
-    "Variable Name": [
-      "SrvSAS_THCServingNumDK_v2r0"
-    ]
+    "Variable Name": "When you were dabbing THC concentrates daily, how many servings did you have per day? - SOURCE"
   },
   "586132480": {
     "Variable Label": "Baseline survey completion",
@@ -12501,6 +12669,12 @@
   "589959753": {
     "Variable Name": "A little shorter"
   },
+  "590067228": {
+    "Variable Label": "Screening Srv - Ovary Surg",
+    "Variable Name": [
+      "SrvScr_OvarySurg_v1r0"
+    ]
+  },
   "590222838": {
     "Variable Label": "Year moved in",
     "Variable Name": [
@@ -12519,12 +12693,6 @@
       "SrvBlU_COV20A12_v1r0",
       "SrvBlU_COV20A12_v1r0",
       "SrvCov_COV20A12_v1r0"
-    ]
-  },
-  "590891714": {
-    "Variable Label": "Screening Srv - Kidney Surg Type",
-    "Variable Name": [
-      "SrvScr_KidneySurgType_v1r0"
     ]
   },
   "591438156": {
@@ -12648,6 +12816,12 @@
   "595249233": {
     "Variable Name": "Less than once per month"
   },
+  "595443350": {
+    "Variable Label": "Age first used e-cigarettes or other vaping devices on a regular basis, Never used",
+    "Variable Name": [
+      "SrvSAS_ECigNeverReg_v2r0"
+    ]
+  },
   "595987358": {
     "Variable Label": "Cold Packs - Warm",
     "Variable Name": [
@@ -12698,10 +12872,7 @@
     ]
   },
   "596961796": {
-    "Variable Label": "Pills/Day Baby/Low-Dose Aspirin, Don't Know",
-    "Variable Name": [
-      "SrvMRE_LAspirinPillDK_v1r0"
-    ]
+    "Variable Name": "Pills per day baby or low-dose aspirin (81 mg or less) - SOURCE"
   },
   "597175457": {
     "Variable Name": "Child"
@@ -12995,10 +13166,7 @@
     "Variable Name": "Cholesterol and Blood Pressure (Hypertension) Medications- Have you ever taken any of these medications at least 4 times a month for 6 months or longer? Select all that apply."
   },
   "614145455": {
-    "Variable Label": "No Mens Pd in 12 Mo - Why",
-    "Variable Name": [
-      "SrvMRE_NoPeriodReason_v1r1"
-    ]
+    "Variable Name": "Please pick the option that best describes why you have not had a menstrual period in the past 12 months: - SOURCE"
   },
   "614208066": {
     "Variable Label": "Same Commute Cur Work Post Pan",
@@ -13061,10 +13229,7 @@
     ]
   },
   "618427836": {
-    "Variable Label": "Pills/Day OTC H2 Receptor Blockers, Don't Know",
-    "Variable Name": [
-      "SrvMRE_H2RecBlOCPillDK_v1r0"
-    ]
+    "Variable Name": "Pills per day over-the-counter H2 receptor blockers - SOURCE"
   },
   "618482103": {
     "Variable Name": "In which season(s) did you do these home repairs (such as painting, plumbing, or replacing carpeting)? Select all that apply."
@@ -13241,6 +13406,8 @@
       "SrvScr_BreastPtRemAge_v1r1",
       "SrvScr_BreastRemAge_v1r1",
       "SrvScr_BreastDblRemAge_v1r1",
+      "SrvScr_FstSurgDblRemAge_v1r0",
+      "SrvScr_SecSurgDblRemAge_v1r0",
       "SrvScr_BreastAbscAge_v1r1",
       "SrvScr_BreastLacRemAge_v1r1",
       "SrvScr_BreastOthAge_v1r1",
@@ -13746,6 +13913,12 @@
       "CTN_Category_v1r0"
     ]
   },
+  "643271680": {
+    "Variable Label": "Pills/Day Acetaminophen, Don't Know",
+    "Variable Name": [
+      "SrvMRE_AcetPillDK_v2r0"
+    ]
+  },
   "643361372": {
     "Variable Name": "Acid Suppressive Drugs- Have you ever taken any of these medications at least 4 times a month for 6 months or longer? Select all that apply."
   },
@@ -13789,6 +13962,9 @@
       "SrvLAW_CurSchTaxi6_v1r0"
     ]
   },
+  "645149364": {
+    "Variable Name": "How old were you when you first had liposuction? - CSH"
+  },
   "645150792": {
     "Variable Label": "Full Street name",
     "Variable Name": [
@@ -13817,10 +13993,7 @@
     "Variable Name": "1 to 2 days per week"
   },
   "646042915": {
-    "Variable Label": "Pills/Day Acetaminophen, Don't Know",
-    "Variable Name": [
-      "SrvMRE_AcetPillDK_v1r0"
-    ]
+    "Variable Name": "Pills per day acetaminophen - SOURCE"
   },
   "646060480": {
     "Variable Label": "Finding everything on MyConnect",
@@ -14076,10 +14249,7 @@
     ]
   },
   "653198444": {
-    "Variable Label": "Age first consumed marijuana in food or drinks on a regular basis, Never consumed",
-    "Variable Name": [
-      "SrvSAS_EdiblesNever_v2r1"
-    ]
+    "Variable Name": "Age first consumed cannabis edibles, drinks, or capsules on a regular basis - SOURCE"
   },
   "653630699": {
     "Variable Label": "New loss of taste or smell",
@@ -14597,6 +14767,9 @@
       "SrvSAS_AgeUseCTLast_v1r0"
     ]
   },
+  "671670265": {
+    "Variable Name": "How old were you when you had a vasectomy? - CSH"
+  },
   "671903816": {
     "Variable Label": "Ref Canc Scrn Hist Srv",
     "Variable Name": [
@@ -14686,6 +14859,9 @@
   },
   "674994176": {
     "Variable Name": "Feel free to share more about these reasons or any other reasons for joining Connect. - SOURCE"
+  },
+  "675055475": {
+    "Variable Name": "How old were you when you had your tonsils removed (tonsillectomy)? - CSH"
   },
   "675129470": {
     "Variable Label": "Dabbing THC concentrates (such as wax, shatter, or rosin)",
@@ -14854,6 +15030,12 @@
   },
   "681229479": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had chest pain (angina)?"
+  },
+  "681235620": {
+    "Variable Label": "Number of servings use/used THC concentrates, servings per day, do not know",
+    "Variable Name": [
+      "SrvSAS_THCServingsDK_v2r1"
+    ]
   },
   "681586194": {
     "Variable Label": "Days use THC concentrates via dabbing past 30 days",
@@ -15178,6 +15360,12 @@
     "Variable Label": "Walking commute to current school",
     "Variable Name": [
       "SrvLAW_CurSchWalk5_v1r0"
+    ]
+  },
+  "691614191": {
+    "Variable Label": "Insulin Units, Don't Know",
+    "Variable Name": [
+      "SrvMRE_InsulinUnitsDK_v2r0"
     ]
   },
   "691714762": {
@@ -16034,6 +16222,12 @@
       "SrvScr_BRSTULTRA_v1r0"
     ]
   },
+  "726231230": {
+    "Variable Label": "Pills/Day Anti-Hypertensive Meds, Don't Know",
+    "Variable Name": [
+      "SrvMRE_AntiHypPillsDK_v2r0"
+    ]
+  },
   "726389747": {
     "Variable Label": "Contact Suspended",
     "Variable Name": [
@@ -16175,6 +16369,9 @@
     "Variable Name": [
       "SrvMRE_TTGel_v1r0"
     ]
+  },
+  "729984625": {
+    "Variable Name": "Surgical Procedures- Have you ever had any of these surgeries? Select all that apply. - CSH"
   },
   "730334054": {
     "Variable Label": "Long COVID More tired than usual",
@@ -16492,10 +16689,7 @@
     ]
   },
   "742254559": {
-    "Variable Label": "Age first use THC concentrates via dabbing on a regular basis, Never used",
-    "Variable Name": [
-      "SrvSAS_NeverTHC_v2r1"
-    ]
+    "Variable Name": "How old were you when you started dabbing THC concentrates on a regular basis? - SOURCE"
   },
   "742544044": {
     "Variable Label": "Consume marijuana in food or drinks now",
@@ -16784,16 +16978,10 @@
     ]
   },
   "753416375": {
-    "Variable Label": "Pills/Day Ibuprofen, Don't Know",
-    "Variable Name": [
-      "SrvMRE_IbuprofenPillDK_v1r0"
-    ]
+    "Variable Name": "Pills per day ibuprofen - SOURCE"
   },
   "753610471": {
-    "Variable Label": "Pills/Day Rx Proton Pump Inhibitors, Don't Know",
-    "Variable Name": [
-      "SrvMRE_PPPresPillDK_v1r0"
-    ]
+    "Variable Name": "Pills per day prescription proton pump inhibitors - SOURCE"
   },
   "753716110": {
     "Variable Label": "Bag 30",
@@ -16850,10 +17038,7 @@
     "Variable Name": "5 to 6 hours"
   },
   "755923078": {
-    "Variable Label": "Why smoke marijuana",
-    "Variable Name": [
-      "SrvSAS_WhySmokeTobMJ_v2r0"
-    ]
+    "Variable Name": "Why [do/did] you smoke a combination of cannabis with tobacco? - SOURCE"
   },
   "756061540": {
     "Variable Label": "Motorcycle commute from current school",
@@ -16931,6 +17116,9 @@
     "Variable Name": [
       "SrvLAW_Seas10DontKnow_v1r0"
     ]
+  },
+  "758881441": {
+    "Variable Name": "How old were you when you had removal of one breast (mastectomy)? - CSH"
   },
   "759004335": {
     "Variable Label": "Income",
@@ -17115,6 +17303,12 @@
       "SrvMRE_ProtPumpPresWk_v1r0",
       "SrvMRE_ProtPumpOCWk_v1r0",
       "SrvMRE_H2RecBlockOCWk_v1r0"
+    ]
+  },
+  "765772509": {
+    "Variable Label": "Screening Srv - Both Breasts Surg",
+    "Variable Name": [
+      "SrvScr_BREASTSUR6A_v1r0"
     ]
   },
   "765903702": {
@@ -17594,6 +17788,12 @@
       "SrvMRE_TrblSleeping_v1r0"
     ]
   },
+  "781288845": {
+    "Variable Label": "Why smoke marijuana",
+    "Variable Name": [
+      "SrvSAS_WhySmokeMJ_v2r0"
+    ]
+  },
   "781650542": {
     "Variable Label": "Why [do/did] you use use THC concentrates via dabbing - Descriptive",
     "Variable Name": [
@@ -17627,6 +17827,12 @@
     "Variable Label": "Physical function - walk",
     "Variable Name": [
       "SrvQoL_PhysFnct3_v1r0"
+    ]
+  },
+  "783473226": {
+    "Variable Label": "Age first used cigarettes on a regular basis, Never smoked",
+    "Variable Name": [
+      "SrvSAS_NeverSmokedReg_v2r0"
     ]
   },
   "783797179": {
@@ -17795,6 +18001,9 @@
       "SrvQoL_Fatigue7D4_v1r0"
     ]
   },
+  "787505819": {
+    "Variable Name": "How old were you when you had one or both ovaries removed (oophorectomy)? If you have had more than one procedure, at what age did you last have this procedure? - CSH"
+  },
   "787567527": {
     "Variable Label": "BL Time Payment Elig For Round",
     "Variable Name": [
@@ -17857,10 +18066,7 @@
     ]
   },
   "790436165": {
-    "Variable Label": "Age first used cigarettes on a regular basis, Never smoked",
-    "Variable Name": [
-      "SrvSAS_NeverSmokedReg_v1r0"
-    ]
+    "Variable Name": "Age first used cigarettes on a regular basis - SOURCE"
   },
   "790657437": {
     "Variable Label": "Bicycle commute from current school",
@@ -18063,10 +18269,7 @@
     "Variable Name": "Variant C"
   },
   "799338907": {
-    "Variable Label": "Pills/Day Naproxen, Don't Know",
-    "Variable Name": [
-      "SrvMRE_NaproxenPillDK_v1r0"
-    ]
+    "Variable Name": "Pills per day naproxen - SOURCE"
   },
   "799382711": {
     "Variable Label": "Age Last Use - Oral Estrogen-only Med",
@@ -18141,6 +18344,9 @@
     "Variable Name": [
       "SrvMRE_BleedingBtwn_v1r0"
     ]
+  },
+  "801218076": {
+    "Variable Name": "Yes, because of hormonal medication or device"
   },
   "801653230": {
     "Variable Label": "Alt Contact Last Name",
@@ -18219,6 +18425,8 @@
       "SrvScr_BreastPtRemYr_v1r0",
       "SrvScr_BreastRemYr_v1r0",
       "SrvScr_BreastDblRemYr_v1r0",
+      "SrvScr_FstSurgDblRemYr_v1r0",
+      "SrvScr_SecSurgDblRemYr_v1r0",
       "SrvScr_BreastAbscYr_v1r0",
       "SrvScr_BreastLacRemYr_v1r0",
       "SrvScr_BreastOthYr_v1r0",
@@ -18272,22 +18480,22 @@
     ]
   },
   "803968511": {
-    "Variable Label": "Pills/Day OTC Proton Pump Inhibitors, Don't Know",
-    "Variable Name": [
-      "SrvMRE_PPOCPillDK_v1r0"
-    ]
+    "Variable Name": "Pills per day over-the-counter proton pump inhibitors - SOURCE"
   },
   "803970496": {
     "Variable Name": "Not enough - I want to get more emails and/or text messages"
   },
   "804504024": {
-    "Variable Label": "Do Not Know Current Cross",
-    "Variable Name": [
-      "SrvLAW_CurCrosDontKnow_v1r0"
-    ]
+    "Variable Name": "Please provide the cross streets of the intersection closest to this address: - SOURCE"
   },
   "804785430": {
     "Variable Name": "Yes, every day"
+  },
+  "804847497": {
+    "Variable Label": "Pills/Day Rx Pain Reliever With Opioids, Don't Know",
+    "Variable Name": [
+      "SrvMRE_OpioidsPillDK_v2r0"
+    ]
   },
   "804918759": {
     "Variable Name": "phone"
@@ -18368,6 +18576,12 @@
     "Variable Label": "Mom Age At Death, Num",
     "Variable Name": [
       "SrvBOH_MomAgeDeathNum_v1r0"
+    ]
+  },
+  "807819551": {
+    "Variable Label": "Pills/Day Celebrex, Don't Know",
+    "Variable Name": [
+      "SrvMRE_CelebrexPillDK_v2r0"
     ]
   },
   "807835037": {
@@ -18489,10 +18703,7 @@
     "Variable Name": "Adopted"
   },
   "810324917": {
-    "Variable Label": "Why consume marijuana in food or drinks",
-    "Variable Name": [
-      "SrvSAS_WhyEdibles_v3r0"
-    ]
+    "Variable Name": "Why [do/did] you consume cannabis edibles, drinks, or capsules? - SOURCE"
   },
   "810340693": {
     "Variable Label": "Vomiting",
@@ -18598,10 +18809,7 @@
     ]
   },
   "814115676": {
-    "Variable Label": "Age first used cigars, cigarillos, or little filtered cigars on a regular basis, Never smoked",
-    "Variable Name": [
-      "SrvSAS_NeverSmoked_v1r0"
-    ]
+    "Variable Name": "Age first used cigars, cigarillos, or little filtered cigars on a regular basis - SOURCE"
   },
   "814137809": {
     "Variable Label": "Zip code",
@@ -18649,6 +18857,12 @@
     "Variable Label": "Ever use cigarettes every day",
     "Variable Name": [
       "SrvSAS_CigsEveryday_v2r0"
+    ]
+  },
+  "816613060": {
+    "Variable Label": "Pills/Day OTC Proton Pump Inhibitors, Don't Know",
+    "Variable Name": [
+      "SrvMRE_PPOCPillDK_v2r0"
     ]
   },
   "816891201": {
@@ -18880,10 +19094,7 @@
     ]
   },
   "825189914": {
-    "Variable Label": "Pills/Day Reg/Extra Strength Aspirin, Don't Know",
-    "Variable Name": [
-      "SrvMRE_REAspirinPillDK_v1r0"
-    ]
+    "Variable Name": "Pills per day regular or extra strength aspirin - SOURCE"
   },
   "825227968": {
     "Variable Name": "During a usual non-workday, about how much time do you spend outside in direct sunlight?"
@@ -18955,6 +19166,12 @@
     "Variable Label": "Kidney Stones",
     "Variable Name": [
       "SrvBOH_KS_v1r0"
+    ]
+  },
+  "827588006": {
+    "Variable Label": "Age drank alcohol on regular basis, Never drank",
+    "Variable Name": [
+      "SrvSAS_NeverAlcReg_v2r0"
     ]
   },
   "827661413": {
@@ -19246,6 +19463,9 @@
       "SrvLAW_CurWorkT6_v1r0"
     ]
   },
+  "839555631": {
+    "Variable Name": "How old were you when you first had bariatric surgery ? - CSH"
+  },
   "840048338": {
     "Variable Label": "BL D/T Check-In Done",
     "Variable Name": [
@@ -19266,6 +19486,9 @@
     "Variable Name": [
       "BioPack_OShipFlag_v1r0"
     ]
+  },
+  "841573821": {
+    "Variable Name": "How old were you when you had your spleen removed (splenectomy)? - CSH"
   },
   "842088582": {
     "Variable Label": "How many cigarettes used, [X / 70] and older",
@@ -19545,10 +19768,7 @@
     "Variable Name": "Seasonal Address 5- In general, how many months per year did you spend at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]?"
   },
   "850202336": {
-    "Variable Label": "Insulin Conc",
-    "Variable Name": [
-      "SrvMRE_InsulinConc_v1r0"
-    ]
+    "Variable Name": "On the days that you took insulin, what concentration did you take? - SOURCE"
   },
   "850393641": {
     "Variable Label": "Mins To Fall Asleep On Workdays",
@@ -19796,6 +20016,12 @@
       "BioClin_UrnOrdPlacedF3_v1r0"
     ]
   },
+  "860839849": {
+    "Variable Label": "Screening Srv - Fallopian Tube Surg",
+    "Variable Name": [
+      "SrvScr_FallTubeSurg_v1r0"
+    ]
+  },
   "860920332": {
     "Variable Name": "How old were you when you first had liposuction?"
   },
@@ -20001,6 +20227,12 @@
     "Variable Label": "Country",
     "Variable Name": [
       "SrvLAW_PreWorkCountry_v1r0"
+    ]
+  },
+  "867171046": {
+    "Variable Label": "Age started smoking hookah or water pipe on a regular basis, Never smoked",
+    "Variable Name": [
+      "SrvSAS_NeverHookah_v2r0"
     ]
   },
   "867203506": {
@@ -20558,6 +20790,9 @@
   "890182396": {
     "Variable Name": "IHCS Staff"
   },
+  "890391968": {
+    "Variable Name": "Please select the body parts you were both with.  Select all that apply. - CSH"
+  },
   "890637099": {
     "Variable Label": "Sib 1 Living",
     "Variable Name": [
@@ -20655,10 +20890,7 @@
     ]
   },
   "893965588": {
-    "Variable Label": "Pills/Day Celebrex, Don't Know",
-    "Variable Name": [
-      "SrvMRE_CelebrexPillDK_v1r0"
-    ]
+    "Variable Name": "Pills per day Celebrex (celecoxib) - SOURCE"
   },
   "893966847": {
     "Variable Label": "Dialysis",
@@ -20839,10 +21071,7 @@
     ]
   },
   "901498441": {
-    "Variable Label": "Pills/Day Anti-Hypertensive Meds, Don't Know",
-    "Variable Name": [
-      "SrvMRE_AntiHypPillsDK_v1r0"
-    ]
+    "Variable Name": "Pills per day anti-hypertensive medication/drugs used to treat hypertension (high blood pressure) - SOURCE"
   },
   "901521065": {
     "Variable Name": "Face/Head only"
@@ -20996,6 +21225,9 @@
     "Variable Name": [
       "SrvBOH_City_v1r0"
     ]
+  },
+  "907385951": {
+    "Variable Name": "How old were you when you had other breast surgery? - CSH"
   },
   "907490539": {
     "Variable Name": "In the past 7 days / During the past 7 days - Fatigue"
@@ -21262,10 +21494,7 @@
     ]
   },
   "920576363": {
-    "Variable Label": "Do Not Know Current",
-    "Variable Name": [
-      "SrvLAW_CurDontKnow_v1r0"
-    ]
+    "Variable Name": "Please provide the following information: - SOURCE"
   },
   "920653797": {
     "Variable Label": "Taxi Time Cur Work Post Pan",
@@ -21612,10 +21841,7 @@
     ]
   },
   "933417196": {
-    "Variable Label": "Number of servings use/used THC concentrates, servings per day, do not know",
-    "Variable Name": [
-      "SrvSAS_THCServingsDK_v2r1"
-    ]
+    "Variable Name": "On days that you [dab/dabbed] THC concentrates, how many servings [do/did] you have per day? - SOURCE"
   },
   "933646000": {
     "Variable Label": "Oth",
@@ -21712,6 +21938,9 @@
     "Variable Name": [
       "SrvLAW_CurWorkT12_v1r0"
     ]
+  },
+  "936444833": {
+    "Variable Name": "How old were you when you had removal of a part of my breast tissue (breast-conserving surgery (BCS), lumpectomy, partial mastectomy, or segmental mastectomy)? - CSH"
   },
   "936573532": {
     "Variable Name": "Vaginal"
@@ -21888,10 +22117,7 @@
     ]
   },
   "942945860": {
-    "Variable Label": "Age first used electronic marijuana delivery devices on a regular basis, Never used",
-    "Variable Name": [
-      "SrvSAS_NeverEMJDev_v2r1"
-    ]
+    "Variable Name": "How old were you when you started vaping cannabis on a regular basis? - SOURCE"
   },
   "942970912": {
     "Variable Label": "Colon/Rectal",
@@ -22015,8 +22241,7 @@
   "946504570": {
     "Variable Label": "Testicle Removal Surg",
     "Variable Name": [
-      "SrvBOH_TestRemSurg_v1r0",
-      "SrvScr_TestRemSurg_v1r0"
+      "SrvBOH_TestRemSurg_v1r0"
     ]
   },
   "946710366": {
@@ -22041,6 +22266,12 @@
     "Variable Label": "PIN Match",
     "Variable Name": [
       "RcrtES_PINmatch_v1r0"
+    ]
+  },
+  "948311744": {
+    "Variable Label": "Age first smoked marijuana on a regular basis, Never smoked",
+    "Variable Name": [
+      "SrvSAS_NeverSmokeMJ_v2r1"
     ]
   },
   "948416598": {
@@ -22094,6 +22325,9 @@
   "949555271": {
     "Variable Name": "7 to 8 hours"
   },
+  "949587133": {
+    "Variable Name": "How old were you when you had one or both fallopian tubes removed (salpingectomy)? If you have had more than one procedure, at what age did you last have this procedure? - CSH"
+  },
   "949663397": {
     "Variable Label": "Days/Cycle Used -  Oth Progestin/Progesterone-Only Med",
     "Variable Name": [
@@ -22129,6 +22363,9 @@
   },
   "950591599": {
     "Variable Name": "Most of the time"
+  },
+  "950690103": {
+    "Variable Name": "How old were you when you had breast lift surgery (mastopexy)? - CSH"
   },
   "950773275": {
     "Variable Label": "Alcohol-based mouthwash",
@@ -22171,6 +22408,12 @@
     "Variable Label": "SAS Surv Vers",
     "Variable Name": [
       "SrvSAS_SrvVersionSAS_v1r0"
+    ]
+  },
+  "951847507": {
+    "Variable Label": "Screening Srv - Kidney Surg Type",
+    "Variable Name": [
+      "SrvScr_KidneySurgType_v1r0"
     ]
   },
   "951901114": {
@@ -22350,10 +22593,7 @@
     "Variable Name": "Less than 1 year"
   },
   "958419506": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_1PrimaryWater1_v1r0"
-    ]
+    "Variable Name": "Address 1- What [is/was] the source of water to [insert address from HOMEADD1 - HOMEADD3/ current address/the 2nd address you provided/etc.]? - SOURCE"
   },
   "958538953": {
     "Variable Name": "Yes, in the past 3 months"
@@ -22567,6 +22807,9 @@
       "SrvBOH_AcneMedL_v1r1"
     ]
   },
+  "967156738": {
+    "Variable Name": "I had both of my breasts removed, each during a separate surgery"
+  },
   "967372009": {
     "Variable Label": "Recorded Message",
     "Variable Name": [
@@ -22745,6 +22988,9 @@
   "975198123": {
     "Variable Name": "Seasonal Address 1- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select: I still spend time here."
   },
+  "975268706": {
+    "Variable Name": "How old were you when you had breast reconstruction surgery? - CSH"
+  },
   "976052812": {
     "Variable Label": "Last Time Anti-Hypertensive Meds",
     "Variable Name": [
@@ -22768,6 +23014,9 @@
     "Variable Name": [
       "SrvLAW_SeaAdd7DPWell_v1r0"
     ]
+  },
+  "976626196": {
+    "Variable Name": "How old were you when you had your thyroid removed (thyroidectomy)? - CSH"
   },
   "976808005": {
     "Variable Name": "Black, African American, or African- Which of these describes you best? Select all that apply."
@@ -22818,6 +23067,12 @@
     "Variable Label": "Longest held occupration, job includes driving",
     "Variable Name": [
       "SrvLAW_PreWorkDrive_v2r0"
+    ]
+  },
+  "980028298": {
+    "Variable Label": "Number of servings consumed  marijuana in food or drinks, servings per day don't know",
+    "Variable Name": [
+      "SrvSAS_EdiblesServingsDK_v2r0"
     ]
   },
   "980120253": {
@@ -23195,10 +23450,7 @@
     ]
   },
   "991622246": {
-    "Variable Label": "Metformin Mg, Don't Know",
-    "Variable Name": [
-      "SrvMRE_MetforminMgDK_v1r0"
-    ]
+    "Variable Name": "Metformin milligrams - SOURCE"
   },
   "991871399": {
     "Variable Label": "Ever had upper endoscopy",
@@ -23360,6 +23612,9 @@
     "Variable Name": [
       "SrvLAW_HomeWtr3_8_Oth_v1r0"
     ]
+  },
+  "998519118": {
+    "Variable Name": "How old were you when you had one or both kidneys removed (nephrectomy)? If you had more than one procedure, at what age did you last have this procedure? - CSH"
   },
   "998679771": {
     "Variable Name": "31 to 59 minutes"
