@@ -10,9 +10,13 @@
   "Current Source Question": [
     "790436165.json"
   ],
-  "GridID/Source Question Name": [
-    "CIG3"
+  "V1 Source Question": [
+    "Age first used cigarettes on a regular basis"
   ],
+  "GridID/Source Question Name": [
+    "CIG3_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "408696162",
   "Current Question Text": "Age first used cigarettes on a regular basis number",
   "Variable Label": "Age first used cigarettes on a regular basis",
@@ -28,6 +32,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=valueOrDefault(\"\"D_194557808\"\",0) max=sum(isDefined(D_150344905,age),1)",
-  "Date added or modified": "8/28/23",
-  "IMS Review Notes": "Added range check to Notes."
+  "Date added or modified": "8/28/2023; 11/19/2024",
+  "IMS Review Notes": "Added range check to Notes. Unharmonized source question from question text."
 }

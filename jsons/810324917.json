@@ -1,61 +1,8 @@
 {
   "conceptId": "810324917",
-  "Current Question Text": "Why [do/did] you consume cannabis edibles, drinks, or capsules?",
+  "Current Question Text": "Why [do/did] you consume cannabis edibles, drinks, or capsules? - SOURCE",
   "subcollections": [
-    "810324917.json",
+    "409356583.json",
     "479400169.json"
-  ],
-  "Primary Source": [
-    "129084651.json"
-  ],
-  "Secondary Source": [
-    "965707586.json"
-  ],
-  "Current Source Question": [
-    "810324917.json"
-  ],
-  "V1 Source Question": [
-    "Why [do/did] you consume marijuana in food or drinks?"
-  ],
-  "GridID/Source Question Name": [
-    "EAMAR10"
-  ],
-  "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "8/29/22",
-  "V2 Question Text": "Why [do/did] you consume marijuana in food or drinks?",
-  "V1 Question Text": "Why [do/did] you use marijuana in food or drinks?",
-  "Variable Label": "Why consume marijuana in food or drinks",
-  "Variable Name": [
-    "SrvSAS_WhyEdibles_v3r0"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "EAMAR10"
-  ],
-  "Variable Type": "Num",
-  "Variable Length": "2",
-  "Required": "No",
-  "PII": "No",
-  "Date added or modified": "2/2/2023; 10/4/2024",
-  "IMS Review Notes": "Backlog documentation of 12/6/2022 edit. Denoted revised status, V1 question text, variable name suffix _v2r0. Updated source question and question text.",
-  "Formula for Index": [
-    "5545",
-    "5546",
-    "5547",
-    "5548",
-    "5549"
-  ],
-  "Index": [
-    "5545",
-    "5546",
-    "5547",
-    "5548",
-    "5549"
-  ],
-  "Current Format/Value": {
-    "437269318.json": "0",
-    "838317013.json": "1",
-    "585672584.json": "2",
-    "807835037.json": "55",
-    "746038746.json": "99"
-  }
+  ]
 }

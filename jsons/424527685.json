@@ -10,9 +10,13 @@
   "Current Source Question": [
     "257300783.json"
   ],
-  "GridID/Source Question Name": [
-    "CHEW3"
+  "V1 Source Question": [
+    "Age started using chewing tobacco, snus, snuff, or dip on a regular basis"
   ],
+  "GridID/Source Question Name": [
+    "CHEW3_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "424527685",
   "Current Question Text": "Age started using chewing tobacco, snus, snuff, or dip on a regular basis number",
   "Variable Label": "Age started using chewing tobacco, snus, snuff, or dip on a regular basis",
@@ -28,6 +32,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=isDefined(D_213679054,0) max=sum(isDefined(D_150344905,age),1)",
-  "Date added or modified": "8/29/23",
-  "IMS Review Notes": "Added range check to Notes"
+  "Date added or modified": "8/29/2023; 11/19/2024",
+  "IMS Review Notes": "Added range check to Notes. Unharmonized source question from question text."
 }

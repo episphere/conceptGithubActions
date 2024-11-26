@@ -10,9 +10,13 @@
   "Current Source Question": [
     "614145455.json"
   ],
-  "GridID/Source Question Name": [
-    "MENSHIS7"
+  "V1 Source Question": [
+    "Please pick the option that best describes why you have not had a menstrual period in the past 12 months:"
   ],
+  "GridID/Source Question Name": [
+    "MENSHIS7_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "672810476",
   "Current Question Text": "Please pick the option that best describes why you have not had a menstrual period in the past 12 months: [text box]",
   "Variable Label": "No Mens Pd in 12 Mo - Free Text",
@@ -26,5 +30,6 @@
   "Variable Length": "300",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "10/8/21"
+  "Date added or modified": "10/8/2021; 11/19/2024",
+  "IMS Review Notes": "Unharmonized source question from question text."
 }

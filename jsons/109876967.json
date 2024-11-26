@@ -1,0 +1,39 @@
+{
+  "Formula for Index": "3682",
+  "Index": "3682",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "Current Source Question": [
+    "991622246.json"
+  ],
+  "V1 Source Question": [
+    "Metformin milligrams"
+  ],
+  "GridID/Source Question Name": [
+    "METFOR3_1_SRC"
+  ],
+  "conceptId": "109876967",
+  "Current Question Text": "Metformin milligrams",
+  "V1 Question Text": "Question text diverged from source question.",
+  "Variable Label": "Metformin Mg, Don't Know",
+  "Variable Name": [
+    "SrvMRE_MetforminMgDK_v2r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "METFOR3_1"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Current Format/Value": {
+    "178420302.json": "77"
+  },
+  "Required": "No",
+  "PII": "No",
+  "Notes": "METFOR= 1",
+  "Date added or modified": "10/5/2021; 11/19/2024",
+  "IMS Review Notes": "Unharmonized source question from question text and versioned up variable name."
+}
