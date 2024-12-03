@@ -2179,7 +2179,8 @@
       "SrvPES_PHONE2D_v1r0",
       "SrvPES_TABLET2H_v1r0",
       "SrvPES_COMP2E_v1r0",
-      "SrvMtW_DENTURESDK_v1r0"
+      "SrvMtW_DENTURESDK_v1r0",
+      "SrvScr_SKIN1DK_v1r0"
     ]
   },
   "178609656": {
@@ -8725,7 +8726,7 @@
   "439736294": {
     "Variable Label": "Kidney Surg Type",
     "Variable Name": [
-      "SrvBOH_KidneySurgType_v1r0"
+      "SrvBOH_KIDREM_v1r0"
     ]
   },
   "439760665": {
@@ -19301,10 +19302,7 @@
     ]
   },
   "832322940": {
-    "Variable Label": "Don't know how much body was screened",
-    "Variable Name": [
-      "SrvScr_SKIN1DK_v1r0"
-    ]
+    "Variable Name": "Don't know"
   },
   "832614280": {
     "Variable Label": "Bag 38",
@@ -22413,7 +22411,7 @@
   "951847507": {
     "Variable Label": "Screening Srv - Kidney Surg Type",
     "Variable Name": [
-      "SrvScr_KidneySurgType_v1r0"
+      "SrvScr_KIDREM_v1r0"
     ]
   },
   "951901114": {
