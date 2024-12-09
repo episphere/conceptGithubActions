@@ -1,0 +1,38 @@
+{
+  "Primary Source": [
+    "840173959.json"
+  ],
+  "Secondary Source": [
+    "686238347.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "205380968",
+  "Current Question Text": "Measure for engagement in muscle-strengthening activities",
+  "Variable Label": "Measure for engagement in muscle-strengthening activities",
+  "Variable Name": [
+    "ROIPhy_MuscStrngthEng_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Should be nested under Secondary Source (Physical Activity)",
+  "Derivation Notes": "The binary strengthening variable was derived from SrvMRE_Strengthening_v1r0. Participants who reported engaging in strengthening activities were categorized as 'Yes'. All others [those who reported not engaging in the activity and those who skipped the question] were categorized as 'No'. The difference between the derived variable and SrvMRE_Strengthening_v1r0 is that the only two options for the derived variable are Yes/No, rather than Yes/No/Missing.",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "12/6/24",
+  "GCP Document/Table": "Participants Table",
+  "Formula for Index": [
+    "2063",
+    "2064"
+  ],
+  "Index": [
+    "2063",
+    "2064"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}
