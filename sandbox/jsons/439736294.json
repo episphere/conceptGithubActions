@@ -9,21 +9,21 @@
   "Current Question Text": "Which of these best describes the type of kidney removal surgery that you had?",
   "Variable Label": "Kidney Surg Type",
   "Variable Name": [
-    "SrvBOH_KIDREM_v1r0"
+    "SrvBOH_KidneySurgType_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "KIDREM"
   ],
   "Notes": "Only display if MHGROUP9 = nephrectomy",
   "Formula for Index": [
-    "2632",
-    "2633",
-    "2634"
+    "2648",
+    "2649",
+    "2650"
   ],
   "Index": [
-    "2632",
-    "2633",
-    "2634"
+    "2648",
+    "2649",
+    "2650"
   ],
   "Deprecated, New, or Revised": [
     "New",
@@ -46,12 +46,12 @@
     "535003378.json": "88"
   },
   "Date added or modified": [
-    "11/7/24",
+    "11/7/2024; 12/9/2024",
     "11/7/24",
     "11/7/24"
   ],
   "IMS Review Notes": [
-    "New variable added to M1 to match Cancer Screening History Survey",
+    "New variable added to M1 to match Cancer Screening History Survey. Updated variable name for consistency.",
     "New variable added to M1 to match Cancer Screening History Survey",
     "New variable added to M1 to match Cancer Screening History Survey"
   ]

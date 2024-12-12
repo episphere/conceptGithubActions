@@ -1,18 +1,22 @@
 {
   "Primary Source": [
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "726699695.json"
+    "726699695.json",
+    "369168474.json"
   ],
   "conceptId": "431721131",
   "Current Question Text": "Who completed this survey section?",
   "Variable Label": "Who Completed Survey",
   "Variable Name": [
-    "SrvBOH_WhoComplQx_v1r0"
+    "SrvBOH_WhoComplQx_v1r0",
+    "SrvScr_WhoComplQx_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "QXAUTHOR1"
+    "QXAUTHOR1",
+    "SrvScr_WhoComplQx_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -20,15 +24,17 @@
   "PII": "No",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "3504",
-    "3505"
+    "3520",
+    "3521"
   ],
   "Index": [
-    "3504",
-    "3505"
+    "3520",
+    "3521"
   ],
   "Current Format/Value": {
     "589702540.json": "0",
     "275706407.json": "1"
-  }
+  },
+  "Date added or modified": "12/9/24",
+  "IMS Review Notes": "Question added to qx before production push"
 }

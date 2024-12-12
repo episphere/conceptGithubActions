@@ -9,23 +9,24 @@
   "Current Question Text": "Which of these best describes the type of kidney removal surgery that you had? - CSH",
   "Variable Label": "Screening Srv - Kidney Surg Type",
   "Variable Name": [
-    "SrvScr_KIDREM_v1r0"
+    "SrvScr_KidneySurgType_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "SrvScr_KIDREM_v1r0"
+    "SrvScr_KidneySurgType_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Notes": "Only display if SrvScr_MHGROUP9_v2r1 = removal of one or both kidneys",
+  "IMS Review Notes": "Updated the variable name for consistency with other surgeries and M1.  Updated Connect value.",
   "Formula for Index": [
-    "9363",
-    "9364",
-    "9365"
+    "9379",
+    "9380",
+    "9381"
   ],
   "Index": [
-    "9363",
-    "9364",
-    "9365"
+    "9379",
+    "9380",
+    "9381"
   ],
   "Current Format/Value": {
     "113771607.json": "0",
@@ -43,7 +44,7 @@
     "No"
   ],
   "Date added or modified": [
-    "11/7/24",
+    "11/7/2024; 12/9/2024",
     "11/7/24",
     "11/7/24"
   ]

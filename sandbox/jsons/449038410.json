@@ -1,0 +1,41 @@
+{
+  "Primary Source": [
+    "840173959.json"
+  ],
+  "Secondary Source": [
+    "686238347.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "449038410",
+  "Current Question Text": "Physical activity guideline comparison",
+  "Variable Label": "Physical activity guideline comparison",
+  "Variable Name": [
+    "ROIPhy_PAGuideline_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Should be nested under Secondary Source (Physical Activity)",
+  "Derivation Notes": "The categorical guideline minutes variable was calculated as a comparison to the national physical activity guideline recommendations. < 150 guideline minutes ~ not meeting, 150-300 guideline minutes ~ meeting,     > 300 guideline minutes ~ exceeding. Guideline minutes is a harmonized minutes per week variable calculated using the following formula: moderate aerobic minutes per week + (vigorous minutes per week * 2).",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "12/6/24",
+  "GCP Document/Table": "Participants Table",
+  "Formula for Index": [
+    "2065",
+    "2066",
+    "2067"
+  ],
+  "Index": [
+    "2065",
+    "2066",
+    "2067"
+  ],
+  "Current Format/Value": {
+    "104593854.json": "0",
+    "682636404.json": "1",
+    "948593796.json": "2"
+  }
+}

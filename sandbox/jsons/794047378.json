@@ -1,0 +1,28 @@
+{
+  "Formula for Index": "2052",
+  "Index": "2052",
+  "Primary Source": [
+    "840173959.json"
+  ],
+  "Secondary Source": [
+    "686238347.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "794047378",
+  "Current Question Text": "Number of Available Physical Activity Reports",
+  "Variable Label": "Number of Available Physical Activity Reports",
+  "Variable Name": [
+    "ROIPhy_NumPAReports_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Current Format/Value": "example: 99",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Should be nested under Secondary Source (Physical Activity).",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "12/6/24",
+  "GCP Document/Table": "Participants Table"
+}
