@@ -1,0 +1,28 @@
+{
+  "Formula for Index": "2069",
+  "Index": "2069",
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "883203566.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "164775199",
+  "Current Question Text": "UTM_Medium",
+  "Variable Label": "UTM_Medium",
+  "Variable Name": [
+    "RcrtSI_UTMMedium_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "25",
+  "Current Format/Value": "Ex: email",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "What digital material was the UTM embedded in: email, SMS, MyChart invitation, etc. Not nested, stored in Participants Table, sites to pull via getParticipantData API.",
+  "Dictionary": "Recruitment",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "1/9/25",
+  "GCP Document/Table": "Participants"
+}

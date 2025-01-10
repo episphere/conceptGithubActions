@@ -1,0 +1,32 @@
+{
+  "Formula for Index": "7030",
+  "Index": "7030",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "595347022.json"
+  ],
+  "GridID/Source Question Name": [
+    "CURWORKPOSTPAN2_SRC"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "934302609",
+  "Current Question Text": "Post Pan Employer Zip code - Follow-Up",
+  "Variable Label": "Cur Work Zip Post Pan Follow Up",
+  "Variable Name": [
+    "SrvLAW_WkZipPstPan2_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CURWORKPOSTPANZIP_FOLLOWUP"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "8",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "10/8/2024; 12/31/2024",
+  "IMS Review Notes": "Added new question. Updated Source Q and Current Question text to match Questionnaire and deleted CIDs. Unharmonized Sourse Q from Question text"
+}

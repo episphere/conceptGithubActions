@@ -1,0 +1,35 @@
+{
+  "Formula for Index": "7035",
+  "Index": "7035",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "710127044.json"
+  ],
+  "GridID/Source Question Name": [
+    "CURWORKPOSTPAN3_SRC"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "932235910",
+  "Current Question Text": "Post Pan work - Please provide the cross streets of the intersection closest to this address:",
+  "Variable Label": "Cur Work Post Pan Cross St Unknown",
+  "Variable Name": [
+    "SrvLAW_WkPstPanStUnk_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CURWORKPOSTPAN3UNK"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Current Format/Value": {
+    "178420302.json": "77"
+  },
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "10/8/2024; 12/31/2024",
+  "IMS Review Notes": "Added new question. Updated Source Q and Current Question text to match Questionnaire and deleted CIDs. Unharmonized Sourse Q from Question text"
+}
