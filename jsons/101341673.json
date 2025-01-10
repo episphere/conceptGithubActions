@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "7213",
-  "Index": "7213",
+  "Formula for Index": "7212",
+  "Index": "7212",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,9 +10,13 @@
   "Current Source Question": [
     "263588196.json"
   ],
-  "GridID/Source Question Name": [
-    "CURWORK2"
+  "V1 Source Question": [
+    "Current work- Please provide the following information:"
   ],
+  "GridID/Source Question Name": [
+    "CURWORK2_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "101341673",
   "Current Question Text": "Employer Zip code - Follow-Up",
   "Variable Label": "Zip code",
@@ -24,5 +28,6 @@
   ],
   "Variable Type": "Char",
   "Variable Length": "8",
-  "Date added or modified": "7/25/22"
+  "Date added or modified": "7/25/2022; 12/31/2024",
+  "IMS Review Notes": "Unharmonized soure question and question text."
 }

@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "7543",
-  "Index": "7543",
+  "Formula for Index": "7542",
+  "Index": "7542",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,9 +10,13 @@
   "Current Source Question": [
     "668887646.json"
   ],
-  "GridID/Source Question Name": [
-    "CURSCH2"
+  "V1 Source Question": [
+    "Commute school- Please provide the following information:"
   ],
+  "GridID/Source Question Name": [
+    "CURSCH2_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "977086216",
   "Current Question Text": "Commute School State/Province- Follow Up",
   "Variable Label": "State/Province",
@@ -26,5 +30,6 @@
   "Variable Length": "48",
   "Required": "No",
   "PII": "Yes",
-  "Date added or modified": "3/3/22"
+  "Date added or modified": "3/3/2022; 12/31/2024",
+  "IMS Review Notes": "Unharmonized source question and question text."
 }

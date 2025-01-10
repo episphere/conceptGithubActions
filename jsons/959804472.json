@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "7207",
-  "Index": "7207",
+  "Formula for Index": "7206",
+  "Index": "7206",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,9 +10,13 @@
   "Current Source Question": [
     "596318751.json"
   ],
+  "V1 Source Question": [
+    "What is the name and the street address of the workplace that you commute to most often?"
+  ],
   "GridID/Source Question Name": [
     "CURWORK1"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "959804472",
   "Current Question Text": "Employer City",
   "Variable Label": "City",
@@ -25,5 +29,7 @@
   "Variable Type": "Char",
   "Variable Length": "45",
   "Required": "No",
-  "PII": "Yes"
+  "PII": "Yes",
+  "Date added or modified": "12/31/24",
+  "IMS Review Notes": "Changed source question to past tense to match the qx document."
 }

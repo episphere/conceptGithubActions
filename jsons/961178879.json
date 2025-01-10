@@ -14,18 +14,21 @@
   "Current Source Question": [
     "961178879.json"
   ],
+  "V2 Source Question": [
+    "In a usual week, about how often do you use tap water from your home to make a cup of coffee? We are interested in all tap water, whether or not it has been filtered or treated."
+  ],
   "V1 Source Question": [
     "In a usual week, about how often do you use tap water from your home to make a cup of coffee?"
   ],
   "GridID/Source Question Name": [
-    "DRINKSWTR2B"
+    "DRINKSWTR2B_SRC"
   ],
   "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "7/5/23",
+  "V2 Question Text": "Question text diverged from source question.",
   "V1 Question Text": "In a usual week, about how often do you use tap water from your home to make a cup of coffee?",
   "Variable Label": "Drink tap water, coffee",
   "Variable Name": [
-    "SrvLAW_TapWaterCoffee_v2r0"
+    "SrvLAW_TapWaterCoffee_v3r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "DRINKSWTR2B"
@@ -34,23 +37,24 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "2/24/23",
-  "IMS Review Notes": "Updated source question, question text, variable name suffix, and denoted as revised",
+  "Notes": "Revision pushed to production on 7/5/2023.",
+  "Date added or modified": "2/24/2023; 12/31/2024",
+  "IMS Review Notes": "Updated source question, question text, variable name suffix, and denoted as revised.  Unharmonized source question from question text, versioned up variable name, and added previous revision date to the notes column.",
   "Formula for Index": [
+    "6959",
     "6960",
     "6961",
     "6962",
     "6963",
-    "6964",
-    "6965"
+    "6964"
   ],
   "Index": [
+    "6959",
     "6960",
     "6961",
     "6962",
     "6963",
-    "6964",
-    "6965"
+    "6964"
   ],
   "Current Format/Value": {
     "706062016.json": "0",

@@ -1,11 +1,9 @@
 {
   "Primary Source": [
-    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "726699695.json",
-    "716117817.json"
+    "726699695.json"
   ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "847533056",
@@ -13,12 +11,10 @@
   "V1 Question Text": "Is this your longest-held job?",
   "Variable Label": "Longest Held Job",
   "Variable Name": [
-    "SrvBOH_LongestJob_v2r0",
-    "SrvLAW_LongestJbPstPan_v1r0"
+    "SrvBOH_LongestJob_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "WORK5",
-    "LONGESTJOBPOSTPAN"
+    "WORK5"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -27,16 +23,15 @@
   "Date added or modified": "9/13/24",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "3432",
-    "3433"
+    "3431",
+    "3432"
   ],
   "Index": [
-    "3432",
-    "3433"
+    "3431",
+    "3432"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  },
-  "IMS Review Notes": "Added new question"
+  }
 }

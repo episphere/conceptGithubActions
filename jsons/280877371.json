@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "6081",
-  "Index": "6081",
+  "Formula for Index": "6080",
+  "Index": "6080",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,9 +10,13 @@
   "Current Source Question": [
     "864213677.json"
   ],
-  "GridID/Source Question Name": [
-    "HOMEADD2_8"
+  "V1 Source Question": [
+    "Address 8-Please provide the following information:"
   ],
+  "GridID/Source Question Name": [
+    "HOMEADD2_8_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "280877371",
   "Current Question Text": "7-Previous City - Follow-up",
   "Variable Label": "City",
@@ -26,5 +30,6 @@
   "Variable Length": "45",
   "Required": "No",
   "PII": "Yes",
-  "Date added or modified": "3/3/22"
+  "Date added or modified": "3/3/2022; 12/11/2024",
+  "IMS Review Notes": "Unharmonized source Q and question text."
 }

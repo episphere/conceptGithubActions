@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "6025",
-  "Index": "6025",
+  "Formula for Index": "6024",
+  "Index": "6024",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,9 +10,13 @@
   "Current Source Question": [
     "212343294.json"
   ],
-  "GridID/Source Question Name": [
-    "HOMEADD2_5"
+  "V1 Source Question": [
+    "Address 5-Please provide the following information:"
   ],
+  "GridID/Source Question Name": [
+    "HOMEADD2_5_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "348049244",
   "Current Question Text": "4-Previous State/Province - Follow-up",
   "Variable Label": "State/Province",
@@ -26,5 +30,6 @@
   "Variable Length": "48",
   "Required": "No",
   "PII": "Yes",
-  "Date added or modified": "3/3/22"
+  "Date added or modified": "3/3/2022; 12/11/2024",
+  "IMS Review Notes": "Unharmonized source Q and question text."
 }

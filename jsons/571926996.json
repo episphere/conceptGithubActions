@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "6489",
-  "Index": "6489",
+  "Formula for Index": "6488",
+  "Index": "6488",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,9 +10,13 @@
   "Current Source Question": [
     "558981691.json"
   ],
-  "GridID/Source Question Name": [
-    "SEASADD2_4"
+  "V1 Source Question": [
+    "Season Address 4-Please provide the following information:"
   ],
+  "GridID/Source Question Name": [
+    "SEASADD2_4_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "571926996",
   "Current Question Text": "4-Seasonal City - Follow-up",
   "Variable Label": "City",
@@ -26,5 +30,6 @@
   "Variable Length": "45",
   "Required": "No",
   "PII": "Yes",
-  "Date added or modified": "3/3/22"
+  "Date added or modified": "3/3/2022; 12/11/2024",
+  "IMS Review Notes": "Unharmonized source Q and question text."
 }
