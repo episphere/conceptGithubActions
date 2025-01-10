@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "6589",
-  "Index": "6589",
+  "Formula for Index": "6588",
+  "Index": "6588",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,9 +10,13 @@
   "Current Source Question": [
     "921998144.json"
   ],
-  "GridID/Source Question Name": [
-    "SEASADD3_9"
+  "V1 Source Question": [
+    "Season Address 9-Please provide the cross streets of the intersection closest to this address:"
   ],
+  "GridID/Source Question Name": [
+    "SEASADD3_9_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "872527709",
   "Current Question Text": "9-Seasonal Full Street name #1",
   "Variable Label": "Full Street name #1",
@@ -26,5 +30,6 @@
   "Variable Length": "70",
   "Required": "No",
   "PII": "Yes",
-  "Date added or modified": "3/3/22"
+  "Date added or modified": "3/3/2022; 12/11/2024",
+  "IMS Review Notes": "Unharmonized source Q and question text."
 }

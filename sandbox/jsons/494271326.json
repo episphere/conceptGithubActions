@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "7547",
-  "Index": "7547",
+  "Formula for Index": "7546",
+  "Index": "7546",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,9 +10,13 @@
   "Current Source Question": [
     "443679537.json"
   ],
-  "GridID/Source Question Name": [
-    "CURSCH3"
+  "V1 Source Question": [
+    "Commute school- Please provide the cross streets of the intersection closest to this address:"
   ],
+  "GridID/Source Question Name": [
+    "CURSCH3_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "494271326",
   "Current Question Text": "Commute School Full Street name #1",
   "Variable Label": "Full Street name #1",
@@ -26,5 +30,6 @@
   "Variable Length": "70",
   "Required": "No",
   "PII": "Yes",
-  "Date added or modified": "3/3/22"
+  "Date added or modified": "3/3/2022; 12/31/2024",
+  "IMS Review Notes": "Unharmonized source question and question text."
 }

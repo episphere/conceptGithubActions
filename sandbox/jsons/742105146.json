@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "7212",
-  "Index": "7212",
+  "Formula for Index": "7211",
+  "Index": "7211",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,9 +10,13 @@
   "Current Source Question": [
     "263588196.json"
   ],
-  "GridID/Source Question Name": [
-    "CURWORK2"
+  "V1 Source Question": [
+    "Current work- Please provide the following information:"
   ],
+  "GridID/Source Question Name": [
+    "CURWORK2_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "742105146",
   "Current Question Text": "Employer State/Province - Follow-Up",
   "Variable Label": "State/Province",
@@ -26,5 +30,6 @@
   "Variable Length": "48",
   "Required": "No",
   "PII": "Yes",
-  "Date added or modified": "3/23/22"
+  "Date added or modified": "3/23/2022; 12/31/2024",
+  "IMS Review Notes": "Unharmonized soure question and question text."
 }

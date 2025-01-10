@@ -14,16 +14,21 @@
   "Current Source Question": [
     "285545471.json"
   ],
+  "V2 Source Question": [
+    "In a usual week, about how often do you drink tap water from your home? We are interested in all tap water, whether or not it has been filtered or treated."
+  ],
   "V1 Source Question": [
     "In a usual week, about how often do you drink tap water from your home?"
   ],
   "GridID/Source Question Name": [
-    "DRINKSWTR2A"
+    "DRINKSWTR2A_SRC"
   ],
+  "Deprecated, New, or Revised": "Revised",
+  "V2 Question Text": "Source question diverged from question text",
   "V1 Question Text": "In a usual week, about how often do you drink tap water from your home?",
   "Variable Label": "Drink tap water",
   "Variable Name": [
-    "SrvLAW_TapWaterNum_v2r0"
+    "SrvLAW_TapWaterNum_v3r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "DRINKSWTR2A"
@@ -32,23 +37,23 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "2/24/23",
-  "IMS Review Notes": "Updated source question, question text, and variable name suffix",
+  "Date added or modified": "2/24/2023; 12/31/2024",
+  "IMS Review Notes": "Updated source question, question text, and variable name suffix. Unharmonized source question from question text and versioned up variable name.",
   "Formula for Index": [
+    "6941",
     "6942",
     "6943",
     "6944",
     "6945",
-    "6946",
-    "6947"
+    "6946"
   ],
   "Index": [
+    "6941",
     "6942",
     "6943",
     "6944",
     "6945",
-    "6946",
-    "6947"
+    "6946"
   ],
   "Current Format/Value": {
     "706062016.json": "0",

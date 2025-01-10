@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "6918",
-  "Index": "6918",
+  "Formula for Index": "6917",
+  "Index": "6917",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,9 +10,13 @@
   "Current Source Question": [
     "469914719.json"
   ],
-  "GridID/Source Question Name": [
-    "CHILDADD3"
+  "V1 Source Question": [
+    "Child address- Please provide the cross streets of the intersection closest to this address:"
   ],
+  "GridID/Source Question Name": [
+    "CHILDADD3_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "952124199",
   "Current Question Text": "Child Address Full Street name #1",
   "Variable Label": "Full Street name #1",
@@ -26,5 +30,6 @@
   "Variable Length": "70",
   "Required": "No",
   "PII": "Yes",
-  "Date added or modified": "3/3/22"
+  "Date added or modified": "3/3/2022; 12/31/2024",
+  "IMS Review Notes": "Unharmonized source Q and question text."
 }

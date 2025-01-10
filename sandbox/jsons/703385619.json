@@ -1,38 +1,30 @@
 {
-  "Formula for Index": "7025",
-  "Index": "7025",
+  "Formula for Index": "290",
+  "Index": "290",
   "Primary Source": [
-    "129084651.json",
-    "129084651.json"
+    "192505768.json"
   ],
   "Secondary Source": [
-    "716117817.json",
-    "716117817.json"
+    "569151507.json"
   ],
-  "Current Source Question": [
-    "596318751.json",
-    "596318751.json"
-  ],
-  "GridID/Source Question Name": [
-    "CURWORKPOSTPAN1",
-    "CURWORKPOSTPAN2"
-  ],
-  "Deprecated, New, or Revised": "New",
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "11/14/24",
   "conceptId": "703385619",
-  "Current Question Text": "City",
-  "Variable Label": "Cur Work City Post Pan",
+  "Current Question Text": "Mailing Address- City",
+  "Variable Label": "Mailing Address City",
   "Variable Name": [
-    "SrvLAW_WkCtyPstPan1_v1r0",
-    "SrvLAW_WkCtyPstPan2_v1r0"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "CURWORKPOSTPANCITY",
-    "CURWORKPOSTPANCITY_FOLLOWUP"
+    "RcrtUP_MailCity_v1r0"
   ],
   "Variable Type": "Char",
   "Variable Length": "45",
-  "Required": "No",
-  "PII": "No",
-  "Date added or modified": "10/8/24",
-  "IMS Review Notes": "Added new question"
+  "Current Format/Value": "N/A",
+  "Required": "Yes",
+  "PII": "Yes",
+  "Notes": "Populated from Google Addresses",
+  "Dictionary": "Recruitment Data Dictionary, Biospecimen Clinical, Biospecimen Research",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "11/14/24",
+  "GCP Document/Table": "Participants Table Not nested (d_703385619) OR Nested structure: (d_569151507_d_703385619)",
+  "IMS Review Notes": "Updated Secondary Source to User Profile History"
 }

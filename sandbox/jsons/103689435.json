@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "6529",
-  "Index": "6529",
+  "Formula for Index": "6528",
+  "Index": "6528",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,9 +10,13 @@
   "Current Source Question": [
     "508587741.json"
   ],
-  "GridID/Source Question Name": [
-    "SEASADD2_6"
+  "V1 Source Question": [
+    "Season Address 6-Please provide the following information:"
   ],
+  "GridID/Source Question Name": [
+    "SEASADD2_6_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "103689435",
   "Current Question Text": "6-Seasonal Zip code - Follow-up",
   "Variable Label": "Zip code",
@@ -26,5 +30,6 @@
   "Variable Length": "8",
   "Required": "No",
   "PII": "Yes",
-  "Date added or modified": "7/25/22"
+  "Date added or modified": "7/25/2022; 12/11/2024",
+  "IMS Review Notes": "Unharmonized source Q and question text."
 }

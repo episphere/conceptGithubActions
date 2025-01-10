@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "6102",
-  "Index": "6102",
+  "Formula for Index": "6101",
+  "Index": "6101",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,9 +10,13 @@
   "Current Source Question": [
     "964853797.json"
   ],
-  "GridID/Source Question Name": [
-    "HOMEADD2_9"
+  "V1 Source Question": [
+    "Address 9-Please provide the following information:"
   ],
+  "GridID/Source Question Name": [
+    "HOMEADD2_9_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "659122266",
   "Current Question Text": "8-Previous Zip code - Follow-up",
   "Variable Label": "Zip code",
@@ -26,5 +30,6 @@
   "Variable Length": "8",
   "Required": "No",
   "PII": "Yes",
-  "Date added or modified": "7/25/22"
+  "Date added or modified": "7/25/2022; 12/11/2024",
+  "IMS Review Notes": "Unharmonized source Q and question text."
 }

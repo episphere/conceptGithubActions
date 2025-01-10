@@ -1,38 +1,35 @@
 {
-  "Formula for Index": "7021",
-  "Index": "7021",
+  "Formula for Index": "7202",
+  "Index": "7202",
   "Primary Source": [
-    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "716117817.json",
     "716117817.json"
   ],
   "Current Source Question": [
-    "596318751.json",
     "596318751.json"
   ],
+  "V1 Source Question": [
+    "What is the name and the street address of the workplace that you commute to most often?"
+  ],
   "GridID/Source Question Name": [
-    "CURWORKPOSTPAN1",
     "CURWORK1"
   ],
-  "Deprecated, New, or Revised": "New",
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "411791779",
   "Current Question Text": "Name of employer/company",
-  "Variable Label": "Cur Work Co Post Pan",
+  "Variable Label": "Employer name",
   "Variable Name": [
-    "SrvLAW_WkPstPan1_v1r0",
     "SrvLAW_CurWorkEmp_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "CURWORKPOSTPANEMP",
     "CURWORKEMP"
   ],
   "Variable Type": "Char",
   "Variable Length": "300",
   "Required": "No",
-  "PII": "No",
-  "Date added or modified": "10/8/24",
-  "IMS Review Notes": "Added new question"
+  "PII": "Yes",
+  "Date added or modified": "12/31/24",
+  "IMS Review Notes": "Changed source question to past tense to match the qx document."
 }

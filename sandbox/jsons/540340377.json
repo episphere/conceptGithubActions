@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "6511",
-  "Index": "6511",
+  "Formula for Index": "6510",
+  "Index": "6510",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,9 +10,13 @@
   "Current Source Question": [
     "194944818.json"
   ],
-  "GridID/Source Question Name": [
-    "SEASADD2_5"
+  "V1 Source Question": [
+    "Season Address 5-Please provide the following information:"
   ],
+  "GridID/Source Question Name": [
+    "SEASADD2_5_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "540340377",
   "Current Question Text": "5-Seasonal Country - Follow-up",
   "Variable Label": "Country",
@@ -26,5 +30,6 @@
   "Variable Length": "300",
   "Required": "No",
   "PII": "Yes",
-  "Date added or modified": "3/4/22"
+  "Date added or modified": "3/4/2022; 12/11/2024",
+  "IMS Review Notes": "Unharmonized source Q and question text."
 }

@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "6987",
-  "Index": "6987",
+  "Formula for Index": "6986",
+  "Index": "6986",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,14 +10,16 @@
   "Current Source Question": [
     "364303962.json"
   ],
+  "V2 Source Question": [
+    "In a usual week, about how often do you use tap water from your home to make any other beverages or soup? We are interested in all tap water, whether or not it has been filtered or treated."
+  ],
   "V1 Source Question": [
     "In a usual week, about how often do you use tap water from your home to make any other beverages or soup?"
   ],
   "GridID/Source Question Name": [
-    "DRINKSWTR2E"
+    "DRINKSWTR2E_SRC"
   ],
   "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "7/5/23",
   "conceptId": "130500844",
   "Current Question Text": "In a usual week, about how often do you use tap water from your home to make any other beverages or soup? We are interested in all tap water, whether or not it has been filtered or treated. Please describe [text box]",
   "V1 Question Text": "In a usual week, about how often do you use tap water from your home to make any other beverages or soup? Please describe [text box]",
@@ -33,7 +35,7 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "Yes",
-  "Notes": "Range check min=0 max=999",
-  "Date added or modified": "8/29/23",
-  "IMS Review Notes": "Added range check to Notes"
+  "Notes": "Range check min=0 max=999. Revision pushed to production on 7/5/2023.",
+  "Date added or modified": "8/29/2023; 12/31/2024",
+  "IMS Review Notes": "Added range check to Notes. Unharmonized source question from question text and added previous revision date to the notes column."
 }
