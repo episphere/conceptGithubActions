@@ -215,9 +215,10 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
             // console.log("Non empty currRow", currRow)
             isCurrRowDeprecated = currRow.includes('Deprecated'); 
             // console.log("🚀 ~ isCurrRowDeprecated:", isCurrRowDeprecated)
+            if (isCurrRowDeprecated) continue;
             if(currIndex < currRow.length) {
             let currElement = currRow[currIndex].trim();
-
+            
             if(currElement != ''){
                 //Create conceptIds if this exists
                 if(conceptIdObject[currIndex - 1]){
@@ -238,7 +239,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                                 found = true;
                             }
                         }
-                        if(found == false && !isCurrRowDeprecated) {
+                        if(found == false) {
                             jsonList.push({'conceptId':cid, 'Current Question Text':val})
                             fs.writeFileSync('./jsons/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Current Question Text':val},null, 2))
                             // if (!isDeprecated) {
