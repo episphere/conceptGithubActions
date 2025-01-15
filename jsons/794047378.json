@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2052",
-  "Index": "2052",
+  "Formula for Index": "2069",
+  "Index": "2069",
   "Primary Source": [
     "840173959.json"
   ],
@@ -19,10 +19,10 @@
   "Current Format/Value": "example: 99",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Should be nested under Secondary Source (Physical Activity).",
+  "Notes": "This variable will be used to track Available Reports similar to how we use 566565527 (Available Surveys). We don't want to nest this variable and use it to track Available Physical Activity Reports. We want to use it to track Available Reports similar to how we use 566565527 (Available Surveys).",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "1/9/25",
+  "Date added or modified": "1/15/25",
   "GCP Document/Table": "Participants Table"
 }
