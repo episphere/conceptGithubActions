@@ -16,21 +16,21 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Should be nested under Secondary Source (Physical Activity).",
+  "Notes": "Should be nested under Secondary Source (Physical Activity). Notifications would go out on report status = unread along with pt not withdrawn/not deceased, and being verified",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "Yes, Default to Unread",
-  "Date added or modified": "12/6/24",
+  "Date added or modified": "1/15/25",
   "GCP Document/Table": "Participants Table",
   "Formula for Index": [
-    "2053",
-    "2054",
-    "2055"
+    "2070",
+    "2071",
+    "2072"
   ],
   "Index": [
-    "2053",
-    "2054",
-    "2055"
+    "2070",
+    "2071",
+    "2072"
   ],
   "Current Format/Value": {
     "702641611.json": "0",
