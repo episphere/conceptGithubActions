@@ -188,13 +188,7 @@
     ]
   },
   "104430631": {
-    "Variable Label": "No permanent teeth lost",
-    "Variable Name": [
-      "SrvMtW_NOPERMTTHLOST_v1r0",
-      "SrvMtW_DENTURES_v1r0",
-      "SrvMtW_NOPERMTTHLOST_v1r0",
-      "SrvMtW_DENTURES_v1r0"
-    ]
+    "Variable Name": "No"
   },
   "104593854": {
     "Variable Name": "Not meeting"
@@ -249,10 +243,7 @@
     ]
   },
   "105941645": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_SeaAdd4PrWater_v1r0"
-    ]
+    "Variable Name": "Seasonal Address 4- What [is/was] the source of water to [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided? - SOURCE"
   },
   "106010694": {
     "Variable Label": "Last Blood Transfusion Yr",
@@ -290,9 +281,6 @@
       "SrvLAW_CurWorkRail_v1r0"
     ]
   },
-  "107714591": {
-    "Variable Name": "5 days"
-  },
   "108025529": {
     "Variable Label": "Fallopian Tubes",
     "Variable Name": [
@@ -315,8 +303,6 @@
   "108389123": {
     "Variable Label": "Long COVID Post-exercise feeling duration",
     "Variable Name": [
-      "SrvBlU_COV20A13_v1r0",
-      "SrvBlU_COV20A13_v1r0",
       "SrvCov_COV20A13_v1r0"
     ]
   },
@@ -353,8 +339,6 @@
   "109223043": {
     "Variable Label": "Long COVID Troubling remembering things duration",
     "Variable Name": [
-      "SrvBlU_COV20A3_v1r0",
-      "SrvBlU_COV20A3_v1r0",
       "SrvCov_COV20A3_v1r0"
     ]
   },
@@ -416,12 +400,7 @@
     ]
   },
   "110872086": {
-    "Variable Label": "Other Long COVID Symptom: Please Describe",
-    "Variable Name": [
-      "SrvBlU_COV19C6A_v1r0",
-      "SrvBlU_COV19C6A_v1r0",
-      "SrvCov_COV19C6A_v2r0"
-    ]
+    "Variable Name": "Since your COVID-19 diagnosis, have you experienced any other symptoms? - SOURCE"
   },
   "111082535": {
     "Variable Label": "IVF",
@@ -559,12 +538,6 @@
   "115616118": {
     "Variable Name": "Native Hawaiian or other Pacific Islander - Which of these describes you best? Select all that apply."
   },
-  "115909186": {
-    "Variable Label": "Use chewing tobacco, snus, snuff, or dip  every day, months",
-    "Variable Name": [
-      "SrvSAS_UseCTED_v1r0"
-    ]
-  },
   "115959973": {
     "Variable Label": "Pixel used",
     "Variable Name": [
@@ -659,10 +632,7 @@
     ]
   },
   "118738120": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_SeaAdd6PrWater_v1r0"
-    ]
+    "Variable Name": "Seasonal Address 6- What [is/was] the source of water to [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided? - SOURCE"
   },
   "118789503": {
     "Variable Label": "Liposuction",
@@ -756,7 +726,7 @@
     "Variable Name": "Revoked and signed"
   },
   "121490150": {
-    "Variable Name": "What is the full street address of the place where you live now?"
+    "Variable Name": "What is the full street address of the place where you live now? - SOURCE"
   },
   "121502359": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Pancreatic cancer?"
@@ -824,6 +794,12 @@
       "SrvSAS_NeverUseCTReg_v2r0"
     ]
   },
+  "124825757": {
+    "Variable Label": "Drink tap water",
+    "Variable Name": [
+      "SrvLAW_TapWaterNum_v3r0"
+    ]
+  },
   "124830305": {
     "Variable Label": "Number of Connect communications",
     "Variable Name": [
@@ -857,8 +833,6 @@
   "126794793": {
     "Variable Label": "Long COVID Return to usual activities",
     "Variable Name": [
-      "SrvBlU_COV19B4_v1r0",
-      "SrvBlU_COV19B4_v1r0",
       "SrvCov_COV19B4_v1r0"
     ]
   },
@@ -1157,10 +1131,7 @@
     ]
   },
   "138116092": {
-    "Variable Label": "Drink tap water, hot tea",
-    "Variable Name": [
-      "SrvLAW_TapWaterTea_v3r0"
-    ]
+    "Variable Name": "In a usual week, about how often do you use tap water from your home to make a cup of hot tea? We are interested in all tap water, whether or not it has been filtered or treated. - SOURCE"
   },
   "138332277": {
     "Variable Name": "Three to five times per week"
@@ -1168,7 +1139,7 @@
   "138397553": {
     "Variable Label": "Months commute to address",
     "Variable Name": [
-      "SrvLAW_CurWorkMos_v1r0"
+      "SrvLAW_CurWorkMos_v2r0"
     ]
   },
   "138752522": {
@@ -1294,8 +1265,6 @@
   "143206081": {
     "Variable Label": "Pandemic Tired duration",
     "Variable Name": [
-      "SrvBlU_COV24A3_v1r0",
-      "SrvBlU_COV24A3_v1r0",
       "SrvCov_COV24A3_v1r0"
     ]
   },
@@ -1335,8 +1304,6 @@
   "144819886": {
     "Variable Label": "Pandemic Feeling  after exercise duration",
     "Variable Name": [
-      "SrvBlU_COV24A10_v1r0",
-      "SrvBlU_COV24A10_v1r0",
       "SrvCov_COV24A10_v1r0"
     ]
   },
@@ -1394,6 +1361,12 @@
       "SrvSAS_Sunbathe12Mo_v1r0"
     ]
   },
+  "146384116": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_1PrimaryWater2_v2r0"
+    ]
+  },
   "146477090": {
     "Variable Name": "Type 1"
   },
@@ -1405,12 +1378,6 @@
   },
   "147016867": {
     "Variable Name": "Strongly disagree"
-  },
-  "147028925": {
-    "Variable Label": "Use e-cigarettes or other vaping devices every day, months",
-    "Variable Name": [
-      "SrvSAS_ECigUseDaysMo_v1r0"
-    ]
   },
   "147113671": {
     "Variable Label": "Country",
@@ -1469,10 +1436,7 @@
     ]
   },
   "149476435": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_SeaAdd3PrWater2_v1r0"
-    ]
+    "Variable Name": "Seasonal Address 3- What [is/was] the main source of water that you [drink/drank] at [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank]."
   },
   "149514187": {
     "Variable Label": "State/Province",
@@ -1485,12 +1449,6 @@
   },
   "149884127": {
     "Variable Name": "In which season(s) did you do Martial Arts (such as Karate or Judo)? Select all that apply."
-  },
-  "150344905": {
-    "Variable Label": "Age",
-    "Variable Name": [
-      "SrvBOH_Age_v1r1"
-    ]
   },
   "150352141": {
     "Variable Name": "How old were you when you had your uterus removed (hysterectomy)?"
@@ -1525,8 +1483,6 @@
   "151327643": {
     "Variable Label": "Pandemic Troubling remembering things",
     "Variable Name": [
-      "SrvBlU_COV23A4_v1r0",
-      "SrvBlU_COV23A4_v1r0",
       "SrvCov_COV23A4_v1r0"
     ]
   },
@@ -1615,10 +1571,7 @@
     ]
   },
   "154170916": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_10PrimaryWater1_v1r0"
-    ]
+    "Variable Name": "Address 10- What [is/was] the source of water to [insert address from HOMEADD1 - HOMEADD3/ current address/the 2nd address you provided/etc.]? - SOURCE"
   },
   "154229258": {
     "Variable Label": "Time, [OTHER FROM CURSCHT1]",
@@ -1647,6 +1600,12 @@
       "SrvBOH_Warts_v1r0"
     ]
   },
+  "155987172": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_8PrimaryWater1_v2r0"
+    ]
+  },
   "156095877": {
     "Variable Name": "2"
   },
@@ -1657,13 +1616,6 @@
       "BioClin_AnyBldUrnRecF1_v1r0",
       "BioClin_AnyBldUrnRecF2_v1r0",
       "BioClin_AnyBldUrnRecF3_v1r0"
-    ]
-  },
-  "157417942": {
-    "Variable Label": "Other Pandemic Symptom: Please describe textbox",
-    "Variable Name": [
-      "SrvBlU_COV23B8ADesc_v1r0",
-      "SrvBlU_COV23B8ADesc_v1r0"
     ]
   },
   "158044532": {
@@ -1720,9 +1672,6 @@
       "SrvSAS_SmokingTobCan_v2r0"
     ]
   },
-  "159625321": {
-    "Variable Name": "No, I want to enter another address (11th address)"
-  },
   "160036380": {
     "Variable Name": "Five or more"
   },
@@ -1738,8 +1687,6 @@
   "160627865": {
     "Variable Label": "Weakness or fatigue",
     "Variable Name": [
-      "SrvBlU_COV8D_v1r0",
-      "SrvBlU_COV8D_v1r0",
       "SrvCov_COV8D_v1r0"
     ]
   },
@@ -1776,8 +1723,6 @@
   "162167690": {
     "Variable Label": "Sore throat",
     "Variable Name": [
-      "SrvBlU_COV8I_v1r0",
-      "SrvBlU_COV8I_v1r0",
       "SrvCov_COV8I_v1r0"
     ]
   },
@@ -1829,9 +1774,6 @@
     "Variable Name": [
       "SrvLAW_Apt5_v1r0"
     ]
-  },
-  "164282814": {
-    "Variable Name": "7 days"
   },
   "164595895": {
     "Variable Label": "Days Long Recent Mens Cycle",
@@ -1922,8 +1864,6 @@
   "167695804": {
     "Variable Label": "Long COVID Appetite changes",
     "Variable Name": [
-      "SrvBlU_COV19A2_v1r0",
-      "SrvBlU_COV19A2_v1r0",
       "SrvCov_COV19A2_v1r0"
     ]
   },
@@ -1987,16 +1927,11 @@
   "169509213": {
     "Variable Label": "Dialysis Days",
     "Variable Name": [
-      "SrvBlU_COV17B_v1r0",
-      "SrvBlU_COV17B_v1r0",
       "SrvCov_COV17B_v1r0"
     ]
   },
   "170035952": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_SeaAdd2PrWater_v1r0"
-    ]
+    "Variable Name": "Seasonal Address 2- What [is/was] the source of water to [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided? - SOURCE"
   },
   "170440011": {
     "Variable Label": "Mom Living",
@@ -2042,13 +1977,6 @@
   },
   "173413183": {
     "Variable Name": "Season Address 1-Please provide the following information: - SOURCE"
-  },
-  "173502329": {
-    "Variable Label": "Infection Date Month",
-    "Variable Name": [
-      "SrvBlU_COV3_MONTH_v1r0",
-      "SrvBlU_COV3_MONTH_v1r0"
-    ]
   },
   "173508724": {
     "Variable Label": "Num People in House",
@@ -2116,16 +2044,16 @@
       "HdWd_WhoHIPAARevoke_v1r0"
     ]
   },
-  "175568583": {
-    "Variable Label": "Use marijana with tobacco every day, months",
-    "Variable Name": [
-      "SrvSAS_TobMJEDUseMo_v1r0"
-    ]
-  },
   "175732191": {
     "Variable Label": "Privacy Concerns",
     "Variable Name": [
       "HdRef_Privacy_v1r0"
+    ]
+  },
+  "175758099": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd2PrWater2_v2r0"
     ]
   },
   "175995366": {
@@ -2191,8 +2119,6 @@
   "178318661": {
     "Variable Label": "Stomach pain",
     "Variable Name": [
-      "SrvBlU_COV8M_v1r0",
-      "SrvBlU_COV8M_v1r0",
       "SrvCov_COV8M_v1r0"
     ]
   },
@@ -2243,8 +2169,6 @@
   "179406442": {
     "Variable Label": "ICU",
     "Variable Name": [
-      "SrvBlU_COV16A_v1r0",
-      "SrvBlU_COV16A_v1r0",
       "SrvCov_COV16A_v1r0"
     ]
   },
@@ -2372,9 +2296,6 @@
       "SrvLAW_SeasWtr1_9_Oth_v1r0"
     ]
   },
-  "184065355": {
-    "Variable Name": "No, I want to enter another address (2nd address)"
-  },
   "184448791": {
     "Variable Label": "Last 12 Mons - Golf",
     "Variable Name": [
@@ -2460,8 +2381,6 @@
   "187399900": {
     "Variable Label": "Pandemic Muscle Aches",
     "Variable Name": [
-      "SrvBlU_COV23B7_v1r0",
-      "SrvBlU_COV23B7_v1r0",
       "SrvCov_COV23B7_v1r0"
     ]
   },
@@ -2505,10 +2424,7 @@
     ]
   },
   "190307069": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_9PrimaryWater1_v1r0"
-    ]
+    "Variable Name": "Address 9- What [is/was] the source of water to [insert address from HOMEADD1 - HOMEADD3/ current address/the 2nd address you provided/etc.]? - SOURCE"
   },
   "190347832": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Crohn's Disease ?"
@@ -2674,10 +2590,7 @@
     "Variable Name": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had testicular cancer?"
   },
   "195367894": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_4PrimaryWater1_v1r0"
-    ]
+    "Variable Name": "Address 4- What [is/was] the source of water to [insert address from HOMEADD1 - HOMEADD3/ current address/the 2nd address you provided/etc.]? - SOURCE"
   },
   "195399696": {
     "Variable Name": "Operations"
@@ -2996,6 +2909,12 @@
       "SrvBOH_HairMale_v1r0"
     ]
   },
+  "206484262": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_8PrimaryWater2_v2r0"
+    ]
+  },
   "206625031": {
     "Variable Label": "Skin Cx Dx Age",
     "Variable Name": [
@@ -3301,14 +3220,17 @@
       "SrvLAW_CurWork0_v1r0"
     ]
   },
+  "211515619": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_9PrimaryWater2_v2r0"
+    ]
+  },
   "211590917": {
     "Variable Name": "Often"
   },
   "211740798": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_8PrimaryWater1_v1r0"
-    ]
+    "Variable Name": "Address 8- What [is/was] the source of water to [insert address from HOMEADD1 - HOMEADD3/ current address/the 2nd address you provided/etc.]? - SOURCE"
   },
   "212249150": {
     "Variable Name": "$50,000-$74,999/year"
@@ -3390,8 +3312,6 @@
   "215996690": {
     "Variable Label": "Long COVID Troubling remembering things",
     "Variable Name": [
-      "SrvBlU_COV19A4_v1r0",
-      "SrvBlU_COV19A4_v1r0",
       "SrvCov_COV19A4_v1r0"
     ]
   },
@@ -3446,8 +3366,6 @@
   "218793117": {
     "Variable Label": "Long COVID Post-exercise feeling",
     "Variable Name": [
-      "SrvBlU_COV19B5_v1r0",
-      "SrvBlU_COV19B5_v1r0",
       "SrvCov_COV19B5_v1r0"
     ]
   },
@@ -3463,8 +3381,6 @@
   "218852075": {
     "Variable Label": "Other: Please describe text box",
     "Variable Name": [
-      "SrvBlU_COV8S_OTH_v1r0",
-      "SrvBlU_COV8S_OTH_v1r0",
       "SrvCov_COV8S_OTH_v1r0"
     ]
   },
@@ -3483,8 +3399,6 @@
   "219358831": {
     "Variable Label": "Pandemic Racing Heart",
     "Variable Name": [
-      "SrvBlU_COV23B2_v1r0",
-      "SrvBlU_COV23B2_v1r0",
       "SrvCov_COV23B2_v1r0"
     ]
   },
@@ -3510,12 +3424,7 @@
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had ductal carcinoma in situ of the breast?"
   },
   "220055064": {
-    "Variable Label": "Vaccine Brand",
-    "Variable Name": [
-      "SrvBlU_COV28_v1r0",
-      "SrvBlU_COV28_v1r0",
-      "SrvCov_COV28_v2r0"
-    ]
+    "Variable Name": "Which COVID-19 vaccine shot did you get? - SOURCE"
   },
   "220083334": {
     "Variable Name": "Very feminine"
@@ -3608,8 +3517,6 @@
   "223008071": {
     "Variable Label": "Pandemic Trouble thinking or making decisions duration",
     "Variable Name": [
-      "SrvBlU_COV24A6_v1r0",
-      "SrvBlU_COV24A6_v1r0",
       "SrvCov_COV24A6_v1r0"
     ]
   },
@@ -3630,6 +3537,12 @@
   },
   "224120697": {
     "Variable Name": "Reddish-Brown"
+  },
+  "224157985": {
+    "Variable Label": "Vaccine Brand",
+    "Variable Name": [
+      "SrvCov_COV28_v2r0"
+    ]
   },
   "224209278": {
     "Variable Name": "In what month and year did you start commuting to [insert address from CURSCH1 - CURSCH3/this address]?"
@@ -3894,9 +3807,6 @@
       "BioPack_Bag28_v1r0"
     ]
   },
-  "235762633": {
-    "Variable Name": "No, I want to enter another address (8th address)"
-  },
   "236546933": {
     "Variable Label": "Russian",
     "Variable Name": [
@@ -3933,8 +3843,6 @@
   "238135048": {
     "Variable Label": "Long COVID Mood changes",
     "Variable Name": [
-      "SrvBlU_COV19C4_v1r0",
-      "SrvBlU_COV19C4_v1r0",
       "SrvCov_COV19C4_v1r0"
     ]
   },
@@ -4082,8 +3990,6 @@
   "243443780": {
     "Variable Label": "Pandemic Feeling  after exercise",
     "Variable Name": [
-      "SrvBlU_COV23B4_v1r0",
-      "SrvBlU_COV23B4_v1r0",
       "SrvCov_COV23B4_v1r0"
     ]
   },
@@ -4150,8 +4056,6 @@
   "246857412": {
     "Variable Label": "Pandemic Shortness of breath duration",
     "Variable Name": [
-      "SrvBlU_COV24A9_v1r0",
-      "SrvBlU_COV24A9_v1r0",
       "SrvCov_COV24A9_v1r0"
     ]
   },
@@ -4254,10 +4158,7 @@
     ]
   },
   "250486386": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_2PrimaryWater2_v1r0"
-    ]
+    "Variable Name": "Address 2- What [is/was] the main source of water that you [drink/drank] at [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank]. - SOURCE"
   },
   "251048648": {
     "Variable Name": "What type(s) of transportation did you use to get from [insert address from PREWORK1 - PREWORK3/this address] back home? Select all that apply."
@@ -4337,9 +4238,6 @@
       "RcrtCS_PrefLang_v1r0"
     ]
   },
-  "255112983": {
-    "Variable Name": "No, I want to add another seasonal or vacation home address (3rd address)"
-  },
   "255202365": {
     "Variable Name": "passwordAndPhone"
   },
@@ -4380,6 +4278,12 @@
     "Variable Label": "hCG",
     "Variable Name": [
       "SrvMRE_hCG_v1r0"
+    ]
+  },
+  "256150169": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd1PrWater2_v2r0"
     ]
   },
   "256196714": {
@@ -4456,6 +4360,12 @@
     "Variable Label": "Consumed marijuana in food or drinks every day, age last used",
     "Variable Name": [
       "SrvSAS_EdiblesEDAgeL_v3r0"
+    ]
+  },
+  "259621815": {
+    "Variable Label": "Drink tap water, coffee",
+    "Variable Name": [
+      "SrvLAW_TapWaterCoffee_v3r0"
     ]
   },
   "259744087": {
@@ -4851,9 +4761,6 @@
       "SrvLAW_HomeWtr3_11_Oth_v1r0"
     ]
   },
-  "270024672": {
-    "Variable Name": "What was the main source of water that you drank at [insert address from CHILDADD1 - CHILDADD3/your childhood home]? Please think about water used to make drinks"
-  },
   "270254670": {
     "Variable Label": "# Yrs Acetaminophen",
     "Variable Name": [
@@ -4926,11 +4833,14 @@
   "274189667": {
     "Variable Name": "Address 5- What is the full street address of the place you lived before? Please only include addresses where you have lived for at least two years."
   },
-  "274257975": {
+  "274203387": {
     "Variable Label": "Primary water source",
     "Variable Name": [
-      "SrvLAW_SeaAdd7PrWater2_v1r0"
+      "SrvLAW_SeaAdd4PrWater_v2r0"
     ]
+  },
+  "274257975": {
+    "Variable Name": "Seasonal Address 7- What [is/was] the main source of water that you [drink/drank] at [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank]. - SOURCE"
   },
   "274396191": {
     "Variable Label": "First spent time at this address, year",
@@ -4945,10 +4855,7 @@
     ]
   },
   "274780951": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_SeaAdd10PrWater_v1r0"
-    ]
+    "Variable Name": "Seasonal Address 10- What [is/was] the source of water to [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided? - SOURCE"
   },
   "274940131": {
     "Variable Label": "Country",
@@ -5138,8 +5045,6 @@
   "283112988": {
     "Variable Label": "Pandemic Appetite changes",
     "Variable Name": [
-      "SrvBlU_COV23A2_v1r0",
-      "SrvBlU_COV23A2_v1r0",
       "SrvCov_COV23A2_v1r0"
     ]
   },
@@ -5167,8 +5072,6 @@
   "283776061": {
     "Variable Label": "Conjunctivitis",
     "Variable Name": [
-      "SrvBlU_COV8R_v1r0",
-      "SrvBlU_COV8R_v1r0",
       "SrvCov_COV8R_v1r0"
     ]
   },
@@ -5203,16 +5106,16 @@
   "284353934": {
     "Variable Name": "Please respond to each question by selecting the response that best describes you. Physical function"
   },
+  "284545617": {
+    "Variable Label": "Drink tap water, other beverages or soup",
+    "Variable Name": [
+      "SrvLAW_TapWaterSoup_v3r0"
+    ]
+  },
   "284547539": {
     "Variable Label": "Street number",
     "Variable Name": [
       "SrvLAW_ChildStNum_v1r0"
-    ]
-  },
-  "284580415": {
-    "Variable Label": "Add Line 1",
-    "Variable Name": [
-      "SrvBOH_AddressL1_v1r0"
     ]
   },
   "285130077": {
@@ -5228,13 +5131,7 @@
     ]
   },
   "285545471": {
-    "Variable Label": "Drink tap water",
-    "Variable Name": [
-      "SrvLAW_TapWaterNum_v3r0"
-    ]
-  },
-  "285718391": {
-    "Variable Name": "How can we reach this person?"
+    "Variable Name": "In a usual week, about how often do you drink tap water from your home? We are interested in all tap water, whether or not it has been filtered or treated. - SOURCE"
   },
   "285968511": {
     "Variable Label": "Other: Please describe",
@@ -5246,12 +5143,6 @@
     "Variable Label": "Celiac Disease",
     "Variable Name": [
       "SrvBOH_Celiac_v1r0"
-    ]
-  },
-  "286149234": {
-    "Variable Label": "Alt Contact Cell Phone",
-    "Variable Name": [
-      "SrvBOH_AltContCell_v1r0"
     ]
   },
   "286191859": {
@@ -5393,12 +5284,6 @@
   "291855684": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Non-Hodgkin's lymphoma cancer?"
   },
-  "291959537": {
-    "Variable Label": "Current job is also longest held job in past 20 years",
-    "Variable Name": [
-      "SrvLAW_LongestCurJob_v1r0"
-    ]
-  },
   "292314539": {
     "Variable Label": "Screening Srv - Prostate Removal Surg",
     "Variable Name": [
@@ -5409,6 +5294,12 @@
     "Variable Label": "Last Time Ibuprofen",
     "Variable Name": [
       "SrvMRE_IbuprofenTime_v1r0"
+    ]
+  },
+  "292827049": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_4PrimaryWater1_v2r0"
     ]
   },
   "293954660": {
@@ -5490,10 +5381,7 @@
     ]
   },
   "296694684": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_SeaAdd9PrWater2_v1r0"
-    ]
+    "Variable Name": "Seasonal Address 9- What [is/was] the main source of water that you [drink/drank] at [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank]. - SOURCE"
   },
   "297016093": {
     "Variable Label": "Depression t-score, PROMIS-29",
@@ -5667,8 +5555,6 @@
   "304155106": {
     "Variable Label": "Pandemic Trouble sleeping duration",
     "Variable Name": [
-      "SrvBlU_COV24A11_v1r0",
-      "SrvBlU_COV24A11_v1r0",
       "SrvCov_COV24A11_v1r0"
     ]
   },
@@ -5697,10 +5583,7 @@
     ]
   },
   "304685106": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_SeaAdd9PrWater_v1r0"
-    ]
+    "Variable Name": "Seasonal Address 9- What [is/was] the source of water to [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided? - SOURCE"
   },
   "304927036": {
     "Variable Label": "Nolvadex",
@@ -5780,13 +5663,6 @@
   "308014437": {
     "Variable Name": "Hispanic, Latino, or Spanish- Which of these describes you best? Select all that apply."
   },
-  "308286913": {
-    "Variable Label": "Shipyard",
-    "Variable Name": [
-      "SrvBOH_ShipyardC_v1r0",
-      "SrvBOH_ShipyardP_v1r0"
-    ]
-  },
   "308427446": {
     "Variable Name": "Asian"
   },
@@ -5850,6 +5726,12 @@
       "SrvSS_SSN_Given_v1r0"
     ]
   },
+  "311724055": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd8PrWater2_v2r0"
+    ]
+  },
   "311891586": {
     "Variable Name": "What type(s) of transportation did you use to get from your home to [insert address from PREWORK1 - PREWORK3/this address]? Select all that apply."
   },
@@ -5891,6 +5773,12 @@
       "BioCol_Dev_v1r0_OutContSTRT1",
       "BioCol_Dev_v1r0_OutContamUT1",
       "BioCol_Dev_v1r0_OutContMWT1"
+    ]
+  },
+  "313246521": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_4PrimaryWater2_v2r0"
     ]
   },
   "313287837": {
@@ -6001,12 +5889,6 @@
   "317811347": {
     "Variable Name": "Do not know"
   },
-  "318130543": {
-    "Variable Label": "Alt Contact Home Phone",
-    "Variable Name": [
-      "SrvBOH_AltContHome_v1r0"
-    ]
-  },
   "318569032": {
     "Variable Label": "Months ago last used cigarettes",
     "Variable Name": [
@@ -6050,12 +5932,6 @@
   "319570637": {
     "Variable Name": "Not Hispanic or Latino"
   },
-  "319871370": {
-    "Variable Label": "How many days used chewing tobacco, snus, snuff, or dip  every day, usual month",
-    "Variable Name": [
-      "SrvSAS_DaysUsedCTMo_v1r0"
-    ]
-  },
   "319972665": {
     "Variable Name": "BioKit_Mouthwash"
   },
@@ -6081,10 +5957,7 @@
     ]
   },
   "321932473": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_SeaAd10PrWater2_v1r0"
-    ]
+    "Variable Name": "Seasonal Address 10- What [is/was] the main source of water that you [drink/drank] at [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank]. - SOURCE"
   },
   "322059622": {
     "Variable Name": "HFH Pop-Up"
@@ -6096,10 +5969,7 @@
     ]
   },
   "322665488": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_SeaAdd5PrWater_v1r0"
-    ]
+    "Variable Name": "Seasonal Address 5- What [is/was] the source of water to [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided? - SOURCE"
   },
   "323106499": {
     "Variable Label": "Arthritis",
@@ -6183,12 +6053,6 @@
       "RcrtES_Aware_v1r0_Member"
     ]
   },
-  "327050687": {
-    "Variable Label": "Use marijuana  every day, months",
-    "Variable Name": [
-      "SrvSAS_UseMJED_v1r0"
-    ]
-  },
   "327316968": {
     "Variable Label": "Connect communications - No",
     "Variable Name": [
@@ -6202,6 +6066,12 @@
     "Variable Label": "Anxiety t-score, PROMIS-29",
     "Variable Name": [
       "SrvQOL_3moTAnxiety_v1r0"
+    ]
+  },
+  "329423052": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_9PrimaryWater1_v2r0"
     ]
   },
   "329536041": {
@@ -6365,8 +6235,6 @@
   "336856410": {
     "Variable Label": "Long COVID Feeling lightheaded or dizzy duration",
     "Variable Name": [
-      "SrvBlU_COV20A7_v1r0",
-      "SrvBlU_COV20A7_v1r0",
       "SrvCov_COV20A7_v1r0"
     ]
   },
@@ -6389,10 +6257,7 @@
     "Variable Name": "Alive"
   },
   "337574535": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_11PrimaryWater1_v1r0"
-    ]
+    "Variable Name": "Address 11- What [is/was] the source of water to [insert address from HOMEADD1 - HOMEADD3/ current address/the 2nd address you provided/etc.]? - SOURCE"
   },
   "337810964": {
     "Variable Label": "Days around tobacco smoke of others, past year",
@@ -6440,15 +6305,7 @@
   "338613869": {
     "Variable Label": "Long COVID Return to work or school",
     "Variable Name": [
-      "SrvBlU_COV19B3_v1r0",
-      "SrvBlU_COV19B3_v1r0",
       "SrvCov_COV19B3_v1r0"
-    ]
-  },
-  "338914506": {
-    "Variable Label": "How many days smoked a hookah or water pipe  every day, usual month",
-    "Variable Name": [
-      "SrvSAS_HookahNumDays_v1r0"
     ]
   },
   "338924834": {
@@ -6508,12 +6365,6 @@
   },
   "341709648": {
     "Variable Name": "Other relative or proxy"
-  },
-  "342646001": {
-    "Variable Label": "Flag for True Missing",
-    "Variable Name": [
-      "ROIPhy_FlagForMissing_v1r0"
-    ]
   },
   "342677547": {
     "Variable Label": "Vacation home",
@@ -6724,6 +6575,12 @@
   "351928156": {
     "Variable Name": "Previous address 1"
   },
+  "352237976": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_3PrimaryWater2_v2r0"
+    ]
+  },
   "352316035": {
     "Variable Name": "Didn't vape cannabis during this time"
   },
@@ -6854,8 +6711,6 @@
   "357462273": {
     "Variable Label": "Pandemic Trouble sleeping",
     "Variable Name": [
-      "SrvBlU_COV23B5_v1r0",
-      "SrvBlU_COV23B5_v1r0",
       "SrvCov_COV23B5_v1r0"
     ]
   },
@@ -6962,10 +6817,7 @@
     "Variable Name": "Feel free to share anything else you'd like to tell us about your experience with the first Connect survey. - SOURCE"
   },
   "364303962": {
-    "Variable Label": "Drink tap water, other beverages or soup",
-    "Variable Name": [
-      "SrvLAW_TapWaterSoup_v3r0"
-    ]
+    "Variable Name": "In a usual week, about how often do you use tap water from your home to make any other beverages or soup? We are interested in all tap water, whether or not it has been filtered or treated. - SOURCE"
   },
   "364857371": {
     "Variable Label": "Taxi Cur Work Post Pan",
@@ -6981,9 +6833,6 @@
   },
   "365148290": {
     "Variable Name": "Have you ever had any of these tests or procedures for colorectal cancer or other medical conditions? Select all that apply."
-  },
-  "365196404": {
-    "Variable Name": "No, I want to enter another address (6th address)"
   },
   "365370279": {
     "Variable Label": "How many cigars, cigarillos, or little filtered cigars used, [X / 50] to age [Y / 59 / current age]",
@@ -7022,18 +6871,9 @@
       "HdWd_RequestedRefWdOth_v1r0"
     ]
   },
-  "366972678": {
-    "Variable Label": "Infection Date Year",
-    "Variable Name": [
-      "SrvBlU_COV3_YEAR_v1r0",
-      "SrvBlU_COV3_YEAR_v1r0"
-    ]
-  },
   "366980310": {
     "Variable Label": "Positive Test",
     "Variable Name": [
-      "SrvBlU_COV4_v1r0",
-      "SrvBlU_COV4_v1r0",
       "SrvCov_COV4_v1r0"
     ]
   },
@@ -7058,8 +6898,6 @@
   "367747257": {
     "Variable Label": "Nasal congestion",
     "Variable Name": [
-      "SrvBlU_COV8H_v1r0",
-      "SrvBlU_COV8H_v1r0",
       "SrvCov_COV8H_v1r0"
     ]
   },
@@ -7090,16 +6928,7 @@
   "368669706": {
     "Variable Label": "Long COVID Trouble paying attention duration",
     "Variable Name": [
-      "SrvBlU_COV20A4_v1r0",
-      "SrvBlU_COV20A4_v1r0",
       "SrvCov_COV20A4_v1r0"
-    ]
-  },
-  "368715875": {
-    "Variable Label": "Other Pandemic-  Presence: Please describe",
-    "Variable Name": [
-      "SrvBlU_COV23B8B_v1r0",
-      "SrvBlU_COV23B8B_v1r0"
     ]
   },
   "368973683": {
@@ -7213,12 +7042,6 @@
       "HdRef_PrivacyI_v1r0"
     ]
   },
-  "372398512": {
-    "Variable Label": "How many days used marijuana, usual month",
-    "Variable Name": [
-      "SrvSAS_NumDaysUseMJ_v1r0"
-    ]
-  },
   "372457715": {
     "Variable Label": "Mammogram type",
     "Variable Name": [
@@ -7238,8 +7061,6 @@
   "374567479": {
     "Variable Label": "Long COVID Loss of taste or smell duration",
     "Variable Name": [
-      "SrvBlU_COV20A1_v1r0",
-      "SrvBlU_COV20A1_v1r0",
       "SrvCov_COV20A1_v1r0"
     ]
   },
@@ -7366,12 +7187,6 @@
   "379848047": {
     "Variable Name": "Red"
   },
-  "379899229": {
-    "Variable Label": "Zip",
-    "Variable Name": [
-      "SrvBOH_Zip_v1r0"
-    ]
-  },
   "380275309": {
     "Variable Label": "First Blood Transfusion Age",
     "Variable Name": [
@@ -7432,6 +7247,12 @@
     "Variable Label": "Do Not Know 6-Seasonal",
     "Variable Name": [
       "SrvLAW_Seas6DontKnow_v2r0"
+    ]
+  },
+  "383001913": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_6PrimaryWater1_v2r0"
     ]
   },
   "383015037": {
@@ -7522,10 +7343,7 @@
     ]
   },
   "386487941": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_7PrimaryWater1_v1r0"
-    ]
+    "Variable Name": "Address 7- What [is/was] the source of water to [insert address from HOMEADD1 - HOMEADD3/ current address/the 2nd address you provided/etc.]? - SOURCE"
   },
   "386488297": {
     "Variable Label": "D/T Base Mod SAS Start",
@@ -7590,9 +7408,6 @@
   "388196732": {
     "Variable Name": "10 to 49 times"
   },
-  "388370628": {
-    "Variable Name": "Too irregular to guess or using hormonal medication or device (such as an intrauterine device (IUD)) to control menstrual cycle"
-  },
   "388427546": {
     "Variable Label": "Country",
     "Variable Name": [
@@ -7620,8 +7435,6 @@
   "389465772": {
     "Variable Label": "Blood clots",
     "Variable Name": [
-      "SrvBlU_COV11_v1r0",
-      "SrvBlU_COV11_v1r0",
       "SrvCov_COV11_v1r0"
     ]
   },
@@ -7723,10 +7536,7 @@
     ]
   },
   "393682471": {
-    "Variable Label": "Drink tap water, iced tea",
-    "Variable Name": [
-      "SrvLAW_TapWaterIcedTea_v3r0"
-    ]
+    "Variable Name": "In a usual week, about how often do you use tap water from your home to make a glass of iced tea? We are interested in all tap water, whether or not it has been filtered or treated. - SOURCE"
   },
   "393920480": {
     "Variable Label": "Don't want to be seen as a fuss",
@@ -7761,6 +7571,12 @@
       "SrvSAS_SkinColor_v1r0"
     ]
   },
+  "394783260": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd1PrWater_v2r0"
+    ]
+  },
   "395480458": {
     "Variable Label": "Use cigars, cigarillos, or little filtered cigars every day, age last used",
     "Variable Name": [
@@ -7770,8 +7586,6 @@
   "395747093": {
     "Variable Label": "Vaccine Brand - Descriptive",
     "Variable Name": [
-      "SrvBlU_COV28Desc_v1r0",
-      "SrvBlU_COV28Desc_v1r0",
       "SrvCov_COV28Desc_v1r0"
     ]
   },
@@ -7844,9 +7658,6 @@
       "RcrtUP_Fname_v1r0"
     ]
   },
-  "399540389": {
-    "Variable Name": "No, I want to enter another address (5th address)"
-  },
   "399659169": {
     "Variable Label": "When daily user, number of cigarettes per day",
     "Variable Name": [
@@ -7861,9 +7672,6 @@
   },
   "399982309": {
     "Variable Name": "Pain relievers- Have you ever taken any of these medications at least 4 times a month for 6 months or longer? Select all that apply."
-  },
-  "400090705": {
-    "Variable Name": "No, I want to enter another address (4th address)"
   },
   "400259098": {
     "Variable Label": "COV Concerns",
@@ -8361,6 +8169,12 @@
   "420560514": {
     "Variable Name": "In the past 7 days - Pain"
   },
+  "421525963": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd8PrWater_v2r0"
+    ]
+  },
   "421586693": {
     "Variable Name": "What type(s) of transportation do you use to get to [insert address from CURWORKPOSTPAN1 - CURWORKPOSTPAN3/this address] from home? Select all that apply."
   },
@@ -8415,8 +8229,6 @@
   "423283665": {
     "Variable Label": "Body or muscle aches",
     "Variable Name": [
-      "SrvBlU_COV8C_v1r0",
-      "SrvBlU_COV8C_v1r0",
       "SrvCov_COV8C_v1r0"
     ]
   },
@@ -8477,13 +8289,6 @@
       "SrvQOL_3moSESocInt_v1r0"
     ]
   },
-  "424718457": {
-    "Variable Label": "Other Pandemic Symptom: Please describe",
-    "Variable Name": [
-      "SrvBlU_COV23B8A_v1r0",
-      "SrvBlU_COV23B8A_v1r0"
-    ]
-  },
   "424768954": {
     "Variable Name": "2 to 3 times per day"
   },
@@ -8506,19 +8311,13 @@
     "Variable Name": "Method used"
   },
   "426743354": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_SeaAdd1PrWater_v1r0"
-    ]
+    "Variable Name": "Seasonal Address 1- What [is/was] the source of water to [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided? - SOURCE"
   },
   "426764225": {
     "Variable Label": "Pain - household chores",
     "Variable Name": [
       "SrvQoL_PainIntrf7D4_v1r0"
     ]
-  },
-  "427169173": {
-    "Variable Name": "No, I want to add another seasonal or vacation home address (2nd address)"
   },
   "427219143": {
     "Variable Label": "Hay Fever",
@@ -8586,9 +8385,6 @@
       "SrvQoL_Anxiety7D1_v1r0"
     ]
   },
-  "429773462": {
-    "Variable Name": "No, I want to add another seasonal or vacation home address (8th address)"
-  },
   "429994023": {
     "Variable Label": "Tongue Scraper frequency past month",
     "Variable Name": [
@@ -8606,8 +8402,6 @@
   "430166879": {
     "Variable Label": "Breathing Tube or Ventilator Days",
     "Variable Name": [
-      "SrvBlU_COV15B_v1r0",
-      "SrvBlU_COV15B_v1r0",
       "SrvCov_COV15B_v1r0"
     ]
   },
@@ -8629,8 +8423,6 @@
   "431203595": {
     "Variable Label": "Pandemic Troubling remembering things duration",
     "Variable Name": [
-      "SrvBlU_COV24A4_v1r0",
-      "SrvBlU_COV24A4_v1r0",
       "SrvCov_COV24A4_v1r0"
     ]
   },
@@ -8875,8 +8667,6 @@
   "440872808": {
     "Variable Label": "Pandemic Trouble paying attention",
     "Variable Name": [
-      "SrvBlU_COV23A5_v1r0",
-      "SrvBlU_COV23A5_v1r0",
       "SrvCov_COV23A5_v1r0"
     ]
   },
@@ -8920,6 +8710,12 @@
     "Variable Label": "Participant Refusal",
     "Variable Name": [
       "BioBPTL_PartRefusal_v1r0"
+    ]
+  },
+  "443279888": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_7PrimaryWater1_v2r0"
     ]
   },
   "443596662": {
@@ -9044,9 +8840,6 @@
   "448722126": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had COPD?"
   },
-  "448861079": {
-    "Variable Name": "No, I want to add another seasonal or vacation home address (1st address)"
-  },
   "448968121": {
     "Variable Label": "Ever had an alcoholic beverage",
     "Variable Name": [
@@ -9122,8 +8915,6 @@
   "451163824": {
     "Variable Label": "Daily activity interference",
     "Variable Name": [
-      "SrvBlU_COV7_v1r0",
-      "SrvBlU_COV7_v1r0",
       "SrvCov_COV7_v1r0"
     ]
   },
@@ -9469,8 +9260,6 @@
   "462737492": {
     "Variable Label": "Long COVID Trouble paying attention",
     "Variable Name": [
-      "SrvBlU_COV19A5_v1r0",
-      "SrvBlU_COV19A5_v1r0",
       "SrvCov_COV19A5_v1r0"
     ]
   },
@@ -9505,8 +9294,6 @@
   "463689026": {
     "Variable Label": "Pandemic Muscle Aches duration",
     "Variable Name": [
-      "SrvBlU_COV24A13_v1r0",
-      "SrvBlU_COV24A13_v1r0",
       "SrvCov_COV24A13_v1r0"
     ]
   },
@@ -9652,8 +9439,6 @@
   "469675296": {
     "Variable Label": "Long COVID Trouble thinking or making decisions",
     "Variable Name": [
-      "SrvBlU_COV19A6_v1r0",
-      "SrvBlU_COV19A6_v1r0",
       "SrvCov_COV19A6_v1r0"
     ]
   },
@@ -9694,6 +9479,12 @@
     "Variable Label": "How much time hookah or water pipe  used, [X / 60] to age [Y / 69 / current age]",
     "Variable Name": [
       "SrvSAS_HookahTm6069_v1r1"
+    ]
+  },
+  "470329758": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd4PrWater2_v2r0"
     ]
   },
   "470484596": {
@@ -9862,12 +9653,6 @@
   "477690298": {
     "Variable Name": "How old were you when you had breast implants (augmentation surgery)?"
   },
-  "477756737": {
-    "Variable Label": "How many days use THC concentrates via dabbing, usual month",
-    "Variable Name": [
-      "SrvSAS_THCDaysMo_v1r0"
-    ]
-  },
   "478513687": {
     "Variable Label": "Time, Bus or streetcar/trolley, light rail/trolley commute to past work",
     "Variable Name": [
@@ -9887,12 +9672,6 @@
     "Variable Label": "Last Name",
     "Variable Name": [
       "HdWd_Lname_v1r0"
-    ]
-  },
-  "479353866": {
-    "Variable Label": "Age Confirm",
-    "Variable Name": [
-      "SrvBOH_AgeCon_v1r0"
     ]
   },
   "479400169": {
@@ -9955,20 +9734,12 @@
       "RcrtSI_WorkflowType_v1r0"
     ]
   },
-  "481182460": {
-    "Variable Label": "Use cigarettes every day, months",
-    "Variable Name": [
-      "SrvSAS_CigsUseEDMo_v1r0"
-    ]
-  },
   "481217808": {
     "Variable Name": "15 to 19 days per month"
   },
   "481587023": {
     "Variable Label": "Long COVID Inability to return to work or school duration",
     "Variable Name": [
-      "SrvBlU_COV20A11_v1r0",
-      "SrvBlU_COV20A11_v1r0",
       "SrvCov_COV20A11_v1r0"
     ]
   },
@@ -10047,12 +9818,6 @@
   "486192236": {
     "Variable Name": "Non-binary"
   },
-  "486287398": {
-    "Variable Label": "Use a tobacco pipe every day, months",
-    "Variable Name": [
-      "SrvSAS_TobPipeED_v1r0"
-    ]
-  },
   "486306141": {
     "Variable Name": "Active"
   },
@@ -10113,8 +9878,6 @@
   "488415137": {
     "Variable Label": "Long COVID Loss of taste or smell",
     "Variable Name": [
-      "SrvBlU_COV19A1_v1r0",
-      "SrvBlU_COV19A1_v1r0",
       "SrvCov_COV19A1_v1r0"
     ]
   },
@@ -10278,8 +10041,6 @@
   "494226443": {
     "Variable Label": "COVID Infection",
     "Variable Name": [
-      "SrvBlU_COV1_v1r0",
-      "SrvBlU_COV1_v1r0",
       "SrvCov_COV1_v1r0"
     ]
   },
@@ -10302,10 +10063,7 @@
     ]
   },
   "494698740": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_7PrimaryWater2_v1r0"
-    ]
+    "Variable Name": "Address 7- What [is/was] the main source of water that you [drink/drank] at [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank]. - SOURCE"
   },
   "494968690": {
     "Variable Label": "Summary vacation homes",
@@ -10430,8 +10188,6 @@
   "498462481": {
     "Variable Label": "Healthcare Provider",
     "Variable Name": [
-      "SrvBlU_COV5_v1r0",
-      "SrvBlU_COV5_v1r0",
       "SrvCov_COV5_v1r0"
     ]
   },
@@ -10494,6 +10250,12 @@
       "SrvLAW_SeaState5FU_v1r0"
     ]
   },
+  "502877419": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_6PrimaryWater2_v2r0"
+    ]
+  },
   "502946054": {
     "Variable Label": "Motorcycle Cur Work Post Pan",
     "Variable Name": [
@@ -10550,10 +10312,7 @@
     ]
   },
   "505863509": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_2PrimaryWater1_v1r0"
-    ]
+    "Variable Name": "Address 2- What [is/was] the source of water to [insert address from HOMEADD1 - HOMEADD3/ current address/the 2nd address you provided/etc.]? - SOURCE"
   },
   "506053626": {
     "Variable Name": "Twice"
@@ -10589,10 +10348,7 @@
     ]
   },
   "508187475": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_5PrimaryWater2_v1r0"
-    ]
+    "Variable Name": "Address 5- What [is/was] the main source of water that you [drink/drank] at [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank]. - SOURCE"
   },
   "508587741": {
     "Variable Name": "Season Address 6-Please provide the following information: - SOURCE"
@@ -10638,12 +10394,6 @@
   },
   "510148951": {
     "Variable Name": "Somewhat masculine"
-  },
-  "510183971": {
-    "Variable Label": "How many days used cigars, cigarillos, or little filtered cigars, usual month",
-    "Variable Name": [
-      "SrvSAS_CigarsNumMo_v1r0"
-    ]
   },
   "510435329": {
     "Variable Label": "Full Street name #1",
@@ -10730,7 +10480,10 @@
     ]
   },
   "513939926": {
-    "Variable Name": "True missing"
+    "Variable Label": "Flag for True Missing",
+    "Variable Name": [
+      "ROIPhy_FlagForMissing_v1r0"
+    ]
   },
   "514034680": {
     "Variable Name": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had Uterine (endometrial) cancer?"
@@ -10745,12 +10498,6 @@
     "Variable Label": "Percent Diff Flag Btwn Age 15 and 25 - 5 Percent Dec In Weight",
     "Variable Name": [
       "SrvBOH_PercentDiff1525_v1r0"
-    ]
-  },
-  "515023660": {
-    "Variable Label": "Consumed marijuana in food or drinks every day, age last used, month",
-    "Variable Name": [
-      "SrvSAS_EdiblesED_v1r0"
     ]
   },
   "515135035": {
@@ -10780,8 +10527,6 @@
   "516899143": {
     "Variable Label": "Pandemic Trouble paying attention duration",
     "Variable Name": [
-      "SrvBlU_COV24A5_v1r0",
-      "SrvBlU_COV24A5_v1r0",
       "SrvCov_COV24A5_v1r0"
     ]
   },
@@ -10860,8 +10605,6 @@
   "518602598": {
     "Variable Label": "Long COVID Heart racing duration",
     "Variable Name": [
-      "SrvBlU_COV20A8_v1r0",
-      "SrvBlU_COV20A8_v1r0",
       "SrvCov_COV20A8_v1r0"
     ]
   },
@@ -11024,16 +10767,12 @@
   "524096053": {
     "Variable Label": "Long COVID Feeling lightheaded or dizzy",
     "Variable Name": [
-      "SrvBlU_COV19C1_v1r0",
-      "SrvBlU_COV19C1_v1r0",
       "SrvCov_COV19C1_v1r0"
     ]
   },
   "524258008": {
     "Variable Label": "Nausea",
     "Variable Name": [
-      "SrvBlU_COV8O_v1r0",
-      "SrvBlU_COV8O_v1r0",
       "SrvCov_COV8O_v1r0"
     ]
   },
@@ -11142,6 +10881,12 @@
       "SrvLAW_SeaCountry7FU_v1r0"
     ]
   },
+  "526578016": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd3PrWater2_v2r0"
+    ]
+  },
   "526602834": {
     "Variable Name": "3 servings"
   },
@@ -11173,8 +10918,6 @@
   "527872064": {
     "Variable Label": "Pandemic Loss of taste or smell  duration",
     "Variable Name": [
-      "SrvBlU_COV24A1_v1r0",
-      "SrvBlU_COV24A1_v1r0",
       "SrvCov_COV24A1_v1r0"
     ]
   },
@@ -11287,9 +11030,6 @@
   "532767229": {
     "Variable Name": "On nights before non-workdays, how long does it usually take you to fall asleep?"
   },
-  "532931946": {
-    "Variable Name": "What is the address?"
-  },
   "532944666": {
     "Variable Label": "Lived anywhere else at least two years",
     "Variable Name": [
@@ -11300,6 +11040,12 @@
     "Variable Label": "Time, [OTHER FROM CURSCHT1]",
     "Variable Name": [
       "SrvLAW_CurSchT10H_v1r0"
+    ]
+  },
+  "533281093": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_3PrimaryWater1_v2r0"
     ]
   },
   "533491176": {
@@ -11492,9 +11238,6 @@
       "SrvSAS_TotTmUseCT_v1r0"
     ]
   },
-  "537892528": {
-    "Variable Name": "3rd"
-  },
   "538349354": {
     "Variable Label": "Month/Cycles Serophene",
     "Variable Name": [
@@ -11529,10 +11272,7 @@
     ]
   },
   "539909957": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_1PrimaryWater2_v1r0"
-    ]
+    "Variable Name": "Address 1- What [is/was] the main source of water that you [drink/drank] at [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank]. - SOURCE"
   },
   "540340377": {
     "Variable Label": "Country",
@@ -11565,10 +11305,7 @@
     ]
   },
   "541565665": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_SeaAdd6PrWater2_v1r0"
-    ]
+    "Variable Name": "Seasonal Address 6- What [is/was] the main source of water that you [drink/drank] at [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank]. - SOURCE"
   },
   "541836531": {
     "Variable Label": "D/T Base Mod MRE Start",
@@ -11577,10 +11314,7 @@
     ]
   },
   "542086156": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_8PrimaryWater2_v1r0"
-    ]
+    "Variable Name": "Address 8- What [is/was] the main source of water that you [drink/drank] at [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank]. - SOURCE"
   },
   "542108835": {
     "Variable Label": "Oth Comb Estrogen & Progestin Rx Hormones - Free Text",
@@ -11768,6 +11502,12 @@
       "BioPack_Bag8_v1r0"
     ]
   },
+  "550044118": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_2PrimaryWater1_v2r0"
+    ]
+  },
   "550075233": {
     "Variable Name": "How old were you when you had your appendix removed (appendectomy)?"
   },
@@ -11794,9 +11534,6 @@
   },
   "550244580": {
     "Variable Name": "Age first used e-cigarettes or other vaping devices on a regular basis - SOURCE"
-  },
-  "550615107": {
-    "Variable Name": "Ectopic or tubal pregnancy (fertilized egg implants outside of the uterus)"
   },
   "550646850": {
     "Variable Label": "Time, Commuter rail, subway, metro commute from current school",
@@ -12068,6 +11805,12 @@
       "BioCol_Dev_v1r0_SpeedLSST3",
       "BioCol_Dev_v1r0_SpeedLSST4",
       "BioCol_Dev_v1r0_SpeedLSST5"
+    ]
+  },
+  "561491411": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd10PrWater_v2r0"
     ]
   },
   "561635035": {
@@ -12365,9 +12108,6 @@
   "574368418": {
     "Variable Name": "HP Park Nicollet"
   },
-  "574728716": {
-    "Variable Name": "No, I want to enter another address (3rd address)"
-  },
   "574985342": {
     "Variable Name": "Address 2- What is the full street address of the place you lived before? Please only include addresses where you have lived for at least two years."
   },
@@ -12475,9 +12215,6 @@
       "SrvScr_Uterus_v2r0"
     ]
   },
-  "578520343": {
-    "Variable Name": "You have entered the maximum number of seasonal or vacation home addresses. You will move on to the next questions"
-  },
   "578616917": {
     "Variable Label": "Egyptian",
     "Variable Name": [
@@ -12493,8 +12230,6 @@
   "579409935": {
     "Variable Label": "Trouble sleeping",
     "Variable Name": [
-      "SrvBlU_COV8F_v1r0",
-      "SrvBlU_COV8F_v1r0",
       "SrvCov_COV8F_v1r0"
     ]
   },
@@ -12531,6 +12266,12 @@
       "SrvLAW_SeaStrName3_v1r0"
     ]
   },
+  "580265128": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd2PrWater_v2r0"
+    ]
+  },
   "580367946": {
     "Variable Label": "Time Wake up Workdays/Most Days",
     "Variable Name": [
@@ -12546,18 +12287,9 @@
       "SrvBOH_Sib1AgeDeath_v2r0"
     ]
   },
-  "580409149": {
-    "Variable Label": "Fishing",
-    "Variable Name": [
-      "SrvBOH_FishingC_v1r0",
-      "SrvBOH_FishingP_v1r0"
-    ]
-  },
   "580629349": {
     "Variable Label": "Pandemic More tired than usual",
     "Variable Name": [
-      "SrvBlU_COV23A3_v1r0",
-      "SrvBlU_COV23A3_v1r0",
       "SrvCov_COV23A3_v1r0"
     ]
   },
@@ -12772,16 +12504,6 @@
       "CTN_NotifTime_v1r0"
     ]
   },
-  "589004291": {
-    "Variable Label": "Other Pandemic Symptom- Duration: Please describe",
-    "Variable Name": [
-      "SrvBlU_COV24A14_v1r0",
-      "SrvBlU_COV24A14_v1r0"
-    ]
-  },
-  "589224449": {
-    "Variable Name": "Sioux Falls Imagenetics"
-  },
   "589522790": {
     "Variable Label": "Walking & Carrying Materials < 50 lbs",
     "Variable Name": [
@@ -12848,15 +12570,7 @@
   "590361055": {
     "Variable Label": "Long COVID Return to usual activities duration",
     "Variable Name": [
-      "SrvBlU_COV20A12_v1r0",
-      "SrvBlU_COV20A12_v1r0",
       "SrvCov_COV20A12_v1r0"
-    ]
-  },
-  "591438156": {
-    "Variable Label": "How many days used e-cigarettes or other vaping devices, usual month",
-    "Variable Name": [
-      "SrvSAS_ECigDaysUse_v1r0"
     ]
   },
   "591670915": {
@@ -12889,6 +12603,12 @@
       "HdWd_SuffixDD_v1r0"
     ]
   },
+  "592289305": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_10PrimaryWater2_v2r0"
+    ]
+  },
   "592592455": {
     "Variable Label": "Retail/Wholesale Sales",
     "Variable Name": [
@@ -12896,16 +12616,10 @@
       "SrvBOH_RetailWholeP_v2r0"
     ]
   },
-  "592957464": {
-    "Variable Label": "How many days used electronic marijuana delivery devices, usual month",
-    "Variable Name": [
-      "SrvSAS_UseEMJDevDays_v1r0"
-    ]
-  },
   "593010802": {
     "Variable Label": "Time, Car, van, or truck (includes carpools or van pools) commute to current work",
     "Variable Name": [
-      "SrvLAW_CurWorkTmCar_v1r0"
+      "SrvLAW_CurWorkTmCar_v2r0"
     ]
   },
   "593017220": {
@@ -13016,13 +12730,6 @@
       "SrvLAW_SeaState10_v1r0"
     ]
   },
-  "596792238": {
-    "Variable Label": "Service Provider",
-    "Variable Name": [
-      "SrvBOH_ServiceProvC_v1r0",
-      "SrvBOH_ServiceProvP_v1r0"
-    ]
-  },
   "596961796": {
     "Variable Name": "Pills per day baby or low-dose aspirin (81 mg or less) - SOURCE"
   },
@@ -13045,10 +12752,7 @@
     "Variable Name": "Advanced degree Master's, Doctorate, etc."
   },
   "598478268": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_SeaAdd1PrWater2_v1r0"
-    ]
+    "Variable Name": "Seasonal Address 1- What [is/was] the main source of water that you [drink/drank] at [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank]. - SOURCE"
   },
   "598680838": {
     "Variable Label": "D/T Part SSN Sub",
@@ -13083,8 +12787,6 @@
   "599862694": {
     "Variable Label": "Pandemic Lightheaded duration",
     "Variable Name": [
-      "SrvBlU_COV24A7_v1r0",
-      "SrvBlU_COV24A7_v1r0",
       "SrvCov_COV24A7_v1r0"
     ]
   },
@@ -13163,10 +12865,7 @@
     ]
   },
   "603945794": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_SeaAdd8PrWater_v1r0"
-    ]
+    "Variable Name": "Seasonal Address 8- What [is/was] the source of water to [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided? - SOURCE"
   },
   "604086099": {
     "Variable Name": "In total, how many months or years have you used Norplant?"
@@ -13204,8 +12903,6 @@
   "605818246": {
     "Variable Label": "Long COVID Trouble thinking or making decisions duration",
     "Variable Name": [
-      "SrvBlU_COV20A5_v1r0",
-      "SrvBlU_COV20A5_v1r0",
       "SrvCov_COV20A5_v1r0"
     ]
   },
@@ -13392,12 +13089,6 @@
       "BioPack_ScanLname_v1r0"
     ]
   },
-  "618062863": {
-    "Variable Label": "Use cigars, cigarillos, or little filtered cigars every day, months",
-    "Variable Name": [
-      "SrvSAS_CigarsED_v1r0"
-    ]
-  },
   "618222258": {
     "Variable Label": "Haitian",
     "Variable Name": [
@@ -13450,9 +13141,6 @@
       "SrvScr_COL2_v1r0"
     ]
   },
-  "619914973": {
-    "Variable Name": "No, I want to add another seasonal or vacation home address (6th address)"
-  },
   "620425840": {
     "Variable Label": "How much time hookah or water pipe  used, Age [X / 18] to age [Y / 24]",
     "Variable Name": [
@@ -13463,13 +13151,6 @@
     "Variable Label": "Contact Attempt",
     "Variable Name": [
       "CTN_Attempt_v1r0"
-    ]
-  },
-  "620577362": {
-    "Variable Label": "Farming",
-    "Variable Name": [
-      "SrvBOH_FarmingC_v1r0",
-      "SrvBOH_FarmingP_v1r0"
     ]
   },
   "620696506": {
@@ -13663,9 +13344,6 @@
   "624808470": {
     "Variable Name": "Slightly louder than breathing"
   },
-  "625202092": {
-    "Variable Name": "No, I want to add another seasonal or vacation home address (4th address)"
-  },
   "625249910": {
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Stomach cancer?"
   },
@@ -13691,6 +13369,12 @@
     "Variable Label": "Cur Work City Post Pan",
     "Variable Name": [
       "SrvLAW_WkCtyPstPan1_v1r0"
+    ]
+  },
+  "627243012": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd9PrWater_v2r0"
     ]
   },
   "627992821": {
@@ -13817,9 +13501,6 @@
   "631498205": {
     "Variable Name": "Check Passed"
   },
-  "632371391": {
-    "Variable Name": "1 day"
-  },
   "632512449": {
     "Variable Name": "1 to 2 times per month"
   },
@@ -13829,8 +13510,6 @@
   "632714520": {
     "Variable Label": "Long COVID Muscle aches",
     "Variable Name": [
-      "SrvBlU_COV19C5_v1r0",
-      "SrvBlU_COV19C5_v1r0",
       "SrvCov_COV19C5_v1r0"
     ]
   },
@@ -13862,6 +13541,12 @@
       "SrvQOL_3moSESocIso_v1r0"
     ]
   },
+  "634162640": {
+    "Variable Label": "Drink tap water, iced tea",
+    "Variable Name": [
+      "SrvLAW_TapWaterIcedTea_v3r0"
+    ]
+  },
   "634434746": {
     "Variable Label": "Mailing Address State",
     "Variable Name": [
@@ -13877,8 +13562,6 @@
   "635026188": {
     "Variable Label": "Long COVID Trouble sleeping",
     "Variable Name": [
-      "SrvBlU_COV19C3_v1r0",
-      "SrvBlU_COV19C3_v1r0",
       "SrvCov_COV19C3_v1r0"
     ]
   },
@@ -13917,10 +13600,7 @@
     "Variable Name": "Withdrawal"
   },
   "636020848": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_SeaAdd8PrWater2_v1r0"
-    ]
+    "Variable Name": "Seasonal Address 8- What [is/was] the main source of water that you [drink/drank] at [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank]. - SOURCE"
   },
   "636030086": {
     "Variable Label": "Rheumatoid Arthritis",
@@ -13931,8 +13611,6 @@
   "636367178": {
     "Variable Label": "Pandemic Shortness of breath",
     "Variable Name": [
-      "SrvBlU_COV23B3_v1r0",
-      "SrvBlU_COV23B3_v1r0",
       "SrvCov_COV23B3_v1r0"
     ]
   },
@@ -13975,8 +13653,6 @@
   "637540387": {
     "Variable Label": "Other Long COVID Symptom: Please Describe textbox",
     "Variable Name": [
-      "SrvBlU_COV19C6ADesc_v1r0",
-      "SrvBlU_COV19C6ADesc_v1r0",
       "SrvCov_COV19C6ADesc_v1r0"
     ]
   },
@@ -13998,8 +13674,6 @@
   "638380747": {
     "Variable Label": "Pandemic Mood Changes",
     "Variable Name": [
-      "SrvBlU_COV23B6_v1r0",
-      "SrvBlU_COV23B6_v1r0",
       "SrvCov_COV23B6_v1r0"
     ]
   },
@@ -14062,9 +13736,6 @@
     "Variable Name": [
       "SrvSAS_ECigTm6069_v1r1"
     ]
-  },
-  "641104372": {
-    "Variable Name": "No, I want to enter another address (10th address)"
   },
   "641572847": {
     "Variable Label": "Manufacturing",
@@ -14130,9 +13801,6 @@
   },
   "643512687": {
     "Variable Name": "What type(s) of alcoholic beverages did you usually drink when you were between age 18 and age 24?"
-  },
-  "643664527": {
-    "Variable Name": "2nd"
   },
   "643807999": {
     "Variable Name": "Why did you take baby or low-dose aspirin (81 mg or less)? Select all that apply."
@@ -14211,12 +13879,6 @@
     "Variable Label": "Pap Test",
     "Variable Name": [
       "SrvScr_CPAP_v1r0"
-    ]
-  },
-  "646504105": {
-    "Variable Label": "Oth Mailing Add",
-    "Variable Name": [
-      "SrvBOH_AltMailAddress_v1r0"
     ]
   },
   "646675764": {
@@ -14441,13 +14103,6 @@
       "SrvLAW_Seas9DontKnow_v2r0"
     ]
   },
-  "652923023": {
-    "Variable Label": "Vaccine Date Year",
-    "Variable Name": [
-      "SrvBlU_COV27_YEAR_v1r0",
-      "SrvBlU_COV27_YEAR_v1r0"
-    ]
-  },
   "653181757": {
     "Variable Label": "Apartment, suite, unit, building, etc.",
     "Variable Name": [
@@ -14460,8 +14115,6 @@
   "653630699": {
     "Variable Label": "New loss of taste or smell",
     "Variable Name": [
-      "SrvBlU_COV8G_v1r0",
-      "SrvBlU_COV8G_v1r0",
       "SrvCov_COV8G_v1r0"
     ]
   },
@@ -14576,8 +14229,6 @@
   "657566099": {
     "Variable Label": "Rashes or other skin changes",
     "Variable Name": [
-      "SrvBlU_COV8Q_v1r0",
-      "SrvBlU_COV8Q_v1r0",
       "SrvCov_COV8Q_v1r0"
     ]
   },
@@ -14674,6 +14325,12 @@
   "660358706": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had heart valve problems?"
   },
+  "660421166": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd5PrWater2_v2r0"
+    ]
+  },
   "660541817": {
     "Variable Label": "Oth - Free Text",
     "Variable Name": [
@@ -14690,12 +14347,6 @@
     "Variable Label": "Country",
     "Variable Name": [
       "SrvLAW_SeaCountryFU_v1r0"
-    ]
-  },
-  "661719912": {
-    "Variable Label": "Alt Contact First Name",
-    "Variable Name": [
-      "SrvBOH_AltContFv1r0"
     ]
   },
   "661871565": {
@@ -14807,14 +14458,11 @@
   "665593888": {
     "Variable Label": "Primary water source",
     "Variable Name": [
-      "SrvLAW_Chld1PrimWater2_v1r0"
+      "SrvLAW_Chld1PrimWater2_v2r0"
     ]
   },
   "665978055": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_6PrimaryWater1_v1r0"
-    ]
+    "Variable Name": "Address 6- What [is/was] the source of water to [insert address from HOMEADD1 - HOMEADD3/ current address/the 2nd address you provided/etc.]? - SOURCE"
   },
   "666011940": {
     "Variable Label": "Full Street name",
@@ -15102,11 +14750,14 @@
   "676516297": {
     "Variable Name": "Every day or almost every day (20 to 31 days per month)"
   },
-  "676569438": {
-    "Variable Name": "No, I want to enter another address (7th address)"
-  },
   "676824724": {
     "Variable Name": "5"
+  },
+  "677034604": {
+    "Variable Label": "Other Long COVID Symptom: Please Describe",
+    "Variable Name": [
+      "SrvCov_COV19C6A_v2r0"
+    ]
   },
   "677043723": {
     "Variable Label": "First stool (fecal) test",
@@ -15211,8 +14862,6 @@
   "679368947": {
     "Variable Label": "Shortness of breath",
     "Variable Name": [
-      "SrvBlU_COV8K_v1r0",
-      "SrvBlU_COV8K_v1r0",
       "SrvCov_COV8K_v1r0"
     ]
   },
@@ -15315,15 +14964,7 @@
   "684149600": {
     "Variable Label": "Diarrhea",
     "Variable Name": [
-      "SrvBlU_COV8N_v1r0",
-      "SrvBlU_COV8N_v1r0",
       "SrvCov_COV8N_v1r0"
-    ]
-  },
-  "684201296": {
-    "Variable Label": "Oth Hormonal Meds: Free Text",
-    "Variable Name": [
-      "SrvMRE_OthHorMedsDes_v1r0"
     ]
   },
   "684217044": {
@@ -15420,9 +15061,6 @@
       "SrvSAS_TobaccoPipe_v1r0"
     ]
   },
-  "686379250": {
-    "Variable Name": "4 days"
-  },
   "686494153": {
     "Variable Label": "Time, Walking commute from past work",
     "Variable Name": [
@@ -15513,9 +15151,6 @@
       "SrvSAS_PipeFills17_v1r1"
     ]
   },
-  "689829953": {
-    "Variable Name": "6 days"
-  },
   "689861450": {
     "Variable Label": "Wake up time",
     "Variable Name": [
@@ -15565,12 +15200,6 @@
   "690918725": {
     "Variable Name": "What type(s) of alcoholic beverages did you usually drink when you were between age 40 and age 49?"
   },
-  "690973619": {
-    "Variable Label": "Seasonal address summary",
-    "Variable Name": [
-      "SrvLAW_SeaAddSum_v1r0"
-    ]
-  },
   "691148901": {
     "Variable Label": "Proctoscopy",
     "Variable Name": [
@@ -15610,8 +15239,6 @@
   "691752394": {
     "Variable Label": "Pandemic Appetite changes duration",
     "Variable Name": [
-      "SrvBlU_COV24A2_v1r0",
-      "SrvBlU_COV24A2_v1r0",
       "SrvCov_COV24A2_v1r0"
     ]
   },
@@ -15682,12 +15309,6 @@
       "SrvLAW_WorkedIn2019_v1r1"
     ]
   },
-  "694261722": {
-    "Variable Label": "Use electronic marijuana delivery devices every day, months",
-    "Variable Name": [
-      "SrvSAS_UseEMJDevED_v1r0"
-    ]
-  },
   "694265648": {
     "Variable Label": "Num Sibs",
     "Variable Name": [
@@ -15697,8 +15318,6 @@
   "694503437": {
     "Variable Label": "Symptoms",
     "Variable Name": [
-      "SrvBlU_COV6_v1r0",
-      "SrvBlU_COV6_v1r0",
       "SrvCov_COV6_v1r0"
     ]
   },
@@ -15854,8 +15473,6 @@
   "700620868": {
     "Variable Label": "Recovery duration Months",
     "Variable Name": [
-      "SrvBlU_COV22_Months_V1R0",
-      "SRVBLU_COV22_MONTHS_V1R0",
       "SrvCov_COV22_MONTHS_V1R0"
     ]
   },
@@ -15876,13 +15493,6 @@
   },
   "701157499": {
     "Variable Name": "How old were you when you had removal of a part of my breast tissue (breast-conserving surgery (BCS), lumpectomy, partial mastectomy, or segmental mastectomy)?"
-  },
-  "701387353": {
-    "Variable Label": "Vaccine Date Month",
-    "Variable Name": [
-      "SrvBlU_COV27_MONTH_v1r0",
-      "SrvBlU_COV27_MONTH_v1r0"
-    ]
   },
   "701389038": {
     "Variable Name": "I have Wi-Fi and/or internet connectivity issues"
@@ -15920,8 +15530,6 @@
   "702905707": {
     "Variable Label": "Long COVID Mood changes duration",
     "Variable Name": [
-      "SrvBlU_COV20A15_v1r0",
-      "SrvBlU_COV20A15_v1r0",
       "SrvCov_COV20A15_v1r0"
     ]
   },
@@ -16114,9 +15722,6 @@
       "SrvBOH_Cirrhosis_v1r0"
     ]
   },
-  "709969190": {
-    "Variable Name": "2 days"
-  },
   "710443293": {
     "Variable Name": "Seasonal Address 7- In general, how many months per year did you spend at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]?"
   },
@@ -16124,13 +15729,6 @@
     "Variable Label": "Summary vacation homes",
     "Variable Name": [
       "SrvLAW_SeasAddSum1_v1r0"
-    ]
-  },
-  "711138281": {
-    "Variable Label": "Wholesale/Distributor",
-    "Variable Name": [
-      "SrvBOH_WholesaleC_v1r0",
-      "SrvBOH_WholesaleP_v1r0"
     ]
   },
   "711256590": {
@@ -16190,7 +15788,7 @@
   "714365367": {
     "Variable Label": "Primary water source",
     "Variable Name": [
-      "SrvLAW_Chld1PrimWater_v1r0"
+      "SrvLAW_Chld1PrimWater_v2r0"
     ]
   },
   "714419972": {
@@ -16222,7 +15820,7 @@
     ]
   },
   "715581797": {
-    "Variable Name": "When were you vaccinated?"
+    "Variable Name": "When did you get vaccinated?  If you are using a phone or tablet, please tap the gray box to enter your response. - SOURCE"
   },
   "715632875": {
     "Variable Name": "KPNW RRL"
@@ -16287,6 +15885,12 @@
   "718687985": {
     "Variable Name": "Almost every day"
   },
+  "718748949": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd7PrWater2_v2r0"
+    ]
+  },
   "718867914": {
     "Variable Label": "Child 1 Cx",
     "Variable Name": [
@@ -16318,10 +15922,7 @@
     ]
   },
   "719647239": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_SeaAdd4PrWater2_v1r0"
-    ]
+    "Variable Name": "Seasonal Address 4- What [is/was] the main source of water that you [drink/drank] at [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank]. - SOURCE"
   },
   "719933364": {
     "Variable Name": "Good"
@@ -16397,12 +15998,6 @@
       "SrvBOH_Weight3YAgo_v1r0"
     ]
   },
-  "724239872": {
-    "Variable Label": "How many days consumed marijuana in food or drinks, usual month",
-    "Variable Name": [
-      "SrvSAS_EdiblesDaysNum_v1r0"
-    ]
-  },
   "724589244": {
     "Variable Label": "Teeth Lost from accident or injury",
     "Variable Name": [
@@ -16448,6 +16043,12 @@
       "SrvMRE_StrengthTime_v1r0"
     ]
   },
+  "725859556": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd6PrWater2_v2r0"
+    ]
+  },
   "725915890": {
     "Variable Label": "Bag 35",
     "Variable Name": [
@@ -16488,10 +16089,7 @@
     ]
   },
   "726654963": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_3PrimaryWater2_v1r0"
-    ]
+    "Variable Name": "Address 3- What [is/was] the main source of water that you [drink/drank] at [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank]. - SOURCE"
   },
   "726699695": {
     "Variable Name": "Background and Overall Health"
@@ -16533,10 +16131,7 @@
     "Variable Name": "Address 1- What year did you move out of [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]?"
   },
   "728256340": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_SeaAdd7PrWater_v1r0"
-    ]
+    "Variable Name": "Seasonal Address 7- What [is/was] the source of water to [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided? - SOURCE"
   },
   "728267588": {
     "Variable Name": "Initialized"
@@ -16587,12 +16182,6 @@
       "SrvLAW_Country3_v1r0"
     ]
   },
-  "728926441": {
-    "Variable Label": "Add Line 2",
-    "Variable Name": [
-      "SrvBOH_AddressL2_v1r0"
-    ]
-  },
   "729363341": {
     "Variable Name": "Multiple times per day"
   },
@@ -16620,8 +16209,6 @@
   "730334054": {
     "Variable Label": "Long COVID More tired than usual",
     "Variable Name": [
-      "SrvBlU_COV19A3_v1r0",
-      "SrvBlU_COV19A3_v1r0",
       "SrvCov_COV19A3_v1r0"
     ]
   },
@@ -16876,10 +16463,7 @@
     ]
   },
   "740535024": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_9PrimaryWater2_v1r0"
-    ]
+    "Variable Name": "Address 9- What [is/was] the main source of water that you [drink/drank] at [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank]. - SOURCE"
   },
   "740582332": {
     "Variable Label": "BL D/T Any Spec Coll RRL",
@@ -16895,6 +16479,12 @@
   },
   "741094625": {
     "Variable Name": "Separated"
+  },
+  "741541853": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd9PrWater2_v2r0"
+    ]
   },
   "741643840": {
     "Variable Label": "Cigarillo",
@@ -17022,6 +16612,12 @@
   "745775718": {
     "Variable Name": "In total, how many months or years have you used patch estrogen-only medication?"
   },
+  "745985679": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_7PrimaryWater2_v2r0"
+    ]
+  },
   "746012894": {
     "Variable Label": "Current Weight",
     "Variable Name": [
@@ -17089,8 +16685,6 @@
   "747085418": {
     "Variable Label": "Long COVID Trouble sleeping duration",
     "Variable Name": [
-      "SrvBlU_COV20A14_v1r0",
-      "SrvBlU_COV20A14_v1r0",
       "SrvCov_COV20A14_v1r0"
     ]
   },
@@ -17139,12 +16733,6 @@
   "750000285": {
     "Variable Name": "Seasonal Address 4- In general, how many months per year did you spend at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]?"
   },
-  "750097000": {
-    "Variable Label": "Alt Contact Email",
-    "Variable Name": [
-      "SrvBOH_AltContEmail_v1r0"
-    ]
-  },
   "750168061": {
     "Variable Label": "Chinese",
     "Variable Name": [
@@ -17178,13 +16766,6 @@
     "Variable Name": [
       "SrvBOH_Testes_v2r0",
       "SrvScr_Testes_v2r0"
-    ]
-  },
-  "751475124": {
-    "Variable Label": "Military",
-    "Variable Name": [
-      "SrvBOH_MilitaryC_v1r0",
-      "SrvBOH_MilitaryP_v1r0"
     ]
   },
   "751569137": {
@@ -17385,8 +16966,6 @@
   "760243464": {
     "Variable Label": "Body chills",
     "Variable Name": [
-      "SrvBlU_COV8B_v1r0",
-      "SrvBlU_COV8B_v1r0",
       "SrvCov_COV8B_v1r0"
     ]
   },
@@ -17710,8 +17289,6 @@
   "770190369": {
     "Variable Label": "Long COVID Shortness of breath duration",
     "Variable Name": [
-      "SrvBlU_COV20A9_v1r0",
-      "SrvBlU_COV20A9_v1r0",
       "SrvCov_COV20A9_v1r0"
     ]
   },
@@ -17756,10 +17333,7 @@
     ]
   },
   "771505558": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_SeaAdd3PrWater_v1r0"
-    ]
+    "Variable Name": "Seasonal Address 3- What [is/was] the source of water to [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided? - SOURCE"
   },
   "771526486": {
     "Variable Label": "# Yrs Ibuprofen",
@@ -17868,6 +17442,12 @@
   "774774759": {
     "Variable Name": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Ovarian cancer?"
   },
+  "774917669": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd5PrWater_v2r0"
+    ]
+  },
   "774928994": {
     "Variable Label": "None Fully Describe Me - Free Text",
     "Variable Name": [
@@ -17892,8 +17472,6 @@
   "775313030": {
     "Variable Label": "Hospital stay overnight",
     "Variable Name": [
-      "SrvBlU_COV12_v1r0",
-      "SrvBlU_COV12_v1r0",
       "SrvCov_COV12_v1r0"
     ]
   },
@@ -18047,6 +17625,12 @@
       "SrvSAS_WhySmokeMJ_v2r0"
     ]
   },
+  "781313216": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd6PrWater_v2r0"
+    ]
+  },
   "781650542": {
     "Variable Label": "Why [do/did] you use use THC concentrates via dabbing - Descriptive",
     "Variable Name": [
@@ -18065,8 +17649,6 @@
   "782396371": {
     "Variable Label": "Oxygen",
     "Variable Name": [
-      "SrvBlU_COV14A_v1r0",
-      "SrvBlU_COV14A_v1r0",
       "SrvCov_COV14A_v1r0"
     ]
   },
@@ -18203,6 +17785,12 @@
   "786757575": {
     "Variable Name": "Site PI listed on the site-specific consent form"
   },
+  "786760753": {
+    "Variable Label": "Drink tap water, hot tea",
+    "Variable Name": [
+      "SrvLAW_TapWaterTea_v3r0"
+    ]
+  },
   "786930107": {
     "Variable Label": "BL Clin Site Ur Coll",
     "Variable Name": [
@@ -18324,17 +17912,9 @@
       "SrvLAW_CurSchBike6_v1r0"
     ]
   },
-  "790681252": {
-    "Variable Label": "How many days used a tobacco pipe, usual month",
-    "Variable Name": [
-      "SrvSAS_TobPipeDaysMo_v1r0"
-    ]
-  },
   "790860504": {
     "Variable Label": "Long COVID Appetite changes duration",
     "Variable Name": [
-      "SrvBlU_COV20A6_v1r0",
-      "SrvBlU_COV20A6_v1r0",
       "SrvCov_COV20A6_v1r0"
     ]
   },
@@ -18391,6 +17971,12 @@
     "Variable Label": "Number of Physical Activity Reports Available",
     "Variable Name": [
       "ROIPhy_NumPAReports_v1r0"
+    ]
+  },
+  "794421227": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_11PrimaryWater1_v2r0"
     ]
   },
   "794613585": {
@@ -18604,12 +18190,6 @@
   "801218076": {
     "Variable Name": "Yes, because of hormonal medication or device"
   },
-  "801653230": {
-    "Variable Label": "Alt Contact Last Name",
-    "Variable Name": [
-      "SrvBOH_AltContLv1r0"
-    ]
-  },
   "801749224": {
     "Variable Label": "Current Use - Oral Estrogen-only Med",
     "Variable Name": [
@@ -18724,8 +18304,6 @@
   "803339020": {
     "Variable Label": "ICU Days",
     "Variable Name": [
-      "SrvBlU_COV16B_v1r0",
-      "SrvBlU_COV16B_v1r0",
       "SrvCov_COV16B_v1r0"
     ]
   },
@@ -18970,8 +18548,6 @@
   "810340693": {
     "Variable Label": "Vomiting",
     "Variable Name": [
-      "SrvBlU_COV8P_v1r0",
-      "SrvBlU_COV8P_v1r0",
       "SrvCov_COV8P_v1r0"
     ]
   },
@@ -19068,8 +18644,6 @@
   "814101706": {
     "Variable Label": "Long COVID Heart racing",
     "Variable Name": [
-      "SrvBlU_COV19C2_v1r0",
-      "SrvBlU_COV19C2_v1r0",
       "SrvCov_COV19C2_v1r0"
     ]
   },
@@ -19314,10 +18888,7 @@
     ]
   },
   "823509509": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_SeaAdd2PrWater2_v1r0"
-    ]
+    "Variable Name": "Seasonal Address 2- What [is/was] the main source of water that you [drink/drank] at [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank]. - SOURCE"
   },
   "823541843": {
     "Variable Label": "Able to Choose Sleep/Wake Time Non-Workdays",
@@ -19359,10 +18930,7 @@
     ]
   },
   "825109070": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_10PrimaryWater2_v1r0"
-    ]
+    "Variable Name": "Address 10- What [is/was] the main source of water that you [drink/drank] at [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank]. - SOURCE"
   },
   "825189914": {
     "Variable Name": "Pills per day regular or extra strength aspirin - SOURCE"
@@ -19472,7 +19040,7 @@
   "828801156": {
     "Variable Label": "Current job, commute at least once a week",
     "Variable Name": [
-      "SrvLAW_NumWork_v2r0"
+      "SrvLAW_NumWork_v2r1"
     ]
   },
   "829269606": {
@@ -19502,17 +19070,12 @@
       "SrvLAW_PreWorkWalk4_v1r0"
     ]
   },
-  "830279557": {
-    "Variable Name": "No, I want to add another seasonal or vacation home address (7th address)"
-  },
   "830573274": {
     "Variable Name": "Intersex or other- Site Reported"
   },
   "830581863": {
     "Variable Label": "Pandemic Mood Changes duration",
     "Variable Name": [
-      "SrvBlU_COV24A12_v1r0",
-      "SrvBlU_COV24A12_v1r0",
       "SrvCov_COV24A12_v1r0"
     ]
   },
@@ -19602,9 +19165,6 @@
   },
   "834544960": {
     "Variable Name": "Geographic group"
-  },
-  "834672471": {
-    "Variable Name": "No, I want to enter another address (9th address)"
   },
   "834694858": {
     "Variable Label": "Sample survey used personal device",
@@ -19772,12 +19332,6 @@
       "BioPack_ContainsOrphan_v1r0"
     ]
   },
-  "842657297": {
-    "Variable Label": "Days Worked",
-    "Variable Name": [
-      "SrvBOH_DaysWork_v1r0"
-    ]
-  },
   "842768118": {
     "Variable Label": "Not confident talking to doctor",
     "Variable Name": [
@@ -19917,12 +19471,6 @@
       "BioFin_ResearchUrnTmF3_v1r0"
     ]
   },
-  "847277590": {
-    "Variable Label": "How many days used marijana with tobacco, usual month",
-    "Variable Name": [
-      "SrvSAS_NumDaysTobMJ_v1r0"
-    ]
-  },
   "847327251": {
     "Variable Label": "Country",
     "Variable Name": [
@@ -19938,8 +19486,6 @@
   "847529903": {
     "Variable Label": "Pandemic Lightheaded",
     "Variable Name": [
-      "SrvBlU_COV23B1_v1r0",
-      "SrvBlU_COV23B1_v1r0",
       "SrvCov_COV23B1_v1r0"
     ]
   },
@@ -20095,6 +19641,12 @@
       "SrvScr_ORSCREEN1_v1r0"
     ]
   },
+  "852877446": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd7PrWater_v2r0"
+    ]
+  },
   "852898339": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had polycystic ovary syndrome (PCOS)?"
   },
@@ -20200,9 +19752,6 @@
       "SrvLAW_Prev10DontKnow_v2r0"
     ]
   },
-  "857915436": {
-    "Variable Name": "What is the address?"
-  },
   "858178137": {
     "Variable Label": "Longest Job Post Pan",
     "Variable Name": [
@@ -20260,8 +19809,6 @@
   "860011428": {
     "Variable Label": "# COVID Infections",
     "Variable Name": [
-      "SrvBlU_COV2_v1r0",
-      "SrvBlU_COV2_v1r0",
       "SrvCov_COV2_v1r0"
     ]
   },
@@ -20280,8 +19827,6 @@
   "860444009": {
     "Variable Label": "Pandemic Heart racing duration",
     "Variable Name": [
-      "SrvBlU_COV24A8_v1r0",
-      "SrvBlU_COV24A8_v1r0",
       "SrvCov_COV24A8_v1r0"
     ]
   },
@@ -20516,13 +20061,6 @@
       "HdRef_Allsrv_v1r0"
     ]
   },
-  "867237640": {
-    "Variable Label": "Forestry",
-    "Variable Name": [
-      "SrvBOH_ForestryC_v1r0",
-      "SrvBOH_ForestryP_v1r0"
-    ]
-  },
   "867247249": {
     "Variable Label": "Still live here",
     "Variable Name": [
@@ -20670,16 +20208,12 @@
   "874168085": {
     "Variable Label": "Pandemic Loss of taste or smell",
     "Variable Name": [
-      "SrvBlU_COV23A1_v1r0",
-      "SrvBlU_COV23A1_v1r0",
       "SrvCov_COV23A1_v1r0"
     ]
   },
   "874223830": {
     "Variable Label": "Pandemic Trouble thinking or making decisions",
     "Variable Name": [
-      "SrvBlU_COV23A6_v1r0",
-      "SrvBlU_COV23A6_v1r0",
       "SrvCov_COV23A6_v1r0"
     ]
   },
@@ -20786,8 +20320,6 @@
   "877074400": {
     "Variable Label": "# COVID vaccines",
     "Variable Name": [
-      "SrvBlU_COV26_v2r0",
-      "SrvBlU_COV26_v1r0",
       "SrvCov_COV26_v1r0"
     ]
   },
@@ -21048,6 +20580,12 @@
       "SrvSAS_AgeSmokeMJReg_v2r1"
     ]
   },
+  "890059935": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_5PrimaryWater1_v2r0"
+    ]
+  },
   "890134757": {
     "Variable Label": "Other: Please describe",
     "Variable Name": [
@@ -21057,8 +20595,6 @@
   "890156588": {
     "Variable Label": "COVID vaccination",
     "Variable Name": [
-      "SrvBlU_COV25_v2r0",
-      "SrvBlU_COV25_v1r0",
       "SrvCov_COV25_v1r0"
     ]
   },
@@ -21167,8 +20703,6 @@
   "893966847": {
     "Variable Label": "Dialysis",
     "Variable Name": [
-      "SrvBlU_COV17A_v1r0",
-      "SrvBlU_COV17A_v1r0",
       "SrvCov_COV17A_v1r0"
     ]
   },
@@ -21205,8 +20739,6 @@
   "896163801": {
     "Variable Label": "Chest tightness",
     "Variable Name": [
-      "SrvBlU_COV8L_v1r0",
-      "SrvBlU_COV8L_v1r0",
       "SrvCov_COV8L_v1r0"
     ]
   },
@@ -21483,12 +21015,6 @@
       "SrvLAW_Apt6_v1r0"
     ]
   },
-  "906155105": {
-    "Variable Label": "During that time, did you ever use THC concentrates via dabbing every day?",
-    "Variable Name": [
-      "SrvSAS_THCEveryDay_v1r0"
-    ]
-  },
   "906417725": {
     "Variable Label": "Ref All Fut Activities",
     "Variable Name": [
@@ -21505,12 +21031,6 @@
     "Variable Label": "Do Not Know 8-Previous Cross",
     "Variable Name": [
       "SrvLAW_Prev8CrDontKnow_v2r0"
-    ]
-  },
-  "907038282": {
-    "Variable Label": "City",
-    "Variable Name": [
-      "SrvBOH_City_v1r0"
     ]
   },
   "907385951": {
@@ -21531,8 +21051,6 @@
   "908044428": {
     "Variable Label": "Recovery duration Days",
     "Variable Name": [
-      "SrvBlU_COV22_Days_V1R0",
-      "SRVBLU_COV22_DAYS_V1R0",
       "SrvCov_COV22_DAYS_V1R0"
     ]
   },
@@ -21620,6 +21138,12 @@
   },
   "913602274": {
     "Variable Name": "$150,000-$199,999/year"
+  },
+  "913746491": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_2PrimaryWater2_v2r0"
+    ]
   },
   "913974510": {
     "Variable Label": "Date Avail",
@@ -21987,10 +21511,7 @@
     "Variable Name": "Full head of hair with no hair loss."
   },
   "927932321": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_11PrimaryWater2_v1r0"
-    ]
+    "Variable Name": "Address 11- What [is/was] the main source of water that you [drink/drank] at [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank]. - SOURCE"
   },
   "928112898": {
     "Variable Name": "Seasonal Address 2- In general, how many months per year did you spend at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]?"
@@ -22014,15 +21535,6 @@
     "Variable Label": "Dsbd Rsrch Acc ID",
     "Variable Name": [
       "BioClin_DBUrineID_v1r0"
-    ]
-  },
-  "928753604": {
-    "Variable Name": "3 days"
-  },
-  "928803137": {
-    "Variable Label": "How many days used cigarettes, usual month",
-    "Variable Name": [
-      "SrvSAS_CigsUseDays_v1r0"
     ]
   },
   "929034795": {
@@ -22052,8 +21564,6 @@
   "930944000": {
     "Variable Label": "Oxygen Days",
     "Variable Name": [
-      "SrvBlU_COV14B_v1r0",
-      "SrvBlU_COV14B_v1r0",
       "SrvCov_COV14B_v1r0"
     ]
   },
@@ -22100,19 +21610,13 @@
     ]
   },
   "933017499": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_6PrimaryWater2_v1r0"
-    ]
+    "Variable Name": "Address 6- What [is/was] the main source of water that you [drink/drank] at [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank]. - SOURCE"
   },
   "933110091": {
     "Variable Label": "Oth Cx - Free Text",
     "Variable Name": [
       "SrvBOH_C1OtherCancDesc_v1r0"
     ]
-  },
-  "933177430": {
-    "Variable Name": "Not true missing"
   },
   "933374659": {
     "Variable Label": "Rx Proton Pump Inhibitors",
@@ -22139,10 +21643,7 @@
     ]
   },
   "934184033": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_4PrimaryWater2_v1r0"
-    ]
+    "Variable Name": "Address 4- What [is/was] the main source of water that you [drink/drank] at [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank]. - SOURCE"
   },
   "934298480": {
     "Variable Label": "Site Reported Age",
@@ -22160,6 +21661,12 @@
     "Variable Label": "First HrHPV test",
     "Variable Name": [
       "SrvScr_CHRHPV1_v1r0"
+    ]
+  },
+  "934555632": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAdd3PrWater_v2r0"
     ]
   },
   "934779560": {
@@ -22256,6 +21763,12 @@
       "SrvSAS_THCUseED_v3r0"
     ]
   },
+  "937608354": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_5PrimaryWater2_v2r0"
+    ]
+  },
   "938150507": {
     "Variable Name": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had bladder cancer?"
   },
@@ -22322,6 +21835,12 @@
       "SrvLAW_SeasWtr1_8_Oth_v1r0"
     ]
   },
+  "940253045": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_10PrimaryWater1_v2r0"
+    ]
+  },
   "940329442": {
     "Variable Name": "Orland Park"
   },
@@ -22362,12 +21881,6 @@
     "Variable Label": "Country",
     "Variable Name": [
       "SrvLAW_Country5FU_v1r0"
-    ]
-  },
-  "941830839": {
-    "Variable Label": "Use hookah or water pipe  every day, months",
-    "Variable Name": [
-      "SrvSAS_HookahED_v1r0"
     ]
   },
   "941963821": {
@@ -22423,6 +21936,12 @@
       "SrvSS_TmStart_v1r0"
     ]
   },
+  "943398317": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_11PrimaryWater2_v2r0"
+    ]
+  },
   "943427992": {
     "Variable Name": "Variant A"
   },
@@ -22459,10 +21978,7 @@
     ]
   },
   "944517297": {
-    "Variable Label": "Drink tap water, other",
-    "Variable Name": [
-      "SrvLAW_TapWaterOther_v3r0"
-    ]
+    "Variable Name": "In a usual week, about how often do you use tap water from your home to make [insert response from DRINKSWTR1/other beverages]? We are interested in all tap water, whether or not it has been filtered or treated. - SOURCE"
   },
   "944699052": {
     "Variable Label": "Last 12 Mons - Swam Laps",
@@ -22748,16 +22264,19 @@
     "Variable Name": "3 to 4"
   },
   "953722451": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_SeaAdd5PrWater2_v1r0"
-    ]
+    "Variable Name": "Seasonal Address 5- What [is/was] the main source of water that you [drink/drank] at [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank]. - SOURCE"
   },
   "954318357": {
     "Variable Name": "Louder than talking"
   },
   "954405492": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Chlamydia?"
+  },
+  "955136492": {
+    "Variable Label": "Drink tap water, other",
+    "Variable Name": [
+      "SrvLAW_TapWaterOther_v3r0"
+    ]
   },
   "955154600": {
     "Variable Label": "Stuffy nose day",
@@ -22771,9 +22290,6 @@
     "Variable Name": [
       "SrvMRE_Dinner_v1r0"
     ]
-  },
-  "955755777": {
-    "Variable Name": "No, I want to add another seasonal or vacation home address (5th address)"
   },
   "955881350": {
     "Variable Label": "Breast Reduction",
@@ -22818,9 +22334,6 @@
       "SrvScr_SKIN1FULL_v1r0"
     ]
   },
-  "956935470": {
-    "Variable Name": "No, I want to add another seasonal or vacation home address (10th address)"
-  },
   "957052257": {
     "Variable Label": "Other Cur Work Post Pan",
     "Variable Name": [
@@ -22852,10 +22365,7 @@
     ]
   },
   "957717014": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_3PrimaryWater1_v1r0"
-    ]
+    "Variable Name": "Address 3- What [is/was] the source of water to [insert address from HOMEADD1 - HOMEADD3/ current address/the 2nd address you provided/etc.]? - SOURCE"
   },
   "957875649": {
     "Variable Name": "Have you ever had any of these tests to check for ovarian cancer or other conditions? Select all that apply."
@@ -22941,9 +22451,6 @@
       "SrvScr_STOOL2_v1r0"
     ]
   },
-  "960288496": {
-    "Variable Name": "You have entered the maximum number of addresses. You will proceed to the next questions."
-  },
   "960308206": {
     "Variable Label": "Cognitive function - slow thinking",
     "Variable Name": [
@@ -22962,8 +22469,6 @@
   "960642359": {
     "Variable Label": "Confusion",
     "Variable Name": [
-      "SrvBlU_COV8E_v1r0",
-      "SrvBlU_COV8E_v1r0",
       "SrvCov_COV8E_v1r0"
     ]
   },
@@ -22971,10 +22476,7 @@
     "Variable Name": "1 to 2"
   },
   "961178879": {
-    "Variable Label": "Drink tap water, coffee",
-    "Variable Name": [
-      "SrvLAW_TapWaterCoffee_v3r0"
-    ]
+    "Variable Name": "In a usual week, about how often do you use tap water from your home to make a cup of coffee? We are interested in all tap water, whether or not it has been filtered or treated. - SOURCE"
   },
   "961267001": {
     "Variable Name": "Have you ever had any of these procedures to check for breast cancer or other conditions? Select all that apply."
@@ -22998,8 +22500,6 @@
   "962475128": {
     "Variable Label": "Long COVID Shortness of breath",
     "Variable Name": [
-      "SrvBlU_COV19B1_v1r0",
-      "SrvBlU_COV19B1_v1r0",
       "SrvCov_COV19B1_v1r0"
     ]
   },
@@ -23076,8 +22576,6 @@
   "966214244": {
     "Variable Label": "Long COVID More tired than usual duration",
     "Variable Name": [
-      "SrvBlU_COV20A2_v1r0",
-      "SrvBlU_COV20A2_v1r0",
       "SrvCov_COV20A2_v1r0"
     ]
   },
@@ -23122,9 +22620,6 @@
   },
   "969177591": {
     "Variable Name": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Thyroid cancer?"
-  },
-  "969318635": {
-    "Variable Name": "No, I want to add another seasonal or vacation home address (9th address)"
   },
   "969451837": {
     "Variable Label": "Age First Period",
@@ -23183,12 +22678,6 @@
   },
   "970716952": {
     "Variable Name": "I had surgery to remove both Testicles"
-  },
-  "970839481": {
-    "Variable Label": "State",
-    "Variable Name": [
-      "SrvBOH_State_v1r0"
-    ]
   },
   "970996351": {
     "Variable Label": "Street number",
@@ -23340,6 +22829,12 @@
   "978485677": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had HPV?"
   },
+  "978628128": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_SeaAd10PrWater2_v2r0"
+    ]
+  },
   "979256174": {
     "Variable Name": "Passive recruit signed in as Active recruit"
   },
@@ -23389,7 +22884,7 @@
     ]
   },
   "980800222": {
-    "Variable Name": "When was the [first/2nd/3rd/etc.] time you had COVID-19? If you are not sure, please make your best guess."
+    "Variable Name": "When was the [first/2nd/3rd/etc.] time you had COVID-19? If you are not sure, please make your best guess.  If you are using a phone or tablet, please tap the gray box to enter your response. - SOURCE"
   },
   "981001113": {
     "Variable Name": "Birthday Card Data Return"
@@ -23440,12 +22935,6 @@
     "Variable Label": "Do Not Know Current School",
     "Variable Name": [
       "SrvLAW_CurSchDontKnow_v2r0"
-    ]
-  },
-  "982402227": {
-    "Variable Label": "Consent Date",
-    "Variable Name": [
-      "RcrtCS_Pdate_v1r0"
     ]
   },
   "982448213": {
@@ -23519,8 +23008,6 @@
   "984121390": {
     "Variable Label": "Breathing Tube or Ventilator",
     "Variable Name": [
-      "SrvBlU_COV15A_v1r0",
-      "SrvBlU_COV15A_v1r0",
       "SrvCov_COV15A_v1r0"
     ]
   },
@@ -23578,13 +23065,8 @@
   "986119909": {
     "Variable Label": "Long COVID Muscle aches duration",
     "Variable Name": [
-      "SrvBlU_COV20A16_v1r0",
-      "SrvBlU_COV20A16_v1r0",
       "SrvCov_COV20A16_v1r0"
     ]
-  },
-  "986275155": {
-    "Variable Name": "Sometimes we find that people have moved when we try to contact them again. It would be helpful if you could give us the contact details of someone close to you (such as a relative or friend) who would be willing for us to contact them if we are unable to reach you. Please leave this section blank if you do not wish to provide these extra contact details."
   },
   "986316055": {
     "Variable Name": "Post Pan Work - Please provide the following information: - SOURCE"
@@ -23614,10 +23096,7 @@
     "Variable Name": "How old were you when you first had bariatric surgery ?"
   },
   "986989731": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_5PrimaryWater1_v1r0"
-    ]
+    "Variable Name": "Address 5- What [is/was] the source of water to [insert address from HOMEADD1 - HOMEADD3/ current address/the 2nd address you provided/etc.]? - SOURCE"
   },
   "987107433": {
     "Variable Label": "Appearance/Style/Dress/Mannerisms",
@@ -23685,8 +23164,6 @@
   "989576239": {
     "Variable Label": "Long COVID Exercise ability",
     "Variable Name": [
-      "SrvBlU_COV19B2_v1r0",
-      "SrvBlU_COV19B2_v1r0",
       "SrvCov_COV19B2_v1r0"
     ]
   },
@@ -23825,8 +23302,6 @@
   "994153376": {
     "Variable Label": "Long COVID Not able to exercise at your usual level duration",
     "Variable Name": [
-      "SrvBlU_COV20A10_v1r0",
-      "SrvBlU_COV20A10_v1r0",
       "SrvCov_COV20A10_v1r0"
     ]
   },
