@@ -53,83 +53,64 @@ function replaceQuotes(text){
  */
 
 function processCluster(cluster, header, nameToConcept, indexVariableName, conceptIdList, conceptIdObject, sourceJSONS, jsonList, regexInclude){
-    // console.log(cluster[0])
+    //console.log(cluster[0])
     let nonEmpty = [];
     let conceptIdObjectKeys =Object.keys(conceptIdObject)
     let conceptIdIndices = [];
     let generalId = -1;
-    let conceptIdReverseLookup = {}; // Ex. {Primary Source: 2, Secondary Source: 4, Current Source Question: 6, Current Question Text: 13, Current Format/Value: 22}
-    
-    
+    let conceptIdReverseLookup = {};
     for(let i = 0; i < conceptIdObjectKeys.length; i++){
         conceptIdIndices.push(parseInt(conceptIdObjectKeys[i]))
         conceptIdReverseLookup[conceptIdObject[conceptIdObjectKeys[i]]] = parseInt(conceptIdObjectKeys[i])
     }
-    let isDeprecated = false;
+
     for(let i = 1; i < cluster.length; i++){
         let currArr = cluster[i]
-        // console.log("TEST",currArr)
         for(let j = 0; j < currArr.length; j++){
-            if(currArr[j].trim()!='' && !conceptIdIndices.includes(j)){ // Are there any non-empty cells in the rows?
+            if(currArr[j].trim()!='' && !conceptIdIndices.includes(j)){
                 if(!nonEmpty.includes(j)){
                     nonEmpty.push(j)
                 }
             }
         }
     }
-    // Add variable to determine if things should be added to varToConcept.json or have it pushed 
     let firstRowJSON = {}
     let firstRow = cluster[0]
-    // console.log("🚀 ~ firstRow:", firstRow.includes('Deprecated'))
-    // console.log("🚀 ~ firstRow:", firstRow.includes('Deprecated'))
-    // isDeprecated = firstRow.includes('Deprecated'); // check if the first row includes 'Deprecated'
-    let deprecatedNewRevisedIndex = header.indexOf('Deprecated, New, or Revised'); // check if the header includes 'Deprecated, New, or Revised'
-    let deprecatedNewRevisedValue = cluster[0][deprecatedNewRevisedIndex]; // check if the first row includes 'Deprecated, New, or Revised'
-    // console.log("🚀 ~ deprecatedNewRevisedValue:", deprecatedNewRevisedValue)
-    isDeprecated = deprecatedNewRevisedValue === "Deprecated"; // check if the first row includes 'Deprecated' [Might reqwrite to be first row]
     let clump = [];
     for(let i = 0; i < firstRow.length; i++){
-        if((firstRow[i] != "" && !nonEmpty.includes(i) && !conceptIdIndices.includes(i)) 
-            || (conceptIdIndices.includes(i) && conceptIdObject[i] =="Current Question Text")){
+        if((firstRow[i] != "" && !nonEmpty.includes(i) && !conceptIdIndices.includes(i)) || (conceptIdIndices.includes(i) && conceptIdObject[i] =="Current Question Text")){
             firstRowJSON[header[i]] = firstRow[i]
         }
     }
+
     //Creating concept Id for the cluster
-    // TODO: add conditional to prevent deprecated concept Id
-    if(!firstRowJSON.hasOwnProperty('conceptId') || firstRowJSON['conceptId'] == ''){ // no cid or cid is blank
-        if(nameToConcept.hasOwnProperty(firstRow[indexVariableName])){ // checks nameToConcept (concept library varToConcept.json) and checks if the current question text exists
-            firstRowJSON['conceptId'] = nameToConcept[firstRow[indexVariableName]] // assign concept Id from varToConcept.json
-            if(!conceptIdList.includes(firstRowJSON['conceptId'])){ // if concept id is not found in conceptIdList add to it 
+    if(!firstRowJSON.hasOwnProperty('conceptId') || firstRowJSON['conceptId'] == ''){
+        if(nameToConcept.hasOwnProperty(firstRow[indexVariableName])){
+            firstRowJSON['conceptId'] = nameToConcept[firstRow[indexVariableName]]
+            if(!conceptIdList.includes(firstRowJSON['conceptId'])){
                 conceptIdList.push(firstRowJSON['conceptId'])
             }
             
         }
-        else{ // if concept id is not found in varToConcept.json
-            if (!isDeprecated) {
-             firstRowJSON['conceptId'] = generateRandomUUID(conceptIdList); // prevent generation if deprecation found in firstRow
+        else{
+             firstRowJSON['conceptId'] = generateRandomUUID(conceptIdList);
              conceptIdList.push(firstRowJSON['conceptId'])
-                console.log("Goes here")
-                nameToConcept[firstRow[indexVariableName]] = firstRowJSON['conceptId']   
-             }
+             nameToConcept[firstRow[indexVariableName]] = firstRowJSON['conceptId']
         }
     }
 
-    firstRow[conceptIdReverseLookup['Current Question Text']] = firstRowJSON['conceptId'] // adds concept Id to the first row (ADD conditional here?)
+    firstRow[conceptIdReverseLookup['Current Question Text']] = firstRowJSON['conceptId']
 
     //find sources first
-    let conceptColNames = Object.keys(conceptIdReverseLookup) // All column names with concept Ids, conceptColNames = ['Primary Source', 'Secondary Source', 'Source Question', 'Question Text', 'Format/Value']
-    for(let i = 0; i < conceptColNames.length; i++){ // THIS LOOP IS RESPONSIBLE FOR ALSO ADDING TO CONCEPT ID LIST TXT FILE
-        if(conceptColNames[i].indexOf('Source') != -1 && firstRow[conceptIdReverseLookup[conceptColNames[i]] + 1] != ''){ // second condiiton checcks the cell next to concept Id for source text
+    let conceptColNames = Object.keys(conceptIdReverseLookup)
+    for(let i = 0; i < conceptColNames.length; i++){
+        if(conceptColNames[i].indexOf('Source') != -1 && firstRow[conceptIdReverseLookup[conceptColNames[i]] + 1] != ''){
 
             for(let k = 0; k < cluster.length; k++){
-                // if (cluster[k].includes('Deprecated')) break; // IS THIS CONTINUE NEEDED?
-                // if (cluster[k].includes('Deprecated')) continue; // IS THIS CONTINUE NEEDED?
-                // console.log("Is cluser k deprecated",cluster[k].includes('Deprecated'), k)
-                if(cluster[k][conceptIdReverseLookup[conceptColNames[i]] + 1] != ""){ // source q text is not empty
-                    // console.log("TEST Cluster k",cluster[k]) // Debugging
-                    let currId = cluster[k][conceptIdReverseLookup[conceptColNames[i]]]; // current concept Id
-                    let currVarName = cluster[k][[conceptIdReverseLookup[conceptColNames[i]] + 1]] // current source question text*
-                    if(currId == '' && nameToConcept.hasOwnProperty(currVarName)){ // assign concept id to empty concept if source question text exists in varToConcept.json
+                if(cluster[k][conceptIdReverseLookup[conceptColNames[i]] + 1] != ""){
+                    let currId = cluster[k][conceptIdReverseLookup[conceptColNames[i]]];
+                    let currVarName = cluster[k][[conceptIdReverseLookup[conceptColNames[i]] + 1]]
+                    if(currId == '' && nameToConcept.hasOwnProperty(currVarName)){
                         currId = nameToConcept[currVarName]
                         //console.log('abc: ' + currId)
                     }
@@ -154,8 +135,7 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                             j = sourceJSONS.length
                         }
                     }
-                    if (cluster[k].includes('Deprecated')) continue;
-                    if(found == -1){ // NOT found in sourceJSONS, create individual JSON file with concept Id, source question text, and subcollections
+                    if(found == -1){
                         let newJSON = {}
                         if(currId == '' ){
                             currId = generateRandomUUID(conceptIdList);
@@ -164,23 +144,17 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                         newJSON['conceptId'] = currId;
                         newJSON['Current Question Text'] = currVarName;
                         newJSON['subcollections'] = [firstRowJSON['conceptId'] + '.json']
-                        sourceJSONS.push(newJSON) // add to sourceJSONS
+                        sourceJSONS.push(newJSON)
                     }
-                    // console.log("Test deprecation looping",cluster[k][deprecatedNewRevisedIndex])
-                    // IMPORTANT: Condition to prevent deprecation for Source Question Text
-                    if (!isDeprecated) {
-                        nameToConcept[currVarName] = currId // adds to varToConcept.json (TODO: Add conditional to prevent deprecation)
-                    }
-                    // console.log("nameToConcept TEST!", nameToConcept)
-                    console.log("currId looping", currId)
-                    if(!conceptIdList.includes(currId)){ // Adds concept Id to conceptIdList
+                    nameToConcept[currVarName] = currId
+                    if(!conceptIdList.includes(currId)){
                         conceptIdList.push(currId)
                     }
                 
-                    if(k > 0){ // cluster length
-                        if(!Array.isArray(firstRowJSON[header[conceptIdReverseLookup[conceptColNames[i]] + 1]])){ // text of source is not an array
-                            firstRowJSON[header[conceptIdReverseLookup[conceptColNames[i]] + 1]] = [firstRowJSON[header[conceptIdReverseLookup[conceptColNames[i]] + 1]]] // text of source in header array
-                            firstRowJSON[header[conceptIdReverseLookup[conceptColNames[i]] + 1]].push(currId + '.json') // add "conceptId.json" to firstRowJSON
+                    if(k > 0){
+                        if(!Array.isArray(firstRowJSON[header[conceptIdReverseLookup[conceptColNames[i]] + 1]])){
+                            firstRowJSON[header[conceptIdReverseLookup[conceptColNames[i]] + 1]] = [firstRowJSON[header[conceptIdReverseLookup[conceptColNames[i]] + 1]]]
+                            firstRowJSON[header[conceptIdReverseLookup[conceptColNames[i]] + 1]].push(currId + '.json')
                         }
                         firstRowJSON[header[conceptIdReverseLookup[conceptColNames[i]] + 1]].push(currId + '.json')
                     }
@@ -202,23 +176,17 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
     
 
     let arrays = {};
-    console.log("nonEmpty", nonEmpty) // Debugging
-    for(let j = 0; j < nonEmpty.length; j++){ // TODO: explore this later buy adding another row with responses, UPDATE: All cell indices with values 
-        // console.log("nonEmpty", nonEmpty, nonEmpty.length)
+    
+    for(let j = 0; j < nonEmpty.length; j++){
         let currIndex = nonEmpty[j]
         let nonEmptyIndex = currIndex;
         let currCol = [];
-        let leafObj = {};
-        let isCurrRowDeprecated;
+        let leafObj = {}
         for(let i = 0; i < cluster.length; i++){
             let currRow = cluster[i];
-            // console.log("Non empty currRow", currRow)
-            isCurrRowDeprecated = currRow.includes('Deprecated'); 
-            // console.log("🚀 ~ isCurrRowDeprecated:", isCurrRowDeprecated)
-            if (isCurrRowDeprecated) continue;
+            console.log(currRow)
             if(currIndex < currRow.length) {
             let currElement = currRow[currIndex].trim();
-            
             if(currElement != ''){
                 //Create conceptIds if this exists
                 if(conceptIdObject[currIndex - 1]){
@@ -239,12 +207,10 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                                 found = true;
                             }
                         }
-                        if(found == false) {
+                        if(found == false){
                             jsonList.push({'conceptId':cid, 'Current Question Text':val})
                             fs.writeFileSync('./jsons/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Current Question Text':val},null, 2))
-                            // if (!isDeprecated) {
-                                nameToConcept[val] = cid
-                            // }
+                            nameToConcept[val] = cid
                         }
                         if(!conceptIdList.includes(cid)){
                             conceptIdList.push(cid)
@@ -273,14 +239,9 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
                             }
                         }
                         if(found == false){
-                            //!isCurrRowDeprecated
                             jsonList.push({'conceptId':cid, 'Current Question Text':currElement})
                             fs.writeFileSync('./jsons/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Current Question Text':currElement},null, 2))
-                            // console.log("test current format value",nameToConcept[currElement])
-                            // if (!isDeprecated) { // for Current/Format Value?
-                                console.log("found false is not deprecated")
-                                nameToConcept[currElement] = cid
-                            // }
+                            nameToConcept[currElement] = cid
                         }
                         if(!conceptIdList.includes(cid)){
                             conceptIdList.push(cid)
@@ -313,88 +274,71 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
         
         
     }
-    // console.log("Object.keys(conceptIdObject)", Object.keys(conceptIdObject)) // mainly for format values
-    for(let i  = 0; i < Object.keys(conceptIdObject).length; i++){ // loop through conceptIdObject, Ex. {2: 'Primary Source', 4: 'Secondary Source', 6: 'Current Source Question', 13: '
-        
+
+    for(let i  = 0; i < Object.keys(conceptIdObject).length; i++){
         let key = parseInt(Object.keys(conceptIdObject)[i]) + 1
         let val = conceptIdObject[key-1]
 
-        if(!(val.includes('Source') || 
-            val.includes('Src') || 
-            val.includes('Current Question Text') || 
-            val.includes('Connect Value for Select all that apply questions') || 
-            nonEmpty.includes(key) || 
-            !firstRow[key].match(regexInclude)) && firstRow[key] != ''){
-
-                // console.log(val)
-                // console.log(firstRow[key])
-                
-                let currVal = firstRow[key]
-                let elementNumber = -1;
-                let equalFound = false;
-                if(currVal.indexOf('=') != -1){ // find "=" in current Format Value
-                    let currElement = currVal;
-                    currVal = currElement.split('=')[1].trim()
-                    elementNumber = currElement.split('=')[0].trim()
-                    equalFound = true;
+        if(!(val.includes('Source') || val.includes('Src') || val.includes('Current Question Text') || val.includes('Connect Value for Select all that apply questions') || nonEmpty.includes(key) || !firstRow[key].match(regexInclude)) && firstRow[key] != ''){
+            console.log(val)
+            console.log(firstRow[key])
+            
+            let currVal = firstRow[key]
+            let elementNumber = -1;
+            let equalFound = false;
+            if(currVal.indexOf('=') != -1){
+                let currElement = currVal;
+                currVal = currElement.split('=')[1].trim()
+                elementNumber = currElement.split('=')[0].trim()
+                equalFound = true;
+            }
+            let cid = generateRandomUUID(conceptIdList)
+            if(nameToConcept.hasOwnProperty(currVal)){
+                cid = nameToConcept[currVal]
+            }
+            if(firstRow[key - 1] != ''){
+                cid = firstRow[key-1];
+            }
+            
+            let found = false;
+            for(let k = 0; k < jsonList.length; k++){
+                if(jsonList[k].hasOwnProperty('conceptId') && jsonList[k]['conceptId'] == cid){
+                    found = true;
                 }
-                let cid = generateRandomUUID(conceptIdList)
-                if(nameToConcept.hasOwnProperty(currVal)){ // add to nameToConcept
-                    cid = nameToConcept[currVal]
-                }
-                if(firstRow[key - 1] != ''){ // assigns concept Id to the previous cell if it is not empty
-                    cid = firstRow[key-1];
-                }
-                
-                let found = false;
-                for(let k = 0; k < jsonList.length; k++){ // find if concept Id exists in jsonList, Note jsonList is an empty array in the beginning of the function
-                    if(jsonList[k].hasOwnProperty('conceptId') && jsonList[k]['conceptId'] == cid){
-                        console.log("Did it find the concept Id? Found true",jsonList[k]['conceptId'])
-                        found = true;
-                    }
-                }
-                if(found == false){
-                    console.log("not found in jsonList~~~~~~~~", found, cid)
-                    if (!isDeprecated) {
-                    jsonList.push({'conceptId':cid, 'Current Question Text':currVal})
-                    fs.writeFileSync('./jsons/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Current Question Text':currVal},null, 2)) // current question text
-                        nameToConcept[currVal] = cid // Possible place to ignore it being added to varToConcept.json
-                    }
-                }
-                if(!conceptIdList.includes(cid)){ // add to conceptIdList
-                    conceptIdList.push(cid)
-                }
-                firstRow[key-1] = cid // assigns cid to the previous cell
-                if(equalFound){ // Add Current Format Value to firstRowJSON, Ex. { "661871565.json": "0" }
-                    firstRowJSON[val] = {};
-                    firstRowJSON[val][cid + '.json'] = elementNumber;
-                }
-                else{
-                    firstRowJSON[val] = cid + '.json';
+            }
+            if(found == false){
+                jsonList.push({'conceptId':cid, 'Current Question Text':currVal})
+                fs.writeFileSync('./jsons/' + cid + '.json', JSON.stringify({'conceptId':cid, 'Current Question Text':currVal},null, 2))
+                nameToConcept[currVal] = cid
+            }
+            if(!conceptIdList.includes(cid)){
+                conceptIdList.push(cid)
+            }
+            firstRow[key-1] = cid
+            if(equalFound){
+                firstRowJSON[val] = {};
+                firstRowJSON[val][cid + '.json'] = elementNumber;
+            }
+            else{
+                firstRowJSON[val] = cid + '.json';
             }
         }
     }
 
-    if(cluster[0][conceptIdReverseLookup['Current Question Text']] == ''){ // Current Question Text is empty
-        // add somewhere here to prevent deprecation here?
+    if(cluster[0][conceptIdReverseLookup['Current Question Text']] == ''){
+
         firstRowJSON['conceptId'] = generateRandomUUID(conceptIdList);
         if(nameToConcept.hasOwnProperty(firstRowJSON[header[indexVariableName]])){
             firstRowJSON['conceptId'] = nameToConcept[firstRowJSON[header[indexVariableName]]];
         }
-        cluster[0][conceptIdReverseLookup['Current Question Text']] = firstRowJSON['conceptId'] // reassign to cluster conceptId
-        nameToConcept[firstRowJSON[header[indexVariableName]]] = firstRowJSON['conceptId'] // reassign to nameToConcept/ varToConcept.json reference
+        cluster[0][conceptIdReverseLookup['Current Question Text']] = firstRowJSON['conceptId']
+        nameToConcept[firstRowJSON[header[indexVariableName]]] = firstRowJSON['conceptId']
     }
     else{
         firstRowJSON['conceptId'] = cluster[0][conceptIdReverseLookup['Current Question Text']]
-        // add condition to prevent nameToConcept to get deprecated cid
-        // firstRowJSON['Deprecated, New, or Revised'] == 'Deprecated'; make sure unexpected overwriting ???
-        if (!isDeprecated) {
-            nameToConcept[firstRowJSON[header[indexVariableName]]] = firstRowJSON['conceptId']
-        }
+        nameToConcept[firstRowJSON[header[indexVariableName]]] = firstRowJSON['conceptId']
     }
-    // console.log("NAME TO CONCEPT VALUES", nameToConcept)
-    let firstRowJSONFound = findJSON(jsonList, firstRowJSON['Current Question Text']); // find JSON in jsonList
-    // console.log("🚀 ~ firstRowJSONFound:", firstRowJSONFound)
+    let firstRowJSONFound = findJSON(jsonList, firstRowJSON['Current Question Text']);
     if(firstRowJSONFound){
         //console.log(firstRowJSONFound)
 
@@ -466,40 +410,11 @@ function processCluster(cluster, header, nameToConcept, indexVariableName, conce
             }
         }
     }
-    // PLACE TO TEST DEPRECATION CONDITIONALITY
-    // gets rid of first row json
-    // TEST with other Rows later on
-    // const deprecatedNewRevisedValue = firstRowJSON['Deprecated, New, or Revised'];
-
-    // console.log("firstRowJSON['Deprecated, New, or Revised'].includes('Deprecated')", !firstRowJSON['Deprecated, New, or Revised']?.includes('Deprecated'), firstRowJSON['Deprecated, New, or Revised'])
-    // console.log("!!!",typeof deprecatedNewRevisedValue, deprecatedNewRevisedValue)
-    const isValidType = (typeof deprecatedNewRevisedValue === 'string' && deprecatedNewRevisedValue !== 'Deprecated') ||
-    (Array.isArray(deprecatedNewRevisedValue) && !deprecatedNewRevisedValue.includes('Deprecated'));
-
-    if (isValidType) {
-        console.log(isValidType, typeof deprecatedNewRevisedValue, deprecatedNewRevisedValue)
     jsonList.push(firstRowJSON);
-    console.log("first row json", firstRowJSON);
-    fs.writeFileSync(
-        `./jsons/${firstRowJSON['conceptId']}.json`,
-        JSON.stringify(firstRowJSON, null, 2)
-    );
-    }
-    // if (typeof firstRowJSON['Deprecated, New, or Revised'] === 'string' && firstRowJSON['Deprecated, New, or Revised'] !== 'Deprecated') {
-
-    //     jsonList.push(firstRowJSON);
-    //     console.log("first row json",firstRowJSON)
-    //     fs.writeFileSync('./jsons/' + firstRowJSON['conceptId'] + '.json', JSON.stringify(firstRowJSON,null, 2))
-    // }
-
-    // if (Array.isArray(firstRowJSON['Deprecated, New, or Revised']) && !firstRowJSON['Deprecated, New, or Revised'].includes('Deprecated')) {
-    //     jsonList.push(firstRowJSON);
-    //     console.log("first row json",firstRowJSON)
-    //     fs.writeFileSync('./jsons/' + firstRowJSON['conceptId'] + '.json', JSON.stringify(firstRowJSON,null, 2))
-    // }
+    fs.writeFileSync('./jsons/' + firstRowJSON['conceptId'] + '.json', JSON.stringify(firstRowJSON,null, 2))
     return cluster;
 
-};
+}
 
 function findJSON(jsonList, questionText){
     //console.log('finding: ' + questionText)
@@ -584,13 +499,13 @@ function getConceptIdCols(header){
 async function readFile(fileName){
     let jsonList = []
     let sourceJSONS = []
-    // fs.readdirSync('./jsons/').forEach(file => {
+    fs.readdirSync('./jsons/').forEach(file => {
         /*if(file.match(/[0-9]{9}.json/)){
             let currFileContents = fs.readFileSync('./jsons/' + file);
             let currJSON = JSON.parse(currFileContents)
             sourceJSONS.push(currJSON);
         }*/
-    // });
+    });
     let ConceptIndex = '{}'
     if(fs.existsSync('./jsons/varToConcept.json')){
         ConceptIndex = fs.readFileSync('./jsons/varToConcept.json', {encoding:'utf8'})
@@ -621,7 +536,6 @@ async function readFile(fileName){
         idIndex = fs.readFileSync('./jsons/conceptIds.txt', {encoding:'utf8'})
     }
     let conceptIdList = JSON.parse(idIndex)
-    // console.log("🚀 ~ readFile ~ conceptIdList:", conceptIdList, conceptIdList[conceptIdList.length-1])
     let varLabelIndex = 0;
     let cluster = []
     
@@ -659,8 +573,8 @@ async function readFile(fileName){
             excelOutput.push([arr])
         }
         else if(currCluster){
-            if(arr[varLabelIndex] == ''){ // used for multiple format/value 
-                cluster.push(arr); 
+            if(arr[varLabelIndex] == ''){
+                cluster.push(arr);
             }
             else{
                 let returned = processCluster(cluster, header, nameToConcept, varLabelIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList, /[0-9]+\s*=/)
@@ -674,24 +588,16 @@ async function readFile(fileName){
             currCluster = true;
         }
     }
-    // console.log("This is the cluster", cluster) // Add back for debugging
     let returned = processCluster(cluster, header, nameToConcept, varLabelIndex, conceptIdList, conceptIdObject, sourceJSONS, jsonList,/[0-9]+\s*=/);
-    excelOutput.push(returned) // this is where the rows are added to the excelOutput
-    // console.log("sourceJSONS length",sourceJSONS.length, "sourceJSONS", sourceJSONS)
-    // console.log("current JSONList", jsonList) // UNWANTED SIDE EFFECT HERE! getting added to the list without
-    // filter jsonList
-    jsonList = jsonList.filter( currJSON => {
-        return !currJSON['Deprecated, New, or Revised']?.includes('Deprecated');
-    })
-    // console.log("current JSONList after filter", jsonList)
-
-    for(let i = 0; i < sourceJSONS.length; i++){ // check jsonList and push sourceJSONS to it if not found
+    excelOutput.push(returned)
+    //console.log(sourceJSONS)
+    for(let i = 0; i < sourceJSONS.length; i++){
         let found = false;
         let result = {};
         for(let j = 0; j < jsonList.length; j++){
             let currJ = jsonList[j];
             let currS = sourceJSONS[i];
-            if(currJ.conceptId == currS.conceptId){ // compared concept Ids of sourceJSONS and jsonList
+            if(currJ.conceptId == currS.conceptId){
                 
                 let key;
 
@@ -715,21 +621,16 @@ async function readFile(fileName){
             }
         }   
         if(!found){
-            console.log('not found jsonList push')
             jsonList.push(sourceJSONS[i])
             fs.writeFileSync('./jsons/' + sourceJSONS[i]['conceptId'] + '.json', JSON.stringify(sourceJSONS[i],null, 2));
 
         }
         else{
-            console.log('found jsonList push')
             fs.writeFileSync('./jsons/' + sourceJSONS[i]['conceptId'] + '.json', JSON.stringify(result,null, 2))
         }
         
     }
-    console.log('nameToConcept output!', nameToConcept) // Output of nameToConcept added to varToConcept.json []
-    console.log('conceptIdList output!', conceptIdList, "last conceptIdList", conceptIdList[conceptIdList.length-1]) // Output of conceptIdList added to conceptIds.txt []
-    // temp comment out
-    fs.writeFileSync('./jsons/varToConcept.json', JSON.stringify(nameToConcept)) // Write to concept library at the End
+    fs.writeFileSync('./jsons/varToConcept.json', JSON.stringify(nameToConcept))
     fs.writeFileSync('./jsons/conceptIds.txt', JSON.stringify(conceptIdList))
     rl.close();
     fileStream.close();
@@ -755,9 +656,9 @@ async function readFile(fileName){
     let timestamp = new Date().toISOString().split('.')[0].replace(/:/g, '-').replace('T', '-');
     let filenameOutside = './csvHistory/Quest-' + timestamp + '_Concept_Id_Dict.csv';
     let filenameVarGen = './csvHistory/Quest-' + timestamp + '_Concept_ID_Gen.json'
-    fs.writeFileSync(filenameVarGen,JSON.stringify(nameToConcept,null, 2)) 
+    fs.writeFileSync(filenameVarGen,JSON.stringify(nameToConcept,null, 2))
     fs.writeFileSync(filenameOutside,toPrint)
-    // Temporarily commented out for testing
+    
 }
 
 module.exports = {
