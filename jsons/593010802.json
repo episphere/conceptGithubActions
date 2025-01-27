@@ -1,0 +1,55 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "440093675.json"
+  ],
+  "V1 Source Question": [
+    "Thinking about the one-way trip from your home to [insert address from CURWORK1 - CURWORK3/this address] on a usual workday, about how much time do you usually spend in each type of transportation?"
+  ],
+  "GridID/Source Question Name": [
+    "GRID_CURWORKT2"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "593010802",
+  "Current Question Text": "Car, van, or truck (includes carpools or van pools)- Thinking about the one-way trip from your home to [insert address from CURWORK1 - CURWORK3/this address] on a usual workday, about how much time did you usually spend in each type of transportation?",
+  "V1 Question Text": "Car, van, or truck (includes carpools or van pools)- Thinking about the one-way trip from your home to [insert address from CURWORK1 - CURWORK3/this address] on a usual workday, about how much time do you usually spend in each type of transportation?",
+  "Variable Label": "Time, Car, van, or truck (includes carpools or van pools) commute to current work",
+  "Variable Name": [
+    "SrvLAW_CurWorkTmCar_v2r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CURWORKT2A"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "2/28/2022; 10/8/2024",
+  "IMS Review Notes": "Updated source question and question text to match the tense in the qx doc and mark up, but did not version.",
+  "Formula for Index": [
+    "7253",
+    "7254",
+    "7255",
+    "7256",
+    "7257"
+  ],
+  "Index": [
+    "7253",
+    "7254",
+    "7255",
+    "7256",
+    "7257"
+  ],
+  "Current Format/Value": {
+    "428999623.json": "0",
+    "248303092.json": "1",
+    "998679771.json": "2",
+    "638092100.json": "3",
+    "127455035.json": "4"
+  }
+}

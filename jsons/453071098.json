@@ -1,0 +1,49 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "Current Source Question": [
+    "421859821.json"
+  ],
+  "GridID/Source Question Name": [
+    "GRID_SLHABIT1"
+  ],
+  "conceptId": "453071098",
+  "Current Question Text": "Did you take prescription or over-the-counter sleeping pills to help you sleep?",
+  "Variable Label": "Rx Or OTC Sleeping Pills",
+  "Variable Name": [
+    "SrvMRE_SleepPrescrip_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "SLHABIT1E"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "11/15/21",
+  "Formula for Index": [
+    "4687",
+    "4688",
+    "4689",
+    "4690",
+    "4691"
+  ],
+  "Index": [
+    "4687",
+    "4688",
+    "4689",
+    "4690",
+    "4691"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "525779785.json": "1",
+    "565036180.json": "2",
+    "284343405.json": "3",
+    "270994579.json": "4"
+  }
+}

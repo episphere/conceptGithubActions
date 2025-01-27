@@ -1,0 +1,47 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Current Source Question": [
+    "640010727.json"
+  ],
+  "V1 Source Question": [
+    "Child 1- How old is [CHILD INITIALS OR NICKNAME/your CHILD] today?"
+  ],
+  "GridID/Source Question Name": [
+    "CHILDAGE_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "924561726",
+  "Current Question Text": "Child 1- How old is [CHILD INITIALS OR NICKNAME/your CHILD] today?",
+  "V1 Question Text": "Question text diverged from source question",
+  "Variable Label": "Child 1 Age, Oth",
+  "Variable Name": [
+    "SrvBOH_Child1AgeOther_v2r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CHILDAGE"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "8/23/2021; 11/12/2024",
+  "Question Type": "Text Box Plus Check Box, Loops",
+  "IMS Review Notes": "Unharmonized source question and question text and versioned up variable name.",
+  "Formula for Index": [
+    "3264",
+    "3265"
+  ],
+  "Index": [
+    "3264",
+    "3265"
+  ],
+  "Current Format/Value": {
+    "958239616.json": "0",
+    "178420302.json": "77"
+  }
+}

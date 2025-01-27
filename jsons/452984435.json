@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "3970",
+  "Index": "3970",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "452984435",
+  "Current Question Text": "How old were you when you last used copper IUD?",
+  "Variable Label": "Age Last Use - Copper IUD",
+  "Variable Name": [
+    "SrvMRE_AgeCoppIUDUSedL_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "HORMED4_7"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if HORMED= 6. min=0 max=sum(isDefined(D_150344905,age),1)",
+  "Date added or modified": "8/28/23",
+  "IMS Review Notes": "Added range check to Notes."
+}

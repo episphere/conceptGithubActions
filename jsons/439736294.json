@@ -1,0 +1,58 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "conceptId": "439736294",
+  "Current Question Text": "Which of these best describes the type of kidney removal surgery that you had?",
+  "Variable Label": "Kidney Surg Type",
+  "Variable Name": [
+    "SrvBOH_KidneySurgType_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "KIDREM"
+  ],
+  "Notes": "Only display if MHGROUP9 = nephrectomy",
+  "Formula for Index": [
+    "2666",
+    "2667",
+    "2668"
+  ],
+  "Index": [
+    "2666",
+    "2667",
+    "2668"
+  ],
+  "Deprecated, New, or Revised": [
+    "New",
+    "New",
+    "New"
+  ],
+  "Variable Type": [
+    "Num",
+    "Num",
+    "Num"
+  ],
+  "Variable Length": [
+    "2",
+    "2",
+    "2"
+  ],
+  "Current Format/Value": {
+    "113771607.json": "0",
+    "668256654.json": "1",
+    "535003378.json": "88"
+  },
+  "Date added or modified": [
+    "11/7/2024; 12/9/2024",
+    "11/7/24",
+    "11/7/24"
+  ],
+  "IMS Review Notes": [
+    "New variable added to M1 to match Cancer Screening History Survey. Updated variable name for consistency.",
+    "New variable added to M1 to match Cancer Screening History Survey",
+    "New variable added to M1 to match Cancer Screening History Survey"
+  ]
+}

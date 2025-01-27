@@ -1,0 +1,40 @@
+{
+  "Formula for Index": "3577",
+  "Index": "3577",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "Current Source Question": [
+    "893965588.json"
+  ],
+  "V1 Source Question": [
+    "Pills per day Celebrex (celecoxib)"
+  ],
+  "GridID/Source Question Name": [
+    "PAINREL3_6_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "807819551",
+  "Current Question Text": "Pills per day Celebrex (celecoxib)",
+  "V1 Question Text": "Question text diverged from source question.",
+  "Variable Label": "Pills/Day Celebrex, Don't Know",
+  "Variable Name": [
+    "SrvMRE_CelebrexPillDK_v2r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "PAINREL3_6"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "3",
+  "Current Format/Value": {
+    "178420302.json": "77"
+  },
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if PAINREL1 = 5",
+  "Date added or modified": "10/6/2021; 11/19/2024",
+  "IMS Review Notes": "Unharmonized source question from question text and versioned up variable name."
+}

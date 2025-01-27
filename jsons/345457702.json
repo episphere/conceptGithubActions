@@ -1,0 +1,43 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
+  "conceptId": "345457702",
+  "Current Question Text": "How often do you usually apply sunscreen when you go out in the sun for one hour or more?",
+  "Variable Label": "How often apply sunscreen",
+  "Variable Name": [
+    "SrvSAS_SPFOften_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "SUNSCREEN1"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "11/23/21",
+  "Formula for Index": [
+    "5880",
+    "5881",
+    "5882",
+    "5883",
+    "5884"
+  ],
+  "Index": [
+    "5880",
+    "5881",
+    "5882",
+    "5883",
+    "5884"
+  ],
+  "Current Format/Value": {
+    "648960871.json": "44",
+    "235613392.json": "1",
+    "132099255.json": "2",
+    "211590917.json": "3",
+    "907579123.json": "4"
+  }
+}

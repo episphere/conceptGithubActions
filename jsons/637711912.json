@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "2052",
+  "Index": "2052",
+  "Primary Source": [
+    "290739590.json"
+  ],
+  "Secondary Source": [
+    "708990554.json"
+  ],
+  "conceptId": "637711912",
+  "Current Question Text": "dropped_date: Date email was dropped by SendGrid and will not be sent to recipient for delivery",
+  "Variable Label": "Date SG Dropped Email",
+  "Variable Name": [
+    "CTSG_DroppedDt_v1r0"
+  ],
+  "Variable Type": "IS0",
+  "Variable Length": "24",
+  "Current Format/Value": "example: 2023-12-06T20:00:12.000Z",
+  "Required": "Yes",
+  "PII": "No",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "1/3/24",
+  "GCP Document/Table": "SendGrid Table"
+}

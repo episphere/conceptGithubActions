@@ -1,0 +1,35 @@
+{
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "948781977.json"
+  ],
+  "conceptId": "842312685",
+  "Current Question Text": "Contains Orphan Flag",
+  "Variable Label": "Contains Orphan Flag",
+  "Variable Name": [
+    "BioPack_ContainsOrphan_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "3/30/22",
+  "GCP Document/Table": "Boxes Table Not nested (d_842312685)",
+  "Formula for Index": [
+    "1937",
+    "1938"
+  ],
+  "Index": [
+    "1937",
+    "1938"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

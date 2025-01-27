@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "2055",
+  "Index": "2055",
+  "Primary Source": [
+    "290739590.json"
+  ],
+  "Secondary Source": [
+    "708990554.json"
+  ],
+  "conceptId": "153004469",
+  "Current Question Text": "dropped_reason: Reason why message was dropped (dropdown categories)",
+  "Variable Label": "Reason Msg Dropped",
+  "Variable Name": [
+    "CTSG_DroppedReason_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "50",
+  "Current Format/Value": "example: Unsubscribed Address",
+  "Required": "Yes",
+  "PII": "No",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "1/3/24",
+  "GCP Document/Table": "SendGrid Table"
+}

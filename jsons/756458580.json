@@ -1,0 +1,35 @@
+{
+  "Formula for Index": "6062",
+  "Index": "6062",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "205492848.json"
+  ],
+  "V1 Source Question": [
+    "Address 6-Please provide the cross streets of the intersection closest to this address:"
+  ],
+  "GridID/Source Question Name": [
+    "HOMEADD3_6_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "756458580",
+  "Current Question Text": "5-Previous Full Street name #1",
+  "Variable Label": "Full Street name #1",
+  "Variable Name": [
+    "SrvLAW_StrName6_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "STRNAME6"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "70",
+  "Required": "No",
+  "PII": "Yes",
+  "Date added or modified": "3/3/2022; 12/11/2024",
+  "IMS Review Notes": "Unharmonized source Q and question text."
+}

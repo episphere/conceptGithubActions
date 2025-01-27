@@ -1,0 +1,40 @@
+{
+  "Primary Source": [
+    "840173959.json"
+  ],
+  "Secondary Source": [
+    "686238347.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "446235715",
+  "Current Question Text": "Flag for Report Unread/Viewed/Declined",
+  "Variable Label": "Flag for Report Unread/Viewed/Declined",
+  "Variable Name": [
+    "ROIPhy_ReportViewedFlag_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Should be nested under Secondary Source (Physical Activity). Notifications would go out on report status = unread along with pt not withdrawn/not deceased, and being verified",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "Yes, Default to Unread",
+  "Date added or modified": "1/15/25",
+  "GCP Document/Table": "Participants Table",
+  "Formula for Index": [
+    "2070",
+    "2071",
+    "2072"
+  ],
+  "Index": [
+    "2070",
+    "2071",
+    "2072"
+  ],
+  "Current Format/Value": {
+    "702641611.json": "0",
+    "469323437.json": "1",
+    "746038746.json": "2"
+  }
+}

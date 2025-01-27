@@ -1,0 +1,38 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "912367929.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "11/25/22",
+  "conceptId": "289750687",
+  "Current Question Text": "Eligible for menstrual cycle survey",
+  "Variable Label": "Elig Mens Surv Flag",
+  "Variable Name": [
+    "SrvMC_MenstSrvElig_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes if SrvBLM_ResSrvCompl_v1r0 (299215535.265193023) = submitted (231311385) AND SrvBlU_MENST60_v2r0 (112151599) = yes (353358909 OR if SrvBlU_BaseComplete_v1r0 (826163434.253883960) = submitted (231311385) AND SrvBlU_MENST60_v2r0 (112151599) = yes",
+  "PII": "No",
+  "Dictionary": "Master Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "2/28/24",
+  "GCP Document/Table": "Participants Table Not nested (d_289750687)",
+  "IMS Review Notes": "Revised MENST60 variable name suffix in Required column",
+  "Formula for Index": [
+    "1134",
+    "1135"
+  ],
+  "Index": [
+    "1134",
+    "1135"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "Formula for Index": "289",
+  "Index": "289",
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "569151507.json"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "11/14/24",
+  "conceptId": "442166669",
+  "Current Question Text": "Mailing Address- Address line 2",
+  "Variable Label": "Mailing Address Address Line 2",
+  "Variable Name": [
+    "RcrtUP_MailAddressLn2_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "70",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "Yes",
+  "Notes": "Populated from Google Addresses",
+  "Dictionary": "Recruitment Data Dictionary, Biospecimen Clinical, Biospecimen Research",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "11/14/24",
+  "GCP Document/Table": "Participants Table Not nested (d_442166669) OR Nested structure: (d_569151507_d_442166669)",
+  "IMS Review Notes": "Updated Secondary Source to User Profile History"
+}

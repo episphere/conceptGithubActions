@@ -1,0 +1,36 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "conceptId": "952682839",
+  "Current Question Text": "In the past three months, how much did the pain get in the way of your normal work? By work, we mean both housework and work outside of the home.",
+  "Variable Label": "Pain Affect Work",
+  "Variable Name": [
+    "SrvBOH_PainAffectWork_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "PAIN3"
+  ],
+  "Variable Type": "Num",
+  "Required": "No",
+  "PII": "No",
+  "Question Type": "Optional Multiple Choice",
+  "Formula for Index": [
+    "2770",
+    "2771",
+    "2772"
+  ],
+  "Index": [
+    "2770",
+    "2771",
+    "2772"
+  ],
+  "Current Format/Value": {
+    "111520945.json": "0",
+    "548628123.json": "1",
+    "597477164.json": "2"
+  }
+}

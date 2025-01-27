@@ -1,0 +1,35 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "conceptId": "134642404",
+  "Current Question Text": "When you were told that you have or had fibrocystic breasts, or other benign breast disease, was it confirmed by biopsy?",
+  "Variable Label": "Breast Disease Bx",
+  "Variable Name": [
+    "SrvBOH_BreastBiopsy_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "BREASTDIS2"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if MHGROUP8= Fibrocystic Breast, or other Benign Breast Disease",
+  "Question Type": "Optional Multiple Choice",
+  "Formula for Index": [
+    "2610",
+    "2611"
+  ],
+  "Index": [
+    "2610",
+    "2611"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

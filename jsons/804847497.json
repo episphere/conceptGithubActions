@@ -1,0 +1,40 @@
+{
+  "Formula for Index": "3579",
+  "Index": "3579",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "Current Source Question": [
+    "438682764.json"
+  ],
+  "V1 Source Question": [
+    "Pills per day prescription pain relievers containing opioids"
+  ],
+  "GridID/Source Question Name": [
+    "PAINREL3_7_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "804847497",
+  "Current Question Text": "Pills per day prescription pain relievers containing opioids",
+  "V1 Question Text": "Question text diverged from source question.",
+  "Variable Label": "Pills/Day Rx Pain Reliever With Opioids, Don't Know",
+  "Variable Name": [
+    "SrvMRE_OpioidsPillDK_v2r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "PAINREL3_7"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "3",
+  "Current Format/Value": {
+    "178420302.json": "77"
+  },
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if PAINREL1 = 6",
+  "Date added or modified": "10/6/2021; 11/19/2024",
+  "IMS Review Notes": "Unharmonized source question from question text and versioned up variable name."
+}

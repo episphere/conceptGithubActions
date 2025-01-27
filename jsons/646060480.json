@@ -1,0 +1,33 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "506648060.json"
+  ],
+  "conceptId": "646060480",
+  "Current Question Text": "Are you able to find everything you are looking for on MyConnect (surveys, support, study information etc.)?",
+  "Variable Label": "Finding everything on MyConnect",
+  "Variable Name": [
+    "SrvPES_FIND_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "2024 Connect Experience Survey",
+  "Date added or modified": "12/19/22",
+  "Question Type": "Optional Multiple Choice",
+  "Formula for Index": [
+    "8680",
+    "8681"
+  ],
+  "Index": [
+    "8680",
+    "8681"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

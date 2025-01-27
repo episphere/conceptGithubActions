@@ -1,0 +1,33 @@
+{
+  "Formula for Index": "7393",
+  "Index": "7393",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "992180692.json"
+  ],
+  "GridID/Source Question Name": [
+    "PREWORK1B"
+  ],
+  "conceptId": "452053599",
+  "Current Question Text": "Previous Employer Name of employer/company",
+  "Variable Label": "Name of employer/company",
+  "Variable Name": [
+    "SrvLAW_PreWorkEmp_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "PREWORKEMP"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "300",
+  "Required": "No",
+  "PII": "Yes",
+  "Notes": "GridID/Source Question name was previously PREWORK1 (pushed to prod on 8/29/22). No other content was changed.",
+  "Date added or modified": "2/2/23",
+  "Question Type": "Mulitple Text Boxes",
+  "IMS Review Notes": "Added note to Notes"
+}

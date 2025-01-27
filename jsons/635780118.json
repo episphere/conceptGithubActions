@@ -1,0 +1,39 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "conceptId": "635780118",
+  "Current Question Text": "Was this your longest-held job?",
+  "Variable Label": "Longest Job",
+  "Variable Name": [
+    "SrvLAW_LongestJob_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "LONGESTJOB"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "10/8/2024; 1/9/2025",
+  "IMS Review Notes": "Added new question. Updated variable length.",
+  "Formula for Index": [
+    "7210",
+    "7211"
+  ],
+  "Index": [
+    "7210",
+    "7211"
+  ],
+  "Deprecated, New, or Revised": [
+    "New",
+    "New"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "111235606",
+  "Current Question Text": "Have you ever used testosterone therapy (e.g., Depo-Testosterone, Androgel, Testim, Fortesta, Axiron, Androderm, Striant)?",
+  "Variable Label": "Testosterone Therapy",
+  "Variable Name": [
+    "SrvMRE_TestosTherapy_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "TESTTHER"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Formula for Index": [
+    "4101",
+    "4102"
+  ],
+  "Index": [
+    "4101",
+    "4102"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

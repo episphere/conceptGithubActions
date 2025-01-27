@@ -1,0 +1,57 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "733638576.json"
+  ],
+  "GridID/Source Question Name": [
+    "NEST_CURWORKPOSTPANT2"
+  ],
+  "conceptId": "317194063",
+  "Current Question Text": "Commuter rail, subway, metro - Thinking about the one-way trip from your home to [insert address from CURWORKPOSTPAN1 - CURWORKPOSTPAN3/this address] on a usual workday, about how much time do you usually spend in each type of transportation?",
+  "Variable Label": "Rail Time Cur Work Post Pan",
+  "Variable Name": [
+    "SrvLAW_WkPstPanRailT_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CURWORKPOSTPANT2E"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "10/8/2024; 1/16/2025",
+  "IMS Review Notes": "Added new question.  Updated Grid ID from GRID_ to NEST_",
+  "Formula for Index": [
+    "7091",
+    "7092",
+    "7093",
+    "7094",
+    "7095"
+  ],
+  "Index": [
+    "7091",
+    "7092",
+    "7093",
+    "7094",
+    "7095"
+  ],
+  "Deprecated, New, or Revised": [
+    "New",
+    "New",
+    "New",
+    "New",
+    "New"
+  ],
+  "Current Format/Value": {
+    "428999623.json": "0",
+    "248303092.json": "1",
+    "998679771.json": "2",
+    "638092100.json": "3",
+    "127455035.json": "4"
+  }
+}

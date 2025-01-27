@@ -1,0 +1,42 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "369168474.json"
+  ],
+  "conceptId": "429157727",
+  "Current Question Text": "Which of these best describes the type of testicle removal surgery that you had? - CSH",
+  "Variable Label": "Screening Srv - Testicle Removal Surg",
+  "Variable Name": [
+    "SrvScr_TestRemSurg_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "SrvScr_TestRemSurg_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Maintaining versioning from BOH survey to harmonize variables.  Only display if SrvScr_MHGROUP9_v2r1 = removal of one or both testicles",
+  "Formula for Index": [
+    "9470",
+    "9471",
+    "9472"
+  ],
+  "Index": [
+    "9470",
+    "9471",
+    "9472"
+  ],
+  "Current Format/Value": {
+    "770550588.json": "0",
+    "970716952.json": "1",
+    "535003378.json": "88"
+  },
+  "Date added or modified": [
+    "11/7/24",
+    "11/7/24",
+    "11/7/24"
+  ]
+}

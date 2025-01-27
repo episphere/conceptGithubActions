@@ -1,0 +1,41 @@
+{
+  "Primary Source": [
+    "237817859.json"
+  ],
+  "Secondary Source": [
+    "861315814.json"
+  ],
+  "Current Source Question": [
+    "685002411.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "8/28/24",
+  "conceptId": "688142378",
+  "Current Question Text": "Refused all future QOL surveys (but willing to do other future surveys)",
+  "Variable Label": "Ref All QOL Surv",
+  "Variable Name": [
+    "HdRef_AllQOLsurv_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Set by help desk agent via dashboard",
+  "Dictionary": "Withdrawal, Study Manager Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "2/8/24",
+  "GCP Document/Table": "Participants Table",
+  "Formula for Index": [
+    "1458",
+    "1459"
+  ],
+  "Index": [
+    "1458",
+    "1459"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "58",
+  "Index": "58",
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "883203566.json"
+  ],
+  "conceptId": "749475364",
+  "Current Question Text": "Eligibility algorithm version",
+  "Variable Label": "Elig Algorithm Vers",
+  "Variable Name": [
+    "RcrtSI_EligibilityVer_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "25",
+  "Current Format/Value": "N/A",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Version of the algorithm use to select the pool of eligible participants that the active recruit is selected from. Sent with de-identified individual demographic variables when participants moved from Eligibility pool to active recruits with submitParticipantsData API call.",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "Yes",
+  "Default Variable": "No",
+  "GCP Document/Table": "Participants Table Not nested (state_d_749475364)"
+}

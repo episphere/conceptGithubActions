@@ -1,0 +1,40 @@
+{
+  "Formula for Index": "3753",
+  "Index": "3753",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "Current Source Question": [
+    "618427836.json"
+  ],
+  "V1 Source Question": [
+    "Pills per day over-the-counter H2 receptor blockers"
+  ],
+  "GridID/Source Question Name": [
+    "ACIDSUP3_3_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "401396910",
+  "Current Question Text": "Pills per day over-the-counter H2 receptor blockers",
+  "V1 Question Text": "Question text diverged from source question.",
+  "Variable Label": "Pills/Day OTC H2 Receptor Blockers, Don't Know",
+  "Variable Name": [
+    "SrvMRE_H2RecBlOCPillDK_v2r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "ACIDSUP3_3"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Current Format/Value": {
+    "178420302.json": "77"
+  },
+  "Required": "N/A",
+  "PII": "No",
+  "Notes": "Only display if ACIDSUP = 2",
+  "Date added or modified": "10/5/2021; 11/19/2024",
+  "IMS Review Notes": "Unharmonized source question from question text and versioned up variable name."
+}

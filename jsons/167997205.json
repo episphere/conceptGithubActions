@@ -1,0 +1,53 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/1/24",
+  "conceptId": "167997205",
+  "Current Question Text": "How long after your first menstrual period did your periods become regular? By regular, we mean that you could predict the start of your next period within a few days. If you had to take hormonal medication or device for your periods to become regular, please select Never became regular.",
+  "V1 Question Text": "How long after your first menstrual period did your periods become regular? By regular, we mean that you could predict the start of your next period within a few days.",
+  "Variable Label": "Time Until Reg Periods",
+  "Variable Name": [
+    "SrvMRE_PeriodRegTime_v2r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "MENSHIS2_1"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "2/28/24",
+  "IMS Review Notes": "Added Prod Push Date",
+  "Formula for Index": [
+    "3774",
+    "3775",
+    "3776",
+    "3777",
+    "3778",
+    "3779",
+    "3780"
+  ],
+  "Index": [
+    "3774",
+    "3775",
+    "3776",
+    "3777",
+    "3778",
+    "3779",
+    "3780"
+  ],
+  "Current Format/Value": {
+    "648960871.json": "44",
+    "868025301.json": "0",
+    "939110313.json": "1",
+    "410083265.json": "2",
+    "718537646.json": "3",
+    "801142243.json": "4",
+    "178420302.json": "77"
+  }
+}

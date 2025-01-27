@@ -47,7 +47,7 @@ function parseMasterModule() {
             masterJSON[file.substring()] = JSON.parse(currJSON);
         }
     });
-    console.log("masterJSON", masterJSON);
+    // console.log("masterJSON", masterJSON);
 
     let keys = Object.keys(masterJSON); // Ex. ["113838601.json", "126388230.json", ...]
     let toReturn = {}; // Becomes the JSON transformation
@@ -190,7 +190,7 @@ function parseMasterModule() {
                                         else if (typeof val === 'object' && val !== null) {
     
                                             if (currJSON['GridID/Source Question Name'] && currJSON['GridID/Source Question Name'][sourceIndex] && currJSON['GridID/Source Question Name'][sourceIndex].toLowerCase().includes('grid_') && val['104430631.json'] && val['353358909.json']) {
-                                                console.log(currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase())
+                                                // console.log(currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase())
                                                 let currName = currJSON['Connect Value for Select all that apply questions - Surveys Only'][sourceIndex].toUpperCase()
                                                 if(currName.includes('_')){
                                                     let name = currName.substring(0, currName.indexOf('_'))

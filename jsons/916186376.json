@@ -1,0 +1,30 @@
+{
+  "Formula for Index": "2066",
+  "Index": "2066",
+  "Primary Source": [
+    "218382402.json"
+  ],
+  "Secondary Source": [
+    "981001113.json"
+  ],
+  "Current Source Question": [
+    "359309143.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "916186376",
+  "Current Question Text": "The disposition code with values: 01 UNDELIVERABLE - NO NEW INFORMATION PROVIDED; 02 UNDELIVERABLE - NEW INFORMATION PROVIDED; 06 REFUSAL; 07 HOSTILE REFUSAL",
+  "Variable Label": "Birthday Card Disposition Code",
+  "Variable Name": [
+    "NORCBC_CardDispCode_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Current Format/Value": "example: 01",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "birthdayCard- This is an object that holds the birthday card data for API submission. It is not written to the database because each object goes into a separate document. This is the source question.",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "4/1/24"
+}

@@ -1,0 +1,39 @@
+{
+  "Formula for Index": "5613",
+  "Index": "5613",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
+  "Current Source Question": [
+    "933417196.json"
+  ],
+  "V1 Source Question": [
+    "On days that you [use/used] THC concentrates via dabbing, how many servings [do/did] you have per day?"
+  ],
+  "GridID/Source Question Name": [
+    "THMAR9A_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "681235620",
+  "Current Question Text": "Don't Know - On the days that you dabbed THC concentrated, how many servings [did/do] you have per day?",
+  "V1 Question Text": "On days that you [use/used] THC concentrates via dabbing, how many servings [do/did] you have per day?. Question text diverged from source question",
+  "Variable Label": "Number of servings use/used THC concentrates, servings per day, do not know",
+  "Variable Name": [
+    "SrvSAS_THCServingsDK_v2r1"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "THMAR9A"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Current Format/Value": {
+    "178420302.json": "77"
+  },
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "11/23/2021; 10/4/2024; 11/19/2024",
+  "IMS Review Notes": "Updated source question and question text. Unharmonized source question from question text and versioned up the variable name."
+}

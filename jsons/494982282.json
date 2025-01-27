@@ -1,0 +1,27 @@
+{
+  "Formula for Index": "307",
+  "Index": "307",
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "332759827.json"
+  ],
+  "conceptId": "494982282",
+  "Current Question Text": "Any comments about your cancer diagnosis:",
+  "Variable Label": "Cx Comments",
+  "Variable Name": [
+    "RcrtUP_CancerComts_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "800",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "Yes",
+  "Notes": "Only shown if answer to RcrtUP_Cancer_v1r0 equals 1.",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "12/6/24",
+  "GCP Document/Table": "Participants Table Not nested (d_494982282)"
+}

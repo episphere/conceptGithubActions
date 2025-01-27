@@ -1,0 +1,27 @@
+{
+  "Formula for Index": "6181",
+  "Index": "6181",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "conceptId": "243695994",
+  "Current Question Text": "Address 8- What year did you move into [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]?",
+  "Variable Label": "Year moved in",
+  "Variable Name": [
+    "SrvLAW_HomeMoveIn8_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "HOMEMOVEIN8"
+  ],
+  "Variable Type": "Year",
+  "Variable Length": "4",
+  "Current Format/Value": "yyyy",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Range check minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear",
+  "Date added or modified": "8/29/23",
+  "IMS Review Notes": "Added range check to Notes"
+}

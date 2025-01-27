@@ -1,0 +1,37 @@
+{
+  "Formula for Index": "8732",
+  "Index": "8732",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "506648060.json"
+  ],
+  "Current Source Question": [
+    "355080680.json"
+  ],
+  "GridID/Source Question Name": [
+    "SrvPES_BIOSAMP5_SRC_v2r0"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "774398441",
+  "Current Question Text": "You can share more about your experience with the Connect team when you donated samples here.",
+  "Variable Label": "Biospecimen donation experience - I have no comment",
+  "Variable Name": [
+    "SrvPES_BIOSAMP5_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "SrvPES_BIOSAMP5_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Current Format/Value": {
+    "334491616.json": "0"
+  },
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "2024 Connect Experience Survey",
+  "Date added or modified": "1/5/2023, 9/20/2024; 11/13/2024",
+  "Question Type": "Text Box Plus Check Box",
+  "IMS Review Notes": "Made Question Text the same as Source Question. Used full Variable Name for Connect Value.  Added  SOURCE to source question.. Added SRC to GridID/Source Question Name. Removed current question text conceptID. Added underscore before SRC in the source question name"
+}

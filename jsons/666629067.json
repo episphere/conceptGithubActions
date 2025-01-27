@@ -1,0 +1,59 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "conceptId": "666629067",
+  "Current Question Text": "How many days per week do you usually make the trip from your home to [insert address from CURWORKPOSTPAN1 - CURWORKPOSTPAN3/this address]?",
+  "Variable Label": "Days Commute to Cur Work Post Pan",
+  "Variable Name": [
+    "SrvLAW_WkPstPanDayCm_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CURWORKPOSTPANT6"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "10/8/2024; 1/16/2025",
+  "IMS Review Notes": "Added new question. Updated variable length",
+  "Formula for Index": [
+    "7120",
+    "7121",
+    "7122",
+    "7123",
+    "7124",
+    "7125",
+    "7126"
+  ],
+  "Index": [
+    "7120",
+    "7121",
+    "7122",
+    "7123",
+    "7124",
+    "7125",
+    "7126"
+  ],
+  "Deprecated, New, or Revised": [
+    "New",
+    "New",
+    "New",
+    "New",
+    "New",
+    "New",
+    "New"
+  ],
+  "Current Format/Value": {
+    "559049897.json": "0",
+    "500554958.json": "1",
+    "897038099.json": "2",
+    "103409401.json": "3",
+    "334390252.json": "4",
+    "300863887.json": "5",
+    "252853790.json": "6"
+  }
+}

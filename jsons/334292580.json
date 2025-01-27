@@ -1,0 +1,46 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
+  "conceptId": "334292580",
+  "Current Question Text": "On days you were around other people's tobacco smoke in the past year in your home or work, about how many hours per day were you around it?",
+  "Variable Label": "Hours around tobacco smoke of others, past year",
+  "Variable Name": [
+    "SrvSAS_HrsAroundSmoke_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CURRSM2"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "10/25/21",
+  "Formula for Index": [
+    "5205",
+    "5206",
+    "5207",
+    "5208",
+    "5209",
+    "5210"
+  ],
+  "Index": [
+    "5205",
+    "5206",
+    "5207",
+    "5208",
+    "5209",
+    "5210"
+  ],
+  "Current Format/Value": {
+    "174968750.json": "0",
+    "738454194.json": "1",
+    "229540444.json": "2",
+    "838981994.json": "3",
+    "464169461.json": "4",
+    "683466918.json": "5"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "Current Source Question": [
+    "614145455.json"
+  ],
+  "V1 Source Question": [
+    "Please pick the option that best describes why you have not had a menstrual period in the past 12 months:"
+  ],
+  "GridID/Source Question Name": [
+    "MENSHIS7_SRC"
+  ],
+  "conceptId": "384247618",
+  "Current Question Text": "Please pick the option that best describes why you have not had a menstrual period in the past 12 months:",
+  "V1 Question Text": "Question text diverged from source question.",
+  "Variable Label": "No Mens Pd in 12 Mo - Why",
+  "Variable Name": [
+    "SrvMRE_NoPeriodReason_v2r1"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "MENSHIS7"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Formula for Index": [
+    "3793",
+    "3794",
+    "3795",
+    "3796",
+    "3797",
+    "3798",
+    "3799",
+    "3800",
+    "3801"
+  ],
+  "Index": [
+    "3793",
+    "3794",
+    "3795",
+    "3796",
+    "3797",
+    "3798",
+    "3799",
+    "3800",
+    "3801"
+  ],
+  "Current Format/Value": {
+    "582425113.json": "0",
+    "330745988.json": "1",
+    "909774794.json": "2",
+    "868504994.json": "3",
+    "655309065.json": "4",
+    "757609794.json": "5",
+    "585076356.json": "6",
+    "351584248.json": "7",
+    "807835037.json": "55"
+  },
+  "Date added or modified": [
+    "2/28/2024; 11/19/2024",
+    "1/26/24",
+    "1/26/24",
+    "1/26/24",
+    "1/26/24",
+    "1/26/24",
+    "1/26/24",
+    "2/28/24",
+    "1/26/24"
+  ],
+  "IMS Review Notes": [
+    "Added Prod Push Date. Unharmonized source question from question text and versioned up variable name.",
+    "Removed Keep from Deprecated, New, or Revised Column.",
+    "Removed Keep from Deprecated, New, or Revised Column.",
+    "Removed Keep from Deprecated, New, or Revised Column.",
+    "Removed Keep from Deprecated, New, or Revised Column.",
+    "Removed Keep from Deprecated, New, or Revised Column.",
+    "Removed Keep from Deprecated, New, or Revised Column.",
+    "Added Prod Push Date",
+    "Removed Keep from Deprecated, New, or Revised Column."
+  ],
+  "Deprecated, New, or Revised": [
+    "Revised",
+    "New"
+  ],
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": [
+    "2/1/24"
+  ],
+  "Notes": [
+    "New question pushed to production on 2/1/2024.",
+    "Response is only displayed to participants whose gender does not equal 0."
+  ]
+}

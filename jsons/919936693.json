@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "2039",
+  "Index": "2039",
+  "Primary Source": [
+    "290739590.json"
+  ],
+  "Secondary Source": [
+    "487649453.json"
+  ],
+  "conceptId": "919936693",
+  "Current Question Text": "read: Read Status",
+  "Variable Label": "Read Status",
+  "Variable Name": [
+    "CTN_ReadStatus_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "5",
+  "Current Format/Value": "example: TRUE",
+  "Required": "Yes",
+  "PII": "No",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "1/3/24",
+  "GCP Document/Table": "Notification Table"
+}

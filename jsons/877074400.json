@@ -1,0 +1,27 @@
+{
+  "Formula for Index": "9323",
+  "Index": "9323",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "793330426.json"
+  ],
+  "conceptId": "877074400",
+  "Current Question Text": "How many shots of the COVID-19 vaccine did you get? Please include your initial vaccination and any booster shots.",
+  "Variable Label": "# COVID vaccines",
+  "Variable Name": [
+    "SrvCov_COV26_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Range check min=1 max=10",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Date added or modified": "8/29/23",
+  "Question Type": "Text Only Response",
+  "IMS Review Notes": "Added range check to Notes"
+}

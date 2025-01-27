@@ -1,0 +1,39 @@
+{
+  "Formula for Index": "5569",
+  "Index": "5569",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
+  "Current Source Question": [
+    "276575533.json"
+  ],
+  "V1 Source Question": [
+    "Number of servings consumed  marijuana in food or drinks, servings per day"
+  ],
+  "GridID/Source Question Name": [
+    "EAMAR9A_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "980028298",
+  "Current Question Text": "Number of servings - don't know",
+  "V1 Question Text": "Question text diverged from source question",
+  "Variable Label": "Number of servings consumed  marijuana in food or drinks, servings per day don't know",
+  "Variable Name": [
+    "SrvSAS_EdiblesServingsDK_v2r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "EAMAR9A"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Current Format/Value": {
+    "178420302.json": "77"
+  },
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "11/23/2021; 10/4/2024; 11/19/2024",
+  "IMS Review Notes": "Updated source question. Updated question text to match qx doc, but did not version. Unharmonized source question from question text and versioned up the variable name."
+}

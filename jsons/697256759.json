@@ -1,0 +1,27 @@
+{
+  "Formula for Index": "79",
+  "Index": "79",
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "883203566.json"
+  ],
+  "conceptId": "697256759",
+  "Current Question Text": "Date/time for pre-consent opt-out",
+  "Variable Label": "D/T Pre-consent Opt-out",
+  "Variable Name": [
+    "RcrtSI_OptOutTm_v1r0"
+  ],
+  "Variable Type": "ISO",
+  "Variable Length": "24",
+  "Current Format/Value": "example: 2020-07-17T15:21:26.763Z",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "This is autoset by the system",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "Yes",
+  "Default Variable": "No",
+  "Date added or modified": "3/20/23",
+  "GCP Document/Table": "Participants Table Not nested (state_d_697256759)"
+}

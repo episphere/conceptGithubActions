@@ -1,0 +1,47 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "184448791",
+  "Current Question Text": "During the season[s] in the past 12 months that you played golf, about how often did you do this activity?",
+  "Variable Label": "Last 12 Mons - Golf",
+  "Variable Name": [
+    "SrvMRE_GolfOften_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "EXEREC3D"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if EXEREC1=3",
+  "Date added or modified": "11/15/21",
+  "Formula for Index": [
+    "4476",
+    "4477",
+    "4478",
+    "4479",
+    "4480",
+    "4481"
+  ],
+  "Index": [
+    "4476",
+    "4477",
+    "4478",
+    "4479",
+    "4480",
+    "4481"
+  ],
+  "Current Format/Value": {
+    "239152340.json": "0",
+    "582006876.json": "1",
+    "645894551.json": "2",
+    "996315715.json": "3",
+    "671267928.json": "4",
+    "647504893.json": "5"
+  }
+}

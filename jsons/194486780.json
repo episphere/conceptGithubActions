@@ -1,0 +1,30 @@
+{
+  "Formula for Index": "2065",
+  "Index": "2065",
+  "Primary Source": [
+    "218382402.json"
+  ],
+  "Secondary Source": [
+    "981001113.json"
+  ],
+  "Current Source Question": [
+    "359309143.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "194486780",
+  "Current Question Text": "The card version. This is a four digit numeric variable, being the year the card was sent. That way, as additional cards are sent out over the years, you can track which participants received which cards.",
+  "Variable Label": "Birthday Card Version",
+  "Variable Name": [
+    "NORCBC_CardVersion_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "4",
+  "Current Format/Value": "example: 2024",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "birthdayCard- This is an object that holds the birthday card data for API submission. It is not written to the database because each object goes into a separate document. This is the source question.",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "4/1/24"
+}

@@ -1,0 +1,52 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Current Source Question": [
+    "308014437.json"
+  ],
+  "GridID/Source Question Name": [
+    "RACEETH5"
+  ],
+  "conceptId": "324416332",
+  "Current Question Text": "Guatemalan",
+  "Variable Label": "Guatemalan",
+  "Variable Name": [
+    "SrvBOH_Guatemalan_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "9"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if RACEETH = Hispanic, Latino, or Spanish",
+  "Formula for Index": [
+    "2192",
+    "2193"
+  ],
+  "Index": [
+    "2192",
+    "2193"
+  ],
+  "Deprecated, New, or Revised": [
+    "New",
+    "New"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  },
+  "Date added or modified": [
+    "9/13/24",
+    "9/26/24"
+  ],
+  "IMS Review Notes": [
+    "Source question updated",
+    "Added New to the Deprecated, New, or Revised column"
+  ]
+}

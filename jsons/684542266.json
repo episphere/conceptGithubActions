@@ -1,0 +1,37 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "684542266",
+  "Current Question Text": "To get home from [insert address from CURWORK1 - CURWORK3/this address], did you usually use the same type(s) of transportation that you used to get to work from your home?",
+  "V1 Question Text": "To get home from [insert address from CURWORK1 - CURWORK3/this address], do you usually use the same type(s) of transportation that you do to get to work from your home?",
+  "Variable Label": "Commute to and from current work same",
+  "Variable Name": [
+    "SrvLAW_CurWorkT7_v2r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CURWORKT7"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "10/8/24",
+  "IMS Review Notes": "Updated tense and phrasing of the question text and versioned up.",
+  "Formula for Index": [
+    "7309",
+    "7310"
+  ],
+  "Index": [
+    "7309",
+    "7310"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

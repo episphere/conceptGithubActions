@@ -1,0 +1,38 @@
+{
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "299215535.json",
+    "826163434.json"
+  ],
+  "conceptId": "875535246",
+  "Current Question Text": "Within the last month, have you used hormonal contraceptives? These types of contraceptives include oral contraceptives (the pill), injections, implants, skin patches, vaginal rings, and hormonal intrauterine devices (IUDs)",
+  "Variable Label": "Contraception",
+  "Variable Name": [
+    "SrvBlU_CONTRACEPT_v1r0",
+    "SrvBlU_CONTRACEPT_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Date added or modified": "1/19/23",
+  "Question Type": "Optional Multiple Choice",
+  "IMS Review Notes": "Updated the Variable name prefix to SrvBlU_",
+  "Formula for Index": [
+    "7766",
+    "7767"
+  ],
+  "Index": [
+    "7766",
+    "7767"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

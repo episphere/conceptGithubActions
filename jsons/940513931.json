@@ -1,0 +1,27 @@
+{
+  "Formula for Index": "6682",
+  "Index": "6682",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "conceptId": "940513931",
+  "Current Question Text": "Seasonal Address 10- What year did you first spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]?",
+  "Variable Label": "First spent time at this address, year",
+  "Variable Name": [
+    "SrvLAW_SeasAddyrs1_10_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "SEASADDYRS1_10"
+  ],
+  "Variable Type": "Year",
+  "Variable Length": "4",
+  "Current Format/Value": "yyyy",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Range check minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear",
+  "Date added or modified": "8/29/23",
+  "IMS Review Notes": "Added range check to Notes"
+}

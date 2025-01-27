@@ -1,0 +1,45 @@
+{
+  "Formula for Index": "1292",
+  "Index": "1292",
+  "Primary Source": [
+    "173836415.json",
+    "173836415.json",
+    "173836415.json",
+    "173836415.json"
+  ],
+  "Secondary Source": [
+    "266600170.json",
+    "496823485.json",
+    "650465111.json",
+    "303552867.json"
+  ],
+  "Current Source Question": [
+    "319972665.json",
+    "319972665.json",
+    "319972665.json",
+    "319972665.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "11/20/23",
+  "conceptId": "687158491",
+  "Current Question Text": "Unique Kit Assembled ID",
+  "Variable Label": "Kit Assembled ID",
+  "Variable Name": [
+    "BioKit_KitAssembledIDBL_v1r0",
+    "BioKit_KitAssembledIDF1_v1r0",
+    "BioKit_KitAssembledIDF2_v1r0",
+    "BioKit_KitAssembledIDF3_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "20",
+  "Current Format/Value": "N/A",
+  "Required": "Yes for every mouthwash kit",
+  "PII": "No",
+  "Notes": "Automated assigned UID for every kit",
+  "Dictionary": "Biospecimen Kit",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "11/14/23",
+  "GCP Document/Table": "Kit Table Not nested (TBD) Participants Table Nested structure: d_173836415_d_266600170_d_8583443674_d_687158491 (2nd CID may change based on BL/F1/F2/F3 Biospecimen Table Nested structure: d_143615646_d_687158491",
+  "IMS Review Notes": "Added Curround Source Question and corresponding cid"
+}

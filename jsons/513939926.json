@@ -1,0 +1,37 @@
+{
+  "Primary Source": [
+    "840173959.json"
+  ],
+  "Secondary Source": [
+    "686238347.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "513939926",
+  "Current Question Text": "True missing flag for those who skipped the raw base recreational activity questions",
+  "Variable Label": "Flag for True Missing",
+  "Variable Name": [
+    "ROIPhy_FlagForMissing_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "True missing flag for those who skipped the raw base recreational activity questions [SrvMRE_WalkHike_v1r0, SrvMRE_JogRun_v1r0, SrvMRE_Tennis_v1r0, SrvMRE_PlayGolf_v1r0, SrvMRE_SwimLaps_v1r0, SrvMRE_BikeRide_v1r0, SrvMRE_Strengthening_v1r0, SrvMRE_Yoga_v1r0, SrvMRE_MartialArts_v1r0, SrvMRE_Dance_v1r0, SrvMRE_DownhillSki_v1r0, SrvMRE_CrossCountry_v1r0, SrvMRE_Surf_v1r0, SrvMRE_HICT_v1r0, SrvMRE_OtherExercise_v1r0]. Should be nested under Secondary Source (Physical Activity)",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "1/15/25",
+  "GCP Document/Table": "Participants Table",
+  "Formula for Index": [
+    "2076",
+    "2077"
+  ],
+  "Index": [
+    "2076",
+    "2077"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

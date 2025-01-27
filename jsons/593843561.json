@@ -1,0 +1,82 @@
+{
+  "Primary Source": [
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "299553921.json",
+    "703954371.json",
+    "376960806.json",
+    "232343615.json",
+    "589588440.json",
+    "652357376.json",
+    "505347689.json",
+    "973670172.json",
+    "143615646.json",
+    "223999569.json",
+    "787237543.json",
+    "454453939.json",
+    "677469051.json",
+    "683613884.json",
+    "838567176.json",
+    "958646668.json"
+  ],
+  "conceptId": "593843561",
+  "Current Question Text": "Object Collected",
+  "Variable Label": "SST1 Object Collected",
+  "Variable Name": [
+    "BioCol_ObjColl_v1r0_SST1",
+    "BioCol_ObjColl_v1r0_SST2",
+    "BioCol_ObjColl_v1r0_SST3",
+    "BioCol_ObjColl_v1r0_SST4",
+    "BioCol_ObjColl_v1r0_SST5",
+    "BioCol_ObjColl_v1r0_ACDT1",
+    "BioCol_ObjColl_v1r0_STRT1",
+    "BioCol_ObjColl_v1r0_UT1",
+    "BioCol_ObjColl_v1r0_MWT1",
+    "BioCol_ObjColl_v1r0_BioMW",
+    "BioCol_ObjColl_v1r0_Bio",
+    "BioCol_ObjColl_v1r0_EDTAT1",
+    "BioCol_ObjColl_v1r0_EDTAT2",
+    "BioCol_ObjColl_v1r0_EDTAT3",
+    "BioCol_ObjColl_v1r0_HT1",
+    "BioCol_ObjColl_v1r0_HT2"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Indicates whether a given sample tube or biohazard bag has been collected.  Is nested under the CID for the object, i.e. nested under CID 299553921 for Serum Separator Tube 1",
+  "Dictionary": "Biospecimen Clinical, BIospecimen Research",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "9/7/23",
+  "GCP Document/Table": "Biospecimen Table Nested structure: d_Tube/Bag/Object_d_593843561",
+  "IMS Review Notes": "Updated Variable Name from BioCol_ObjColl_v1r0 to BioCol_ObjColl_v1r0_SST1. Updated Variable Label, Secondary Source and CID.",
+  "Formula for Index": [
+    "406",
+    "407"
+  ],
+  "Index": [
+    "406",
+    "407"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

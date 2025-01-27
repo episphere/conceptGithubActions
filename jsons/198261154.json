@@ -1,0 +1,43 @@
+{
+  "Formula for Index": "1004",
+  "Index": "1004",
+  "Primary Source": [
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "173836415.json",
+    "173836415.json",
+    "173836415.json",
+    "173836415.json"
+  ],
+  "Current Source Question": [
+    "266600170.json",
+    "496823485.json",
+    "650465111.json",
+    "303552867.json"
+  ],
+  "conceptId": "198261154",
+  "Current Question Text": "Sent Clinical Urine accession ID",
+  "Variable Label": "BL Clin Ur Acc ID",
+  "Variable Name": [
+    "BioClin_SntUrineAccIDBL_v1r0",
+    "BioClin_SntUrineAccIDF1_v1r0",
+    "BioClin_SntUrineAccIDF2_v1r0",
+    "BioClin_SntUrineAccIDF3_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "30",
+  "Current Format/Value": "N/A",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "from site EMR, sent to NCI via API",
+  "Dictionary": "Biospecimen Clinical",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "3/21/24",
+  "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_198261154 (2nd CID may change based on BL/F-U1,2,3)",
+  "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name from BioClin_SntUrineAccID_v1r0 to BioClin_SntUrineAccIDBL_v1r0."
+}

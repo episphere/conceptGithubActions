@@ -1,0 +1,39 @@
+{
+  "Formula for Index": "7563",
+  "Index": "7563",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "443679537.json"
+  ],
+  "V1 Source Question": [
+    "Commute school- Please provide the cross streets of the intersection closest to this address:"
+  ],
+  "GridID/Source Question Name": [
+    "CURSCH3_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "511148738",
+  "Current Question Text": "Commute school- Please provide the cross streets of the intersection closest to this address:",
+  "V1 Question Text": "Question text diverged from source question",
+  "Variable Label": "Do Not Know Commute School Cross",
+  "Variable Name": [
+    "SrvLAW_CurScCrDontKnow_v2r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CURSCH3"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Current Format/Value": {
+    "178420302.json": "77"
+  },
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "3/10/2022; 12/31/2024",
+  "IMS Review Notes": "Unharmonized source question and question text and versioned up variable name."
+}

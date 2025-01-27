@@ -1,0 +1,53 @@
+{
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json",
+    "369168474.json"
+  ],
+  "Current Source Question": [
+    "750420077.json",
+    "890391968.json"
+  ],
+  "V1 Source Question": [
+    "Please select the body parts that you were born with.",
+    "Please select the body parts you were born with."
+  ],
+  "GridID/Source Question Name": [
+    "SEX2",
+    "SrvScr_SEX2_v2r1"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "108025529",
+  "Current Question Text": "Fallopian Tubes",
+  "Variable Label": "Fallopian Tubes",
+  "Variable Name": [
+    "SrvBOH_FallTube_v1r0",
+    "SrvScr_FallTube_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "7",
+    "7"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if SEX=Intersex or other",
+  "Date added or modified": "9/17/21",
+  "Question Type": "Required Select All that Apply",
+  "Formula for Index": [
+    "2350",
+    "2351"
+  ],
+  "Index": [
+    "2350",
+    "2351"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

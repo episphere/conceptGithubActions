@@ -1,0 +1,35 @@
+{
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "332759827.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "250235523",
+  "Current Question Text": "Flag for if Mailing address is a PO Box",
+  "Variable Label": "PO Box Flag",
+  "Variable Name": [
+    "RcrtUP_POBox_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "11/14/24",
+  "Formula for Index": [
+    "296",
+    "297"
+  ],
+  "Index": [
+    "296",
+    "297"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

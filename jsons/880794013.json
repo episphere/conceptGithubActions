@@ -1,0 +1,55 @@
+{
+  "Primary Source": [
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "173836415.json",
+    "173836415.json",
+    "173836415.json",
+    "173836415.json"
+  ],
+  "Current Source Question": [
+    "266600170.json",
+    "496823485.json",
+    "650465111.json",
+    "303552867.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/30/23",
+  "conceptId": "880794013",
+  "Current Question Text": "Blood order placed or urine order placed",
+  "Variable Label": "BL Blood/Ur Order",
+  "Variable Name": [
+    "BioClin_BldOrUrnPlcdBL_v1r0",
+    "BioClin_BldOrUrnPlcdF1_v1r0",
+    "BioClin_BldOrUrnPlcdF2_v1r0",
+    "BioClin_BldOrUrnPlcdF3_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Nested under Collection Details, Baseline",
+  "Derivation Notes": "If BioClin_BldOrderPlaced_v1r0 = 1 OR BioClin_UrnOrderPlaced_v1r0 = 1 THEN BioClin_BldOrUrnPlaced_v1r0 = 1",
+  "Dictionary": "Biospecimen Clinical",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "3/21/24",
+  "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_880794013 (2nd CID may change based on BL/F-U1,2,3)",
+  "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_BldOrUrnPlaced_v1r0 with BioClin_BldOrUrnPlcdBL_v1r0",
+  "Formula for Index": [
+    "1096",
+    "1097"
+  ],
+  "Index": [
+    "1096",
+    "1097"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "Formula for Index": "6264",
+  "Index": "6264",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "195367894.json"
+  ],
+  "V1 Source Question": [
+    "Address 4- What [is/was] the source of water to [insert address from HOMEADD1 - HOMEADD3/ current address/the 2nd address you provided/etc.]?"
+  ],
+  "GridID/Source Question Name": [
+    "HOMEWTR1_4_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "300611347",
+  "Current Question Text": "Address 4- What [is/was] the source of water to [insert address from HOMEADD1 - HOMEADD3/ current address/the 2nd address you provided/etc.]? Please describe [text box]",
+  "Variable Label": "Other: Please describe",
+  "Variable Name": [
+    "SrvLAW_HomeWtr1_4_Oth_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "HOMEWTR1_4_OTH"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "300",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "3/10/2022; 1/23/2025",
+  "IMS Review Notes": "Unharmonized source question from question text."
+}

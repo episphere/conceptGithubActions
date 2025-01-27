@@ -1,0 +1,41 @@
+{
+  "Formula for Index": "6962",
+  "Index": "6962",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "285545471.json"
+  ],
+  "V2 Source Question": [
+    "In a usual week, about how often do you drink tap water from your home? We are interested in all tap water, whether or not it has been filtered or treated."
+  ],
+  "V1 Source Question": [
+    "In a usual week, about how often do you drink tap water from your home?"
+  ],
+  "GridID/Source Question Name": [
+    "DRINKSWTR2A_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "936382173",
+  "Current Question Text": "In a usual week, about how often do you drink tap water from your home?  We are interested in all tap water, whether or not it has been filtered or treated. Please describe [text box]",
+  "V1 Question Text": "In a usual week, about how often do you drink tap water from your home? Please describe [text box]",
+  "Variable Label": "Tap water times/day",
+  "Variable Name": [
+    "SrvLAW_DrinksWtr2A_Num_v2r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "DRINKSWTR2A_NUM"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "3",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "Yes",
+  "Notes": "Range check min=0 max=999. Revision pushed to production on 7/5/2023.",
+  "Date added or modified": "8/29/2023; 12/31/2024",
+  "IMS Review Notes": "Added range check to Notes. Unharmonized source question from question text and added previous revision date to the notes column."
+}

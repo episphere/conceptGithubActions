@@ -1,0 +1,35 @@
+{
+  "Formula for Index": "7223",
+  "Index": "7223",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "596318751.json"
+  ],
+  "V1 Source Question": [
+    "What is the name and the street address of the workplace that you commute to most often?"
+  ],
+  "GridID/Source Question Name": [
+    "CURWORK1"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "182144476",
+  "Current Question Text": "Employer Zip code",
+  "Variable Label": "Zip code",
+  "Variable Name": [
+    "SrvLAW_CurWorkZip_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CURWORKZIP"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "8",
+  "Required": "No",
+  "PII": "Yes",
+  "Date added or modified": "7/25/2022; 12/31/2024",
+  "IMS Review Notes": "Changed source question to past tense to match the qx document."
+}

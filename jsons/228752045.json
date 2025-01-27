@@ -1,0 +1,50 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json"
+  ],
+  "conceptId": "228752045",
+  "Current Question Text": "Over the past 12 months, how often did you usually drink other alcoholic beverages (such as wine coolers, hard soda, spiked seltzer (sparkling water), Smirnoff Ice, malt liquor, or pre-mixed cocktails)?",
+  "Variable Label": "Often drink other alcoholic beverages, past 12 months",
+  "Variable Name": [
+    "SrvSAS_OthAlcOften12Mo_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "OTHALC1"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "11/23/21",
+  "IMS Review Notes": "removed quotation marks",
+  "Formula for Index": [
+    "5701",
+    "5702",
+    "5703",
+    "5704",
+    "5705",
+    "5706",
+    "5707"
+  ],
+  "Index": [
+    "5701",
+    "5702",
+    "5703",
+    "5704",
+    "5705",
+    "5706",
+    "5707"
+  ],
+  "Current Format/Value": {
+    "595249233.json": "0",
+    "637900673.json": "1",
+    "207952166.json": "2",
+    "198347104.json": "3",
+    "471294296.json": "4",
+    "594557208.json": "5",
+    "647504893.json": "6"
+  }
+}

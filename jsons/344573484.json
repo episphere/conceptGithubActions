@@ -1,0 +1,34 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "344573484",
+  "Current Question Text": "Are you currently using birth control patch?",
+  "Variable Label": "Current Use - BC Patch",
+  "Variable Name": [
+    "SrvMRE_CurrBCPatch_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "HORMED3_6"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if HORMED= 5",
+  "Formula for Index": [
+    "3962",
+    "3963"
+  ],
+  "Index": [
+    "3962",
+    "3963"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

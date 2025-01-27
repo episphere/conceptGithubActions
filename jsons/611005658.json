@@ -1,0 +1,30 @@
+{
+  "Formula for Index": "313",
+  "Index": "313",
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "569151507.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "5/10/23",
+  "conceptId": "611005658",
+  "Current Question Text": "Profile Change Requested by",
+  "Variable Label": "Who Req Prof Change",
+  "Variable Name": [
+    "RcrtUP_UPChangeReqBy_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "320",
+  "Current Format/Value": "example: example@gmail.com",
+  "Required": "Yes - when user profile is updated",
+  "PII": "Yes",
+  "Notes": "This will be an email address",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "12/6/24",
+  "GCP Document/Table": "Participants Table Nested structure: (d_569151507_d_611005658)",
+  "IMS Review Notes": "Updated Secondary Source to User Profile History"
+}

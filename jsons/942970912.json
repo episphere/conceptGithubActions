@@ -1,0 +1,58 @@
+{
+  "conceptId": "942970912",
+  "Current Question Text": "Colon/rectal",
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json",
+    "726699695.json",
+    "726699695.json",
+    "726699695.json"
+  ],
+  "Current Source Question": [
+    "814510313.json",
+    "173240848.json",
+    "578895128.json",
+    "812370563.json"
+  ],
+  "GridID/Source Question Name": [
+    "MOMCANC2",
+    "DADCANC2",
+    "SIBCANC2",
+    "CHILDCANC2"
+  ],
+  "Variable Label": "Colon/Rectal",
+  "Variable Name": [
+    "SrvBOH_MColonCancer_v1r0",
+    "SrvBOH_DColonCancer_v1r0",
+    "SrvBOH_S1ColonCanc_v1r0",
+    "SrvBOH_C1ColonCanc_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "5",
+    "4",
+    "5",
+    "5"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Question Type": "Optional Select All that Apply",
+  "Formula for Index": [
+    "2944",
+    "2945"
+  ],
+  "Index": [
+    "2944",
+    "2945"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

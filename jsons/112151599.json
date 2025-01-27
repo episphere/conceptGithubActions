@@ -1,0 +1,41 @@
+{
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "299215535.json",
+    "826163434.json"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/1/24",
+  "conceptId": "112151599",
+  "Current Question Text": "Have you had a menstrual period in the last 60 days? Please do not consider breakthrough bleeding (also known as spotting) as part of the menstrual period.",
+  "V1 Question Text": "Have you had a menstrual period in the last 60 days?",
+  "Variable Label": "Menstrual Period within last 60 days",
+  "Variable Name": [
+    "SrvBlU_MENST60_v2r0",
+    "SrvBlU_MENST60_v2r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Dictionary": "Biospecimen Survey",
+  "State Attribute": "No",
+  "Date added or modified": "2/28/24",
+  "Question Type": "Required Multiple Choice",
+  "IMS Review Notes": "Added prod push date",
+  "Formula for Index": [
+    "7755",
+    "7756"
+  ],
+  "Index": [
+    "7755",
+    "7756"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

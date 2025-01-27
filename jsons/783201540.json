@@ -1,0 +1,47 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "601305072.json"
+  ],
+  "Current Source Question": [
+    "284353934.json"
+  ],
+  "GridID/Source Question Name": [
+    "NEST_SRVQOL_PHYSFNCTINTRO_V1R0"
+  ],
+  "conceptId": "783201540",
+  "Current Question Text": "Are you able to go for a walk of at least 15 minutes?",
+  "Variable Label": "Physical function - walk",
+  "Variable Name": [
+    "SrvQoL_PhysFnct3_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Question Type": "Nested",
+  "IMS Review Notes": "New Quality of Life Survey",
+  "Formula for Index": [
+    "10095",
+    "10096",
+    "10097",
+    "10098",
+    "10099"
+  ],
+  "Index": [
+    "10095",
+    "10096",
+    "10097",
+    "10098",
+    "10099"
+  ],
+  "Current Format/Value": {
+    "367964536.json": "4",
+    "193058048.json": "3",
+    "263412634.json": "2",
+    "734992634.json": "1",
+    "221192556.json": "0"
+  }
+}

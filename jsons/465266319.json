@@ -1,0 +1,39 @@
+{
+  "Formula for Index": "5988",
+  "Index": "5988",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "398762737.json"
+  ],
+  "V1 Source Question": [
+    "Address 2-Please provide the cross streets of the intersection closest to this address:"
+  ],
+  "GridID/Source Question Name": [
+    "HOMEADD3_2_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "465266319",
+  "Current Question Text": "Address 2-Please provide the cross streets of the intersection closest to this address:",
+  "V1 Question Text": "Question text diverged from source question",
+  "Variable Label": "Do Not Know 1-Previous Cross",
+  "Variable Name": [
+    "SrvLAW_Prev1CrDontKnow_v2r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "HOMEADD3_2"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Current Format/Value": {
+    "178420302.json": "77"
+  },
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "3/10/2022; 12/11/2024",
+  "IMS Review Notes": "Unharmonized source question and question text and versioned up variable name."
+}

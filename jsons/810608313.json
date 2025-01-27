@@ -1,0 +1,58 @@
+{
+  "Formula for Index": "5568",
+  "Index": "5568",
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json",
+    "965707586.json",
+    "965707586.json",
+    "965707586.json"
+  ],
+  "Current Source Question": [
+    "276575533.json",
+    "517100968.json",
+    "933417196.json",
+    "585819411.json"
+  ],
+  "V1 Source Question": [
+    "Number of servings consumed  marijuana in food or drinks, servings per day",
+    "When daily user, number of servings consumed marijuana in food or drinks",
+    "On days that you [use/used] THC concentrates via dabbing, how many servings [do/did] you have per day?",
+    "When you were a daily user of THC concentrates via dabbing, how many servings did you have per day?"
+  ],
+  "GridID/Source Question Name": [
+    "EAMAR9A_SRC",
+    "EAMAR9C_SRC",
+    "THMAR9A_SRC",
+    "THMAR9C_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "810608313",
+  "Current Question Text": "# Servings per day",
+  "Variable Label": "Number of servings consumed  marijuana in food or drinks, servings per day",
+  "Variable Name": [
+    "SrvSAS_EdiblesServings_v1r0",
+    "SrvSAS_EdiblesServNum_v1r0",
+    "SrvSAS_THCServings_v1r0",
+    "SrvSAS_THCServingNum_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "EAMAR9ANUM",
+    "EAMAR9CNUM",
+    "THMAR9ANUM",
+    "THMAR9CNUM"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Range check min=1 max=999",
+  "Date added or modified": "8/29/2023; 10/4/2024; 11/19/2024",
+  "IMS Review Notes": "Added range check to Notes. Updated the source question. Unharmonized source question from question text."
+}

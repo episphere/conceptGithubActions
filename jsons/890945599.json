@@ -1,0 +1,42 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "506648060.json"
+  ],
+  "conceptId": "890945599",
+  "Current Question Text": "How well did the Connect team communicate with you about donating samples (for example, where and how to donate your samples)?",
+  "Variable Label": "Biospecimen donation communication",
+  "Variable Name": [
+    "SrvPES_BIOSAMP2_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "2024 Connect Experience Survey",
+  "Date added or modified": "12/19/22",
+  "Question Type": "Optional Multiple Choice",
+  "Formula for Index": [
+    "8713",
+    "8714",
+    "8715",
+    "8716",
+    "8717"
+  ],
+  "Index": [
+    "8713",
+    "8714",
+    "8715",
+    "8716",
+    "8717"
+  ],
+  "Current Format/Value": {
+    "254017984.json": "0",
+    "604455183.json": "1",
+    "308765753.json": "2",
+    "138752522.json": "3",
+    "878535894.json": "4"
+  }
+}

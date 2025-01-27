@@ -1,0 +1,49 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "968388901.json"
+  ],
+  "GridID/Source Question Name": [
+    "GRID_PREWORKT2"
+  ],
+  "conceptId": "169499951",
+  "Current Question Text": "Car, van, or truck (includes carpools or van pools)- Thinking about the one-way trip from your home to [insert address from PREWORK1 - PREWORK3/this address] on a usual workday, about how much time did you usually spend in each type of transportation?",
+  "Variable Label": "Time, Car, van, or truck (includes carpools or van pools) commute to past work",
+  "Variable Name": [
+    "SrvLAW_PreWorkTmDrv_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "PREWORKT2A"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "3/10/22",
+  "Formula for Index": [
+    "7428",
+    "7429",
+    "7430",
+    "7431",
+    "7432"
+  ],
+  "Index": [
+    "7428",
+    "7429",
+    "7430",
+    "7431",
+    "7432"
+  ],
+  "Current Format/Value": {
+    "428999623.json": "0",
+    "248303092.json": "1",
+    "998679771.json": "2",
+    "638092100.json": "3",
+    "127455035.json": "4"
+  }
+}

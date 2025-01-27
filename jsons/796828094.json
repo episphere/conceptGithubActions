@@ -1,0 +1,30 @@
+{
+  "Formula for Index": "3396",
+  "Index": "3396",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "796828094",
+  "Current Question Text": "What are your main tasks and activities in your current job? Please be descriptive. For example, constructed residential homes, drove patients from home to medical visits, provided assistance to elementary school students with special needs. WORK3B",
+  "V1 Question Text": "What are your main tasks and activities in this job? Please be descriptive. For example, constructed residential homes, drove patients from home to medical visits, provided assistance to elementary school students with special needs. WORK3B",
+  "Variable Label": "Curr Job Tasks",
+  "Variable Name": [
+    "SrvBOH_CurrentJobTask_v2r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "WORK3B"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "300",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "New question pushed to production on 2/1/2024.",
+  "Date added or modified": "2/28/2024; 9/13/2024",
+  "Question Type": "Text only Response",
+  "IMS Review Notes": "Added Prod Push Date"
+}

@@ -1,0 +1,36 @@
+{
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "104913069.json"
+  ],
+  "conceptId": "684635302",
+  "Current Question Text": "Baseline Mouthwash Collected",
+  "Variable Label": "Base MW Collected",
+  "Variable Name": [
+    "BioFin_BaseMouthCol_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "Notes": "For display at check-in and check out. These will be derived from other variables in the biospecimen dictionary.",
+  "Derivation Notes": "IF BioSpm_Visit_v1r0 = 0  AND MWTube1_BioCol_TubeCollected_v1r0 = 1, THEN BioFin_BaseMouthCol_v1r0=1",
+  "Dictionary": "Biospecimen Research",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "7/28/23",
+  "GCP Document/Table": "Participants Table Not nested (d_684635302)",
+  "Formula for Index": [
+    "872",
+    "873"
+  ],
+  "Index": [
+    "872",
+    "873"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

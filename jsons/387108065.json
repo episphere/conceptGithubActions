@@ -1,0 +1,36 @@
+{
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "123496044.json"
+  ],
+  "conceptId": "387108065",
+  "Current Question Text": "Collection ID Manually Entered",
+  "Variable Label": "Collection ID Manual Entry",
+  "Variable Name": [
+    "BioSpm_ColIDEntered_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes if manually entered",
+  "PII": "No",
+  "Notes": "Will be depricated once the Clinical Biospecimen Collection is pushed to prod",
+  "Dictionary": "Biospecimen Clinical, Biospecimen Research",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "9/23/22",
+  "GCP Document/Table": "Biospecimen Table Not nested (d_387108065)",
+  "Formula for Index": [
+    "404",
+    "405"
+  ],
+  "Index": [
+    "404",
+    "405"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

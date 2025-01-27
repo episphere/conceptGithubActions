@@ -1,0 +1,55 @@
+{
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json",
+    "726699695.json"
+  ],
+  "Current Source Question": [
+    "700374192.json",
+    "530742915.json"
+  ],
+  "V1 Source Question": [
+    "What type of business was this at your current employer? [Select all that apply.]",
+    ""
+  ],
+  "GridID/Source Question Name": [
+    "BSNSSTYP1",
+    "BSNSSTYP2"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "766533183",
+  "Current Question Text": "Healthcare or social assistance",
+  "Variable Label": "Healthcare/Social Asst",
+  "Variable Name": [
+    "SrvBOH_HlthcareC_v1r0",
+    "SrvBOH_HlthcareP_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "8",
+    "8"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "New question pushed to prod on 7/5/23.",
+  "Date added or modified": "1/11/2023; 9/13/2024",
+  "Question Type": "Optional Select All that Apply",
+  "IMS Review Notes": "Added new question (aka reponse 8)",
+  "Formula for Index": [
+    "3425",
+    "3426"
+  ],
+  "Index": [
+    "3425",
+    "3426"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  },
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "7/5/23"
+}

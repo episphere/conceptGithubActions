@@ -1,0 +1,63 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "961178879.json"
+  ],
+  "V2 Source Question": [
+    "In a usual week, about how often do you use tap water from your home to make a cup of coffee? We are interested in all tap water, whether or not it has been filtered or treated."
+  ],
+  "V1 Source Question": [
+    "In a usual week, about how often do you use tap water from your home to make a cup of coffee?"
+  ],
+  "GridID/Source Question Name": [
+    "DRINKSWTR2B_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "259621815",
+  "Current Question Text": "In a usual week, about how often do you use tap water from your home to make a cup of coffee? We are interested in all tap water, whether or not it has been filtered or treated.",
+  "V2 Question Text": "Question text diverged from source question.",
+  "V1 Question Text": "In a usual week, about how often do you use tap water from your home to make a cup of coffee?",
+  "Variable Label": "Drink tap water, coffee",
+  "Variable Name": [
+    "SrvLAW_TapWaterCoffee_v3r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "DRINKSWTR2B"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Revision pushed to production on 7/5/2023.",
+  "Date added or modified": "2/24/2023; 12/31/2024",
+  "IMS Review Notes": "Updated source question, question text, variable name suffix, and denoted as revised.  Unharmonized source question from question text, versioned up variable name, and added previous revision date to the notes column.",
+  "Formula for Index": [
+    "6974",
+    "6975",
+    "6976",
+    "6977",
+    "6978",
+    "6979"
+  ],
+  "Index": [
+    "6974",
+    "6975",
+    "6976",
+    "6977",
+    "6978",
+    "6979"
+  ],
+  "Current Format/Value": {
+    "706062016.json": "0",
+    "594557208.json": "1",
+    "471294296.json": "2",
+    "198347104.json": "3",
+    "693256778.json": "4",
+    "703370365.json": "5"
+  }
+}

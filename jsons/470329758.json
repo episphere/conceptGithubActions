@@ -1,0 +1,64 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "719647239.json"
+  ],
+  "V1 Source Question": [
+    "Seasonal Address 4- What [is/was] the main source of water that you [drink/drank] at [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank]."
+  ],
+  "GridID/Source Question Name": [
+    "SEASWTR3_4_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "470329758",
+  "Current Question Text": "Seasonal Address 4- What [is/was] the main source of water that you [drink/drank] at [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank].",
+  "V1 Question Text": "Question text diverged from source question",
+  "Variable Label": "Primary water source",
+  "Variable Name": [
+    "SrvLAW_SeaAdd4PrWater2_v2r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "SEASWTR3_4"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "3/10/2022; 1/16/2025",
+  "IMS Review Notes": "Unharmonized source question from question text, versioned up variable name, and updated variable length.",
+  "Formula for Index": [
+    "6766",
+    "6767",
+    "6768",
+    "6769",
+    "6770",
+    "6771",
+    "6772",
+    "6773"
+  ],
+  "Index": [
+    "6766",
+    "6767",
+    "6768",
+    "6769",
+    "6770",
+    "6771",
+    "6772",
+    "6773"
+  ],
+  "Current Format/Value": {
+    "123108471.json": "0",
+    "463122075.json": "1",
+    "254061941.json": "2",
+    "404651070.json": "3",
+    "354856090.json": "4",
+    "311981718.json": "5",
+    "807835037.json": "55",
+    "178420302.json": "77"
+  }
+}

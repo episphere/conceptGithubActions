@@ -1,0 +1,36 @@
+{
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "273437590.json"
+  ],
+  "conceptId": "255077064",
+  "Current Question Text": "Consent and Notification Language",
+  "Variable Label": "Preferred Language",
+  "Variable Name": [
+    "RcrtCS_PrefLang_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Set when the consent language is selected and is used to set the lanugage for all future notifications. Tony will have to set this variable to English for all those completing consent before this variable is launched.",
+  "Derivation Notes": "It will be derived based on the version of the consent form the participant signs. So if they sign an English consent form it would populate their preferred language as English. If they signed a Spanish consent form, it would populate as Spanish. While it will initially be derived based on the version of the cosnent form they sign, the participant will be able to change it in their user profile",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "6/7/24",
+  "Formula for Index": [
+    "240",
+    "241"
+  ],
+  "Index": [
+    "240",
+    "241"
+  ],
+  "Current Format/Value": {
+    "163149180.json": "0",
+    "773342525.json": "1"
+  }
+}

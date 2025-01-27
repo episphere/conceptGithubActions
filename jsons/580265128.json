@@ -1,0 +1,55 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "170035952.json"
+  ],
+  "V1 Source Question": [
+    "Seasonal Address 2- What [is/was] the source of water to [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided?"
+  ],
+  "GridID/Source Question Name": [
+    "SEASWTR1_2_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "580265128",
+  "Current Question Text": "Seasonal Address 2- What [is/was] the source of water to [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided?",
+  "V1 Question Text": "Question text diverged from source question",
+  "Variable Label": "Primary water source",
+  "Variable Name": [
+    "SrvLAW_SeaAdd2PrWater_v2r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "SEASWTR1_2"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "3/10/2022; 1/16/2025",
+  "IMS Review Notes": "Unharmonized source question from question text and versioned up variable name.",
+  "Formula for Index": [
+    "6709",
+    "6710",
+    "6711",
+    "6712",
+    "6713"
+  ],
+  "Index": [
+    "6709",
+    "6710",
+    "6711",
+    "6712",
+    "6713"
+  ],
+  "Current Format/Value": {
+    "901693169.json": "0",
+    "519767819.json": "1",
+    "388690303.json": "2",
+    "807835037.json": "55",
+    "178420302.json": "77"
+  }
+}

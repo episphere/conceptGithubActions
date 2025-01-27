@@ -1,0 +1,35 @@
+{
+  "Formula for Index": "8755",
+  "Index": "8755",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "506648060.json"
+  ],
+  "Current Source Question": [
+    "943119849.json"
+  ],
+  "GridID/Source Question Name": [
+    "SrvPES_BIOSURV4_SRC_v2r0"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "314351052",
+  "Current Question Text": "Please choose the reason that fits best to describe why you have not completed the sample survey: Other: Please describe text box",
+  "Variable Label": "Why biospecimen survey not completed other text box",
+  "Variable Name": [
+    "SrvPES_BIOSURV4OTH_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "SrvPES_BIOSURV4OTH_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "300",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "2024 Connect Experience Survey",
+  "Date added or modified": "1/5/2023, 9/20/2024; 11/13/2024",
+  "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
+  "IMS Review Notes": "Added Other to the Variale Label and used full Variable Name in Connect Value column.  Added SOURCE to unharmonized source Q from question text. Added SRC to GridID/Source Question Name. Added underscore before SRC in the source question name"
+}

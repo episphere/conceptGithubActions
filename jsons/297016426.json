@@ -1,0 +1,40 @@
+{
+  "Formula for Index": "3569",
+  "Index": "3569",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "Current Source Question": [
+    "825189914.json"
+  ],
+  "V1 Source Question": [
+    "Pills per day regular or extra strength aspirin"
+  ],
+  "GridID/Source Question Name": [
+    "PAINREL3_2_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "conceptId": "297016426",
+  "Current Question Text": "Pills per day regular or extra strength aspirin",
+  "V1 Question Text": "Question text diverged from source question.",
+  "Variable Label": "Pills/Day Reg/Extra Strength Aspirin, Don't Know",
+  "Variable Name": [
+    "SrvMRE_REAspirinPillDK_v2r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "PAINREL3_2"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Current Format/Value": {
+    "178420302.json": "77"
+  },
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if PAINREL1 = 1",
+  "Date added or modified": "10/6/2021; 11/19/2024",
+  "IMS Review Notes": "Unharmonized source question from question text and versioned up variable name."
+}

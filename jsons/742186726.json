@@ -1,0 +1,28 @@
+{
+  "Formula for Index": "871",
+  "Index": "871",
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "360770860.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "742186726",
+  "Current Question Text": "Stray tubes list",
+  "Variable Label": "Stray tubes list",
+  "Variable Name": [
+    "BioCol_StrayTubesList_v1r0"
+  ],
+  "Variable Type": "Array",
+  "Variable Length": "Array",
+  "Current Format/Value": "example: ['CXA123456 0001' 'CXA123456 0002', ...]",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "This list tracks stray tubes when collections are partially boxed. We'll use this list to enable orphan tube entry in BSD",
+  "Dictionary": "Biospecimen Clinical, Biospecimen Research",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "9/13/23",
+  "GCP Document/Table": "Not yet in flattened tables"
+}

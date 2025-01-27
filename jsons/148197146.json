@@ -1,0 +1,45 @@
+{
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "218595434.json"
+  ],
+  "conceptId": "148197146",
+  "Current Question Text": "Duplicate type",
+  "Variable Label": "Dup Type",
+  "Variable Name": [
+    "RcrtV_DuplicateType_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "If RcrtV_Verification_v1r0 equals 3",
+  "PII": "No",
+  "Notes": "Sent as part of the verification table from the IHCS.",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "Yes",
+  "Default Variable": "No",
+  "Date added or modified": "10/4/21",
+  "GCP Document/Table": "Participants Table Not nested (state_d_148197146)",
+  "Formula for Index": [
+    "329",
+    "330",
+    "331",
+    "332",
+    "333"
+  ],
+  "Index": [
+    "329",
+    "330",
+    "331",
+    "332",
+    "333"
+  ],
+  "Current Format/Value": {
+    "638335430.json": "0",
+    "283434980.json": "1",
+    "866029623.json": "2",
+    "654558118.json": "3",
+    "979256174.json": "4"
+  }
+}

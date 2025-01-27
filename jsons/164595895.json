@@ -1,0 +1,72 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "164595895",
+  "Current Question Text": "In just the past 12 months, what was the usual length of your menstrual cycle? Please do not consider breakthrough bleeding (also known as spotting) as part of the menstrual cycle.",
+  "V1 Question Text": "In just the past 12 months, what was the usual length of your menstrual cycle?",
+  "Variable Label": "Days Long Recent Mens Cycle",
+  "Variable Name": [
+    "SrvMRE_PeriodLength12M_v2r1"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "MENSHIS5"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Formula for Index": [
+    "3785",
+    "3786",
+    "3788",
+    "3789",
+    "3790",
+    "3791"
+  ],
+  "Index": [
+    "3785",
+    "3786",
+    "3788",
+    "3789",
+    "3790",
+    "3791"
+  ],
+  "Current Format/Value": {
+    "650420270.json": "0",
+    "113064256.json": "1",
+    "548167685.json": "2",
+    "859025516.json": "3",
+    "471375042.json": "4",
+    "178420302.json": "77"
+  },
+  "Date added or modified": [
+    "2/28/24",
+    "1/26/24",
+    "2/28/24",
+    "1/26/24",
+    "1/26/24",
+    "2/28/24"
+  ],
+  "IMS Review Notes": [
+    "Added Prod Push Date",
+    "Removed Keep from Deprecated, New, or Revised Column.",
+    "Added Prod Push Date",
+    "Removed Keep from Deprecated, New, or Revised Column.",
+    "Removed Keep from Deprecated, New, or Revised Column.",
+    "Added Prod Push Date"
+  ],
+  "Deprecated, New, or Revised": [
+    "Revised",
+    "New",
+    "New"
+  ],
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": [
+    "2/1/24",
+    "2/1/24",
+    "2/1/24"
+  ]
+}

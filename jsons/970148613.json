@@ -1,0 +1,39 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json"
+  ],
+  "conceptId": "970148613",
+  "Current Question Text": "Did your workplace or commuting pattern change because of the COVID-19 Pandemic?  We are interested in how your workplace commuting pattern has changed from 2019 to now. Please do not consider the lockdown period.",
+  "Variable Label": "Commute Different from Pre Pan",
+  "Variable Name": [
+    "SrvLAW_ComDiffPrePan_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "PREPANDIFF"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "10/8/24",
+  "IMS Review Notes": "Added new question",
+  "Formula for Index": [
+    "7208",
+    "7209"
+  ],
+  "Index": [
+    "7208",
+    "7209"
+  ],
+  "Deprecated, New, or Revised": [
+    "New",
+    "New"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

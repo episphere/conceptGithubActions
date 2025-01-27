@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "4074",
+  "Index": "4074",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "922903688",
+  "Current Question Text": "How old were you when you first used two separate pills?",
+  "Variable Label": "Age First Use - 2 Pills, 1 Estrogen & 1 Progestin",
+  "Variable Name": [
+    "SrvMRE_TwoSepPillAge_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "COMBHOR2_2"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Only display if COMBHOR=1. min=0 max=sum(isDefined(D_150344905,age),1)",
+  "Date added or modified": "8/28/23",
+  "IMS Review Notes": "Added range check to Notes."
+}

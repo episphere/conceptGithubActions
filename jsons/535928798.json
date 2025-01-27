@@ -1,0 +1,40 @@
+{
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "883203566.json"
+  ],
+  "Current Source Question": [
+    "706283025.json"
+  ],
+  "conceptId": "535928798",
+  "Current Question Text": "I am not able to complete the study activities online",
+  "Variable Label": "Unable To Do Activites Online",
+  "Variable Name": [
+    "RcrtSI_OptOut_v1r0_able"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "For use by those recording opt-out requests via phone (e.g. NORC helpdesk).  If a form option is ever created for participants to fill out the list will be reduced.",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "Yes",
+  "Default Variable": "Yes",
+  "Date added or modified": "10/21/21",
+  "GCP Document/Table": "Participants Table Nested structure: state_d_706283025_d_535928798",
+  "Question Type": "Question text also for HdRef_Online_v1r0",
+  "Formula for Index": [
+    "88",
+    "89"
+  ],
+  "Index": [
+    "88",
+    "89"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

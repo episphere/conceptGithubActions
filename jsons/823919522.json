@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "4653",
+  "Index": "4653",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "823919522",
+  "Current Question Text": "What time do you usually go to bed on the nights before non-workdays? Please tell us the time you usually get into your bed, not the time you usually fall asleep. Select your answer using the drop-down options below.",
+  "Variable Label": "Time Go To Bed On Non-Workdays",
+  "Variable Name": [
+    "SrvMRE_NonWorkBed_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "SLEEP2A"
+  ],
+  "Variable Type": "Time",
+  "Variable Length": "6",
+  "Current Format/Value": "HH:MM AM/PM",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Follows SAS TIMEAMPM format",
+  "Date added or modified": "10/6/21"
+}

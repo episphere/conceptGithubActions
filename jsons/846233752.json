@@ -1,0 +1,103 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json"
+  ],
+  "Current Source Question": [
+    "289664241.json"
+  ],
+  "V1 Source Question": [
+    "Gender - Do you think of yourself as:"
+  ],
+  "GridID/Source Question Name": [
+    "GEN_SRC"
+  ],
+  "conceptId": "846233752",
+  "Current Question Text": "Gender - Do you think of yourself as:",
+  "V1 Question Text": "Question text diverged from source question",
+  "Variable Label": "Gender",
+  "Variable Name": [
+    "SrvBOH_Gender_v2r1"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "GEN"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Pushed to production as a new question on 1/18/2023.",
+  "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
+  "Formula for Index": [
+    "2352",
+    "2355",
+    "2356",
+    "2357",
+    "2358",
+    "2359",
+    "2360",
+    "2361"
+  ],
+  "Index": [
+    "2352",
+    "2355",
+    "2356",
+    "2357",
+    "2358",
+    "2359",
+    "2360",
+    "2361"
+  ],
+  "Deprecated, New, or Revised": [
+    "Revised",
+    "New",
+    "Revised",
+    "Revised",
+    "Revised",
+    "New"
+  ],
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": [
+    "1/18/23",
+    "1/18/23",
+    "1/18/23",
+    "1/18/23",
+    "1/18/23"
+  ],
+  "Current Format/Value": {
+    "218837028.json": "0",
+    "983318667.json": "1",
+    "405267600.json": "2",
+    "873138103.json": "3",
+    "805712793.json": "4",
+    "486192236.json": "5",
+    "807835037.json": "55",
+    "746038746.json": "99"
+  },
+  "Date added or modified": [
+    "5/25/2023; 11/12/2024",
+    "5/10/23",
+    "12/12/22",
+    "12/12/22",
+    "12/12/22",
+    "12/12/22",
+    "1/26/24",
+    "1/26/24"
+  ],
+  "IMS Review Notes": [
+    "Switched order of responses so deprecated response is not on same row as question. Unharmonized source question and question text and versioned up variable name.",
+    "Denoted response as new",
+    "Updated response value",
+    "Updated response value",
+    "Updated response value",
+    "Added a new response value",
+    "Removed Keep from Deprecated, New, or Revised Column and removed prod push date.",
+    "Removed Keep from Deprecated, New, or Revised Column and removed prod push date."
+  ],
+  "R0 Format/Value": [
+    "2 = Transgender Male/Trans Man/Female-to-Male (FTM)",
+    "3 = Transgender Female/Trans Woman/Male-to-Female (MTF)",
+    "4 = Genderqueer, not exclusively male or female"
+  ]
+}

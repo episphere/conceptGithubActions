@@ -1,0 +1,29 @@
+{
+  "Formula for Index": "1297",
+  "Index": "1297",
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "377669767.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "11/20/23",
+  "conceptId": "194252513",
+  "Current Question Text": "Return Kit ID",
+  "Variable Label": "Return Kit ID",
+  "Variable Name": [
+    "BioKit_ReturnKitID_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "9",
+  "Current Format/Value": "N/A",
+  "Required": "Yes for every specimen kit",
+  "PII": "No",
+  "Notes": "Was formerly Specimen Kit ID",
+  "Dictionary": "Biospecimen Kit",
+  "State Attribute": "No",
+  "Default Variable": "NO",
+  "Date added or modified": "9/27/23",
+  "GCP Document/Table": "Kit Table Not nested (TBD)"
+}

@@ -1,0 +1,77 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json"
+  ],
+  "conceptId": "243596698",
+  "Current Question Text": "Headaches/migraine",
+  "Variable Label": "Headaches/Migraine",
+  "Variable Name": [
+    "SrvMRE_Headache_v1r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "4"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "7/8/21",
+  "Current Source Question": [
+    [
+      "643807999.json",
+      "275143071.json",
+      "152138929.json",
+      "630231395.json",
+      "655266993.json",
+      "509383583.json",
+      "887435355.json"
+    ]
+  ],
+  "Formula for Index": [
+    "3647",
+    "3648",
+    "3649",
+    "3650",
+    "3651",
+    "3652",
+    "3653",
+    "3654"
+  ],
+  "Index": [
+    "3647",
+    "3648",
+    "3649",
+    "3650",
+    "3651",
+    "3652",
+    "3653",
+    "3654"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  },
+  "GridID/Source Question Name": [
+    [
+      "PAINREL7_1",
+      "PAINREL7_2",
+      "PAINREL7_3",
+      "PAINREL7_4",
+      "PAINREL7_5",
+      "PAINREL7_6",
+      "PAINREL7_7"
+    ]
+  ],
+  "Notes": [
+    "Only display if PAINREL1 = 0",
+    "Only display if PAINREL1 = 1",
+    "Only display if PAINREL1 = 2",
+    "Only display if PAINREL1 = 3",
+    "Only display if PAINREL1 = 4",
+    "Only display if PAINREL1 = 5",
+    "Only display if PAINREL1 = 6"
+  ]
+}

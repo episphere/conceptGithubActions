@@ -1,0 +1,88 @@
+{
+  "Primary Source": [
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json",
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "299553921.json",
+    "703954371.json",
+    "376960806.json",
+    "232343615.json",
+    "589588440.json",
+    "838567176.json",
+    "958646668.json",
+    "454453939.json",
+    "677469051.json",
+    "683613884.json",
+    "652357376.json",
+    "505347689.json",
+    "973670172.json"
+  ],
+  "Current Source Question": [
+    "248868659.json",
+    "248868659.json",
+    "248868659.json",
+    "248868659.json",
+    "248868659.json",
+    "248868659.json",
+    "248868659.json",
+    "248868659.json",
+    "248868659.json",
+    "248868659.json",
+    "248868659.json",
+    "248868659.json",
+    "248868659.json"
+  ],
+  "conceptId": "550088682",
+  "Current Question Text": "Deviation-Improper temperature - too low/frozen (record time and temperature Deviation in the comments)",
+  "Variable Label": "SST1 Dev - Temp Too Low",
+  "Variable Name": [
+    "BioCol_Dev_v1r0_TempLSST1",
+    "BioCol_Dev_v1r0_TempLSST2",
+    "BioCol_Dev_v1r0_TempLSST3",
+    "BioCol_Dev_v1r0_TempLSST4",
+    "BioCol_Dev_v1r0_TempLSST5",
+    "BioCol_Dev_v1r0_TempLHT1",
+    "BioCol_Dev_v1r0_TempLHT2",
+    "BioCol_Dev_v1r0_TempLEDTAT1",
+    "BioCol_Dev_v1r0_TempLEDTAT2",
+    "BioCol_Dev_v1r0_TempLEDTAT3",
+    "BioCol_Dev_v1r0_TempLACDT1",
+    "BioCol_Dev_v1r0_TempLSTRT1",
+    "BioCol_Dev_v1r0_TempLUT1"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes if yes to deviation for a specimen and no other deviation selected",
+  "PII": "No",
+  "Notes": "Default no",
+  "Dictionary": "Biospecimen Clinical, Biospecimen Research",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "9/7/23",
+  "GCP Document/Table": "Biospecimen Table Nesed structure: d_Tube/Bag/Object_d_248868659_d_550088682",
+  "IMS Review Notes": "Updated Variable Name from BioCol_Dev_v1r0_TempL to BioCol_Dev_v1r0_TempLSST1. Updated Variable Label, Secondary Source and CID.",
+  "Formula for Index": [
+    "662",
+    "663"
+  ],
+  "Index": [
+    "662",
+    "663"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}
