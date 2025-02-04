@@ -5,6 +5,8 @@
   "Secondary Source": [
     "369168474.json"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "108417657",
   "Current Question Text": "How many times have you had a proctoscopy?",
   "Variable Label": "Number of proctoscopies",
@@ -20,16 +22,16 @@
   "Question Type": "Multiple Choice",
   "IMS Review Notes": "Removed Connect value in col R",
   "Formula for Index": [
-    "9590",
     "9591",
     "9592",
-    "9593"
+    "9593",
+    "9594"
   ],
   "Index": [
-    "9590",
     "9591",
     "9592",
-    "9593"
+    "9593",
+    "9594"
   ],
   "Current Format/Value": {
     "236949684.json": "0",

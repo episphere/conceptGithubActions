@@ -19,7 +19,7 @@
   "V1 Question Text": "Question text diverged from source question.",
   "Variable Label": "No Mens Pd in 12 Mo - Why",
   "Variable Name": [
-    "SrvMRE_NoPeriodReason_v2r1"
+    "SrvMRE_NoPeriodReason_v2r2"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "MENSHIS7"
@@ -29,7 +29,6 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "3793",
     "3794",
     "3795",
     "3796",
@@ -37,10 +36,9 @@
     "3798",
     "3799",
     "3800",
-    "3801"
+    "3802"
   ],
   "Index": [
-    "3793",
     "3794",
     "3795",
     "3796",
@@ -48,7 +46,7 @@
     "3798",
     "3799",
     "3800",
-    "3801"
+    "3802"
   ],
   "Current Format/Value": {
     "582425113.json": "0",
@@ -58,40 +56,32 @@
     "655309065.json": "4",
     "757609794.json": "5",
     "585076356.json": "6",
-    "351584248.json": "7",
     "807835037.json": "55"
   },
   "Date added or modified": [
-    "2/28/2024; 11/19/2024",
+    "2/28/2024; 11/19/2024; 2/4/2025",
     "1/26/24",
     "1/26/24",
     "1/26/24",
     "1/26/24",
     "1/26/24",
     "1/26/24",
-    "2/28/24",
     "1/26/24"
   ],
   "IMS Review Notes": [
-    "Added Prod Push Date. Unharmonized source question from question text and versioned up variable name.",
+    "Added Prod Push Date. Unharmonized source question from question text and versioned up variable name.  Versioned up variable name to r2 because of deprecated response choice.",
     "Removed Keep from Deprecated, New, or Revised Column.",
     "Removed Keep from Deprecated, New, or Revised Column.",
     "Removed Keep from Deprecated, New, or Revised Column.",
     "Removed Keep from Deprecated, New, or Revised Column.",
     "Removed Keep from Deprecated, New, or Revised Column.",
     "Removed Keep from Deprecated, New, or Revised Column.",
-    "Added Prod Push Date",
     "Removed Keep from Deprecated, New, or Revised Column."
   ],
   "Deprecated, New, or Revised": [
-    "Revised",
-    "New"
-  ],
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": [
-    "2/1/24"
+    "Revised"
   ],
   "Notes": [
-    "New question pushed to production on 2/1/2024.",
-    "Response is only displayed to participants whose gender does not equal 0."
+    "New question pushed to production on 2/1/2024."
   ]
 }

@@ -11,6 +11,8 @@
   "GridID/Source Question Name": [
     "SrvScr_CERVSCREEN_v1r0"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "646114392",
   "Current Question Text": "Pap Test. Also known as Pap smear or cervical cytology. A healthcare provider used a plastic or metal instrument called a speculum to open your vagina, and used a \tsoft brush or plastic spatula to collect cells from your cervix. The cells were checked for cancer or signs that they may become cancer.",
   "Variable Label": "Pap Test",
@@ -28,12 +30,12 @@
   "Question Type": "Select All That Apply",
   "IMS Review Notes": "Added spaces before and after the equal sign. Populated col C,D,F,H, J, and AG",
   "Formula for Index": [
-    "9899",
-    "9900"
+    "9900",
+    "9901"
   ],
   "Index": [
-    "9899",
-    "9900"
+    "9900",
+    "9901"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

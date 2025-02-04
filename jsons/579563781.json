@@ -6,10 +6,11 @@
     "726699695.json"
   ],
   "conceptId": "579563781",
-  "Current Question Text": "Sibling 1-Thinking of [SIBLING INITIALS OR NICKNAME/your next oldest sibling], what biological sex was this sibling assigned at birth?",
-  "Variable Label": "Sib 1 Sex at Birth",
+  "Current Question Text": "Sibling 1-Thinking of [SIBLING INITIALS OR NICKNAME/your next oldest sibling], what sex is this sibling?",
+  "V1 Question Text": "Sibling 1-Thinking of [SIBLING INITIALS OR NICKNAME/your next oldest sibling], what biological sex was this sibling assigned at birth?",
+  "Variable Label": "Sib 1 Sex",
   "Variable Name": [
-    "SrvBOH_Sibling1Sex_v1r0"
+    "SrvBOH_Sibling1Sex_v2r1"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "SIB2"
@@ -18,24 +19,29 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "12/21/21",
   "Question Type": "Optional Multiple Choice",
   "Formula for Index": [
-    "3128",
     "3129",
     "3130",
-    "3131"
+    "3132"
   ],
   "Index": [
-    "3128",
     "3129",
     "3130",
-    "3131"
+    "3132"
   ],
   "Current Format/Value": {
     "536341288.json": "0",
     "654207589.json": "1",
-    "576796184.json": "2",
     "178420302.json": "77"
-  }
+  },
+  "Deprecated, New, or Revised": [
+    "Revised"
+  ],
+  "Date added or modified": [
+    "12/21/2021; 2/4/2025"
+  ],
+  "IMS Review Notes": [
+    "Updated Current Question text, versioned up variable name, and updated the Variable Label."
+  ]
 }

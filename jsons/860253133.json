@@ -5,6 +5,8 @@
   "Secondary Source": [
     "369168474.json"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "860253133",
   "Current Question Text": "How many times have you been screened for oral cancer?",
   "Variable Label": "Number of times screened for oral cancer",
@@ -20,20 +22,20 @@
   "Question Type": "Multiple Choice",
   "IMS Review Notes": "Removed Connect value in col R",
   "Formula for Index": [
-    "9491",
     "9492",
     "9493",
     "9494",
     "9495",
-    "9496"
+    "9496",
+    "9497"
   ],
   "Index": [
-    "9491",
     "9492",
     "9493",
     "9494",
     "9495",
-    "9496"
+    "9496",
+    "9497"
   ],
   "Current Format/Value": {
     "236949684.json": "0",

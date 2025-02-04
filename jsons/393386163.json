@@ -5,6 +5,8 @@
   "Secondary Source": [
     "369168474.json"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "393386163",
   "Current Question Text": "How many times have you had a HrHPV test?",
   "Variable Label": "Number of HrHPV tests",
@@ -20,20 +22,20 @@
   "Question Type": "Multiple Choice",
   "IMS Review Notes": "Removed Connect value in col R",
   "Formula for Index": [
-    "9911",
     "9912",
     "9913",
     "9914",
     "9915",
-    "9916"
+    "9916",
+    "9917"
   ],
   "Index": [
-    "9911",
     "9912",
     "9913",
     "9914",
     "9915",
-    "9916"
+    "9916",
+    "9917"
   ],
   "Current Format/Value": {
     "236949684.json": "0",

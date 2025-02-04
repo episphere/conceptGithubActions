@@ -5,6 +5,8 @@
   "Secondary Source": [
     "369168474.json"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "221189280",
   "Current Question Text": "How many times have you had a low dose CT of the lungs?",
   "Variable Label": "Number of low dose CTs",
@@ -20,16 +22,16 @@
   "Question Type": "Multiple Choice",
   "IMS Review Notes": "Removed Connect value in col R",
   "Formula for Index": [
-    "9648",
     "9649",
     "9650",
-    "9651"
+    "9651",
+    "9652"
   ],
   "Index": [
-    "9648",
     "9649",
     "9650",
-    "9651"
+    "9651",
+    "9652"
   ],
   "Current Format/Value": {
     "236949684.json": "0",

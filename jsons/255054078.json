@@ -11,6 +11,8 @@
   "GridID/Source Question Name": [
     "SrvScr_PROSCREEN_v1r0"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "255054078",
   "Current Question Text": "PSA Blood Test. A blood test to check for prostate cancer.",
   "Variable Label": "PSA Blood Test",
@@ -25,12 +27,12 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "9708",
-    "9709"
+    "9709",
+    "9710"
   ],
   "Index": [
-    "9708",
-    "9709"
+    "9709",
+    "9710"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

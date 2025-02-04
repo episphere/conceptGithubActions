@@ -16,22 +16,21 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Should be nested under Secondary Source (Physical Activity)",
   "Derivation Notes": "The categorical guideline minutes variable was calculated as a comparison to the national physical activity guideline recommendations. < 150 guideline minutes ~ not meeting, 150-300 guideline minutes ~ meeting,     > 300 guideline minutes ~ exceeding. Guideline minutes is a harmonized minutes per week variable calculated using the following formula: moderate aerobic minutes per week + (vigorous minutes per week * 2).",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "12/6/24",
-  "GCP Document/Table": "Participants Table",
+  "Date added or modified": "2/4/25",
+  "GCP Document/Table": "ROI BQ Table Not Nested (d_449038410)",
   "Formula for Index": [
-    "2080",
     "2081",
-    "2082"
+    "2082",
+    "2083"
   ],
   "Index": [
-    "2080",
     "2081",
-    "2082"
+    "2082",
+    "2083"
   ],
   "Current Format/Value": {
     "104593854.json": "0",

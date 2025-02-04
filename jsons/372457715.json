@@ -5,6 +5,8 @@
   "Secondary Source": [
     "369168474.json"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "372457715",
   "Current Question Text": "When you last had a mammogram, what type of mammogram did you have?",
   "Variable Label": "Mammogram type",
@@ -20,14 +22,14 @@
   "Question Type": "Multiple Choice",
   "IMS Review Notes": "Removed Connect value in col R",
   "Formula for Index": [
-    "9798",
     "9799",
-    "9800"
+    "9800",
+    "9801"
   ],
   "Index": [
-    "9798",
     "9799",
-    "9800"
+    "9800",
+    "9801"
   ],
   "Current Format/Value": {
     "441766026.json": "0",

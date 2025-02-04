@@ -5,6 +5,8 @@
   "Secondary Source": [
     "369168474.json"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "802157786",
   "Current Question Text": "Have you ever had an oral cancer screening by a dentist or healthcare professional to check for signs of cancer in your mouth?",
   "Variable Label": "Ever screened for oral cancer",
@@ -20,14 +22,14 @@
   "Question Type": "Multiple Choice",
   "IMS Review Notes": "Removed Connect value in col R",
   "Formula for Index": [
-    "9482",
     "9483",
-    "9484"
+    "9484",
+    "9485"
   ],
   "Index": [
-    "9482",
     "9483",
-    "9484"
+    "9484",
+    "9485"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

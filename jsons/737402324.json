@@ -5,6 +5,8 @@
   "Secondary Source": [
     "369168474.json"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "737402324",
   "Current Question Text": "When did you last have a low dose CT of the lungs?",
   "Variable Label": "Last low dose CT",
@@ -20,20 +22,20 @@
   "Question Type": "Multiple Choice",
   "IMS Review Notes": "Removed Connect value in col R",
   "Formula for Index": [
-    "9652",
     "9653",
     "9654",
     "9655",
     "9656",
-    "9657"
+    "9657",
+    "9658"
   ],
   "Index": [
-    "9652",
     "9653",
     "9654",
     "9655",
     "9656",
-    "9657"
+    "9657",
+    "9658"
   ],
   "Current Format/Value": {
     "461386928.json": "0",

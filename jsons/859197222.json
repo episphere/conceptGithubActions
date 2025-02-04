@@ -5,6 +5,8 @@
   "Secondary Source": [
     "369168474.json"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "859197222",
   "Current Question Text": "How many times have you had an oral biopsy?",
   "Variable Label": "Number of oral biopsies",
@@ -20,20 +22,20 @@
   "Question Type": "Multiple Choice",
   "IMS Review Notes": "Removed Connect value in col R",
   "Formula for Index": [
-    "9512",
     "9513",
     "9514",
     "9515",
     "9516",
-    "9517"
+    "9517",
+    "9518"
   ],
   "Index": [
-    "9512",
     "9513",
     "9514",
     "9515",
     "9516",
-    "9517"
+    "9517",
+    "9518"
   ],
   "Current Format/Value": {
     "236949684.json": "0",

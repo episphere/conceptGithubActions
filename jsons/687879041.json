@@ -11,6 +11,8 @@
   "GridID/Source Question Name": [
     "SrvScr_ENDOSCREEN_v1r0"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "687879041",
   "Current Question Text": "Transvaginal Ultrasound. Also known as a pelvic ultrasound, pelvic ultrasonography, gynecologic ultrasound, or endovaginal ultrasound. A healthcare provider inserted a wand-like device called a transducer into your vagina to make the images of your tissues and organs. ET",
   "Variable Label": "Transvaginal Ultrasound",
@@ -29,12 +31,12 @@
   "Question Type": "Select All That Apply",
   "IMS Review Notes": "Added ET to end of question text.",
   "Formula for Index": [
-    "9959",
-    "9960"
+    "9960",
+    "9961"
   ],
   "Index": [
-    "9959",
-    "9960"
+    "9960",
+    "9961"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

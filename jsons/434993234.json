@@ -5,6 +5,8 @@
   "Secondary Source": [
     "369168474.json"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "434993234",
   "Current Question Text": "How many times have you had a breast ultrasound?",
   "Variable Label": "Number of breast ultrasounds",
@@ -20,20 +22,20 @@
   "Question Type": "Multiple Choice",
   "IMS Review Notes": "Removed Connect value in col R",
   "Formula for Index": [
-    "9825",
     "9826",
     "9827",
     "9828",
     "9829",
-    "9830"
+    "9830",
+    "9831"
   ],
   "Index": [
-    "9825",
     "9826",
     "9827",
     "9828",
     "9829",
-    "9830"
+    "9830",
+    "9831"
   ],
   "Current Format/Value": {
     "236949684.json": "0",

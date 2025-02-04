@@ -5,6 +5,8 @@
   "Secondary Source": [
     "369168474.json"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "115504049",
   "Current Question Text": "When were you last screened for cervical cancer?",
   "Variable Label": "Last time screened for cervical cancer",
@@ -20,20 +22,20 @@
   "Question Type": "Multiple Choice",
   "IMS Review Notes": "Removed Connect value in col R",
   "Formula for Index": [
-    "9953",
     "9954",
     "9955",
     "9956",
     "9957",
-    "9958"
+    "9958",
+    "9959"
   ],
   "Index": [
-    "9953",
     "9954",
     "9955",
     "9956",
     "9957",
-    "9958"
+    "9958",
+    "9959"
   ],
   "Current Format/Value": {
     "461386928.json": "0",

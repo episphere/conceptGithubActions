@@ -5,6 +5,8 @@
   "Secondary Source": [
     "369168474.json"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "226488112",
   "Current Question Text": "When did you last have a colonoscopy?",
   "Variable Label": "Last colonoscopy",
@@ -20,20 +22,20 @@
   "Question Type": "Multiple Choice",
   "IMS Review Notes": "Removed Connect value in col R",
   "Formula for Index": [
-    "9546",
     "9547",
     "9548",
     "9549",
     "9550",
-    "9551"
+    "9551",
+    "9552"
   ],
   "Index": [
-    "9546",
     "9547",
     "9548",
     "9549",
     "9550",
-    "9551"
+    "9551",
+    "9552"
   ],
   "Current Format/Value": {
     "461386928.json": "0",

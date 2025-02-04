@@ -5,6 +5,8 @@
   "Secondary Source": [
     "369168474.json"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "811848389",
   "Current Question Text": "When did you last have a breast biopsy?",
   "Variable Label": "Last breast biopsy",
@@ -20,20 +22,20 @@
   "Question Type": "Multiple Choice",
   "IMS Review Notes": "Removed Connect value in col R",
   "Formula for Index": [
-    "9849",
     "9850",
     "9851",
     "9852",
     "9853",
-    "9854"
+    "9854",
+    "9855"
   ],
   "Index": [
-    "9849",
     "9850",
     "9851",
     "9852",
     "9853",
-    "9854"
+    "9854",
+    "9855"
   ],
   "Current Format/Value": {
     "461386928.json": "0",

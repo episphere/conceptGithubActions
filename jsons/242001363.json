@@ -5,6 +5,8 @@
   "Secondary Source": [
     "369168474.json"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "242001363",
   "Current Question Text": "When did you last have a pap test?",
   "Variable Label": "Last pap test",
@@ -20,20 +22,20 @@
   "Question Type": "Multiple Choice",
   "IMS Review Notes": "Removed Connect value in col R",
   "Formula for Index": [
-    "9935",
     "9936",
     "9937",
     "9938",
     "9939",
-    "9940"
+    "9940",
+    "9941"
   ],
   "Index": [
-    "9935",
     "9936",
     "9937",
     "9938",
     "9939",
-    "9940"
+    "9940",
+    "9941"
   ],
   "Current Format/Value": {
     "461386928.json": "0",

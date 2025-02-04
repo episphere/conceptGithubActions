@@ -5,6 +5,8 @@
   "Secondary Source": [
     "369168474.json"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "153215425",
   "Current Question Text": "How many times have you been screened for cervical cancer?",
   "Variable Label": "Number of times screened for cervical cancer",
@@ -20,20 +22,20 @@
   "Question Type": "Multiple Choice",
   "IMS Review Notes": "Removed Connect value in col R",
   "Formula for Index": [
-    "9947",
     "9948",
     "9949",
     "9950",
     "9951",
-    "9952"
+    "9952",
+    "9953"
   ],
   "Index": [
-    "9947",
     "9948",
     "9949",
     "9950",
     "9951",
-    "9952"
+    "9952",
+    "9953"
   ],
   "Current Format/Value": {
     "236949684.json": "0",

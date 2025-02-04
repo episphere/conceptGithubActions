@@ -5,6 +5,8 @@
   "Secondary Source": [
     "369168474.json"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "315199788",
   "Current Question Text": "When did you last have an endometrial biopsy?",
   "Variable Label": "Last endometrial biopsy",
@@ -20,20 +22,20 @@
   "Question Type": "Multiple Choice",
   "IMS Review Notes": "Removed Connect value in col R",
   "Formula for Index": [
-    "10017",
     "10018",
     "10019",
     "10020",
     "10021",
-    "10022"
+    "10022",
+    "10023"
   ],
   "Index": [
-    "10017",
     "10018",
     "10019",
     "10020",
     "10021",
-    "10022"
+    "10022",
+    "10023"
   ],
   "Current Format/Value": {
     "461386928.json": "0",

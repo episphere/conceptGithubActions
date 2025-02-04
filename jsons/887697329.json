@@ -6,10 +6,11 @@
     "726699695.json"
   ],
   "conceptId": "887697329",
-  "Current Question Text": "Child 1-Thinking of [child initials or nickname/your [oldest/next oldest]child], what biological sex was this child assigned at birth?",
-  "Variable Label": "Child 1 Sex at Birth",
+  "Current Question Text": "Child 1-Thinking of [child initials or nickname/your [oldest/next oldest]child], what sex is this child?",
+  "V1 Question Text": "Child 1-Thinking of [child initials or nickname/your [oldest/next oldest]child], what biological sex was this child assigned at birth?",
+  "Variable Label": "Child 1 Sex",
   "Variable Name": [
-    "SrvBOH_Child1Sex_v1r0"
+    "SrvBOH_Child1Sex_v2r1"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "CHILD2"
@@ -18,24 +19,29 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "12/21/21",
   "Question Type": "Optional Multiple Choice, Loops",
   "Formula for Index": [
-    "3250",
     "3251",
     "3252",
-    "3253"
+    "3254"
   ],
   "Index": [
-    "3250",
     "3251",
     "3252",
-    "3253"
+    "3254"
   ],
   "Current Format/Value": {
     "536341288.json": "0",
     "654207589.json": "1",
-    "576796184.json": "2",
     "178420302.json": "77"
-  }
+  },
+  "Deprecated, New, or Revised": [
+    "Revised"
+  ],
+  "Date added or modified": [
+    "12/21/2021; 2/4/2025"
+  ],
+  "IMS Review Notes": [
+    "Updated Current Question Text, versioned up Variable Name, and updated the Variable Label."
+  ]
 }

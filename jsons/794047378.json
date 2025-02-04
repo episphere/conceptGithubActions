@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2069",
-  "Index": "2069",
+  "Formula for Index": "2070",
+  "Index": "2070",
   "Primary Source": [
     "840173959.json"
   ],
@@ -9,10 +9,10 @@
   ],
   "Deprecated, New, or Revised": "New",
   "conceptId": "794047378",
-  "Current Question Text": "Number of Physical Activity Reports Available",
-  "Variable Label": "Number of Physical Activity Reports Available",
+  "Current Question Text": "Numeric variable showing the number of available reports",
+  "Variable Label": "Numeric variable showing the number of available reports",
   "Variable Name": [
-    "ROIPhy_NumPAReports_v1r0"
+    "ROIPhy_NumAvailReports_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -23,6 +23,6 @@
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "1/15/25",
-  "GCP Document/Table": "Participants Table"
+  "Date added or modified": "2/4/25",
+  "GCP Document/Table": "Firestore and Participants table Not nested (d_794047378)"
 }

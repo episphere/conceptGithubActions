@@ -8,11 +8,12 @@
     "826163434.json"
   ],
   "conceptId": "522008539",
-  "Current Question Text": "What was your biological sex assigned at birth? Biospecimen",
-  "Variable Label": "Sex at birth",
+  "Current Question Text": "What is your sex? Biospecimen",
+  "V1 Question Text": "What was your biological sex assigned at birth? Biospecimen",
+  "Variable Label": "Sex",
   "Variable Name": [
-    "SrvBio_SEX_v1r0",
-    "SrvBio_Sex_v1r0"
+    "SrvBio_SEX_v2r1",
+    "SrvBio_Sex_v2r1"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -20,22 +21,26 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "1/19/23",
   "Question Type": "Optional Multiple Choice",
-  "IMS Review Notes": "Updated the Variable name prefix to SrvBio_",
   "Formula for Index": [
-    "7717",
     "7718",
     "7719"
   ],
   "Index": [
-    "7717",
     "7718",
     "7719"
   ],
   "Current Format/Value": {
     "536341288.json": "0",
-    "654207589.json": "1",
-    "576796184.json": "2"
-  }
+    "654207589.json": "1"
+  },
+  "Deprecated, New, or Revised": [
+    "Revised"
+  ],
+  "Date added or modified": [
+    "1/19/2023; 2/4/2025"
+  ],
+  "IMS Review Notes": [
+    "Updated the Variable name prefix to SrvBio_. Updated Current Question Text and Variable Label, versioned up Variable Name."
+  ]
 }

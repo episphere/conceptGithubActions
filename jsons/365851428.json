@@ -18,11 +18,10 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Notes": "[DISPLAY HAIRFEM IF SEX= 00 and GEN= 00]",
+  "Notes": "[DISPLAY HAIRFEM IF SEX= 00 and GEN= 00]. 2/4/2025 Update to display logic Display if SEX=0 and age >40.",
   "Date added or modified": "9/14/21",
   "Question Type": "Optional Multiple Choice, Figures (with radio button to select one)",
   "Formula for Index": [
-    "2879",
     "2880",
     "2881",
     "2882",
@@ -30,10 +29,10 @@
     "2884",
     "2885",
     "2886",
-    "2887"
+    "2887",
+    "2888"
   ],
   "Index": [
-    "2879",
     "2880",
     "2881",
     "2882",
@@ -41,7 +40,8 @@
     "2884",
     "2885",
     "2886",
-    "2887"
+    "2887",
+    "2888"
   ],
   "Current Format/Value": {
     "927925620.json": "0",

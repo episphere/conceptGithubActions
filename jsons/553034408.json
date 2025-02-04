@@ -5,6 +5,8 @@
   "Secondary Source": [
     "369168474.json"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "553034408",
   "Current Question Text": "When did you first have a full body MRI?",
   "Variable Label": "First full body MRI",
@@ -20,20 +22,20 @@
   "Question Type": "Multiple Choice",
   "IMS Review Notes": "Removed Connect value in col R",
   "Formula for Index": [
-    "10065",
     "10066",
     "10067",
     "10068",
     "10069",
-    "10070"
+    "10070",
+    "10071"
   ],
   "Index": [
-    "10065",
     "10066",
     "10067",
     "10068",
     "10069",
-    "10070"
+    "10070",
+    "10071"
   ],
   "Current Format/Value": {
     "461386928.json": "0",

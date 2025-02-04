@@ -5,6 +5,8 @@
   "Secondary Source": [
     "369168474.json"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "524918714",
   "Current Question Text": "Have you ever had a low dose CT of the lungs to check for lung cancer or other conditions? This is a CAT scan of the lungs. Your body would have passed through a large, tunnel shaped x-ray machine. This is not the same as a chest X-ray, where you would be standing during the exam.",
   "Variable Label": "Ever had low dose CT",
@@ -20,14 +22,14 @@
   "Question Type": "Multiple Choice",
   "IMS Review Notes": "Removed Connect value in col R",
   "Formula for Index": [
-    "9639",
     "9640",
-    "9641"
+    "9641",
+    "9642"
   ],
   "Index": [
-    "9639",
     "9640",
-    "9641"
+    "9641",
+    "9642"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

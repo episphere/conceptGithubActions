@@ -11,6 +11,8 @@
   "GridID/Source Question Name": [
     "SrvScr_MULTISCREEN_v1r0"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "309925717",
   "Current Question Text": "Full body MRI or CT. An MRI (Magnetic Resonance Imaging) or CT (CAT scan) of your body. Detailed pictures of the inside of your body were taken while you were laying down in an MRI or CT machine.",
   "Variable Label": "Full body MRI or CT",
@@ -28,12 +30,12 @@
   "Question Type": "Select All That Apply",
   "IMS Review Notes": "Added spaces before and after the equal sign. Populated col C,D,F,H, J, and AG",
   "Formula for Index": [
-    "10043",
-    "10044"
+    "10044",
+    "10045"
   ],
   "Index": [
-    "10043",
-    "10044"
+    "10044",
+    "10045"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

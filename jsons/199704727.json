@@ -5,6 +5,8 @@
   "Secondary Source": [
     "369168474.json"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "199704727",
   "Current Question Text": "How many times have you had a rectal examination of your prostate?",
   "Variable Label": "Number of rectal examinations of prostate",
@@ -20,20 +22,20 @@
   "Question Type": "Multiple Choice",
   "IMS Review Notes": "Removed Connect value in col R",
   "Formula for Index": [
-    "9720",
     "9721",
     "9722",
     "9723",
     "9724",
-    "9725"
+    "9725",
+    "9726"
   ],
   "Index": [
-    "9720",
     "9721",
     "9722",
     "9723",
     "9724",
-    "9725"
+    "9725",
+    "9726"
   ],
   "Current Format/Value": {
     "236949684.json": "0",

@@ -5,6 +5,8 @@
   "Secondary Source": [
     "369168474.json"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "619830872",
   "Current Question Text": "How many times have you had a colonoscopy?",
   "Variable Label": "Number of colonoscopies",
@@ -20,16 +22,16 @@
   "Question Type": "Multiple Choice",
   "IMS Review Notes": "Removed Connect value in col R",
   "Formula for Index": [
-    "9542",
     "9543",
     "9544",
-    "9545"
+    "9545",
+    "9546"
   ],
   "Index": [
-    "9542",
     "9543",
     "9544",
-    "9545"
+    "9545",
+    "9546"
   ],
   "Current Format/Value": {
     "236949684.json": "0",

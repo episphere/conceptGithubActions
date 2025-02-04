@@ -5,6 +5,8 @@
   "Secondary Source": [
     "369168474.json"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "951847507",
   "Current Question Text": "Which of these best describes the type of kidney removal surgery that you had? - CSH",
   "Variable Label": "Screening Srv - Kidney Surg Type",
@@ -19,14 +21,14 @@
   "Notes": "Only display if SrvScr_MHGROUP9_v2r1 = removal of one or both kidneys",
   "IMS Review Notes": "Updated the variable name for consistency with other surgeries and M1.  Updated Connect value.",
   "Formula for Index": [
-    "9395",
     "9396",
-    "9397"
+    "9397",
+    "9398"
   ],
   "Index": [
-    "9395",
     "9396",
-    "9397"
+    "9397",
+    "9398"
   ],
   "Current Format/Value": {
     "113771607.json": "0",

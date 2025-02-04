@@ -17,7 +17,7 @@
   ],
   "GridID/Source Question Name": [
     "SEX2",
-    "SrvScr_SEX2_v2r1"
+    "SrvScr_SEX2_v3r1"
   ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "108025529",
@@ -33,21 +33,26 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Required": "No",
+  "Required": "Yes",
   "PII": "No",
-  "Notes": "Only display if SEX=Intersex or other",
-  "Date added or modified": "9/17/21",
+  "Notes": "Only display if SEX=Intersex or other. Feb 2025 update - question is required and displayed to everyone.",
+  "Date added or modified": "9/17/2021; 2/4/2025",
   "Question Type": "Required Select All that Apply",
+  "IMS Review Notes": "Updating this to be a required question.",
   "Formula for Index": [
-    "2350",
-    "2351"
+    "2351",
+    "2352"
   ],
   "Index": [
-    "2350",
-    "2351"
+    "2351",
+    "2352"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  }
+  },
+  "V2 Source Question": [
+    "",
+    "Please select the body parts you were both with.  Select all that apply. - CSH"
+  ]
 }

@@ -5,6 +5,8 @@
   "Secondary Source": [
     "369168474.json"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "588828383",
   "Current Question Text": "How many times have you had an upper endoscopy?",
   "Variable Label": "Number of upper endoscopies",
@@ -20,16 +22,16 @@
   "Question Type": "Multiple Choice",
   "IMS Review Notes": "Removed Connect value in col R",
   "Formula for Index": [
-    "9696",
     "9697",
     "9698",
-    "9699"
+    "9699",
+    "9700"
   ],
   "Index": [
-    "9696",
     "9697",
     "9698",
-    "9699"
+    "9699",
+    "9700"
   ],
   "Current Format/Value": {
     "236949684.json": "0",

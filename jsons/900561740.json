@@ -5,6 +5,8 @@
   "Secondary Source": [
     "369168474.json"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "900561740",
   "Current Question Text": "How many times have you had a CT colonoscopy?",
   "Variable Label": "Number of CT colonoscopies",
@@ -20,16 +22,16 @@
   "Question Type": "Multiple Choice",
   "IMS Review Notes": "Removed Connect value in col R",
   "Formula for Index": [
-    "9558",
     "9559",
     "9560",
-    "9561"
+    "9561",
+    "9562"
   ],
   "Index": [
-    "9558",
     "9559",
     "9560",
-    "9561"
+    "9561",
+    "9562"
   ],
   "Current Format/Value": {
     "236949684.json": "0",

@@ -11,6 +11,8 @@
   "GridID/Source Question Name": [
     "SrvScr_ENDOSCREEN_v1r0"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "531274737",
   "Current Question Text": "Hysteroscopy. A healthcare provider inserted a thin, flexible tube through your vagina to look inside your uterus and check for cancer or other problems. It is likely that you were awake and may have had numbing medicine, but were able to drive yourself home. Your provider could also have given you a sedative to relax you, in which case someone else needed to drive you home.",
   "Variable Label": "Hysteroscopy",
@@ -28,12 +30,12 @@
   "Question Type": "Select All That Apply",
   "IMS Review Notes": "Added spaces before and after the equal sign. Populated col C,D,F,H,J,M, and AG",
   "Formula for Index": [
-    "9961",
-    "9962"
+    "9962",
+    "9963"
   ],
   "Index": [
-    "9961",
-    "9962"
+    "9962",
+    "9963"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

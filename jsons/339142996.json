@@ -5,6 +5,8 @@
   "Secondary Source": [
     "369168474.json"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "339142996",
   "Current Question Text": "Did you ever have an oral biopsy? (In a biopsy, a small amount of oral tissue or cells are removed and then looked at under a microscope to check for cancer or other problems.)",
   "Variable Label": "Ever had oral biopsy",
@@ -20,14 +22,14 @@
   "Question Type": "Multiple Choice",
   "IMS Review Notes": "Removed Connect value in col R. Changed variable label to past tense for consistency",
   "Formula for Index": [
-    "9503",
     "9504",
-    "9505"
+    "9505",
+    "9506"
   ],
   "Index": [
-    "9503",
     "9504",
-    "9505"
+    "9505",
+    "9506"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

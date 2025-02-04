@@ -5,6 +5,8 @@
   "Secondary Source": [
     "369168474.json"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "677043723",
   "Current Question Text": "When did you first have a stool (fecal) test?",
   "Variable Label": "First stool (fecal) test",
@@ -20,20 +22,20 @@
   "Question Type": "Multiple Choice",
   "IMS Review Notes": "Removed Connect value in col R",
   "Formula for Index": [
-    "9600",
     "9601",
     "9602",
     "9603",
     "9604",
-    "9605"
+    "9605",
+    "9606"
   ],
   "Index": [
-    "9600",
     "9601",
     "9602",
     "9603",
     "9604",
-    "9605"
+    "9605",
+    "9606"
   ],
   "Current Format/Value": {
     "461386928.json": "0",

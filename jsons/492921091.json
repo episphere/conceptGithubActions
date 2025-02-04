@@ -11,6 +11,8 @@
   "GridID/Source Question Name": [
     "SrvScr_PROSCREEN_v1r0"
   ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25",
   "conceptId": "492921091",
   "Current Question Text": "Prostate Biopsy. A small amount of the prostate tissue or cells are removed with a biopsy needle or during surgery. The tissue or cells are then looked at under a microscope to check for cancer or other problems",
   "Variable Label": "Prostate Biopsy",
@@ -25,12 +27,12 @@
   "Required": "No",
   "PII": "No",
   "Formula for Index": [
-    "9710",
-    "9711"
+    "9711",
+    "9712"
   ],
   "Index": [
-    "9710",
-    "9711"
+    "9711",
+    "9712"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

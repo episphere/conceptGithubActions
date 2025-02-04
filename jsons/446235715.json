@@ -16,21 +16,21 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Should be nested under Secondary Source (Physical Activity). Notifications would go out on report status = unread along with pt not withdrawn/not deceased, and being verified",
+  "Notes": "Should be nested under Secondary Source (Physical Activity). Notifications would go out on report status = unread along with pt not withdrawn/not deceased, and being verified. Not a default variable but default value is unread.",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
-  "Default Variable": "Yes, Default to Unread",
-  "Date added or modified": "1/15/25",
-  "GCP Document/Table": "Participants Table",
+  "Default Variable": "No",
+  "Date added or modified": "2/4/25",
+  "GCP Document/Table": "Firestore and Participants Table Nested (d_686238347_d_446235715)",
   "Formula for Index": [
-    "2070",
     "2071",
-    "2072"
+    "2072",
+    "2073"
   ],
   "Index": [
-    "2070",
     "2071",
-    "2072"
+    "2072",
+    "2073"
   ],
   "Current Format/Value": {
     "702641611.json": "0",
