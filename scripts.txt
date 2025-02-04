@@ -6,3 +6,6 @@ rm -r ./jsons/[0-9]*.json
 node runCSVConversions.js
 node masterParsing.js 
 node aggregateJSONS.js
+
+Note: deprecated-new-revised-transformation-fix branch's masterParsing is used here. For context, this branch was used to handle removal of deprecated .jsons files from being created while preserving the csv that was being created. 
+Now this can be done in one run instead of brnaching out.
