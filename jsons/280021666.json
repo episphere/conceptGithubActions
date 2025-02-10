@@ -1,0 +1,70 @@
+{
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "883203566.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "280021666",
+  "Current Question Text": "Re-Invitation Campaign Type",
+  "Variable Label": "Re-Invitation Campaign Type",
+  "Variable Name": [
+    "RcrtSI_RInvCampaignType_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "KP will push this to us when they initiate a batch of re-invitations.",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "Yes",
+  "Default Variable": "No",
+  "Date added or modified": "2/7/25",
+  "GCP Document/Table": "Participants Table",
+  "Formula for Index": [
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87"
+  ],
+  "Index": [
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87"
+  ],
+  "Current Format/Value": {
+    "926338735.json": "0",
+    "348281054.json": "1",
+    "324692899.json": "2",
+    "351257378.json": "3",
+    "647148178.json": "4",
+    "834544960.json": "5",
+    "682916147.json": "6",
+    "153365143.json": "7",
+    "663706936.json": "8",
+    "208952854.json": "9",
+    "296312382.json": "10",
+    "181769837.json": "55",
+    "398561594.json": "88"
+  }
+}
