@@ -2643,9 +2643,6 @@
   "197316935": {
     "Variable Name": "Verified"
   },
-  "197935377": {
-    "Variable Name": "Queer"
-  },
   "197994844": {
     "Variable Label": "First Blood Transfusion Yr",
     "Variable Name": [
@@ -2729,9 +2726,6 @@
     "Variable Name": [
       "BioBPTL_VialsIMT_v1r0"
     ]
-  },
-  "200323667": {
-    "Variable Name": "Yes, I used hormones or other medications to make my body look more feminine in the past"
   },
   "200837530": {
     "Variable Label": "Lymphoma",
@@ -3183,9 +3177,6 @@
     "Variable Name": [
       "CTSG_MsgID_v1r0"
     ]
-  },
-  "210894509": {
-    "Variable Name": "No labels"
   },
   "210921343": {
     "Variable Label": "BL Clin DB Ur RRL Rec",
@@ -4118,9 +4109,6 @@
       "SrvLAW_CurSchFullSt_v1r0"
     ]
   },
-  "249673703": {
-    "Variable Name": "Yes, I am currently using hormones or other medications to make my body look more feminine"
-  },
   "249853484": {
     "Variable Label": "First dilation and curettage",
     "Variable Name": [
@@ -4640,9 +4628,6 @@
       "SrvMRE_REAspirinYA_v1r0"
     ]
   },
-  "265452386": {
-    "Variable Name": "Mostly masculine"
-  },
   "265469878": {
     "Variable Name": "Why [do/did] you dab THC concentrates? - SOURCE"
   },
@@ -4962,13 +4947,19 @@
   "279637054": {
     "Variable Label": "Past Occ Category",
     "Variable Name": [
-      "SrvBOH_PastOccupCat_v2r1"
+      "SrvBOH_PastOccupCat_v1r1"
     ]
   },
   "279843490": {
     "Variable Label": "Pills/Day Baby/Low-Dose Aspirin, Don't Know",
     "Variable Name": [
       "SrvMRE_LAspirinPillDK_v2r0"
+    ]
+  },
+  "280021666": {
+    "Variable Label": "Re-Invitation Campaign Type",
+    "Variable Name": [
+      "RcrtSI_RInvCampaignType_v1r0"
     ]
   },
   "280830751": {
@@ -5103,6 +5094,12 @@
       "SrvLAW_ChildStNum_v1r0"
     ]
   },
+  "284580415": {
+    "Variable Label": "Add Line 1",
+    "Variable Name": [
+      "RcrtUP_AltAddressL1_v1r0"
+    ]
+  },
   "285130077": {
     "Variable Label": "Video",
     "Variable Name": [
@@ -5128,6 +5125,12 @@
     "Variable Label": "Celiac Disease",
     "Variable Name": [
       "SrvBOH_Celiac_v1r0"
+    ]
+  },
+  "286149234": {
+    "Variable Label": "Alt Contact Cell Phone",
+    "Variable Name": [
+      "RcrtUP_AltContCell_v1r0"
     ]
   },
   "286191859": {
@@ -5870,6 +5873,12 @@
   },
   "317811347": {
     "Variable Name": "Do not know"
+  },
+  "318130543": {
+    "Variable Label": "Alt Contact Home Phone",
+    "Variable Name": [
+      "RcrtUP_AltContHome_v1r0"
+    ]
   },
   "318569032": {
     "Variable Label": "Months ago last used cigarettes",
@@ -7166,6 +7175,12 @@
   "379848047": {
     "Variable Name": "Red"
   },
+  "379899229": {
+    "Variable Label": "Zip",
+    "Variable Name": [
+      "RcrtUP_AltZip_v1r0"
+    ]
+  },
   "380275309": {
     "Variable Label": "First Blood Transfusion Age",
     "Variable Name": [
@@ -7782,9 +7797,6 @@
       "SrvSAS_AgeLastUseTobMJ_v2r1"
     ]
   },
-  "405267600": {
-    "Variable Name": "Transgender Man"
-  },
   "405352246": {
     "Variable Label": "Compensation Too Low",
     "Variable Name": [
@@ -7905,9 +7917,6 @@
   },
   "409622468": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Barrett's Esophagus?"
-  },
-  "410008111": {
-    "Variable Name": "Two-Spirit"
   },
   "410083265": {
     "Variable Name": "More than 2 years to 3 years"
@@ -8589,6 +8598,12 @@
     "Variable Label": "# Yrs Celebrex",
     "Variable Name": [
       "SrvMRE_CelebrexYr_v1r0"
+    ]
+  },
+  "439351436": {
+    "Variable Label": "Re-Invitation Date",
+    "Variable Name": [
+      "RcrtSI_RInvTimeStamp_v1r0"
     ]
   },
   "439447560": {
@@ -9794,9 +9809,6 @@
       "SrvScr_UPENDO3_v1r0"
     ]
   },
-  "486192236": {
-    "Variable Name": "Non-binary"
-  },
   "486306141": {
     "Variable Name": "Active"
   },
@@ -10371,9 +10383,6 @@
       "SrvBOH_AcneMedF_v1r1"
     ]
   },
-  "510148951": {
-    "Variable Name": "Somewhat masculine"
-  },
   "510435329": {
     "Variable Label": "Full Street name #1",
     "Variable Name": [
@@ -10456,12 +10465,6 @@
     "Variable Label": "Other: Please describe",
     "Variable Name": [
       "SrvLAW_HomeWtr1_6_Oth_v1r0"
-    ]
-  },
-  "513939926": {
-    "Variable Label": "Flag for True Missing",
-    "Variable Name": [
-      "ROIPhy_FlagForMissing_v1r0"
     ]
   },
   "514034680": {
@@ -11264,9 +11267,6 @@
     "Variable Name": [
       "BioKit_IncMatRet_v1r0"
     ]
-  },
-  "541300533": {
-    "Variable Name": "Mostly feminine"
   },
   "541311218": {
     "Variable Label": "BL Clin DB Ur RRL D/T Rec",
@@ -13854,6 +13854,12 @@
       "SrvScr_CPAP_v1r0"
     ]
   },
+  "646504105": {
+    "Variable Label": "Oth Mailing Add",
+    "Variable Name": [
+      "RcrtUP_AltMailAddress_v1r0"
+    ]
+  },
   "646675764": {
     "Variable Name": "Dead"
   },
@@ -14320,6 +14326,12 @@
     "Variable Label": "Country",
     "Variable Name": [
       "SrvLAW_SeaCountryFU_v1r0"
+    ]
+  },
+  "661719912": {
+    "Variable Label": "Alt Contact First Name",
+    "Variable Name": [
+      "RcrtUP_AltContFv1r0"
     ]
   },
   "661871565": {
@@ -16088,9 +16100,6 @@
       "SrvLAW_SeasWtr1_7_Oth_v1r0"
     ]
   },
-  "727200870": {
-    "Variable Name": "Asexual"
-  },
   "727260639": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Stomach cancer?"
   },
@@ -16156,6 +16165,12 @@
     "Variable Label": "Country",
     "Variable Name": [
       "SrvLAW_Country3_v1r0"
+    ]
+  },
+  "728926441": {
+    "Variable Label": "Add Line 2",
+    "Variable Name": [
+      "RcrtUP_AltAddressL2_v1r0"
     ]
   },
   "729363341": {
@@ -16709,6 +16724,12 @@
   "750000285": {
     "Variable Name": "Seasonal Address 4- In general, how many months per year did you spend at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]?"
   },
+  "750097000": {
+    "Variable Label": "Alt Contact Email",
+    "Variable Name": [
+      "RcrtUP_AltContEmail_v1r0"
+    ]
+  },
   "750168061": {
     "Variable Label": "Chinese",
     "Variable Name": [
@@ -16990,7 +17011,7 @@
   "761310265": {
     "Variable Label": "Curr Occ Category",
     "Variable Name": [
-      "SrvBOH_OccupationCat_v2r1"
+      "SrvBOH_OccupationCat_v1r1"
     ]
   },
   "761822652": {
@@ -18160,6 +18181,12 @@
   "801218076": {
     "Variable Name": "Yes, because of hormonal medication or device"
   },
+  "801653230": {
+    "Variable Label": "Alt Contact Last Name",
+    "Variable Name": [
+      "RcrtUP_AltContLv1r0"
+    ]
+  },
   "801749224": {
     "Variable Label": "Current Use - Oral Estrogen-only Med",
     "Variable Name": [
@@ -18318,9 +18345,6 @@
   },
   "805449318": {
     "Variable Name": "11 to 49"
-  },
-  "805712793": {
-    "Variable Name": "Genderqueer"
   },
   "805918496": {
     "Variable Name": "3 hours or more"
@@ -19088,9 +19112,6 @@
       "SrvSAS_MJUseLast30D_v2r1"
     ]
   },
-  "831942158": {
-    "Variable Name": "Questioning"
-  },
   "832139544": {
     "Variable Label": "D/T Base Mod MRE Sub",
     "Variable Name": [
@@ -19105,9 +19126,6 @@
     "Variable Name": [
       "BioPack_Bag38_v1r0"
     ]
-  },
-  "832978839": {
-    "Variable Name": "Mostly Straight"
   },
   "833553697": {
     "Variable Label": "Last sigmoidoscopy",
@@ -19647,9 +19665,6 @@
       "SrvMRE_PatchEstrogen_v1r0"
     ]
   },
-  "854349138": {
-    "Variable Name": "Pansexual"
-  },
   "854703046": {
     "Variable Name": "Passive"
   },
@@ -20151,9 +20166,6 @@
       "SrvSAS_DaysUsedCT_v1r0"
     ]
   },
-  "873138103": {
-    "Variable Name": "Transgender Woman"
-  },
   "873405723": {
     "Variable Label": "Too busy/Stressed",
     "Variable Name": [
@@ -20312,9 +20324,6 @@
     "Variable Name": [
       "SrvSAS_EMJDev3039_v2r2"
     ]
-  },
-  "878286618": {
-    "Variable Name": "Somewhat feminine"
   },
   "878535894": {
     "Variable Name": "Very poor"
@@ -20904,9 +20913,6 @@
       "SrvScr_PSA3_v1r0"
     ]
   },
-  "903084185": {
-    "Variable Name": "Lesbian, gay, or homosexual"
-  },
   "903156464": {
     "Variable Label": "Blood test for ovarian cancer",
     "Variable Name": [
@@ -20997,6 +21003,12 @@
       "SrvLAW_Prev8CrDontKnow_v2r0"
     ]
   },
+  "907038282": {
+    "Variable Label": "City",
+    "Variable Name": [
+      "RcrtUP_AltCity_v1r0"
+    ]
+  },
   "907385951": {
     "Variable Name": "How old were you when you had other breast surgery? - CSH"
   },
@@ -21045,9 +21057,6 @@
   "910533468": {
     "Variable Name": "Letter without PIN"
   },
-  "910745276": {
-    "Variable Name": "Equally feminine and masculine"
-  },
   "910856756": {
     "Variable Label": "Sleep Quality Last 4 Weeks",
     "Variable Name": [
@@ -21056,6 +21065,9 @@
   },
   "911299066": {
     "Variable Name": "VI, 6th"
+  },
+  "911683679": {
+    "Variable Name": "HFH Detroit Northwest"
   },
   "911964974": {
     "Variable Label": "Apartment, suite, unit, building, etc.",
@@ -21165,9 +21177,6 @@
     "Variable Name": [
       "SrvLAW_StrName5_v1r0"
     ]
-  },
-  "915528806": {
-    "Variable Name": "Very masculine"
   },
   "915557297": {
     "Variable Name": "Moderate hair loss at the sides of the forehead as far back as the ears, and mild loss from the center of the forehead."
@@ -22637,6 +22646,12 @@
   "970716952": {
     "Variable Name": "I had surgery to remove both Testicles"
   },
+  "970839481": {
+    "Variable Label": "State",
+    "Variable Name": [
+      "RcrtUP_AltState_v1r0"
+    ]
+  },
   "970996351": {
     "Variable Label": "Street number",
     "Variable Name": [
@@ -22944,9 +22959,6 @@
     "Variable Name": [
       "RcrtUP_OtherVM_v1r0"
     ]
-  },
-  "983318667": {
-    "Variable Name": "Man"
   },
   "983592172": {
     "Variable Label": "Lived anywhere else at least two years",
@@ -23349,8 +23361,5 @@
   },
   "999694720": {
     "Variable Name": "Address 3- What year did you move out of [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]?"
-  },
-  "999994434": {
-    "Variable Name": "Bisexual"
   }
 }
