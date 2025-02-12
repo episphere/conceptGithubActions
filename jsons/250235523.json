@@ -3,14 +3,15 @@
     "192505768.json"
   ],
   "Secondary Source": [
-    "332759827.json"
+    "569151507.json"
   ],
   "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/29/24",
   "conceptId": "250235523",
   "Current Question Text": "Flag for if Mailing address is a PO Box",
-  "Variable Label": "PO Box Flag",
+  "Variable Label": "Mail PO Box Flag",
   "Variable Name": [
-    "RcrtUP_POBox_v1r0"
+    "RcrtUP_MailPOBox_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -27,10 +28,6 @@
   "Index": [
     "310",
     "311"
-  ],
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": [
-    "1/29/24",
-    "1/29/24"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
