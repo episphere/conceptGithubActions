@@ -3466,6 +3466,14 @@
       "BioKit_KitStatusBL_v1r0",
       "BioKit_KitStatusF1_v1r0",
       "BioKit_KitStatusF2_v1r0",
+      "BioKit_KitStatusF3_v1r0",
+      "BioKit_KitStatusBL_v1r0",
+      "BioKit_KitStatusF1_v1r0",
+      "BioKit_KitStatusF2_v1r0",
+      "BioKit_KitStatusF3_v1r0",
+      "BioKit_KitStatusBL_v1r0",
+      "BioKit_KitStatusF1_v1r0",
+      "BioKit_KitStatusF2_v1r0",
       "BioKit_KitStatusF3_v1r0"
     ]
   },
@@ -5924,7 +5932,7 @@
     "Variable Name": "Not Hispanic or Latino"
   },
   "319972665": {
-    "Variable Name": "BioKit_Mouthwash"
+    "Variable Name": "BioKit_Mouthwash_Initial"
   },
   "320023644": {
     "Variable Label": "BL Case N",
@@ -6349,9 +6357,9 @@
     ]
   },
   "341636034": {
-    "Variable Label": "D/T kit Requested",
+    "Variable Label": "D/T Assigned when Kit Assembled",
     "Variable Name": [
-      "BioKit_KitDatePend_v1r0"
+      "BioKit_KitDateAssemb_v1r0"
     ]
   },
   "341709648": {
@@ -7163,6 +7171,14 @@
       "BioKit_KitTypeBL_v1r0",
       "BioKit_KitTypeF1_v1r0",
       "BioKit_KitTypeF2_v1r0",
+      "BioKit_KitTypeF3_v1r0",
+      "BioKit_KitTypeBL_v1r0",
+      "BioKit_KitTypeF1_v1r0",
+      "BioKit_KitTypeF2_v1r0",
+      "BioKit_KitTypeF3_v1r0",
+      "BioKit_KitTypeBL_v1r0",
+      "BioKit_KitTypeF1_v1r0",
+      "BioKit_KitTypeF2_v1r0",
       "BioKit_KitTypeF3_v1r0"
     ]
   },
@@ -7437,6 +7453,9 @@
     "Variable Name": [
       "SrvLAW_SeaState8_v1r0"
     ]
+  },
+  "389478821": {
+    "Variable Name": "Baseline Replacement 1 Kit"
   },
   "389890053": {
     "Variable Label": "D/T Canc Screening Hist Sub",
@@ -8297,6 +8316,12 @@
   },
   "426360242": {
     "Variable Name": "Method used"
+  },
+  "426588510": {
+    "Variable Label": "Kit Level",
+    "Variable Name": [
+      "BioKit_KitLevel_v1r0"
+    ]
   },
   "426743354": {
     "Variable Name": "Seasonal Address 1- What [is/was] the source of water to [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided? - SOURCE"
@@ -11283,6 +11308,9 @@
       "SrvScr_SIG2_v1r0"
     ]
   },
+  "541483796": {
+    "Variable Name": "BioKit_Mouthwash_R1"
+  },
   "541565665": {
     "Variable Name": "Seasonal Address 6- What [is/was] the main source of water that you [drink/drank] at [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank]. - SOURCE"
   },
@@ -13710,6 +13738,9 @@
       "SrvSAS_ECigTm6069_v1r1"
     ]
   },
+  "641006239": {
+    "Variable Name": "BioKit_Mouthwash_R2"
+  },
   "641572847": {
     "Variable Label": "Manufacturing",
     "Variable Name": [
@@ -14343,6 +14374,14 @@
       "BioKit_KitShipTmBL_v1r0",
       "BioKit_KitShipTmF1_v1r0",
       "BioKit_KitShipTmF2_v1r0",
+      "BioKit_KitShipTmF3_v1r0",
+      "BioKit_KitShipTmBL_v1r0",
+      "BioKit_KitShipTmF1_v1r0",
+      "BioKit_KitShipTmF2_v1r0",
+      "BioKit_KitShipTmF3_v1r0",
+      "BioKit_KitShipTmBL_v1r0",
+      "BioKit_KitShipTmF1_v1r0",
+      "BioKit_KitShipTmF2_v1r0",
       "BioKit_KitShipTmF3_v1r0"
     ]
   },
@@ -14382,6 +14421,9 @@
     "Variable Name": [
       "SrvLAW_BaseStatus_v1r0"
     ]
+  },
+  "663273321": {
+    "Variable Name": "Baseline Initial Kit"
   },
   "663551714": {
     "Variable Label": "Age first used a tobacco pipe on a regular basis",
@@ -15082,6 +15124,14 @@
   "687158491": {
     "Variable Label": "Kit Assembled ID",
     "Variable Name": [
+      "BioKit_KitAssembledIDBL_v1r0",
+      "BioKit_KitAssembledIDF1_v1r0",
+      "BioKit_KitAssembledIDF2_v1r0",
+      "BioKit_KitAssembledIDF3_v1r0",
+      "BioKit_KitAssembledIDBL_v1r0",
+      "BioKit_KitAssembledIDF1_v1r0",
+      "BioKit_KitAssembledIDF2_v1r0",
+      "BioKit_KitAssembledIDF3_v1r0",
       "BioKit_KitAssembledIDBL_v1r0",
       "BioKit_KitAssembledIDF1_v1r0",
       "BioKit_KitAssembledIDF2_v1r0",
@@ -16948,6 +16998,24 @@
   "759356722": {
     "Variable Name": "One"
   },
+  "759651991": {
+    "Variable Label": "D/T Kit Requested",
+    "Variable Name": [
+      "BioKit_DtKitReq_v1r0",
+      "BioKit_DtKitReqBL_v1r0",
+      "BioKit_DtKitReqF1_v1r0",
+      "BioKit_DtKitReqF2_v1r0",
+      "BioKit_DtKitReqF3_v1r0",
+      "BioKit_DtKitReqBL_v1r0",
+      "BioKit_DtKitReqF1_v1r0",
+      "BioKit_DtKitReqF2_v1r0",
+      "BioKit_DtKitReqF3_v1r0",
+      "BioKit_DtKitReqBL_v1r0",
+      "BioKit_DtKitReqF1_v1r0",
+      "BioKit_DtKitReqF2_v1r0",
+      "BioKit_DtKitReqF3_v1r0"
+    ]
+  },
   "760008937": {
     "Variable Label": "French Creole",
     "Variable Name": [
@@ -17349,6 +17417,9 @@
     "Variable Name": [
       "BioCol_CollBoxedStatus_v1r0"
     ]
+  },
+  "772116457": {
+    "Variable Name": "Baseline Replacement 2 Kit"
   },
   "772143730": {
     "Variable Label": "How often drink alcohol, Age 60 to Age 69",
@@ -18980,6 +19051,14 @@
   "826941471": {
     "Variable Label": "D/T Kit Received",
     "Variable Name": [
+      "BioKit_KitRecdTmBL_v1r0",
+      "BioKit_KitRecdTmF1_v1r0",
+      "BioKit_KitRecdTmF2_v1r0",
+      "BioKit_KitRecdTmF3_v1r0",
+      "BioKit_KitRecdTmBL_v1r0",
+      "BioKit_KitRecdTmF1_v1r0",
+      "BioKit_KitRecdTmF2_v1r0",
+      "BioKit_KitRecdTmF3_v1r0",
       "BioKit_KitRecdTmBL_v1r0",
       "BioKit_KitRecdTmF1_v1r0",
       "BioKit_KitRecdTmF2_v1r0",
