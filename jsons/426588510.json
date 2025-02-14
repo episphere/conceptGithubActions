@@ -1,0 +1,40 @@
+{
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "377669767.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "426588510",
+  "Current Question Text": "Kit Level",
+  "Variable Label": "Kit Level",
+  "Variable Name": [
+    "BioKit_KitLevel_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Kit Level variable for the Kit table. This does not need to be nested. This will not be a default var.",
+  "Dictionary": "Biospecimen Kit",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "2/14/25",
+  "GCP Document/Table": "Kit Table Not nested (TBD)",
+  "Formula for Index": [
+    "1327",
+    "1328",
+    "1329"
+  ],
+  "Index": [
+    "1327",
+    "1328",
+    "1329"
+  ],
+  "Current Format/Value": {
+    "663273321.json": "0",
+    "389478821.json": "1",
+    "772116457.json": "2"
+  }
+}
