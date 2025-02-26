@@ -20,6 +20,7 @@
     "BSNSSTYP2"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/14/25",
   "conceptId": "439857718",
   "Current Question Text": "Professional and business services (e.g., real estate, technical and scientific services, finance, insurance)",
   "Variable Label": "Professional/Business",
@@ -40,16 +41,11 @@
   "Question Type": "Optional Select All that Apply",
   "IMS Review Notes": "Added new question (aka reponse 3)",
   "Formula for Index": [
-    "3434",
-    "3435"
-  ],
-  "Index": [
-    "3434",
-    "3435"
+    "3534",
+    "3535"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  },
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "7/5/23"
+  }
 }

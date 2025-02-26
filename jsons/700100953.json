@@ -20,6 +20,7 @@
     "SrvScr_SEX2_v3r1"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/14/25",
   "conceptId": "700100953",
   "Current Question Text": "Prostate gland",
   "Variable Label": "Prostate",
@@ -40,12 +41,8 @@
   "Question Type": "Required Select All that Apply",
   "IMS Review Notes": "Updating this to be a required question.",
   "Formula for Index": [
-    "2365",
-    "2366"
-  ],
-  "Index": [
-    "2365",
-    "2366"
+    "2465",
+    "2466"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

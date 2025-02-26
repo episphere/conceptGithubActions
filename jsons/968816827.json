@@ -1,6 +1,5 @@
 {
-  "Formula for Index": "3846",
-  "Index": "3846",
+  "Formula for Index": "3946",
   "Primary Source": [
     "129084651.json"
   ],
@@ -20,7 +19,7 @@
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Notes": "Range check min=isDefined(D_969451837,0) max=sum(isDefined(D_150344905,age),1)",
+  "Notes": "Range check min=isDefined(D_969451837,0) max=sum(isDefined(D_150344905,age),1). Updated range check max=age",
   "Date added or modified": "8/28/23",
   "IMS Review Notes": "Added Range check to Notes."
 }

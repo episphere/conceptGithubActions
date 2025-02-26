@@ -20,6 +20,7 @@
     "BSNSSTYP2"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/14/25",
   "conceptId": "149230791",
   "Current Question Text": "Transportation, warehousing, and utilities (e.g., water, sanitation, electric)",
   "Variable Label": "Transportation/Warehousing/Utilities",
@@ -40,16 +41,11 @@
   "Question Type": "Optional Select All that Apply",
   "IMS Review Notes": "Added new question (aka reponse 2)",
   "Formula for Index": [
-    "3430",
-    "3431"
-  ],
-  "Index": [
-    "3430",
-    "3431"
+    "3530",
+    "3531"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  },
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "7/5/23"
+  }
 }

@@ -117,6 +117,7 @@
     "SrvScr_SKIN1_v1r0"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/14/25",
   "Variable Label": "Don't Know",
   "Variable Name": [
     "SrvBOH_DontKnowRE_v1r0",
@@ -173,18 +174,13 @@
   "Question Type": "Optional Select All that Apply",
   "IMS Review Notes": "Added Prod Push Date; Source question updated",
   "Formula for Index": [
-    "2140",
-    "2141"
-  ],
-  "Index": [
-    "2140",
-    "2141"
+    "2240",
+    "2241"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
   },
   "Dictionary": "Biospecimen Survey",
-  "State Attribute": "No",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25"
+  "State Attribute": "No"
 }

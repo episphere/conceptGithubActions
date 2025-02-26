@@ -20,6 +20,7 @@
     "BSNSSTYP2"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/14/25",
   "conceptId": "709307391",
   "Current Question Text": "Accommodation and food services (e.g., hotels and restaurants)",
   "Variable Label": "Accommodation/Food Services",
@@ -40,16 +41,11 @@
   "Question Type": "Optional Select All that Apply",
   "IMS Review Notes": "Added new question (aka reponse 7)",
   "Formula for Index": [
-    "3446",
-    "3447"
-  ],
-  "Index": [
-    "3446",
-    "3447"
+    "3546",
+    "3547"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  },
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "7/5/23"
+  }
 }

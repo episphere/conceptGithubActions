@@ -1,6 +1,5 @@
 {
-  "Formula for Index": "3797",
-  "Index": "3797",
+  "Formula for Index": "3897",
   "Primary Source": [
     "129084651.json"
   ],
@@ -17,6 +16,7 @@
     "MENSHIS_SRC"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/14/25",
   "conceptId": "969451837",
   "Current Question Text": "Age first menstrual period, Number",
   "Variable Label": "Age First Period",
@@ -31,7 +31,7 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Range check min=0 max=sum(isDefined(D_150344905,age),1)",
+  "Notes": "Range check min=0 max=sum(isDefined(D_150344905,age),1). Updated range check max=age",
   "Date added or modified": "8/28/2023; 11/19/2024",
   "IMS Review Notes": "Added range check to Notes. Unharmonized source question from question text."
 }

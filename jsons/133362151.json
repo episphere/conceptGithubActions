@@ -20,6 +20,7 @@
     "BSNSSTYP2"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/14/25",
   "conceptId": "133362151",
   "Current Question Text": "Construction or equipment repair",
   "V1 Question Text": "Construction",
@@ -41,16 +42,11 @@
   "Question Type": "Optional Select All that Apply",
   "IMS Review Notes": "Revised question text, updated variable label, variable name suffix to _v2r0",
   "Formula for Index": [
-    "3436",
-    "3437"
-  ],
-  "Index": [
-    "3436",
-    "3437"
+    "3536",
+    "3537"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  },
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "7/5/23"
+  }
 }

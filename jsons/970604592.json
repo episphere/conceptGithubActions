@@ -1,6 +1,5 @@
 {
-  "Formula for Index": "3961",
-  "Index": "3961",
+  "Formula for Index": "4061",
   "Primary Source": [
     "129084651.json",
     "129084651.json",
@@ -141,7 +140,7 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if HORMED= 0. min=0 max=sum(isDefined(D_150344905,age),1)",
+  "Notes": "Only display if HORMED= 0. min=0 max=sum(isDefined(D_150344905,age),1). Updated range check max=age",
   "Date added or modified": "8/28/23",
   "IMS Review Notes": "Added range check to Notes."
 }

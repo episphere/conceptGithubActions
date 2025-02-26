@@ -1,0 +1,41 @@
+{
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "883203566.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "956485028",
+  "Current Question Text": "A/B testing message responses",
+  "Variable Label": "A/B testing message responses",
+  "Variable Name": [
+    "RcrtSI_ABMessage_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "A/B Testing Message Variable Creation (March release) #1206: https://github.com/episphere/connect/issues/1206",
+  "Dictionary": "Recruitment Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "2/26/25",
+  "GCP Document/Table": "Participants Table",
+  "Formula for Index": [
+    "170",
+    "171",
+    "172",
+    "173",
+    "174",
+    "175"
+  ],
+  "Current Format/Value": {
+    "562663942.json": "0",
+    "686986259.json": "1",
+    "477331464.json": "2",
+    "935486262.json": "3",
+    "518814501.json": "4",
+    "307763550.json": "5"
+  }
+}

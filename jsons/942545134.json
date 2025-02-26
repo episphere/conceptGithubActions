@@ -20,6 +20,7 @@
     "BSNSSTYP2"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/14/25",
   "conceptId": "942545134",
   "Current Question Text": "Military, police, firefighting, security services",
   "Variable Label": "Military/Police/Firefighting/Security",
@@ -40,16 +41,11 @@
   "Question Type": "Optional Select All that Apply",
   "IMS Review Notes": "Added new question (aka reponse 10)",
   "Formula for Index": [
-    "3456",
-    "3457"
-  ],
-  "Index": [
-    "3456",
-    "3457"
+    "3556",
+    "3557"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  },
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "7/5/23"
+  }
 }

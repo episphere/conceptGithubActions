@@ -20,6 +20,7 @@
     "BSNSSTYP2"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/14/25",
   "conceptId": "766533183",
   "Current Question Text": "Healthcare or social assistance",
   "Variable Label": "Healthcare/Social Asst",
@@ -40,16 +41,11 @@
   "Question Type": "Optional Select All that Apply",
   "IMS Review Notes": "Added new question (aka reponse 8)",
   "Formula for Index": [
-    "3450",
-    "3451"
-  ],
-  "Index": [
-    "3450",
-    "3451"
+    "3550",
+    "3551"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  },
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "7/5/23"
+  }
 }
