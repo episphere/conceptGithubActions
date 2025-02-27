@@ -8112,6 +8112,12 @@
       "SrvBOH_Child1Living_v1r0"
     ]
   },
+  "418408426": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_Chld1PrimWater_v2r0"
+    ]
+  },
   "418464677": {
     "Variable Label": "German",
     "Variable Name": [
@@ -9365,6 +9371,12 @@
     "Variable Label": "Biospecimen donation - amount of time",
     "Variable Name": [
       "SrvPES_BIOSAMP3A_v1r0"
+    ]
+  },
+  "465315864": {
+    "Variable Label": "Primary water source",
+    "Variable Name": [
+      "SrvLAW_Chld1PrimWater2_v2r0"
     ]
   },
   "465318416": {
@@ -14495,10 +14507,7 @@
     "Variable Name": "Merrill"
   },
   "665593888": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_Chld1PrimWater2_v2r0"
-    ]
+    "Variable Name": "What was the main source of water that you drank at [insert address from CHILDADD1 - CHILDADD3/your childhood home]? Please think about water used to make drinks - SOURCE"
   },
   "665978055": {
     "Variable Name": "Address 6- What [is/was] the source of water to [insert address from HOMEADD1 - HOMEADD3/ current address/the 2nd address you provided/etc.]? - SOURCE"
@@ -15839,10 +15848,7 @@
     ]
   },
   "714365367": {
-    "Variable Label": "Primary water source",
-    "Variable Name": [
-      "SrvLAW_Chld1PrimWater_v2r0"
-    ]
+    "Variable Name": "What was the source of water to [insert address from CHILDADD1 - CHILDADD3/your childhood home]? - SOURCE"
   },
   "714419972": {
     "Variable Label": "Addtl Email 3",
