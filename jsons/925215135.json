@@ -1,5 +1,6 @@
 {
   "Formula for Index": "5708",
+  "Index": "5708",
   "Primary Source": [
     "129084651.json"
   ],
@@ -7,7 +8,7 @@
     "965707586.json"
   ],
   "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/2/24",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/20/25",
   "conceptId": "925215135",
   "Current Question Text": "On days that you consumed cannabis edibles, drinks, or capsules  when you were age [X / 25] to age [Y / 29], about how many servings did you have per day?",
   "V1 Question Text": "On days that you consumed marijuana in food or drinks  when you were age [X / 25] to age [Y / 29], about how many cigarettes did you smoke per day?",
@@ -23,7 +24,7 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Range check min=0 max=99. (min= 1 before Jan. 2024 prod push)",
-  "Date added or modified": "2/28/2024; 10/4/2024",
-  "IMS Review Notes": "Added Prod Push Date. Updated question text"
+  "Notes": "Range check min=0 max=99. (min= 1 before Jan. 2024 prod push). Revision pushed to prod 2/2/2024.",
+  "Date added or modified": "2/28/2024; 10/4/2024; 2/28/2025",
+  "IMS Review Notes": "Added Prod Push Date. Updated question text. Added prod push date."
 }

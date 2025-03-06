@@ -6,6 +6,7 @@
     "965707586.json"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/20/25",
   "conceptId": "101170268",
   "Current Question Text": "How many days have you consumed cannabis edibles, drinks, or capsules in your life?",
   "V1 Question Text": "How many days have you consumed marijuana in food or drinks in your  life?",
@@ -20,9 +21,15 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "11/23/2021; 10/4/2024",
-  "IMS Review Notes": "Updated question text",
+  "Date added or modified": "11/23/2021; 10/4/2024; 2/28/2025",
+  "IMS Review Notes": "Updated question text. Added prod push date.",
   "Formula for Index": [
+    "5670",
+    "5671",
+    "5672",
+    "5673"
+  ],
+  "Index": [
     "5670",
     "5671",
     "5672",

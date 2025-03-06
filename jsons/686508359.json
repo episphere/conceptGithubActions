@@ -1,5 +1,6 @@
 {
   "Formula for Index": "9177",
+  "Index": "9177",
   "Primary Source": [
     "129084651.json"
   ],
@@ -19,6 +20,7 @@
     "SrvCov_COV3_SRC_v3r0"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/25/25",
   "conceptId": "686508359",
   "Current Question Text": "When was the [first/2nd/3rd/etc.] time you had COVID-19? If you are not sure, please make your best guess.  If you are using a phone or tablet, please tap the gray box to enter your response.",
   "V2 Question Text": "When was the [first/2nd/3rd/etc.] time you had COVID-19? If you are not sure, please make your best guess.  If you are using a phone or tablet, please tap the gray box to enter your response.  Also question text diverged from source question.",
@@ -35,7 +37,7 @@
   "Notes": "Range check min=valueOrDefault(\"\"D_686508359#prev\"\",\"\"2020-03\"\") max=#currentYear-#currentMonth",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "8/29/2023; 10/1/2024; 11/12/2024",
+  "Date added or modified": "8/29/2023; 10/1/2024; 11/12/2024; 2/28/2025",
   "Question Type": "Special Function",
-  "IMS Review Notes": "Added range check to Notes. Question text diverged from source question, changes made to be consistent with other questions.  Added underscore before SRC in source question."
+  "IMS Review Notes": "Added range check to Notes. Question text diverged from source question, changes made to be consistent with other questions.  Added underscore before SRC in source question. Added prod push date."
 }

@@ -15,6 +15,7 @@
     "MARIJUANA"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/20/25",
   "conceptId": "760521319",
   "Current Question Text": "Smoking cannabis (such as joints, pipes, bowls, or bongs)",
   "V1 Question Text": "Smoking marijuana (such as joints, pipes, bowls, or bongs)",
@@ -29,9 +30,13 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "4/25/2024; 10/4/2024",
-  "IMS Review Notes": "Updated variable name from SrvSAS_Marijuana_v1r0 to SrvSAS_SmokingCannabis_v1r0. Updated Variable Label to reflect Question Text. Updated marijuana to cannabis and question text phrasing.",
+  "Date added or modified": "4/25/2024; 10/4/2024; 2/28/2025",
+  "IMS Review Notes": "Updated variable name from SrvSAS_Marijuana_v1r0 to SrvSAS_SmokingCannabis_v1r0. Updated Variable Label to reflect Question Text. Updated marijuana to cannabis and question text phrasing. Added prod push date.",
   "Formula for Index": [
+    "5436",
+    "5437"
+  ],
+  "Index": [
     "5436",
     "5437"
   ],

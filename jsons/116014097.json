@@ -1,5 +1,6 @@
 {
   "Formula for Index": "5610",
+  "Index": "5610",
   "Primary Source": [
     "129084651.json"
   ],
@@ -7,6 +8,7 @@
     "965707586.json"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/20/25",
   "conceptId": "116014097",
   "Current Question Text": "How old were you when you stopped vaping cannabis every day?",
   "V1 Question Text": "How old were you when you stopped using electronic marijuana delivery devices that be vaped every day?",
@@ -23,6 +25,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=isDefined(isDefined(D_742716427,D_116510981),0) max=sum(isDefined(D_150344905,age),1)",
-  "Date added or modified": "8/29/2023; 10/4/2024",
-  "IMS Review Notes": "Added range check to Notes. Updated question and response text."
+  "Date added or modified": "8/29/2023; 10/4/2024; 2/28/2025",
+  "IMS Review Notes": "Added range check to Notes. Updated question and response text. Added prod push date."
 }

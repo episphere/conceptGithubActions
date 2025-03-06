@@ -9,23 +9,29 @@
     "219317801.json"
   ],
   "GridID/Source Question Name": [
-    "GRID_CURSCHT10"
+    "NEST_CURSCHT10"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "576149634",
   "Current Question Text": "Taxicab (includes, Uber, Lyft, or hired car)- Thinking about the one-way trip from [insert address from CURSCH1 - CURSCH3/this address] to your home on a usual day, about how much time do you usually spend in each type of transportation?",
   "Variable Label": "Time, Taxicab (includes, Uber, Lyft, or hired car, ) commute from current school",
   "Variable Name": [
     "SrvLAW_CurSchT10B_v1r0"
   ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "CURSCHT10B"
-  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "2/28/22",
+  "Date added or modified": "2/28/2022; 3/4/2025",
+  "IMS Review Notes": "Updated GridId/Source Question Name from GRID_ to NEST_ and removed Connect Value.",
   "Formula for Index": [
+    "7791",
+    "7792",
+    "7793",
+    "7794",
+    "7795"
+  ],
+  "Index": [
     "7791",
     "7792",
     "7793",

@@ -1,5 +1,6 @@
 {
   "Formula for Index": "6588",
+  "Index": "6588",
   "Primary Source": [
     "129084651.json"
   ],
@@ -9,9 +10,13 @@
   "Current Source Question": [
     "279093430.json"
   ],
-  "GridID/Source Question Name": [
-    "SEASADD1_2"
+  "V1 Source Question": [
+    "Season Address 2- What is the full street address of your seasonal or vacation home?"
   ],
+  "GridID/Source Question Name": [
+    "SEASADD1_2_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "494380686",
   "Current Question Text": "2-Seasonal Zip code",
   "Variable Label": "Zip code",
@@ -25,5 +30,6 @@
   "Variable Length": "8",
   "Required": "No",
   "PII": "Yes",
-  "Date added or modified": "7/25/22"
+  "Date added or modified": "7/25/2022; 2/28/2025",
+  "IMS Review Notes": "Added SOURCE to Source Question and _SRC to the Grid ID for consistency, but did not change concept IDs."
 }

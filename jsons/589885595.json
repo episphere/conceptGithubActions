@@ -1,5 +1,6 @@
 {
   "Formula for Index": "5594",
+  "Index": "5594",
   "Primary Source": [
     "129084651.json"
   ],
@@ -7,6 +8,7 @@
     "965707586.json"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/20/25",
   "conceptId": "589885595",
   "Current Question Text": "On how many of the past 30 days have you vaped cannabis?",
   "V1 Question Text": "On how many of the past 30 days have you used electronic marijuana delivery devices that can be vaped?",
@@ -23,6 +25,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=1 max=30",
-  "Date added or modified": "8/29/2023; 10/4/2024",
-  "IMS Review Notes": "Added range check to Notes. Updated question and response text."
+  "Date added or modified": "8/29/2023; 10/4/2024; 2/28/2025",
+  "IMS Review Notes": "Added range check to Notes. Updated question and response text. Added prod push date."
 }

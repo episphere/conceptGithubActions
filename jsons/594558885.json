@@ -1,5 +1,6 @@
 {
   "Formula for Index": "7177",
+  "Index": "7177",
   "Primary Source": [
     "129084651.json"
   ],
@@ -26,6 +27,7 @@
   "Variable Length": "4",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "10/8/2024; 1/16/2025",
-  "IMS Review Notes": "Added new question.  Added a Connect Value."
+  "Notes": "Range check min=0, max=#currentYear",
+  "Date added or modified": "10/8/2024; 1/16/2025; 2/27/2025",
+  "IMS Review Notes": "Added new question.  Added a Connect Value. Added range check to notes."
 }

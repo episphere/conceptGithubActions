@@ -8,30 +8,30 @@
   "Current Source Question": [
     "440093675.json"
   ],
-  "V1 Source Question": [
-    "Thinking about the one-way trip from your home to [insert address from CURWORK1 - CURWORK3/this address] on a usual workday, about how much time do you usually spend in each type of transportation?"
-  ],
   "GridID/Source Question Name": [
-    "GRID_CURWORKT2"
+    "NEST_CURWORKT2"
   ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "593010802",
   "Current Question Text": "Car, van, or truck (includes carpools or van pools)- Thinking about the one-way trip from your home to [insert address from CURWORK1 - CURWORK3/this address] on a usual workday, about how much time did you usually spend in each type of transportation?",
-  "V1 Question Text": "Car, van, or truck (includes carpools or van pools)- Thinking about the one-way trip from your home to [insert address from CURWORK1 - CURWORK3/this address] on a usual workday, about how much time do you usually spend in each type of transportation?",
   "Variable Label": "Time, Car, van, or truck (includes carpools or van pools) commute to current work",
   "Variable Name": [
-    "SrvLAW_CurWorkTmCar_v2r0"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "CURWORKT2A"
+    "SrvLAW_CurWorkTmCar_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "2/28/2022; 10/8/2024",
-  "IMS Review Notes": "Updated source question and question text to match the tense in the qx doc and mark up, but did not version.",
+  "Date added or modified": "2/28/2022; 10/8/2024; 3/4/2025",
+  "IMS Review Notes": "Updated source question and question text to match the tense in the qx doc and mark up, but did not version and updated the question text to show other text from work. Updated GridID/Source Question Name from GRID_ to NEST_ and removed Connect Value.",
   "Formula for Index": [
+    "7378",
+    "7379",
+    "7380",
+    "7381",
+    "7382"
+  ],
+  "Index": [
     "7378",
     "7379",
     "7380",

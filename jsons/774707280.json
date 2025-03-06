@@ -1,5 +1,6 @@
 {
   "Formula for Index": "7347",
+  "Index": "7347",
   "Primary Source": [
     "129084651.json"
   ],
@@ -13,7 +14,7 @@
     "What is the name and the street address of the workplace that you commute to most often?"
   ],
   "GridID/Source Question Name": [
-    "CURWORK1"
+    "CURWORK1_SRC"
   ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "774707280",
@@ -29,6 +30,6 @@
   "Variable Length": "48",
   "Required": "No",
   "PII": "Yes",
-  "Date added or modified": "12/31/24",
-  "IMS Review Notes": "Changed source question to past tense to match the qx document."
+  "Date added or modified": "12/31/2024; 3/4/2025",
+  "IMS Review Notes": "Changed source question to past tense to match the qx document. added source to source question name for consistency with other address variables."
 }

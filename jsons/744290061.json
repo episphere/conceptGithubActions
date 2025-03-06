@@ -1,5 +1,6 @@
 {
   "Formula for Index": "6216",
+  "Index": "6216",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,8 +11,9 @@
     "539057792.json"
   ],
   "GridID/Source Question Name": [
-    "HOMEADD1_8"
+    "HOMEADD1_8_SRC"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "744290061",
   "Current Question Text": "7-Previous City",
   "Variable Label": "City",
@@ -24,5 +26,7 @@
   "Variable Type": "Char",
   "Variable Length": "45",
   "Required": "No",
-  "PII": "Yes"
+  "PII": "Yes",
+  "Date added or modified": "2/27/25",
+  "IMS Review Notes": "Added SOURCE to Source Question and _SRC to the Grid ID for consistency, but did not change concept IDs."
 }

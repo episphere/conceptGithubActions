@@ -9,23 +9,29 @@
     "968388901.json"
   ],
   "GridID/Source Question Name": [
-    "GRID_PREWORKT2"
+    "NEST_PREWORKT2"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "343406242",
   "Current Question Text": "Taxicab (includes, Uber, Lyft, or hired car)- Thinking about the one-way trip from your home to [insert address from PREWORK1 - PREWORK3/this address] on a usual workday, about how much time did you usually spend in each type of transportation?",
   "Variable Label": "Time, Taxicab (includes, Uber, Lyft, or hired car, ) commute to past work",
   "Variable Name": [
     "SrvLAW_PreWorkTmTaxi_v1r0"
   ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "PREWORKT2B"
-  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "3/10/22",
+  "Date added or modified": "3/10/2022; 3/4/2025",
+  "IMS Review Notes": "Updated GridID/Source Question Name from GRID_ to NEST_ and removed Connect Value.",
   "Formula for Index": [
+    "7558",
+    "7559",
+    "7560",
+    "7561",
+    "7562"
+  ],
+  "Index": [
     "7558",
     "7559",
     "7560",

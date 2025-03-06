@@ -1,5 +1,6 @@
 {
   "Formula for Index": "6640",
+  "Index": "6640",
   "Primary Source": [
     "129084651.json"
   ],
@@ -9,9 +10,13 @@
   "Current Source Question": [
     "320166033.json"
   ],
-  "GridID/Source Question Name": [
-    "SEASADD1_5"
+  "V1 Source Question": [
+    "Season Address 5- What is the full street address of your seasonal or vacation home?"
   ],
+  "GridID/Source Question Name": [
+    "SEASADD1_5_SRC"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "275244758",
   "Current Question Text": "5-Seasonal Street number",
   "Variable Label": "Street number",
@@ -26,6 +31,6 @@
   "Required": "No",
   "PII": "Yes",
   "Notes": "Range check min=0 max=999999",
-  "Date added or modified": "8/29/23",
-  "IMS Review Notes": "Added range check to Notes"
+  "Date added or modified": "8/29/2023; 2/28/2025",
+  "IMS Review Notes": "Added range check to Notes. Added SOURCE to Source Question and _SRC to the Grid ID for consistency, but did not change concept IDs."
 }

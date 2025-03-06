@@ -1,5 +1,6 @@
 {
   "Formula for Index": "5574",
+  "Index": "5574",
   "Primary Source": [
     "129084651.json"
   ],
@@ -7,7 +8,7 @@
     "965707586.json"
   ],
   "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/2/24",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/20/25",
   "conceptId": "724990284",
   "Current Question Text": "On days that you smoked when you were age [X / 25] to age [Y / 29], about how many times did you smoke a combination of cannabis with tobacco per day?",
   "V1 Question Text": "On days that you smoked when you were age [X / 25] to age [Y / 29], about how many times did you smoke a combination of marijuana with tobacco per day?",
@@ -24,6 +25,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=0 max=99 (min=1 before Jan 2024 prod push). Revision pushed to production on 2/2/2024",
-  "Date added or modified": "2/28/2024; 10/4/2024",
-  "IMS Review Notes": "Added Prod Push Date.  Updated question text"
+  "Date added or modified": "2/28/2024; 10/4/2024; 2/28/2025",
+  "IMS Review Notes": "Added Prod Push Date.  Updated question text. Added prod push date."
 }

@@ -9,23 +9,29 @@
     "135529881.json"
   ],
   "GridID/Source Question Name": [
-    "GRID_CURSCHT2"
+    "NEST_CURSCHT2"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "769785846",
   "Current Question Text": "Commuter rail, subway, metro- Thinking about the one-way trip from your home to [insert address from CURSCH1 - CURSCH3/this address] on a usual day, about how much time do you usually spend in each type of transportation?",
   "Variable Label": "Time, Commuter rail, subway, metro commute to current school",
   "Variable Name": [
     "SrvLAW_CurSchT2E_v1r0"
   ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "CURSCHT2E"
-  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "2/28/22",
+  "Date added or modified": "2/28/2022; 3/4/2025",
+  "IMS Review Notes": "Updated GridId/Source Question Name from GRID_ to NEST_ and removed Connect Value.",
   "Formula for Index": [
+    "7729",
+    "7730",
+    "7731",
+    "7732",
+    "7733"
+  ],
+  "Index": [
     "7729",
     "7730",
     "7731",

@@ -241,6 +241,10 @@
     "2542",
     "2543"
   ],
+  "Index": [
+    "2542",
+    "2543"
+  ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
@@ -284,9 +288,9 @@
     ""
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/20/25",
   "V1 Question Text": "None of the above",
-  "IMS Review Notes": "Updated variable name from SrvSAS_NoTobaccoPdt_v1r0 to SrvSAS_NoCannabisPdt_v1r0. Updated Variable Label to reflect Question Text. Updated marijuana to cannabis and question text phrasing.",
+  "IMS Review Notes": "Updated variable name from SrvSAS_NoTobaccoPdt_v1r0 to SrvSAS_NoCannabisPdt_v1r0. Updated Variable Label to reflect Question Text. Updated marijuana to cannabis and question text phrasing. Added prod push date.",
   "Dictionary": "Biospecimen Survey",
-  "State Attribute": "No",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/6/25"
+  "State Attribute": "No"
 }

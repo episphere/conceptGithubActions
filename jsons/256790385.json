@@ -1,5 +1,6 @@
 {
   "Formula for Index": "6199",
+  "Index": "6199",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,8 +11,9 @@
     "809728747.json"
   ],
   "GridID/Source Question Name": [
-    "HOMEADD1_7"
+    "HOMEADD1_7_SRC"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "256790385",
   "Current Question Text": "6-Previous Zip code",
   "Variable Label": "Zip code",
@@ -25,5 +27,6 @@
   "Variable Length": "8",
   "Required": "No",
   "PII": "Yes",
-  "Date added or modified": "7/25/22"
+  "Date added or modified": "7/25/2022; 2/27/25",
+  "IMS Review Notes": "Added SOURCE to Source Question and _SRC to the Grid ID for consistency, but did not change concept IDs."
 }

@@ -1,5 +1,6 @@
 {
   "Formula for Index": "5699",
+  "Index": "5699",
   "Primary Source": [
     "129084651.json"
   ],
@@ -16,6 +17,7 @@
     "EAMAR9C_SRC"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/20/25",
   "conceptId": "490043229",
   "Current Question Text": "# of servings when daily consumer - don't know",
   "V1 Question Text": "Question text diverged from source question",
@@ -33,6 +35,6 @@
   },
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "11/23/2021; 10/4/2024; 11/19/2024",
-  "IMS Review Notes": "Updated source question. Updated question text to match qx doc, but did not version. Unharmonized source question from question text and versioned up the variable name."
+  "Date added or modified": "11/23/2021; 10/4/2024; 11/19/2024; 2/28/2025",
+  "IMS Review Notes": "Updated source question. Updated question text to match qx doc, but did not version. Unharmonized source question from question text and versioned up the variable name. Added prod push date."
 }

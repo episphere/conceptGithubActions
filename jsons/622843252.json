@@ -1,5 +1,6 @@
 {
   "Formula for Index": "5675",
+  "Index": "5675",
   "Primary Source": [
     "129084651.json"
   ],
@@ -16,6 +17,7 @@
     "EAMAR3_SRC"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/20/25",
   "conceptId": "622843252",
   "Current Question Text": "Age first consumed cannabis edibles, drinks, or capsules on a regular basis number",
   "V1 Question Text": "Age first consumed marijuana in food or drinks on a regular basis number",
@@ -32,6 +34,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=isDefined(D_908399883,0) max=sum(isDefined(D_150344905,age),1)",
-  "Date added or modified": "8/29/2023; 10/4/2024; 10/16/24; 11/19/2024",
-  "IMS Review Notes": "Added range check to Notes. Updated source question and question text. Updated the source question text to remain consistent. Unharmonized source question from question text."
+  "Date added or modified": "8/29/2023; 10/4/2024; 10/16/24; 11/19/2024; 2/28/2025",
+  "IMS Review Notes": "Added range check to Notes. Updated source question and question text. Updated the source question text to remain consistent. Unharmonized source question from question text. Added prod push date."
 }

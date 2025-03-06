@@ -1,5 +1,6 @@
 {
   "Formula for Index": "7161",
+  "Index": "7161",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,7 +11,7 @@
     "263959391.json"
   ],
   "GridID/Source Question Name": [
-    "CURWORKPOSTPAN1"
+    "CURWORKPOSTPAN1_SRC"
   ],
   "Deprecated, New, or Revised": "New",
   "conceptId": "307515427",
@@ -25,8 +26,8 @@
   "Variable Type": "Char",
   "Variable Length": "6",
   "Required": "No",
-  "PII": "No",
+  "PII": "Yes",
   "Notes": "Range check min=0, max = 999999",
-  "Date added or modified": "10/8/2024; 12/31/2024",
-  "IMS Review Notes": "Added new question. Updated Source Q and Current Question text to match Questionnaire and deleted CIDs. Added range check to notes"
+  "Date added or modified": "10/8/2024; 12/31/2024; 2/27/2025",
+  "IMS Review Notes": "Added new question. Updated Source Q and Current Question text to match Questionnaire and deleted CIDs. Added range check to notes. Updated PII to Yes and added source to source question name for consistency with other address variables."
 }

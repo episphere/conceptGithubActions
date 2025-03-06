@@ -12,6 +12,7 @@
     "SrvPES_BASELINE2_SRC_v2r0"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/25/25",
   "conceptId": "814873539",
   "Current Question Text": "Please choose the reason that best describes why you have not completed all the sections in the first survey:",
   "Variable Label": "Why baseline survey not completed",
@@ -26,10 +27,18 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "2024 Connect Experience Survey",
-  "Date added or modified": "1/5/2023, 9/20/2024; 11/13/2024",
+  "Date added or modified": "1/5/2023, 9/20/2024; 11/13/2024; 2/28/2025",
   "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
-  "IMS Review Notes": "Changed Connect Value to full Variable Name.  Added  SOURCE to source question.. Added SRC to GridID/Source Question Name. Removed current question text conceptID. Added underscore before SRC in the source question name",
+  "IMS Review Notes": "Changed Connect Value to full Variable Name.  Added  SOURCE to source question.. Added SRC to GridID/Source Question Name. Removed current question text conceptID. Added underscore before SRC in the source question name. Added prod push date.",
   "Formula for Index": [
+    "8823",
+    "8824",
+    "8825",
+    "8826",
+    "8827",
+    "8828"
+  ],
+  "Index": [
     "8823",
     "8824",
     "8825",

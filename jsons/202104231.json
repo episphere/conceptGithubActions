@@ -1,5 +1,6 @@
 {
   "Formula for Index": "6238",
+  "Index": "6238",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,8 +11,9 @@
     "537011756.json"
   ],
   "GridID/Source Question Name": [
-    "HOMEADD1_9"
+    "HOMEADD1_9_SRC"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "202104231",
   "Current Question Text": "8-Previous Country",
   "Variable Label": "Country",
@@ -24,5 +26,7 @@
   "Variable Type": "Char",
   "Variable Length": "300",
   "Required": "No",
-  "PII": "Yes"
+  "PII": "Yes",
+  "Date added or modified": "2/27/25",
+  "IMS Review Notes": "Added SOURCE to Source Question and _SRC to the Grid ID for consistency, but did not change concept IDs."
 }

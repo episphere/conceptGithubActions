@@ -12,6 +12,7 @@
     "SrvPES_BIOSURV4_SRC_v2r0"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/25/25",
   "conceptId": "523552092",
   "Current Question Text": "Please choose the reason that fits best to describe why you have not completed the sample survey:",
   "Variable Label": "Why biospecimen survey not completed",
@@ -26,10 +27,18 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "2024 Connect Experience Survey",
-  "Date added or modified": "1/5/2023, 9/20/2024; 11/13/2024",
+  "Date added or modified": "1/5/2023, 9/20/2024; 11/13/2024; 2/28/2025",
   "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
-  "IMS Review Notes": "Used full Variable Name for Connect Value and changed Variable Length to 2  to accommodate 55.  Added  SOURCE to source question.. Added SRC to GridID/Source Question Name. Removed current question text conceptID. Added underscore before SRC in the source question name",
+  "IMS Review Notes": "Used full Variable Name for Connect Value and changed Variable Length to 2  to accommodate 55.  Added  SOURCE to source question.. Added SRC to GridID/Source Question Name. Removed current question text conceptID. Added underscore before SRC in the source question name. Added prod push date.",
   "Formula for Index": [
+    "8874",
+    "8875",
+    "8876",
+    "8877",
+    "8878",
+    "8879"
+  ],
+  "Index": [
     "8874",
     "8875",
     "8876",

@@ -1,5 +1,6 @@
 {
   "Formula for Index": "5692",
+  "Index": "5692",
   "Primary Source": [
     "129084651.json"
   ],
@@ -7,6 +8,7 @@
     "965707586.json"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/20/25",
   "conceptId": "786517174",
   "Current Question Text": "Age last used- During that time, how many days (1 to 30) did you use consume cannabis edibles, drinks, or capsules in a usual month?",
   "V1 Question Text": "Age last used- During that time, how many days (1 to 30) did you use consume marijuana in food or drinks in a usual month?",
@@ -23,6 +25,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=1 max=30",
-  "Date added or modified": "8/29/2023; 10/4/2024",
-  "IMS Review Notes": "Added range check to Notes. Updated the question and response text"
+  "Date added or modified": "8/29/2023; 10/4/2024; 2/28/2025",
+  "IMS Review Notes": "Added range check to Notes. Updated the question and response text. Added prod push date."
 }

@@ -6,6 +6,7 @@
     "965707586.json"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/20/25",
   "conceptId": "562595294",
   "Current Question Text": "When you were vaping cannabis daily, what is the total amount of time you vaped per day?",
   "V1 Question Text": "When you were a daily user of electronic marijuana delivery devices that can be vaped, what is the total amount of time you vaped per day?",
@@ -20,9 +21,16 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "2/28/2022; 10/4/2024",
-  "IMS Review Notes": "Updated question text",
+  "Date added or modified": "2/28/2024; 10/4/2024; 2/28/2025",
+  "IMS Review Notes": "Updated question text. Added prod push date.",
   "Formula for Index": [
+    "5611",
+    "5612",
+    "5613",
+    "5614",
+    "5615"
+  ],
+  "Index": [
     "5611",
     "5612",
     "5613",

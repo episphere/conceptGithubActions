@@ -15,6 +15,7 @@
     "SrvCov_COV19C6A_SRC_v2r0"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/25/25",
   "conceptId": "677034604",
   "Current Question Text": "Since your COVID-19 diagnosis, have you experienced any other symptoms?",
   "V1 Question Text": "Since your COVID-19 diagnosis, have you experienced any other symptoms? Also question diverged from source question.",
@@ -28,10 +29,14 @@
   "PII": "No",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "2/23/2023; 10/1/2024; 11/12/2024",
+  "Date added or modified": "2/23/2023; 10/1/2024; 11/12/2024; 2/28/2025",
   "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
-  "IMS Review Notes": "Added COVID-19 Survey variables. Versioned source question and question text to unharmonize which requires and updated concept ID for the question text.  Added an underscore before SRC in the source question.",
+  "IMS Review Notes": "Added COVID-19 Survey variables. Versioned source question and question text to unharmonize which requires and updated concept ID for the question text.  Added an underscore before SRC in the source question. Added prod push date.",
   "Formula for Index": [
+    "9306",
+    "9307"
+  ],
+  "Index": [
     "9306",
     "9307"
   ],

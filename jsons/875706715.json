@@ -1,5 +1,6 @@
 {
   "Formula for Index": "6118",
+  "Index": "6118",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,8 +11,9 @@
     "828086036.json"
   ],
   "GridID/Source Question Name": [
-    "HOMEADD1_3"
+    "HOMEADD1_3_SRC"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "875706715",
   "Current Question Text": "2-Previous Street number",
   "Variable Label": "Street number",
@@ -26,6 +28,6 @@
   "Required": "No",
   "PII": "Yes",
   "Notes": "Range check min=0 max=999999",
-  "Date added or modified": "8/29/23",
-  "IMS Review Notes": "Added range check to Notes"
+  "Date added or modified": "8/29/2023; 2/27/2025",
+  "IMS Review Notes": "Added range check to Notes.  Added SOURCE to Source Question and _SRC to the Grid ID for consistency, but did not change concept IDs."
 }

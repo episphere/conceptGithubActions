@@ -15,6 +15,7 @@
     "EAMAR10_SRC"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/20/25",
   "conceptId": "409356583",
   "Current Question Text": "Why [do/did] you consume cannabis edibles, drinks, or capsules?",
   "V2 Question Text": "Why [do/did] you consume marijuana in food or drinks? Question text diverged from source question.",
@@ -31,9 +32,16 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Changes pushed to production on 8/29/2022.",
-  "Date added or modified": "2/2/2023; 10/4/2024; 11/19/2024",
-  "IMS Review Notes": "Backlog documentation of 12/6/2022 edit. Denoted revised status, V1 question text, variable name suffix _v2r0. Updated source question and question text. Unharmonized source question from question text.",
+  "Date added or modified": "2/2/2023; 10/4/2024; 11/19/2024; 2/28/2025",
+  "IMS Review Notes": "Backlog documentation of 12/6/2022 edit. Denoted revised status, V1 question text, variable name suffix _v2r0. Updated source question and question text. Unharmonized source question from question text. Added prod push date.",
   "Formula for Index": [
+    "5700",
+    "5701",
+    "5702",
+    "5703",
+    "5704"
+  ],
+  "Index": [
     "5700",
     "5701",
     "5702",

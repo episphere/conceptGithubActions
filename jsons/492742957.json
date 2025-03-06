@@ -6,6 +6,7 @@
     "965707586.json"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/20/25",
   "conceptId": "492742957",
   "Current Question Text": "When you were a daily smoker of cannabis, what is the total amount of time you smoked per day?",
   "V1 Question Text": "When you were a daily smoker of marijuana, what is the total amount of time you smoked per day?",
@@ -20,9 +21,16 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "2/28/2022; 10/4/2024",
-  "IMS Review Notes": "Updated question text",
+  "Date added or modified": "2/28/2022; 10/4/2024; 2/28/2025",
+  "IMS Review Notes": "Updated question text. Added prod push date.",
   "Formula for Index": [
+    "5479",
+    "5480",
+    "5481",
+    "5482",
+    "5483"
+  ],
+  "Index": [
     "5479",
     "5480",
     "5481",
