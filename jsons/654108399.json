@@ -17,12 +17,15 @@
   "Variable Name": [
     "SrvLAW_WkPstPanOthTmHm_v1r0"
   ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CURWORKPOSTPANT10H"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "10/8/2024; 1/16/2025",
-  "IMS Review Notes": "Added new question. Updated GridId/Source Quest Name from GRID_ to NEST_ and removed Connect value.",
+  "IMS Review Notes": "Added new question. Updated GridId/Source Quest Name from GRID_ to NEST_",
   "Formula for Index": [
     "7308",
     "7309",

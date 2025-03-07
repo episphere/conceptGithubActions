@@ -18,12 +18,15 @@
   "Variable Name": [
     "SrvLAW_CurWorkTmMoto_v1r0"
   ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "CURWORKT2C"
+  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
   "Date added or modified": "2/28/2022; 10/8/2024; 3/4/2025",
-  "IMS Review Notes": "Updated source question and question text to match the tense in the qx doc and mark up, but did not version and updated the question text to show other text from work. Updated GridID/Source Question Name from GRID_ to NEST_ and removed Connect Value.",
+  "IMS Review Notes": "Updated source question and question text to match the tense in the qx doc and mark up, but did not version and updated the question text to show other text from work. Updated GridID/Source Question Name from GRID_ to NEST_",
   "Formula for Index": [
     "7388",
     "7389",
