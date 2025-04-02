@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "1554",
-  "Index": "1554",
+  "Formula for Index": "1556",
+  "Index": "1556",
   "Primary Source": [
     "237817859.json",
     "237817859.json",
@@ -35,12 +35,12 @@
   "Current Format/Value": "example: Starbucks eGift",
   "Required": "Yes, required for NORC",
   "PII": "No",
-  "Notes": "NORC Payment Chosen is being changed to Payment Chosen so that UC and sites that eventually give payments themselves can populate this variable (this will be through API for UC (at least for now) and through the SMDB for the other sites).  Once this field is populated it should be part of the derivation for NORC Eligibility such that the particpant is no longer eligable for a payment from NORC.",
+  "Notes": "NORC Payment Chosen is being changed to Payment Chosen so that UC and sites that eventually give payments themselves can populate this variable (this will be through API for UC (at least for now) and through the SMDB for the other sites).  Once this field is populated it should be part of the derivation for NORC Eligibility such that the particpant is no longer eligable for a payment from NORC. Gift card vendor selected (e.g., Amazon) or cash",
   "Derivation Notes": "Once this field is populated it should be part of the derivation for NORC Eligibility such that the particpant is no longer eligable for a payment from NORC.",
   "Dictionary": "Study Manager Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "9/7/23",
+  "Date added or modified": "4/2/25",
   "GCP Document/Table": "Participants Table Nested structure: d_130371375_d_266600170_d_945795905 (2nd CID may change based on BL/F-U1,2,3)",
   "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name HDPaym_PaymChosen_v2r0 with HDPaym_PaymChosenBL_v2r0"
 }
