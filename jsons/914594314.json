@@ -18,7 +18,7 @@
   "Current Format/Value": "example: 2020-07-17T15:21:26.763Z",
   "Required": "Yes if RcrtV_Verification_v1r0 equals0 or 1 or 2 or 3 or 4",
   "PII": "No",
-  "Notes": "ISO to be converted to SAS format",
+  "Notes": "ISO to be converted to SAS format; When verification status is updated from 'outreach timed out' to 'verified', 'cannot be verified', or 'duplicate' via API the timestamp re-autogenerates to the new date",
   "Dictionary": "Recruitment Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",

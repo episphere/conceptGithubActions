@@ -1,0 +1,39 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "497020618.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "5/7/25",
+  "conceptId": "501613780",
+  "Current Question Text": "DHQ3 at 6 months - Survey Status Flag (for external research platform)",
+  "Variable Label": "6-mo DHQ3 Research Platform - Survey Status Flag",
+  "Variable Name": [
+    "SrvDHQ3_6moPltStatus_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Additional DHQ3 Survey Status Flag (different from the 6-mo DHQ3 Survey Status Flag) that is sourced from DHQ3 Research Platform (not yet begun, in progress, completed) - all 3 of these statuses are set by the DHQ platform and will be pulled in via API and stored in the participant table; Map to CIDs and to be used for QC purposes against the 6-mo DHQ Status flag above set on our side",
+  "Dictionary": "DHQ-III Survey",
+  "Default Variable": "No",
+  "Date added or modified": "5/7/25",
+  "Formula for Index": [
+    "10447",
+    "10448",
+    "10449"
+  ],
+  "Index": [
+    "10447",
+    "10448",
+    "10449"
+  ],
+  "Current Format/Value": {
+    "418049936.json": "0",
+    "269380840.json": "1",
+    "542659759.json": "2"
+  }
+}

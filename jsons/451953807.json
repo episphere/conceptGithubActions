@@ -18,19 +18,19 @@
   "Required": "Yes",
   "PII": "No",
   "Notes": "Create New Type for GetParticipants API. The requirement from our sites is that they have a type within the Get Participants API which would return only participants who have had some kind of refusal or withdrawal.",
-  "Derivation Notes": "HdRef_AnyRefOrWd_v1r0 = 1 IF HdRef_Basesrv_v1r0 = 1 OR¬¨¬®‚àö¬¢‚Äö√á¬®¬¨‚Ä†HdRef_Baseblood_v1r0 = 1 OR¬¨¬®‚àö¬¢‚Äö√á¬®¬¨‚Ä†HdRef_Baseurine_v1r0 = 1 OR¬¨¬®‚àö¬¢‚Äö√á¬®¬¨‚Ä†HdRef_Basesaliva_v1r0 = 1 OR¬¨¬®‚àö¬¢‚Äö√á¬®¬¨‚Ä†HdRef_Allsrv_v1r0 = 1 OR¬¨¬®‚àö¬¢‚Äö√á¬®¬¨‚Ä†HdRef_Allsample_v1r0 = 1 OR¬¨¬®‚àö¬¢‚Äö√á¬®¬¨‚Ä†HdRef_BlSpecSrv_v1r0 = 1 OR¬¨¬®‚àö¬¢‚Äö√á¬®¬¨‚Ä†HdWd_Destroydata_v1r0 = 1 OR¬¨¬®‚àö¬¢‚Äö√á¬®¬¨‚Ä†HdWd_HIPAArevoked_v1r0 = 1 OR¬¨¬®‚àö¬¢‚Äö√á¬®¬¨‚Ä†HdWd_WdConsent_v1r0 = 1 OR¬¨¬®‚àö¬¢‚Äö√á¬®¬¨‚Ä†HdWd_Activepart_v1r0 = 1 OR¬¨¬®‚àö¬¢‚Äö√á¬®¬¨‚Ä†HdWd_Deceased_v1r0 = 1 OR HdWd_SuspendContact_v1r0 = 1",
+  "Derivation Notes": "HdRef_AnyRefOrWd_v1r0 = 1 IF HdRef_Basesrv_v1r0 = 1 OR¬¨¬®¬¨®‚Äö√†√∂¬¨¬¢‚Äö√Ñ√∂‚àö√°¬¨®¬¨¬®‚Äö√Ñ‚Ä†HdRef_Baseblood_v1r0 = 1 OR¬¨¬®¬¨®‚Äö√†√∂¬¨¬¢‚Äö√Ñ√∂‚àö√°¬¨®¬¨¬®‚Äö√Ñ‚Ä†HdRef_Baseurine_v1r0 = 1 OR¬¨¬®¬¨®‚Äö√†√∂¬¨¬¢‚Äö√Ñ√∂‚àö√°¬¨®¬¨¬®‚Äö√Ñ‚Ä†HdRef_Basesaliva_v1r0 = 1 OR¬¨¬®¬¨®‚Äö√†√∂¬¨¬¢‚Äö√Ñ√∂‚àö√°¬¨®¬¨¬®‚Äö√Ñ‚Ä†HdRef_Allsrv_v1r0 = 1 OR¬¨¬®¬¨®‚Äö√†√∂¬¨¬¢‚Äö√Ñ√∂‚àö√°¬¨®¬¨¬®‚Äö√Ñ‚Ä†HdRef_Allsample_v1r0 = 1 OR¬¨¬®¬¨®‚Äö√†√∂¬¨¬¢‚Äö√Ñ√∂‚àö√°¬¨®¬¨¬®‚Äö√Ñ‚Ä†HdRef_BlSpecSrv_v1r0 = 1 OR¬¨¬®¬¨®‚Äö√†√∂¬¨¬¢‚Äö√Ñ√∂‚àö√°¬¨®¬¨¬®‚Äö√Ñ‚Ä†HdWd_Destroydata_v1r0 = 1 OR¬¨¬®¬¨®‚Äö√†√∂¬¨¬¢‚Äö√Ñ√∂‚àö√°¬¨®¬¨¬®‚Äö√Ñ‚Ä†HdWd_HIPAArevoked_v1r0 = 1 OR¬¨¬®¬¨®‚Äö√†√∂¬¨¬¢‚Äö√Ñ√∂‚àö√°¬¨®¬¨¬®‚Äö√Ñ‚Ä†HdWd_WdConsent_v1r0 = 1 OR¬¨¬®¬¨®‚Äö√†√∂¬¨¬¢‚Äö√Ñ√∂‚àö√°¬¨®¬¨¬®‚Äö√Ñ‚Ä†HdWd_Activepart_v1r0 = 1 OR¬¨¬®¬¨®‚Äö√†√∂¬¨¬¢‚Äö√Ñ√∂‚àö√°¬¨®¬¨¬®‚Äö√Ñ‚Ä†HdWd_Deceased_v1r0 = 1 OR HdWd_SuspendContact_v1r0 = 1",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "Yes",
   "Date added or modified": "4/13/23",
   "IMS Review Notes": "Removed extra characters",
   "Formula for Index": [
-    "1789",
-    "1790"
+    "1793",
+    "1794"
   ],
   "Index": [
-    "1789",
-    "1790"
+    "1793",
+    "1794"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

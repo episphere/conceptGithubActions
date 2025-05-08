@@ -9,3 +9,8 @@ node aggregateJSONS.js
 
 Note: deprecated-new-revised-transformation-fix branch's masterParsing is used here. For context, this branch was used to handle removal of deprecated .jsons files from being created while preserving the csv that was being created. 
 Now this can be done in one run instead of brnaching out.
+
+
+Running this locally is a preferred way. Sometimes a new Secondary Source is added and that newly created concept Id is important for the transformation.json file that is needed. 
+For example, DHQ3 was added to the Data Dictionary under Secondary Source.
+Had we not run this locally first the transformation file would have omitted the row contents with the DHQ3 as Secondary Source.

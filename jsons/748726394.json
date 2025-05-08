@@ -1,0 +1,36 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "497020618.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "5/7/25",
+  "conceptId": "748726394",
+  "Current Question Text": "DHQ3 at 6 months - Survey Language",
+  "Variable Label": "6-mo DHQ3 Survey language",
+  "Variable Name": [
+    "SrvDHQ3_6moLanguage_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Will be set on DHQ Platform and pulled back in via API. Will not capture and store this data until participants survey status=submitted",
+  "Dictionary": "DHQ-III Survey",
+  "Default Variable": "No",
+  "Date added or modified": "5/7/25",
+  "Formula for Index": [
+    "10452",
+    "10453"
+  ],
+  "Index": [
+    "10452",
+    "10453"
+  ],
+  "Current Format/Value": {
+    "163149180.json": "0",
+    "773342525.json": "1"
+  }
+}

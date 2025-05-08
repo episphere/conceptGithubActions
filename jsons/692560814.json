@@ -1,0 +1,42 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "497020618.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "5/7/25",
+  "conceptId": "692560814",
+  "Current Question Text": "DHQ3 at 6 months - Survey Status Flag (for internal Connect)",
+  "Variable Label": "6-mo DHQ3 Survey Status Flag",
+  "Variable Name": [
+    "SrvDHQ3_6moStatus_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Status flag will remain null in the system for prospective participants until they are autoset to 'not started' at time of verification; Not yet eligible will be set manually for the backlog. For participants verified more than 180 days before launch and not withdrawn, we will move this participant from 'not yet eligible' to 'not started' manually in batches when we want to launch the survey to them; Both ‘Not Yet Eligible’ and ‘Not Started’ will be set by C4CPDS; ‘Submitted’ status will be set by the DHQ research platform and pulled back via an API call on regular basis",
+  "Dictionary": "DHQ-III Survey",
+  "Default Variable": "No",
+  "Date added or modified": "5/7/25",
+  "Formula for Index": [
+    "10443",
+    "10444",
+    "10445",
+    "10446"
+  ],
+  "Index": [
+    "10443",
+    "10444",
+    "10445",
+    "10446"
+  ],
+  "Current Format/Value": {
+    "842667991.json": "0",
+    "141631918.json": "1",
+    "748688281.json": "2",
+    "623989954.json": "3"
+  }
+}

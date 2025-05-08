@@ -1,0 +1,28 @@
+{
+  "Formula for Index": "10441",
+  "Index": "10441",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "497020618.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "5/7/25",
+  "conceptId": "808755658",
+  "Current Question Text": "DHQ3 at 6 months - UUID",
+  "Variable Label": "6-mo DHQ3 UUID",
+  "Variable Name": [
+    "SrvDHQ3_6moUUID_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "36",
+  "Current Format/Value": "Ex: 9dc0bd25-2e51-4d03-a832-c6c0a1a8c66b",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Corresponds to the unique survey link/credential for each respondent that gets embedded in the DHQ3 url link when MyConnect sends the respondent to the DHQ3 website to complete the survey",
+  "Dictionary": "DHQ-III Survey",
+  "Default Variable": "No",
+  "Date added or modified": "5/7/25",
+  "GCP Document/Table": "Participants Table"
+}
