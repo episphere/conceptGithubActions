@@ -354,6 +354,12 @@
       "SrvBOH_HairMedAgeF_v1r1"
     ]
   },
+  "109610692": {
+    "Variable Label": "6-mo DHQ3 Date/Time survey started",
+    "Variable Name": [
+      "SrvDHQ3_6moTmStart_v1r0"
+    ]
+  },
   "109876967": {
     "Variable Label": "Metformin Mg, Don't Know",
     "Variable Name": [
@@ -609,6 +615,9 @@
     "Variable Name": [
       "SrvLAW_Prev9CrDontKnow_v2r0"
     ]
+  },
+  "117840593": {
+    "Variable Name": "Temple CDM"
   },
   "117943804": {
     "Variable Label": "Do Not Know 3-Seasonal Cross",
@@ -1226,6 +1235,9 @@
       "SrvCov_COV27_MY_v3r0"
     ]
   },
+  "141631918": {
+    "Variable Name": "not started"
+  },
   "141874857": {
     "Variable Label": "Age drank alcohol on regular basis",
     "Variable Name": [
@@ -1407,6 +1419,12 @@
     "Variable Label": "# Yrs Anti-Hypertensive Meds",
     "Variable Name": [
       "SrvMRE_AntiHypYr_v1r0"
+    ]
+  },
+  "148184166": {
+    "Variable Label": "6-mo DHQ3 Username",
+    "Variable Name": [
+      "SrvDHQ3_6moUsername_v1r0"
     ]
   },
   "148197146": {
@@ -2617,6 +2635,12 @@
     "Variable Label": "Not Interested",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_inter"
+    ]
+  },
+  "196723965": {
+    "Variable Label": "6-mo DHQ3 Study ID",
+    "Variable Name": [
+      "SrvDHQ3_6moStudyID_v1r0"
     ]
   },
   "196856782": {
@@ -4735,6 +4759,9 @@
     "Variable Name": [
       "HdRef_DateDatadestroy_v1r0"
     ]
+  },
+  "269380840": {
+    "Variable Name": "in progress"
   },
   "270011675": {
     "Variable Label": "Other: Please describe",
@@ -8109,6 +8136,9 @@
   "417633823": {
     "Variable Name": "Easy"
   },
+  "418049936": {
+    "Variable Name": "not yet begun"
+  },
   "418361985": {
     "Variable Name": "Twice per week"
   },
@@ -8505,6 +8535,9 @@
   },
   "433604862": {
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Non-melanoma skin (basal or squamous) cancer?"
+  },
+  "433887906": {
+    "Variable Name": "not viewed"
   },
   "434034366": {
     "Variable Label": "How many cigarettes used, [X / 60] to age [Y / 69 / current age]",
@@ -10201,6 +10234,9 @@
       "RcrtSI_OptOut_v1r0_health"
     ]
   },
+  "497020618": {
+    "Variable Name": "DHQ3"
+  },
   "497260033": {
     "Variable Label": "Country",
     "Variable Name": [
@@ -10276,6 +10312,12 @@
     "Variable Label": "How many pipe fills of tobacco per day, [X / 30] to age [Y / 39 / current age]",
     "Variable Name": [
       "SrvSAS_PipeFills3039_v1r1"
+    ]
+  },
+  "501613780": {
+    "Variable Label": "6-mo DHQ3 Research Platform - Survey Status Flag",
+    "Variable Name": [
+      "SrvDHQ3_6moPltStatus_v1r0"
     ]
   },
   "502004518": {
@@ -11368,6 +11410,9 @@
       "SrvQoL_SatisfySocial4_v1r0"
     ]
   },
+  "542659759": {
+    "Variable Name": "completed"
+  },
   "542661394": {
     "Variable Name": "Do you currently use any type of dentures or dental appliance? Please select all you have."
   },
@@ -12138,6 +12183,9 @@
     "Variable Name": [
       "SrvLAW_StrName11_v1r0"
     ]
+  },
+  "574104518": {
+    "Variable Name": "Temple Roney"
   },
   "574368418": {
     "Variable Name": "HP Park Nicollet"
@@ -13006,6 +13054,12 @@
       "SrvScr_CancScrnTmStart_v1r0"
     ]
   },
+  "610227793": {
+    "Variable Label": "6-mo DHQ3Date/Time survey submitted",
+    "Variable Name": [
+      "SrvDHQ3_6moTmComplete_v1r0"
+    ]
+  },
   "610382315": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had brain cancer?"
   },
@@ -13332,6 +13386,9 @@
   },
   "623759247": {
     "Variable Name": "In total, how many months or years have you used oral estrogen-only medication?"
+  },
+  "623989954": {
+    "Variable Name": "submitted"
   },
   "624030581": {
     "Variable Label": "Don't Trust Rsrchrs",
@@ -14777,6 +14834,9 @@
   "675055475": {
     "Variable Name": "How old were you when you had your tonsils removed (tonsillectomy)? - CSH"
   },
+  "675083066": {
+    "Variable Name": "viewed"
+  },
   "675129470": {
     "Variable Label": "Dabbing THC concentrates (such as wax, shatter, or rosin)",
     "Variable Name": [
@@ -15318,6 +15378,12 @@
   },
   "692275326": {
     "Variable Name": "Marshfield"
+  },
+  "692560814": {
+    "Variable Label": "6-mo DHQ3 Survey Status Flag",
+    "Variable Name": [
+      "SrvDHQ3_6moStatus_v1r0"
+    ]
   },
   "692824372": {
     "Variable Name": "More than 3 months"
@@ -16666,7 +16732,7 @@
     "Variable Name": "Medications, Reproductive Health, Exercise, and Sleep"
   },
   "745366882": {
-    "Variable Name": "The Chair of the Connect IRB-of-record (NIH IRB)"
+    "Variable Name": "Chair of the NIH IRB/Compliance Office/OHSRP"
   },
   "745561936": {
     "Variable Name": "$25,000-$34,999/year"
@@ -16781,6 +16847,15 @@
     "Variable Label": "Heart Valve Prob",
     "Variable Name": [
       "SrvBOH_HeartValve_v1r0"
+    ]
+  },
+  "748688281": {
+    "Variable Name": "started"
+  },
+  "748726394": {
+    "Variable Label": "6-mo DHQ3 Survey language",
+    "Variable Name": [
+      "SrvDHQ3_6moLanguage_v1r0"
     ]
   },
   "749055145": {
@@ -18583,6 +18658,12 @@
       "HdRef_DateBaseurine_v1r0"
     ]
   },
+  "808755658": {
+    "Variable Label": "6-mo DHQ3 UUID",
+    "Variable Name": [
+      "SrvDHQ3_6moUUID_v1r0"
+    ]
+  },
   "808806810": {
     "Variable Label": "Weight Loss On Purpose Btwn Ages 18 and 25",
     "Variable Name": [
@@ -19437,6 +19518,9 @@
     "Variable Name": [
       "BioPack_ContainsOrphan_v1r0"
     ]
+  },
+  "842667991": {
+    "Variable Name": "not yet eligible"
   },
   "842768118": {
     "Variable Label": "Not confident talking to doctor",
@@ -20774,6 +20858,12 @@
     "Variable Label": "State/Province",
     "Variable Name": [
       "SrvLAW_SeaState7FU_v1r0"
+    ]
+  },
+  "892697201": {
+    "Variable Label": "6-mo DHQ3 HEI report viewed",
+    "Variable Name": [
+      "SrvDHQ3_6moHEIviewed_v1r0"
     ]
   },
   "892894242": {
