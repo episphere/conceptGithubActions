@@ -16,8 +16,6 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Required": "Yes",
-  "PII": "No",
   "Derivation Notes": "Default to No upon package receipt ('Shipment Received - Site Shipment'= Yes) if this condition is not selected",
   "Dictionary": "BPTL",
   "State Attribute": "No",
@@ -35,5 +33,13 @@
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  }
+  },
+  "Required": [
+    "Yes",
+    "No"
+  ],
+  "PII": [
+    "No",
+    "No"
+  ]
 }

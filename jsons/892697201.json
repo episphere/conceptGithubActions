@@ -5,13 +5,13 @@
   "Secondary Source": [
     "497020618.json"
   ],
-  "Deprecated, New, or Revised": "New",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "5/7/25",
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "6/6/25",
   "conceptId": "892697201",
-  "Current Question Text": "DHQ3 at 6 months - HEI Report viewed",
-  "Variable Label": "6-mo DHQ3 HEI report viewed",
+  "Current Question Text": "DHQ3 at 6 months - flag for HEI Report viewed from external DHQ platform- Viewed/Not Viewed",
+  "Variable Label": "6-mo DHQ3 Research Platform - flag for HEI report status from external DHQ platform",
   "Variable Name": [
-    "SrvDHQ3_6moHEIviewed_v1r0"
+    "SrvDHQ3_6moHEIViewedExt_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -19,14 +19,14 @@
   "PII": "No",
   "Dictionary": "DHQ-III Survey",
   "Default Variable": "No",
-  "Date added or modified": "5/7/25",
+  "Date added or modified": "6/6/25",
   "Formula for Index": [
-    "10454",
-    "10455"
+    "10459",
+    "10460"
   ],
   "Index": [
-    "10454",
-    "10455"
+    "10459",
+    "10460"
   ],
   "Current Format/Value": {
     "433887906.json": "0",

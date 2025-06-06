@@ -1,0 +1,27 @@
+{
+  "Formula for Index": "2179",
+  "Index": "2179",
+  "Primary Source": [
+    "332961895.json"
+  ],
+  "Secondary Source": [
+    "449266908.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "6/6/25",
+  "conceptId": "488064292",
+  "Current Question Text": "Pathology report - filename of pathology report uploaded from sites",
+  "Variable Label": "Pathology report filename",
+  "Variable Name": [
+    "SMPath_Reports_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "250",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "Study Manager",
+  "Default Variable": "No",
+  "Date added or modified": "6/6/25",
+  "GCP Document/Table": "This variable will store the pathology report file names in a separate collection (table) in Firestore. Warren will create a \"\"pathologyReports\"\" collection which will have two columns: ConnectID and the new Pathology Report File Name conceptID. (participants with multiple files uploaded will have multiple entries in the collection.)"
+}

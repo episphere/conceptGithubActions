@@ -1,0 +1,27 @@
+{
+  "Formula for Index": "2093",
+  "Index": "2093",
+  "Primary Source": [
+    "692924902.json"
+  ],
+  "Secondary Source": [
+    "637153953.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "6/6/25",
+  "conceptId": "212274403",
+  "Current Question Text": "What is the date when the sites send/we receive data for each cancer diagnosis?",
+  "Variable Label": "Cancer Receive Date",
+  "Variable Name": [
+    "RCAOcc_CancerRecDt_v1r0"
+  ],
+  "Variable Type": "ISO",
+  "Variable Length": "24",
+  "Current Format/Value": "example: 2020-07-17T15:21:26.763Z",
+  "Required": "Yes",
+  "PII": "No",
+  "Dictionary": "Master Data Dictionary",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "6/6/25"
+}

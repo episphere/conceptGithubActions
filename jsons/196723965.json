@@ -1,29 +1,29 @@
 {
-  "Formula for Index": "10442",
-  "Index": "10442",
+  "Formula for Index": "10447",
+  "Index": "10447",
   "Primary Source": [
     "129084651.json"
   ],
   "Secondary Source": [
     "497020618.json"
   ],
-  "Deprecated, New, or Revised": "New",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "5/7/25",
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "6/6/25",
   "conceptId": "196723965",
   "Current Question Text": "DHQ3 at 6 months - Study ID",
   "Variable Label": "6-mo DHQ3 Study ID",
   "Variable Name": [
     "SrvDHQ3_6moStudyID_v1r0"
   ],
-  "Variable Type": "Num",
-  "Variable Length": "4",
-  "Current Format/Value": "Ex: 2439",
+  "Variable Type": "Char",
+  "Variable Length": "10",
+  "Current Format/Value": "Ex: study_2439",
   "Required": "Yes",
   "PII": "No",
   "Notes": "Corresponds to which DHQ3 study a respondent is in - There will be 10k participants in each study with the same study ID",
   "Dictionary": "DHQ-III Survey",
   "Default Variable": "No",
-  "Date added or modified": "5/14/25",
+  "Date added or modified": "6/6/25",
   "GCP Document/Table": "Participants Table",
   "Stub Record Variable to be Retained": "Yes"
 }
