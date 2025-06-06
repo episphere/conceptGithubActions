@@ -3247,6 +3247,12 @@
   "212249150": {
     "Variable Name": "$50,000-$74,999/year"
   },
+  "212274403": {
+    "Variable Label": "Cancer Receive Date",
+    "Variable Name": [
+      "RCAOcc_CancerRecDt_v1r0"
+    ]
+  },
   "212343294": {
     "Variable Name": "Address 5-Please provide the following information: - SOURCE"
   },
@@ -7831,6 +7837,12 @@
       "SrvMRE_AgeHorIUDUsedF_v1r0"
     ]
   },
+  "404613256": {
+    "Variable Label": "6-mo DHQ3 Date/Time HEI Report First Declined on MyConnect PWA",
+    "Variable Name": [
+      "SrvDHQ3_6moHEIDeclineTm_v1r0"
+    ]
+  },
   "404651070": {
     "Variable Name": "Water that was filtered using reverse osmosis (under sink or whole house)"
   },
@@ -8922,6 +8934,9 @@
       "RcrtUP_PhysZip_v1r0"
     ]
   },
+  "449266908": {
+    "Variable Name": "Pathology Reports"
+  },
   "449752653": {
     "Variable Label": "Current school, commute at least once a week",
     "Variable Name": [
@@ -9943,6 +9958,12 @@
       "SrvBOH_DNMSkinCancer_v1r0",
       "SrvBOH_S1NMSkinCanc_v1r0",
       "SrvBOH_C1NMSkinCanc_v1r0"
+    ]
+  },
+  "488064292": {
+    "Variable Label": "Pathology report filename",
+    "Variable Name": [
+      "SMPath_Reports_v1r0"
     ]
   },
   "488415137": {
@@ -11419,6 +11440,12 @@
       "SrvLAW_SeaStrName2_v1r0"
     ]
   },
+  "542983589": {
+    "Variable Label": "6-mo DHQ3 Research Platform - flag for HEI report status internal from MyConnect PWA",
+    "Variable Name": [
+      "SrvDHQ3_6moHEIViewedPWA_v1r0"
+    ]
+  },
   "543135391": {
     "Variable Label": "Full Street name #2",
     "Variable Name": [
@@ -12882,6 +12909,12 @@
     "Variable Label": "Do Not Know 5-Seasonal",
     "Variable Name": [
       "SrvLAW_Seas5DontKnow_v2r0"
+    ]
+  },
+  "600958089": {
+    "Variable Label": "6-mo DHQ3 Date/Time HEI Report First Viewed on MyConnect PWA",
+    "Variable Name": [
+      "SrvDHQ3_6moHEIViewedTm_v1r0"
     ]
   },
   "601057066": {
@@ -19805,7 +19838,7 @@
     ]
   },
   "852689772": {
-    "Variable Name": "In-Home Collection"
+    "Variable Name": "HFH In-Home Collection"
   },
   "852697610": {
     "Variable Label": "First time screened for oral cancer",
@@ -20849,9 +20882,9 @@
     ]
   },
   "892697201": {
-    "Variable Label": "6-mo DHQ3 HEI report viewed",
+    "Variable Label": "6-mo DHQ3 Research Platform - flag for HEI report status from external DHQ platform",
     "Variable Name": [
-      "SrvDHQ3_6moHEIviewed_v1r0"
+      "SrvDHQ3_6moHEIViewedExt_v1r0"
     ]
   },
   "892894242": {
@@ -21770,6 +21803,12 @@
     "Variable Label": "Country",
     "Variable Name": [
       "SrvLAW_SeaCountry6_v1r0"
+    ]
+  },
+  "932866744": {
+    "Variable Label": "Package lost flag",
+    "Variable Name": [
+      "BioBPTL_PkgLost_v1r0"
     ]
   },
   "933017499": {
@@ -23057,6 +23096,12 @@
   },
   "980800222": {
     "Variable Name": "When was the [first/2nd/3rd/etc.] time you had COVID-19? If you are not sure, please make your best guess.  If you are using a phone or tablet, please tap the gray box to enter your response. - SOURCE"
+  },
+  "980891990": {
+    "Variable Label": "Date package lost",
+    "Variable Name": [
+      "BioBPTL_DateLost_v1r0"
+    ]
   },
   "981001113": {
     "Variable Name": "Birthday Card Data Return"
