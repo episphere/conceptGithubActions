@@ -5,9 +5,9 @@
   "Secondary Source": [
     "686238347.json"
   ],
-  "Deprecated, New, or Revised": "New",
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "446235715",
-  "Current Question Text": "Flag for Report Unread/Viewed/Declined",
+  "Current Question Text": "Physical Activity - Flag for Current Status of Report Unread/Viewed/Declined",
   "Variable Label": "Flag for Report Unread/Viewed/Declined",
   "Variable Name": [
     "ROIPhy_ReportViewedFlag_v1r0"
@@ -16,21 +16,21 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Should be nested under Secondary Source (Physical Activity). Notifications would go out on report status = unread along with pt not withdrawn/not deceased, and being verified. Not a default variable but default value is unread.",
+  "Notes": "Should be nested under Secondary Source (Physical Activity). Notifications would go out on report status = unread along with pt not withdrawn/not deceased, and being verified. Not a default variable but default value is unread; This variable acts as a toggle that refects the current status; if the participant clicks View on the PWA it will set at Viewed, if they click Decline, it will set as Declined, and if they click View and then Decline, it will change from Viewed to Declined (and vice versa)",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "2/4/25",
+  "Date added or modified": "6/27/25",
   "GCP Document/Table": "Firestore and Participants Table Nested (d_686238347_d_446235715)",
   "Formula for Index": [
-    "2220",
-    "2221",
-    "2222"
+    "2494",
+    "2495",
+    "2496"
   ],
   "Index": [
-    "2220",
-    "2221",
-    "2222"
+    "2494",
+    "2495",
+    "2496"
   ],
   "Current Format/Value": {
     "702641611.json": "0",

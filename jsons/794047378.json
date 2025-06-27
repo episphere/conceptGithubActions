@@ -1,28 +1,28 @@
 {
-  "Formula for Index": "2219",
-  "Index": "2219",
+  "Formula for Index": "2493",
+  "Index": "2493",
   "Primary Source": [
     "840173959.json"
   ],
   "Secondary Source": [
-    "686238347.json"
+    "206639461.json"
   ],
-  "Deprecated, New, or Revised": "New",
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "794047378",
   "Current Question Text": "Numeric variable showing the number of available reports",
   "Variable Label": "Numeric variable showing the number of available reports",
   "Variable Name": [
-    "ROIPhy_NumAvailReports_v1r0"
+    "ROIAll_NumAvailReports_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Current Format/Value": "example: 99",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "This variable will be used to track Available Reports similar to how we use 566565527 (Available Surveys). We don't want to nest this variable and use it to track Available Physical Activity Reports. We want to use it to track Available Reports similar to how we use 566565527 (Available Surveys).",
+  "Notes": "This variable will be used to track Available Reports similar to how we use 566565527 (Available Surveys). We don't want to nest this variable and use it to track Available Physical Activity Reports. We want to use it to track Available Reports similar to how we use 566565527 (Available Surveys); We are using this to track ALL reports not just Physical Activity so we changed the name to ROIAll_NumAvailReports_v1r0 and updated the Secondary Soource from Physical Activity to All (6/27/25)",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "2/4/25",
+  "Date added or modified": "6/27/25",
   "GCP Document/Table": "Firestore and Participants table Not nested (d_794047378)"
 }
