@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "10740",
+  "Index": "10740",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "497020618.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "866146525",
+  "Current Question Text": "Autogenerate date/time for most recent update to document",
+  "Variable Label": "Autogenerate D/T most recent update",
+  "Variable Name": [
+    "SrvDHQ3_RecentUpdateTm_v1r0"
+  ],
+  "Variable Type": "ISO",
+  "Variable Length": "24",
+  "Current Format/Value": "ex: 2020-07-17T15:21:26.763Z",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "This variable will be kept in Firestore until Analytics needs it in BQ; This is a general variable we can use to track the last time any document was updated.",
+  "Dictionary": "DHQ-III Survey",
+  "Default Variable": "No",
+  "Date added or modified": "7/18/25"
+}

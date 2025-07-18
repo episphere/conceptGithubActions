@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "10742",
+  "Index": "10742",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "497020618.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "262294850",
+  "Current Question Text": "Autogenerate date/time for Firestore processing",
+  "Variable Label": "Autogenerate D/T Firestore processing",
+  "Variable Name": [
+    "SrvDHQ3_6moProcessedTm_v1r0"
+  ],
+  "Variable Type": "ISO",
+  "Variable Length": "24",
+  "Current Format/Value": "ex: 2020-07-17T15:21:26.763Z",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "This variable will be kept in Firestore until Analytics needs it in BQ",
+  "Dictionary": "DHQ-III Survey",
+  "Default Variable": "No",
+  "Date added or modified": "7/18/25"
+}
