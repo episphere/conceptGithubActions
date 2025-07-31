@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2497",
-  "Index": "2497",
+  "Formula for Index": "2499",
+  "Index": "2499",
   "Primary Source": [
     "840173959.json",
     "840173959.json"
@@ -22,7 +22,7 @@
   "Current Format/Value": "example: 2023-12-06T20:00:12.000Z",
   "Required": "Yes if viewed",
   "PII": "No",
-  "Notes": "Should be nested under Secondary Source (Physical Activity); The first time ‚ÄòView’ is clicked, it will set the Date Time First Viewed. It does not update if they click back and forth between View and Decline; it just captures the first event. That’s how we will know regardless of the current status of the flag, if they ever viewed the report it will have date first viewed populated.",
+  "Notes": "Should be nested under Secondary Source (Physical Activity); The first time ‚Äö√Ñ√≤View’ is clicked, it will set the Date Time First Viewed. It does not update if they click back and forth between View and Decline; it just captures the first event. That’s how we will know regardless of the current status of the flag, if they ever viewed the report it will have date first viewed populated.",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",

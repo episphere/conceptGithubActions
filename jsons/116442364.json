@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "10741",
-  "Index": "10741",
+  "Formula for Index": "10743",
+  "Index": "10743",
   "Primary Source": [
     "129084651.json"
   ],
@@ -16,7 +16,7 @@
   ],
   "Variable Type": "Array",
   "Variable Length": "Array",
-  "Current Format/Value": "[participant name, participant name…]",
+  "Current Format/Value": "[participant name, participant name]",
   "Required": "No",
   "PII": "No",
   "Notes": "This variable will be kept in Firestore until Analytics needs it in BQ; This variable will be internally tied to each specific study, so it could be used for any future DHQ study. This variable will be an array of DHQ participant usernames, and we'll use it to track participants whose data we've already processed within each study. DHQ response data is provided in bulk from the DHQ API, so these files can become very large, containing up to 10,000 participants' response data in a single file. Note: We've asked DHQ to provide an implementation that allows us to download data based on the survey completion date, which would significantly reduce the processing load and file sizes.",

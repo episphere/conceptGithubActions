@@ -33,11 +33,11 @@
   "Current Format/Value": "example: 2020-07-17T15:21:26.763Z",
   "Required": "Yes if BioFin_BaseUrineCol_v1r0 equals 1",
   "PII": "No",
-  "Notes": "Set by us for research; for clinical- from site EMR, sent to NCI via API.",
+  "Notes": "Sent from site EMR to NCI via API.",
   "Dictionary": "Biospecimen Research",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "3/21/24",
+  "Date added or modified": "7/31/25",
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_139245758 (2nd CID may change based on BL/F-U1,2,3)",
   "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name from BioClin_ClinicalUrnTime_v1r0 to BioClin_ClinicalUrnTmBL_v1r0."
 }
