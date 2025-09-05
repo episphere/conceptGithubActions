@@ -849,7 +849,7 @@
     ]
   },
   "126331570": {
-    "Variable Label": "SSN Surv",
+    "Variable Label": "Flag SSN Surv",
     "Variable Name": [
       "SrvSS_SSNSurvey_v1r0"
     ]
@@ -1937,7 +1937,7 @@
     ]
   },
   "167958071": {
-    "Variable Label": "Base Ur Collected",
+    "Variable Label": "BL Ur Collected",
     "Variable Name": [
       "BioFin_BaseUrineCol_v1r0"
     ]
@@ -2144,7 +2144,7 @@
     ]
   },
   "176068627": {
-    "Variable Label": "Flag Canc Screening Hist",
+    "Variable Label": "Flag 9-mo CSH Surv",
     "Variable Name": [
       "SrvScr_CancScrnStatus_v1r0"
     ]
@@ -4802,7 +4802,7 @@
     "Variable Name": "Child address- Please provide the following information: - SOURCE"
   },
   "265193023": {
-    "Variable Label": "B/U/MW Rsrch Surv",
+    "Variable Label": "Flag B/U/MW Rsrch Surv",
     "Variable Name": [
       "SrvBLM_ResSrvCompl_v1r0"
     ]
@@ -5313,7 +5313,7 @@
     ]
   },
   "284580415": {
-    "Variable Label": "Add Line 1",
+    "Variable Label": "Alt Address Line 1",
     "Variable Name": [
       "RcrtUP_AltAddressL1_v1r0"
     ]
@@ -5465,6 +5465,9 @@
     "Variable Name": [
       "SrvLAW_State8_v1r0"
     ]
+  },
+  "290379732": {
+    "Variable Name": "No Longer Enrolling"
   },
   "290541411": {
     "Variable Name": "Southern Rhodesia"
@@ -6196,7 +6199,7 @@
     "Variable Name": "Other computer"
   },
   "320303124": {
-    "Variable Label": "Flag PROMIS Surv",
+    "Variable Label": "Flag 3-mo PROMIS Surv",
     "Variable Name": [
       "SrvQOL_3moStatus_v1r0"
     ]
@@ -7492,7 +7495,7 @@
     "Variable Name": "Red"
   },
   "379899229": {
-    "Variable Label": "Zip",
+    "Variable Label": "Alt Address Zip",
     "Variable Name": [
       "RcrtUP_AltZip_v1r0"
     ]
@@ -9077,7 +9080,7 @@
     "Variable Name": "In which season(s) did you do these moderate outdoor chores (such as weeding, raking, or mowing the lawn)? Select all that apply."
   },
   "442166669": {
-    "Variable Label": "Mailing Address Address Line 2",
+    "Variable Label": "Mailing Address Line 2",
     "Variable Name": [
       "RcrtUP_MailAddressLn2_v1r0"
     ]
@@ -11148,7 +11151,7 @@
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Ovarian cancer?"
   },
   "521824358": {
-    "Variable Label": "Mailing Address Address Line 1",
+    "Variable Label": "Mailing Address Line 1",
     "Variable Name": [
       "RcrtUP_MailAddressLn1_v1r0"
     ]
@@ -13118,7 +13121,7 @@
     ]
   },
   "592099155": {
-    "Variable Label": "Blood Collection Setting BL",
+    "Variable Label": "BL Blood Collection Setting",
     "Variable Name": [
       "BioSpm_BloodSettingBL_v1r0",
       "BioSpm_BloodSettingF1_v1r0",
@@ -15650,7 +15653,7 @@
     ]
   },
   "684635302": {
-    "Variable Label": "Base MW Collected",
+    "Variable Label": "BL MW Collected",
     "Variable Name": [
       "BioFin_BaseMouthCol_v1r0"
     ]
@@ -15923,7 +15926,7 @@
     "Variable Name": "Marshfield"
   },
   "692560814": {
-    "Variable Label": "6-mo DHQ3 Survey Status Flag",
+    "Variable Label": "Flag 6-Mo DHQ3 Surv Status",
     "Variable Name": [
       "SrvDHQ3_6moStatus_v1r0"
     ]
@@ -16566,7 +16569,7 @@
     ]
   },
   "718172863": {
-    "Variable Label": "Urine Collection Setting BL",
+    "Variable Label": "BL Urine Collection Setting",
     "Variable Name": [
       "BioSpm_UrineSettingBL_v1r0",
       "BioSpm_UrineSettingF1_v1r0",
@@ -16893,7 +16896,7 @@
     ]
   },
   "728926441": {
-    "Variable Label": "Add Line 2",
+    "Variable Label": "Alt Address Line 2",
     "Variable Name": [
       "RcrtUP_AltAddressL2_v1r0"
     ]
@@ -21282,7 +21285,7 @@
     "Variable Name": "Address 11-Please provide the following information: - SOURCE"
   },
   "878865966": {
-    "Variable Label": "Base Blood Collected",
+    "Variable Label": "BL Blood Collected",
     "Variable Name": [
       "BioFin_BaseBloodCol_v1r0"
     ]
@@ -21987,7 +21990,7 @@
     ]
   },
   "907038282": {
-    "Variable Label": "City",
+    "Variable Label": "Alt Address City",
     "Variable Name": [
       "RcrtUP_AltCity_v1r0"
     ]
@@ -22141,7 +22144,7 @@
     "Variable Name": "What is the name and the street address of the school that you commute to most often?"
   },
   "915179629": {
-    "Variable Label": "Mouthwash Collection Setting BL",
+    "Variable Label": "BL Mouthwash Collection Setting",
     "Variable Name": [
       "BioSpm_MWSettingBL_v1r0",
       "BioSpm_MWSettingF1_v1r0",
@@ -23312,7 +23315,7 @@
     ]
   },
   "956490759": {
-    "Variable Label": "Flag 2024 Connect Exp",
+    "Variable Label": "Flag 2024 CES Surv",
     "Variable Name": [
       "SrvCoE_ConExpStatus_v1r0"
     ]
@@ -23705,7 +23708,7 @@
     "Variable Name": "I had surgery to remove both Testicles"
   },
   "970839481": {
-    "Variable Label": "State",
+    "Variable Label": "Alt Address State",
     "Variable Name": [
       "RcrtUP_AltState_v1r0"
     ]
