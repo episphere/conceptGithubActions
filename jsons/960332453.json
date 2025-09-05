@@ -1,12 +1,13 @@
 {
-  "Formula for Index": "5464",
-  "Index": "5464",
+  "Formula for Index": "5465",
+  "Index": "5465",
   "Primary Source": [
     "129084651.json"
   ],
   "Secondary Source": [
     "965707586.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "960332453",
   "Current Question Text": "What brand of chewing tobacco, snus, snuff, or dip [do/did] you use most often?",
   "Variable Label": "Brand of chewing tobacco, snus, snuff, or dip",
@@ -17,8 +18,10 @@
     "CHEW10"
   ],
   "Variable Type": "Char",
-  "Variable Length": "2",
+  "Variable Length": "20",
   "Current Format/Value": "N/A",
   "Required": "No",
-  "PII": "No"
+  "PII": "No",
+  "Derivation Notes": "Updated number of characters from 2 to 20 (9/3/2025)",
+  "Date added or modified": "9/3/25"
 }

@@ -7,7 +7,7 @@
   ],
   "conceptId": "878865966",
   "Current Question Text": "Baseline blood sample collected - derived from BioSpm_Setting_v1r0,  BioSpm_Visit_v1r0 and BioCol_TubeCollected_v1r0",
-  "Variable Label": "Base Blood Collected",
+  "Variable Label": "BL Blood Collected",
   "Variable Name": [
     "BioFin_BaseBloodCol_v1r0"
   ],
@@ -15,20 +15,20 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Applies to both Clinical and Research samples although the information re: clinical samples will come from Epic with up to a 48 hour delay. For clinical collections, these derivations are only looking at entries from the dashboard.",
+  "Notes": "Applies to both Clinical and Research samples although the information re: clinical samples will come from Epic with up to a 48 hour delay. For clinical collections, these derivations are only looking at entries from the dashboard. Revised 'base' to 'BL' to be consistent w/ the collection setting flags (9/3/2025)",
   "Derivation Notes": "IF BioSpm_Visit_v1r0 = 0  AND (SSTube1_BioCol_TubeCollected_v1r0, SSTube2_BioCol_TubeCollected_v1r0, SSTube3_BioCol_TubeCollected_v1r0, SSTube4_BioCol_TubeCollected_v1r0, SSTube5_BioCol_TubeCollected_v1r0, HepainTube1_BioCol_TubeCollected_v1r0, HepainTube2_BioCol_TubeCollected_v1r0, EDTATube1_BioCol_TubeCollected_v1r0, EDTATube2_BioCol_TubeCollected_v1r0, EDTATube3_BioCol_TubeCollected_v1r0 = 1, ACDTube1_BioCol_TubeCollected_v1r0, OR STRECKTube1BioCol_TubeCollected_v1r0 = 1), THEN BioFin_BaseBloodCol_v1r0=1",
   "Dictionary": "Biospecimen Clinical, Biospecimen Research, Study Manager Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "Yes",
-  "Date added or modified": "7/28/23",
+  "Date added or modified": "9/3/25",
   "GCP Document/Table": "Participants Table Not nested (d_878865966)",
   "Formula for Index": [
-    "1796",
-    "1797"
+    "1797",
+    "1798"
   ],
   "Index": [
-    "1796",
-    "1797"
+    "1797",
+    "1798"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

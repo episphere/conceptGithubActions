@@ -9,7 +9,7 @@
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "8/28/24",
   "conceptId": "320303124",
   "Current Question Text": "3-month Quality of Life (PROMIS) survey completion",
-  "Variable Label": "Flag PROMIS Surv",
+  "Variable Label": "Flag 3-mo PROMIS Surv",
   "Variable Name": [
     "SrvQOL_3moStatus_v1r0"
   ],
@@ -17,24 +17,24 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Default will be Not Started. The Not Yet Eligible status only applies to the QoL survey for now. The 3-mo PROMIS survey trigger will be based on the participant logging into PWA and being verified at least 90 days",
+  "Notes": "Default will be Not Started. The Not Yet Eligible status only applies to the QoL survey for now. The 3-mo PROMIS survey trigger will be based on the participant logging into PWA and being verified at least 90 days. Added '3-mo' to distinguish it from future repeat assessments (9/3/2025)",
   "Dictionary": "PROMIS Survey",
   "State Attribute": "No",
   "Default Variable": "Yes",
-  "Date added or modified": "10/2/24",
+  "Date added or modified": "9/3/25",
   "GCP Document/Table": "Participants Table",
   "Stub Record Variable to be Retained": "Yes",
   "Formula for Index": [
-    "1452",
     "1453",
     "1454",
-    "1455"
+    "1455",
+    "1456"
   ],
   "Index": [
-    "1452",
     "1453",
     "1454",
-    "1455"
+    "1455",
+    "1456"
   ],
   "Current Format/Value": {
     "972455046.json": "0",

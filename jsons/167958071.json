@@ -7,26 +7,26 @@
   ],
   "conceptId": "167958071",
   "Current Question Text": "Baseline Urine Collected",
-  "Variable Label": "Base Ur Collected",
+  "Variable Label": "BL Ur Collected",
   "Variable Name": [
     "BioFin_BaseUrineCol_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Notes": "For display at check-in and check out. These will be derived from other variables in the biospecimen dictionary. Derivation should come from both biospecimen clinical and biospecimen research. For clinical collections, these derivations are only looking at entries from the dashboard.",
+  "Notes": "For display at check-in and check out. These will be derived from other variables in the biospecimen dictionary. Derivation should come from both biospecimen clinical and biospecimen research. For clinical collections, these derivations are only looking at entries from the dashboard. Revised 'base' to 'BL' to be consistent w/ the collection setting flags (9/3/2025)",
   "Derivation Notes": "IF BioSpm_Visit_v1r0 = 0  AND UrineTube1_BioCol_TubeCollected_v1r0 = 1, THEN BioFin_BaseUrineCol_v1r0=1",
   "Dictionary": "Biospecimen Research, Biospecimen Clinical",
   "State Attribute": "No",
   "Default Variable": "Yes",
-  "Date added or modified": "7/28/23",
+  "Date added or modified": "9/3/25",
   "GCP Document/Table": "Participants Table Not nested (d_167958071)",
   "Formula for Index": [
-    "1184",
-    "1185"
+    "1185",
+    "1186"
   ],
   "Index": [
-    "1184",
-    "1185"
+    "1185",
+    "1186"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

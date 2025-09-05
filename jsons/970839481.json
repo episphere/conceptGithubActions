@@ -10,7 +10,7 @@
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "970839481",
   "Current Question Text": "Alternative address state",
-  "Variable Label": "State",
+  "Variable Label": "Alt Address State",
   "Variable Name": [
     "RcrtUP_AltState_v1r0"
   ],
@@ -19,9 +19,9 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "Yes",
-  "Notes": "Populated from Google Addresses",
+  "Notes": "Populated from Google Addresses. Added 'alt'; match 'address' spelling to be consistent w/ other address labels (9/3/2025)",
   "Dictionary": "Recruitment Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "2/7/25"
+  "Date added or modified": "9/3/25"
 }

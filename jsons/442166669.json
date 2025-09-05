@@ -11,7 +11,7 @@
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "11/14/24",
   "conceptId": "442166669",
   "Current Question Text": "Mailing Address- Address line 2",
-  "Variable Label": "Mailing Address Address Line 2",
+  "Variable Label": "Mailing Address Line 2",
   "Variable Name": [
     "RcrtUP_MailAddressLn2_v1r0"
   ],
@@ -20,11 +20,11 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "Yes",
-  "Notes": "Populated from Google Addresses",
+  "Notes": "Populated from Google Addresses. Updated Variable Label to remove double 'address' (9/3/2025)",
   "Dictionary": "Recruitment Data Dictionary, Biospecimen Clinical, Biospecimen Research",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "11/14/24",
+  "Date added or modified": "9/3/25",
   "GCP Document/Table": "Participants Table Not nested (d_442166669) OR Nested structure: (d_569151507_d_442166669)",
   "IMS Review Notes": "Updated Secondary Source to User Profile History"
 }

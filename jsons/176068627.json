@@ -8,7 +8,7 @@
   "Deprecated, New, or Revised": "New",
   "conceptId": "176068627",
   "Current Question Text": "Cancer Screening History Survey Status",
-  "Variable Label": "Flag Canc Screening Hist",
+  "Variable Label": "Flag 9-mo CSH Surv",
   "Variable Name": [
     "SrvScr_CancScrnStatus_v1r0"
   ],
@@ -16,20 +16,20 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Not Started response will be set at time of survey release for those already verified and meet eligibility criteria. After that, Not Started response will be set at time of verification (even if not yet eligible for survey). Participants that are not yet verified will have a null response.",
+  "Notes": "Not Started response will be set at time of survey release for those already verified and meet eligibility criteria. After that, Not Started response will be set at time of verification (even if not yet eligible for survey). Participants that are not yet verified will have a null response. Added '9-mo' to distinguish from future repeat assessments; edited to be consistent w/ other survey flags (9/3/2025)",
   "Dictionary": "Cancer Screening History Survey",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "11/14/24",
+  "Date added or modified": "9/3/25",
   "Formula for Index": [
-    "1487",
     "1488",
-    "1489"
+    "1489",
+    "1490"
   ],
   "Index": [
-    "1487",
     "1488",
-    "1489"
+    "1489",
+    "1490"
   ],
   "Current Format/Value": {
     "972455046.json": "0",

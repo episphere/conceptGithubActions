@@ -21,7 +21,6 @@
   "Notes": "[DISPLAY IF SEX= 01 and GEN= 01]. 2/4/2025 Update to display logic Display If Sex = 1 and age > 40.",
   "Question Type": "Optional Multiple Choice, Figures (with radio button to select one)",
   "Formula for Index": [
-    "3314",
     "3315",
     "3316",
     "3317",
@@ -32,10 +31,10 @@
     "3322",
     "3323",
     "3324",
-    "3325"
+    "3325",
+    "3326"
   ],
   "Index": [
-    "3314",
     "3315",
     "3316",
     "3317",
@@ -46,7 +45,8 @@
     "3322",
     "3323",
     "3324",
-    "3325"
+    "3325",
+    "3326"
   ],
   "Current Format/Value": {
     "927925620.json": "0",

@@ -7,7 +7,7 @@
   ],
   "conceptId": "265193023",
   "Current Question Text": "Blood/urine/mouthwash combined research survey",
-  "Variable Label": "B/U/MW Rsrch Surv",
+  "Variable Label": "Flag B/U/MW Rsrch Surv",
   "Variable Name": [
     "SrvBLM_ResSrvCompl_v1r0"
   ],
@@ -15,19 +15,20 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
+  "Notes": "Added 'Flag' to be consistent w/ other survey flags (9/3/2025)",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "Yes",
-  "Date added or modified": "2/10/22",
+  "Date added or modified": "9/3/25",
   "Formula for Index": [
-    "2306",
     "2307",
-    "2308"
+    "2308",
+    "2309"
   ],
   "Index": [
-    "2306",
     "2307",
-    "2308"
+    "2308",
+    "2309"
   ],
   "Current Format/Value": {
     "972455046.json": "0",

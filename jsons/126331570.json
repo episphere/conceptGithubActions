@@ -7,7 +7,7 @@
   ],
   "conceptId": "126331570",
   "Current Question Text": "SSN Survey",
-  "Variable Label": "SSN Surv",
+  "Variable Label": "Flag SSN Surv",
   "Variable Name": [
     "SrvSS_SSNSurvey_v1r0"
   ],
@@ -15,19 +15,20 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
+  "Notes": "Add 'Flag' to be consistent w/ other survey flags (9/3/2025)",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "Yes",
-  "Date added or modified": "2/10/22",
+  "Date added or modified": "9/3/25",
   "Formula for Index": [
-    "2311",
     "2312",
-    "2313"
+    "2313",
+    "2314"
   ],
   "Index": [
-    "2311",
     "2312",
-    "2313"
+    "2313",
+    "2314"
   ],
   "Current Format/Value": {
     "972455046.json": "0",

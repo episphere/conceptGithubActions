@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2455",
-  "Index": "2455",
+  "Formula for Index": "2456",
+  "Index": "2456",
   "Primary Source": [
     "332961895.json"
   ],
@@ -23,5 +23,5 @@
   "Dictionary": "Study Manager",
   "Default Variable": "No",
   "Date added or modified": "6/6/25",
-  "GCP Document/Table": "This variable will store the pathology report file names in a separate collection (table) in Firestore. Warren will create a \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"pathologyReports\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\" collection which will have two columns: ConnectID and the new Pathology Report File Name conceptID. (participants with multiple files uploaded will have multiple entries in the collection.)"
+  "GCP Document/Table": "This variable will store the pathology report file names in a separate collection (table) in Firestore. Warren will create a \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"pathologyReports\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\" collection which will have two columns: ConnectID and the new Pathology Report File Name conceptID. (participants with multiple files uploaded will have multiple entries in the collection.)"
 }

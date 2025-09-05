@@ -8,7 +8,7 @@
   "Deprecated, New, or Revised": "New",
   "conceptId": "956490759",
   "Current Question Text": "2024 Connect Experience Survey Status",
-  "Variable Label": "Flag 2024 Connect Exp",
+  "Variable Label": "Flag 2024 CES Surv",
   "Variable Name": [
     "SrvCoE_ConExpStatus_v1r0"
   ],
@@ -16,21 +16,22 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
+  "Notes": "Edited to be consistent w/ other survey flags (9/3/2025)",
   "Dictionary": "2024 Connect Experience Survey",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "10/2/24",
+  "Date added or modified": "9/3/25",
   "GCP Document/Table": "Participants Table",
   "Stub Record Variable to be Retained": "Yes",
   "Formula for Index": [
-    "1482",
     "1483",
-    "1484"
+    "1484",
+    "1485"
   ],
   "Index": [
-    "1482",
     "1483",
-    "1484"
+    "1484",
+    "1485"
   ],
   "Current Format/Value": {
     "972455046.json": "0",
