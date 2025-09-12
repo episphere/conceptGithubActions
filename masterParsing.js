@@ -82,6 +82,7 @@ function parseMasterModule() {
         "912367929.json",
         "285882990.json",
         "497020618.json",
+        "312845734.json",
     ];
 
     // let numString = 0 // Test for Deprecated filter

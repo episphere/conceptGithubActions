@@ -1,0 +1,49 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "312845734.json"
+  ],
+  "Current Source Question": [
+    "144761753.json"
+  ],
+  "GridID/Source Question Name": [
+    "NEST_SrvROI_NeighInfo_v1r0"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "958757635",
+  "Current Question Text": "The people and events in your neighborhood, for example, average income and education levels of the people living in your neighborhood or zip code, or rates of traffic incidents?",
+  "Variable Label": "Interest in Demographics",
+  "Variable Name": [
+    "SrvROI_IntDemo_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Default Variable": "No",
+  "Date added or modified": "9/12/25",
+  "Question Type": "Nested",
+  "Formula for Index": [
+    "10763",
+    "10764",
+    "10765",
+    "10766",
+    "10767"
+  ],
+  "Index": [
+    "10763",
+    "10764",
+    "10765",
+    "10766",
+    "10767"
+  ],
+  "Current Format/Value": {
+    "525453860.json": "0",
+    "389550600.json": "1",
+    "233944056.json": "2",
+    "567539823.json": "3",
+    "135672398.json": "4"
+  }
+}

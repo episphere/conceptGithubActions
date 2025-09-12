@@ -1,0 +1,49 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "312845734.json"
+  ],
+  "Current Source Question": [
+    "144761753.json"
+  ],
+  "GridID/Source Question Name": [
+    "NEST_SrvROI_NeighInfo_v1r0"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "829592217",
+  "Current Question Text": "Retail spaces in your neighborhood, such as number of tobacco shops and access to healthy food options?",
+  "Variable Label": "Interest in Retail",
+  "Variable Name": [
+    "SrvROI_IntRetail_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Default Variable": "No",
+  "Date added or modified": "9/12/25",
+  "Question Type": "Nested",
+  "Formula for Index": [
+    "10758",
+    "10759",
+    "10760",
+    "10761",
+    "10762"
+  ],
+  "Index": [
+    "10758",
+    "10759",
+    "10760",
+    "10761",
+    "10762"
+  ],
+  "Current Format/Value": {
+    "525453860.json": "0",
+    "389550600.json": "1",
+    "233944056.json": "2",
+    "567539823.json": "3",
+    "135672398.json": "4"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "312845734.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "136941196",
+  "Current Question Text": "How interested are you in receiving genetic information like this that is not directly related to your health?",
+  "Variable Label": "Interest in Non-Health Genetics",
+  "Variable Name": [
+    "SrvROI_IntGeneInfo_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Default Variable": "No",
+  "Date added or modified": "9/12/25",
+  "Question Type": "Multiple choice",
+  "Formula for Index": [
+    "10814",
+    "10815",
+    "10816",
+    "10817",
+    "10818"
+  ],
+  "Index": [
+    "10814",
+    "10815",
+    "10816",
+    "10817",
+    "10818"
+  ],
+  "Current Format/Value": {
+    "525453860.json": "0",
+    "389550600.json": "1",
+    "233944056.json": "2",
+    "567539823.json": "3",
+    "135672398.json": "4"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "312845734.json"
+  ],
+  "Current Source Question": [
+    "144761753.json"
+  ],
+  "GridID/Source Question Name": [
+    "NEST_SrvROI_NeighInfo_v1r0"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "258232940",
+  "Current Question Text": "Outdoor spaces and transportation in your neighborhood, such as presence of community spaces, access to public transit, walkability, and bikeability?",
+  "Variable Label": "Interest in Community Spaces",
+  "Variable Name": [
+    "SrvROI_IntComSpace_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Default Variable": "No",
+  "Date added or modified": "9/12/25",
+  "Question Type": "Nested",
+  "Formula for Index": [
+    "10753",
+    "10754",
+    "10755",
+    "10756",
+    "10757"
+  ],
+  "Index": [
+    "10753",
+    "10754",
+    "10755",
+    "10756",
+    "10757"
+  ],
+  "Current Format/Value": {
+    "525453860.json": "0",
+    "389550600.json": "1",
+    "233944056.json": "2",
+    "567539823.json": "3",
+    "135672398.json": "4"
+  }
+}
