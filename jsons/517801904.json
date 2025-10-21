@@ -10,12 +10,6 @@
   "Current Source Question": [
     "550244580.json"
   ],
-  "V1 Source Question": [
-    "Age first used e-cigarettes or other vaping devices on a regular basis"
-  ],
-  "GridID/Source Question Name": [
-    "ECIG3_SRC"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/20/25",
   "conceptId": "517801904",
@@ -24,15 +18,11 @@
   "Variable Name": [
     "SrvSAS_ECigAgeUseRegF_v1r0"
   ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "REGVAPE_AGE"
-  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=isDefined(D_761037053,0) max=sum(isDefined(D_150344905,age),1). Updated range check max=age",
-  "Date added or modified": "8/28/2023; 11/19/2024; 2/28/2025",
   "IMS Review Notes": "Added range check to Notes. Unharmonized source question from question text. Added prod push date."
 }

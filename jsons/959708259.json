@@ -14,9 +14,10 @@
     "BioPack_TrackScan1_v1r0"
   ],
   "Variable Type": "Char",
-  "Required": "For mannually entered or scanned",
+  "Required": "Yes",
   "PII": "No",
   "Notes": "Need to get formats for FedEx and World Courier tracking numbers.",
+  "Derivation Notes": "Required = Yes, For mannually entered or scanned",
   "Dictionary": "Biospecimen Shipping",
   "State Attribute": "No",
   "Default Variable": "No",

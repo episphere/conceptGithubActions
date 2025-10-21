@@ -7,13 +7,9 @@
   ],
   "conceptId": "407056417",
   "Current Question Text": "What is your sex?",
-  "V1 Question Text": "What was your biological sex assigned at birth?",
   "Variable Label": "Sex",
   "Variable Name": [
     "SrvBOH_SexAtBirth_v2r1"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "SEX"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -38,9 +34,7 @@
   "Date Deprecated, New, or Revised Variable Pushed to Prod": [
     "2/14/25"
   ],
-  "Date added or modified": [
-    "12/21/2021; 2/4/2025"
-  ],
+  "Date added or modified": [],
   "IMS Review Notes": [
     "Updated the Current Question Text, updated the Variable Label, versioned up the Variable Name, updated the Variable Length, and made this not a required question."
   ]

@@ -7,13 +7,9 @@
   ],
   "conceptId": "828801156",
   "Current Question Text": "In a usual week [FILL IF SAMEJOBPREPAN=1 (before the COVID-19 Pandemic)], how many different workplaces did you commute to? If you commuted to multiple locations for the same employer, please count all locations separately",
-  "V1 Question Text": "In a usual week, how many different workplaces do you commute to? If you commute to multiple locations for the same employer, please count all locations separately",
   "Variable Label": "Current job, commute at least once a week",
   "Variable Name": [
     "SrvLAW_NumWork_v2r1"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "NUMWORK"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -37,13 +33,6 @@
   "Deprecated, New, or Revised": [
     "Revised",
     "Revised"
-  ],
-  "R0 Format/Value": [
-    "2 = I do not commute to work"
-  ],
-  "Date added or modified": [
-    "3/10/2022; 10/8/2024; 1/16/2025",
-    "1/16/2025; 2/27/2025"
   ],
   "IMS Review Notes": [
     "Revised question text to display fill text when applicable.  Updated Current Question Text versioning to r1 for the repsonse revision.",

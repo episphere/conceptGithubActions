@@ -10,12 +10,6 @@
   "Current Source Question": [
     "154603497.json"
   ],
-  "V1 Source Question": [
-    "Age started smoking hookah or water pipe on a regular basis"
-  ],
-  "GridID/Source Question Name": [
-    "HOOKAH3_SRC"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/20/25",
   "conceptId": "234430294",
@@ -24,15 +18,11 @@
   "Variable Name": [
     "SrvSAS_AgeHookahReg_v1r0"
   ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "HOOKAH3_AGE"
-  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=isDefined(D_127871793,0) max=sum(isDefined(D_150344905,age),1)",
-  "Date added or modified": "8/29/2023; 11/19/2024; 2/28/2025",
   "IMS Review Notes": "Added range check to Notes. Unharmonized source question from question text. Added prod push date."
 }

@@ -12,7 +12,7 @@
     "SrvMRE_MusclePain_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "6"
+    "TRUE"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -54,17 +54,6 @@
     "104430631.json": "0",
     "353358909.json": "1"
   },
-  "GridID/Source Question Name": [
-    [
-      "PAINREL7_1",
-      "PAINREL7_2",
-      "PAINREL7_3",
-      "PAINREL7_4",
-      "PAINREL7_5",
-      "PAINREL7_6",
-      "PAINREL7_7"
-    ]
-  ],
   "Notes": [
     "Only display if PAINREL1 = 0",
     "Only display if PAINREL1 = 1",

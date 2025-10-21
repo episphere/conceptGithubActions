@@ -10,23 +10,13 @@
   "Current Source Question": [
     "799338907.json"
   ],
-  "V1 Source Question": [
-    "Pills per day naproxen"
-  ],
-  "GridID/Source Question Name": [
-    "PAINREL3_5_SRC"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/14/25",
   "conceptId": "254093792",
   "Current Question Text": "Pills per day naproxen",
-  "V1 Question Text": "Question text diverged from source question.",
   "Variable Label": "Pills/Day Naproxen, Don't Know",
   "Variable Name": [
     "SrvMRE_NaproxenPillDK_v2r0"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "PAINREL3_5"
   ],
   "Variable Type": "Num",
   "Variable Length": "3",
@@ -36,6 +26,5 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only display if PAINREL1 = 4",
-  "Date added or modified": "10/6/2021; 11/19/2024",
   "IMS Review Notes": "Unharmonized source question from question text and versioned up variable name."
 }

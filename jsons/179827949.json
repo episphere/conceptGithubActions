@@ -8,9 +8,6 @@
   "Current Source Question": [
     "913318697.json"
   ],
-  "GridID/Source Question Name": [
-    "NEST_SrvROI_LrnRsrch_v1r0"
-  ],
   "Deprecated, New, or Revised": "New",
   "conceptId": "179827949",
   "Current Question Text": "Educational topics on cancer",
@@ -23,7 +20,6 @@
   "Required": "No",
   "PII": "No",
   "Default Variable": "No",
-  "Date added or modified": "9/12/25",
   "Question Type": "Nested",
   "Formula for Index": [
     "10824",
@@ -45,5 +41,12 @@
     "233944056.json": "2",
     "567539823.json": "3",
     "135672398.json": "4"
-  }
+  },
+  "Date added or modified": [
+    "9/12/25",
+    "9/24/25"
+  ],
+  "IMS Review Notes": [
+    "Updated from Interested to Fairly interested - no impact on concept ID because survey not yet in prod."
+  ]
 }

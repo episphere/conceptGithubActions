@@ -10,12 +10,6 @@
   "Current Source Question": [
     "935378391.json"
   ],
-  "V1 Source Question": [
-    "Season Address 4- What is the full street address of your seasonal or vacation home?"
-  ],
-  "GridID/Source Question Name": [
-    "SEASADD1_4_SRC"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "653181757",
   "Current Question Text": "4-Seasonal Apartment, suite, unit, building, etc.",
@@ -23,13 +17,9 @@
   "Variable Name": [
     "SrvLAW_SeaApt4_v1r0"
   ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "SEAAPT4"
-  ],
   "Variable Type": "Char",
   "Variable Length": "70",
   "Required": "No",
   "PII": "Yes",
-  "Date added or modified": "2/3/2022; 2/28/2025",
   "IMS Review Notes": "Added SOURCE to Source Question and _SRC to the Grid ID for consistency, but did not change concept IDs."
 }

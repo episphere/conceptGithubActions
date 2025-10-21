@@ -28,7 +28,6 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Required": "Yes",
   "PII": "No",
   "Notes": "Derived variable nested under BipSpm_CollEnvNest_v1r0. Moving 'BL' to the front to be consistent w/ collected flags (9/3/2025)",
   "Derivation Notes": "BioCol_TubeCollected_v1r0 equals 1 for tube BioCol_0007v1r0  and set to BioSpm_Setting_v1r0 for that visit",

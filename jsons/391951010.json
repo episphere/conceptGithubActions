@@ -12,9 +12,6 @@
   "Variable Name": [
     "SrvMRE_PregOutcome_v1r1"
   ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "PREG5"
-  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
@@ -63,11 +60,6 @@
     "Revised",
     "Revised",
     "Revised"
-  ],
-  "R0 Format/Value": [
-    "2 = Stillbirth (pregnancy loss after 20 weeks)",
-    "3 = Live birth and stillbirth (loss of one or more multiples)",
-    "4 = Miscarriage (pregnancy loss before 20 weeks)"
   ],
   "Notes": [
     "Current use of CIDs for revised responses are not harmonized with original responses. Will need to be resolved when the derived hybrid variable is created",

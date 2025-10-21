@@ -8,12 +8,6 @@
   "Current Source Question": [
     "635467479.json"
   ],
-  "V1 Source Question": [
-    "What type(s) of transportation do you use to get to [insert address from CURWORK1 - CURWORK3/this address] from home? Select all that apply."
-  ],
-  "GridID/Source Question Name": [
-    "CURWORKT1"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "107659596",
   "Current Question Text": "Commuter rail, subway, metro commute to work",
@@ -22,13 +16,12 @@
     "SrvLAW_CurWorkRail_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "4"
+    "TRUE"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "1/19/2022; 10/8/2024",
   "IMS Review Notes": "Updated tense in source question to reflect past job rather than current job.",
   "Formula for Index": [
     "7681",

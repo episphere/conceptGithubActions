@@ -13,7 +13,6 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Required": "Yes",
   "PII": "No",
   "Notes": "Applies to both Clinical and Research samples although the information re: clinical samples will come from Epic with up to a 48 hour delay. For clinical collections, these derivations are only looking at entries from the dashboard. Revised 'base' to 'BL' to be consistent w/ the collection setting flags (9/3/2025)",
   "Derivation Notes": "IF BioSpm_Visit_v1r0 = 0  AND (SSTube1_BioCol_TubeCollected_v1r0, SSTube2_BioCol_TubeCollected_v1r0, SSTube3_BioCol_TubeCollected_v1r0, SSTube4_BioCol_TubeCollected_v1r0, SSTube5_BioCol_TubeCollected_v1r0, HepainTube1_BioCol_TubeCollected_v1r0, HepainTube2_BioCol_TubeCollected_v1r0, EDTATube1_BioCol_TubeCollected_v1r0, EDTATube2_BioCol_TubeCollected_v1r0, EDTATube3_BioCol_TubeCollected_v1r0 = 1, ACDTube1_BioCol_TubeCollected_v1r0, OR STRECKTube1BioCol_TubeCollected_v1r0 = 1), THEN BioFin_BaseBloodCol_v1r0=1",

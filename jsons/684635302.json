@@ -13,7 +13,6 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Required": "Yes",
   "Notes": "For display at check-in and check out. These will be derived from other variables in the biospecimen dictionary. Revised 'base' to 'BL' to be consistent w/ the collection setting flags (9/3/2025)",
   "Derivation Notes": "IF BioSpm_Visit_v1r0 = 0  AND MWTube1_BioCol_TubeCollected_v1r0 = 1, THEN BioFin_BaseMouthCol_v1r0=1",
   "Dictionary": "Biospecimen Research",

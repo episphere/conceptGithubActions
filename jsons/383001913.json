@@ -8,28 +8,17 @@
   "Current Source Question": [
     "665978055.json"
   ],
-  "V1 Source Question": [
-    "Address 6- What [is/was] the source of water to [insert address from HOMEADD1 - HOMEADD3/ current address/the 2nd address you provided/etc.]?"
-  ],
-  "GridID/Source Question Name": [
-    "HOMEWTR1_6_SRC"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "383001913",
   "Current Question Text": "Address 6- What [is/was] the source of water to [insert address from HOMEADD1 - HOMEADD3/ current address/the 2nd address you provided/etc.]?",
-  "V1 Question Text": "Question text diverged from source question",
   "Variable Label": "Primary water source",
   "Variable Name": [
     "SrvLAW_6PrimaryWater1_v2r0"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "HOMEWTR1_6"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "3/10/2022; 1/23/2025",
   "IMS Review Notes": "Unharmonized source question from question text, versioned up the variable name, and updated the variable length.",
   "Formula for Index": [
     "6740",

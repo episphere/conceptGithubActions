@@ -10,9 +10,6 @@
   "Current Source Question": [
     "680046149.json"
   ],
-  "GridID/Source Question Name": [
-    "HOMEADD1_4_SRC"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "455968200",
   "Current Question Text": "3-Previous Zip code",
@@ -20,13 +17,9 @@
   "Variable Name": [
     "SrvLAW_Zip3_v1r0"
   ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "ZIP3"
-  ],
   "Variable Type": "Char",
   "Variable Length": "8",
   "Required": "No",
   "PII": "Yes",
-  "Date added or modified": "7/25/2022; 2/27/2025",
   "IMS Review Notes": "Added SOURCE to Source Question and _SRC to the Grid ID for consistency, but did not change concept IDs."
 }

@@ -10,12 +10,6 @@
   "Current Source Question": [
     "556837046.json"
   ],
-  "V1 Source Question": [
-    "Age drank alcohol on regular basis"
-  ],
-  "GridID/Source Question Name": [
-    "ALCOHOL4_SRC"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/20/25",
   "conceptId": "141874857",
@@ -24,15 +18,11 @@
   "Variable Name": [
     "SrvSAS_AgeAlcReg_v1r0"
   ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "REGALCOHOL_AGE"
-  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=isDefined(D_250456537,0) max=sum(isDefined(D_150344905,age),1)",
-  "Date added or modified": "8/29/2023; 11/19/2024; 2/28/2025",
   "IMS Review Notes": "Added range check to Notes. Unharmonized source question from question text. Added prod push date."
 }

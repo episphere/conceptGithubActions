@@ -8,18 +8,13 @@
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "774087638",
   "Current Question Text": "[Before the COVID-19 Pandemic/As you worked on that job], about how many days per week did you usually work for pay? If you cannot remember, please make your best guess.",
-  "V1 Question Text": "As you worked on that job, about how many days per week did you usually work for pay? If you cannot remember, please make your best guess.",
   "Variable Label": "Days per week paid",
   "Variable Name": [
     "SrvLAW_DaysPWPaid_v2r0"
   ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "DAYSWORK"
-  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Notes": "Denoted as New even though it was in the version 1.0 prod push for Module 4 because DAYSWORK was in Mod 1 version 1.0 prod push, but later deprecated and they have different CIDs.  New variable pushed to production on 7/5/2022.",
-  "Date added or modified": "4/13/2023; 10/8/2024",
   "IMS Review Notes": "Denoted as new, added prod push date, and Note.  Updated question text to before pandemic.",
   "Formula for Index": [
     "7448",

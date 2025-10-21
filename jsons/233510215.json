@@ -8,29 +8,18 @@
   "Current Source Question": [
     "755923078.json"
   ],
-  "V1 Source Question": [
-    "Why [do/did] you smoke a combination of marijuana with tobacco?"
-  ],
-  "GridID/Source Question Name": [
-    "TOMAR10_SRC"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/20/25",
   "conceptId": "233510215",
   "Current Question Text": "Why [do/did] you smoke a combination of cannabis with tobacco?",
-  "V1 Question Text": "Why [do/did] you smoke a combination of marijuana with tobacco? Question text diverged from source question.",
   "Variable Label": "Why smoke marijuana",
   "Variable Name": [
     "SrvSAS_WhySmokeTobMJ_v2r0"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "TOMAR10"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "11/23/2021; 10/4/2024; 11/19/2024; 2/28/2025",
   "IMS Review Notes": "Updated question text. Unharmonized source question from question text. Added prod push date.",
   "Formula for Index": [
     "5878",

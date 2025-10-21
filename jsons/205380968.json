@@ -14,7 +14,6 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Required": "Yes",
   "PII": "No",
   "Derivation Notes": "The binary strengthening variable was derived from SrvMRE_Strengthening_v1r0. Participants who reported engaging in strengthening activities were categorized as 'Yes'. All others [those who reported not engaging in the activity and those who skipped the question] were categorized as 'No'. The difference between the derived variable and SrvMRE_Strengthening_v1r0 is that the only two options for the derived variable are Yes/No, rather than Yes/No/Missing.",
   "Dictionary": "Master Data Dictionary",

@@ -8,9 +8,6 @@
   "Current Source Question": [
     "144761753.json"
   ],
-  "GridID/Source Question Name": [
-    "NEST_SrvROI_NeighInfo_v1r0"
-  ],
   "Deprecated, New, or Revised": "New",
   "conceptId": "958757635",
   "Current Question Text": "The people and events in your neighborhood, for example, average income and education levels of the people living in your neighborhood or zip code, or rates of traffic incidents?",
@@ -23,7 +20,6 @@
   "Required": "No",
   "PII": "No",
   "Default Variable": "No",
-  "Date added or modified": "9/12/25",
   "Question Type": "Nested",
   "Formula for Index": [
     "10763",
@@ -45,5 +41,12 @@
     "233944056.json": "2",
     "567539823.json": "3",
     "135672398.json": "4"
-  }
+  },
+  "Date added or modified": [
+    "9/12/25",
+    "9/24/25"
+  ],
+  "IMS Review Notes": [
+    "Updated from Interested to Fairly interested - no impact on concept ID because survey not yet in prod."
+  ]
 }

@@ -8,28 +8,17 @@
   "Current Source Question": [
     "149476435.json"
   ],
-  "V1 Source Question": [
-    "Seasonal Address 3- What [is/was] the main source of water that you [drink/drank] at [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank]. - SOURCE"
-  ],
-  "GridID/Source Question Name": [
-    "SEASWTR3_3_SRC"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "526578016",
   "Current Question Text": "Seasonal Address 3- What [is/was] the main source of water that you [drink/drank] at [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank].",
-  "V1 Question Text": "Question text diverged from source question",
   "Variable Label": "Primary water source",
   "Variable Name": [
     "SrvLAW_SeaAdd3PrWater2_v2r0"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "SEASWTR3_3"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "3/10/2022; 1/16/2025",
   "IMS Review Notes": "Unharmonized source question from question text, versioned up variable name, and updated variable length.",
   "Formula for Index": [
     "7181",

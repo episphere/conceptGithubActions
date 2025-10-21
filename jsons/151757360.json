@@ -8,9 +8,6 @@
   "Current Source Question": [
     "421586693.json"
   ],
-  "GridID/Source Question Name": [
-    "CURWORKPOSTPANT1"
-  ],
   "conceptId": "151757360",
   "Current Question Text": "Bus or streetcar/trolley, light rail/trolley, light rail commute to work post pan",
   "Variable Label": "Bus Cur Work Post Pan",
@@ -18,13 +15,12 @@
     "SrvLAW_WkPstPanBus_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "3"
+    "TRUE"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "10/8/2024; 1/16/2025",
   "IMS Review Notes": "Added new question.  Added a Connect Value.",
   "Formula for Index": [
     "7497",

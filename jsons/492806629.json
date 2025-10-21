@@ -10,9 +10,6 @@
   "Current Source Question": [
     "496748977.json"
   ],
-  "GridID/Source Question Name": [
-    "SrvPES_BIOSURV5_SRC_v2r0"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/25/25",
   "conceptId": "492806629",
@@ -21,16 +18,12 @@
   "Variable Name": [
     "SrvPES_BIOSURV5TB_v1r0"
   ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "SrvPES_BIOSURV5TB_v1r0"
-  ],
   "Variable Type": "Char",
   "Variable Length": "300",
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Dictionary": "2024 Connect Experience Survey",
-  "Date added or modified": "1/5/2023, 9/20/2024; 11/13/2024; 2/28/2025",
   "Question Type": "Text Box Plus Check Box",
   "IMS Review Notes": "Used full Variable Name for Connect Value.  Added SOURCE to unharmonized source Q from question text. Added SRC to GridID/Source Question Name. Added underscore before SRC in the source question name. Added prod push date."
 }

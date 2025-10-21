@@ -10,19 +10,14 @@
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "138397553",
   "Current Question Text": "How many of the year did you commute to [insert address from CURWORK1 - CURWORK3/this address]?",
-  "V1 Question Text": "During how many of the past 12 months did you commute to [insert address from CURWORK1 - CURWORK3/this address]?",
   "Variable Label": "Months commute to address",
   "Variable Name": [
     "SrvLAW_CurWorkMos_v2r0"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "CURWORKMOS"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=0 max=12",
-  "Date added or modified": "8/29/2023; 1/16/2025",
   "IMS Review Notes": "Added range check to Notes. Updated current question text and versioned up."
 }

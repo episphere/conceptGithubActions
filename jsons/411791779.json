@@ -10,12 +10,6 @@
   "Current Source Question": [
     "596318751.json"
   ],
-  "V1 Source Question": [
-    "What is the name and the street address of the workplace that you commute to most often?"
-  ],
-  "GridID/Source Question Name": [
-    "CURWORK1_SRC"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "411791779",
   "Current Question Text": "Name of employer/company",
@@ -23,13 +17,9 @@
   "Variable Name": [
     "SrvLAW_CurWorkEmp_v1r0"
   ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "CURWORKEMP"
-  ],
   "Variable Type": "Char",
   "Variable Length": "300",
   "Required": "No",
   "PII": "Yes",
-  "Date added or modified": "12/31/2024; 3/4/2025",
   "IMS Review Notes": "Changed source question to past tense to match the qx document. added source to source question name for consistency with other address variables."
 }

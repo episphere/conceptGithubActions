@@ -11,14 +11,6 @@
     "899251483.json",
     "899251483.json"
   ],
-  "V1 Source Question": [
-    "Have you lost any of your permanent adult teeth, not including your wisdom teeth? Select all that apply.",
-    "Have you lost any of your permanent adult teeth, not including your wisdom teeth? Select all that apply."
-  ],
-  "GridID/Source Question Name": [
-    "SrvMtW_PERMTTHLOST_v2r0",
-    "SrvMtW_PERMTTHLOST_v2r0"
-  ],
   "conceptId": "551489317",
   "Current Question Text": "No, I haven't lost any teeth",
   "Variable Label": "No permanent teeth lost",
@@ -27,8 +19,8 @@
     "SrvMtW_NOPERMTTHLOST2_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "0",
-    "0"
+    "FALSE",
+    "FALSE"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",

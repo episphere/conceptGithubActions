@@ -8,33 +8,18 @@
   "Current Source Question": [
     "944517297.json"
   ],
-  "V2 Source Question": [
-    "In a usual week, about how often do you use tap water from your home to make [insert response from DRINKSWTR1/other beverages]? We are interested in all tap water, whether or not it has been filtered or treated."
-  ],
-  "V1 Source Question": [
-    "In a usual week, about how often do you use tap water from your home to make [insert response from DRINKSWTR1/other beverages]?"
-  ],
-  "GridID/Source Question Name": [
-    "DRINKSWTR2F_SRC"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "955136492",
   "Current Question Text": "In a usual week, about how often do you use tap water from your home to make [insert response from DRINKSWTR1/other beverages]? We are interested in all tap water, whether or not it has been filtered or treated.",
-  "V2 Question Text": "Question text diverged from source question.",
-  "V1 Question Text": "In a usual week, about how often do you use tap water from your home to make [insert response from DRINKSWTR1/other beverages]?",
   "Variable Label": "Drink tap water, other",
   "Variable Name": [
     "SrvLAW_TapWaterOther_v3r0"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "DRINKSWTR2F"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
   "Notes": "Revision pushed to production on 7/5/2023.",
-  "Date added or modified": "2/24/2023; 12/31/2024",
   "IMS Review Notes": "Updated source question, question text, variable name suffix, and denoted as revised. Unharmonized source question from question text, versioned up variable name, and added previous revision date to the notes column.",
   "Formula for Index": [
     "7439",

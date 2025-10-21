@@ -5,18 +5,18 @@
   "Secondary Source": [
     "775188224.json"
   ],
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "6/6/25",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "10/3/25",
   "conceptId": "932866744",
   "Current Question Text": "Package Lost - Site Shipment",
-  "Variable Label": "Package lost flag",
+  "Variable Label": "Shipping package lost flag",
   "Variable Name": [
-    "BioBPTL_PkgLost_v1r0"
+    "BioBPTL_ShipLost_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Dictionary": "BPTL",
   "Default Variable": "No",
-  "Date added or modified": "6/6/25",
+  "Date added or modified": "10/3/25",
   "Formula for Index": [
     "2102",
     "2103"

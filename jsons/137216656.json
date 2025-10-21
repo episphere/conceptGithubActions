@@ -8,9 +8,6 @@
   "Current Source Question": [
     "404697804.json"
   ],
-  "GridID/Source Question Name": [
-    "CURWORKT9"
-  ],
   "conceptId": "137216656",
   "Current Question Text": "Walking commute from current work",
   "Variable Label": "Walking commute from current work",
@@ -18,13 +15,12 @@
     "SrvLAW_CurWorkWalk2_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "6"
+    "TRUE"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "3/23/2022; 10/8/2024",
   "IMS Review Notes": "Updated source question to match the tense in the qx doc and mark up, but did not version.",
   "Formula for Index": [
     "7762",

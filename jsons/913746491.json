@@ -8,28 +8,17 @@
   "Current Source Question": [
     "250486386.json"
   ],
-  "V1 Source Question": [
-    "Address 2- What [is/was] the main source of water that you [drink/drank] at [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank]."
-  ],
-  "GridID/Source Question Name": [
-    "HOMEWTR3_2_SRC"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "913746491",
   "Current Question Text": "Address 2- What [is/was] the main source of water that you [drink/drank] at [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank].",
-  "V1 Question Text": "Question text diverged from source question",
   "Variable Label": "Primary water source",
   "Variable Name": [
     "SrvLAW_2PrimaryWater2_v2r0"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "HOMEWTR3_2"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "3/10/2022; 1/23/2025",
   "IMS Review Notes": "Unharmonized source question from question text, versioned up the variable name, and updated the variable length.",
   "Formula for Index": [
     "6665",

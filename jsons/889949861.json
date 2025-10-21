@@ -10,23 +10,13 @@
   "Current Source Question": [
     "116080663.json"
   ],
-  "V1 Source Question": [
-    "Age first smoked marijuana on a regular basis"
-  ],
-  "GridID/Source Question Name": [
-    "SMMAR3_SRC"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/20/25",
   "conceptId": "889949861",
   "Current Question Text": "Age started smoking cannabis on a regular basis number",
-  "V1 Question Text": "Age first smoked marijuana on a regular basis number",
   "Variable Label": "Age first smoked marijuana on a regular basis",
   "Variable Name": [
     "SrvSAS_AgeSmokeMJReg_v2r1"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "REGSMMAR_AGE"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -34,6 +24,5 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=isDefined(D_210016366,0) max=sum(isDefined(D_150344905,age),1)",
-  "Date added or modified": "8/29/2023; 10/4/2024; 10/16/24; 11/19/2024; 2/28/2025",
   "IMS Review Notes": "Added range check to Notes. Updated source question and question text.  Updated the source question to remain consistent. Unharmonized source question from question text. Added prod push date."
 }

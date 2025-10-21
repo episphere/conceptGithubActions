@@ -10,25 +10,12 @@
   "Current Source Question": [
     "393682471.json"
   ],
-  "V2 Source Question": [
-    "In a usual week, about how often do you use tap water from your home to make a glass of iced tea? We are interested in all tap water, whether or not it has been filtered or treated."
-  ],
-  "V1 Source Question": [
-    "In a usual week, about how often do you use tap water from your home to make a glass of iced tea?"
-  ],
-  "GridID/Source Question Name": [
-    "DRINKSWTR2D_SRC"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "165923738",
   "Current Question Text": "In a usual week, about how often do you use tap water from your home to make a glass of iced tea? We are interested in all tap water, whether or not it has been filtered or treated. Please describe [text box]",
-  "V1 Question Text": "In a usual week, about how often do you use tap water from your home to make a glass of iced tea? Please describe [text box]",
   "Variable Label": "Tap water times/day, iced tea",
   "Variable Name": [
     "SrvLAW_DrinksWtr2D_Num_v2r0"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "DRINKSWTR2D_NUM"
   ],
   "Variable Type": "Num",
   "Variable Length": "3",
@@ -36,6 +23,5 @@
   "Required": "No",
   "PII": "Yes",
   "Notes": "Range check min=0 max=999. Revision pushed to production on 7/5/2023.",
-  "Date added or modified": "8/29/2023; 12/31/2024",
   "IMS Review Notes": "Added range check to Notes. Unharmonized source question from question text and added previous revision date to the notes column."
 }

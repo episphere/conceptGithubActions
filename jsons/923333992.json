@@ -10,23 +10,13 @@
   "Current Source Question": [
     "700374192.json"
   ],
-  "V1 Source Question": [
-    "What type of business was this at your current employer? [Select all that apply.]"
-  ],
-  "GridID/Source Question Name": [
-    "BSNSSTYP1"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/14/25",
   "conceptId": "923333992",
   "Current Question Text": "Current employer - What type of business is this? Other [text box]",
-  "V1 Question Text": "What type of business was this at your current employer? Other [text box]",
   "Variable Label": "Oth - Free Text",
   "Variable Name": [
     "SrvBOH_OtherBsnDescC_v2r0"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "BSNSSTYP1_TB"
   ],
   "Variable Type": "Char",
   "Variable Length": "300",
@@ -34,7 +24,6 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Only fill if other selection for BSNSSTYP1",
-  "Date added or modified": "1/26/2024; 9/13/2024; 9/26/2024",
   "Question Type": "Optional Select All that Apply",
   "IMS Review Notes": "Removed Keep from Deprecated, New, or Revised Column and removed prod push date. Updated typo in current question text."
 }

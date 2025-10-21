@@ -8,29 +8,18 @@
   "Current Source Question": [
     "268240612.json"
   ],
-  "V1 Source Question": [
-    "Why [do/did] you use electronic marijuana delivery devices that can be vaped?"
-  ],
-  "GridID/Source Question Name": [
-    "ELMAR10_SRC"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/20/25",
   "conceptId": "359066098",
   "Current Question Text": "Why [do/did] you vape cannabis?",
-  "V1 Question Text": "Why [do/did] you use electronic marijuana delivery devices that can be vaped?. Question text diverged from source question.",
   "Variable Label": "Why use electronic marijuana delivery devices that can be vaped",
   "Variable Name": [
     "SrvSAS_WhyUseEMJDev_v2r0"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "ELMAR10"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "11/23/2021; 10/4/2024; 11/19/2024; 2/28/2025",
   "IMS Review Notes": "Updated source question and question text. Unharmonized source question from question text. Added prod push date.",
   "Formula for Index": [
     "5928",

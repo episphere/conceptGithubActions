@@ -8,28 +8,17 @@
   "Current Source Question": [
     "665593888.json"
   ],
-  "V1 Source Question": [
-    "What was the main source of water that you drank at [insert address from CHILDADD1 - CHILDADD3/your childhood home]? Please think about water used to make drinks"
-  ],
-  "GridID/Source Question Name": [
-    "CHILDWTR2_SRC"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "465315864",
   "Current Question Text": "What was the main source of water that you drank at [insert address from CHILDADD1 - CHILDADD3/your childhood home]? Please think about water used to make drinks.",
-  "V1 Question Text": "Question text diverged from source question",
   "Variable Label": "Primary water source",
   "Variable Name": [
     "SrvLAW_Chld1PrimWater2_v2r0"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "CHILDWTR2"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "3/10/2022; 1/24/2025",
   "IMS Review Notes": "Unharmonized source question from question text by updating the Source Question concept ID to match the text box concept ID, deleted variable name concept ID, versioned up variable name, and updated variable length.",
   "Formula for Index": [
     "7384",

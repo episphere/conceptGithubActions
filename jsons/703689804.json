@@ -10,23 +10,13 @@
   "Current Source Question": [
     "628078826.json"
   ],
-  "V1 Source Question": [
-    "At what age did your father die?"
-  ],
-  "GridID/Source Question Name": [
-    "DADDEATH_SRC"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/14/25",
   "conceptId": "703689804",
   "Current Question Text": "At what age did your father die?",
-  "V1 Question Text": "Question text diverged from source question",
   "Variable Label": "Dad Age at Death",
   "Variable Name": [
     "SrvBOH_DadAgeDeath_v2r0"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "DADDEATH"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -35,7 +25,6 @@
   },
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "8/23/2021; 11/12/2024",
   "Question Type": "Text Box Plus Check Box",
   "IMS Review Notes": "Unharmonized source question from question text and versioned up variable name."
 }

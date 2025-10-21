@@ -8,29 +8,18 @@
   "Current Source Question": [
     "367803647.json"
   ],
-  "V1 Source Question": [
-    "What is the highest level of school that you have completed?"
-  ],
-  "GridID/Source Question Name": [
-    "EDU_SRC"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/14/25",
   "conceptId": "411992398",
   "Current Question Text": "What is the highest level of school that you have completed?",
-  "V1 Question Text": "Question text diverged from source question",
   "Variable Label": "Ed Level",
   "Variable Name": [
     "SrvBOH_EducLevel_v2r0"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "EDU"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "4/1/2022; 11/12/2024",
   "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
   "IMS Review Notes": "Unharmonized source question and question text and versioned up variable name.",
   "Formula for Index": [

@@ -8,23 +8,16 @@
   "Current Source Question": [
     "532260562.json"
   ],
-  "GridID/Source Question Name": [
-    "NEST_CURWORKPOSTPANT10"
-  ],
   "conceptId": "543804307",
   "Current Question Text": "Walking - Thinking about the one-way trip from [insert address from CURWORKPOSTPAN1 - CURWORKPOSTPAN3/this address] to your home on a usual workday, about how much time do you usually spend in each type of transportation?",
   "Variable Label": "Walk Time Home Cur Work Post Pan",
   "Variable Name": [
     "SrvLAW_WkPstPanWalkTmHm_v1r0"
   ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "CURWORKPOSTPANT10G"
-  ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "10/8/2024; 1/16/2025",
   "IMS Review Notes": "Added new question. Updated GridId/Source Quest Name from GRID_ to NEST_",
   "Formula for Index": [
     "7615",

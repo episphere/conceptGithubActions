@@ -8,29 +8,21 @@
   "Current Source Question": [
     "830608495.json"
   ],
-  "V1 Source Question": [
-    "Have you ever used any of these marijuana products, even once? Select all that apply."
-  ],
-  "GridID/Source Question Name": [
-    "MARIJUANA"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/20/25",
   "conceptId": "675129470",
   "Current Question Text": "Dabbing THC concentrates (such as wax, shatter, or rosin)",
-  "V1 Question Text": "THC concentrates via dabbing (such as wax, shatter, butter, hash, or kief)",
   "Variable Label": "Dabbing THC concentrates (such as wax, shatter, or rosin)",
   "Variable Name": [
     "SrvSAS_DabbingThcCon_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "4"
+    "TRUE"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "4/25/2024; 10/4/2024; 2/28/2025",
   "IMS Review Notes": "Updated variable name from SrvSAS_WaterPipe_v1r0 to SrvSAS_DabbingThcCon_v1r0. Updated Variable Label to reflect Question Text. Updated marijuana to cannabis and question text phrasing. Added prod push date.",
   "Formula for Index": [
     "5756",

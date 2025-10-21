@@ -10,12 +10,6 @@
   "Current Source Question": [
     "320166033.json"
   ],
-  "V1 Source Question": [
-    "Season Address 5- What is the full street address of your seasonal or vacation home?"
-  ],
-  "GridID/Source Question Name": [
-    "SEASADD1_5_SRC"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "688216428",
   "Current Question Text": "5-Seasonal Full Street name",
@@ -23,13 +17,9 @@
   "Variable Name": [
     "SrvLAW_SeaFullSt5_v1r0"
   ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "SEAFULLST5"
-  ],
   "Variable Type": "Char",
   "Variable Length": "70",
   "Required": "No",
   "PII": "Yes",
-  "Date added or modified": "2/3/2022; 2/28/2025",
   "IMS Review Notes": "Added SOURCE to Source Question and _SRC to the Grid ID for consistency, but did not change concept IDs."
 }

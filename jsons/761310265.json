@@ -13,15 +13,11 @@
   "Variable Name": [
     "SrvBOH_OccupationCat_v1r1"
   ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "OCCUPTN1"
-  ],
   "Variable Type": "Char",
   "Variable Length": "17",
   "Required": "No",
   "PII": "No",
   "Notes": "Before Jan 2024, 4 responses were piped in from SOCcer. Revised so that 6 responses are piped in.  r1 revision pushed to production on 2/1/2024.",
-  "Date added or modified": "2/28/2024; 9/13/2024",
   "Question Type": "Self Populates Outside of Quest",
   "IMS Review Notes": "Added Prod Push Date"
 }

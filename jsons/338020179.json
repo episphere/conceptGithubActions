@@ -10,12 +10,6 @@
   "Current Source Question": [
     "537137982.json"
   ],
-  "V1 Source Question": [
-    "Sibling 1- How old was [SIBLING INITIALS OR NICKNAME/your sibling] when they died?"
-  ],
-  "GridID/Source Question Name": [
-    "SIBDEATH_SRC"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/14/25",
   "conceptId": "338020179",
@@ -24,16 +18,12 @@
   "Variable Name": [
     "SrvBOH_Sib1AgeDeathNum_v1r0"
   ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "SIBDEATH_num"
-  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Current Format/Value": "N/A",
   "Required": "Yes",
   "PII": "Yes",
   "Notes": "Range check min=0 max=125",
-  "Date added or modified": "8/28/2023; 11/12/2024",
   "Question Type": "Text Box Plus Check Box, Loops",
   "IMS Review Notes": "Added range check in Notes. Unharmonized source Q and question text."
 }

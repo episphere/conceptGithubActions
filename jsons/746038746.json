@@ -31,26 +31,6 @@
     "115616118.json",
     "797626610.json"
   ],
-  "V1 Source Question": [
-    "Which categories describe you? Select all that apply. Note, you may select more than one group.",
-    "American Indian or Alaska Native- Which categories describe you? Select all that apply. Note, you may select more than one group.",
-    "Asian- Which categories describe you? Select all that apply. Note, you may select more than one group.",
-    "Black, African American, or African- Which categories describe you? Select all that apply. Note, you may select more than one group.",
-    "Hispanic, Latino, or Spanish- Which categories describe you? Select all that apply. Note, you may select more than one group.",
-    "Middle Eastern or North African- Which categories describe you? Select all that apply. Note, you may select more than one group.",
-    "Native Hawaiian or other Pacific Islander - Which categories describe you? Select all that apply. Note, you may select more than one group.",
-    "White- Which categories describe you? Select all that apply. Note, you may select more than one group."
-  ],
-  "GridID/Source Question Name": [
-    "RACEETH",
-    "RACEETH2",
-    "RACEETH3",
-    "RACEETH4",
-    "RACEETH5",
-    "RACEETH6",
-    "RACEETH7",
-    "RACEETH8"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/14/25",
   "Variable Label": "Prefer Not To Ans",
@@ -65,20 +45,19 @@
     "SrvBOH_PrefNoAnsRE8_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "99",
-    "99",
-    "99",
-    "99",
-    "99",
-    "99",
-    "99",
-    "99"
+    "TRUE",
+    "TRUE",
+    "TRUE",
+    "TRUE",
+    "TRUE",
+    "TRUE",
+    "TRUE",
+    "TRUE"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "9/23/2021; 9/13/2024",
   "Question Type": "Optional Select All that Apply",
   "IMS Review Notes": "Source question updated",
   "Formula for Index": [

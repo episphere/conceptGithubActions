@@ -22,13 +22,6 @@
     "542661394.json",
     "542661394.json"
   ],
-  "GridID/Source Question Name": [
-    "HORMED1",
-    "EXEREC1",
-    "ALCOHOL8",
-    "SrvMtW_DENTURES_v1r0",
-    "SrvMtW_DENTURES_v1r0"
-  ],
   "Deprecated, New, or Revised": "New",
   "Variable Label": "Oth",
   "Variable Name": [
@@ -39,11 +32,11 @@
     "SrvMtW_DENTOTHER_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "55",
-    "55",
-    "55",
-    "55",
-    "55"
+    "TRUE",
+    "TRUE",
+    "TRUE",
+    "TRUE",
+    "TRUE"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -64,7 +57,6 @@
     "104430631.json": "0",
     "353358909.json": "1"
   },
-  "V1 Question Text": "Other",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
   "Question Type": "Optional Select All that Apply"

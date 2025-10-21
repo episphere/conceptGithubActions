@@ -10,18 +10,12 @@
   "Current Source Question": [
     "579939641.json"
   ],
-  "GridID/Source Question Name": [
-    "SrvPES_FIND2_SRC_v2r0"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/25/25",
   "conceptId": "355907072",
   "Current Question Text": "If you would like to share more about why you aren't able to find everything you are looking for on MyConnect, you can do so here.",
   "Variable Label": "Finding everything on MyConnect - I have no comment",
   "Variable Name": [
-    "SrvPES_FIND2_v1r0"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
     "SrvPES_FIND2_v1r0"
   ],
   "Variable Type": "Num",
@@ -32,7 +26,6 @@
   "Required": "No",
   "PII": "No",
   "Dictionary": "2024 Connect Experience Survey",
-  "Date added or modified": "1/5/2023, 9/20/2024; 11/13/2024; 2/28/2025",
   "Question Type": "Text Box Plus Check Box",
   "IMS Review Notes": "Updated Current question text. Changed Connect value to full variable name.  Added  SOURCE to source question.. Added SRC to GridID/Source Question Name. Removed current question text conceptID. Added underscore before SRC in the source question name. Added prod push date."
 }

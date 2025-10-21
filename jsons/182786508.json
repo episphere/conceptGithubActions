@@ -10,12 +10,6 @@
   "Current Source Question": [
     "236590500.json"
   ],
-  "V1 Source Question": [
-    "Child 1- How old was [CHILD INITIALS OR NICKNAME/your CHILD] when they died?"
-  ],
-  "GridID/Source Question Name": [
-    "CHILDDEATH_SRC"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/14/25",
   "conceptId": "182786508",
@@ -24,15 +18,11 @@
   "Variable Name": [
     "SrvBOH_Child1DeathAge_v1r0"
   ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "CHILDDEATH_num"
-  ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=1 max=125",
-  "Date added or modified": "8/28/2023; 11/12/2024",
   "Question Type": "Text Box Plus Check Box, Loops",
   "IMS Review Notes": "Added range check to Notes. Unharmonized source question and question text."
 }

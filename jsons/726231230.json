@@ -10,23 +10,13 @@
   "Current Source Question": [
     "901498441.json"
   ],
-  "V1 Source Question": [
-    "Pills per day anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)"
-  ],
-  "GridID/Source Question Name": [
-    "CHOLHTN3_2_SRC"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/14/25",
   "conceptId": "726231230",
   "Current Question Text": "Pills per day anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)",
-  "V1 Question Text": "Question text diverged from source question.",
   "Variable Label": "Pills/Day Anti-Hypertensive Meds, Don't Know",
   "Variable Name": [
     "SrvMRE_AntiHypPillsDK_v2r0"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "CHOLHTN3_2"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -36,6 +26,5 @@
   "Required": "N/A",
   "PII": "No",
   "Notes": "Only display if CHOLHTN = 1",
-  "Date added or modified": "10/5/2021; 11/19/2024",
   "IMS Review Notes": "Unharmonized source question from question text and versioned up variable name."
 }

@@ -10,21 +10,10 @@
   "Current Source Question": [
     "715581797.json"
   ],
-  "V2 Source Question": [
-    "When did you get vaccinated?  If you are using a phone or tablet, please tap the gray box to enter your response."
-  ],
-  "V1 Source Question": [
-    "When were you vaccinated?"
-  ],
-  "GridID/Source Question Name": [
-    "SrvCov_COV27_SRC_v3r0"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/25/25",
   "conceptId": "141616126",
   "Current Question Text": "When did you get vaccinated?  If you are using a phone or tablet, please tap the gray box to enter your response.",
-  "V2 Question Text": "When did you get vaccinated?  If you are using a phone or tablet, please tap the gray box to enter your response. Also question text diverged from source question.",
-  "V1 Question Text": "When did you get vaccinated? MY",
   "Variable Label": "Vaccine Date",
   "Variable Name": [
     "SrvCov_COV27_MY_v3r0"
@@ -37,7 +26,6 @@
   "Notes": "Range check min=valueOrDefault(\"\"D_141616126#prev\"\",\"\"2020-03\"\") max=#currentYear-#currentMonth",
   "Dictionary": "Biospecimen Survey",
   "State Attribute": "No",
-  "Date added or modified": "8/29/2023; 10/1/2024; 10/17/2024; 11/12/2024; 2/28/2025",
   "Question Type": "Special Function",
   "IMS Review Notes": "Added range check to Notes.  Updated the source question to match consistency of other variables although this was not harmonized.  Updated typo in source question variable. Added an underscore before SRC in the source question. Added prod push date."
 }

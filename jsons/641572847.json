@@ -11,14 +11,6 @@
     "700374192.json",
     "530742915.json"
   ],
-  "V1 Source Question": [
-    "What type of business was this at your current employer? [Select all that apply.]",
-    ""
-  ],
-  "GridID/Source Question Name": [
-    "BSNSSTYP1",
-    "BSNSSTYP2"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/14/25",
   "conceptId": "641572847",
@@ -29,8 +21,8 @@
     "SrvBOH_ManufacturingP_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "0",
-    "0"
+    "FALSE",
+    "FALSE"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",

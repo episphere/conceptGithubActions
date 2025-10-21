@@ -30,7 +30,6 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Required": "Yes",
   "PII": "No",
   "Notes": "Nested under Collection Details, Baseline",
   "Derivation Notes": "IF 173836415.266600170.693370086 = YES OR IF 173836415.266600170.786930107  = YES OR IF 173836415.266600170.728696253 = YES OR IF 173836415.266600170.453452655  = YES OR IF 173836415.266600170.534041351 = YES OR IF 173836415.266600170.210921343 = YES THEN BioClin_AnyBldUrnRecBL_v1r0 = YES",
@@ -51,5 +50,8 @@
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  }
+  },
+  "Required": [
+    "Yes"
+  ]
 }

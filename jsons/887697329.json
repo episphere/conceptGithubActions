@@ -7,13 +7,9 @@
   ],
   "conceptId": "887697329",
   "Current Question Text": "Child 1-Thinking of [child initials or nickname/your [oldest/next oldest]child], what sex is this child?",
-  "V1 Question Text": "Child 1-Thinking of [child initials or nickname/your [oldest/next oldest]child], what biological sex was this child assigned at birth?",
   "Variable Label": "Child 1 Sex",
   "Variable Name": [
     "SrvBOH_Child1Sex_v2r1"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "CHILD2"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -41,9 +37,7 @@
   "Date Deprecated, New, or Revised Variable Pushed to Prod": [
     "2/14/25"
   ],
-  "Date added or modified": [
-    "12/21/2021; 2/4/2025"
-  ],
+  "Date added or modified": [],
   "IMS Review Notes": [
     "Updated Current Question Text, versioned up Variable Name, and updated the Variable Label."
   ]

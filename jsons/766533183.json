@@ -11,14 +11,6 @@
     "700374192.json",
     "530742915.json"
   ],
-  "V1 Source Question": [
-    "What type of business was this at your current employer? [Select all that apply.]",
-    ""
-  ],
-  "GridID/Source Question Name": [
-    "BSNSSTYP1",
-    "BSNSSTYP2"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/14/25",
   "conceptId": "766533183",
@@ -29,15 +21,14 @@
     "SrvBOH_HlthcareP_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "8",
-    "8"
+    "TRUE",
+    "TRUE"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
   "Notes": "New question pushed to prod on 7/5/23.",
-  "Date added or modified": "1/11/2023; 9/13/2024",
   "Question Type": "Optional Select All that Apply",
   "IMS Review Notes": "Added new question (aka reponse 8)",
   "Formula for Index": [
@@ -51,5 +42,6 @@
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  }
+  },
+  "Date added or modified": "1/11/23"
 }

@@ -10,12 +10,6 @@
   "Current Source Question": [
     "850202336.json"
   ],
-  "V1 Source Question": [
-    "On the days that you took insulin, what concentration did you take?"
-  ],
-  "GridID/Source Question Name": [
-    "INSULIN4_1A_SRC"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/14/25",
   "conceptId": "526448646",
@@ -24,12 +18,8 @@
   "Variable Name": [
     "SrvMRE_InsulinConcDesc_v1r0"
   ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "INSULIN4_1"
-  ],
   "Variable Type": "Char",
   "Variable Length": "300",
   "Required": "No",
-  "Date added or modified": "10/8/2021; 11/19/2024",
   "IMS Review Notes": "Unharmonized source question from question text."
 }

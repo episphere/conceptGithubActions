@@ -9,19 +9,14 @@
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/20/25",
   "conceptId": "503058092",
   "Current Question Text": "Do you smoke cannabis now?",
-  "V1 Question Text": "Do you smoke marijuana now?",
   "Variable Label": "Use marijuana  now",
   "Variable Name": [
     "SrvSAS_UseMJNow_v2r0"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "SMMAR4"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "11/24/2021; 10/4/2024; 2/28/2025",
   "IMS Review Notes": "Updated question text. Added prod push date.",
   "Formula for Index": [
     "5767",

@@ -15,7 +15,6 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Required": "Yes",
   "PII": "No",
   "Notes": "Those with BioClin_BldAndUrnRef_v1r0 = No will get the email reminders, and those with BioClin_BldAndUrnRef_v1r0 = Yes will not get the emails",
   "Derivation Notes": "If HdRef_Baseblood_v1r0 = 1 AND HdRef_Baseurine_v1r0 = 0 THEN BioClin_BldAndUrnRef_v1r0 = 0; If HdRef_Baseblood_v1r0 = 0 AND HdRef_Baseurine_v1r0 = 1 THEN  BioClin_BldAndUrnRef_v1r0 = 0; If HdRef_Baseblood_v1r0 = 0 AND HdRef_Baseurine_v1r0 = 0 THEN BioClin_BldAndUrnRef_v1r0 = 0; If HdRef_Baseblood_v1r0 = 1 AND HdRef_Baseurine_v1r0 = 1 THEN  BioClin_BldAndUrnRef_v1r0 = 1;",

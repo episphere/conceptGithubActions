@@ -10,12 +10,6 @@
   "Current Source Question": [
     "422714611.json"
   ],
-  "V1 Source Question": [
-    "At what age did your mother die?"
-  ],
-  "GridID/Source Question Name": [
-    "MOMDEATH_SRC"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/14/25",
   "conceptId": "807765962",
@@ -24,16 +18,12 @@
   "Variable Name": [
     "SrvBOH_MomAgeDeathNum_v1r0"
   ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "MOMDEATH_num"
-  ],
   "Variable Type": "Num",
   "Variable Length": "3",
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=5 max=125",
-  "Date added or modified": "8/28/2023; 11/12/2024",
   "Question Type": "Text Box Plus Check Box",
   "IMS Review Notes": "Added range check to Notes. Unharmonized source question and question text."
 }

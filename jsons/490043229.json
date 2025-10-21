@@ -10,23 +10,13 @@
   "Current Source Question": [
     "517100968.json"
   ],
-  "V1 Source Question": [
-    "When daily user, number of servings consumed marijuana in food or drinks"
-  ],
-  "GridID/Source Question Name": [
-    "EAMAR9C_SRC"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/20/25",
   "conceptId": "490043229",
   "Current Question Text": "# of servings when daily consumer - don't know",
-  "V1 Question Text": "Question text diverged from source question",
   "Variable Label": "When daily user, number of servings consumed marijuana in food or drinks don't know",
   "Variable Name": [
     "SrvSAS_EdiblesServNumDK_v2r0"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "EAMAR9C"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -35,6 +25,5 @@
   },
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "11/23/2021; 10/4/2024; 11/19/2024; 2/28/2025",
   "IMS Review Notes": "Updated source question. Updated question text to match qx doc, but did not version. Unharmonized source question from question text and versioned up the variable name. Added prod push date."
 }

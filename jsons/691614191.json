@@ -10,12 +10,6 @@
   "Current Source Question": [
     "273218182.json"
   ],
-  "V1 Source Question": [
-    "On the days that you took insulin, about how many units did you take per day, on most days?"
-  ],
-  "GridID/Source Question Name": [
-    "INSULIN3_1_SRC"
-  ],
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/14/25",
   "conceptId": "691614191",
@@ -23,9 +17,6 @@
   "Variable Label": "Insulin Units, Don't Know",
   "Variable Name": [
     "SrvMRE_InsulinUnitsDK_v2r0"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "INSULIN3_1"
   ],
   "Variable Type": "Num",
   "Variable Length": "3",
@@ -35,6 +26,5 @@
   "Required": "N/A",
   "PII": "No",
   "Notes": "INSULIN= 1",
-  "Date added or modified": "10/5/2021; 11/19/2024",
   "IMS Review Notes": "Unharmonized source question from question text and versioned up variable name."
 }

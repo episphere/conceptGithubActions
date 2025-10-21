@@ -19,12 +19,6 @@
     "578895128.json",
     "812370563.json"
   ],
-  "GridID/Source Question Name": [
-    "MOMCANC2",
-    "DADCANC2",
-    "SIBCANC2",
-    "CHILDCANC2"
-  ],
   "Variable Label": "Non-melanoma Skin",
   "Variable Name": [
     "SrvBOH_MNMSkinCancer_v1r0",
@@ -33,10 +27,10 @@
     "SrvBOH_C1NMSkinCanc_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "15",
-    "14",
-    "15",
-    "15"
+    "TRUE",
+    "TRUE",
+    "TRUE",
+    "TRUE"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",

@@ -7,13 +7,9 @@
   ],
   "conceptId": "579563781",
   "Current Question Text": "Sibling 1-Thinking of [SIBLING INITIALS OR NICKNAME/your next oldest sibling], what sex is this sibling?",
-  "V1 Question Text": "Sibling 1-Thinking of [SIBLING INITIALS OR NICKNAME/your next oldest sibling], what biological sex was this sibling assigned at birth?",
   "Variable Label": "Sib 1 Sex",
   "Variable Name": [
     "SrvBOH_Sibling1Sex_v2r1"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "SIB2"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -41,9 +37,7 @@
   "Date Deprecated, New, or Revised Variable Pushed to Prod": [
     "2/14/25"
   ],
-  "Date added or modified": [
-    "12/21/2021; 2/4/2025"
-  ],
+  "Date added or modified": [],
   "IMS Review Notes": [
     "Updated Current Question text, versioned up variable name, and updated the Variable Label."
   ]

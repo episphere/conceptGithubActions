@@ -11,13 +11,9 @@
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/20/25",
   "conceptId": "363377579",
   "Current Question Text": "Age last used- During that time, how many days (1 to 30) did you smoke a combination of cannabis with tobacco in a usual month?",
-  "V1 Question Text": "Age last used- During that time, how many days (1 to 30) did you smoke a combination of marijuana with tobacco in a usual month?",
   "Variable Label": "How many days used marijana with tobacco, age last used",
   "Variable Name": [
     "SrvSAS_NumDaysTobMJUse_v1r1"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "TOMAR8D"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -25,6 +21,5 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=1 max=30",
-  "Date added or modified": "8/29/2023; 10/4/2024; 2/28/2025",
   "IMS Review Notes": "Added range check to Notes. Updated question and response text. Added prod push date."
 }

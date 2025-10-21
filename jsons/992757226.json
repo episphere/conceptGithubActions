@@ -11,13 +11,9 @@
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/20/25",
   "conceptId": "992757226",
   "Current Question Text": "How many months ago did you last smoke a combination of cannabis with tobacco?",
-  "V1 Question Text": "How many months ago did you last smoke a combination of marijuana with tobacco?",
   "Variable Label": "Months ago last used marijana with tobacco",
   "Variable Name": [
     "SrvSAS_TobMJUseMo_v2r1"
-  ],
-  "Connect Value for Select all that apply questions - Surveys Only": [
-    "TOMAR7A"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -25,6 +21,5 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Range check min=1 max=11",
-  "Date added or modified": "8/29/2023; 10/4/2024; 2/28/2025",
   "IMS Review Notes": "Updated question and response text. Added prod push date."
 }
