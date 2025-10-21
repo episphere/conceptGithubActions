@@ -2531,12 +2531,6 @@
       "RcrtUP_PhysState_v1r0"
     ]
   },
-  "187892169": {
-    "Variable Label": "2025 ROI Preference Survey Language",
-    "Variable Name": [
-      "SrvROI_PrefLanguage_v1r0"
-    ]
-  },
   "187894482": {
     "Variable Label": "Home VM",
     "Variable Name": [
@@ -12617,7 +12611,7 @@
     ]
   },
   "567539823": {
-    "Variable Name": "Interested"
+    "Variable Name": "Fairly interested"
   },
   "567590935": {
     "Variable Name": "Revoked but not signed"
@@ -18660,7 +18654,8 @@
       "SrvSSN_Language_v1r0",
       "SrvMW_Language_v1r0",
       "SrvCoE_Language_v1r0",
-      "SrvScr_Language_v1r0"
+      "SrvScr_Language_v1r0",
+      "SrvROI_PrefLanguage_v1r0"
     ]
   },
   "784166628": {
@@ -22758,9 +22753,9 @@
     ]
   },
   "932866744": {
-    "Variable Label": "Package lost flag",
+    "Variable Label": "Shipping package lost flag",
     "Variable Name": [
-      "BioBPTL_PkgLost_v1r0"
+      "BioBPTL_ShipLost_v1r0"
     ]
   },
   "932938375": {
@@ -24101,9 +24096,9 @@
     "Variable Name": "When was the [first/2nd/3rd/etc.] time you had COVID-19? If you are not sure, please make your best guess.  If you are using a phone or tablet, please tap the gray box to enter your response. - SOURCE"
   },
   "980891990": {
-    "Variable Label": "Date package lost",
+    "Variable Label": "Date shipment package lost",
     "Variable Name": [
-      "BioBPTL_DateLost_v1r0"
+      "BioBPTL_DateShipLost_v1r0"
     ]
   },
   "981001113": {
