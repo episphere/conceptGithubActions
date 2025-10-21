@@ -17,7 +17,7 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Status flag will remain null in the system for prospective participants until they are autoset to 'not started' at time of verification; Not yet eligible will be set manually for the backlog. For participants verified more than 180 days before launch and not withdrawn, we will move this participant from 'not yet eligible' to 'not started' manually in batches when we want to launch the survey to them; Both‚Äö√Ñ√∂ Not Yet Eligible‚Äö√Ñ√∂and Not Started will be set by C4CPDS; Submitted status will be set by the DHQ research platform and pulled back via an API call on regular basis. Edited to be consistent w/ other survey flags for 'flag' and 'surv' (9/3/2025)",
+  "Notes": "Status flag will remain null in the system for prospective participants until they are autoset to 'not started' at time of verification; Not yet eligible will be set manually for the backlog. For participants verified more than 180 days before launch and not withdrawn, we will move this participant from 'not yet eligible' to 'not started' manually in batches when we want to launch the survey to them; Both‚Äö√Ñ√∂‚àö√ë‚àö‚àÇ Not Yet Eligible‚Äö√Ñ√∂‚àö√ë‚àö‚àÇand Not Started will be set by C4CPDS; Submitted status will be set by the DHQ research platform and pulled back via an API call on regular basis. Edited to be consistent w/ other survey flags for 'flag' and 'surv' (9/3/2025)",
   "Dictionary": "DHQ-III Survey",
   "Default Variable": "No",
   "Date added or modified": "9/3/25",

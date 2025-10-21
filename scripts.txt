@@ -14,3 +14,5 @@ Now this can be done in one run instead of brnaching out.
 Running this locally is a preferred way. Sometimes a new Secondary Source is added and that newly created concept Id is important for the transformation.json file that is needed. 
 For example, DHQ3 was added to the Data Dictionary under Secondary Source.
 Had we not run this locally first the transformation file would have omitted the row contents with the DHQ3 as Secondary Source.
+
+varToConcept.json will determine the concept id search
