@@ -1816,6 +1816,12 @@
       "SMMet_SpecRRVerified_v1r0"
     ]
   },
+  "161642261": {
+    "Variable Label": "Alt Address Line 3",
+    "Variable Name": [
+      "RcrtUP_AltAddressL3_v1r0"
+    ]
+  },
   "162167690": {
     "Variable Label": "Sore throat",
     "Variable Name": [
@@ -3253,7 +3259,7 @@
     ]
   },
   "207908218": {
-    "Variable Label": "Phys Address Address Line 1",
+    "Variable Label": "Phys Address Line 1",
     "Variable Name": [
       "RcrtUP_PhysAddressLn1_v1r0"
     ]
@@ -3721,7 +3727,7 @@
     "Variable Name": "In what month and year did you start commuting to [insert address from CURSCH1 - CURSCH3/this address]?"
   },
   "224392018": {
-    "Variable Label": "Phys Address Address Line 2",
+    "Variable Label": "Phys Address Line 2",
     "Variable Name": [
       "RcrtUP_PhysAddressLn2_v1r0"
     ]
@@ -5491,9 +5497,9 @@
     ]
   },
   "289239334": {
-    "Variable Label": "Collection Cup Leaked - HC",
+    "Variable Label": "Collection Cup Leaked - Partial Sample Loss - HC",
     "Variable Name": [
-      "BioKit_CollCupLeak_v1r0"
+      "BioKit_CollCupLeakPart_v1r0"
     ]
   },
   "289302451": {
@@ -5920,6 +5926,12 @@
   "306722988": {
     "Variable Name": "Saint Kitts And Nevis"
   },
+  "306739670": {
+    "Variable Label": "Alt International Address Flag",
+    "Variable Name": [
+      "RcrtUP_AltIntFlag_v1r0"
+    ]
+  },
   "306805272": {
     "Variable Label": "Street number",
     "Variable Name": [
@@ -5982,6 +5994,12 @@
   },
   "308765753": {
     "Variable Name": "Neutral"
+  },
+  "309189173": {
+    "Variable Label": "Collection Cup Leaked - Total Sample Loss - HC",
+    "Variable Name": [
+      "BioKit_CollCupLeakTotal_v1r0"
+    ]
   },
   "309413330": {
     "Variable Label": "Bag 12",
@@ -10019,6 +10037,9 @@
       "RcrtCS_Fname_v1r0"
     ]
   },
+  "471260082": {
+    "Variable Name": "Waco Fishpond"
+  },
   "471294296": {
     "Variable Name": "3 to 4 times per week"
   },
@@ -11024,6 +11045,12 @@
     "Variable Label": "Acne Med",
     "Variable Name": [
       "SrvBOH_AcneMed_v1r0"
+    ]
+  },
+  "512754567": {
+    "Variable Label": "Mailing Address Line 3",
+    "Variable Name": [
+      "RcrtUP_MailAddressLn3_v1r0"
     ]
   },
   "512786135": {
@@ -13555,6 +13582,9 @@
   "603945794": {
     "Variable Name": "Seasonal Address 8- What [is/was] the source of water to [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided? - SOURCE"
   },
+  "603989030": {
+    "Variable Name": "Killeen Main"
+  },
   "604086099": {
     "Variable Name": "In total, how many months or years have you used Norplant?"
   },
@@ -14458,6 +14488,12 @@
       "SrvLAW_PreWorkMetro_v1r0"
     ]
   },
+  "639871686": {
+    "Variable Label": "Mailing Address Country",
+    "Variable Name": [
+      "RcrtUP_MailCountry_v1r0"
+    ]
+  },
   "640010727": {
     "Variable Name": "Child 1- How old is [CHILD INITIALS OR NICKNAME/your CHILD] today? - SOURCE"
   },
@@ -14636,7 +14672,7 @@
     "Variable Name": "Dead"
   },
   "646873644": {
-    "Variable Label": "Text",
+    "Variable Label": "SMS Opt-In",
     "Variable Name": [
       "RcrtUP_MobileTxt_V1R0"
     ]
@@ -18612,6 +18648,12 @@
       "SrvCov_COV14A_v1r0"
     ]
   },
+  "782945615": {
+    "Variable Label": "Phys Address Country",
+    "Variable Name": [
+      "RcrtUP_PhysCountry_v1r0"
+    ]
+  },
   "783167257": {
     "Variable Label": "Marital Status",
     "Variable Name": [
@@ -19363,6 +19405,12 @@
   },
   "805619774": {
     "Variable Name": "Switzerland"
+  },
+  "805662986": {
+    "Variable Label": "Physical International Address Flag",
+    "Variable Name": [
+      "RcrtUP_PhysIntFlag_v1r0"
+    ]
   },
   "805918496": {
     "Variable Name": "3 hours or more"
@@ -20780,6 +20828,12 @@
   },
   "856158129": {
     "Variable Name": "BCC- Irving"
+  },
+  "856368376": {
+    "Variable Label": "Mail International Address Flag",
+    "Variable Name": [
+      "RcrtUP_MailIntFlag_v1r0"
+    ]
   },
   "856483344": {
     "Variable Name": "Liechtenstein"
@@ -22824,6 +22878,12 @@
       "SrvLAW_SeaAdd3PrWater_v2r0"
     ]
   },
+  "934567929": {
+    "Variable Label": "Alt Address Country",
+    "Variable Name": [
+      "RcrtUP_AltCountry_v1r0"
+    ]
+  },
   "934779560": {
     "Variable Name": "Over 10 times"
   },
@@ -24312,6 +24372,12 @@
   },
   "986989731": {
     "Variable Name": "Address 5- What [is/was] the source of water to [insert address from HOMEADD1 - HOMEADD3/ current address/the 2nd address you provided/etc.]? - SOURCE"
+  },
+  "987244039": {
+    "Variable Label": "Phys Address Line 3",
+    "Variable Name": [
+      "RcrtUP_PhysAddressLn3_v1r0"
+    ]
   },
   "987563196": {
     "Variable Label": "Participant Deceased",

@@ -1,0 +1,34 @@
+{
+  "Primary Source": [
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "569151507.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "12/10/25",
+  "conceptId": "856368376",
+  "Current Question Text": "Flag for if Mailing address is an International address",
+  "Variable Label": "Mail International Address Flag",
+  "Variable Name": [
+    "RcrtUP_MailIntFlag_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Default Variable": "No",
+  "Date added or modified": "11/7/25",
+  "Formula for Index": [
+    "314",
+    "315"
+  ],
+  "Index": [
+    "314",
+    "315"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}
