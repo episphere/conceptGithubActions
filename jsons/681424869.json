@@ -1,0 +1,37 @@
+{
+  "Primary Source": [
+    "192505768.json",
+    "192505768.json"
+  ],
+  "Secondary Source": [
+    "332759827.json",
+    "569151507.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "681424869",
+  "Current Question Text": "Flag for if Mailing address is an unvalidated address",
+  "Variable Label": "Mail Unvalidated Address Flag",
+  "Variable Name": [
+    "RcrtUP_MailUnvalFlag_v1r0",
+    "RcrtUP_MailUnvalFlag_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "State Attribute": "No",
+  "Default Variable": "No",
+  "Date added or modified": "1/6/25",
+  "Formula for Index": [
+    "314",
+    "315"
+  ],
+  "Index": [
+    "314",
+    "315"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}
