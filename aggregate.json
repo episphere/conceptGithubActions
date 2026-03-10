@@ -388,7 +388,7 @@
     "Variable Label": "BL Polyacc ID - Ur",
     "Variable Name": [
       "BioClin_PolyUrineIDBL_v1r0",
-      "BioClin_PolyUrineIDF1_v1r0",
+      "BioClin_PolyUrineIDA1_v1r0",
       "BioClin_PolyUrineIDF2_v1r0",
       "BioClin_PolyUrineIDF3_v1r0"
     ]
@@ -607,12 +607,6 @@
   "117044491": {
     "Variable Name": "Payment"
   },
-  "117249500": {
-    "Variable Label": "Derived Age",
-    "Variable Name": [
-      "RcrtUP_Age_v1r0"
-    ]
-  },
   "117258272": {
     "Variable Name": "I cannot find the survey"
   },
@@ -737,12 +731,6 @@
       "CTSG_UnsubDT_v1r0"
     ]
   },
-  "121149986": {
-    "Variable Label": "Crushed",
-    "Variable Name": [
-      "BioBPTL_PkgCrushed_v1r0"
-    ]
-  },
   "121430614": {
     "Variable Label": "Unreliable Internet/Device",
     "Variable Name": [
@@ -774,6 +762,12 @@
     "Variable Label": "Home address summary",
     "Variable Name": [
       "SrvLAW_HomeAddSum_8_v1r0"
+    ]
+  },
+  "122512425": {
+    "Variable Label": "CGR Run ID",
+    "Variable Name": [
+      "GWSCGR_CGRrunID_v1r0"
     ]
   },
   "122802180": {
@@ -971,6 +965,9 @@
     "Variable Name": [
       "SrvLAW_DrinksWtr2E_Num_v2r0"
     ]
+  },
+  "130709488": {
+    "Variable Name": "Urgent Care Visit"
   },
   "131458944": {
     "Variable Label": "Worried About Discrimination From Data",
@@ -1209,7 +1206,7 @@
     "Variable Label": "BL D/T Clin Ur Collected",
     "Variable Name": [
       "BioClin_ClinicalUrnTmBL_v1r0",
-      "BioClin_ClinicalUrnTmF1_v1r0",
+      "BioClin_ClinicalUrnTmA1_v1r0",
       "BioClin_ClinicalUrnTmF2_v1r0",
       "BioClin_ClinicalUrnTmF3_v1r0"
     ]
@@ -1356,7 +1353,7 @@
     ]
   },
   "144761753": {
-    "Variable Name": "How interested are you in receiving information about… - Neighborhood Information"
+    "Variable Name": "How interested are you in receiving information about‚ -  Neighborhood Information"
   },
   "144819886": {
     "Variable Label": "Pandemic Feeling  after exercise duration",
@@ -1710,7 +1707,7 @@
     "Variable Label": "BL Any Clin Blood/Ur Rec",
     "Variable Name": [
       "BioClin_AnyBldUrnRecBL_v1r0",
-      "BioClin_AnyBldUrnRecF1_v1r0",
+      "BioClin_AnyBldUrnRecA1_v1r0",
       "BioClin_AnyBldUrnRecF2_v1r0",
       "BioClin_AnyBldUrnRecF3_v1r0"
     ]
@@ -2448,7 +2445,7 @@
     "Variable Label": "BL D/T Base Blood/Ur Order",
     "Variable Name": [
       "BioClin_BldUrnPlcdTmBL_v1r0",
-      "BioClin_BldUrnPlcdTmF1_v1r0",
+      "BioClin_BldUrnPlcdTmA1_v1r0",
       "BioClin_BldUrnPlcdTmF2_v1r0",
       "BioClin_BldUrnPlcdTmF3_v1r0"
     ]
@@ -2488,7 +2485,7 @@
     "Variable Label": "BL Blood Location ID",
     "Variable Name": [
       "BioClin_SiteBldLocBL_v1r0",
-      "BioClin_SiteBldLocF1_v1r0",
+      "BioClin_SiteBldLocA1_v1r0",
       "BioClin_SiteBldLocF2_v1r0",
       "BioClin_SiteBldLocF3_v1r0"
     ]
@@ -2501,6 +2498,12 @@
   },
   "185898646": {
     "Variable Name": "Just enough - I like the number of emails and/or text messages"
+  },
+  "186048178": {
+    "Variable Label": "Asparagus trait",
+    "Variable Name": [
+      "GWSCGR_Asparagus_v1r0"
+    ]
   },
   "186170949": {
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Liver cancer?"
@@ -2825,7 +2828,7 @@
     "Variable Label": "BL Clin Ur Acc ID",
     "Variable Name": [
       "BioClin_SntUrineAccIDBL_v1r0",
-      "BioClin_SntUrineAccIDF1_v1r0",
+      "BioClin_SntUrineAccIDA1_v1r0",
       "BioClin_SntUrineAccIDF2_v1r0",
       "BioClin_SntUrineAccIDF3_v1r0"
     ]
@@ -2883,12 +2886,6 @@
   },
   "200086909": {
     "Variable Name": "Season Address 1-Please provide the cross streets of the intersection closest to this address: - SOURCE"
-  },
-  "200183516": {
-    "Variable Label": "Vials - Incorrect Material",
-    "Variable Name": [
-      "BioBPTL_VialsIMT_v1r0"
-    ]
   },
   "200837530": {
     "Variable Label": "Lymphoma",
@@ -3363,7 +3360,7 @@
     "Variable Label": "BL Clin DB Ur RRL Rec",
     "Variable Name": [
       "BioClin_DBUrineRRLBL_v1r0",
-      "BioClin_DBUrineRRLF1_v1r0",
+      "BioClin_DBUrineRRLA1_v1r0",
       "BioClin_DBUrineRRLF2_v1r0",
       "BioClin_DBUrineRRLF3_v1r0"
     ]
@@ -3749,7 +3746,7 @@
     "Variable Label": "BL Clin Site Ur RRL D/T Rec",
     "Variable Name": [
       "BioClin_SiteUrnRRLDtBL_v1r0",
-      "BioClin_SiteUrnRRLDtF1_v1r0",
+      "BioClin_SiteUrnRRLDtA1_v1r0",
       "BioClin_SiteUrnRRLDtF2_v1r0",
       "BioClin_SiteUrnRRLDtF3_v1r0"
     ]
@@ -5124,6 +5121,12 @@
       "SrvLAW_SeasAddSum_5_v1r0"
     ]
   },
+  "276082785": {
+    "Variable Label": "Coll Date Miss / Invalid Flag",
+    "Variable Name": [
+      "BioKit_CollDtMissInv_v1r0"
+    ]
+  },
   "276249147": {
     "Variable Label": "Other: Please describe",
     "Variable Name": [
@@ -5513,12 +5516,6 @@
     "Variable Label": "Time, Walking commute from current work",
     "Variable Name": [
       "SrvLAW_CurWorkT10G_v1r0"
-    ]
-  },
-  "289322354": {
-    "Variable Label": "Thawed",
-    "Variable Name": [
-      "BioBPTL_MaterialThaw_v1r0"
     ]
   },
   "289750687": {
@@ -6196,7 +6193,7 @@
     "Variable Label": "BL Any Spec Coll RRL",
     "Variable Name": [
       "BioClin_AnySpecRRLBL_v1r0",
-      "BioClin_AnySpecRRLF1_v1r0",
+      "BioClin_AnySpecRRLA1_v1r0",
       "BioClin_AnySpecRRLF2_v1r0",
       "BioClin_AnySpecRRLF3_v1r0"
     ]
@@ -6715,7 +6712,7 @@
     "Variable Label": "BL Clin Blood Acc ID",
     "Variable Name": [
       "BioClin_SntBloodAccIDBL_v1r0",
-      "BioClin_SntBloodAccIDF1_v1r0",
+      "BioClin_SntBloodAccIDA1_v1r0",
       "BioClin_SntBloodAccIDF2_v1r0",
       "BioClin_SntBloodAccIDF3_v1r0"
     ]
@@ -7295,7 +7292,11 @@
     ]
   },
   "367803647": {
-    "Variable Name": "What is the highest level of school that you have completed? - SOURCE"
+    "Variable Label": "Ed Level",
+    "Variable Name": [
+      "SrvBOH_EducLevel_v2r0",
+      "SrvBOH_EducLevel_v2r0"
+    ]
   },
   "367884741": {
     "Variable Name": "How old were you when you had your tonsils removed (tonsillectomy)?"
@@ -7918,6 +7919,9 @@
   "392051955": {
     "Variable Name": "Dominican Republic"
   },
+  "392245497": {
+    "Variable Name": "CGR"
+  },
   "392282961": {
     "Variable Label": "Participant experience - I have no comment",
     "Variable Name": [
@@ -8075,7 +8079,7 @@
     "Variable Label": "BL Clin DB Blood RRL D/T Rec",
     "Variable Name": [
       "BioClin_DBBloodRRLDtBL_v1r0",
-      "BioClin_DBBloodRRLDtF1_v1r0",
+      "BioClin_DBBloodRRLDtA1_v1r0",
       "BioClin_DBBloodRRLDtF2_v1r0",
       "BioClin_DBBloodRRLDtF3_v1r0"
     ]
@@ -8097,6 +8101,9 @@
   },
   "399492201": {
     "Variable Name": "British Antarctic Territory"
+  },
+  "399585543": {
+    "Variable Name": "GWAS"
   },
   "399659169": {
     "Variable Label": "When daily user, number of cigarettes per day",
@@ -8259,12 +8266,6 @@
     "Variable Label": "Compensation Too Low",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_comp"
-    ]
-  },
-  "405513630": {
-    "Variable Label": "Cold Packs - None",
-    "Variable Name": [
-      "BioBPTL_ColdPackNone_v1r0"
     ]
   },
   "405571048": {
@@ -8437,12 +8438,6 @@
     "Variable Label": "When daily user, number of marijana with tobacco per day",
     "Variable Name": [
       "SrvSAS_NumTobMJPerDay_v2r1"
-    ]
-  },
-  "411992398": {
-    "Variable Label": "Ed Level",
-    "Variable Name": [
-      "SrvBOH_EducLevel_v2r0"
     ]
   },
   "412000022": {
@@ -9203,12 +9198,6 @@
       "RcrtUP_MailAddressLn2_v1r0"
     ]
   },
-  "442684673": {
-    "Variable Label": "Participant Refusal",
-    "Variable Name": [
-      "BioBPTL_PartRefusal_v1r0"
-    ]
-  },
   "443279888": {
     "Variable Label": "Primary water source",
     "Variable Name": [
@@ -9492,7 +9481,7 @@
     "Variable Label": "BL Ur Location ID",
     "Variable Name": [
       "BioClin_SiteUrLocatBL_v1r0",
-      "BioClin_SiteUrLocatF1_v1r0",
+      "BioClin_SiteUrLocatA1_v1r0",
       "BioClin_SiteUrLocatF2_v1r0",
       "BioClin_SiteUrLocatF3_v1r0"
     ]
@@ -9562,7 +9551,7 @@
     "Variable Label": "BL Clin Site Ur RRL Rec",
     "Variable Name": [
       "BioClin_SiteUrineRRLBL_v1r0",
-      "BioClin_SiteUrineRRLF1_v1r0",
+      "BioClin_SiteUrineRRLA1_v1r0",
       "BioClin_SiteUrineRRLF2_v1r0",
       "BioClin_SiteUrineRRLF3_v1r0"
     ]
@@ -11572,7 +11561,7 @@
     "Variable Label": "BL Blood Order",
     "Variable Name": [
       "BioClin_BldOrderPlcdBL_v1r0",
-      "BioClin_BldOrderPlcdF1_v1r0",
+      "BioClin_BldOrderPlcdA1 _v1r0",
       "BioClin_BldOrderPlcdF2_v1r0",
       "BioClin_BldOrderPlcdF3_v1r0"
     ]
@@ -11700,7 +11689,7 @@
     "Variable Label": "BL Clin DB Blood RRL Rec",
     "Variable Name": [
       "BioClin_DBBloodRRLBL_v1r0",
-      "BioClin_DBBloodRRLF1_v1r0",
+      "BioClin_DBBloodRRLA1_v1r0",
       "BioClin_DBBloodRRLF2_v1r0",
       "BioClin_DBBloodRRLF3_v1r0"
     ]
@@ -11925,7 +11914,7 @@
     "Variable Label": "BL Clin DB Ur RRL D/T Rec",
     "Variable Name": [
       "BioClin_DBUrineRRLDtBL_v1r0",
-      "BioClin_DBUrineRRLDtF1_v1r0",
+      "BioClin_DBUrineRRLDtA1_v1r0",
       "BioClin_DBUrineRRLDtF2_v1r0",
       "BioClin_DBUrineRRLDtF3_v1r0"
     ]
@@ -12009,7 +11998,7 @@
     "Variable Label": "BL Polyacc ID - Blood",
     "Variable Name": [
       "BioClin_PolyBloodIDBL_v1r0",
-      "BioClin_PolyBloodIDBLF1_v1r0",
+      "BioClin_PolyBloodIDBLA1_v1r0",
       "BioClin_PolyBloodIDBLF2_v1r0",
       "BioClin_PolyBloodIDBLF3_v1r0"
     ]
@@ -12488,7 +12477,7 @@
     "Variable Label": "BL D/T Rsrch Blood Collected",
     "Variable Name": [
       "BioFin_ResearchBldTmBL_v1r0",
-      "BioFin_ResearchBldTmF1_v1r0",
+      "BioFin_ResearchBldTmA1_v1r0",
       "BioFin_ResearchBldTmF2_v1r0",
       "BioFin_ResearchBldTmF3_v1r0"
     ]
@@ -13293,7 +13282,7 @@
     "Variable Label": "BL Blood Collection Setting",
     "Variable Name": [
       "BioSpm_BloodSettingBL_v1r0",
-      "BioSpm_BloodSettingF1_v1r0",
+      "BioSpm_BloodSettingA1_v1r0",
       "BioSpm_BloodSettingF2_v1r0",
       "BioSpm_BloodSettingF3_v1r0"
     ]
@@ -13769,12 +13758,6 @@
   },
   "612964002": {
     "Variable Name": "Mauritania"
-  },
-  "613022284": {
-    "Variable Label": "No Refrigerant",
-    "Variable Name": [
-      "BioBPTL_NoRefrigerant_v1r0"
-    ]
   },
   "613251957": {
     "Variable Name": "Seasonal Address 8- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select: I still spend time here."
@@ -15291,6 +15274,12 @@
       "SrvLAW_FullSt9_v1r0"
     ]
   },
+  "666097780": {
+    "Variable Label": "Earwax trait",
+    "Variable Name": [
+      "GWSCGR_Earwax_v1r0"
+    ]
+  },
   "666365344": {
     "Variable Name": "Within the last 24 hours"
   },
@@ -16155,7 +16144,7 @@
     "Variable Label": "BL Clin Site Blood Coll",
     "Variable Name": [
       "BioClin_SiteBloodCollBL_v1r0",
-      "BioClin_SiteBloodCollF1_v1r0",
+      "BioClin_SiteBloodCollA1_v1r0",
       "BioClin_SiteBloodCollF2_v1r0",
       "BioClin_SiteBloodCollF3_v1r0"
     ]
@@ -16782,7 +16771,7 @@
     "Variable Label": "BL Urine Collection Setting",
     "Variable Name": [
       "BioSpm_UrineSettingBL_v1r0",
-      "BioSpm_UrineSettingF1_v1r0",
+      "BioSpm_UrineSettingA1_v1r0",
       "BioSpm_UrineSettingF2_v1r0",
       "BioSpm_UrineSettingF3_v1r0"
     ]
@@ -17094,7 +17083,7 @@
     "Variable Label": "BL Clin - Site Blood RRL Rec",
     "Variable Name": [
       "BioClin_SiteBloodRRLBL_v1r0",
-      "BioClin_SiteBloodRRLF1_v1r0",
+      "BioClin_SiteBloodRRLA1_v1r0",
       "BioClin_SiteBloodRRLF2_v1r0",
       "BioClin_SiteBloodRRLF3_v1r0"
     ]
@@ -17416,7 +17405,7 @@
     "Variable Label": "BL D/T Any Spec Coll RRL",
     "Variable Name": [
       "BioClin_AnySpecRRLTmBL_v1r0",
-      "BioClin_AnySpecRRLTmF1_v1r0",
+      "BioClin_AnySpecRRLTmA1_v1r0",
       "BioClin_AnySpecRRLTmF2_v1r0",
       "BioClin_AnySpecRRLTmF3_v1r0"
     ]
@@ -18265,7 +18254,7 @@
     "Variable Label": "BL D/T Blood Order",
     "Variable Name": [
       "BioClin_BldOrdPlacdDtBL_v1r0",
-      "BioClin_BldOrdPlacdDtF1_v1r0",
+      "BioClin_BldOrdPlacdDtA1_v1r0",
       "BioClin_BldOrdPlacdDtF2_v1r0",
       "BioClin_BldOrdPlacdDtF3_v1r0"
     ]
@@ -18828,7 +18817,7 @@
     "Variable Label": "BL Clin Site Ur Coll",
     "Variable Name": [
       "BioClin_SiteUrineCollBL_v1r0",
-      "BioClin_SiteUrineCollF1_v1r0",
+      "BioClin_SiteUrineCollA1_v1r0",
       "BioClin_SiteUrineCollF2_v1r0",
       "BioClin_SiteUrineCollF3_v1r0"
     ]
@@ -19966,7 +19955,7 @@
     "Variable Label": "BL Clin Site Blood RRL D/T Rec",
     "Variable Name": [
       "BioClin_SiteBldRRLDtBL_v1r0",
-      "BioClin_SiteBldRRLDtF1_v1r0",
+      "BioClin_SiteBldRRLDtA1_v1r0",
       "BioClin_SiteBldRRLDtF2_v1r0",
       "BioClin_SiteBldRRLDtF3_v1r0"
     ]
@@ -20089,6 +20078,12 @@
     "Variable Label": "Middle Name",
     "Variable Name": [
       "HdWd_Mname_v1r0"
+    ]
+  },
+  "826395026": {
+    "Variable Label": "Cilantro trait",
+    "Variable Name": [
+      "GWSCGR_Cilantro_v1r0"
     ]
   },
   "826941471": {
@@ -20445,6 +20440,12 @@
   "840173959": {
     "Variable Name": "ROI"
   },
+  "841375472": {
+    "Variable Label": "BSI Subject ID",
+    "Variable Name": [
+      "GWSCGR_BSIsubjectID_v1r0"
+    ]
+  },
   "841390583": {
     "Variable Label": "Orphan Tube - Shipped",
     "Variable Name": [
@@ -20458,12 +20459,6 @@
     "Variable Label": "How many cigarettes used, [X / 70] and older",
     "Variable Name": [
       "SrvSAS_CigsUsed70_v1r1"
-    ]
-  },
-  "842171722": {
-    "Variable Label": "No Pre-notification",
-    "Variable Name": [
-      "BioBPTL_NoPreNotif_v1r0"
     ]
   },
   "842312685": {
@@ -20600,7 +20595,7 @@
     "Variable Label": "BL D/T Rsrch Ur Collected",
     "Variable Name": [
       "BioFin_ResearchUrnTmBL_v1r0",
-      "BioFin_ResearchUrnTmF1_v1r0",
+      "BioFin_ResearchUrnTmA1_v1r0",
       "BioFin_ResearchUrnTmF2_v1r0",
       "BioFin_ResearchUrnTmF3_v1r0"
     ]
@@ -20791,12 +20786,6 @@
     "Variable Label": "Illness/Fever",
     "Variable Name": [
       "SrvMRE_Illness_v1r0"
-    ]
-  },
-  "853876696": {
-    "Variable Label": "Manifest - Not Provided",
-    "Variable Name": [
-      "BioBPTL_ManifestNP_v1r0"
     ]
   },
   "853931010": {
@@ -20998,7 +20987,7 @@
     "Variable Label": "BL Ur Order",
     "Variable Name": [
       "BioClin_UrnOrdPlacedBL_v1r0",
-      "BioClin_UrnOrdPlacedF1_v1r0",
+      "BioClin_UrnOrdPlacedA1_v1r0",
       "BioClin_UrnOrdPlacedF2_v1r0",
       "BioClin_UrnOrdPlacedF3_v1r0"
     ]
@@ -21120,7 +21109,7 @@
     ]
   },
   "863590289": {
-    "Variable Name": "How interested are you in receiving information from Connect survey data about… - Connect survey data"
+    "Variable Name": "How interested are you in receiving information from Connect survey data about - Connect survey data"
   },
   "863593410": {
     "Variable Label": "Skin without sunscreen",
@@ -21215,9 +21204,6 @@
     "Variable Name": [
       "BioPack_Bag24_v1r0"
     ]
-  },
-  "867096017": {
-    "Variable Name": "]"
   },
   "867109611": {
     "Variable Label": "Country",
@@ -21565,7 +21551,7 @@
     "Variable Label": "BL Blood/Ur Order",
     "Variable Name": [
       "BioClin_BldOrUrnPlcdBL_v1r0",
-      "BioClin_BldOrUrnPlcdF1_v1r0",
+      "BioClin_BldOrUrnPlcdA1_v1r0",
       "BioClin_BldOrUrnPlcdF2_v1r0",
       "BioClin_BldOrUrnPlcdF3_v1r0"
     ]
@@ -21857,6 +21843,12 @@
   },
   "891925519": {
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had colon/rectal cancer?"
+  },
+  "891939643": {
+    "Variable Label": "BSI ID",
+    "Variable Name": [
+      "GWSCGR_BSIID_v1r0"
+    ]
   },
   "891996278": {
     "Variable Label": "Ever consumed marijuana in food or drinks every day",
@@ -22281,12 +22273,6 @@
       "SrvSAS_EdiblesAgeF_v2r1"
     ]
   },
-  "909529446": {
-    "Variable Label": "Cold Packs - Insufficient",
-    "Variable Name": [
-      "BioBPTL_ColdPackIns_v1r0"
-    ]
-  },
   "909774794": {
     "Variable Name": "My periods stopped after surgery that removed my uterus and/or both ovaries"
   },
@@ -22358,7 +22344,7 @@
     ]
   },
   "913318697": {
-    "Variable Name": "How interested are you in receiving information about… - Learning About Research"
+    "Variable Name": "How interested are you in receiving information about - Learning About Research"
   },
   "913602274": {
     "Variable Name": "$150,000-$199,999/year"
@@ -22827,6 +22813,12 @@
       "SrvBOH_Moroccan_v1r0"
     ]
   },
+  "932816988": {
+    "Variable Label": "Supertaster trait",
+    "Variable Name": [
+      "GWSCGR_Supertaster_v1r0"
+    ]
+  },
   "932828568": {
     "Variable Label": "Country",
     "Variable Name": [
@@ -23066,7 +23058,7 @@
     "Variable Label": "BL D/T Ur Order",
     "Variable Name": [
       "BioClin_UrnOrdPlcdDtBL_v1r0",
-      "BioClin_UrnOrdPlcdDtF1_v1r0",
+      "BioClin_UrnOrdPlcdDtA1_v1r0",
       "BioClin_UrnOrdPlcdDtF2_v1r0",
       "BioClin_UrnOrdPlcdDtF3_v1r0"
     ]
@@ -24104,6 +24096,12 @@
       "SrvSAS_AroundSmoke2529_v1r0"
     ]
   },
+  "976968770": {
+    "Variable Label": "BSI Sample ID",
+    "Variable Name": [
+      "GWSCGR_BSIsampleID_v1r0"
+    ]
+  },
   "977086216": {
     "Variable Label": "State/Province",
     "Variable Name": [
@@ -24228,7 +24226,7 @@
     "Variable Label": "BL D/T Clin Blood Collection",
     "Variable Name": [
       "BioClin_ClinBloodTmBL_v1r0",
-      "BioClin_ClinBloodTmF1_v1r0",
+      "BioClin_ClinBloodTmA1_v1r0",
       "BioClin_ClinBloodTmF2_v1r0",
       "BioClin_ClinBloodTmF3_v1r0"
     ]
@@ -24707,6 +24705,12 @@
     "Variable Label": "Age last used cigars, cigarillos, or little filtered cigars",
     "Variable Name": [
       "SrvSAS_AgeUseCigarL_v1r0"
+    ]
+  },
+  "997574926": {
+    "Variable Label": "Lactose trait",
+    "Variable Name": [
+      "GWSCGR_Lactose_v1r0"
     ]
   },
   "997708616": {
