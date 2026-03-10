@@ -1,0 +1,38 @@
+{
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "377669767.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/25/26",
+  "conceptId": "276082785",
+  "Current Question Text": "Flag to indicate if the collection date is missing or invalid",
+  "Variable Label": "Coll Date Miss / Invalid Flag",
+  "Variable Name": [
+    "BioKit_CollDtMissInv_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Default variable value = No; Variable added on 3/9/26",
+  "Dictionary": "Biospecimen Kit",
+  "State Attribute": "No",
+  "Default Variable": "Yes",
+  "Date added or modified": "3/9/26",
+  "GCP Document/Table": "Kit Table Not nested (TBD)",
+  "Formula for Index": [
+    "2606",
+    "2607"
+  ],
+  "Index": [
+    "2606",
+    "2607"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

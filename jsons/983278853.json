@@ -5,6 +5,8 @@
   "Secondary Source": [
     "569151507.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/9/26",
   "conceptId": "983278853",
   "Current Question Text": "Can we leave voicemail at this number?- Other",
   "Variable Label": "Oth VM",
@@ -15,19 +17,20 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
+  "Notes": "Previously added on 9/7/23; Revised on 3/9/26 - Added to Notes: UP History data is not stored until participant is verified",
   "Dictionary": "Recruitment Data Dictionary, Biospecimen Research",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "9/7/23",
+  "Date added or modified": "3/9/26",
   "GCP Document/Table": "Participants Table Not nested (d_983278853) OR Nested structure: (d_569151507_d_983278853)",
   "IMS Review Notes": "Updated Secondary Source to User Profile History",
   "Formula for Index": [
-    "300",
-    "301"
+    "301",
+    "302"
   ],
   "Index": [
-    "300",
-    "301"
+    "301",
+    "302"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

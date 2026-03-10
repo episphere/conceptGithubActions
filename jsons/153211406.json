@@ -1,12 +1,14 @@
 {
-  "Formula for Index": "285",
-  "Index": "285",
+  "Formula for Index": "286",
+  "Index": "286",
   "Primary Source": [
     "192505768.json"
   ],
   "Secondary Source": [
     "569151507.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/9/26",
   "conceptId": "153211406",
   "Current Question Text": "What is your preferred first name?",
   "Variable Label": "Pref Name",
@@ -18,11 +20,11 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "Yes",
-  "Notes": "Collected in user profile.  Displayed on check-in screens for Biospecimens.",
+  "Notes": "Collected in user profile.  Displayed on check-in screens for Biospecimens; Previously added on 9/7/23; Revised on 3/9/26 - Added to Notes: UP History data is not stored until participant is verified",
   "Dictionary": "Recruitment Data Dictionary, Biospecimen Clinical, Biospecimen Research",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "9/7/23",
+  "Date added or modified": "3/9/26",
   "GCP Document/Table": "Participants Table Not nested (d_153211406) OR Nested structure: (d_569151507_d_153211406)",
   "IMS Review Notes": "Updated Secondary Source to User Profile History"
 }

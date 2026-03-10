@@ -22,7 +22,7 @@
   "Variable Label": "BL Urine Collection Setting",
   "Variable Name": [
     "BioSpm_UrineSettingBL_v1r0",
-    "BioSpm_UrineSettingF1_v1r0",
+    "BioSpm_UrineSettingA1_v1r0",
     "BioSpm_UrineSettingF2_v1r0",
     "BioSpm_UrineSettingF3_v1r0"
   ],
@@ -38,18 +38,20 @@
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_718172863 (2nd CID will change based on BL/F-U1,2,3)",
   "IMS Review Notes": "Updated Secondary Source to Collection Details and replaced BioSpm_UrineSetting_v1r0 with BioSpm_UrineSettingBL_v1r0.",
   "Formula for Index": [
-    "1512",
     "1513",
-    "1514"
+    "1514",
+    "1515"
   ],
   "Index": [
-    "1512",
     "1513",
-    "1514"
+    "1514",
+    "1515"
   ],
   "Current Format/Value": {
     "534621077.json": "0",
     "664882224.json": "1",
     "103209024.json": "2"
-  }
+  },
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/25/26"
 }

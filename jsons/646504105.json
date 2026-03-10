@@ -5,6 +5,7 @@
   "Secondary Source": [
     "569151507.json"
   ],
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/9/26",
   "conceptId": "646504105",
   "Current Question Text": "When you joined this study, you gave us your mailing address. Are there any other mailing addresses that you use?",
   "Variable Label": "Oth Mailing Add",
@@ -15,15 +16,16 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
+  "Notes": "Previously revised on 2/7/25; Revised 3/9/26 - Added to Notes: UP History data is not stored until participant is verified",
   "Dictionary": "Recruitment Data Dictionary",
-  "Date added or modified": "2/7/25",
+  "Date added or modified": "3/9/26",
   "Formula for Index": [
-    "879",
-    "880"
+    "880",
+    "881"
   ],
   "Index": [
-    "879",
-    "880"
+    "880",
+    "881"
   ],
   "Deprecated, New, or Revised": [
     "Revised",

@@ -6,7 +6,7 @@
     "569151507.json"
   ],
   "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "12/10/25",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/9/26",
   "conceptId": "646873644",
   "Current Question Text": "Can we text this number?",
   "Variable Label": "SMS Opt-In",
@@ -17,19 +17,20 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
+  "Notes": "Previously revised 11/7/25; Revised on 3/9/26 - Added to Notes: UP History data is not stored until participant is verified",
   "Dictionary": "Recruitment Data Dictionary, Biospecimen Research",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "11/7/25",
+  "Date added or modified": "3/9/26",
   "GCP Document/Table": "Participants Table Not nested (d_646873644) OR Nested structure: (d_569151507_d_646873644)",
   "IMS Review Notes": "Updated Secondary Source to User Profile History",
   "Formula for Index": [
-    "294",
-    "295"
+    "295",
+    "296"
   ],
   "Index": [
-    "294",
-    "295"
+    "295",
+    "296"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

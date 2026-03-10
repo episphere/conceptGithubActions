@@ -5,8 +5,8 @@
   "Secondary Source": [
     "569151507.json"
   ],
-  "Deprecated, New, or Revised": "New",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "12/10/25",
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/9/26",
   "conceptId": "934567929",
   "Current Question Text": "Alternative address country",
   "Variable Label": "Alt Address Country",
@@ -17,10 +17,10 @@
   "Variable Length": "3",
   "Required": "No",
   "PII": "Yes",
+  "Notes": "Previously added on 11/7/25; Revised 3/9/26 - Added to Notes: UP History data is not stored until participant is verified",
   "Default Variable": "No",
-  "Date added or modified": "11/7/25",
+  "Date added or modified": "3/9/26",
   "Formula for Index": [
-    "1166",
     "1167",
     "1168",
     "1169",
@@ -290,10 +290,10 @@
     "1433",
     "1434",
     "1435",
-    "1436"
+    "1436",
+    "1437"
   ],
   "Index": [
-    "1166",
     "1167",
     "1168",
     "1169",
@@ -563,7 +563,8 @@
     "1433",
     "1434",
     "1435",
-    "1436"
+    "1436",
+    "1437"
   ],
   "Current Format/Value": {
     "333208328.json": "0",

@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2198",
-  "Index": "2198",
+  "Formula for Index": "2199",
+  "Index": "2199",
   "Primary Source": [
     "819848608.json",
     "819848608.json",
@@ -24,13 +24,13 @@
   "Variable Label": "BL Clin Site Blood RRL D/T Rec",
   "Variable Name": [
     "BioClin_SiteBldRRLDtBL_v1r0",
-    "BioClin_SiteBldRRLDtF1_v1r0",
+    "BioClin_SiteBldRRLDtA1_v1r0",
     "BioClin_SiteBldRRLDtF2_v1r0",
     "BioClin_SiteBldRRLDtF3_v1r0"
   ],
   "Variable Type": "ISO",
   "Variable Length": "24",
-  "Current Format/Value": "example: 2020-07-17T15:21:26.763Z",
+  "Current Format/Value": "Example: 2020-07-17T15:21:26.763Z",
   "Required": "Yes",
   "PII": "No",
   "Notes": "from site EMR, sent to NCI via API",
@@ -40,5 +40,7 @@
   "Default Variable": "No",
   "Date added or modified": "3/21/24",
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_822274939 (2nd CID may change based on BL/F-U1,2,3)",
-  "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_SiteBloodRRLDt_v1r0 with BioClin_SiteBldRRLDtBL_v1r0"
+  "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_SiteBloodRRLDt_v1r0 with BioClin_SiteBldRRLDtBL_v1r0",
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/25/26"
 }

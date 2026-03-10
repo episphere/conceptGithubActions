@@ -8,8 +8,10 @@
   "Current Source Question": [
     "238268405.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/25/26",
   "conceptId": "847410060",
-  "Current Question Text": "Improper Packaging",
+  "Current Question Text": "Improper Packaging (i.e. missing cold packs, filler, etc)",
   "Variable Label": "Improper Packaging",
   "Variable Name": [
     "BioBPTL_ImpPackaging_v1r0"
@@ -17,19 +19,20 @@
   "Variable Type": "Num",
   "Variable Length": "1",
   "PII": "No",
+  "Notes": "Previously added on 10/6/21; Marked as Revised on 3/9/26 - Updated Current Question Text to Improper Packaging (i.e. missing cold packs, filler, etc)",
   "Derivation Notes": "Default to No upon package receipt ('Shipment Received - Site Shipment'= Yes) if this condition is not selected",
   "Dictionary": "BPTL",
   "State Attribute": "No",
   "Default Variable": "Yes",
-  "Date added or modified": "10/6/21",
+  "Date added or modified": "3/9/26",
   "GCP Document/Table": "Boxes Table Nested structure: d_238268405_d_847410060",
   "Formula for Index": [
-    "2932",
-    "2933"
+    "2936",
+    "2937"
   ],
   "Index": [
-    "2932",
-    "2933"
+    "2936",
+    "2937"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

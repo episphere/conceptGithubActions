@@ -5,7 +5,8 @@
   "Secondary Source": [
     "369168474.json"
   ],
-  "Deprecated, New, or Revised": "New",
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/25/26",
   "conceptId": "176068627",
   "Current Question Text": "Cancer Screening History Survey Status",
   "Variable Label": "Flag 9-mo CSH Surv",
@@ -16,20 +17,20 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Not Started response will be set at time of survey release for those already verified and meet eligibility criteria. After that, Not Started response will be set at time of verification (even if not yet eligible for survey). Participants that are not yet verified will have a null response. Added '9-mo' to distinguish from future repeat assessments; edited to be consistent w/ other survey flags (9/3/2025)",
+  "Notes": "Not Started response will be set at time of survey release for those already verified and meet eligibility criteria. After that, Not Started response will be set at time of verification (even if not yet eligible for survey). Participants that are not yet verified will have a null response. Added '9-mo' to distinguish from future repeat assessments; edited to be consistent w/ other survey flags (9/3/2025); Previously added on 9/3/2025; Marked as revised on 3/9/26: Made a default variable on 2/25/2026 - Default variable value = '0 = Not Started'",
   "Dictionary": "Cancer Screening History Survey",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "9/3/25",
+  "Date added or modified": "3/9/26",
   "Formula for Index": [
-    "2324",
     "2325",
-    "2326"
+    "2326",
+    "2327"
   ],
   "Index": [
-    "2324",
     "2325",
-    "2326"
+    "2326",
+    "2327"
   ],
   "Current Format/Value": {
     "972455046.json": "0",

@@ -8,8 +8,10 @@
   "Current Source Question": [
     "238268405.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/25/26",
   "conceptId": "399948893",
-  "Current Question Text": "Vials - Missing Labels",
+  "Current Question Text": "No Connect Label on Vials",
   "Variable Label": "Vials - Missing Labels",
   "Variable Name": [
     "BioBPTL_VialsMissLabel_v1r0"
@@ -17,19 +19,20 @@
   "Variable Type": "Num",
   "Variable Length": "1",
   "PII": "No",
+  "Notes": "Previously added on 10/6/21; Marked as Revised on 3/9/26 - Updated Current Question Text  to No Connect Label on Vials",
   "Derivation Notes": "Default to No upon package receipt ('Shipment Received - Site Shipment'= Yes) if this condition is not selected",
   "Dictionary": "BPTL",
   "State Attribute": "No",
   "Default Variable": "Yes",
-  "Date added or modified": "10/6/21",
+  "Date added or modified": "3/9/26",
   "GCP Document/Table": "Boxes Table Nested structure: d_238268405_d_399948893",
   "Formula for Index": [
-    "2951",
-    "2952"
+    "2955",
+    "2956"
   ],
   "Index": [
-    "2951",
-    "2952"
+    "2955",
+    "2956"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

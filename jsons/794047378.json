@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "3338",
-  "Index": "3338",
+  "Formula for Index": "3342",
+  "Index": "3342",
   "Primary Source": [
     "840173959.json"
   ],
@@ -16,7 +16,7 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
-  "Current Format/Value": "example: 99",
+  "Current Format/Value": "Example: 99",
   "Required": "Yes",
   "PII": "No",
   "Notes": "This variable will be used to track Available Reports similar to how we use 566565527 (Available Surveys). We don't want to nest this variable and use it to track Available Physical Activity Reports. We want to use it to track Available Reports similar to how we use 566565527 (Available Surveys); We are using this to track ALL reports not just Physical Activity so we changed the name to ROIAll_NumAvailReports_v1r0 and updated the Secondary Soource from Physical Activity to All (6/27/25)",

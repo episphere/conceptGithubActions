@@ -8,8 +8,10 @@
   "Current Source Question": [
     "238268405.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/25/26",
   "conceptId": "595987358",
-  "Current Question Text": "Cold Packs - warm",
+  "Current Question Text": "Cold Packs - Warm",
   "Variable Label": "Cold Packs - Warm",
   "Variable Name": [
     "BioBPTL_ColdPackWarm_v1r0"
@@ -17,19 +19,20 @@
   "Variable Type": "Num",
   "Variable Length": "1",
   "PII": "No",
+  "Notes": "Previously added on 10/6/21; Marked as Revised on 3/9/26 - Updated Current Question Text to Cold Packs - Warm",
   "Derivation Notes": "Default to No upon package receipt ('Shipment Received - Site Shipment'= Yes) if this condition is not selected",
   "Dictionary": "BPTL",
   "State Attribute": "No",
   "Default Variable": "Yes",
-  "Date added or modified": "10/6/21",
+  "Date added or modified": "3/9/26",
   "GCP Document/Table": "Boxes Table Nested structure: d_238268405_d_595987358",
   "Formula for Index": [
-    "2926",
-    "2927"
+    "2930",
+    "2931"
   ],
   "Index": [
-    "2926",
-    "2927"
+    "2930",
+    "2931"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

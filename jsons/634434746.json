@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "312",
-  "Index": "312",
+  "Formula for Index": "313",
+  "Index": "313",
   "Primary Source": [
     "192505768.json"
   ],
@@ -8,7 +8,7 @@
     "569151507.json"
   ],
   "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "12/10/25",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/9/26",
   "conceptId": "634434746",
   "Current Question Text": "Mailing address state",
   "Variable Label": "Mailing Address State",
@@ -20,11 +20,11 @@
   "Current Format/Value": "N/A",
   "Required": "Yes",
   "PII": "Yes",
-  "Notes": "Populated from Google Addresses",
+  "Notes": "Populated from Google Addresses. Previously revised on 11/7/25; Revised 3/9/26 - Added to Notes: UP History data is not stored until participant is verified",
   "Dictionary": "Recruitment Data Dictionary, Biospecimen Clinical, Biospecimen Research",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "11/7/25",
+  "Date added or modified": "3/9/26",
   "GCP Document/Table": "Participants Table Not nested (d_634434746) OR Nested structure: (d_569151507_d_634434746)",
   "IMS Review Notes": "Updated Secondary Source to User Profile History"
 }

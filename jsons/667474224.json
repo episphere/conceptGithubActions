@@ -6,7 +6,7 @@
     "883203566.json"
   ],
   "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "8/21/23",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/25/26",
   "conceptId": "667474224",
   "Current Question Text": "Campaign Type",
   "Variable Label": "Campaign",
@@ -14,13 +14,13 @@
     "RcrtSI_CampaignType_v1r0"
   ],
   "Variable Type": "Num",
-  "Variable Length": "1",
+  "Variable Length": "2",
   "Required": "Yes",
   "PII": "No",
   "Dictionary": "Recruitment Data Dictionary",
   "State Attribute": "Yes",
   "Default Variable": "No",
-  "Date added or modified": "8/21/23",
+  "Date added or modified": "3/9/26",
   "GCP Document/Table": "Participants Table Not nested (state_d_667474224)",
   "Formula for Index": [
     "62",
@@ -35,7 +35,8 @@
     "71",
     "72",
     "73",
-    "74"
+    "74",
+    "75"
   ],
   "Index": [
     "62",
@@ -50,7 +51,8 @@
     "71",
     "72",
     "73",
-    "74"
+    "74",
+    "75"
   ],
   "Current Format/Value": {
     "926338735.json": "0",
@@ -64,11 +66,12 @@
     "663706936.json": "8",
     "208952854.json": "9",
     "296312382.json": "10",
+    "130709488.json": "11",
     "181769837.json": "55",
     "398561594.json": "88"
   },
   "Notes": [
-    "Sent with de-identified individual demographic variables when participants moved from Eligibility pool to active recruits with submitParticipantsData API call.",
+    "Sent with de-identified individual demographic variables when participants moved from Eligibility pool to active recruits with submitParticipantsData API call; Variable previously revised on 8/21/2023; Variable marked as revised on 3/9/26 due to addition of response type \"\"Urgent Care Visit\"\" and length updated from 1 to 2",
     "For passive recruits, 88 = None of the above, should be used when campaign type is not available."
   ]
 }

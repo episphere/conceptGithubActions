@@ -5,7 +5,8 @@
   "Secondary Source": [
     "569151507.json"
   ],
-  "Deprecated, New, or Revised": "New",
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/9/26",
   "conceptId": "810747471",
   "Current Question Text": "Flag for if Alternative address is a PO Box",
   "Variable Label": "Alt Address PO Box Flag",
@@ -16,17 +17,18 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
+  "Notes": "Previously added on 2/12/25; Revised 3/9/26 - Added to Notes: UP History data is not stored until participant is verified; Decision by DevOps (10/23/25) to store addresses as empty strings in UP Hx so that we know which variables are edited and moved into UP Hx from UP",
   "Dictionary": "Recruitment Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "2/12/25",
+  "Date added or modified": "3/9/26",
   "Formula for Index": [
-    "1158",
-    "1159"
+    "1159",
+    "1160"
   ],
   "Index": [
-    "1158",
-    "1159"
+    "1159",
+    "1160"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

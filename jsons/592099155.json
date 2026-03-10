@@ -22,7 +22,7 @@
   "Variable Label": "BL Blood Collection Setting",
   "Variable Name": [
     "BioSpm_BloodSettingBL_v1r0",
-    "BioSpm_BloodSettingF1_v1r0",
+    "BioSpm_BloodSettingA1_v1r0",
     "BioSpm_BloodSettingF2_v1r0",
     "BioSpm_BloodSettingF3_v1r0"
   ],
@@ -38,18 +38,20 @@
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_592099155 (2nd CID will change based on BL/F-U1,2,3)",
   "IMS Review Notes": "Updated Secondary Source to Collection Details and replaced BioSpm_BloodSetting_v1r0 with BioSpm_BloodSettingBL_v1r0.",
   "Formula for Index": [
-    "1500",
     "1501",
-    "1502"
+    "1502",
+    "1503"
   ],
   "Index": [
-    "1500",
     "1501",
-    "1502"
+    "1502",
+    "1503"
   ],
   "Current Format/Value": {
     "534621077.json": "0",
     "664882224.json": "1",
     "103209024.json": "2"
-  }
+  },
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/25/26"
 }

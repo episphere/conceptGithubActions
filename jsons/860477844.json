@@ -22,7 +22,7 @@
   "Variable Label": "BL Ur Order",
   "Variable Name": [
     "BioClin_UrnOrdPlacedBL_v1r0",
-    "BioClin_UrnOrdPlacedF1_v1r0",
+    "BioClin_UrnOrdPlacedA1_v1r0",
     "BioClin_UrnOrdPlacedF2_v1r0",
     "BioClin_UrnOrdPlacedF3_v1r0"
   ],
@@ -38,15 +38,17 @@
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_860477844 (2nd CID may change based on BL/F-U1,2,3)",
   "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_UrnOrderPlaced_v1r0 with BioClin_UrnOrdPlacedBL_v1r0",
   "Formula for Index": [
-    "2132",
-    "2133"
+    "2133",
+    "2134"
   ],
   "Index": [
-    "2132",
-    "2133"
+    "2133",
+    "2134"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  }
+  },
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/25/26"
 }

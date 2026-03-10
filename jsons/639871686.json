@@ -5,8 +5,8 @@
   "Secondary Source": [
     "569151507.json"
   ],
-  "Deprecated, New, or Revised": "New",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "12/10/25",
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/9/26",
   "conceptId": "639871686",
   "Current Question Text": "Mailing address country",
   "Variable Label": "Mailing Address Country",
@@ -17,10 +17,10 @@
   "Variable Length": "3",
   "Required": "No",
   "PII": "Yes",
+  "Notes": "Previously added on 11/7/25; Revised 3/9/26 - Added to Notes: UP History data is not stored until participant is verified",
   "Default Variable": "No",
-  "Date added or modified": "11/7/25",
+  "Date added or modified": "3/9/26",
   "Formula for Index": [
-    "320",
     "321",
     "322",
     "323",
@@ -290,10 +290,10 @@
     "587",
     "588",
     "589",
-    "590"
+    "590",
+    "591"
   ],
   "Index": [
-    "320",
     "321",
     "322",
     "323",
@@ -563,7 +563,8 @@
     "587",
     "588",
     "589",
-    "590"
+    "590",
+    "591"
   ],
   "Current Format/Value": {
     "333208328.json": "0",

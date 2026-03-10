@@ -5,6 +5,8 @@
   "Secondary Source": [
     "925196539.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/25/26",
   "conceptId": "789843387",
   "Current Question Text": "Login Site",
   "Variable Label": "Login Site",
@@ -15,14 +17,13 @@
   "Variable Length": "2",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "The National Cancer Institute is included as a site for testing purposes only.",
+  "Notes": "The National Cancer Institute is included as a site for testing purposes only; Variable previously revised on 3/25/2021; Variable marked as revised (3/9/26) due to addition of site location: 10 = Baylor Scott & White Health",
   "Dictionary": "Biospecimen Shipping",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "3/25/21",
+  "Date added or modified": "3/9/26",
   "GCP Document/Table": "Boxes Table Not nested (d_789843387)",
   "Formula for Index": [
-    "2333",
     "2334",
     "2335",
     "2336",
@@ -32,10 +33,11 @@
     "2340",
     "2341",
     "2342",
-    "2343"
+    "2343",
+    "2344",
+    "2345"
   ],
   "Index": [
-    "2333",
     "2334",
     "2335",
     "2336",
@@ -45,7 +47,9 @@
     "2340",
     "2341",
     "2342",
-    "2343"
+    "2343",
+    "2344",
+    "2345"
   ],
   "Current Format/Value": {
     "531629870.json": "0",
@@ -58,6 +62,7 @@
     "657167265.json": "7",
     "809703864.json": "8",
     "517700004.json": "9",
+    "472940358.json": "10",
     "181769837.json": "55"
   }
 }

@@ -22,7 +22,7 @@
   "Variable Label": "BL Clin Site Ur RRL Rec",
   "Variable Name": [
     "BioClin_SiteUrineRRLBL_v1r0",
-    "BioClin_SiteUrineRRLF1_v1r0",
+    "BioClin_SiteUrineRRLA1_v1r0",
     "BioClin_SiteUrineRRLF2_v1r0",
     "BioClin_SiteUrineRRLF3_v1r0"
   ],
@@ -38,15 +38,17 @@
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_453452655 (2nd CID may change based on BL/F-U1,2,3)",
   "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_SiteUrineRRL_v1r0 with BioClin_SiteUrineRRLBL_v1r0",
   "Formula for Index": [
-    "2182",
-    "2183"
+    "2183",
+    "2184"
   ],
   "Index": [
-    "2182",
-    "2183"
+    "2183",
+    "2184"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  }
+  },
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/25/26"
 }

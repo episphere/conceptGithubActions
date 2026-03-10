@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2158",
-  "Index": "2158",
+  "Formula for Index": "2159",
+  "Index": "2159",
   "Primary Source": [
     "819848608.json",
     "819848608.json",
@@ -26,13 +26,13 @@
   "Variable Label": "BL Polyacc ID - Blood",
   "Variable Name": [
     "BioClin_PolyBloodIDBL_v1r0",
-    "BioClin_PolyBloodIDBLF1_v1r0",
+    "BioClin_PolyBloodIDBLA1_v1r0",
     "BioClin_PolyBloodIDBLF2_v1r0",
     "BioClin_PolyBloodIDBLF3_v1r0"
   ],
   "Variable Type": "Array",
   "Variable Length": "Array",
-  "Current Format/Value": "example: [N12312323,N4234234,N...]",
+  "Current Format/Value": "Example: [N12312323,N4234234,N...]",
   "Required": "Yes",
   "PII": "No",
   "Notes": "This will be unpacked into a string for analytics",

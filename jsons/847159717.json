@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2021",
-  "Index": "2021",
+  "Formula for Index": "2022",
+  "Index": "2022",
   "Primary Source": [
     "819848608.json",
     "819848608.json",
@@ -24,13 +24,13 @@
   "Variable Label": "BL D/T Rsrch Ur Collected",
   "Variable Name": [
     "BioFin_ResearchUrnTmBL_v1r0",
-    "BioFin_ResearchUrnTmF1_v1r0",
+    "BioFin_ResearchUrnTmA1_v1r0",
     "BioFin_ResearchUrnTmF2_v1r0",
     "BioFin_ResearchUrnTmF3_v1r0"
   ],
   "Variable Type": "ISO",
   "Variable Length": "24",
-  "Current Format/Value": "example: 2020-07-17T15:21:26.763Z",
+  "Current Format/Value": "Example: 2020-07-17T15:21:26.763Z",
   "Required": "Yes",
   "PII": "No",
   "Notes": "ISO to be converted to SAS format. Nested under Collection Environment. Set by us for research, not used for Clinical.",
@@ -40,5 +40,7 @@
   "Default Variable": "No",
   "Date added or modified": "9/7/23",
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_847159717 (2nd CID may change based on BL/F-U1,2,3)",
-  "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioFin_ResearchUrnTime_v1r0 with BioFin_ResearchUrnTmBL_v1r0"
+  "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioFin_ResearchUrnTime_v1r0 with BioFin_ResearchUrnTmBL_v1r0",
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/25/26"
 }

@@ -8,6 +8,8 @@
   "Current Source Question": [
     "238268405.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/25/26",
   "conceptId": "678483571",
   "Current Question Text": "Damaged Container (outer and/or inner)",
   "Variable Label": "Damaged Container",
@@ -17,19 +19,20 @@
   "Variable Type": "Num",
   "Variable Length": "1",
   "PII": "No",
+  "Notes": "Previously added on 10/6/21; Marked as Revised on 3/9/26 - Updated Current Question Text to Damaged Container (outer and/or inner)",
   "Derivation Notes": "Default to No upon package receipt ('Shipment Received - Site Shipment'= Yes) if this condition is not selected",
   "Dictionary": "BPTL",
   "State Attribute": "No",
   "Default Variable": "Yes",
-  "Date added or modified": "10/6/21",
+  "Date added or modified": "3/9/26",
   "GCP Document/Table": "Boxes Table Nested structure: d_238268405_d_678483571",
   "Formula for Index": [
-    "2928",
-    "2929"
+    "2932",
+    "2933"
   ],
   "Index": [
-    "2928",
-    "2929"
+    "2932",
+    "2933"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

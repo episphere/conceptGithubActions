@@ -5,6 +5,7 @@
   "Secondary Source": [
     "569151507.json"
   ],
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/9/26",
   "conceptId": "506826178",
   "Current Question Text": "Suffix- User Profile",
   "Variable Label": "Suffix",
@@ -18,11 +19,10 @@
   "Dictionary": "Recruitment Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "12/6/24",
+  "Date added or modified": "3/9/26",
   "GCP Document/Table": "Participants Table Not nested (d_506826178) OR Nested structure: (d_569151507_d_506826178)",
   "IMS Review Notes": "Updated Secondary Source to User Profile History",
   "Formula for Index": [
-    "273",
     "274",
     "275",
     "276",
@@ -31,10 +31,10 @@
     "279",
     "280",
     "281",
-    "282"
+    "282",
+    "283"
   ],
   "Index": [
-    "273",
     "274",
     "275",
     "276",
@@ -43,7 +43,8 @@
     "279",
     "280",
     "281",
-    "282"
+    "282",
+    "283"
   ],
   "Current Format/Value": {
     "612166858.json": "0",
@@ -61,6 +62,6 @@
     "Revised"
   ],
   "Notes": [
-    "Populated from RcrtCS_Suffix_v1r0. Additional options may be added later. After leads discussion on 4.1.24 and a review of the counts for each of the suffix responses, it was decided that Roman numeral and #th responses would be combined."
+    "Populated from RcrtCS_Suffix_v1r0. Additional options may be added later. After leads discussion on 4/1/24 and a review of the counts for each of the suffix responses, it was decided that Roman numeral and #th responses would be combined; Previously added on 12/6/24; Previously revised on 4/4/24; Revised on 3/9/26 - Added to Notes: UP History data is not stored until participant is verified"
   ]
 }

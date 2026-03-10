@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "873",
-  "Index": "873",
+  "Formula for Index": "874",
+  "Index": "874",
   "Primary Source": [
     "192505768.json"
   ],
@@ -8,7 +8,7 @@
     "569151507.json"
   ],
   "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "12/10/25",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/9/26",
   "conceptId": "207908218",
   "Current Question Text": "Physical address line 1",
   "Variable Label": "Phys Address Line 1",
@@ -20,9 +20,9 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "Yes",
-  "Notes": "Same field characteristics as current address fields. Will get added to User Profile History.",
+  "Notes": "Same field characteristics as current address fields. Will get added to User Profile History; Previously revised on 11/7/25; Revised 3/9/26 - Added to Notes: UP History data is not stored until participant is verified; Decision by DevOps (10/23/25) to store addresses as empty strings in UP Hx so that we know which variables are edited and moved into UP Hx from UP",
   "Dictionary": "Recruitment Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "11/7/25"
+  "Date added or modified": "3/9/26"
 }

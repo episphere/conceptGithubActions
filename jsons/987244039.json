@@ -1,14 +1,14 @@
 {
-  "Formula for Index": "875",
-  "Index": "875",
+  "Formula for Index": "876",
+  "Index": "876",
   "Primary Source": [
     "192505768.json"
   ],
   "Secondary Source": [
     "569151507.json"
   ],
-  "Deprecated, New, or Revised": "New",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "12/10/25",
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/9/26",
   "conceptId": "987244039",
   "Current Question Text": "Physical address line 3",
   "Variable Label": "Phys Address Line 3",
@@ -20,6 +20,7 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "Yes",
+  "Notes": "Previously added on 11/7/25; Revised 3/9/26 - Added to Notes: UP History data is not stored until participant is verified; Decision by DevOps (10/23/25) to store addresses as empty strings in UP Hx so that we know which variables are edited and moved into UP Hx from UP",
   "Default Variable": "No",
-  "Date added or modified": "11/7/25"
+  "Date added or modified": "3/9/26"
 }

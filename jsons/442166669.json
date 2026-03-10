@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "309",
-  "Index": "309",
+  "Formula for Index": "310",
+  "Index": "310",
   "Primary Source": [
     "192505768.json"
   ],
@@ -8,7 +8,7 @@
     "569151507.json"
   ],
   "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "12/10/25",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/9/26",
   "conceptId": "442166669",
   "Current Question Text": "Mailing address line  2",
   "Variable Label": "Mailing Address Line 2",
@@ -20,11 +20,11 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "Yes",
-  "Notes": "Populated from Google Addresses. Updated Variable Label to remove double 'address' (9/3/2025)",
+  "Notes": "Populated from Google Addresses. Previously revised on 11/7/25; Previously revised on 9/3/25 - Updated Variable Label to remove double 'address'; Revised 3/9/26 - Added to Notes: UP History data is not stored until participant is verified",
   "Dictionary": "Recruitment Data Dictionary, Biospecimen Clinical, Biospecimen Research",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "11/7/25",
+  "Date added or modified": "3/9/26",
   "GCP Document/Table": "Participants Table Not nested (d_442166669) OR Nested structure: (d_569151507_d_442166669)",
   "IMS Review Notes": "Updated Secondary Source to User Profile History"
 }

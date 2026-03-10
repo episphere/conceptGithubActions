@@ -5,8 +5,8 @@
   "Secondary Source": [
     "377669767.json"
   ],
-  "Deprecated, New, or Revised": "New",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "11/20/23",
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/25/26",
   "conceptId": "137401245",
   "Current Question Text": "Flag to indicate if the collection card is missing",
   "Variable Label": "Coll Card Miss Flag",
@@ -17,19 +17,19 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Default will be yes",
+  "Notes": "Default variable value = No; Previously modified on 11/29/23; Revised on 3/9/26 - Updated Default variable value to No",
   "Dictionary": "Biospecimen Kit",
   "State Attribute": "No",
   "Default Variable": "Yes",
-  "Date added or modified": "11/29/23",
+  "Date added or modified": "3/9/26",
   "GCP Document/Table": "Kit Table Not nested (TBD)",
   "Formula for Index": [
-    "2598",
-    "2599"
+    "2600",
+    "2601"
   ],
   "Index": [
-    "2598",
-    "2599"
+    "2600",
+    "2601"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

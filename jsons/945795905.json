@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2691",
-  "Index": "2691",
+  "Formula for Index": "2695",
+  "Index": "2695",
   "Primary Source": [
     "237817859.json",
     "237817859.json",
@@ -32,7 +32,7 @@
   ],
   "Variable Type": "Char",
   "Variable Length": "40",
-  "Current Format/Value": "example: Starbucks eGift",
+  "Current Format/Value": "Example: Starbucks eGift",
   "Required": "Yes",
   "PII": "No",
   "Notes": "NORC Payment Chosen is being changed to Payment Chosen so that UC and sites that eventually give payments themselves can populate this variable (this will be through API for UC (at least for now) and through the SMDB for the other sites).  Once this field is populated it should be part of the derivation for NORC Eligibility such that the particpant is no longer eligable for a payment from NORC. Gift card vendor selected (e.g., Amazon) or cash",

@@ -1,8 +1,49 @@
 {
   "conceptId": "367803647",
-  "Current Question Text": "What is the highest level of school that you have completed? - SOURCE",
+  "Current Question Text": "What is the highest level of school that you have completed?",
   "subcollections": [
+    "367803647.json",
     "411992398.json",
     "940387701.json"
-  ]
+  ],
+  "Formula for Index": "4654",
+  "Index": "4654",
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json",
+    "726699695.json"
+  ],
+  "Current Source Question": [
+    "367803647.json",
+    "367803647.json"
+  ],
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/9/26",
+  "Variable Label": "Ed Level",
+  "Variable Name": [
+    "SrvBOH_EducLevel_v2r0",
+    "SrvBOH_EducLevel_v2r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Previously denoted as Deprecated on 11/12/24; Revised 3/9/26 - Possible data error was found on 1/21/26: The education variable D_367803647_D_367803647 it is still showing in BQ, and the new education variable D_367803647_D_411992398 is not in BQ",
+  "Date added or modified": "3/9/26",
+  "IMS Review Notes": "Added in row for Current Question Text concept ID deleted during unharmonization",
+  "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
+  "Current Format/Value": {
+    "978204320.json": "0",
+    "935502060.json": "1",
+    "404564707.json": "2",
+    "432193665.json": "3",
+    "890756124.json": "4",
+    "766964355.json": "5",
+    "875342283.json": "6",
+    "598242454.json": "7",
+    "807835037.json": "55"
+  }
 }
