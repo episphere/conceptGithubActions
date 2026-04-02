@@ -13,9 +13,9 @@
   ],
   "Current Source Question": [
     "266600170.json",
-    "496823485.json",
-    "650465111.json",
-    "303552867.json"
+    "506744224.json",
+    "558411433.json",
+    "292282660.json"
   ],
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "6/2/23",
@@ -24,28 +24,27 @@
   "Variable Label": "BL Payment issued",
   "Variable Name": [
     "HDPaym_PaymIssuedBL_v1r1",
-    "HDPaym_PaymIssuedF1_v1r1",
-    "HDPaym_PaymIssuedF2_v1r1",
-    "HDPaym_PaymIssuedF3_v1r1"
+    "HDPaym_PaymIssuedP1_v1r1",
+    "HDPaym_PaymIssuedP2_v1r1",
+    "HDPaym_PaymIssuedP3_v1r1"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Payment issued for all sites. Variable is set as a default and is nested under SMPaym_Round_v1r0. Whether the gift card was emailed to the participant (NORC) or cash given to participant (Chicago)",
+  "Notes": "Payment issued for all sites. Variable is set as a default and is nested under SMPaym_Round_v1r0. Whether the gift card was emailed to the participant (NORC) or cash given to participant (Chicago); Updated Secondary Source to Collection Details and Variable name HDPaym_PaymIssued_v1r1 with HDPaym_PaymIssuedBL_v1r1",
   "Dictionary": "Study Manager Data Dictionary, Biospecimen Research",
   "State Attribute": "No",
   "Default Variable": "Yes",
   "Date added or modified": "4/2/25",
   "GCP Document/Table": "Participants Table Nested structure: d_130371375_d_266600170_d_648936790 OR d_130371375_d_303552867_d_648936790 OR d_130371375_d_496823485_d_648936790 OR d_130371375_d_650465111_d_648936790",
-  "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name HDPaym_PaymIssued_v1r1 with HDPaym_PaymIssuedBL_v1r1",
   "Formula for Index": [
-    "2671",
-    "2672"
+    "2670",
+    "2671"
   ],
   "Index": [
-    "2671",
-    "2672"
+    "2670",
+    "2671"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

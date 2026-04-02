@@ -7,6 +7,8 @@
   "Secondary Source": [
     "635994596.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "4/29/26",
   "conceptId": "269050420",
   "Current Question Text": "Autoset when  HdWd_Destroydata_v1r0 selected",
   "Variable Label": "D/T Data Dest Req",
@@ -18,10 +20,10 @@
   "Current Format/Value": "Example: 2020-07-17T15:21:26.763Z",
   "Required": "No",
   "PII": "No",
-  "Notes": "ISO to be converted to SAS format. The withdrawal and revocation date time stamps will not be stored if data destruction date is also requested",
+  "Notes": "ISO to be converted to SAS format. The withdrawal and revocation date time stamps will not be stored if data destruction date is also requested; Previously added on 9/28/21; Updated notes: The data destruction, withdrawal, and revocation dates are populated hierarchically (data destruction > withdrawal > revocation). Data destruction is the highest priority in the hierarchy and includes HIPAA revocation and withdrawal. If requested on the same date as withdrawal and/or revocation, only the data destruction date is populated and all other related dates remain null. If data destruction is requested later than withdrawal or revocation, multiple dates are populated with their respective timestamps (4/2/26)",
   "Dictionary": "Withdrawal, Study Manager Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "9/28/21",
+  "Date added or modified": "4/2/26",
   "GCP Document/Table": "Participants Table Not nested (d_269050420)"
 }

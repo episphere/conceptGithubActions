@@ -7,6 +7,8 @@
   "Secondary Source": [
     "635994596.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "4/29/26",
   "conceptId": "664453818",
   "Current Question Text": "Autoset when HdWd_HIPAA revoked_v1r0 selected",
   "Variable Label": "D/T HIPAA Rev Req",
@@ -18,10 +20,10 @@
   "Current Format/Value": "Example: 2020-07-17T15:21:26.763Z",
   "Required": "No",
   "PII": "No",
-  "Notes": "ISO to be converted to SAS format. Will not be populated if the participant also withdrew or requested data destruction on the same date",
+  "Notes": "ISO to be converted to SAS format. Will not be populated if the participant also withdrew or requested data destruction on the same date; Previously added on 10/21/21; Updated notes: The data destruction, withdrawal, and revocation dates are populated hierarchically (data destruction > withdrawal > revocation). HIPAA revocation may occur independently but is automatically implied with withdrawal. This field is populated only when revocation occurs alone; If withdrawal occurs on the same date, only the withdrawal date is populated. If data destruction is requested on the same date as withdrawal, only the data destruction request date is populated (4/2/26)",
   "Dictionary": "Withdrawal, Study Manager Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "10/21/21",
+  "Date added or modified": "4/2/26",
   "GCP Document/Table": "Participants Table Not nested (d_664453818)"
 }

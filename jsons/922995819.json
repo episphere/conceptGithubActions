@@ -8,6 +8,8 @@
   "Current Source Question": [
     "238268405.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "4/29/26",
   "conceptId": "922995819",
   "Current Question Text": "Manifest/Paperwork/Vial information do not match",
   "Variable Label": "Manifest/Paperwork/Vial Info Don't Match",
@@ -17,11 +19,11 @@
   "Variable Type": "Num",
   "Variable Length": "1",
   "PII": "No",
-  "Derivation Notes": "Default to No upon package receipt ('Shipment Received - Site Shipment'= Yes) if this condition is not selected",
+  "Notes": "Previously added on 10/6/21; Deleted Derivation Notes and moved text to Notes column: Default value = No; Default value set upon package receipt ('Shipment Received - Site Shipment' (CID: 333524031) = Yes) if this condition is not selected (4/2/26)",
   "Dictionary": "BPTL",
   "State Attribute": "No",
   "Default Variable": "Yes",
-  "Date added or modified": "10/6/21",
+  "Date added or modified": "4/2/26",
   "GCP Document/Table": "Boxes Table Nested structure: d_238268405_d_922995819",
   "Formula for Index": [
     "2940",

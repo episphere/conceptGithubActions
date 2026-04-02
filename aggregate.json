@@ -389,8 +389,8 @@
     "Variable Name": [
       "BioClin_PolyUrineIDBL_v1r0",
       "BioClin_PolyUrineIDA1_v1r0",
-      "BioClin_PolyUrineIDF2_v1r0",
-      "BioClin_PolyUrineIDF3_v1r0"
+      "BioClin_PolyUrineIDA2_v1r0",
+      "BioClin_PolyUrineIDA3_v1r0"
     ]
   },
   "110511396": {
@@ -603,9 +603,6 @@
     "Variable Name": [
       "SrvLAW_PreWorkTmMoto_v1r0"
     ]
-  },
-  "117044491": {
-    "Variable Name": "Payment"
   },
   "117258272": {
     "Variable Name": "I cannot find the survey"
@@ -957,7 +954,7 @@
   "130371375": {
     "Variable Label": "Payment Round",
     "Variable Name": [
-      "SMPaym_Round_v1r0"
+      "SMPay_Round_v1r0"
     ]
   },
   "130500844": {
@@ -1091,9 +1088,9 @@
     "Variable Label": "BL Check-In Done",
     "Variable Name": [
       "BioChk_CompleteBL_v1r0",
-      "BioChk_CompleteF1_v1r0",
-      "BioChk_CompleteF2_v1r0",
-      "BioChk_CompleteF3_v1r0"
+      "BioChk_CompleteA1_v1r0",
+      "BioChk_CompleteA2_v1r0",
+      "BioChk_CompleteA3_v1r0"
     ]
   },
   "135672398": {
@@ -1203,12 +1200,10 @@
     ]
   },
   "139245758": {
-    "Variable Label": "BL D/T Clin Ur Collected",
+    "Variable Label": "A2 D/T Clin Ur Collected",
     "Variable Name": [
-      "BioClin_ClinicalUrnTmBL_v1r0",
-      "BioClin_ClinicalUrnTmA1_v1r0",
-      "BioClin_ClinicalUrnTmF2_v1r0",
-      "BioClin_ClinicalUrnTmF3_v1r0"
+      "BioCol_ClinicalUrnTmA2_v1r0",
+      "BioCol_ClinicalUrnTmA3_v1r0"
     ]
   },
   "139348254": {
@@ -1353,7 +1348,7 @@
     ]
   },
   "144761753": {
-    "Variable Name": "How interested are you in receiving information about‚ -  Neighborhood Information"
+    "Variable Name": "How interested are you in receiving information about -  Neighborhood Information"
   },
   "144819886": {
     "Variable Label": "Pandemic Feeling  after exercise duration",
@@ -1708,8 +1703,8 @@
     "Variable Name": [
       "BioClin_AnyBldUrnRecBL_v1r0",
       "BioClin_AnyBldUrnRecA1_v1r0",
-      "BioClin_AnyBldUrnRecF2_v1r0",
-      "BioClin_AnyBldUrnRecF3_v1r0"
+      "BioClin_AnyBldUrnRecA2_v1r0",
+      "BioClin_AnyBldUrnRecA3_v1r0"
     ]
   },
   "156628245": {
@@ -1979,7 +1974,7 @@
   "167958071": {
     "Variable Label": "BL Ur Collected",
     "Variable Name": [
-      "BioFin_BaseUrineCol_v1r0"
+      "BioRes_BaseUrineCol_v1r0"
     ]
   },
   "167966775": {
@@ -2446,8 +2441,8 @@
     "Variable Name": [
       "BioClin_BldUrnPlcdTmBL_v1r0",
       "BioClin_BldUrnPlcdTmA1_v1r0",
-      "BioClin_BldUrnPlcdTmF2_v1r0",
-      "BioClin_BldUrnPlcdTmF3_v1r0"
+      "BioClin_BldUrnPlcdTmA2_v1r0",
+      "BioClin_BldUrnPlcdTmA3_v1r0"
     ]
   },
   "184513726": {
@@ -2486,8 +2481,8 @@
     "Variable Name": [
       "BioClin_SiteBldLocBL_v1r0",
       "BioClin_SiteBldLocA1_v1r0",
-      "BioClin_SiteBldLocF2_v1r0",
-      "BioClin_SiteBldLocF3_v1r0"
+      "BioClin_SiteBldLocA2_v1r0",
+      "BioClin_SiteBldLocA3_v1r0"
     ]
   },
   "185533250": {
@@ -2829,8 +2824,8 @@
     "Variable Name": [
       "BioClin_SntUrineAccIDBL_v1r0",
       "BioClin_SntUrineAccIDA1_v1r0",
-      "BioClin_SntUrineAccIDF2_v1r0",
-      "BioClin_SntUrineAccIDF3_v1r0"
+      "BioClin_SntUrineAccIDA2_v1r0",
+      "BioClin_SntUrineAccIDA3_v1r0"
     ]
   },
   "198347104": {
@@ -3361,8 +3356,8 @@
     "Variable Name": [
       "BioClin_DBUrineRRLBL_v1r0",
       "BioClin_DBUrineRRLA1_v1r0",
-      "BioClin_DBUrineRRLF2_v1r0",
-      "BioClin_DBUrineRRLF3_v1r0"
+      "BioClin_DBUrineRRLA2_v1r0",
+      "BioClin_DBUrineRRLA3_v1r0"
     ]
   },
   "210983898": {
@@ -3692,9 +3687,9 @@
     "Variable Label": "BL NORC Payment Elig",
     "Variable Name": [
       "SMPaym_NORCPaymEligBL_v1r0",
-      "SMPaym_NORCPaymEligF1_v1r0",
-      "SMPaym_NORCPaymEligF2_v1r0",
-      "SMPaym_NORCPaymEligF3_v1r0"
+      "SMPay_NORCPaymEligP1_v1r0",
+      "SMPay_NORCPaymEligP2_v1r0",
+      "SMPay_NORCPaymEligP3_v1r0"
     ]
   },
   "223008071": {
@@ -3743,12 +3738,11 @@
     ]
   },
   "224596428": {
-    "Variable Label": "BL Clin Site Ur RRL D/T Rec",
+    "Variable Label": "A3 D/T Clin Site Ur RRL Rec",
     "Variable Name": [
-      "BioClin_SiteUrnRRLDtBL_v1r0",
-      "BioClin_SiteUrnRRLDtA1_v1r0",
-      "BioClin_SiteUrnRRLDtF2_v1r0",
-      "BioClin_SiteUrnRRLDtF3_v1r0"
+      "BioClin_SiteUrnRRLDtA3_v1r0",
+      "BioClin_DBUrineRRLDtA2_v1r0",
+      "BioClin_DBUrineRRLDtA3_v1r0"
     ]
   },
   "224681201": {
@@ -5578,6 +5572,9 @@
   "291934186": {
     "Variable Name": "Nicaragua"
   },
+  "292282660": {
+    "Variable Name": "3 = Payment 3"
+  },
   "292314539": {
     "Variable Label": "Screening Srv - Prostate Removal Surg",
     "Variable Name": [
@@ -5705,9 +5702,9 @@
     "Variable Label": "BL D/T Payment Issued",
     "Variable Name": [
       "HDPaym_TmPaymBL_v1r0",
-      "HDPaym_TmPaymF1_v1r0",
-      "HDPaym_TmPaymF2_v1r0",
-      "HDPaym_TmPaymF3_v1r0"
+      "HDPaym_TmPaymP1_v1r0",
+      "HDPaym_TmPaymP2_v1r0",
+      "HDPaym_TmPaymP3_v1r0"
     ]
   },
   "298170847": {
@@ -6194,8 +6191,8 @@
     "Variable Name": [
       "BioClin_AnySpecRRLBL_v1r0",
       "BioClin_AnySpecRRLA1_v1r0",
-      "BioClin_AnySpecRRLF2_v1r0",
-      "BioClin_AnySpecRRLF3_v1r0"
+      "BioClin_AnySpecRRLA2_v1r0",
+      "BioClin_AnySpecRRLA3_v1r0"
     ]
   },
   "317093647": {
@@ -6275,9 +6272,9 @@
     "Variable Label": "BL Case N",
     "Variable Name": [
       "HDPaym_CaseNumberBL_v1r0",
-      "HDPaym_CaseNumberF1_v1r0",
-      "HDPaym_CaseNumberF2_v1r0",
-      "HDPaym_CaseNumberF3_v1r0"
+      "HDPaym_CaseNumberP1_v1r0",
+      "HDPaym_CaseNumberP2_v1r0",
+      "HDPaym_CaseNumberP3_v1r0"
     ]
   },
   "320166033": {
@@ -6713,8 +6710,8 @@
     "Variable Name": [
       "BioClin_SntBloodAccIDBL_v1r0",
       "BioClin_SntBloodAccIDA1_v1r0",
-      "BioClin_SntBloodAccIDF2_v1r0",
-      "BioClin_SntBloodAccIDF3_v1r0"
+      "BioClin_SntBloodAccIDA2_v1r0",
+      "BioClin_SntBloodAccIDA3_v1r0"
     ]
   },
   "341636034": {
@@ -6741,10 +6738,10 @@
   "343048998": {
     "Variable Label": "BL Time Check Out Done",
     "Variable Name": [
-      "BioFin_CheckOutTmBL_v1r0",
-      "BioFin_CheckOutTmF1_v1r0",
-      "BioFin_CheckOutTmF2_v1r0",
-      "BioFin_CheckOutTmF3_v1r0"
+      "BioChk_CheckOutTmBL_v1r0",
+      "BioChk_CheckOutTmA1_v1r0",
+      "BioChk_CheckOutTmA2_v1r0",
+      "BioChk_CheckOutTmA3_v1r0"
     ]
   },
   "343406242": {
@@ -7383,7 +7380,7 @@
     ]
   },
   "371067537": {
-    "Variable Label": "DOB",
+    "Variable Label": "DOB - Derived",
     "Variable Name": [
       "RcrtUP_DOB_v1r0"
     ]
@@ -8076,12 +8073,9 @@
     ]
   },
   "398645039": {
-    "Variable Label": "BL Clin DB Blood RRL D/T Rec",
+    "Variable Label": "A3 D/T Clin DB Blood RRL Rec",
     "Variable Name": [
-      "BioClin_DBBloodRRLDtBL_v1r0",
-      "BioClin_DBBloodRRLDtA1_v1r0",
-      "BioClin_DBBloodRRLDtF2_v1r0",
-      "BioClin_DBBloodRRLDtF3_v1r0"
+      "BioClin_DBBloodRRLDtA3_v1r0"
     ]
   },
   "398762737": {
@@ -8634,6 +8628,9 @@
   "420560514": {
     "Variable Name": "In the past 7 days - Pain"
   },
+  "421034284": {
+    "Variable Label": "BioBPTL_ColCupLeakPart_v1r0"
+  },
   "421525963": {
     "Variable Label": "Primary water source",
     "Variable Name": [
@@ -8658,7 +8655,7 @@
   "421823980": {
     "Variable Label": "Email Login",
     "Variable Name": [
-      "email"
+      "Email"
     ]
   },
   "421859821": {
@@ -9069,9 +9066,9 @@
     "Variable Label": "BL D/T Payment Ref",
     "Variable Name": [
       "HDPaym_TmRefusedBL_v1r0",
-      "HDPaym_TmRefusedF1_v1r0",
-      "HDPaym_TmRefusedF2_v1r0",
-      "HDPaym_TmRefusedF3_v1r0"
+      "HDPaym_TmRefusedP1_v1r0",
+      "HDPaym_TmRefusedP2_v1r0",
+      "HDPaym_TmRefusedP3_v1r0"
     ]
   },
   "438643922": {
@@ -9319,11 +9316,11 @@
     "Variable Name": "Bolivia (Plurinational State Of)"
   },
   "448660695": {
-    "Variable Label": "F1 Date/time Mouthwash Collected",
+    "Variable Label": "A1 D/T Mouthwash Collected",
     "Variable Name": [
-      "BioFin_BMTimeF1_v1r0",
-      "BioFin_BMTimeF2_v1r0",
-      "BioFin_BMTimeF3_v1r0"
+      "BioCol_BMTimeA1_v1r0",
+      "BioCol_BMTimeA2_v1r0",
+      "BioCol_BMTimeA3_v1r0"
     ]
   },
   "448722126": {
@@ -9482,8 +9479,8 @@
     "Variable Name": [
       "BioClin_SiteUrLocatBL_v1r0",
       "BioClin_SiteUrLocatA1_v1r0",
-      "BioClin_SiteUrLocatF2_v1r0",
-      "BioClin_SiteUrLocatF3_v1r0"
+      "BioClin_SiteUrLocatA2_v1r0",
+      "BioClin_SiteUrLocatA3_v1r0"
     ]
   },
   "452942800": {
@@ -9552,8 +9549,8 @@
     "Variable Name": [
       "BioClin_SiteUrineRRLBL_v1r0",
       "BioClin_SiteUrineRRLA1_v1r0",
-      "BioClin_SiteUrineRRLF2_v1r0",
-      "BioClin_SiteUrineRRLF3_v1r0"
+      "BioClin_SiteUrineRRLA2_v1r0",
+      "BioClin_SiteUrineRRLA3_v1r0"
     ]
   },
   "453456270": {
@@ -10049,9 +10046,9 @@
     ]
   },
   "471593703": {
-    "Variable Label": "D/T Recruit Type Assigned",
+    "Variable Label": "D/T Recruitment",
     "Variable Name": [
-      "RcrtSI_TypeTime_v1r0"
+      "RcrtSI_RecruitmentDT_v1r0"
     ]
   },
   "472007171": {
@@ -10917,6 +10914,9 @@
   "506648060": {
     "Variable Name": "2024 Connect Experience Survey"
   },
+  "506744224": {
+    "Variable Name": "1 = Payment 1"
+  },
   "506790433": {
     "Variable Label": "Waist/Stomach",
     "Variable Name": [
@@ -11562,8 +11562,8 @@
     "Variable Name": [
       "BioClin_BldOrderPlcdBL_v1r0",
       "BioClin_BldOrderPlcdA1 _v1r0",
-      "BioClin_BldOrderPlcdF2_v1r0",
-      "BioClin_BldOrderPlcdF3_v1r0"
+      "BioClin_BldOrderPlcdA2_v1r0",
+      "BioClin_BldOrderPlcdA3_v1r0"
     ]
   },
   "530548878": {
@@ -11690,8 +11690,8 @@
     "Variable Name": [
       "BioClin_DBBloodRRLBL_v1r0",
       "BioClin_DBBloodRRLA1_v1r0",
-      "BioClin_DBBloodRRLF2_v1r0",
-      "BioClin_DBBloodRRLF3_v1r0"
+      "BioClin_DBBloodRRLA2_v1r0",
+      "BioClin_DBBloodRRLA3_v1r0"
     ]
   },
   "534351312": {
@@ -11914,9 +11914,7 @@
     "Variable Label": "BL Clin DB Ur RRL D/T Rec",
     "Variable Name": [
       "BioClin_DBUrineRRLDtBL_v1r0",
-      "BioClin_DBUrineRRLDtA1_v1r0",
-      "BioClin_DBUrineRRLDtF2_v1r0",
-      "BioClin_DBUrineRRLDtF3_v1r0"
+      "BioClin_DBUrineRRLDtA1_v1r0"
     ]
   },
   "541338917": {
@@ -11999,8 +11997,8 @@
     "Variable Name": [
       "BioClin_PolyBloodIDBL_v1r0",
       "BioClin_PolyBloodIDBLA1_v1r0",
-      "BioClin_PolyBloodIDBLF2_v1r0",
-      "BioClin_PolyBloodIDBLF3_v1r0"
+      "BioClin_PolyBloodIDBLA2_v1r0",
+      "BioClin_PolyBloodIDBLA3_v1r0"
     ]
   },
   "543728565": {
@@ -12355,6 +12353,9 @@
       "SrvLAW_SeaState5_v1r0"
     ]
   },
+  "558411433": {
+    "Variable Name": "2 = Payment 2"
+  },
   "558435199": {
     "Variable Label": "HIPAA Auth",
     "Variable Name": [
@@ -12476,10 +12477,10 @@
   "561681068": {
     "Variable Label": "BL D/T Rsrch Blood Collected",
     "Variable Name": [
-      "BioFin_ResearchBldTmBL_v1r0",
-      "BioFin_ResearchBldTmA1_v1r0",
-      "BioFin_ResearchBldTmF2_v1r0",
-      "BioFin_ResearchBldTmF3_v1r0"
+      "BioCol_RsrchBldTmBL_v1r0",
+      "BioCol_RsrchBldTmA1_v1r0",
+      "BioCol_RsrchBldTmA2_v1r0",
+      "BioCol_RsrchBldTmA3_v1r0"
     ]
   },
   "562190570": {
@@ -13282,9 +13283,9 @@
     "Variable Label": "BL Blood Collection Setting",
     "Variable Name": [
       "BioSpm_BloodSettingBL_v1r0",
-      "BioSpm_BloodSettingA1_v1r0",
-      "BioSpm_BloodSettingF2_v1r0",
-      "BioSpm_BloodSettingF3_v1r0"
+      "BioCol_BloodSettingA1_v1r0",
+      "BioCol_BloodSettingA2_v1r0",
+      "BioCol_BloodSettingA3_v1r0"
     ]
   },
   "592227431": {
@@ -14723,9 +14724,9 @@
     "Variable Label": "BL Payment Ref",
     "Variable Name": [
       "HDPaym_PaymRefusedBL_v1r0",
-      "HDPaym_PaymRefusedF1_v1r0",
-      "HDPaym_PaymRefusedF2_v1r0",
-      "HDPaym_PaymRefusedF3_v1r0"
+      "HDPaym_PaymRefusedP1_v1r0",
+      "HDPaym_PaymRefusedP2_v1r0",
+      "HDPaym_PaymRefusedP3_v1r0"
     ]
   },
   "648459216": {
@@ -14750,9 +14751,9 @@
     "Variable Label": "BL Payment issued",
     "Variable Name": [
       "HDPaym_PaymIssuedBL_v1r1",
-      "HDPaym_PaymIssuedF1_v1r1",
-      "HDPaym_PaymIssuedF2_v1r1",
-      "HDPaym_PaymIssuedF3_v1r1"
+      "HDPaym_PaymIssuedP1_v1r1",
+      "HDPaym_PaymIssuedP2_v1r1",
+      "HDPaym_PaymIssuedP3_v1r1"
     ]
   },
   "648960871": {
@@ -14888,6 +14889,12 @@
     "Variable Label": "Do Not Know 9-Seasonal",
     "Variable Name": [
       "SrvLAW_Seas9DontKnow_v2r0"
+    ]
+  },
+  "652627623": {
+    "Variable Label": "D/T Data Destruction",
+    "Variable Name": [
+      "HdWd_DataDestroyedDT_v1r0"
     ]
   },
   "653181757": {
@@ -15836,7 +15843,7 @@
   "684635302": {
     "Variable Label": "BL MW Collected",
     "Variable Name": [
-      "BioFin_BaseMouthCol_v1r0"
+      "BioRes_BaseMouthCol_v1r0"
     ]
   },
   "684692228": {
@@ -16145,8 +16152,8 @@
     "Variable Name": [
       "BioClin_SiteBloodCollBL_v1r0",
       "BioClin_SiteBloodCollA1_v1r0",
-      "BioClin_SiteBloodCollF2_v1r0",
-      "BioClin_SiteBloodCollF3_v1r0"
+      "BioClin_SiteBloodCollA2_v1r0",
+      "BioClin_SiteBloodCollA3_v1r0"
     ]
   },
   "693503159": {
@@ -16771,9 +16778,9 @@
     "Variable Label": "BL Urine Collection Setting",
     "Variable Name": [
       "BioSpm_UrineSettingBL_v1r0",
-      "BioSpm_UrineSettingA1_v1r0",
-      "BioSpm_UrineSettingF2_v1r0",
-      "BioSpm_UrineSettingF3_v1r0"
+      "BioCol_UrineSettingA1_v1r0",
+      "BioCol_UrineSettingA2_v1r0",
+      "BioCol_UrineSettingA3_v1r0"
     ]
   },
   "718537646": {
@@ -17084,8 +17091,8 @@
     "Variable Name": [
       "BioClin_SiteBloodRRLBL_v1r0",
       "BioClin_SiteBloodRRLA1_v1r0",
-      "BioClin_SiteBloodRRLF2_v1r0",
-      "BioClin_SiteBloodRRLF3_v1r0"
+      "BioClin_SiteBloodRRLA2_v1r0",
+      "BioClin_SiteBloodRRLA3_v1r0"
     ]
   },
   "728704613": {
@@ -17152,9 +17159,9 @@
     "Variable Label": "BL Elig For Payment",
     "Variable Name": [
       "SMPaym_PaymEligBL_v1r0",
-      "SMPaym_PaymEligF1_v1r0",
-      "SMPaym_PaymEligF2_v1r0",
-      "SMPaym_PaymEligF3_v1r0"
+      "SMPay_PaymEligP1_v1r0",
+      "SMPay_PaymEligP2_v1r0",
+      "SMPay_PaymEligP3_v1r0"
     ]
   },
   "731524314": {
@@ -17406,8 +17413,8 @@
     "Variable Name": [
       "BioClin_AnySpecRRLTmBL_v1r0",
       "BioClin_AnySpecRRLTmA1_v1r0",
-      "BioClin_AnySpecRRLTmF2_v1r0",
-      "BioClin_AnySpecRRLTmF3_v1r0"
+      "BioClin_AnySpecRRLTmA2_v1r0",
+      "BioClin_AnySpecRRLTmA3_v1r0"
     ]
   },
   "740704686": {
@@ -18255,8 +18262,8 @@
     "Variable Name": [
       "BioClin_BldOrdPlacdDtBL_v1r0",
       "BioClin_BldOrdPlacdDtA1_v1r0",
-      "BioClin_BldOrdPlacdDtF2_v1r0",
-      "BioClin_BldOrdPlacdDtF3_v1r0"
+      "BioClin_BldOrdPlacdDtA2_v1r0",
+      "BioClin_BldOrdPlacdDtA3_v1r0"
     ]
   },
   "769668224": {
@@ -18818,8 +18825,8 @@
     "Variable Name": [
       "BioClin_SiteUrineCollBL_v1r0",
       "BioClin_SiteUrineCollA1_v1r0",
-      "BioClin_SiteUrineCollF2_v1r0",
-      "BioClin_SiteUrineCollF3_v1r0"
+      "BioClin_SiteUrineCollA2_v1r0",
+      "BioClin_SiteUrineCollA3_v1r0"
     ]
   },
   "787047261": {
@@ -18868,9 +18875,9 @@
     "Variable Label": "BL Time Payment Elig For Round",
     "Variable Name": [
       "SMPaym_TmPaymEligBL_v1r0",
-      "SMPaym_TmPaymEligF1_v1r0",
-      "SMPaym_TmPaymEligF2_v1r0",
-      "SMPaym_TmPaymEligF3_v1r0"
+      "SMPay_TmPaymEligP1_v1r0",
+      "SMPay_TmPaymEligP2_v1r0",
+      "SMPay_TmPaymEligP3_v1r0"
     ]
   },
   "787591805": {
@@ -19952,12 +19959,10 @@
     ]
   },
   "822274939": {
-    "Variable Label": "BL Clin Site Blood RRL D/T Rec",
+    "Variable Label": "A2 D/T Clin Site Blood RRL Rec",
     "Variable Name": [
-      "BioClin_SiteBldRRLDtBL_v1r0",
-      "BioClin_SiteBldRRLDtA1_v1r0",
-      "BioClin_SiteBldRRLDtF2_v1r0",
-      "BioClin_SiteBldRRLDtF3_v1r0"
+      "BioClin_SiteBldRRLDtA2_v1r0",
+      "BioClin_SiteBldRRLDtA3_v1r0"
     ]
   },
   "822499427": {
@@ -20423,9 +20428,9 @@
     "Variable Label": "BL D/T Check-In Done",
     "Variable Name": [
       "BioChk_TimeBL_v1r0",
-      "BioChk_TimeF1_v1r0",
-      "BioChk_TimeF2_v1r0",
-      "BioChk_TimeF3_v1r0"
+      "BioChk_TimeA1_v1r0",
+      "BioChk_TimeA2_v1r0",
+      "BioChk_TimeA3_v1r0"
     ]
   },
   "840147245": {
@@ -20594,10 +20599,10 @@
   "847159717": {
     "Variable Label": "BL D/T Rsrch Ur Collected",
     "Variable Name": [
-      "BioFin_ResearchUrnTmBL_v1r0",
-      "BioFin_ResearchUrnTmA1_v1r0",
-      "BioFin_ResearchUrnTmF2_v1r0",
-      "BioFin_ResearchUrnTmF3_v1r0"
+      "BioCol_RsrchUrnTmBL_v1r0",
+      "BioCol_RsrchUrnTmA1_v1r0",
+      "BioCol_RsrchUrnTmA2_v1r0",
+      "BioCol_RsrchUrnTmA3_v1r0"
     ]
   },
   "847327251": {
@@ -20988,8 +20993,8 @@
     "Variable Name": [
       "BioClin_UrnOrdPlacedBL_v1r0",
       "BioClin_UrnOrdPlacedA1_v1r0",
-      "BioClin_UrnOrdPlacedF2_v1r0",
-      "BioClin_UrnOrdPlacedF3_v1r0"
+      "BioClin_UrnOrdPlacedA2_v1r0",
+      "BioClin_UrnOrdPlacedA3_v1r0"
     ]
   },
   "860839849": {
@@ -21526,7 +21531,7 @@
   "878865966": {
     "Variable Label": "BL Blood Collected",
     "Variable Name": [
-      "BioFin_BaseBloodCol_v1r0"
+      "BioRes_BaseBloodCol_v1r0"
     ]
   },
   "879180101": {
@@ -21552,8 +21557,8 @@
     "Variable Name": [
       "BioClin_BldOrUrnPlcdBL_v1r0",
       "BioClin_BldOrUrnPlcdA1_v1r0",
-      "BioClin_BldOrUrnPlcdF2_v1r0",
-      "BioClin_BldOrUrnPlcdF3_v1r0"
+      "BioClin_BldOrUrnPlcdA2_v1r0",
+      "BioClin_BldOrUrnPlcdA3_v1r0"
     ]
   },
   "880962432": {
@@ -23059,8 +23064,8 @@
     "Variable Name": [
       "BioClin_UrnOrdPlcdDtBL_v1r0",
       "BioClin_UrnOrdPlcdDtA1_v1r0",
-      "BioClin_UrnOrdPlcdDtF2_v1r0",
-      "BioClin_UrnOrdPlcdDtF3_v1r0"
+      "BioClin_UrnOrdPlcdDtA2_v1r0",
+      "BioClin_UrnOrdPlcdDtA3_v1r0"
     ]
   },
   "939897560": {
@@ -23263,9 +23268,9 @@
     "Variable Label": "BL Payment Chosen",
     "Variable Name": [
       "HDPaym_PaymChosenBL_v2r0",
-      "HDPaym_PaymChosenF1_v2r0",
-      "HDPaym_PaymChosenF2_v2r0",
-      "HDPaym_PaymChosenF3_v2r0"
+      "HDPaym_PaymChosenP1_v2r0",
+      "HDPaym_PaymChosenP2_v2r0",
+      "HDPaym_PaymChosenP3_v2r0"
     ]
   },
   "946211808": {
@@ -23520,6 +23525,9 @@
   },
   "954405492": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Chlamydia?"
+  },
+  "954880590": {
+    "Variable Label": "BioBPTL_ColCupLeakTotal_v1r0"
   },
   "955136492": {
     "Variable Label": "Drink tap water, other",
@@ -24226,9 +24234,9 @@
     "Variable Label": "BL D/T Clin Blood Collection",
     "Variable Name": [
       "BioClin_ClinBloodTmBL_v1r0",
-      "BioClin_ClinBloodTmA1_v1r0",
-      "BioClin_ClinBloodTmF2_v1r0",
-      "BioClin_ClinBloodTmF3_v1r0"
+      "BioCol_ClinBloodTmA1_v1r0",
+      "BioCol_ClinBloodTmA2_v1r0",
+      "BioCol_ClinBloodTmA3_v1r0"
     ]
   },
   "982351269": {

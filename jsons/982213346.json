@@ -24,9 +24,9 @@
   "Variable Label": "BL D/T Clin Blood Collection",
   "Variable Name": [
     "BioClin_ClinBloodTmBL_v1r0",
-    "BioClin_ClinBloodTmA1_v1r0",
-    "BioClin_ClinBloodTmF2_v1r0",
-    "BioClin_ClinBloodTmF3_v1r0"
+    "BioCol_ClinBloodTmA1_v1r0",
+    "BioCol_ClinBloodTmA2_v1r0",
+    "BioCol_ClinBloodTmA3_v1r0"
   ],
   "Variable Type": "ISO",
   "Variable Length": "24",
@@ -42,5 +42,5 @@
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_982213346 (2nd CID will change depending on BL/F-U1,2,3)",
   "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_ClinBloodTime_v1r0 with BioClin_ClinBloodTmBL_v1r0",
   "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/25/26"
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "4/29/26"
 }

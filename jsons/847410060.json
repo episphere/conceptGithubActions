@@ -9,7 +9,7 @@
     "238268405.json"
   ],
   "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/25/26",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "4/29/26",
   "conceptId": "847410060",
   "Current Question Text": "Improper Packaging (i.e. missing cold packs, filler, etc)",
   "Variable Label": "Improper Packaging",
@@ -19,12 +19,11 @@
   "Variable Type": "Num",
   "Variable Length": "1",
   "PII": "No",
-  "Notes": "Previously added on 10/6/21; Marked as Revised on 3/9/26 - Updated Current Question Text to Improper Packaging (i.e. missing cold packs, filler, etc)",
-  "Derivation Notes": "Default to No upon package receipt ('Shipment Received - Site Shipment'= Yes) if this condition is not selected",
+  "Notes": "Previously added on 10/6/21; Updated Current Question Text to Improper Packaging (i.e. missing cold packs, filler, etc) (3/9/26); Deleted Derivation Notes and moved text to Notes column: Default value = No; Default value set upon package receipt ('Shipment Received - Site Shipment' (CID: 333524031) = Yes) if this condition is not selected (4/2/26)",
   "Dictionary": "BPTL",
   "State Attribute": "No",
   "Default Variable": "Yes",
-  "Date added or modified": "3/9/26",
+  "Date added or modified": "4/2/26",
   "GCP Document/Table": "Boxes Table Nested structure: d_238268405_d_847410060",
   "Formula for Index": [
     "2936",

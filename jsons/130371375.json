@@ -2,6 +2,7 @@
   "conceptId": "130371375",
   "Current Question Text": "Payment Round",
   "subcollections": [
+    "130371375.json",
     "731498909.json",
     "787567527.json",
     "222373868.json",
@@ -16,34 +17,35 @@
     "332961895.json"
   ],
   "Secondary Source": [
-    "117044491.json"
+    "130371375.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "4/29/26",
   "Variable Label": "Payment Round",
   "Variable Name": [
-    "SMPaym_Round_v1r0"
+    "SMPay_Round_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Payment attributes are nested under the responses for this variable and are defaulted to No when we receive the studyId for active recruits or when a passive recruit signs in.  UoC will send payment variables through the updateParticipantData API, NORC will send them through the NORC API",
+  "Notes": "Payment attributes are nested under the responses for this variable and are defaulted to No when we receive the studyId for active recruits or when a passive recruit signs in.  UoC will send payment variables through the updateParticipantData API, NORC will send them through the NORC API; Previously added on 4/13/22; Updated Secondary Source from \"\"Payment\"\" to \"\"Payment Round\"\", Updated variable pre-fix from \"\"SMPaym\"\" to \"\"SMPay\"\" to align with 6 character standardization (4/2/26)",
   "Dictionary": "Study Manager Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "Yes",
-  "Date added or modified": "4/13/22",
-  "GCP Document/Table": "Participants Table Nested structure: d_130371375_d_BL/F-U1,2,3_d_PaymentVar",
-  "IMS Review Notes": "removed quotation marks",
+  "Date added or modified": "4/2/26",
+  "GCP Document/Table": "Participants Table Nested structure: d_130371375_d_BL/A1,2,3_d_PaymentVar",
   "Formula for Index": [
+    "2646",
     "2647",
     "2648",
-    "2649",
-    "2650"
+    "2649"
   ],
   "Index": [
+    "2646",
     "2647",
     "2648",
-    "2649",
-    "2650"
+    "2649"
   ],
   "Current Format/Value": {
     "266600170.json": "0",

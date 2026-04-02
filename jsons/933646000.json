@@ -8,6 +8,8 @@
   "Current Source Question": [
     "238268405.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "4/29/26",
   "conceptId": "933646000",
   "Current Question Text": "Other- Package Condition",
   "Variable Label": "Oth",
@@ -17,20 +19,20 @@
   "Variable Type": "Num",
   "Variable Length": "1",
   "PII": "No",
-  "Derivation Notes": "Default to No upon package receipt ('Shipment Received - Site Shipment'= Yes) if this condition is not selected",
+  "Notes": "Previously added on 10/6/21; Deleted Derivation Notes and moved text to Notes column: Default value = No; Default value set upon package receipt ('Shipment Received - Site Shipment' (CID: 333524031) = Yes) if this condition is not selected (4/2/26)",
   "Dictionary": "BPTL",
   "State Attribute": "No",
   "Default Variable": "Yes",
-  "Date added or modified": "10/6/21",
+  "Date added or modified": "4/2/26",
   "GCP Document/Table": "Boxes Table Nested structure: d_238268405_d_933646000",
   "Question Type": "Concept ID not assigned here yet, but need to make question text: Other, unique",
   "Formula for Index": [
-    "2957",
-    "2958"
+    "2954",
+    "2955"
   ],
   "Index": [
-    "2957",
-    "2958"
+    "2954",
+    "2955"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

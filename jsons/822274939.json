@@ -1,46 +1,37 @@
 {
-  "Formula for Index": "2199",
-  "Index": "2199",
+  "Formula for Index": "2200",
+  "Index": "2200",
   "Primary Source": [
-    "819848608.json",
-    "819848608.json",
     "819848608.json",
     "819848608.json"
   ],
   "Secondary Source": [
     "173836415.json",
-    "173836415.json",
-    "173836415.json",
     "173836415.json"
   ],
   "Current Source Question": [
-    "266600170.json",
-    "496823485.json",
     "650465111.json",
     "303552867.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "4/29/26",
   "conceptId": "822274939",
-  "Current Question Text": "Clinical Site Blood RRL Date / Time Received",
-  "Variable Label": "BL Clin Site Blood RRL D/T Rec",
+  "Current Question Text": "Date/Time Clinical Site Blood RRL Received",
+  "Variable Label": "A2 D/T Clin Site Blood RRL Rec",
   "Variable Name": [
-    "BioClin_SiteBldRRLDtBL_v1r0",
-    "BioClin_SiteBldRRLDtA1_v1r0",
-    "BioClin_SiteBldRRLDtF2_v1r0",
-    "BioClin_SiteBldRRLDtF3_v1r0"
+    "BioClin_SiteBldRRLDtA2_v1r0",
+    "BioClin_SiteBldRRLDtA3_v1r0"
   ],
   "Variable Type": "ISO",
   "Variable Length": "24",
   "Current Format/Value": "Example: 2020-07-17T15:21:26.763Z",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "from site EMR, sent to NCI via API",
+  "Notes": "from site EMR, sent to NCI via API; Previously added on 3/21/24; Updated Current Source Question from \"\"Follow-up\"\" to \"\"Activity\"\", Updated Variable Label and Variable Name from \"\"F\"\" to \"\"A\"\", Updated CQT from \"\"Clinical Site Blood RRL Date / Time Received\"\" (4/2/26)",
   "Derivation Notes": "Required = Yes, if BioClin_SiteBloodRRL_v1r0 = 1",
   "Dictionary": "Biospecimen Clinical",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "3/21/24",
-  "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_822274939 (2nd CID may change based on BL/F-U1,2,3)",
-  "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_SiteBloodRRLDt_v1r0 with BioClin_SiteBldRRLDtBL_v1r0",
-  "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/25/26"
+  "Date added or modified": "4/2/26",
+  "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_822274939 (2nd CID may change based on BL/A1,2,3)"
 }

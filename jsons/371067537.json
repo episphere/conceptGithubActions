@@ -8,8 +8,8 @@
     "332759827.json"
   ],
   "conceptId": "371067537",
-  "Current Question Text": "Date of Birth derived from concatenating: RcrtUP_MOB_v1r0, RcrtUP_BD_v1r0, RcrtUP_YOB_v1r0",
-  "Variable Label": "DOB",
+  "Current Question Text": "Date of Birth - Derived",
+  "Variable Label": "DOB - Derived",
   "Variable Name": [
     "RcrtUP_DOB_v1r0"
   ],
@@ -18,6 +18,7 @@
   "Current Format/Value": "yyyymmdd",
   "Required": "Yes",
   "PII": "Yes",
+  "Derivation Notes": "Date of Birth derived from concatenating: RcrtUP_MOB_v1r0, RcrtUP_BD_v1r0, RcrtUP_YOB_v1r0",
   "Dictionary": "Recruitment Data Dictionary, Biospecimen Clinical, Biospecimen Research",
   "State Attribute": "No",
   "Default Variable": "No",
