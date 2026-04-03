@@ -12,8 +12,7 @@
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "4/29/26",
   "conceptId": "954880590",
   "Current Question Text": "Collection Cup Leaked - Total Sample Loss - Site Collections",
-  "V2 Question Text": "Collection Cup Leaked - Total Sample Loss - SC",
-  "Variable Label": "BioBPTL_ColCupLeakTotal_v1r0",
+  "Variable Label": "Collection Cup Leaked - Total Sample Loss - SC",
   "Variable Type": "Num",
   "Variable Length": "1",
   "PII": "No",
@@ -29,6 +28,12 @@
   "Index": [
     "2956",
     "2957"
+  ],
+  "Variable Name": [
+    [
+      "BioBPTL_ColCupLeakTotal_v1r0",
+      "BioBPTL_ColCupLeakPart_v1r0"
+    ]
   ],
   "Current Format/Value": {
     "104430631.json": "0",
