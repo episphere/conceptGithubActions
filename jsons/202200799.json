@@ -1,0 +1,25 @@
+{
+  "Formula for Index": "11706",
+  "Index": "11706",
+  "Primary Source": [
+    "942936609.json"
+  ],
+  "Secondary Source": [
+    "218382402.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "5/28/26",
+  "conceptId": "202200799",
+  "Current Question Text": "Geocoded - State Abbreviation",
+  "Variable Label": "State Abbreviation",
+  "Variable Name": [
+    "GeoNORC_StateAbbr_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "2",
+  "Current Format/Value": "Example: MD",
+  "PII": "Yes",
+  "Notes": "New variable pushed to prod on 5/28/26: Cleaned state from geocoding process, blank for Zip and None precisions",
+  "Default Variable": "No",
+  "Date added or modified": "5/1/26"
+}

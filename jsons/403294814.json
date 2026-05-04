@@ -1,0 +1,25 @@
+{
+  "Formula for Index": "11701",
+  "Index": "11701",
+  "Primary Source": [
+    "942936609.json"
+  ],
+  "Secondary Source": [
+    "218382402.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "5/28/26",
+  "conceptId": "403294814",
+  "Current Question Text": "Geocoded - TIGER source data year",
+  "Variable Label": "TIGER data year",
+  "Variable Name": [
+    "GeoNORC_TIGERYear_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "4",
+  "Current Format/Value": "yyyy",
+  "PII": "No",
+  "Notes": "New variable pushed to prod on 5/28/26: This is the year of TIGER data used as the source for geocoding",
+  "Default Variable": "No",
+  "Date added or modified": "5/1/26"
+}

@@ -1,0 +1,25 @@
+{
+  "Formula for Index": "11700",
+  "Index": "11700",
+  "Primary Source": [
+    "942936609.json"
+  ],
+  "Secondary Source": [
+    "218382402.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "5/28/26",
+  "conceptId": "758212868",
+  "Current Question Text": "NORC Internal geocoded address ID",
+  "Variable Label": "NORC internal geocoded address ID",
+  "Variable Name": [
+    "GeoNORC_AddressID_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "5",
+  "Current Format/Value": "Example: 1 - 20000",
+  "PII": "No",
+  "Notes": "New variable pushed to prod on 5/28/26: This is an internal address ID assigned by NORC during the geocoding process to be used to diagnose issues with specific addresses",
+  "Default Variable": "No",
+  "Date added or modified": "5/1/26"
+}

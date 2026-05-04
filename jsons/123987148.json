@@ -1,0 +1,40 @@
+{
+  "Primary Source": [
+    "942936609.json"
+  ],
+  "Secondary Source": [
+    "218382402.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "5/28/26",
+  "conceptId": "123987148",
+  "Current Question Text": "Address multimatch indicator",
+  "Variable Label": "Address multimatch indicator",
+  "Variable Name": [
+    "GeoNORC_AddMultMatchInd_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "PII": "No",
+  "Notes": "New variable pushed to prod on 5/28/26: Address multimatch indicator equals 1 if address cleaner identified multiple plausible match candidates or equals 0 if single match",
+  "Formula for Index": [
+    "11713",
+    "11714"
+  ],
+  "Index": [
+    "11713",
+    "11714"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  },
+  "Default Variable": [
+    "No",
+    "No"
+  ],
+  "Date added or modified": [
+    "5/1/26",
+    "5/1/26"
+  ]
+}

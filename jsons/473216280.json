@@ -1,0 +1,25 @@
+{
+  "Formula for Index": "11715",
+  "Index": "11715",
+  "Primary Source": [
+    "942936609.json"
+  ],
+  "Secondary Source": [
+    "218382402.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "5/28/26",
+  "conceptId": "473216280",
+  "Current Question Text": "Address multimatch method",
+  "Variable Label": "Address multimatch method",
+  "Variable Name": [
+    "GeoNORC_AddMultMatchMeth_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "9",
+  "Current Format/Value": "Example: Precision, Random",
+  "PII": "No",
+  "Notes": "New variable pushed to prod on 5/28/26: If Address multimatch method equals 'Precision' then the multimatch was resolved by selecting the highest precisions match, using the hierarchy: street precision > ZIP > City > Street > Segment; If equals 'Random' then the multimatch was resolved by randomly selecting a candidate, using all candidates of equal precision",
+  "Default Variable": "No",
+  "Date added or modified": "5/1/26"
+}
