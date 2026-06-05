@@ -1,4 +1,40 @@
 {
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "506648060.json",
+    "506648060.json"
+  ],
+  "Current Source Question": [
+    "394328384.json",
+    "496748977.json"
+  ],
   "conceptId": "104430631",
-  "Current Question Text": "No"
+  "Current Question Text": "0 = No",
+  "Variable Label": "Connect communications - No",
+  "Variable Name": [
+    "SrvPES_COMM3_v1r0",
+    "SrvPES_BIOSURV5_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "2024 Connect Experience Survey",
+  "Question Type": "Text Box Plus Check Box",
+  "IMS Review Notes": "Updated Current question text. Changed Connect value to full variable name.  Added  SOURCE to source question.. Added SRC to GridID/Source Question Name. Removed current question text conceptID. Added underscore before SRC in the source question name. Added prod push date. Moved the Current Format/Value text and concept ID to the Current Question Text columns and added Yes, No to the format/value column.",
+  "Formula for Index": [
+    "10423",
+    "10424"
+  ],
+  "Index": [
+    "10423",
+    "10424"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
 }

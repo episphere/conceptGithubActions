@@ -1,4 +1,59 @@
 {
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json",
+    "716117817.json",
+    "716117817.json",
+    "716117817.json",
+    "716117817.json",
+    "716117817.json",
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "728155643.json",
+    "380621340.json",
+    "999694720.json",
+    "849066624.json",
+    "529608184.json",
+    "450154625.json",
+    "964437163.json"
+  ],
   "conceptId": "678602069",
-  "Current Question Text": "I still live here"
+  "Current Question Text": "0 = I still live here",
+  "Variable Label": "Still live here",
+  "Variable Name": [
+    "SrvLAW_StillLiveHere_v1r0",
+    "SrvLAW_StillLiveHere2_v1r0",
+    "SrvLAW_StillLiveHere3_v1r0",
+    "SrvLAW_StillLiveHere4_v1r0",
+    "SrvLAW_StillLiveHere6_v1r0",
+    "SrvLAW_StillLiveHere9_v1r0",
+    "SrvLAW_StillLiveHere11_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "2/4/22",
+  "IMS Review Notes": "Moved the Current Format/Value text and concept ID to the Current Question Text columns and added Yes, No to the format/value column.",
+  "Formula for Index": [
+    "7538",
+    "7539"
+  ],
+  "Index": [
+    "7538",
+    "7539"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
 }

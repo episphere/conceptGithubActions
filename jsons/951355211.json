@@ -15,7 +15,6 @@
   "Variable Length": "2",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "0 equals Default for UoC, 1 equals Default for Marshfield, 2 equals Alt for Marshfield, 3 equals Default for HealthPartners, 4equals Default for Henry Ford, 5equals Alt for Henry Ford, 6equals Default for Sanford, 7equals Default for MOL, 55equals Other. Sent by KP. The new collection locations for UChicago are Ingalls Harvey, River East, and South Loop. The new collection locations for Marshfield are Rice Lake, Wisconsin Rapids, and Colby Abbotsford, Minocqua, and Merrill. The new collection location for Sanford is Fargo South University",
   "Dictionary": "Biospecimen Research",
   "State Attribute": "No",
   "Default Variable": "Yes",
@@ -66,7 +65,10 @@
     "2085",
     "2086",
     "2087",
-    "2088"
+    "2088",
+    "2089",
+    "2090",
+    "2091"
   ],
   "Index": [
     "2042",
@@ -114,7 +116,10 @@
     "2085",
     "2086",
     "2087",
-    "2088"
+    "2088",
+    "2089",
+    "2090",
+    "2091"
   ],
   "Current Format/Value": {
     "777644826.json": "0",
@@ -162,6 +167,9 @@
     "749199085.json": "43",
     "603989030.json": "44",
     "471260082.json": "45",
+    "528017143.json": "46",
+    "253098609.json": "47",
+    "864987193.json": "48",
     "807835037.json": "55"
   },
   "Deprecated, New, or Revised": [
@@ -173,6 +181,9 @@
     "New",
     "New",
     "Revised",
+    "New",
+    "New",
+    "New",
     "New",
     "New",
     "New",
@@ -196,6 +207,15 @@
     "11/7/25",
     "6/6/25",
     "11/7/25",
-    "11/7/25"
+    "11/7/25",
+    "6/5/26",
+    "6/5/26",
+    "6/5/26"
+  ],
+  "Notes": [
+    "0 equals Default for UoC, 1 equals Default for Marshfield, 2 equals Alt for Marshfield, 3 equals Default for HealthPartners, 4equals Default for Henry Ford, 5equals Alt for Henry Ford, 6equals Default for Sanford, 7equals Default for MOL, 55equals Other. Sent by KP. The new collection locations for UChicago are Ingalls Harvey, River East, and South Loop. The new collection locations for Marshfield are Rice Lake, Wisconsin Rapids, and Colby Abbotsford, Minocqua, and Merrill. The new collection location for Sanford is Fargo South University",
+    "Revised (6/5/26): Added 46 = Southwest Family Medicine; 47 = Grapevine; 48 = Plano Heart as response options",
+    "Revised (6/5/26): Added 46 = Southwest Family Medicine; 47 = Grapevine; 48 = Plano Heart as response options",
+    "Revised (6/5/26): Added 46 = Southwest Family Medicine; 47 = Grapevine; 48 = Plano Heart as response options"
   ]
 }

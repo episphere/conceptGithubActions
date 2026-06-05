@@ -1,8 +1,62 @@
 {
   "conceptId": "933017499",
-  "Current Question Text": "Address 6- What [is/was] the main source of water that you [drink/drank] at [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank]. - SOURCE",
+  "Current Question Text": "Address 6- What [is/was] the main source of water that you [drink/drank] at [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank].",
   "subcollections": [
+    "933017499.json",
     "502877419.json",
     "980497607.json"
-  ]
+  ],
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json",
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "933017499.json",
+    "933017499.json"
+  ],
+  "Variable Label": "Primary water source",
+  "Variable Name": [
+    "SrvLAW_6PrimaryWater2_v2r0",
+    "SrvLAW_6PrimaryWater2_v2r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "IMS Review Notes": "Unharmonized source question from question text, versioned up the variable name, and updated the variable length.",
+  "Formula for Index": [
+    "7769",
+    "7770",
+    "7771",
+    "7772",
+    "7773",
+    "7774",
+    "7775",
+    "7776"
+  ],
+  "Index": [
+    "7769",
+    "7770",
+    "7771",
+    "7772",
+    "7773",
+    "7774",
+    "7775",
+    "7776"
+  ],
+  "Current Format/Value": {
+    "123108471.json": "0",
+    "463122075.json": "1",
+    "254061941.json": "2",
+    "404651070.json": "3",
+    "354856090.json": "4",
+    "311981718.json": "5",
+    "807835037.json": "55",
+    "178420302.json": "77"
+  },
+  "Deprecated, New, or Revised": "Revised"
 }

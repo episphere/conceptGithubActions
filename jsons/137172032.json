@@ -1,0 +1,24 @@
+{
+  "Formula for Index": "3348",
+  "Index": "3348",
+  "Primary Source": [
+    "290739590.json"
+  ],
+  "Secondary Source": [
+    "666892582.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "137172032",
+  "Current Question Text": "sid: Twilio SID for an incoming SMS message received by the study Twilio number",
+  "Variable Label": "Incoming SMS Message SID",
+  "Variable Name": [
+    "CTTwil_InSMSSID_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "34",
+  "Current Format/Value": "E.g., SM607e3cabb8f58cf4f91459edd0886cc9",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "6/5/26",
+  "GCP Document/Table": "incomingSMS"
+}

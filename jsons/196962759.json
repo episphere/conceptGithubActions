@@ -1,4 +1,51 @@
 {
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json",
+    "716117817.json",
+    "716117817.json",
+    "716117817.json",
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "975198123.json",
+    "778495585.json",
+    "829751791.json",
+    "613251957.json",
+    "437395872.json"
+  ],
   "conceptId": "196962759",
-  "Current Question Text": "I still spend time here"
+  "Current Question Text": "0 = I still spend time here",
+  "Variable Label": "Last spent time at this address, still spend time",
+  "Variable Name": [
+    "SrvLAW_SeasAdd2_1_Curr_v1r0",
+    "SrvLAW_SeasAdd2_2_Curr_v1r0",
+    "SrvLAW_SeasAdd2_3_Curr_v1r0",
+    "SrvLAW_SeasAdd2_8_Curr_v1r0",
+    "SrvLAW_SeasAdd2_9_Curr_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "2/4/22",
+  "IMS Review Notes": "removed quotation marks Moved the Current Format/Value text and concept ID to the Current Question Text columns and added Yes, No to the format/value column.",
+  "Formula for Index": [
+    "8157",
+    "8158"
+  ],
+  "Index": [
+    "8157",
+    "8158"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
 }

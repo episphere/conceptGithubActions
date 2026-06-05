@@ -15,7 +15,7 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Sent as part of the verification table from the IHCS. Only works on the first send. If the site sends it more than once, it has no impact on recruit type after the first time",
+  "Notes": "Sent as part of the verification table from the IHCS. Only works on the first send. If the site sends it more than once, it has no impact on recruit type after the first time; Added to Notes (5/28/2026) - Sites are now allowed to send 'Update recruit type' more than once. If updated multiple times, the latest value replaces the previous value",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "Yes",
   "Default Variable": "No",

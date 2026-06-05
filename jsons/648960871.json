@@ -1,4 +1,66 @@
 {
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "745268907.json",
+    "965707586.json",
+    "965707586.json",
+    "965707586.json",
+    "965707586.json",
+    "965707586.json",
+    "965707586.json",
+    "965707586.json",
+    "965707586.json"
+  ],
+  "Current Source Question": [
+    "496539718.json",
+    "790436165.json",
+    "814115676.json",
+    "116080663.json",
+    "378254382.json",
+    "942945860.json",
+    "653198444.json",
+    "742254559.json",
+    "556837046.json"
+  ],
   "conceptId": "648960871",
-  "Current Question Text": "Never"
+  "Current Question Text": "44 = Never",
+  "Variable Label": "Age First Period, Never",
+  "Variable Name": [
+    "SrvMRE_FirstPeriAgeNH_v2r0",
+    "SrvSAS_NeverSmokedReg_v2r0",
+    "SrvSAS_NeverSmoked_v2r0",
+    "SrvSAS_NeverSmokeMJ_v2r1",
+    "SrvSAS_NeverSmokeReg_v2r1",
+    "SrvSAS_NeverEMJDev_v2r1",
+    "SrvSAS_EdiblesNever_v2r1",
+    "SrvSAS_NeverTHC_v2r1",
+    "SrvSAS_NeverAlcReg_v2r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "IMS Review Notes": "Unharmonized source question from question text and versioned up variable name. Moved the Current Format/Value text and concept ID to the Current Question Text columns and added Yes, No to the format/value column.",
+  "Formula for Index": [
+    "5095",
+    "5096"
+  ],
+  "Index": [
+    "5095",
+    "5096"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
 }

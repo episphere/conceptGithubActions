@@ -1,8 +1,58 @@
 {
   "conceptId": "886084185",
-  "Current Question Text": "Please choose the reason that best describes why you have not completed all the sections in the first survey: - SOURCE",
+  "Current Question Text": "Please choose the reason that best describes why you have not completed all the sections in the first survey:",
   "subcollections": [
+    "886084185.json",
     "814873539.json",
     "126388230.json"
-  ]
+  ],
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "506648060.json",
+    "506648060.json"
+  ],
+  "Current Source Question": [
+    "886084185.json",
+    "886084185.json"
+  ],
+  "Variable Label": "Why baseline survey not completed",
+  "Variable Name": [
+    "SrvPES_BASELINE2_v1r0",
+    "SrvPES_BASELINE2_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Dictionary": "2024 Connect Experience Survey",
+  "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
+  "IMS Review Notes": "Changed Connect Value to full Variable Name.  Added  SOURCE to source question.. Added SRC to GridID/Source Question Name. Removed current question text conceptID. Added underscore before SRC in the source question name. Added prod push date.",
+  "Formula for Index": [
+    "10429",
+    "10430",
+    "10431",
+    "10432",
+    "10433",
+    "10434"
+  ],
+  "Index": [
+    "10429",
+    "10430",
+    "10431",
+    "10432",
+    "10433",
+    "10434"
+  ],
+  "Current Format/Value": {
+    "117258272.json": "0",
+    "773860876.json": "1",
+    "551201830.json": "2",
+    "205790732.json": "3",
+    "701389038.json": "4",
+    "807835037.json": "55"
+  },
+  "Deprecated, New, or Revised": "Revised"
 }

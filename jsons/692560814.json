@@ -17,21 +17,21 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Status flag will remain null in the system for prospective participants until they are autoset to 'not started' at time of verification; Not yet eligible will be set manually for the backlog. For participants verified more than 180 days before launch and not withdrawn, we will move this participant from 'not yet eligible' to 'not started' manually in batches when we want to launch the survey to them; Both‚ Not Yet Eligible‚ and Not Started will be set by C4CPDS; Submitted status will be set by the DHQ research platform and pulled back via an API call on regular basis. Edited to be consistent w/ other survey flags for 'flag' and 'surv' (9/3/2025); Variable revised on 3/9/26: Made a default variable on 2/25/2026; Default variable value = '0 = Not Started'; Added to the notes (5/1/26): A null value for this survey means that the participant is not eligible for the survey. The SMDB will display a \"\"Not Eligible\"\" survey status instead of a null \"\"blank\"\" value for ease of review by staff.",
+  "Notes": "Status flag will remain null in the system for prospective participants until they are autoset to 'not started' at time of verification; Not yet eligible will be set manually for the backlog. For participants verified more than 180 days before launch and not withdrawn, we will move this participant from 'not yet eligible' to 'not started' manually in batches when we want to launch the survey to them; Both‚Äö Not Yet Eligible‚Äö and Not Started will be set by C4CPDS; Submitted status will be set by the DHQ research platform and pulled back via an API call on regular basis. Edited to be consistent w/ other survey flags for 'flag' and 'surv' (9/3/2025); Variable revised on 3/9/26: Made a default variable on 2/25/2026; Default variable value = '0 = Not Started'; Added to the notes (5/1/26): A null value for this survey means that the participant is not eligible for the survey. The SMDB will display a \"\"Not Eligible\"\" survey status instead of a null \"\"blank\"\" value for ease of review by staff.",
   "Dictionary": "DHQ-III Survey",
   "Default Variable": "Yes",
   "Date added or modified": "5/1/26",
   "Formula for Index": [
-    "11575",
-    "11576",
-    "11577",
-    "11578"
+    "12037",
+    "12038",
+    "12039",
+    "12040"
   ],
   "Index": [
-    "11575",
-    "11576",
-    "11577",
-    "11578"
+    "12037",
+    "12038",
+    "12039",
+    "12040"
   ],
   "Current Format/Value": {
     "972455046.json": "0",

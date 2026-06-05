@@ -2,7 +2,61 @@
   "conceptId": "149476435",
   "Current Question Text": "Seasonal Address 3- What [is/was] the main source of water that you [drink/drank] at [insert address insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? Please think about water you used to make drinks such as coffee and tea, and  plain water that you  [drink/drank].",
   "subcollections": [
+    "149476435.json",
     "526578016.json",
     "708136662.json"
-  ]
+  ],
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json",
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "149476435.json",
+    "149476435.json"
+  ],
+  "Variable Label": "Primary water source",
+  "Variable Name": [
+    "SrvLAW_SeaAdd3PrWater2_v2r0",
+    "SrvLAW_SeaAdd3PrWater2_v2r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "IMS Review Notes": "Unharmonized source question from question text, versioned up variable name, and updated variable length.",
+  "Formula for Index": [
+    "8310",
+    "8311",
+    "8312",
+    "8313",
+    "8314",
+    "8315",
+    "8316",
+    "8317"
+  ],
+  "Index": [
+    "8310",
+    "8311",
+    "8312",
+    "8313",
+    "8314",
+    "8315",
+    "8316",
+    "8317"
+  ],
+  "Current Format/Value": {
+    "123108471.json": "0",
+    "463122075.json": "1",
+    "254061941.json": "2",
+    "404651070.json": "3",
+    "354856090.json": "4",
+    "311981718.json": "5",
+    "807835037.json": "55",
+    "178420302.json": "77"
+  },
+  "Deprecated, New, or Revised": "Revised"
 }

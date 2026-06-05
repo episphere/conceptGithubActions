@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "5223",
-  "Index": "5223",
+  "Formula for Index": "5268",
+  "Index": "5268",
   "Primary Source": [
     "129084651.json",
     "129084651.json",
@@ -97,7 +97,7 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if HORMED= 0. min=0 max=sum(isDefined(D_150344905,age),1). Updated range check max=age",
+  "Notes": "Only display if HORMED= 0. min=0 max=sum(isDefined(D_150344905,age),1). Updated range check max=age; Added to notes (5/21/26): All entries under D_597869478_D_597869478_num were moved to D_597869478_D_970604592 via a prod manual change for Module2_v1 and Module2_v2",
   "Date added or modified": "8/28/23",
   "IMS Review Notes": "Added range check to Notes."
 }

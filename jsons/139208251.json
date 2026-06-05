@@ -1,6 +1,4 @@
 {
-  "conceptId": "139208251",
-  "Current Question Text": "I still live there",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,6 +8,8 @@
   "Current Source Question": [
     "752015272.json"
   ],
+  "conceptId": "139208251",
+  "Current Question Text": "I still live there",
   "Variable Label": "I still live there",
   "Variable Name": [
     "SrvLAW_ChildHomeCurr_v1r0"
@@ -18,17 +18,18 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "3/10/22",
+  "Date added or modified": "44630",
+  "IMS Review Notes": "Moved unavailable/unknown from the Current Format/Value column to its own row and updated the responses to yes/no",
   "Formula for Index": [
-    "8226",
-    "8227"
+    "8608",
+    "8609"
   ],
   "Index": [
-    "8226",
-    "8227"
+    "8608",
+    "8609"
   ],
   "Current Format/Value": {
-    "139208251.json": "0",
-    "178420302.json": "77"
+    "104430631.json": "0",
+    "353358909.json": "1"
   }
 }

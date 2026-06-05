@@ -1,0 +1,24 @@
+{
+  "Formula for Index": "3350",
+  "Index": "3350",
+  "Primary Source": [
+    "290739590.json"
+  ],
+  "Secondary Source": [
+    "666892582.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "193005138",
+  "Current Question Text": "to: Study/Twilio phone number that received the incoming SMS message",
+  "Variable Label": "Incoming SMS Twilio Recipient Phone",
+  "Variable Name": [
+    "CTTwil_InSMSTo_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "15",
+  "Current Format/Value": "E.g., +1301******6",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "6/5/26",
+  "GCP Document/Table": "incomingSMS"
+}

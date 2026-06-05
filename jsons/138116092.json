@@ -1,8 +1,57 @@
 {
   "conceptId": "138116092",
-  "Current Question Text": "In a usual week, about how often do you use tap water from your home to make a cup of hot tea? We are interested in all tap water, whether or not it has been filtered or treated. - SOURCE",
+  "Current Question Text": "In a usual week, about how often do you use tap water from your home to make a cup of hot tea? We are interested in all tap water, whether or not it has been filtered or treated.",
   "subcollections": [
+    "138116092.json",
     "786760753.json",
     "386624051.json"
-  ]
+  ],
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "716117817.json",
+    "716117817.json"
+  ],
+  "Current Source Question": [
+    "138116092.json",
+    "138116092.json"
+  ],
+  "Variable Label": "Drink tap water, hot tea",
+  "Variable Name": [
+    "SrvLAW_TapWaterTea_v3r0",
+    "SrvLAW_TapWaterTea_v3r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Revision pushed to production on 7/5/2023.",
+  "IMS Review Notes": "Updated source question, question text, variable name suffix, and denoted as revised. Unharmonized source question from question text, versioned up variable name, and added previous revision date to the notes column.",
+  "Formula for Index": [
+    "8677",
+    "8678",
+    "8679",
+    "8680",
+    "8681",
+    "8682"
+  ],
+  "Index": [
+    "8677",
+    "8678",
+    "8679",
+    "8680",
+    "8681",
+    "8682"
+  ],
+  "Current Format/Value": {
+    "706062016.json": "0",
+    "594557208.json": "1",
+    "471294296.json": "2",
+    "198347104.json": "3",
+    "693256778.json": "4",
+    "703370365.json": "5"
+  },
+  "Deprecated, New, or Revised": "Revised"
 }

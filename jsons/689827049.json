@@ -1,0 +1,37 @@
+{
+  "Primary Source": [
+    "290739590.json"
+  ],
+  "Secondary Source": [
+    "666892582.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "689827049",
+  "Current Question Text": "optOutType: Twilio opt-out/help event type detected from an incoming SMS message",
+  "Variable Label": "Incoming SMS Opt-Out Event",
+  "Variable Name": [
+    "CTTwil_InSMSOptOutType_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Twilio will automatically code messages containing words like 'Unsubscribe', 'Subscribe', etc. to one of the three pre-defined categories: START, STOP, or HELP",
+  "Date added or modified": "6/5/26",
+  "GCP Document/Table": "incomingSMS",
+  "Formula for Index": [
+    "3353",
+    "3354",
+    "3355"
+  ],
+  "Index": [
+    "3353",
+    "3354",
+    "3355"
+  ],
+  "Current Format/Value": {
+    "897758920.json": "0",
+    "194274197.json": "1",
+    "227782304.json": "2"
+  }
+}

@@ -1,4 +1,40 @@
 {
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "726699695.json",
+    "726699695.json"
+  ],
+  "Current Source Question": [
+    "640010727.json",
+    "236590500.json"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "958239616",
-  "Current Question Text": "Less than 1 year"
+  "Current Question Text": "0 = Less than 1 year",
+  "Variable Label": "Child 1 Age, Oth",
+  "Variable Name": [
+    "SrvBOH_Child1AgeOther_v2r0",
+    "SrvBOH_Chi1DeathAgeOther_v2r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Question Type": "Text Box Plus Check Box, Loops",
+  "IMS Review Notes": "Unharmonized source question and question text and versioned up variable name. Moved the Current Format/Value and concept ID to the Current Question Text and added yes/no to Current Format/Value.",
+  "Formula for Index": [
+    "4560",
+    "4561"
+  ],
+  "Index": [
+    "4560",
+    "4561"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
 }

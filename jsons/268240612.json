@@ -1,8 +1,53 @@
 {
   "conceptId": "268240612",
-  "Current Question Text": "Why [do/did] you vape cannabis? - SOURCE",
+  "Current Question Text": "Why [do/did] you vape cannabis?",
   "subcollections": [
+    "268240612.json",
     "359066098.json",
     "531654334.json"
-  ]
+  ],
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json",
+    "965707586.json"
+  ],
+  "Current Source Question": [
+    "268240612.json",
+    "268240612.json"
+  ],
+  "Variable Label": "Why use electronic marijuana delivery devices that can be vaped",
+  "Variable Name": [
+    "SrvSAS_WhyUseEMJDev_v2r0",
+    "SrvSAS_WhyUseEMJDev_v2r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "IMS Review Notes": "Updated source question and question text. Unharmonized source question from question text. Added prod push date.",
+  "Formula for Index": [
+    "6838",
+    "6839",
+    "6840",
+    "6841",
+    "6842"
+  ],
+  "Index": [
+    "6838",
+    "6839",
+    "6840",
+    "6841",
+    "6842"
+  ],
+  "Current Format/Value": {
+    "437269318.json": "0",
+    "838317013.json": "1",
+    "585672584.json": "2",
+    "807835037.json": "55",
+    "746038746.json": "99"
+  },
+  "Deprecated, New, or Revised": "Revised"
 }

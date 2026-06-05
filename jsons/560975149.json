@@ -15,20 +15,16 @@
   "Variable Length": "2",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Options will differ by site, drop down options will be populated using site login information",
   "Dictionary": "Biospecimen Shipping",
   "State Attribute": "No",
   "Default Variable": "No",
   "GCP Document/Table": "Boxes Table Not nested (d_560975149)",
   "Formula for Index": [
-    "2347",
-    "2348",
-    "2349",
     "2350",
     "2351",
+    "2352",
     "2353",
     "2354",
-    "2355",
     "2356",
     "2357",
     "2358",
@@ -69,17 +65,20 @@
     "2393",
     "2394",
     "2395",
-    "2396"
+    "2396",
+    "2397",
+    "2398",
+    "2399",
+    "2400",
+    "2401",
+    "2402"
   ],
   "Index": [
-    "2347",
-    "2348",
-    "2349",
     "2350",
     "2351",
+    "2352",
     "2353",
     "2354",
-    "2355",
     "2356",
     "2357",
     "2358",
@@ -120,7 +119,13 @@
     "2393",
     "2394",
     "2395",
-    "2396"
+    "2396",
+    "2397",
+    "2398",
+    "2399",
+    "2400",
+    "2401",
+    "2402"
   ],
   "Current Format/Value": {
     "777644826.json": "0",
@@ -171,10 +176,16 @@
     "574104518.json": "46",
     "749199085.json": "47",
     "603989030.json": "48",
-    "471260082.json": "49"
+    "471260082.json": "49",
+    "528017143.json": "50",
+    "253098609.json": "51",
+    "864987193.json": "52"
   },
   "Deprecated, New, or Revised": [
     "Revised",
+    "New",
+    "New",
+    "New",
     "New",
     "New",
     "New",
@@ -202,6 +213,15 @@
   "Date added or modified": [
     "11/7/25",
     "11/7/25",
-    "11/7/25"
+    "11/7/25",
+    "6/5/26",
+    "6/5/26",
+    "6/5/26"
+  ],
+  "Notes": [
+    "Options will differ by site, drop down options will be populated using site login information",
+    "Revised (6/5/26): Added 50 = Southwest Family Medicine; 51 = Grapevine; 52 = Plano Heart as response options",
+    "Revised (6/5/26): Added 50 = Southwest Family Medicine; 51 = Grapevine; 52 = Plano Heart as response options",
+    "Revised (6/5/26): Added 50 = Southwest Family Medicine; 51 = Grapevine; 52 = Plano Heart as response options"
   ]
 }

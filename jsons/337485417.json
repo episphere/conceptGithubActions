@@ -20,7 +20,7 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "Yes",
-  "Notes": "Will not be nested",
+  "Notes": "Will not be nested; Added to notes (6/5/26): State of Birth is  stored as a character (open text box) variable for Analytics to avoid generating 50+ CIDs; However, pt will see State as a dropdown menu, based on select allowable USPS API entries, to help  standardize data",
   "Dictionary": "Recruitment Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",

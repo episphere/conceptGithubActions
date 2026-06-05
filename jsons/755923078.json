@@ -1,8 +1,53 @@
 {
   "conceptId": "755923078",
-  "Current Question Text": "Why [do/did] you smoke a combination of cannabis with tobacco? - SOURCE",
+  "Current Question Text": "Why [do/did] you smoke a combination of cannabis with tobacco?",
   "subcollections": [
+    "755923078.json",
     "233510215.json",
     "459020144.json"
-  ]
+  ],
+  "Primary Source": [
+    "129084651.json",
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "965707586.json",
+    "965707586.json"
+  ],
+  "Current Source Question": [
+    "755923078.json",
+    "755923078.json"
+  ],
+  "Variable Label": "Why smoke marijuana",
+  "Variable Name": [
+    "SrvSAS_WhySmokeTobMJ_v2r0",
+    "SrvSAS_WhySmokeTobMJ_v2r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "IMS Review Notes": "Updated question text. Unharmonized source question from question text. Added prod push date.",
+  "Formula for Index": [
+    "6782",
+    "6783",
+    "6784",
+    "6785",
+    "6786"
+  ],
+  "Index": [
+    "6782",
+    "6783",
+    "6784",
+    "6785",
+    "6786"
+  ],
+  "Current Format/Value": {
+    "437269318.json": "0",
+    "838317013.json": "1",
+    "585672584.json": "2",
+    "807835037.json": "55",
+    "746038746.json": "99"
+  },
+  "Deprecated, New, or Revised": "Revised"
 }
