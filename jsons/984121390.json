@@ -3,39 +3,37 @@
     "129084651.json"
   ],
   "Secondary Source": [
-    "793330426.json"
+    "408693886.json"
   ],
+  "Current Source Question": [
+    "435597481.json"
+  ],
+  "GridID/Source Question Name": [
+    "SrvC19_Treatments_v1r0"
+  ],
+  "Deprecated, New, or Revised": "New",
   "conceptId": "984121390",
-  "Current Question Text": "While you were in the hospital the [first/2nd/3rd/etc.] time you had COVID-19, did you ever have a breathing tube or ventilator? If you are not sure, please make your best guess.",
-  "Variable Label": "Breathing Tube or Ventilator",
+  "Current Question Text": "A breathing tube or ventilator",
+  "Variable Label": "Breathing Tube - COVID",
   "Variable Name": [
-    "SrvCov_COV15A_v1r0"
+    "SrvC19_Ventilator_v1r0"
   ],
   "Variable Type": "Num",
-  "Variable Length": "2",
+  "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Dictionary": "Biospecimen Survey",
-  "State Attribute": "No",
-  "Date added or modified": "2/23/23",
-  "Question Type": "Optional Multiple Choice, Loops",
-  "IMS Review Notes": "Added COVID-19 Survey variables",
+  "Date added or modified": "6/8/26",
+  "Question Type": "Select all that apply",
   "Formula for Index": [
-    "10870",
-    "10871",
-    "10872"
+    "12341",
+    "12342"
   ],
   "Index": [
-    "10870",
-    "10871",
-    "10872"
+    "12341",
+    "12342"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
-    "353358909.json": "1",
-    "178420302.json": "77"
-  },
-  "Notes": [
-    "Harmonization - Questionnaire will still say: Don't Know"
-  ]
+    "353358909.json": "1"
+  }
 }

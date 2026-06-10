@@ -3,32 +3,30 @@
     "129084651.json"
   ],
   "Secondary Source": [
-    "793330426.json"
+    "408693886.json"
   ],
+  "Deprecated, New, or Revised": "New",
   "conceptId": "494226443",
   "Current Question Text": "Have you ever had COVID-19?",
-  "Variable Label": "COVID Infection",
+  "Variable Label": "COVID-19 Ever Infection",
   "Variable Name": [
-    "SrvCov_COV1_v1r0"
+    "SrvC19_EverInfection_v1r0"
   ],
   "Variable Type": "Num",
-  "Variable Length": "1",
+  "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Dictionary": "Biospecimen Survey",
-  "State Attribute": "No",
-  "Date added or modified": "2/23/23",
-  "Question Type": "Optional Multiple Choice",
-  "IMS Review Notes": "Added COVID-19 Survey variables",
+  "Date added or modified": "6/8/26",
+  "Question Type": "Multiple choice",
   "Formula for Index": [
-    "10797",
-    "10798",
-    "10799"
+    "12317",
+    "12318",
+    "12319"
   ],
   "Index": [
-    "10797",
-    "10798",
-    "10799"
+    "12317",
+    "12318",
+    "12319"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

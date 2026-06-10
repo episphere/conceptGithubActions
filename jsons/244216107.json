@@ -1,0 +1,37 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "242103797.json"
+  ],
+  "Current Source Question": [
+    "388069854.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "244216107",
+  "Current Question Text": "Treatment type - Chemotherapy",
+  "Variable Label": "Chemotherapy",
+  "Variable Name": [
+    "SrvCDx_TxChemo_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "Notes": "Conditionality: If Receiving Cancer Treatment = 1 = Yes",
+  "Date added or modified": "6/9/26",
+  "GCP Document/Table": "SelfReportCancerDx",
+  "Question Type": "Select All That Apply",
+  "Formula for Index": [
+    "12464",
+    "12465"
+  ],
+  "Index": [
+    "12464",
+    "12465"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

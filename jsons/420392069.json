@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "12472",
+  "Index": "12472",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "242103797.json"
+  ],
+  "Current Source Question": [
+    "388069854.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "420392069",
+  "Current Question Text": "Treatment type - Other - Describe",
+  "Variable Label": "Other - Describe",
+  "Variable Name": [
+    "SrvCDx_TxOtherDes_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "800",
+  "Current Format/Value": "N/A",
+  "Notes": "Conditionality: If Receiving Cancer Treatment = Yes AND Treatment Type – Other = 1 = Yes.",
+  "Date added or modified": "6/9/26",
+  "GCP Document/Table": "SelfReportCancerDx"
+}

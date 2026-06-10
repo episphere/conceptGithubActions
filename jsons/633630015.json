@@ -1,0 +1,33 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "242103797.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "633630015",
+  "Current Question Text": "Was this cancer detected through routine screening? I.e., CT scan (also called a low-dose computed tomography (CT) scan)",
+  "Variable Label": "Lung/Bronchial - CT scan",
+  "Variable Name": [
+    "SrvCDx_ScrnLungCT_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "Notes": "Displayed  only for Primary Cancer Site Diagnosis = 11 = Lung/bronchial",
+  "Date added or modified": "6/9/26",
+  "GCP Document/Table": "SelfReportCancerDx",
+  "Formula for Index": [
+    "12783",
+    "12784"
+  ],
+  "Index": [
+    "12783",
+    "12784"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

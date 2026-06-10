@@ -32,12 +32,13 @@
     "129084651.json",
     "129084651.json",
     "129084651.json",
+    "129084651.json",
     "Survey",
     "Survey",
     "129084651.json",
     "129084651.json",
     "129084651.json",
-    "129084651.json",
+    "Survey",
     "129084651.json"
   ],
   "Secondary Source": [
@@ -71,12 +72,13 @@
     "745268907.json",
     "965707586.json",
     "965707586.json",
+    "716117817.json",
     "Blood/Urine/Mouthwash",
     "Blood/Urine",
     "506648060.json",
     "506648060.json",
     "506648060.json",
-    "793330426.json",
+    "COVID-19",
     "369168474.json"
   ],
   "Current Source Question": [
@@ -110,12 +112,13 @@
     "629010195.json",
     "103566006.json",
     "789159346.json",
+    "831438612.json",
     "Did you have any of the following symptoms, the [first/2nd/3rd/etc.] time you had COVID-19? Select all that apply",
     "Did you have any of the following symptoms, the [first/2nd/3rd/etc.] time you had COVID-19? Select all that apply",
     "470013848.json",
     "731524314.json",
     "403175318.json",
-    "705336878.json",
+    "Did you have any of the following symptoms, the [first/2nd/3rd/etc.] time you had COVID-19? Select all that apply",
     "506456253.json"
   ],
   "Deprecated, New, or Revised": "Revised",
@@ -152,6 +155,7 @@
     "SrvMRE_OtherSATmt_v1r0",
     "SrvSAS_OtherCigar_v1r0",
     "SrvSAS_StopAlcOther_v1r0",
+    "SrvLAW_DrinksWtr1_Oth_v1r0",
     "SrvBlU_COV8S_v1r0",
     "SrvBlU_COV8S_v1r0",
     "SrvPES_PHONE2C_v1r0",
@@ -191,6 +195,7 @@
     "TRUE",
     "TRUE",
     "TRUE",
+    "",
     "TRUE",
     "TRUE",
     "TRUE",
@@ -206,12 +211,12 @@
   "Question Type": "Optional Select All that Apply",
   "IMS Review Notes": "Source question updated",
   "Formula for Index": [
-    "3400",
-    "3401"
+    "3399",
+    "3400"
   ],
   "Index": [
-    "3400",
-    "3401"
+    "3399",
+    "3400"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

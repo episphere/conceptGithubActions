@@ -1,0 +1,27 @@
+{
+  "Formula for Index": "12500",
+  "Index": "12500",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "242103797.json"
+  ],
+  "Current Source Question": [
+    "566057154.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "729162012",
+  "Current Question Text": "Dates of treatment - end year",
+  "Variable Label": "Treatment End – Year",
+  "Variable Name": [
+    "SrvCDx_TxEndYrNum_v1r0"
+  ],
+  "Variable Type": "Year",
+  "Variable Length": "4",
+  "Current Format/Value": "YYYY",
+  "Required": "No",
+  "Notes": "Conditionality: If Receiving Cancer Treatment = Yes AND Treatment Type IS NOT NULL AND Treatment Ongoing Flag ≠ Checked. Mutually exclusive with Treatment ongoing flag: Neither end Year nor flag are required. Future years are allowed: Range check current year + 5 years",
+  "Date added or modified": "6/9/26",
+  "GCP Document/Table": "SelfReportCancerDx"
+}

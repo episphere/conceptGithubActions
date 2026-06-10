@@ -1,0 +1,24 @@
+{
+  "Formula for Index": "12506",
+  "Index": "12506",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "242103797.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "460490909",
+  "Current Question Text": "Enter the treatment facility or hospital address – Line 4",
+  "Variable Label": "Treatment facility address  – Line 4",
+  "Variable Name": [
+    "SrvCDx_TxFacLine4_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "70",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "Notes": "Conditionality: If Receiving Cancer Treatment = Yes AND Treatment Facility – International Address Flag = 1 = Yes: Line 4 will appear for International addresses only",
+  "Date added or modified": "6/9/26",
+  "GCP Document/Table": "SelfReportCancerDx"
+}

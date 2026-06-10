@@ -1,0 +1,24 @@
+{
+  "Formula for Index": "13114",
+  "Index": "13114",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "242103797.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "899795025",
+  "Current Question Text": "Date/Time Melanoma Skin Cancer Diagnosis Submitted",
+  "Variable Label": "D/T Melanoma Skin Cancer Diagnosis Submitted",
+  "Variable Name": [
+    "SrvCDx_MelanomaDxDt_v1r0"
+  ],
+  "Variable Type": "ISO",
+  "Variable Length": "24",
+  "Current Format/Value": "e.g., 2020-07-17T15:21:26.763Z",
+  "Required": "No",
+  "Notes": "Timestamps will NOT be retained for participants requesting data destruction",
+  "Date added or modified": "6/9/26",
+  "GCP Document/Table": "SelfReportCancerDx"
+}

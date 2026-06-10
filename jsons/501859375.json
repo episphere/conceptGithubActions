@@ -1,0 +1,33 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "242103797.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "501859375",
+  "Current Question Text": "Is this screening facility located outside the United States?",
+  "Variable Label": "Screening Facility – International Address Flag",
+  "Variable Name": [
+    "SrvCDx_ScrnFacilityntl_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "Notes": "Conditionality: If Cancer Detected Through Screening = 1 = Yes AND Screening Type IS NOT NULL",
+  "Date added or modified": "6/9/26",
+  "GCP Document/Table": "SelfReportCancerDx",
+  "Formula for Index": [
+    "12827",
+    "12828"
+  ],
+  "Index": [
+    "12827",
+    "12828"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

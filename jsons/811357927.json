@@ -1,0 +1,25 @@
+{
+  "Formula for Index": "12338",
+  "Index": "12338",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "408693886.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "811357927",
+  "Current Question Text": "How many nights did you stay in the hospital? If you had multiple overnight stays, please add up all of the nights from each of your stays.",
+  "Variable Label": "Nights in Hospital",
+  "Variable Name": [
+    "SrvC19_HospitalNights_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "3",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Range check: min=1",
+  "Date added or modified": "6/8/26",
+  "Question Type": "Text only response"
+}

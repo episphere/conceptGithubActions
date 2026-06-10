@@ -1,0 +1,36 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "408693886.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "116513065",
+  "Current Question Text": "Have you had a vaccine for COVID-19 in the past year?",
+  "Variable Label": "COVID Vaccine",
+  "Variable Name": [
+    "SrvC19_Vax_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "6/8/26",
+  "Question Type": "Multiple choice",
+  "Formula for Index": [
+    "12387",
+    "12388",
+    "12389"
+  ],
+  "Index": [
+    "12387",
+    "12388",
+    "12389"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1",
+    "178420302.json": "77"
+  }
+}

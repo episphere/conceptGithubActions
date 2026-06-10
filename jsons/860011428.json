@@ -1,27 +1,25 @@
 {
-  "Formula for Index": "10800",
-  "Index": "10800",
+  "Formula for Index": "12320",
+  "Index": "12320",
   "Primary Source": [
     "129084651.json"
   ],
   "Secondary Source": [
-    "793330426.json"
+    "408693886.json"
   ],
+  "Deprecated, New, or Revised": "New",
   "conceptId": "860011428",
-  "Current Question Text": "How many times have you had COVID-19?",
+  "Current Question Text": "How many times have you had COVID-19? Please estimate even if you are not sure.",
   "Variable Label": "# COVID Infections",
   "Variable Name": [
-    "SrvCov_COV2_v1r0"
+    "SrvC19_TimesCovid_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Range check min=1",
-  "Dictionary": "Biospecimen Survey",
-  "State Attribute": "No",
-  "Date added or modified": "8/29/23",
-  "Question Type": "Text Only Response",
-  "IMS Review Notes": "Added range check to Notes"
+  "Notes": "Range check: min=1",
+  "Date added or modified": "6/8/26",
+  "Question Type": "Text only response"
 }

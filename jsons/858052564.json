@@ -1,0 +1,24 @@
+{
+  "Formula for Index": "12817",
+  "Index": "12817",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "242103797.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "858052564",
+  "Current Question Text": "When were you screened for cancer? – Year",
+  "Variable Label": "Date of Screening – Year",
+  "Variable Name": [
+    "SrvCDx_ScrnYr_v1r0"
+  ],
+  "Variable Type": "Year",
+  "Variable Length": "4",
+  "Current Format/Value": "YYYY",
+  "Required": "Yes",
+  "Notes": "Conditionality: If Cancer Detected Through Screening = 1 = Yes AND Screening Type IS NOT NULL. Each screening type will have its own loop structure; Range check: current year + 5 years",
+  "Date added or modified": "6/9/26",
+  "GCP Document/Table": "SelfReportCancerDx"
+}

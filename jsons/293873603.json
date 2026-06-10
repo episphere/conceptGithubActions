@@ -1,0 +1,37 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "242103797.json"
+  ],
+  "Current Source Question": [
+    "388069854.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "293873603",
+  "Current Question Text": "Treatment type - Surgery",
+  "Variable Label": "Surgery",
+  "Variable Name": [
+    "SrvCDx_TxSurgery_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "Notes": "Conditionality: If Receiving Cancer Treatment = 1 = Yes",
+  "Date added or modified": "6/9/26",
+  "GCP Document/Table": "SelfReportCancerDx",
+  "Question Type": "Select All That Apply",
+  "Formula for Index": [
+    "12466",
+    "12467"
+  ],
+  "Index": [
+    "12466",
+    "12467"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

@@ -1,25 +1,46 @@
 {
-  "Formula for Index": "12172",
-  "Index": "12172",
   "Primary Source": [
     "942936609.json"
   ],
   "Secondary Source": [
     "218382402.json"
   ],
-  "Deprecated, New, or Revised": "New",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "5/28/26",
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "951694129",
   "Current Question Text": "Precision match indicator",
   "Variable Label": "Precision Match Indicator",
   "Variable Name": [
     "GeoNORC_PrecisionMatch_v1r0"
   ],
-  "Variable Type": "Char",
-  "Variable Length": "14",
-  "Current Format/Value": "Example: Street, intersection, ZIP, City, Street Segment, None",
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
   "PII": "Yes",
   "Notes": "New variable pushed to prod on 5/28/26: If GeoNORC_PrecisionMatch_v1r0 = 'Street' then geocoder matched address to an address-level point; if = 'Intersection' then geocoder matched address to an intersection point; if = 'ZIP' then geocoder could not identify address-level match, but matched a ZIP code centroid, if = 'City' then geocoder could not identify address-level match, but matched a city centroid; if = 'Street Segment' then Geocoder could not identify address-level match, but used a street-centroid match; If = 'None' then no match was identified",
   "Default Variable": "No",
-  "Date added or modified": "5/1/26"
+  "Date added or modified": "6/9/26",
+  "Formula for Index": [
+    "12408",
+    "12409",
+    "12410",
+    "12411",
+    "12412",
+    "12413"
+  ],
+  "Index": [
+    "12408",
+    "12409",
+    "12410",
+    "12411",
+    "12412",
+    "12413"
+  ],
+  "Current Format/Value": {
+    "728662578.json": "0",
+    "717366608.json": "1",
+    "495372270.json": "2",
+    "703385619.json": "3",
+    "343111826.json": "4",
+    "503218834.json": "5"
+  }
 }

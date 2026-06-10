@@ -1,0 +1,23 @@
+{
+  "Formula for Index": "12423",
+  "Index": "12423",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "242103797.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "480939157",
+  "Current Question Text": "What diagnosis number is this?",
+  "Variable Label": "Cancer Diagnosis Number",
+  "Variable Name": [
+    "SrvCDx_DxNumber_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Current Format/Value": "e.g. 1, 2, 3…",
+  "Notes": "Tracks number of diagnoses per participant. Each diagnosis stored in a separate row. Integer value; tracks diagnosis count per cancer type (e.g., 1 = first dx, 2 = second dx). For consented, verified, not-withdrawn participants only. No PWA variable (used for Analytics only) - Will be automatically populated by DevOps code",
+  "Date added or modified": "6/9/26",
+  "GCP Document/Table": "SelfReportCancerDx"
+}

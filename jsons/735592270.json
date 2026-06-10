@@ -1,0 +1,36 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "242103797.json"
+  ],
+  "Current Source Question": [
+    "566057154.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "735592270",
+  "Current Question Text": "My treatment is ongoing",
+  "Variable Label": "Flag - Treatment ongoing",
+  "Variable Name": [
+    "SrvCDx_TxOngoingFlag_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "Notes": "Conditionality: If Receiving Cancer Treatment = Yes AND Treatment Type IS NOT NULL. Mutually exclusive with Treatment end Year and Month: Neither end date nor flag are required",
+  "Date added or modified": "6/9/26",
+  "GCP Document/Table": "SelfReportCancerDx",
+  "Formula for Index": [
+    "12486",
+    "12487"
+  ],
+  "Index": [
+    "12486",
+    "12487"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

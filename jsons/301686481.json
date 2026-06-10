@@ -1,0 +1,45 @@
+{
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "301686481",
+  "Current Question Text": "Diet Screener survey status flag",
+  "Variable Label": "Flag DSQ Surv",
+  "Variable Name": [
+    "SrvDSQ_DSQSurvey_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "Yes",
+  "PII": "No",
+  "Default Variable": "No",
+  "Date added or modified": "6/9/26",
+  "GCP Document/Table": "Participants Table",
+  "Primary Source": [
+    [
+      "129084651.json",
+      "129084651.json",
+      "129084651.json"
+    ]
+  ],
+  "Secondary Source": [
+    [
+      "515124081.json",
+      "515124081.json",
+      "515124081.json"
+    ]
+  ],
+  "Formula for Index": [
+    "12155",
+    "12156",
+    "12157"
+  ],
+  "Index": [
+    "12155",
+    "12156",
+    "12157"
+  ],
+  "Current Format/Value": {
+    "972455046.json": "0",
+    "615768760.json": "1",
+    "231311385.json": "2"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "408693886.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "712477062",
+  "Current Question Text": "During any of the times you had COVID-19, did you have any symptoms?",
+  "Variable Label": "COVID Symp",
+  "Variable Name": [
+    "SrvC19_CovidSymp_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "6/8/26",
+  "Question Type": "Multiple choice",
+  "Formula for Index": [
+    "12321",
+    "12322"
+  ],
+  "Index": [
+    "12321",
+    "12322"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

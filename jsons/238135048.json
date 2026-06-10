@@ -3,39 +3,37 @@
     "129084651.json"
   ],
   "Secondary Source": [
-    "793330426.json"
+    "408693886.json"
   ],
   "Current Source Question": [
-    "751358419.json"
+    "867080871.json"
   ],
+  "GridID/Source Question Name": [
+    "SrvC19_LongCovid_v1r0"
+  ],
+  "Deprecated, New, or Revised": "New",
   "conceptId": "238135048",
   "Current Question Text": "Changes in your mood and emotions (such as feeling sad, anxious, or annoyed more than usual) - Since your diagnosis",
-  "Variable Label": "Long COVID Mood changes",
+  "Variable Label": "Changes in Mood - Long COVID",
   "Variable Name": [
-    "SrvCov_COV19C4_v1r0"
+    "SrvC19_MoodChanges_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Dictionary": "Biospecimen Survey",
-  "State Attribute": "No",
-  "Date added or modified": "2/23/23",
-  "Question Type": "Grid with Multiple Choice Sub-Questions",
-  "IMS Review Notes": "Added COVID-19 Survey variables",
+  "Date added or modified": "6/8/26",
+  "Question Type": "Select all that apply",
   "Formula for Index": [
-    "10924",
-    "10925",
-    "10926"
+    "12380",
+    "12381"
   ],
   "Index": [
-    "10924",
-    "10925",
-    "10926"
+    "12380",
+    "12381"
   ],
   "Current Format/Value": {
-    "244354126.json": "0",
-    "724612102.json": "1",
-    "178780048.json": "2"
+    "104430631.json": "0",
+    "353358909.json": "1"
   }
 }

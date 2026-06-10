@@ -1,0 +1,42 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "408693886.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "502853151",
+  "Current Question Text": "When you were experiencing your worst COVID-19 symptoms, did they interfere with or stop you from doing your daily activities?",
+  "Variable Label": "Worst COVID Symp",
+  "Variable Name": [
+    "SrvC19_WorstSymp_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "6/8/26",
+  "Question Type": "Multiple choice",
+  "Formula for Index": [
+    "12323",
+    "12324",
+    "12325",
+    "12326",
+    "12327"
+  ],
+  "Index": [
+    "12323",
+    "12324",
+    "12325",
+    "12326",
+    "12327"
+  ],
+  "Current Format/Value": {
+    "111520945.json": "0",
+    "548628123.json": "1",
+    "567908725.json": "2",
+    "760969884.json": "3",
+    "464631026.json": "4"
+  }
+}

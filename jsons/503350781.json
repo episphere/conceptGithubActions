@@ -1,0 +1,24 @@
+{
+  "Formula for Index": "13110",
+  "Index": "13110",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "242103797.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "503350781",
+  "Current Question Text": "Date/Time Liver Cancer Diagnosis Submitted",
+  "Variable Label": "D/T Liver Cancer Diagnosis Submitted",
+  "Variable Name": [
+    "SrvCDx_LiverDxDt_v1r0"
+  ],
+  "Variable Type": "ISO",
+  "Variable Length": "24",
+  "Current Format/Value": "e.g., 2020-07-17T15:21:26.763Z",
+  "Required": "No",
+  "Notes": "Timestamps will NOT be retained for participants requesting data destruction",
+  "Date added or modified": "6/9/26",
+  "GCP Document/Table": "SelfReportCancerDx"
+}

@@ -1,31 +1,27 @@
 {
-  "Formula for Index": "10932",
-  "Index": "10932",
+  "Formula for Index": "12386",
+  "Index": "12386",
   "Primary Source": [
     "129084651.json"
   ],
   "Secondary Source": [
-    "793330426.json"
+    "408693886.json"
   ],
   "Current Source Question": [
     "110872086.json"
   ],
-  "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/25/25",
+  "Deprecated, New, or Revised": "New",
   "conceptId": "637540387",
   "Current Question Text": "Since your COVID-19 diagnosis, have you experienced any other symptoms? [text box]",
-  "Variable Label": "Other Long COVID Symptom: Please Describe textbox",
+  "Variable Label": "Other Symptom Text Box - Long COVID",
   "Variable Name": [
-    "SrvCov_COV19C6ADesc_v1r0"
+    "SrvC19_OthSympDesc_v1r0"
   ],
   "Variable Type": "Char",
   "Variable Length": "300",
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Option only available if #55 is selected in COV19C6A",
-  "Dictionary": "Biospecimen Survey",
-  "State Attribute": "No",
-  "Question Type": "Optional Multiple Choice with Text Box (text in text box)",
-  "IMS Review Notes": "Added COVID-19 Survey variables. Versioned source question to unharmonize.  Added an underscore before SRC in the source question. Added prod push date."
+  "Date added or modified": "6/8/26",
+  "Question Type": "Optional Multiple Choice with Text Box (text in text box)"
 }

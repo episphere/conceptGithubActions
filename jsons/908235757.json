@@ -1,0 +1,25 @@
+{
+  "Formula for Index": "12461",
+  "Index": "12461",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "242103797.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "908235757",
+  "Current Question Text": "What is the date of your diagnosis? - Year",
+  "Variable Label": "Date of Diagnosis – Year",
+  "Variable Name": [
+    "SrvCDx_DxYear_v1r0"
+  ],
+  "Variable Type": "Year",
+  "Variable Length": "4",
+  "Current Format/Value": "YYYY",
+  "Required": "Yes",
+  "Notes": "Conditionality: If Flag – Self-report new cancer diagnosis = Yes AND Primary Cancer Diagnosis Site IS NOT NULL. Diagnosis year  is required. Future years will be not be allowed.",
+  "Date added or modified": "6/9/26",
+  "GCP Document/Table": "SelfReportCancerDx",
+  "Question Type": "Text Only Response"
+}

@@ -1,0 +1,24 @@
+{
+  "Formula for Index": "12505",
+  "Index": "12505",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "242103797.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "783145717",
+  "Current Question Text": "Enter the treatment facility or hospital address – Line 3 (apartment, suite, unit, building)",
+  "Variable Label": "Treatment facility address  – Line 3",
+  "Variable Name": [
+    "SrvCDx_TxFacLine3_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "70",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "Notes": "Conditionality: If Receiving Cancer Treatment = Yes AND Treatment Facility – International Address Flag = 0 = No",
+  "Date added or modified": "6/9/26",
+  "GCP Document/Table": "SelfReportCancerDx"
+}

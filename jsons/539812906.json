@@ -1,0 +1,33 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "242103797.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "539812906",
+  "Current Question Text": "Is this treatment facility located outside the United States?",
+  "Variable Label": "Flag - Treatment facility international address",
+  "Variable Name": [
+    "SrvCDx_TxFacIntlFlag_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "Notes": "Conditionality: If Receiving Cancer Treatment = Yes AND Treatment Type IS NOT NULL",
+  "Date added or modified": "6/9/26",
+  "GCP Document/Table": "SelfReportCancerDx",
+  "Formula for Index": [
+    "12510",
+    "12511"
+  ],
+  "Index": [
+    "12510",
+    "12511"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

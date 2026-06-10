@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "12167",
-  "Index": "12167",
+  "Formula for Index": "12403",
+  "Index": "12403",
   "Primary Source": [
     "942936609.json"
   ],
@@ -18,6 +18,7 @@
   "Variable Type": "Char",
   "Variable Length": "2",
   "Current Format/Value": "Example: MD",
+  "Required": "No",
   "PII": "Yes",
   "Notes": "New variable pushed to prod on 5/28/26: Cleaned state from geocoding process, blank for Zip and None precisions",
   "Default Variable": "No",

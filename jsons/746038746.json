@@ -1,37 +1,82 @@
 {
+  "conceptId": "746038746",
+  "Current Question Text": "Declined",
   "Primary Source": [
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
+    "726699695.json",
+    "726699695.json",
+    "726699695.json",
+    "726699695.json",
+    "726699695.json",
+    "726699695.json",
+    "726699695.json",
+    "726699695.json",
     "726699695.json"
   ],
   "Current Source Question": [
+    "384191091.json",
+    "362270886.json",
+    "525535977.json",
+    "976808005.json",
+    "308014437.json",
+    "351657815.json",
+    "115616118.json",
+    "797626610.json",
     "641651634.json"
   ],
   "Deprecated, New, or Revised": "Revised",
-  "conceptId": "746038746",
-  "Current Question Text": "99 = Declined",
-  "Variable Label": "People in House - Pref Not to Ans",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "2/14/25",
+  "Variable Label": "Prefer Not To Ans",
   "Variable Name": [
+    "SrvBOH_PrefNoAnsRE_v1r0",
+    "SrvBOH_PrefNoAnsRE2_v1r0",
+    "SrvBOH_PrefNoAnsRE3_v1r0",
+    "SrvBOH_PrefNoAnsRE4_v1r0",
+    "SrvBOH_PrefNoAnsRE5_v1r0",
+    "SrvBOH_PrefNoAnsRE6_v1r0",
+    "SrvBOH_PrefNoAnsRE7_v1r0",
+    "SrvBOH_PrefNoAnsRE8_v1r0",
     "SrvBOH_PplHouseNoAns_v2r0"
+  ],
+  "Connect Value for Select all that apply questions - Surveys Only": [
+    "TRUE",
+    "TRUE",
+    "TRUE",
+    "TRUE",
+    "TRUE",
+    "TRUE",
+    "TRUE",
+    "TRUE",
+    ""
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
-  "PII": "Yes",
-  "Date added or modified": "5/15/26",
-  "Question Type": "Text Box Plus Check Box",
-  "IMS Review Notes": "Unharmonized source Q and question text. Versioned up variable name. Moved the Current Format/Value and concept ID to the Current Question Text and added yes/no to Current Format/Value.",
+  "PII": "No",
+  "Question Type": "Optional Select All that Apply",
+  "IMS Review Notes": "Source question updated",
   "Formula for Index": [
-    "4830",
-    "4831"
+    "3402",
+    "3403"
   ],
   "Index": [
-    "4830",
-    "4831"
+    "3402",
+    "3403"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  }
+  },
+  "Notes": "Only display if RACEETH = American Indian or Alaska Native",
+  "Date added or modified": "5/15/26"
 }

@@ -1,0 +1,25 @@
+{
+  "Formula for Index": "12351",
+  "Index": "12351",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "408693886.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "329640578",
+  "Current Question Text": "How many days were you treated in an \"intensive care unit\" or with ICU monitoring?",
+  "Variable Label": "Days in ICU - COVID",
+  "Variable Name": [
+    "SrvC19_DaysICU_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "3",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Range check: min = 0, max = SrvC19_HospitalNights_v1r0 response or 180 if SrvC19_HospitalNights_v1r0 = null",
+  "Date added or modified": "6/8/26",
+  "Question Type": "Text only response"
+}

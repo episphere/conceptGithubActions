@@ -1,0 +1,48 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "515124081.json"
+  ],
+  "Current Source Question": [
+    "916948380.json"
+  ],
+  "GridID/Source Question Name": [
+    "SrvDSQ_Consume_v1r0"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "484124027",
+  "Current Question Text": "How do you like your hot drinks? (such as coffee or tea)",
+  "Variable Label": "Drink Temp",
+  "Variable Name": [
+    "SrvDSQ_HotDrinks_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "PII": "No",
+  "Date added or modified": "6/8/26",
+  "Question Type": "Nested",
+  "Formula for Index": [
+    "12312",
+    "12313",
+    "12314",
+    "12315",
+    "12316"
+  ],
+  "Index": [
+    "12312",
+    "12313",
+    "12314",
+    "12315",
+    "12316"
+  ],
+  "Current Format/Value": {
+    "773207854.json": "0",
+    "776030694.json": "1",
+    "494937029.json": "2",
+    "155662905.json": "3",
+    "746038746.json": "99"
+  }
+}

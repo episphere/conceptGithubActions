@@ -15,15 +15,16 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
+  "Required": "No",
   "PII": "No",
   "Notes": "New variable pushed to prod on 5/28/26: Address multimatch indicator equals 1 if address cleaner identified multiple plausible match candidates or equals 0 if single match",
   "Formula for Index": [
-    "12173",
-    "12174"
+    "12414",
+    "12415"
   ],
   "Index": [
-    "12173",
-    "12174"
+    "12414",
+    "12415"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

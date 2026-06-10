@@ -1,0 +1,36 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "242103797.json"
+  ],
+  "Current Source Question": [
+    "130601750.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "412252588",
+  "Current Question Text": "Breast screening - clinical breast exam",
+  "Variable Label": "Breast screening - clinical breast exam",
+  "Variable Name": [
+    "SrvCDx_ScrnBreastCBE_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "Notes": "Displayed only for Primary Cancer Site Diagnosis = 3 = Breast; Response options are displayed conditionally based on reported cancer site",
+  "Date added or modified": "6/9/26",
+  "GCP Document/Table": "SelfReportCancerDx",
+  "Formula for Index": [
+    "12795",
+    "12796"
+  ],
+  "Index": [
+    "12795",
+    "12796"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

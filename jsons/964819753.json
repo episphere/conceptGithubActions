@@ -1,0 +1,24 @@
+{
+  "Formula for Index": "12501",
+  "Index": "12501",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "242103797.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "964819753",
+  "Current Question Text": "What is the name of the physician or oncologist who treated you? – First name",
+  "Variable Label": "Physician / Oncologist – First Name",
+  "Variable Name": [
+    "SrvCDx_TxPhysFirstName_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "100",
+  "Current Format/Value": "N/A",
+  "Required": "No",
+  "Notes": "Conditionality: If Receiving Cancer Treatment = Yes AND Treatment Type IS NOT NULL. Up to 10 physicians may be reported per treatment type. Each physician entry is looped per treatment.",
+  "Date added or modified": "6/9/26",
+  "GCP Document/Table": "SelfReportCancerDx"
+}

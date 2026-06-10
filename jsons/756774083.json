@@ -2,23 +2,17 @@
   "Primary Source": [
     "129084651.json",
     "Survey",
-    "129084651.json",
-    "Survey",
     "129084651.json"
   ],
   "Secondary Source": [
     "299215535.json",
     "Blood/Urine/Mouthwash",
-    "826163434.json",
-    "Blood/Urine",
-    "793330426.json"
+    "826163434.json"
   ],
   "Current Source Question": [
     "470484596.json",
     "Did you have any of the following symptoms, the [first/2nd/3rd/etc.] time you had COVID-19? Select all that apply",
-    "470484596.json",
-    "Did you have any of the following symptoms, the [first/2nd/3rd/etc.] time you had COVID-19? Select all that apply",
-    "705336878.json"
+    "470484596.json"
   ],
   "conceptId": "756774083",
   "Current Question Text": "Cough",
@@ -26,16 +20,12 @@
   "Variable Name": [
     "SrvBio_CoughDay_v1r0",
     "SrvBlU_COV8J_v1r0",
-    "SrvBio_CoughDay_v1r0",
-    "SrvBlU_COV8J_v1r0",
-    "SrvCov_COV8J_v1r0"
+    "SrvBio_CoughDay_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
     "FALSE",
     "TRUE",
-    "FALSE",
-    "TRUE",
-    "TRUE"
+    "FALSE"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -46,12 +36,12 @@
   "Date added or modified": "1/19/23",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "9447",
-    "9448"
+    "9446",
+    "9447"
   ],
   "Index": [
-    "9447",
-    "9448"
+    "9446",
+    "9447"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

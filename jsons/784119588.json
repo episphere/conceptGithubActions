@@ -13,7 +13,12 @@
     "129084651.json",
     "129084651.json",
     "129084651.json",
-    "129084651.json"
+    "129084651.json",
+    "129084651.json",
+    [
+      "129084651.json",
+      "129084651.json"
+    ]
   ],
   "Secondary Source": [
     "726699695.json",
@@ -29,7 +34,12 @@
     "390351864.json",
     "506648060.json",
     "369168474.json",
-    "312845734.json"
+    "497020618.json",
+    "312845734.json",
+    [
+      "515124081.json",
+      "515124081.json"
+    ]
   ],
   "conceptId": "784119588",
   "Current Question Text": "Survey Language",
@@ -48,7 +58,9 @@
     "SrvMW_Language_v1r0",
     "SrvCoE_Language_v1r0",
     "SrvScr_Language_v1r0",
-    "SrvROI_PrefLanguage_v1r0"
+    "SrvDHQ3_6moLanguage_v1r0",
+    "SrvROI_PrefLanguage_v1r0",
+    "SrvDSQ_6moLanguage_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -72,5 +84,7 @@
     "773342525.json": "1"
   },
   "Deprecated, New, or Revised": "New",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "10/30/24"
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "10/30/24",
+  "Notes": "Will be set on DHQ Platform and pulled back in via API. Will not capture and store this data until participants survey status=submitted; Previously added/pushed to prod on 5/7/25; Revised (6/9/26) to update Current Question text to better match other Survey Language variables",
+  "GCP Document/Table": "DietScreener Table"
 }
