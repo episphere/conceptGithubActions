@@ -29,7 +29,7 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Payment attributes are nested under the responses for this variable and are defaulted to No when we receive the studyId for active recruits or when a passive recruit signs in.  UoC will send payment variables through the updateParticipantData API, NORC will send them through the NORC API; Previously added on 4/13/22; Updated Secondary Source from \"\"Payment\"\" to \"\"Payment Round\"\", Updated variable pre-fix from \"\"SMPaym\"\" to \"\"SMPay\"\" to align with 6 character standardization (4/2/26)",
+  "Notes": "Payment attributes are nested under the responses for this variable and are defaulted to No when we receive the studyId for active recruits or when a passive recruit signs in.  UoC will send payment variables through the updateParticipantData API, NORC will send them through the NORC API; Previously added on 4/13/22; Updated Secondary Source from 'Payment' to 'Payment Round', Updated variable pre-fix from 'SMPaym' to 'SMPay' to align with 6 character standardization (4/2/26)",
   "Dictionary": "Study Manager Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "Yes",

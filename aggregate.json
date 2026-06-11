@@ -6387,12 +6387,6 @@
       "SrvMtW_DENTBRIDGE_v1r0"
     ]
   },
-  "329640578": {
-    "Variable Label": "Days in ICU - COVID",
-    "Variable Name": [
-      "SrvC19_DaysICU_v1r0"
-    ]
-  },
   "330163034": {
     "Variable Label": "Cur Work Post Pan Cross St 1",
     "Variable Name": [
@@ -10810,7 +10804,10 @@
     ]
   },
   "503218834": {
-    "Variable Name": "None"
+    "Variable Label": "No Complications - COVID",
+    "Variable Name": [
+      "SrvC19_NoComplications_v1r0"
+    ]
   },
   "503350781": {
     "Variable Label": "D/T Liver Cancer Diagnosis Submitted",
@@ -11676,7 +11673,6 @@
       "SrvScr_NOSCREEN_v1r0",
       "SrvScr_NOSCREEN_v1r0",
       "SrvScr_NOSCREEN_v1r0",
-      "SrvC19_NoComplications_v1r0",
       "SrvC19_NoTreatment_v1r0"
     ]
   },
@@ -16288,12 +16284,6 @@
   "701803756": {
     "Variable Name": "Seasonal Address 10- In general, how many months per year did you spend at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]?"
   },
-  "702433259": {
-    "Variable Label": "Worried Ins Will Get Data",
-    "Variable Name": [
-      "RcrtSI_OptOut_v1r0_PrivacyH"
-    ]
-  },
   "702555988": {
     "Variable Label": "Time, Bicycle commute from past work",
     "Variable Name": [
@@ -20663,6 +20653,12 @@
       "SrvBOH_NoneDescribeRE4_v1r0"
     ]
   },
+  "852404375": {
+    "Variable Label": "Days in ICU - COVID",
+    "Variable Name": [
+      "SrvC19_DaysICU_v1r0"
+    ]
+  },
   "852689772": {
     "Variable Name": "HFH In-Home Collection"
   },
@@ -21083,6 +21079,7 @@
   "866089092": {
     "Variable Label": "Worried Ins Will Get Data",
     "Variable Name": [
+      "RcrtSI_OptOut_v1r0_PrivacyH",
       "HdRef_PrivacyF_v1r0"
     ]
   },

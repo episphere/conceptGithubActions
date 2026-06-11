@@ -23,6 +23,6 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Range check min=valueOrDefault(\"\"D_194557808\"\",0) max=sum(isDefined(D_150344905,age),1). Updated range check max=age",
+  "Notes": "Range check min=valueOrDefault(D_194557808,0) max=sum(isDefined(D_150344905,age),1). Updated range check max=age",
   "IMS Review Notes": "Added range check to Notes. Unharmonized source question from question text.  Added prod push date."
 }

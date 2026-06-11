@@ -35,7 +35,7 @@
   "Current Format/Value": "Example: 2020-07-17T15:21:26.763Z",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "ISO to be converted to SAS format. Nested under Collection Environment. Set by us for research, not used for Clinical; Previously added on 9/7/23; Updated Secondary Source to Collection Details, Updated Variable name from BioFin_ResearchBldTime_v1r0; Updated variable pre-fix from \"\"BioFin\"\" to \"\"BioCol\"\" to align with Secondary Source (4/2/26)",
+  "Notes": "ISO to be converted to SAS format. Nested under Collection Environment. Set by us for research, not used for Clinical; Previously added on 9/7/23; Updated Secondary Source to Collection Details, Updated Variable name from BioFin_ResearchBldTime_v1r0; Updated variable pre-fix from 'BioFin' to 'BioCol' to align with Secondary Source (4/2/26)",
   "Derivation Notes": "Required = Yes, if BioFin_BaseBloodCol_v1r0 equals 1",
   "Dictionary": "Biospecimen Clinical, Biospecimen Research, Study Manager Data Dictionary",
   "State Attribute": "No",

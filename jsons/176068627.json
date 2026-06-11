@@ -17,7 +17,7 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Not Started response will be set at time of survey release for those already verified and meet eligibility criteria. After that, Not Started response will be set at time of verification (even if not yet eligible for survey). Participants that are not yet verified will have a null response. Added '9-mo' to distinguish from future repeat assessments; edited to be consistent w/ other survey flags (9/3/2025); Previously added on 9/3/2025; Marked as revised on 3/9/26: Made a default variable on 2/25/2026 - Default variable value = '0 = Not Started'; Added to notes (5/1/26): A null value for this survey means that the participant is not eligible for the survey. The SMDB will display a \"\"Not Eligible\"\" survey status instead of a null \"\"blank\"\" value for ease of review by staff.",
+  "Notes": "Not Started response will be set at time of survey release for those already verified and meet eligibility criteria. After that, Not Started response will be set at time of verification (even if not yet eligible for survey). Participants that are not yet verified will have a null response. Added '9-mo' to distinguish from future repeat assessments; edited to be consistent w/ other survey flags (9/3/2025); Previously added on 9/3/2025; Marked as revised on 3/9/26: Made a default variable on 2/25/2026 - Default variable value = '0 = Not Started'; Added to notes (5/1/26): A null value for this survey means that the participant is not eligible for the survey. The SMDB will display a 'Not Eligible' survey status instead of a null 'blank' value for ease of review by staff.",
   "Dictionary": "Cancer Screening History Survey",
   "State Attribute": "No",
   "Default Variable": "No",

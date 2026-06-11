@@ -21,7 +21,7 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "No",
-  "Notes": "Only display if BLDTRANS=YES. Range check min=valueOrDefault(\"\"D_197994844\"\",#currentYear-valueOrDefault(\"\"D_150344905\"\",\"\"age\"\",100)-1) max=#currentYear. Updated min range check min=yob",
+  "Notes": "Only display if BLDTRANS=YES. Range check min=valueOrDefault(D_197994844,#currentYear-valueOrDefault(D_150344905,age,100)-1) max=#currentYear. Updated min range check min=yob",
   "Question Type": "Or (xor=) Question (either/or text boxes without radio button)",
   "IMS Review Notes": "Added range check to Notes."
 }

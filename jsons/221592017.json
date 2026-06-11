@@ -64,7 +64,7 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Needs to be updateable like the check in/check out variable. As the status changes, the variable needs to update. Default to \"\"pending\"\" status. Initialized status is set upon finalization of clinical blood and/or urine collection, assuming participant has not withdrawn consent or is deceased, address is not P.O. Box. This variable updates based on actions in the Home Collection Dashboard.",
+  "Notes": "Needs to be updateable like the check in/check out variable. As the status changes, the variable needs to update. Default to 'pending' status. Initialized status is set upon finalization of clinical blood and/or urine collection, assuming participant has not withdrawn consent or is deceased, address is not P.O. Box. This variable updates based on actions in the Home Collection Dashboard.",
   "Dictionary": "Biospecimen Kit",
   "State Attribute": "No",
   "Default Variable": "No",

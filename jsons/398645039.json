@@ -23,7 +23,7 @@
   "Current Format/Value": "Example: 2020-07-17T15:21:26.763Z",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "From clinical dashboard, when a clinical site does this is data and time received at the RRL, saved upon specimen link; Previously added on 9/7/23; Updated Current Source Question from \"\"Follow-up\"\" to \"\"Activity\"\", Updated Variable Label and Variable Name from \"\"F\"\" to \"\"A\"\"; Update CQT from \"\"Clinical DB blood RRL Date/Time Received\"\" (4/2/26)",
+  "Notes": "From clinical dashboard, when a clinical site does this is data and time received at the RRL, saved upon specimen link; Previously added on 9/7/23; Updated Current Source Question from 'Follow-up' to 'Activity', Updated Variable Label and Variable Name from 'F' to 'A'; Update CQT from 'Clinical DB blood RRL Date/Time Received' (4/2/26)",
   "Derivation Notes": "Required = Yes, if BioClin_DBBloodRRL_v1r0 = 1",
   "Dictionary": "Biospecimen Clinical",
   "State Attribute": "No",
