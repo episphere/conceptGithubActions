@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "12823",
-  "Index": "12823",
+  "Formula for Index": "12832",
+  "Index": "12832",
   "Primary Source": [
     "129084651.json"
   ],
@@ -9,8 +9,8 @@
   ],
   "Deprecated, New, or Revised": "New",
   "conceptId": "939355635",
-  "Current Question Text": "Enter the screening facility or hospital address – Line 4",
-  "Variable Label": "Screening facility address – Line 4",
+  "Current Question Text": "Enter the screening facility or hospital address -Line 4",
+  "Variable Label": "Screening facility address -Line 4",
   "Variable Name": [
     "SrvCDx_ScrnFacLine4_v1r0"
   ],
@@ -19,6 +19,6 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "Notes": "Conditionality: If Cancer Detected Through Screening = 1 = Yes AND Screening Type IS NOT NULL AND International Flag for Screening Facility = 1 = Yes. Each screening type will have its own loop structure; Line 4 will only appear for international addresses",
-  "Date added or modified": "6/9/26",
+  "Date added or modified": "6/11/26",
   "GCP Document/Table": "SelfReportCancerDx"
 }

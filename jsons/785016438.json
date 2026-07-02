@@ -7,8 +7,8 @@
   ],
   "Deprecated, New, or Revised": "New",
   "conceptId": "785016438",
-  "Current Question Text": "Enter the treatment facility or hospital address – Country",
-  "Variable Label": "Treatment facility address  – Country",
+  "Current Question Text": "Enter the treatment facility or hospital address -Country",
+  "Variable Label": "Treatment facility address  -Country",
   "Variable Name": [
     "SrvCDx_TxFacCountry_v1r0"
   ],
@@ -16,15 +16,9 @@
   "Variable Length": "3",
   "Required": "No",
   "Notes": "Will be displayed to Pts if Receiving Cancer Treatment = Yes AND Treatment Type IS NOT NULL AND International address flag = YES",
-  "Date added or modified": "6/9/26",
+  "Date added or modified": "6/11/26",
   "GCP Document/Table": "SelfReportCancerDx",
   "Formula for Index": [
-    "12512",
-    "12513",
-    "12514",
-    "12515",
-    "12516",
-    "12517",
     "12518",
     "12519",
     "12520",
@@ -289,15 +283,15 @@
     "12779",
     "12780",
     "12781",
-    "12782"
+    "12782",
+    "12783",
+    "12784",
+    "12785",
+    "12786",
+    "12787",
+    "12788"
   ],
   "Index": [
-    "12512",
-    "12513",
-    "12514",
-    "12515",
-    "12516",
-    "12517",
     "12518",
     "12519",
     "12520",
@@ -562,7 +556,13 @@
     "12779",
     "12780",
     "12781",
-    "12782"
+    "12782",
+    "12783",
+    "12784",
+    "12785",
+    "12786",
+    "12787",
+    "12788"
   ],
   "Current Format/Value": {
     "333208328.json": "0",

@@ -1,8 +1,4 @@
 {
-  "conceptId": "232063618",
-  "Current Question Text": "Less than 1 month",
-  "Formula for Index": "8159",
-  "Index": "8159",
   "Primary Source": [
     "129084651.json",
     "129084651.json",
@@ -39,6 +35,8 @@
     "709755471.json",
     "701803756.json"
   ],
+  "conceptId": "232063618",
+  "Current Question Text": "Less than 1 month",
   "Variable Label": "Less than 1 month",
   "Variable Name": [
     "SrvLAW_Under1MoAdd1_v1r0",
@@ -54,10 +52,20 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Current Format/Value": {
-    "232063618.json": "0"
-  },
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "2/4/22"
+  "Date added or modified": "2/4/2022; 6/23/26",
+  "IMS Review Notes": "Updated Current Format/Value column to no/yes.",
+  "Formula for Index": [
+    "8158",
+    "8159"
+  ],
+  "Index": [
+    "8158",
+    "8159"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
 }

@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "12825",
-  "Index": "12825",
+  "Formula for Index": "12834",
+  "Index": "12834",
   "Primary Source": [
     "129084651.json"
   ],
@@ -9,8 +9,8 @@
   ],
   "Deprecated, New, or Revised": "New",
   "conceptId": "513329248",
-  "Current Question Text": "Enter the screening facility or hospital address – State / Region",
-  "Variable Label": "Screening facility address – State/Region",
+  "Current Question Text": "Enter the screening facility or hospital address -State / Region",
+  "Variable Label": "Screening facility address -State/Region",
   "Variable Name": [
     "SrvCDx_ScrnFacState_v1r0"
   ],
@@ -18,7 +18,7 @@
   "Variable Length": "48",
   "Current Format/Value": "N/A",
   "Required": "No",
-  "Notes": "Conditionality: If Cancer Detected Through Screening = 1 = Yes AND Screening Type IS NOT NULL  AND Screening Facility – International Address Flag = 0 = No (State) OR = 1 = Yes (Region). DevOps to use USPS API to translate STATE  into dropdown menu options on pts end. State’ will display as ‘Region’ when International Flag = YES. However, both State and Region will store the data under the same CID",
-  "Date added or modified": "6/9/26",
+  "Notes": "Conditionality: If Cancer Detected Through Screening = 1 = Yes AND Screening Type IS NOT NULL  AND Screening Facility -International Address Flag = 0 = No (State) OR = 1 = Yes (Region). DevOps to use USPS API to translate STATE  into dropdown menu options on pts end. State‚ will display as Region‚ when International Flag = YES. However, both State and Region will store the data under the same CID",
+  "Date added or modified": "6/11/26",
   "GCP Document/Table": "SelfReportCancerDx"
 }

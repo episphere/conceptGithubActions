@@ -439,6 +439,12 @@
       "SrvLAW_FullSt1_v1r0"
     ]
   },
+  "111301575": {
+    "Variable Label": "Primary care facility address - Country",
+    "Variable Name": [
+      "SrvHCS_PCFacCountry_v1r0"
+    ]
+  },
   "111520945": {
     "Variable Name": "Not at all"
   },
@@ -966,7 +972,7 @@
     ]
   },
   "130343311": {
-    "Variable Label": "Screening Physician – Last Name",
+    "Variable Label": "Screening Physician -Last Name",
     "Variable Name": [
       "SrvCDx_ScrnPhyLastName_v1r0"
     ]
@@ -1081,6 +1087,12 @@
     "Variable Label": "Apartment, suite, unit, building, etc.",
     "Variable Name": [
       "SrvLAW_SeaApt2_v1r0"
+    ]
+  },
+  "134439170": {
+    "Variable Label": "Primary care facility address - Line 4",
+    "Variable Name": [
+      "SrvHCS_PCFacLine4_v1r0"
     ]
   },
   "134592375": {
@@ -1900,7 +1912,7 @@
     ]
   },
   "165350319": {
-    "Variable Label": "Treatment facility address – Line 1",
+    "Variable Label": "Treatment facility address -Line 1",
     "Variable Name": [
       "SrvCDx_TxFacLine1_v1r0"
     ]
@@ -3512,7 +3524,7 @@
     ]
   },
   "215797578": {
-    "Variable Label": "Treatment facility address  – State/Region",
+    "Variable Label": "Treatment facility address  -State/Region",
     "Variable Name": [
       "SrvCDx_TxFacState_v1r0"
     ]
@@ -3720,6 +3732,12 @@
   },
   "223461539": {
     "Variable Name": "Some sun exposed areas"
+  },
+  "223569179": {
+    "Variable Label": "D/T PC Facility Update Submitted",
+    "Variable Name": [
+      "SrvHCS_PCFacUpdatedDt_v1r0"
+    ]
   },
   "223999569": {
     "Variable Label": "Biohaz Bag (MW) ID",
@@ -4056,7 +4074,7 @@
     ]
   },
   "239126548": {
-    "Variable Label": "Screening Physician – First Name",
+    "Variable Label": "Screening Physician -First Name",
     "Variable Name": [
       "SrvCDx_ScrnPhyFirstName_v1r0"
     ]
@@ -5252,7 +5270,7 @@
     ]
   },
   "281136649": {
-    "Variable Label": "Treatment Start – Year",
+    "Variable Label": "Treatment Start -Year",
     "Variable Name": [
       "SrvCDx_TxStartYr_v1r0"
     ]
@@ -5748,7 +5766,7 @@
     ]
   },
   "299768751": {
-    "Variable Label": "Date of Diagnosis – Month",
+    "Variable Label": "Date of Diagnosis - Month",
     "Variable Name": [
       "SrvCDx_DxMonth_v1r0"
     ]
@@ -6931,6 +6949,12 @@
       "HdRef_Allsample_v1r0"
     ]
   },
+  "353158944": {
+    "Variable Label": "Date of PC facility change - Year",
+    "Variable Name": [
+      "SrvHCS_PCFacChangeYrNum_v1r0"
+    ]
+  },
   "353358909": {
     "Variable Name": "Yes"
   },
@@ -7258,9 +7282,6 @@
   },
   "369168474": {
     "Variable Name": "Cancer Screening History"
-  },
-  "369438604": {
-    "Variable Name": "Other | _ |"
   },
   "370121390": {
     "Variable Name": "Season Address 3-Please provide the cross streets of the intersection closest to this address: - SOURCE"
@@ -7623,7 +7644,7 @@
     "Variable Name": "Sibling 1 - How old was your [SIBLING INITIALS OR NICKNAME/YOUR SIBLING] when they were first told by a doctor or other health professional that they have or had anal cancer?"
   },
   "385095107": {
-    "Variable Label": "Treatment facility address  – Zip/Postal",
+    "Variable Label": "Treatment facility address  -Zip/Postal",
     "Variable Name": [
       "SrvCDx_TxFacZIP_v1r0"
     ]
@@ -8176,7 +8197,7 @@
     "Variable Name": "What type(s) of transportation do you use to get from your home to [insert address from CURSCH1 - CURSCH3/this address]? Select all that apply."
   },
   "404892571": {
-    "Variable Label": "Screening facility address – Zip/Postal",
+    "Variable Label": "Screening facility address -Zip/Postal",
     "Variable Name": [
       "SrvCDx_ScrnFacZip_v1r0"
     ]
@@ -8864,12 +8885,6 @@
       "SrvSAS_EdiblesServ70_v2r1"
     ]
   },
-  "432682375": {
-    "Variable Label": "Incoming SMS Receipt Status",
-    "Variable Name": [
-      "CTTwil_InSMSStatus_v1r0"
-    ]
-  },
   "432722256": {
     "Variable Name": "Hispanic/Latino/Black"
   },
@@ -9535,7 +9550,7 @@
     ]
   },
   "456014563": {
-    "Variable Label": "Treatment facility address  – Line 2",
+    "Variable Label": "Treatment facility address  -Line 2",
     "Variable Name": [
       "SrvCDx_TxFacLine2_v1r0"
     ]
@@ -9634,7 +9649,7 @@
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had blood clots (deep vein thrombosis, pulmonary embolism)?"
   },
   "460490909": {
-    "Variable Label": "Treatment facility address  – Line 4",
+    "Variable Label": "Treatment facility address  -Line 4",
     "Variable Name": [
       "SrvCDx_TxFacLine4_v1r0"
     ]
@@ -10483,7 +10498,7 @@
     ]
   },
   "493041638": {
-    "Variable Label": "Treatment facility address  – City",
+    "Variable Label": "Treatment facility address  -City",
     "Variable Name": [
       "SrvCDx_TxFacCity_v1r0"
     ]
@@ -10743,11 +10758,8 @@
       "SrvDHQ3_6moPltStatus_v1r0"
     ]
   },
-  "501836969": {
-    "Variable Name": "Head and neck"
-  },
   "501859375": {
-    "Variable Label": "Screening Facility – International Address Flag",
+    "Variable Label": "Screening Facility -International Address Flag",
     "Variable Name": [
       "SrvCDx_ScrnFacilityntl_v1r0"
     ]
@@ -11014,7 +11026,7 @@
     "Variable Name": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Lung or bronchial cancer?"
   },
   "513329248": {
-    "Variable Label": "Screening facility address – State/Region",
+    "Variable Label": "Screening facility address -State/Region",
     "Variable Name": [
       "SrvCDx_ScrnFacState_v1r0"
     ]
@@ -11148,6 +11160,12 @@
   },
   "519974530": {
     "Variable Name": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Non-Hodgkin's lymphoma cancer?"
+  },
+  "519981637": {
+    "Variable Label": "PC facility change - Addiitonal information",
+    "Variable Name": [
+      "SrvHCS_PCFacChangeTxtbx_v1r0"
+    ]
   },
   "520089841": {
     "Variable Name": "Less than 1 to 2 times per month"
@@ -11994,7 +12012,7 @@
     ]
   },
   "546976551": {
-    "Variable Label": "Primary cancer site - Other – please describe |__|",
+    "Variable Label": "Primary cancer site - Other  please describe |__|",
     "Variable Name": [
       "SrvCDx_PrimarySiteOth_v1r0"
     ]
@@ -12585,6 +12603,12 @@
     "Variable Label": "Age stopped using chewing tobacco, snus, snuff, or dip  every day",
     "Variable Name": [
       "SrvSAS_AgeStopUseCT_v1r0"
+    ]
+  },
+  "568499390": {
+    "Variable Label": "Flag - Google API Address validation - Treatment facility",
+    "Variable Name": [
+      "SrvCDx_TxFacValidAddFlag"
     ]
   },
   "568581510": {
@@ -13179,7 +13203,7 @@
     "Variable Name": "Yes, in the past month"
   },
   "591687168": {
-    "Variable Label": "Screening facility address – City",
+    "Variable Label": "Screening facility address -City",
     "Variable Name": [
       "SrvCDx_ScrnFacCity_v1r0"
     ]
@@ -13634,6 +13658,12 @@
       "SrvScr_CancScrnTmStart_v1r0"
     ]
   },
+  "609996916": {
+    "Variable Label": "NPPES NPI registry number - Treatment provider",
+    "Variable Name": [
+      "SrvCDx_TxPCPRegNo_v1r0"
+    ]
+  },
   "610145443": {
     "Variable Name": "German Democratic Republic"
   },
@@ -13724,6 +13754,9 @@
     "Variable Name": [
       "HdWd_DateActivepart_v1r0"
     ]
+  },
+  "614340152": {
+    "Variable Name": "Self-Reported HCSUpdates"
   },
   "614395648": {
     "Variable Name": "Yes, this is correct"
@@ -14022,11 +14055,17 @@
   "624808470": {
     "Variable Name": "Slightly louder than breathing"
   },
+  "624974556": {
+    "Variable Label": "Primary care facility address - Line 1",
+    "Variable Name": [
+      "SrvHCS_PCFacLine1_v1r0"
+    ]
+  },
   "625249910": {
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had Stomach cancer?"
   },
   "625530863": {
-    "Variable Label": "Treatment End –  Month",
+    "Variable Label": "Treatment End - Month",
     "Variable Name": [
       "SrvCDx_TxEndMo_v1r0"
     ]
@@ -14201,7 +14240,7 @@
     ]
   },
   "632951008": {
-    "Variable Label": "Screening facility address – Line 2",
+    "Variable Label": "Screening facility address -Line 2",
     "Variable Name": [
       "SrvCDx_ScrnFacLine2_v1r0"
     ]
@@ -14905,6 +14944,12 @@
   },
   "655309065": {
     "Variable Name": "I am currently using a hormonal medication or device (such as an intrauterine device (IUD)) to prevent pregnancy, manage my menstrual cycle symptoms, and/or manage conditions like endometriosis or polycystic ovarian syndrome (PCOS)"
+  },
+  "655907949": {
+    "Variable Label": "Primary care facility address - Line 2",
+    "Variable Name": [
+      "SrvHCS_PCFacLine2_v1r0"
+    ]
   },
   "656067463": {
     "Variable Label": "Other: Please describe, text box commute from current school",
@@ -16052,7 +16097,7 @@
     "Variable Name": "Less than once per week"
   },
   "693368144": {
-    "Variable Label": "Screening facility address – Line 3",
+    "Variable Label": "Screening facility address -Line 3",
     "Variable Name": [
       "SrvCDx_ScrnFacLine3_v1r0"
     ]
@@ -16989,7 +17034,7 @@
     ]
   },
   "729162012": {
-    "Variable Label": "Treatment End – Year",
+    "Variable Label": "Treatment End -Year",
     "Variable Name": [
       "SrvCDx_TxEndYrNum_v1r0"
     ]
@@ -17132,6 +17177,12 @@
     "Variable Label": "Country",
     "Variable Name": [
       "SrvLAW_ChildCountry_v1r0"
+    ]
+  },
+  "734087990": {
+    "Variable Label": "Primary care facility address - Zip/Postal",
+    "Variable Name": [
+      "SrvHCS_PCFacZIP_v1r0"
     ]
   },
   "734345879": {
@@ -17324,7 +17375,7 @@
     ]
   },
   "740626474": {
-    "Variable Label": "Physician / Oncologist – Last Name",
+    "Variable Label": "Physician / Oncologist -Last Name",
     "Variable Name": [
       "SrvCDx_TxPhysLastName_v1r0"
     ]
@@ -17384,7 +17435,7 @@
     ]
   },
   "742710886": {
-    "Variable Label": "Treatment Start – Month",
+    "Variable Label": "Treatment Start -Month",
     "Variable Name": [
       "SrvCDx_TxStartMo_v1r0"
     ]
@@ -18255,6 +18306,12 @@
       "BioCol_CollBoxedStatus_v1r0"
     ]
   },
+  "771921322": {
+    "Variable Label": "Flag - Google API Address validation - Primary care facility",
+    "Variable Name": [
+      "SrvHCS_PCFacValidAddFlag"
+    ]
+  },
   "772116457": {
     "Variable Name": "Replacement 2 Kit"
   },
@@ -18552,7 +18609,7 @@
     ]
   },
   "783145717": {
-    "Variable Label": "Treatment facility address  – Line 3",
+    "Variable Label": "Treatment facility address  -Line 3",
     "Variable Name": [
       "SrvCDx_TxFacLine3_v1r0"
     ]
@@ -18576,6 +18633,12 @@
     "Variable Label": "Year moved in",
     "Variable Name": [
       "SrvLAW_HomeMoveIn7_v1r0"
+    ]
+  },
+  "783801971": {
+    "Variable Label": "Primary care facility address - State/Region",
+    "Variable Name": [
+      "SrvHCS_PCFacState_v1r0"
     ]
   },
   "784119588": {
@@ -18618,7 +18681,7 @@
     ]
   },
   "785016438": {
-    "Variable Label": "Treatment facility address  – Country",
+    "Variable Label": "Treatment facility address  -Country",
     "Variable Name": [
       "SrvCDx_TxFacCountry_v1r0"
     ]
@@ -18766,7 +18829,7 @@
     "Variable Name": "In which season(s) did you do strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups)? Select all that apply."
   },
   "787648987": {
-    "Variable Name": "Cote D’Ivoire"
+    "Variable Name": "Cote D‚Ivoire"
   },
   "787809831": {
     "Variable Name": "Montserrat"
@@ -19252,6 +19315,12 @@
     "Variable Label": "Zip code",
     "Variable Name": [
       "SrvLAW_Zip5FollowUp_v1r0"
+    ]
+  },
+  "803865514": {
+    "Variable Label": "Flag - Google API Address validation - Screening facility",
+    "Variable Name": [
+      "SrvCDx_ScrnFacValidAddFlag"
     ]
   },
   "803968511": {
@@ -20678,7 +20747,7 @@
     ]
   },
   "853862770": {
-    "Variable Label": "Date of Screening – Month",
+    "Variable Label": "Date of Screening -Month",
     "Variable Name": [
       "SrvCDx_ScrnMo_v1r0"
     ]
@@ -20780,9 +20849,9 @@
     ]
   },
   "858052564": {
-    "Variable Label": "Date of Screening – Year",
+    "Variable Label": "Date of Screening -Year",
     "Variable Name": [
-      "SrvCDx_ScrnYr_v1r0"
+      "SrvCDx_ScrnYrNum_v1r0"
     ]
   },
   "858059214": {
@@ -20820,6 +20889,12 @@
   },
   "858533438": {
     "Variable Name": "Jersey"
+  },
+  "858545898": {
+    "Variable Label": "Primary care facility address - Line 3",
+    "Variable Name": [
+      "SrvHCS_PCFacLine3_v1r0"
+    ]
   },
   "858624942": {
     "Variable Name": "Once per day"
@@ -21272,7 +21347,7 @@
     "Variable Name": "Kidney Disease- Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply."
   },
   "874199876": {
-    "Variable Label": "Screening facility address  – Country",
+    "Variable Label": "Screening facility address  -Country",
     "Variable Name": [
       "SrvCDx_ScrnFacCountry_v1r0"
     ]
@@ -21425,6 +21500,12 @@
     "Variable Label": "BL Blood Collected",
     "Variable Name": [
       "BioRes_BaseBloodCol_v1r0"
+    ]
+  },
+  "879021105": {
+    "Variable Label": "NPPES NPI registry number - Screening provider",
+    "Variable Name": [
+      "SrvCDx_ScrnPCPRegNo_v1r0"
     ]
   },
   "879180101": {
@@ -21759,6 +21840,12 @@
     "Variable Label": "Mailing Address Zip",
     "Variable Name": [
       "RcrtUP_MailZip_v1r0"
+    ]
+  },
+  "892107008": {
+    "Variable Label": "Flag - Primary care facility international address",
+    "Variable Name": [
+      "SrvHCS_PCFacIntlFlag_v1r0"
     ]
   },
   "892150843": {
@@ -22170,7 +22257,7 @@
     "Variable Name": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had Stomach cancer?"
   },
   "908235757": {
-    "Variable Label": "Date of Diagnosis – Year",
+    "Variable Label": "Date of Diagnosis - Year",
     "Variable Name": [
       "SrvCDx_DxYear_v1r0"
     ]
@@ -22945,7 +23032,7 @@
     "Variable Name": "3 glasses"
   },
   "939355635": {
-    "Variable Label": "Screening facility address – Line 4",
+    "Variable Label": "Screening facility address -Line 4",
     "Variable Name": [
       "SrvCDx_ScrnFacLine4_v1r0"
     ]
@@ -23749,7 +23836,7 @@
     "Variable Name": "Address 11- What year did you move out of [insert address from HOMEADD1 - HOMEADD3/current address/the 2nd address you provided/etc.]?"
   },
   "964819753": {
-    "Variable Label": "Physician / Oncologist – First Name",
+    "Variable Label": "Physician / Oncologist -First Name",
     "Variable Name": [
       "SrvCDx_TxPhysFirstName_v1r0"
     ]
@@ -23939,6 +24026,12 @@
       "SrvLAW_Prev8DontKnow_v2r0"
     ]
   },
+  "973363047": {
+    "Variable Label": "Primary care facility address - City",
+    "Variable Name": [
+      "SrvHCS_PCFacCity_v1r0"
+    ]
+  },
   "973565052": {
     "Variable Label": "Mid Eastern/No African",
     "Variable Name": [
@@ -24033,7 +24126,7 @@
     ]
   },
   "977505777": {
-    "Variable Label": "Screening facility address – Line 1",
+    "Variable Label": "Screening facility address -Line 1",
     "Variable Name": [
       "SrvCDx_ScrnFacLine1_v1r0"
     ]
@@ -24528,6 +24621,12 @@
     "Variable Label": "Ref Base Survs",
     "Variable Name": [
       "HdRef_Basesrv_v1r0"
+    ]
+  },
+  "994200497": {
+    "Variable Label": "Date of PC facility change - Month",
+    "Variable Name": [
+      "SrvHCS_PCFacChangeMo_v1r0"
     ]
   },
   "994632550": {

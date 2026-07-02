@@ -18,16 +18,11 @@
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "Yes",
-  "Notes": "Conditionality: If Flag – Self-report new cancer diagnosis = 1 = Yes; Particiants may only enter 1 diagnosis per survey. Once entered, pts cannot edit their response",
-  "Date added or modified": "6/9/26",
+  "Notes": "Conditionality: If Self-report new cancer diagnosis flag = 1 = Yes; Particiants may only enter 1 diagnosis per survey. Once entered, pts cannot edit their response",
+  "Date added or modified": "6/11/26",
   "GCP Document/Table": "SelfReportCancerDx",
   "Question Type": "Multiple Choice with Text box (text in text box)",
   "Formula for Index": [
-    "12424",
-    "12425",
-    "12426",
-    "12427",
-    "12428",
     "12429",
     "12430",
     "12431",
@@ -46,14 +41,14 @@
     "12444",
     "12445",
     "12446",
-    "12447"
+    "12447",
+    "12448",
+    "12449",
+    "12450",
+    "12451",
+    "12452"
   ],
   "Index": [
-    "12424",
-    "12425",
-    "12426",
-    "12427",
-    "12428",
     "12429",
     "12430",
     "12431",
@@ -72,7 +67,12 @@
     "12444",
     "12445",
     "12446",
-    "12447"
+    "12447",
+    "12448",
+    "12449",
+    "12450",
+    "12451",
+    "12452"
   ],
   "Current Format/Value": {
     "939782495.json": "0",
@@ -82,7 +82,7 @@
     "283025574.json": "4",
     "942970912.json": "5",
     "596122041.json": "6",
-    "501836969.json": "7",
+    "489400183.json": "7",
     "863246236.json": "8",
     "607793249.json": "9",
     "532172400.json": "10",
@@ -98,6 +98,6 @@
     "248374037.json": "20",
     "139822395.json": "21",
     "723614811.json": "22",
-    "369438604.json": "55"
+    "807835037.json": "55"
   }
 }

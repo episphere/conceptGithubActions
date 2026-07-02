@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "12504",
-  "Index": "12504",
+  "Formula for Index": "12510",
+  "Index": "12510",
   "Primary Source": [
     "129084651.json"
   ],
@@ -9,8 +9,8 @@
   ],
   "Deprecated, New, or Revised": "New",
   "conceptId": "456014563",
-  "Current Question Text": "Enter the treatment facility or hospital address – Line 2 (street, rural road)",
-  "Variable Label": "Treatment facility address  – Line 2",
+  "Current Question Text": "Enter the treatment facility or hospital address -Line 2 (street, rural road)",
+  "Variable Label": "Treatment facility address  -Line 2",
   "Variable Name": [
     "SrvCDx_TxFacLine2_v1r0"
   ],
@@ -18,7 +18,7 @@
   "Variable Length": "70",
   "Current Format/Value": "N/A",
   "Required": "No",
-  "Notes": "Conditionality: If Receiving Cancer Treatment = Yes AND Treatment Facility – International Address Flag = 0 = No",
-  "Date added or modified": "6/9/26",
+  "Notes": "Conditionality: If Receiving Cancer Treatment = Yes AND Treatment Facility -International Address Flag = 0 = No",
+  "Date added or modified": "6/11/26",
   "GCP Document/Table": "SelfReportCancerDx"
 }

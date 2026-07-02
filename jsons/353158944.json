@@ -1,0 +1,23 @@
+{
+  "Formula for Index": "13429",
+  "Index": "13429",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "614340152.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "353158944",
+  "Current Question Text": "Date you changed your primary care facility - Year",
+  "Variable Label": "Date of PC facility change - Year",
+  "Variable Name": [
+    "SrvHCS_PCFacChangeYrNum_v1r0"
+  ],
+  "Variable Type": "Year",
+  "Variable Length": "4",
+  "Current Format/Value": "YYYY",
+  "Notes": "Range check: years > 1 year in the future will not be allowed",
+  "Date added or modified": "7/2/26",
+  "GCP Document/Table": "SelfReportHCSUpdates"
+}

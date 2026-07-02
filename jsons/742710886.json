@@ -8,7 +8,7 @@
   "Deprecated, New, or Revised": "New",
   "conceptId": "742710886",
   "Current Question Text": "Dates of treatment - start month",
-  "Variable Label": "Treatment Start – Month",
+  "Variable Label": "Treatment Start -Month",
   "Variable Name": [
     "SrvCDx_TxStartMo_v1r0"
   ],
@@ -16,35 +16,35 @@
   "Variable Length": "2",
   "Required": "No",
   "Notes": "Conditionality: if Receiving Cancer Treatment = Yes AND Treatment Type IS NOT NULL. Each treatment type selected will have its own loop structure.",
-  "Date added or modified": "6/9/26",
+  "Date added or modified": "6/11/26",
   "GCP Document/Table": "SelfReportCancerDx",
   "Formula for Index": [
-    "12473",
-    "12474",
-    "12475",
-    "12476",
-    "12477",
     "12478",
     "12479",
     "12480",
     "12481",
     "12482",
     "12483",
-    "12484"
+    "12484",
+    "12485",
+    "12486",
+    "12487",
+    "12488",
+    "12489"
   ],
   "Index": [
-    "12473",
-    "12474",
-    "12475",
-    "12476",
-    "12477",
     "12478",
     "12479",
     "12480",
     "12481",
     "12482",
     "12483",
-    "12484"
+    "12484",
+    "12485",
+    "12486",
+    "12487",
+    "12488",
+    "12489"
   ],
   "Current Format/Value": {
     "286592124.json": "0",

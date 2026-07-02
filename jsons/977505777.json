@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "12820",
-  "Index": "12820",
+  "Formula for Index": "12829",
+  "Index": "12829",
   "Primary Source": [
     "129084651.json"
   ],
@@ -9,8 +9,8 @@
   ],
   "Deprecated, New, or Revised": "New",
   "conceptId": "977505777",
-  "Current Question Text": "Enter the name of the facility or hospital where you were screened – Line 1 (name of facility)",
-  "Variable Label": "Screening facility address – Line 1",
+  "Current Question Text": "Enter the name of the facility or hospital where you were screened -Line 1 (name of facility)",
+  "Variable Label": "Screening facility address -Line 1",
   "Variable Name": [
     "SrvCDx_ScrnFacLine1_v1r0"
   ],
@@ -19,6 +19,6 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "Notes": "Conditionality: If Cancer Detected Through Screening = 1 = Yes AND Screening Type IS NOT NULL. Each screening type will have its own loop structure",
-  "Date added or modified": "6/9/26",
+  "Date added or modified": "6/11/26",
   "GCP Document/Table": "SelfReportCancerDx"
 }

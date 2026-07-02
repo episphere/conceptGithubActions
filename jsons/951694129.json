@@ -18,22 +18,22 @@
   "PII": "Yes",
   "Notes": "New variable pushed to prod on 5/28/26: If GeoNORC_PrecisionMatch_v1r0 = 'Street' then geocoder matched address to an address-level point; if = 'Intersection' then geocoder matched address to an intersection point; if = 'ZIP' then geocoder could not identify address-level match, but matched a ZIP code centroid, if = 'City' then geocoder could not identify address-level match, but matched a city centroid; if = 'Street Segment' then Geocoder could not identify address-level match, but used a street-centroid match; If = 'None' then no match was identified",
   "Default Variable": "No",
-  "Date added or modified": "6/9/26",
+  "Date added or modified": "6/11/26",
   "Formula for Index": [
-    "12408",
-    "12409",
-    "12410",
-    "12411",
-    "12412",
-    "12413"
+    "12413",
+    "12414",
+    "12415",
+    "12416",
+    "12417",
+    "12418"
   ],
   "Index": [
-    "12408",
-    "12409",
-    "12410",
-    "12411",
-    "12412",
-    "12413"
+    "12413",
+    "12414",
+    "12415",
+    "12416",
+    "12417",
+    "12418"
   ],
   "Current Format/Value": {
     "728662578.json": "0",

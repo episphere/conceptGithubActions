@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "12503",
-  "Index": "12503",
+  "Formula for Index": "12509",
+  "Index": "12509",
   "Primary Source": [
     "129084651.json"
   ],
@@ -9,8 +9,8 @@
   ],
   "Deprecated, New, or Revised": "New",
   "conceptId": "165350319",
-  "Current Question Text": "Enter the name of the facility or hospital where you received treatment – Line 1 (name of facility)",
-  "Variable Label": "Treatment facility address – Line 1",
+  "Current Question Text": "Enter the name of the facility or hospital where you received treatment -Line 1 (name of facility)",
+  "Variable Label": "Treatment facility address -Line 1",
   "Variable Name": [
     "SrvCDx_TxFacLine1_v1r0"
   ],
@@ -18,7 +18,7 @@
   "Variable Length": "70",
   "Current Format/Value": "N/A",
   "Required": "No",
-  "Notes": "Conditionality: If Receiving Cancer Treatment = Yes AND Treatment Facility – International Address Flag = 0 = No",
-  "Date added or modified": "6/9/26",
+  "Notes": "Conditionality: If Receiving Cancer Treatment = Yes AND Treatment Facility -International Address Flag = 0 = No",
+  "Date added or modified": "6/11/26",
   "GCP Document/Table": "SelfReportCancerDx"
 }

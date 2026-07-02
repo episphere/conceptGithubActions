@@ -1,0 +1,32 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "242103797.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "568499390",
+  "Current Question Text": "Google API Address Validation - treatment facility",
+  "Variable Label": "Flag - Google API Address validation - Treatment facility",
+  "Variable Name": [
+    "SrvCDx_TxFacValidAddFlag"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "Date added or modified": "7/2/26",
+  "GCP Document/Table": "SelfReportCancerDx",
+  "Formula for Index": [
+    "12789",
+    "12790"
+  ],
+  "Index": [
+    "12789",
+    "12790"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

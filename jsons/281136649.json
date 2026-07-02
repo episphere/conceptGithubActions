@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "12485",
-  "Index": "12485",
+  "Formula for Index": "12490",
+  "Index": "12490",
   "Primary Source": [
     "129084651.json"
   ],
@@ -10,7 +10,7 @@
   "Deprecated, New, or Revised": "New",
   "conceptId": "281136649",
   "Current Question Text": "Dates of treatment - start year",
-  "Variable Label": "Treatment Start – Year",
+  "Variable Label": "Treatment Start -Year",
   "Variable Name": [
     "SrvCDx_TxStartYr_v1r0"
   ],
@@ -19,6 +19,6 @@
   "Current Format/Value": "YYYY",
   "Required": "Yes",
   "Notes": "Conditionality: If Receiving Cancer Treatment = Yes AND Treatment Type IS NOT NULL. Each treatment type selected will have its own loop structure",
-  "Date added or modified": "6/9/26",
+  "Date added or modified": "6/11/26",
   "GCP Document/Table": "SelfReportCancerDx"
 }

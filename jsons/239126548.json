@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "12818",
-  "Index": "12818",
+  "Formula for Index": "12826",
+  "Index": "12826",
   "Primary Source": [
     "129084651.json"
   ],
@@ -9,8 +9,8 @@
   ],
   "Deprecated, New, or Revised": "New",
   "conceptId": "239126548",
-  "Current Question Text": "What is the name of the physician who performed your screening? – First name",
-  "Variable Label": "Screening Physician – First Name",
+  "Current Question Text": "What is the name of the physician who performed your screening? -First name",
+  "Variable Label": "Screening Physician -First Name",
   "Variable Name": [
     "SrvCDx_ScrnPhyFirstName_v1r0"
   ],
@@ -19,6 +19,6 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "Notes": "Conditionality: If Cancer Detected Through Screening = 1 = Yes AND Screening Type IS NOT NULL. Each screening type will have its own loop structure",
-  "Date added or modified": "6/9/26",
+  "Date added or modified": "6/11/26",
   "GCP Document/Table": "SelfReportCancerDx"
 }

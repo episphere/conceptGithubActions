@@ -18,14 +18,14 @@
   "PII": "No",
   "Notes": "New variable pushed to prod on 5/28/26: If Address multimatch method equals 'Precision' then the multimatch was resolved by selecting the highest precisions match, using the hierarchy: street precision > ZIP > City > Street > Segment; If equals 'Random' then the multimatch was resolved by randomly selecting a candidate, using all candidates of equal precision",
   "Default Variable": "No",
-  "Date added or modified": "6/9/26",
+  "Date added or modified": "6/11/26",
   "Formula for Index": [
-    "12416",
-    "12417"
+    "12421",
+    "12422"
   ],
   "Index": [
-    "12416",
-    "12417"
+    "12421",
+    "12422"
   ],
   "Current Format/Value": {
     "768887460.json": "0",

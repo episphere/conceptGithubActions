@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "12402",
-  "Index": "12402",
+  "Formula for Index": "12407",
+  "Index": "12407",
   "Primary Source": [
     "942936609.json"
   ],
@@ -15,11 +15,11 @@
   "Variable Name": [
     "GeoNORC_Zipcode_v1r0"
   ],
-  "Variable Type": "Num",
+  "Variable Type": "Char",
   "Variable Length": "5",
   "Required": "No",
   "PII": "Yes",
-  "Notes": "New variable pushed to prod on 5/28/26: Cleaned zip code from geocoding process, blank for City and None precisions",
+  "Notes": "New variable pushed to prod on 5/28/26: Cleaned zip code from geocoding process, blank for City and None precisions; Updated from Num to Char to avoid leading zeroes from being cut off (6/11/26)",
   "Default Variable": "No",
   "Date added or modified": "5/1/26"
 }

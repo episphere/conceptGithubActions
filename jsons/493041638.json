@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "12507",
-  "Index": "12507",
+  "Formula for Index": "12513",
+  "Index": "12513",
   "Primary Source": [
     "129084651.json"
   ],
@@ -9,8 +9,8 @@
   ],
   "Deprecated, New, or Revised": "New",
   "conceptId": "493041638",
-  "Current Question Text": "Enter the treatment facility or hospital address – City",
-  "Variable Label": "Treatment facility address  – City",
+  "Current Question Text": "Enter the treatment facility or hospital address -City",
+  "Variable Label": "Treatment facility address  -City",
   "Variable Name": [
     "SrvCDx_TxFacCity_v1r0"
   ],
@@ -18,7 +18,7 @@
   "Variable Length": "45",
   "Current Format/Value": "N/A",
   "Required": "No",
-  "Notes": "Conditionality: If Receiving Cancer Treatment = Yes AND Treatment Facility – International Address Flag = 0 = No",
-  "Date added or modified": "6/9/26",
+  "Notes": "Conditionality: If Receiving Cancer Treatment = Yes AND Treatment Facility -International Address Flag = 0 = No",
+  "Date added or modified": "6/11/26",
   "GCP Document/Table": "SelfReportCancerDx"
 }

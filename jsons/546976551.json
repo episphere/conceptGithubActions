@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "12448",
-  "Index": "12448",
+  "Formula for Index": "12453",
+  "Index": "12453",
   "Primary Source": [
     "129084651.json"
   ],
@@ -13,7 +13,7 @@
   "Deprecated, New, or Revised": "New",
   "conceptId": "546976551",
   "Current Question Text": "What is the primary site of your cancer diagnosis - Other: please describe",
-  "Variable Label": "Primary cancer site - Other – please describe |__|",
+  "Variable Label": "Primary cancer site - Other  please describe |__|",
   "Variable Name": [
     "SrvCDx_PrimarySiteOth_v1r0"
   ],
@@ -21,8 +21,8 @@
   "Variable Length": "800",
   "Current Format/Value": "N/A",
   "Required": "No",
-  "Notes": "Conditionality: If Flag – Self-report new cancer diagnosis = Yes AND Primary Cancer Diagnosis Site = 55 = Other.",
-  "Date added or modified": "6/9/26",
+  "Notes": "Conditionality: If Self-report new cancer diagnosis flag = Yes AND Primary Cancer Diagnosis Site = 55 = Other.",
+  "Date added or modified": "6/11/26",
   "GCP Document/Table": "SelfReportCancerDx",
   "Question Type": "Multiple Choice with Text box (text in text box)"
 }

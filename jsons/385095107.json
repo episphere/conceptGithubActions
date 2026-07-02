@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "12509",
-  "Index": "12509",
+  "Formula for Index": "12515",
+  "Index": "12515",
   "Primary Source": [
     "129084651.json"
   ],
@@ -9,8 +9,8 @@
   ],
   "Deprecated, New, or Revised": "New",
   "conceptId": "385095107",
-  "Current Question Text": "Enter the treatment facility or hospital address – Zip/Postal Code",
-  "Variable Label": "Treatment facility address  – Zip/Postal",
+  "Current Question Text": "Enter the treatment facility or hospital address -Zip/Postal Code",
+  "Variable Label": "Treatment facility address  -Zip/Postal",
   "Variable Name": [
     "SrvCDx_TxFacZIP_v1r0"
   ],
@@ -18,7 +18,7 @@
   "Variable Length": "45",
   "Current Format/Value": "N/A",
   "Required": "No",
-  "Notes": "Conditionality: If Receiving Cancer Treatment = Yes AND Treatment Facility – International Address Flag = 0 = No (Zip) OR = 1 = Yes (Postal). ‘Zip’ will display as ‘Postal Code’ when International Flag = YES. However, both Zip and Postal Code will store the data under the current CID for Zip. When International Flag = YES, will be able to enter more than 5 digits and alphanumerical responses",
-  "Date added or modified": "6/9/26",
+  "Notes": "Conditionality: If Receiving Cancer Treatment = Yes AND Treatment Facility -International Address Flag = 0 = No (Zip) OR = 1 = Yes (Postal). Zip‚ will display as Postal Code‚ when International Flag = YES. However, both Zip and Postal Code will store the data under the current CID for Zip. When International Flag = YES, will be able to enter more than 5 digits and alphanumerical responses",
+  "Date added or modified": "6/11/26",
   "GCP Document/Table": "SelfReportCancerDx"
 }

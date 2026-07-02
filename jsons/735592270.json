@@ -19,15 +19,15 @@
   "Variable Length": "1",
   "Required": "No",
   "Notes": "Conditionality: If Receiving Cancer Treatment = Yes AND Treatment Type IS NOT NULL. Mutually exclusive with Treatment end Year and Month: Neither end date nor flag are required",
-  "Date added or modified": "6/9/26",
+  "Date added or modified": "6/11/26",
   "GCP Document/Table": "SelfReportCancerDx",
   "Formula for Index": [
-    "12486",
-    "12487"
+    "12491",
+    "12492"
   ],
   "Index": [
-    "12486",
-    "12487"
+    "12491",
+    "12492"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

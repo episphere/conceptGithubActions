@@ -1,0 +1,32 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "242103797.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "803865514",
+  "Current Question Text": "Google API Address Validation - screening facility",
+  "Variable Label": "Flag - Google API Address validation - Screening facility",
+  "Variable Name": [
+    "SrvCDx_ScrnFacValidAddFlag"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "Date added or modified": "7/2/26",
+  "GCP Document/Table": "SelfReportCancerDx",
+  "Formula for Index": [
+    "13109",
+    "13110"
+  ],
+  "Index": [
+    "13109",
+    "13110"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

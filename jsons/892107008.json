@@ -1,0 +1,32 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "614340152.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "892107008",
+  "Current Question Text": "Is this primary care facility located outside the United States?",
+  "Variable Label": "Flag - Primary care facility international address",
+  "Variable Name": [
+    "SrvHCS_PCFacIntlFlag_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "1",
+  "Required": "No",
+  "Date added or modified": "7/2/26",
+  "GCP Document/Table": "SelfReportHCSUpdates",
+  "Formula for Index": [
+    "13144",
+    "13145"
+  ],
+  "Index": [
+    "13144",
+    "13145"
+  ],
+  "Current Format/Value": {
+    "104430631.json": "0",
+    "353358909.json": "1"
+  }
+}

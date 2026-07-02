@@ -1,0 +1,24 @@
+{
+  "Formula for Index": "12508",
+  "Index": "12508",
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "242103797.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "609996916",
+  "Current Question Text": "NPPES NPI Registry Number -  treatment provider",
+  "Variable Label": "NPPES NPI registry number - Treatment provider",
+  "Variable Name": [
+    "SrvCDx_TxPCPRegNo_v1r0"
+  ],
+  "Variable Type": "Char",
+  "Variable Length": "10",
+  "Current Format/Value": "e.g., 4968127407",
+  "Required": "No",
+  "Notes": "Registry numbers are 10-digit numeric codes stored as character values to prevent leading 0s from being cut off",
+  "Date added or modified": "7/2/26",
+  "GCP Document/Table": "SelfReportCancerDx"
+}

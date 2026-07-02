@@ -15,17 +15,17 @@
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
-  "Notes": "Conditionality: If Flag – Self-report new cancer diagnosis = Yes AND Primary Cancer Diagnosis Site IS NOT NULL.",
-  "Date added or modified": "6/9/26",
+  "Notes": "Conditionality: If Self-report new cancer diagnosis flag = Yes AND Primary Cancer Diagnosis Site IS NOT NULL.",
+  "Date added or modified": "6/11/26",
   "GCP Document/Table": "SelfReportCancerDx",
   "Question Type": "Multiple Choice",
   "Formula for Index": [
-    "12462",
-    "12463"
+    "12467",
+    "12468"
   ],
   "Index": [
-    "12462",
-    "12463"
+    "12467",
+    "12468"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
