@@ -1,60 +1,38 @@
 {
   "Primary Source": [
-    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "299215535.json",
-    "390351864.json"
+    "193044131.json"
   ],
   "Current Source Question": [
-    "542661394.json",
     "542661394.json"
   ],
+  "Deprecated, New, or Revised": "New",
   "conceptId": "167336253",
   "Current Question Text": "No, I have no dentures or dental appliances.",
   "Variable Label": "No Dentures",
   "Variable Name": [
-    "SrvMtW_DENTURES2_v1r0",
-    "SrvMtW_DENTURES2_v1r0"
+    "SrvOAG_DENTURES2_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "FALSE",
     "FALSE"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Dictionary": "Biospecimen Survey",
-  "State Attribute": "No",
+  "Required": "No",
+  "PII": "No",
   "Question Type": "Optional Select All that Apply",
   "Formula for Index": [
-    "9946",
-    "9947"
+    "13622",
+    "13623"
   ],
   "Index": [
-    "9946",
-    "9947"
-  ],
-  "Deprecated, New, or Revised": [
-    "New",
-    "New"
-  ],
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": [
-    "45323",
-    "2/1/24"
+    "13622",
+    "13623"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  },
-  "Date added or modified": [
-    "2/28/24",
-    "2/28/24"
-  ],
-  "IMS Review Notes": [
-    "Added prod push date",
-    "Added prod push date"
-  ],
-  "Required": "No",
-  "PII": "No"
+  }
 }

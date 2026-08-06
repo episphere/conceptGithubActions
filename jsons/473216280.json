@@ -6,6 +6,7 @@
     "218382402.json"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "6/30/26",
   "conceptId": "473216280",
   "Current Question Text": "Address multimatch method",
   "Variable Label": "Address multimatch method",
@@ -16,16 +17,16 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Notes": "New variable pushed to prod on 5/28/26: If Address multimatch method equals 'Precision' then the multimatch was resolved by selecting the highest precisions match, using the hierarchy: street precision > ZIP > City > Street > Segment; If equals 'Random' then the multimatch was resolved by randomly selecting a candidate, using all candidates of equal precision",
+  "Notes": "New variable pushed to prod on 5/28/26: If Address multimatch method equals 'Precision' then the multimatch was resolved by selecting the highest precisions match, using the hierarchy: street precision > ZIP > City > Street > Segment; If equals 'Random' then the multimatch was resolved by randomly selecting a candidate, using all candidates of equal precision; Revised 6/11: Made categories for 0 = Precision / 1 = Random",
   "Default Variable": "No",
   "Date added or modified": "6/11/26",
   "Formula for Index": [
-    "12421",
-    "12422"
+    "12414",
+    "12415"
   ],
   "Index": [
-    "12421",
-    "12422"
+    "12414",
+    "12415"
   ],
   "Current Format/Value": {
     "768887460.json": "0",

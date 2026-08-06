@@ -1,0 +1,44 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "193044131.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "711736213",
+  "Current Question Text": "How often do you use chlorhexidine mouthwash (such as PeridexTM, PerioGard, or Paroex)?",
+  "Variable Label": "Chlorhexidine Mtw Freq",
+  "Variable Name": [
+    "SrvOAG_MWCHLOR_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Question Type": "Optional Multiple Choice",
+  "Formula for Index": [
+    "13560",
+    "13561",
+    "13562",
+    "13563",
+    "13564",
+    "13565"
+  ],
+  "Index": [
+    "13560",
+    "13561",
+    "13562",
+    "13563",
+    "13564",
+    "13565"
+  ],
+  "Current Format/Value": {
+    "648960871.json": "44",
+    "693256778.json": "0",
+    "735330419.json": "1",
+    "138332277.json": "2",
+    "858624942.json": "3",
+    "850675416.json": "4"
+  }
+}

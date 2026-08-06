@@ -1,43 +1,35 @@
 {
   "Primary Source": [
-    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "299215535.json",
-    "390351864.json"
+    "193044131.json"
   ],
   "Current Source Question": [
-    "406270109.json",
-    "406270109.json"
+    "421221670.json"
   ],
+  "Deprecated, New, or Revised": "New",
   "conceptId": "523660949",
-  "Current Question Text": "Mouthwash for dry mouth (such as biotene®)",
-  "Variable Label": "Mouthwash for dry mouth",
+  "Current Question Text": "Mouthwash for dry mouth (such as biotene)",
+  "Variable Label": "Mtw for Dry Mouth",
   "Variable Name": [
-    "SrvMtW_MWDRY1_v1r0",
-    "SrvMtW_MWDRY1_v1r0"
+    "SrvOAG_MWDRY1_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "TRUE",
     "TRUE"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Dictionary": "Biospecimen Survey",
-  "State Attribute": "No",
-  "Date added or modified": "4/13/23",
   "Question Type": "Optional Select All that Apply",
-  "IMS Review Notes": "Removed special characters",
   "Formula for Index": [
-    "9866",
-    "9867"
+    "13546",
+    "13547"
   ],
   "Index": [
-    "9866",
-    "9867"
+    "13546",
+    "13547"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

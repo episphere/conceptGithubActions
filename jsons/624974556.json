@@ -1,13 +1,13 @@
 {
-  "Formula for Index": "13137",
-  "Index": "13137",
+  "Formula for Index": "13130",
+  "Index": "13130",
   "Primary Source": [
     "129084651.json"
   ],
   "Secondary Source": [
     "614340152.json"
   ],
-  "Deprecated, New, or Revised": "New",
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "624974556",
   "Current Question Text": "Primary care facility address - Line 1 (name of facility)",
   "Variable Label": "Primary care facility address - Line 1",
@@ -17,7 +17,8 @@
   "Variable Type": "Char",
   "Variable Length": "70",
   "Current Format/Value": "N/A",
-  "Required": "No",
-  "Date added or modified": "7/2/26",
+  "Required": "Yes",
+  "Notes": "Last updated 7/2/26; Updated (8/5/26) - Made a required variable",
+  "Date added or modified": "8/5/26",
   "GCP Document/Table": "SelfReportHCSUpdates"
 }

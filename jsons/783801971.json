@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "13142",
-  "Index": "13142",
+  "Formula for Index": "13135",
+  "Index": "13135",
   "Primary Source": [
     "129084651.json"
   ],
@@ -18,6 +18,7 @@
   "Variable Length": "48",
   "Current Format/Value": "N/A",
   "Required": "No",
+  "Notes": "DevOps to use USPS API to translate STATE  into dropdown menu options on pts end. State‚ will display as Region‚ when International Flag = YES. However, both State and Region will store the data under the same CID",
   "Date added or modified": "7/2/26",
   "GCP Document/Table": "SelfReportHCSUpdates"
 }

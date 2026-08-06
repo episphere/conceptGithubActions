@@ -17,38 +17,37 @@
     "650465111.json",
     "303552867.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "693370086",
   "Current Question Text": "Clinical Site Blood Collected",
   "Variable Label": "BL Clin Site Blood Coll",
   "Variable Name": [
-    "BioClin_SiteBloodCollBL_v1r0",
-    "BioClin_SiteBloodCollA1_v1r0",
-    "BioClin_SiteBloodCollA2_v1r0",
-    "BioClin_SiteBloodCollA3_v1r0"
+    "BioCol_SiteBloodCollBL_v1r0",
+    "BioCol_SiteBloodCollA1_v1r0",
+    "BioCol_SiteBloodCollA2_v1r0",
+    "BioCol_SiteBloodCollA3_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "from site EMR, sent to NCI via API",
+  "Notes": "from site EMR, sent to NCI via API; Last updated 3/21/24;  Updated Variable Name prefix (8/5/26) from BioClin to BioCol",
   "Dictionary": "Biospecimen Clinical",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "3/21/24",
+  "Date added or modified": "8/5/26",
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_693370086 (2nd CID may change based on BL/F-U1,2,3)",
   "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_SiteBloodColl_v1r0 with BioClin_SiteBloodCollBL_v1r0",
   "Formula for Index": [
-    "2217",
-    "2218"
+    "2211",
+    "2212"
   ],
   "Index": [
-    "2217",
-    "2218"
+    "2211",
+    "2212"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  },
-  "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/25/26"
+  }
 }

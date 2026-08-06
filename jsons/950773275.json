@@ -1,43 +1,35 @@
 {
   "Primary Source": [
-    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "299215535.json",
-    "390351864.json"
+    "193044131.json"
   ],
   "Current Source Question": [
-    "406270109.json",
-    "406270109.json"
+    "421221670.json"
   ],
+  "Deprecated, New, or Revised": "New",
   "conceptId": "950773275",
-  "Current Question Text": "Alcohol-based mouthwash (such as Scope® or LISTERINE®)",
-  "Variable Label": "Alcohol-based mouthwash",
+  "Current Question Text": "Alcohol-based mouthwash (such as Scope or LISTERINE)",
+  "Variable Label": "Alcohol-Based Mtw",
   "Variable Name": [
-    "SrvMtW_MWALC1_v1r0",
-    "SrvMtW_MWALC1_v1r0"
+    "SrvOAG_MWALC1_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "FALSE",
     "FALSE"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Dictionary": "Biospecimen Survey",
-  "State Attribute": "No",
-  "Date added or modified": "4/13/23",
   "Question Type": "Optional Select All that Apply",
-  "IMS Review Notes": "Removed special characters",
   "Formula for Index": [
-    "9852",
-    "9853"
+    "13532",
+    "13533"
   ],
   "Index": [
-    "9852",
-    "9853"
+    "13532",
+    "13533"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

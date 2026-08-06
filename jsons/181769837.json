@@ -5,21 +5,24 @@
     "129084651.json",
     "129084651.json",
     "129084651.json",
-    "129084651.json",
+    "Survey",
+    "Survey",
     "129084651.json"
   ],
   "Secondary Source": [
     "745268907.json",
     "745268907.json",
     "965707586.json",
-    "299215535.json",
-    "390351864.json"
+    "Blood/Urine/Mouthwash",
+    "Mouthwash",
+    "193044131.json"
   ],
   "Current Source Question": [
     "543780863.json",
     "517976064.json",
     "447720598.json",
-    "542661394.json",
+    "Do you currently use any type of dentures or dental appliance? Please select all you have.",
+    "Do you currently use any type of dentures or dental appliance? Please select all you have.",
     "542661394.json"
   ],
   "Deprecated, New, or Revised": "New",
@@ -29,9 +32,11 @@
     "SrvMRE_OtherExercise_v1r0",
     "SrvSAS_OtherAlc_v1r0",
     "SrvMtW_DENTOTHER_v2r0",
-    "SrvMtW_DENTOTHER_v2r0"
+    "SrvMtW_DENTOTHER_v2r0",
+    "SrvOAG_DENTOTHER_v2r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
+    "TRUE",
     "TRUE",
     "TRUE",
     "TRUE",
@@ -46,12 +51,12 @@
   "Date added or modified": "2/22/23",
   "IMS Review Notes": "Updated variable name from OtherHorMeds to OtherHorMed",
   "Formula for Index": [
-    "5257",
-    "5258"
+    "5250",
+    "5251"
   ],
   "Index": [
-    "5257",
-    "5258"
+    "5250",
+    "5251"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

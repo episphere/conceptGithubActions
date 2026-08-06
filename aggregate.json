@@ -385,10 +385,10 @@
   "110349197": {
     "Variable Label": "BL Polyacc ID - Ur",
     "Variable Name": [
-      "BioClin_PolyUrineIDBL_v1r0",
-      "BioClin_PolyUrineIDA1_v1r0",
-      "BioClin_PolyUrineIDA2_v1r0",
-      "BioClin_PolyUrineIDA3_v1r0"
+      "BioCol_PolyUrineIDBL_v1r0",
+      "BioCol_PolyUrineIDA1_v1r0",
+      "BioCol_PolyUrineIDA2_v1r0",
+      "BioCol_PolyUrineIDA3_v1r0"
     ]
   },
   "110511396": {
@@ -955,6 +955,12 @@
       "SrvSAS_MJUseEDLastUsed_v3r0"
     ]
   },
+  "129830997": {
+    "Variable Label": "Collection Type",
+    "Variable Name": [
+      "ActCoT_CollectionType_v1r0"
+    ]
+  },
   "129924389": {
     "Variable Name": "In total, how many months or years have you used copper IUD?"
   },
@@ -1293,6 +1299,12 @@
   "140418030": {
     "Variable Name": "WEIGHTHIS percent difference"
   },
+  "140587960": {
+    "Variable Label": "Survey Type",
+    "Variable Name": [
+      "ActSuT_SurveyType_v1r0"
+    ]
+  },
   "140848765": {
     "Variable Label": "Age first used marijana with tobacco",
     "Variable Name": [
@@ -1354,6 +1366,12 @@
     "Variable Label": "Street number",
     "Variable Name": [
       "SrvLAW_SeaStNum9_v1r0"
+    ]
+  },
+  "143315155": {
+    "Variable Label": "D/T Refusal",
+    "Variable Name": [
+      "ActReT_RefusalDT_v1r0"
     ]
   },
   "143523420": {
@@ -1730,10 +1748,10 @@
   "156605577": {
     "Variable Label": "BL Any Clin Blood/Ur Rec",
     "Variable Name": [
-      "BioClin_AnyBldUrnRecBL_v1r0",
-      "BioClin_AnyBldUrnRecA1_v1r0",
-      "BioClin_AnyBldUrnRecA2_v1r0",
-      "BioClin_AnyBldUrnRecA3_v1r0"
+      "BioCol_AnyBldUrnRecBL_v1r0",
+      "BioCol_AnyBldUrnRecA1_v1r0",
+      "BioCol_AnyBldUrnRecA2_v1r0",
+      "BioCol_AnyBldUrnRecA3_v1r0"
     ]
   },
   "156628245": {
@@ -1918,10 +1936,9 @@
     ]
   },
   "165596977": {
-    "Variable Label": "Water-based flosser or pick/jet past month",
+    "Variable Label": "Water Pick",
     "Variable Name": [
-      "SrvMtW_WTRPICK1_v1r0",
-      "SrvMtW_WTRPICK1_v1r0"
+      "SrvOAG_WTRPICK1_v1r0"
     ]
   },
   "165923738": {
@@ -1972,8 +1989,7 @@
   "167336253": {
     "Variable Label": "No Dentures",
     "Variable Name": [
-      "SrvMtW_DENTURES2_v1r0",
-      "SrvMtW_DENTURES2_v1r0"
+      "SrvOAG_DENTURES2_v1r0"
     ]
   },
   "167695804": {
@@ -2124,7 +2140,7 @@
   "173836415": {
     "Variable Label": "Collection Details",
     "Variable Name": [
-      "BipSpm_CollDetails_v1r0"
+      "BioSpm_CollDetails_v1r0"
     ]
   },
   "173979298": {
@@ -2147,6 +2163,9 @@
   },
   "174321703": {
     "Variable Name": "Sint Maarten (Dutch Part)"
+  },
+  "174688753": {
+    "Variable Name": "Blood Urine Mouthwash Survey"
   },
   "174911197": {
     "Variable Label": "Probiotic Dairy",
@@ -2263,9 +2282,72 @@
     "Variable Name": "How old were you when you had your gallbladder removed (cholecystectomy)?"
   },
   "178420302": {
-    "Variable Label": "Don't Know Hospital Treatments - COVID",
+    "Variable Label": "Don't Know",
     "Variable Name": [
-      "SrvC19_TreatmentsDK_v1r0"
+      "SrvBOH_DontKnowRE_v1r0",
+      "SrvBOH_UnknownRE2_v1r0",
+      "SrvBOH_UnknownRE3_v1r0",
+      "SrvBOH_UnknownRE4_v1r0",
+      "SrvBOH_UnknownRE5_v1r0",
+      "SrvBOH_UnknownRE6_v1r0",
+      "SrvBOH_UnknownRE7_v1r0",
+      "SrvBOH_UnknownRE8_v1r0",
+      "SrvBOH_UnknownCanc_v1r0",
+      "SrvBOH_MotherAge_v2r0",
+      "SrvBOH_MomAgeDeath_v2r0",
+      "SrvBOH_MCancerUnknown_v1r0",
+      "SrvBOH_DadAge_v2r0",
+      "SrvBOH_DadAgeDeath_v2r0",
+      "SrvBOH_DCancerUnknown_v1r0",
+      "SrvBOH_Sib1Age_v2r0",
+      "SrvBOH_Sib1AgeDeath_v2r0",
+      "SrvBOH_S1CancerUnk_v1r0",
+      "SrvBOH_Child1AgeOther_v2r0",
+      "SrvBOH_Chi1DeathAgeOther_v2r0",
+      "SrvBOH_C1CancerUnk_v1r0",
+      "SrvBOH_BsnUnknownC_v1r0",
+      "SrvBOH_BsnUnknownP_v1r0",
+      "SrvMRE_LAspirinPillDK_v2r0",
+      "SrvMRE_REAspirinPillDK_v2r0",
+      "SrvMRE_IbuprofenPillDK_v2r0",
+      "SrvMRE_AcetPillDK_v2r0",
+      "SrvMRE_CelebrexPillDK_v2r0",
+      "SrvMRE_StatinsPillsDK_v2r0",
+      "SrvMRE_AntiHypPillsDK_v2r0",
+      "SrvMRE_InsulinUnitsDK_v2r0",
+      "SrvSAS_EdiblesServingsDK_v2r0",
+      "SrvSAS_THCServingsDK_v2r1",
+      "SrvLAW_CurDontKnow_v2r0",
+      "SrvLAW_CurCrosDontKnow_v2r0",
+      "SrvLAW_Prev1DontKnow_v2r0",
+      "SrvLAW_Prev2DontKnow_v2r0",
+      "SrvLAW_Prev3DontKnow_v2r0",
+      "SrvLAW_Prev3CrDontKnow_v2r0",
+      "SrvLAW_Prev4DontKnow_v2r0",
+      "SrvLAW_Prev7DontKnow_v2r0",
+      "SrvLAW_Prev9DontKnow_v2r0",
+      "SrvLAW_Seas1DontKnow_v2r0",
+      "SrvLAW_Seas1CrDontKnow_v2r0",
+      "SrvLAW_Seas6DontKnow_v2r0",
+      "SrvLAW_Seas7DontKnow_v2r0",
+      "SrvLAW_CHDontKnow_v2r0",
+      "SrvLAW_CHCrossDontKnow_v2r0",
+      "SrvLAW_ChildHomeBirth_v1r0",
+      "SrvLAW_ChildHomeCurr_v1r0",
+      "SrvLAW_WkPstPanUnk2_v1r0",
+      "SrvLAW_EmplDontKnow_v2r0",
+      "SrvLAW_EmplCrDontKnow_v2r0",
+      "SrvLAW_PrevEmpDontKnow_v2r0",
+      "SrvLAW_PreEmCrDontKnow_v2r0",
+      "SrvLAW_CurSchDontKnow_v2r0",
+      "SrvLAW_CurScCrDontKnow_v2r0",
+      "SrvMtW_DENTURESDK_v1r0",
+      "SrvPES_PHONE2D_v1r0",
+      "SrvPES_TABLET2H_v1r0",
+      "SrvPES_COMP2E_v1r0",
+      "SrvMtW_DENTURESDK_v1r0",
+      "SrvScr_SKIN1DK_v1r0",
+      "SrvOAG_DENTURESDK_v1r0"
     ]
   },
   "178609656": {
@@ -2279,6 +2361,9 @@
   },
   "178774803": {
     "Variable Name": "How old is your father today? - SOURCE"
+  },
+  "179180427": {
+    "Variable Name": "Type 4"
   },
   "179406442": {
     "Variable Label": "ICU - COVID",
@@ -2374,7 +2459,8 @@
       "SrvMRE_OtherExercise_v1r0",
       "SrvSAS_OtherAlc_v1r0",
       "SrvMtW_DENTOTHER_v2r0",
-      "SrvMtW_DENTOTHER_v2r0"
+      "SrvMtW_DENTOTHER_v2r0",
+      "SrvOAG_DENTOTHER_v2r0"
     ]
   },
   "181786871": {
@@ -2449,17 +2535,16 @@
   "184451682": {
     "Variable Label": "BL D/T Base Blood/Ur Order",
     "Variable Name": [
-      "BioClin_BldUrnPlcdTmBL_v1r0",
-      "BioClin_BldUrnPlcdTmA1_v1r0",
-      "BioClin_BldUrnPlcdTmA2_v1r0",
-      "BioClin_BldUrnPlcdTmA3_v1r0"
+      "BioCol_BldUrnPlcdTmBL_v1r0",
+      "BioCol_BldUrnPlcdTmA1_v1r0",
+      "BioCol_BldUrnPlcdTmA2_v1r0",
+      "BioCol_BldUrnPlcdTmA3_v1r0"
     ]
   },
   "184513726": {
-    "Variable Label": "Teeth-whiteners past month",
+    "Variable Label": "Teeth-whiteners",
     "Variable Name": [
-      "SrvMtW_WHITE1_v1r0",
-      "SrvMtW_WHITE1_v1r0"
+      "SrvOAG_WHITE1_v1r0"
     ]
   },
   "184681822": {
@@ -2489,10 +2574,10 @@
   "185243482": {
     "Variable Label": "BL Blood Location ID",
     "Variable Name": [
-      "BioClin_SiteBldLocBL_v1r0",
-      "BioClin_SiteBldLocA1_v1r0",
-      "BioClin_SiteBldLocA2_v1r0",
-      "BioClin_SiteBldLocA3_v1r0"
+      "BioCol_SiteBldLocBL_v1r0",
+      "BioCol_SiteBldLocA1_v1r0",
+      "BioCol_SiteBldLocA2_v1r0",
+      "BioCol_SiteBldLocA3_v1r0"
     ]
   },
   "185323683": {
@@ -2617,6 +2702,12 @@
   "191221569": {
     "Variable Name": "What year did you move into [insert address from CHILDADD1 - CHILDADD3/your childhood home]?"
   },
+  "191617794": {
+    "Variable Label": "Survey Status",
+    "Variable Name": [
+      "ActSuT_SurveyStatus_v1r0"
+    ]
+  },
   "191656389": {
     "Variable Label": "Muscle/Joint/Bone Pain",
     "Variable Name": [
@@ -2650,11 +2741,20 @@
       "SrvBOH_European_v1r0"
     ]
   },
+  "192985566": {
+    "Variable Label": "Mtw for Sens Teeth Freq",
+    "Variable Name": [
+      "SrvOAG_MWSENSITIVE_v1r0"
+    ]
+  },
   "193005138": {
     "Variable Label": "Incoming SMS Twilio Recipient Phone",
     "Variable Name": [
       "CTTwil_InSMSTo_v1r0"
     ]
+  },
+  "193044131": {
+    "Variable Name": "Oral and Gut Health Survey"
   },
   "193058048": {
     "Variable Name": "With a little difficulty"
@@ -2723,6 +2823,12 @@
     "Variable Label": "Age first used cigarettes",
     "Variable Name": [
       "SrvSAS_AgeCigsUseF_v1r0"
+    ]
+  },
+  "194745239": {
+    "Variable Label": "Activities",
+    "Variable Name": [
+      "ActAcT_ActList_v1r0"
     ]
   },
   "194944818": {
@@ -2853,10 +2959,10 @@
   "198261154": {
     "Variable Label": "BL Clin Ur Acc ID",
     "Variable Name": [
-      "BioClin_SntUrineAccIDBL_v1r0",
-      "BioClin_SntUrineAccIDA1_v1r0",
-      "BioClin_SntUrineAccIDA2_v1r0",
-      "BioClin_SntUrineAccIDA3_v1r0"
+      "BioCol_SntUrineAccIDBL_v1r0",
+      "BioCol_SntUrineAccIDA1_v1r0",
+      "BioCol_SntUrineAccIDA2_v1r0",
+      "BioCol_SntUrineAccIDA3_v1r0"
     ]
   },
   "198347104": {
@@ -2979,6 +3085,12 @@
       "SrvMRE_CervicalMucous_v1r0"
     ]
   },
+  "202565396": {
+    "Variable Label": "Peroxide Mtw Freq",
+    "Variable Name": [
+      "SrvOAG_MWPEROX_v1r0"
+    ]
+  },
   "202784871": {
     "Variable Label": "Zip code",
     "Variable Name": [
@@ -3025,10 +3137,9 @@
     ]
   },
   "203919683": {
-    "Variable Label": "Toothbrush past month",
+    "Variable Label": "Toothbrush",
     "Variable Name": [
-      "SrvMtW_BRUSH1_v1r0",
-      "SrvMtW_BRUSH1_v1r0"
+      "SrvOAG_BRUSH1_v1r0"
     ]
   },
   "203943120": {
@@ -3080,13 +3191,6 @@
     "Variable Label": "D/T BOH Start",
     "Variable Name": [
       "SrvBOH_TmStart_v1r0"
-    ]
-  },
-  "205713835": {
-    "Variable Label": "Floss frequency past month",
-    "Variable Name": [
-      "SrvMtW_FLOSS2_v1r0",
-      "SrvMtW_FLOSS2_v1r0"
     ]
   },
   "205790732": {
@@ -3391,10 +3495,10 @@
   "210921343": {
     "Variable Label": "BL Clin DB Ur RRL Rec",
     "Variable Name": [
-      "BioClin_DBUrineRRLBL_v1r0",
-      "BioClin_DBUrineRRLA1_v1r0",
-      "BioClin_DBUrineRRLA2_v1r0",
-      "BioClin_DBUrineRRLA3_v1r0"
+      "BioCol_DBUrineRRLBL_v1r0",
+      "BioCol_DBUrineRRLA1_v1r0",
+      "BioCol_DBUrineRRLA2_v1r0",
+      "BioCol_DBUrineRRLA3_v1r0"
     ]
   },
   "210983898": {
@@ -3519,8 +3623,7 @@
   "215662651": {
     "Variable Label": "Full Denture",
     "Variable Name": [
-      "SrvMtW_FULLDENT_v1r0",
-      "SrvMtW_FULLDENT_v1r0"
+      "SrvOAG_FULLDENT_v1r0"
     ]
   },
   "215797578": {
@@ -3766,9 +3869,9 @@
   "224596428": {
     "Variable Label": "A3 D/T Clin Site Ur RRL Rec",
     "Variable Name": [
-      "BioClin_SiteUrnRRLDtA3_v1r0",
-      "BioClin_DBUrineRRLDtA2_v1r0",
-      "BioClin_DBUrineRRLDtA3_v1r0"
+      "BioCol_SiteUrnRRLDtA3_v1r0",
+      "BioCol_DBUrineRRLDtA2_v1r0",
+      "BioCol_DBUrineRRLDtA3_v1r0"
     ]
   },
   "224681201": {
@@ -3812,6 +3915,9 @@
   },
   "227078307": {
     "Variable Name": "Angola"
+  },
+  "227293208": {
+    "Variable Name": "Every other day"
   },
   "227439141": {
     "Variable Label": "Days used cigarettes past 30 days",
@@ -3930,6 +4036,12 @@
   "232663805": {
     "Variable Name": "Hispanic/Latino/Declined"
   },
+  "232817695": {
+    "Variable Label": "Bowel Mvmt Type",
+    "Variable Name": [
+      "SrvOAG_FECESTYPE_v1r0"
+    ]
+  },
   "233155848": {
     "Variable Name": "Lesotho"
   },
@@ -4008,6 +4120,12 @@
     "Variable Label": "Bag 28",
     "Variable Name": [
       "BioPack_Bag28_v1r0"
+    ]
+  },
+  "235879399": {
+    "Variable Label": "D/T Activity Eligibility End",
+    "Variable Name": [
+      "ActAcT_ActElgEndDt_v1r0"
     ]
   },
   "236546933": {
@@ -4117,6 +4235,12 @@
     "Variable Label": "Barbadian",
     "Variable Name": [
       "SrvBOH_Barbadian_v1r0"
+    ]
+  },
+  "240908154": {
+    "Variable Label": "Tongue Cleaner Freq",
+    "Variable Name": [
+      "SrvOAG_TONGUE2_v1r0"
     ]
   },
   "241236037": {
@@ -4252,6 +4376,9 @@
   },
   "246153539": {
     "Variable Name": "Bemidji Clinic"
+  },
+  "246463892": {
+    "Variable Name": "Type 7"
   },
   "246843973": {
     "Variable Label": "Oral Estrogen-only Med",
@@ -4587,14 +4714,19 @@
       "SrvSAS_EdiblesEDAgeL_v3r0"
     ]
   },
+  "259498284": {
+    "Variable Label": "D/T Sample Received RRL",
+    "Variable Name": [
+      "ActCoT_SampleRecRRLDt_v1r0"
+    ]
+  },
   "259643910": {
     "Variable Name": "October"
   },
   "259744087": {
-    "Variable Label": "Mouthwash for sensitive teeth",
+    "Variable Label": "Mtw for Sens Teeth",
     "Variable Name": [
-      "SrvMtW_MWSENSITIVE1_v1r0",
-      "SrvMtW_MWSENSITIVE1_v1r0"
+      "SrvOAG_MWSENSITIVE1_v1r0"
     ]
   },
   "259846815": {
@@ -5046,6 +5178,12 @@
     "Variable Label": "Social - leisure activities",
     "Variable Name": [
       "SrvQoL_Social1_v1r0"
+    ]
+  },
+  "271218268": {
+    "Variable Label": "Fluoride Mtw Freq",
+    "Variable Name": [
+      "SrvOAG_MWFLUORIDE_v1r0"
     ]
   },
   "271684775": {
@@ -5592,6 +5730,12 @@
       "SrvMRE_IbuprofenTime_v1r0"
     ]
   },
+  "293416815": {
+    "Variable Label": "Bowel Mvmt Freq",
+    "Variable Name": [
+      "SrvOAG_FECESFREQ_v1r0"
+    ]
+  },
   "293873603": {
     "Variable Label": "Surgery",
     "Variable Name": [
@@ -5850,7 +5994,7 @@
     ]
   },
   "303552867": {
-    "Variable Name": "Follow-up 3"
+    "Variable Name": "3 = Activity 3"
   },
   "303566606": {
     "Variable Label": "Finding everything on MyConnect - share more",
@@ -6184,10 +6328,10 @@
   "316824786": {
     "Variable Label": "BL Any Spec Coll RRL",
     "Variable Name": [
-      "BioClin_AnySpecRRLBL_v1r0",
-      "BioClin_AnySpecRRLA1_v1r0",
-      "BioClin_AnySpecRRLA2_v1r0",
-      "BioClin_AnySpecRRLA3_v1r0"
+      "BioCol_AnySpecRRLBL_v1r0",
+      "BioCol_AnySpecRRLA1_v1r0",
+      "BioCol_AnySpecRRLA2_v1r0",
+      "BioCol_AnySpecRRLA3_v1r0"
     ]
   },
   "317093647": {
@@ -6256,6 +6400,12 @@
   },
   "319570637": {
     "Variable Name": "Not Hispanic or Latino"
+  },
+  "319593357": {
+    "Variable Label": "D/T Activity Eligibility Start",
+    "Variable Name": [
+      "ActAcT_ActElgStartDt_v1r0"
+    ]
   },
   "319972665": {
     "Variable Name": "BioKit_Mouthwash_Initial"
@@ -6340,6 +6490,12 @@
       "SrvSAS_DaysUseEMJDev_v2r0"
     ]
   },
+  "325261848": {
+    "Variable Label": "D/T Sample Collected",
+    "Variable Name": [
+      "ActCoT_SampleColDt_v1r0"
+    ]
+  },
   "325478778": {
     "Variable Name": "Shorter than average"
   },
@@ -6401,8 +6557,7 @@
   "329536041": {
     "Variable Label": "Dental Bridge",
     "Variable Name": [
-      "SrvMtW_DENTBRIDGE_v1r0",
-      "SrvMtW_DENTBRIDGE_v1r0"
+      "SrvOAG_DENTBRIDGE_v1r0"
     ]
   },
   "330163034": {
@@ -6670,8 +6825,7 @@
   "339570897": {
     "Variable Label": "Last Dental Cleaning",
     "Variable Name": [
-      "SrvMtW_DENTALCLEAN_v1r0",
-      "SrvMtW_DENTALCLEAN_v1r0"
+      "SrvOAG_DENTALCLEAN_v1r0"
     ]
   },
   "339946103": {
@@ -6698,10 +6852,10 @@
   "341570479": {
     "Variable Label": "BL Clin Blood Acc ID",
     "Variable Name": [
-      "BioClin_SntBloodAccIDBL_v1r0",
-      "BioClin_SntBloodAccIDA1_v1r0",
-      "BioClin_SntBloodAccIDA2_v1r0",
-      "BioClin_SntBloodAccIDA3_v1r0"
+      "BioCol_SntBloodAccIDBL_v1r0",
+      "BioCol_SntBloodAccIDA1_v1r0",
+      "BioCol_SntBloodAccIDA2_v1r0",
+      "BioCol_SntBloodAccIDA3_v1r0"
     ]
   },
   "341636034": {
@@ -6742,6 +6896,9 @@
     "Variable Name": [
       "SrvLAW_PreWorkTmTaxi_v1r0"
     ]
+  },
+  "343685348": {
+    "Variable Name": "Urine"
   },
   "343990595": {
     "Variable Name": "How old were you when you had part or all of your prostate removed (prostatectomy)? If you have had more than one procedure, at what age did you last have this procedure? - CSH"
@@ -6848,12 +7005,14 @@
       "SrvSAS_THCServing17_v2r1"
     ]
   },
-  "349659426": {
-    "Variable Label": "alcohol-based mouthwash frequency past month",
+  "349642119": {
+    "Variable Label": "Cetylpyridinium Chloride Mtw Freq",
     "Variable Name": [
-      "SrvMtW_MWALC_v1r0",
-      "SrvMtW_MWALC_v1r0"
+      "SrvOAG_MWCETYL_v1r0"
     ]
+  },
+  "349679026": {
+    "Variable Name": "Type 6"
   },
   "350184001": {
     "Variable Name": "How old were you when you had your uterus removed (hysterectomy)? - CSH"
@@ -6861,8 +7020,7 @@
   "350251057": {
     "Variable Label": "Oral Health",
     "Variable Name": [
-      "SrvMtW_ORALHLTH_v1r0",
-      "SrvMtW_ORALHLTH_v1r0"
+      "SrvOAG_ORALHLTH_v1r0"
     ]
   },
   "350394531": {
@@ -6957,13 +7115,6 @@
   },
   "353358909": {
     "Variable Name": "Yes"
-  },
-  "353467497": {
-    "Variable Label": "Water-based flosser or pick/jet frequency past month",
-    "Variable Name": [
-      "SrvMtW_WTRPICK2_v1r0",
-      "SrvMtW_WTRPICK2_v1r0"
-    ]
   },
   "353889236": {
     "Variable Label": "Number of pap tests",
@@ -7109,7 +7260,7 @@
   "360678252": {
     "Variable Label": "Teeth Lost from other",
     "Variable Name": [
-      "SrvMtW_TEETHLOSTOTH_v2r0"
+      "SrvOAG_TEETHLOSTOTH_v1r0"
     ]
   },
   "360734594": {
@@ -7194,8 +7345,7 @@
   "365685000": {
     "Variable Label": "Partial Denture",
     "Variable Name": [
-      "SrvMtW_PARTDENT_v1r0",
-      "SrvMtW_PARTDENT_v1r0"
+      "SrvOAG_PARTDENT_v1r0"
     ]
   },
   "365851428": {
@@ -7752,6 +7902,9 @@
       "BioBPTL_DamagedVials_v1r0"
     ]
   },
+  "387849913": {
+    "Variable Name": "Collections Tracking"
+  },
   "388069854": {
     "Variable Name": "Select each treatment you have received, are currently receiving or are scheduled to receive - SOURCE"
   },
@@ -7813,10 +7966,9 @@
     ]
   },
   "390351864": {
-    "Variable Label": "Mouthwash past month",
+    "Variable Label": "Mouthwash",
     "Variable Name": [
-      "SrvMtW_MW1_v1r0",
-      "SrvMtW_MW1_v1r0"
+      "SrvOAG_MW1_v1r0"
     ]
   },
   "390426962": {
@@ -7949,6 +8101,9 @@
   "394839071": {
     "Variable Name": "Malawi"
   },
+  "395108207": {
+    "Variable Name": "Next, we have a few questions about your oral health and routine. Do you use any of these oral hygiene products? Select all that apply."
+  },
   "395168461": {
     "Variable Label": "Other Preferences",
     "Variable Name": [
@@ -8018,7 +8173,7 @@
   "398645039": {
     "Variable Label": "A3 D/T Clin DB Blood RRL Rec",
     "Variable Name": [
-      "BioClin_DBBloodRRLDtA3_v1r0"
+      "BioCol_DBBloodRRLDtA3_v1r0"
     ]
   },
   "398762737": {
@@ -8166,10 +8321,9 @@
     ]
   },
   "404389800": {
-    "Variable Label": "Peroxide mouthwash",
+    "Variable Label": "Peroxide Mtw",
     "Variable Name": [
-      "SrvMtW_MWPEROX1_v1r0",
-      "SrvMtW_MWPEROX1_v1r0"
+      "SrvOAG_MWPEROX1_v1r0"
     ]
   },
   "404564707": {
@@ -8250,14 +8404,17 @@
       "SrvQOL_3moPhysHealSumm_v1r0"
     ]
   },
-  "406270109": {
-    "Variable Name": "In the last month, which of these mouthwash products have you used? Select all that apply"
-  },
   "406370140": {
     "Variable Label": "First blood test for ovarian cancer",
     "Variable Name": [
       "SrvScr_BLDOV1_v1r0"
     ]
+  },
+  "406431556": {
+    "Variable Name": "Once per week or less"
+  },
+  "406601146": {
+    "Variable Name": "Refusal Tracking"
   },
   "406621050": {
     "Variable Name": "Panama Canal Zone"
@@ -8593,6 +8750,9 @@
       "BioBPTL_ColCupLeakPart_v1r0"
     ]
   },
+  "421221670": {
+    "Variable Name": "Do you currently use any of these mouthwash products? Select all that apply."
+  },
   "421586693": {
     "Variable Name": "What type(s) of transportation do you use to get to [insert address from CURWORKPOSTPAN1 - CURWORKPOSTPAN3/this address] from home? Select all that apply."
   },
@@ -8719,6 +8879,12 @@
   "425604618": {
     "Variable Name": "1 shot"
   },
+  "425646111": {
+    "Variable Label": "Mtw for Dry Mouth Freq",
+    "Variable Name": [
+      "SrvOAG_MWDRY_v1r0"
+    ]
+  },
   "425815239": {
     "Variable Label": "Breast screening - 2D or 3D Mammogram",
     "Variable Name": [
@@ -8811,20 +8977,6 @@
     "Variable Label": "Anxiety - feeling fearful",
     "Variable Name": [
       "SrvQoL_Anxiety7D1_v1r0"
-    ]
-  },
-  "429994023": {
-    "Variable Label": "Tongue Scraper frequency past month",
-    "Variable Name": [
-      "SrvMtW_TONGUE2_v1r0",
-      "SrvMtW_TONGUE2_v1r0"
-    ]
-  },
-  "430060900": {
-    "Variable Label": "mouthwash for sensitive teeth frequency past month",
-    "Variable Name": [
-      "SrvMtW_MWSENSITIVE_v1r0",
-      "SrvMtW_MWSENSITIVE_v1r0"
     ]
   },
   "430472084": {
@@ -9134,6 +9286,12 @@
       "RcrtUP_MailAddressLn2_v1r0"
     ]
   },
+  "442362533": {
+    "Variable Label": "Activity Type",
+    "Variable Name": [
+      "ActAcT_ActType_v1r0"
+    ]
+  },
   "443596662": {
     "Variable Label": "Taxicab (includes Uber, Lyft, or hired car) commute to current work",
     "Variable Name": [
@@ -9292,6 +9450,9 @@
       "SrvMRE_H2RecBlockerOC_v1r0"
     ]
   },
+  "450046935": {
+    "Variable Name": "Every 5 to 6 days"
+  },
   "450075248": {
     "Variable Label": "Car, van, or truck (includes carpools or van pools) commute from past work",
     "Variable Name": [
@@ -9397,17 +9558,16 @@
   "452438775": {
     "Variable Label": "Permanent teeth lost from tooth decay or disease",
     "Variable Name": [
-      "SrvMtW_PERMTTHLOST2_v1r0",
-      "SrvMtW_PERMTTHLOST2_v1r0"
+      "SrvOAG_PERMTTHLOST2_v1r0"
     ]
   },
   "452847912": {
     "Variable Label": "BL Ur Location ID",
     "Variable Name": [
-      "BioClin_SiteUrLocatBL_v1r0",
-      "BioClin_SiteUrLocatA1_v1r0",
-      "BioClin_SiteUrLocatA2_v1r0",
-      "BioClin_SiteUrLocatA3_v1r0"
+      "BioCol_SiteUrLocatBL_v1r0",
+      "BioCol_SiteUrLocatA1_v1r0",
+      "BioCol_SiteUrLocatA2_v1r0",
+      "BioCol_SiteUrLocatA3_v1r0"
     ]
   },
   "452942800": {
@@ -9474,10 +9634,10 @@
   "453452655": {
     "Variable Label": "BL Clin Site Ur RRL Rec",
     "Variable Name": [
-      "BioClin_SiteUrineRRLBL_v1r0",
-      "BioClin_SiteUrineRRLA1_v1r0",
-      "BioClin_SiteUrineRRLA2_v1r0",
-      "BioClin_SiteUrineRRLA3_v1r0"
+      "BioCol_SiteUrineRRLBL_v1r0",
+      "BioCol_SiteUrineRRLA1_v1r0",
+      "BioCol_SiteUrineRRLA2_v1r0",
+      "BioCol_SiteUrineRRLA3_v1r0"
     ]
   },
   "453456270": {
@@ -9533,6 +9693,9 @@
   },
   "455468743": {
     "Variable Name": "No change in skin color"
+  },
+  "455683442": {
+    "Variable Name": "Survey Tracking"
   },
   "455684772": {
     "Variable Name": "A lot of freckles"
@@ -9654,13 +9817,6 @@
       "SrvCDx_TxFacLine4_v1r0"
     ]
   },
-  "460873842": {
-    "Variable Label": "cetylpyridinium chloride mouthwash  frequency past month",
-    "Variable Name": [
-      "SrvMtW_MWCETYL_v1r0",
-      "SrvMtW_MWCETYL_v1r0"
-    ]
-  },
   "460968021": {
     "Variable Label": "Interest in Rates of Traffic Incidents",
     "Variable Name": [
@@ -9716,10 +9872,9 @@
     "Variable Name": "Water from a refrigerator that has a water filter"
   },
   "463302301": {
-    "Variable Label": "Cetylpyridinium chloride mouthwash",
+    "Variable Label": "Cetylpyridinium Chloride Mtw",
     "Variable Name": [
-      "SrvMtW_MWCETYL1_v1r0",
-      "SrvMtW_MWCETYL1_v1r0"
+      "SrvOAG_MWCETYL1_v1r0"
     ]
   },
   "463357603": {
@@ -10123,9 +10278,6 @@
       "SrvBOH_Sib1AgeNum_v1r0"
     ]
   },
-  "479143504": {
-    "Variable Name": "Next, we have a few questions about your oral health and routine that will help us better understand your mouthwash (saliva) sample. In the lastmonth, which of these oral hygiene products have you used? Select all that apply."
-  },
   "479278368": {
     "Variable Label": "Last Name",
     "Variable Name": [
@@ -10215,6 +10367,9 @@
     "Variable Name": [
       "SrvSAS_BeerServing12Mo_v1r0"
     ]
+  },
+  "481758733": {
+    "Variable Name": "Blood"
   },
   "481978049": {
     "Variable Name": "Bouvet Island"
@@ -10646,7 +10801,7 @@
     ]
   },
   "496823485": {
-    "Variable Name": "Follow-up 1"
+    "Variable Name": "1 = Activity 1"
   },
   "496917282": {
     "Variable Name": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had prostate cancer?"
@@ -10696,25 +10851,11 @@
       "SrvMRE_NoPregIssCause_v1r0"
     ]
   },
-  "498984275": {
-    "Variable Label": "Toothbrush frequency past month",
-    "Variable Name": [
-      "SrvMtW_BRUSH2_v1r0",
-      "SrvMtW_BRUSH2_v1r0"
-    ]
-  },
   "499434567": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had cancer?"
   },
   "499465239": {
     "Variable Name": "Slovakia"
-  },
-  "499977481": {
-    "Variable Label": "Teeth whiteners frequency past month",
-    "Variable Name": [
-      "SrvMtW_WHITE2_v1r0",
-      "SrvMtW_WHITE2_v1r0"
-    ]
   },
   "500023550": {
     "Variable Name": "I had surgery to remove remove my whole prostaste"
@@ -10858,6 +10999,9 @@
       "SrvLAW_2PrimaryWater1_v2r0",
       "SrvLAW_2PrimaryWater1_v2r0"
     ]
+  },
+  "505919089": {
+    "Variable Name": "More than once per day"
   },
   "506053626": {
     "Variable Name": "Twice"
@@ -11182,13 +11326,6 @@
       "RcrtES_Aware_v1r0_TV"
     ]
   },
-  "520416570": {
-    "Variable Label": "chlorhexidine mouthwash  frequency past month",
-    "Variable Name": [
-      "SrvMtW_MWCHLOR_v1r0",
-      "SrvMtW_MWCHLOR_v1r0"
-    ]
-  },
   "520432394": {
     "Variable Label": "Surg For Breast Abscess",
     "Variable Name": [
@@ -11283,10 +11420,9 @@
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had HIV/AIDS?"
   },
   "523660949": {
-    "Variable Label": "Mouthwash for dry mouth",
+    "Variable Label": "Mtw for Dry Mouth",
     "Variable Name": [
-      "SrvMtW_MWDRY1_v1r0",
-      "SrvMtW_MWDRY1_v1r0"
+      "SrvOAG_MWDRY1_v1r0"
     ]
   },
   "523768810": {
@@ -11424,13 +11560,6 @@
       "SrvROI_IntDemo_v1r0"
     ]
   },
-  "526973271": {
-    "Variable Label": "Peroxide mouthwash frequency past month",
-    "Variable Name": [
-      "SrvMtW_MWPEROX_v1r0",
-      "SrvMtW_MWPEROX_v1r0"
-    ]
-  },
   "527057404": {
     "Variable Name": "How old were you when you had your penis removed (penectomy)?"
   },
@@ -11503,10 +11632,10 @@
   "530173840": {
     "Variable Label": "BL Blood Order",
     "Variable Name": [
-      "BioClin_BldOrderPlcdBL_v1r0",
-      "BioClin_BldOrderPlcdA1 _v1r0",
-      "BioClin_BldOrderPlcdA2_v1r0",
-      "BioClin_BldOrderPlcdA3_v1r0"
+      "BioCol_BldOrderPlcdBL_v1r0",
+      "BioCol_BldOrderPlcdA1 _v1r0",
+      "BioCol_BldOrderPlcdA2_v1r0",
+      "BioCol_BldOrderPlcdA3_v1r0"
     ]
   },
   "530548878": {
@@ -11625,10 +11754,10 @@
   "534041351": {
     "Variable Label": "BL Clin DB Blood RRL Rec",
     "Variable Name": [
-      "BioClin_DBBloodRRLBL_v1r0",
-      "BioClin_DBBloodRRLA1_v1r0",
-      "BioClin_DBBloodRRLA2_v1r0",
-      "BioClin_DBBloodRRLA3_v1r0"
+      "BioCol_DBBloodRRLBL_v1r0",
+      "BioCol_DBBloodRRLA1_v1r0",
+      "BioCol_DBBloodRRLA2_v1r0",
+      "BioCol_DBBloodRRLA3_v1r0"
     ]
   },
   "534351312": {
@@ -11833,6 +11962,9 @@
       "SrvSAS_Hookah_v1r0"
     ]
   },
+  "539798325": {
+    "Variable Name": "SSC"
+  },
   "539812906": {
     "Variable Label": "Flag - Treatment facility international address",
     "Variable Name": [
@@ -11861,8 +11993,8 @@
   "541311218": {
     "Variable Label": "BL Clin DB Ur RRL D/T Rec",
     "Variable Name": [
-      "BioClin_DBUrineRRLDtBL_v1r0",
-      "BioClin_DBUrineRRLDtA1_v1r0"
+      "BioCol_DBUrineRRLDtBL_v1r0",
+      "BioCol_DBUrineRRLDtA1_v1r0"
     ]
   },
   "541338917": {
@@ -11945,10 +12077,10 @@
   "543608829": {
     "Variable Label": "BL Polyacc ID - Blood",
     "Variable Name": [
-      "BioClin_PolyBloodIDBL_v1r0",
-      "BioClin_PolyBloodIDBLA1_v1r0",
-      "BioClin_PolyBloodIDBLA2_v1r0",
-      "BioClin_PolyBloodIDBLA3_v1r0"
+      "BioCol_PolyBloodIDBL_v1r0",
+      "BioCol_PolyBloodIDBLA1_v1r0",
+      "BioCol_PolyBloodIDBLA2_v1r0",
+      "BioCol_PolyBloodIDBLA3_v1r0"
     ]
   },
   "543728565": {
@@ -12155,8 +12287,7 @@
   "551489317": {
     "Variable Label": "No permanent teeth lost",
     "Variable Name": [
-      "SrvMtW_NOPERMTTHLOST2_v1r0",
-      "SrvMtW_NOPERMTTHLOST2_v1r0"
+      "SrvOAG_NOPERMTTHLOST2_v1r0"
     ]
   },
   "551525967": {
@@ -12764,6 +12895,9 @@
       "SrvMRE_NaproxenTime_V1r0"
     ]
   },
+  "575830126": {
+    "Variable Name": "Blood Urine Survey"
+  },
   "575883949": {
     "Variable Label": "Bicycle commute to current work",
     "Variable Name": [
@@ -12837,10 +12971,9 @@
     "Variable Name": "In total, how many months or years have you used combined oral estrogen plus progestin pill?"
   },
   "578402172": {
-    "Variable Label": "Tongue Cleaner or Scraper past month",
+    "Variable Label": "Tongue Cleaner",
     "Variable Name": [
-      "SrvMtW_TONGUE1_v1r0",
-      "SrvMtW_TONGUE1_v1r0"
+      "SrvOAG_TONGUE1_v1r0"
     ]
   },
   "578416151": {
@@ -13217,7 +13350,7 @@
   "592099155": {
     "Variable Label": "BL Blood Collection Setting",
     "Variable Name": [
-      "BioSpm_BloodSettingBL_v1r0",
+      "BioCol_BloodSettingBL_v1r0",
       "BioCol_BloodSettingA1_v1r0",
       "BioCol_BloodSettingA2_v1r0",
       "BioCol_BloodSettingA3_v1r0"
@@ -13318,6 +13451,12 @@
     "Variable Label": "Age first used e-cigarettes or other vaping devices on a regular basis, Never used",
     "Variable Name": [
       "SrvSAS_ECigNeverReg_v2r0"
+    ]
+  },
+  "595831652": {
+    "Variable Label": "Water Pick Freq",
+    "Variable Name": [
+      "SrvOAG_WTRPICK2_v1r0"
     ]
   },
   "595987358": {
@@ -13631,6 +13770,12 @@
   "608163515": {
     "Variable Name": "Hungary"
   },
+  "608273260": {
+    "Variable Label": "D/T Survey Submitted",
+    "Variable Name": [
+      "ActSuT_SurveySubDt_v1r0"
+    ]
+  },
   "608953994": {
     "Variable Label": "Phys Funct t-score, PROMIS-29",
     "Variable Name": [
@@ -13681,6 +13826,9 @@
     "Variable Name": [
       "RcrtUP_UPChangeReqBy_v1r0"
     ]
+  },
+  "611165967": {
+    "Variable Name": "Activities"
   },
   "611398522": {
     "Variable Name": "Multi-racial"
@@ -13829,6 +13977,12 @@
   },
   "619481697": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Fibrocystic Breast, or other Benign Breast Disease ?"
+  },
+  "619489703": {
+    "Variable Label": "Toothbrush Freq",
+    "Variable Name": [
+      "SrvOAG_BRUSH2_v1r0"
+    ]
   },
   "619501806": {
     "Variable Label": "Jog/Run",
@@ -14800,7 +14954,7 @@
     "Variable Name": "I have not had a menstrual  period in the past 12 months"
   },
   "650465111": {
-    "Variable Name": "Follow-up 2"
+    "Variable Name": "2 = Activity 2"
   },
   "650508014": {
     "Variable Label": "Number of PSA blood tests",
@@ -14963,8 +15117,7 @@
   "656498939": {
     "Variable Label": "Dental Implants",
     "Variable Name": [
-      "SrvMtW_DENTIMP_v1r0",
-      "SrvMtW_DENTIMP_v1r0"
+      "SrvOAG_DENTIMP_v1r0"
     ]
   },
   "656548982": {
@@ -15384,6 +15537,9 @@
   "670316988": {
     "Variable Name": "Season Address 10-Please provide the cross streets of the intersection closest to this address: - SOURCE"
   },
+  "670409478": {
+    "Variable Name": "Type 3"
+  },
   "670605457": {
     "Variable Label": "Other: Please describe",
     "Variable Name": [
@@ -15773,6 +15929,12 @@
   "683981980": {
     "Variable Name": "Mother - How old was your mother when they were first told by a doctor or other health professional that they have or had brain cancer?"
   },
+  "684082801": {
+    "Variable Label": "D/T Collections Order Placed",
+    "Variable Name": [
+      "ActCoT_ColOrderPlcdDt_v1r0"
+    ]
+  },
   "684217044": {
     "Variable Label": "Zip code",
     "Variable Name": [
@@ -16105,10 +16267,10 @@
   "693370086": {
     "Variable Label": "BL Clin Site Blood Coll",
     "Variable Name": [
-      "BioClin_SiteBloodCollBL_v1r0",
-      "BioClin_SiteBloodCollA1_v1r0",
-      "BioClin_SiteBloodCollA2_v1r0",
-      "BioClin_SiteBloodCollA3_v1r0"
+      "BioCol_SiteBloodCollBL_v1r0",
+      "BioCol_SiteBloodCollA1_v1r0",
+      "BioCol_SiteBloodCollA2_v1r0",
+      "BioCol_SiteBloodCollA3_v1r0"
     ]
   },
   "693503159": {
@@ -16551,6 +16713,12 @@
       "SrvLAW_SeasAddSum1_v1r0"
     ]
   },
+  "711025320": {
+    "Variable Label": "Accession ID",
+    "Variable Name": [
+      "ActCoT_AccessionID_v1r0"
+    ]
+  },
   "711256590": {
     "Variable Label": "D/T Ref All Fut Samp",
     "Variable Name": [
@@ -16559,6 +16727,12 @@
   },
   "711365027": {
     "Variable Name": "On non-workdays, how long do you usually lie in bed after you wake up before getting out of bed?"
+  },
+  "711736213": {
+    "Variable Label": "Chlorhexidine Mtw Freq",
+    "Variable Name": [
+      "SrvOAG_MWCHLOR_v1r0"
+    ]
   },
   "711757828": {
     "Variable Name": "Control X"
@@ -16709,7 +16883,7 @@
   "718172863": {
     "Variable Label": "BL Urine Collection Setting",
     "Variable Name": [
-      "BioSpm_UrineSettingBL_v1r0",
+      "BioCol_UrineSettingBL_v1r0",
       "BioCol_UrineSettingA1_v1r0",
       "BioCol_UrineSettingA2_v1r0",
       "BioCol_UrineSettingA3_v1r0"
@@ -16848,9 +17022,9 @@
     ]
   },
   "724589244": {
-    "Variable Label": "Teeth Lost from accident or injury",
+    "Variable Label": "Teeth Lost -  Accident or Injury",
     "Variable Name": [
-      "SrvMtW_TEETHLOSTAI_v2r0"
+      "SrvOAG_TEETHLOSTAI_v1r0"
     ]
   },
   "724624086": {
@@ -16944,6 +17118,12 @@
       "SrvSAS_BeerOften12Mo_v1r0"
     ]
   },
+  "727040959": {
+    "Variable Label": "Teeth Whiteners Freq",
+    "Variable Name": [
+      "SrvOAG_WHITE2_v1r0"
+    ]
+  },
   "727126965": {
     "Variable Label": "Other: Please describe",
     "Variable Name": [
@@ -17015,10 +17195,10 @@
   "728696253": {
     "Variable Label": "BL Clin - Site Blood RRL Rec",
     "Variable Name": [
-      "BioClin_SiteBloodRRLBL_v1r0",
-      "BioClin_SiteBloodRRLA1_v1r0",
-      "BioClin_SiteBloodRRLA2_v1r0",
-      "BioClin_SiteBloodRRLA3_v1r0"
+      "BioCol_SiteBloodRRLBL_v1r0",
+      "BioCol_SiteBloodRRLA1_v1r0",
+      "BioCol_SiteBloodRRLA2_v1r0",
+      "BioCol_SiteBloodRRLA3_v1r0"
     ]
   },
   "728704613": {
@@ -17266,8 +17446,7 @@
   "736028153": {
     "Variable Label": "Gum disease",
     "Variable Name": [
-      "SrvMtW_GUMDISEASE_v1r0",
-      "SrvMtW_GUMDISEASE_v1r0"
+      "SrvOAG_GUMDISEASE_v1r0"
     ]
   },
   "736086261": {
@@ -17368,10 +17547,10 @@
   "740582332": {
     "Variable Label": "BL D/T Any Spec Coll RRL",
     "Variable Name": [
-      "BioClin_AnySpecRRLTmBL_v1r0",
-      "BioClin_AnySpecRRLTmA1_v1r0",
-      "BioClin_AnySpecRRLTmA2_v1r0",
-      "BioClin_AnySpecRRLTmA3_v1r0"
+      "BioCol_AnySpecRRLTmBL_v1r0",
+      "BioCol_AnySpecRRLTmA1_v1r0",
+      "BioCol_AnySpecRRLTmA2_v1r0",
+      "BioCol_AnySpecRRLTmA3_v1r0"
     ]
   },
   "740626474": {
@@ -17852,6 +18031,9 @@
   "757609794": {
     "Variable Name": "I was pregnant or breastfeeding during the last year"
   },
+  "757707533": {
+    "Variable Name": "Type 5"
+  },
   "757983656": {
     "Variable Name": "Season Address 10-Please provide the following information: - SOURCE"
   },
@@ -18001,10 +18183,9 @@
     ]
   },
   "762727133": {
-    "Variable Label": "Alcohol-free mouthwash",
+    "Variable Label": "Alcohol-Free Mtw",
     "Variable Name": [
-      "SrvMtW_MWALCFREE1_v1r0",
-      "SrvMtW_MWALCFREE1_v1r0"
+      "SrvOAG_MWALCFREE1_v1r0"
     ]
   },
   "763164658": {
@@ -18099,13 +18280,6 @@
     "Variable Label": "Cumul Verif",
     "Variable Name": [
       "SMMet_CumulVerPt_v1r0"
-    ]
-  },
-  "766370065": {
-    "Variable Label": "alcohol-free mouthwash  frequency past month",
-    "Variable Name": [
-      "SrvMtW_MWALCFREE_v1r0",
-      "SrvMtW_MWALCFREE_v1r0"
     ]
   },
   "766533183": {
@@ -18208,10 +18382,10 @@
   "769615780": {
     "Variable Label": "BL D/T Blood Order",
     "Variable Name": [
-      "BioClin_BldOrdPlacdDtBL_v1r0",
-      "BioClin_BldOrdPlacdDtA1_v1r0",
-      "BioClin_BldOrdPlacdDtA2_v1r0",
-      "BioClin_BldOrdPlacdDtA3_v1r0"
+      "BioCol_BldOrdPlacdDtBL_v1r0",
+      "BioCol_BldOrdPlacdDtA1_v1r0",
+      "BioCol_BldOrdPlacdDtA2_v1r0",
+      "BioCol_BldOrdPlacdDtA3_v1r0"
     ]
   },
   "769668224": {
@@ -18768,10 +18942,10 @@
   "786930107": {
     "Variable Label": "BL Clin Site Ur Coll",
     "Variable Name": [
-      "BioClin_SiteUrineCollBL_v1r0",
-      "BioClin_SiteUrineCollA1_v1r0",
-      "BioClin_SiteUrineCollA2_v1r0",
-      "BioClin_SiteUrineCollA3_v1r0"
+      "BioCol_SiteUrineCollBL_v1r0",
+      "BioCol_SiteUrineCollA1_v1r0",
+      "BioCol_SiteUrineCollA2_v1r0",
+      "BioCol_SiteUrineCollA3_v1r0"
     ]
   },
   "787047261": {
@@ -18829,7 +19003,7 @@
     "Variable Name": "In which season(s) did you do strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups)? Select all that apply."
   },
   "787648987": {
-    "Variable Name": "Cote D‚Ivoire"
+    "Variable Name": "Cote D'Ivoire"
   },
   "787809831": {
     "Variable Name": "Montserrat"
@@ -18913,8 +19087,7 @@
   "792134396": {
     "Variable Label": "Gum disease treatment",
     "Variable Name": [
-      "SrvMtW_GUMTX_v1r0",
-      "SrvMtW_GUMTX_v1r0"
+      "SrvOAG_GUMTX_v1r0"
     ]
   },
   "792792066": {
@@ -19154,13 +19327,6 @@
       "SrvMtW_RINSEBEFORE_v1r0"
     ]
   },
-  "800752981": {
-    "Variable Label": "mouthwash for dry mouth frequency past month",
-    "Variable Name": [
-      "SrvMtW_MWDRY_v1r0",
-      "SrvMtW_MWDRY_v1r0"
-    ]
-  },
   "800859736": {
     "Variable Label": "Other: Please describe",
     "Variable Name": [
@@ -19301,6 +19467,9 @@
     "Variable Name": [
       "SrvLAW_StrtName7_v1r0"
     ]
+  },
+  "803285201": {
+    "Variable Name": "ABC"
   },
   "803322918": {
     "Variable Label": "Depression - felt depressed",
@@ -19475,10 +19644,9 @@
     ]
   },
   "807884576": {
-    "Variable Label": "Floss past month",
+    "Variable Label": "Floss",
     "Variable Name": [
-      "SrvMtW_FLOSS1_v1r0",
-      "SrvMtW_FLOSS1_v1r0"
+      "SrvOAG_FLOSS1_v1r0"
     ]
   },
   "807973203": {
@@ -19649,8 +19817,7 @@
   "812107266": {
     "Variable Label": "Permanent teeth lost from accident or injury",
     "Variable Name": [
-      "SrvMtW_PERMTTHLOST1_v1r0",
-      "SrvMtW_PERMTTHLOST1_v1r0"
+      "SrvOAG_PERMTTHLOST1_v1r0"
     ]
   },
   "812161236": {
@@ -19815,6 +19982,12 @@
       "SrvLAW_Country4_v1r0"
     ]
   },
+  "819706407": {
+    "Variable Label": "Alcohol-Based Mtw Freq",
+    "Variable Name": [
+      "SrvOAG_MWALC_v1r0"
+    ]
+  },
   "819844467": {
     "Variable Label": "Full Street name",
     "Variable Name": [
@@ -19887,8 +20060,8 @@
   "822274939": {
     "Variable Label": "A2 D/T Clin Site Blood RRL Rec",
     "Variable Name": [
-      "BioClin_SiteBldRRLDtA2_v1r0",
-      "BioClin_SiteBldRRLDtA3_v1r0"
+      "BioCol_SiteBldRRLDtA2_v1r0",
+      "BioCol_SiteBldRRLDtA3_v1r0"
     ]
   },
   "822499427": {
@@ -20128,6 +20301,12 @@
   },
   "829751791": {
     "Variable Name": "Seasonal Address 3- What year did you last spend time at [insert address from SEASADD1 - SEASADD3/ the 1st/2nd/3rd/etc. address you provided]? If you still spend time at this address, select: I still spend time here."
+  },
+  "829809804": {
+    "Variable Label": "Floss Freq",
+    "Variable Name": [
+      "SrvOAG_FLOSS2_v1r0"
+    ]
   },
   "829976839": {
     "Variable Label": "Anxiety - felt uneasy",
@@ -20464,6 +20643,12 @@
     "Variable Label": "Confirm Dx and Part Aware of Dx",
     "Variable Name": [
       "RCAOcc_ConfirmPartAware_v1r0"
+    ]
+  },
+  "845058594": {
+    "Variable Label": "Flag - KP Order Placed  Collection",
+    "Variable Name": [
+      "ActCoT_KPOrderPlcdFlag_v1r0"
     ]
   },
   "845122623": {
@@ -20953,10 +21138,10 @@
   "860477844": {
     "Variable Label": "BL Ur Order",
     "Variable Name": [
-      "BioClin_UrnOrdPlacedBL_v1r0",
-      "BioClin_UrnOrdPlacedA1_v1r0",
-      "BioClin_UrnOrdPlacedA2_v1r0",
-      "BioClin_UrnOrdPlacedA3_v1r0"
+      "BioCol_UrnOrdPlacedBL_v1r0",
+      "BioCol_UrnOrdPlacedA1_v1r0",
+      "BioCol_UrnOrdPlacedA2_v1r0",
+      "BioCol_UrnOrdPlacedA3_v1r0"
     ]
   },
   "860839849": {
@@ -21074,6 +21259,9 @@
       "SrvBOH_Endometriosis_v1r0",
       "SrvMRE_Endometriosis_v1r0"
     ]
+  },
+  "863380434": {
+    "Variable Name": "Activities Tracking"
   },
   "863590289": {
     "Variable Name": "How interested are you in receiving information from Connect survey data about - Connect survey data"
@@ -21467,8 +21655,7 @@
   "877842367": {
     "Variable Label": "Chlorhexidine mouthwash",
     "Variable Name": [
-      "SrvMtW_MWCHLOR1_v1r0",
-      "SrvMtW_MWCHLOR1_v1r0"
+      "SrvOAG_MWCHLOR1_v1r0"
     ]
   },
   "877878167": {
@@ -21529,10 +21716,10 @@
   "880794013": {
     "Variable Label": "BL Blood/Ur Order",
     "Variable Name": [
-      "BioClin_BldOrUrnPlcdBL_v1r0",
-      "BioClin_BldOrUrnPlcdA1_v1r0",
-      "BioClin_BldOrUrnPlcdA2_v1r0",
-      "BioClin_BldOrUrnPlcdA3_v1r0"
+      "BioCol_BldOrUrnPlcdBL_v1r0",
+      "BioCol_BldOrUrnPlcdA1_v1r0",
+      "BioCol_BldOrUrnPlcdA2_v1r0",
+      "BioCol_BldOrUrnPlcdA3_v1r0"
     ]
   },
   "880962432": {
@@ -21552,6 +21739,12 @@
   },
   "881405646": {
     "Variable Name": "French Southern And Antarctic Territories"
+  },
+  "881633719": {
+    "Variable Label": "Alcohol-Free Mtw Freq",
+    "Variable Name": [
+      "SrvOAG_MWALCFREE_v1r0"
+    ]
   },
   "881949895": {
     "Variable Label": "2020 FIPS code",
@@ -21673,17 +21866,15 @@
     "Variable Name": "HFH Cancer Pavilion Research Clinic"
   },
   "886771318": {
-    "Variable Label": "Fluoride mouthwash",
+    "Variable Label": "Fluoride Mtw",
     "Variable Name": [
-      "SrvMtW_MWFLUORIDE1_v1r0",
-      "SrvMtW_MWFLUORIDE1_v1r0"
+      "SrvOAG_MWFLUORIDE1_v1r0"
     ]
   },
   "886864375": {
     "Variable Label": "Permanent teeth lost from some other reason",
     "Variable Name": [
-      "SrvMtW_PERMTTHLOST3_v1r0",
-      "SrvMtW_PERMTTHLOST3_v1r0"
+      "SrvOAG_PERMTTHLOST3_v1r0"
     ]
   },
   "887117937": {
@@ -21854,6 +22045,12 @@
       "SrvLAW_SeaState7FU_v1r0"
     ]
   },
+  "892633446": {
+    "Variable Label": "Poly Accession ID",
+    "Variable Name": [
+      "ActCoT_PolyAccessionID_v1r0"
+    ]
+  },
   "892697201": {
     "Variable Label": "6-mo DHQ3 Research Platform - flag for HEI report status from external DHQ platform",
     "Variable Name": [
@@ -21895,6 +22092,12 @@
   },
   "894610280": {
     "Variable Name": "In which season(s) did you walk or hike for exercise? Select all that apply."
+  },
+  "895237475": {
+    "Variable Label": "D/T Survey Started",
+    "Variable Name": [
+      "ActSuT_SurveyStartDt_v1r0"
+    ]
   },
   "895690836": {
     "Variable Label": "Date Msg Opened",
@@ -22416,7 +22619,7 @@
   "915838974": {
     "Variable Label": "D/T Scanned",
     "Variable Name": [
-      "BioReg_ArRegTime_v1r0"
+      "BioCol_ArRegTime_v1r0"
     ]
   },
   "915859406": {
@@ -22549,13 +22752,6 @@
     "Variable Label": "Last consume marijuana in food or drinks",
     "Variable Name": [
       "SrvSAS_EdiblesLast_v2r0"
-    ]
-  },
-  "921972241": {
-    "Variable Label": "fluoride mouthwash  frequency past month",
-    "Variable Name": [
-      "SrvMtW_MWFLUORIDE_v1r0",
-      "SrvMtW_MWFLUORIDE_v1r0"
     ]
   },
   "921998144": {
@@ -23052,10 +23248,10 @@
   "939818935": {
     "Variable Label": "BL D/T Ur Order",
     "Variable Name": [
-      "BioClin_UrnOrdPlcdDtBL_v1r0",
-      "BioClin_UrnOrdPlcdDtA1_v1r0",
-      "BioClin_UrnOrdPlcdDtA2_v1r0",
-      "BioClin_UrnOrdPlcdDtA3_v1r0"
+      "BioCol_UrnOrdPlcdDtBL_v1r0",
+      "BioCol_UrnOrdPlcdDtA1_v1r0",
+      "BioCol_UrnOrdPlcdDtA2_v1r0",
+      "BioCol_UrnOrdPlcdDtA3_v1r0"
     ]
   },
   "939897560": {
@@ -23401,10 +23597,9 @@
     "Variable Name": "How old were you when you had breast lift surgery (mastopexy)? - CSH"
   },
   "950773275": {
-    "Variable Label": "Alcohol-based mouthwash",
+    "Variable Label": "Alcohol-Based Mtw",
     "Variable Name": [
-      "SrvMtW_MWALC1_v1r0",
-      "SrvMtW_MWALC1_v1r0"
+      "SrvOAG_MWALC1_v1r0"
     ]
   },
   "950972496": {
@@ -23428,7 +23623,8 @@
   "951355211": {
     "Variable Label": "Collection Location",
     "Variable Name": [
-      "BioSpm_Location_v1r0"
+      "BioSpm_Location_v1r0",
+      "ActCoT_CollectionLoc_v1r0"
     ]
   },
   "951357171": {
@@ -23606,9 +23802,9 @@
     ]
   },
   "957305523": {
-    "Variable Label": "Teeth Lost from decay or disease",
+    "Variable Label": "Teeth Lost - Decay or Disease",
     "Variable Name": [
-      "SrvMtW_TEETHLOSTD_v2r0"
+      "SrvOAG_TEETHLOSTD_v1r0"
     ]
   },
   "957406695": {
@@ -23884,6 +24080,12 @@
       "RcrtES_Aware_v1r0_Hold"
     ]
   },
+  "967514378": {
+    "Variable Label": "Activity Round",
+    "Variable Name": [
+      "ActAcT_ActRound_v1r0"
+    ]
+  },
   "967681778": {
     "Variable Name": "6 to 30 minutes"
   },
@@ -23919,6 +24121,9 @@
     "Variable Name": [
       "SrvMRE_FirstPeriodAge_v1r0"
     ]
+  },
+  "969534024": {
+    "Variable Name": "Every 3 to 4 days"
   },
   "970000442": {
     "Variable Label": "Zip code",
@@ -24233,7 +24438,7 @@
   "982213346": {
     "Variable Label": "BL D/T Clin Blood Collection",
     "Variable Name": [
-      "BioClin_ClinBloodTmBL_v1r0",
+      "BioCol_ClinBloodTmBL_v1r0",
       "BioCol_ClinBloodTmA1_v1r0",
       "BioCol_ClinBloodTmA2_v1r0",
       "BioCol_ClinBloodTmA3_v1r0"
@@ -24294,8 +24499,7 @@
   "983043203": {
     "Variable Label": "Cavity",
     "Variable Name": [
-      "SrvMtW_CAVITY_v1r0",
-      "SrvMtW_CAVITY_v1r0"
+      "SrvOAG_CAVITY_v1r0"
     ]
   },
   "983278853": {
@@ -24696,6 +24900,12 @@
     "Variable Label": "Other: Please describe",
     "Variable Name": [
       "SrvLAW_SeasWtr3_8_Oth_v1r0"
+    ]
+  },
+  "996747233": {
+    "Variable Label": "Not near collection location",
+    "Variable Name": [
+      "HdRef_Location_v1r0"
     ]
   },
   "996867481": {

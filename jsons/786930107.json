@@ -17,38 +17,37 @@
     "650465111.json",
     "303552867.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "786930107",
   "Current Question Text": "Clinical_Site Urine Collected",
   "Variable Label": "BL Clin Site Ur Coll",
   "Variable Name": [
-    "BioClin_SiteUrineCollBL_v1r0",
-    "BioClin_SiteUrineCollA1_v1r0",
-    "BioClin_SiteUrineCollA2_v1r0",
-    "BioClin_SiteUrineCollA3_v1r0"
+    "BioCol_SiteUrineCollBL_v1r0",
+    "BioCol_SiteUrineCollA1_v1r0",
+    "BioCol_SiteUrineCollA2_v1r0",
+    "BioCol_SiteUrineCollA3_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "from site EMR, sent to NCI via API",
+  "Notes": "from site EMR, sent to NCI via API; Last updated 3/21/24; Updated Variable Name prefix (8/5/26) from BioClin to BioCol",
   "Dictionary": "Biospecimen Clinical",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "3/21/24",
+  "Date added or modified": "8/5/26",
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_786930107 (2nd CID may change based on BL/F-U1,2,3)",
   "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_SiteUrineColl_v1r0 with BioClin_SiteUrineCollBL_v1r0",
   "Formula for Index": [
-    "2225",
-    "2226"
+    "2219",
+    "2220"
   ],
   "Index": [
-    "2225",
-    "2226"
+    "2219",
+    "2220"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  },
-  "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/25/26"
+  }
 }

@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "1988",
-  "Index": "1988",
+  "Formula for Index": "1982",
+  "Index": "1982",
   "Primary Source": [
     "819848608.json",
     "819848608.json",
@@ -19,11 +19,12 @@
     "650465111.json",
     "303552867.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "982213346",
   "Current Question Text": "Date/time stamp sent by the site for clinical collection of blood sample",
   "Variable Label": "BL D/T Clin Blood Collection",
   "Variable Name": [
-    "BioClin_ClinBloodTmBL_v1r0",
+    "BioCol_ClinBloodTmBL_v1r0",
     "BioCol_ClinBloodTmA1_v1r0",
     "BioCol_ClinBloodTmA2_v1r0",
     "BioCol_ClinBloodTmA3_v1r0"
@@ -33,14 +34,12 @@
   "Current Format/Value": "Example: 2020-07-17T15:21:26.763Z",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Sent from site EMR to NCI via API",
+  "Notes": "Sent from site EMR to NCI via API; Last modified on 7/31/25; Revised Notes (8/5/26): Date/timestamps stored will always represent the local time for the participants (e.g. if Alice in Central Time does her mouthwash at 9:00 AM and Bob in Eastern Time does his mouthwash at 9:00 AM, they will both have stored values of 2026-06-02T09:00:00.000Z); Updated Variable Name (8/5/26) from prefix BioClin to BioCol",
   "Derivation Notes": "Required = Yes, if BioFin_BaseBloodCol_v1r0 equals 1",
   "Dictionary": "Biospecimen Clinical, Biospecimen Research, Study Manager Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "7/31/25",
+  "Date added or modified": "8/5/26",
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_982213346 (2nd CID will change depending on BL/F-U1,2,3)",
-  "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_ClinBloodTime_v1r0 with BioClin_ClinBloodTmBL_v1r0",
-  "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "4/29/26"
+  "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_ClinBloodTime_v1r0 with BioClin_ClinBloodTmBL_v1r0"
 }

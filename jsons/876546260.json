@@ -7,8 +7,8 @@
   "Secondary Source": [
     "332759827.json"
   ],
-  "Deprecated, New, or Revised": "New",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/29/24",
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "6/30/26",
   "conceptId": "876546260",
   "Current Question Text": "Place of Birth - City",
   "Variable Label": "Birth City",
@@ -16,13 +16,13 @@
     "RcrtUP_PoBCity_v1r0"
   ],
   "Variable Type": "Char",
-  "Variable Length": "45",
+  "Variable Length": "48",
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "Yes",
-  "Notes": "Will not be nested",
+  "Notes": "Will not be nested; Previously added on 11/14/24; Revised (7/2/26): Increased variable length to 48,  character restrictions were implemented to prevent numbers and bad characters",
   "Dictionary": "Recruitment Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "11/14/24"
+  "Date added or modified": "7/2/26"
 }

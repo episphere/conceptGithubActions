@@ -44,35 +44,29 @@
     "221592017.json",
     "661940160.json"
   ],
+  "Formula for Index": "1537",
+  "Index": "1537",
+  "Primary Source": [
+    "819848608.json"
+  ],
+  "Secondary Source": [
+    "123496044.json"
+  ],
+  "Deprecated, New, or Revised": "Revised",
   "Variable Label": "Collection Details",
   "Variable Name": [
-    "BipSpm_CollDetails_v1r0"
+    "BioSpm_CollDetails_v1r0"
   ],
   "Variable Type": "Num",
+  "Current Format/Value": {
+    "266600170.json": "0"
+  },
   "Required": "Yes",
   "PII": "No",
-  "Notes": "For nesting collection setting and collection time for each type of biospecimen collection (blood, urine, mouthwash) for each visit.",
+  "Notes": "For nesting collection setting and collection time for each type of biospecimen collection (blood, urine, mouthwash) for each visit. Previously added or revised on 4/22/22; Updated 8/5/26 to remove the Follow Up response codes",
   "Dictionary": "Biospecimen Research",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "4/22/22",
-  "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_BL/F-U1,2,3_d_BiospecimenVar",
-  "Formula for Index": [
-    "1537",
-    "1538",
-    "1539",
-    "1540"
-  ],
-  "Index": [
-    "1537",
-    "1538",
-    "1539",
-    "1540"
-  ],
-  "Current Format/Value": {
-    "266600170.json": "0",
-    "496823485.json": "1",
-    "650465111.json": "2",
-    "303552867.json": "3"
-  }
+  "Date added or modified": "8/5/26",
+  "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_BL/F-U1,2,3_d_BiospecimenVar"
 }

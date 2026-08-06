@@ -1,43 +1,37 @@
 {
   "Primary Source": [
-    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "299215535.json",
-    "390351864.json"
+    "193044131.json"
   ],
+  "Deprecated, New, or Revised": "New",
   "conceptId": "339570897",
   "Current Question Text": "When did you last have a professional dental cleaning by a dentist or hygienist?",
   "Variable Label": "Last Dental Cleaning",
   "Variable Name": [
-    "SrvMtW_DENTALCLEAN_v1r0",
-    "SrvMtW_DENTALCLEAN_v1r0"
+    "SrvOAG_DENTALCLEAN_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
   "Required": "No",
   "PII": "No",
-  "Dictionary": "Biospecimen Survey",
-  "State Attribute": "No",
-  "Date added or modified": "1/19/23",
   "Question Type": "Optional Multiple Choice",
-  "IMS Review Notes": "Updated the Variable name prefix to SrvMtW_",
   "Formula for Index": [
-    "9960",
-    "9961",
-    "9962",
-    "9963",
-    "9964",
-    "9965"
+    "13636",
+    "13637",
+    "13638",
+    "13639",
+    "13640",
+    "13641"
   ],
   "Index": [
-    "9960",
-    "9961",
-    "9962",
-    "9963",
-    "9964",
-    "9965"
+    "13636",
+    "13637",
+    "13638",
+    "13639",
+    "13640",
+    "13641"
   ],
   "Current Format/Value": {
     "317567178.json": "0",
@@ -46,8 +40,5 @@
     "752219885.json": "3",
     "314487612.json": "4",
     "178420302.json": "77"
-  },
-  "Notes": [
-    "Harmonization - Questionnaire will still say Don't Know"
-  ]
+  }
 }

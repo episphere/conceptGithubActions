@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2407",
-  "Index": "2407",
+  "Formula for Index": "2401",
+  "Index": "2401",
   "Primary Source": [
     "819848608.json",
     "819848608.json",
@@ -25,21 +25,21 @@
   "Current Question Text": "Urine Location ID",
   "Variable Label": "BL Ur Location ID",
   "Variable Name": [
-    "BioClin_SiteUrLocatBL_v1r0",
-    "BioClin_SiteUrLocatA1_v1r0",
-    "BioClin_SiteUrLocatA2_v1r0",
-    "BioClin_SiteUrLocatA3_v1r0"
+    "BioCol_SiteUrLocatBL_v1r0",
+    "BioCol_SiteUrLocatA1_v1r0",
+    "BioCol_SiteUrLocatA2_v1r0",
+    "BioCol_SiteUrLocatA3_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "15",
   "Current Format/Value": "N/A",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "from site EMR, sent to NCI via API. Site ID numbers are being used instead of CIDs for this variable!",
+  "Notes": "from site EMR, sent to NCI via API. Site ID numbers are being used instead of CIDs for this variable!; Updated Variable Name prefix (8/5/26) from BioClin to BioCol",
   "Dictionary": "Biospecimen Clinical",
   "State Attribute": "No",
   "Default Variable": "No",
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_452847912 (2nd CID may change based on BL/F-U1,2,3)",
   "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_SiteUrLocation_v1r0 with BioClin_SiteUrLocatBL_v1r0",
-  "Date added or modified": "3/9/26"
+  "Date added or modified": "8/5/26"
 }

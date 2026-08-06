@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "12835",
-  "Index": "12835",
+  "Formula for Index": "12828",
+  "Index": "12828",
   "Primary Source": [
     "129084651.json"
   ],
@@ -18,7 +18,7 @@
   "Variable Length": "45",
   "Current Format/Value": "N/A",
   "Required": "No",
-  "Notes": "Conditionality: If Cancer Detected Through Screening = 1 = Yes AND Screening Type IS NOT NULL  AND Screening Facility -International Address Flag = 0 =  No (Zip) OR = 1 = Yes (Postal). Zip‚ will display as Postal Code‚ when International Flag = YES. However, both Zip and Postal Code will store the data under the current CID for Zip. When International Flag = YES, will be able to enter more than 5 digits and alphanumerical responses",
+  "Notes": "Conditionality: If Cancer Detected Through Screening = 1 = Yes AND Screening Type IS NOT NULL  AND Screening Facility -International Address Flag = 0 =  No (Zip) OR = 1 = Yes (Postal). Zip‚Äö will display as Postal Code‚Äö when International Flag = YES. However, both Zip and Postal Code will store the data under the current CID for Zip. When International Flag = YES, will be able to enter more than 5 digits and alphanumerical responses",
   "Date added or modified": "6/11/26",
   "GCP Document/Table": "SelfReportCancerDx"
 }

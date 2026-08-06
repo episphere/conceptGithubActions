@@ -1,43 +1,35 @@
 {
   "Primary Source": [
-    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "299215535.json",
-    "390351864.json"
+    "193044131.json"
   ],
   "Current Source Question": [
-    "479143504.json",
-    "479143504.json"
+    "395108207.json"
   ],
+  "Deprecated, New, or Revised": "New",
   "conceptId": "807884576",
   "Current Question Text": "Floss",
-  "Variable Label": "Floss past month",
+  "Variable Label": "Floss",
   "Variable Name": [
-    "SrvMtW_FLOSS1_v1r0",
-    "SrvMtW_FLOSS1_v1r0"
+    "SrvOAG_FLOSS1_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "TRUE",
     "TRUE"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Dictionary": "Biospecimen Survey",
-  "State Attribute": "No",
-  "Date added or modified": "1/19/23",
   "Question Type": "Optional Select All that Apply",
-  "IMS Review Notes": "Updated the GridID/Source Question Name and Variable name prefix to SrvMtW_",
   "Formula for Index": [
-    "9812",
-    "9813"
+    "13492",
+    "13493"
   ],
   "Index": [
-    "9812",
-    "9813"
+    "13492",
+    "13493"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

@@ -1,0 +1,39 @@
+{
+  "Primary Source": [
+    "611165967.json"
+  ],
+  "Secondary Source": [
+    "387849913.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "129830997",
+  "Current Question Text": "Collection Type",
+  "Variable Label": "Collection Type",
+  "Variable Name": [
+    "ActCoT_CollectionType_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Notes": "Added on 8/5/26: Required if it's a Biospecimen",
+  "Default Variable": "No",
+  "Date added or modified": "8/5/26",
+  "GCP Document/Table": "Collections Tracking",
+  "Stub Record Variable to be Retained": "Yes",
+  "Formula for Index": [
+    "13431",
+    "13432",
+    "13433"
+  ],
+  "Index": [
+    "13431",
+    "13432",
+    "13433"
+  ],
+  "Current Format/Value": {
+    "481758733.json": "0",
+    "343685348.json": "1",
+    "390351864.json": "2"
+  }
+}

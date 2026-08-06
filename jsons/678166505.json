@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "1610",
-  "Index": "1610",
+  "Formula for Index": "1604",
+  "Index": "1604",
   "Primary Source": [
     "819848608.json"
   ],
@@ -18,7 +18,7 @@
   "Current Format/Value": "Example: 2020-07-17T15:21:26.763Z",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Note: This is pushed from Epic for the Clinical samples",
+  "Notes": "Note: This is pushed from Epic for the Clinical samples; Revised Notes (8/5/26): Date/timestamps stored will always represent the local time for the participants (e.g. if Alice in Central Time does her mouthwash at 9:00 AM and Bob in Eastern Time does his mouthwash at 9:00 AM, they will both have stored values of 2026-06-02T09:00:00.000Z).",
   "Derivation Notes": "Required = Yes, for any tube where BioCol_TubeCollected_v1r0 equals 1",
   "Dictionary": "Biospecimen Clinical, Biospecimen Research",
   "State Attribute": "No",

@@ -6,41 +6,29 @@
     "840048338.json",
     "343048998.json"
   ],
+  "Formula for Index": "1538",
+  "Index": "1538",
   "Primary Source": [
     "819848608.json"
   ],
   "Secondary Source": [
     "123496044.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "Variable Label": "Select visit",
   "Variable Name": [
     "BioSpm_Visit_v1r0"
   ],
   "Variable Type": "Num",
+  "Current Format/Value": {
+    "266600170.json": "0"
+  },
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Visit selected at the time of check-in, See EMRBl_Push_v1r0",
+  "Notes": "Visit selected at the time of check-in, See EMRBl_Push_v1r0; Previously added or revised on 6/27/22; Updated 8/5/26 to remove the Follow Up response codes",
   "Dictionary": "Biospecimen Clinical, Biospecimen Research",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "6/27/22",
-  "GCP Document/Table": "Participants Table Nested structure: d_331584571_d_266600170_d_CheckIn/CheckOutVar (2nd CID will change based on BL/F-U1,2,3)",
-  "Formula for Index": [
-    "1541",
-    "1542",
-    "1543",
-    "1544"
-  ],
-  "Index": [
-    "1541",
-    "1542",
-    "1543",
-    "1544"
-  ],
-  "Current Format/Value": {
-    "266600170.json": "0",
-    "496823485.json": "1",
-    "650465111.json": "2",
-    "303552867.json": "3"
-  }
+  "Date added or modified": "8/5/26",
+  "GCP Document/Table": "Participants Table Nested structure: d_331584571_d_266600170_d_CheckIn/CheckOutVar (2nd CID will change based on BL/F-U1,2,3)"
 }

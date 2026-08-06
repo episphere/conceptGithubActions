@@ -17,38 +17,37 @@
     "650465111.json",
     "303552867.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "210921343",
   "Current Question Text": "Clinical DB Urine RRL received",
   "Variable Label": "BL Clin DB Ur RRL Rec",
   "Variable Name": [
-    "BioClin_DBUrineRRLBL_v1r0",
-    "BioClin_DBUrineRRLA1_v1r0",
-    "BioClin_DBUrineRRLA2_v1r0",
-    "BioClin_DBUrineRRLA3_v1r0"
+    "BioCol_DBUrineRRLBL_v1r0",
+    "BioCol_DBUrineRRLA1_v1r0",
+    "BioCol_DBUrineRRLA2_v1r0",
+    "BioCol_DBUrineRRLA3_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "From clinical dashboard",
+  "Notes": "From clinical dashboard; Last updated 9/7/23; Updated Variable Name prefix (8/5/26) from BioClin to BioCol",
   "Dictionary": "Biospecimen Clinical",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "9/7/23",
+  "Date added or modified": "8/5/26",
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_210921343 (2nd CID may change based on BL/F-U1,2,3)",
   "IMS Review Notes": "Updated Secondary Source to Collection Details and replaced Variable name BioClin_DBUrineRRL_v1r0 with BioClin_DBUrineRRLBL_v1r0",
   "Formula for Index": [
-    "2194",
-    "2195"
+    "2188",
+    "2189"
   ],
   "Index": [
-    "2194",
-    "2195"
+    "2188",
+    "2189"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  },
-  "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/25/26"
+  }
 }

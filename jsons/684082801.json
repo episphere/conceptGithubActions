@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "13438",
+  "Index": "13438",
+  "Primary Source": [
+    "611165967.json"
+  ],
+  "Secondary Source": [
+    "387849913.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "684082801",
+  "Current Question Text": "Date/Timestamp Collections Order Placed",
+  "Variable Label": "D/T Collections Order Placed",
+  "Variable Name": [
+    "ActCoT_ColOrderPlcdDt_v1r0"
+  ],
+  "Variable Type": "ISO-Offset",
+  "Variable Length": "24",
+  "Current Format/Value": "Ex: 2026-07-29 13:53:00-5:00",
+  "Required": "Yes",
+  "PII": "Yes",
+  "Notes": "Added on 8/5/26: D/T formatted in ISO format with offset (to local time), not UTC-ISO",
+  "Date added or modified": "8/5/26",
+  "GCP Document/Table": "Collections Tracking",
+  "Stub Record Variable to be Retained": "Yes"
+}

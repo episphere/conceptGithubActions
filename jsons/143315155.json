@@ -1,0 +1,26 @@
+{
+  "Formula for Index": "13441",
+  "Index": "13441",
+  "Primary Source": [
+    "611165967.json"
+  ],
+  "Secondary Source": [
+    "406601146.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "143315155",
+  "Current Question Text": "Date/timestamp of Refusal",
+  "Variable Label": "D/T Refusal",
+  "Variable Name": [
+    "ActReT_RefusalDT_v1r0"
+  ],
+  "Variable Type": "ISO-Offset",
+  "Variable Length": "24",
+  "Current Format/Value": "Ex: 2026-07-29 13:53:00-5:00",
+  "Required": "Yes",
+  "PII": "Yes",
+  "Notes": "Added on 8/5/26: D/T formatted in ISO format with offset (to local time), not UTC-ISO",
+  "Date added or modified": "8/5/26",
+  "GCP Document/Table": "Refusal Tracking",
+  "Stub Record Variable to be Retained": "Yes"
+}

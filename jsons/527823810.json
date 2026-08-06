@@ -15,6 +15,7 @@
   "Variable Length": "2",
   "Required": "Yes",
   "PII": "No",
+  "Notes": "Notes revised (8/5/26): Variables for site-specific race/ethnicity (BSWH race/ethnicity: 253532712, HFH ethnicity: 527823810, HFH race: 684926335, SF race: 119643471, SF ethnicity: 538553381) are sent instead of site-reported race/ethnicity (849518448). Must query both to analyze alll site data.",
   "Derivation Notes": "Required = Yes, For Henry Ford HS",
   "Dictionary": "Recruitment Data Dictionary",
   "State Attribute": "Yes",

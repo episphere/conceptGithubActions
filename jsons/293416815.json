@@ -1,0 +1,47 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "193044131.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "293416815",
+  "Current Question Text": "How often do you usually have a bowel movement (poop)?",
+  "Variable Label": "Bowel Mvmt Freq",
+  "Variable Name": [
+    "SrvOAG_FECESFREQ_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Question Type": "Optional Multiple Choice",
+  "Formula for Index": [
+    "13660",
+    "13661",
+    "13662",
+    "13663",
+    "13664",
+    "13665",
+    "13666"
+  ],
+  "Index": [
+    "13660",
+    "13661",
+    "13662",
+    "13663",
+    "13664",
+    "13665",
+    "13666"
+  ],
+  "Current Format/Value": {
+    "505919089.json": "0",
+    "858624942.json": "1",
+    "227293208.json": "2",
+    "969534024.json": "3",
+    "450046935.json": "4",
+    "406431556.json": "5",
+    "178420302.json": "77"
+  }
+}

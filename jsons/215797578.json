@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "12514",
-  "Index": "12514",
+  "Formula for Index": "12507",
+  "Index": "12507",
   "Primary Source": [
     "129084651.json"
   ],
@@ -18,7 +18,7 @@
   "Variable Length": "48",
   "Current Format/Value": "N/A",
   "Required": "No",
-  "Notes": "Conditionality: If Receiving Cancer Treatment = Yes AND Treatment Facility -International Address Flag = 0 = No (State) OR = 1 = Yes (Region). DevOps to use USPS API to translate STATE  into dropdown menu options on pts end. State‚  will display as Region‚  when International Flag = YES. However, both State and Region will store the data under the same CID",
+  "Notes": "Conditionality: If Receiving Cancer Treatment = Yes AND Treatment Facility -International Address Flag = 0 = No (State) OR = 1 = Yes (Region). DevOps to use USPS API to translate STATE  into dropdown menu options on pts end. State‚Äö  will display as Region‚Äö  when International Flag = YES. However, both State and Region will store the data under the same CID",
   "Date added or modified": "6/11/26",
   "GCP Document/Table": "SelfReportCancerDx"
 }

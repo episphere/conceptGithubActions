@@ -1,0 +1,53 @@
+{
+  "Primary Source": [
+    "129084651.json"
+  ],
+  "Secondary Source": [
+    "193044131.json"
+  ],
+  "Deprecated, New, or Revised": "New",
+  "conceptId": "232817695",
+  "Current Question Text": "What does your typical bowel movement (poop) look like?",
+  "Variable Label": "Bowel Mvmt Type",
+  "Variable Name": [
+    "SrvOAG_FECESTYPE_v1r0"
+  ],
+  "Variable Type": "Num",
+  "Variable Length": "2",
+  "Required": "No",
+  "PII": "No",
+  "Question Type": "Optional Multiple Choice",
+  "Formula for Index": [
+    "13651",
+    "13652",
+    "13653",
+    "13654",
+    "13655",
+    "13656",
+    "13657",
+    "13658",
+    "13659"
+  ],
+  "Index": [
+    "13651",
+    "13652",
+    "13653",
+    "13654",
+    "13655",
+    "13656",
+    "13657",
+    "13658",
+    "13659"
+  ],
+  "Current Format/Value": {
+    "146477090.json": "0",
+    "573635975.json": "1",
+    "670409478.json": "2",
+    "179180427.json": "3",
+    "757707533.json": "4",
+    "349679026.json": "5",
+    "246463892.json": "6",
+    "178420302.json": "77",
+    "746038746.json": "99"
+  }
+}

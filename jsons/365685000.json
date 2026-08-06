@@ -1,43 +1,35 @@
 {
   "Primary Source": [
-    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
-    "299215535.json",
-    "390351864.json"
+    "193044131.json"
   ],
   "Current Source Question": [
-    "542661394.json",
     "542661394.json"
   ],
+  "Deprecated, New, or Revised": "New",
   "conceptId": "365685000",
   "Current Question Text": "Partial Denture",
   "Variable Label": "Partial Denture",
   "Variable Name": [
-    "SrvMtW_PARTDENT_v1r0",
-    "SrvMtW_PARTDENT_v1r0"
+    "SrvOAG_PARTDENT_v1r0"
   ],
   "Connect Value for Select all that apply questions - Surveys Only": [
-    "TRUE",
     "TRUE"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Dictionary": "Biospecimen Survey",
-  "State Attribute": "No",
-  "Date added or modified": "1/19/23",
   "Question Type": "Optional Select All that Apply",
-  "IMS Review Notes": "Updated the GridID/Source Question Name and Variable name prefix to SrvMtW_",
   "Formula for Index": [
-    "9950",
-    "9951"
+    "13626",
+    "13627"
   ],
   "Index": [
-    "9950",
-    "9951"
+    "13626",
+    "13627"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

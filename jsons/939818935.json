@@ -17,36 +17,35 @@
     "650465111.json",
     "303552867.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "939818935",
   "Current Question Text": "Date/Time Urine Order Placed",
   "Variable Label": "BL D/T Ur Order",
   "Variable Name": [
-    "BioClin_UrnOrdPlcdDtBL_v1r0",
-    "BioClin_UrnOrdPlcdDtA1_v1r0",
-    "BioClin_UrnOrdPlcdDtA2_v1r0",
-    "BioClin_UrnOrdPlcdDtA3_v1r0"
+    "BioCol_UrnOrdPlcdDtBL_v1r0",
+    "BioCol_UrnOrdPlcdDtA1_v1r0",
+    "BioCol_UrnOrdPlcdDtA2_v1r0",
+    "BioCol_UrnOrdPlcdDtA3_v1r0"
   ],
   "Variable Type": "ISO",
   "Variable Length": "24",
   "Current Format/Value": "Example: 2020-07-17T15:21:26.763Z",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "ISO to be converted to SAS format. from site EMR, sent to NCI via API",
+  "Notes": "ISO to be converted to SAS format. from site EMR, sent to NCI via API; Last updated 3/21/24; Updated Variable Name prefix (8/5/26) from BioClin to BioCol",
   "Derivation Notes": "Required = Yes, if BioClin_UrnOrderPlaced_v1r0 =1",
   "Dictionary": "Biospecimen Clinical",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "3/21/24",
+  "Date added or modified": "8/5/26",
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_939818935 (2nd CID may change based on BL/F-U1,2,3)",
   "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_UrnOrderPlacdDt_v1r0 with BioClin_UrnOrdPlcdDtBL_v1r0",
   "Formula for Index": [
-    "2144",
-    "2145"
+    "2138",
+    "2139"
   ],
   "Index": [
-    "2144",
-    "2145"
-  ],
-  "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/25/26"
+    "2138",
+    "2139"
+  ]
 }

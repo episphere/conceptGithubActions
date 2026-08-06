@@ -1,15 +1,18 @@
 {
   "Primary Source": [
-    "819848608.json"
+    "819848608.json",
+    "611165967.json"
   ],
   "Secondary Source": [
-    "123496044.json"
+    "123496044.json",
+    "387849913.json"
   ],
   "conceptId": "951355211",
   "Current Question Text": "Collection Location",
   "Variable Label": "Collection Location",
   "Variable Name": [
-    "BioSpm_Location_v1r0"
+    "BioSpm_Location_v1r0",
+    "ActCoT_CollectionLoc_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "2",
@@ -20,14 +23,20 @@
   "Default Variable": "Yes",
   "GCP Document/Table": "Biospecimen Table Not nested (d_951355211)",
   "Formula for Index": [
+    "2036",
+    "2037",
+    "2038",
+    "2039",
+    "2040",
+    "2041",
     "2042",
     "2043",
-    "2044",
     "2045",
     "2046",
     "2047",
     "2048",
     "2049",
+    "2050",
     "2051",
     "2052",
     "2053",
@@ -62,23 +71,23 @@
     "2082",
     "2083",
     "2084",
-    "2085",
-    "2086",
-    "2087",
-    "2088",
-    "2089",
-    "2090",
-    "2091"
+    "2085"
   ],
   "Index": [
+    "2036",
+    "2037",
+    "2038",
+    "2039",
+    "2040",
+    "2041",
     "2042",
     "2043",
-    "2044",
     "2045",
     "2046",
     "2047",
     "2048",
     "2049",
+    "2050",
     "2051",
     "2052",
     "2053",
@@ -113,13 +122,7 @@
     "2082",
     "2083",
     "2084",
-    "2085",
-    "2086",
-    "2087",
-    "2088",
-    "2089",
-    "2090",
-    "2091"
+    "2085"
   ],
   "Current Format/Value": {
     "777644826.json": "0",
@@ -190,7 +193,7 @@
     "New"
   ],
   "Date Deprecated, New, or Revised Variable Pushed to Prod": [
-    "12/10/25",
+    "6/30/26",
     "1/29/25",
     "1/29/25",
     "1/29/25",
@@ -201,10 +204,13 @@
     "1/29/25",
     "1/29/25",
     "5/7/25",
-    "5/7/25"
+    "5/7/25",
+    "6/30/26",
+    "6/30/26",
+    "6/30/26"
   ],
   "Date added or modified": [
-    "11/7/25",
+    "6/5/26",
     "6/6/25",
     "11/7/25",
     "11/7/25",
@@ -213,9 +219,10 @@
     "6/5/26"
   ],
   "Notes": [
-    "0 equals Default for UoC, 1 equals Default for Marshfield, 2 equals Alt for Marshfield, 3 equals Default for HealthPartners, 4equals Default for Henry Ford, 5equals Alt for Henry Ford, 6equals Default for Sanford, 7equals Default for MOL, 55equals Other. Sent by KP. The new collection locations for UChicago are Ingalls Harvey, River East, and South Loop. The new collection locations for Marshfield are Rice Lake, Wisconsin Rapids, and Colby Abbotsford, Minocqua, and Merrill. The new collection location for Sanford is Fargo South University",
+    "0 equals Default for UoC, 1 equals Default for Marshfield, 2 equals Alt for Marshfield, 3 equals Default for HealthPartners, 4equals Default for Henry Ford, 5equals Alt for Henry Ford, 6equals Default for Sanford, 7equals Default for MOL, 55equals Other. Sent by KP. The new collection locations for UChicago are Ingalls Harvey, River East, and South Loop. The new collection locations for Marshfield are Rice Lake, Wisconsin Rapids, and Colby Abbotsford, Minocqua, and Merrill. The new collection location for Sanford is Fargo South University; Last marked as revised on 11/17/25; Updated locations on 6/5/26",
     "Revised (6/5/26): Added 46 = Southwest Family Medicine; 47 = Grapevine; 48 = Plano Heart as response options",
     "Revised (6/5/26): Added 46 = Southwest Family Medicine; 47 = Grapevine; 48 = Plano Heart as response options",
     "Revised (6/5/26): Added 46 = Southwest Family Medicine; 47 = Grapevine; 48 = Plano Heart as response options"
-  ]
+  ],
+  "Stub Record Variable to be Retained": "Yes"
 }

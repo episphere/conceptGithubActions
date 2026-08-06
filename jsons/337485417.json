@@ -7,8 +7,8 @@
   "Secondary Source": [
     "332759827.json"
   ],
-  "Deprecated, New, or Revised": "New",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "1/29/24",
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "6/30/26",
   "conceptId": "337485417",
   "Current Question Text": "Place of Birth - State",
   "Variable Label": "Birth State",
@@ -20,9 +20,9 @@
   "Current Format/Value": "N/A",
   "Required": "No",
   "PII": "Yes",
-  "Notes": "Will not be nested; Added to notes (6/5/26): State of Birth is  stored as a character (open text box) variable for Analytics to avoid generating 50+ CIDs; However, pt will see State as a dropdown menu, based on select allowable USPS API entries, to help  standardize data",
+  "Notes": "Will not be nested; Previously added on 11/14/24; Updated notes (7/2/26): State of Birth is stored as a character (open text box) variable for Analytics to avoid generating 50+ CIDs; However, pt will see State as a dropdown menu, based on select allowable USPS API entries, when country = USA to help  standardize data. Character restrictions were implemented to prevent numbers and bad characters.",
   "Dictionary": "Recruitment Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "11/14/24"
+  "Date added or modified": "7/2/26"
 }
