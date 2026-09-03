@@ -9,19 +9,19 @@
   ],
   "conceptId": "123868967",
   "Current Question Text": "Date Participant Deceased as reported to the CSC",
-  "Variable Label": "Date Part Deceased",
+  "Variable Label": "Date Participant Deceased",
   "Variable Name": [
     "HdWd_DeceasedDt_v1r0"
   ],
   "Variable Type": "Date",
   "Variable Length": "8",
-  "Current Format/Value": "yymmdd",
+  "Current Format/Value": "MM/DD/YYYY",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "as reported to the CSC",
+  "Notes": "Added on 1/19/24: Reported to the CSC; Revised format to MM/DD/YYYY to align with BQ (9/3/26)",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "1/19/24",
+  "Date added or modified": "9/3/26",
   "GCP Document/Table": "Participants Table Not nested (d_123868967)"
 }

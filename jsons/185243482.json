@@ -1,23 +1,12 @@
 {
-  "Formula for Index": "2397",
-  "Index": "2397",
   "Primary Source": [
-    "819848608.json",
-    "819848608.json",
-    "819848608.json",
     "819848608.json"
   ],
   "Secondary Source": [
-    "173836415.json",
-    "173836415.json",
-    "173836415.json",
     "173836415.json"
   ],
   "Current Source Question": [
-    "266600170.json",
-    "496823485.json",
-    "650465111.json",
-    "303552867.json"
+    "266600170.json"
   ],
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "6/7/24",
@@ -25,10 +14,7 @@
   "Current Question Text": "Blood Location ID",
   "Variable Label": "BL Blood Location ID",
   "Variable Name": [
-    "BioCol_SiteBldLocBL_v1r0",
-    "BioCol_SiteBldLocA1_v1r0",
-    "BioCol_SiteBldLocA2_v1r0",
-    "BioCol_SiteBldLocA3_v1r0"
+    "BioCol_SiteBldLocBL_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "15",
@@ -41,5 +27,16 @@
   "Default Variable": "No",
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_185243482 (2nd CID may change based on BL/F-U1,2,3)",
   "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable Name from BioClin_SiteBlLocation_v1r0 to BioClin_SiteBldLocBL_v1r0",
-  "Date added or modified": "8/5/26"
+  "Formula for Index": [
+    "2397",
+    "2398",
+    "2399",
+    "2400"
+  ],
+  "Index": [
+    "2397",
+    "2398",
+    "2399",
+    "2400"
+  ]
 }

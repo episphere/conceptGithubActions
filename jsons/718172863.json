@@ -1,31 +1,19 @@
 {
   "Primary Source": [
-    "819848608.json",
-    "819848608.json",
-    "819848608.json",
     "819848608.json"
   ],
   "Secondary Source": [
-    "173836415.json",
-    "173836415.json",
-    "173836415.json",
     "173836415.json"
   ],
   "Current Source Question": [
-    "266600170.json",
-    "496823485.json",
-    "650465111.json",
-    "303552867.json"
+    "266600170.json"
   ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "718172863",
   "Current Question Text": "Urine Collection Setting",
   "Variable Label": "BL Urine Collection Setting",
   "Variable Name": [
-    "BioCol_UrineSettingBL_v1r0",
-    "BioCol_UrineSettingA1_v1r0",
-    "BioCol_UrineSettingA2_v1r0",
-    "BioCol_UrineSettingA3_v1r0"
+    "BioCol_UrineSettingBL_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -40,17 +28,34 @@
   "Formula for Index": [
     "1513",
     "1514",
-    "1515"
+    "1515",
+    "1516",
+    "1517",
+    "1518",
+    "1519",
+    "1520",
+    "1521",
+    "1522",
+    "1523",
+    "1524"
   ],
   "Index": [
     "1513",
     "1514",
-    "1515"
+    "1515",
+    "1516",
+    "1517",
+    "1518",
+    "1519",
+    "1520",
+    "1521",
+    "1522",
+    "1523",
+    "1524"
   ],
   "Current Format/Value": {
     "534621077.json": "0",
     "664882224.json": "1",
     "103209024.json": "2"
-  },
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "4/29/26"
+  }
 }

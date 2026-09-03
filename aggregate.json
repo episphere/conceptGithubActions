@@ -385,10 +385,7 @@
   "110349197": {
     "Variable Label": "BL Polyacc ID - Ur",
     "Variable Name": [
-      "BioCol_PolyUrineIDBL_v1r0",
-      "BioCol_PolyUrineIDA1_v1r0",
-      "BioCol_PolyUrineIDA2_v1r0",
-      "BioCol_PolyUrineIDA3_v1r0"
+      "BioCol_PolyUrineIDBL_v1r0"
     ]
   },
   "110511396": {
@@ -809,7 +806,7 @@
     "Variable Name": "Specimen Link"
   },
   "123868967": {
-    "Variable Label": "Date Part Deceased",
+    "Variable Label": "Date Participant Deceased",
     "Variable Name": [
       "HdWd_DeceasedDt_v1r0"
     ]
@@ -1134,10 +1131,7 @@
   "135591601": {
     "Variable Label": "BL Check-In Done",
     "Variable Name": [
-      "BioChk_CompleteBL_v1r0",
-      "BioChk_CompleteA1_v1r0",
-      "BioChk_CompleteA2_v1r0",
-      "BioChk_CompleteA3_v1r0"
+      "BioChk_CompleteBL_v1r0"
     ]
   },
   "135672398": {
@@ -1260,10 +1254,9 @@
     ]
   },
   "139245758": {
-    "Variable Label": "A2 D/T Clin Ur Collected",
+    "Variable Label": "BL D/T Clin Ur Collected",
     "Variable Name": [
-      "BioCol_ClinicalUrnTmA2_v1r0",
-      "BioCol_ClinicalUrnTmA3_v1r0"
+      "BioCol_ClinicalUrnTmBL_v1r0"
     ]
   },
   "139348254": {
@@ -1748,10 +1741,7 @@
   "156605577": {
     "Variable Label": "BL Any Clin Blood/Ur Rec",
     "Variable Name": [
-      "BioCol_AnyBldUrnRecBL_v1r0",
-      "BioCol_AnyBldUrnRecA1_v1r0",
-      "BioCol_AnyBldUrnRecA2_v1r0",
-      "BioCol_AnyBldUrnRecA3_v1r0"
+      "BioCol_AnyBldUrnRecBL_v1r0"
     ]
   },
   "156628245": {
@@ -2535,10 +2525,7 @@
   "184451682": {
     "Variable Label": "BL D/T Base Blood/Ur Order",
     "Variable Name": [
-      "BioCol_BldUrnPlcdTmBL_v1r0",
-      "BioCol_BldUrnPlcdTmA1_v1r0",
-      "BioCol_BldUrnPlcdTmA2_v1r0",
-      "BioCol_BldUrnPlcdTmA3_v1r0"
+      "BioCol_BldUrnPlcdTmBL_v1r0"
     ]
   },
   "184513726": {
@@ -2574,10 +2561,7 @@
   "185243482": {
     "Variable Label": "BL Blood Location ID",
     "Variable Name": [
-      "BioCol_SiteBldLocBL_v1r0",
-      "BioCol_SiteBldLocA1_v1r0",
-      "BioCol_SiteBldLocA2_v1r0",
-      "BioCol_SiteBldLocA3_v1r0"
+      "BioCol_SiteBldLocBL_v1r0"
     ]
   },
   "185323683": {
@@ -2826,7 +2810,7 @@
     ]
   },
   "194745239": {
-    "Variable Label": "Activities",
+    "Variable Label": "Activities List",
     "Variable Name": [
       "ActAcT_ActList_v1r0"
     ]
@@ -2959,10 +2943,7 @@
   "198261154": {
     "Variable Label": "BL Clin Ur Acc ID",
     "Variable Name": [
-      "BioCol_SntUrineAccIDBL_v1r0",
-      "BioCol_SntUrineAccIDA1_v1r0",
-      "BioCol_SntUrineAccIDA2_v1r0",
-      "BioCol_SntUrineAccIDA3_v1r0"
+      "BioCol_SntUrineAccIDBL_v1r0"
     ]
   },
   "198347104": {
@@ -3495,10 +3476,7 @@
   "210921343": {
     "Variable Label": "BL Clin DB Ur RRL Rec",
     "Variable Name": [
-      "BioCol_DBUrineRRLBL_v1r0",
-      "BioCol_DBUrineRRLA1_v1r0",
-      "BioCol_DBUrineRRLA2_v1r0",
-      "BioCol_DBUrineRRLA3_v1r0"
+      "BioCol_DBUrineRRLBL_v1r0"
     ]
   },
   "210983898": {
@@ -3867,11 +3845,9 @@
     ]
   },
   "224596428": {
-    "Variable Label": "A3 D/T Clin Site Ur RRL Rec",
+    "Variable Label": "BL Clin Site Ur RRL D/T Rec",
     "Variable Name": [
-      "BioCol_SiteUrnRRLDtA3_v1r0",
-      "BioCol_DBUrineRRLDtA2_v1r0",
-      "BioCol_DBUrineRRLDtA3_v1r0"
+      "BioCol_SiteUrnRRLDtBL_v1r0"
     ]
   },
   "224681201": {
@@ -5994,7 +5970,7 @@
     ]
   },
   "303552867": {
-    "Variable Name": "3 = Activity 3"
+    "Variable Name": "3 = Follow-up 3"
   },
   "303566606": {
     "Variable Label": "Finding everything on MyConnect - share more",
@@ -6328,10 +6304,7 @@
   "316824786": {
     "Variable Label": "BL Any Spec Coll RRL",
     "Variable Name": [
-      "BioCol_AnySpecRRLBL_v1r0",
-      "BioCol_AnySpecRRLA1_v1r0",
-      "BioCol_AnySpecRRLA2_v1r0",
-      "BioCol_AnySpecRRLA3_v1r0"
+      "BioCol_AnySpecRRLBL_v1r0"
     ]
   },
   "317093647": {
@@ -6852,10 +6825,7 @@
   "341570479": {
     "Variable Label": "BL Clin Blood Acc ID",
     "Variable Name": [
-      "BioCol_SntBloodAccIDBL_v1r0",
-      "BioCol_SntBloodAccIDA1_v1r0",
-      "BioCol_SntBloodAccIDA2_v1r0",
-      "BioCol_SntBloodAccIDA3_v1r0"
+      "BioCol_SntBloodAccIDBL_v1r0"
     ]
   },
   "341636034": {
@@ -6882,10 +6852,7 @@
   "343048998": {
     "Variable Label": "BL Time Check Out Done",
     "Variable Name": [
-      "BioChk_CheckOutTmBL_v1r0",
-      "BioChk_CheckOutTmA1_v1r0",
-      "BioChk_CheckOutTmA2_v1r0",
-      "BioChk_CheckOutTmA3_v1r0"
+      "BioChk_CheckOutTmBL_v1r0"
     ]
   },
   "343111826": {
@@ -8171,9 +8138,9 @@
     ]
   },
   "398645039": {
-    "Variable Label": "A3 D/T Clin DB Blood RRL Rec",
+    "Variable Label": "BL Clin DB Blood RRL D/T Rec",
     "Variable Name": [
-      "BioCol_DBBloodRRLDtA3_v1r0"
+      "BioCol_DBBloodRRLDtBL_v1r0"
     ]
   },
   "398762737": {
@@ -9407,11 +9374,9 @@
     "Variable Name": "Bolivia (Plurinational State Of)"
   },
   "448660695": {
-    "Variable Label": "A1 D/T Mouthwash Collected",
+    "Variable Label": "BL D/T MW Collected",
     "Variable Name": [
-      "BioCol_BMTimeA1_v1r0",
-      "BioCol_BMTimeA2_v1r0",
-      "BioCol_BMTimeA3_v1r0"
+      "BioCol_BMTimeBL_v1r0"
     ]
   },
   "448722126": {
@@ -9564,10 +9529,7 @@
   "452847912": {
     "Variable Label": "BL Ur Location ID",
     "Variable Name": [
-      "BioCol_SiteUrLocatBL_v1r0",
-      "BioCol_SiteUrLocatA1_v1r0",
-      "BioCol_SiteUrLocatA2_v1r0",
-      "BioCol_SiteUrLocatA3_v1r0"
+      "BioCol_SiteUrLocatBL_v1r0"
     ]
   },
   "452942800": {
@@ -9634,10 +9596,7 @@
   "453452655": {
     "Variable Label": "BL Clin Site Ur RRL Rec",
     "Variable Name": [
-      "BioCol_SiteUrineRRLBL_v1r0",
-      "BioCol_SiteUrineRRLA1_v1r0",
-      "BioCol_SiteUrineRRLA2_v1r0",
-      "BioCol_SiteUrineRRLA3_v1r0"
+      "BioCol_SiteUrineRRLBL_v1r0"
     ]
   },
   "453456270": {
@@ -10801,7 +10760,7 @@
     ]
   },
   "496823485": {
-    "Variable Name": "1 = Activity 1"
+    "Variable Name": "1 = Follow-up 1"
   },
   "496917282": {
     "Variable Name": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had prostate cancer?"
@@ -11632,10 +11591,7 @@
   "530173840": {
     "Variable Label": "BL Blood Order",
     "Variable Name": [
-      "BioCol_BldOrderPlcdBL_v1r0",
-      "BioCol_BldOrderPlcdA1 _v1r0",
-      "BioCol_BldOrderPlcdA2_v1r0",
-      "BioCol_BldOrderPlcdA3_v1r0"
+      "BioCol_BldOrderPlcdBL_v1r0"
     ]
   },
   "530548878": {
@@ -11754,10 +11710,7 @@
   "534041351": {
     "Variable Label": "BL Clin DB Blood RRL Rec",
     "Variable Name": [
-      "BioCol_DBBloodRRLBL_v1r0",
-      "BioCol_DBBloodRRLA1_v1r0",
-      "BioCol_DBBloodRRLA2_v1r0",
-      "BioCol_DBBloodRRLA3_v1r0"
+      "BioCol_DBBloodRRLBL_v1r0"
     ]
   },
   "534351312": {
@@ -11993,8 +11946,7 @@
   "541311218": {
     "Variable Label": "BL Clin DB Ur RRL D/T Rec",
     "Variable Name": [
-      "BioCol_DBUrineRRLDtBL_v1r0",
-      "BioCol_DBUrineRRLDtA1_v1r0"
+      "BioCol_DBUrineRRLDtBL_v1r0"
     ]
   },
   "541338917": {
@@ -12077,10 +12029,7 @@
   "543608829": {
     "Variable Label": "BL Polyacc ID - Blood",
     "Variable Name": [
-      "BioCol_PolyBloodIDBL_v1r0",
-      "BioCol_PolyBloodIDBLA1_v1r0",
-      "BioCol_PolyBloodIDBLA2_v1r0",
-      "BioCol_PolyBloodIDBLA3_v1r0"
+      "BioCol_PolyBloodIDBL_v1r0"
     ]
   },
   "543728565": {
@@ -12558,10 +12507,7 @@
   "561681068": {
     "Variable Label": "BL D/T Rsrch Blood Collected",
     "Variable Name": [
-      "BioCol_RsrchBldTmBL_v1r0",
-      "BioCol_RsrchBldTmA1_v1r0",
-      "BioCol_RsrchBldTmA2_v1r0",
-      "BioCol_RsrchBldTmA3_v1r0"
+      "BioCol_RsrchBldTmBL_v1r0"
     ]
   },
   "562190570": {
@@ -13350,10 +13296,7 @@
   "592099155": {
     "Variable Label": "BL Blood Collection Setting",
     "Variable Name": [
-      "BioCol_BloodSettingBL_v1r0",
-      "BioCol_BloodSettingA1_v1r0",
-      "BioCol_BloodSettingA2_v1r0",
-      "BioCol_BloodSettingA3_v1r0"
+      "BioCol_BloodSettingBL_v1r0"
     ]
   },
   "592227431": {
@@ -14954,7 +14897,7 @@
     "Variable Name": "I have not had a menstrual  period in the past 12 months"
   },
   "650465111": {
-    "Variable Name": "2 = Activity 2"
+    "Variable Name": "2 = Follow-up 2"
   },
   "650508014": {
     "Variable Label": "Number of PSA blood tests",
@@ -15586,6 +15529,12 @@
     "Variable Label": "D/T Deceased Data Sub",
     "Variable Name": [
       "HdWd_DeceasedDtEntry_v1r0"
+    ]
+  },
+  "672797332": {
+    "Variable Label": "Collection Location",
+    "Variable Name": [
+      "ActCoT_CollectionLoc_v1r0"
     ]
   },
   "672810476": {
@@ -16267,10 +16216,7 @@
   "693370086": {
     "Variable Label": "BL Clin Site Blood Coll",
     "Variable Name": [
-      "BioCol_SiteBloodCollBL_v1r0",
-      "BioCol_SiteBloodCollA1_v1r0",
-      "BioCol_SiteBloodCollA2_v1r0",
-      "BioCol_SiteBloodCollA3_v1r0"
+      "BioCol_SiteBloodCollBL_v1r0"
     ]
   },
   "693503159": {
@@ -16573,7 +16519,7 @@
     ]
   },
   "705732561": {
-    "Variable Label": "Don't Want To Do Suvryes",
+    "Variable Label": "Don't Want To Do Surveys",
     "Variable Name": [
       "RcrtSI_OptOut_v1r0_PrivacyB"
     ]
@@ -16883,10 +16829,7 @@
   "718172863": {
     "Variable Label": "BL Urine Collection Setting",
     "Variable Name": [
-      "BioCol_UrineSettingBL_v1r0",
-      "BioCol_UrineSettingA1_v1r0",
-      "BioCol_UrineSettingA2_v1r0",
-      "BioCol_UrineSettingA3_v1r0"
+      "BioCol_UrineSettingBL_v1r0"
     ]
   },
   "718537646": {
@@ -17195,10 +17138,7 @@
   "728696253": {
     "Variable Label": "BL Clin - Site Blood RRL Rec",
     "Variable Name": [
-      "BioCol_SiteBloodRRLBL_v1r0",
-      "BioCol_SiteBloodRRLA1_v1r0",
-      "BioCol_SiteBloodRRLA2_v1r0",
-      "BioCol_SiteBloodRRLA3_v1r0"
+      "BioCol_SiteBloodRRLBL_v1r0"
     ]
   },
   "728704613": {
@@ -17547,10 +17487,7 @@
   "740582332": {
     "Variable Label": "BL D/T Any Spec Coll RRL",
     "Variable Name": [
-      "BioCol_AnySpecRRLTmBL_v1r0",
-      "BioCol_AnySpecRRLTmA1_v1r0",
-      "BioCol_AnySpecRRLTmA2_v1r0",
-      "BioCol_AnySpecRRLTmA3_v1r0"
+      "BioCol_AnySpecRRLTmBL_v1r0"
     ]
   },
   "740626474": {
@@ -17787,12 +17724,6 @@
     "Variable Label": "Age Last Use - Oral Progestin-only Med",
     "Variable Name": [
       "SrvMRE_AgeProgUsedL_v1r0"
-    ]
-  },
-  "747647081": {
-    "Variable Label": "D/T Ref F/U Blood",
-    "Variable Name": [
-      "HdRef_FUBloodCollDt_v1r0"
     ]
   },
   "747787163": {
@@ -18382,10 +18313,7 @@
   "769615780": {
     "Variable Label": "BL D/T Blood Order",
     "Variable Name": [
-      "BioCol_BldOrdPlacdDtBL_v1r0",
-      "BioCol_BldOrdPlacdDtA1_v1r0",
-      "BioCol_BldOrdPlacdDtA2_v1r0",
-      "BioCol_BldOrdPlacdDtA3_v1r0"
+      "BioCol_BldOrdPlacdDtBL_v1r0"
     ]
   },
   "769668224": {
@@ -18942,10 +18870,7 @@
   "786930107": {
     "Variable Label": "BL Clin Site Ur Coll",
     "Variable Name": [
-      "BioCol_SiteUrineCollBL_v1r0",
-      "BioCol_SiteUrineCollA1_v1r0",
-      "BioCol_SiteUrineCollA2_v1r0",
-      "BioCol_SiteUrineCollA3_v1r0"
+      "BioCol_SiteUrineCollBL_v1r0"
     ]
   },
   "787047261": {
@@ -20058,10 +19983,9 @@
     ]
   },
   "822274939": {
-    "Variable Label": "A2 D/T Clin Site Blood RRL Rec",
+    "Variable Label": "BL Clin Site Blood RRL D/T Rec",
     "Variable Name": [
-      "BioCol_SiteBldRRLDtA2_v1r0",
-      "BioCol_SiteBldRRLDtA3_v1r0"
+      "BioCol_SiteBldRRLDtBL_v1r0"
     ]
   },
   "822499427": {
@@ -20540,10 +20464,7 @@
   "840048338": {
     "Variable Label": "BL D/T Check-In Done",
     "Variable Name": [
-      "BioChk_TimeBL_v1r0",
-      "BioChk_TimeA1_v1r0",
-      "BioChk_TimeA2_v1r0",
-      "BioChk_TimeA3_v1r0"
+      "BioChk_TimeBL_v1r0"
     ]
   },
   "840147245": {
@@ -20730,10 +20651,7 @@
   "847159717": {
     "Variable Label": "BL D/T Rsrch Ur Collected",
     "Variable Name": [
-      "BioCol_RsrchUrnTmBL_v1r0",
-      "BioCol_RsrchUrnTmA1_v1r0",
-      "BioCol_RsrchUrnTmA2_v1r0",
-      "BioCol_RsrchUrnTmA3_v1r0"
+      "BioCol_RsrchUrnTmBL_v1r0"
     ]
   },
   "847327251": {
@@ -21138,10 +21056,7 @@
   "860477844": {
     "Variable Label": "BL Ur Order",
     "Variable Name": [
-      "BioCol_UrnOrdPlacedBL_v1r0",
-      "BioCol_UrnOrdPlacedA1_v1r0",
-      "BioCol_UrnOrdPlacedA2_v1r0",
-      "BioCol_UrnOrdPlacedA3_v1r0"
+      "BioCol_UrnOrdPlacedBL_v1r0"
     ]
   },
   "860839849": {
@@ -21716,10 +21631,7 @@
   "880794013": {
     "Variable Label": "BL Blood/Ur Order",
     "Variable Name": [
-      "BioCol_BldOrUrnPlcdBL_v1r0",
-      "BioCol_BldOrUrnPlcdA1_v1r0",
-      "BioCol_BldOrUrnPlcdA2_v1r0",
-      "BioCol_BldOrUrnPlcdA3_v1r0"
+      "BioCol_BldOrUrnPlcdBL_v1r0"
     ]
   },
   "880962432": {
@@ -22586,10 +22498,7 @@
   "915179629": {
     "Variable Label": "BL Mouthwash Collection Setting",
     "Variable Name": [
-      "BioCol_MWSettingBL_v1r0",
-      "BioCol_MWSettingA1_v1r0",
-      "BioCol_MWSettingA2_v1r0",
-      "BioCol_MWSettingA3_v1r0"
+      "BioCol_MWSettingBL_v1r0"
     ]
   },
   "915222355": {
@@ -23248,10 +23157,7 @@
   "939818935": {
     "Variable Label": "BL D/T Ur Order",
     "Variable Name": [
-      "BioCol_UrnOrdPlcdDtBL_v1r0",
-      "BioCol_UrnOrdPlcdDtA1_v1r0",
-      "BioCol_UrnOrdPlcdDtA2_v1r0",
-      "BioCol_UrnOrdPlcdDtA3_v1r0"
+      "BioCol_UrnOrdPlcdDtBL_v1r0"
     ]
   },
   "939897560": {
@@ -23306,12 +23212,6 @@
     "Variable Label": "Country",
     "Variable Name": [
       "SrvLAW_Country5FU_v1r0"
-    ]
-  },
-  "941963821": {
-    "Variable Label": "Ref F/U Blood",
-    "Variable Name": [
-      "HdRef_FUBloodColl_v1r0"
     ]
   },
   "942255248": {
@@ -23623,8 +23523,7 @@
   "951355211": {
     "Variable Label": "Collection Location",
     "Variable Name": [
-      "BioSpm_Location_v1r0",
-      "ActCoT_CollectionLoc_v1r0"
+      "BioSpm_Location_v1r0"
     ]
   },
   "951357171": {
@@ -24438,10 +24337,7 @@
   "982213346": {
     "Variable Label": "BL D/T Clin Blood Collection",
     "Variable Name": [
-      "BioCol_ClinBloodTmBL_v1r0",
-      "BioCol_ClinBloodTmA1_v1r0",
-      "BioCol_ClinBloodTmA2_v1r0",
-      "BioCol_ClinBloodTmA3_v1r0"
+      "BioCol_ClinBloodTmBL_v1r0"
     ]
   },
   "982400065": {

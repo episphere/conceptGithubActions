@@ -1,35 +1,22 @@
 {
   "Primary Source": [
-    "819848608.json",
-    "819848608.json",
-    "819848608.json",
     "819848608.json"
   ],
   "Secondary Source": [
-    "173836415.json",
-    "173836415.json",
-    "173836415.json",
     "173836415.json"
   ],
   "Current Source Question": [
-    "266600170.json",
-    "496823485.json",
-    "650465111.json",
-    "303552867.json"
+    "266600170.json"
   ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "534041351",
   "Current Question Text": "Clinical DB Blood RRL Received",
   "Variable Label": "BL Clin DB Blood RRL Rec",
   "Variable Name": [
-    "BioCol_DBBloodRRLBL_v1r0",
-    "BioCol_DBBloodRRLA1_v1r0",
-    "BioCol_DBBloodRRLA2_v1r0",
-    "BioCol_DBBloodRRLA3_v1r0"
+    "BioCol_DBBloodRRLBL_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Required": "Yes",
   "PII": "No",
   "Notes": "From clinical dashboard; Last updated 9/7/23; Updated Variable Name prefix (8/5/26) from BioClin to BioCol",
   "Dictionary": "Biospecimen Clinical",
@@ -40,14 +27,30 @@
   "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_DBBloodRRL_v1r0 with BioClin_DBBloodRRLBL_v1r0",
   "Formula for Index": [
     "2172",
-    "2173"
+    "2173",
+    "2174",
+    "2175",
+    "2176",
+    "2177",
+    "2178",
+    "2179"
   ],
   "Index": [
     "2172",
-    "2173"
+    "2173",
+    "2174",
+    "2175",
+    "2176",
+    "2177",
+    "2178",
+    "2179"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  }
+  },
+  "Required": [
+    "Yes",
+    "Yes"
+  ]
 }

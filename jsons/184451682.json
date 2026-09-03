@@ -1,33 +1,19 @@
 {
-  "Formula for Index": "2249",
-  "Index": "2249",
   "Primary Source": [
-    "819848608.json",
-    "819848608.json",
-    "819848608.json",
     "819848608.json"
   ],
   "Secondary Source": [
-    "173836415.json",
-    "173836415.json",
-    "173836415.json",
     "173836415.json"
   ],
   "Current Source Question": [
-    "266600170.json",
-    "496823485.json",
-    "650465111.json",
-    "303552867.json"
+    "266600170.json"
   ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "184451682",
   "Current Question Text": "Date/Time blood order placed or urine order placed",
   "Variable Label": "BL D/T Base Blood/Ur Order",
   "Variable Name": [
-    "BioCol_BldUrnPlcdTmBL_v1r0",
-    "BioCol_BldUrnPlcdTmA1_v1r0",
-    "BioCol_BldUrnPlcdTmA2_v1r0",
-    "BioCol_BldUrnPlcdTmA3_v1r0"
+    "BioCol_BldUrnPlcdTmBL_v1r0"
   ],
   "Variable Type": "ISO",
   "Variable Length": "24",
@@ -40,5 +26,17 @@
   "Default Variable": "No",
   "Date added or modified": "8/5/26",
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_184451682  (2nd CID may change based on BL/F-U1,2,3)",
-  "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable Name from BioClin_BldUrnPlacedTm_v1r0 to BioClin_BldUrnPlcdTmBL_v1r0"
+  "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable Name from BioClin_BldUrnPlacedTm_v1r0 to BioClin_BldUrnPlcdTmBL_v1r0",
+  "Formula for Index": [
+    "2249",
+    "2250",
+    "2251",
+    "2252"
+  ],
+  "Index": [
+    "2249",
+    "2250",
+    "2251",
+    "2252"
+  ]
 }

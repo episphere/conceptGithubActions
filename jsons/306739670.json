@@ -6,7 +6,6 @@
     "569151507.json"
   ],
   "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/9/26",
   "conceptId": "306739670",
   "Current Question Text": "Flag for if Alternative address is an International address",
   "Variable Label": "Alt International Address Flag",
@@ -17,9 +16,9 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Notes": "If a participant has not indicated whether an address is international, the flag will remain NULL; Previously added on 11/7/25; Revised 3/9/26 - Added to Notes: UP History data is not stored until participant is verified",
+  "Notes": "If a participant has not indicated whether an address is international, the flag will remain NULL; Previously added on 11/7/25; Revised (3/9/26) - Added to Notes: UP History data is not stored until participant is verified; Revised (9/3/26): PO Box Flags will display as a checkbox across both PWA and SMDB and relevant Address Types: If checked, store as Yes. If unchecked, store as Null (will not be stored as an empty string or as a No response)",
   "Default Variable": "No",
-  "Date added or modified": "3/9/26",
+  "Date added or modified": "9/3/26",
   "Formula for Index": [
     "1165",
     "1166"

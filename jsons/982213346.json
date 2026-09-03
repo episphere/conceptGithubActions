@@ -1,33 +1,19 @@
 {
-  "Formula for Index": "1982",
-  "Index": "1982",
   "Primary Source": [
-    "819848608.json",
-    "819848608.json",
-    "819848608.json",
     "819848608.json"
   ],
   "Secondary Source": [
-    "173836415.json",
-    "173836415.json",
-    "173836415.json",
     "173836415.json"
   ],
   "Current Source Question": [
-    "266600170.json",
-    "496823485.json",
-    "650465111.json",
-    "303552867.json"
+    "266600170.json"
   ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "982213346",
   "Current Question Text": "Date/time stamp sent by the site for clinical collection of blood sample",
   "Variable Label": "BL D/T Clin Blood Collection",
   "Variable Name": [
-    "BioCol_ClinBloodTmBL_v1r0",
-    "BioCol_ClinBloodTmA1_v1r0",
-    "BioCol_ClinBloodTmA2_v1r0",
-    "BioCol_ClinBloodTmA3_v1r0"
+    "BioCol_ClinBloodTmBL_v1r0"
   ],
   "Variable Type": "ISO",
   "Variable Length": "24",
@@ -41,5 +27,17 @@
   "Default Variable": "No",
   "Date added or modified": "8/5/26",
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_982213346 (2nd CID will change depending on BL/F-U1,2,3)",
-  "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_ClinBloodTime_v1r0 with BioClin_ClinBloodTmBL_v1r0"
+  "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_ClinBloodTime_v1r0 with BioClin_ClinBloodTmBL_v1r0",
+  "Formula for Index": [
+    "1982",
+    "1983",
+    "1984",
+    "1985"
+  ],
+  "Index": [
+    "1982",
+    "1983",
+    "1984",
+    "1985"
+  ]
 }

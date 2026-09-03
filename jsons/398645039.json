@@ -1,6 +1,4 @@
 {
-  "Formula for Index": "2202",
-  "Index": "2202",
   "Primary Source": [
     "819848608.json"
   ],
@@ -8,25 +6,38 @@
     "173836415.json"
   ],
   "Current Source Question": [
-    "303552867.json"
+    "266600170.json"
   ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "398645039",
-  "Current Question Text": "Date/Time Received Clinical DB blood RRL",
-  "Variable Label": "A3 D/T Clin DB Blood RRL Rec",
+  "Current Question Text": "Clinical DB blood RRL Date/Time Received",
+  "Variable Label": "BL Clin DB Blood RRL D/T Rec",
   "Variable Name": [
-    "BioCol_DBBloodRRLDtA3_v1r0"
+    "BioCol_DBBloodRRLDtBL_v1r0"
   ],
   "Variable Type": "ISO",
   "Variable Length": "24",
   "Current Format/Value": "Example: 2020-07-17T15:21:26.763Z",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "From clinical dashboard, when a clinical site does this is data and time received at the RRL, saved upon specimen link; Previously added on 9/7/23; Updated Current Source Question from 'Follow-up' to 'Activity', Updated Variable Label and Variable Name from 'F' to 'A'; Update CQT from 'Clinical DB blood RRL Date/Time Received' (4/2/26); Updated Variable Name prefix (8/5/26) from BioClin to BioCol",
+  "Notes": "From clinical dashboard, when a clinical site does this is data and time received at the RRL, saved upon specimen link; Last updated 9/7/23; Updated Variable Name prefix (8/5/26) from BioClin to BioCol",
   "Derivation Notes": "Required = Yes, if BioClin_DBBloodRRL_v1r0 = 1",
   "Dictionary": "Biospecimen Clinical",
   "State Attribute": "No",
   "Default Variable": "No",
   "Date added or modified": "8/5/26",
-  "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_398645039 (2nd CID may change based on BL/A1,2,3)"
+  "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_398645039 (2nd CID may change based on BL/F-U1,2,3)",
+  "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_DBBloodRRLDt_v1r0 with BioClin_DBBloodRRLDtBL_v1r0",
+  "Formula for Index": [
+    "2199",
+    "2200",
+    "2201",
+    "2202"
+  ],
+  "Index": [
+    "2199",
+    "2200",
+    "2201",
+    "2202"
+  ]
 }

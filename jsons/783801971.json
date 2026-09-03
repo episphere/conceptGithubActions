@@ -8,6 +8,7 @@
     "614340152.json"
   ],
   "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "7/29/26",
   "conceptId": "783801971",
   "Current Question Text": "Primary care facility address - State/Region",
   "Variable Label": "Primary care facility address - State/Region",
@@ -18,7 +19,7 @@
   "Variable Length": "48",
   "Current Format/Value": "N/A",
   "Required": "No",
-  "Notes": "DevOps to use USPS API to translate STATE  into dropdown menu options on pts end. State‚ will display as Region‚ when International Flag = YES. However, both State and Region will store the data under the same CID",
+  "Notes": "DevOps to use USPS API to translate STATE  into dropdown menu options on pts end. State will display as Region when International Flag = YES. However, both State and Region will store the data under the same CID",
   "Date added or modified": "7/2/26",
   "GCP Document/Table": "SelfReportHCSUpdates"
 }

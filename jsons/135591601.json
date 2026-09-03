@@ -1,21 +1,12 @@
 {
   "Primary Source": [
-    "819848608.json",
-    "819848608.json",
-    "819848608.json",
     "819848608.json"
   ],
   "Secondary Source": [
-    "331584571.json",
-    "331584571.json",
-    "331584571.json",
     "331584571.json"
   ],
   "Current Source Question": [
-    "266600170.json",
-    "496823485.json",
-    "650465111.json",
-    "303552867.json"
+    "266600170.json"
   ],
   "Deprecated, New, or Revised": "Revised",
   "Date Deprecated, New, or Revised Variable Pushed to Prod": "4/29/26",
@@ -23,14 +14,10 @@
   "Current Question Text": "Currently checked into visit",
   "Variable Label": "BL Check-In Done",
   "Variable Name": [
-    "BioChk_CompleteBL_v1r0",
-    "BioChk_CompleteA1_v1r0",
-    "BioChk_CompleteA2_v1r0",
-    "BioChk_CompleteA3_v1r0"
+    "BioChk_CompleteBL_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Required": "Yes",
   "PII": "No",
   "Notes": "Previously revised on 7/18/23; Updated Secondary Source from 'Select Select visit from drop down menu' to Check-In (4/2/26)",
   "Dictionary": "Biospecimen Research, Study Manager Data Dictionary",
@@ -41,14 +28,30 @@
   "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioChk_Complete_v1r0 with BioChk_CompleteBL_v1r0",
   "Formula for Index": [
     "2024",
-    "2025"
+    "2025",
+    "2026",
+    "2027",
+    "2028",
+    "2029",
+    "2030",
+    "2031"
   ],
   "Index": [
     "2024",
-    "2025"
+    "2025",
+    "2026",
+    "2027",
+    "2028",
+    "2029",
+    "2030",
+    "2031"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  }
+  },
+  "Required": [
+    "Yes",
+    "Yes"
+  ]
 }

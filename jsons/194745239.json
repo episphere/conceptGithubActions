@@ -10,7 +10,7 @@
   "Deprecated, New, or Revised": "New",
   "conceptId": "194745239",
   "Current Question Text": "Activity List",
-  "Variable Label": "Activities",
+  "Variable Label": "Activities List",
   "Variable Name": [
     "ActAcT_ActList_v1r0"
   ],
@@ -18,8 +18,9 @@
   "Current Format/Value": "Ex: blood collection, urine collection, blood/urine survey",
   "Required": "Yes",
   "PII": "No",
+  "Notes": "Added on 8/5/26; Revised Notes on 9/3/26: Populated as a fixed list per Activity Type (e.g., For SSC: Blood Collection, Urine Collection, Mouthwash Collection, Blood/Urine/Mouthwash Survey, Blood Urine Survey, Payment)",
   "Default Variable": "No",
-  "Date added or modified": "8/5/26",
+  "Date added or modified": "9/3/26",
   "GCP Document/Table": "Activities Tracking",
   "Stub Record Variable to be Retained": "Yes"
 }

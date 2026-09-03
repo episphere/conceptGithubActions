@@ -1,25 +1,19 @@
 {
-  "Formula for Index": "2207",
-  "Index": "2207",
   "Primary Source": [
-    "819848608.json",
     "819848608.json"
   ],
   "Secondary Source": [
-    "173836415.json",
     "173836415.json"
   ],
   "Current Source Question": [
-    "266600170.json",
-    "496823485.json"
+    "266600170.json"
   ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "541311218",
   "Current Question Text": "Clinical DB urine RRL Date/Time received",
   "Variable Label": "BL Clin DB Ur RRL D/T Rec",
   "Variable Name": [
-    "BioCol_DBUrineRRLDtBL_v1r0",
-    "BioCol_DBUrineRRLDtA1_v1r0"
+    "BioCol_DBUrineRRLDtBL_v1r0"
   ],
   "Variable Type": "ISO",
   "Variable Length": "24",
@@ -33,5 +27,17 @@
   "Default Variable": "No",
   "Date added or modified": "8/5/26",
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_541311218 (2nd CID may change based on BL/F-U1,2,3)",
-  "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_DBUrineRRLDt_v1r0 with BioClin_DBUrineRRLDtBL_v1r0"
+  "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_DBUrineRRLDt_v1r0 with BioClin_DBUrineRRLDtBL_v1r0",
+  "Formula for Index": [
+    "2207",
+    "2208",
+    "2209",
+    "2210"
+  ],
+  "Index": [
+    "2207",
+    "2208",
+    "2209",
+    "2210"
+  ]
 }

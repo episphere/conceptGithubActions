@@ -1,31 +1,19 @@
 {
   "Primary Source": [
-    "819848608.json",
-    "819848608.json",
-    "819848608.json",
     "819848608.json"
   ],
   "Secondary Source": [
-    "173836415.json",
-    "173836415.json",
-    "173836415.json",
     "173836415.json"
   ],
   "Current Source Question": [
-    "266600170.json",
-    "496823485.json",
-    "650465111.json",
-    "303552867.json"
+    "266600170.json"
   ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "210921343",
   "Current Question Text": "Clinical DB Urine RRL received",
   "Variable Label": "BL Clin DB Ur RRL Rec",
   "Variable Name": [
-    "BioCol_DBUrineRRLBL_v1r0",
-    "BioCol_DBUrineRRLA1_v1r0",
-    "BioCol_DBUrineRRLA2_v1r0",
-    "BioCol_DBUrineRRLA3_v1r0"
+    "BioCol_DBUrineRRLBL_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -40,11 +28,21 @@
   "IMS Review Notes": "Updated Secondary Source to Collection Details and replaced Variable name BioClin_DBUrineRRL_v1r0 with BioClin_DBUrineRRLBL_v1r0",
   "Formula for Index": [
     "2188",
-    "2189"
+    "2189",
+    "2190",
+    "2191",
+    "2192",
+    "2193",
+    "2194"
   ],
   "Index": [
     "2188",
-    "2189"
+    "2189",
+    "2190",
+    "2191",
+    "2192",
+    "2193",
+    "2194"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

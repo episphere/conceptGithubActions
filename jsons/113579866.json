@@ -7,21 +7,22 @@
   "Secondary Source": [
     "635994596.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
   "conceptId": "113579866",
   "Current Question Text": "Suspend all contact on case until DATE: MM/DD/YYYY",
   "Variable Label": "Suspend Contact Until D/T",
   "Variable Name": [
     "HdWd_Suspend_v1r0"
   ],
-  "Variable Type": "ISO",
-  "Variable Length": "24",
-  "Current Format/Value": "Example: 2020-07-17T15:21:26.763Z",
+  "Variable Type": "Date",
+  "Variable Length": "8",
+  "Current Format/Value": "MM/DD/YYYY",
   "Required": "No",
   "PII": "No",
-  "Notes": "ISO to be converted to SAS format. Notifications should stop until this date. If the message is supposed to go out between the start and stop dates for suspended contact, then the message should not go out. This applies to contact attempts 2-10 of the quex only/survey reminders.",
+  "Notes": "Added on 4/12/21: ISO to be converted to SAS format. Notifications should stop until this date. If the message is supposed to go out between the start and stop dates for suspended contact, then the message should not go out. This applies to contact attempts 2-10 of the quex only/survey reminders; Revised format to MM/DD/YYYY to align with BQ (9/3/26)",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "4/9/21",
+  "Date added or modified": "9/3/26",
   "GCP Document/Table": "Participants Table Not nested (d_113579866)"
 }

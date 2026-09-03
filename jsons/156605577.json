@@ -1,31 +1,19 @@
 {
   "Primary Source": [
-    "819848608.json",
-    "819848608.json",
-    "819848608.json",
     "819848608.json"
   ],
   "Secondary Source": [
-    "173836415.json",
-    "173836415.json",
-    "173836415.json",
     "173836415.json"
   ],
   "Current Source Question": [
-    "266600170.json",
-    "496823485.json",
-    "650465111.json",
-    "303552867.json"
+    "266600170.json"
   ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "156605577",
   "Current Question Text": "Any clinical blood or urine sample received",
   "Variable Label": "BL Any Clin Blood/Ur Rec",
   "Variable Name": [
-    "BioCol_AnyBldUrnRecBL_v1r0",
-    "BioCol_AnyBldUrnRecA1_v1r0",
-    "BioCol_AnyBldUrnRecA2_v1r0",
-    "BioCol_AnyBldUrnRecA3_v1r0"
+    "BioCol_AnyBldUrnRecBL_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -40,15 +28,33 @@
   "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable Name from BioClin_AnyBldUrineRec_v1r0 to BioClin_AnyBldUrnRecBL_v1r0",
   "Formula for Index": [
     "2253",
-    "2254"
+    "2254",
+    "2255",
+    "2256",
+    "2257",
+    "2258",
+    "2259",
+    "2260",
+    "2261",
+    "2262"
   ],
   "Index": [
     "2253",
-    "2254"
+    "2254",
+    "2255",
+    "2256",
+    "2257",
+    "2258",
+    "2259",
+    "2260",
+    "2261",
+    "2262"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
-    "353358909.json": "1"
+    "353358909.json": "1",
+    "615768760.json": "1",
+    "231311385.json": "2"
   },
   "Required": [
     "Yes"

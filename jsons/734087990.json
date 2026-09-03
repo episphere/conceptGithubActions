@@ -8,6 +8,7 @@
     "614340152.json"
   ],
   "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "7/29/26",
   "conceptId": "734087990",
   "Current Question Text": "Primary care facility address - Zip/Postal Code",
   "Variable Label": "Primary care facility address - Zip/Postal",
@@ -18,7 +19,7 @@
   "Variable Length": "45",
   "Current Format/Value": "N/A",
   "Required": "No",
-  "Notes": "Zip will display as Postal Code‚ when International Flag = YES. However, both Zip and Postal Code will store the data under the current CID for Zip. When International Flag = YES, will be able to enter more than 5 digits and alphanumerical responses",
+  "Notes": "Zip will display as Postal Code when International Flag = YES. However, both Zip and Postal Code will store the data under the current CID for Zip. When International Flag = YES, will be able to enter more than 5 digits and alphanumerical responses",
   "Date added or modified": "7/2/26",
   "GCP Document/Table": "SelfReportHCSUpdates"
 }

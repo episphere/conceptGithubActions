@@ -8,7 +8,6 @@
     "569151507.json"
   ],
   "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/9/26",
   "conceptId": "512754567",
   "Current Question Text": "Mailing address line 3",
   "Variable Label": "Mailing Address Line 3",
@@ -18,9 +17,9 @@
   "Variable Type": "Char",
   "Variable Length": "70",
   "Current Format/Value": "N/A",
-  "Required": "No",
+  "Required": "Yes",
   "PII": "Yes",
-  "Notes": "Previously added on 11/7/25; Revised 3/9/26 - Added to Notes: UP History data is not stored until participant is verified",
+  "Notes": "Previously added on 11/7/25; Revised 3/9/26 - Added to Notes: UP History data is not stored until participant is verified; Revised (9/3/26): Updated variable to Required = Yes",
   "Default Variable": "No",
-  "Date added or modified": "3/9/26"
+  "Date added or modified": "9/3/26"
 }

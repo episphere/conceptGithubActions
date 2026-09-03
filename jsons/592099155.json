@@ -1,31 +1,19 @@
 {
   "Primary Source": [
-    "819848608.json",
-    "819848608.json",
-    "819848608.json",
     "819848608.json"
   ],
   "Secondary Source": [
-    "173836415.json",
-    "173836415.json",
-    "173836415.json",
     "173836415.json"
   ],
   "Current Source Question": [
-    "266600170.json",
-    "496823485.json",
-    "650465111.json",
-    "303552867.json"
+    "266600170.json"
   ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "592099155",
   "Current Question Text": "Blood Collection Setting",
   "Variable Label": "BL Blood Collection Setting",
   "Variable Name": [
-    "BioCol_BloodSettingBL_v1r0",
-    "BioCol_BloodSettingA1_v1r0",
-    "BioCol_BloodSettingA2_v1r0",
-    "BioCol_BloodSettingA3_v1r0"
+    "BioCol_BloodSettingBL_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -40,17 +28,34 @@
   "Formula for Index": [
     "1501",
     "1502",
-    "1503"
+    "1503",
+    "1504",
+    "1505",
+    "1506",
+    "1507",
+    "1508",
+    "1509",
+    "1510",
+    "1511",
+    "1512"
   ],
   "Index": [
     "1501",
     "1502",
-    "1503"
+    "1503",
+    "1504",
+    "1505",
+    "1506",
+    "1507",
+    "1508",
+    "1509",
+    "1510",
+    "1511",
+    "1512"
   ],
   "Current Format/Value": {
     "534621077.json": "0",
     "664882224.json": "1",
     "103209024.json": "2"
-  },
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "4/29/26"
+  }
 }

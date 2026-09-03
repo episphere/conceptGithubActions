@@ -1,36 +1,43 @@
 {
-  "Formula for Index": "2022",
-  "Index": "2022",
   "Primary Source": [
-    "819848608.json",
     "819848608.json"
   ],
   "Secondary Source": [
-    "173836415.json",
     "173836415.json"
   ],
   "Current Source Question": [
-    "650465111.json",
-    "303552867.json"
+    "266600170.json"
   ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "139245758",
-  "Current Question Text": "Date/time stamp sent by the site for clinical collection of urine",
-  "Variable Label": "A2 D/T Clin Ur Collected",
+  "Current Question Text": "Date/time stamp sent by the site for clinical collection of urine.",
+  "Variable Label": "BL D/T Clin Ur Collected",
   "Variable Name": [
-    "BioCol_ClinicalUrnTmA2_v1r0",
-    "BioCol_ClinicalUrnTmA3_v1r0"
+    "BioCol_ClinicalUrnTmBL_v1r0"
   ],
   "Variable Type": "ISO",
   "Variable Length": "24",
   "Current Format/Value": "Example: 2020-07-17T15:21:26.763Z",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Set by us for research; for clinical- from site EMR, sent to NCI via API; Previously added on 3/21/24; Revised Current Source Question from 'Follow Up 1' to 'Activity 1', Updated variable name and variable label from 'F1' to 'A1' (4/2/26); Revised Notes (8/5/26): Date/timestamps stored will always represent the local time for the participants (e.g. if Alice in Central Time does her mouthwash at 9:00 AM and Bob in Eastern Time does his mouthwash at 9:00 AM, they will both have stored values of 2026-06-02T09:00:00.000Z).",
+  "Notes": "Sent from site EMR to NCI via API; Last modified 7/31/25; Revised Notes (8/5/26): Date/timestamps stored will always represent the local time for the participants (e.g. if Alice in Central Time does her mouthwash at 9:00 AM and Bob in Eastern Time does his mouthwash at 9:00 AM, they will both have stored values of 2026-06-02T09:00:00.000Z); Updated Variable Name (8/5/26) from prefix BioClin to BioCol",
   "Derivation Notes": "Required = Yes, if BioFin_BaseUrineCol_v1r0 equals 1",
   "Dictionary": "Biospecimen Research",
   "State Attribute": "No",
   "Default Variable": "No",
   "Date added or modified": "8/5/26",
-  "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_139245758 (2nd CID may change based on BL/A1,2,3)"
+  "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_139245758 (2nd CID may change based on BL/F-U1,2,3)",
+  "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name from BioClin_ClinicalUrnTime_v1r0 to BioClin_ClinicalUrnTmBL_v1r0.",
+  "Formula for Index": [
+    "2020",
+    "2021",
+    "2022",
+    "2023"
+  ],
+  "Index": [
+    "2020",
+    "2021",
+    "2022",
+    "2023"
+  ]
 }

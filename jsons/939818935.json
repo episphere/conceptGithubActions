@@ -1,39 +1,25 @@
 {
   "Primary Source": [
-    "819848608.json",
-    "819848608.json",
-    "819848608.json",
     "819848608.json"
   ],
   "Secondary Source": [
-    "173836415.json",
-    "173836415.json",
-    "173836415.json",
     "173836415.json"
   ],
   "Current Source Question": [
-    "266600170.json",
-    "496823485.json",
-    "650465111.json",
-    "303552867.json"
+    "266600170.json"
   ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "939818935",
   "Current Question Text": "Date/Time Urine Order Placed",
   "Variable Label": "BL D/T Ur Order",
   "Variable Name": [
-    "BioCol_UrnOrdPlcdDtBL_v1r0",
-    "BioCol_UrnOrdPlcdDtA1_v1r0",
-    "BioCol_UrnOrdPlcdDtA2_v1r0",
-    "BioCol_UrnOrdPlcdDtA3_v1r0"
+    "BioCol_UrnOrdPlcdDtBL_v1r0"
   ],
   "Variable Type": "ISO",
   "Variable Length": "24",
   "Current Format/Value": "Example: 2020-07-17T15:21:26.763Z",
-  "Required": "Yes",
   "PII": "No",
   "Notes": "ISO to be converted to SAS format. from site EMR, sent to NCI via API; Last updated 3/21/24; Updated Variable Name prefix (8/5/26) from BioClin to BioCol",
-  "Derivation Notes": "Required = Yes, if BioClin_UrnOrderPlaced_v1r0 =1",
   "Dictionary": "Biospecimen Clinical",
   "State Attribute": "No",
   "Default Variable": "No",
@@ -42,10 +28,30 @@
   "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_UrnOrderPlacdDt_v1r0 with BioClin_UrnOrdPlcdDtBL_v1r0",
   "Formula for Index": [
     "2138",
-    "2139"
+    "2139",
+    "2140",
+    "2141",
+    "2142",
+    "2143",
+    "2144",
+    "2145"
   ],
   "Index": [
     "2138",
-    "2139"
+    "2139",
+    "2140",
+    "2141",
+    "2142",
+    "2143",
+    "2144",
+    "2145"
+  ],
+  "Required": [
+    "Yes",
+    "Yes"
+  ],
+  "Derivation Notes": [
+    "Required = Yes, if BioClin_UrnOrderPlaced_v1r0 =1",
+    "Required = Yes, if BioClin_UrnOrderPlaced_v1r0 =1"
   ]
 }

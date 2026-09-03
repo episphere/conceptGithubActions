@@ -6,7 +6,6 @@
     "569151507.json"
   ],
   "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/9/26",
   "conceptId": "250235523",
   "Current Question Text": "Flag for if Mailing address is a PO Box",
   "Variable Label": "Mail PO Box Flag",
@@ -15,13 +14,13 @@
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
-  "Required": "No",
+  "Required": "Yes",
   "PII": "No",
-  "Notes": "Previously added on 11/7/25; Revised 3/9/26 - Added to Notes: UP History data is not stored until participant is verified",
+  "Notes": "Previously added on 11/7/25; Revised 3/9/26 - Added to Notes: UP History data is not stored until participant is verified; Revised (9/3/26): PO Box Flags will display as a checkbox across both PWA and SMDB and relevant Address Types: If checked, store as Yes. If unchecked, store as Null (will not be stored as an empty string or as a No response); Revised (9/3/26): Updated variable to Required = Yes",
   "Dictionary": "Recruitment Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "3/9/26",
+  "Date added or modified": "9/3/26",
   "Formula for Index": [
     "866",
     "867"

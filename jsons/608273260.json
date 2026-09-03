@@ -16,11 +16,11 @@
   ],
   "Variable Type": "ISO-Offset",
   "Variable Length": "24",
-  "Current Format/Value": "Ex: 2026-07-29 13:53:00-5:00",
+  "Current Format/Value": "Ex: 2026-07-29T13:53:00-05:00",
   "Required": "Yes",
   "PII": "Yes",
-  "Notes": "Added on 8/5/26: D/T formatted in ISO format with offset (to local time), not UTC-ISO",
-  "Date added or modified": "8/5/26",
+  "Notes": "Added on 8/3/26; Revised Notes on 9/3/26: D/T formatted in ISO format with offset (to local time), not UTC-ISO",
+  "Date added or modified": "9/3/26",
   "GCP Document/Table": "Survey Tracking",
   "Stub Record Variable to be Retained": "Yes"
 }

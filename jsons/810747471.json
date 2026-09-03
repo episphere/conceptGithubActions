@@ -6,7 +6,6 @@
     "569151507.json"
   ],
   "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/9/26",
   "conceptId": "810747471",
   "Current Question Text": "Flag for if Alternative address is a PO Box",
   "Variable Label": "Alt Address PO Box Flag",
@@ -17,11 +16,11 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Notes": "Previously added on 2/12/25; Revised 3/9/26 - Added to Notes: UP History data is not stored until participant is verified; Decision by DevOps (10/23/25) to store addresses as empty strings in UP Hx so that we know which variables are edited and moved into UP Hx from UP",
+  "Notes": "Previously added on 2/12/25; Revised (3/9/26) - Added to Notes: UP History data is not stored until participant is verified; Decision by DevOps (10/23/25) to store addresses as empty strings in UP Hx so that we know which variables are edited and moved into UP Hx from UP; Revised (9/3/26): PO Box Flags will display as a checkbox across both PWA and SMDB and relevant Address Types: If checked, store as Yes. If unchecked, store as Null (will not be stored as an empty string or as a No response)",
   "Dictionary": "Recruitment Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "3/9/26",
+  "Date added or modified": "9/3/26",
   "Formula for Index": [
     "1159",
     "1160"

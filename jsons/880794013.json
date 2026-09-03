@@ -1,31 +1,19 @@
 {
   "Primary Source": [
-    "819848608.json",
-    "819848608.json",
-    "819848608.json",
     "819848608.json"
   ],
   "Secondary Source": [
-    "173836415.json",
-    "173836415.json",
-    "173836415.json",
     "173836415.json"
   ],
   "Current Source Question": [
-    "266600170.json",
-    "496823485.json",
-    "650465111.json",
-    "303552867.json"
+    "266600170.json"
   ],
   "Deprecated, New, or Revised": "Revised",
   "conceptId": "880794013",
   "Current Question Text": "Blood order placed or urine order placed",
   "Variable Label": "BL Blood/Ur Order",
   "Variable Name": [
-    "BioCol_BldOrUrnPlcdBL_v1r0",
-    "BioCol_BldOrUrnPlcdA1_v1r0",
-    "BioCol_BldOrUrnPlcdA2_v1r0",
-    "BioCol_BldOrUrnPlcdA3_v1r0"
+    "BioCol_BldOrUrnPlcdBL_v1r0"
   ],
   "Variable Type": "Num",
   "Variable Length": "1",
@@ -40,11 +28,23 @@
   "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_BldOrUrnPlaced_v1r0 with BioClin_BldOrUrnPlcdBL_v1r0",
   "Formula for Index": [
     "2241",
-    "2242"
+    "2242",
+    "2243",
+    "2244",
+    "2245",
+    "2246",
+    "2247",
+    "2248"
   ],
   "Index": [
     "2241",
-    "2242"
+    "2242",
+    "2243",
+    "2244",
+    "2245",
+    "2246",
+    "2247",
+    "2248"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

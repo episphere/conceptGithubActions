@@ -8,7 +8,6 @@
     "569151507.json"
   ],
   "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/9/26",
   "conceptId": "284580415",
   "Current Question Text": "Alternative address line 1",
   "Variable Label": "Alt Address Line 1",
@@ -18,11 +17,12 @@
   "Variable Type": "Char",
   "Variable Length": "70",
   "Current Format/Value": "N/A",
-  "Required": "No",
+  "Required": "Yes",
   "PII": "Yes",
-  "Notes": "Populated from Google Addresses. Previously revised on 9/3/25 - Added 'alt'; match 'address' spelling to be consistent w/ other address labels; Revised 3/9/26 - Added to Notes: UP History data is not stored until participant is verified, Decision by DevOps (10/23/25) to store addresses as empty strings in UP Hx so that we know which variables are edited and moved into UP Hx from UP",
+  "Notes": "Populated from Google Addresses. Previously revised on 9/3/25 - Added 'alt'; match 'address' spelling to be consistent w/ other address labels; Revised 3/9/26 - Added to Notes: UP History data is not stored until participant is verified, Decision by DevOps (10/23/25) to store addresses as empty strings in UP Hx so that we know which variables are edited and moved into UP Hx from UP; Revised (9/3/26): Updated variable to Required = Yes",
   "Dictionary": "Recruitment Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "3/9/26"
+  "Date added or modified": "9/3/26",
+  "GCP Document/Table": "User Profile History"
 }

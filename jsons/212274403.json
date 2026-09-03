@@ -8,7 +8,7 @@
     "637153953.json"
   ],
   "Deprecated, New, or Revised": "New",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "6/6/25",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "7/30/25",
   "conceptId": "212274403",
   "Current Question Text": "What is the date when the sites send/we receive data for each cancer diagnosis?",
   "Variable Label": "Cancer Receive Date",
@@ -20,9 +20,10 @@
   "Current Format/Value": "Example: 2020-07-17T15:21:26.763Z",
   "Required": "Yes",
   "PII": "No",
+  "Notes": "Added on 6/5/25; Updated on 7/31/25 to include CancerOccurence in the GCP Document column",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "6/27/25",
+  "Date added or modified": "7/31/25",
   "GCP Document/Table": "CancerOccurence"
 }
