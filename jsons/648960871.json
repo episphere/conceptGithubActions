@@ -8,10 +8,18 @@
     "129084651.json",
     "129084651.json",
     "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
+    "129084651.json",
     "129084651.json"
   ],
   "Secondary Source": [
     "745268907.json",
+    "965707586.json",
+    "965707586.json",
+    "965707586.json",
+    "965707586.json",
     "965707586.json",
     "965707586.json",
     "965707586.json",
@@ -24,7 +32,11 @@
   "Current Source Question": [
     "496539718.json",
     "790436165.json",
+    "550244580.json",
     "814115676.json",
+    "257300783.json",
+    "154603497.json",
+    "546410473.json",
     "116080663.json",
     "378254382.json",
     "942945860.json",
@@ -38,7 +50,11 @@
   "Variable Name": [
     "SrvMRE_FirstPeriAgeNH_v2r0",
     "SrvSAS_NeverSmokedReg_v2r0",
+    "SrvSAS_ECigNeverReg_v1r0",
     "SrvSAS_NeverSmoked_v2r0",
+    "SrvSAS_NeverUseCTReg_v1r0",
+    "SrvSAS_NeverHookah_v1r0",
+    "SrvSAS_TobPipeNever_v1r0",
     "SrvSAS_NeverSmokeMJ_v2r1",
     "SrvSAS_NeverSmokeReg_v2r1",
     "SrvSAS_NeverEMJDev_v2r1",
@@ -52,15 +68,16 @@
   "PII": "No",
   "IMS Review Notes": "Unharmonized source question from question text and versioned up variable name. Moved the Current Format/Value text and concept ID to the Current Question Text columns and added Yes, No to the format/value column.",
   "Formula for Index": [
-    "5086",
-    "5087"
+    "4977",
+    "4978"
   ],
   "Index": [
-    "5086",
-    "5087"
+    "4977",
+    "4978"
   ],
   "Current Format/Value": {
     "104430631.json": "0",
     "353358909.json": "1"
-  }
+  },
+  "Date added or modified": "9/8/26"
 }

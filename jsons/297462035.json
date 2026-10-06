@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2675",
-  "Index": "2675",
+  "Formula for Index": "2563",
+  "Index": "2563",
   "Primary Source": [
     "237817859.json",
     "237817859.json",
@@ -29,12 +29,12 @@
     "HDPaym_TmPaymP2_v1r0",
     "HDPaym_TmPaymP3_v1r0"
   ],
-  "Variable Type": "ISO ISO-Offset",
+  "Variable Type": "ISO or ISO-Offset",
   "Variable Length": "24",
   "Current Format/Value": "Example: 2020-07-17T15:21:26.763Z Example: 2026-07-29 13:53:00-5:00",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "This will be a repeated measures variable associated with Round and set any time HDPaym_PaymIssued_v1r0 is updated. When calling the incentiveCompleted API and declaring an incentive completed or refused by a participant, the sites can send their own timestamp in the call but if they don't provide one, NCI will generate it ourselves; Updated Secondary Source to Collection Details and Variable name HDPaym_TmPaym_v1r0 with HDPaym_TmPaymBL_v1r0; Revised Notes (9/3/26): D/T ISO format for baseline biospecimen collections, D/T ISO with offset format for Follow Up collections in Payment Tracking table only",
+  "Notes": "This will be a repeated measures variable associated with Round and set any time HDPaym_PaymIssued_v1r0 is updated. When calling the incentiveCompleted API and declaring an incentive completed or refused by a participant, NORC or the sites can send their own timestamp in the call but if they don't provide one, NCI will generate it ourselves; Updated Secondary Source to Collection Details and Variable name HDPaym_TmPaym_v1r0 with HDPaym_TmPaymBL_v1r0; Revised Notes (9/3/26): D/T ISO format for baseline biospecimen collections, D/T ISO with offset format for Follow Up collections in Payment Tracking table only",
   "Derivation Notes": "Required = Yes, if HDPaym_PaymIssued_v1r0 equals 1",
   "Dictionary": "Study Manager Data Dictionary, Biospecimen Research",
   "State Attribute": "No",

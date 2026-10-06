@@ -364,12 +364,6 @@
       "SrvDHQ3_6moTmStart_v1r0"
     ]
   },
-  "109876967": {
-    "Variable Label": "Metformin Mg, Don't Know",
-    "Variable Name": [
-      "SrvMRE_MetforminMgDK_v2r0"
-    ]
-  },
   "109972911": {
     "Variable Name": "I had surgery to remove both ovaries"
   },
@@ -842,12 +836,6 @@
     "Variable Label": "Lived anywhere else at least two years",
     "Variable Name": [
       "SrvLAW_HomeAddOth10_v2r0"
-    ]
-  },
-  "124391414": {
-    "Variable Label": "Age started using chewing tobacco, snus, snuff, or dip on a regular basis, Never used",
-    "Variable Name": [
-      "SrvSAS_NeverUseCTReg_v2r0"
     ]
   },
   "124830305": {
@@ -2301,12 +2289,20 @@
       "SrvMRE_REAspirinPillDK_v2r0",
       "SrvMRE_IbuprofenPillDK_v2r0",
       "SrvMRE_AcetPillDK_v2r0",
+      "SrvMRE_NaproxenPillDK_v1r0",
       "SrvMRE_CelebrexPillDK_v2r0",
+      "SrvMRE_OpioidsPillDK_v1r0",
       "SrvMRE_StatinsPillsDK_v2r0",
       "SrvMRE_AntiHypPillsDK_v2r0",
+      "SrvMRE_MetforminMgDK_v1r0",
       "SrvMRE_InsulinUnitsDK_v2r0",
+      "SrvMRE_PPPresPillDK_v1r0",
+      "SrvMRE_PPOCPillDK_v1r0",
+      "SrvMRE_H2RecBlOCPillDK_v1r0",
       "SrvSAS_EdiblesServingsDK_v2r0",
+      "SrvSAS_EdiblesServNumDK_v1r0",
       "SrvSAS_THCServingsDK_v2r1",
+      "SrvSAS_THCServingNumDK_v1r0",
       "SrvLAW_CurDontKnow_v2r0",
       "SrvLAW_CurCrosDontKnow_v2r0",
       "SrvLAW_Prev1DontKnow_v2r0",
@@ -4284,12 +4280,6 @@
       "SrvLAW_CurWorkTmRail_v1r0"
     ]
   },
-  "242864844": {
-    "Variable Label": "Age first used a tobacco pipe on a regular basis, Never used",
-    "Variable Name": [
-      "SrvSAS_TobPipeNever_v2r0"
-    ]
-  },
   "242987943": {
     "Variable Label": "How many servings drink wine, past 12 months",
     "Variable Name": [
@@ -4517,12 +4507,6 @@
   },
   "254061941": {
     "Variable Name": "Water that was filtered using a filter like Brita or PUR in a pitcher or on a faucet"
-  },
-  "254093792": {
-    "Variable Label": "Pills/Day Naproxen, Don't Know",
-    "Variable Name": [
-      "SrvMRE_NaproxenPillDK_v2r0"
-    ]
   },
   "254109640": {
     "Variable Label": "All Base Samp Collected",
@@ -7521,12 +7505,6 @@
   "374697037": {
     "Variable Name": "How old were you when a doctor or other health professional first told you that you have or had Diverticulitis or Diverticulosis?"
   },
-  "374953179": {
-    "Variable Label": "Pills/Day Rx Proton Pump Inhibitors, Don't Know",
-    "Variable Name": [
-      "SrvMRE_PPPresPillDK_v2r0"
-    ]
-  },
   "375001839": {
     "Variable Name": "Pacific Islands (Trust Territory)"
   },
@@ -8197,12 +8175,6 @@
   "401335456": {
     "Variable Name": "Other (Hispanic, Asian, American Indian/Alaskan Native, Native Hawaiian or Pacific Islander)"
   },
-  "401396910": {
-    "Variable Label": "Pills/Day OTC H2 Receptor Blockers, Don't Know",
-    "Variable Name": [
-      "SrvMRE_H2RecBlOCPillDK_v2r0"
-    ]
-  },
   "401441319": {
     "Variable Name": "Saudi Arabia"
   },
@@ -8437,7 +8409,7 @@
     ]
   },
   "408693886": {
-    "Variable Name": "COVID-19 (Post-Pandemic)"
+    "Variable Name": "COVID-19 (Abridged)"
   },
   "408696162": {
     "Variable Label": "Age first used cigarettes on a regular basis",
@@ -10514,12 +10486,6 @@
   "489402657": {
     "Variable Name": "Father - How old was your Father when they were first told by a doctor or other health professional that they have or had Prostate cancer?"
   },
-  "490043229": {
-    "Variable Label": "When daily user, number of servings consumed marijuana in food or drinks don't know",
-    "Variable Name": [
-      "SrvSAS_EdiblesServNumDK_v2r0"
-    ]
-  },
   "490327747": {
     "Variable Label": "PROMIS Surv Vers",
     "Variable Name": [
@@ -10724,12 +10690,6 @@
     "Variable Label": "How much time chewing tobacco, snus, snuff, or dip  used, Age [X] to age [Y / 17]",
     "Variable Name": [
       "SrvSAS_CTTime17_v1r1"
-    ]
-  },
-  "495962646": {
-    "Variable Label": "When daily user, number of servings use THC concentrates via dabbing, don't know",
-    "Variable Name": [
-      "SrvSAS_THCServingNumDK_v2r0"
     ]
   },
   "495970180": {
@@ -13390,12 +13350,6 @@
   "595309766": {
     "Variable Name": "Venezuela (Bolivarian Republic Of)"
   },
-  "595443350": {
-    "Variable Label": "Age first used e-cigarettes or other vaping devices on a regular basis, Never used",
-    "Variable Name": [
-      "SrvSAS_ECigNeverReg_v2r0"
-    ]
-  },
   "595831652": {
     "Variable Label": "Water Pick Freq",
     "Variable Name": [
@@ -14818,7 +14772,11 @@
     "Variable Name": [
       "SrvMRE_FirstPeriAgeNH_v2r0",
       "SrvSAS_NeverSmokedReg_v2r0",
+      "SrvSAS_ECigNeverReg_v1r0",
       "SrvSAS_NeverSmoked_v2r0",
+      "SrvSAS_NeverUseCTReg_v1r0",
+      "SrvSAS_NeverHookah_v1r0",
+      "SrvSAS_TobPipeNever_v1r0",
       "SrvSAS_NeverSmokeMJ_v2r1",
       "SrvSAS_NeverSmokeReg_v2r1",
       "SrvSAS_NeverEMJDev_v2r1",
@@ -19432,12 +19390,6 @@
   "804785430": {
     "Variable Name": "Yes, every day"
   },
-  "804847497": {
-    "Variable Label": "Pills/Day Rx Pain Reliever With Opioids, Don't Know",
-    "Variable Name": [
-      "SrvMRE_OpioidsPillDK_v2r0"
-    ]
-  },
   "804918759": {
     "Variable Name": "phone"
   },
@@ -19828,12 +19780,6 @@
   },
   "816566846": {
     "Variable Name": "Yes, I currently work at the same job I had in 2019"
-  },
-  "816613060": {
-    "Variable Label": "Pills/Day OTC Proton Pump Inhibitors, Don't Know",
-    "Variable Name": [
-      "SrvMRE_PPOCPillDK_v2r0"
-    ]
   },
   "816891201": {
     "Variable Label": "Total amount of time used electronic marijuana delivery devices per day",
@@ -21288,12 +21234,6 @@
       "SrvLAW_PreWorkCountry_v1r0"
     ]
   },
-  "867171046": {
-    "Variable Label": "Age started smoking hookah or water pipe on a regular basis, Never smoked",
-    "Variable Name": [
-      "SrvSAS_NeverHookah_v2r0"
-    ]
-  },
   "867203506": {
     "Variable Label": "Ref All Fut Surv",
     "Variable Name": [
@@ -21372,12 +21312,6 @@
     "Variable Label": "First sigmoidoscopy",
     "Variable Name": [
       "SrvScr_SIG1_v1r0"
-    ]
-  },
-  "870075000": {
-    "Variable Label": "Veg",
-    "Variable Name": [
-      "SrvDSQ_Veg_v1r0"
     ]
   },
   "870456401": {
@@ -24028,6 +23962,12 @@
     "Variable Label": "Zip code",
     "Variable Name": [
       "SrvLAW_ZipFollowUp_v1r0"
+    ]
+  },
+  "970075000": {
+    "Variable Label": "Veg",
+    "Variable Name": [
+      "SrvDSQ_Veg_v1r0"
     ]
   },
   "970148613": {

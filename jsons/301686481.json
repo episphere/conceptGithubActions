@@ -1,5 +1,6 @@
 {
   "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "8/26/26",
   "conceptId": "301686481",
   "Current Question Text": "Diet Screener survey status flag",
   "Variable Label": "Flag DSQ Surv",
@@ -10,6 +11,7 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
+  "State Attribute": "No",
   "Default Variable": "No",
   "Date added or modified": "6/11/26",
   "GCP Document/Table": "Participants Table",
@@ -29,14 +31,14 @@
     ]
   ],
   "Formula for Index": [
-    "12153",
-    "12154",
-    "12155"
+    "12044",
+    "12045",
+    "12046"
   ],
   "Index": [
-    "12153",
-    "12154",
-    "12155"
+    "12044",
+    "12045",
+    "12046"
   ],
   "Current Format/Value": {
     "972455046.json": "0",

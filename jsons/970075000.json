@@ -12,7 +12,8 @@
     "SrvDSQ_Consume_v1r0"
   ],
   "Deprecated, New, or Revised": "New",
-  "conceptId": "870075000",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "8/26/26",
+  "conceptId": "970075000",
   "Current Question Text": "Vegetables (not including potatoes or iceberg lettuce) (1 cup raw leafy, 1/2 cup cooked)",
   "Variable Label": "Veg",
   "Variable Name": [
@@ -22,27 +23,31 @@
   "Variable Length": "1",
   "Required": "No",
   "PII": "No",
-  "Date added or modified": "6/8/26",
+  "Notes": "9/22/26: Typo found in response CID; Updated CID to match prod data",
+  "State Attribute": "No",
+  "Date added or modified": "10/2/26",
+  "GCP Document/Table": "dietScreener",
+  "Stub Record Variable to be Retained": "No",
   "Question Type": "Nested",
   "Formula for Index": [
-    "12158",
-    "12159",
-    "12160",
-    "12161",
-    "12162",
-    "12163",
-    "12164",
-    "12165"
+    "12049",
+    "12050",
+    "12051",
+    "12052",
+    "12053",
+    "12054",
+    "12055",
+    "12056"
   ],
   "Index": [
-    "12158",
-    "12159",
-    "12160",
-    "12161",
-    "12162",
-    "12163",
-    "12164",
-    "12165"
+    "12049",
+    "12050",
+    "12051",
+    "12052",
+    "12053",
+    "12054",
+    "12055",
+    "12056"
   ],
   "Current Format/Value": {
     "648960871.json": "44",
