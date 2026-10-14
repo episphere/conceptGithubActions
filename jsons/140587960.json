@@ -5,7 +5,6 @@
   "Secondary Source": [
     "455683442.json"
   ],
-  "Deprecated, New, or Revised": "New",
   "conceptId": "140587960",
   "Current Question Text": "Survey Type",
   "Variable Label": "Survey Type",
@@ -15,21 +14,34 @@
   "Variable Type": "Num",
   "Variable Length": "2",
   "PII": "No",
-  "Notes": "Added on 8/5/26; Revised Notes on 9/3/26: Research B/U/M survey triggered on check-in; clinical B/U survey triggered on Specimen Link finalization; SSC biospecimen surveys are available only 30 days after triggered; Menstrual cycle survey is triggered based on responses in the B/U/M or B/U survey and sunsets on the same criteria as Baseline",
   "Default Variable": "No",
-  "Date added or modified": "9/3/26",
   "GCP Document/Table": "Survey Tracking",
   "Stub Record Variable to be Retained": "Yes",
   "Formula for Index": [
-    "13333",
-    "13334"
+    "13334",
+    "13335",
+    "13336"
   ],
   "Index": [
-    "13333",
-    "13334"
+    "13334",
+    "13335",
+    "13336"
   ],
   "Current Format/Value": {
     "174688753.json": "0",
-    "575830126.json": "1"
-  }
+    "575830126.json": "1",
+    "151522362.json": "2"
+  },
+  "Deprecated, New, or Revised": [
+    "New",
+    "New"
+  ],
+  "Notes": [
+    "Added on 8/5/26; Revised Notes on 9/3/26: Research B/U/M survey triggered on check-in; clinical B/U survey triggered on Specimen Link finalization; SSC biospecimen surveys are available only 30 days after triggered; Menstrual cycle survey is triggered based on responses in the B/U/M or B/U survey and sunsets on the same criteria as Baseline",
+    "10/14/26: Added response code"
+  ],
+  "Date added or modified": [
+    "9/3/26",
+    "10/14/26"
+  ]
 }

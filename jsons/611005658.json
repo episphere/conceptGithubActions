@@ -8,7 +8,6 @@
     "569151507.json"
   ],
   "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "3/9/26",
   "conceptId": "611005658",
   "Current Question Text": "Profile Change Requested by",
   "Variable Label": "Who Req Prof Change",
@@ -17,15 +16,15 @@
   ],
   "Variable Type": "Char",
   "Variable Length": "320",
-  "Current Format/Value": "Example: example@gmail.com",
+  "Current Format/Value": "Example: PWA or SMDB - example@gmail.com",
   "Required": "Yes",
   "PII": "Yes",
-  "Notes": "This will be an email address; Previously added on 12/6/24; Revised 3/9/26 - Added to Notes: UP History data is not stored until participant is verified",
+  "Notes": "This will be an email address; Previously added on 12/6/24; Revised 3/9/26 - Added to Notes: UP History data is not stored until participant is verified; Revised (10/14/26) - Participant email addresses will no longer be stored. Instead we will designate these changes with PWA and only keep changes made by site/CCC/NORC staff via the SMDB as SMDB - example@gmail.com",
   "Derivation Notes": "Required = Yes, when user profile is updated",
   "Dictionary": "Recruitment Data Dictionary",
   "State Attribute": "No",
   "Default Variable": "No",
-  "Date added or modified": "3/9/26",
+  "Date added or modified": "10/14/26",
   "GCP Document/Table": "Participants Table Nested structure: (d_611005658_d_611005658)",
   "IMS Review Notes": "Updated Secondary Source to User Profile History"
 }

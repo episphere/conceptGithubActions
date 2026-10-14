@@ -1350,9 +1350,9 @@
     ]
   },
   "143315155": {
-    "Variable Label": "D/T Refusal",
+    "Variable Label": "D/T Ref SSC Samp",
     "Variable Name": [
-      "ActReT_RefusalDT_v1r0"
+      "HdRef_SSCsampleDT_v1r0"
     ]
   },
   "143523420": {
@@ -1601,6 +1601,9 @@
   },
   "151488193": {
     "Variable Name": "10 or less"
+  },
+  "151522362": {
+    "Variable Name": "Menstrual Survey"
   },
   "151535519": {
     "Variable Label": "Interest in MCED",
@@ -8352,9 +8355,6 @@
   "406431556": {
     "Variable Name": "Once per week or less"
   },
-  "406601146": {
-    "Variable Name": "Refusal Tracking"
-  },
   "406621050": {
     "Variable Name": "Panama Canal Zone"
   },
@@ -10721,6 +10721,12 @@
   },
   "496823485": {
     "Variable Name": "1 = Follow-up 1"
+  },
+  "496914746": {
+    "Variable Label": "Ref SSC Samp",
+    "Variable Name": [
+      "HdRef_SSCsample_v1r0"
+    ]
   },
   "496917282": {
     "Variable Name": "Child 1- How old was your [CHILD INITIALS OR NICKNAME/YOUR CHILD] when they were first told by a doctor or other health professional that they have or had prostate cancer?"
@@ -22258,12 +22264,6 @@
     "Variable Label": "Apartment, suite, unit, building, etc.",
     "Variable Name": [
       "SrvLAW_Apt6_v1r0"
-    ]
-  },
-  "906417725": {
-    "Variable Label": "Ref All Fut Activities",
-    "Variable Name": [
-      "HdWd_Activepart_v1r0"
     ]
   },
   "906459952": {
