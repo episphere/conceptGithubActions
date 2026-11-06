@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "12294",
-  "Index": "12294",
+  "Formula for Index": "12277",
+  "Index": "12277",
   "Primary Source": [
     "942936609.json"
   ],
@@ -20,6 +20,6 @@
   "Required": "No",
   "PII": "Yes",
   "Notes": "New variable pushed to prod on 5/28/26: Cleaned zip code from geocoding process, blank for City and None precisions; Updated from Num to Char to avoid leading zeroes from being cut off (6/11/26)",
-  "Default Variable": "No",
+  "Default Value": "No",
   "Date added or modified": "5/1/26"
 }

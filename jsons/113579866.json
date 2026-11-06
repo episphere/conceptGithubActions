@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2738",
-  "Index": "2738",
+  "Formula for Index": "2721",
+  "Index": "2721",
   "Primary Source": [
     "237817859.json"
   ],
@@ -8,6 +8,7 @@
     "635994596.json"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "9/30/26",
   "conceptId": "113579866",
   "Current Question Text": "Suspend all contact on case until DATE: MM/DD/YYYY",
   "Variable Label": "Suspend Contact Until D/T",
@@ -22,7 +23,7 @@
   "Notes": "Added on 4/12/21: ISO to be converted to SAS format. Notifications should stop until this date. If the message is supposed to go out between the start and stop dates for suspended contact, then the message should not go out. This applies to contact attempts 2-10 of the quex only/survey reminders; Revised format to MM/DD/YYYY to align with BQ (9/3/26)",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
-  "Default Variable": "No",
+  "Default Value": "No",
   "Date added or modified": "9/3/26",
   "GCP Document/Table": "Participants Table Not nested (d_113579866)"
 }

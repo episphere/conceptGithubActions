@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2742",
-  "Index": "2742",
+  "Formula for Index": "2725",
+  "Index": "2725",
   "Primary Source": [
     "237817859.json"
   ],
@@ -23,7 +23,7 @@
   "Notes": "ISO to be converted to SAS format. Will not be populated if the participant also withdrew or requested data destruction on the same date; Previously added on 10/21/21; Updated notes:Additional notes: The data destruction, withdrawal, and revocation dates are populated hierarchically (data destruction > withdrawal > revocation). HIPAA revocation may occur independently but is automatically implied with withdrawal. This field is populated only when revocation occurs alone; If withdrawal occurs on the same instance (i.e., same date/timestamp), only the withdrawal D/T is populated. If data destruction is requested on the same D/T as withdrawal, only the data destruction request D/T is populated.(6/5/26)",
   "Dictionary": "Withdrawal, Study Manager Data Dictionary",
   "State Attribute": "No",
-  "Default Variable": "No",
+  "Default Value": "No",
   "Date added or modified": "6/5/26",
   "GCP Document/Table": "Participants Table Not nested (d_664453818)"
 }

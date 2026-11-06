@@ -6,6 +6,7 @@
     "387849913.json"
   ],
   "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "11/4/26",
   "conceptId": "129830997",
   "Current Question Text": "Collection Type",
   "Variable Label": "Collection Type",
@@ -17,19 +18,18 @@
   "Required": "No",
   "PII": "No",
   "Notes": "Added on 8/5/26: Required if it's a Biospecimen; Revised Notes on 9/3/26: Mouthwash is not collected from participants who complete SSC via clinical collection; Once eligible for an SSC, a participant is no longer eligible to donate baseline blood/urine, but can still donate baseline home mouthwash",
-  "Default Variable": "No",
   "Date added or modified": "9/3/26",
   "GCP Document/Table": "Collections Tracking",
   "Stub Record Variable to be Retained": "Yes",
   "Formula for Index": [
-    "13325",
-    "13326",
-    "13327"
+    "13308",
+    "13309",
+    "13310"
   ],
   "Index": [
-    "13325",
-    "13326",
-    "13327"
+    "13308",
+    "13309",
+    "13310"
   ],
   "Current Format/Value": {
     "481758733.json": "0",

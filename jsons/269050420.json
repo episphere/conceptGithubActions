@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2743",
-  "Index": "2743",
+  "Formula for Index": "2726",
+  "Index": "2726",
   "Primary Source": [
     "237817859.json"
   ],
@@ -23,7 +23,7 @@
   "Notes": "ISO to be converted to SAS format. The withdrawal and revocation date time stamps will not be stored if data destruction date is also requested; Previously added on 9/28/21; Updated notes: The data destruction, withdrawal, and revocation dates are populated hierarchically (data destruction > withdrawal > revocation). Data destruction is the highest priority in the hierarchy and includes HIPAA revocation and withdrawal. If requested on the same instance (i.e., same date/timestamp) as withdrawal and/or revocation, only the data destruction D/T is populated and all other related D/T remain null. If data destruction is requested later than withdrawal or revocation, multiple D/T are populated with their respective timestamps.(6/5/26)",
   "Dictionary": "Withdrawal, Study Manager Data Dictionary",
   "State Attribute": "No",
-  "Default Variable": "No",
+  "Default Value": "No",
   "Date added or modified": "6/5/26",
   "GCP Document/Table": "Participants Table Not nested (d_269050420)"
 }

@@ -22,15 +22,15 @@
   "Notes": "Added on 4/2/26; Default value = No; Default value set upon package receipt ('Shipment Received - Site Shipment' (CID: 333524031) = Yes) if this condition is not selected",
   "Dictionary": "BPTL",
   "State Attribute": "No",
-  "Default Variable": "Yes",
+  "Default Value": "Yes",
   "Date added or modified": "4/2/26",
   "Formula for Index": [
-    "2846",
-    "2847"
+    "2829",
+    "2830"
   ],
   "Index": [
-    "2846",
-    "2847"
+    "2829",
+    "2830"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

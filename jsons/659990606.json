@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2740",
-  "Index": "2740",
+  "Formula for Index": "2723",
+  "Index": "2723",
   "Primary Source": [
     "237817859.json"
   ],
@@ -23,7 +23,7 @@
   "Notes": "ISO to be converted to SAS format. The date of revocation won't be stored if withdrawal is also requested. Date withdrew consent will not be populated if the participant also requested data destruction on the same date. Default variable (default is an empty string). Previously added on 6/21/23; Updated notes: The data destruction, withdrawal, and revocation dates are populated hierarchically (data destruction > withdrawal > revocation). Withdrawal includes HIPAA revocation and takes precedence over revocation; if both occur on the same instance (i.e., same date/timestamp), only the withdrawal D/T is populated. If data destruction is requested on the same instance (i.e., same date/timestamp) as withdrawal, withdrawal D/T is not populated; only data destruction requested D/T is populated. If data destruction is requested later than withdrawal or revocation, multiple D/T are populated with their respective timestamps.(6/5/26)",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
-  "Default Variable": "Yes",
+  "Default Value": "Yes",
   "Date added or modified": "6/5/26",
   "GCP Document/Table": "Participants Table Not nested (d_659990606)"
 }

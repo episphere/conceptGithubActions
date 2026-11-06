@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2152",
-  "Index": "2152",
+  "Formula for Index": "2133",
+  "Index": "2133",
   "Primary Source": [
     "819848608.json"
   ],
@@ -11,6 +11,7 @@
     "266600170.json"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "8/26/26",
   "conceptId": "184451682",
   "Current Question Text": "Date/Time blood order placed or urine order placed",
   "Variable Label": "BL D/T Base Blood/Ur Order",
@@ -25,7 +26,7 @@
   "Notes": "Added on 1/30/23: Nested under Collection Details, Baseline. This is the date/time the blood order was placed (BioClin_BldOrderPlacdDt_v1r0) or the date/time the urine order was placed (BioClin_UrnOrderPlaced_v1r0), whichever time was placed first; Last updated 3/21/24; Updated Variable Name prefix (8/5/26) from BioClin to BioCol",
   "Dictionary": "Biospecimen Clinical",
   "State Attribute": "No",
-  "Default Variable": "No",
+  "Default Value": "No",
   "Date added or modified": "8/5/26",
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_184451682  (2nd CID may change based on BL/F-U1,2,3)",
   "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable Name from BioClin_BldUrnPlacedTm_v1r0 to BioClin_BldUrnPlcdTmBL_v1r0"

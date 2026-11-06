@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "13324",
-  "Index": "13324",
+  "Formula for Index": "13307",
+  "Index": "13307",
   "Primary Source": [
     "611165967.json"
   ],
@@ -8,6 +8,7 @@
     "863380434.json"
   ],
   "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "11/4/26",
   "conceptId": "235879399",
   "Current Question Text": "Date/Timestamp Activity Eligibility End",
   "Variable Label": "D/T Activity Eligibility End",
@@ -20,7 +21,6 @@
   "Required": "Yes",
   "PII": "No",
   "Notes": "Added on 8/5/26: D/T formatted in ISO format with offset (to local time), not UTC-ISO",
-  "Default Variable": "No",
   "Date added or modified": "8/5/26",
   "GCP Document/Table": "Activities Tracking",
   "Stub Record Variable to be Retained": "Yes"

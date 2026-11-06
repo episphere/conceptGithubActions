@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2127",
-  "Index": "2127",
+  "Formula for Index": "2108",
+  "Index": "2108",
   "Primary Source": [
     "819848608.json"
   ],
@@ -11,6 +11,7 @@
     "266600170.json"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "8/26/26",
   "conceptId": "224596428",
   "Current Question Text": "Clinical Site Urine RRL Date / Time Received",
   "Variable Label": "BL Clin Site Ur RRL D/T Rec",
@@ -26,7 +27,7 @@
   "Derivation Notes": "Required = Yes, if BioClin_SiteUrineRRL_v1r0 = 1",
   "Dictionary": "Biospecimen Clinical",
   "State Attribute": "No",
-  "Default Variable": "No",
+  "Default Value": "No",
   "Date added or modified": "8/5/26",
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_224596428 (2nd CID may change based on BL/F-U1,2,3)",
   "IMS Review Notes": "Updated Secondary Source to Collection Details and Replaced Variable name BioClin_SiteUrineRRLDt_v1r0 with BioClin_SiteUrnRRLDtBL_v1r0"

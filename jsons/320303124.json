@@ -20,20 +20,20 @@
   "Notes": "Default will be Not Started. The Not Yet Eligible status only applies to the QoL survey for now. The 3-mo PROMIS survey trigger will be based on the participant logging into PWA and being verified at least 90 days. Added '3-mo' to distinguish it from future repeat assessments (9/3/2025)",
   "Dictionary": "PROMIS Survey",
   "State Attribute": "No",
-  "Default Variable": "Yes",
+  "Default Value": "Yes",
   "Date added or modified": "9/3/25",
   "GCP Document/Table": "Participants Table",
   "Formula for Index": [
-    "2183",
-    "2184",
-    "2185",
-    "2186"
+    "2164",
+    "2165",
+    "2166",
+    "2167"
   ],
   "Index": [
-    "2183",
-    "2184",
-    "2185",
-    "2186"
+    "2164",
+    "2165",
+    "2166",
+    "2167"
   ],
   "Current Format/Value": {
     "972455046.json": "0",

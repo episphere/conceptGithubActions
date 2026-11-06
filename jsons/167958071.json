@@ -19,16 +19,16 @@
   "Derivation Notes": "IF BioSpm_Visit_v1r0 = 0  AND UrineTube1_BioCol_TubeCollected_v1r0 = 1, THEN BioFin_BaseUrineCol_v1r0=1",
   "Dictionary": "Biospecimen Research, Biospecimen Clinical",
   "State Attribute": "No",
-  "Default Variable": "Yes",
+  "Default Value": "Yes",
   "Date added or modified": "4/2/26",
   "GCP Document/Table": "Participants Table Not nested (d_167958071)",
   "Formula for Index": [
-    "1996",
-    "1997"
+    "1978",
+    "1979"
   ],
   "Index": [
-    "1996",
-    "1997"
+    "1978",
+    "1979"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

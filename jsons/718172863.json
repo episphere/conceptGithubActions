@@ -9,6 +9,7 @@
     "266600170.json"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "8/26/26",
   "conceptId": "718172863",
   "Current Question Text": "Urine Collection Setting",
   "Variable Label": "BL Urine Collection Setting",
@@ -22,30 +23,18 @@
   "Derivation Notes": "BioCol_TubeCollected_v1r0 is 1 for  BioCol_0006_v1r0 and set to BioSpm_Setting_v1r0 for that visit",
   "Dictionary": "Biospecimen Clinical , Biospecimen Research",
   "State Attribute": "No",
-  "Default Variable": "No",
+  "Default Value": "No",
   "Date added or modified": "8/5/26",
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_718172863 (2nd CID will change based on BL/F-U1,2,3)",
   "Formula for Index": [
-    "1510",
-    "1511",
-    "1512",
-    "1513",
-    "1514",
-    "1515",
-    "1516",
-    "1517",
-    "1518"
+    "1504",
+    "1505",
+    "1506"
   ],
   "Index": [
-    "1510",
-    "1511",
-    "1512",
-    "1513",
-    "1514",
-    "1515",
-    "1516",
-    "1517",
-    "1518"
+    "1504",
+    "1505",
+    "1506"
   ],
   "Current Format/Value": {
     "534621077.json": "0",

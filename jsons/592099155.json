@@ -9,6 +9,7 @@
     "266600170.json"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "8/26/26",
   "conceptId": "592099155",
   "Current Question Text": "Blood Collection Setting",
   "Variable Label": "BL Blood Collection Setting",
@@ -22,30 +23,18 @@
   "Derivation Notes": "BioCol_TubeCollected_v1r0 for any tube is 1 except tubes BioCol_0006_v1r0 and BioCol_0007v1r0 and set to BioSpm_Setting_v1r0 for that visit",
   "Dictionary": "Biospecimen Clinical , Biospecimen Research",
   "State Attribute": "No",
-  "Default Variable": "No",
+  "Default Value": "No",
   "Date added or modified": "8/5/26",
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_592099155 (2nd CID will change based on BL/F-U1,2,3)",
   "Formula for Index": [
     "1501",
     "1502",
-    "1503",
-    "1504",
-    "1505",
-    "1506",
-    "1507",
-    "1508",
-    "1509"
+    "1503"
   ],
   "Index": [
     "1501",
     "1502",
-    "1503",
-    "1504",
-    "1505",
-    "1506",
-    "1507",
-    "1508",
-    "1509"
+    "1503"
   ],
   "Current Format/Value": {
     "534621077.json": "0",

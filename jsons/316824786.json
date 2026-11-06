@@ -9,6 +9,7 @@
     "266600170.json"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "8/26/26",
   "conceptId": "316824786",
   "Current Question Text": "Any specimen collected at RRL",
   "Variable Label": "BL Any Spec Coll RRL",
@@ -21,23 +22,23 @@
   "Notes": "Stored in participant table under Collection Settings -> Baseline; Last updated 9/7/23; Updated Variable Name prefix (8/5/26) from BioClin to BioCol",
   "Dictionary": "Biosepcimen Clinical",
   "State Attribute": "No",
-  "Default Variable": "No",
+  "Default Value": "No",
   "Date added or modified": "8/5/26",
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_316824786 (2nd CID may change based on BL/F-U1,2,3)",
   "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_AnySpecRRL_v1r0 with BioClin_AnySpecRRLBL_v1r0",
   "Formula for Index": [
-    "2139",
-    "2140",
-    "2141",
-    "2142",
-    "2143"
+    "2120",
+    "2121",
+    "2122",
+    "2123",
+    "2124"
   ],
   "Index": [
-    "2139",
-    "2140",
-    "2141",
-    "2142",
-    "2143"
+    "2120",
+    "2121",
+    "2122",
+    "2123",
+    "2124"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

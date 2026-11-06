@@ -18,7 +18,7 @@
   "Notes": "Default equals 0 for anyone assigned a PIN, until PIN is entered in PWA. If valid PIN not entered, participant is a passive recruit and RcrtES_PINmatch_v1r0 equals 0.",
   "Dictionary": "Recruitment Data Dictionary",
   "State Attribute": "No",
-  "Default Variable": "Yes",
+  "Default Value": "Yes",
   "GCP Document/Table": "Participants Table Not nested (d_948195369)",
   "Formula for Index": [
     "180",

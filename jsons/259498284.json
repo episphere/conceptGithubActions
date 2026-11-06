@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "13329",
-  "Index": "13329",
+  "Formula for Index": "13312",
+  "Index": "13312",
   "Primary Source": [
     "611165967.json"
   ],
@@ -8,6 +8,7 @@
     "387849913.json"
   ],
   "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "11/4/26",
   "conceptId": "259498284",
   "Current Question Text": "Date/Timestamp Sample Received RRL",
   "Variable Label": "D/T Sample Received RRL",
@@ -17,10 +18,10 @@
   "Variable Type": "ISO-Offset",
   "Variable Length": "24",
   "Current Format/Value": "Ex:2026-07-29T13:53:00-05:00",
-  "Required": "Yes",
+  "Required": "No",
   "PII": "Yes",
-  "Notes": "Added on 8/5/26: D/T formatted in ISO format with offset (to local time), not UTC-ISO",
-  "Date added or modified": "8/5/26",
+  "Notes": "Added on 8/5/26: D/T formatted in ISO format with offset (to local time), not UTC-ISO; Revised (11/5/26): Only sent by HFH, KPs and SF for Follow-Up collections (same as baseline); Revised (11/5/26):  For Follow Up Collections, this variable comes from the Site APis only for Clinical collections, not Research",
+  "Date added or modified": "11/5/26",
   "GCP Document/Table": "Collections Tracking",
   "Stub Record Variable to be Retained": "Yes"
 }

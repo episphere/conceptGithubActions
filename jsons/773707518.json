@@ -18,16 +18,16 @@
   "Notes": "Automatically flipped to yes if withdrawal or data destruction are selected, however, time of selection and who requested will only be populated when Revoke HIPAA alone is seleted",
   "Dictionary": "Withdrawal, Study Manager Data Dictionary",
   "State Attribute": "No",
-  "Default Variable": "Yes",
+  "Default Value": "Yes",
   "Date added or modified": "5/19/22",
   "GCP Document/Table": "Participants Table Not nested (d_773707518)",
   "Formula for Index": [
-    "2635",
-    "2636"
+    "2618",
+    "2619"
   ],
   "Index": [
-    "2635",
-    "2636"
+    "2618",
+    "2619"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

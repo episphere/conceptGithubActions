@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "13330",
-  "Index": "13330",
+  "Formula for Index": "13313",
+  "Index": "13313",
   "Primary Source": [
     "611165967.json"
   ],
@@ -8,6 +8,7 @@
     "387849913.json"
   ],
   "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "11/4/26",
   "conceptId": "711025320",
   "Current Question Text": "Accession ID from Site",
   "Variable Label": "Accession ID",
@@ -17,7 +18,10 @@
   "Variable Type": "Char",
   "Variable Length": "9",
   "Current Format/Value": "Ex: N12312323",
-  "Date added or modified": "8/5/26",
+  "Required": "Yes",
+  "PII": "No",
+  "Notes": "Revised (11/5/26): HFH sends poly accession for both blood and urine; SFH sends poly accession for blood and accession id for urine; All other sites send Accession IDs; Required ONLY if PolyAccession ID is not sent, sites must send EITHER Accession ID or PolyAccession ID;  For Follow Up Collections, this variable comes from the Site APis only for Clinical collections, not Research",
+  "Date added or modified": "11/5/26",
   "GCP Document/Table": "Collections Tracking",
   "Stub Record Variable to be Retained": "Yes"
 }

@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2099",
-  "Index": "2099",
+  "Formula for Index": "2080",
+  "Index": "2080",
   "Primary Source": [
     "819848608.json"
   ],
@@ -11,6 +11,7 @@
     "266600170.json"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "8/26/26",
   "conceptId": "939818935",
   "Current Question Text": "Date/Time Urine Order Placed",
   "Variable Label": "BL D/T Ur Order",
@@ -26,7 +27,7 @@
   "Derivation Notes": "Required = Yes, if BioClin_UrnOrderPlaced_v1r0 =1",
   "Dictionary": "Biospecimen Clinical",
   "State Attribute": "No",
-  "Default Variable": "No",
+  "Default Value": "No",
   "Date added or modified": "8/5/26",
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_939818935 (2nd CID may change based on BL/F-U1,2,3)",
   "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_UrnOrderPlacdDt_v1r0 with BioClin_UrnOrdPlcdDtBL_v1r0"

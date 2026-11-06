@@ -18,17 +18,17 @@
   "Notes": "Set by help desk agent via dashboard. Destroy data also triggers Withdraw Consent and Revoke HIPAA, however: Who requested.. and the time stamp are only populated for the Destroy data variable",
   "Dictionary": "Withdrawal, Study Manager Data Dictionary",
   "State Attribute": "No",
-  "Default Variable": "Yes",
+  "Default Value": "Yes",
   "Date added or modified": "5/19/22",
   "GCP Document/Table": "Participants Table Not nested (d_831041022)",
   "IMS Review Notes": "removed quotation marks",
   "Formula for Index": [
-    "2700",
-    "2701"
+    "2683",
+    "2684"
   ],
   "Index": [
-    "2700",
-    "2701"
+    "2683",
+    "2684"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

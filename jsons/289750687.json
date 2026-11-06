@@ -5,8 +5,8 @@
   "Secondary Source": [
     "912367929.json"
   ],
-  "Deprecated, New, or Revised": "New",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "11/25/22",
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "11/4/26",
   "conceptId": "289750687",
   "Current Question Text": "Eligible for menstrual cycle survey",
   "Variable Label": "Elig Mens Surv Flag",
@@ -17,20 +17,21 @@
   "Variable Length": "1",
   "Required": "Yes",
   "PII": "No",
+  "Notes": "Added on 11/25/22; Revised (11/5/26): Added to Activities Tracking table for Follow Up collections",
   "Derivation Notes": "Required = Yes, if SrvBLM_ResSrvCompl_v1r0 (299215535.265193023) = submitted (231311385) AND SrvBlU_MENST60_v2r0 (112151599) = yes (353358909 OR if SrvBlU_BaseComplete_v1r0 (826163434.253883960) = submitted (231311385) AND SrvBlU_MENST60_v2r0 (112151599) = yes",
   "Dictionary": "Master Dictionary",
   "State Attribute": "No",
-  "Default Variable": "No",
-  "Date added or modified": "2/28/24",
-  "GCP Document/Table": "Participants Table Not nested (d_289750687)",
+  "Default Value": "No",
+  "Date added or modified": "11/5/26",
+  "GCP Document/Table": "Participants Table Not nested (d_289750687); Activities Tracking",
   "IMS Review Notes": "Revised MENST60 variable name suffix in Required column",
   "Formula for Index": [
-    "2176",
-    "2177"
+    "2157",
+    "2158"
   ],
   "Index": [
-    "2176",
-    "2177"
+    "2157",
+    "2158"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

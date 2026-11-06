@@ -63,17 +63,17 @@
   "Notes": "Indicates whether a given sample tube or biohazard bag has been collected.  Is nested under the CID for the object, i.e. nested under CID 299553921 for Serum Separator Tube 1",
   "Dictionary": "Biospecimen Clinical, BIospecimen Research",
   "State Attribute": "No",
-  "Default Variable": "Yes",
+  "Default Value": "Yes",
   "Date added or modified": "9/7/23",
   "GCP Document/Table": "Biospecimen Table Nested structure: d_Tube/Bag/Object_d_593843561",
   "IMS Review Notes": "Updated Variable Name from BioCol_ObjColl_v1r0 to BioCol_ObjColl_v1r0_SST1. Updated Variable Label, Secondary Source and CID.",
   "Formula for Index": [
-    "1533",
-    "1534"
+    "1515",
+    "1516"
   ],
   "Index": [
-    "1533",
-    "1534"
+    "1515",
+    "1516"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

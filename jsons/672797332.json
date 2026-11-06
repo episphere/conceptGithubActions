@@ -1,7 +1,8 @@
 {
-  "Formula for Index": "13344",
-  "Index": "13344",
+  "Formula for Index": "13327",
+  "Index": "13327",
   "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "11/4/26",
   "conceptId": "672797332",
   "Current Question Text": "Collection Location from Site",
   "Variable Label": "Collection Location",
@@ -10,7 +11,7 @@
   ],
   "Variable Type": "Char",
   "Variable Length": "N/A",
-  "Notes": "Added on 9/3/26; Collection Location ID is agnostic to collection type for follow up activites; Revised (10/2/26): Sites are allowed to send any collection location (not numeric or coded CIDs)",
+  "Notes": "Added on 9/3/26; Collection Location ID is agnostic to collection type for follow up activites; Revised (10/2/26): Sites are allowed to send any collection location (not numeric or coded CIDs); For Follow-Up Collections, this variable comes from the Site Apis for Clinical collections, not Research",
   "Date added or modified": "10/2/26",
   "GCP Document/Table": "Collections Tracking",
   "Stub Record Variable to be Retained": "Yes"

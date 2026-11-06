@@ -20,16 +20,16 @@
   "Notes": "Create New Type for GetParticipants API. The requirement from our sites is that they have a type within the Get Participants API which would return only participants who have had some kind of refusal or withdrawal; Variable added on 3/30/23; Previously revised on 4/13/23; Revised notes: HdRef_AnyRefOrWd_v1r0 (451953807) is a default variable that is saved to every participant record when the record is created and it is given a default value of 'No' (104430631) upon initialization. If deceased (987563196) = yes (353358909), then HdRef_AnyRefOrWd_v1r0 (451953807) will be set to yes (353358909) when derived variables are recalculated (4/2/26)",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
-  "Default Variable": "Yes",
+  "Default Value": "Yes",
   "Date added or modified": "4/2/26",
   "IMS Review Notes": "Removed extra characters",
   "Formula for Index": [
-    "2804",
-    "2805"
+    "2787",
+    "2788"
   ],
   "Index": [
-    "2804",
-    "2805"
+    "2787",
+    "2788"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

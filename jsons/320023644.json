@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2583",
-  "Index": "2583",
+  "Formula for Index": "2566",
+  "Index": "2566",
   "Primary Source": [
     "237817859.json",
     "237817859.json",
@@ -19,6 +19,8 @@
     "558411433.json",
     "292282660.json"
   ],
+  "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "11/4/25",
   "conceptId": "320023644",
   "Current Question Text": "NORC Case Number",
   "Variable Label": "BL Case N",
@@ -32,13 +34,11 @@
   "Variable Length": "9",
   "Required": "Yes",
   "PII": "No",
-  "Notes": "Case number associated with each participant for each Round will be send by NORC (e.g. repeated measure associated with Round).  NORC API requires caseNumber to sent in the call. Required if an incentive was issued by NORC and should be null for Chicago-issued incentives; Updated Secondary Source to Collection Details and Variable name HDPaym_CaseNumber_v1r0 with HDPaym_CaseNumberBL_v1r0",
+  "Notes": "Added on  (4/2/25): Case number associated with each participant for each Round will be send by NORC (e.g. repeated measure associated with Round).  NORC API requires caseNumber to sent in the call. Required if an incentive was issued by NORC and should be null for Chicago-issued incentives; Updated Secondary Source to Collection Details and Variable name HDPaym_CaseNumber_v1r0 with HDPaym_CaseNumberBL_v1r0; Revised (11/5/26): Added to Payment Tracking Table for Follow Up Collections",
   "Derivation Notes": "Required = Yes, required for NORC",
   "Dictionary": "Study Manager Data Dictionary",
   "State Attribute": "No",
-  "Default Variable": "No",
-  "Date added or modified": "4/2/25",
-  "GCP Document/Table": "Participants Table Nested structure: d_130371375_d_266600170_d_320023644 OR d_130371375_d_303552867_d_320023644 OR d_130371375_d_496823485_d_320023644 OR d_130371375_d_650465111_d_320023644",
-  "Deprecated, New, or Revised": "Revised",
-  "Date Deprecated, New, or Revised Variable Pushed to Prod": "4/29/26"
+  "Default Value": "No",
+  "Date added or modified": "11/5/26",
+  "GCP Document/Table": "Participants Table Nested structure: d_130371375_d_266600170_d_320023644 OR d_130371375_d_303552867_d_320023644 OR d_130371375_d_496823485_d_320023644 OR d_130371375_d_650465111_d_320023644; Payment Tracking"
 }

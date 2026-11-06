@@ -18,15 +18,15 @@
   "Required": "No",
   "PII": "No",
   "Notes": "New variable pushed to prod on 5/28/26: If Address multimatch method equals 'Precision' then the multimatch was resolved by selecting the highest precisions match, using the hierarchy: street precision > ZIP > City > Street > Segment; If equals 'Random' then the multimatch was resolved by randomly selecting a candidate, using all candidates of equal precision; Revised 6/11: Made categories for 0 = Precision / 1 = Random",
-  "Default Variable": "No",
+  "Default Value": "No",
   "Date added or modified": "6/11/26",
   "Formula for Index": [
-    "12308",
-    "12309"
+    "12291",
+    "12292"
   ],
   "Index": [
-    "12308",
-    "12309"
+    "12291",
+    "12292"
   ],
   "Current Format/Value": {
     "768887460.json": "0",

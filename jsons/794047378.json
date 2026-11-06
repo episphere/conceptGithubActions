@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "3241",
-  "Index": "3241",
+  "Formula for Index": "3224",
+  "Index": "3224",
   "Primary Source": [
     "840173959.json"
   ],
@@ -22,7 +22,7 @@
   "Notes": "This variable will be used to track Available Reports similar to how we use 566565527 (Available Surveys). We don't want to nest this variable and use it to track Available Physical Activity Reports. We want to use it to track Available Reports similar to how we use 566565527 (Available Surveys); We are using this to track ALL reports not just Physical Activity so we changed the name to ROIAll_NumAvailReports_v1r0 and updated the Secondary Soource from Physical Activity to All (6/27/25)",
   "Dictionary": "Master Data Dictionary",
   "State Attribute": "No",
-  "Default Variable": "No",
+  "Default Value": "No",
   "Date added or modified": "6/27/25",
   "GCP Document/Table": "Firestore and Participants table Not nested (d_794047378)"
 }

@@ -20,16 +20,16 @@
   "Derivation Notes": "If HdRef_Baseblood_v1r0 = 1 AND HdRef_Baseurine_v1r0 = 0 THEN BioClin_BldAndUrnRef_v1r0 = 0; If HdRef_Baseblood_v1r0 = 0 AND HdRef_Baseurine_v1r0 = 1 THEN  BioClin_BldAndUrnRef_v1r0 = 0; If HdRef_Baseblood_v1r0 = 0 AND HdRef_Baseurine_v1r0 = 0 THEN BioClin_BldAndUrnRef_v1r0 = 0; If HdRef_Baseblood_v1r0 = 1 AND HdRef_Baseurine_v1r0 = 1 THEN  BioClin_BldAndUrnRef_v1r0 = 1;",
   "Dictionary": "Biospecimen Clinical",
   "State Attribute": "No",
-  "Default Variable": "No",
+  "Default Value": "No",
   "Date added or modified": "12/19/22",
   "GCP Document/Table": "Participants Table Not nested (d_526455436)",
   "Formula for Index": [
-    "2145",
-    "2146"
+    "2126",
+    "2127"
   ],
   "Index": [
-    "2145",
-    "2146"
+    "2126",
+    "2127"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

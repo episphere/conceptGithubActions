@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "13328",
-  "Index": "13328",
+  "Formula for Index": "13311",
+  "Index": "13311",
   "Primary Source": [
     "611165967.json"
   ],
@@ -8,6 +8,7 @@
     "387849913.json"
   ],
   "Deprecated, New, or Revised": "New",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "11/4/26",
   "conceptId": "325261848",
   "Current Question Text": "Date/Timestamp Sample Collected",
   "Variable Label": "D/T Sample Collected",
@@ -19,8 +20,8 @@
   "Current Format/Value": "Ex: 2026-07-29T13:53:00-05:00",
   "Required": "Yes",
   "PII": "Yes",
-  "Notes": "Added on 8/5/26: D/T formatted in ISO format with offset (to local time), not UTC-ISO",
-  "Date added or modified": "8/5/26",
+  "Notes": "Added on 8/5/26: D/T formatted in ISO format with offset (to local time), not UTC-ISO; Revised (11/5/26):  For Follow Up Collections, this variable comes from the Site APis only for Clinical collections, not Research",
+  "Date added or modified": "11/5/26",
   "GCP Document/Table": "Collections Tracking",
   "Stub Record Variable to be Retained": "Yes"
 }

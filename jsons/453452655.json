@@ -9,6 +9,7 @@
     "266600170.json"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "8/26/26",
   "conceptId": "453452655",
   "Current Question Text": "Clinical Site Urine RRL Received",
   "Variable Label": "BL Clin Site Ur RRL Rec",
@@ -21,23 +22,23 @@
   "Notes": "from site EMR, sent to NCI via API; Last updated 3/21/24; Updated Variable Name prefix (8/5/26) from BioClin to BioCol",
   "Dictionary": "Biospecimen Clinical",
   "State Attribute": "No",
-  "Default Variable": "No",
+  "Default Value": "No",
   "Date added or modified": "8/5/26",
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_453452655 (2nd CID may change based on BL/F-U1,2,3)",
   "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_SiteUrineRRL_v1r0 with BioClin_SiteUrineRRLBL_v1r0",
   "Formula for Index": [
-    "2116",
-    "2117",
-    "2118",
-    "2119",
-    "2120"
+    "2097",
+    "2098",
+    "2099",
+    "2100",
+    "2101"
   ],
   "Index": [
-    "2116",
-    "2117",
-    "2118",
-    "2119",
-    "2120"
+    "2097",
+    "2098",
+    "2099",
+    "2100",
+    "2101"
   ],
   "Current Format/Value": {
     "104430631.json": "0",

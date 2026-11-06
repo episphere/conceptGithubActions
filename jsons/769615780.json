@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "2093",
-  "Index": "2093",
+  "Formula for Index": "2074",
+  "Index": "2074",
   "Primary Source": [
     "819848608.json"
   ],
@@ -11,6 +11,7 @@
     "266600170.json"
   ],
   "Deprecated, New, or Revised": "Revised",
+  "Date Deprecated, New, or Revised Variable Pushed to Prod": "8/26/26",
   "conceptId": "769615780",
   "Current Question Text": "Date/Time Blood Order Placed",
   "Variable Label": "BL D/T Blood Order",
@@ -26,7 +27,7 @@
   "Derivation Notes": "Required = Yes, if BioClin_BldOrderPlaced_v1r0 =1",
   "Dictionary": "Biospecimen Clinical",
   "State Attribute": "No",
-  "Default Variable": "No",
+  "Default Value": "No",
   "Date added or modified": "8/5/26",
   "GCP Document/Table": "Participants Table Nested structure: d_173836415_d_266600170_d_769615780 (2nd CID may change based on BL/F-U1,2,3)",
   "IMS Review Notes": "Updated Secondary Source to Collection Details and Variable name BioClin_BldOrderPlacdDt_v1r0 with BioClin_BldOrdPlacdDtBL_v1r0"

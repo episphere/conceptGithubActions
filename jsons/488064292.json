@@ -1,6 +1,6 @@
 {
-  "Formula for Index": "3194",
-  "Index": "3194",
+  "Formula for Index": "3177",
+  "Index": "3177",
   "Primary Source": [
     "332961895.json"
   ],
@@ -22,6 +22,6 @@
   "PII": "No",
   "Notes": "This variable will store the pathology report file names in a separate collection table in Firestore. Warren will create a collection which will have two columns: ConnectID and the new Pathology Report File Name conceptID. Participants with multiple files uploaded will have multiple entries in the collection.",
   "Dictionary": "Study Manager",
-  "Default Variable": "No",
+  "Default Value": "No",
   "Date added or modified": "6/6/25"
 }

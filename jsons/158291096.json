@@ -18,7 +18,7 @@
   "Notes": "Default is No is set when study ID is submitted.  Sites should set to yes when I participant opts-out prior to consent and sent through the submitParticipantsData API call.  See Opt-out SOP.  A categorical reason for opt-out variable will be added to the dictionary once the list is finalized.",
   "Dictionary": "Recruitment Data Dictionary",
   "State Attribute": "Yes",
-  "Default Variable": "Yes",
+  "Default Value": "Yes",
   "GCP Document/Table": "Participants Table Not nested (state_d_158291096)",
   "Formula for Index": [
     "92",
