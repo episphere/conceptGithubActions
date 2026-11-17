@@ -17,34 +17,54 @@
   "GCP Document/Table": "Survey Tracking",
   "Stub Record Variable to be Retained": "Yes",
   "Formula for Index": [
-    "13319",
-    "13320",
-    "13321"
+    "13503",
+    "13504",
+    "13505",
+    "13506",
+    "13507"
   ],
   "Index": [
-    "13319",
-    "13320",
-    "13321"
+    "13503",
+    "13504",
+    "13505",
+    "13506",
+    "13507"
   ],
   "Current Format/Value": {
     "174688753.json": "0",
     "575830126.json": "1",
-    "151522362.json": "2"
+    "151522362.json": "2",
+    "193044131.json": "3",
+    "408693886.json": "4"
   },
+  "Notes": [
+    "Added on 8/5/26; Revised Notes (9/3/26): Research B/U/M survey triggered on check-in; clinical B/U survey triggered on Specimen Link finalization; SSC biospecimen surveys are available only 30 days after triggered; Menstrual cycle survey is triggered based on responses in the B/U/M or B/U survey and sunsets on the same criteria as Baseline; Revised Notes (11/17/26): Blood Urine Mouthwash Survey will only have statuses of Started or Submitted; Default value = Started; Record is created when responses are added to the survey",
+    "Revised Notes (11/17/26): Blood Urine Survey will only have statuses of Started or 'Submitted; Default value = Started; Record is created when responses are added to the survey",
+    "Added response code (10/14/26); Revised Notes (11/17/26): Menstrual Cycle Survey Blood Urine Survey could have statuses of Not Started, Started or Submitted; Default value = Started; Record is created when responses are added to the survey; Survey can have 'Not Started' status if survey is reset",
+    "Added response code (11/17/26): Added response code: Oral and Git Health Survey will only have statuses of Started or Submitted; Default value = Started; Record is created when responses are added to the survey",
+    "Added response code (11/17/26): COVID-19 Abridged Survey will only have statuses of Started or Submitted; Default value = Started; Record is created when responses are added to the survey"
+  ],
+  "Default Value": [
+    "1 = Started",
+    "1 = Started",
+    "1 = Started",
+    "1 = Started",
+    "1 = Started"
+  ],
+  "Date added or modified": [
+    "11/17/26",
+    "11/17/26",
+    "11/17/26",
+    "11/17/26",
+    "11/17/26"
+  ],
   "Deprecated, New, or Revised": [
+    "Revised",
+    "New",
     "New",
     "New"
   ],
   "Date Deprecated, New, or Revised Variable Pushed to Prod": [
-    "11/4/26",
     "11/4/26"
-  ],
-  "Notes": [
-    "Added on 8/5/26; Revised Notes on 9/3/26: Research B/U/M survey triggered on check-in; clinical B/U survey triggered on Specimen Link finalization; SSC biospecimen surveys are available only 30 days after triggered; Menstrual cycle survey is triggered based on responses in the B/U/M or B/U survey and sunsets on the same criteria as Baseline",
-    "10/14/26: Added response code"
-  ],
-  "Date added or modified": [
-    "9/3/26",
-    "10/14/26"
   ]
 }
